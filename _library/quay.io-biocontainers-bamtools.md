@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtools/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamtools/container.yaml"
-updated_at: "2022-08-01 15:53:27.340194"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamtools/container.yaml"
+updated_at: "2022-08-01 16:18:11.168440"
 latest: "2.5.2--hd03093a_0"
 container_url: "https://quay.io/repository/biocontainers/bamtools"
 aliases:

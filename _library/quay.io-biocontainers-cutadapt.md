@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cutadapt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutadapt/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cutadapt/container.yaml"
-updated_at: "2022-08-01 15:53:29.838761"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cutadapt/container.yaml"
+updated_at: "2022-08-01 16:18:13.243183"
 latest: "3.7--py38hbff2b2d_0"
 container_url: "https://quay.io/repository/biocontainers/cutadapt"
 aliases:

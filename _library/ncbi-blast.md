@@ -3,8 +3,8 @@ layout: container
 name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2022-08-01 15:53:33.509086"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
+updated_at: "2022-08-01 16:18:16.434561"
 latest: "2.13.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 

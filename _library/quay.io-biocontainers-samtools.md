@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2022-08-01 15:53:26.013077"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
+updated_at: "2022-08-01 16:18:10.023174"
 latest: "1.15--h3843a85_0"
 container_url: "https://quay.io/repository/biocontainers/samtools"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/vgteam/vg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/vgteam/vg/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/vgteam/vg/container.yaml"
-updated_at: "2022-08-01 15:53:22.912650"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/vgteam/vg/container.yaml"
+updated_at: "2022-08-01 16:18:07.087907"
 latest: "latest"
 container_url: "https://quay.io/repository/vgteam/vg?tab=info"
 aliases:

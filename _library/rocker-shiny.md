@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2022-08-01 15:53:41.716146"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
+updated_at: "2022-08-01 16:18:24.021336"
 latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:

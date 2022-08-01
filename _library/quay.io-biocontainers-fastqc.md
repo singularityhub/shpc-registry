@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqc/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc/container.yaml"
-updated_at: "2022-08-01 15:53:28.479698"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc/container.yaml"
+updated_at: "2022-08-01 16:18:12.069470"
 latest: "0.11.9--hdfd78af_1"
 container_url: "https://quay.io/repository/biocontainers/fastqc"
 aliases:

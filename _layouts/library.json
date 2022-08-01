@@ -10,6 +10,7 @@ layout: none
     "latest": {{ entry.config.latest | jsonify }},
     "maintainer": "{{ entry.maintainer }}",
     "description": "{{ entry.description }}",
+    "config_url": "{{ entry.config_url }}",
     "github": "{{ entry.github }}",{% if entry.config.aliases %}
     "aliases": {{ entry.config.aliases | jsonify }},{% endif %}
     "tags": {{ entry.config.tags | jsonify }},

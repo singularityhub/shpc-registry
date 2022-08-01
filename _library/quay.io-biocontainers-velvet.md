@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/velvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velvet/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
-updated_at: "2022-08-01 15:53:25.056455"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
+updated_at: "2022-08-01 16:18:09.115306"
 latest: "1.2.10--h7132678_5"
 container_url: "https://quay.io/repository/biocontainers/velvet"
 aliases:

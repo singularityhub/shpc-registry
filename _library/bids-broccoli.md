@@ -3,8 +3,8 @@ layout: container
 name:  "bids/broccoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/broccoli/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
-updated_at: "2022-08-01 15:53:47.267341"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
+updated_at: "2022-08-01 16:18:29.112960"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/broccoli"
 

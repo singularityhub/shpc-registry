@@ -3,8 +3,8 @@ layout: container
 name:  "consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/consul/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/consul/container.yaml"
-updated_at: "2022-08-01 15:53:34.974594"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/consul/container.yaml"
+updated_at: "2022-08-01 16:18:17.824277"
 latest: "1.12"
 container_url: "https://hub.docker.com/_/consul"
 aliases:

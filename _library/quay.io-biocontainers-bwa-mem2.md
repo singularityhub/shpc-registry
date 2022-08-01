@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bwa-mem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-updated_at: "2022-08-01 15:53:25.292872"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
+updated_at: "2022-08-01 16:18:09.340738"
 latest: "2.2.1--hd03093a_2"
 container_url: "https://quay.io/repository/biocontainers/bwa-mem2"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2022-08-01 15:53:41.970208"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
+updated_at: "2022-08-01 16:18:24.250491"
 latest: "latest-daily"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:

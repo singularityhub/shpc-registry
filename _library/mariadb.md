@@ -3,8 +3,8 @@ layout: container
 name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2022-08-01 15:53:34.741661"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mariadb/container.yaml"
+updated_at: "2022-08-01 16:18:17.594614"
 latest: "10.9-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:

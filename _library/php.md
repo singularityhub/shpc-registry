@@ -3,8 +3,8 @@ layout: container
 name:  "php"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/php/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/php/container.yaml"
-updated_at: "2022-08-01 15:53:50.558213"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/php/container.yaml"
+updated_at: "2022-08-01 16:18:32.144632"
 latest: "8-alpine3.16"
 container_url: "https://hub.docker.com/_/php"
 aliases:

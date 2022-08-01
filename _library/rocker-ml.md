@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2022-08-01 15:53:42.716848"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/ml/container.yaml"
+updated_at: "2022-08-01 16:18:24.937428"
 latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:

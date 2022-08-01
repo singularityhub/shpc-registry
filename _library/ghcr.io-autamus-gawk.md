@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gawk/container.yaml"
-config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gawk/container.yaml"
-updated_at: "2022-08-01 15:54:20.987951"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gawk/container.yaml"
+updated_at: "2022-08-01 16:18:57.535027"
 latest: "5.10.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gawk"
 aliases:
