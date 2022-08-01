@@ -2,9 +2,11 @@
 layout: container
 name:  "nvcr.io/nvidia/hpc-benchmarks"
 maintainer: "@vsoch"
-github: "https://github.com/singularityhub/singularity-hpc/blob/main/registry/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
-updated_at: "2022-07-11 07:56:54.782252"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
+config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
+updated_at: "2022-08-01 14:19:33.118843"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
+
 versions:
  - "20.10-hpl"
 description: "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA."

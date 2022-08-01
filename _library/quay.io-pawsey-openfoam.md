@@ -2,8 +2,9 @@
 layout: container
 name:  "quay.io/pawsey/openfoam"
 maintainer: "@vsoch"
-github: "https://github.com/singularityhub/singularity-hpc/blob/main/registry/quay.io/pawsey/openfoam/container.yaml"
-updated_at: "2022-07-11 07:58:26.153630"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam/container.yaml"
+config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/pawsey/openfoam/container.yaml"
+updated_at: "2022-08-01 14:19:26.830740"
 container_url: "https://quay.io/repository/pawsey/openfoam"
 
 versions:
