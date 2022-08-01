@@ -12,6 +12,7 @@ layout: none
     "description": "{{ entry.description }}",
     "github": "{{ entry.github }}",{% if entry.config.aliases %}
     "aliases": {{ entry.config.aliases | jsonify }},{% endif %}
-    "tags": {{ entry.config.tags | jsonify }}
+    "tags": {{ entry.config.tags | jsonify }},
+    "config": {{ entry.config |jsonify }}
    }{% if forloop.last %}{% else %},{% endif %}
 {% endfor %} }
