@@ -4,15 +4,13 @@ name:  "ghcr.io/autamus/meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/meme/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/meme/container.yaml"
-updated_at: "2022-08-01 14:20:16.044467"
+updated_at: "2022-08-01 15:37:49.591215"
+latest: "5.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/meme"
 aliases:
  - "meme"
-
  - "meme-chip"
-
  - "memhog"
-
 versions:
  - "5.3.0"
  - "latest"

@@ -4,11 +4,11 @@ name:  "quay.io/biocontainers/maker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maker/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/maker/container.yaml"
-updated_at: "2022-08-01 14:19:24.448478"
+updated_at: "2022-08-01 15:36:50.909937"
+latest: "3.01.03--pl5262h8f1cd36_2"
 container_url: "https://quay.io/repository/biocontainers/maker"
 aliases:
  - "maker"
-
 versions:
  - "2.31.11--pl526h61907ee_0"
  - "3.01.03--pl526hb8757ab_0"

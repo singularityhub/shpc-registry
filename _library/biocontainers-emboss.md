@@ -4,23 +4,17 @@ name:  "biocontainers/emboss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/emboss/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/emboss/container.yaml"
-updated_at: "2022-08-01 14:19:34.401509"
+updated_at: "2022-08-01 15:37:01.659296"
+latest: "v6.6.0dfsg-7b1-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/emboss"
 aliases:
  - "embossdata"
-
  - "embossupdate"
-
  - "embossversion"
-
  - "emma"
-
  - "emowse"
-
  - "em_pscan"
-
  - "em_cons"
-
 versions:
  - "v6.6.0dfsg-7b1-deb_cv1"
 description: "Free Open Source software analysis package which covers several molecular biology tools."

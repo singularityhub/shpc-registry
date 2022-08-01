@@ -4,31 +4,21 @@ name:  "ghcr.io/autamus/rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rust/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/rust/container.yaml"
-updated_at: "2022-08-01 14:20:24.657132"
+updated_at: "2022-08-01 15:37:59.155070"
+latest: "1.54.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rust"
 aliases:
  - "cargo"
-
  - "cargo-clippy"
-
  - "cargo-fmt"
-
  - "clippy-driver"
-
  - "rust"
-
  - "rust-gdb"
-
  - "rust-gdbgui"
-
  - "rust-lldb"
-
  - "rustc"
-
  - "rustdoc"
-
  - "rustfmt"
-
 versions:
  - "1.50.0"
  - "1.52.1"

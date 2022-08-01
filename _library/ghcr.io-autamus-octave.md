@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/octave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/octave/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/octave/container.yaml"
-updated_at: "2022-08-01 14:19:54.640400"
+updated_at: "2022-08-01 15:37:24.958470"
+latest: "7.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/octave"
 aliases:
  - "octave"
-
  - "octave-6.2.0"
-
  - "octave-cli"
-
  - "octave-cli-6.2.0"
-
  - "octave-config"
-
  - "octave-config-6.2.0"
-
 versions:
  - "6.2.0"
  - "6.3.0"

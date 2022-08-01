@@ -4,27 +4,19 @@ name:  "ghcr.io/autamus/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bowtie2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bowtie2/container.yaml"
-updated_at: "2022-08-01 14:20:20.470601"
+updated_at: "2022-08-01 15:37:54.498931"
+latest: "2.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bowtie2"
 aliases:
  - "bowtie2"
-
  - "bowtie2-align-l"
-
  - "bowtie2-align-s"
-
  - "bowtie2-build"
-
  - "bowtie2-build-l"
-
  - "bowtie2-build-s"
-
  - "bowtie2-inspect"
-
  - "bowtie2-inspect-l"
-
  - "bowtie2-inspect-s"
-
 versions:
  - "2.4.2"
  - "latest"

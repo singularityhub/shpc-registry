@@ -4,29 +4,20 @@ name:  "ghcr.io/autamus/xz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xz/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/xz/container.yaml"
-updated_at: "2022-08-01 14:20:15.172662"
+updated_at: "2022-08-01 15:37:48.605219"
+latest: "5.2.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xz"
 aliases:
  - "xz"
-
  - "xzcat"
-
  - "xzcmp"
-
  - "xzdec"
-
  - "xzdiff"
-
  - "xzegrep"
-
  - "xzfgrep"
-
  - "xzgrep"
-
  - "xzless"
-
  - "xzmore"
-
 versions:
  - "5.2.5"
  - "latest"

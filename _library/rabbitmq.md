@@ -4,25 +4,18 @@ name:  "rabbitmq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rabbitmq/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rabbitmq/container.yaml"
-updated_at: "2022-08-01 14:19:29.668526"
+updated_at: "2022-08-01 15:36:56.522627"
+latest: "3.10-rc"
 container_url: "https://hub.docker.com/r/_/rabbitmq"
 aliases:
  - "rabbitmq-defaults"
-
  - "rabbitmq-diagnostics"
-
  - "rabbitmq-env"
-
  - "rabbitmq-plugins"
-
  - "rabbitmq-queues"
-
  - "rabbitmq-server"
-
  - "rabbitmq-upgrade"
-
  - "rabbitmqctl"
-
 versions:
  - "3.8.15-rc.2-alpine"
  - "3.8.16-alpine"

@@ -4,19 +4,15 @@ name:  "php"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/php/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/php/container.yaml"
-updated_at: "2022-08-01 14:19:43.626906"
+updated_at: "2022-08-01 15:37:11.872449"
+latest: "8-alpine3.16"
 container_url: "https://hub.docker.com/_/php"
 aliases:
  - "php"
-
  - "php-cgi"
-
  - "php-config"
-
  - "phpdbg"
-
  - "phpize"
-
 versions:
  - "7.3.27-zts-alpine3.12"
  - "8.0.3-alpine"

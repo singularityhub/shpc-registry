@@ -4,19 +4,15 @@ name:  "ghcr.io/autamus/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pandaseq/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/pandaseq/container.yaml"
-updated_at: "2022-08-01 14:19:45.779836"
+updated_at: "2022-08-01 15:37:14.591354"
+latest: "2.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pandaseq"
 aliases:
  - "pandaseq"
-
  - "pandaseq-checkid"
-
  - "pandaseq-diff"
-
  - "pandaseq-hang"
-
  - "pandaxs"
-
 versions:
  - "2.11"
  - "latest"

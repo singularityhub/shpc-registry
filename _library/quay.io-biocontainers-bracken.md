@@ -4,21 +4,16 @@ name:  "quay.io/biocontainers/bracken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bracken/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bracken/container.yaml"
-updated_at: "2022-08-01 14:19:24.878634"
+updated_at: "2022-08-01 15:36:51.377374"
+latest: "2.6.2--py39hc16433a_0"
 container_url: "https://quay.io/repository/biocontainers/bracken"
 aliases:
  - "bracken"
-
  - "bracken-build"
-
  - "combine_bracken_outputs.py"
-
  - "est_abundance.py"
-
  - "generate_kmer_distribution.py"
-
  - "kmer2read_distr"
-
 versions:
  - "2.6.1--py39h7cff6ad_2"
  - "2.6.1--py39hc16433a_3"

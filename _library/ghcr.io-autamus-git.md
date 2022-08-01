@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/git"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/git/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/git/container.yaml"
-updated_at: "2022-08-01 14:19:53.992845"
+updated_at: "2022-08-01 15:37:24.174807"
+latest: "latest"
 container_url: "https://github.com/orgs/autamus/packages/container/package/git"
 aliases:
  - "git"
-
  - "git-cvsserver"
-
  - "git-receive-pack"
-
  - "git-shell"
-
  - "git-upload-archive"
-
  - "git-upload-pack"
-
 versions:
  - "latest"
 description: "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows."

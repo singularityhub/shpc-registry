@@ -4,21 +4,16 @@ name:  "node"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/node/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/node/container.yaml"
-updated_at: "2022-08-01 14:19:37.514026"
+updated_at: "2022-08-01 15:37:04.945681"
+latest: "18.4"
 container_url: "https://hub.docker.com/r/_/node"
 aliases:
  - "node"
-
  - "nodejs"
-
  - "npm"
-
  - "npx"
-
  - "yarn"
-
  - "yarnpkg"
-
 versions:
  - "15.14.0-alpine"
  - "16.0.0-alpine"

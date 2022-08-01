@@ -4,11 +4,11 @@ name:  "biocontainers/plink1.9"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/plink1.9/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/plink1.9/container.yaml"
-updated_at: "2022-08-01 14:19:34.827515"
+updated_at: "2022-08-01 15:37:02.132181"
+latest: "v1.90b6.6-181012-1-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/plink1.9"
 aliases:
  - "plink"
-
 versions:
  - "v1.90b6.6-181012-1-deb_cv1"
 description: "An update to PLINK, a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner."

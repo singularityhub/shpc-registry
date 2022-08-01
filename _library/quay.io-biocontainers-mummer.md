@@ -4,11 +4,11 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2022-08-01 14:19:22.905435"
+updated_at: "2022-08-01 15:36:49.290758"
+latest: "3.23--pl5321h1b792b2_13"
 container_url: "https://quay.io/repository/biocontainers/mummer"
 aliases:
  - "mummer"
-
 versions:
  - "3.23--pl526_7"
  - "3.23--pl526he1b5a44_11"

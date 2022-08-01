@@ -4,15 +4,13 @@ name:  "ghcr.io/autamus/addrwatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/addrwatch/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/addrwatch/container.yaml"
-updated_at: "2022-08-01 14:20:04.280275"
+updated_at: "2022-08-01 15:37:36.470111"
+latest: "1.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/addrwatch"
 aliases:
  - "addrwatch"
-
  - "addrwatch_stdout"
-
  - "addrwatch_syslog"
-
 versions:
  - "1.0.2"
  - "latest"

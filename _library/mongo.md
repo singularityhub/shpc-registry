@@ -4,29 +4,20 @@ name:  "mongo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mongo/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mongo/container.yaml"
-updated_at: "2022-08-01 14:19:33.335086"
+updated_at: "2022-08-01 15:37:00.493085"
+latest: "5.0.6"
 container_url: "https://hub.docker.com/r/_/mongo"
 aliases:
  - "mongo"
-
  - "mongod"
-
  - "mongodump"
-
  - "mongoexport"
-
  - "mongofiles"
-
  - "mongoimport"
-
  - "mongos"
-
  - "mongostat"
-
  - "mongostore"
-
  - "mongotop"
-
 versions:
  - "4.4.5-bionic"
  - "4.4.6-bionic"

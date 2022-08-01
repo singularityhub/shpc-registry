@@ -4,49 +4,30 @@ name:  "ghcr.io/autamus/gdal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gdal/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gdal/container.yaml"
-updated_at: "2022-08-01 14:20:11.113887"
+updated_at: "2022-08-01 15:37:44.184798"
+latest: "3.4.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gdal"
 aliases:
  - "gdal-config"
-
  - "gdal_contour"
-
  - "gdal_create"
-
  - "gdal_grid"
-
  - "gdal_rasterize"
-
  - "gdal_translate"
-
  - "gdal_viewshed"
-
  - "gdaladdo"
-
  - "gdalbuildvrt"
-
  - "gdaldem"
-
  - "gdalenhance"
-
  - "gdalinfo"
-
  - "gdallocationinfo"
-
  - "gdalmanage"
-
  - "gdalmdiminfo"
-
  - "gdalmdimtranslate"
-
  - "gdalsrsinfo"
-
  - "gdaltindex"
-
  - "gdaltransform"
-
  - "gdalwarp"
-
 versions:
  - "3.3.0"
  - "3.3.1"

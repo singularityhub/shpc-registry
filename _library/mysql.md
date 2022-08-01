@@ -4,43 +4,27 @@ name:  "mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mysql/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mysql/container.yaml"
-updated_at: "2022-08-01 14:19:44.059164"
+updated_at: "2022-08-01 15:37:12.345409"
+latest: "8.0.28"
 container_url: "https://hub.docker.com/r/_/mysql"
 aliases:
  - "mysql"
-
  - "mysql_config_editor"
-
  - "mysql_secure_installation"
-
  - "mysql_ssl_rsa_setup"
-
  - "mysql_tzinfo_to_sql"
-
  - "mysql_upgrade"
-
  - "mysqladmin"
-
  - "mysqlbinlog"
-
  - "mysqlcheck"
-
  - "mysqld_multi"
-
  - "mysqld_safe"
-
  - "mysqldump"
-
  - "mysqldumpslow"
-
  - "mysqlimport"
-
  - "mysqlpump"
-
  - "mysqlshow"
-
  - "mysqlslap"
-
 versions:
  - "8.0.25"
  - "8.0.26"

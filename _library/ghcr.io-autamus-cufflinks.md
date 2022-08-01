@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cufflinks/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cufflinks/container.yaml"
-updated_at: "2022-08-01 14:20:18.471496"
+updated_at: "2022-08-01 15:37:52.277241"
+latest: "2.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cufflinks"
 aliases:
  - "cuffcompare"
-
  - "cuffdiff"
-
  - "cufflinks"
-
  - "cuffmerge"
-
  - "cuffnorm"
-
  - "cuffquant"
-
 versions:
  - "2.2.1"
  - "latest"

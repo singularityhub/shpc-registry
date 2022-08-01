@@ -4,39 +4,25 @@ name:  "ghcr.io/autamus/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/spades/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/spades/container.yaml"
-updated_at: "2022-08-01 14:19:46.859004"
+updated_at: "2022-08-01 15:37:15.791904"
+latest: "3.15.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/spades"
 aliases:
  - "spades-bwa"
-
  - "spades-convert-bin-to-fasta"
-
  - "spades-core"
-
  - "spades-corrector-core"
-
  - "spades-gbuilder"
-
  - "spades-gmapper"
-
  - "spades-gsimplifier"
-
  - "spades-hammer"
-
  - "spades-ionhammer"
-
  - "spades-kmer-estimating"
-
  - "spades-kmercount"
-
  - "spades-read-filter"
-
  - "spades-truseq-scfcorrection"
-
  - "spades.py"
-
  - "spaligner"
-
 versions:
  - "3.15.2"
  - "3.15.3"

@@ -4,29 +4,20 @@ name:  "ghcr.io/autamus/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/phist/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/phist/container.yaml"
-updated_at: "2022-08-01 14:19:54.859287"
+updated_at: "2022-08-01 15:37:25.207036"
+latest: "1.9.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/phist"
 aliases:
  - "phist_Danasazi_krylov_schur"
-
  - "phist_Danasazi_lobpcg"
-
  - "phist_Dbelos_bgmres"
-
  - "phist_Dbelos_bpcg"
-
  - "phist_Dblockedbicgstab"
-
  - "phist_Dblockedgmres"
-
  - "phist_Dblockedpcg"
-
  - "phist_Dsimple_lanczos"
-
  - "phist_Dsubspacejada"
-
  - "phist_carp_cg"
-
 versions:
  - "1.9.4"
  - "1.9.6"

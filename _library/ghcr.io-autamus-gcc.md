@@ -4,33 +4,22 @@ name:  "ghcr.io/autamus/gcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gcc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
-updated_at: "2022-08-01 14:19:45.348950"
+updated_at: "2022-08-01 15:37:13.999435"
+latest: "11.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gcc"
 aliases:
  - "c++"
-
  - "cpp"
-
  - "g++"
-
  - "gcc"
-
  - "gcc-ar"
-
  - "gcc-nm"
-
  - "gcc-ranlib"
-
  - "gcov"
-
  - "gcov-dump"
-
  - "gcov-tool"
-
  - "gfortran"
-
  - "zstd"
-
 versions:
  - "10.3.0"
  - "11.1.0"

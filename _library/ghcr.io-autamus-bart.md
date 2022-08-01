@@ -4,13 +4,12 @@ name:  "ghcr.io/autamus/bart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bart/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bart/container.yaml"
-updated_at: "2022-08-01 14:19:52.245648"
+updated_at: "2022-08-01 15:37:21.917410"
+latest: "0.7.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bart"
 aliases:
  - "bart"
-
  - "bartview"
-
 versions:
  - "0.6.00"
  - "0.7.00"

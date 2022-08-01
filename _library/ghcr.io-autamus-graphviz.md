@@ -4,35 +4,23 @@ name:  "ghcr.io/autamus/graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/graphviz/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/graphviz/container.yaml"
-updated_at: "2022-08-01 14:20:23.999216"
+updated_at: "2022-08-01 15:37:58.417991"
+latest: "2.49.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/graphviz"
 aliases:
  - "gc"
-
  - "gml2gv"
-
  - "graphml2gv"
-
  - "gv2gml"
-
  - "gv2gxl"
-
  - "gvcolor"
-
  - "gvgen"
-
  - "gvmap"
-
  - "gvmap.sh"
-
  - "gvpack"
-
  - "gvpr"
-
  - "gxl2dot"
-
  - "gxl2gv"
-
 versions:
  - "2.47.1"
  - "2.47.2"

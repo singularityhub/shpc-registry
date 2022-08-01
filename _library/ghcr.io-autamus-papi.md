@@ -4,37 +4,24 @@ name:  "ghcr.io/autamus/papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/papi/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/papi/container.yaml"
-updated_at: "2022-08-01 14:19:46.638781"
+updated_at: "2022-08-01 15:37:15.557429"
+latest: "6.0.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/papi"
 aliases:
  - "papi_avail"
-
  - "papi_clockres"
-
  - "papi_command_line"
-
  - "papi_component_avail"
-
  - "papi_cost"
-
  - "papi_decode"
-
  - "papi_error_codes"
-
  - "papi_event_chooser"
-
  - "papi_hl_output_writer.py"
-
  - "papi_mem_info"
-
  - "papi_multiplex_cost"
-
  - "papi_native_avail"
-
  - "papi_version"
-
  - "papi_xml_event_info"
-
 versions:
  - "6.0.0.1"
  - "latest"

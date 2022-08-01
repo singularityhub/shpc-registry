@@ -4,33 +4,22 @@ name:  "ghcr.io/autamus/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mafft/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mafft/container.yaml"
-updated_at: "2022-08-01 14:20:04.941204"
+updated_at: "2022-08-01 15:37:37.202879"
+latest: "7.481"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mafft"
 aliases:
  - "mafft"
-
  - "mafft-distance"
-
  - "mafft-einsi"
-
  - "mafft-fftns"
-
  - "mafft-fftnsi"
-
  - "mafft-ginsi"
-
  - "mafft-linsi"
-
  - "mafft-nwns"
-
  - "mafft-nwnsi"
-
  - "mafft-profile"
-
  - "mafft-qinsi"
-
  - "mafft-xinsi"
-
 versions:
  - "7.475"
  - "7.481"

@@ -4,13 +4,12 @@ name:  "r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/r-base/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/r-base/container.yaml"
-updated_at: "2022-08-01 14:19:39.466869"
+updated_at: "2022-08-01 15:37:07.137352"
+latest: "4.2.1"
 container_url: "https://hub.docker.com/_/r-base"
 aliases:
  - "R"
-
  - "Rscript"
-
 versions:
  - "4.1.0"
  - "4.1.1"

@@ -4,19 +4,15 @@ name:  "ghcr.io/autamus/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/beast2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/beast2/container.yaml"
-updated_at: "2022-08-01 14:20:20.684957"
+updated_at: "2022-08-01 15:37:54.746267"
+latest: "2.6.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/beast2"
 aliases:
  - "beast"
-
  - "beasti"
-
  - "beauti"
-
  - "densitree"
-
  - "treeannotator"
-
 versions:
  - "2.6.3"
  - "2.6.4"

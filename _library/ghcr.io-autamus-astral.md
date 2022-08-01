@@ -4,11 +4,11 @@ name:  "ghcr.io/autamus/astral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/astral/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/astral/container.yaml"
-updated_at: "2022-08-01 14:19:54.422916"
+updated_at: "2022-08-01 15:37:24.712868"
+latest: "5.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/astral"
 aliases:
  - "astral"
-
 versions:
  - "5.7.1"
  - "latest"

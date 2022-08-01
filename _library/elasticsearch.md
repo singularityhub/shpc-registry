@@ -4,45 +4,28 @@ name:  "elasticsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/elasticsearch/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/elasticsearch/container.yaml"
-updated_at: "2022-08-01 14:19:43.176290"
+updated_at: "2022-08-01 15:37:11.378854"
+latest: "8.3.1"
 container_url: "https://hub.docker.com/_/elasticsearch"
 aliases:
  - "elasticsearch"
-
  - "elasticsearch-certgen"
-
  - "elasticsearch-certutil"
-
  - "elasticsearch-cli"
-
  - "elasticsearch-croneval"
-
  - "elasticsearch-env"
-
  - "elasticsearch-env-from-file"
-
  - "elasticsearch-keystore"
-
  - "elasticsearch-migrate"
-
  - "elasticsearch-node"
-
  - "elasticsearch-plugin"
-
  - "elasticsearch-saml-metadata"
-
  - "elasticsearch-setup-passwords"
-
  - "elasticsearch-shard"
-
  - "elasticsearch-sql-cli"
-
  - "elasticsearch-sql-cli-7.12.0.jar"
-
  - "elasticsearch-syskeygen"
-
  - "elasticsearch-users"
-
 versions:
  - "7.12.0"
  - "7.12.1"

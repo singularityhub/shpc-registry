@@ -4,63 +4,37 @@ name:  "openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/openjdk/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/openjdk/container.yaml"
-updated_at: "2022-08-01 14:19:39.037427"
+updated_at: "2022-08-01 15:37:06.644185"
+latest: "20"
 container_url: "https://hub.docker.com/_/openjdk"
 aliases:
  - "jar"
-
  - "jarsigner"
-
  - "java"
-
  - "javac"
-
  - "javadoc"
-
  - "javap"
-
  - "jcmd"
-
  - "jconsole"
-
  - "jdb"
-
  - "jdeprscan"
-
  - "jdeps"
-
  - "jfr"
-
  - "jhsdb"
-
  - "jimage"
-
  - "jinfo"
-
  - "jlink"
-
  - "jmap"
-
  - "jmod"
-
  - "jobs"
-
  - "join"
-
  - "jpackage"
-
  - "jps"
-
  - "jrunscript"
-
  - "jshell"
-
  - "jstack"
-
  - "jstat"
-
  - "jstatd"
-
 versions:
  - "16.0.1-buster"
  - "16.0.2"

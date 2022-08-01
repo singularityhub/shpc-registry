@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/qhull/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/qhull/container.yaml"
-updated_at: "2022-08-01 14:20:05.155264"
+updated_at: "2022-08-01 15:37:37.459142"
+latest: "2020.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/qhull"
 aliases:
  - "qconvex"
-
  - "qdelaunay"
-
  - "qhalf"
-
  - "qhull"
-
  - "qvoronoi"
-
  - "rbox"
-
 versions:
  - "2020.1"
  - "2020.2"

@@ -4,27 +4,19 @@ name:  "quay.io/biocontainers/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bowtie2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bowtie2/container.yaml"
-updated_at: "2022-08-01 14:19:25.981531"
+updated_at: "2022-08-01 15:36:52.570978"
+latest: "2.4.5--py36hd4290be_0"
 container_url: "https://quay.io/repository/biocontainers/bowtie2"
 aliases:
  - "bowtie2"
-
  - "bowtie2-align-l"
-
  - "bowtie2-align-s"
-
  - "bowtie2-build"
-
  - "bowtie2-build-l"
-
  - "bowtie2-build-s"
-
  - "bowtie2-inspect"
-
  - "bowtie2-inspect-l"
-
  - "bowtie2-inspect-s"
-
 versions:
  - "2.3.5.1--py37he513fc3_0"
  - "2.4.4--py36hd4290be_0"

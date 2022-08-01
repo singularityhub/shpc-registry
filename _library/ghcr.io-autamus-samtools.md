@@ -4,37 +4,24 @@ name:  "ghcr.io/autamus/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/samtools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/samtools/container.yaml"
-updated_at: "2022-08-01 14:19:56.371678"
+updated_at: "2022-08-01 15:37:27.026613"
+latest: "1.14"
 container_url: "https://github.com/orgs/autamus/packages/container/package/samtools"
 aliases:
  - "blast2sam.pl"
-
  - "bowtie2sam.pl"
-
  - "export2sam.pl"
-
  - "fasta-sanitize.pl"
-
  - "interpolate_sam.pl"
-
  - "novo2sam.pl"
-
  - "psl2sam.pl"
-
  - "sam2vcf.pl"
-
  - "samtools"
-
  - "samtools.pl"
-
  - "seq_cache_populate.pl"
-
  - "soap2sam.pl"
-
  - "wgsim_eval.pl"
-
  - "zoom2sam.pl"
-
 versions:
  - "1.12"
  - "1.13"

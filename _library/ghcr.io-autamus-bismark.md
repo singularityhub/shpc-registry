@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/bismark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bismark/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bismark/container.yaml"
-updated_at: "2022-08-01 14:20:03.366128"
+updated_at: "2022-08-01 15:37:35.438060"
+latest: "0.23.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bismark"
 aliases:
  - "bismark"
-
  - "bismark_genome_preparation"
-
  - "bismark_methylation_extractor"
-
  - "bismark2bedGraph"
-
  - "bismark2report"
-
  - "bismark2summary"
-
 versions:
  - "0.23.0"
  - "0.23.1"

@@ -4,31 +4,21 @@ name:  "biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/talon/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/talon/container.yaml"
-updated_at: "2022-08-01 14:19:35.470200"
+updated_at: "2022-08-01 15:37:02.840976"
+latest: "v5.0_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/talon"
 aliases:
  - "talon"
-
  - "talon_create_GTF"
-
  - "talon_fetch_reads"
-
  - "talon_filter_transcripts"
-
  - "talon_generate_report"
-
  - "talon_initialize_database"
-
  - "talon_get_sjs"
-
  - "talon_label_reads"
-
  - "talon_reformat_gtf"
-
  - "talon_summarize"
-
  - "talon_abundance"
-
 versions:
  - "v5.0_cv1"
 description: "Mailgun library to extract message quotations and signatures."

@@ -4,15 +4,13 @@ name:  "quay.io/biocontainers/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kraken2/container.yaml"
-updated_at: "2022-08-01 14:19:20.125940"
+updated_at: "2022-08-01 15:36:46.312247"
+latest: "2.1.2--pl5321h9f5acd7_2"
 container_url: "https://quay.io/repository/biocontainers/kraken2"
 aliases:
  - "kraken2"
-
  - "kraken2-build"
-
  - "kraken2-inspect"
-
 versions:
  - "2.1.1--pl5262h7d875b9_1"
  - "2.1.2--pl5262h7d875b9_0"

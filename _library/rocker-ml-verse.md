@@ -4,25 +4,18 @@ name:  "rocker/ml-verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml-verse/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/ml-verse/container.yaml"
-updated_at: "2022-08-01 14:19:36.604692"
+updated_at: "2022-08-01 15:37:04.009522"
+latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/ml-verse"
 aliases:
  - "R"
-
  - "Rscript"
-
  - "rocker-ml-run"
-
  - "rocker-ml-verse-run"
-
  - "rserver"
-
  - "rserver-pam"
-
  - "rsession"
-
  - "rstudio-server"
-
 versions:
  - "latest"
 description: "Machine learning in R."

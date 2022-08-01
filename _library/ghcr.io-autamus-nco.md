@@ -4,55 +4,33 @@ name:  "ghcr.io/autamus/nco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/nco/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/nco/container.yaml"
-updated_at: "2022-08-01 14:20:22.897567"
+updated_at: "2022-08-01 15:37:57.194796"
+latest: "5.0.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/nco"
 aliases:
  - "nc-config"
-
  - "ncap2"
-
  - "ncatted"
-
  - "ncbo"
-
  - "ncclimo"
-
  - "nccopy"
-
  - "ncdiff"
-
  - "ncdump"
-
  - "ncea"
-
  - "ncecat"
-
  - "nces"
-
  - "ncflint"
-
  - "ncgen"
-
  - "ncgen3"
-
  - "ncks"
-
  - "ncpdq"
-
  - "ncra"
-
  - "ncrcat"
-
  - "ncremap"
-
  - "ncrename"
-
  - "ncurses6-config"
-
  - "ncursesw6-config"
-
  - "ncwa"
-
 versions:
  - "4.9.8"
  - "4.9.9"

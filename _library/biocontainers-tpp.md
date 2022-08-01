@@ -4,21 +4,16 @@ name:  "biocontainers/tpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tpp/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tpp/container.yaml"
-updated_at: "2022-08-01 14:19:34.185313"
+updated_at: "2022-08-01 15:37:01.422665"
+latest: "v5.2_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tpp"
 aliases:
  - "config_data"
-
  - "json_xs"
-
  - "lwp-download"
-
  - "lwp-dump"
-
  - "lwp-mirror"
-
  - "lwp-request"
-
 versions:
  - "v5.2_cv1"
 description: "The Trans-Proteomic Pipeline (TPP) is a collection of integrated tools for MS/MS proteomics, developed at the SPC."

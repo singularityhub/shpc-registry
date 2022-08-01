@@ -4,73 +4,42 @@ name:  "ghcr.io/autamus/admixtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/admixtools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/admixtools/container.yaml"
-updated_at: "2022-08-01 14:20:01.627200"
+updated_at: "2022-08-01 15:37:33.264703"
+latest: "7.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/admixtools"
 aliases:
  - "convertf"
-
  - "dowtjack"
-
  - "expfit.sh"
-
  - "gcount"
-
  - "grabpars"
-
  - "gsl-config"
-
  - "gsl-histogram"
-
  - "gsl-randist"
-
  - "jackdiff"
-
  - "kimf"
-
  - "mergeit"
-
  - "mkpretty"
-
  - "qp3Pop"
-
  - "qp4diff"
-
  - "qpAdm"
-
  - "qpBound"
-
  - "qpDpart"
-
  - "qpDstat"
-
  - "qpF4ratio"
-
  - "qpGraph"
-
  - "qpWave"
-
  - "qpdslow"
-
  - "qpff3base"
-
  - "qpfmv"
-
  - "qpfstats"
-
  - "qpreroot"
-
  - "rexpfit.r"
-
  - "rolloff"
-
  - "rolloffp"
-
  - "simpjack2"
-
  - "twtable"
-
  - "wtjack.pl"
-
 versions:
  - "7.0.1"
  - "7.0.2"

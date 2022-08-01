@@ -4,33 +4,22 @@ name:  "ghcr.io/autamus/poppler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/poppler/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/poppler/container.yaml"
-updated_at: "2022-08-01 14:20:16.704996"
+updated_at: "2022-08-01 15:37:50.327210"
+latest: "21.11.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/poppler"
 aliases:
  - "pdfattach"
-
  - "pdfdetach"
-
  - "pdffonts"
-
  - "pdfimages"
-
  - "pdfinfo"
-
  - "pdfseparate"
-
  - "pdftohtml"
-
  - "pdftops"
-
  - "pdftotext"
-
  - "pdfunite"
-
  - "png-fix-itxt"
-
  - "pngfix"
-
 versions:
  - "0.90.1"
  - "21.07.0"

@@ -4,61 +4,36 @@ name:  "ghcr.io/autamus/cctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cctools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cctools/container.yaml"
-updated_at: "2022-08-01 14:20:11.557928"
+updated_at: "2022-08-01 15:37:44.692987"
+latest: "7.2.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cctools"
 aliases:
  - "c_rehash"
-
  - "captoinfo"
-
  - "catalog_query"
-
  - "catalog_server"
-
  - "catalog_update"
-
  - "ccache-swig"
-
  - "cctools_gpu_autodetect"
-
  - "chirp"
-
  - "chirp_audit_cluster"
-
  - "chirp_benchmark"
-
  - "chirp_distribute"
-
  - "chirp_fuse"
-
  - "chirp_get"
-
  - "chirp_put"
-
  - "chirp_server"
-
  - "chirp_server_hdfs"
-
  - "chirp_status"
-
  - "chirp_stream_files"
-
  - "chroot_package_run"
-
  - "clear"
-
  - "condor_submit_makeflow"
-
  - "condor_submit_workers"
-
  - "confuga_adm"
-
  - "corelist"
-
  - "cpan"
-
  - "cpanm"
-
 versions:
  - "7.2.4"
  - "7.2.10"

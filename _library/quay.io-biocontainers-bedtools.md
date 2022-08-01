@@ -4,11 +4,11 @@ name:  "quay.io/biocontainers/bedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bedtools/container.yaml"
-updated_at: "2022-08-01 14:19:21.418484"
+updated_at: "2022-08-01 15:36:47.676900"
+latest: "2.30.0--h468198e_3"
 container_url: "https://quay.io/repository/biocontainers/bedtools"
 aliases:
  - "bedtools"
-
 versions:
  - "2.30.0--hc088bd4_0"
  - "2.30.0--h7d7f7ad_1"

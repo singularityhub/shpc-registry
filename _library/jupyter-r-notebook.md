@@ -4,11 +4,11 @@ name:  "jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/r-notebook/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/r-notebook/container.yaml"
-updated_at: "2022-08-01 14:19:38.819132"
+updated_at: "2022-08-01 15:37:06.387488"
+latest: "2022-06-27"
 container_url: "https://hub.docker.com/r/jupyter/r-notebook"
 aliases:
  - "run-notebook"
-
 versions:
  - "4.0"
  - "latest"

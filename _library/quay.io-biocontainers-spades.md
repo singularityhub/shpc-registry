@@ -4,63 +4,37 @@ name:  "quay.io/biocontainers/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spades/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spades/container.yaml"
-updated_at: "2022-08-01 14:19:20.563666"
+updated_at: "2022-08-01 15:36:46.775134"
+latest: "3.15.4--h95f258a_0"
 container_url: "https://quay.io/repository/biocontainers/spades"
 aliases:
  - "cds-mapping-stats"
-
  - "cds-subgraphs"
-
  - "coronaspades.py"
-
  - "mag-improve"
-
  - "metaplasmidspades.py"
-
  - "metaspades.py"
-
  - "metaviralspades.py"
-
  - "plasmidspades.py"
-
  - "rnaspades.py"
-
  - "rnaviralspades.py"
-
  - "spades-bwa"
-
  - "spades-convert-bin-to-fasta"
-
  - "spades-core"
-
  - "spades-corrector-core"
-
  - "spades-gbuilder"
-
  - "spades-gmapper"
-
  - "spades-gsimplifier"
-
  - "spades-hammer"
-
  - "spades-ionhammer"
-
  - "spades-kmer-estimating"
-
  - "spades-kmercount"
-
  - "spades-read-filter"
-
  - "spades-truseq-scfcorrection"
-
  - "spades.py"
-
  - "spades_init.py"
-
  - "spaligner"
-
  - "truspades.py"
-
 versions:
  - "3.15.0--h633aebb_0"
  - "3.15.2--h95f258a_1"

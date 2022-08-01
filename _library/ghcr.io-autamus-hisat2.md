@@ -4,51 +4,31 @@ name:  "ghcr.io/autamus/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hisat2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hisat2/container.yaml"
-updated_at: "2022-08-01 14:19:56.157281"
+updated_at: "2022-08-01 15:37:26.735617"
+latest: "2.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hisat2"
 aliases:
  - "hisat2"
-
  - "hisat2-align-l"
-
  - "hisat2-align-s"
-
  - "hisat2-build"
-
  - "hisat2-build-l"
-
  - "hisat2-build-s"
-
  - "hisat2-inspect"
-
  - "hisat2-inspect-l"
-
  - "hisat2-inspect-s"
-
  - "hisat2_extract_exons.py"
-
  - "hisat2_extract_snps_haplotypes_UCSC.py"
-
  - "hisat2_extract_snps_haplotypes_VCF.py"
-
  - "hisat2_extract_splice_sites.py"
-
  - "hisat2_read_statistics.py"
-
  - "hisat2_simulate_reads.py"
-
  - "hisatgenotype.py"
-
  - "hisatgenotype_build_genome.py"
-
  - "hisatgenotype_extract_reads.py"
-
  - "hisatgenotype_extract_vars.py"
-
  - "hisatgenotype_hla_cyp.py"
-
  - "hisatgenotype_locus.py"
-
 versions:
  - "2.2.0"
  - "latest"

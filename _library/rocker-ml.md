@@ -4,23 +4,17 @@ name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2022-08-01 14:19:36.853391"
+updated_at: "2022-08-01 15:37:04.238541"
+latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:
  - "R"
-
  - "Rscript"
-
  - "rocker-ml-run"
-
  - "rserver"
-
  - "rserver-pam"
-
  - "rsession"
-
  - "rstudio-server"
-
 versions:
  - "latest"
 description: "Docker images with R + machine learning libraries (CPU versions)."

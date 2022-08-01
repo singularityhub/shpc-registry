@@ -4,75 +4,43 @@ name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2022-08-01 14:19:29.894004"
+updated_at: "2022-08-01 15:36:56.764025"
+latest: "10.9-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:
  - "mariabackup"
-
  - "mariadb"
-
  - "mariadb-access"
-
  - "mariadb-admin"
-
  - "mariadb-analyze"
-
  - "mariadb-backup"
-
  - "mariadb-binlog"
-
  - "mariadb-check"
-
  - "mariadb-conv"
-
  - "mariadb-convert-table-format"
-
  - "mariadb-dump"
-
  - "mariadb-dumpslow"
-
  - "mariadb-find-rows"
-
  - "mariadb-fix-extensions"
-
  - "mariadb-hotcopy"
-
  - "mariadb-import"
-
  - "mariadb-install-db"
-
  - "mariadb-optimize"
-
  - "mariadb-plugin"
-
  - "mariadb-repair"
-
  - "mariadb-report"
-
  - "mariadb-secure-installation"
-
  - "mariadb-service-convert"
-
  - "mariadb-setpermission"
-
  - "mariadb-show"
-
  - "mariadb-slap"
-
  - "mariadb-tzinfo-to-sql"
-
  - "mariadb-upgrade"
-
  - "mariadb-waitpid"
-
  - "mariadbcheck"
-
  - "mariadbd-multi"
-
  - "mariadbd-safe"
-
  - "mariadbd-safe-helper"
-
 versions:
  - "10.5.9-focal"
  - "10.6.0-focal"

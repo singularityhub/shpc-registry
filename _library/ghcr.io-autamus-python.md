@@ -4,27 +4,19 @@ name:  "ghcr.io/autamus/python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/python/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/python/container.yaml"
-updated_at: "2022-08-01 14:20:04.718157"
+updated_at: "2022-08-01 15:37:36.956035"
+latest: "3.10.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/python"
 aliases:
  - "pydoc3"
-
  - "pydoc3.8"
-
  - "python"
-
  - "python-config"
-
  - "python3"
-
  - "python3-config"
-
  - "python3.8"
-
  - "python3.8-config"
-
  - "python3.8-gdb.py"
-
 versions:
  - "3.9.5"
  - "3.9.6"

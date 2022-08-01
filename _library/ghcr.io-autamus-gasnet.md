@@ -4,13 +4,12 @@ name:  "ghcr.io/autamus/gasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gasnet/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gasnet/container.yaml"
-updated_at: "2022-08-01 14:20:09.351100"
+updated_at: "2022-08-01 15:37:42.210640"
+latest: "2022.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gasnet"
 aliases:
  - "gasnet_trace"
-
  - "gasnet_trace.pl"
-
 versions:
  - "2021.3.0"
  - "2021.9.0"

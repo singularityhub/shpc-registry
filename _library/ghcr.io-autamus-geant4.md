@@ -4,71 +4,41 @@ name:  "ghcr.io/autamus/geant4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/geant4/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/geant4/container.yaml"
-updated_at: "2022-08-01 14:20:11.778262"
+updated_at: "2022-08-01 15:37:44.942296"
+latest: "11.0.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/geant4"
 aliases:
  - "Cast-config"
-
  - "CreateDOMDocument"
-
  - "DOMCount"
-
  - "DOMPrint"
-
  - "EnumVal"
-
  - "Evaluator-config"
-
  - "Exceptions-config"
-
  - "GenericFunctions-config"
-
  - "Geometry-config"
-
  - "Matrix-config"
-
  - "MemParse"
-
  - "PParse"
-
  - "PSVIWriter"
-
  - "Random-config"
-
  - "RandomObjects-config"
-
  - "Redirect"
-
  - "RefCount-config"
-
  - "SAX2Count"
-
  - "SAX2Print"
-
  - "SAXCount"
-
  - "SAXPrint"
-
  - "SCMPrint"
-
  - "SEnumVal"
-
  - "StdInParse"
-
  - "Units-config"
-
  - "Utility-config"
-
  - "Vector-config"
-
  - "XInclude"
-
  - "geant4-config"
-
  - "geant4.csh"
-
  - "geant4.sh"
-
 versions:
  - "10.7.1"
  - "10.7.2"

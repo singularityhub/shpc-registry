@@ -4,11 +4,11 @@ name:  "python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/python/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/python/container.yaml"
-updated_at: "2022-08-01 14:19:37.079946"
+updated_at: "2022-08-01 15:37:04.473571"
+latest: "3.11-rc"
 container_url: "https://hub.docker.com/_/python"
 aliases:
  - "python"
-
 versions:
  - "3.9.2-alpine"
  - "3.9.2-slim"

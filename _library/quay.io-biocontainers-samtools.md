@@ -4,63 +4,37 @@ name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2022-08-01 14:19:22.694150"
+updated_at: "2022-08-01 15:36:49.056311"
+latest: "1.15--h3843a85_0"
 container_url: "https://quay.io/repository/biocontainers/samtools"
 aliases:
  - "ace2sam"
-
  - "bgzip"
-
  - "blast2sam.pl"
-
  - "bowtie2sam.pl"
-
  - "export2sam.pl"
-
  - "fasta-sanitize.pl"
-
  - "htsfile"
-
  - "interpolate_sam.pl"
-
  - "libdeflate-gunzip"
-
  - "libdeflate-gzip"
-
  - "maq2sam-long"
-
  - "maq2sam-short"
-
  - "md5fa"
-
  - "md5sum-lite"
-
  - "novo2sam.pl"
-
  - "plot-ampliconstats"
-
  - "plot-bamstats"
-
  - "psl2sam.pl"
-
  - "sam2vcf.pl"
-
  - "samtools"
-
  - "samtools.pl"
-
  - "seq_cache_populate.pl"
-
  - "soap2sam.pl"
-
  - "tabix"
-
  - "wgsim"
-
  - "wgsim_eval.pl"
-
  - "zoom2sam.pl"
-
 versions:
  - "1.10--h2e538c0_3"
  - "1.11--h6270b1f_0"

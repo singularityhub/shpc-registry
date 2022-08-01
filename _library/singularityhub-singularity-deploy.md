@@ -4,11 +4,11 @@ name:  "singularityhub/singularity-deploy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/singularityhub/singularity-deploy/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/singularityhub/singularity-deploy/container.yaml"
-updated_at: "2022-08-01 14:20:25.531639"
+updated_at: "2022-08-01 15:38:00.135844"
+latest: "salad"
 container_url: "https://github.com/singularityhub/singularity-deploy"
 aliases:
  - "salad"
-
 versions:
  - "salad"
 description: "Example shpc container using Singularity Deploy, build and serve from GitHub releases."

@@ -4,45 +4,28 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2022-08-01 14:19:20.339724"
+updated_at: "2022-08-01 15:36:46.538026"
+latest: "2.12.0--hf3cf87c_4"
 container_url: "https://quay.io/repository/biocontainers/blast"
 aliases:
  - "blast_formatter"
-
  - "blastdb_aliastool"
-
  - "blastdbcheck"
-
  - "blastdbcmd"
-
  - "blastn"
-
  - "blastp"
-
  - "blastx"
-
  - "cleanup-blastdb-volumes.py"
-
  - "convert2blastmask"
-
  - "deltablast"
-
  - "eblast"
-
  - "makeblastdb"
-
  - "psiblast"
-
  - "rpsblast"
-
  - "rpstblastn"
-
  - "tblastn"
-
  - "tblastx"
-
  - "update_blastdb.pl"
-
 versions:
  - "2.10.1--pl526he19e7b1_3"
  - "2.11.0--pl5262h3289130_1"

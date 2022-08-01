@@ -4,23 +4,17 @@ name:  "ghcr.io/autamus/conduit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/conduit/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/conduit/container.yaml"
-updated_at: "2022-08-01 14:20:13.088986"
+updated_at: "2022-08-01 15:37:46.409011"
+latest: "0.7.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/conduit"
 aliases:
  - "conduit_blueprint_verify"
-
  - "conduit_relay_entangle.py"
-
  - "conduit_relay_io_convert"
-
  - "conduit_relay_io_ls"
-
  - "conduit_relay_node_viewer"
-
  - "conduit_staging"
-
  - "conduit_staging.sh"
-
 versions:
  - "0.7.2"
  - "latest"

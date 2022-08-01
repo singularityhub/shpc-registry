@@ -4,21 +4,16 @@ name:  "ghcr.io/autamus/veloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/veloc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/veloc/container.yaml"
-updated_at: "2022-08-01 14:19:53.555203"
+updated_at: "2022-08-01 15:37:23.709006"
+latest: "1.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/veloc"
 aliases:
  - "veloc-backend"
-
  - "veloc_check_node"
-
  - "veloc_env"
-
  - "veloc_glob_hosts"
-
  - "veloc_jsrun"
-
  - "veloc_list_down_nodes"
-
 versions:
  - "1.4"
  - "1.5"

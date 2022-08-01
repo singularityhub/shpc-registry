@@ -4,37 +4,24 @@ name:  "ghcr.io/autamus/xrootd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xrootd/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/xrootd/container.yaml"
-updated_at: "2022-08-01 14:20:10.226607"
+updated_at: "2022-08-01 15:37:43.201852"
+latest: "5.3.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xrootd"
 aliases:
  - "xrdacctest"
-
  - "xrdadler32"
-
  - "xrdcopy"
-
  - "xrdcp"
-
  - "xrdfs"
-
  - "xrdgsiproxy"
-
  - "xrdgsitest"
-
  - "xrdmapc"
-
  - "xrdpfc_print"
-
  - "xrdpinls"
-
  - "xrdpwdadmin"
-
  - "xrdsssadmin"
-
  - "xrootd"
-
  - "xrootd-config"
-
 versions:
  - "5.1.0"
  - "5.3.1"

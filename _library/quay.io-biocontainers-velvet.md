@@ -4,13 +4,12 @@ name:  "quay.io/biocontainers/velvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velvet/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
-updated_at: "2022-08-01 14:19:21.841685"
+updated_at: "2022-08-01 15:36:48.128921"
+latest: "1.2.10--h7132678_5"
 container_url: "https://quay.io/repository/biocontainers/velvet"
 aliases:
  - "velvetg"
-
  - "velveth"
-
 versions:
  - "1.2.10--h470a237_2"
  - "1.2.10--h5bf99c6_4"

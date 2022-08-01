@@ -4,83 +4,47 @@ name:  "ghcr.io/autamus/scr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scr/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/scr/container.yaml"
-updated_at: "2022-08-01 14:19:52.680268"
+updated_at: "2022-08-01 15:37:22.524561"
+latest: "3.0.rc.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scr"
 aliases:
  - "scancel"
-
  - "scontrol"
-
  - "scp"
-
  - "scr_check_node"
-
  - "scr_ckpt_interval.py"
-
  - "scr_copy"
-
  - "scr_crc32"
-
  - "scr_env"
-
  - "scr_flush_file"
-
  - "scr_get_jobstep_id"
-
  - "scr_glob_hosts"
-
  - "scr_halt"
-
  - "scr_halt_cntl"
-
  - "scr_index"
-
  - "scr_inspect"
-
  - "scr_kill_jobstep"
-
  - "scr_list_dir"
-
  - "scr_list_down_nodes"
-
  - "scr_log_event"
-
  - "scr_log_transfer"
-
  - "scr_nodes_file"
-
  - "scr_postrun"
-
  - "scr_prefix"
-
  - "scr_prerun"
-
  - "scr_print"
-
  - "scr_rebuild_partner"
-
  - "scr_rebuild_rs"
-
  - "scr_rebuild_xor"
-
  - "scr_retries_halt"
-
  - "scr_run"
-
  - "scr_scavenge"
-
  - "scr_srun"
-
  - "scr_test_datemanip"
-
  - "scr_test_runtime"
-
  - "scr_watchdog"
-
  - "scrlog.py"
-
  - "scrontab"
-
 versions:
  - "3.0.rc.1"
  - "latest"

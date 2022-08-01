@@ -4,11 +4,11 @@ name:  "jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/tensorflow-notebook/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2022-08-01 14:19:37.726635"
+updated_at: "2022-08-01 15:37:05.182580"
+latest: "ubuntu-20.04"
 container_url: "https://hub.docker.com/r/jupyter/tensorflow-notebook"
 aliases:
  - "run-notebook"
-
 versions:
  - "latest"
  - "ubuntu-20.04"

@@ -4,59 +4,35 @@ name:  "ghcr.io/autamus/openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openjdk/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/openjdk/container.yaml"
-updated_at: "2022-08-01 14:20:08.019117"
+updated_at: "2022-08-01 15:37:40.737113"
+latest: "latest"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openjdk"
 aliases:
  - "jaotc"
-
  - "jar"
-
  - "jarsigner"
-
  - "java"
-
  - "javac"
-
  - "javadoc"
-
  - "javap"
-
  - "jcmd"
-
  - "jconsole"
-
  - "jdb"
-
  - "jdeps"
-
  - "jfr"
-
  - "jhsdb"
-
  - "jimage"
-
  - "jinfo"
-
  - "jjs"
-
  - "jlink"
-
  - "jmap"
-
  - "jmod"
-
  - "jps"
-
  - "jrunscript"
-
  - "jshell"
-
  - "jstack"
-
  - "jstat"
-
  - "jstatd"
-
 versions:
  - "latest"
 description: "Open Java Development Kit"

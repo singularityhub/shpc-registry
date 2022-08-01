@@ -4,77 +4,44 @@ name:  "postgres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/postgres/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/postgres/container.yaml"
-updated_at: "2022-08-01 14:19:29.452193"
+updated_at: "2022-08-01 15:36:56.289892"
+latest: "15beta1"
 container_url: "https://hub.docker.com/r/_/postgres"
 aliases:
  - "clusterdb"
-
  - "createdb"
-
  - "createuser"
-
  - "dropdb"
-
  - "dropuser"
-
  - "initdb"
-
  - "oid2name"
-
  - "pg_archivecleanup"
-
  - "pg_basebackup"
-
  - "pg_checksums"
-
  - "pg_config"
-
  - "pg_controldata"
-
  - "pg_ctl"
-
  - "pg_dump"
-
  - "pg_dumpall"
-
  - "pg_isready"
-
  - "pg_receivewal"
-
  - "pg_recvlogical"
-
  - "pg_resetwal"
-
  - "pg_restore"
-
  - "pg_rewind"
-
  - "pg_standby"
-
  - "pg_test_fsync"
-
  - "pg_test_timing"
-
  - "pg_upgrade"
-
  - "pg_verifybackup"
-
  - "pg_waldump"
-
  - "pgbench"
-
  - "postgres"
-
  - "postmaster"
-
  - "psql"
-
  - "reindexdb"
-
  - "vacuumdb"
-
  - "vacuumlo"
-
 versions:
  - "13.2-alpine"
  - "13.3-alpine"

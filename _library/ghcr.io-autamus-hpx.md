@@ -4,13 +4,12 @@ name:  "ghcr.io/autamus/hpx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpx/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hpx/container.yaml"
-updated_at: "2022-08-01 14:19:50.102950"
+updated_at: "2022-08-01 15:37:19.408167"
+latest: "1.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpx"
 aliases:
  - "hpxcxx"
-
  - "hpxrun.py"
-
 versions:
  - "1.6.0"
  - "1.7.0"

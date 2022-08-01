@@ -4,35 +4,23 @@ name:  "ghcr.io/autamus/clhep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/clhep/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/clhep/container.yaml"
-updated_at: "2022-08-01 14:20:09.573878"
+updated_at: "2022-08-01 15:37:42.462781"
+latest: "2.4.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/clhep"
 aliases:
  - "Cast-config"
-
  - "Evaluator-config"
-
  - "Exceptions-config"
-
  - "GenericFunctions-config"
-
  - "Geometry-config"
-
  - "Matrix-config"
-
  - "Random-config"
-
  - "RandomObjects-config"
-
  - "RefCount-config"
-
  - "Units-config"
-
  - "Utility-config"
-
  - "Vector-config"
-
  - "clhep-config"
-
 versions:
  - "2.4.4.0"
  - "2.4.5.1"

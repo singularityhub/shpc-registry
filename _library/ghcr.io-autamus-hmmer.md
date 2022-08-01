@@ -4,35 +4,23 @@ name:  "ghcr.io/autamus/hmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hmmer/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hmmer/container.yaml"
-updated_at: "2022-08-01 14:19:51.605953"
+updated_at: "2022-08-01 15:37:21.169071"
+latest: "3.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hmmer"
 aliases:
  - "hmmalign"
-
  - "hmmbuild"
-
  - "hmmconvert"
-
  - "hmmemit"
-
  - "hmmfetch"
-
  - "hmmlogo"
-
  - "hmmpgmd"
-
  - "hmmpgmd_shard"
-
  - "hmmpress"
-
  - "hmmscan"
-
  - "hmmsearch"
-
  - "hmmsim"
-
  - "hmmstat"
-
 versions:
  - "3.3"
  - "3.3.2"

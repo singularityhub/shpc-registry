@@ -4,31 +4,21 @@ name:  "ghcr.io/autamus/ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ruby/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/ruby/container.yaml"
-updated_at: "2022-08-01 14:20:02.499106"
+updated_at: "2022-08-01 15:37:34.328275"
+latest: "3.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ruby"
 aliases:
  - "bundle"
-
  - "bundler"
-
  - "erb"
-
  - "gem"
-
  - "irb"
-
  - "racc"
-
  - "rake"
-
  - "rbs"
-
  - "rdoc"
-
  - "ri"
-
  - "ruby"
-
 versions:
  - "3.0.0"
  - "3.0.2"

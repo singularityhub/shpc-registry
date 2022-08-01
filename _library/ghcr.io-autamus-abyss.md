@@ -4,85 +4,48 @@ name:  "ghcr.io/autamus/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/abyss/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/abyss/container.yaml"
-updated_at: "2022-08-01 14:20:21.795311"
+updated_at: "2022-08-01 15:37:55.964045"
+latest: "2.3.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/abyss"
 aliases:
  - "abyss-align"
-
  - "abyss-bloom"
-
  - "abyss-bloom-dbg"
-
  - "abyss-bloom-dist.mk"
-
  - "abyss-bowtie"
-
  - "abyss-bowtie2"
-
  - "abyss-bwa"
-
  - "abyss-bwamem"
-
  - "abyss-bwasw"
-
  - "abyss-db-csv"
-
  - "abyss-db-txt"
-
  - "abyss-dida"
-
  - "abyss-fac"
-
  - "abyss-fatoagp"
-
  - "abyss-filtergraph"
-
  - "abyss-fixmate"
-
  - "abyss-fixmate-ssq"
-
  - "abyss-gapfill"
-
  - "abyss-gc"
-
  - "abyss-index"
-
  - "abyss-junction"
-
  - "abyss-kaligner"
-
  - "abyss-layout"
-
  - "abyss-longseqdist"
-
  - "abyss-map"
-
  - "abyss-map-ssq"
-
  - "abyss-mergepairs"
-
  - "abyss-overlap"
-
  - "abyss-paired-dbg"
-
  - "abyss-paired-dbg-mpi"
-
  - "abyss-pe"
-
  - "abyss-samtoafg"
-
  - "abyss-scaffold"
-
  - "abyss-sealer"
-
  - "abyss-stack-size"
-
  - "abyss-tabtomd"
-
  - "abyss-todot"
-
  - "abyss-tofastq"
-
 versions:
  - "2.3.0"
  - "2.3.1"

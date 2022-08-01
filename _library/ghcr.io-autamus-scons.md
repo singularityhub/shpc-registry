@@ -4,29 +4,20 @@ name:  "ghcr.io/autamus/scons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scons/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/scons/container.yaml"
-updated_at: "2022-08-01 14:19:53.772825"
+updated_at: "2022-08-01 15:37:23.943312"
+latest: "3.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scons"
 aliases:
  - "scons"
-
  - "scons-3.1.2"
-
  - "scons-3.1.2.bat"
-
  - "scons-configure-cache"
-
  - "scons-configure-cache-3.1.2"
-
  - "scons-time"
-
  - "scons-time-3.1.2"
-
  - "scons.bat"
-
  - "sconsign"
-
  - "sconsign-3.1.2"
-
 versions:
  - "3.1.2"
  - "latest"

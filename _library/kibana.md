@@ -4,17 +4,14 @@ name:  "kibana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/kibana/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/kibana/container.yaml"
-updated_at: "2022-08-01 14:19:42.955565"
+updated_at: "2022-08-01 15:37:11.097091"
+latest: "8.2.3"
 container_url: "https://hub.docker.com/_/kibana"
 aliases:
  - "kibana"
-
  - "kibana-encryption-keys"
-
  - "kibana-keystore"
-
  - "kibana-plugin"
-
 versions:
  - "7.12.0"
  - "7.12.1"

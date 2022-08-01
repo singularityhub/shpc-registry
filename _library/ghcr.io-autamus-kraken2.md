@@ -4,17 +4,14 @@ name:  "ghcr.io/autamus/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/kraken2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/kraken2/container.yaml"
-updated_at: "2022-08-01 14:19:44.922164"
+updated_at: "2022-08-01 15:37:13.458664"
+latest: "2.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/kraken2"
 aliases:
  - "kraken2"
-
  - "kraken2-build"
-
  - "kraken2-inspect"
-
  - "kraken2lib.pm"
-
 versions:
  - "2.1.1"
  - "2.1.2"

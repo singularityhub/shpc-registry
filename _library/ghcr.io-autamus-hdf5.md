@@ -4,45 +4,28 @@ name:  "ghcr.io/autamus/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hdf5/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hdf5/container.yaml"
-updated_at: "2022-08-01 14:20:20.907949"
+updated_at: "2022-08-01 15:37:54.992931"
+latest: "1.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hdf5"
 aliases:
  - "h5clear"
-
  - "h5copy"
-
  - "h5debug"
-
  - "h5diff"
-
  - "h5dump"
-
  - "h5format_convert"
-
  - "h5import"
-
  - "h5jam"
-
  - "h5ls"
-
  - "h5mkgrp"
-
  - "h5pcc"
-
  - "h5perf"
-
  - "h5perf_serial"
-
  - "h5redeploy"
-
  - "h5repack"
-
  - "h5repart"
-
  - "h5stat"
-
  - "h5unjam"
-
 versions:
  - "1.12.0"
  - "1.13"

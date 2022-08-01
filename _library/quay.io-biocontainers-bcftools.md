@@ -4,35 +4,23 @@ name:  "quay.io/biocontainers/bcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools/container.yaml"
-updated_at: "2022-08-01 14:19:20.991143"
+updated_at: "2022-08-01 15:36:47.228155"
+latest: "1.15--haf5b3da_0"
 container_url: "https://quay.io/repository/biocontainers/bcftools"
 aliases:
  - "bcftools"
-
  - "bgzip"
-
  - "color-chrs.pl"
-
  - "gff2gff.py"
-
  - "guess-ploidy.py"
-
  - "htsfile"
-
  - "libdeflate-gunzip"
-
  - "libdeflate-gzip"
-
  - "plot-roh.py"
-
  - "plot-vcfstats"
-
  - "run-roh.pl"
-
  - "tabix"
-
  - "vcfutils.pl"
-
 versions:
  - "1.12--h45bccc9_1"
  - "1.13--h3a49de5_0"
