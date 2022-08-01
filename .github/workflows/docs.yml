@@ -1,9 +1,8 @@
 name: Update Docs
 
 on:
-  # TODO need to get template on gh-pages here
   push:
-    branches: [notyet]
+    branches: [main]
 
 jobs:
   generate-docs:
@@ -19,22 +18,18 @@ jobs:
       - name: Install shpc
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
-          root=$PWD
           source activate shpc
-          cd /tmp
-          git clone https://github.com/singularityhub/singularity-hpc
-          cd singularity-hpc
-          pip install -e .
-          cd $root
+          pip install git+https://github.com/singularityhub/singularity-hpc@main
+          git clone https://github.com/singularityhub/shpc-registry /tmp/registry
 
       - name: Generate docs
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
-          /bin/bash generate.sh
+          /bin/bash generate.sh /tmp/registry
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: gh-pages
-          folder: .
+#      - name: Deploy 🚀
+#        uses: JamesIves/github-pages-deploy-action@4.1.1
+#        with:
+#          branch: gh-pages
+#          folder: .

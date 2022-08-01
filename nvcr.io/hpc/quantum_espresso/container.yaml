@@ -12,3 +12,5 @@ tags:
   qe-7.0: sha256:e117f9df9868b7d7908fabc951719d8bf4a450ef7a9a01cf2e0ed5ab3f2b9651
 filter:
 - v*
+features:
+  gpu: true
