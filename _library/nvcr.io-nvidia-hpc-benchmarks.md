@@ -5,11 +5,8 @@ maintainer: "@vsoch"
 github: "https://github.com/singularityhub/singularity-hpc/blob/main/registry/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
 updated_at: "2022-07-11 07:56:54.782252"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
-
 versions:
  - "20.10-hpl"
- - "crane ls nvcr.io/nvidia/hpc-benchmarks: unsupported status code 401; body: <html>"
- - "<body bgcolor="white">"
 description: "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA."
 ---
 

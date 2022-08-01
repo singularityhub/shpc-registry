@@ -3,7 +3,7 @@
 # Site settings
 title: Singularity HPC Library
 description: "Library of Singularity containers for HPC"
-baseurl: "/singularity-hpc" #important: start with /
+baseurl: "/shpc-registry" #important: start with /
 url: ""
 
 # Build settings
