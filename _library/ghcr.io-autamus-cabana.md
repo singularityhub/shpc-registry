@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cabana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cabana/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cabana/container.yaml"
-updated_at: "2022-08-01 15:37:32.749784"
+updated_at: "2022-08-01 15:54:13.241543"
 latest: "0.4.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cabana"
 
@@ -13,6 +13,7 @@ versions:
  - "0.4.0"
  - "latest"
 description: "The Exascale Co-Design Center for Particle Applications Toolkit"
+config: {"docker": "ghcr.io/autamus/cabana", "url": "https://github.com/orgs/autamus/packages/container/package/cabana", "maintainer": "@vsoch", "description": "The Exascale Co-Design Center for Particle Applications Toolkit", "latest": {"0.4.0": "sha256:dbcdce5fbc0985356fa44028b58609ead795222e2cc5f5887f4e11d57ea4e019"}, "tags": {"0.3.0": "sha256:0869596ab9201f4c5ef1cf91ab99083243a989f21d90547e4b2bfee0df45fab6", "0.4.0": "sha256:dbcdce5fbc0985356fa44028b58609ead795222e2cc5f5887f4e11d57ea4e019", "latest": "sha256:dbcdce5fbc0985356fa44028b58609ead795222e2cc5f5887f4e11d57ea4e019"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/cabana.

@@ -4,7 +4,7 @@ name:  "biocontainers/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/abyss/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/abyss/container.yaml"
-updated_at: "2022-08-01 15:37:03.077419"
+updated_at: "2022-08-01 15:53:41.471755"
 latest: "v2.1.5-7-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/abyss"
 aliases:
@@ -13,6 +13,7 @@ aliases:
 versions:
  - "v2.1.5-7-deb_cv1"
 description: "A de novo, parallel, paired-end sequence assembler that is designed for short reads. See https://www.bcgsc.ca/resources/software/abyss."
+config: {"docker": "biocontainers/abyss", "latest": {"v2.1.5-7-deb_cv1": "sha256:c782443cc596ee6c1d0b3065d3f4fe23f76b583c6908cac2f048ed6a2168b566"}, "tags": {"v2.1.5-7-deb_cv1": "sha256:c782443cc596ee6c1d0b3065d3f4fe23f76b583c6908cac2f048ed6a2168b566"}, "filter": ["v*"], "maintainer": "@vsoch", "url": "https://hub.docker.com/r/biocontainers/abyss", "description": "A de novo, parallel, paired-end sequence assembler that is designed for short reads. See https://www.bcgsc.ca/resources/software/abyss.", "aliases": {"abyss-fixmate": "/usr/bin/abyss-fixmate", "abyss-pe": "/usr/bin/abyss-pe"}}
 ---
 
 This module is a singularity container wrapper for biocontainers/abyss.

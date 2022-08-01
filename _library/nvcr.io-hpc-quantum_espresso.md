@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/quantum_espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/quantum_espresso/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/quantum_espresso/container.yaml"
-updated_at: "2022-08-01 15:36:58.169761"
+updated_at: "2022-08-01 15:53:36.247609"
 latest: "qe-7.0"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags"
 
@@ -13,6 +13,7 @@ versions:
  - "qe-6.8"
  - "qe-7.0"
 description: "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale based on density-functional theory, plane waves, and pseudopotentials."
+config: {"docker": "nvcr.io/hpc/quantum_espresso", "url": "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags", "maintainer": "@vsoch", "description": "Quantum ESPRESSO is an integrated suite of Open-Source computer codes for electronic-structure calculations and materials modeling at the nanoscale based on density-functional theory, plane waves, and pseudopotentials.", "latest": {"qe-7.0": "sha256:e117f9df9868b7d7908fabc951719d8bf4a450ef7a9a01cf2e0ed5ab3f2b9651"}, "tags": {"v6.7": "sha256:fdcea13eec98f48af813f172be42a40adf4e856d07cfb4ee1fc584d5c4a8f0f9", "qe-6.8": "sha256:1db6a3eae9baa8cbb6c72f227c14d48fd8a8b2548f021c10764608a321525de8", "qe-7.0": "sha256:e117f9df9868b7d7908fabc951719d8bf4a450ef7a9a01cf2e0ed5ab3f2b9651"}, "filter": ["v*"], "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/quantum_espresso.

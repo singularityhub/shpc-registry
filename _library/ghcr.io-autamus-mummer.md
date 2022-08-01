@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mummer/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mummer/container.yaml"
-updated_at: "2022-08-01 15:37:29.483758"
+updated_at: "2022-08-01 15:54:09.790209"
 latest: "3.23"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mummer"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "3.23"
  - "latest"
 description: "MUMmer is a system for rapidly aligning entire genomes."
+config: {"docker": "ghcr.io/autamus/mummer", "url": "https://github.com/orgs/autamus/packages/container/package/mummer", "maintainer": "@vsoch", "description": "MUMmer is a system for rapidly aligning entire genomes.", "latest": {"3.23": "sha256:0c76dc2ca460731c85e8b6c2e063797f43e9ac19785b93d86695280194bc8fb9"}, "tags": {"3.23": "sha256:0c76dc2ca460731c85e8b6c2e063797f43e9ac19785b93d86695280194bc8fb9", "latest": "sha256:0c76dc2ca460731c85e8b6c2e063797f43e9ac19785b93d86695280194bc8fb9"}, "aliases": {"mummer": "/opt/view/bin/mummer", "mummerplot": "/opt/view/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/mummer.

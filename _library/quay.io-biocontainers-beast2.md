@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2022-08-01 15:36:53.033919"
+updated_at: "2022-08-01 15:53:30.720383"
 latest: "2.6.3--hf1b8bbb_0"
 container_url: "https://quay.io/repository/biocontainers/beast2"
 aliases:
@@ -15,6 +15,7 @@ aliases:
 versions:
  - "2.6.3--hf1b8bbb_0"
 description: "BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences."
+config: {"docker": "quay.io/biocontainers/beast2", "url": "https://quay.io/repository/biocontainers/beast2", "maintainer": "@marcodelapierre", "description": "BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences.", "latest": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "aliases": {"beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "treeannotator": "/usr/local/bin/treeannotator"}, "env": {"DISPLAY": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast2.

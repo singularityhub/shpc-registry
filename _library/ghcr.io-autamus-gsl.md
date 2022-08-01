@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gsl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gsl/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gsl/container.yaml"
-updated_at: "2022-08-01 15:37:39.241822"
+updated_at: "2022-08-01 15:54:20.492080"
 latest: "2.7"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gsl"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "2.7"
  - "latest"
 description: "The GNU Scientific Library."
+config: {"docker": "ghcr.io/autamus/gsl", "url": "https://github.com/orgs/autamus/packages/container/package/gsl", "maintainer": "@vsoch", "description": "The GNU Scientific Library.", "latest": {"2.7": "sha256:674c111e37385d8e73910defd5d058d414e430837a7eceee687d8191eb2b1266"}, "tags": {"2.6": "sha256:e61cb98bef8557181282243129209b2472478525dae9dc44f34fd7381beb39f2", "2.7": "sha256:674c111e37385d8e73910defd5d058d414e430837a7eceee687d8191eb2b1266", "latest": "sha256:f45fadf32691d9d9863789138cc9a11c90865188165bc644758da56d49f304f9"}, "aliases": {"gsl-config": "/opt/view/bin/gsl-config", "gsl-histogram": "/opt/view/bin/gsl-histogram", "gsl-randist": "/opt/view/bin/gsl-randist"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gsl.

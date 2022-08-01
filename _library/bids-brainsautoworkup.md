@@ -4,13 +4,14 @@ name:  "bids/brainsautoworkup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/brainsautoworkup/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/brainsautoworkup/container.yaml"
-updated_at: "2022-08-01 15:37:07.387196"
+updated_at: "2022-08-01 15:53:46.063786"
 latest: "latest"
 container_url: "https://hub.docker.com/r/bids/brainsautoworkup"
 
 versions:
  - "latest"
 description: "A BIDS App for running BRAINSAutoWorkup (https://github.com/BIDS-Apps/BRAINSAutoworkup)"
+config: {"docker": "bids/brainsautoworkup", "latest": {"latest": "sha256:39fb638ba68955e2964a2c6cdab6cf7857b248f2b30d6b69b6f0a9a3401a376e"}, "tags": {"latest": "sha256:39fb638ba68955e2964a2c6cdab6cf7857b248f2b30d6b69b6f0a9a3401a376e"}, "filter": ["v*"], "maintainer": "@vsoch", "description": "A BIDS App for running BRAINSAutoWorkup (https://github.com/BIDS-Apps/BRAINSAutoworkup)", "url": "https://hub.docker.com/r/bids/brainsautoworkup"}
 ---
 
 This module is a singularity container wrapper for bids/brainsautoworkup.

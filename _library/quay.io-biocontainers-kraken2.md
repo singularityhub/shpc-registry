@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kraken2/container.yaml"
-updated_at: "2022-08-01 15:36:46.312247"
+updated_at: "2022-08-01 15:53:23.178828"
 latest: "2.1.2--pl5321h9f5acd7_2"
 container_url: "https://quay.io/repository/biocontainers/kraken2"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "2.1.2--pl5262h7d875b9_0"
  - "2.1.2--pl5321h9f5acd7_2"
 description: "A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds."
+config: {"docker": "quay.io/biocontainers/kraken2", "url": "https://quay.io/repository/biocontainers/kraken2", "maintainer": "@marcodelapierre", "description": "A taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds.", "latest": {"2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980"}, "tags": {"2.1.1--pl5262h7d875b9_1": "sha256:f61773d6ed01cbe6b0dee06c61bd23ec108fa8a33cc5ffbed4b863ccaa566b61", "2.1.2--pl5262h7d875b9_0": "sha256:3ce3592fb5d85d96ca1f9872bb407f1d939cf7e8758e47c4df841f075f094557", "2.1.2--pl5321h9f5acd7_2": "sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980"}, "aliases": {"kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken2.

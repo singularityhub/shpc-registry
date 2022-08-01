@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/turbine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/turbine/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/turbine/container.yaml"
-updated_at: "2022-08-01 15:37:32.260385"
+updated_at: "2022-08-01 15:54:12.743698"
 latest: "1.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/turbine"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "1.3.0"
  - "latest"
 description: "Turbine is the Swift/T runtime"
+config: {"docker": "ghcr.io/autamus/turbine", "url": "https://github.com/orgs/autamus/packages/container/package/turbine", "maintainer": "@vsoch", "description": "Turbine is the Swift/T runtime", "latest": {"1.3.0": "sha256:239733cb5509d486647f2c9ac9a1e4e446e258051c0b03a92bd66a8ba1e79fc8"}, "tags": {"1.3.0": "sha256:239733cb5509d486647f2c9ac9a1e4e446e258051c0b03a92bd66a8ba1e79fc8", "latest": "sha256:239733cb5509d486647f2c9ac9a1e4e446e258051c0b03a92bd66a8ba1e79fc8"}, "aliases": {"turbine": "/opt/view/bin/turbine", "turbine-pilot": "/opt/view/bin/turbine-pilot", "turbine-read-doubles": "/opt/view/bin/turbine-read-doubles", "turbine-write-doubles": "/opt/view/bin/turbine-write-doubles"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/turbine.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/py-libensemble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/py-libensemble/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/py-libensemble/container.yaml"
-updated_at: "2022-08-01 15:37:57.685730"
+updated_at: "2022-08-01 15:54:40.513167"
 latest: "0.8.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/py-libensemble"
 
@@ -13,6 +13,7 @@ versions:
  - "0.8.0"
  - "latest"
 description: "Library for managing ensemble-like collections of computations."
+config: {"docker": "ghcr.io/autamus/py-libensemble", "url": "https://github.com/orgs/autamus/packages/container/package/py-libensemble", "maintainer": "@vsoch", "description": "Library for managing ensemble-like collections of computations.", "latest": {"0.8.0": "sha256:b594a04013badc5866635d4d4ade3c21acba4540fa4fa082d7fbb4fc1fc193fb"}, "tags": {"0.7.2": "sha256:590852c32b8b4e5ea6dc5d6909a64f3128f972b062eb362ee5ee3d2c51840b99", "0.8.0": "sha256:b594a04013badc5866635d4d4ade3c21acba4540fa4fa082d7fbb4fc1fc193fb", "latest": "sha256:b594a04013badc5866635d4d4ade3c21acba4540fa4fa082d7fbb4fc1fc193fb"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/py-libensemble.

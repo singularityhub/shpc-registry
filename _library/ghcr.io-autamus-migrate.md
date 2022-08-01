@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/migrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/migrate/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/migrate/container.yaml"
-updated_at: "2022-08-01 15:37:18.446797"
+updated_at: "2022-08-01 15:53:57.388149"
 latest: "3.7.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/migrate"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "3.7.2"
  - "latest"
 description: "Migrate estimates effective population sizes and past migration rates between n population assuming a migration matrix model with asymmetric migration rates and different subpopulation sizes"
+config: {"docker": "ghcr.io/autamus/migrate", "url": "https://github.com/orgs/autamus/packages/container/package/migrate", "maintainer": "@vsoch", "description": "Migrate estimates effective population sizes and past migration rates between n population assuming a migration matrix model with asymmetric migration rates and different subpopulation sizes", "latest": {"3.7.2": "sha256:9c5928d4a3654f84f88748c25cb4718c5f3bc397bf2ca40318b15c6ab6fcf939"}, "tags": {"3.7.2": "sha256:9c5928d4a3654f84f88748c25cb4718c5f3bc397bf2ca40318b15c6ab6fcf939", "latest": "sha256:9c5928d4a3654f84f88748c25cb4718c5f3bc397bf2ca40318b15c6ab6fcf939"}, "aliases": {"migrate-n": "/opt/view/bin/migrate-n"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/migrate.

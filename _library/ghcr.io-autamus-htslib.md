@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/htslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/htslib/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/htslib/container.yaml"
-updated_at: "2022-08-01 15:37:43.448082"
+updated_at: "2022-08-01 15:54:24.922272"
 latest: "1.14"
 container_url: "https://github.com/orgs/autamus/packages/container/package/htslib"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "1.14"
  - "latest"
 description: "A C library for reading/writing high-throughput sequencing data."
+config: {"docker": "ghcr.io/autamus/htslib", "url": "https://github.com/orgs/autamus/packages/container/package/htslib", "maintainer": "@vsoch", "description": "A C library for reading/writing high-throughput sequencing data.", "latest": {"1.14": "sha256:c328cb17c9942642975eafb75ac063b9249da5c5a3a49711ad338e191256eb8f"}, "tags": {"1.12": "sha256:20fe48b8413f5039e6c7b8749702e931b187f3d24078f67fcaaebcba5b482318", "1.13": "sha256:712ad250d973b7cd460d93ece88038502ca8a8a70310a09f029da0f71f08865d", "1.14": "sha256:c328cb17c9942642975eafb75ac063b9249da5c5a3a49711ad338e191256eb8f", "latest": "sha256:c328cb17c9942642975eafb75ac063b9249da5c5a3a49711ad338e191256eb8f"}, "aliases": {"htsfile": "/opt/view/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/htslib.

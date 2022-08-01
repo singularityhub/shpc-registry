@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ed/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/ed/container.yaml"
-updated_at: "2022-08-01 15:37:59.399949"
+updated_at: "2022-08-01 15:54:42.314523"
 latest: "1.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ed"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "1.4"
  - "latest"
 description: "GNU ed is a line-oriented text editor used to create, display, modify and otherwise manipulate text files, both interactively and via shell scripts https://www.gnu.org/software/ed."
+config: {"docker": "ghcr.io/autamus/ed", "url": "https://github.com/orgs/autamus/packages/container/package/ed", "maintainer": "@vsoch", "description": "GNU ed is a line-oriented text editor used to create, display, modify and otherwise manipulate text files, both interactively and via shell scripts https://www.gnu.org/software/ed.", "latest": {"1.4": "sha256:929b50c85da110bc4b23c0cb3a86719e0d973324b834900e08d7e5f000d8352c"}, "tags": {"1.4": "sha256:929b50c85da110bc4b23c0cb3a86719e0d973324b834900e08d7e5f000d8352c", "latest": "sha256:929b50c85da110bc4b23c0cb3a86719e0d973324b834900e08d7e5f000d8352c"}, "aliases": {"ed": "/opt/view/bin/ed", "red": "/opt/view/bin/red"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/ed.

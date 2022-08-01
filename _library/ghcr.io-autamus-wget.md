@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/wget/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/wget/container.yaml"
-updated_at: "2022-08-01 15:37:45.917395"
+updated_at: "2022-08-01 15:54:27.855039"
 latest: "1.21.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/wget"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "1.21.1"
  - "latest"
 description: "GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols."
+config: {"docker": "ghcr.io/autamus/wget", "url": "https://github.com/orgs/autamus/packages/container/package/wget", "maintainer": "@vsoch", "description": "GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols.", "latest": {"1.21.1": "sha256:778b79c5811f523a69def3bd433a7ee2a5b37102a174be5e323c9003a587121c"}, "tags": {"1.21.1": "sha256:778b79c5811f523a69def3bd433a7ee2a5b37102a174be5e323c9003a587121c", "latest": "sha256:778b79c5811f523a69def3bd433a7ee2a5b37102a174be5e323c9003a587121c"}, "aliases": {"wget": "/opt/view/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/wget.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canu/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/canu/container.yaml"
-updated_at: "2022-08-01 15:36:50.682691"
+updated_at: "2022-08-01 15:53:27.917833"
 latest: "2.2--ha47f30e_0"
 container_url: "https://quay.io/repository/biocontainers/canu"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "2.2--ha47f30e_0"
  - "2.1.1--h1b792b2_2"
 description: "Canu is a fork of the celera assembler designed for high-noise single-molecule sequencing"
+config: {"docker": "quay.io/biocontainers/canu", "url": "https://quay.io/repository/biocontainers/canu", "maintainer": "@sarahbeecroft", "description": "Canu is a fork of the celera assembler designed for high-noise single-molecule sequencing", "latest": {"2.2--ha47f30e_0": "sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196"}, "tags": {"2.1.1--he1b5a44_0": "sha256:5d986a871985ea20fafcaec02255c61d7136715a05b76db403585a32282ed118", "2.1.1--he1b5a44_1": "sha256:a28f4d1b2289d7f42e47efc0d35ad76ab28cc43a40d2b32aa857eda9c428718d", "2.2--ha47f30e_0": "sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196", "2.1.1--h1b792b2_2": "sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4"}, "aliases": {"canu": "/usr/local/bin/canu"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/canu.

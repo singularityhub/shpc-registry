@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2022-08-01 15:36:49.290758"
+updated_at: "2022-08-01 15:53:26.250398"
 latest: "3.23--pl5321h1b792b2_13"
 container_url: "https://quay.io/repository/biocontainers/mummer"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "3.23--pl526he1b5a44_11"
  - "3.23--pl5321h1b792b2_13"
 description: "MUMmer is a system for rapidly aligning entire genomes in complete or in draft form."
+config: {"docker": "quay.io/biocontainers/mummer", "url": "https://quay.io/repository/biocontainers/mummer", "maintainer": "@sarahbeecroft", "description": "MUMmer is a system for rapidly aligning entire genomes in complete or in draft form.", "latest": {"3.23--pl5321h1b792b2_13": "sha256:913c4cccaa59758830527f30e476d46d02253e98c5f4e481112d1f581696475f"}, "tags": {"3.23--pl526_7": "sha256:21462ca45429aaeebb0a298d5ae830aa7c299771166c762bea2b5bde20db43f8", "3.23--pl526he1b5a44_11": "sha256:2a0b6a706b92f2507d033bef6d3e4fe6bca2104f44e870447b414cfa34e67c38", "3.23--pl5321h1b792b2_13": "sha256:913c4cccaa59758830527f30e476d46d02253e98c5f4e481112d1f581696475f"}, "aliases": {"mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer.

@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/namd/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/namd/container.yaml"
-updated_at: "2022-08-01 15:36:57.696713"
+updated_at: "2022-08-01 15:53:35.728244"
 latest: "3.0-alpha11"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 aliases:
@@ -22,6 +22,7 @@ versions:
  - "3.0-alpha9-singlenode"
  - "3.0-alpha11"
 description: "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems. NAMD uses the popular molecular graphics program VMD for simulation setup and trajectory analysis, but is also file-comp atible with AMBER, CHARMM, and X-PLOR."
+config: {"docker": "nvcr.io/hpc/namd", "url": "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags", "maintainer": "@vsoch", "description": "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems. NAMD uses the popular molecular graphics program VMD for simulation setup and trajectory analysis, but is also file-comp atible with AMBER, CHARMM, and X-PLOR.", "latest": {"3.0-alpha11": "sha256:f0bbd27b2a5d28f2e39418c6b2b5cad8f7895dad51d8bb040442a3776431b128"}, "tags": {"3.0-alpha3-singlenode": "sha256:9db0e23f0f53dd200568cc57f3618971378173555d30d3158ec41c6df8aee15e", "3.0-alpha3-singlenode-arm64": "sha256:3743f24e1bd353296adef6c14127ae418716ef686f75c790d497f90150785d39", "3.0-alpha3-singlenode-x86_64": "sha256:040e38a36f467f6a2e61dd343f480e4c7c7a571b6072607922851214070a627e", "3.0-alpha9-singlenode": "sha256:05e7c1eeb167b9d4250f6d75aab5e1d23597b922cf9aed4eaadfd3c24068287d", "3.0-alpha11": "sha256:f0bbd27b2a5d28f2e39418c6b2b5cad8f7895dad51d8bb040442a3776431b128"}, "filter": ["^((?!arm).)*$"], "aliases": {"charmrun": "/usr/local/bin/charmrun", "flipbinpdb": "/usr/local/bin/flipbinpdb", "flipdcd": "/usr/local/bin/flipdcd", "namd3": "/usr/local/bin/namd3", "psfgen": "/usr/local/bin/psfgen", "sortreplicas": "/usr/local/bin/sortreplicas", "vmd": "/usr/local/bin/vmd"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/namd.

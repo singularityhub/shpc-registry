@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ninja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ninja/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/ninja/container.yaml"
-updated_at: "2022-08-01 15:37:23.172984"
+updated_at: "2022-08-01 15:54:02.572058"
 latest: "1.10.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ninja"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "1.10.2"
  - "latest"
 description: "Ninja is a small build system with a focus on speed."
+config: {"docker": "ghcr.io/autamus/ninja", "url": "https://github.com/orgs/autamus/packages/container/package/ninja", "maintainer": "@vsoch", "description": "Ninja is a small build system with a focus on speed.", "latest": {"1.10.2": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36"}, "tags": {"1.10.2": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36", "latest": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36"}, "aliases": {"ninja": "/opt/view/bin/ninja", "ninja-build": "/opt/view/bin/ninja-build"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/ninja.

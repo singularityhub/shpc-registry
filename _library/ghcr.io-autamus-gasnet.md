@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gasnet/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gasnet/container.yaml"
-updated_at: "2022-08-01 15:37:42.210640"
+updated_at: "2022-08-01 15:54:23.560044"
 latest: "2022.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gasnet"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "latest"
  - "2022.3.0"
 description: "GASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM)."
+config: {"docker": "ghcr.io/autamus/gasnet", "url": "https://github.com/orgs/autamus/packages/container/package/gasnet", "maintainer": "@vsoch", "description": "GASNet is a language-independent, networking middleware layer that provides network-independent, high-performance communication primitives including Remote Memory Access (RMA) and Active Messages (AM).", "latest": {"2022.3.0": "sha256:6249559ba866450eed79e7c7cc56c4405c421b771bd4bb169468a21ec5f5f203"}, "tags": {"2021.3.0": "sha256:d47d6fda408012c29949a208ef7b714f50fb695735e603ce6258071396a6a9fb", "2021.9.0": "sha256:cb5e93afa7e118bf9d18bc16a036f6ff801806fb0c136efa1cd274ad458b43b7", "latest": "sha256:6249559ba866450eed79e7c7cc56c4405c421b771bd4bb169468a21ec5f5f203", "2022.3.0": "sha256:6249559ba866450eed79e7c7cc56c4405c421b771bd4bb169468a21ec5f5f203"}, "aliases": {"gasnet_trace": "/opt/view/bin/gasnet_trace", "gasnet_trace.pl": "/opt/view/bin/gasnet_trace.pl"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gasnet.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/heaptrack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/heaptrack/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/heaptrack/container.yaml"
-updated_at: "2022-08-01 15:37:45.676879"
+updated_at: "2022-08-01 15:54:27.587997"
 latest: "1.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/heaptrack"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "1.3.0"
  - "latest"
 description: "Heaptrack traces all memory allocations and annotates these events with stack traces."
+config: {"docker": "ghcr.io/autamus/heaptrack", "url": "https://github.com/orgs/autamus/packages/container/package/heaptrack", "maintainer": "@vsoch", "description": "Heaptrack traces all memory allocations and annotates these events with stack traces.", "latest": {"1.3.0": "sha256:74a2ea0fedfcf274054935beea22f863251a5788733433995cb2e7cf6de59610"}, "tags": {"1.2.0": "sha256:f44972b6f31dcc6778f984d097a3e75f034c17a01c27af0c0ef5903cf75960f7", "1.3.0": "sha256:74a2ea0fedfcf274054935beea22f863251a5788733433995cb2e7cf6de59610", "latest": "sha256:74a2ea0fedfcf274054935beea22f863251a5788733433995cb2e7cf6de59610"}, "aliases": {"heaptrack": "/opt/view/bin/heaptrack", "heaptrack_print": "/opt/view/bin/heaptrack_print"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/heaptrack.

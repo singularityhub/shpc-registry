@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/git"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/git/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/git/container.yaml"
-updated_at: "2022-08-01 15:37:24.174807"
+updated_at: "2022-08-01 15:54:04.076744"
 latest: "latest"
 container_url: "https://github.com/orgs/autamus/packages/container/package/git"
 aliases:
@@ -17,6 +17,7 @@ aliases:
 versions:
  - "latest"
 description: "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
+config: {"docker": "ghcr.io/autamus/git", "url": "https://github.com/orgs/autamus/packages/container/package/git", "maintainer": "@vsoch", "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.", "latest": {"latest": "sha256:5413904798e606940b369a10bae5d3c217f2b069429e069f7cc992c47ba9c370"}, "tags": {"latest": "sha256:5413904798e606940b369a10bae5d3c217f2b069429e069f7cc992c47ba9c370"}, "aliases": {"git": "/opt/view/bin/git", "git-cvsserver": "/opt/view/bin/git-cvsserver", "git-receive-pack": "/opt/view/bin/git-receive-pack", "git-shell": "/opt/view/bin/git-shell", "git-upload-archive": "/opt/view/bin/git-upload-archive", "git-upload-pack": "/opt/view/bin/git-upload-pack"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/git.

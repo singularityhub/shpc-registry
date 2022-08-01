@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/curl/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/curl/container.yaml"
-updated_at: "2022-08-01 15:37:19.156869"
+updated_at: "2022-08-01 15:53:58.156801"
 latest: "7.80.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/curl"
 aliases:
@@ -18,6 +18,7 @@ versions:
  - "7.80.0"
  - "latest"
 description: "cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols. The name stands for 'Client URL', which was first released in 1997."
+config: {"docker": "ghcr.io/autamus/curl", "url": "https://github.com/orgs/autamus/packages/container/package/curl", "maintainer": "@vsoch", "description": "cURL is a computer software project providing a library and command-line tool for transferring data using various network protocols. The name stands for 'Client URL', which was first released in 1997.", "latest": {"7.80.0": "sha256:f23de2a51ddb4bdafcd39bcf902653bb54f5abbcf48571742907ed21036b8505"}, "tags": {"7.76.1": "sha256:997cf56439b4bfbc9d529b94b001bfc8d3e3ea8f74dbb6d18eff2dd6eb556109", "7.78.0": "sha256:20092460f849e09ff29c7227a682ef7edb8d23812532c0b2ff3ded099bd17e57", "7.79.0": "sha256:b69c6d7302e4753be9a8cb533ac3efc724d45a16139196744311d24f233cd100", "7.80.0": "sha256:f23de2a51ddb4bdafcd39bcf902653bb54f5abbcf48571742907ed21036b8505", "latest": "sha256:f23de2a51ddb4bdafcd39bcf902653bb54f5abbcf48571742907ed21036b8505"}, "aliases": {"c_rehash": "/opt/view/bin/c_rehash", "curl": "/opt/view/bin/curl", "curl-config": "/opt/view/bin/curl-config"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/curl.

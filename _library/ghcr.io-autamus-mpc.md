@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mpc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mpc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mpc/container.yaml"
-updated_at: "2022-08-01 15:37:30.493078"
+updated_at: "2022-08-01 15:54:10.885767"
 latest: "1.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mpc"
 
@@ -13,6 +13,7 @@ versions:
  - "1.2.1"
  - "latest"
 description: "mithi/mpc: A software pipeline using the Model Predictive Control method to drive a car around a virtual track."
+config: {"docker": "ghcr.io/autamus/mpc", "url": "https://github.com/orgs/autamus/packages/container/package/mpc", "maintainer": "@vsoch", "description": "mithi/mpc: A software pipeline using the Model Predictive Control method to drive a car around a virtual track.", "latest": {"1.2.1": "sha256:c70740d4f9e10e86e2736136bac8372ba9ddc0d08fb929443f8624217729a120"}, "tags": {"1.1.0": "sha256:c7628ce2156af17ad77505740c40c85063dde3c4b17a46c3f6594fd2883a674f", "1.2.1": "sha256:c70740d4f9e10e86e2736136bac8372ba9ddc0d08fb929443f8624217729a120", "latest": "sha256:c70740d4f9e10e86e2736136bac8372ba9ddc0d08fb929443f8624217729a120"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/mpc.

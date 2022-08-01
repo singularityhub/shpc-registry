@@ -4,7 +4,7 @@ name:  "biocontainers/tabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tabix/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tabix/container.yaml"
-updated_at: "2022-08-01 15:37:02.604524"
+updated_at: "2022-08-01 15:53:40.976728"
 latest: "v1.9-11-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tabix"
 aliases:
@@ -12,6 +12,7 @@ aliases:
 versions:
  - "v1.9-11-deb_cv1"
 description: "Fast retrieval of sequence features from generic TAB-delimited files."
+config: {"docker": "biocontainers/tabix", "latest": {"v1.9-11-deb_cv1": "sha256:7e093436d00c01cf6ad7b285680bf1657f9fcb692cc083c972e5df5a7e951f49"}, "tags": {"v1.9-11-deb_cv1": "sha256:7e093436d00c01cf6ad7b285680bf1657f9fcb692cc083c972e5df5a7e951f49"}, "filter": ["v*"], "maintainer": "@vsoch", "url": "https://hub.docker.com/r/biocontainers/tabix", "description": "Fast retrieval of sequence features from generic TAB-delimited files.", "aliases": {"tabix": "/usr/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for biocontainers/tabix.

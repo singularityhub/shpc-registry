@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/stc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/stc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/stc/container.yaml"
-updated_at: "2022-08-01 15:37:35.692342"
+updated_at: "2022-08-01 15:54:16.465189"
 latest: "0.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/stc"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "0.9.0"
  - "latest"
 description: "The Swift-Turbine Compiler (STC)"
+config: {"docker": "ghcr.io/autamus/stc", "url": "https://github.com/orgs/autamus/packages/container/package/stc", "maintainer": "@vsoch", "description": "The Swift-Turbine Compiler (STC)", "latest": {"0.9.0": "sha256:5f74444f5537365f9f9984c3e69dc0157bebca1b322c5ebfc6f3ad55749434e4"}, "tags": {"0.9.0": "sha256:5f74444f5537365f9f9984c3e69dc0157bebca1b322c5ebfc6f3ad55749434e4", "latest": "sha256:5f74444f5537365f9f9984c3e69dc0157bebca1b322c5ebfc6f3ad55749434e4"}, "aliases": {"stc": "/opt/view/bin/stc", "swift-t": "/opt/view/bin/swift-t"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/stc.

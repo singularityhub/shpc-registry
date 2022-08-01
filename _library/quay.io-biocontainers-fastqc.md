@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc/container.yaml"
-updated_at: "2022-08-01 15:36:51.142067"
+updated_at: "2022-08-01 15:53:28.479698"
 latest: "0.11.9--hdfd78af_1"
 container_url: "https://quay.io/repository/biocontainers/fastqc"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "0.11.9--0"
  - "0.11.9--hdfd78af_1"
 description: "A quality control tool for high throughput sequence data"
+config: {"docker": "quay.io/biocontainers/fastqc", "url": "https://quay.io/repository/biocontainers/fastqc", "maintainer": "@sarahbeecroft", "description": "A quality control tool for high throughput sequence data", "latest": {"0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25"}, "tags": {"0.11.7--hdfd78af_7": "sha256:cd90a6413e43865cacfa9e2217169d0acd38f3f6d6bee621cc7eac6f68cae823", "0.11.9--0": "sha256:319b8d4eca0fc0367d192941f221f7fcd29a6b96996c63cbf8931dbb66e53348", "0.11.9--hdfd78af_1": "sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25"}, "aliases": {"fastqc": "/usr/local/bin/fastqc"}, "features": {"x11": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqc.

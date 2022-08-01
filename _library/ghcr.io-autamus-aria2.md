@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/aria2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/aria2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/aria2/container.yaml"
-updated_at: "2022-08-01 15:37:57.440451"
+updated_at: "2022-08-01 15:54:40.253027"
 latest: "1.36.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/aria2"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "1.36.0"
  - "latest"
 description: "aria2 is a lightweight multi-protocol & multi-source command-line download utility."
+config: {"docker": "ghcr.io/autamus/aria2", "url": "https://github.com/orgs/autamus/packages/container/package/aria2", "maintainer": "@vsoch", "description": "aria2 is a lightweight multi-protocol & multi-source command-line download utility.", "latest": {"1.36.0": "sha256:c25549123cb7aa5464cdff72199179d641956ba3449f0cf48d9c850ec04047be"}, "tags": {"1.35.0": "sha256:26f2651fff3ffde61c222ede690d978f6ed4f3ecc2cdc25311f244842132c929", "1.36.0": "sha256:c25549123cb7aa5464cdff72199179d641956ba3449f0cf48d9c850ec04047be", "latest": "sha256:c25549123cb7aa5464cdff72199179d641956ba3449f0cf48d9c850ec04047be"}, "aliases": {"aria2c": "opt/view/bin/aria2c"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/aria2.

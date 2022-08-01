@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/star"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/star/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/star/container.yaml"
-updated_at: "2022-08-01 15:36:52.805100"
+updated_at: "2022-08-01 15:53:30.390964"
 latest: "2.7.10a--h9ee0642_0"
 container_url: "https://quay.io/repository/biocontainers/star"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "2.7.9a--h9ee0642_0"
  - "2.7.10a--h9ee0642_0"
 description: "Spliced Transcripts Alignment to a Reference."
+config: {"docker": "quay.io/biocontainers/star", "url": "https://quay.io/repository/biocontainers/star", "maintainer": "@audreystott", "description": "Spliced Transcripts Alignment to a Reference.", "latest": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "tags": {"2.7.8a--h9ee0642_1": "sha256:b30f079606cb90aa8c4c8ebf96f4e7988e8e4c475bb842d75a76311b3d39cacd", "2.7.9a--h9ee0642_0": "sha256:d80ae2e0354e890d55ad0009e9ad9667d1113a679659071e6e02d50e46c8bba1", "2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "aliases": {"STAR": "/usr/local/bin/STAR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/star.

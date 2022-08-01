@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/fastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/fastqc/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/fastqc/container.yaml"
-updated_at: "2022-08-01 15:37:37.991737"
+updated_at: "2022-08-01 15:54:19.171273"
 latest: "0.11.9"
 container_url: "https://github.com/orgs/autamus/packages/container/package/fastqc"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "0.11.9"
  - "latest"
 description: "A quality control tool for high throughput sequence data."
+config: {"docker": "ghcr.io/autamus/fastqc", "url": "https://github.com/orgs/autamus/packages/container/package/fastqc", "maintainer": "@vsoch", "description": "A quality control tool for high throughput sequence data.", "latest": {"0.11.9": "sha256:adb7076dea3602571683acec15039079ddf2f7b517669ee39ecaccc368c6a4f3"}, "tags": {"0.11.9": "sha256:adb7076dea3602571683acec15039079ddf2f7b517669ee39ecaccc368c6a4f3", "latest": "sha256:adb7076dea3602571683acec15039079ddf2f7b517669ee39ecaccc368c6a4f3"}, "aliases": {"fastqc": "/opt/view/bin/fastqc"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/fastqc.

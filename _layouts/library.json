@@ -6,12 +6,12 @@ layout: none
 { {% for entry in site.library %}
  "{{ entry.name }}": {
     "name": "{{ entry.name }}",
-    "latest": "{{ entry.latest }}",
+    "url": "{{ entry.url }}",
+    "latest": {{ entry.config.latest | jsonify }},
     "maintainer": "{{ entry.maintainer }}",
     "description": "{{ entry.description }}",
-    "config": "{{ entry.config }}",
-    "github": "{{ entry.github }}",{% if entry.aliases %}
-    "aliases": [{% for alias in entry.aliases %}"{{ alias }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],{% endif %}
-    "tags": [{% for version in entry.versions %}"{{ version }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
+    "github": "{{ entry.github }}",{% if entry.config.aliases %}
+    "aliases": {{ entry.config.aliases | jsonify }},{% endif %}
+    "tags": {{ entry.config.tags | jsonify }}
    }{% if forloop.last %}{% else %},{% endif %}
 {% endfor %} }

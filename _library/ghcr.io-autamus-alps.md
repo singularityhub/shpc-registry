@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/alps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/alps/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/alps/container.yaml"
-updated_at: "2022-08-01 15:37:14.277292"
+updated_at: "2022-08-01 15:53:52.924569"
 latest: "2.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/alps"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "2.3.0"
  - "latest"
 description: "Algorithms and Libraries for Physics Simulations."
+config: {"docker": "ghcr.io/autamus/alps", "url": "https://github.com/orgs/autamus/packages/container/package/alps", "maintainer": "@vsoch", "description": "Algorithms and Libraries for Physics Simulations.", "latest": {"2.3.0": "sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214"}, "tags": {"2.3.0": "sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214", "latest": "sha256:475f8c97e26c19750dbfa005169a8b3dcb080075fc4e1280c5914efe3dbb2214"}, "aliases": {"alpspython": "/opt/view/bin/alpspython"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/alps.

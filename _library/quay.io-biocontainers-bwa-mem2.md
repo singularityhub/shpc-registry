@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-mem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-updated_at: "2022-08-01 15:36:48.355542"
+updated_at: "2022-08-01 15:53:25.292872"
 latest: "2.2.1--hd03093a_2"
 container_url: "https://quay.io/repository/biocontainers/bwa-mem2"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "2.2.1--h9a82719_1"
  - "2.2.1--hd03093a_2"
 description: "Bwa-mem2 is the next version of the bwa-mem algorithm in BWA."
+config: {"docker": "quay.io/biocontainers/bwa-mem2", "url": "https://quay.io/repository/biocontainers/bwa-mem2", "maintainer": "@marcodelapierre", "description": "Bwa-mem2 is the next version of the bwa-mem algorithm in BWA.", "latest": {"2.2.1--hd03093a_2": "sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a"}, "tags": {"2.2.1--h9a82719_1": "sha256:df29c78f3e199b8f1639f6fc53c47c039e23fb33d107ce53c6645e6bcc3a6415", "2.2.1--hd03093a_2": "sha256:df046077d0771d622d2889039050a995a71430ed155f0f94f52e944bf2785b2a"}, "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa-mem2.

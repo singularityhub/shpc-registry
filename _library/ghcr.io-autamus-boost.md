@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/boost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/boost/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/boost/container.yaml"
-updated_at: "2022-08-01 15:37:39.989286"
+updated_at: "2022-08-01 15:54:21.267812"
 latest: "1.78.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/boost"
 
@@ -15,6 +15,7 @@ versions:
  - "latest"
  - "1.76.0"
 description: "The Boost project provides free peer-reviewed portable C++ source libraries."
+config: {"docker": "ghcr.io/autamus/boost", "url": "https://github.com/orgs/autamus/packages/container/package/boost", "maintainer": "@vsoch", "description": "The Boost project provides free peer-reviewed portable C++ source libraries.", "latest": {"1.78.0": "sha256:14823770b03cd5289b491afdfc3fb9f64e3730f41abf770bc6055a4232b4081b"}, "tags": {"1.75.0": "sha256:a6d7914225fde46cdab70d01619de67a0162a9a3c7a2361563aff66dbd05c1e2", "1.77.0": "sha256:70ab543402b4f24532639460dd6db289762b0f48c847fbde9cbf148d2aeafd2e", "1.78.0": "sha256:14823770b03cd5289b491afdfc3fb9f64e3730f41abf770bc6055a4232b4081b", "latest": "sha256:14823770b03cd5289b491afdfc3fb9f64e3730f41abf770bc6055a4232b4081b", "1.76.0": "sha256:655fb10e42f73a9ed8ef67e9c2aa53ead1864800bf4488e864709113529c1f5f"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/boost.

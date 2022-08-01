@@ -4,7 +4,7 @@ name:  "bids/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/pymvpa/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/pymvpa/container.yaml"
-updated_at: "2022-08-01 15:37:10.314923"
+updated_at: "2022-08-01 15:53:49.021694"
 latest: "v2.0.2"
 container_url: "https://hub.docker.com/r/bids/pymvpa"
 
@@ -12,6 +12,7 @@ versions:
  - "latest"
  - "v2.0.2"
 description: "Take fMRI data and generates ROI based MultiVariate Pattern Analysis (MVPA) outputs (https://github.com/BIDS-Apps/PyMVPA)"
+config: {"docker": "bids/pymvpa", "url": "https://hub.docker.com/r/bids/pymvpa", "maintainer": "@vsoch", "description": "Take fMRI data and generates ROI based MultiVariate Pattern Analysis (MVPA) outputs (https://github.com/BIDS-Apps/PyMVPA)", "latest": {"v2.0.2": "sha256:923d3112afcde2dc182aea054ec70efdf42fc70e2e0a2bb252f7b9203965e250"}, "tags": {"latest": "sha256:923d3112afcde2dc182aea054ec70efdf42fc70e2e0a2bb252f7b9203965e250", "v2.0.2": "sha256:923d3112afcde2dc182aea054ec70efdf42fc70e2e0a2bb252f7b9203965e250"}, "filter": ["v*"]}
 ---
 
 This module is a singularity container wrapper for bids/pymvpa.

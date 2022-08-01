@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/scons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scons/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/scons/container.yaml"
-updated_at: "2022-08-01 15:37:23.943312"
+updated_at: "2022-08-01 15:54:03.769623"
 latest: "3.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scons"
 aliases:
@@ -22,6 +22,7 @@ versions:
  - "3.1.2"
  - "latest"
 description: "SCons is an Open Source software construction tool."
+config: {"docker": "ghcr.io/autamus/scons", "url": "https://github.com/orgs/autamus/packages/container/package/scons", "maintainer": "@vsoch", "description": "SCons is an Open Source software construction tool.", "latest": {"3.1.2": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f"}, "tags": {"3.1.2": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f", "latest": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f"}, "aliases": {"scons": "/opt/view/bin/scons", "scons-3.1.2": "/opt/view/bin/scons-3.1.2", "scons-3.1.2.bat": "/opt/view/bin/scons-3.1.2.bat", "scons-configure-cache": "/opt/view/bin/scons-configure-cache", "scons-configure-cache-3.1.2": "/opt/view/bin/scons-configure-cache-3.1.2", "scons-time": "/opt/view/bin/scons-time", "scons-time-3.1.2": "/opt/view/bin/scons-time-3.1.2", "scons.bat": "/opt/view/bin/scons.bat", "sconsign": "/opt/view/bin/sconsign", "sconsign-3.1.2": "/opt/view/bin/sconsign-3.1.2"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/scons.

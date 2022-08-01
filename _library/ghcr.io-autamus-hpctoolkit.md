@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hpctoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpctoolkit/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hpctoolkit/container.yaml"
-updated_at: "2022-08-01 15:37:13.148421"
+updated_at: "2022-08-01 15:53:51.890463"
 latest: "2021.10.15"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpctoolkit"
 aliases:
@@ -19,6 +19,7 @@ versions:
  - "2021.10.15"
  - "latest"
 description: "HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers."
+config: {"docker": "ghcr.io/autamus/hpctoolkit", "url": "https://github.com/orgs/autamus/packages/container/package/hpctoolkit", "maintainer": "@vsoch", "description": "HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers.", "latest": {"2021.10.15": "sha256:10863bac54a15aada73fc2bd399c993d610f6f1abd45a7ec0a1a9bb889a8cf18"}, "tags": {"2021.05.15": "sha256:c32cc6b317c9dbe3a216c8fe754c650ef9fd7dab74bc35d1739b21115b7aa446", "2021.10.15": "sha256:10863bac54a15aada73fc2bd399c993d610f6f1abd45a7ec0a1a9bb889a8cf18", "latest": "sha256:10863bac54a15aada73fc2bd399c993d610f6f1abd45a7ec0a1a9bb889a8cf18"}, "aliases": {"hello": "/opt/view/bin/hello", "hpclink": "/opt/view/bin/hpclink", "hpcprof": "/opt/view/bin/hpcprof", "hpcrun": "/opt/view/bin/hpcrun", "hpcstruct": "/opt/view/bin/hpcstruct", "hpcviewer": "/opt/view/bin/hpcviewer"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/hpctoolkit.

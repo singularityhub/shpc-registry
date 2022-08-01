@@ -4,13 +4,14 @@ name:  "nvcr.io/hpc/preflightcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/preflightcheck/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/preflightcheck/container.yaml"
-updated_at: "2022-08-01 15:36:58.402567"
+updated_at: "2022-08-01 15:53:36.488851"
 latest: "20.11"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck"
 
 versions:
  - "20.11"
 description: "The Pre-Flight Check container verifies that the container runtime is setup correctly for GPUs and InfiniBand."
+config: {"docker": "nvcr.io/hpc/preflightcheck", "latest": {"20.11": "sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e"}, "tags": {"20.11": "sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e"}, "filter": ["21*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck", "description": "The Pre-Flight Check container verifies that the container runtime is setup correctly for GPUs and InfiniBand.", "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/preflightcheck.

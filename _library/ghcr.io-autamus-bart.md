@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bart/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bart/container.yaml"
-updated_at: "2022-08-01 15:37:21.917410"
+updated_at: "2022-08-01 15:54:01.396621"
 latest: "0.7.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bart"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "0.7.00"
  - "latest"
 description: "BART: Toolbox for Computational Magnetic Resonance Imaging"
+config: {"docker": "ghcr.io/autamus/bart", "url": "https://github.com/orgs/autamus/packages/container/package/bart", "maintainer": "@vsoch", "description": "BART: Toolbox for Computational Magnetic Resonance Imaging", "latest": {"0.7.00": "sha256:a1a2217839b53ae07791d91ec357b73ce4c6295cc85857b11101e5c39c0e4ebb"}, "tags": {"0.6.00": "sha256:b34a28af344baff78aa6496214b647295b42291ca99031ce2d4cec30fff2ae13", "0.7.00": "sha256:a1a2217839b53ae07791d91ec357b73ce4c6295cc85857b11101e5c39c0e4ebb", "latest": "sha256:a1a2217839b53ae07791d91ec357b73ce4c6295cc85857b11101e5c39c0e4ebb"}, "aliases": {"bart": "/opt/view/bin/bart", "bartview": "/opt/view/bin/bartview"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/bart.

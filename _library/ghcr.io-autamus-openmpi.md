@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/openmpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openmpi/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/openmpi/container.yaml"
-updated_at: "2022-08-01 15:37:16.260007"
+updated_at: "2022-08-01 15:53:55.109025"
 latest: "4.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openmpi"
 aliases:
@@ -24,6 +24,7 @@ versions:
  - "4.1.1"
  - "4.1.2"
 description: "An open source Message Passing Interface implementation."
+config: {"docker": "ghcr.io/autamus/openmpi", "url": "https://github.com/orgs/autamus/packages/container/package/openmpi", "maintainer": "@vsoch", "description": "An open source Message Passing Interface implementation.", "latest": {"4.1.2": "sha256:bdd2678d73198138b3dbda082ea658cbc78fd6928497a8a8fb7cd54c3130ebd4"}, "tags": {"4.1.1": "sha256:571e607db699301e56d064f11e8c4d9f33bced922da04e018d679bf57649b7f4", "4.1.2": "sha256:bdd2678d73198138b3dbda082ea658cbc78fd6928497a8a8fb7cd54c3130ebd4"}, "aliases": {"mpiCC": "/opt/view/bin/mpiCC", "mpic++": "/opt/view/bin/mpic++", "mpicc": "/opt/view/bin/mpicc", "mpicxx": "/opt/view/bin/mpicxx", "mpiexec": "/opt/view/bin/mpiexec", "mpif77": "/opt/view/bin/mpif77", "mpif90": "/opt/view/bin/mpif90", "mpifort": "/opt/view/bin/mpifort", "mpirun": "/opt/view/bin/mpirun", "ompi-clean": "/opt/view/bin/ompi-clean", "ompi-server": "/opt/view/bin/ompi-server", "ompi_info": "/opt/view/bin/ompi_info"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/openmpi.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtools/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bedtools/container.yaml"
-updated_at: "2022-08-01 15:36:47.676900"
+updated_at: "2022-08-01 15:53:24.592098"
 latest: "2.30.0--h468198e_3"
 container_url: "https://quay.io/repository/biocontainers/bedtools"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "2.30.0--h7d7f7ad_1"
  - "2.30.0--h468198e_3"
 description: "Bedtools is the swiss army knife for genome arithmetic."
+config: {"docker": "quay.io/biocontainers/bedtools", "url": "https://quay.io/repository/biocontainers/bedtools", "maintainer": "@marcodelapierre", "description": "Bedtools is the swiss army knife for genome arithmetic.", "latest": {"2.30.0--h468198e_3": "sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1"}, "tags": {"2.30.0--hc088bd4_0": "sha256:b0018bd0a10853e19ee92f6d46d8d12f1c41e516845105e1f02c91b4d7b961b1", "2.30.0--h7d7f7ad_1": "sha256:a2e163619a608525ff784ee296c6925bb75fdc243573fe07edad8c91ee1ad83d", "2.30.0--h468198e_3": "sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1"}, "aliases": {"bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bedtools.

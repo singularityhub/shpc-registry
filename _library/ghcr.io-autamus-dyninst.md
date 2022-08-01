@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/dyninst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/dyninst/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/dyninst/container.yaml"
-updated_at: "2022-08-01 15:37:38.736235"
+updated_at: "2022-08-01 15:54:19.953409"
 latest: "11.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/dyninst"
 
@@ -12,6 +12,7 @@ versions:
  - "11.0.0"
  - "11.0.1"
 description: "DyninstAPI - Tools for binary instrumentation, analysis, and modification."
+config: {"docker": "ghcr.io/autamus/dyninst", "url": "https://github.com/orgs/autamus/packages/container/package/dyninst", "maintainer": "@vsoch", "description": "DyninstAPI - Tools for binary instrumentation, analysis, and modification.", "latest": {"11.0.1": "sha256:4dffdb17c63bd18fd62d3d9a23cd88bf67359ac738db016d1ba397049309ecf6"}, "tags": {"11.0.0": "sha256:c684f2bffc592e8ae8f82e977b93b6d8306483d5ca71dda81fa8828663122e3f", "11.0.1": "sha256:4dffdb17c63bd18fd62d3d9a23cd88bf67359ac738db016d1ba397049309ecf6"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/dyninst.

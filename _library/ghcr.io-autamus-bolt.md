@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bolt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bolt/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bolt/container.yaml"
-updated_at: "2022-08-01 15:37:50.570940"
+updated_at: "2022-08-01 15:54:32.820525"
 latest: "2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bolt"
 
@@ -12,6 +12,7 @@ versions:
  - "2.0"
  - "latest"
 description: "BOLT targets a high-performing OpenMP implementation, especially specialized for fine-grain parallelism."
+config: {"docker": "ghcr.io/autamus/bolt", "url": "https://github.com/orgs/autamus/packages/container/package/bolt", "maintainer": "@vsoch", "description": "BOLT targets a high-performing OpenMP implementation, especially specialized for fine-grain parallelism.", "latest": {"2.0": "sha256:15d91f6dd462b08092acc004459cc9b98975469d1223e04d05a79f1023fbf2d1"}, "tags": {"2.0": "sha256:15d91f6dd462b08092acc004459cc9b98975469d1223e04d05a79f1023fbf2d1", "latest": "sha256:15d91f6dd462b08092acc004459cc9b98975469d1223e04d05a79f1023fbf2d1"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/bolt.

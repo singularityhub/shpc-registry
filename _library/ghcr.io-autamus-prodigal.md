@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/prodigal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/prodigal/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/prodigal/container.yaml"
-updated_at: "2022-08-01 15:37:20.890184"
+updated_at: "2022-08-01 15:54:00.322879"
 latest: "2.6.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/prodigal"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "2.6.3"
  - "latest"
 description: "Prodigal Gene Prediction Software"
+config: {"docker": "ghcr.io/autamus/prodigal", "url": "https://github.com/orgs/autamus/packages/container/package/prodigal", "maintainer": "@vsoch", "description": "Prodigal Gene Prediction Software", "latest": {"2.6.3": "sha256:13874a0e9131e41eed2ce3c4c2a51a209f06d0d90f661fc81b5aa322abae6775"}, "tags": {"2.6.3": "sha256:13874a0e9131e41eed2ce3c4c2a51a209f06d0d90f661fc81b5aa322abae6775", "latest": "sha256:13874a0e9131e41eed2ce3c4c2a51a209f06d0d90f661fc81b5aa322abae6775"}, "aliases": {"prodigal": "/opt/view/prodigal"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/prodigal.

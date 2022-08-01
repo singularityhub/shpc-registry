@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/cuda-intel-hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/cuda-intel-hpc-python/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/pawsey/cuda-intel-hpc-python/container.yaml"
-updated_at: "2022-08-01 15:36:54.188707"
+updated_at: "2022-08-01 15:53:32.010119"
 latest: "2022.03"
 container_url: "https://quay.io/repository/pawsey/cuda-intel-hpc-python"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "2022.03"
  - "2022.03-hdf5mpi"
 description: "Base Python images with popular packages for HPC workflows, using Intel Python and with CUDA support."
+config: {"docker": "quay.io/pawsey/cuda-intel-hpc-python", "url": "https://quay.io/repository/pawsey/cuda-intel-hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows, using Intel Python and with CUDA support.", "latest": {"2022.03": "sha256:90462b7b03394421734ff744caa416f9de2d14dfa7d4878da279373301c6d4b6"}, "tags": {"2021.09": "sha256:3669ef9bdb54acf18f637e4a32ca9df177ce0b711d7054a8c87c37498a446d22", "2021.09-hdf5mpi": "sha256:f120d72b065efcbc93ba500dd166c8bdab3e5cdab2a8f42863f904665a118726", "2022.03": "sha256:90462b7b03394421734ff744caa416f9de2d14dfa7d4878da279373301c6d4b6", "2022.03-hdf5mpi": "sha256:fdceb909362b178b0f461a9e77cd2fd796f1892e0a4f9797c3378b19974bb121"}, "aliases": {"python": "/opt/conda/bin/python", "python3": "/opt/conda/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true, "gpu": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/cuda-intel-hpc-python.

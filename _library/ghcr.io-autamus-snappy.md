@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/snappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/snappy/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/snappy/container.yaml"
-updated_at: "2022-08-01 15:37:31.240373"
+updated_at: "2022-08-01 15:54:11.652274"
 latest: "1.1.8"
 container_url: "https://github.com/orgs/autamus/packages/container/package/snappy"
 
@@ -12,6 +12,7 @@ versions:
  - "1.1.8"
  - "latest"
 description: "Snappy (previously known as Zippy) is a fast data compression and decompression library written in C++ by Google based on ideas from LZ77 and open-sourced in 2011."
+config: {"docker": "ghcr.io/autamus/snappy", "url": "https://github.com/orgs/autamus/packages/container/package/snappy", "maintainer": "@vsoch", "description": "Snappy (previously known as Zippy) is a fast data compression and decompression library written in C++ by Google based on ideas from LZ77 and open-sourced in 2011.", "latest": {"1.1.8": "sha256:bfda9672e09dd6e8129977805ed743b4c113c6da59fdbd1edf32e6b11e9ba75a"}, "tags": {"1.1.8": "sha256:bfda9672e09dd6e8129977805ed743b4c113c6da59fdbd1edf32e6b11e9ba75a", "latest": "sha256:bfda9672e09dd6e8129977805ed743b4c113c6da59fdbd1edf32e6b11e9ba75a"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/snappy.

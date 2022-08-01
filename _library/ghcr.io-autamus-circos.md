@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/circos/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/circos/container.yaml"
-updated_at: "2022-08-01 15:37:16.020353"
+updated_at: "2022-08-01 15:53:54.805596"
 latest: "0.69.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/circos"
 aliases:
@@ -13,6 +13,7 @@ versions:
  - "0.69.6"
  - "latest"
 description: "Circos is a software package for visualizing data and information."
+config: {"docker": "ghcr.io/autamus/circos", "url": "https://github.com/orgs/autamus/packages/container/package/circos", "maintainer": "@vsoch", "description": "Circos is a software package for visualizing data and information.", "latest": {"0.69.6": "sha256:97ae8e1d1dcc48a4b4ebca62abb5a84455402bd05c7dda4050354caff1e6e85b"}, "tags": {"0.69.6": "sha256:97ae8e1d1dcc48a4b4ebca62abb5a84455402bd05c7dda4050354caff1e6e85b", "latest": "sha256:97ae8e1d1dcc48a4b4ebca62abb5a84455402bd05c7dda4050354caff1e6e85b"}, "aliases": {"circos": "/opt/view/bin/circos"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/circos.

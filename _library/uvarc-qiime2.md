@@ -4,13 +4,14 @@ name:  "uvarc/qiime2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/uvarc/qiime2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/uvarc/qiime2/container.yaml"
-updated_at: "2022-08-01 15:36:56.053135"
+updated_at: "2022-08-01 15:53:34.007760"
 latest: "2020.8"
 container_url: "https://hub.docker.com/r/uvarc/qiime2"
 
 versions:
  - "2020.8"
 description: "QIIME2. Same functionality as the official image but less than half the size. Includes packages Empress and PICRUSt2."
+config: {"docker": "uvarc/qiime2", "latest": {"2020.8": "sha256:7b380f190ae5de431a9b350b6b7edef1bc718e5d2fc4412a543a7201d95c4999"}, "tags": {"2020.8": "sha256:7b380f190ae5de431a9b350b6b7edef1bc718e5d2fc4412a543a7201d95c4999"}, "filter": ["2021*"], "maintainer": "@vsoch", "url": "https://hub.docker.com/r/uvarc/qiime2", "description": "QIIME2. Same functionality as the official image but less than half the size. Includes packages Empress and PICRUSt2."}
 ---
 
 This module is a singularity container wrapper for uvarc/qiime2.

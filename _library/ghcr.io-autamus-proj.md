@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/proj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/proj/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/proj/container.yaml"
-updated_at: "2022-08-01 15:37:20.629373"
+updated_at: "2022-08-01 15:54:00.011270"
 latest: "8.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/proj"
 aliases:
@@ -16,6 +16,7 @@ versions:
  - "8.1.0"
  - "latest"
 description: "PROJ is a generic coordinate transformation software, that transforms coordinates from one coordinate reference system (CRS) to another."
+config: {"docker": "ghcr.io/autamus/proj", "url": "https://github.com/orgs/autamus/packages/container/package/proj", "maintainer": "@vsoch", "description": "PROJ is a generic coordinate transformation software, that transforms coordinates from one coordinate reference system (CRS) to another.", "latest": {"8.1.0": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a"}, "tags": {"7.2.1": "sha256:38ece517a69a68bd8e92237432621c08a2f2b8d2db3d4951196cbb2efa575b11", "8.1.0": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a", "latest": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a"}, "aliases": {"proj": "/opt/view/bin/proj", "projinfo": "/opt/view/bin/projinfo", "projsync": "/opt/view/bin/projsync"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/proj.

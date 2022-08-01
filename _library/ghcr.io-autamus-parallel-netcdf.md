@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/parallel-netcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/parallel-netcdf/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/parallel-netcdf/container.yaml"
-updated_at: "2022-08-01 15:37:34.871032"
+updated_at: "2022-08-01 15:54:15.380824"
 latest: "1.12.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/parallel-netcdf"
 aliases:
@@ -14,6 +14,7 @@ versions:
  - "1.12.2"
  - "latest"
 description: "PnetCDF (Parallel netCDF) is a high-performance parallel I/O library for accessing files in format compatibility with Unidata's NetCDF, specifically the formats of CDF-1, 2, and 5."
+config: {"docker": "ghcr.io/autamus/parallel-netcdf", "url": "https://github.com/orgs/autamus/packages/container/package/parallel-netcdf", "maintainer": "@vsoch", "description": "PnetCDF (Parallel netCDF) is a high-performance parallel I/O library for accessing files in format compatibility with Unidata's NetCDF, specifically the formats of CDF-1, 2, and 5.", "latest": {"1.12.2": "sha256:4bb33f028452988fdebd920ebc18cc79f14acd82db8952941a046f40eb41eefa"}, "tags": {"1.12.2": "sha256:4bb33f028452988fdebd920ebc18cc79f14acd82db8952941a046f40eb41eefa", "latest": "sha256:4bb33f028452988fdebd920ebc18cc79f14acd82db8952941a046f40eb41eefa"}, "aliases": {"pnetcdf-config": "/opt/view/bin/pnetcdf-config", "pnetcdf_version": "/opt/view/bin/pnetcdf_version"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/parallel-netcdf.

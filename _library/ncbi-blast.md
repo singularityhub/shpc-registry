@@ -4,7 +4,7 @@ name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2022-08-01 15:36:55.592099"
+updated_at: "2022-08-01 15:53:33.509086"
 latest: "2.13.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 
@@ -14,6 +14,7 @@ versions:
  - "latest"
  - "2.13.0"
 description: "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences."
+config: {"docker": "ncbi/blast", "url": "https://hub.docker.com/r/ncbi/blast", "maintainer": "@vsoch", "description": "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.", "latest": {"2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced"}, "tags": {"2.11.0": "sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922", "2.12.0": "sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517", "latest": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced", "2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced"}}
 ---
 
 This module is a singularity container wrapper for ncbi/blast.

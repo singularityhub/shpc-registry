@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/r-seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/r-seqlogo/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/r-seqlogo/container.yaml"
-updated_at: "2022-08-01 15:37:29.216368"
+updated_at: "2022-08-01 15:54:09.503961"
 latest: "1.56.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/r-seqlogo"
 
@@ -12,6 +12,7 @@ versions:
  - "1.56.0"
  - "latest"
 description: "Sequence logos for DNA sequence alignments"
+config: {"docker": "ghcr.io/autamus/r-seqlogo", "url": "https://github.com/orgs/autamus/packages/container/package/r-seqlogo", "maintainer": "@vsoch", "description": "Sequence logos for DNA sequence alignments", "latest": {"1.56.0": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724"}, "tags": {"1.56.0": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724", "latest": "sha256:761a07e0c24d4fc7657c99825128717253a616fd1f0e00a48ab611f899649724"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/r-seqlogo.

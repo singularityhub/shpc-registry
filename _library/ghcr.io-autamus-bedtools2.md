@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bedtools2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bedtools2/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bedtools2/container.yaml"
-updated_at: "2022-08-01 15:37:54.019939"
+updated_at: "2022-08-01 15:54:36.450116"
 latest: "2.30.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bedtools2"
 aliases:
@@ -42,6 +42,7 @@ versions:
  - "2.30.0"
  - "latest"
 description: "The swiss army knife for genome arithmetic"
+config: {"docker": "ghcr.io/autamus/bedtools2", "url": "https://github.com/orgs/autamus/packages/container/package/bedtools2", "maintainer": "@vsoch", "description": "The swiss army knife for genome arithmetic", "latest": {"2.30.0": "sha256:79a3a9ac5f2d0726ad9c9675fce2d49c54726a7755467c3a8cf6f3f364c07df2"}, "tags": {"2.30.0": "sha256:79a3a9ac5f2d0726ad9c9675fce2d49c54726a7755467c3a8cf6f3f364c07df2", "latest": "sha256:79a3a9ac5f2d0726ad9c9675fce2d49c54726a7755467c3a8cf6f3f364c07df2"}, "aliases": {"annotateBed": "/opt/view/bin/annotateBed", "bamToBed": "/opt/view/bin/bamToBed", "bed12ToBed6": "/opt/view/bin/bed12ToBed6", "bedToBam": "/opt/view/bin/bedToBam", "bedToIgv": "/opt/view/bin/bedToIgv", "bedpeToBam": "/opt/view/bin/bedpeToBam", "bedtools": "/opt/view/bin/bedtools", "closestBed": "/opt/view/bin/closestBed", "clusterBed": "/opt/view/bin/clusterBed", "complementBed": "/opt/view/bin/complementBed", "coverageBed": "/opt/view/bin/coverageBed", "fastaFromBed": "/opt/view/bin/fastaFromBed", "flankBed": "/opt/view/bin/flankBed", "genomeCoverageBed": "/opt/view/bin/genomeCoverageBed", "intersectBed": "/opt/view/bin/intersectBed", "linksBed": "/opt/view/bin/linksBed", "mapBed": "/opt/view/bin/mapBed", "maskFastaFromBed": "/opt/view/bin/maskFastaFromBed", "mergeBed": "/opt/view/bin/mergeBed", "multiIntersectBed": "/opt/view/bin/multiIntersectBed", "nucBed": "/opt/view/bin/nucBed", "pairToBed": "/opt/view/bin/pairToBed", "randomBed": "/opt/view/bin/randomBed", "shiftBed": "/opt/view/bin/shiftBed", "shuffleBed": "/opt/view/bin/shuffleBed", "slopBed": "/opt/view/bin/slopBed", "sortBed": "/opt/view/bin/sortBed", "subtractBed": "/opt/view/bin/subtractBed", "unionBedGraphs": "/opt/view/bin/unionBedGraphs", "windowBed": "/opt/view/bin/windowBed"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/bedtools2.

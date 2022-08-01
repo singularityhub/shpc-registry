@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/valgrind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/valgrind/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/valgrind/container.yaml"
-updated_at: "2022-08-01 15:37:38.991723"
+updated_at: "2022-08-01 15:54:20.238335"
 latest: "3.17.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/valgrind"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "3.17.0"
  - "latest"
 description: "A suite of tools for debugging and profiling. "
+config: {"docker": "ghcr.io/autamus/valgrind", "url": "https://github.com/orgs/autamus/packages/container/package/valgrind", "maintainer": "@vsoch", "description": "A suite of tools for debugging and profiling. ", "latest": {"3.17.0": "sha256:8d76ab0b31cb1ee748abd9618c101efeb3806507c1d31a5638b90c7feacb9e6b"}, "tags": {"3.17.0": "sha256:8d76ab0b31cb1ee748abd9618c101efeb3806507c1d31a5638b90c7feacb9e6b", "latest": "sha256:8d76ab0b31cb1ee748abd9618c101efeb3806507c1d31a5638b90c7feacb9e6b"}, "aliases": {"valgrind": "/opt/view/bin/valgrind", "valgrind-di-server": "/opt/view/bin/valgrind-di-server", "valgrind-listener": "/opt/view/bin/valgrind-listener"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/valgrind.

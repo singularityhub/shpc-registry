@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cdo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cdo/container.yaml"
 config: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cdo/container.yaml"
-updated_at: "2022-08-01 15:37:54.256910"
+updated_at: "2022-08-01 15:54:36.700583"
 latest: "2.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cdo"
 aliases:
@@ -15,6 +15,7 @@ versions:
  - "2.0.2"
  - "latest"
 description: "CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data."
+config: {"docker": "ghcr.io/autamus/cdo", "url": "https://github.com/orgs/autamus/packages/container/package/cdo", "maintainer": "@vsoch", "description": "CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.", "latest": {"2.0.2": "sha256:bf9371003d5c5b82d9461100d2abeda78d6720dd6a003ec6a50a9acae2c5c272"}, "tags": {"1.9.10": "sha256:eaca37691d65bff0c742ec985a21402fc580ac40b272f5fb4a7c540ee432055f", "2.0.0": "sha256:8c0c87162310ef914c0c48c3fac00c73f4572c1b5e1e10d6c35e54219103e0f7", "2.0.2": "sha256:bf9371003d5c5b82d9461100d2abeda78d6720dd6a003ec6a50a9acae2c5c272", "latest": "sha256:bf9371003d5c5b82d9461100d2abeda78d6720dd6a003ec6a50a9acae2c5c272"}, "aliases": {"cdo": "/opt/view/bin/cdo"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/cdo.
