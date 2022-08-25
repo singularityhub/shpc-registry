@@ -1,0 +1,26 @@
+name: Generate Container Yaml
+on:
+  pull_request: []
+  workflow_dispatch: 
+    inputs:
+      docker_uri:
+        description: 'Docker identifier to generate recipe for'
+        required: true
+        default: "quay.io/autamus/clingo:5.5.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: read
+    name: ${{ inputs.docker_uri }}
+    steps:
+      - name: Show Job Config
+        run: |
+           echo "Preparing ${{ inputs.docker_uri }}"
+
+      - name: Install Syft
+        run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+
+      - name: Generate sbom
+        run: syft ${{ inputs.docker_uri }}

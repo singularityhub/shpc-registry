@@ -19,6 +19,8 @@ jobs:
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
+
+          # TODO update this wtih development branch
           pip install git+https://github.com/singularityhub/singularity-hpc@main
           git clone https://github.com/singularityhub/shpc-registry /tmp/registry
 
@@ -28,8 +30,8 @@ jobs:
           source activate shpc
           /bin/bash generate.sh /tmp/registry
 
-#      - name: Deploy 🚀
-#        uses: JamesIves/github-pages-deploy-action@4.1.1
-#        with:
-#          branch: gh-pages
-#          folder: .
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: .
