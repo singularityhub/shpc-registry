@@ -9,18 +9,20 @@ on:
         default: "quay.io/autamus/clingo:5.5.1"
 
 jobs:
-  build:
+  generate-recipe:
     runs-on: ubuntu-latest
     permissions:
       packages: read
     name: ${{ inputs.docker_uri }}
     steps:
-      - name: Show Job Config
-        run: |
-           echo "Preparing ${{ inputs.docker_uri }}"
-
       - name: Install Syft
         run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
 
       - name: Generate sbom
-        run: syft ${{ inputs.docker_uri }}
+        docker_uri: ${{ inputs.docker_uri }}
+        run: |
+          if [ "${docker_uri}" == "" ]; then
+              docker_uri=quay.io/autamus/clingo:5.5.1
+          fi
+          echo "Preparing ${docker_uri}"
+          syft ${{ inputs.docker_uri }}
