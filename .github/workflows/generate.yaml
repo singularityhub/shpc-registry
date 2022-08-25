@@ -7,7 +7,6 @@ on:
         description: 'Docker identifier to generate recipe for'
         required: true
         default: "quay.io/autamus/clingo:5.5.1"
-
 jobs:
   generate-recipe:
     runs-on: ubuntu-latest
@@ -26,4 +25,4 @@ jobs:
               docker_uri=quay.io/autamus/clingo:5.5.1
           fi
           echo "Preparing ${docker_uri}"
-          syft ${{ inputs.docker_uri }}
+          syft packages ${{ inputs.docker_uri }} -o json
