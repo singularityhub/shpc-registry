@@ -19,7 +19,8 @@ jobs:
         run: curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
 
       - name: Generate sbom
-        docker_uri: ${{ inputs.docker_uri }}
+        env:
+          docker_uri: ${{ inputs.docker_uri }}
         run: |
           if [ "${docker_uri}" == "" ]; then
               docker_uri=quay.io/autamus/clingo:5.5.1
