@@ -25,4 +25,4 @@ jobs:
               docker_uri=quay.io/autamus/clingo:5.5.1
           fi
           echo "Preparing ${docker_uri}"
-          syft packages ${{ inputs.docker_uri }} -o json
+          syft packages docker:${{ inputs.docker_uri }} -o json
