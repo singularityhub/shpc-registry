@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/metall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/metall/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/metall/container.yaml"
-updated_at: "2022-08-27 01:43:01.999275"
+updated_at: "2022-08-27 01:46:09.303209"
 latest: "0.18"
 container_url: "https://github.com/orgs/autamus/packages/container/package/metall"
 
