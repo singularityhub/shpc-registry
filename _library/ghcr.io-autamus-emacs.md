@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/emacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/emacs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/emacs/container.yaml"
-updated_at: "2022-08-27 03:51:26.581008"
+updated_at: "2022-08-27 04:09:35.233904"
 latest: "27.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/emacs"
 aliases:
