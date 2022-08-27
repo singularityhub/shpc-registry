@@ -1,10 +1,6 @@
 name: 'Update Containers'
 
 on:
-  push:
-    branches:
-      - main
-
   schedule:
     # Once a month
     - cron: '0 0 1 * *'
