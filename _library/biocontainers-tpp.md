@@ -4,7 +4,7 @@ name:  "biocontainers/tpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tpp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tpp/container.yaml"
-updated_at: "2022-08-01 16:18:22.190228"
+updated_at: "2022-08-27 01:42:13.254475"
 latest: "v5.2_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tpp"
 aliases:
