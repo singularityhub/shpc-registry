@@ -19,7 +19,7 @@ jobs:
           echo $today
           echo "tag=${today}" >> ${GITHUB_ENV}
       - name: Tag and Release
-        uses: avakar/tag-and-release@3d2de22e3d0beab188d8129c27f103d8e91bf13a
+        uses: avakar/tag-and-release@8f4b627f03fe59381267d3925d39191e27f44236
         with:
           tag: ${{ env.tag }}
           generateReleaseNotes: true
