@@ -4,7 +4,7 @@ latest:
 tags:
   "20.10-hpl": "sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98"
 filter:
-  - "20.10**"
+  - "20.10*"
 maintainer: "@vsoch"
 url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
 description: "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA."
