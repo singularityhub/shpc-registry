@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pdt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pdt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/pdt/container.yaml"
-updated_at: "2022-08-27 03:20:32.556361"
+updated_at: "2022-08-27 03:41:34.208898"
 latest: "3.25.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pdt"
 
@@ -12,7 +12,7 @@ versions:
  - "3.25.1"
  - "latest"
 description: "Program Database Toolkit (PDT) is a framework for analyzing source code written in several programming languages and for making rich program knowledge accessible to developers of static and dynamic analysis tools."
-config: {"docker": "ghcr.io/autamus/pdt", "url": "https://github.com/orgs/autamus/packages/container/package/pdt", "maintainer": "@vsoch", "description": "Program Database Toolkit (PDT) is a framework for analyzing source code written in several programming languages and for making rich program knowledge accessible to developers of static and dynamic analysis tools.", "latest": {"3.25.1": "sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e"}, "tags": {"3.25.1": "sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e", "latest": "sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e"}}
+config: {"docker": "ghcr.io/autamus/pdt", "url": "https://github.com/orgs/autamus/packages/container/package/pdt", "maintainer": "@vsoch", "description": "Program Database Toolkit (PDT) is a framework for analyzing source code written in several programming languages and for making rich program knowledge accessible to developers of static and dynamic analysis tools.", "latest": {"3.25.1": "sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16"}, "tags": {"3.25.1": "sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16", "latest": "sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/pdt.

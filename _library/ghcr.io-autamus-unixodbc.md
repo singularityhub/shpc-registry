@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/unixodbc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/unixodbc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/unixodbc/container.yaml"
-updated_at: "2022-08-27 03:20:30.503708"
+updated_at: "2022-08-27 03:41:31.953721"
 latest: "2.3.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/unixodbc"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "2.3.4"
  - "latest"
 description: "unixODBC-Test containing Qt based ODBC test tool, and autotest framework."
-config: {"docker": "ghcr.io/autamus/unixodbc", "url": "https://github.com/orgs/autamus/packages/container/package/unixodbc", "maintainer": "@vsoch", "description": "unixODBC-Test containing Qt based ODBC test tool, and autotest framework.", "latest": {"2.3.4": "sha256:dcf6d3fa3d50eba2b404c6f5d07dbec71cce60794fc84b99520b181cdec9c772"}, "tags": {"2.3.4": "sha256:dcf6d3fa3d50eba2b404c6f5d07dbec71cce60794fc84b99520b181cdec9c772", "latest": "sha256:dcf6d3fa3d50eba2b404c6f5d07dbec71cce60794fc84b99520b181cdec9c772"}, "aliases": {"odbc_config": "/opt/view/bin/odbc_config", "odbcinst": "/opt/view/bin/odbcinst"}}
+config: {"docker": "ghcr.io/autamus/unixodbc", "url": "https://github.com/orgs/autamus/packages/container/package/unixodbc", "maintainer": "@vsoch", "description": "unixODBC-Test containing Qt based ODBC test tool, and autotest framework.", "latest": {"2.3.4": "sha256:6f2a7eb8cba492f02ac83c1dd67e0cfaed157c120e0330db76153febc50d2e48"}, "tags": {"2.3.4": "sha256:6f2a7eb8cba492f02ac83c1dd67e0cfaed157c120e0330db76153febc50d2e48", "latest": "sha256:6f2a7eb8cba492f02ac83c1dd67e0cfaed157c120e0330db76153febc50d2e48"}, "aliases": {"odbc_config": "/opt/view/bin/odbc_config", "odbcinst": "/opt/view/bin/odbcinst"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/unixodbc.

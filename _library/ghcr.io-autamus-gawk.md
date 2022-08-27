@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gawk/container.yaml"
-updated_at: "2022-08-27 03:21:18.082517"
+updated_at: "2022-08-27 03:42:23.983750"
 latest: "5.10.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gawk"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "5.1.1"
  - "5.10.0"
 description: "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/"
-config: {"docker": "ghcr.io/autamus/gawk", "url": "https://github.com/orgs/autamus/packages/container/package/gawk", "maintainer": "@vsoch", "description": "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/", "latest": {"5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "tags": {"5.1.0": "sha256:b08a8df43c51257c5de2362eb68ee572494ce38609e689772faf41dd4cf0ffdb", "5.1.1": "sha256:be4b147d5ed626c31f613b4cb6649478e9399748caea87cfc724fbd17e9780b4", "5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "aliases": {"gawk": "/opt/view/bin/gawk"}}
+config: {"docker": "ghcr.io/autamus/gawk", "url": "https://github.com/orgs/autamus/packages/container/package/gawk", "maintainer": "@vsoch", "description": "gawk is the GNU implementation of awk. The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code. https://www.gnu.org/software/gawk/", "latest": {"5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "tags": {"5.1.0": "sha256:b08a8df43c51257c5de2362eb68ee572494ce38609e689772faf41dd4cf0ffdb", "5.1.1": "sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1", "5.10.0": "sha256:502eebe2f9a93ce7bb06fc6f97f8ce8dd76802a380ade9b4c71f0d3f15ef0a45"}, "aliases": {"gawk": "/opt/view/bin/gawk"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gawk.

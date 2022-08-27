@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/corset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/corset/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/corset/container.yaml"
-updated_at: "2022-08-27 03:21:05.676412"
+updated_at: "2022-08-27 03:42:10.388371"
 latest: "1.09"
 container_url: "https://github.com/orgs/autamus/packages/container/package/corset"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.09"
  - "latest"
 description: "Corset is a command-line program to go from a de novo transcriptome assembly to gene-level counts."
-config: {"docker": "ghcr.io/autamus/corset", "url": "https://github.com/orgs/autamus/packages/container/package/corset", "maintainer": "@vsoch", "description": "Corset is a command-line program to go from a de novo transcriptome assembly to gene-level counts.", "latest": {"1.09": "sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378"}, "tags": {"1.09": "sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378", "latest": "sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378"}, "aliases": {"corset": "/opt/view/bin/corset", "corset_fasta_ID_changer": "/opt/view/bin/corset_fasta_ID_changer"}}
+config: {"docker": "ghcr.io/autamus/corset", "url": "https://github.com/orgs/autamus/packages/container/package/corset", "maintainer": "@vsoch", "description": "Corset is a command-line program to go from a de novo transcriptome assembly to gene-level counts.", "latest": {"1.09": "sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1"}, "tags": {"1.09": "sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1", "latest": "sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1"}, "aliases": {"corset": "/opt/view/bin/corset", "corset_fasta_ID_changer": "/opt/view/bin/corset_fasta_ID_changer"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/corset.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/glpk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/glpk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/glpk/container.yaml"
-updated_at: "2022-08-27 03:20:15.218379"
+updated_at: "2022-08-27 03:41:15.076275"
 latest: "4.65"
 container_url: "https://github.com/orgs/autamus/packages/container/package/glpk"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "4.65"
  - "latest"
 description: "The GLPK package is a set of routines written in ANSI C and organized in the form of a callable library. This package is intended for solving large-scale linear programming (LP), mixed integer linear programming (MIP), and other related problems."
-config: {"docker": "ghcr.io/autamus/glpk", "url": "https://github.com/orgs/autamus/packages/container/package/glpk", "maintainer": "@vsoch", "description": "The GLPK package is a set of routines written in ANSI C and organized in the form of a callable library. This package is intended for solving large-scale linear programming (LP), mixed integer linear programming (MIP), and other related problems.", "latest": {"4.65": "sha256:80145d616bc26f09eb8443684751162fbbd990791b8f14311e1dc3b4b93bfc4a"}, "tags": {"4.65": "sha256:80145d616bc26f09eb8443684751162fbbd990791b8f14311e1dc3b4b93bfc4a", "latest": "sha256:80145d616bc26f09eb8443684751162fbbd990791b8f14311e1dc3b4b93bfc4a"}, "aliases": {"glpsol": "/opt/view/bin/glpsol"}}
+config: {"docker": "ghcr.io/autamus/glpk", "url": "https://github.com/orgs/autamus/packages/container/package/glpk", "maintainer": "@vsoch", "description": "The GLPK package is a set of routines written in ANSI C and organized in the form of a callable library. This package is intended for solving large-scale linear programming (LP), mixed integer linear programming (MIP), and other related problems.", "latest": {"4.65": "sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa"}, "tags": {"4.65": "sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa", "latest": "sha256:76c79d26c63d0d5f084b5ddf792f12894822779886953df37c0f83f6fbe154fa"}, "aliases": {"glpsol": "/opt/view/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/glpk.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libpng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libpng/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/libpng/container.yaml"
-updated_at: "2022-08-27 03:21:16.847897"
+updated_at: "2022-08-27 03:42:22.650837"
 latest: "1.6.37"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libpng"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.6.37"
  - "latest"
 description: "libpng is the official PNG reference library."
-config: {"docker": "ghcr.io/autamus/libpng", "url": "https://github.com/orgs/autamus/packages/container/package/libpng", "maintainer": "@vsoch", "description": "libpng is the official PNG reference library.", "latest": {"1.6.37": "sha256:d7a0870b2bbf44308f510198267556e71a72fea9f137731e48234eae24abd17e"}, "tags": {"1.6.37": "sha256:d7a0870b2bbf44308f510198267556e71a72fea9f137731e48234eae24abd17e", "latest": "sha256:d7a0870b2bbf44308f510198267556e71a72fea9f137731e48234eae24abd17e"}, "aliases": {"libpng-config": "/opt/view/bin/libpng-config", "libpng16-config": "/opt/view/bin/libpng16-config", "png-fix-itxt": "/opt/view/bin/png-fix-itxt", "pngfix": "/opt/view/bin/pngfix"}}
+config: {"docker": "ghcr.io/autamus/libpng", "url": "https://github.com/orgs/autamus/packages/container/package/libpng", "maintainer": "@vsoch", "description": "libpng is the official PNG reference library.", "latest": {"1.6.37": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712"}, "tags": {"1.6.37": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712", "latest": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712"}, "aliases": {"libpng-config": "/opt/view/bin/libpng-config", "libpng16-config": "/opt/view/bin/libpng16-config", "png-fix-itxt": "/opt/view/bin/png-fix-itxt", "pngfix": "/opt/view/bin/pngfix"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/libpng.

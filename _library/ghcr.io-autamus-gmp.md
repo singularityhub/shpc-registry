@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gmp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gmp/container.yaml"
-updated_at: "2022-08-27 03:20:37.926620"
+updated_at: "2022-08-27 03:41:40.075934"
 latest: "6.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gmp"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "6.2.1"
  - "latest"
 description: "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers."
-config: {"docker": "ghcr.io/autamus/gmp", "url": "https://github.com/orgs/autamus/packages/container/package/gmp", "maintainer": "@vsoch", "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.", "latest": {"6.2.1": "sha256:2117e25bb2247a8011c23ca9d6ed293d854a834c8ed0b1145d36dd81092d94f9"}, "tags": {"6.2.1": "sha256:2117e25bb2247a8011c23ca9d6ed293d854a834c8ed0b1145d36dd81092d94f9", "latest": "sha256:2117e25bb2247a8011c23ca9d6ed293d854a834c8ed0b1145d36dd81092d94f9"}, "aliases": {"curl": "/opt/view/bin/curl"}}
+config: {"docker": "ghcr.io/autamus/gmp", "url": "https://github.com/orgs/autamus/packages/container/package/gmp", "maintainer": "@vsoch", "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.", "latest": {"6.2.1": "sha256:bc56a6c4d19be34d5ad9bc0533a281fd203565faad1d29640eb5b2cae85e59ef"}, "tags": {"6.2.1": "sha256:bc56a6c4d19be34d5ad9bc0533a281fd203565faad1d29640eb5b2cae85e59ef", "latest": "sha256:bc56a6c4d19be34d5ad9bc0533a281fd203565faad1d29640eb5b2cae85e59ef"}, "aliases": {"curl": "/opt/view/bin/curl"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gmp.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/advancecomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/advancecomp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/advancecomp/container.yaml"
-updated_at: "2022-08-27 03:21:04.026212"
+updated_at: "2022-08-27 03:42:08.526641"
 latest: "2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/advancecomp"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "2.1"
  - "latest"
 description: "AdvanceCOMP is a set of cross-platform command line data (re-)compression tools."
-config: {"docker": "ghcr.io/autamus/advancecomp", "url": "https://github.com/orgs/autamus/packages/container/package/advancecomp", "maintainer": "@vsoch", "description": "AdvanceCOMP is a set of cross-platform command line data (re-)compression tools.", "latest": {"2.1": "sha256:50bb59d0a6a6c075060ebfa0d91bb14abc25186a9a67fd24a181163ac2382655"}, "tags": {"2.1": "sha256:50bb59d0a6a6c075060ebfa0d91bb14abc25186a9a67fd24a181163ac2382655", "latest": "sha256:50bb59d0a6a6c075060ebfa0d91bb14abc25186a9a67fd24a181163ac2382655"}, "aliases": {"advdef": "/opt/view/bin/advdef", "advmng": "/opt/view/bin/advmng", "advpng": "/opt/view/bin/advpng", "advzip": "/opt/view/bin/advzip"}}
+config: {"docker": "ghcr.io/autamus/advancecomp", "url": "https://github.com/orgs/autamus/packages/container/package/advancecomp", "maintainer": "@vsoch", "description": "AdvanceCOMP is a set of cross-platform command line data (re-)compression tools.", "latest": {"2.1": "sha256:93b10f8caa556023e63bf044268caee6e22491e2509a532a819b2dffcbe68f0a"}, "tags": {"2.1": "sha256:93b10f8caa556023e63bf044268caee6e22491e2509a532a819b2dffcbe68f0a", "latest": "sha256:93b10f8caa556023e63bf044268caee6e22491e2509a532a819b2dffcbe68f0a"}, "aliases": {"advdef": "/opt/view/bin/advdef", "advmng": "/opt/view/bin/advmng", "advpng": "/opt/view/bin/advpng", "advzip": "/opt/view/bin/advzip"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/advancecomp.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/astral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/astral/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/astral/container.yaml"
-updated_at: "2022-08-27 03:20:24.709066"
+updated_at: "2022-08-27 03:41:25.630349"
 latest: "5.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/astral"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "5.7.1"
  - "latest"
 description: "ASTRAL is a tool for estimating an unrooted species tree given a set of unrooted gene trees."
-config: {"docker": "ghcr.io/autamus/astral", "url": "https://github.com/orgs/autamus/packages/container/package/astral", "maintainer": "@vsoch", "description": "ASTRAL is a tool for estimating an unrooted species tree given a set of unrooted gene trees.", "latest": {"5.7.1": "sha256:1a1d72378596549fcf60cbbf3d7e5fc57d31c374e0ebf51869d90a4ac1702425"}, "tags": {"5.7.1": "sha256:1a1d72378596549fcf60cbbf3d7e5fc57d31c374e0ebf51869d90a4ac1702425", "latest": "sha256:1a1d72378596549fcf60cbbf3d7e5fc57d31c374e0ebf51869d90a4ac1702425"}, "aliases": {"astral": "/opt/view/bin/astral"}}
+config: {"docker": "ghcr.io/autamus/astral", "url": "https://github.com/orgs/autamus/packages/container/package/astral", "maintainer": "@vsoch", "description": "ASTRAL is a tool for estimating an unrooted species tree given a set of unrooted gene trees.", "latest": {"5.7.1": "sha256:681e69d672540c91f901d24c38d28a72cc76cb0680da77fbab20077e3f857de0"}, "tags": {"5.7.1": "sha256:681e69d672540c91f901d24c38d28a72cc76cb0680da77fbab20077e3f857de0", "latest": "sha256:681e69d672540c91f901d24c38d28a72cc76cb0680da77fbab20077e3f857de0"}, "aliases": {"astral": "/opt/view/bin/astral"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/astral.

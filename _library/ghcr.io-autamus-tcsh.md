@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/tcsh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tcsh/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/tcsh/container.yaml"
-updated_at: "2022-08-27 03:21:13.527705"
+updated_at: "2022-08-27 03:42:19.008718"
 latest: "6.24.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tcsh"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "latest"
  - "6.24.00"
 
-config: {"docker": "ghcr.io/autamus/tcsh", "url": "https://github.com/orgs/autamus/packages/container/package/tcsh", "maintainer": "@vsoch", "description": "", "latest": {"6.24.00": "sha256:21c9e094193e4801e8ab6b6f1a651a99978766f0e98cb5d3b735ce4e81d272f3"}, "tags": {"6.22.02": "sha256:4c38a838e2139498164279b214c80acc45637c24ecd098fc725b80bbf94094c8", "latest": "sha256:21c9e094193e4801e8ab6b6f1a651a99978766f0e98cb5d3b735ce4e81d272f3", "6.24.00": "sha256:21c9e094193e4801e8ab6b6f1a651a99978766f0e98cb5d3b735ce4e81d272f3"}, "aliases": {"tcsh": "/opt/view/bin/tcsh"}}
+config: {"docker": "ghcr.io/autamus/tcsh", "url": "https://github.com/orgs/autamus/packages/container/package/tcsh", "maintainer": "@vsoch", "description": "", "latest": {"6.24.00": "sha256:831d9880c678e9c38e1ea777dcc4fa96b9618016a3b9dee53ba72df7d2901010"}, "tags": {"6.22.02": "sha256:4c38a838e2139498164279b214c80acc45637c24ecd098fc725b80bbf94094c8", "latest": "sha256:831d9880c678e9c38e1ea777dcc4fa96b9618016a3b9dee53ba72df7d2901010", "6.24.00": "sha256:831d9880c678e9c38e1ea777dcc4fa96b9618016a3b9dee53ba72df7d2901010"}, "aliases": {"tcsh": "/opt/view/bin/tcsh"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/tcsh.

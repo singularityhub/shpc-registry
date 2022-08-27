@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/jags"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/jags/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/jags/container.yaml"
-updated_at: "2022-08-27 03:21:23.078136"
+updated_at: "2022-08-27 03:42:29.422764"
 latest: "4.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/jags"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "4.3.0"
  - "latest"
 description: "Just Another Gibbs Sampler. A program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation."
-config: {"docker": "ghcr.io/autamus/jags", "url": "https://github.com/orgs/autamus/packages/container/package/jags", "maintainer": "@vsoch", "description": "Just Another Gibbs Sampler. A program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.", "latest": {"4.3.0": "sha256:57c2307c42501adb399885a0c08adb5872176f65ab49d387ef3551b4d09bfc0b"}, "tags": {"4.3.0": "sha256:57c2307c42501adb399885a0c08adb5872176f65ab49d387ef3551b4d09bfc0b", "latest": "sha256:57c2307c42501adb399885a0c08adb5872176f65ab49d387ef3551b4d09bfc0b"}, "aliases": {"jags": "/opt/view/bin/jags"}}
+config: {"docker": "ghcr.io/autamus/jags", "url": "https://github.com/orgs/autamus/packages/container/package/jags", "maintainer": "@vsoch", "description": "Just Another Gibbs Sampler. A program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.", "latest": {"4.3.0": "sha256:bde77ead68db14b12746178ff3781f658956b4f4d91d9704acade734bf197d0f"}, "tags": {"4.3.0": "sha256:bde77ead68db14b12746178ff3781f658956b4f4d91d9704acade734bf197d0f", "latest": "sha256:bde77ead68db14b12746178ff3781f658956b4f4d91d9704acade734bf197d0f"}, "aliases": {"jags": "/opt/view/bin/jags"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/jags.

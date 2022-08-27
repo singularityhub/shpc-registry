@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pandaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/pandaseq/container.yaml"
-updated_at: "2022-08-27 03:21:09.419620"
+updated_at: "2022-08-27 03:42:14.490884"
 latest: "2.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pandaseq"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "2.11"
  - "latest"
 description: "A program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence."
-config: {"docker": "ghcr.io/autamus/pandaseq", "url": "https://github.com/orgs/autamus/packages/container/package/pandaseq", "maintainer": "@vsoch", "description": "A program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.", "latest": {"2.11": "sha256:052159d6d9743e1a6413562848288e22faaaa95e6dd02d4a964c880fd0871d72"}, "tags": {"2.11": "sha256:052159d6d9743e1a6413562848288e22faaaa95e6dd02d4a964c880fd0871d72", "latest": "sha256:052159d6d9743e1a6413562848288e22faaaa95e6dd02d4a964c880fd0871d72"}, "aliases": {"pandaseq": "/opt/view/bin/pandaseq", "pandaseq-checkid": "/opt/view/bin/pandaseq-checkid", "pandaseq-diff": "/opt/view/bin/pandaseq-diff", "pandaseq-hang": "/opt/view/bin/pandaseq-hang", "pandaxs": "/opt/view/bin/pandaxs"}}
+config: {"docker": "ghcr.io/autamus/pandaseq", "url": "https://github.com/orgs/autamus/packages/container/package/pandaseq", "maintainer": "@vsoch", "description": "A program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.", "latest": {"2.11": "sha256:d6544cbbdd4bd41ffc4236955743dac3655b25a6e5b3bf22ad17ddc3c7a920bb"}, "tags": {"2.11": "sha256:d6544cbbdd4bd41ffc4236955743dac3655b25a6e5b3bf22ad17ddc3c7a920bb", "latest": "sha256:d6544cbbdd4bd41ffc4236955743dac3655b25a6e5b3bf22ad17ddc3c7a920bb"}, "aliases": {"pandaseq": "/opt/view/bin/pandaseq", "pandaseq-checkid": "/opt/view/bin/pandaseq-checkid", "pandaseq-diff": "/opt/view/bin/pandaseq-diff", "pandaseq-hang": "/opt/view/bin/pandaseq-hang", "pandaxs": "/opt/view/bin/pandaxs"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/pandaseq.

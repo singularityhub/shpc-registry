@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libxpm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libxpm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/libxpm/container.yaml"
-updated_at: "2022-08-27 03:21:04.443129"
+updated_at: "2022-08-27 03:42:08.992770"
 latest: "3.5.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libxpm"
 
@@ -12,7 +12,7 @@ versions:
  - "3.5.12"
  - "latest"
 description: "The X PixMap image format is an extension of the monochrome X BitMap format specified in the X protocol, and is commonly used in traditional X applications."
-config: {"docker": "ghcr.io/autamus/libxpm", "url": "https://github.com/orgs/autamus/packages/container/package/libxpm", "maintainer": "@vsoch", "description": "The X PixMap image format is an extension of the monochrome X BitMap format specified in the X protocol, and is commonly used in traditional X applications.", "latest": {"3.5.12": "sha256:ce1bc54fd4343a37eec84ec794de3fe010e9a233d122baaf2243b52c36929d61"}, "tags": {"3.5.12": "sha256:ce1bc54fd4343a37eec84ec794de3fe010e9a233d122baaf2243b52c36929d61", "latest": "sha256:ce1bc54fd4343a37eec84ec794de3fe010e9a233d122baaf2243b52c36929d61"}}
+config: {"docker": "ghcr.io/autamus/libxpm", "url": "https://github.com/orgs/autamus/packages/container/package/libxpm", "maintainer": "@vsoch", "description": "The X PixMap image format is an extension of the monochrome X BitMap format specified in the X protocol, and is commonly used in traditional X applications.", "latest": {"3.5.12": "sha256:02a93850ecc72f1c467616653bbd3ca77e78590ca42e366e91378231d918d680"}, "tags": {"3.5.12": "sha256:02a93850ecc72f1c467616653bbd3ca77e78590ca42e366e91378231d918d680", "latest": "sha256:02a93850ecc72f1c467616653bbd3ca77e78590ca42e366e91378231d918d680"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/libxpm.
