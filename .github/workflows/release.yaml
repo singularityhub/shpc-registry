@@ -1,0 +1,25 @@
+name: 'Tag and Release'
+
+on:
+  pull_request: []
+  schedule:
+    # Once a month, first day of month
+    - cron: '0 0 1 * *'
+
+jobs:
+  auto-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set tag
+        run: |
+          today=$(printf '%(%Y-%m)T\n' -1)
+          echo $today
+          echo "tag=${today}" >> ${GITHUB_ENV}
+      - name: Tag and Release
+        uses: avakar/tag-and-release@3d2de22e3d0beab188d8129c27f103d8e91bf13a
+        with:
+          tag: ${{ env.tag }}
+          generateReleaseNotes: true
