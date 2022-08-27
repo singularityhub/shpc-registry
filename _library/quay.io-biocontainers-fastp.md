@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastp/container.yaml"
-updated_at: "2022-08-27 03:43:05.081640"
+updated_at: "2022-08-27 03:51:58.225709"
 latest: "0.23.2--hb7a2d85_2"
 container_url: "https://quay.io/repository/biocontainers/fastp"
 aliases:
