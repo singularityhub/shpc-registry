@@ -26,7 +26,10 @@ jobs:
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
-          shpc config add registry ${PWD}
+          
+          # Remove default remote registry and add PWD
+          shpc config remove registry https://github.com/singularityhub/shpc-registry
+          shpc config add registry $(pwd)
           for name in $(shpc show); do
               shpc update ${name}
           done
