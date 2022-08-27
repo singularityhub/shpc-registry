@@ -5,7 +5,7 @@ description: Program Database Toolkit (PDT) is a framework for analyzing source 
   written in several programming languages and for making rich program knowledge accessible
   to developers of static and dynamic analysis tools.
 latest:
-  3.25.1: sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e
+  3.25.1: sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16
 tags:
-  3.25.1: sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e
-  latest: sha256:d3d0f27ad9050d2b9283b9d6872cdb2c461963fc77c86d520771126f0d2eed0e
+  3.25.1: sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16
+  latest: sha256:b8147515318a2b0800afb52c0309d83e90a34fdb27c02e64c71023d30585cf16

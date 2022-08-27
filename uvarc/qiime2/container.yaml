@@ -1,8 +1,9 @@
 docker: uvarc/qiime2
 latest:
-  '2020.8': sha256:7b380f190ae5de431a9b350b6b7edef1bc718e5d2fc4412a543a7201d95c4999
+  '2022.2': sha256:fc9cd107f07edeacdc1d1a633cfd0546bb982c3f6f40fc0fb721954589ea13f8
 tags:
   '2020.8': sha256:7b380f190ae5de431a9b350b6b7edef1bc718e5d2fc4412a543a7201d95c4999
+  '2022.2': sha256:fc9cd107f07edeacdc1d1a633cfd0546bb982c3f6f40fc0fb721954589ea13f8
 filter:
 - 2021*
 maintainer: '@vsoch'

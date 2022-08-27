@@ -3,9 +3,9 @@ url: https://hub.docker.com/r/rocker/ml
 maintainer: '@vsoch'
 description: Docker images with R + machine learning libraries (CPU versions).
 latest:
-  latest: sha256:b543b65e3ed4ebe81421dedf31cb961e51bbef452bec82597d8fe9cba384abbb
+  latest: sha256:921dea7218f329c6fcbe3a9f1e07a293eaf2d552399eec5b91b305f21acebb1f
 tags:
-  latest: sha256:b543b65e3ed4ebe81421dedf31cb961e51bbef452bec82597d8fe9cba384abbb
+  latest: sha256:921dea7218f329c6fcbe3a9f1e07a293eaf2d552399eec5b91b305f21acebb1f
 filter:
 - latest
 aliases:
