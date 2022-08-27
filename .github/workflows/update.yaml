@@ -25,7 +25,8 @@ jobs:
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
-          pip install shpc
+          pip install git+https://github.com/singularityhub/singularity-hpc@main
+          shpc config add registry ${PWD}
           for name in $(shpc show); do
               shpc update ${name}
           done
@@ -50,7 +51,7 @@ jobs:
           git branch
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
-          git add registry/*
+          git add ./*
           git status
           if git diff-index --quiet HEAD --; then
              export OPEN_PULL_REQUEST=0
