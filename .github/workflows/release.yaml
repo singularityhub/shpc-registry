@@ -1,7 +1,6 @@
 name: 'Tag and Release'
 
 on:
-  pull_request: []
   schedule:
     # Once a month, first day of month
     - cron: '0 0 1 * *'
@@ -24,3 +23,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.tag }}
+          release_name: SHPC Registry ${{ env.tag }}
+          body: "These containers were generated before the start of ${{ env.tag }}"
