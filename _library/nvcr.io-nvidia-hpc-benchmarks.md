@@ -4,14 +4,14 @@ name:  "nvcr.io/nvidia/hpc-benchmarks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
-updated_at: "2022-08-27 02:53:35.729502"
+updated_at: "2022-08-27 03:21:34.218206"
 latest: "20.10-hpl"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
 
 versions:
  - "20.10-hpl"
 description: "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA."
-config: {"docker": "nvcr.io/nvidia/hpc-benchmarks", "latest": {"20.10-hpl": "sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98"}, "tags": {"20.10-hpl": "sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98"}, "filter": ["20.10**"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags", "description": "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA.", "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia/hpc-benchmarks", "latest": {"20.10-hpl": "sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98"}, "tags": {"20.10-hpl": "sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98"}, "filter": ["20.10*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags", "description": "The NVIDIA HPC-Benchmarks collection provides three NVIDIA accelerated HPC benchmarks: HPL-NVIDIA, HPL-AI-NVIDIA, and HPCG-NVIDIA.", "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia/hpc-benchmarks.
