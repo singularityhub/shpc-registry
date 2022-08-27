@@ -3,13 +3,11 @@ name: 'Update Containers'
 on:
   push:
     branches:
-      - nopenopenope
+      - main
 
-# disabled for now
-# TODO shpc needs to be able to update a local registry (e.g, this one)
-#  schedule:
-#    # Once a month
-#    - cron: '0 0 1 * *'
+  schedule:
+    # Once a month
+    - cron: '0 0 1 * *'
 
 jobs:
   auto-scan:
