@@ -4,10 +4,10 @@ maintainer: '@vsoch'
 description: Corset is a command-line program to go from a de novo transcriptome assembly
   to gene-level counts.
 latest:
-  '1.09': sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378
+  '1.09': sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1
 tags:
-  '1.09': sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378
-  latest: sha256:a44622dd466d447c62151c8dd22b6b8c6d898097e28a94655ab39b2c0ee9b378
+  '1.09': sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1
+  latest: sha256:58e023a036d5fba10b160c1f56dca81d129ee1fa8461512bbf5091ccf592a5a1
 aliases:
   corset: /opt/view/bin/corset
   corset_fasta_ID_changer: /opt/view/bin/corset_fasta_ID_changer
