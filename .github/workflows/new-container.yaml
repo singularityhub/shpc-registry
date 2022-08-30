@@ -39,12 +39,12 @@ jobs:
           url: ${{ inputs.url || 'https://singularityhub.github.io/shpc-registry' }}
           image: ${{ inputs.docker_uri || 'quay.io/autamus/clingo:5.5.1' }}
           maintainer: ${{ github.actor }}
-          description: ${{ inputs.description || 'Container generated for shpc-registry' }}
+          description: ${{ inputs.description || '"Container generated for shpc-registry"' }}
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc         
-          printf "python .github/scripts/add_container.py --maintainer "${maintainer}" --description "${description}" --url "${url}" ${image}\n"
-          python .github/scripts/add_container.py --maintainer "${maintainer}" --description "${description}" --url "${url}" ${image}
+          printf "python .github/scripts/add_container.py --maintainer "${maintainer}" --description "${description}" --url "${url}" docker://${image}\n"
+          python .github/scripts/add_container.py --maintainer "${maintainer}" --description "${description}" --url "${url}" docker://${image}
 
       - name: Checkout Update branch
         env:
