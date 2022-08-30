@@ -46,6 +46,8 @@ def main():
         container["maintainer"] = args.maintainer
     if args.description:
         container["description"] = args.description
+    if args.url:
+        container["url"] = args.url
 
     # Generate guts
     cli = ManifestGenerator()
