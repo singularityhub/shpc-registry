@@ -1,42 +1,13 @@
 #!/usr/bin/env python3
 
 import argparse
-import sys
 import os
-import shpc.utils
 from shpc.main import get_client
 from container_guts.main import ManifestGenerator
-
-import shpc.utils as utils
+import shpc.utils
 
 here = os.path.abspath(os.path.dirname(__file__))
 root = os.path.dirname(os.path.dirname(here))
-
-
-def write_json(data, filename):
-    """
-    Write json to file
-    """
-    with open(filename, "w") as fd:
-        fd.write(json.dumps(data, indent=4))
-
-
-def read_file(filename):
-    """
-    Read content from file
-    """
-    with open(filename, "r") as fd:
-        content = fd.read()
-    return content
-
-
-def read_json(input_file):
-    """
-    Read json
-    """
-    with open(input_file, "r") as filey:
-        data = json.loads(filey.read())
-    return data
 
 
 def get_parser():
