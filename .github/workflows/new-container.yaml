@@ -7,7 +7,7 @@ on:
        docker_uri:
          description: 'Docker identifier to generate recipe for'
          required: true
-         default: "quay.io/autamus/clingo:5.5.1"
+         default: "autamus/clingo:5.5.1"
        url:
          description: 'URL associated with container'
          required: true
@@ -37,7 +37,7 @@ jobs:
       - name: Generate module
         env:
           url: ${{ inputs.url || 'https://singularityhub.github.io/shpc-registry' }}
-          image: ${{ inputs.docker_uri || 'quay.io/autamus/clingo:5.5.1' }}
+          image: ${{ inputs.docker_uri || 'autamus/clingo:5.5.1' }}
           maintainer: ${{ github.actor }}
           description: ${{ inputs.description || '"Container generated for shpc-registry"' }}
         run: |
