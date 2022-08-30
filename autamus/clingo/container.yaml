@@ -1,0 +1,124 @@
+# change this to a URL to describe your container, or to get help
+url: https://singularity-hpc.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: vsoch
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: '"Container generated for shpc-registry"'
+latest:
+  5.5.1: sha256:dc453ee2098625ad56dbafc7a9bfae656ba2577d3931b99edf1a836ac0635961
+tags:
+  5.5.1: sha256:dc453ee2098625ad56dbafc7a9bfae656ba2577d3931b99edf1a836ac0635961
+docker: autamus/clingo
+aliases:
+  2to3: /opt/view/bin/2to3
+  2to3-3.10: /opt/view/bin/2to3-3.10
+  autopoint: /opt/view/bin/autopoint
+  bunzip2: /opt/view/bin/bunzip2
+  bzcat: /opt/view/bin/bzcat
+  bzcmp: /opt/view/bin/bzcmp
+  bzdiff: /opt/view/bin/bzdiff
+  bzegrep: /opt/view/bin/bzegrep
+  bzfgrep: /opt/view/bin/bzfgrep
+  bzgrep: /opt/view/bin/bzgrep
+  bzip2: /opt/view/bin/bzip2
+  bzip2recover: /opt/view/bin/bzip2recover
+  bzless: /opt/view/bin/bzless
+  bzmore: /opt/view/bin/bzmore
+  c_rehash: /opt/view/bin/c_rehash
+  captoinfo: /opt/view/bin/captoinfo
+  clasp: /opt/view/bin/clasp
+  clear: /opt/view/bin/clear
+  clingo: /opt/view/bin/clingo
+  envsubst: /opt/view/bin/envsubst
+  gdbm_dump: /opt/view/bin/gdbm_dump
+  gdbm_load: /opt/view/bin/gdbm_load
+  gdbmtool: /opt/view/bin/gdbmtool
+  gettext: /opt/view/bin/gettext
+  gettext.sh: /opt/view/bin/gettext.sh
+  gettextize: /opt/view/bin/gettextize
+  gringo: /opt/view/bin/gringo
+  iconv: /opt/view/bin/iconv
+  idle3: /opt/view/bin/idle3
+  idle3.10: /opt/view/bin/idle3.10
+  infocmp: /opt/view/bin/infocmp
+  infotocap: /opt/view/bin/infotocap
+  lpconvert: /opt/view/bin/lpconvert
+  lzcat: /opt/view/bin/lzcat
+  lzcmp: /opt/view/bin/lzcmp
+  lzdiff: /opt/view/bin/lzdiff
+  lzegrep: /opt/view/bin/lzegrep
+  lzfgrep: /opt/view/bin/lzfgrep
+  lzgrep: /opt/view/bin/lzgrep
+  lzless: /opt/view/bin/lzless
+  lzma: /opt/view/bin/lzma
+  lzmadec: /opt/view/bin/lzmadec
+  lzmainfo: /opt/view/bin/lzmainfo
+  lzmore: /opt/view/bin/lzmore
+  msgattrib: /opt/view/bin/msgattrib
+  msgcat: /opt/view/bin/msgcat
+  msgcmp: /opt/view/bin/msgcmp
+  msgcomm: /opt/view/bin/msgcomm
+  msgconv: /opt/view/bin/msgconv
+  msgen: /opt/view/bin/msgen
+  msgexec: /opt/view/bin/msgexec
+  msgfilter: /opt/view/bin/msgfilter
+  msgfmt: /opt/view/bin/msgfmt
+  msggrep: /opt/view/bin/msggrep
+  msginit: /opt/view/bin/msginit
+  msgmerge: /opt/view/bin/msgmerge
+  msgunfmt: /opt/view/bin/msgunfmt
+  msguniq: /opt/view/bin/msguniq
+  ncurses6-config: /opt/view/bin/ncurses6-config
+  ncursesw6-config: /opt/view/bin/ncursesw6-config
+  ngettext: /opt/view/bin/ngettext
+  openssl: /opt/view/bin/openssl
+  pydoc3: /opt/view/bin/pydoc3
+  pydoc3.10: /opt/view/bin/pydoc3.10
+  python: /opt/view/bin/python
+  python-config: /opt/view/bin/python-config
+  python3: /opt/view/bin/python3
+  python3-config: /opt/view/bin/python3-config
+  python3.10: /opt/view/bin/python3.10
+  python3.10-config: /opt/view/bin/python3.10-config
+  python3.10-gdb.py: /opt/view/bin/python3.10-gdb.py
+  recode-sr-latin: /opt/view/bin/recode-sr-latin
+  reify: /opt/view/bin/reify
+  reset: /opt/view/bin/reset
+  sqlite3: /opt/view/bin/sqlite3
+  tabs: /opt/view/bin/tabs
+  tar: /opt/view/bin/tar
+  tic: /opt/view/bin/tic
+  toe: /opt/view/bin/toe
+  tput: /opt/view/bin/tput
+  tset: /opt/view/bin/tset
+  unlzma: /opt/view/bin/unlzma
+  unxz: /opt/view/bin/unxz
+  xgettext: /opt/view/bin/xgettext
+  xml2-config: /opt/view/bin/xml2-config
+  xmlcatalog: /opt/view/bin/xmlcatalog
+  xmllint: /opt/view/bin/xmllint
+  xmlwf: /opt/view/bin/xmlwf
+  xz: /opt/view/bin/xz
+  xzcat: /opt/view/bin/xzcat
+  xzcmp: /opt/view/bin/xzcmp
+  xzdec: /opt/view/bin/xzdec
+  xzdiff: /opt/view/bin/xzdiff
+  xzegrep: /opt/view/bin/xzegrep
+  xzfgrep: /opt/view/bin/xzfgrep
+  xzgrep: /opt/view/bin/xzgrep
+  xzless: /opt/view/bin/xzless
+  xzmore: /opt/view/bin/xzmore
