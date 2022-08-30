@@ -4,7 +4,7 @@ name:  "biocontainers/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/abyss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/abyss/container.yaml"
-updated_at: "2022-08-30 03:23:33.471706"
+updated_at: "2022-08-30 03:29:08.362201"
 latest: "v2.1.5-7-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/abyss"
 aliases:
