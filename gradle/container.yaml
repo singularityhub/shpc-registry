@@ -4,7 +4,7 @@ maintainer: '@vsoch'
 description: Gradle is a build tool with a focus on build automation and support for
   multi-language development.
 latest:
-  7-jdk18: sha256:52f9b95abe6028d3545374198f12147281354d37da8bd8e9ef120696ddb55759
+  7-jdk18: sha256:037d55f72cbf39b9e3f5602b255070219a764a32ba5453de14d2b0d5988591ce
 tags:
   7.0.0-hotspot: sha256:cef49a7bdb0c53dc0d64ed24f375fb0fdd6e3489d0b4fcd393f0c8c09be11320
   7.0.1-hotspot: sha256:f3207f774a8ceb3286e0b65ca1864cfab639797a307c3d505bc6775adfb28d66
@@ -21,6 +21,6 @@ tags:
   7-jdk16: sha256:f174c0dcf9a84b4035f1fcb62f0340ddc69c0b93320e0d35f097d20ce2ca89d5
   7-jdk11: sha256:5e407aad93b19b4fb9e6ec4ca620dd9a1f64758592ee56035fc9d511ffea115d
   7-jdk-openj9: sha256:acd908af42e1bee2f841eeac031d41317ab3fddcc3ec9d0d4e1cb4b28be24f5f
-  7-jdk18: sha256:52f9b95abe6028d3545374198f12147281354d37da8bd8e9ef120696ddb55759
+  7-jdk18: sha256:037d55f72cbf39b9e3f5602b255070219a764a32ba5453de14d2b0d5988591ce
 aliases:
   gradle: /usr/bin/gradle
