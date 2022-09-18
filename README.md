@@ -6,10 +6,39 @@ This is testing having a remote registry for [Singularity HPC](https://github.co
 
 📖️ Read the [documentation](https://singularity-hpc.readthedocs.io/en/latest/) 📖️
 ⭐️ Browse the [container module collection](https://singularityhub.github.io/shpc-registry/) ⭐️
- 
+
+## Contribution rules
+
+This registry is there to showcase Singularity HPC, and provide a workable default set of containers.
+Contributions are very much welcome, so please do submit a pull-request if you'd like more software to be added !
+
+The documentation has an [introduction](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#writing-registry-entries) about registries, and explain how to organise the various files.
+
+### Automated generation
+
+First of all, there is an automated way of getting most of the `container.yaml` written via GitHub magic 🎩 automation.
+
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of this repository.
+2. Go to the Actions tab.
+3. Select "Generate New Container" in the left-hand side menu.
+4. Click the "Run workflow" dropdown on the right-hand side.
+5. Fill in the name of the container you want to build a `container.yaml` for, as well as a URL and a description (both are mandatory fields). Leave the branch as `main`.
+6. Hit the green "Run workflow" button, wait and marvel at the magic happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
+
+### Expected content
+
+Refer to the documentation for a list of the [`container.yaml` fields](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#registry-yaml-fields), especially the _required_ ones.
+A pull-request that doesn't contain the required fields unfortunately 😢 cannot be accepted.
+
+Further tips:
+
+- Ideally, the container tags listed in `container.yaml` should be actual versions, not generic `latest`, `stable`, which tend to be moving targets. Remember that containers and Singularity HPC are there for reproducibility !
+- The convention here is to put containers hosted on the Docker Hub at the top of the repository, e.g. [ruby](https://github.com/singularityhub/shpc-registry/tree/main/ruby), rather than in a `docker.io` sub-directory.
+- By putting your name down as `author`, you accept you may be contacted to review further updates of the `container.yaml`
+
 ## 😁️ Contributors 😁️
 
-We use the [all-contributors](https://github.com/all-contributors/all-contributors) 
+We use the [all-contributors](https://github.com/all-contributors/all-contributors)
 tool to generate a contributors graphic below.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -37,7 +66,7 @@ tool to generate a contributors graphic below.
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
- 
+
 ## License
 
 This code is licensed under the MPL 2.0 [LICENSE](LICENSE).
