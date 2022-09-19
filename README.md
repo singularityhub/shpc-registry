@@ -30,7 +30,9 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 Refer to the documentation for a list of the [`container.yaml` fields](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#registry-yaml-fields), especially the _required_ ones.
 A pull-request that doesn't contain the required fields will have changes requested to add them.
 
-Further tips:
+This registry is only for container images freely available. We can't accept `container.yaml` for private or access-restricted containers.
+
+Furthermore, consider the following tips when making the pull-request:
 
 - Ideally, the container tags listed in `container.yaml` should be actual versions, not generic `latest`, `stable`, which tend to be moving targets. Remember that containers and Singularity HPC are there for reproducibility !
 - The convention here is to put containers hosted on the Docker Hub at the top of the repository, e.g. [ruby](https://github.com/singularityhub/shpc-registry/tree/main/ruby), rather than in a `docker.io` sub-directory.
