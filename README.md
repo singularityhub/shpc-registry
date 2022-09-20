@@ -10,7 +10,7 @@ This is testing having a remote registry for [Singularity HPC](https://github.co
 ## Contribution
 
 This registry showcases Singularity HPC (shpc), and provides the default set of containers for its default registry.
-Contributions are very much welcome, so please do submit a pull-request if you'd like more software to be added !
+Contributions are very much welcome, so please do submit a pull-request if you'd like more software to be added, or open an issue to request a new addition!
 
 The documentation has an [introduction](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#writing-registry-entries) about registries, and explains how to organize the required files for a container entry.
 
