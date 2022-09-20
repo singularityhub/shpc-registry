@@ -4,7 +4,7 @@ name:  "node"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/node/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/node/container.yaml"
-updated_at: "2022-09-01 01:40:57.493947"
+updated_at: "2022-09-20 12:46:32.059736"
 latest: "18.8"
 container_url: "https://hub.docker.com/r/_/node"
 aliases:
