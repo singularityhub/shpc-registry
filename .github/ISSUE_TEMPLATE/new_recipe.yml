@@ -1,0 +1,26 @@
+name: 'Generate new recipe'
+description: Generete a new container recipe
+labels: enhancement
+title: "[Recipe]"
+body:
+  - type: input
+    id: docker_uri
+    attributes:
+      label: 'Docker identifier to generate recipe for'
+      placeholder: "autamus/clingo:5.5.1"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 'URL associated with container'
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 'Description of the container'
+    validations:
+      required: true
