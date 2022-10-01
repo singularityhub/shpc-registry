@@ -2,8 +2,8 @@ name: 'Tag and Release'
 
 on:
   schedule:
-    # Once a month, first day of month
-    - cron: '0 0 1 * *'
+    # Once a month, second day of month
+    - cron: '0 0 2 * *'
 
 jobs:
   auto-scan:
