@@ -4,7 +4,7 @@ name:  "biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/talon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/talon/container.yaml"
-updated_at: "2022-10-01 03:20:38.862390"
+updated_at: "2022-10-01 03:23:14.845464"
 latest: "v5.0_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/talon"
 aliases:
