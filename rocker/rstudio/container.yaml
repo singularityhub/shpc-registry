@@ -3,10 +3,10 @@ url: https://hub.docker.com/r/rocker/rstudio
 maintainer: '@vsoch'
 description: Rstudio server image
 latest:
-  latest-daily: sha256:2be21bb01a4ad9c17fd310e5029d94c92676343b1a21617650f1db3b663edfa0
+  latest-daily: sha256:9c10c42a77d2c7cf5fb1e84fd969b58a690314b2f83fb1dae00651ec4e5cf8fe
 tags:
-  latest: sha256:4b5ad6f7ada2d41bdbb307109f96a3bbf598554dce1a8d6caf787fa713b5fdb0
-  latest-daily: sha256:2be21bb01a4ad9c17fd310e5029d94c92676343b1a21617650f1db3b663edfa0
+  latest: sha256:4930ae8d1ed3a662a06ace26db1362f3ecd851daf6c360c5141edb2a83a7a8d1
+  latest-daily: sha256:9c10c42a77d2c7cf5fb1e84fd969b58a690314b2f83fb1dae00651ec4e5cf8fe
 filter:
 - latest
 aliases:
