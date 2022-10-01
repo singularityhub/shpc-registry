@@ -4,7 +4,7 @@ name:  "tomcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/tomcat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/tomcat/container.yaml"
-updated_at: "2022-09-20 12:49:19.834472"
+updated_at: "2022-10-01 03:17:46.579404"
 latest: "10-jdk17"
 container_url: "https://hub.docker.com/_/tomcat"
 
@@ -21,7 +21,7 @@ versions:
  - "10-jdk15"
  - "10-jdk14"
 description: "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies"
-config: {"docker": "tomcat", "url": "https://hub.docker.com/_/tomcat", "maintainer": "@vsoch", "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies", "filter": ["^(?!jdk1[1-7]).*$"], "latest": {"10-jdk17": "sha256:cbd38ed2dc056e45682aa68839f9ec0d180564c7545be8971e5326cdc26287cf"}, "tags": {"10.0.5-jdk11-adoptopenjdk-hotspot": "sha256:a7418f29d3dd7ad20bcf052b3b6dc2777d118344286c6374bc447fb217a97c08", "10.0.6-jdk11-adoptopenjdk-hotspot": "sha256:c0019c8254bc1017f64e6ffd1612e25b50abca78d98d25f9ff8023e8999f0384", "10.0.7-jdk11-adoptopenjdk-hotspot": "sha256:d75c50123194e5533dd8b397175fab79c9dff69ed5c0bada70be5dff6d8fcc6d", "10.0.8-jdk11-adoptopenjdk-hotspot": "sha256:98ae9e70b3bd2129c2ef83179c38bc902e613f433c6222c88b2c1a2f3bdfd1ec", "10.1.0": "sha256:a7159cbbc7dcf634ce1cdc433e8b5b5306e014bf912a0a63e3bb7ade87db8b13", "latest": "sha256:cbd38ed2dc056e45682aa68839f9ec0d180564c7545be8971e5326cdc26287cf", "10": "sha256:cbd38ed2dc056e45682aa68839f9ec0d180564c7545be8971e5326cdc26287cf", "10-jdk17": "sha256:cbd38ed2dc056e45682aa68839f9ec0d180564c7545be8971e5326cdc26287cf", "10-jdk16": "sha256:06894e19b914a4e491580d54091ac248d53b0c4c474ff9e55e97e27d9adb45d5", "10-jdk15": "sha256:822bc61a43b972b5f784af5f8f40ce077399c06cfa724fc1cd60ea687f5d9828", "10-jdk14": "sha256:e97bde5b2bba850a96ba59b5500e9448216c989c0061a4e7e5c8d9d64185a36e"}}
+config: {"docker": "tomcat", "url": "https://hub.docker.com/_/tomcat", "maintainer": "@vsoch", "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies", "filter": ["^(?!jdk1[1-7]).*$"], "latest": {"10-jdk17": "sha256:348f5e4f5c3b6644d966bda64f59574c9a135cca767f3234308bd58fd0a4a372"}, "tags": {"10.0.5-jdk11-adoptopenjdk-hotspot": "sha256:a7418f29d3dd7ad20bcf052b3b6dc2777d118344286c6374bc447fb217a97c08", "10.0.6-jdk11-adoptopenjdk-hotspot": "sha256:c0019c8254bc1017f64e6ffd1612e25b50abca78d98d25f9ff8023e8999f0384", "10.0.7-jdk11-adoptopenjdk-hotspot": "sha256:d75c50123194e5533dd8b397175fab79c9dff69ed5c0bada70be5dff6d8fcc6d", "10.0.8-jdk11-adoptopenjdk-hotspot": "sha256:98ae9e70b3bd2129c2ef83179c38bc902e613f433c6222c88b2c1a2f3bdfd1ec", "10.1.0": "sha256:348f5e4f5c3b6644d966bda64f59574c9a135cca767f3234308bd58fd0a4a372", "latest": "sha256:348f5e4f5c3b6644d966bda64f59574c9a135cca767f3234308bd58fd0a4a372", "10": "sha256:348f5e4f5c3b6644d966bda64f59574c9a135cca767f3234308bd58fd0a4a372", "10-jdk17": "sha256:348f5e4f5c3b6644d966bda64f59574c9a135cca767f3234308bd58fd0a4a372", "10-jdk16": "sha256:06894e19b914a4e491580d54091ac248d53b0c4c474ff9e55e97e27d9adb45d5", "10-jdk15": "sha256:822bc61a43b972b5f784af5f8f40ce077399c06cfa724fc1cd60ea687f5d9828", "10-jdk14": "sha256:e97bde5b2bba850a96ba59b5500e9448216c989c0061a4e7e5c8d9d64185a36e"}}
 ---
 
 This module is a singularity container wrapper for tomcat.
