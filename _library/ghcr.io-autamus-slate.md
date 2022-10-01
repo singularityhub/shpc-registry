@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/slate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/slate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/slate/container.yaml"
-updated_at: "2022-10-01 03:16:28.612025"
+updated_at: "2022-10-01 03:18:46.916387"
 latest: "2021.05.02"
 container_url: "https://github.com/orgs/autamus/packages/container/package/slate"
 
