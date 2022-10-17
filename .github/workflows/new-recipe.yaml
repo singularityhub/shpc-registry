@@ -52,7 +52,8 @@ jobs:
           BRANCH_AGAINST: "main"
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-          export BRANCH_FROM="add-container/${image}"
+          container_name=$(echo "${image}" | awk -F ":" '{print $1}')
+          export BRANCH_FROM="add-container/${container_name}"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
           if [[ -z ${BRANCH_EXISTS} ]]; then
