@@ -8,16 +8,6 @@ tags:
   1.0.1--h87f3376_5: sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098
 docker: quay.io/biocontainers/2pg_cartesian
 aliases:
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  gmx: /usr/local/bin/gmx
   protpred-Gromacs-Dominance: /usr/local/bin/protpred-Gromacs-Dominance
   protpred-Gromacs-Front: /usr/local/bin/protpred-Gromacs-Front
   protpred-Gromacs-MC_Metropolis: /usr/local/bin/protpred-Gromacs-MC_Metropolis
@@ -33,4 +23,3 @@ aliases:
   protpred-Gromacs-Test_load_population: /usr/local/bin/protpred-Gromacs-Test_load_population
   protpred-Gromacs-Test_random_number: /usr/local/bin/protpred-Gromacs-Test_random_number
   protpred-Gromacs-Test_rotation: /usr/local/bin/protpred-Gromacs-Test_rotation
-  unlzma: /usr/local/bin/unlzma
