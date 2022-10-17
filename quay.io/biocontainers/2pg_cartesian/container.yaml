@@ -34,4 +34,3 @@ aliases:
   protpred-Gromacs-Test_random_number: /usr/local/bin/protpred-Gromacs-Test_random_number
   protpred-Gromacs-Test_rotation: /usr/local/bin/protpred-Gromacs-Test_rotation
   unlzma: /usr/local/bin/unlzma
-  unxz: /usr/local/bin/unxz
