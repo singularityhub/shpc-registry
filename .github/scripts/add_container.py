@@ -57,7 +57,7 @@ def main():
     aliases = {}
     for path in list(manifests.values())[0]["diff"]["unique_paths"]:
         # Don't include system bin
-        if "sbin" in path:
+        if "sbin" in path or "/usr/bin" in path:
             print(f"Skipping system bin {path}")
             continue
 
