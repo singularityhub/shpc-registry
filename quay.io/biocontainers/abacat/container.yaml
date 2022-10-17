@@ -1,22 +1,5 @@
-# change this to a URL to describe your container, or to get help
 url: quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_2
-
-# change this to your GitHub alias (or another contact or name)
 maintainer: '@vsoch'
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
 description: abacat - A BActerial genome Curation and Annotation Toolkit
 latest:
   0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
@@ -24,97 +7,12 @@ tags:
   0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
 docker: quay.io/biocontainers/abacat
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   annotate.py: /usr/local/bin/annotate.py
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
   fastANI: /usr/local/bin/fastANI
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo
-  lzmore: /usr/local/bin/lzmore
-  makeconv: /usr/local/bin/makeconv
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  openssl: /usr/local/bin/openssl
   phenotyping.py: /usr/local/bin/phenotyping.py
   pip: /usr/local/bin/pip
-  pkgdata: /usr/local/bin/pkgdata
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
   prodigal: /usr/local/bin/prodigal
   prodigal.py: /usr/local/bin/prodigal.py
   prokka.py: /usr/local/bin/prokka.py
-  pydoc: /usr/local/bin/pydoc
-  pydoc3: /usr/local/bin/pydoc3
-  pydoc3.8: /usr/local/bin/pydoc3.8
   python: /usr/local/bin/python
   python3: /usr/local/bin/python3
-  python3-config: /usr/local/bin/python3-config
-  python3.8: /usr/local/bin/python3.8
-  python3.8-config: /usr/local/bin/python3.8-config
-  reset: /usr/local/bin/reset
-  sqlite3: /usr/local/bin/sqlite3
-  sqlite3_analyzer: /usr/local/bin/sqlite3_analyzer
-  tabs: /usr/local/bin/tabs
-  tclsh: /usr/local/bin/tclsh
-  tclsh8.6: /usr/local/bin/tclsh8.6
-  tic: /usr/local/bin/tic
-  toe: /usr/local/bin/toe
-  tput: /usr/local/bin/tput
-  tset: /usr/local/bin/tset
-  unlzma: /usr/local/bin/unlzma
-  unxz: /usr/local/bin/unxz
-  wheel: /usr/local/bin/wheel
-  wish: /usr/local/bin/wish
-  wish8.6: /usr/local/bin/wish8.6
-  x86_64-conda_cos6-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld
-  xz: /usr/local/bin/xz
-  xzcat: /usr/local/bin/xzcat
-  xzcmp: /usr/local/bin/xzcmp
-  xzdec: /usr/local/bin/xzdec
-  xzdiff: /usr/local/bin/xzdiff
-  xzegrep: /usr/local/bin/xzegrep
-  xzfgrep: /usr/local/bin/xzfgrep
-  xzgrep: /usr/local/bin/xzgrep
-  xzless: /usr/local/bin/xzless
-  xzmore: /usr/local/bin/xzmore
