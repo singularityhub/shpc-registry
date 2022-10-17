@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/abismal
+maintainer: '@vsoch'
+description: Abismal tool
+latest:
+  1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
+tags:
+  1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
+docker: quay.io/biocontainers/abismal
+aliases:
+  abismal: /usr/local/bin/abismal
+  abismalidx: /usr/local/bin/abismalidx
+  simreads: /usr/local/bin/simreads
+  env-execute: /usr/local/env-execute
