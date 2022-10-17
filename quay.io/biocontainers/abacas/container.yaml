@@ -1,22 +1,5 @@
-# change this to a URL to describe your container, or to get help
 url: https://biocontainers.pro/tools/abacas
-
-# change this to your GitHub alias (or another contact or name)
 maintainer: '@vsoch'
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
 description: Abacas is intended to rapidly contiguate (align, order, orientate), visualize
   and design primers to close gaps on shotgun assembled contigs based on a reference
   sequence.
@@ -26,57 +9,23 @@ tags:
   1.3.1--pl5321hdfd78af_2: sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2
 docker: quay.io/biocontainers/abacas
 aliases:
-  nuke: /bin/nuke
-  resume: /bin/resume
   abacas.1.3.1.pl: /usr/local/bin/abacas.1.3.1.pl
   abacas.pl: /usr/local/bin/abacas.pl
   combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
   enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   exact-tandems: /usr/local/bin/exact-tandems
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
   mapview: /usr/local/bin/mapview
   mgaps: /usr/local/bin/mgaps
   mummer: /usr/local/bin/mummer
   mummerplot: /usr/local/bin/mummerplot
   nucmer: /usr/local/bin/nucmer
-  perl: /usr/local/bin/perl
-  perl5.32.1: /usr/local/bin/perl5.32.1
-  perlbug: /usr/local/bin/perlbug
-  perldoc: /usr/local/bin/perldoc
-  perlivp: /usr/local/bin/perlivp
-  perlthanks: /usr/local/bin/perlthanks
-  piconv: /usr/local/bin/piconv
-  pl2pm: /usr/local/bin/pl2pm
-  pod2html: /usr/local/bin/pod2html
-  pod2man: /usr/local/bin/pod2man
-  pod2text: /usr/local/bin/pod2text
-  pod2usage: /usr/local/bin/pod2usage
-  podchecker: /usr/local/bin/podchecker
-  promer: /usr/local/bin/promer
-  prove: /usr/local/bin/prove
-  ptar: /usr/local/bin/ptar
-  ptardiff: /usr/local/bin/ptardiff
-  ptargrep: /usr/local/bin/ptargrep
   repeat-match: /usr/local/bin/repeat-match
   run-mummer1: /usr/local/bin/run-mummer1
   run-mummer3: /usr/local/bin/run-mummer3
-  shasum: /usr/local/bin/shasum
   show-aligns: /usr/local/bin/show-aligns
   show-coords: /usr/local/bin/show-coords
   show-diff: /usr/local/bin/show-diff
   show-snps: /usr/local/bin/show-snps
   show-tiling: /usr/local/bin/show-tiling
-  splain: /usr/local/bin/splain
-  streamzip: /usr/local/bin/streamzip
-  xsubpp: /usr/local/bin/xsubpp
-  zipdetails: /usr/local/bin/zipdetails
-  env-execute: /usr/local/env-execute
