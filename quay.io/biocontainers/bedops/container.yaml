@@ -4,18 +4,6 @@ url: https://singularity-hpc.readthedocs.io
 # change this to your GitHub alias (or another contact or name)
 maintainer: vsoch
 
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
 # A description to describe your container
 description: Efficient and scalable boolean and other set operations for genomic data.
 latest:
@@ -24,17 +12,6 @@ tags:
   2.4.23--0: sha256:fd8d19a1eee1702ceb9e16a224974143c4e99a62c3c39e05e67d1827b0046ff7
 docker: quay.io/biocontainers/bedops
 aliases:
-  devmem: /sbin/devmem
-  freeramdisk: /sbin/freeramdisk
-  makedevs: /sbin/makedevs
-  runlevel: /sbin/runlevel
-  lspci: /usr/bin/lspci
-  opkg-cl: /usr/bin/opkg-cl
-  opkg-install: /usr/bin/opkg-install
-  opkg-key: /usr/bin/opkg-key
-  telnet: /usr/bin/telnet
-  tftp: /usr/bin/tftp
-  activate: /usr/local/bin/activate
   bam2bed: /usr/local/bin/bam2bed
   bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
   bam2bed_sge: /usr/local/bin/bam2bed_sge
@@ -73,5 +50,3 @@ aliases:
   vcf2starch: /usr/local/bin/vcf2starch
   wig2bed: /usr/local/bin/wig2bed
   wig2starch: /usr/local/bin/wig2starch
-  dnsd: /usr/sbin/dnsd
-  inetd: /usr/sbin/inetd
