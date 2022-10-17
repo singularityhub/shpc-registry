@@ -1,0 +1,18 @@
+url: quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_2
+maintainer: '@vsoch'
+description: abacat - A BActerial genome Curation and Annotation Toolkit
+latest:
+  0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
+tags:
+  0.0.4a--py_0: sha256:73d3f072a149c18942fbdfd9a0f7d3fb69e1715683b1a91c57f9f1be41d4a2f5
+docker: quay.io/biocontainers/abacat
+aliases:
+  annotate.py: /usr/local/bin/annotate.py
+  fastANI: /usr/local/bin/fastANI
+  phenotyping.py: /usr/local/bin/phenotyping.py
+  pip: /usr/local/bin/pip
+  prodigal: /usr/local/bin/prodigal
+  prodigal.py: /usr/local/bin/prodigal.py
+  prokka.py: /usr/local/bin/prokka.py
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
