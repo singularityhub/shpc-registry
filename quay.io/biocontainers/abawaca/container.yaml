@@ -1,22 +1,5 @@
-# change this to a URL to describe your container, or to get help
 url: https://biocontainers.pro/tools/abawaca
-
-# change this to your GitHub alias (or another contact or name)
 maintainer: '@vsoch'
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
 description: abawaca (A Binning Algorithm Without A Cool Acronym) is a binning program
   that can take advantage of different types of information such as differential coverage
   and DNA signature
