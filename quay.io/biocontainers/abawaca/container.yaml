@@ -1,0 +1,32 @@
+# change this to a URL to describe your container, or to get help
+url: https://biocontainers.pro/tools/abawaca
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: '@vsoch'
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: abawaca (A Binning Algorithm Without A Cool Acronym) is a binning program
+  that can take advantage of different types of information such as differential coverage
+  and DNA signature
+latest:
+  1.00--h7d875b9_3: sha256:e8abcc7c4b3bc204485ef4ba234062a4e4a64f17774bb7303e4102492af44d78
+tags:
+  1.00--h7d875b9_3: sha256:e8abcc7c4b3bc204485ef4ba234062a4e4a64f17774bb7303e4102492af44d78
+docker: quay.io/biocontainers/abawaca
+aliases:
+  nuke: /bin/nuke
+  resume: /bin/resume
+  abawaca: /usr/local/bin/abawaca
+  env-execute: /usr/local/env-execute
