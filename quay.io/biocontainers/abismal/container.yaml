@@ -1,22 +1,5 @@
-# change this to a URL to describe your container, or to get help
 url: https://biocontainers.pro/tools/abismal
-
-# change this to your GitHub alias (or another contact or name)
 maintainer: '@vsoch'
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
 description: Abismal tool
 latest:
   1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
@@ -24,8 +7,6 @@ tags:
   1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
 docker: quay.io/biocontainers/abismal
 aliases:
-  nuke: /bin/nuke
-  resume: /bin/resume
   abismal: /usr/local/bin/abismal
   abismalidx: /usr/local/bin/abismalidx
   simreads: /usr/local/bin/simreads
