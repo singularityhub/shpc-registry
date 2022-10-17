@@ -56,6 +56,11 @@ def main():
     # Assemble aliases
     aliases = {}
     for path in list(manifests.values())[0]["diff"]["unique_paths"]:
+        # Don't include system bin
+        if "sbin" in path:
+            print(f"Skipping system bin {path}")
+            continue
+
         name = os.path.basename(path)
         if name in aliases:
             print(f"Warning, duplicate alias {name}")
