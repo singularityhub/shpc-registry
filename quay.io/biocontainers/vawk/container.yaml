@@ -1,0 +1,10 @@
+url: https://singularity-hpc.readthedocs.io
+maintainer: Dinosaur
+description: A custom container to do X.
+latest:
+  0.0.2--py_4: sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2
+tags:
+  0.0.2--py_4: sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2
+docker: quay.io/biocontainers/vawk
+aliases:
+  vawk: /usr/local/bin/vawk
