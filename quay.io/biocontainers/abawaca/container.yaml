@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/abawaca
+maintainer: '@vsoch'
+description: abawaca (A Binning Algorithm Without A Cool Acronym) is a binning program
+  that can take advantage of different types of information such as differential coverage
+  and DNA signature
+latest:
+  1.00--h7d875b9_3: sha256:e8abcc7c4b3bc204485ef4ba234062a4e4a64f17774bb7303e4102492af44d78
+tags:
+  1.00--h7d875b9_3: sha256:e8abcc7c4b3bc204485ef4ba234062a4e4a64f17774bb7303e4102492af44d78
+docker: quay.io/biocontainers/abawaca
+aliases:
+  nuke: /bin/nuke
+  resume: /bin/resume
+  abawaca: /usr/local/bin/abawaca
+  env-execute: /usr/local/env-execute
