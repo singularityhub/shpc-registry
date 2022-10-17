@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/abeona
+maintainer: "@vsoch"
+description: A simple transcriptome assembler based on kallisto and cortex graphs.
+latest:
+  0.45.0--py36_0: sha256:5be8da7bf9360eacc9cdaff7caf6a6081d7380584ef7946c046fa23450803a13
+tags:
+  0.45.0--py36_0: sha256:5be8da7bf9360eacc9cdaff7caf6a6081d7380584ef7946c046fa23450803a13
+docker: quay.io/biocontainers/abeona
+aliases:
+  abeona: /usr/local/bin/abeona
+  b2sum: /usr/local/bin/b2sum
+  bwa: /usr/local/bin/bwa
+  cortexpy: /usr/local/bin/cortexpy
+  factor: /usr/local/bin/factor
+  kallisto: /usr/local/bin/kallisto
+  nextflow: /usr/local/bin/nextflow
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
