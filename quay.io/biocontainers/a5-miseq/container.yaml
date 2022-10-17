@@ -1,0 +1,225 @@
+# change this to a URL to describe your container, or to get help
+url: https://biocontainers.pro/tools/a5-miseq
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: '@vsoch'
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: A5-miseq is a pipeline for assembling dna sequence data generated on
+  the illumina sequencing platform. this readme will take you through the steps necessary
+  for running _a5-miseq_
+latest:
+  20160825--hdfd78af_2: sha256:48cb29db1d86d7b8018f1c83298a67717d50bb9a6ea0f1f72c2c67d077d2e2e5
+tags:
+  20160825--hdfd78af_2: sha256:48cb29db1d86d7b8018f1c83298a67717d50bb9a6ea0f1f72c2c67d077d2e2e5
+docker: quay.io/biocontainers/a5-miseq
+aliases:
+  nuke: /bin/nuke
+  resume: /bin/resume
+  a5_pipeline.pl: /usr/local/bin/a5_pipeline.pl
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  cairo-trace: /usr/local/bin/cairo-trace
+  cjpeg: /usr/local/bin/cjpeg
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  envsubst: /usr/local/bin/envsubst
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  hb-ot-shape-closure: /usr/local/bin/hb-ot-shape-closure
+  hb-shape: /usr/local/bin/hb-shape
+  hb-subset: /usr/local/bin/hb-subset
+  hb-view: /usr/local/bin/hb-view
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  instmodsh: /usr/local/bin/instmodsh
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jdeprscan: /usr/local/bin/jdeprscan
+  jdeps: /usr/local/bin/jdeps
+  jfr: /usr/local/bin/jfr
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jinfo: /usr/local/bin/jinfo
+  jjs: /usr/local/bin/jjs
+  jlink: /usr/local/bin/jlink
+  jmap: /usr/local/bin/jmap
+  jmod: /usr/local/bin/jmod
+  jpegtran: /usr/local/bin/jpegtran
+  jpgicc: /usr/local/bin/jpgicc
+  jps: /usr/local/bin/jps
+  jrunscript: /usr/local/bin/jrunscript
+  jshell: /usr/local/bin/jshell
+  json_pp: /usr/local/bin/json_pp
+  jstack: /usr/local/bin/jstack
+  jstat: /usr/local/bin/jstat
+  jstatd: /usr/local/bin/jstatd
+  keytool: /usr/local/bin/keytool
+  libnetcfg: /usr/local/bin/libnetcfg
+  libpng-config: /usr/local/bin/libpng-config
+  libpng16-config: /usr/local/bin/libpng16-config
+  linkicc: /usr/local/bin/linkicc
+  lz4: /usr/local/bin/lz4
+  lz4c: /usr/local/bin/lz4c
+  lz4cat: /usr/local/bin/lz4cat
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  makeconv: /usr/local/bin/makeconv
+  msgattrib: /usr/local/bin/msgattrib
+  msgcat: /usr/local/bin/msgcat
+  msgcmp: /usr/local/bin/msgcmp
+  msgcomm: /usr/local/bin/msgcomm
+  msgconv: /usr/local/bin/msgconv
+  msgen: /usr/local/bin/msgen
+  msgexec: /usr/local/bin/msgexec
+  msgfilter: /usr/local/bin/msgfilter
+  msgfmt: /usr/local/bin/msgfmt
+  msggrep: /usr/local/bin/msggrep
+  msginit: /usr/local/bin/msginit
+  msgmerge: /usr/local/bin/msgmerge
+  msgunfmt: /usr/local/bin/msgunfmt
+  msguniq: /usr/local/bin/msguniq
+  ngettext: /usr/local/bin/ngettext
+  pack200: /usr/local/bin/pack200
+  pal2rgb: /usr/local/bin/pal2rgb
+  pcre-config: /usr/local/bin/pcre-config
+  pcregrep: /usr/local/bin/pcregrep
+  pcretest: /usr/local/bin/pcretest
+  perl: /usr/local/bin/perl
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pkgdata: /usr/local/bin/pkgdata
+  pl2pm: /usr/local/bin/pl2pm
+  png-fix-itxt: /usr/local/bin/png-fix-itxt
+  pngfix: /usr/local/bin/pngfix
+  pod2html: /usr/local/bin/pod2html
+  pod2man: /usr/local/bin/pod2man
+  pod2text: /usr/local/bin/pod2text
+  pod2usage: /usr/local/bin/pod2usage
+  podchecker: /usr/local/bin/podchecker
+  ppm2tiff: /usr/local/bin/ppm2tiff
+  prove: /usr/local/bin/prove
+  psicc: /usr/local/bin/psicc
+  ptar: /usr/local/bin/ptar
+  ptardiff: /usr/local/bin/ptardiff
+  ptargrep: /usr/local/bin/ptargrep
+  raw2tiff: /usr/local/bin/raw2tiff
+  rdjpgcom: /usr/local/bin/rdjpgcom
+  recode-sr-latin: /usr/local/bin/recode-sr-latin
+  rmic: /usr/local/bin/rmic
+  rmid: /usr/local/bin/rmid
+  rmiregistry: /usr/local/bin/rmiregistry
+  serialver: /usr/local/bin/serialver
+  shasum: /usr/local/bin/shasum
+  splain: /usr/local/bin/splain
+  streamzip: /usr/local/bin/streamzip
+  tiff2bw: /usr/local/bin/tiff2bw
+  tiff2pdf: /usr/local/bin/tiff2pdf
+  tiff2ps: /usr/local/bin/tiff2ps
+  tiff2rgba: /usr/local/bin/tiff2rgba
+  tiffcmp: /usr/local/bin/tiffcmp
+  tiffcp: /usr/local/bin/tiffcp
+  tiffcrop: /usr/local/bin/tiffcrop
+  tiffdither: /usr/local/bin/tiffdither
+  tiffdump: /usr/local/bin/tiffdump
+  tiffinfo: /usr/local/bin/tiffinfo
+  tiffmedian: /usr/local/bin/tiffmedian
+  tiffset: /usr/local/bin/tiffset
+  tiffsplit: /usr/local/bin/tiffsplit
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
+  unlz4: /usr/local/bin/unlz4
+  unlzma: /usr/local/bin/unlzma
+  unpack200: /usr/local/bin/unpack200
+  unxz: /usr/local/bin/unxz
+  unzstd: /usr/local/bin/unzstd
+  webpinfo: /usr/local/bin/webpinfo
+  webpmux: /usr/local/bin/webpmux
+  wrjpgcom: /usr/local/bin/wrjpgcom
+  xgettext: /usr/local/bin/xgettext
+  xml2-config: /usr/local/bin/xml2-config
+  xmlcatalog: /usr/local/bin/xmlcatalog
+  xmllint: /usr/local/bin/xmllint
+  xsubpp: /usr/local/bin/xsubpp
+  xz: /usr/local/bin/xz
+  xzcat: /usr/local/bin/xzcat
+  xzcmp: /usr/local/bin/xzcmp
+  xzdec: /usr/local/bin/xzdec
+  xzdiff: /usr/local/bin/xzdiff
+  xzegrep: /usr/local/bin/xzegrep
+  xzfgrep: /usr/local/bin/xzfgrep
+  xzgrep: /usr/local/bin/xzgrep
+  xzless: /usr/local/bin/xzless
+  xzmore: /usr/local/bin/xzmore
+  zipdetails: /usr/local/bin/zipdetails
+  zstd: /usr/local/bin/zstd
+  zstdcat: /usr/local/bin/zstdcat
+  zstdgrep: /usr/local/bin/zstdgrep
+  zstdless: /usr/local/bin/zstdless
+  zstdmt: /usr/local/bin/zstdmt
+  env-execute: /usr/local/env-execute
