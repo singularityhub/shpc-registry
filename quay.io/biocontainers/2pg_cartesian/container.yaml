@@ -1,54 +1,12 @@
-# change this to a URL to describe your container, or to get help
 url: https://biocontainers.pro/tools/2pg_cartesian
-
-# change this to your GitHub alias (or another contact or name)
-maintainer: vsoch
-
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
-description: ' 2pg cartesian is a framework of optimization algorithms for protein
-  structure prediction'
+maintainer: @vsoch
+description: ' 2pg cartesian is a framework of optimization algorithms for protein structure prediction'
 latest:
   1.0.1--h1b792b2_4: sha256:5698338400cb3cfbfd071445caa165213a6737d0af6fd158a5aff4e2b29335f0
 tags:
   1.0.1--h1b792b2_4: sha256:5698338400cb3cfbfd071445caa165213a6737d0af6fd158a5aff4e2b29335f0
 docker: quay.io/biocontainers/2pg_cartesian
 aliases:
-  nuke: /bin/nuke
-  resume: /bin/resume
-  chpst: /usr/bin/chpst
-  envdir: /usr/bin/envdir
-  envuidgid: /usr/bin/envuidgid
-  fgconsole: /usr/bin/fgconsole
-  ftpget: /usr/bin/ftpget
-  ftpput: /usr/bin/ftpput
-  lpq: /usr/bin/lpq
-  lpr: /usr/bin/lpr
-  lspci: /usr/bin/lspci
-  lsscsi: /usr/bin/lsscsi
-  runsv: /usr/bin/runsv
-  runsvdir: /usr/bin/runsvdir
-  rx: /usr/bin/rx
-  setfattr: /usr/bin/setfattr
-  setuidgid: /usr/bin/setuidgid
-  softlimit: /usr/bin/softlimit
-  sv: /usr/bin/sv
-  svc: /usr/bin/svc
-  svok: /usr/bin/svok
-  telnet: /usr/bin/telnet
-  tftp: /usr/bin/tftp
-  ts: /usr/bin/ts
   derb: /usr/local/bin/derb
   fftw-wisdom: /usr/local/bin/fftw-wisdom
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
@@ -60,36 +18,6 @@ aliases:
   gendict: /usr/local/bin/gendict
   genrb: /usr/local/bin/genrb
   gmx: /usr/local/bin/gmx
-  hwloc-annotate: /usr/local/bin/hwloc-annotate
-  hwloc-bind: /usr/local/bin/hwloc-bind
-  hwloc-calc: /usr/local/bin/hwloc-calc
-  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
-  hwloc-diff: /usr/local/bin/hwloc-diff
-  hwloc-distrib: /usr/local/bin/hwloc-distrib
-  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
-  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
-  hwloc-info: /usr/local/bin/hwloc-info
-  hwloc-ls: /usr/local/bin/hwloc-ls
-  hwloc-patch: /usr/local/bin/hwloc-patch
-  hwloc-ps: /usr/local/bin/hwloc-ps
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  lstopo: /usr/local/bin/lstopo
-  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo
-  lzmore: /usr/local/bin/lzmore
-  makeconv: /usr/local/bin/makeconv
-  pkgdata: /usr/local/bin/pkgdata
   protpred-Gromacs-Dominance: /usr/local/bin/protpred-Gromacs-Dominance
   protpred-Gromacs-Front: /usr/local/bin/protpred-Gromacs-Front
   protpred-Gromacs-MC_Metropolis: /usr/local/bin/protpred-Gromacs-MC_Metropolis
@@ -107,17 +35,3 @@ aliases:
   protpred-Gromacs-Test_rotation: /usr/local/bin/protpred-Gromacs-Test_rotation
   unlzma: /usr/local/bin/unlzma
   unxz: /usr/local/bin/unxz
-  xml2-config: /usr/local/bin/xml2-config
-  xmlcatalog: /usr/local/bin/xmlcatalog
-  xmllint: /usr/local/bin/xmllint
-  xz: /usr/local/bin/xz
-  xzcat: /usr/local/bin/xzcat
-  xzcmp: /usr/local/bin/xzcmp
-  xzdec: /usr/local/bin/xzdec
-  xzdiff: /usr/local/bin/xzdiff
-  xzegrep: /usr/local/bin/xzegrep
-  xzfgrep: /usr/local/bin/xzfgrep
-  xzgrep: /usr/local/bin/xzgrep
-  xzless: /usr/local/bin/xzless
-  xzmore: /usr/local/bin/xzmore
-  env-execute: /usr/local/env-execute
