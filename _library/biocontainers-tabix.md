@@ -4,7 +4,7 @@ name:  "biocontainers/tabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tabix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tabix/container.yaml"
-updated_at: "2022-10-17 02:37:50.506545"
+updated_at: "2022-10-17 02:43:33.119185"
 latest: "v1.9-11-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tabix"
 aliases:

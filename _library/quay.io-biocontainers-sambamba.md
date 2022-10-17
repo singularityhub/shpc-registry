@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sambamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sambamba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sambamba/container.yaml"
-updated_at: "2022-10-17 02:37:32.148420"
+updated_at: "2022-10-17 02:43:16.340434"
 latest: "0.8.2--h98b6b92_2"
 container_url: "https://quay.io/repository/biocontainers/sambamba"
 aliases:

@@ -4,7 +4,7 @@ name:  "biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/picard/container.yaml"
-updated_at: "2022-10-17 02:37:52.069325"
+updated_at: "2022-10-17 02:43:34.489223"
 latest: "2.3.0"
 container_url: "https://hub.docker.com/r/biocontainers/picard"
 aliases:
