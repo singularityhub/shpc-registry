@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/a5-miseq
+maintainer: '@vsoch'
+description: A5-miseq is a pipeline for assembling dna sequence data generated on
+  the illumina sequencing platform. this readme will take you through the steps necessary
+  for running _a5-miseq_
+latest:
+  20160825--hdfd78af_2: sha256:48cb29db1d86d7b8018f1c83298a67717d50bb9a6ea0f1f72c2c67d077d2e2e5
+tags:
+  20160825--hdfd78af_2: sha256:48cb29db1d86d7b8018f1c83298a67717d50bb9a6ea0f1f72c2c67d077d2e2e5
+docker: quay.io/biocontainers/a5-miseq
+aliases:
+  a5_pipeline.pl: /usr/local/bin/a5_pipeline.pl
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  gapplication: /usr/local/bin/gapplication
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  hb-ot-shape-closure: /usr/local/bin/hb-ot-shape-closure
+  hb-shape: /usr/local/bin/hb-shape
+  hb-subset: /usr/local/bin/hb-subset
+  hb-view: /usr/local/bin/hb-view
+  pack200: /usr/local/bin/pack200
+  pal2rgb: /usr/local/bin/pal2rgb
+  pl2pm: /usr/local/bin/pl2pm
+  rmic: /usr/local/bin/rmic
+  rmid: /usr/local/bin/rmid
+  rmiregistry: /usr/local/bin/rmiregistry
