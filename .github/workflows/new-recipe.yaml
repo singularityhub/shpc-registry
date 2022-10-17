@@ -47,11 +47,12 @@ jobs:
 
       - name: Checkout Update branch
         env:
+          image: ${{ inputs.docker_uri || 'autamus/clingo:5.5.1' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_AGAINST: "main"
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-          export BRANCH_FROM="container/new-$(date '+%Y-%m-%d')"
+          export BRANCH_FROM="add-container/${image}"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
           if [[ -z ${BRANCH_EXISTS} ]]; then
