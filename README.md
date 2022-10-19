@@ -25,6 +25,24 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 5. Fill in the name of the container you want to build a `container.yaml` for, as well as a URL and a description (both are mandatory fields). Leave the branch as `main`.
 6. Hit the green "Run workflow" button, wait and marvel at the magic :sparkles: happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
 
+### BioContainers
+
+We have a [script](.github/scripts/update_biocontainers.py) that will generate (non existing) modules for BioContainers,
+currently under development but will be added to automation soon! To run, you'll need a few dependencies:
+
+```bash
+$ pip install requests beautifulsoup4 pipelib
+```
+
+Then run:
+
+```bash
+$ python .github/scripts/update_biocontainers.py
+```
+
+from the root.
+
+
 ### Expected content
 
 Refer to the documentation for a list of the [`container.yaml` fields](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#registry-yaml-fields), especially the _required_ ones.
