@@ -26,6 +26,21 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 6. Hit the green "Run workflow" button, wait and marvel at the magic :sparkles: happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
 
 
+### BioContainers
+
+We have a [script](.github/scripts/update_biocontainers.py) that generates (non existing) modules for BioContainers,
+adding them to the registry and figuring out the important executables by way of using the [Singularity Registry Cache](https://github.com/singularityhub/shpc-registry-cache) that has workflows to keep an updated set of entries plus executable counts. This is automated
+via the [.github/workflows/update-biocontainers.yaml](.github/workflows/update-biocontainers.yaml) workflow.
+To runt this manually, clone the cache and run:
+
+```bash
+$ git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
+$ python .github/scripts/update_biocontainers.py ---cache /tmp/cache
+```
+
+from the root, targeting the cloned cache.
+
+
 ### Expected content
 
 Refer to the documentation for a list of the [`container.yaml` fields](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#registry-yaml-fields), especially the _required_ ones.
