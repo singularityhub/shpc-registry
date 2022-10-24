@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tfutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tfutils
+latest:
+  1.8.0--r40_0: sha256:23256792ffbbc4665f3d8c9cb0ae41ac30afde168f62ffc97804870ea11e35c9
+tags:
+  1.8.0--r40_0: sha256:23256792ffbbc4665f3d8c9cb0ae41ac30afde168f62ffc97804870ea11e35c9
+docker: quay.io/biocontainers/bioconductor-tfutils

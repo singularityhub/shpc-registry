@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hanselx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hanselx
+latest:
+  0.0.92--pyh864c0ab_1: sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b
+tags:
+  0.0.92--pyh864c0ab_1: sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b
+docker: quay.io/biocontainers/hanselx

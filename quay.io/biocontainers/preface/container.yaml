@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/preface
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for preface
+latest:
+  0.1.2--hdfd78af_0: sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd
+tags:
+  0.1.2--hdfd78af_0: sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd
+docker: quay.io/biocontainers/preface
+aliases:
+  PREFACE: /usr/local/bin/PREFACE

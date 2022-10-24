@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biomaj
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biomaj
+latest:
+  3.0.19--py35_0: sha256:117a97a207c99e3cd31a3322d1713dc1157249cf1122dadcf8ef407fa930eaf4
+tags:
+  3.0.19--py35_0: sha256:117a97a207c99e3cd31a3322d1713dc1157249cf1122dadcf8ef407fa930eaf4
+docker: quay.io/biocontainers/biomaj
+aliases:
+  biomaj-cli.py: /usr/local/bin/biomaj-cli.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rseqan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rseqan
+latest:
+  1.8.0--r40h5f743cb_0: sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf
+tags:
+  1.8.0--r40h5f743cb_0: sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf
+docker: quay.io/biocontainers/bioconductor-rseqan

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bio3d
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bio3d
+latest:
+  '2.4_1': sha256:7acb0345f719bdac30d21ef587c99dfde1296987e853a63aa8e48e0cdba9f8f0
+tags:
+  '2.4_1': sha256:7acb0345f719bdac30d21ef587c99dfde1296987e853a63aa8e48e0cdba9f8f0
+docker: quay.io/biocontainers/r-bio3d

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fsm-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fsm-lite
+latest:
+  1.0--h9f5acd7_3: sha256:8ed52c99ac8db024429e3ba47761f42f6df752713efc22a1eb45c609b04be72c
+tags:
+  1.0--h9f5acd7_3: sha256:8ed52c99ac8db024429e3ba47761f42f6df752713efc22a1eb45c609b04be72c
+docker: quay.io/biocontainers/fsm-lite
+aliases:
+  fsm-lite: /usr/local/bin/fsm-lite

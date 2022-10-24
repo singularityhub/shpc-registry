@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clusterseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clusterseq
+latest:
+  1.8.0--r36_1: sha256:ea4b5d40c0fccda1fa329780a556f2411c062702cb2140f59cd274a3ce1c7d75
+tags:
+  1.8.0--r36_1: sha256:ea4b5d40c0fccda1fa329780a556f2411c062702cb2140f59cd274a3ce1c7d75
+docker: quay.io/biocontainers/bioconductor-clusterseq

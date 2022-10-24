@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-openstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-openstats
+latest:
+  1.6.0--r41hdfd78af_0: sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99
+tags:
+  1.6.0--r41hdfd78af_0: sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99
+docker: quay.io/biocontainers/bioconductor-openstats

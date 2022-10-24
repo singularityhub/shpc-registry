@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/chainmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chainmap
+latest:
+  1.0.3--py_0: sha256:3d20c4782da027954118ddd051c98adf0f3e24236289ad5ed1b588da05ff579f
+tags:
+  1.0.3--py_0: sha256:3d20c4782da027954118ddd051c98adf0f3e24236289ad5ed1b588da05ff579f
+docker: quay.io/biocontainers/chainmap

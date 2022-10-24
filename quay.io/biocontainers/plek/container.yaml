@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/plek
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plek
+latest:
+  1.2--py38h8ded8fe_5: sha256:ac9e43073c12cd1936311ae7b2dc6dc247c424467aead24ebf6ffd790e8620f9
+tags:
+  1.2--py38h8ded8fe_5: sha256:ac9e43073c12cd1936311ae7b2dc6dc247c424467aead24ebf6ffd790e8620f9
+docker: quay.io/biocontainers/plek
+aliases:
+  PLEK: /usr/local/bin/PLEK
+  PLEK.model: /usr/local/bin/PLEK.model
+  PLEK.py: /usr/local/bin/PLEK.py
+  PLEK.range: /usr/local/bin/PLEK.range
+  PLEKModelling.py: /usr/local/bin/PLEKModelling.py
+  PLEK_generate_scripts.R: /usr/local/bin/PLEK_generate_scripts.R
+  PLEK_setup.py: /usr/local/bin/PLEK_setup.py
+  PLEK_spsn: /usr/local/bin/PLEK_spsn
+  svm-easy.py: /usr/local/bin/svm-easy.py
+  svm-subset.py: /usr/local/bin/svm-subset.py
+  svm_grid_modelling.py: /usr/local/bin/svm_grid_modelling.py
+  svm_grid_modelling_singlet.py: /usr/local/bin/svm_grid_modelling_singlet.py

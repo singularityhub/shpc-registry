@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-maldirppa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-maldirppa
+latest:
+  1.0.1--r351h6115d3f_3: sha256:8ef13ec53d940f574cb488a3074c4dce083bb51e7350db02697d42172f0d9226
+tags:
+  1.0.1--r351h6115d3f_3: sha256:8ef13ec53d940f574cb488a3074c4dce083bb51e7350db02697d42172f0d9226
+docker: quay.io/biocontainers/r-maldirppa

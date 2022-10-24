@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-catalyst
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-catalyst
+latest:
+  1.8.6--r36_0: sha256:b82098dda8c583b8a9918a710eecb95fc48d1dd865f767ed04f0c19277e32cc9
+tags:
+  1.8.6--r36_0: sha256:b82098dda8c583b8a9918a710eecb95fc48d1dd865f767ed04f0c19277e32cc9
+docker: quay.io/biocontainers/bioconductor-catalyst

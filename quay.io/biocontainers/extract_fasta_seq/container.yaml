@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/extract_fasta_seq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for extract_fasta_seq
+latest:
+  0.0.1--py_0: sha256:24150b587992d53628c32758f6c19d1a7a472a7f5ce135d907e2112c6d633caf
+tags:
+  0.0.1--py_0: sha256:24150b587992d53628c32758f6c19d1a7a472a7f5ce135d907e2112c6d633caf
+docker: quay.io/biocontainers/extract_fasta_seq
+aliases:
+  extract_fasta_seq: /usr/local/bin/extract_fasta_seq

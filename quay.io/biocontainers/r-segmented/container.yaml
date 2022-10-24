@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-segmented
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-segmented
+latest:
+  0.5_1.4--r3.3.1_0: sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b
+tags:
+  0.5_1.4--r3.3.1_0: sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b
+docker: quay.io/biocontainers/r-segmented

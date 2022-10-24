@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellmigration
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellmigration
+latest:
+  1.2.0--r41hdfd78af_0: sha256:e696eab412b7757e4b5f2869f54a4e6eef98fd2d7840c4332129596688438dc0
+tags:
+  1.2.0--r41hdfd78af_0: sha256:e696eab412b7757e4b5f2869f54a4e6eef98fd2d7840c4332129596688438dc0
+docker: quay.io/biocontainers/bioconductor-cellmigration

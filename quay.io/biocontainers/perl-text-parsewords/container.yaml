@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-parsewords
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-parsewords
+latest:
+  3.31--pl5321hdfd78af_0: sha256:115ab0dde1f9dca6f6e9eabcc73513771fd35f5893f5bb11edc353333c0b6ee5
+tags:
+  3.31--pl5321hdfd78af_0: sha256:115ab0dde1f9dca6f6e9eabcc73513771fd35f5893f5bb11edc353333c0b6ee5
+docker: quay.io/biocontainers/perl-text-parsewords

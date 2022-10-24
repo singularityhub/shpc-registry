@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genotypeeval
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genotypeeval
+latest:
+  1.26.0--r41hdfd78af_0: sha256:4776b529872e113629c42aead3c9cb1c3b7a3750889877c9626b0d98e8a7a018
+tags:
+  1.26.0--r41hdfd78af_0: sha256:4776b529872e113629c42aead3c9cb1c3b7a3750889877c9626b0d98e8a7a018
+docker: quay.io/biocontainers/bioconductor-genotypeeval

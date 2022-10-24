@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/transtermhp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transtermhp
+latest:
+  2.09--h2d50403_1: sha256:4d3782067071be44e533b58ccb8f3e5af7190633645f84ffcad32b12ce4680a4
+tags:
+  2.09--h2d50403_1: sha256:4d3782067071be44e533b58ccb8f3e5af7190633645f84ffcad32b12ce4680a4
+docker: quay.io/biocontainers/transtermhp
+aliases:
+  2ndscore: /usr/local/bin/2ndscore
+  calibrate.sh: /usr/local/bin/calibrate.sh
+  make_expterm.py: /usr/local/bin/make_expterm.py
+  mfold_rna.sh: /usr/local/bin/mfold_rna.sh
+  transterm: /usr/local/bin/transterm

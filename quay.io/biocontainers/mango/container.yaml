@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/mango
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mango
+latest:
+  0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
+tags:
+  0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
+docker: quay.io/biocontainers/mango
+aliases:
+  .mango-post-link.sh: /usr/local/bin/.mango-post-link.sh
+  .mango-pre-unlink.sh: /usr/local/bin/.mango-pre-unlink.sh
+  adam-shell: /usr/local/bin/adam-shell
+  adam-submit: /usr/local/bin/adam-submit
+  adamR: /usr/local/bin/adamR
+  beeline: /usr/local/bin/beeline
+  beeline.cmd: /usr/local/bin/beeline.cmd
+  docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
+  find-adam-assembly.sh: /usr/local/bin/find-adam-assembly.sh
+  find-adam-egg.sh: /usr/local/bin/find-adam-egg.sh
+  find-adam-home: /usr/local/bin/find-adam-home
+  find-mango-assembly.sh: /usr/local/bin/find-mango-assembly.sh
+  find-mango-home: /usr/local/bin/find-mango-home
+  find-spark-home: /usr/local/bin/find-spark-home
+  find-spark-home.cmd: /usr/local/bin/find-spark-home.cmd
+  find-spark.sh: /usr/local/bin/find-spark.sh
+  find_adam_home.py: /usr/local/bin/find_adam_home.py
+  find_spark_home.py: /usr/local/bin/find_spark_home.py
+  load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
+  load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  make_genome: /usr/local/bin/make_genome
+  mango-notebook: /usr/local/bin/mango-notebook
+  mango-submit: /usr/local/bin/mango-submit
+  pyadam: /usr/local/bin/pyadam
+  pyspark: /usr/local/bin/pyspark
+  pyspark.cmd: /usr/local/bin/pyspark.cmd
+  pyspark2.cmd: /usr/local/bin/pyspark2.cmd
+  run-example: /usr/local/bin/run-example
+  run-example.cmd: /usr/local/bin/run-example.cmd
+  spark-class: /usr/local/bin/spark-class
+  spark-class.cmd: /usr/local/bin/spark-class.cmd
+  spark-class2.cmd: /usr/local/bin/spark-class2.cmd
+  spark-shell: /usr/local/bin/spark-shell
+  spark-shell.cmd: /usr/local/bin/spark-shell.cmd
+  spark-shell2.cmd: /usr/local/bin/spark-shell2.cmd
+  spark-sql: /usr/local/bin/spark-sql
+  spark-sql.cmd: /usr/local/bin/spark-sql.cmd
+  spark-sql2.cmd: /usr/local/bin/spark-sql2.cmd
+  spark-submit: /usr/local/bin/spark-submit
+  spark-submit.cmd: /usr/local/bin/spark-submit.cmd
+  spark-submit2.cmd: /usr/local/bin/spark-submit2.cmd
+  sparkR: /usr/local/bin/sparkR
+  sparkR.cmd: /usr/local/bin/sparkR.cmd
+  sparkR2.cmd: /usr/local/bin/sparkR2.cmd

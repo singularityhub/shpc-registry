@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-minimumdistance
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-minimumdistance
+latest:
+  1.38.0--r41hdfd78af_0: sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464
+tags:
+  1.38.0--r41hdfd78af_0: sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464
+docker: quay.io/biocontainers/bioconductor-minimumdistance
+aliases:
+  .bioconductor-bsgenome.hsapiens.ucsc.hg18-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg18-post-link.sh
+  .bioconductor-bsgenome.hsapiens.ucsc.hg18-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg18-pre-unlink.sh

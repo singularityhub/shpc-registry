@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-timeseriesexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-timeseriesexperiment
+latest:
+  1.8.0--r40hdfd78af_1: sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b
+tags:
+  1.8.0--r40hdfd78af_1: sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b
+docker: quay.io/biocontainers/bioconductor-timeseriesexperiment

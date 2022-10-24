@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-locale-maketext-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-locale-maketext-simple
+latest:
+  0.21--pl5321hdfd78af_3: sha256:b6fdb9ccff90203c35467262fce31613a93f3388f5f5d400bbe2c797da5b77a1
+tags:
+  0.21--pl5321hdfd78af_3: sha256:b6fdb9ccff90203c35467262fce31613a93f3388f5f5d400bbe2c797da5b77a1
+docker: quay.io/biocontainers/perl-locale-maketext-simple

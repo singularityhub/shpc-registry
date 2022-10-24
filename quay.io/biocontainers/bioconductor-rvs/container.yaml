@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rvs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rvs
+latest:
+  1.8.0--r36_0: sha256:db4241a77862d17434b8b9fc4ec13c916c1a01f1290a44e937d01314cb4e1c1f
+tags:
+  1.8.0--r36_0: sha256:db4241a77862d17434b8b9fc4ec13c916c1a01f1290a44e937d01314cb4e1c1f
+docker: quay.io/biocontainers/bioconductor-rvs

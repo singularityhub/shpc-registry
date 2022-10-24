@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/rappas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rappas
+latest:
+  1.21--0: sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf
+tags:
+  1.21--0: sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf
+docker: quay.io/biocontainers/rappas
+aliases:
+  RAPPAS.jar: /usr/local/bin/RAPPAS.jar
+  phyml: /usr/local/bin/phyml
+  phyml-mpi: /usr/local/bin/phyml-mpi
+  phyrex: /usr/local/bin/phyrex
+  phytime: /usr/local/bin/phytime
+  rappas: /usr/local/bin/rappas

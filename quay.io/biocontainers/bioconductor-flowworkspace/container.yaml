@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowworkspace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowworkspace
+latest:
+  4.6.0--r41hc247a5b_2: sha256:9b86d8f42c41e0fbe654a85586c9135e183ec6de91f468c08fa55127b3c2a371
+tags:
+  4.6.0--r41hc247a5b_2: sha256:9b86d8f42c41e0fbe654a85586c9135e183ec6de91f468c08fa55127b3c2a371
+docker: quay.io/biocontainers/bioconductor-flowworkspace

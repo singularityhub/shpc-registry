@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/scvi-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scvi-tools
+latest:
+  0.9.1--py_0: sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c
+tags:
+  0.9.1--py_0: sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c
+docker: quay.io/biocontainers/scvi-tools
+aliases:
+  hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
+  keyring: /usr/local/bin/keyring
+  pkginfo: /usr/local/bin/pkginfo
+  poetry: /usr/local/bin/poetry

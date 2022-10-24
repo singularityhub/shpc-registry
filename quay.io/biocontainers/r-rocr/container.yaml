@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rocr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rocr
+latest:
+  1.0_7--r3.3.1_0: sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f
+tags:
+  1.0_7--r3.3.1_0: sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f
+docker: quay.io/biocontainers/r-rocr

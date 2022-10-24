@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-atsnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-atsnp
+latest:
+  1.8.0--r41h399db7b_0: sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b
+tags:
+  1.8.0--r41h399db7b_0: sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b
+docker: quay.io/biocontainers/bioconductor-atsnp

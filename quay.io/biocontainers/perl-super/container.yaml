@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-super
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-super
+latest:
+  1.20190531--pl5321hdfd78af_1: sha256:2d1bbc79b859a04282a2f1b497bdedbb09369ff741a03cf06ddee9835393984e
+tags:
+  1.20190531--pl5321hdfd78af_1: sha256:2d1bbc79b859a04282a2f1b497bdedbb09369ff741a03cf06ddee9835393984e
+docker: quay.io/biocontainers/perl-super

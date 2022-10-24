@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/probeit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for probeit
+latest:
+  v1.9--py38hc37a69a_1: sha256:a6f818dede4e5c1528dfaef296dcad730de61579254380369f2e8abc148e3dc4
+tags:
+  v1.9--py38hc37a69a_1: sha256:a6f818dede4e5c1528dfaef296dcad730de61579254380369f2e8abc148e3dc4
+docker: quay.io/biocontainers/probeit
+aliases:
+  genmap: /usr/local/bin/genmap
+  probeit: /usr/local/bin/probeit
+  setcover: /usr/local/bin/setcover

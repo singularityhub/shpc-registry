@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-which
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-which
+latest:
+  1.23--pl526_0: sha256:591d8d06298473a5d39350613047ddb010a1ef9b858ce6940a7764c261c13e6c
+tags:
+  1.23--pl526_0: sha256:591d8d06298473a5d39350613047ddb010a1ef9b858ce6940a7764c261c13e6c
+docker: quay.io/biocontainers/perl-file-which

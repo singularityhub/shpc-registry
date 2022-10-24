@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sistr_cmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sistr_cmd
+latest:
+  1.1.1--pyh864c0ab_2: sha256:0068bd3708615599f2ed4229338a9aa59cd2cc43a66c199d931da0d51261f211
+tags:
+  1.1.1--pyh864c0ab_2: sha256:0068bd3708615599f2ed4229338a9aa59cd2cc43a66c199d931da0d51261f211
+docker: quay.io/biocontainers/sistr_cmd
+aliases:
+  sistr: /usr/local/bin/sistr

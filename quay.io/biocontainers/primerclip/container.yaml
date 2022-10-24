@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/primerclip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for primerclip
+latest:
+  0.3.8--h9ee0642_1: sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f
+tags:
+  0.3.8--h9ee0642_1: sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f
+docker: quay.io/biocontainers/primerclip
+aliases:
+  primerclip: /usr/local/bin/primerclip

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-atacseqqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-atacseqqc
+latest:
+  1.8.5--r36_0: sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685
+tags:
+  1.8.5--r36_0: sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685
+docker: quay.io/biocontainers/bioconductor-atacseqqc

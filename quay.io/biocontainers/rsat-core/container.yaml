@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/rsat-core
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rsat-core
+latest:
+  2020.02.29--py36pl526r36hc99cbb1_0: sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402
+tags:
+  2020.02.29--py36pl526r36hc99cbb1_0: sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402
+docker: quay.io/biocontainers/rsat-core
+aliases:
+  .vmatch-post-link.sh: /usr/local/bin/.vmatch-post-link.sh
+  .vmatch-pre-unlink.sh: /usr/local/bin/.vmatch-pre-unlink.sh
+  Vmatchtrans.pl: /usr/local/bin/Vmatchtrans.pl
+  bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
+  chain2dim: /usr/local/bin/chain2dim
+  cleanpp.sh: /usr/local/bin/cleanpp.sh
+  compare-matrices-quick: /usr/local/bin/compare-matrices-quick
+  count-words: /usr/local/bin/count-words
+  cpp: /usr/local/bin/cpp
+  index_bigwigset.pl: /usr/local/bin/index_bigwigset.pl
+  info-gibbs: /usr/local/bin/info-gibbs
+  lz4_decompress: /usr/local/bin/lz4_decompress
+  matchcluster: /usr/local/bin/matchcluster
+  matrix-scan-quick: /usr/local/bin/matrix-scan-quick
+  mkdna6idx: /usr/local/bin/mkdna6idx
+  mkvtree: /usr/local/bin/mkvtree
+  mysql.server: /usr/local/bin/mysql.server
+  mysql_client_test_embedded: /usr/local/bin/mysql_client_test_embedded
+  mysql_config_editor: /usr/local/bin/mysql_config_editor
+  mysql_embedded: /usr/local/bin/mysql_embedded
+  mysql_install_db: /usr/local/bin/mysql_install_db
+  mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysqlpump: /usr/local/bin/mysqlpump
+  mysqltest_embedded: /usr/local/bin/mysqltest_embedded
+  mysqlxtest: /usr/local/bin/mysqlxtest
+  repfind.pl: /usr/local/bin/repfind.pl
+  retrieve-variation-seq: /usr/local/bin/retrieve-variation-seq
+  rsat: /usr/local/bin/rsat
+  upgradeprj.pl: /usr/local/bin/upgradeprj.pl
+  variation-scan: /usr/local/bin/variation-scan
+  vendian: /usr/local/bin/vendian
+  vmatch: /usr/local/bin/vmatch
+  vmatchselect: /usr/local/bin/vmatchselect
+  vmigrate.sh: /usr/local/bin/vmigrate.sh
+  vseqinfo: /usr/local/bin/vseqinfo
+  vseqselect: /usr/local/bin/vseqselect
+  vstree2tex: /usr/local/bin/vstree2tex
+  vsubseqselect: /usr/local/bin/vsubseqselect
+  wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
+  zlib_decompress: /usr/local/bin/zlib_decompress

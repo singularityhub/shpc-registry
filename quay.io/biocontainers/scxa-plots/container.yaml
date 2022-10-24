@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scxa-plots
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scxa-plots
+latest:
+  0.0.1--hdfd78af_1: sha256:2c7d3cf8e4a7e4c89e5cc4830770b4d97e791b47945a945307a5043d340ee17f
+tags:
+  0.0.1--hdfd78af_1: sha256:2c7d3cf8e4a7e4c89e5cc4830770b4d97e791b47945a945307a5043d340ee17f
+docker: quay.io/biocontainers/scxa-plots
+aliases:
+  dropletBarcodePlot.R: /usr/local/bin/dropletBarcodePlot.R

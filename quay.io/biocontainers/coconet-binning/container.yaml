@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/coconet-binning
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for coconet-binning
+latest:
+  1.1.0--py_0: sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da
+tags:
+  1.1.0--py_0: sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da
+docker: quay.io/biocontainers/coconet-binning
+aliases:
+  coconet: /usr/local/bin/coconet

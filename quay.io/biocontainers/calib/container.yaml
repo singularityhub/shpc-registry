@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/calib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for calib
+latest:
+  0.3.4--hd03093a_3: sha256:3c6e3dfd1c7d09da5b9174ae9e4fa2c4d1627ab1366dbe9632e3894790e4a5f0
+tags:
+  0.3.4--hd03093a_3: sha256:3c6e3dfd1c7d09da5b9174ae9e4fa2c4d1627ab1366dbe9632e3894790e4a5f0
+docker: quay.io/biocontainers/calib
+aliases:
+  calib: /usr/local/bin/calib
+  calib_cons: /usr/local/bin/calib_cons

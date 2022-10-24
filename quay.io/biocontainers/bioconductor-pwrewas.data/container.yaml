@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pwrewas.data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pwrewas.data
+latest:
+  1.8.0--r41hdfd78af_1: sha256:c51c625abb23cbe024deab39ec25e8d217acf871078ec16255b47bbd4cebebf9
+tags:
+  1.8.0--r41hdfd78af_1: sha256:c51c625abb23cbe024deab39ec25e8d217acf871078ec16255b47bbd4cebebf9
+docker: quay.io/biocontainers/bioconductor-pwrewas.data
+aliases:
+  .bioconductor-pwrewas.data-post-link.sh: /usr/local/bin/.bioconductor-pwrewas.data-post-link.sh
+  .bioconductor-pwrewas.data-pre-unlink.sh: /usr/local/bin/.bioconductor-pwrewas.data-pre-unlink.sh

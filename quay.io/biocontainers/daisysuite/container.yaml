@@ -1,0 +1,55 @@
+url: https://biocontainers.pro/tools/daisysuite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for daisysuite
+latest:
+  1.3.0--hdfd78af_2: sha256:de19a6a885d7e15fe48b54bfcd16b644e9521ac9de320527b48096d920990a96
+tags:
+  1.3.0--hdfd78af_2: sha256:de19a6a885d7e15fe48b54bfcd16b644e9521ac9de320527b48096d920990a96
+docker: quay.io/biocontainers/daisysuite
+aliases:
+  DaisySuite: /usr/local/bin/DaisySuite
+  DaisySuite_example: /usr/local/bin/DaisySuite_example
+  DaisySuite_setup: /usr/local/bin/DaisySuite_setup
+  DaisySuite_stats: /usr/local/bin/DaisySuite_stats
+  DaisySuite_template: /usr/local/bin/DaisySuite_template
+  add-score-tags-to-bam: /usr/local/bin/add-score-tags-to-bam
+  bam-to-alignment-priors: /usr/local/bin/bam-to-alignment-priors
+  bam2fastq: /usr/local/bin/bam2fastq
+  clever: /usr/local/bin/clever
+  clever-core: /usr/local/bin/clever-core
+  ctk-version: /usr/local/bin/ctk-version
+  evaluate-sv-predictions: /usr/local/bin/evaluate-sv-predictions
+  extract-bad-reads: /usr/local/bin/extract-bad-reads
+  filter-bam: /usr/local/bin/filter-bam
+  filter-variations: /usr/local/bin/filter-variations
+  genotyper: /usr/local/bin/genotyper
+  gustaf: /usr/local/bin/gustaf
+  gustaf_mate_joining: /usr/local/bin/gustaf_mate_joining
+  insert-length-histogram: /usr/local/bin/insert-length-histogram
+  laser: /usr/local/bin/laser
+  laser-core: /usr/local/bin/laser-core
+  laser-recalibrate: /usr/local/bin/laser-recalibrate
+  mason_frag_sequencing: /usr/local/bin/mason_frag_sequencing
+  mason_genome: /usr/local/bin/mason_genome
+  mason_materializer: /usr/local/bin/mason_materializer
+  mason_methylation: /usr/local/bin/mason_methylation
+  mason_simulator: /usr/local/bin/mason_simulator
+  mason_splicing: /usr/local/bin/mason_splicing
+  mason_variator: /usr/local/bin/mason_variator
+  mateclever: /usr/local/bin/mateclever
+  mateclever-compute-rois: /usr/local/bin/mateclever-compute-rois
+  merge-to-vcf: /usr/local/bin/merge-to-vcf
+  merge-variation-lists: /usr/local/bin/merge-variation-lists
+  multiline-to-xa: /usr/local/bin/multiline-to-xa
+  plot-insert-size-distribution: /usr/local/bin/plot-insert-size-distribution
+  postprocess-predictions: /usr/local/bin/postprocess-predictions
+  precompute-distributions: /usr/local/bin/precompute-distributions
+  read-group-stats: /usr/local/bin/read-group-stats
+  remove-redundant-variations: /usr/local/bin/remove-redundant-variations
+  sak: /usr/local/bin/sak
+  split-priors-by-chromosome: /usr/local/bin/split-priors-by-chromosome
+  split-reads: /usr/local/bin/split-reads
+  stellar: /usr/local/bin/stellar
+  vcf-to-deletionlist: /usr/local/bin/vcf-to-deletionlist
+  yara_indexer: /usr/local/bin/yara_indexer
+  yara_mapper: /usr/local/bin/yara_mapper

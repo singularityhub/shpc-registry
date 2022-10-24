@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-path2ppi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-path2ppi
+latest:
+  1.8.0--r3.4.1_0: sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db
+tags:
+  1.8.0--r3.4.1_0: sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db
+docker: quay.io/biocontainers/bioconductor-path2ppi

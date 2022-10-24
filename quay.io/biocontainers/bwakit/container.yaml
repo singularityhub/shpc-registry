@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/bwakit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bwakit
+latest:
+  0.7.17.dev1--hdfd78af_1: sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4
+tags:
+  0.7.17.dev1--hdfd78af_1: sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4
+docker: quay.io/biocontainers/bwakit
+aliases:
+  bwa-postalt.js: /usr/local/bin/bwa-postalt.js
+  fermi2: /usr/local/bin/fermi2
+  fermi2.pl: /usr/local/bin/fermi2.pl
+  htsbox: /usr/local/bin/htsbox
+  ropebwt2: /usr/local/bin/ropebwt2
+  run-HLA: /usr/local/bin/run-HLA
+  run-bwamem: /usr/local/bin/run-bwamem
+  run-gen-ref: /usr/local/bin/run-gen-ref
+  samblaster: /usr/local/bin/samblaster
+  trimadap: /usr/local/bin/trimadap
+  typeHLA-selctg.js: /usr/local/bin/typeHLA-selctg.js
+  typeHLA.js: /usr/local/bin/typeHLA.js
+  typeHLA.sh: /usr/local/bin/typeHLA.sh

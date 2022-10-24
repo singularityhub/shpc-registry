@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-scatac.explorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scatac.explorer
+latest:
+  1.0.1--r41hdfd78af_1: sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5
+tags:
+  1.0.1--r41hdfd78af_1: sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5
+docker: quay.io/biocontainers/bioconductor-scatac.explorer
+aliases:
+  .bioconductor-scatac.explorer-post-link.sh: /usr/local/bin/.bioconductor-scatac.explorer-post-link.sh
+  .bioconductor-scatac.explorer-pre-unlink.sh: /usr/local/bin/.bioconductor-scatac.explorer-pre-unlink.sh

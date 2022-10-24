@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/isoncorrect
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isoncorrect
+latest:
+  0.0.8--py_0: sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae
+tags:
+  0.0.8--py_0: sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae
+docker: quay.io/biocontainers/isoncorrect
+aliases:
+  isONcorrect: /usr/local/bin/isONcorrect
+  run_isoncorrect: /usr/local/bin/run_isoncorrect

@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/biobb_ml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_ml
+latest:
+  3.8.0--pyhdfd78af_0: sha256:657456f6b3e8f0814d70927f87972b6c507f0e5dad99c60429ce5a82886516b6
+tags:
+  3.8.0--pyhdfd78af_0: sha256:657456f6b3e8f0814d70927f87972b6c507f0e5dad99c60429ce5a82886516b6
+docker: quay.io/biocontainers/biobb_ml
+aliases:
+  agglomerative_clustering: /usr/local/bin/agglomerative_clustering
+  agglomerative_coefficient: /usr/local/bin/agglomerative_coefficient
+  autoencoder_neural_network: /usr/local/bin/autoencoder_neural_network
+  classification_neural_network: /usr/local/bin/classification_neural_network
+  classification_predict: /usr/local/bin/classification_predict
+  clustering_predict: /usr/local/bin/clustering_predict
+  correlation_matrix: /usr/local/bin/correlation_matrix
+  dbscan: /usr/local/bin/dbscan
+  decision_tree: /usr/local/bin/decision_tree
+  dendrogram: /usr/local/bin/dendrogram
+  drop_columns: /usr/local/bin/drop_columns
+  dummy_variables: /usr/local/bin/dummy_variables
+  k_means: /usr/local/bin/k_means
+  k_means_coefficient: /usr/local/bin/k_means_coefficient
+  k_neighbors: /usr/local/bin/k_neighbors
+  k_neighbors_coefficient: /usr/local/bin/k_neighbors_coefficient
+  linear_regression: /usr/local/bin/linear_regression
+  logistic_regression: /usr/local/bin/logistic_regression
+  map_variables: /usr/local/bin/map_variables
+  neural_network_decode: /usr/local/bin/neural_network_decode
+  neural_network_predict: /usr/local/bin/neural_network_predict
+  oversampling: /usr/local/bin/oversampling
+  pairwise_comparison: /usr/local/bin/pairwise_comparison
+  pls_components: /usr/local/bin/pls_components
+  pls_regression: /usr/local/bin/pls_regression
+  polynomial_regression: /usr/local/bin/polynomial_regression
+  principal_component: /usr/local/bin/principal_component
+  random_forest_classifier: /usr/local/bin/random_forest_classifier
+  random_forest_regressor: /usr/local/bin/random_forest_regressor
+  recurrent_neural_network: /usr/local/bin/recurrent_neural_network
+  regression_neural_network: /usr/local/bin/regression_neural_network
+  regression_predict: /usr/local/bin/regression_predict
+  resampling: /usr/local/bin/resampling
+  scale_columns: /usr/local/bin/scale_columns
+  spectral_clustering: /usr/local/bin/spectral_clustering
+  spectral_coefficient: /usr/local/bin/spectral_coefficient
+  support_vector_machine: /usr/local/bin/support_vector_machine
+  undersampling: /usr/local/bin/undersampling

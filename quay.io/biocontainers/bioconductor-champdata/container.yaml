@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-champdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-champdata
+latest:
+  2.26.0--r41hdfd78af_1: sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5
+tags:
+  2.26.0--r41hdfd78af_1: sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5
+docker: quay.io/biocontainers/bioconductor-champdata
+aliases:
+  .bioconductor-champdata-post-link.sh: /usr/local/bin/.bioconductor-champdata-post-link.sh
+  .bioconductor-champdata-pre-unlink.sh: /usr/local/bin/.bioconductor-champdata-pre-unlink.sh

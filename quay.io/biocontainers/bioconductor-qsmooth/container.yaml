@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qsmooth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qsmooth
+latest:
+  1.8.0--r41hdfd78af_0: sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7
+tags:
+  1.8.0--r41hdfd78af_0: sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7
+docker: quay.io/biocontainers/bioconductor-qsmooth

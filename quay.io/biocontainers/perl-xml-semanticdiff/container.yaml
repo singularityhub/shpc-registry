@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-semanticdiff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-semanticdiff
+latest:
+  1.0007--pl5321hdfd78af_1: sha256:dc5d6548e64002320e3bddeed1e12840958d268f73f3f54c8e910b206039a3d4
+tags:
+  1.0007--pl5321hdfd78af_1: sha256:dc5d6548e64002320e3bddeed1e12840958d268f73f3f54c8e910b206039a3d4
+docker: quay.io/biocontainers/perl-xml-semanticdiff

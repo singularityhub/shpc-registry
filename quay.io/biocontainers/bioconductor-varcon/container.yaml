@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-varcon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-varcon
+latest:
+  1.2.0--r41hdfd78af_0: sha256:95d09e3a6a61795afbacea6adfb1a25f97a866fae61e196fd2587be17354fff1
+tags:
+  1.2.0--r41hdfd78af_0: sha256:95d09e3a6a61795afbacea6adfb1a25f97a866fae61e196fd2587be17354fff1
+docker: quay.io/biocontainers/bioconductor-varcon

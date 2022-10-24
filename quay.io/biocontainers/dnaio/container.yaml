@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/dnaio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnaio
+latest:
+  0.8.0--py39hbf8eff0_0: sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733
+tags:
+  0.8.0--py39hbf8eff0_0: sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733
+docker: quay.io/biocontainers/dnaio

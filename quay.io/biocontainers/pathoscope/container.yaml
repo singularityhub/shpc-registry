@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pathoscope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathoscope
+latest:
+  2.0.7--py_1: sha256:2768a98e8714e8ac5d5b8c6566b6d0c121e9ce35794dd8eebe9607dd636f8f31
+tags:
+  2.0.7--py_1: sha256:2768a98e8714e8ac5d5b8c6566b6d0c121e9ce35794dd8eebe9607dd636f8f31
+docker: quay.io/biocontainers/pathoscope
+aliases:
+  pathoscope: /usr/local/bin/pathoscope

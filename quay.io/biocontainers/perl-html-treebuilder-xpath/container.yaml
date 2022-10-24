@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-treebuilder-xpath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-treebuilder-xpath
+latest:
+  0.14--pl5321hdfd78af_2: sha256:b22ccf8c7b921f9051291aca9f0e7ca108700b70f052272fa54a41b403be6e12
+tags:
+  0.14--pl5321hdfd78af_2: sha256:b22ccf8c7b921f9051291aca9f0e7ca108700b70f052272fa54a41b403be6e12
+docker: quay.io/biocontainers/perl-html-treebuilder-xpath

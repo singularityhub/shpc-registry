@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/discosnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for discosnp
+latest:
+  2.6.2--h5b5514e_1: sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0
+tags:
+  2.6.2--h5b5514e_1: sha256:625b8bc040cb5fe5acc7738ae8af97e71e2beed24ebef730e2e636427db202a0
+docker: quay.io/biocontainers/discosnp
+aliases:
+  SRC_counter: /usr/local/bin/SRC_counter
+  SRC_linker_ram: /usr/local/bin/SRC_linker_ram
+  dbgh5: /usr/local/bin/dbgh5
+  dsk: /usr/local/bin/dsk
+  dsk2ascii: /usr/local/bin/dsk2ascii
+  extract_reads_from_bv: /usr/local/bin/extract_reads_from_bv
+  generate_bv: /usr/local/bin/generate_bv
+  kissnp2: /usr/local/bin/kissnp2
+  kissreads2: /usr/local/bin/kissreads2
+  quick_hierarchical_clustering: /usr/local/bin/quick_hierarchical_clustering
+  read_file_names: /usr/local/bin/read_file_names
+  run_discoSnp++.sh: /usr/local/bin/run_discoSnp++.sh
+  run_discoSnp++_ML.sh: /usr/local/bin/run_discoSnp++_ML.sh
+  run_discoSnpRad.sh: /usr/local/bin/run_discoSnpRad.sh
+  short_read_connector.sh: /usr/local/bin/short_read_connector.sh

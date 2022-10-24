@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-weaver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-weaver
+latest:
+  1.60.0--r41hdfd78af_0: sha256:2a5289ca6d6de44780af130ad8901fccc99d01ab7161e1687b3f19136061f0a8
+tags:
+  1.60.0--r41hdfd78af_0: sha256:2a5289ca6d6de44780af130ad8901fccc99d01ab7161e1687b3f19136061f0a8
+docker: quay.io/biocontainers/bioconductor-weaver

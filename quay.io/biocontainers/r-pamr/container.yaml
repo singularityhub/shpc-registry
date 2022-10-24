@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pamr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pamr
+latest:
+  1.55--r3.4.1_0: sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909
+tags:
+  1.55--r3.4.1_0: sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909
+docker: quay.io/biocontainers/r-pamr

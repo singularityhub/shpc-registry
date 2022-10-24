@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/cmappy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cmappy
+latest:
+  4.0.1--py36h2ad2d48_3: sha256:c9d662975bca8b6407f524713286ae2cbb87f0e1089c3542e1e21c250e7daa51
+tags:
+  4.0.1--py36h2ad2d48_3: sha256:c9d662975bca8b6407f524713286ae2cbb87f0e1089c3542e1e21c250e7daa51
+docker: quay.io/biocontainers/cmappy
+aliases:
+  concat: /usr/local/bin/concat
+  gct2gctx: /usr/local/bin/gct2gctx
+  gctx2gct: /usr/local/bin/gctx2gct
+  subset: /usr/local/bin/subset

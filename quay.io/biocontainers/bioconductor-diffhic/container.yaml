@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffhic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffhic
+latest:
+  1.26.0--r41hc247a5b_2: sha256:b4f7d6eae7af3542c5c939afd2e24f5be82aff005679e658b709b5fd3faface6
+tags:
+  1.26.0--r41hc247a5b_2: sha256:b4f7d6eae7af3542c5c939afd2e24f5be82aff005679e658b709b5fd3faface6
+docker: quay.io/biocontainers/bioconductor-diffhic

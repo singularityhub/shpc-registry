@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crimson
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crimson
+latest:
+  1.1.0--pyh5e36f6f_0: sha256:9a754e37335aa50bed1da698412bcd2cd8826cfa228f16be78c2adcc99415e22
+tags:
+  1.1.0--pyh5e36f6f_0: sha256:9a754e37335aa50bed1da698412bcd2cd8826cfa228f16be78c2adcc99415e22
+docker: quay.io/biocontainers/crimson
+aliases:
+  crimson: /usr/local/bin/crimson

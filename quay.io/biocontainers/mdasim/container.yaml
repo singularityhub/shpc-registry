@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mdasim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mdasim
+latest:
+  2.1.1--h5c6ebe3_3: sha256:aa32932a2ab0050383992ba6bfa92af1f66b2ac94d94d447a075216f4879955c
+tags:
+  2.1.1--h5c6ebe3_3: sha256:aa32932a2ab0050383992ba6bfa92af1f66b2ac94d94d447a075216f4879955c
+docker: quay.io/biocontainers/mdasim
+aliases:
+  mdasim: /usr/local/bin/mdasim

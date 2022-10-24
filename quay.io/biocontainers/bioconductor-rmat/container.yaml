@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rmat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rmat
+latest:
+  3.33.0--r36he1b5a44_1: sha256:d3cdf57e781c84d95a8672f905e377824695a7a42266ce409a2ff28ae94351e9
+tags:
+  3.33.0--r36he1b5a44_1: sha256:d3cdf57e781c84d95a8672f905e377824695a7a42266ce409a2ff28ae94351e9
+docker: quay.io/biocontainers/bioconductor-rmat

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pscbs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pscbs
+latest:
+  0.66.0--r41h3121a25_0: sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622
+tags:
+  0.66.0--r41h3121a25_0: sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622
+docker: quay.io/biocontainers/r-pscbs

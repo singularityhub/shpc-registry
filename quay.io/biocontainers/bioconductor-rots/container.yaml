@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rots
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rots
+latest:
+  1.8.0--r351hfc679d8_0: sha256:3cd6044911158101c494f3266c33b6d81448f971301699307a043d47147a1ea4
+tags:
+  1.8.0--r351hfc679d8_0: sha256:3cd6044911158101c494f3266c33b6d81448f971301699307a043d47147a1ea4
+docker: quay.io/biocontainers/bioconductor-rots

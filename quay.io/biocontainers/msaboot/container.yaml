@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/msaboot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msaboot
+latest:
+  0.1.2--py_1: sha256:3696caab395bd3ebb94c9d8d9747687d154b2499b091f66def8eafe8b8d95f2d
+tags:
+  0.1.2--py_1: sha256:3696caab395bd3ebb94c9d8d9747687d154b2499b091f66def8eafe8b8d95f2d
+docker: quay.io/biocontainers/msaboot
+aliases:
+  msaboot: /usr/local/bin/msaboot

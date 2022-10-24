@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-text-template-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-template-simple
+latest:
+  0.91--pl5321hdfd78af_1: sha256:68284be01a51f4ae01e93609e7fae01ea2426ce0384dd311c6c2f78424caf1ab
+tags:
+  0.91--pl5321hdfd78af_1: sha256:68284be01a51f4ae01e93609e7fae01ea2426ce0384dd311c6c2f78424caf1ab
+docker: quay.io/biocontainers/perl-text-template-simple
+aliases:
+  tts: /usr/local/bin/tts

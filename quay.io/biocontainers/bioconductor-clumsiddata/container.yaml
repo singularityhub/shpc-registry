@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-clumsiddata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clumsiddata
+latest:
+  1.8.0--r41hdfd78af_0: sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6
+docker: quay.io/biocontainers/bioconductor-clumsiddata
+aliases:
+  .bioconductor-clumsiddata-post-link.sh: /usr/local/bin/.bioconductor-clumsiddata-post-link.sh
+  .bioconductor-clumsiddata-pre-unlink.sh: /usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh

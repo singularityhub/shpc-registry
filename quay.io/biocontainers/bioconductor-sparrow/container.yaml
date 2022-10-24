@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sparrow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sparrow
+latest:
+  1.0.1--r41hdfd78af_0: sha256:f58daa0faeccdeabaff45413439414c42edf545648d3db1da1374dd1c152eb4e
+tags:
+  1.0.1--r41hdfd78af_0: sha256:f58daa0faeccdeabaff45413439414c42edf545648d3db1da1374dd1c152eb4e
+docker: quay.io/biocontainers/bioconductor-sparrow

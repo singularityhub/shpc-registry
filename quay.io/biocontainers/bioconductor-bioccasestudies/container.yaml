@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bioccasestudies
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bioccasestudies
+latest:
+  1.52.0--r40hdfd78af_1: sha256:611aceb1b71ff4629ae6236ed38e8a0e8c963d12b5f7de76dfdc454b5b3a5631
+tags:
+  1.52.0--r40hdfd78af_1: sha256:611aceb1b71ff4629ae6236ed38e8a0e8c963d12b5f7de76dfdc454b5b3a5631
+docker: quay.io/biocontainers/bioconductor-bioccasestudies

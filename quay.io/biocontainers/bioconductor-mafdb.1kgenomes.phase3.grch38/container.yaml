@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.grch38
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.grch38
+latest:
+  3.7.0--r36_2: sha256:890463822e8afd00183a267e772e3794b46e34899f55ca548a04d4e6ca72b311
+tags:
+  3.7.0--r36_2: sha256:890463822e8afd00183a267e772e3794b46e34899f55ca548a04d4e6ca72b311
+docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.grch38
+aliases:
+  .bioconductor-mafdb.1kgenomes.phase3.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.grch38-post-link.sh
+  .bioconductor-mafdb.1kgenomes.phase3.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.grch38-pre-unlink.sh

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/orthomcl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for orthomcl
+latest:
+  2.0.9--hdfd78af_5: sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4
+tags:
+  2.0.9--hdfd78af_5: sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4
+docker: quay.io/biocontainers/orthomcl
+aliases:
+  .orthomcl-post-link.sh: /usr/local/bin/.orthomcl-post-link.sh
+  orthomclAdjustFasta: /usr/local/bin/orthomclAdjustFasta
+  orthomclBlastParser: /usr/local/bin/orthomclBlastParser
+  orthomclDropSchema: /usr/local/bin/orthomclDropSchema
+  orthomclDumpPairsFiles: /usr/local/bin/orthomclDumpPairsFiles
+  orthomclExtractProteinIdsFromGroupsFile: /usr/local/bin/orthomclExtractProteinIdsFromGroupsFile
+  orthomclExtractProteinPairsFromGroupsFile: /usr/local/bin/orthomclExtractProteinPairsFromGroupsFile
+  orthomclFilterFasta: /usr/local/bin/orthomclFilterFasta
+  orthomclInstallSchema: /usr/local/bin/orthomclInstallSchema
+  orthomclInstallSchema.sql: /usr/local/bin/orthomclInstallSchema.sql
+  orthomclLoadBlast: /usr/local/bin/orthomclLoadBlast
+  orthomclLoadBlast.sql: /usr/local/bin/orthomclLoadBlast.sql
+  orthomclMclToGroups: /usr/local/bin/orthomclMclToGroups
+  orthomclPairs: /usr/local/bin/orthomclPairs
+  orthomclReduceFasta: /usr/local/bin/orthomclReduceFasta
+  orthomclReduceGroups: /usr/local/bin/orthomclReduceGroups
+  orthomclRemoveIdenticalGroups: /usr/local/bin/orthomclRemoveIdenticalGroups
+  orthomclSingletons: /usr/local/bin/orthomclSingletons
+  orthomclSortGroupMembersByScore: /usr/local/bin/orthomclSortGroupMembersByScore
+  orthomclSortGroupsFile: /usr/local/bin/orthomclSortGroupsFile

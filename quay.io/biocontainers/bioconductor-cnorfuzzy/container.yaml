@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnorfuzzy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnorfuzzy
+latest:
+  1.36.0--r41hc0cfd56_2: sha256:594c5536c5f30094a62a76d050f202884436116b4d9145f9b8a67d22e1e48b4a
+tags:
+  1.36.0--r41hc0cfd56_2: sha256:594c5536c5f30094a62a76d050f202884436116b4d9145f9b8a67d22e1e48b4a
+docker: quay.io/biocontainers/bioconductor-cnorfuzzy

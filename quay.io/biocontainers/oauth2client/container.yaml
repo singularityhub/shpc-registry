@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/oauth2client
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for oauth2client
+latest:
+  1.5.2--py36_0: sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16
+tags:
+  1.5.2--py36_0: sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16
+docker: quay.io/biocontainers/oauth2client

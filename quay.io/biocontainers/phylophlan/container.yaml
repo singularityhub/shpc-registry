@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/phylophlan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylophlan
+latest:
+  3.0--py_7: sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83
+tags:
+  3.0--py_7: sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83
+docker: quay.io/biocontainers/phylophlan
+aliases:
+  phylophlan: /usr/local/bin/phylophlan
+  phylophlan_draw_metagenomic: /usr/local/bin/phylophlan_draw_metagenomic
+  phylophlan_get_reference: /usr/local/bin/phylophlan_get_reference
+  phylophlan_metagenomic: /usr/local/bin/phylophlan_metagenomic
+  phylophlan_setup_database: /usr/local/bin/phylophlan_setup_database
+  phylophlan_strain_finder: /usr/local/bin/phylophlan_strain_finder
+  phylophlan_write_config_file: /usr/local/bin/phylophlan_write_config_file
+  phylophlan_write_default_configs.sh: /usr/local/bin/phylophlan_write_default_configs.sh

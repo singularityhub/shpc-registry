@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/qorts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qorts
+latest:
+  1.3.6--hdfd78af_1: sha256:413a9e0aba7941c3ffd32613004a00ab13c009d7bd7d941f27b3d849f77b2156
+tags:
+  1.3.6--hdfd78af_1: sha256:413a9e0aba7941c3ffd32613004a00ab13c009d7bd7d941f27b3d849f77b2156
+docker: quay.io/biocontainers/qorts
+aliases:
+  qorts: /usr/local/bin/qorts
+  qortsGenMultiQC.R: /usr/local/bin/qortsGenMultiQC.R

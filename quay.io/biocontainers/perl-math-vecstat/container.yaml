@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-vecstat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-vecstat
+latest:
+  0.08--pl5321hdfd78af_2: sha256:7f8faf33e165316dd4f463938d596785b209996db37236baff361b59ac24926c
+tags:
+  0.08--pl5321hdfd78af_2: sha256:7f8faf33e165316dd4f463938d596785b209996db37236baff361b59ac24926c
+docker: quay.io/biocontainers/perl-math-vecstat

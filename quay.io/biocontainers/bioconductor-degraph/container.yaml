@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-degraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-degraph
+latest:
+  1.46.0--r41hdfd78af_0: sha256:5a0236f1aede8144fa4697f8d3368976bb78389c4ba6754e69783d5864850fe0
+tags:
+  1.46.0--r41hdfd78af_0: sha256:5a0236f1aede8144fa4697f8d3368976bb78389c4ba6754e69783d5864850fe0
+docker: quay.io/biocontainers/bioconductor-degraph

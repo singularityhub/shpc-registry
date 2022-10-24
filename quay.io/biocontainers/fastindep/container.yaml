@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fastindep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastindep
+latest:
+  1.0.0--h9f5acd7_4: sha256:47d8e593f24782300e6cb95d799a35d48b5acea278d8be04cc743fea84580a7c
+tags:
+  1.0.0--h9f5acd7_4: sha256:47d8e593f24782300e6cb95d799a35d48b5acea278d8be04cc743fea84580a7c
+docker: quay.io/biocontainers/fastindep
+aliases:
+  fastindep: /usr/local/bin/fastindep
+  fastindep-symmetry: /usr/local/bin/fastindep-symmetry

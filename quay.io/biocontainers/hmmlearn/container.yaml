@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hmmlearn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hmmlearn
+latest:
+  0.1.1--py27h24bf2e0_0: sha256:30bb75576fb3d319f5a574872c2b44be47062abea64f293b863d3e9c08090a88
+tags:
+  0.1.1--py27h24bf2e0_0: sha256:30bb75576fb3d319f5a574872c2b44be47062abea64f293b863d3e9c08090a88
+docker: quay.io/biocontainers/hmmlearn

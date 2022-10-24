@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-caroline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-caroline
+latest:
+  0.7.6--r3.3.1_0: sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10
+tags:
+  0.7.6--r3.3.1_0: sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10
+docker: quay.io/biocontainers/r-caroline

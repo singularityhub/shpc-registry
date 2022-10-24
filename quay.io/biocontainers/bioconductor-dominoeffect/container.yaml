@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dominoeffect
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dominoeffect
+latest:
+  1.8.0--r40_0: sha256:300412eb13105b9d1e7918d45514353e19c2a1f216cf8310858b343c2b20c743
+tags:
+  1.8.0--r40_0: sha256:300412eb13105b9d1e7918d45514353e19c2a1f216cf8310858b343c2b20c743
+docker: quay.io/biocontainers/bioconductor-dominoeffect

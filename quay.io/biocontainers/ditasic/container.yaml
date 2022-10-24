@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/ditasic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ditasic
+latest:
+  0.2--h9ee0642_2: sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
+tags:
+  0.2--h9ee0642_2: sha256:2e1db75a4a134cfdb572aa7abc44be10bb4945bf7269b71f0bfc18d4a4adf7e5
+docker: quay.io/biocontainers/ditasic
+aliases:
+  ditasic: /usr/local/bin/ditasic
+  ditasic_mapping.py: /usr/local/bin/ditasic_mapping.py
+  ditasic_matrix.py: /usr/local/bin/ditasic_matrix.py
+  mason_frag_sequencing: /usr/local/bin/mason_frag_sequencing
+  mason_genome: /usr/local/bin/mason_genome
+  mason_materializer: /usr/local/bin/mason_materializer
+  mason_methylation: /usr/local/bin/mason_methylation
+  mason_simulator: /usr/local/bin/mason_simulator
+  mason_splicing: /usr/local/bin/mason_splicing
+  mason_variator: /usr/local/bin/mason_variator

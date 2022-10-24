@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pbcoretools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbcoretools
+latest:
+  0.8.1--py_1: sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15
+tags:
+  0.8.1--py_1: sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15
+docker: quay.io/biocontainers/pbcoretools
+aliases:
+  .open: /usr/local/bin/.open
+  .pbcommand-post-link.sh: /usr/local/bin/.pbcommand-post-link.sh
+  .pbcore-post-link.sh: /usr/local/bin/.pbcore-post-link.sh
+  .pbcoretools-post-link.sh: /usr/local/bin/.pbcoretools-post-link.sh
+  bamsieve: /usr/local/bin/bamsieve
+  dataset: /usr/local/bin/dataset
+  pbtools-gather: /usr/local/bin/pbtools-gather
+  pbvalidate: /usr/local/bin/pbvalidate

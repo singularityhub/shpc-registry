@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-mac-propertylist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mac-propertylist
+latest:
+  1.504--pl5321hdfd78af_0: sha256:12767bce26499e99e5ecb1492755bd69cf94fefd8df2da022ff10e261df7becb
+tags:
+  1.504--pl5321hdfd78af_0: sha256:12767bce26499e99e5ecb1492755bd69cf94fefd8df2da022ff10e261df7becb
+docker: quay.io/biocontainers/perl-mac-propertylist
+aliases:
+  download-entities.pl: /usr/local/bin/download-entities.pl

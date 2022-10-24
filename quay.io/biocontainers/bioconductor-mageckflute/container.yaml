@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mageckflute
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mageckflute
+latest:
+  1.8.0--r40_0: sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9
+tags:
+  1.8.0--r40_0: sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9
+docker: quay.io/biocontainers/bioconductor-mageckflute

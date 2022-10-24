@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rgenometracks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgenometracks
+latest:
+  1.0.0--r41hdfd78af_0: sha256:e5d3c687d59af5894c636267cc0b423a2d97c7583aa876e96ee32e69ffd9f790
+tags:
+  1.0.0--r41hdfd78af_0: sha256:e5d3c687d59af5894c636267cc0b423a2d97c7583aa876e96ee32e69ffd9f790
+docker: quay.io/biocontainers/bioconductor-rgenometracks
+aliases:
+  .bioconductor-rgenometracksdata-post-link.sh: /usr/local/bin/.bioconductor-rgenometracksdata-post-link.sh
+  .bioconductor-rgenometracksdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rgenometracksdata-pre-unlink.sh

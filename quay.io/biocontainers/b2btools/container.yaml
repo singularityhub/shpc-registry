@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/b2btools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for b2btools
+latest:
+  3.0.5--pyhdfd78af_0: sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15
+tags:
+  3.0.5--pyhdfd78af_0: sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15
+docker: quay.io/biocontainers/b2btools

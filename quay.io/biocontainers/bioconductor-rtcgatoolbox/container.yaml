@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rtcgatoolbox
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtcgatoolbox
+latest:
+  2.8.0--r3.4.1_0: sha256:c7bf3a554ab877f32c5c345f863280101640ac33417eedb6b2c493c8b8ac953b
+tags:
+  2.8.0--r3.4.1_0: sha256:c7bf3a554ab877f32c5c345f863280101640ac33417eedb6b2c493c8b8ac953b
+docker: quay.io/biocontainers/bioconductor-rtcgatoolbox

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/screed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for screed
+latest:
+  1.0.4--py_0: sha256:93c399e3ead01ee3341f6fb98535ab06d2569e6dc510c3f77f57bc7ce95f221a
+tags:
+  1.0.4--py_0: sha256:93c399e3ead01ee3341f6fb98535ab06d2569e6dc510c3f77f57bc7ce95f221a
+docker: quay.io/biocontainers/screed

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/trnascan-se
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trnascan-se
+latest:
+  2.0.9--pl5321hec16e2b_3: sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db
+tags:
+  2.0.9--pl5321hec16e2b_3: sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db
+docker: quay.io/biocontainers/trnascan-se

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/biobasehttptools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobasehttptools
+latest:
+  1.1.0--hdfd78af_1: sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
+tags:
+  1.1.0--hdfd78af_1: sha256:b0004e4ac380706db293dfe396fe9faedf5e5cb3816b79ba5380655372715c07
+docker: quay.io/biocontainers/biobasehttptools
+aliases:
+  AccessionToTaxId: /usr/local/bin/AccessionToTaxId
+  AccessionToTaxId-bin: /usr/local/bin/AccessionToTaxId-bin
+  FetchSequence: /usr/local/bin/FetchSequence
+  FetchSequence-bin: /usr/local/bin/FetchSequence-bin
+  GeneIdToGOTerms: /usr/local/bin/GeneIdToGOTerms
+  GeneIdToGOTerms-bin: /usr/local/bin/GeneIdToGOTerms-bin
+  GeneIdToUniProtId: /usr/local/bin/GeneIdToUniProtId
+  GeneIdToUniProtId-bin: /usr/local/bin/GeneIdToUniProtId-bin

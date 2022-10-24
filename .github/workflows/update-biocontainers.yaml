@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: 'Update Containers'
 
 on:
@@ -63,3 +64,71 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PULL_REQUEST_BRANCH: "main"
+=======
+name: Update Biocontainers
+
+on:
+  # For testing only
+  pull_request: []
+  schedule:
+  - cron: '0 0 * * 4'
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Create conda environment
+      run: conda create --quiet -c conda-forge --name shpc spython
+
+    - name: Install shpc
+      run: |
+        export PATH="/usr/share/miniconda/bin:$PATH"
+        source activate shpc
+        pip install git+https://github.com/singularityhub/singularity-hpc@main
+
+    - name: Update Biocontainers
+      run: |
+        export PATH="/usr/share/miniconda/bin:$PATH"
+        source activate shpc         
+        git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
+        printf "python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25\n"
+        python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25
+
+    - name: Checkout Update branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_AGAINST: main
+      run: |
+        printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+        export BRANCH_FROM="update/biocontainers-$(date '+%Y-%m-%d')"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git branch
+        git checkout -b "${BRANCH_FROM}" || git checkout "${BRANCH_FROM}"
+        git branch
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        git add quay.io/biocontainers/*/*
+        git status
+        if git diff-index --quiet HEAD --; then
+           export OPEN_PULL_REQUEST=0
+           printf "No changes\n"
+        else
+           export OPEN_PULL_REQUEST=1
+           printf "Changes\n"
+           git commit -a -m "Automated deployment with new container $(date '+%Y-%m-%d')"
+           git push origin "${BRANCH_FROM}"
+        fi
+        echo "OPEN_PULL_REQUEST=${OPEN_PULL_REQUEST}" >> $GITHUB_ENV
+        echo "PULL_REQUEST_FROM_BRANCH=${BRANCH_FROM}" >> $GITHUB_ENV
+        echo "PULL_REQUEST_TITLE=[bot] ${BRANCH_FROM}" >> $GITHUB_ENV
+        echo "PULL_REQUEST_BODY=Add new container pull request." >> $GITHUB_ENV
+    - name: Open Pull Request
+      uses: vsoch/pull-request-action@d703f40f3af5ae294f9816395ddf2e3d2d3feafa # 1.0.21
+      if: ${{ env.OPEN_PULL_REQUEST == '1' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PULL_REQUEST_BRANCH: main
+>>>>>>> 82dff476 (first round of work to add new biocontainers with aliases)

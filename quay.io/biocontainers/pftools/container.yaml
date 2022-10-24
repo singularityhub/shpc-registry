@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/pftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pftools
+latest:
+  3.2.12--pl5321r41h179b046_0: sha256:4d263b0d27f9750f042138088cd89e8b8f87303426d34e7d47ed0768ab4bee1a
+tags:
+  3.2.12--pl5321r41h179b046_0: sha256:4d263b0d27f9750f042138088cd89e8b8f87303426d34e7d47ed0768ab4bee1a
+docker: quay.io/biocontainers/pftools
+aliases:
+  2ft: /usr/local/bin/2ft
+  6ft: /usr/local/bin/6ft
+  compare_2_profiles.pl: /usr/local/bin/compare_2_profiles.pl
+  fasta_to_fastq.pl: /usr/local/bin/fasta_to_fastq.pl
+  gtop: /usr/local/bin/gtop
+  htop: /usr/local/bin/htop
+  make_iupac_cmp.pl: /usr/local/bin/make_iupac_cmp.pl
+  pfcalibrateV3: /usr/local/bin/pfcalibrateV3
+  pfdump: /usr/local/bin/pfdump
+  pfemit: /usr/local/bin/pfemit
+  pfindex: /usr/local/bin/pfindex
+  pfmake: /usr/local/bin/pfmake
+  pfpam: /usr/local/bin/pfpam
+  pfscale: /usr/local/bin/pfscale
+  pfscan: /usr/local/bin/pfscan
+  pfscanV3: /usr/local/bin/pfscanV3
+  pfsearch: /usr/local/bin/pfsearch
+  pfsearchV3: /usr/local/bin/pfsearchV3
+  pfw: /usr/local/bin/pfw
+  ps_scan.pl: /usr/local/bin/ps_scan.pl
+  psa2msa: /usr/local/bin/psa2msa
+  ptof: /usr/local/bin/ptof
+  ptoh: /usr/local/bin/ptoh
+  scramble_fasta.pl: /usr/local/bin/scramble_fasta.pl
+  sort_fasta.pl: /usr/local/bin/sort_fasta.pl
+  split_profile_file.pl: /usr/local/bin/split_profile_file.pl

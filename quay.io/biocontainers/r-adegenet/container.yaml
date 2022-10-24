@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-adegenet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-adegenet
+latest:
+  2.1.1--r351h96ca727_1: sha256:877d8d05700b40bac716da5afc18579f599ad33da027059bbda39f9641452b32
+tags:
+  2.1.1--r351h96ca727_1: sha256:877d8d05700b40bac716da5afc18579f599ad33da027059bbda39f9641452b32
+docker: quay.io/biocontainers/r-adegenet

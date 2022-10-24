@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gam
+latest:
+  1.14_4--r3.4.1_0: sha256:54828c4175cfcc3a4838eacb319d1e370329cf992eecbe8557e7071a22ab1bea
+tags:
+  1.14_4--r3.4.1_0: sha256:54828c4175cfcc3a4838eacb319d1e370329cf992eecbe8557e7071a22ab1bea
+docker: quay.io/biocontainers/r-gam

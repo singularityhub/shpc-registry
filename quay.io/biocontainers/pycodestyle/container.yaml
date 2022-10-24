@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pycodestyle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pycodestyle
+latest:
+  2.0.0--py36_0: sha256:16d619d0b13afbc5489b989a524b6cebe79bbe8e6674cb622717f7e551a65798
+tags:
+  2.0.0--py36_0: sha256:16d619d0b13afbc5489b989a524b6cebe79bbe8e6674cb622717f7e551a65798
+docker: quay.io/biocontainers/pycodestyle
+aliases:
+  pycodestyle: /usr/local/bin/pycodestyle

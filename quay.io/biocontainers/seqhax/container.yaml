@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/seqhax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqhax
+latest:
+  0.7.2--h5b5514e_3: sha256:9ff07f67ae32efe67dbdcfc5db9960f971f491372648dacabf1d5c703cb07f51
+tags:
+  0.7.2--h5b5514e_3: sha256:9ff07f67ae32efe67dbdcfc5db9960f971f491372648dacabf1d5c703cb07f51
+docker: quay.io/biocontainers/seqhax
+aliases:
+  pecheck-wrapper.py: /usr/local/bin/pecheck-wrapper.py
+  seqhax: /usr/local/bin/seqhax

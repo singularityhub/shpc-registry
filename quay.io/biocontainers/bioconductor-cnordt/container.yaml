@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnordt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnordt
+latest:
+  1.36.0--r41hc0cfd56_2: sha256:b5665dbbd4f6ed24ddaf827fcd7bee33f05d8c3cb2e9411659b8158164a86405
+tags:
+  1.36.0--r41hc0cfd56_2: sha256:b5665dbbd4f6ed24ddaf827fcd7bee33f05d8c3cb2e9411659b8158164a86405
+docker: quay.io/biocontainers/bioconductor-cnordt

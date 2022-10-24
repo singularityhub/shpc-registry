@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/pythomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pythomics
+latest:
+  0.3.46--pyh864c0ab_2: sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c
+tags:
+  0.3.46--pyh864c0ab_2: sha256:f258a56bb40507ee691bd6b5f52ee4be9509b25561fa67e6b0e7296c0b1f240c
+docker: quay.io/biocontainers/pythomics
+aliases:
+  fastadigest.py: /usr/local/bin/fastadigest.py
+  fastadigeststats.py: /usr/local/bin/fastadigeststats.py
+  fastxTrimmer.py: /usr/local/bin/fastxTrimmer.py
+  featureCollapser.py: /usr/local/bin/featureCollapser.py
+  fetchOrfs.py: /usr/local/bin/fetchOrfs.py
+  incorporateGFF.py: /usr/local/bin/incorporateGFF.py
+  incorporateVCF.py: /usr/local/bin/incorporateVCF.py
+  intersectFiles.py: /usr/local/bin/intersectFiles.py
+  junctionalReads.py: /usr/local/bin/junctionalReads.py
+  proteinInference.py: /usr/local/bin/proteinInference.py
+  ptmSummary.py: /usr/local/bin/ptmSummary.py

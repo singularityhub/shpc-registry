@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bandits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bandits
+latest:
+  1.8.0--r41h399db7b_0: sha256:34c0fd2019ecd5f3af5929805e1cec339df944ef25359402c0f60e888b54d529
+tags:
+  1.8.0--r41h399db7b_0: sha256:34c0fd2019ecd5f3af5929805e1cec339df944ef25359402c0f60e888b54d529
+docker: quay.io/biocontainers/bioconductor-bandits

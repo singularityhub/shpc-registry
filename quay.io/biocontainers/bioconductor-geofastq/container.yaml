@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geofastq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geofastq
+latest:
+  1.2.0--r41hdfd78af_0: sha256:68c4ad38c5f9db54280ff4d8088ec57fcf75db46ae2a841304137830244434b9
+tags:
+  1.2.0--r41hdfd78af_0: sha256:68c4ad38c5f9db54280ff4d8088ec57fcf75db46ae2a841304137830244434b9
+docker: quay.io/biocontainers/bioconductor-geofastq

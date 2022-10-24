@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ipo-meta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ipo-meta
+latest:
+  1.7.5--r3.3.1_0: sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752
+tags:
+  1.7.5--r3.3.1_0: sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752
+docker: quay.io/biocontainers/r-ipo-meta

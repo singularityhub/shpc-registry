@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/dfam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dfam
+latest:
+  3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
+tags:
+  3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
+docker: quay.io/biocontainers/dfam
+aliases:
+  .dfam-post-link.sh: /usr/local/bin/.dfam-post-link.sh
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
+  buildSummary.pl: /usr/local/bin/buildSummary.pl
+  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
+  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
+  dfamscan.pl: /usr/local/bin/dfamscan.pl
+  download-dfam.py: /usr/local/bin/download-dfam.py
+  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
+  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
+  queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
+  queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
+  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
+  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
+  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
+  trfMask: /usr/local/bin/trfMask
+  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl

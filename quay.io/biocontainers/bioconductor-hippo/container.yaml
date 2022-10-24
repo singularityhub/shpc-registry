@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hippo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hippo
+latest:
+  1.6.0--r41hdfd78af_0: sha256:a1bc38d14c8ac27a2efea260e5238051be541b163dfd4927af3f3639a22e88d0
+tags:
+  1.6.0--r41hdfd78af_0: sha256:a1bc38d14c8ac27a2efea260e5238051be541b163dfd4927af3f3639a22e88d0
+docker: quay.io/biocontainers/bioconductor-hippo

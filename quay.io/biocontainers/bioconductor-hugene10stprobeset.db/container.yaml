@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hugene10stprobeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hugene10stprobeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:d62727f21cb836d772c9970cad050005d0920cb23fb5f6cbab78cd6e872998db
+tags:
+  8.8.0--r41hdfd78af_1: sha256:d62727f21cb836d772c9970cad050005d0920cb23fb5f6cbab78cd6e872998db
+docker: quay.io/biocontainers/bioconductor-hugene10stprobeset.db
+aliases:
+  .bioconductor-hugene10stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-hugene10stprobeset.db-post-link.sh
+  .bioconductor-hugene10stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene10stprobeset.db-pre-unlink.sh

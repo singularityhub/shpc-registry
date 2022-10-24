@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ccpromise
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ccpromise
+latest:
+  1.8.0--r351_0: sha256:2862d9a8eb224bac5940041bb8c992d43e4de9efdbb0603e3332bd6e183bc6e7
+tags:
+  1.8.0--r351_0: sha256:2862d9a8eb224bac5940041bb8c992d43e4de9efdbb0603e3332bd6e183bc6e7
+docker: quay.io/biocontainers/bioconductor-ccpromise

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tadarida-d
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tadarida-d
+latest:
+  1.03--hf71b8e2_6: sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd
+tags:
+  1.03--hf71b8e2_6: sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd
+docker: quay.io/biocontainers/tadarida-d
+aliases:
+  tadaridaD: /usr/local/bin/tadaridaD

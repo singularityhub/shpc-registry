@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kleborate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kleborate
+latest:
+  2.2.0--pyhdfd78af_0: sha256:503a97f3531f59af5511a1f619ea3a0f4e0d2e5f714f99a30e3a9797be09b19d
+tags:
+  2.2.0--pyhdfd78af_0: sha256:503a97f3531f59af5511a1f619ea3a0f4e0d2e5f714f99a30e3a9797be09b19d
+docker: quay.io/biocontainers/kleborate
+aliases:
+  .kaptive-post-link.sh: /usr/local/bin/.kaptive-post-link.sh
+  kaptive.py: /usr/local/bin/kaptive.py
+  kleborate: /usr/local/bin/kleborate

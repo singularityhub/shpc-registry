@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/tandem-genotypes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tandem-genotypes
+latest:
+  1.9.0--pyh5e36f6f_0: sha256:b19f29fbaafa20ad5dcbb7982ad21ea387f489c31fa11eee17879664411ec26c
+tags:
+  1.9.0--pyh5e36f6f_0: sha256:b19f29fbaafa20ad5dcbb7982ad21ea387f489c31fa11eee17879664411ec26c
+docker: quay.io/biocontainers/tandem-genotypes
+aliases:
+  tandem-genotypes: /usr/local/bin/tandem-genotypes
+  tandem-genotypes-join: /usr/local/bin/tandem-genotypes-join
+  tandem-genotypes-merge: /usr/local/bin/tandem-genotypes-merge
+  tandem-genotypes-plot: /usr/local/bin/tandem-genotypes-plot

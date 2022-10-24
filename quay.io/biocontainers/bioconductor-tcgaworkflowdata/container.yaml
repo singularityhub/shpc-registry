@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tcgaworkflowdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tcgaworkflowdata
+latest:
+  1.8.0--r36_1: sha256:3c73219abcc296916babeaec5a17c0cec80eba72a2802787feb2881788397565
+tags:
+  1.8.0--r36_1: sha256:3c73219abcc296916babeaec5a17c0cec80eba72a2802787feb2881788397565
+docker: quay.io/biocontainers/bioconductor-tcgaworkflowdata
+aliases:
+  .bioconductor-tcgaworkflowdata-post-link.sh: /usr/local/bin/.bioconductor-tcgaworkflowdata-post-link.sh
+  .bioconductor-tcgaworkflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgaworkflowdata-pre-unlink.sh

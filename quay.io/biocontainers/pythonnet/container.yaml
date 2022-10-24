@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pythonnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pythonnet
+latest:
+  2.3.0--py27_1: sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a
+tags:
+  2.3.0--py27_1: sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a
+docker: quay.io/biocontainers/pythonnet
+aliases:
+  monograph: /usr/local/bin/monograph
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
+  prj2make: /usr/local/bin/prj2make

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bayesknockdown
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bayesknockdown
+latest:
+  1.8.0--r351_0: sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f
+tags:
+  1.8.0--r351_0: sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f
+docker: quay.io/biocontainers/bioconductor-bayesknockdown

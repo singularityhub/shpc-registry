@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-traminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-traminer
+latest:
+  2.0_9--r40h0357c0b_2: sha256:236be4d05342eb866fe3c9365c1978f7ba8ca4360d05067e997f43af4089a81e
+tags:
+  2.0_9--r40h0357c0b_2: sha256:236be4d05342eb866fe3c9365c1978f7ba8ca4360d05067e997f43af4089a81e
+docker: quay.io/biocontainers/r-traminer

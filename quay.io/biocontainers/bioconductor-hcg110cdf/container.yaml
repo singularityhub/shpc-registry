@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hcg110cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hcg110cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:5b97aee441d0efc05e201a991744e0c896b787d2493e0a9e83f609ff57958c47
+tags:
+  2.18.0--r41hdfd78af_9: sha256:5b97aee441d0efc05e201a991744e0c896b787d2493e0a9e83f609ff57958c47
+docker: quay.io/biocontainers/bioconductor-hcg110cdf
+aliases:
+  .bioconductor-hcg110cdf-post-link.sh: /usr/local/bin/.bioconductor-hcg110cdf-post-link.sh
+  .bioconductor-hcg110cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hcg110cdf-pre-unlink.sh

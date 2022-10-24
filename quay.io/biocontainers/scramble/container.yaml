@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/scramble
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scramble
+latest:
+  1.0.2--hec16e2b_0: sha256:68d1452fa2ca389373a89c02ea7a83880e9332e5f839fafcca733859e5d9c97f
+tags:
+  1.0.2--hec16e2b_0: sha256:68d1452fa2ca389373a89c02ea7a83880e9332e5f839fafcca733859e5d9c97f
+docker: quay.io/biocontainers/scramble
+aliases:
+  cluster_identifier: /usr/local/bin/cluster_identifier
+  scramble.sh: /usr/local/bin/scramble.sh

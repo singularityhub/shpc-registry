@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-featureio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-featureio
+latest:
+  1.6.905--pl5321hdfd78af_4: sha256:5dc777d265a7cdd276fa75b484bc1a5f27ab3731a7ea698fbb59262c5ba0b2de
+tags:
+  1.6.905--pl5321hdfd78af_4: sha256:5dc777d265a7cdd276fa75b484bc1a5f27ab3731a7ea698fbb59262c5ba0b2de
+docker: quay.io/biocontainers/perl-bio-featureio

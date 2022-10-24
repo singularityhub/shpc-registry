@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ddir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ddir
+latest:
+  0.0.3--r41hdfd78af_3: sha256:b3e2b04a7cd1161f5b4b8af4d6f7eea37d6d84cd4ea0cd74cf59cc90afa357b3
+tags:
+  0.0.3--r41hdfd78af_3: sha256:b3e2b04a7cd1161f5b4b8af4d6f7eea37d6d84cd4ea0cd74cf59cc90afa357b3
+docker: quay.io/biocontainers/r-ddir

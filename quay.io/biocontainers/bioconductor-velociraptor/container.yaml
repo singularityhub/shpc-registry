@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-velociraptor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-velociraptor
+latest:
+  1.4.0--r41hdfd78af_0: sha256:44faf5989df8b6091a74f6ecb9bc17b8ede99bd67af8384915d41eb0eeb9a0ea
+tags:
+  1.4.0--r41hdfd78af_0: sha256:44faf5989df8b6091a74f6ecb9bc17b8ede99bd67af8384915d41eb0eeb9a0ea
+docker: quay.io/biocontainers/bioconductor-velociraptor

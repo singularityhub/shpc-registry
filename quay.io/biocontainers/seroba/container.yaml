@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/seroba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seroba
+latest:
+  1.0.2--pyhdfd78af_1: sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b
+tags:
+  1.0.2--pyhdfd78af_1: sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b
+docker: quay.io/biocontainers/seroba
+aliases:
+  ariba: /usr/local/bin/ariba
+  seroba: /usr/local/bin/seroba

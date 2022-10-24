@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bioverbs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bioverbs
+latest:
+  0.2.9--r36_0: sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9
+tags:
+  0.2.9--r36_0: sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9
+docker: quay.io/biocontainers/r-bioverbs

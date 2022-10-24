@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/perl-sanger-cgp-allelecount
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sanger-cgp-allelecount
+latest:
+  4.3.0--pl5321hec16e2b_0: sha256:4a195d434a067d25cdc60f94adf8452ae91b7f3748829e206d2b35297d03d7e2
+tags:
+  4.3.0--pl5321hec16e2b_0: sha256:4a195d434a067d25cdc60f94adf8452ae91b7f3748829e206d2b35297d03d7e2
+docker: quay.io/biocontainers/perl-sanger-cgp-allelecount
+aliases:
+  alleleCounter.pl: /usr/local/bin/alleleCounter.pl
+  alleleCounterToJson.pl: /usr/local/bin/alleleCounterToJson.pl
+  cgpAppendIdsToVcf.pl: /usr/local/bin/cgpAppendIdsToVcf.pl
+  cgpVCFSplit.pl: /usr/local/bin/cgpVCFSplit.pl
+  cover: /usr/local/bin/cover
+  cpancover: /usr/local/bin/cpancover
+  gcov2perl: /usr/local/bin/gcov2perl

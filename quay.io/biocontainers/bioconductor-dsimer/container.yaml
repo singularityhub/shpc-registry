@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dsimer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dsimer
+latest:
+  1.6.0--r341hfc679d8_0: sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7
+tags:
+  1.6.0--r341hfc679d8_0: sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7
+docker: quay.io/biocontainers/bioconductor-dsimer

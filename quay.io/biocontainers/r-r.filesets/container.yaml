@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r.filesets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r.filesets
+latest:
+  2.10.0--r3.3.1_0: sha256:983179854a099b13ae7bcdab8f82fd1d1c075abfa947217aca719872fbc1a2a2
+tags:
+  2.10.0--r3.3.1_0: sha256:983179854a099b13ae7bcdab8f82fd1d1c075abfa947217aca719872fbc1a2a2
+docker: quay.io/biocontainers/r-r.filesets

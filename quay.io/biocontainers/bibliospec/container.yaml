@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bibliospec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bibliospec
+latest:
+  1.0--h2d50403_1: sha256:cda5a11f0102d6b0a2a14733aa933ab66831bb877eccd7826ef889a37dd34078
+tags:
+  1.0--h2d50403_1: sha256:cda5a11f0102d6b0a2a14733aa933ab66831bb877eccd7826ef889a37dd34078
+docker: quay.io/biocontainers/bibliospec
+aliases:
+  BlibBuild: /usr/local/bin/BlibBuild
+  BlibFilter: /usr/local/bin/BlibFilter
+  BlibSearch: /usr/local/bin/BlibSearch
+  BlibToMs2: /usr/local/bin/BlibToMs2

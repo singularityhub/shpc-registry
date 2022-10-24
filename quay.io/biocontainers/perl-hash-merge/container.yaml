@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-hash-merge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-hash-merge
+latest:
+  0.302--pl5321hdfd78af_1: sha256:b0e9f0e86d53a24da254ce99e773136a754692a96f9024c534b155d4b490d799
+tags:
+  0.302--pl5321hdfd78af_1: sha256:b0e9f0e86d53a24da254ce99e773136a754692a96f9024c534b155d4b490d799
+docker: quay.io/biocontainers/perl-hash-merge

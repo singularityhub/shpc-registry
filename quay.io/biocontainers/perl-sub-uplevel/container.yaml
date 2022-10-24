@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-uplevel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-uplevel
+latest:
+  0.2800--pl5321hec16e2b_4: sha256:acdd37dde4e5262c084d11cc870c5580360961332561e31a46ad0035883fc3a4
+tags:
+  0.2800--pl5321hec16e2b_4: sha256:acdd37dde4e5262c084d11cc870c5580360961332561e31a46ad0035883fc3a4
+docker: quay.io/biocontainers/perl-sub-uplevel

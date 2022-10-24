@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dicey
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dicey
+latest:
+  0.1.8--ha41ced6_3: sha256:93bbc25eca8732e7290c48c91e427d19df351dd25897d7bafc3ca9e6d5af4048
+tags:
+  0.1.8--ha41ced6_3: sha256:93bbc25eca8732e7290c48c91e427d19df351dd25897d7bafc3ca9e6d5af4048
+docker: quay.io/biocontainers/dicey
+aliases:
+  dicey: /usr/local/bin/dicey

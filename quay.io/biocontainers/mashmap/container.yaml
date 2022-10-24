@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mashmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mashmap
+latest:
+  2.0--pl5321h8e5b204_8: sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122
+tags:
+  2.0--pl5321h8e5b204_8: sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122
+docker: quay.io/biocontainers/mashmap
+aliases:
+  mashmap: /usr/local/bin/mashmap

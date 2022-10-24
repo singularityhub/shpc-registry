@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/galaxy-parsec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-parsec
+latest:
+  1.16.0--pyh5e36f6f_0: sha256:ae86039032c9f38d07f4e77f84ea6720dbb33e519066f70605ac9665bb5ee4b3
+tags:
+  1.16.0--pyh5e36f6f_0: sha256:ae86039032c9f38d07f4e77f84ea6720dbb33e519066f70605ac9665bb5ee4b3
+docker: quay.io/biocontainers/galaxy-parsec
+aliases:
+  parsec: /usr/local/bin/parsec

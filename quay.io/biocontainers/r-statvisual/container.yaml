@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-statvisual
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-statvisual
+latest:
+  1.2.1--r41h3342da4_3: sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30
+tags:
+  1.2.1--r41h3342da4_3: sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30
+docker: quay.io/biocontainers/r-statvisual

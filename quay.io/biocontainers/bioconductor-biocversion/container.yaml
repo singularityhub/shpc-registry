@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocversion
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocversion
+latest:
+  3.9.0--r36_1: sha256:fdcaa0698da552cbbd9b00b5e0919489f2d56353609bb8802a8604646fbf0c61
+tags:
+  3.9.0--r36_1: sha256:fdcaa0698da552cbbd9b00b5e0919489f2d56353609bb8802a8604646fbf0c61
+docker: quay.io/biocontainers/bioconductor-biocversion

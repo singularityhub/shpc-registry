@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/jass
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jass
+latest:
+  2.2--pyhb7b1952_0: sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e
+tags:
+  2.2--pyhb7b1952_0: sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e
+docker: quay.io/biocontainers/jass
+aliases:
+  celery: /usr/local/bin/celery
+  jass: /usr/local/bin/jass

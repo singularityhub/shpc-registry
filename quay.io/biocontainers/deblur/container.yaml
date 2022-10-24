@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/deblur
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deblur
+latest:
+  1.1.1--pyhdfd78af_0: sha256:c0f007e678e948344c754acef6c61b1062e1a7d69136cc68cc9d75db7709d3a8
+tags:
+  1.1.1--pyhdfd78af_0: sha256:c0f007e678e948344c754acef6c61b1062e1a7d69136cc68cc9d75db7709d3a8
+docker: quay.io/biocontainers/deblur
+aliases:
+  deblur: /usr/local/bin/deblur
+  indexdb_rna: /usr/local/bin/indexdb_rna
+  sortmerna: /usr/local/bin/sortmerna

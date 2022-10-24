@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gsort
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gsort
+latest:
+  0.1.4--h9ee0642_1: sha256:541997a3c49e03dd7ea26de2f144830636f0f9b378ff04ae12a6c82d1f9f9d03
+tags:
+  0.1.4--h9ee0642_1: sha256:541997a3c49e03dd7ea26de2f144830636f0f9b378ff04ae12a6c82d1f9f9d03
+docker: quay.io/biocontainers/gsort
+aliases:
+  gsort: /usr/local/bin/gsort

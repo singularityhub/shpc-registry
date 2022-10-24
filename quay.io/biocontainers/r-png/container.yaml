@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-png
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-png
+latest:
+  0.1.7--r3.2.2_0: sha256:b8d6f0c230db70c701ebba6154c978aa03d3bbf211ee75f4dc624efd3d61c5c5
+tags:
+  0.1.7--r3.2.2_0: sha256:b8d6f0c230db70c701ebba6154c978aa03d3bbf211ee75f4dc624efd3d61c5c5
+docker: quay.io/biocontainers/r-png

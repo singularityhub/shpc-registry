@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-norce
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-norce
+latest:
+  1.6.0--r41hdfd78af_0: sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a
+tags:
+  1.6.0--r41hdfd78af_0: sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a
+docker: quay.io/biocontainers/bioconductor-norce

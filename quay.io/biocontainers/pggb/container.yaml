@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/pggb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pggb
+latest:
+  0.4.1--hdfd78af_0: sha256:18875ce064179e4e4f2a1459b87a7de2af233f4d5f50d365f813d8d9ac50fc69
+tags:
+  0.4.1--hdfd78af_0: sha256:18875ce064179e4e4f2a1459b87a7de2af233f4d5f50d365f813d8d9ac50fc69
+docker: quay.io/biocontainers/pggb
+aliases:
+  gfaffix: /usr/local/bin/gfaffix
+  odgi: /usr/local/bin/odgi
+  pggb: /usr/local/bin/pggb
+  rich-click: /usr/local/bin/rich-click
+  seqwish: /usr/local/bin/seqwish
+  smoothxg: /usr/local/bin/smoothxg
+  time: /usr/local/bin/time
+  vg: /usr/local/bin/vg
+  wfmash: /usr/local/bin/wfmash

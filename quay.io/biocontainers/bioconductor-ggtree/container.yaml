@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ggtree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ggtree
+latest:
+  3.2.0--r41hdfd78af_0: sha256:a0af31913e626c8c9cba9f1a3c5cb5263cb17b0ca1f4a978a1642702797f1a81
+tags:
+  3.2.0--r41hdfd78af_0: sha256:a0af31913e626c8c9cba9f1a3c5cb5263cb17b0ca1f4a978a1642702797f1a81
+docker: quay.io/biocontainers/bioconductor-ggtree

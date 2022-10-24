@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/kofamscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kofamscan
+latest:
+  1.3.0--hdfd78af_2: sha256:afc460a9bdbc6dcd00ee37e40f2b6d4f35ac87e2d8e6b93a3353d6e5fa658c66
+tags:
+  1.3.0--hdfd78af_2: sha256:afc460a9bdbc6dcd00ee37e40f2b6d4f35ac87e2d8e6b93a3353d6e5fa658c66
+docker: quay.io/biocontainers/kofamscan
+aliases:
+  .kofamscan-post-link.sh: /usr/local/bin/.kofamscan-post-link.sh
+  exec_annotation: /usr/local/bin/exec_annotation
+  racc: /usr/local/bin/racc
+  racc2y: /usr/local/bin/racc2y
+  y2racc: /usr/local/bin/y2racc

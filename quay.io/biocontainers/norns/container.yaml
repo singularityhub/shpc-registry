@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/norns
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for norns
+latest:
+  0.1.6--pyh5e36f6f_0: sha256:0245e5b592b662f5fec93a74b42b429e24f6e07929997d3633f2cd4ef40221a1
+tags:
+  0.1.6--pyh5e36f6f_0: sha256:0245e5b592b662f5fec93a74b42b429e24f6e07929997d3633f2cd4ef40221a1
+docker: quay.io/biocontainers/norns

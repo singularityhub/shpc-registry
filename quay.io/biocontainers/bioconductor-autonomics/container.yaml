@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-autonomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-autonomics
+latest:
+  1.2.0--r41hdfd78af_0: sha256:5ecf76b90b44c0592fdd77fcc64e33f2ce159f1a01d180f747745627f8ea2a02
+tags:
+  1.2.0--r41hdfd78af_0: sha256:5ecf76b90b44c0592fdd77fcc64e33f2ce159f1a01d180f747745627f8ea2a02
+docker: quay.io/biocontainers/bioconductor-autonomics

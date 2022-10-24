@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kopt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kopt
+latest:
+  0.1.0--pyh145b6a8_2: sha256:718867578adabf2f9bf94a160c494fcc0ae40d6b03fbad5497bbe503c9bcb259
+tags:
+  0.1.0--pyh145b6a8_2: sha256:718867578adabf2f9bf94a160c494fcc0ae40d6b03fbad5497bbe503c9bcb259
+docker: quay.io/biocontainers/kopt
+aliases:
+  hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker

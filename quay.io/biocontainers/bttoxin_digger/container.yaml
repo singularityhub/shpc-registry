@@ -1,0 +1,75 @@
+url: https://biocontainers.pro/tools/bttoxin_digger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bttoxin_digger
+latest:
+  1.0.9--hdfd78af_0: sha256:aa67729204bb1fbb6e3e2a37a47d1608cefe2d99a596ac33acc2aae9ee206c66
+tags:
+  1.0.9--hdfd78af_0: sha256:aa67729204bb1fbb6e3e2a37a47d1608cefe2d99a596ac33acc2aae9ee206c66
+docker: quay.io/biocontainers/bttoxin_digger
+aliases:
+  BtToxin_Digger: /usr/local/bin/BtToxin_Digger
+  abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  alignGFA: /usr/local/bin/alignGFA
+  canu: /usr/local/bin/canu
+  canu-time: /usr/local/bin/canu-time
+  canu.defaults: /usr/local/bin/canu.defaults
+  coreprocess.pl: /usr/local/bin/coreprocess.pl
+  correctOverlaps: /usr/local/bin/correctOverlaps
+  draw-tig: /usr/local/bin/draw-tig
+  dumpBlob: /usr/local/bin/dumpBlob
+  edalign: /usr/local/bin/edalign
+  errorEstimate: /usr/local/bin/errorEstimate
+  falconsense: /usr/local/bin/falconsense
+  filterCorrectionLayouts: /usr/local/bin/filterCorrectionLayouts
+  filterCorrectionOverlaps: /usr/local/bin/filterCorrectionOverlaps
+  findErrors: /usr/local/bin/findErrors
+  findErrors-Dump: /usr/local/bin/findErrors-Dump
+  fixErrors: /usr/local/bin/fixErrors
+  generateCorrectionLayouts: /usr/local/bin/generateCorrectionLayouts
+  genome_LenFilter_stats.pl: /usr/local/bin/genome_LenFilter_stats.pl
+  get_all_info_nucl.pl: /usr/local/bin/get_all_info_nucl.pl
+  get_all_info_orfs.pl: /usr/local/bin/get_all_info_orfs.pl
+  get_all_info_prot.pl: /usr/local/bin/get_all_info_prot.pl
+  get_counts.pl: /usr/local/bin/get_counts.pl
+  get_genes_table.pl: /usr/local/bin/get_genes_table.pl
+  get_stats_summary.pl: /usr/local/bin/get_stats_summary.pl
+  irqtop: /usr/local/bin/irqtop
+  layoutReads: /usr/local/bin/layoutReads
+  loadCorrectedReads: /usr/local/bin/loadCorrectedReads
+  loadErates: /usr/local/bin/loadErates
+  loadTrimmedReads: /usr/local/bin/loadTrimmedReads
+  lsirq: /usr/local/bin/lsirq
+  mergeRanges: /usr/local/bin/mergeRanges
+  mhapConvert: /usr/local/bin/mhapConvert
+  mmapConvert: /usr/local/bin/mmapConvert
+  nsenter: /usr/local/bin/nsenter
+  ovStoreBucketizer: /usr/local/bin/ovStoreBucketizer
+  ovStoreBuild: /usr/local/bin/ovStoreBuild
+  ovStoreConfig: /usr/local/bin/ovStoreConfig
+  ovStoreDump: /usr/local/bin/ovStoreDump
+  ovStoreIndexer: /usr/local/bin/ovStoreIndexer
+  ovStoreSorter: /usr/local/bin/ovStoreSorter
+  ovStoreStats: /usr/local/bin/ovStoreStats
+  overlapAlign: /usr/local/bin/overlapAlign
+  overlapConvert: /usr/local/bin/overlapConvert
+  overlapImport: /usr/local/bin/overlapImport
+  overlapInCorePartition: /usr/local/bin/overlapInCorePartition
+  overlapPair: /usr/local/bin/overlapPair
+  pgcgap: /usr/local/bin/pgcgap
+  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
+  prlimit: /usr/local/bin/prlimit
+  splitHaplotype: /usr/local/bin/splitHaplotype
+  splitReads: /usr/local/bin/splitReads
+  sqStoreCreate: /usr/local/bin/sqStoreCreate
+  sqStoreDumpFASTQ: /usr/local/bin/sqStoreDumpFASTQ
+  sqStoreDumpMetaData: /usr/local/bin/sqStoreDumpMetaData
+  tgStoreCompress: /usr/local/bin/tgStoreCompress
+  tgStoreDump: /usr/local/bin/tgStoreDump
+  tgStoreLoad: /usr/local/bin/tgStoreLoad
+  tgTigDisplay: /usr/local/bin/tgTigDisplay
+  trimReads: /usr/local/bin/trimReads
+  unicycler: /usr/local/bin/unicycler
+  unicycler_align: /usr/local/bin/unicycler_align
+  unicycler_check: /usr/local/bin/unicycler_check
+  unicycler_polish: /usr/local/bin/unicycler_polish
+  unicycler_scrub: /usr/local/bin/unicycler_scrub

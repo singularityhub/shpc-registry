@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genrank
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genrank
+latest:
+  1.8.0--r341_0: sha256:510a3809f6eb0f83df1f059e1f34fd316814972a91f47015f5e158a9f5a51fa8
+tags:
+  1.8.0--r341_0: sha256:510a3809f6eb0f83df1f059e1f34fd316814972a91f47015f5e158a9f5a51fa8
+docker: quay.io/biocontainers/bioconductor-genrank

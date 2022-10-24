@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sracipe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sracipe
+latest:
+  1.8.0--r41h399db7b_0: sha256:a77a84d486474d9c2d149499c0c1b0fe0efe697c5533ca1bcb3d45a24a65e771
+tags:
+  1.8.0--r41h399db7b_0: sha256:a77a84d486474d9c2d149499c0c1b0fe0efe697c5533ca1bcb3d45a24a65e771
+docker: quay.io/biocontainers/bioconductor-sracipe

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bcftools-snvphyl-plugin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcftools-snvphyl-plugin
+latest:
+  1.9--h2559242_7: sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3
+tags:
+  1.9--h2559242_7: sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3
+docker: quay.io/biocontainers/bcftools-snvphyl-plugin

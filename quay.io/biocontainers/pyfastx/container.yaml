@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyfastx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyfastx
+latest:
+  0.8.4--py38h4c6a040_1: sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7
+tags:
+  0.8.4--py38h4c6a040_1: sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7
+docker: quay.io/biocontainers/pyfastx
+aliases:
+  pyfastx: /usr/local/bin/pyfastx

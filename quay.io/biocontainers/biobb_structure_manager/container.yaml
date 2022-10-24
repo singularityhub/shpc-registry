@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biobb_structure_manager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_structure_manager
+latest:
+  3.0.2--py_0: sha256:6e4d1a1db97848d1baacddf73eeeae070bcecd4187c697760d2415dcb842a3c4
+tags:
+  3.0.2--py_0: sha256:6e4d1a1db97848d1baacddf73eeeae070bcecd4187c697760d2415dcb842a3c4
+docker: quay.io/biocontainers/biobb_structure_manager

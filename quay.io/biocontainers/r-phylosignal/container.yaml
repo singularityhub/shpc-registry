@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-phylosignal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-phylosignal
+latest:
+  1.2--r351h29659fb_3: sha256:8b23af953144954369e9b0de460c689ebc75594f0c0682fefbb2c22510c128f0
+tags:
+  1.2--r351h29659fb_3: sha256:8b23af953144954369e9b0de460c689ebc75594f0c0682fefbb2c22510c128f0
+docker: quay.io/biocontainers/r-phylosignal

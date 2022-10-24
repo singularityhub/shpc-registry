@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-unicode-utf8
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-unicode-utf8
+latest:
+  0.62--pl5321h9f5acd7_4: sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc
+tags:
+  0.62--pl5321h9f5acd7_4: sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc
+docker: quay.io/biocontainers/perl-unicode-utf8

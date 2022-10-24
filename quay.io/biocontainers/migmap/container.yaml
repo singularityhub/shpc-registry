@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/migmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for migmap
+latest:
+  1.0.3--hdfd78af_6: sha256:cef67e1d5a609056408a4e21a3e7c3db79360ac9815ef272ab53c7cdbe8b637e
+tags:
+  1.0.3--hdfd78af_6: sha256:cef67e1d5a609056408a4e21a3e7c3db79360ac9815ef272ab53c7cdbe8b637e
+docker: quay.io/biocontainers/migmap
+aliases:
+  edit_imgt_file.pl: /usr/local/bin/edit_imgt_file.pl
+  igblastn: /usr/local/bin/igblastn
+  igblastp: /usr/local/bin/igblastp
+  migmap: /usr/local/bin/migmap

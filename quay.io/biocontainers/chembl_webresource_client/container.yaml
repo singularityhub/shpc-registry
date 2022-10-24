@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/chembl_webresource_client
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chembl_webresource_client
+latest:
+  0.9.31: sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0
+tags:
+  0.9.31: sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0
+docker: quay.io/biocontainers/chembl_webresource_client
+aliases:
+  chembl_act: /usr/local/bin/chembl_act
+  chembl_ids: /usr/local/bin/chembl_ids
+  chembl_m2t: /usr/local/bin/chembl_m2t
+  chembl_sim: /usr/local/bin/chembl_sim
+  chembl_sub: /usr/local/bin/chembl_sub
+  chembl_t2m: /usr/local/bin/chembl_t2m

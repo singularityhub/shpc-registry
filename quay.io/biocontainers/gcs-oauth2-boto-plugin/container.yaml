@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gcs-oauth2-boto-plugin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gcs-oauth2-boto-plugin
+latest:
+  1.9--py27_1: sha256:9cdca061449225c40d6296fbd3d992c4517104996d6c2f88dbc2f7ddb0254791
+tags:
+  1.9--py27_1: sha256:9cdca061449225c40d6296fbd3d992c4517104996d6c2f88dbc2f7ddb0254791
+docker: quay.io/biocontainers/gcs-oauth2-boto-plugin

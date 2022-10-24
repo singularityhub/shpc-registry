@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/spectrassembler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spectrassembler
+latest:
+  0.0.1a1--py_4: sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb
+tags:
+  0.0.1a1--py_4: sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb
+docker: quay.io/biocontainers/spectrassembler
+aliases:
+  gen_cons_from_poa.py: /usr/local/bin/gen_cons_from_poa.py
+  get_position_from_sam.py: /usr/local/bin/get_position_from_sam.py
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  minimap: /usr/local/bin/minimap
+  minimap-lite: /usr/local/bin/minimap-lite
+  poa: /usr/local/bin/poa
+  spectral_layout_from_minimap.py: /usr/local/bin/spectral_layout_from_minimap.py

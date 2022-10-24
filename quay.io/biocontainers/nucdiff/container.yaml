@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nucdiff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nucdiff
+latest:
+  2.0.3--pyh864c0ab_1: sha256:a90cfb5c6434af71c774551258ec381f2c3a40bc28d038ce3ddadd142932e378
+tags:
+  2.0.3--pyh864c0ab_1: sha256:a90cfb5c6434af71c774551258ec381f2c3a40bc28d038ce3ddadd142932e378
+docker: quay.io/biocontainers/nucdiff
+aliases:
+  nucdiff: /usr/local/bin/nucdiff

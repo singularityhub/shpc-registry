@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+latest:
+  3.4.6--r36_1: sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece
+tags:
+  3.4.6--r36_1: sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece
+docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene

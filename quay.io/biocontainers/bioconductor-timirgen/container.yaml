@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-timirgen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-timirgen
+latest:
+  1.4.0--r41hdfd78af_0: sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b
+tags:
+  1.4.0--r41hdfd78af_0: sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b
+docker: quay.io/biocontainers/bioconductor-timirgen

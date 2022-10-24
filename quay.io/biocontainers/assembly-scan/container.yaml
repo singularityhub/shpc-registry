@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/assembly-scan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for assembly-scan
+latest:
+  0.4.1--pyhdfd78af_0: sha256:7f13be6cd0f1361cfbaa0053dde53503d070858945b241d3b56453e927cc7184
+tags:
+  0.4.1--pyhdfd78af_0: sha256:7f13be6cd0f1361cfbaa0053dde53503d070858945b241d3b56453e927cc7184
+docker: quay.io/biocontainers/assembly-scan
+aliases:
+  assembly-scan: /usr/local/bin/assembly-scan

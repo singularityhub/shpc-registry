@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gmgc-mapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gmgc-mapper
+latest:
+  0.2.0--pyh864c0ab_1: sha256:9df4b2519af9d4c64ba004bcfc995562fc2f92e001b71197c266009884fc90a3
+tags:
+  0.2.0--pyh864c0ab_1: sha256:9df4b2519af9d4c64ba004bcfc995562fc2f92e001b71197c266009884fc90a3
+docker: quay.io/biocontainers/gmgc-mapper
+aliases:
+  gmgc-mapper: /usr/local/bin/gmgc-mapper

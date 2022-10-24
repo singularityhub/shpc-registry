@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/align_it
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for align_it
+latest:
+  1.0.4--hd03093a_1: sha256:e290322e782e4ba005a340ba08964c031924df4465eaaaa1ebbdd5cfbe9100a8
+tags:
+  1.0.4--hd03093a_1: sha256:e290322e782e4ba005a340ba08964c031924df4465eaaaa1ebbdd5cfbe9100a8
+docker: quay.io/biocontainers/align_it
+aliases:
+  align-it: /usr/local/bin/align-it
+  babel: /usr/local/bin/babel
+  obchiral: /usr/local/bin/obchiral

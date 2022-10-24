@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/samplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samplot
+latest:
+  1.3.0--pyh5e36f6f_1: sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a
+tags:
+  1.3.0--pyh5e36f6f_1: sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a
+docker: quay.io/biocontainers/samplot
+aliases:
+  samplot: /usr/local/bin/samplot

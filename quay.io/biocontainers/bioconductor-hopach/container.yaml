@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hopach
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hopach
+latest:
+  2.54.0--r41hc0cfd56_2: sha256:a9ada561104f5a197859106c33e5f516830d3e3a3b5611382cc851179ef083c1
+tags:
+  2.54.0--r41hc0cfd56_2: sha256:a9ada561104f5a197859106c33e5f516830d3e3a3b5611382cc851179ef083c1
+docker: quay.io/biocontainers/bioconductor-hopach

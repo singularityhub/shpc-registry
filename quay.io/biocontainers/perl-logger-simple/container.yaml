@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-logger-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-logger-simple
+latest:
+  2.0--pl5321hdfd78af_1: sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832
+tags:
+  2.0--pl5321hdfd78af_1: sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832
+docker: quay.io/biocontainers/perl-logger-simple

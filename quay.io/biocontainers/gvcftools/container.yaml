@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/gvcftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gvcftools
+latest:
+  0.17.0--he941832_3: sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365
+tags:
+  0.17.0--he941832_3: sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365
+docker: quay.io/biocontainers/gvcftools
+aliases:
+  break_blocks: /usr/local/bin/break_blocks
+  check_reference: /usr/local/bin/check_reference
+  extract_variants: /usr/local/bin/extract_variants
+  gatk_to_gvcf: /usr/local/bin/gatk_to_gvcf
+  getBamAvgChromDepth.pl: /usr/local/bin/getBamAvgChromDepth.pl
+  get_called_regions: /usr/local/bin/get_called_regions
+  merge_variants: /usr/local/bin/merge_variants
+  remove_region: /usr/local/bin/remove_region
+  set_haploid_region: /usr/local/bin/set_haploid_region
+  trio: /usr/local/bin/trio
+  twins: /usr/local/bin/twins

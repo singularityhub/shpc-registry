@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/snpgenie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snpgenie
+latest:
+  1.0--hdfd78af_1: sha256:bacfcf5093982fab1078b1b326b3ae2c16aca8874cab1afe9a4facac953310bc
+tags:
+  1.0--hdfd78af_1: sha256:bacfcf5093982fab1078b1b326b3ae2c16aca8874cab1afe9a4facac953310bc
+docker: quay.io/biocontainers/snpgenie
+aliases:
+  fasta2revcom.pl: /usr/local/bin/fasta2revcom.pl
+  gtf2revcom.pl: /usr/local/bin/gtf2revcom.pl
+  snpgenie.pl: /usr/local/bin/snpgenie.pl
+  snpgenie_between_group.pl: /usr/local/bin/snpgenie_between_group.pl
+  snpgenie_between_group_processor.pl: /usr/local/bin/snpgenie_between_group_processor.pl
+  snpgenie_within_group.pl: /usr/local/bin/snpgenie_within_group.pl
+  snpgenie_within_group_processor.pl: /usr/local/bin/snpgenie_within_group_processor.pl
+  vcf2revcom.pl: /usr/local/bin/vcf2revcom.pl

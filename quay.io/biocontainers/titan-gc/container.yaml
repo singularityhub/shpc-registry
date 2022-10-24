@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/titan-gc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for titan-gc
+latest:
+  1.5.3--hdfd78af_1: sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3
+tags:
+  1.5.3--hdfd78af_1: sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3
+docker: quay.io/biocontainers/titan-gc
+aliases:
+  cromwell: /usr/local/bin/cromwell
+  find: /usr/local/bin/find
+  locate: /usr/local/bin/locate
+  titan-gc: /usr/local/bin/titan-gc
+  titan-gc-organize.py: /usr/local/bin/titan-gc-organize.py
+  titan-gc-prepare.py: /usr/local/bin/titan-gc-prepare.py
+  updatedb: /usr/local/bin/updatedb
+  womtool: /usr/local/bin/womtool
+  xargs: /usr/local/bin/xargs

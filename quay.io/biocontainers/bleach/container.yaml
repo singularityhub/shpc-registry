@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bleach
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bleach
+latest:
+  1.4.2--py35_0: sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849
+tags:
+  1.4.2--py35_0: sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849
+docker: quay.io/biocontainers/bleach

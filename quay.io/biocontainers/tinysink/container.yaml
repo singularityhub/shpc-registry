@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tinysink
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tinysink
+latest:
+  1.0--hdfd78af_3: sha256:60ddaa84eadb3dbf3704ec55a8fbaa3a4cd27bae913b54b388f8e5bf63b66258
+tags:
+  1.0--hdfd78af_3: sha256:60ddaa84eadb3dbf3704ec55a8fbaa3a4cd27bae913b54b388f8e5bf63b66258
+docker: quay.io/biocontainers/tinysink
+aliases:
+  tinysink: /usr/local/bin/tinysink

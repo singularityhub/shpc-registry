@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-antiprofilesdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-antiprofilesdata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:8fcff7fb0d5d9eb9f43d3237096d6637fed141a79c00f668b694f7bf01661cef
+tags:
+  1.30.0--r41hdfd78af_1: sha256:8fcff7fb0d5d9eb9f43d3237096d6637fed141a79c00f668b694f7bf01661cef
+docker: quay.io/biocontainers/bioconductor-antiprofilesdata
+aliases:
+  .bioconductor-antiprofilesdata-post-link.sh: /usr/local/bin/.bioconductor-antiprofilesdata-post-link.sh
+  .bioconductor-antiprofilesdata-pre-unlink.sh: /usr/local/bin/.bioconductor-antiprofilesdata-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tbb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tbb
+latest:
+  4.4_20150728--0: sha256:ddf897ca939f561a5a0565cc1ad9b6540d6791486e2cec51900d4f259b57fe01
+tags:
+  4.4_20150728--0: sha256:ddf897ca939f561a5a0565cc1ad9b6540d6791486e2cec51900d4f259b57fe01
+docker: quay.io/biocontainers/tbb

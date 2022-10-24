@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/biobb_vs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_vs
+latest:
+  3.8.1--pyhdfd78af_0: sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf
+tags:
+  3.8.1--pyhdfd78af_0: sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf
+docker: quay.io/biocontainers/biobb_vs
+aliases:
+  autodock_vina_run: /usr/local/bin/autodock_vina_run
+  bindingsite: /usr/local/bin/bindingsite
+  box: /usr/local/bin/box
+  box_residues: /usr/local/bin/box_residues
+  dpocket: /usr/local/bin/dpocket
+  extract_model_pdbqt: /usr/local/bin/extract_model_pdbqt
+  fpocket: /usr/local/bin/fpocket
+  fpocket_filter: /usr/local/bin/fpocket_filter
+  fpocket_run: /usr/local/bin/fpocket_run
+  fpocket_select: /usr/local/bin/fpocket_select
+  mdpocket: /usr/local/bin/mdpocket
+  tpocket: /usr/local/bin/tpocket
+  vina: /usr/local/bin/vina
+  vina_split: /usr/local/bin/vina_split

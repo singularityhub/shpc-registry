@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moose
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moose
+latest:
+  2.2201--pl5321hec16e2b_2: sha256:a8c52c27f2c850d78e11714556e9cdd59d2e58377bb8580b2e71991c1b60affe
+tags:
+  2.2201--pl5321hec16e2b_2: sha256:a8c52c27f2c850d78e11714556e9cdd59d2e58377bb8580b2e71991c1b60affe
+docker: quay.io/biocontainers/perl-moose

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-workflowscriptscommon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-workflowscriptscommon
+latest:
+  0.0.8--r40hdfd78af_1: sha256:a19006b0836a2870b1657441e06d9481f278bb8bcc961a3031f76f0c7fef130a
+tags:
+  0.0.8--r40hdfd78af_1: sha256:a19006b0836a2870b1657441e06d9481f278bb8bcc961a3031f76f0c7fef130a
+docker: quay.io/biocontainers/r-workflowscriptscommon

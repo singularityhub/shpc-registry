@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lsd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lsd
+latest:
+  2.2.3--hdfd78af_3: sha256:f2c02a76def877893e21f53f8f6faa46354d274f9923166802bf4b6d9c26c8d4
+tags:
+  2.2.3--hdfd78af_3: sha256:f2c02a76def877893e21f53f8f6faa46354d274f9923166802bf4b6d9c26c8d4
+docker: quay.io/biocontainers/lsd
+aliases:
+  lsd: /usr/local/bin/lsd

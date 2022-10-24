@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gcnvkernel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gcnvkernel
+latest:
+  0.7--py_0: sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93
+tags:
+  0.7--py_0: sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93
+docker: quay.io/biocontainers/gcnvkernel

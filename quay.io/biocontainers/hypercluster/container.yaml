@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hypercluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hypercluster
+latest:
+  0.1.9--0: sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39
+tags:
+  0.1.9--0: sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39
+docker: quay.io/biocontainers/hypercluster
+aliases:
+  community: /usr/local/bin/community
+  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config

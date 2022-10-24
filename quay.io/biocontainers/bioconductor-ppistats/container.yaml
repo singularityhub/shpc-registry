@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ppistats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ppistats
+latest:
+  1.60.0--r41hdfd78af_0: sha256:b4babe907a68170a07ae20103f6f3a9c771dd5f40ef1f625d0c7305f2da1e521
+tags:
+  1.60.0--r41hdfd78af_0: sha256:b4babe907a68170a07ae20103f6f3a9c771dd5f40ef1f625d0c7305f2da1e521
+docker: quay.io/biocontainers/bioconductor-ppistats

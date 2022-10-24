@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scale4c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scale4c
+latest:
+  1.8.0--r36_0: sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96
+tags:
+  1.8.0--r36_0: sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96
+docker: quay.io/biocontainers/bioconductor-scale4c

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pod-escapes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pod-escapes
+latest:
+  1.07--pl5321hdfd78af_2: sha256:36fabb715e5795cbb1033cb8ae3e228a41341ce0dc5f754524b4ba73d783d5e8
+tags:
+  1.07--pl5321hdfd78af_2: sha256:36fabb715e5795cbb1033cb8ae3e228a41341ce0dc5f754524b4ba73d783d5e8
+docker: quay.io/biocontainers/perl-pod-escapes

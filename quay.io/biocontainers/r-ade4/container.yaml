@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ade4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ade4
+latest:
+  1.7_2--r3.2.2_0: sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295
+tags:
+  1.7_2--r3.2.2_0: sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295
+docker: quay.io/biocontainers/r-ade4

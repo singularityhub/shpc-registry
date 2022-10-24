@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/hlama
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hlama
+latest:
+  3.0.1--py35_0: sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3
+tags:
+  3.0.1--py35_0: sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3
+docker: quay.io/biocontainers/hlama
+aliases:
+  OSSolverService: /usr/local/bin/OSSolverService
+  OptiTypePipeline.py: /usr/local/bin/OptiTypePipeline.py
+  checkCopyright: /usr/local/bin/checkCopyright
+  checkcopyright: /usr/local/bin/checkcopyright
+  computeconf: /usr/local/bin/computeconf
+  dispatch_srvr: /usr/local/bin/dispatch_srvr
+  evaluate_xhat: /usr/local/bin/evaluate_xhat
+  get_pyomo_extras: /usr/local/bin/get_pyomo_extras
+  hlama: /usr/local/bin/hlama
+  kill_pyro_mip_servers: /usr/local/bin/kill_pyro_mip_servers
+  launch_pyro_mip_servers: /usr/local/bin/launch_pyro_mip_servers
+  lbin: /usr/local/bin/lbin
+  lpython: /usr/local/bin/lpython
+  ossolverservice: /usr/local/bin/ossolverservice
+  phsolverserver: /usr/local/bin/phsolverserver
+  pyomo: /usr/local/bin/pyomo
+  pyomo_ns: /usr/local/bin/pyomo_ns
+  pyomo_nsc: /usr/local/bin/pyomo_nsc
+  pyomo_old: /usr/local/bin/pyomo_old
+  pyomo_python: /usr/local/bin/pyomo_python
+  pypi_downloads: /usr/local/bin/pypi_downloads
+  pyro_mip_server: /usr/local/bin/pyro_mip_server
+  pyutilib_test_driver: /usr/local/bin/pyutilib_test_driver
+  razers3: /usr/local/bin/razers3
+  readsol: /usr/local/bin/readsol
+  replaceCopyright: /usr/local/bin/replaceCopyright
+  replacecopyright: /usr/local/bin/replacecopyright
+  results_schema: /usr/local/bin/results_schema
+  runbenders: /usr/local/bin/runbenders
+  runef: /usr/local/bin/runef
+  runph: /usr/local/bin/runph
+  scenariotreeserver: /usr/local/bin/scenariotreeserver
+  test.pyomo: /usr/local/bin/test.pyomo
+  test.pyutilib: /usr/local/bin/test.pyutilib

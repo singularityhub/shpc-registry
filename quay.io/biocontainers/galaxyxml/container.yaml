@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/galaxyxml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxyxml
+latest:
+  0.4.9--pyh864c0ab_1: sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452
+tags:
+  0.4.9--pyh864c0ab_1: sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452
+docker: quay.io/biocontainers/galaxyxml

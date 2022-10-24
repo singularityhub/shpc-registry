@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
+latest:
+  3.7.0--r36_2: sha256:24b8345c4612caab3a70ced22ab10e5dd14cf01aa3f7b13b5c7c5d1b39e88b2a
+tags:
+  3.7.0--r36_2: sha256:24b8345c4612caab3a70ced22ab10e5dd14cf01aa3f7b13b5c7c5d1b39e88b2a
+docker: quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
+aliases:
+  .bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-post-link.sh
+  .bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5-pre-unlink.sh

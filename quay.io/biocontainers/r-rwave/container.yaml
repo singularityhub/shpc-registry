@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rwave
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rwave
+latest:
+  2.4--r3.2.2_0: sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9
+tags:
+  2.4--r3.2.2_0: sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9
+docker: quay.io/biocontainers/r-rwave

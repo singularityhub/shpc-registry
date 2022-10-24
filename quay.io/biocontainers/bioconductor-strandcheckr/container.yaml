@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-strandcheckr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-strandcheckr
+latest:
+  1.8.0--r40hdfd78af_1: sha256:d589b767d949ff44c1ffd68462dd4e7d5234860d7059bd0bf9764b80d8e116b1
+tags:
+  1.8.0--r40hdfd78af_1: sha256:d589b767d949ff44c1ffd68462dd4e7d5234860d7059bd0bf9764b80d8e116b1
+docker: quay.io/biocontainers/bioconductor-strandcheckr

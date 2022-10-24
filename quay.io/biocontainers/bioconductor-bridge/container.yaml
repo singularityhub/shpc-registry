@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bridge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bridge
+latest:
+  1.58.0--r41hc0cfd56_2: sha256:670cf2714e02f74b754c536d10a42947587046d686d71e03f4f0939de9579d76
+tags:
+  1.58.0--r41hc0cfd56_2: sha256:670cf2714e02f74b754c536d10a42947587046d686d71e03f4f0939de9579d76
+docker: quay.io/biocontainers/bioconductor-bridge

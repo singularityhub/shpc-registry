@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/py-graphviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for py-graphviz
+latest:
+  0.4.10--py_1: sha256:45766e4bafec78bb5d400d90f9abecd4443ab7a5db934ffd39361beae37e8b2d
+tags:
+  0.4.10--py_1: sha256:45766e4bafec78bb5d400d90f9abecd4443ab7a5db934ffd39361beae37e8b2d
+docker: quay.io/biocontainers/py-graphviz

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nebulizer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nebulizer
+latest:
+  0.7.1--pyh5e36f6f_0: sha256:6f6f78ac54712ca22a6e2663237084f732cf4659e3a9ceb32c5e56090e7fe9f9
+tags:
+  0.7.1--pyh5e36f6f_0: sha256:6f6f78ac54712ca22a6e2663237084f732cf4659e3a9ceb32c5e56090e7fe9f9
+docker: quay.io/biocontainers/nebulizer
+aliases:
+  nebulizer: /usr/local/bin/nebulizer

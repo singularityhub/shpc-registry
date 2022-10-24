@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/biobb_md
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_md
+latest:
+  3.7.2--pyhdfd78af_0: sha256:c143b11761a0b7ae12d954e40310aea41ccd8f3499761a8b070c165c216aeb96
+tags:
+  3.7.2--pyhdfd78af_0: sha256:c143b11761a0b7ae12d954e40310aea41ccd8f3499761a8b070c165c216aeb96
+docker: quay.io/biocontainers/biobb_md
+aliases:
+  .biobb_md-post-link.sh: /usr/local/bin/.biobb_md-post-link.sh
+  GMXRC: /usr/local/bin/GMXRC
+  GMXRC.bash: /usr/local/bin/GMXRC.bash
+  GMXRC.csh: /usr/local/bin/GMXRC.csh
+  GMXRC.zsh: /usr/local/bin/GMXRC.zsh
+  append_ligand: /usr/local/bin/append_ligand
+  demux.pl: /usr/local/bin/demux.pl
+  editconf: /usr/local/bin/editconf
+  genion: /usr/local/bin/genion
+  genrestr: /usr/local/bin/genrestr
+  gmx: /usr/local/bin/gmx
+  gmx-completion-gmx.bash: /usr/local/bin/gmx-completion-gmx.bash
+  gmx-completion.bash: /usr/local/bin/gmx-completion.bash
+  gmxselect: /usr/local/bin/gmxselect
+  grompp: /usr/local/bin/grompp
+  grompp_mdrun: /usr/local/bin/grompp_mdrun
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  make_ndx: /usr/local/bin/make_ndx
+  mdrun: /usr/local/bin/mdrun
+  ndx2resttop: /usr/local/bin/ndx2resttop
+  pdb2gmx: /usr/local/bin/pdb2gmx
+  solvate: /usr/local/bin/solvate
+  xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl

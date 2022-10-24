@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/curl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for curl
+latest:
+  7.80.0: sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597
+tags:
+  7.80.0: sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597
+docker: quay.io/biocontainers/curl

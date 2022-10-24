@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/disco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for disco
+latest:
+  1.2--h5b5514e_5: sha256:141ebbe6888731e5cb93b7b10a8835d210323db21ead0b4364c1e204eac457f5
+tags:
+  1.2--h5b5514e_5: sha256:141ebbe6888731e5cb93b7b10a8835d210323db21ead0b4364c1e204eac457f5
+docker: quay.io/biocontainers/disco
+aliases:
+  buildG: /usr/local/bin/buildG
+  buildG-MPI: /usr/local/bin/buildG-MPI
+  buildG-MPIRMA: /usr/local/bin/buildG-MPIRMA
+  disco.cfg: /usr/local/bin/disco.cfg
+  disco_2.cfg: /usr/local/bin/disco_2.cfg
+  disco_3.cfg: /usr/local/bin/disco_3.cfg
+  fido2-assert: /usr/local/bin/fido2-assert
+  fido2-cred: /usr/local/bin/fido2-cred
+  fido2-token: /usr/local/bin/fido2-token
+  fullsimplify: /usr/local/bin/fullsimplify
+  parsimplify: /usr/local/bin/parsimplify
+  runAssembly-MPI.sh: /usr/local/bin/runAssembly-MPI.sh
+  runAssembly.sh: /usr/local/bin/runAssembly.sh
+  runDisco-MPI-ALPS.sh: /usr/local/bin/runDisco-MPI-ALPS.sh
+  runDisco-MPI-AllineaMAP.sh: /usr/local/bin/runDisco-MPI-AllineaMAP.sh
+  runDisco-MPI-SLURM.sh: /usr/local/bin/runDisco-MPI-SLURM.sh
+  runDisco-MPI.sh: /usr/local/bin/runDisco-MPI.sh
+  runDisco.sh: /usr/local/bin/runDisco.sh
+  runECC.sh: /usr/local/bin/runECC.sh
+  scp: /usr/local/bin/scp
+  sftp: /usr/local/bin/sftp
+  ssh: /usr/local/bin/ssh
+  ssh-add: /usr/local/bin/ssh-add
+  ssh-agent: /usr/local/bin/ssh-agent
+  ssh-keygen: /usr/local/bin/ssh-keygen
+  ssh-keyscan: /usr/local/bin/ssh-keyscan
+  sshd: /usr/local/bin/sshd

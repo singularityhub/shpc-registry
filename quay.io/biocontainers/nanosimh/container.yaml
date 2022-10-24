@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nanosimh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanosimh
+latest:
+  v1.0.1.8--py35r3.3.1_1: sha256:535870e69f8d18ca8062b3b960845ba077c41ffd6d831d739ea14ea0cc074449
+tags:
+  v1.0.1.8--py35r3.3.1_1: sha256:535870e69f8d18ca8062b3b960845ba077c41ffd6d831d739ea14ea0cc074449
+docker: quay.io/biocontainers/nanosimh
+aliases:
+  nanosimh_simulate: /usr/local/bin/nanosimh_simulate
+  nanosimh_train: /usr/local/bin/nanosimh_train

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scmageck
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scmageck
+latest:
+  1.6.0--r41hdfd78af_0: sha256:bf1a5f421fa3201b282fde6312cdf9dda6487060da4d0f3a207bc37fde631adc
+tags:
+  1.6.0--r41hdfd78af_0: sha256:bf1a5f421fa3201b282fde6312cdf9dda6487060da4d0f3a207bc37fde631adc
+docker: quay.io/biocontainers/bioconductor-scmageck

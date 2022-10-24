@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-alpsnmr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-alpsnmr
+latest:
+  3.4.0--r41hdfd78af_0: sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585
+tags:
+  3.4.0--r41hdfd78af_0: sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585
+docker: quay.io/biocontainers/bioconductor-alpsnmr

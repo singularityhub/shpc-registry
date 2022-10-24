@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/mintie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mintie
+latest:
+  0.4.1--hdfd78af_0: sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb
+tags:
+  0.4.1--hdfd78af_0: sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb
+docker: quay.io/biocontainers/mintie
+aliases:
+  SOAPdenovo-Trans-127mer: /usr/local/bin/SOAPdenovo-Trans-127mer
+  SOAPdenovo-Trans-31mer: /usr/local/bin/SOAPdenovo-Trans-31mer
+  Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh
+  bg-bpipe: /usr/local/bin/bg-bpipe
+  bpipe: /usr/local/bin/bpipe
+  bpipe-groovy: /usr/local/bin/bpipe-groovy
+  bpipe-pbspro.sh: /usr/local/bin/bpipe-pbspro.sh
+  bpipe-slurm.sh: /usr/local/bin/bpipe-slurm.sh
+  bpipe-torque.sh: /usr/local/bin/bpipe-torque.sh
+  bpipe-utils.sh: /usr/local/bin/bpipe-utils.sh
+  bulk-counts: /usr/local/bin/bulk-counts
+  fastuniq: /usr/local/bin/fastuniq
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  groovy_script: /usr/local/bin/groovy_script
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  mintie: /usr/local/bin/mintie
+  sc-counts: /usr/local/bin/sc-counts
+  velocity-counts: /usr/local/bin/velocity-counts

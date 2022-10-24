@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/pbh5tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbh5tools
+latest:
+  0.8.0--py27h9801fc8_6: sha256:6378fbf6e7b7986199f041902c30fd0fbe4afad110aec784b7175611ea629736
+tags:
+  0.8.0--py27h9801fc8_6: sha256:6378fbf6e7b7986199f041902c30fd0fbe4afad110aec784b7175611ea629736
+docker: quay.io/biocontainers/pbh5tools
+aliases:
+  .open: /usr/local/bin/.open
+  .pbcore-post-link.sh: /usr/local/bin/.pbcore-post-link.sh
+  bash5tools.py: /usr/local/bin/bash5tools.py
+  cmph5tools.py: /usr/local/bin/cmph5tools.py

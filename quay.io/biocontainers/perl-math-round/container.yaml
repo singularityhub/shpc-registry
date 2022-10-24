@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-round
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-round
+latest:
+  0.07--pl5321hdfd78af_2: sha256:8111ca61295485cac8d4937d327ea237b8b4dddbfb59036b9a6fcf34bc2ef16b
+tags:
+  0.07--pl5321hdfd78af_2: sha256:8111ca61295485cac8d4937d327ea237b8b4dddbfb59036b9a6fcf34bc2ef16b
+docker: quay.io/biocontainers/perl-math-round

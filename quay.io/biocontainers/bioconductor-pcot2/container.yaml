@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pcot2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcot2
+latest:
+  1.58.0--r40hdfd78af_1: sha256:a1d8012f0434b07ce5c7c4d78767a2c5517ef04d6829608a5cdb064e82b9c2ff
+tags:
+  1.58.0--r40hdfd78af_1: sha256:a1d8012f0434b07ce5c7c4d78767a2c5517ef04d6829608a5cdb064e82b9c2ff
+docker: quay.io/biocontainers/bioconductor-pcot2

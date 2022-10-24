@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/qcumber
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qcumber
+latest:
+  2.0.4--0: sha256:845d27828cb84f919edd50358802c569a4c5b851e766cb84e900757a744b6942
+tags:
+  2.0.4--0: sha256:845d27828cb84f919edd50358802c569a4c5b851e766cb84e900757a744b6942
+docker: quay.io/biocontainers/qcumber
+aliases:
+  QCumber-2: /usr/local/bin/QCumber-2

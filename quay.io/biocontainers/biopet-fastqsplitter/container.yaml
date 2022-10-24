@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-fastqsplitter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-fastqsplitter
+latest:
+  0.1--hdfd78af_4: sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6
+tags:
+  0.1--hdfd78af_4: sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6
+docker: quay.io/biocontainers/biopet-fastqsplitter
+aliases:
+  biopet-fastqsplitter: /usr/local/bin/biopet-fastqsplitter

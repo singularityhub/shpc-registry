@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-swath2stats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-swath2stats
+latest:
+  1.8.1--r3.4.1_0: sha256:888074e3aa54523d88ef433b6bf0c92531193f10d8a55621184abf612f71699e
+tags:
+  1.8.1--r3.4.1_0: sha256:888074e3aa54523d88ef433b6bf0c92531193f10d8a55621184abf612f71699e
+docker: quay.io/biocontainers/bioconductor-swath2stats

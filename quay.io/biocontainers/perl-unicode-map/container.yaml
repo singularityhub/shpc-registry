@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-unicode-map
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-unicode-map
+latest:
+  0.112--pl5321h9f5acd7_5: sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108
+tags:
+  0.112--pl5321h9f5acd7_5: sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108
+docker: quay.io/biocontainers/perl-unicode-map

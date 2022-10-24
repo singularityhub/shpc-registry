@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/zgtf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zgtf
+latest:
+  0.1.2--pyh5e36f6f_0: sha256:96713b2ac4888953120ed586612ca4cbd3b9dff632f92cac2d499dc4b8413f77
+tags:
+  0.1.2--pyh5e36f6f_0: sha256:96713b2ac4888953120ed586612ca4cbd3b9dff632f92cac2d499dc4b8413f77
+docker: quay.io/biocontainers/zgtf
+aliases:
+  gtf2bed12: /usr/local/bin/gtf2bed12

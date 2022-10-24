@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-quartpac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-quartpac
+latest:
+  1.26.0--r41hdfd78af_0: sha256:fc5f85102f8a9bae6af403d0879410ae7ae426d9551304717918ecf453fc7b27
+tags:
+  1.26.0--r41hdfd78af_0: sha256:fc5f85102f8a9bae6af403d0879410ae7ae426d9551304717918ecf453fc7b27
+docker: quay.io/biocontainers/bioconductor-quartpac

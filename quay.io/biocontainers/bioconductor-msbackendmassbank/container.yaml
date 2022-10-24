@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msbackendmassbank
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msbackendmassbank
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a08b8b8c688399637c028c21334e4d768a4bbf7f2f369775c2ee43e71a8586b7
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a08b8b8c688399637c028c21334e4d768a4bbf7f2f369775c2ee43e71a8586b7
+docker: quay.io/biocontainers/bioconductor-msbackendmassbank

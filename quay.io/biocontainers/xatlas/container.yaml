@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/xatlas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xatlas
+latest:
+  0.3--h28e74a2_1: sha256:494e35f6fe07fee83815601530e8ba4e8d447665ec62512aa9b04fbe3b503815
+tags:
+  0.3--h28e74a2_1: sha256:494e35f6fe07fee83815601530e8ba4e8d447665ec62512aa9b04fbe3b503815
+docker: quay.io/biocontainers/xatlas
+aliases:
+  xatlas: /usr/local/bin/xatlas

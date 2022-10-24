@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bamutil
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamutil
+latest:
+  1.0.15--h5b5514e_2: sha256:5a41de1d668490033b07716ddb6bab9ec52656587985ca2f42df9c206f552d0c
+tags:
+  1.0.15--h5b5514e_2: sha256:5a41de1d668490033b07716ddb6bab9ec52656587985ca2f42df9c206f552d0c
+docker: quay.io/biocontainers/bamutil
+aliases:
+  bam: /usr/local/bin/bam

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pybedtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pybedtools
+latest:
+  0.8.2--py36hb377018_1: sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d
+tags:
+  0.8.2--py36hb377018_1: sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d
+docker: quay.io/biocontainers/pybedtools

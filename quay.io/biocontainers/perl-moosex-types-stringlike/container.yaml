@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-types-stringlike
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-types-stringlike
+latest:
+  0.003--pl526_0: sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e
+tags:
+  0.003--pl526_0: sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e
+docker: quay.io/biocontainers/perl-moosex-types-stringlike

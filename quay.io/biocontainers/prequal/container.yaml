@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prequal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prequal
+latest:
+  1.02--hb97b32f_3: sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5
+tags:
+  1.02--hb97b32f_3: sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5
+docker: quay.io/biocontainers/prequal
+aliases:
+  prequal: /usr/local/bin/prequal

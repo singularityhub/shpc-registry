@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/tritimap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tritimap
+latest:
+  0.9.7--pyh5e36f6f_0: sha256:8af089aa4982d6f127b5d3adb701ba5345f52ea77f3686c20ba676426e7232c9
+tags:
+  0.9.7--pyh5e36f6f_0: sha256:8af089aa4982d6f127b5d3adb701ba5345f52ea77f3686c20ba676426e7232c9
+docker: quay.io/biocontainers/tritimap
+aliases:
+  abyss-db-csv: /usr/local/bin/abyss-db-csv
+  bioawk: /usr/local/bin/bioawk
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  tritimap: /usr/local/bin/tritimap

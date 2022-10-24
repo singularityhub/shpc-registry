@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-srgnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-srgnet
+latest:
+  1.8.0--r351_0: sha256:8a22cb2654c5644d3ca1780ef86e5ac421ca551b306fe1b7423a40b6d0a73fef
+tags:
+  1.8.0--r351_0: sha256:8a22cb2654c5644d3ca1780ef86e5ac421ca551b306fe1b7423a40b6d0a73fef
+docker: quay.io/biocontainers/bioconductor-srgnet

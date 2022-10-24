@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/moreutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for moreutils
+latest:
+  0.5.7--1: sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc
+tags:
+  0.5.7--1: sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc
+docker: quay.io/biocontainers/moreutils
+aliases:
+  chronic: /usr/local/bin/chronic
+  combine: /usr/local/bin/combine
+  errno: /usr/local/bin/errno
+  ifdata: /usr/local/bin/ifdata
+  ifne: /usr/local/bin/ifne
+  isutf8: /usr/local/bin/isutf8
+  lckdo: /usr/local/bin/lckdo
+  mispipe: /usr/local/bin/mispipe
+  pee: /usr/local/bin/pee
+  sponge: /usr/local/bin/sponge
+  ts: /usr/local/bin/ts
+  vidir: /usr/local/bin/vidir
+  vipe: /usr/local/bin/vipe
+  zrun: /usr/local/bin/zrun

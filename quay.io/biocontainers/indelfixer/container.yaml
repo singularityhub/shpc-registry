@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/indelfixer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for indelfixer
+latest:
+  1.1--hdfd78af_2: sha256:c4edc909e1730f8586797ce40251485ef5b1ab308e21b685e960562a57c496f9
+tags:
+  1.1--hdfd78af_2: sha256:c4edc909e1730f8586797ce40251485ef5b1ab308e21b685e960562a57c496f9
+docker: quay.io/biocontainers/indelfixer
+aliases:
+  InDelFixer: /usr/local/bin/InDelFixer

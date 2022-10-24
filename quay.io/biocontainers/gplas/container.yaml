@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gplas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gplas
+latest:
+  0.6.1--hdfd78af_1: sha256:70d5cd390f66b7efac75d78ee55ce71e0845261e2f8dff9ad745dddcf6374768
+tags:
+  0.6.1--hdfd78af_1: sha256:70d5cd390f66b7efac75d78ee55ce71e0845261e2f8dff9ad745dddcf6374768
+docker: quay.io/biocontainers/gplas
+aliases:
+  gplas.sh: /usr/local/bin/gplas.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-annmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-annmap
+latest:
+  1.36.0--r41hdfd78af_0: sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0
+tags:
+  1.36.0--r41hdfd78af_0: sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0
+docker: quay.io/biocontainers/bioconductor-annmap

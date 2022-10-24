@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/mitgard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mitgard
+latest:
+  1.0--py39hdfd78af_1: sha256:d61ff0e17a0e8444e6207a36beb04d70e7ab6d42b5aea280a6a7c8f809447895
+tags:
+  1.0--py39hdfd78af_1: sha256:d61ff0e17a0e8444e6207a36beb04d70e7ab6d42b5aea280a6a7c8f809447895
+docker: quay.io/biocontainers/mitgard
+aliases:
+  MITGARD.py: /usr/local/bin/MITGARD.py
+  RearrangementCheck.py: /usr/local/bin/RearrangementCheck.py
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  msa2consensus.py: /usr/local/bin/msa2consensus.py
+  sam2msa.py: /usr/local/bin/sam2msa.py
+  seqtk-trinity: /usr/local/bin/seqtk-trinity
+  sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-base64
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-base64
+latest:
+  1.1--r3.2.2_0: sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692
+tags:
+  1.1--r3.2.2_0: sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692
+docker: quay.io/biocontainers/r-base64

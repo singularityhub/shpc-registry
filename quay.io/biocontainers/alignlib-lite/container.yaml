@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/alignlib-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for alignlib-lite
+latest:
+  0.3--py39he1fd14c_5: sha256:9060e90edfb1e18d4b4febdb1c24b19ce5b4083c7f4f0fd3371a92c46bd56a0b
+tags:
+  0.3--py39he1fd14c_5: sha256:9060e90edfb1e18d4b4febdb1c24b19ce5b4083c7f4f0fd3371a92c46bd56a0b
+docker: quay.io/biocontainers/alignlib-lite

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/hpsuissero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hpsuissero
+latest:
+  1.0.1--hdfd78af_0: sha256:51b987a0c7ab7ae82cb4d75fcd55d5d6bde22ad61817b835d0c7f1e153327aa8
+tags:
+  1.0.1--hdfd78af_0: sha256:51b987a0c7ab7ae82cb4d75fcd55d5d6bde22ad61817b835d0c7f1e153327aa8
+docker: quay.io/biocontainers/hpsuissero
+aliases:
+  HpsuisSero.sh: /usr/local/bin/HpsuisSero.sh
+  flye-modules: /usr/local/bin/flye-modules
+  flye-samtools: /usr/local/bin/flye-samtools
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_variant: /usr/local/bin/medaka_variant
+  medaka_version_report: /usr/local/bin/medaka_version_report

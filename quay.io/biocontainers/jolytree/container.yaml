@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/jolytree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jolytree
+latest:
+  1.1b--hdfd78af_1: sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8
+tags:
+  1.1b--hdfd78af_1: sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8
+docker: quay.io/biocontainers/jolytree
+aliases:
+  JolyTree.sh: /usr/local/bin/JolyTree.sh
+  REQ: /usr/local/bin/REQ

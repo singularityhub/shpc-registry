@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oveseg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oveseg
+latest:
+  1.8.0--r41h399db7b_0: sha256:28244a27b87310cbbf8eb9d1cd1aa877b156cf8bd3a5e1117ebb5c6ff63cecd0
+tags:
+  1.8.0--r41h399db7b_0: sha256:28244a27b87310cbbf8eb9d1cd1aa877b156cf8bd3a5e1117ebb5c6ff63cecd0
+docker: quay.io/biocontainers/bioconductor-oveseg

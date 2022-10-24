@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-post
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-post
+latest:
+  1.8.0--r36_1: sha256:f00720b99dfeea64be0ba0b30929c385b0f099a43e445314c8328b833d710b9d
+tags:
+  1.8.0--r36_1: sha256:f00720b99dfeea64be0ba0b30929c385b0f099a43e445314c8328b833d710b9d
+docker: quay.io/biocontainers/bioconductor-post

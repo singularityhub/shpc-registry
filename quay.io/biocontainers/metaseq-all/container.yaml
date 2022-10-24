@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/metaseq-all
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaseq-all
+latest:
+  0.5.6--hdfd78af_4: sha256:da4d442077917f5badb6c12006c40439728903cc532d247e5ea1adde4ee7c8e7
+tags:
+  0.5.6--hdfd78af_4: sha256:da4d442077917f5badb6c12006c40439728903cc532d247e5ea1adde4ee7c8e7
+docker: quay.io/biocontainers/metaseq-all
+aliases:
+  bigWigSummary: /usr/local/bin/bigWigSummary
+  download_metaseq_example_data.py: /usr/local/bin/download_metaseq_example_data.py
+  metaseq-cli: /usr/local/bin/metaseq-cli
+  speedtest.py: /usr/local/bin/speedtest.py

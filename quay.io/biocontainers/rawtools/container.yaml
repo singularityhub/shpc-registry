@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rawtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rawtools
+latest:
+  2.0.4--hdfd78af_0: sha256:51d63e7b904d4a758110b170f48af9a6eb3e112b4ca686fb7d770b081ca0502b
+tags:
+  2.0.4--hdfd78af_0: sha256:51d63e7b904d4a758110b170f48af9a6eb3e112b4ca686fb7d770b081ca0502b
+docker: quay.io/biocontainers/rawtools
+aliases:
+  aprofutil: /usr/local/bin/aprofutil
+  mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
+  rawtools.sh: /usr/local/bin/rawtools.sh

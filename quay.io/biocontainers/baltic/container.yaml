@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/baltic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for baltic
+latest:
+  0.1.6--pyh3252c3a_0: sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b
+tags:
+  0.1.6--pyh3252c3a_0: sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b
+docker: quay.io/biocontainers/baltic

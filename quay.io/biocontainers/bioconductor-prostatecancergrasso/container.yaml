@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-prostatecancergrasso
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prostatecancergrasso
+latest:
+  1.22.0--r41hdfd78af_1: sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521
+tags:
+  1.22.0--r41hdfd78af_1: sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521
+docker: quay.io/biocontainers/bioconductor-prostatecancergrasso
+aliases:
+  .bioconductor-prostatecancergrasso-post-link.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-post-link.sh
+  .bioconductor-prostatecancergrasso-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-pre-unlink.sh

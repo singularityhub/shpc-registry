@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/vardict-java
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vardict-java
+latest:
+  1.8.3--hdfd78af_0: sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44
+tags:
+  1.8.3--hdfd78af_0: sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44
+docker: quay.io/biocontainers/vardict-java
+aliases:
+  testsomatic.R: /usr/local/bin/testsomatic.R
+  teststrandbias.R: /usr/local/bin/teststrandbias.R
+  var2vcf_paired.pl: /usr/local/bin/var2vcf_paired.pl
+  var2vcf_valid.pl: /usr/local/bin/var2vcf_valid.pl
+  vardict-java: /usr/local/bin/vardict-java

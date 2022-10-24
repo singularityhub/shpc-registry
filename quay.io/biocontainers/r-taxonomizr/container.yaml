@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-taxonomizr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-taxonomizr
+latest:
+  0.7.1--r40hdf9a8c9_0: sha256:d7bed21e5b814210dc8d7a89a4e0409c9d796934d8da4f2ccca8b30a60f89c0e
+tags:
+  0.7.1--r40hdf9a8c9_0: sha256:d7bed21e5b814210dc8d7a89a4e0409c9d796934d8da4f2ccca8b30a60f89c0e
+docker: quay.io/biocontainers/r-taxonomizr

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/motifraptor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for motifraptor
+latest:
+  0.3.0--py36h40b2fa4_5: sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f
+tags:
+  0.3.0--py36h40b2fa4_5: sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f
+docker: quay.io/biocontainers/motifraptor
+aliases:
+  MotifRaptor: /usr/local/bin/MotifRaptor

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/hicbrowser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hicbrowser
+latest:
+  1.0--py27_1: sha256:dc78bb421a0a7564d908c347ad789959a7662ac50115fa5a6398474758cbbd39
+tags:
+  1.0--py27_1: sha256:dc78bb421a0a7564d908c347ad789959a7662ac50115fa5a6398474758cbbd39
+docker: quay.io/biocontainers/hicbrowser
+aliases:
+  dask-mpi: /usr/local/bin/dask-mpi
+  dask-remote: /usr/local/bin/dask-remote
+  dask-submit: /usr/local/bin/dask-submit
+  findRestSite: /usr/local/bin/findRestSite
+  hicAggregateContacts: /usr/local/bin/hicAggregateContacts
+  hicBuildMatrix: /usr/local/bin/hicBuildMatrix
+  hicCompareMatrices: /usr/local/bin/hicCompareMatrices
+  hicCorrectMatrix: /usr/local/bin/hicCorrectMatrix
+  hicCorrelate: /usr/local/bin/hicCorrelate
+  hicExport: /usr/local/bin/hicExport
+  hicFindEnrichedContacts: /usr/local/bin/hicFindEnrichedContacts
+  hicFindTADs: /usr/local/bin/hicFindTADs
+  hicInfo: /usr/local/bin/hicInfo
+  hicLog2Ratio: /usr/local/bin/hicLog2Ratio
+  hicMergeMatrixBins: /usr/local/bin/hicMergeMatrixBins
+  hicPCA: /usr/local/bin/hicPCA
+  hicPlotDistVsCounts: /usr/local/bin/hicPlotDistVsCounts
+  hicPlotMatrix: /usr/local/bin/hicPlotMatrix
+  hicPlotTADs: /usr/local/bin/hicPlotTADs
+  hicPlotViewpoint: /usr/local/bin/hicPlotViewpoint
+  hicQC: /usr/local/bin/hicQC
+  hicSumMatrices: /usr/local/bin/hicSumMatrices
+  hicTransform: /usr/local/bin/hicTransform
+  hicexplorer: /usr/local/bin/hicexplorer
+  runBrowser: /usr/local/bin/runBrowser

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/estscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for estscan
+latest:
+  3.0--hec16e2b_5: sha256:e1cae8e2e2a630e0874baf23b795a4474cc63a04f2839534d36c5c4b8f839892
+tags:
+  3.0--hec16e2b_5: sha256:e1cae8e2e2a630e0874baf23b795a4474cc63a04f2839534d36c5c4b8f839892
+docker: quay.io/biocontainers/estscan
+aliases:
+  estscan: /usr/local/bin/estscan

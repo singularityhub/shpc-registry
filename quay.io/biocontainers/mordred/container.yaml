@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mordred
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mordred
+latest:
+  1.2.0: sha256:0de2ab1e16b5e36a22c1728d6c540eb9aef47b135643e19edd4f92ffaebf426d
+tags:
+  1.2.0: sha256:0de2ab1e16b5e36a22c1728d6c540eb9aef47b135643e19edd4f92ffaebf426d
+docker: quay.io/biocontainers/mordred

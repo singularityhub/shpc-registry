@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/aptardi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aptardi
+latest:
+  1.4--pyh5e36f6f_0: sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8
+tags:
+  1.4--pyh5e36f6f_0: sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8
+docker: quay.io/biocontainers/aptardi
+aliases:
+  aptardi: /usr/local/bin/aptardi

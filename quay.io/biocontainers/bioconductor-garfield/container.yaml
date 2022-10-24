@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-garfield
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-garfield
+latest:
+  1.22.0--r41hc247a5b_2: sha256:5ba919c6995637125ddc51ed4b9b17af730f1bc778557e2663611a3ffaed51b4
+tags:
+  1.22.0--r41hc247a5b_2: sha256:5ba919c6995637125ddc51ed4b9b17af730f1bc778557e2663611a3ffaed51b4
+docker: quay.io/biocontainers/bioconductor-garfield

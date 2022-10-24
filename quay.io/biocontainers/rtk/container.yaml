@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rtk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rtk
+latest:
+  0.93.2--hd03093a_2: sha256:d597102d8d468ab21ec4c46b8bc40b5d4fbaa9c1ecf3f390989da60214515b0b
+tags:
+  0.93.2--hd03093a_2: sha256:d597102d8d468ab21ec4c46b8bc40b5d4fbaa9c1ecf3f390989da60214515b0b
+docker: quay.io/biocontainers/rtk
+aliases:
+  rtk: /usr/local/bin/rtk

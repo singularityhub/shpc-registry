@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biodbkegg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biodbkegg
+latest:
+  1.0.0--r41hdfd78af_0: sha256:d899a0fc4deb089b4ee56d0a85b5d2045c4c7440b75d258f9bd789d13b60b819
+tags:
+  1.0.0--r41hdfd78af_0: sha256:d899a0fc4deb089b4ee56d0a85b5d2045c4c7440b75d258f9bd789d13b60b819
+docker: quay.io/biocontainers/bioconductor-biodbkegg

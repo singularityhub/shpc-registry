@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/splitmem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for splitmem
+latest:
+  1.0--h9f5acd7_4: sha256:f157295b5dda2e29a559fe549ae5b0e9feae9dc47ee0510db1f978683c337493
+tags:
+  1.0--h9f5acd7_4: sha256:f157295b5dda2e29a559fe549ae5b0e9feae9dc47ee0510db1f978683c337493
+docker: quay.io/biocontainers/splitmem
+aliases:
+  splitMEM: /usr/local/bin/splitMEM

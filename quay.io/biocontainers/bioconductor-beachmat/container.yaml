@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-beachmat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-beachmat
+latest:
+  2.8.0--r41h399db7b_0: sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927
+tags:
+  2.8.0--r41h399db7b_0: sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927
+docker: quay.io/biocontainers/bioconductor-beachmat

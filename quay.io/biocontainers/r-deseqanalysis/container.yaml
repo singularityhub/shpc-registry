@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-deseqanalysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-deseqanalysis
+latest:
+  0.5.0--r41hdfd78af_0: sha256:5d4a998f8c2cdcc71d51436356f20e386df2b4f87c60f29e266a0725cd07519e
+tags:
+  0.5.0--r41hdfd78af_0: sha256:5d4a998f8c2cdcc71d51436356f20e386df2b4f87c60f29e266a0725cd07519e
+docker: quay.io/biocontainers/r-deseqanalysis

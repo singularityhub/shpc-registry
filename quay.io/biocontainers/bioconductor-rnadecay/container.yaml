@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnadecay
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnadecay
+latest:
+  1.8.0--r40h5f743cb_0: sha256:15ddd311169153ad60cd8de0703ce208035dce6aa25ebf0a91653d30381591ca
+tags:
+  1.8.0--r40h5f743cb_0: sha256:15ddd311169153ad60cd8de0703ce208035dce6aa25ebf0a91653d30381591ca
+docker: quay.io/biocontainers/bioconductor-rnadecay

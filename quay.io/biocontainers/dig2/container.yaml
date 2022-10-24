@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dig2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dig2
+latest:
+  1.0--hec16e2b_4: sha256:40f977a1846ea2fe50b3c42ee11323b6f0bb86af1d75e6ec149552eed22cb86e
+tags:
+  1.0--hec16e2b_4: sha256:40f977a1846ea2fe50b3c42ee11323b6f0bb86af1d75e6ec149552eed22cb86e
+docker: quay.io/biocontainers/dig2
+aliases:
+  dig2: /usr/local/bin/dig2

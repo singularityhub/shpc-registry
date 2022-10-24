@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bolt-lmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bolt-lmm
+latest:
+  2.3.4--hbe668fe_0: sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8
+tags:
+  2.3.4--hbe668fe_0: sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8
+docker: quay.io/biocontainers/bolt-lmm
+aliases:
+  bolt: /usr/local/bin/bolt

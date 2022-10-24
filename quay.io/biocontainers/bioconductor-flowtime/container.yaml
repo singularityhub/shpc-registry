@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowtime
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowtime
+latest:
+  1.8.0--r36_1: sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa
+tags:
+  1.8.0--r36_1: sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa
+docker: quay.io/biocontainers/bioconductor-flowtime

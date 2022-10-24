@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sompy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sompy
+latest:
+  0.1.1--pyh24bf2e0_1: sha256:f7d7819c225379354f0e62384f8161f5b61cbc215161c929efed8a8d2ff8a71e
+tags:
+  0.1.1--pyh24bf2e0_1: sha256:f7d7819c225379354f0e62384f8161f5b61cbc215161c929efed8a8d2ff8a71e
+docker: quay.io/biocontainers/sompy

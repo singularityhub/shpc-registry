@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-classifyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-classifyr
+latest:
+  2.8.0--r40_0: sha256:f14cdb92ef54f296956a34c84ff3b51c062697fce76667c9a0108c67999c134c
+tags:
+  2.8.0--r40_0: sha256:f14cdb92ef54f296956a34c84ff3b51c062697fce76667c9a0108c67999c134c
+docker: quay.io/biocontainers/bioconductor-classifyr

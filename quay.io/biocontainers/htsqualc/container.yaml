@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/htsqualc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for htsqualc
+latest:
+  1.1--pyhfa5458b_0: sha256:8fb234f05447b7e47730165462b3ad0a6d76771fae2d8868297d1cb4f5f31579
+tags:
+  1.1--pyhfa5458b_0: sha256:8fb234f05447b7e47730165462b3ad0a6d76771fae2d8868297d1cb4f5f31579
+docker: quay.io/biocontainers/htsqualc
+aliases:
+  Filter_Pair.py: /usr/local/bin/Filter_Pair.py
+  Filter_Single.py: /usr/local/bin/Filter_Single.py
+  StatisticPair.py: /usr/local/bin/StatisticPair.py
+  StatisticSingle.py: /usr/local/bin/StatisticSingle.py
+  common_functions.py: /usr/local/bin/common_functions.py
+  filter.py: /usr/local/bin/filter.py

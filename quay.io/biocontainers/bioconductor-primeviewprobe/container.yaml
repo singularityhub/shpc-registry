@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-primeviewprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-primeviewprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:14ceacc8c5f2bd82d11de6d1457ab9075255863eb1cfdd452fc0021c960996df
+tags:
+  2.18.0--r41hdfd78af_9: sha256:14ceacc8c5f2bd82d11de6d1457ab9075255863eb1cfdd452fc0021c960996df
+docker: quay.io/biocontainers/bioconductor-primeviewprobe
+aliases:
+  .bioconductor-primeviewprobe-post-link.sh: /usr/local/bin/.bioconductor-primeviewprobe-post-link.sh
+  .bioconductor-primeviewprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-primeviewprobe-pre-unlink.sh

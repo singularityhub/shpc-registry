@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/irescue
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for irescue
+latest:
+  1.0.2--pyhdfd78af_0: sha256:4615c3c231c82e8e75f5734eadc535824b2e021debaa0d971e31952d7425ac14
+tags:
+  1.0.2--pyhdfd78af_0: sha256:4615c3c231c82e8e75f5734eadc535824b2e021debaa0d971e31952d7425ac14
+docker: quay.io/biocontainers/irescue
+aliases:
+  irescue: /usr/local/bin/irescue

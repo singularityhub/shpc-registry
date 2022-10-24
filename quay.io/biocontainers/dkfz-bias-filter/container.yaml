@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/dkfz-bias-filter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dkfz-bias-filter
+latest:
+  1.2.3a--hdfd78af_9: sha256:219bcd8dbcd6d178cca909cc2ab100f8cbfa5cc432bbab4d6578162acca2cc1f
+tags:
+  1.2.3a--hdfd78af_9: sha256:219bcd8dbcd6d178cca909cc2ab100f8cbfa5cc432bbab4d6578162acca2cc1f
+docker: quay.io/biocontainers/dkfz-bias-filter
+aliases:
+  dkfzbiasfilter.py: /usr/local/bin/dkfzbiasfilter.py
+  dkfzbiasfilter_summarize.py: /usr/local/bin/dkfzbiasfilter_summarize.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cancerclass
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cancerclass
+latest:
+  1.38.0--r41hc0cfd56_2: sha256:bdd51d5e9f36e8612b70a74b9c3ea95467ed697120de6cb32648a4ac576b6f18
+tags:
+  1.38.0--r41hc0cfd56_2: sha256:bdd51d5e9f36e8612b70a74b9c3ea95467ed697120de6cb32648a4ac576b6f18
+docker: quay.io/biocontainers/bioconductor-cancerclass

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-modcon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-modcon
+latest:
+  1.2.0--pl5321r41hdfd78af_0: sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f
+tags:
+  1.2.0--pl5321r41hdfd78af_0: sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f
+docker: quay.io/biocontainers/bioconductor-modcon

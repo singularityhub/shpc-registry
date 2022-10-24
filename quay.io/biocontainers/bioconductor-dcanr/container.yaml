@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dcanr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dcanr
+latest:
+  1.8.0--r41hdfd78af_0: sha256:3f5bba028b64dc33be0cc4543a3ebf4d2fd2410fb68d488156c606a9d033cfa6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:3f5bba028b64dc33be0cc4543a3ebf4d2fd2410fb68d488156c606a9d033cfa6
+docker: quay.io/biocontainers/bioconductor-dcanr

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cite-seq-count
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cite-seq-count
+latest:
+  1.4.4--pyhdfd78af_0: sha256:c0c0c966a4405f8be664032e1209e19ff0ae791e8e32bbc387ecb85a89a8b6d8
+tags:
+  1.4.4--pyhdfd78af_0: sha256:c0c0c966a4405f8be664032e1209e19ff0ae791e8e32bbc387ecb85a89a8b6d8
+docker: quay.io/biocontainers/cite-seq-count
+aliases:
+  CITE-seq-Count: /usr/local/bin/CITE-seq-Count
+  umi_tools: /usr/local/bin/umi_tools

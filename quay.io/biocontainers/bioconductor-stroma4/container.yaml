@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-stroma4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-stroma4
+latest:
+  1.8.0--r36_1: sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b
+tags:
+  1.8.0--r36_1: sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b
+docker: quay.io/biocontainers/bioconductor-stroma4

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-isogene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-isogene
+latest:
+  1.0_24--r41h3342da4_5: sha256:1ed6ea6b917ccca7ac38a8f095bf8db9b441c9b19c1802c99c7248adb44c2a68
+tags:
+  1.0_24--r41h3342da4_5: sha256:1ed6ea6b917ccca7ac38a8f095bf8db9b441c9b19c1802c99c7248adb44c2a68
+docker: quay.io/biocontainers/r-isogene

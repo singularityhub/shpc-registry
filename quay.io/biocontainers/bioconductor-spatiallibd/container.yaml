@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-spatiallibd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatiallibd
+latest:
+  1.6.0--r41hdfd78af_0: sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f
+tags:
+  1.6.0--r41hdfd78af_0: sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f
+docker: quay.io/biocontainers/bioconductor-spatiallibd
+aliases:
+  .bioconductor-spatiallibd-post-link.sh: /usr/local/bin/.bioconductor-spatiallibd-post-link.sh
+  .bioconductor-spatiallibd-pre-unlink.sh: /usr/local/bin/.bioconductor-spatiallibd-pre-unlink.sh

@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/mirmachine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirmachine
+latest:
+  0.2.11.2022--pyhdfd78af_0: sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7
+tags:
+  0.2.11.2022--pyhdfd78af_0: sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7
+docker: quay.io/biocontainers/mirmachine
+aliases:
+  MirMachine.py: /usr/local/bin/MirMachine.py
+  chronic: /usr/local/bin/chronic
+  combine: /usr/local/bin/combine
+  errno: /usr/local/bin/errno
+  gff_sort_and_compete.sh: /usr/local/bin/gff_sort_and_compete.sh
+  ifdata: /usr/local/bin/ifdata
+  ifne: /usr/local/bin/ifne
+  isutf8: /usr/local/bin/isutf8
+  lckdo: /usr/local/bin/lckdo
+  mirmachine-tree-parser.py: /usr/local/bin/mirmachine-tree-parser.py
+  mispipe: /usr/local/bin/mispipe
+  pee: /usr/local/bin/pee
+  sponge: /usr/local/bin/sponge
+  ts: /usr/local/bin/ts
+  vidir: /usr/local/bin/vidir
+  vipe: /usr/local/bin/vipe
+  zrun: /usr/local/bin/zrun

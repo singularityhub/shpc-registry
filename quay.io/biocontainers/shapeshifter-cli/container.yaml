@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/shapeshifter-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shapeshifter-cli
+latest:
+  1.0.0--py_0: sha256:7367db6f5c4ab92446e8ba58323c13e280d8b5bec5ab1827592a6ddf77e23a10
+tags:
+  1.0.0--py_0: sha256:7367db6f5c4ab92446e8ba58323c13e280d8b5bec5ab1827592a6ddf77e23a10
+docker: quay.io/biocontainers/shapeshifter-cli
+aliases:
+  plasma_store_server: /usr/local/bin/plasma_store_server
+  pzstd: /usr/local/bin/pzstd
+  shapeshift: /usr/local/bin/shapeshift
+  shapeshiftmerge: /usr/local/bin/shapeshiftmerge
+  ss: /usr/local/bin/ss
+  ssm: /usr/local/bin/ssm
+  thrift: /usr/local/bin/thrift

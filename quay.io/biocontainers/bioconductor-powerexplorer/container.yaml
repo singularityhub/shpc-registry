@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-powerexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-powerexplorer
+latest:
+  1.7.0--r40_0: sha256:6fc99638f814b7d41a6f3e9d040c60d66481f923b6d5ddba07aaf38cca4fa40b
+tags:
+  1.7.0--r40_0: sha256:6fc99638f814b7d41a6f3e9d040c60d66481f923b6d5ddba07aaf38cca4fa40b
+docker: quay.io/biocontainers/bioconductor-powerexplorer

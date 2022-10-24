@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/commet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for commet
+latest:
+  24.7.14--r41hfada1a9_7: sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38
+tags:
+  24.7.14--r41hfada1a9_7: sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38
+docker: quay.io/biocontainers/commet
+aliases:
+  Commet.py: /usr/local/bin/Commet.py
+  bvop: /usr/local/bin/bvop
+  compare_reads: /usr/local/bin/compare_reads
+  dendro.R: /usr/local/bin/dendro.R
+  extract_reads: /usr/local/bin/extract_reads
+  filter_reads: /usr/local/bin/filter_reads
+  heatmap.r: /usr/local/bin/heatmap.r
+  index_and_search: /usr/local/bin/index_and_search

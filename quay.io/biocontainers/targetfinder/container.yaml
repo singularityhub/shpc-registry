@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/targetfinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for targetfinder
+latest:
+  1.7--hdfd78af_4: sha256:df77da2360741dab2c559056188a246165448c93ff64b68eae1cddf75843690a
+tags:
+  1.7--hdfd78af_4: sha256:df77da2360741dab2c559056188a246165448c93ff64b68eae1cddf75843690a
+docker: quay.io/biocontainers/targetfinder
+aliases:
+  ann_pfam27.pl: /usr/local/bin/ann_pfam27.pl
+  ann_pfam28.pl: /usr/local/bin/ann_pfam28.pl
+  ann_pfam30.pl: /usr/local/bin/ann_pfam30.pl
+  merge_blast_btab.pl: /usr/local/bin/merge_blast_btab.pl
+  targetfinder.pl: /usr/local/bin/targetfinder.pl
+  targetfinder_threads.pl: /usr/local/bin/targetfinder_threads.pl

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/assembly-stats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for assembly-stats
+latest:
+  1.0.1--h9f5acd7_5: sha256:13419ab79fc4f9e10acd8c34c8e7ca1ed37dcffdaa6b6b8950ae5e2228209229
+tags:
+  1.0.1--h9f5acd7_5: sha256:13419ab79fc4f9e10acd8c34c8e7ca1ed37dcffdaa6b6b8950ae5e2228209229
+docker: quay.io/biocontainers/assembly-stats
+aliases:
+  assembly-stats: /usr/local/bin/assembly-stats

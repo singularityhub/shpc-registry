@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/tepid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tepid
+latest:
+  0.8--py_3: sha256:d6d03c578db8761b8fc517c2fa2cf2de0e2feeaac8e9414174a8afd635d051d0
+tags:
+  0.8--py_3: sha256:d6d03c578db8761b8fc517c2fa2cf2de0e2feeaac8e9414174a8afd635d051d0
+docker: quay.io/biocontainers/tepid
+aliases:
+  samblaster: /usr/local/bin/samblaster
+  tepid-discover: /usr/local/bin/tepid-discover
+  tepid-map: /usr/local/bin/tepid-map
+  tepid-map-se: /usr/local/bin/tepid-map-se
+  tepid-refine: /usr/local/bin/tepid-refine
+  yaha: /usr/local/bin/yaha

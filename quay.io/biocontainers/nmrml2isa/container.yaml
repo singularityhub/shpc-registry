@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nmrml2isa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nmrml2isa
+latest:
+  0.3.1--py_0: sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04
+tags:
+  0.3.1--py_0: sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04
+docker: quay.io/biocontainers/nmrml2isa
+aliases:
+  nmrml2isa: /usr/local/bin/nmrml2isa
+  pronto: /usr/local/bin/pronto

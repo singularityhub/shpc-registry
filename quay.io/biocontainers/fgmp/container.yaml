@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/fgmp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fgmp
+latest:
+  1.0.3--pl5321hdfd78af_3: sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
+tags:
+  1.0.3--pl5321hdfd78af_3: sha256:203b2388b9d8db44104ccbe9f1d07a8e8ce52e755242196891e4a82c12c746ea
+docker: quay.io/biocontainers/fgmp
+aliases:
+  PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
+  PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt
+  add_name_to_gff3.pl: /usr/local/bin/add_name_to_gff3.pl
+  aln2wig: /usr/local/bin/aln2wig
+  augustify.py: /usr/local/bin/augustify.py
+  esd2esi: /usr/local/bin/esd2esi
+  executeTestCGP.py: /usr/local/bin/executeTestCGP.py
+  exonerate: /usr/local/bin/exonerate
+  exonerate-server: /usr/local/bin/exonerate-server
+  extractAnno.py: /usr/local/bin/extractAnno.py
+  fasta2esd: /usr/local/bin/fasta2esd
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasort: /usr/local/bin/fastasort
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  fgmp: /usr/local/bin/fgmp
+  get_loci_from_gb.pl: /usr/local/bin/get_loci_from_gb.pl
+  ipcress: /usr/local/bin/ipcress
+  pp_simScore: /usr/local/bin/pp_simScore

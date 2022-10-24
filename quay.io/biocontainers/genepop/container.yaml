@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genepop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genepop
+latest:
+  4.6--0: sha256:9dee578651fa195029ccff712e8fb63835bdfd20e3135dd3125e21b662082cb4
+tags:
+  4.6--0: sha256:9dee578651fa195029ccff712e8fb63835bdfd20e3135dd3125e21b662082cb4
+docker: quay.io/biocontainers/genepop
+aliases:
+  Genepop: /usr/local/bin/Genepop

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-drawproteins
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-drawproteins
+latest:
+  1.8.0--r40_0: sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2
+tags:
+  1.8.0--r40_0: sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2
+docker: quay.io/biocontainers/bioconductor-drawproteins

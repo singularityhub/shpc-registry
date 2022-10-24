@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/export2graphlan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for export2graphlan
+latest:
+  0.22--py_0: sha256:ff6e1a0ae7e114485b0c66aaa0f612b4b9c6677ce0465d37bc0ea7b8ed3cbc31
+tags:
+  0.22--py_0: sha256:ff6e1a0ae7e114485b0c66aaa0f612b4b9c6677ce0465d37bc0ea7b8ed3cbc31
+docker: quay.io/biocontainers/export2graphlan
+aliases:
+  export2graphlan.py: /usr/local/bin/export2graphlan.py
+  hclust2.py: /usr/local/bin/hclust2.py

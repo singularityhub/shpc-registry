@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ggpa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ggpa
+latest:
+  1.6.0--r41hc247a5b_2: sha256:ed8655a9ff4c69795eaf44d23052dae88b3b3a6e9ad65f3ce041b4a5e59be7c8
+tags:
+  1.6.0--r41hc247a5b_2: sha256:ed8655a9ff4c69795eaf44d23052dae88b3b3a6e9ad65f3ce041b4a5e59be7c8
+docker: quay.io/biocontainers/bioconductor-ggpa

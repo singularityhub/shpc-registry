@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/translate-gard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for translate-gard
+latest:
+  1.0.4--h9ee0642_1: sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3
+tags:
+  1.0.4--h9ee0642_1: sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3
+docker: quay.io/biocontainers/translate-gard
+aliases:
+  translate-gard: /usr/local/bin/translate-gard

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-acidbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-acidbase
+latest:
+  0.5.0--r41hdfd78af_0: sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc
+tags:
+  0.5.0--r41hdfd78af_0: sha256:a871cc05540ff5d001bf95c659f2017e53f04fb03b4ebb056b69ad787f7931cc
+docker: quay.io/biocontainers/r-acidbase

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/translig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for translig
+latest:
+  1.3--h56fc30b_0: sha256:f00c897547658cf2cbbc820d4aaf6a9d8636d90ffbc73fec0fac1e44783c4553
+tags:
+  1.3--h56fc30b_0: sha256:f00c897547658cf2cbbc820d4aaf6a9d8636d90ffbc73fec0fac1e44783c4553
+docker: quay.io/biocontainers/translig
+aliases:
+  Assemble: /usr/local/bin/Assemble
+  Get_output: /usr/local/bin/Get_output
+  TransLiG_iteration: /usr/local/bin/TransLiG_iteration
+  connect_graph: /usr/local/bin/connect_graph
+  refine: /usr/local/bin/refine

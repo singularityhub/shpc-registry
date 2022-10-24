@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genominator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genominator
+latest:
+  1.40.0--r36_0: sha256:9f4d62944c8424bcdcd8521d7f1fbca2c0be32ca3e360c28b248b6a898b7f54a
+tags:
+  1.40.0--r36_0: sha256:9f4d62944c8424bcdcd8521d7f1fbca2c0be32ca3e360c28b248b6a898b7f54a
+docker: quay.io/biocontainers/bioconductor-genominator

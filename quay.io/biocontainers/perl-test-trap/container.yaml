@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-trap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-trap
+latest:
+  0.3.3--pl5321hdfd78af_1: sha256:fee90265a3b43918d456598f08da390093551509097654e912f0271df90c14e6
+tags:
+  0.3.3--pl5321hdfd78af_1: sha256:fee90265a3b43918d456598f08da390093551509097654e912f0271df90c14e6
+docker: quay.io/biocontainers/perl-test-trap

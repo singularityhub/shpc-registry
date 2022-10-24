@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ntlm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ntlm
+latest:
+  1.09--pl5321hdfd78af_5: sha256:c4eacee4e0bd001f54541509df21551358ef7cc3d25552bb57d4e68762140324
+tags:
+  1.09--pl5321hdfd78af_5: sha256:c4eacee4e0bd001f54541509df21551358ef7cc3d25552bb57d4e68762140324
+docker: quay.io/biocontainers/perl-ntlm

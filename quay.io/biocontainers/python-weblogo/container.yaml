@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-weblogo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-weblogo
+latest:
+  3.4--py35_0: sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba
+tags:
+  3.4--py35_0: sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba
+docker: quay.io/biocontainers/python-weblogo

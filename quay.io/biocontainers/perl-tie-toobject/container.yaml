@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tie-toobject
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tie-toobject
+latest:
+  0.03--pl5321hdfd78af_3: sha256:98194ad2043ed51932f169432199862e2571522f78fd427e53c51f125a2b4125
+tags:
+  0.03--pl5321hdfd78af_3: sha256:98194ad2043ed51932f169432199862e2571522f78fd427e53c51f125a2b4125
+docker: quay.io/biocontainers/perl-tie-toobject

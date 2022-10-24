@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-compress-deflate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-compress-deflate
+latest:
+  2.064--pl5321hdfd78af_2: sha256:6045c9797e6193dc25410aecf1d7f9d29168728c24d8b3342c1d551d03c11fc1
+tags:
+  2.064--pl5321hdfd78af_2: sha256:6045c9797e6193dc25410aecf1d7f9d29168728c24d8b3342c1d551d03c11fc1
+docker: quay.io/biocontainers/perl-io-compress-deflate

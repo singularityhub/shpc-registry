@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/vsnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vsnp
+latest:
+  2.03--hdfd78af_2: sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
+tags:
+  2.03--hdfd78af_2: sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
+docker: quay.io/biocontainers/vsnp
+aliases:
+  cpuinfo: /usr/local/bin/cpuinfo
+  vSNP_step1.py: /usr/local/bin/vSNP_step1.py
+  vSNP_step2.py: /usr/local/bin/vSNP_step2.py
+  vsnp_alignment_vcf.py: /usr/local/bin/vsnp_alignment_vcf.py
+  vsnp_best_reference.py: /usr/local/bin/vsnp_best_reference.py
+  vsnp_bruc_mlst.py: /usr/local/bin/vsnp_bruc_mlst.py
+  vsnp_chromosome_reference.py: /usr/local/bin/vsnp_chromosome_reference.py
+  vsnp_excel_merge_files.py: /usr/local/bin/vsnp_excel_merge_files.py
+  vsnp_fasta_gbk_gff_by_acc.py: /usr/local/bin/vsnp_fasta_gbk_gff_by_acc.py
+  vsnp_fasta_to_snps_table.py: /usr/local/bin/vsnp_fasta_to_snps_table.py
+  vsnp_fastq_quality.py: /usr/local/bin/vsnp_fastq_quality.py
+  vsnp_file_management.py: /usr/local/bin/vsnp_file_management.py
+  vsnp_filter_finder.py: /usr/local/bin/vsnp_filter_finder.py
+  vsnp_group_reporter.py: /usr/local/bin/vsnp_group_reporter.py
+  vsnp_html_step2_summary.py: /usr/local/bin/vsnp_html_step2_summary.py
+  vsnp_merge_vcf_into_fasta.py: /usr/local/bin/vsnp_merge_vcf_into_fasta.py
+  vsnp_path_adder.py: /usr/local/bin/vsnp_path_adder.py
+  vsnp_reference_options.py: /usr/local/bin/vsnp_reference_options.py
+  vsnp_remove_from_analysis.py: /usr/local/bin/vsnp_remove_from_analysis.py
+  vsnp_spoligotype.py: /usr/local/bin/vsnp_spoligotype.py

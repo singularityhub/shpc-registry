@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/shorah
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shorah
+latest:
+  1.99.2--py36h721498b_1: sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0
+tags:
+  1.99.2--py36h721498b_1: sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0
+docker: quay.io/biocontainers/shorah
+aliases:
+  b2w: /usr/local/bin/b2w
+  diri_sampler: /usr/local/bin/diri_sampler
+  fil: /usr/local/bin/fil
+  shorah: /usr/local/bin/shorah

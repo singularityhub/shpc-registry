@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/plasflow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plasflow
+latest:
+  1.1.0--py35_0: sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6
+tags:
+  1.1.0--py35_0: sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6
+docker: quay.io/biocontainers/plasflow
+aliases:
+  PlasFlow.py: /usr/local/bin/PlasFlow.py

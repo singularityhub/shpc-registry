@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcf-annotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcf-annotator
+latest:
+  0.7--hdfd78af_0: sha256:a2d674755a92416ac329972535efd9974eb120e6017cf033b249b5df1be27c28
+tags:
+  0.7--hdfd78af_0: sha256:a2d674755a92416ac329972535efd9974eb120e6017cf033b249b5df1be27c28
+docker: quay.io/biocontainers/vcf-annotator
+aliases:
+  vcf-annotator: /usr/local/bin/vcf-annotator

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/isonclust2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isonclust2
+latest:
+  2.3--hc9558a2_0: sha256:3203cea99d751b157686860c8a68ddfd4238e1ae8a59a039a6f13a91d17cf4eb
+tags:
+  2.3--hc9558a2_0: sha256:3203cea99d751b157686860c8a68ddfd4238e1ae8a59a039a6f13a91d17cf4eb
+docker: quay.io/biocontainers/isonclust2
+aliases:
+  isONclust2: /usr/local/bin/isONclust2

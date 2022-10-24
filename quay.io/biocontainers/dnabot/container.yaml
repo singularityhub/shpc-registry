@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dnabot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnabot
+latest:
+  3.1.0: sha256:1e43deb25d342e63729d1aa2a9eda5807287f85b2b960f219aec35e670f68ef6
+tags:
+  3.1.0: sha256:1e43deb25d342e63729d1aa2a9eda5807287f85b2b960f219aec35e670f68ef6
+docker: quay.io/biocontainers/dnabot
+aliases:
+  miniterm.py: /usr/local/bin/miniterm.py

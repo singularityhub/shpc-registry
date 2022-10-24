@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-summix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-summix
+latest:
+  2.0.0--r41hdfd78af_0: sha256:844d4ee7d116b840d25b44faedbd0b01a1b521afb3a0f91cca883e0c57cd03eb
+tags:
+  2.0.0--r41hdfd78af_0: sha256:844d4ee7d116b840d25b44faedbd0b01a1b521afb3a0f91cca883e0c57cd03eb
+docker: quay.io/biocontainers/bioconductor-summix

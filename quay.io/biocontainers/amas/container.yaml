@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/amas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for amas
+latest:
+  1.0--pyh864c0ab_0: sha256:5d12dc3061fb56a198d355244075a6dd8bd98771432954e5a1018a8cd81124fc
+tags:
+  1.0--pyh864c0ab_0: sha256:5d12dc3061fb56a198d355244075a6dd8bd98771432954e5a1018a8cd81124fc
+docker: quay.io/biocontainers/amas
+aliases:
+  AMAS.py: /usr/local/bin/AMAS.py

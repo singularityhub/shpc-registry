@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/squeakr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for squeakr
+latest:
+  0.6--h475c287_3: sha256:398ae869085cca776e9d8e92784a4fd93c61dbdad7298f1790bd4995308ec379
+tags:
+  0.6--h475c287_3: sha256:398ae869085cca776e9d8e92784a4fd93c61dbdad7298f1790bd4995308ec379
+docker: quay.io/biocontainers/squeakr
+aliases:
+  squeakr: /usr/local/bin/squeakr

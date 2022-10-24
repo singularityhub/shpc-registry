@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ghostscript
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ghostscript
+latest:
+  9.18--1: sha256:df842762499bed8c87943cd7f1b957cdb4b9e9381ab0a8feee1103c21309a888
+tags:
+  9.18--1: sha256:df842762499bed8c87943cd7f1b957cdb4b9e9381ab0a8feee1103c21309a888
+docker: quay.io/biocontainers/ghostscript
+aliases:
+  font2c: /usr/local/bin/font2c
+  wftopfa: /usr/local/bin/wftopfa

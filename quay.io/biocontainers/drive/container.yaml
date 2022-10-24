@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/drive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for drive
+latest:
+  0.3.9--h9ee0642_2: sha256:16f496d1fcc8a85e71336211f1505819346af31fd5c353a6357b1ff7ea8e9128
+tags:
+  0.3.9--h9ee0642_2: sha256:16f496d1fcc8a85e71336211f1505819346af31fd5c353a6357b1ff7ea8e9128
+docker: quay.io/biocontainers/drive
+aliases:
+  drive: /usr/local/bin/drive

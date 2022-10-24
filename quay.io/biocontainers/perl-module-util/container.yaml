@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-module-util
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-util
+latest:
+  1.09--pl5321hdfd78af_1: sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9
+tags:
+  1.09--pl5321hdfd78af_1: sha256:25c5abbf75197122c590cb7cd519afb8ccbf27fc423fab6f5ca58cc5385287e9
+docker: quay.io/biocontainers/perl-module-util
+aliases:
+  pm_which: /usr/local/bin/pm_which

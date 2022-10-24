@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sabre
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sabre
+latest:
+  1.000--h7132678_3: sha256:2ad6f6e463453b4e5471dcb0ff45c082dc4a4aca22b620b6bfde0cd1aa900af7
+tags:
+  1.000--h7132678_3: sha256:2ad6f6e463453b4e5471dcb0ff45c082dc4a4aca22b620b6bfde0cd1aa900af7
+docker: quay.io/biocontainers/sabre
+aliases:
+  sabre: /usr/local/bin/sabre

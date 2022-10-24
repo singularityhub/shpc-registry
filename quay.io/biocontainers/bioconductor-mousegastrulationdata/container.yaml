@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mousegastrulationdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mousegastrulationdata
+latest:
+  1.8.0--r41hdfd78af_1: sha256:9dd922f26757bde7b786758c7392d4b16b52a19ce8f3c68eee5784e56193eda9
+tags:
+  1.8.0--r41hdfd78af_1: sha256:9dd922f26757bde7b786758c7392d4b16b52a19ce8f3c68eee5784e56193eda9
+docker: quay.io/biocontainers/bioconductor-mousegastrulationdata
+aliases:
+  .bioconductor-mousegastrulationdata-post-link.sh: /usr/local/bin/.bioconductor-mousegastrulationdata-post-link.sh
+  .bioconductor-mousegastrulationdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mousegastrulationdata-pre-unlink.sh

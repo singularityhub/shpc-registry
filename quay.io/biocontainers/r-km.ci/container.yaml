@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-km.ci
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-km.ci
+latest:
+  0.5_2--r3.3.2_0: sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5
+tags:
+  0.5_2--r3.3.2_0: sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5
+docker: quay.io/biocontainers/r-km.ci

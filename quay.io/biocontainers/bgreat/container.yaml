@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bgreat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bgreat
+latest:
+  2.0.0--h5b5514e_4: sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe
+tags:
+  2.0.0--h5b5514e_4: sha256:82b2058349acec28931b3b15c808c27d398c4ae7f9624098256d007670702fbe
+docker: quay.io/biocontainers/bgreat
+aliases:
+  bgreat: /usr/local/bin/bgreat

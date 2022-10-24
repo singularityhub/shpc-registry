@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bcbio-rnaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcbio-rnaseq
+latest:
+  1.2.0--r3.4.1_3: sha256:1b63d9dad99ac80f3f6c157bb00c520a024f30675242c9a6474b1fca58a0a950
+tags:
+  1.2.0--r3.4.1_3: sha256:1b63d9dad99ac80f3f6c157bb00c520a024f30675242c9a6474b1fca58a0a950
+docker: quay.io/biocontainers/bcbio-rnaseq
+aliases:
+  bcbio-rnaseq: /usr/local/bin/bcbio-rnaseq

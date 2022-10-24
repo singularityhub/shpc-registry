@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-sesamedata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sesamedata
+latest:
+  1.8.1--r40hdfd78af_0: sha256:19bdeec94f0f90864053d9b156d6e78977d52df56e08962e49d15408f388c2ba
+tags:
+  1.8.1--r40hdfd78af_0: sha256:19bdeec94f0f90864053d9b156d6e78977d52df56e08962e49d15408f388c2ba
+docker: quay.io/biocontainers/bioconductor-sesamedata
+aliases:
+  .bioconductor-sesamedata-post-link.sh: /usr/local/bin/.bioconductor-sesamedata-post-link.sh
+  .bioconductor-sesamedata-pre-unlink.sh: /usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh

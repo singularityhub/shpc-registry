@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/pbipa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbipa
+latest:
+  1.8.0--hbd632db_1: sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395
+tags:
+  1.8.0--hbd632db_1: sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395
+docker: quay.io/biocontainers/pbipa
+aliases:
+  falconc: /usr/local/bin/falconc
+  ipa: /usr/local/bin/ipa
+  ipa2-task: /usr/local/bin/ipa2-task
+  ipa2_graph_to_contig: /usr/local/bin/ipa2_graph_to_contig
+  ipa2_ovlp_to_graph: /usr/local/bin/ipa2_ovlp_to_graph
+  ipa_purge_dups: /usr/local/bin/ipa_purge_dups
+  ipa_purge_dups_calcuts: /usr/local/bin/ipa_purge_dups_calcuts
+  ipa_purge_dups_get_seqs: /usr/local/bin/ipa_purge_dups_get_seqs
+  ipa_purge_dups_ngscstat: /usr/local/bin/ipa_purge_dups_ngscstat
+  ipa_purge_dups_pbcstat: /usr/local/bin/ipa_purge_dups_pbcstat
+  ipa_purge_dups_split_fa: /usr/local/bin/ipa_purge_dups_split_fa
+  nighthawk: /usr/local/bin/nighthawk
+  pancake: /usr/local/bin/pancake
+  pblayout: /usr/local/bin/pblayout

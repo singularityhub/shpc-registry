@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/barcode_splitter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for barcode_splitter
+latest:
+  0.18.6--py_0: sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650
+tags:
+  0.18.6--py_0: sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650
+docker: quay.io/biocontainers/barcode_splitter
+aliases:
+  barcode_splitter: /usr/local/bin/barcode_splitter

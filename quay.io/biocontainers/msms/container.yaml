@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/msms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msms
+latest:
+  2.6.1--h9ee0642_3: sha256:18f7e3d4e5515d2a2cb5ae53145b08df891e8e2661170dc403fb27cd62a4d3ac
+tags:
+  2.6.1--h9ee0642_3: sha256:18f7e3d4e5515d2a2cb5ae53145b08df891e8e2661170dc403fb27cd62a4d3ac
+docker: quay.io/biocontainers/msms
+aliases:
+  msms: /usr/local/bin/msms
+  pdb_to_xyzr: /usr/local/bin/pdb_to_xyzr
+  pdb_to_xyzrn: /usr/local/bin/pdb_to_xyzrn

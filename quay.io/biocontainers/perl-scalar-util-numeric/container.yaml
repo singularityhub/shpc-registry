@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-scalar-util-numeric
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-scalar-util-numeric
+latest:
+  0.40--pl5321hec16e2b_3: sha256:266574ab139294d1347b0db32570df571cccabe19857a3f74cbf2d6962f4d724
+tags:
+  0.40--pl5321hec16e2b_3: sha256:266574ab139294d1347b0db32570df571cccabe19857a3f74cbf2d6962f4d724
+docker: quay.io/biocontainers/perl-scalar-util-numeric

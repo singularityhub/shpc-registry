@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/phirbo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phirbo
+latest:
+  1.0--hdfd78af_1: sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188
+tags:
+  1.0--hdfd78af_1: sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188
+docker: quay.io/biocontainers/phirbo
+aliases:
+  phirbo: /usr/local/bin/phirbo
+  phirbo.py: /usr/local/bin/phirbo.py

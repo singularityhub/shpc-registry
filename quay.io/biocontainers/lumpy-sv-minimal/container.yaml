@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/lumpy-sv-minimal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lumpy-sv-minimal
+latest:
+  0.3.1--h5ef6573_0: sha256:11e86639741d51440c28b755ec3c03b390ea552a4ea590104bc1c695dd60a698
+tags:
+  0.3.1--h5ef6573_0: sha256:11e86639741d51440c28b755ec3c03b390ea552a4ea590104bc1c695dd60a698
+docker: quay.io/biocontainers/lumpy-sv-minimal
+aliases:
+  lumpy: /usr/local/bin/lumpy
+  lumpy_filter: /usr/local/bin/lumpy_filter
+  lumpyexpress: /usr/local/bin/lumpyexpress
+  lumpyexpress.config: /usr/local/bin/lumpyexpress.config

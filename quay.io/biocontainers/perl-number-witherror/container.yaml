@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-number-witherror
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-number-witherror
+latest:
+  1.01--pl5321hdfd78af_1: sha256:41121b4ac0f2f955710b0b312c89952a34232d61cda7f5685f76d8c4e4533135
+tags:
+  1.01--pl5321hdfd78af_1: sha256:41121b4ac0f2f955710b0b312c89952a34232d61cda7f5685f76d8c4e4533135
+docker: quay.io/biocontainers/perl-number-witherror

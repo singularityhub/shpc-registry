@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ioniser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ioniser
+latest:
+  2.8.0--r36_1: sha256:08e6f60502cea1b5e09e21dee7314d2d8cb6a2c6fc3c62e9338e1c01d4d5dd7d
+tags:
+  2.8.0--r36_1: sha256:08e6f60502cea1b5e09e21dee7314d2d8cb6a2c6fc3c62e9338e1c01d4d5dd7d
+docker: quay.io/biocontainers/bioconductor-ioniser

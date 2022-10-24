@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/soapsplice
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for soapsplice
+latest:
+  1.10--h9ee0642_3: sha256:11c0f0136c991a61d27525837c28a42535fcb8f476872ca6c7a8b2b5b98b6fcf
+tags:
+  1.10--h9ee0642_3: sha256:11c0f0136c991a61d27525837c28a42535fcb8f476872ca6c7a8b2b5b98b6fcf
+docker: quay.io/biocontainers/soapsplice
+aliases:
+  2bwt-builder: /usr/local/bin/2bwt-builder
+  soapsplice: /usr/local/bin/soapsplice

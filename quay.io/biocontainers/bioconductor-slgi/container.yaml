@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-slgi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-slgi
+latest:
+  1.54.0--r41hdfd78af_0: sha256:dccae8e1e8476faf8ef52a1b8bcd03390c11f04ccddc2010aea548839ba1a4b0
+tags:
+  1.54.0--r41hdfd78af_0: sha256:dccae8e1e8476faf8ef52a1b8bcd03390c11f04ccddc2010aea548839ba1a4b0
+docker: quay.io/biocontainers/bioconductor-slgi
+aliases:
+  .bioconductor-org.sc.sgd.db-post-link.sh: /usr/local/bin/.bioconductor-org.sc.sgd.db-post-link.sh
+  .bioconductor-org.sc.sgd.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.sc.sgd.db-pre-unlink.sh

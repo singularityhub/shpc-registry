@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sharedmem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sharedmem
+latest:
+  0.3.6--py_0: sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b
+tags:
+  0.3.6--py_0: sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b
+docker: quay.io/biocontainers/sharedmem

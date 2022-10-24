@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rnabridge-denovo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnabridge-denovo
+latest:
+  1.0.1--hc9558a2_0: sha256:5e715464efd5c850e963fa8643914c3b0aa90509043a50c2e96ea3dd33471f98
+tags:
+  1.0.1--hc9558a2_0: sha256:5e715464efd5c850e963fa8643914c3b0aa90509043a50c2e96ea3dd33471f98
+docker: quay.io/biocontainers/rnabridge-denovo
+aliases:
+  Bifrost: /usr/local/bin/Bifrost
+  rnabridge-denovo: /usr/local/bin/rnabridge-denovo

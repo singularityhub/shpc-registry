@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-levenshteinxs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-levenshteinxs
+latest:
+  0.03--pl5321hec16e2b_2: sha256:30d07cfd903dfa083c6fa85d7cd3611c7ac1af77e6c605192606eed23fff81f3
+tags:
+  0.03--pl5321hec16e2b_2: sha256:30d07cfd903dfa083c6fa85d7cd3611c7ac1af77e6c605192606eed23fff81f3
+docker: quay.io/biocontainers/perl-text-levenshteinxs

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ideoviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ideoviz
+latest:
+  1.30.0--r41hdfd78af_0: sha256:8a4191e209e9599e085f7628e226eaa9f045fdf7b80ecb1882de5c23cf3dd77b
+tags:
+  1.30.0--r41hdfd78af_0: sha256:8a4191e209e9599e085f7628e226eaa9f045fdf7b80ecb1882de5c23cf3dd77b
+docker: quay.io/biocontainers/bioconductor-ideoviz

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ruffus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ruffus
+latest:
+  2.8.4--pyh864c0ab_1: sha256:f2cde8365476fb15e70097fbb0896c11fa0b4485783c47184c6a1b1a7ea0267f
+tags:
+  2.8.4--pyh864c0ab_1: sha256:f2cde8365476fb15e70097fbb0896c11fa0b4485783c47184c6a1b1a7ea0267f
+docker: quay.io/biocontainers/ruffus

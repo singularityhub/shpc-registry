@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pygresql
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pygresql
+latest:
+  5.0.1--py36_1: sha256:cd80b3cbd6a025f61da39d2f58373f3687d72dcdb6ae6774d255aefa31e5d38f
+tags:
+  5.0.1--py36_1: sha256:cd80b3cbd6a025f61da39d2f58373f3687d72dcdb6ae6774d255aefa31e5d38f
+docker: quay.io/biocontainers/pygresql

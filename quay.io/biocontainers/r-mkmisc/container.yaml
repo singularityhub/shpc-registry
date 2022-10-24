@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mkmisc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mkmisc
+latest:
+  1.8--r41h3342da4_0: sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d
+tags:
+  1.8--r41h3342da4_0: sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d
+docker: quay.io/biocontainers/r-mkmisc

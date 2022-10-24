@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nthits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nthits
+latest:
+  0.0.1--h9f5acd7_2: sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2
+tags:
+  0.0.1--h9f5acd7_2: sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2
+docker: quay.io/biocontainers/nthits
+aliases:
+  nthits: /usr/local/bin/nthits

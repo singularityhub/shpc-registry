@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-logolas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-logolas
+latest:
+  1.8.0--r36_1: sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69
+tags:
+  1.8.0--r36_1: sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69
+docker: quay.io/biocontainers/bioconductor-logolas

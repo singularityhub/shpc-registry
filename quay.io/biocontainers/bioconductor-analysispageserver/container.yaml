@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-analysispageserver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-analysispageserver
+latest:
+  1.21.0--r40h5f743cb_0: sha256:421a7d86d403a22be3012ae4014176bba71a12cb119b2ff010e207cdbf4d4423
+tags:
+  1.21.0--r40h5f743cb_0: sha256:421a7d86d403a22be3012ae4014176bba71a12cb119b2ff010e207cdbf4d4423
+docker: quay.io/biocontainers/bioconductor-analysispageserver

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/virchip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for virchip
+latest:
+  1.2.2--py_0: sha256:563c8dbd686839e549bb921b18ef189d5175e265af566eb41560a5f1c1169051
+tags:
+  1.2.2--py_0: sha256:563c8dbd686839e549bb921b18ef189d5175e265af566eb41560a5f1c1169051
+docker: quay.io/biocontainers/virchip

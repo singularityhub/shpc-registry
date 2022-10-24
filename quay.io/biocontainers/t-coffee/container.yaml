@@ -1,0 +1,85 @@
+url: https://biocontainers.pro/tools/t-coffee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for t-coffee
+latest:
+  13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
+tags:
+  13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
+docker: quay.io/biocontainers/t-coffee
+aliases:
+  .t-coffee-post-link.sh: /usr/local/bin/.t-coffee-post-link.sh
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  README.txt: /usr/local/bin/README.txt
+  TMalign: /usr/local/bin/TMalign
+  TMscore: /usr/local/bin/TMscore
+  bstats: /usr/local/bin/bstats
+  clique: /usr/local/bin/clique
+  comppair: /usr/local/bin/comppair
+  consense: /usr/local/bin/consense
+  contml: /usr/local/bin/contml
+  contrast: /usr/local/bin/contrast
+  conus_compare: /usr/local/bin/conus_compare
+  conus_train: /usr/local/bin/conus_train
+  dca: /usr/local/bin/dca
+  dialign-tx: /usr/local/bin/dialign-tx
+  dnacomp: /usr/local/bin/dnacomp
+  dnadist: /usr/local/bin/dnadist
+  dnainvar: /usr/local/bin/dnainvar
+  dnaml: /usr/local/bin/dnaml
+  dnamlk: /usr/local/bin/dnamlk
+  dnamove: /usr/local/bin/dnamove
+  dnapars: /usr/local/bin/dnapars
+  dnapenny: /usr/local/bin/dnapenny
+  dollop: /usr/local/bin/dollop
+  dolmove: /usr/local/bin/dolmove
+  dolpenny: /usr/local/bin/dolpenny
+  drawgram: /usr/local/bin/drawgram
+  drawgram_gui: /usr/local/bin/drawgram_gui
+  drawtree: /usr/local/bin/drawtree
+  drawtree_gui: /usr/local/bin/drawtree_gui
+  fakealigner: /usr/local/bin/fakealigner
+  faketree: /usr/local/bin/faketree
+  fasttreeMP: /usr/local/bin/fasttreeMP
+  fitch: /usr/local/bin/fitch
+  gendist: /usr/local/bin/gendist
+  hmmeralign: /usr/local/bin/hmmeralign
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
+  kalign: /usr/local/bin/kalign
+  kitsch: /usr/local/bin/kitsch
+  libdrawgram.so: /usr/local/bin/libdrawgram.so
+  libdrawtree.so: /usr/local/bin/libdrawtree.so
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  mix: /usr/local/bin/mix
+  move: /usr/local/bin/move
+  mustang: /usr/local/bin/mustang
+  neighbor: /usr/local/bin/neighbor
+  opal.jar: /usr/local/bin/opal.jar
+  pModel: /usr/local/bin/pModel
+  padaligner: /usr/local/bin/padaligner
+  pars: /usr/local/bin/pars
+  penny: /usr/local/bin/penny
+  phylip: /usr/local/bin/phylip
+  poa: /usr/local/bin/poa
+  probcons: /usr/local/bin/probcons
+  probconsRNA: /usr/local/bin/probconsRNA
+  proml: /usr/local/bin/proml
+  promlk: /usr/local/bin/promlk
+  protdist: /usr/local/bin/protdist
+  protpars: /usr/local/bin/protpars
+  randtree: /usr/local/bin/randtree
+  raxml: /usr/local/bin/raxml
+  raxmlp: /usr/local/bin/raxmlp
+  restdist: /usr/local/bin/restdist
+  restml: /usr/local/bin/restml
+  retree: /usr/local/bin/retree
+  run_pasta.py: /usr/local/bin/run_pasta.py
+  run_pasta_gui.py: /usr/local/bin/run_pasta_gui.py
+  run_seqtools.py: /usr/local/bin/run_seqtools.py
+  sap: /usr/local/bin/sap
+  scompare: /usr/local/bin/scompare
+  seqboot: /usr/local/bin/seqboot
+  sfold: /usr/local/bin/sfold
+  strain_ml: /usr/local/bin/strain_ml
+  treedist: /usr/local/bin/treedist

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/chiron
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chiron
+latest:
+  0.6.1.1--py_0: sha256:84bb15be72fb143b4465ff240b488ff43f398b756ad436324a26a1f79a186072
+tags:
+  0.6.1.1--py_0: sha256:84bb15be72fb143b4465ff240b488ff43f398b756ad436324a26a1f79a186072
+docker: quay.io/biocontainers/chiron
+aliases:
+  chiron: /usr/local/bin/chiron

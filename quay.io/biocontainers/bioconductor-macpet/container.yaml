@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-macpet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-macpet
+latest:
+  1.8.0--r40h5f743cb_0: sha256:5bbef71603f65c3e3f77c39885686252eefaacf57687bb3ed4c8c9579be66bea
+tags:
+  1.8.0--r40h5f743cb_0: sha256:5bbef71603f65c3e3f77c39885686252eefaacf57687bb3ed4c8c9579be66bea
+docker: quay.io/biocontainers/bioconductor-macpet

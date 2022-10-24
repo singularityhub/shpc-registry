@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flux-simulator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flux-simulator
+latest:
+  1.2.1--hdfd78af_3: sha256:eaad8c268d387052f3c23ce08b7959dace127abb85b0b0d31463697b5b08e7c5
+tags:
+  1.2.1--hdfd78af_3: sha256:eaad8c268d387052f3c23ce08b7959dace127abb85b0b0d31463697b5b08e7c5
+docker: quay.io/biocontainers/flux-simulator
+aliases:
+  flux-simulator: /usr/local/bin/flux-simulator

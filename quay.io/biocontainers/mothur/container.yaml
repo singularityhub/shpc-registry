@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mothur
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mothur
+latest:
+  1.48.0--h9f4bb92_2: sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c
+tags:
+  1.48.0--h9f4bb92_2: sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c
+docker: quay.io/biocontainers/mothur
+aliases:
+  abi-dump.2.9.6: /usr/local/bin/abi-dump.2.9.6
+  align-info.2.9.6: /usr/local/bin/align-info.2.9.6
+  bam-load.2.9.6: /usr/local/bin/bam-load.2.9.6
+  cache-mgr.2.9.6: /usr/local/bin/cache-mgr.2.9.6
+  cg-load.2.9.6: /usr/local/bin/cg-load.2.9.6
+  fasterq-dump.2.9.6: /usr/local/bin/fasterq-dump.2.9.6
+  fastq-dump.2.9.6: /usr/local/bin/fastq-dump.2.9.6
+  illumina-dump.2.9.6: /usr/local/bin/illumina-dump.2.9.6
+  kar.2.9.6: /usr/local/bin/kar.2.9.6
+  kdbmeta.2.9.6: /usr/local/bin/kdbmeta.2.9.6
+  kget.2.9.6: /usr/local/bin/kget.2.9.6
+  latf-load.2.9.6: /usr/local/bin/latf-load.2.9.6
+  mothur: /usr/local/bin/mothur
+  prefetch.2.9.6: /usr/local/bin/prefetch.2.9.6
+  rcexplain.2.9.6: /usr/local/bin/rcexplain.2.9.6
+  sam-dump.2.9.6: /usr/local/bin/sam-dump.2.9.6
+  sff-dump.2.9.6: /usr/local/bin/sff-dump.2.9.6
+  sra-pileup.2.9.6: /usr/local/bin/sra-pileup.2.9.6
+  sra-sort.2.9.6: /usr/local/bin/sra-sort.2.9.6
+  sra-stat.2.9.6: /usr/local/bin/sra-stat.2.9.6
+  srapath.2.9.6: /usr/local/bin/srapath.2.9.6
+  test-sra.2.9.6: /usr/local/bin/test-sra.2.9.6
+  uchime: /usr/local/bin/uchime
+  vdb-config.2.9.6: /usr/local/bin/vdb-config.2.9.6
+  vdb-copy.2.9.6: /usr/local/bin/vdb-copy.2.9.6
+  vdb-decrypt.2.9.6: /usr/local/bin/vdb-decrypt.2.9.6
+  vdb-dump.2.9.6: /usr/local/bin/vdb-dump.2.9.6
+  vdb-encrypt.2.9.6: /usr/local/bin/vdb-encrypt.2.9.6
+  vdb-lock.2.9.6: /usr/local/bin/vdb-lock.2.9.6
+  vdb-passwd.2.9.6: /usr/local/bin/vdb-passwd.2.9.6
+  vdb-unlock.2.9.6: /usr/local/bin/vdb-unlock.2.9.6
+  vdb-validate.2.9.6: /usr/local/bin/vdb-validate.2.9.6

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netpathminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netpathminer
+latest:
+  1.30.0--r41hbe66c35_2: sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15
+tags:
+  1.30.0--r41hbe66c35_2: sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15
+docker: quay.io/biocontainers/bioconductor-netpathminer

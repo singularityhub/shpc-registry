@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-starr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-starr
+latest:
+  1.43.0--r40h037d062_0: sha256:4e315e467199f0511a5469a52abcf8434ae79b045f23760bd060538edc3c5324
+tags:
+  1.43.0--r40h037d062_0: sha256:4e315e467199f0511a5469a52abcf8434ae79b045f23760bd060538edc3c5324
+docker: quay.io/biocontainers/bioconductor-starr

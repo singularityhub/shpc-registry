@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-string-rewriteprefix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-string-rewriteprefix
+latest:
+  0.008--pl5321hdfd78af_0: sha256:9db234a4a739cefca8bd6c3a66ac0a8f71970663948a101f50aeea42d094f20b
+tags:
+  0.008--pl5321hdfd78af_0: sha256:9db234a4a739cefca8bd6c3a66ac0a8f71970663948a101f50aeea42d094f20b
+docker: quay.io/biocontainers/perl-string-rewriteprefix

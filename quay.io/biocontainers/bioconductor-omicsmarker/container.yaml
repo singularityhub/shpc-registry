@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-omicsmarker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-omicsmarker
+latest:
+  1.19.0--r40_0: sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455
+tags:
+  1.19.0--r40_0: sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455
+docker: quay.io/biocontainers/bioconductor-omicsmarker

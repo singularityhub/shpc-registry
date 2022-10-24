@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/autogenes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for autogenes
+latest:
+  1.0.4--pyhdfd78af_0: sha256:920c9e9ef42c622623f327d744ef9d08cc5dd98f5c66fbe23425609a7184d1ad
+tags:
+  1.0.4--pyhdfd78af_0: sha256:920c9e9ef42c622623f327d744ef9d08cc5dd98f5c66fbe23425609a7184d1ad
+docker: quay.io/biocontainers/autogenes

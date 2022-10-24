@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/openbabel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for openbabel
+latest:
+  3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
+tags:
+  3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
+docker: quay.io/biocontainers/openbabel

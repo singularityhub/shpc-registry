@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-brendadb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-brendadb
+latest:
+  1.8.0--r41hc247a5b_2: sha256:2d0c714edd59e197cb2aba2707ab7338986a5cce50941cf45f3ba674f72318e1
+tags:
+  1.8.0--r41hc247a5b_2: sha256:2d0c714edd59e197cb2aba2707ab7338986a5cce50941cf45f3ba674f72318e1
+docker: quay.io/biocontainers/bioconductor-brendadb

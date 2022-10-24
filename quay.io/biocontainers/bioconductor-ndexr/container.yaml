@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ndexr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ndexr
+latest:
+  1.8.0--r36_0: sha256:4cd424f708975aa07e765954ca6a04323c48a4c5f8cd7b4cc1f443ee1960825e
+tags:
+  1.8.0--r36_0: sha256:4cd424f708975aa07e765954ca6a04323c48a4c5f8cd7b4cc1f443ee1960825e
+docker: quay.io/biocontainers/bioconductor-ndexr

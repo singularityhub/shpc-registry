@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-codedepends
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-codedepends
+latest:
+  0.6.5--r41h3342da4_2: sha256:ed3a17cddd3f3c638dd7df5bb0263f0327ef562c9342ee60f7197b9839def380
+tags:
+  0.6.5--r41h3342da4_2: sha256:ed3a17cddd3f3c638dd7df5bb0263f0327ef562c9342ee60f7197b9839def380
+docker: quay.io/biocontainers/r-codedepends

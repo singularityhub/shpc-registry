@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/transgenescan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transgenescan
+latest:
+  1.2.1--hec16e2b_3: sha256:16d075a5ad7b30b49e7a521e4793a647702355742b7c61c0cdbd61924311c52b
+tags:
+  1.2.1--hec16e2b_3: sha256:16d075a5ad7b30b49e7a521e4793a647702355742b7c61c0cdbd61924311c52b
+docker: quay.io/biocontainers/transgenescan
+aliases:
+  FGS_gff.py: /usr/local/bin/FGS_gff.py
+  TransGeneScan: /usr/local/bin/TransGeneScan
+  post_process.pl: /usr/local/bin/post_process.pl
+  processFragOut.py: /usr/local/bin/processFragOut.py
+  run_TransGeneScan.pl: /usr/local/bin/run_TransGeneScan.pl

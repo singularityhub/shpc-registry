@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/quantwiz-iq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quantwiz-iq
+latest:
+  2.0--hdfd78af_2: sha256:d5b12485860188b99f3e9453ed933dcad30fe733759d1766401a1769af7eac94
+tags:
+  2.0--hdfd78af_2: sha256:d5b12485860188b99f3e9453ed933dcad30fe733759d1766401a1769af7eac94
+docker: quay.io/biocontainers/quantwiz-iq
+aliases:
+  QuantWiz_IQ: /usr/local/bin/QuantWiz_IQ
+  QuantWiz_IQ.pl: /usr/local/bin/QuantWiz_IQ.pl

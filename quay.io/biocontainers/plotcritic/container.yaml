@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/plotcritic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plotcritic
+latest:
+  1.0.1--pyh5e36f6f_0: sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316
+tags:
+  1.0.1--pyh5e36f6f_0: sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316
+docker: quay.io/biocontainers/plotcritic
+aliases:
+  plotcritic: /usr/local/bin/plotcritic

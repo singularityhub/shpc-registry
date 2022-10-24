@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/geneimpacts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for geneimpacts
+latest:
+  0.3.7--pyh864c0ab_2: sha256:dcf1a439dae9147cae506ea0aa9dcbbac793f7d3b43d53f3952a4bb7ac874422
+tags:
+  0.3.7--pyh864c0ab_2: sha256:dcf1a439dae9147cae506ea0aa9dcbbac793f7d3b43d53f3952a4bb7ac874422
+docker: quay.io/biocontainers/geneimpacts

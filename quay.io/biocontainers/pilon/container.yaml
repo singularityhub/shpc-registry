@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pilon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pilon
+latest:
+  1.24--hdfd78af_0: sha256:54c025a97d0b8763b7668383d3efa353d3ecac3f114ca7f93bffe0e71c2f7877
+tags:
+  1.24--hdfd78af_0: sha256:54c025a97d0b8763b7668383d3efa353d3ecac3f114ca7f93bffe0e71c2f7877
+docker: quay.io/biocontainers/pilon

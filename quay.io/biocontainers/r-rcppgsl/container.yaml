@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rcppgsl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rcppgsl
+latest:
+  0.3.1--r3.3.2_0: sha256:4fd5f7de3ab8a6cbae3727e5cacc8671374bd3e9152dcaa7fbcd2c0c6237b4a1
+tags:
+  0.3.1--r3.3.2_0: sha256:4fd5f7de3ab8a6cbae3727e5cacc8671374bd3e9152dcaa7fbcd2c0c6237b4a1
+docker: quay.io/biocontainers/r-rcppgsl

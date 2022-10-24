@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/polystest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for polystest
+latest:
+  1.2.2--hdfd78af_0: sha256:3d948bdaf336e4318dfffd148886fba8e12545f9e9152267b88c319afa817bc6
+tags:
+  1.2.2--hdfd78af_0: sha256:3d948bdaf336e4318dfffd148886fba8e12545f9e9152267b88c319afa817bc6
+docker: quay.io/biocontainers/polystest
+aliases:
+  convertFromProline.R: /usr/local/bin/convertFromProline.R
+  runPolySTestCLI.R: /usr/local/bin/runPolySTestCLI.R
+  run_polystest_app.R: /usr/local/bin/run_polystest_app.R

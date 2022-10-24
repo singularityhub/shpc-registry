@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-image-size
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-image-size
+latest:
+  3.300--pl5321hdfd78af_3: sha256:2c0892cfedb8a33b1bdb33b1ebc9bb1fc345b05989db64cfd057f6de39afe8a0
+tags:
+  3.300--pl5321hdfd78af_3: sha256:2c0892cfedb8a33b1bdb33b1ebc9bb1fc345b05989db64cfd057f6de39afe8a0
+docker: quay.io/biocontainers/perl-image-size

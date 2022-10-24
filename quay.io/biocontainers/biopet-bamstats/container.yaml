@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-bamstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-bamstats
+latest:
+  1.0.1--hdfd78af_1: sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401
+tags:
+  1.0.1--hdfd78af_1: sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401
+docker: quay.io/biocontainers/biopet-bamstats
+aliases:
+  biopet-bamstats: /usr/local/bin/biopet-bamstats

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-emdbook
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-emdbook
+latest:
+  1.3.9--r3.3.1_0: sha256:d5c86fc734093393a9f9654c23c10397c80f88bd7403f8226f36e5b178e00f1f
+tags:
+  1.3.9--r3.3.1_0: sha256:d5c86fc734093393a9f9654c23c10397c80f88bd7403f8226f36e5b178e00f1f
+docker: quay.io/biocontainers/r-emdbook

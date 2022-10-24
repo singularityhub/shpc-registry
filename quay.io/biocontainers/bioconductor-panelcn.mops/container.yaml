@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-panelcn.mops
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-panelcn.mops
+latest:
+  1.8.0--r36_0: sha256:e6b676c9183a94d10c0ccb6c7f3a883f2a81de81fec68a0897c0f8bd4e2d61eb
+tags:
+  1.8.0--r36_0: sha256:e6b676c9183a94d10c0ccb6c7f3a883f2a81de81fec68a0897c0f8bd4e2d61eb
+docker: quay.io/biocontainers/bioconductor-panelcn.mops

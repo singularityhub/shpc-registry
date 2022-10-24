@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/metaquantome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaquantome
+latest:
+  2.0.2--pyhdfd78af_0: sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e
+tags:
+  2.0.2--pyhdfd78af_0: sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e
+docker: quay.io/biocontainers/metaquantome
+aliases:
+  metaquantome: /usr/local/bin/metaquantome
+  write_hierarchy.py: /usr/local/bin/write_hierarchy.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-unifiedwmwqpcr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-unifiedwmwqpcr
+latest:
+  1.30.0--r41hdfd78af_0: sha256:9983f323c8d12182fa5851f700034dc6831e8484b8c8008c078099e0113cf007
+tags:
+  1.30.0--r41hdfd78af_0: sha256:9983f323c8d12182fa5851f700034dc6831e8484b8c8008c078099e0113cf007
+docker: quay.io/biocontainers/bioconductor-unifiedwmwqpcr

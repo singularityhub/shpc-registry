@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-prolocgui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prolocgui
+latest:
+  2.4.0--r41hdfd78af_0: sha256:8c3c33b6f080ad4a2cdb3218e3cdb719d663aada4fc0c24a348e25a3bdf09fe4
+tags:
+  2.4.0--r41hdfd78af_0: sha256:8c3c33b6f080ad4a2cdb3218e3cdb719d663aada4fc0c24a348e25a3bdf09fe4
+docker: quay.io/biocontainers/bioconductor-prolocgui

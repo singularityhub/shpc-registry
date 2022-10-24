@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/minnow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minnow
+latest:
+  beta_1.3--h7f8bfb2_2: sha256:35ccf4f29592aee63b5ef61429d75f7b9e4cac62660c16a38aaec4612ff51d5f
+tags:
+  beta_1.3--h7f8bfb2_2: sha256:35ccf4f29592aee63b5ef61429d75f7b9e4cac62660c16a38aaec4612ff51d5f
+docker: quay.io/biocontainers/minnow
+aliases:
+  fixfasta: /usr/local/bin/fixfasta
+  minnow: /usr/local/bin/minnow

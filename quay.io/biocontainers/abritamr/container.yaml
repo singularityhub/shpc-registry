@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/abritamr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for abritamr
+latest:
+  1.0.9--hdfd78af_0: sha256:548ef2995e2e0ab8f09f81cc1f31e1d59463fcbf47494382d181fdbdc2fb8faf
+tags:
+  1.0.9--hdfd78af_0: sha256:548ef2995e2e0ab8f09f81cc1f31e1d59463fcbf47494382d181fdbdc2fb8faf
+docker: quay.io/biocontainers/abritamr
+aliases:
+  abriTAMR: /usr/local/bin/abriTAMR
+  abritamr: /usr/local/bin/abritamr
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  fasta_check: /usr/local/bin/fasta_check
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check

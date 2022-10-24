@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pharmacogx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pharmacogx
+latest:
+  2.6.0--r41hdfd78af_0: sha256:fde02b3ffff740a521e36be2aa59e97f608bbaf071e1cc2fa757546d3ea57fe2
+tags:
+  2.6.0--r41hdfd78af_0: sha256:fde02b3ffff740a521e36be2aa59e97f608bbaf071e1cc2fa757546d3ea57fe2
+docker: quay.io/biocontainers/bioconductor-pharmacogx

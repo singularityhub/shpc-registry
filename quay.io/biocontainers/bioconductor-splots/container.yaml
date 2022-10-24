@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-splots
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-splots
+latest:
+  1.60.0--r41hdfd78af_0: sha256:569a33cf9201ef27bc6f6853ab70b862f9d61eca635f8917d59f670abfea382d
+tags:
+  1.60.0--r41hdfd78af_0: sha256:569a33cf9201ef27bc6f6853ab70b862f9d61eca635f8917d59f670abfea382d
+docker: quay.io/biocontainers/bioconductor-splots

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-diptest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-diptest
+latest:
+  0.75_7--r3.4.1_0: sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883
+tags:
+  0.75_7--r3.4.1_0: sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883
+docker: quay.io/biocontainers/r-diptest

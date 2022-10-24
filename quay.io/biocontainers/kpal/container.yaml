@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kpal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kpal
+latest:
+  2.1.1--pyh864c0ab_3: sha256:ae06afade61d63cadb35359773f344ebed300af3e421d76ba8b0fc2f8ea98ae1
+tags:
+  2.1.1--pyh864c0ab_3: sha256:ae06afade61d63cadb35359773f344ebed300af3e421d76ba8b0fc2f8ea98ae1
+docker: quay.io/biocontainers/kpal
+aliases:
+  kpal: /usr/local/bin/kpal

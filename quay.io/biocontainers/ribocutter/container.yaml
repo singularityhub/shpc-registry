@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ribocutter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ribocutter
+latest:
+  0.1.1--pyh5e36f6f_0: sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58
+tags:
+  0.1.1--pyh5e36f6f_0: sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58
+docker: quay.io/biocontainers/ribocutter
+aliases:
+  ribocutter: /usr/local/bin/ribocutter

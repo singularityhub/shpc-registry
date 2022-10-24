@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mtnucratio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mtnucratio
+latest:
+  0.7--hdfd78af_2: sha256:27d6c5107e6044ee53261f63a3300c72666d0f38b35635d333606c1d794ae38e
+tags:
+  0.7--hdfd78af_2: sha256:27d6c5107e6044ee53261f63a3300c72666d0f38b35635d333606c1d794ae38e
+docker: quay.io/biocontainers/mtnucratio
+aliases:
+  mtnucratio: /usr/local/bin/mtnucratio

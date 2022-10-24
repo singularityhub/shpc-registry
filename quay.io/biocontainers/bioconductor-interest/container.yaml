@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-interest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-interest
+latest:
+  1.8.0--r36_1: sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c
+tags:
+  1.8.0--r36_1: sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c
+docker: quay.io/biocontainers/bioconductor-interest

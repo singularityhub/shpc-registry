@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-globaldestruction
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-globaldestruction
+latest:
+  0.14--pl5321hdfd78af_1: sha256:abc4d8914053f595ccf6102420fa947c6c09255f6997c2beff752186fd520967
+tags:
+  0.14--pl5321hdfd78af_1: sha256:abc4d8914053f595ccf6102420fa947c6c09255f6997c2beff752186fd520967
+docker: quay.io/biocontainers/perl-devel-globaldestruction

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/libssw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libssw
+latest:
+  1.1--py27h8f2a353_5: sha256:a4b0a269e5ba2624b99c68ad36456749d95186ec8071c81a31e26559aae696d6
+tags:
+  1.1--py27h8f2a353_5: sha256:a4b0a269e5ba2624b99c68ad36456749d95186ec8071c81a31e26559aae696d6
+docker: quay.io/biocontainers/libssw
+aliases:
+  example_cpp: /usr/local/bin/example_cpp
+  pyssw.py: /usr/local/bin/pyssw.py
+  ssw.jar: /usr/local/bin/ssw.jar
+  ssw_lib.py: /usr/local/bin/ssw_lib.py
+  ssw_test: /usr/local/bin/ssw_test

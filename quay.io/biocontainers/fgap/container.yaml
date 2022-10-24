@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/fgap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fgap
+latest:
+  1.8.1--0: sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f
+tags:
+  1.8.1--0: sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f
+docker: quay.io/biocontainers/fgap
+aliases:
+  FGAP: /usr/local/bin/FGAP
+  fgap.m: /usr/local/bin/fgap.m
+  mkoctfile: /usr/local/bin/mkoctfile
+  mkoctfile-4.2.1: /usr/local/bin/mkoctfile-4.2.1
+  octave: /usr/local/bin/octave
+  octave-4.2.1: /usr/local/bin/octave-4.2.1
+  octave-cli: /usr/local/bin/octave-cli
+  octave-cli-4.2.1: /usr/local/bin/octave-cli-4.2.1
+  octave-config: /usr/local/bin/octave-config
+  octave-config-4.2.1: /usr/local/bin/octave-config-4.2.1
+  sndfile-regtest: /usr/local/bin/sndfile-regtest

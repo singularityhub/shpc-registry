@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stellar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stellar
+latest:
+  1.4.9--hdfd78af_3: sha256:6619520061d602a5ed69cdf4d97bee42f58d93c407eb352aabdd0f7fe9126cf3
+tags:
+  1.4.9--hdfd78af_3: sha256:6619520061d602a5ed69cdf4d97bee42f58d93c407eb352aabdd0f7fe9126cf3
+docker: quay.io/biocontainers/stellar
+aliases:
+  stellar: /usr/local/bin/stellar

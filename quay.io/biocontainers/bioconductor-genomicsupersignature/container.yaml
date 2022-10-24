@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicsupersignature
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicsupersignature
+latest:
+  1.2.0--r41hdfd78af_0: sha256:96a5cd7a3ba792eca18635401fe51f454376752408fea6b329c0890813860a49
+tags:
+  1.2.0--r41hdfd78af_0: sha256:96a5cd7a3ba792eca18635401fe51f454376752408fea6b329c0890813860a49
+docker: quay.io/biocontainers/bioconductor-genomicsupersignature

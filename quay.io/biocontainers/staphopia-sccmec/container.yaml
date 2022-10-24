@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/staphopia-sccmec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for staphopia-sccmec
+latest:
+  1.0.0--hdfd78af_0: sha256:f006276565254f788bee4adc73d146959ade537ecd7b14501a725401fd1dea87
+tags:
+  1.0.0--hdfd78af_0: sha256:f006276565254f788bee4adc73d146959ade537ecd7b14501a725401fd1dea87
+docker: quay.io/biocontainers/staphopia-sccmec
+aliases:
+  executor: /usr/local/bin/executor
+  staphopia-sccmec: /usr/local/bin/staphopia-sccmec

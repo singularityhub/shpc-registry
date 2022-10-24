@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-argparser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-argparser
+latest:
+  0.4--r3.3.1_0: sha256:e149305c21f547d929fd80d30072f4feea5a04a3920aa36703bf3ba70b53b718
+tags:
+  0.4--r3.3.1_0: sha256:e149305c21f547d929fd80d30072f4feea5a04a3920aa36703bf3ba70b53b718
+docker: quay.io/biocontainers/r-argparser

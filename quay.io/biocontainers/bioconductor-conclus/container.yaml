@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-conclus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-conclus
+latest:
+  1.2.0--r41hdfd78af_0: sha256:ca1956fe362079abeabb65b9d8e8db5304ff5202f29d49f6fe92391c49386c8b
+tags:
+  1.2.0--r41hdfd78af_0: sha256:ca1956fe362079abeabb65b9d8e8db5304ff5202f29d49f6fe92391c49386c8b
+docker: quay.io/biocontainers/bioconductor-conclus

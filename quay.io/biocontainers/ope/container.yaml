@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ope
+latest:
+  0.8--pyh5bfb8f1_0: sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4
+tags:
+  0.8--pyh5bfb8f1_0: sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4
+docker: quay.io/biocontainers/ope
+aliases:
+  ope: /usr/local/bin/ope
+  perl5.30.3: /usr/local/bin/perl5.30.3

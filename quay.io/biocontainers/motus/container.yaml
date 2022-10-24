@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/motus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for motus
+latest:
+  3.0.3--pyhdfd78af_0: sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e
+tags:
+  3.0.3--pyhdfd78af_0: sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e
+docker: quay.io/biocontainers/motus
+aliases:
+  .motus-post-link.sh: /usr/local/bin/.motus-post-link.sh
+  metaSNV.py: /usr/local/bin/metaSNV.py
+  metaSNV_post.py: /usr/local/bin/metaSNV_post.py
+  motus: /usr/local/bin/motus

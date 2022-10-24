@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-music
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-music
+latest:
+  0.2.0--r41hdfd78af_0: sha256:07194fe1180b905e8898467c9019729fe77a40fd74a1d8929a97969311e24012
+tags:
+  0.2.0--r41hdfd78af_0: sha256:07194fe1180b905e8898467c9019729fe77a40fd74a1d8929a97969311e24012
+docker: quay.io/biocontainers/r-music

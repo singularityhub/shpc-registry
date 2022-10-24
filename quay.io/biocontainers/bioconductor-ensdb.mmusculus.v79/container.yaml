@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ensdb.mmusculus.v79
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ensdb.mmusculus.v79
+latest:
+  2.99.0--r41hdfd78af_9: sha256:5006b011fc92b873c6d3be411b7404fe11e2a2a45d3a7bd52e19116284957c32
+tags:
+  2.99.0--r41hdfd78af_9: sha256:5006b011fc92b873c6d3be411b7404fe11e2a2a45d3a7bd52e19116284957c32
+docker: quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79
+aliases:
+  .bioconductor-ensdb.mmusculus.v79-post-link.sh: /usr/local/bin/.bioconductor-ensdb.mmusculus.v79-post-link.sh
+  .bioconductor-ensdb.mmusculus.v79-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.mmusculus.v79-pre-unlink.sh

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/spaln
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spaln
+latest:
+  2.4.9--pl5321hd03093a_0: sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858
+tags:
+  2.4.9--pl5321hd03093a_0: sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858
+docker: quay.io/biocontainers/spaln
+aliases:
+  catchr.pl: /usr/local/bin/catchr.pl
+  makblk.pl: /usr/local/bin/makblk.pl
+  makdbs: /usr/local/bin/makdbs
+  makeidx.pl: /usr/local/bin/makeidx.pl
+  makmdm: /usr/local/bin/makmdm
+  sortgrcd: /usr/local/bin/sortgrcd
+  spaln: /usr/local/bin/spaln
+  spspaln.pl: /usr/local/bin/spspaln.pl

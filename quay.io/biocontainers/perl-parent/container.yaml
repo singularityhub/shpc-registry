@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-parent
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-parent
+latest:
+  0.236--pl5321hdfd78af_2: sha256:a3ecacbb44183bb97fe3f55359551ab90a9a0e48e2ea201b35d9b21c1a11321d
+tags:
+  0.236--pl5321hdfd78af_2: sha256:a3ecacbb44183bb97fe3f55359551ab90a9a0e48e2ea201b35d9b21c1a11321d
+docker: quay.io/biocontainers/perl-parent

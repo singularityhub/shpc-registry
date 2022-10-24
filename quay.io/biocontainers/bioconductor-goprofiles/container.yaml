@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-goprofiles
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-goprofiles
+latest:
+  1.56.0--r41hdfd78af_0: sha256:8032f09a688e87df8872fd76a722b3a6b60f44d6a213163ffb8475cc937b12d4
+tags:
+  1.56.0--r41hdfd78af_0: sha256:8032f09a688e87df8872fd76a722b3a6b60f44d6a213163ffb8475cc937b12d4
+docker: quay.io/biocontainers/bioconductor-goprofiles

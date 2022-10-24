@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cooltools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cooltools
+latest:
+  0.5.1--py37h37892f8_1: sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0
+tags:
+  0.5.1--py37h37892f8_1: sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0
+docker: quay.io/biocontainers/cooltools
+aliases:
+  cooltools: /usr/local/bin/cooltools
+  tiff2fsspec: /usr/local/bin/tiff2fsspec

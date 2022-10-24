@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gff3toembl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gff3toembl
+latest:
+  1.1.4--pyh864c0ab_2: sha256:b5bac637f97f92531ef323a051406b71664338bb51fd5871307505dc1a9f4244
+tags:
+  1.1.4--pyh864c0ab_2: sha256:b5bac637f97f92531ef323a051406b71664338bb51fd5871307505dc1a9f4244
+docker: quay.io/biocontainers/gff3toembl
+aliases:
+  gff3_to_embl: /usr/local/bin/gff3_to_embl

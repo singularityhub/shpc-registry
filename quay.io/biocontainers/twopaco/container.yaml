@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/twopaco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for twopaco
+latest:
+  1.0.0--h7bb7ee6_0: sha256:4298066fa23a4a32f94d04a0d52bf4d43f22dfa79125828c3497b725953b2462
+tags:
+  1.0.0--h7bb7ee6_0: sha256:4298066fa23a4a32f94d04a0d52bf4d43f22dfa79125828c3497b725953b2462
+docker: quay.io/biocontainers/twopaco
+aliases:
+  graphdump: /usr/local/bin/graphdump
+  twopaco: /usr/local/bin/twopaco

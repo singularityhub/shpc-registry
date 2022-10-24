@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pynnotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pynnotator
+latest:
+  2.0--py_0: sha256:196f5565df8d0050ef4b6aecba9688585296807b3655b4628ea99a48c81cce0a
+tags:
+  2.0--py_0: sha256:196f5565df8d0050ef4b6aecba9688585296807b3655b4628ea99a48c81cce0a
+docker: quay.io/biocontainers/pynnotator
+aliases:
+  distro: /usr/local/bin/distro
+  pynnotator: /usr/local/bin/pynnotator

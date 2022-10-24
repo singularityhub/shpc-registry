@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnits
+latest:
+  1.28.0--r41hdfd78af_0: sha256:306b3e369b56a82b1af8e7a9bb873445ebbe3f8ea14ac4bac1369268f7887770
+tags:
+  1.28.0--r41hdfd78af_0: sha256:306b3e369b56a82b1af8e7a9bb873445ebbe3f8ea14ac4bac1369268f7887770
+docker: quay.io/biocontainers/bioconductor-rnits

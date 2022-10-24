@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/macrel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for macrel
+latest:
+  1.2.0--pyh5e36f6f_0: sha256:13ccbe1e380e2536687663f55046fdd14f9bc663f9b19dfea70155f9ea59cf99
+tags:
+  1.2.0--pyh5e36f6f_0: sha256:13ccbe1e380e2536687663f55046fdd14f9bc663f9b19dfea70155f9ea59cf99
+docker: quay.io/biocontainers/macrel
+aliases:
+  macrel: /usr/local/bin/macrel
+  ngless: /usr/local/bin/ngless
+  paladin: /usr/local/bin/paladin
+  pyrodigal: /usr/local/bin/pyrodigal

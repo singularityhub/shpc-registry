@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-harmandata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-harmandata
+latest:
+  1.22.0--r41hdfd78af_1: sha256:52f95ebe3ef2eb3e6f88476b35c4a2816c83b28c227a37ba0f1fcc1b7fc6546e
+tags:
+  1.22.0--r41hdfd78af_1: sha256:52f95ebe3ef2eb3e6f88476b35c4a2816c83b28c227a37ba0f1fcc1b7fc6546e
+docker: quay.io/biocontainers/bioconductor-harmandata
+aliases:
+  .bioconductor-harmandata-post-link.sh: /usr/local/bin/.bioconductor-harmandata-post-link.sh
+  .bioconductor-harmandata-pre-unlink.sh: /usr/local/bin/.bioconductor-harmandata-pre-unlink.sh

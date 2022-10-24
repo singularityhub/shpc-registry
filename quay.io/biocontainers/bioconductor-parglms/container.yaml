@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-parglms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-parglms
+latest:
+  1.26.0--r41hdfd78af_0: sha256:af0cad4bd815a9264b8d39a23f55551949ddfcc4089fbc7b2c8c21e11fc1349c
+tags:
+  1.26.0--r41hdfd78af_0: sha256:af0cad4bd815a9264b8d39a23f55551949ddfcc4089fbc7b2c8c21e11fc1349c
+docker: quay.io/biocontainers/bioconductor-parglms

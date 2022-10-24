@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ncbit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ncbit
+latest:
+  2013.03.29--r40h6115d3f_3: sha256:10cba53d6ad15af8f7eaa246c32c7b4a4e0227671a7b020665d3e38591c065df
+tags:
+  2013.03.29--r40h6115d3f_3: sha256:10cba53d6ad15af8f7eaa246c32c7b4a4e0227671a7b020665d3e38591c065df
+docker: quay.io/biocontainers/r-ncbit

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qplexanalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qplexanalyzer
+latest:
+  1.8.2--r40hdfd78af_0: sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677
+tags:
+  1.8.2--r40hdfd78af_0: sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677
+docker: quay.io/biocontainers/bioconductor-qplexanalyzer

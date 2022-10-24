@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msmseda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msmseda
+latest:
+  1.32.0--r41hdfd78af_0: sha256:56f2d171b50f2101257ab5574cfe3e58d54957fdb0d683edb6787fadf064da78
+tags:
+  1.32.0--r41hdfd78af_0: sha256:56f2d171b50f2101257ab5574cfe3e58d54957fdb0d683edb6787fadf064da78
+docker: quay.io/biocontainers/bioconductor-msmseda

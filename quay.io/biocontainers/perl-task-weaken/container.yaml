@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-task-weaken
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-task-weaken
+latest:
+  1.06--pl5321hdfd78af_1: sha256:3dbd30742fbbb93418392eb11253e2b96387f3eea5854e55631837c42aadf96b
+tags:
+  1.06--pl5321hdfd78af_1: sha256:3dbd30742fbbb93418392eb11253e2b96387f3eea5854e55631837c42aadf96b
+docker: quay.io/biocontainers/perl-task-weaken

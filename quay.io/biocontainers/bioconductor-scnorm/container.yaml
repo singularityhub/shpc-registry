@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scnorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scnorm
+latest:
+  1.8.0--r36_0: sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f
+tags:
+  1.8.0--r36_0: sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f
+docker: quay.io/biocontainers/bioconductor-scnorm

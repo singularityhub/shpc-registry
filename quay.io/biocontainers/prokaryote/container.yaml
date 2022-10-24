@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/prokaryote
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prokaryote
+latest:
+  2.4.4--pyh5e36f6f_0: sha256:663a637349ec48609b24862afdcab74252892e5e1bbb62de291f0d2f18a3a022
+tags:
+  2.4.4--pyh5e36f6f_0: sha256:663a637349ec48609b24862afdcab74252892e5e1bbb62de291f0d2f18a3a022
+docker: quay.io/biocontainers/prokaryote

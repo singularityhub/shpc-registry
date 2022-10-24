@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/iqkm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for iqkm
+latest:
+  1.0--pyhdfd78af_0: sha256:f968644320efd8fbec876e3fed40a60ec93ae7dae7609e3f341adf0b7ae26ddb
+tags:
+  1.0--pyhdfd78af_0: sha256:f968644320efd8fbec876e3fed40a60ec93ae7dae7609e3f341adf0b7ae26ddb
+docker: quay.io/biocontainers/iqkm
+aliases:
+  iqkm: /usr/local/bin/iqkm
+  isort-identify-imports: /usr/local/bin/isort-identify-imports

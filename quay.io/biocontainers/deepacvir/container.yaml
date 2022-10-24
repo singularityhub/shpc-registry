@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/deepacvir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepacvir
+latest:
+  0.2.2--py_0: sha256:474f42f649a26f97f315c89fe64f9a85e13564a9cec844d4cc30e9e5e6691dc7
+tags:
+  0.2.2--py_0: sha256:474f42f649a26f97f315c89fe64f9a85e13564a9cec844d4cc30e9e5e6691dc7
+docker: quay.io/biocontainers/deepacvir
+aliases:
+  deepac: /usr/local/bin/deepac
+  deepac-vir: /usr/local/bin/deepac-vir
+  pyjwt: /usr/local/bin/pyjwt

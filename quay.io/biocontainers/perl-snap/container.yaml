@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-snap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-snap
+latest:
+  2.1.1--pl5321hdfd78af_1: sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf
+tags:
+  2.1.1--pl5321hdfd78af_1: sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf
+docker: quay.io/biocontainers/perl-snap
+aliases:
+  SNAP.pl: /usr/local/bin/SNAP.pl
+  SNAPstats.pl: /usr/local/bin/SNAPstats.pl
+  codons-xyplot.pl: /usr/local/bin/codons-xyplot.pl

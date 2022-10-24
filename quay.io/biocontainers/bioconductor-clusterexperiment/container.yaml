@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clusterexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clusterexperiment
+latest:
+  2.8.0--r40h5f743cb_0: sha256:de3b7b9f62615b2fa70792eceae781bb4de6f8386944e3d2573acecb57bc2ff9
+tags:
+  2.8.0--r40h5f743cb_0: sha256:de3b7b9f62615b2fa70792eceae781bb4de6f8386944e3d2573acecb57bc2ff9
+docker: quay.io/biocontainers/bioconductor-clusterexperiment

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/swalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for swalign
+latest:
+  0.3.7--pyhdfd78af_0: sha256:166488124869bccf16d9ded70ed1a0c4e8c073a594ba7f28dcbc9a5762838e56
+tags:
+  0.3.7--pyhdfd78af_0: sha256:166488124869bccf16d9ded70ed1a0c4e8c073a594ba7f28dcbc9a5762838e56
+docker: quay.io/biocontainers/swalign
+aliases:
+  swalign: /usr/local/bin/swalign

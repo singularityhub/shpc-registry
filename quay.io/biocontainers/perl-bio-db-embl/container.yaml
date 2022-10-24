@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-db-embl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-db-embl
+latest:
+  1.7.4--pl5321hdfd78af_0: sha256:bd83bdc8830e9e596b9a08b50d137bb21e748986efad5cdf5530e9fa98e549b7
+tags:
+  1.7.4--pl5321hdfd78af_0: sha256:bd83bdc8830e9e596b9a08b50d137bb21e748986efad5cdf5530e9fa98e549b7
+docker: quay.io/biocontainers/perl-bio-db-embl

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rrdp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rrdp
+latest:
+  1.28.0--r41hdfd78af_0: sha256:be2ec02e2a59928b6b1ee2c98cbe612716dc9008fbf7a82d7937b7395e5e5aac
+tags:
+  1.28.0--r41hdfd78af_0: sha256:be2ec02e2a59928b6b1ee2c98cbe612716dc9008fbf7a82d7937b7395e5e5aac
+docker: quay.io/biocontainers/bioconductor-rrdp

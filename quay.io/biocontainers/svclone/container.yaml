@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/svclone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svclone
+latest:
+  v1.1.0--pyr41h5e36f6f_0: sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617
+tags:
+  v1.1.0--pyr41h5e36f6f_0: sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617
+docker: quay.io/biocontainers/svclone
+aliases:
+  svclone: /usr/local/bin/svclone

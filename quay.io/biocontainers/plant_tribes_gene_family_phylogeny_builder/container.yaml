@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/plant_tribes_gene_family_phylogeny_builder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plant_tribes_gene_family_phylogeny_builder
+latest:
+  1.0.4--hdfd78af_1: sha256:83ce23d027f4e039eef1d4b20e09ff8bce696a882f523f828dde982b2117b52c
+tags:
+  1.0.4--hdfd78af_1: sha256:83ce23d027f4e039eef1d4b20e09ff8bce696a882f523f828dde982b2117b52c
+docker: quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder
+aliases:
+  GeneFamilyPhylogenyBuilder: /usr/local/bin/GeneFamilyPhylogenyBuilder

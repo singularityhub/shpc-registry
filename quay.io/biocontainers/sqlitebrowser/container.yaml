@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sqlitebrowser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sqlitebrowser
+latest:
+  3.8.0--0: sha256:39e283319207b78e1721934a52c70a929f3bd2070fcd1f7900b920477ca3fd08
+tags:
+  3.8.0--0: sha256:39e283319207b78e1721934a52c70a929f3bd2070fcd1f7900b920477ca3fd08
+docker: quay.io/biocontainers/sqlitebrowser
+aliases:
+  sqlitebrowser: /usr/local/bin/sqlitebrowser

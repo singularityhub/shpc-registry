@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lrphase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lrphase
+latest:
+  1.0.0--pyhdfd78af_0: sha256:d52524e471f034ef9d55a72a1edde940613f300f7013a1eb98c69430742d68cc
+tags:
+  1.0.0--pyhdfd78af_0: sha256:d52524e471f034ef9d55a72a1edde940613f300f7013a1eb98c69430742d68cc
+docker: quay.io/biocontainers/lrphase
+aliases:
+  LRphase: /usr/local/bin/LRphase

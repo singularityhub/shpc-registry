@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/calitas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for calitas
+latest:
+  5959343d76d342c252abe0fcffc3a79e332b369d7b5febb4e9d5886614155ea9--0: sha256:f4a58394c9610ee4c046e3a57299723db7ad0ef2bb1d1622d4ecd80d57660920
+tags:
+  5959343d76d342c252abe0fcffc3a79e332b369d7b5febb4e9d5886614155ea9--0: sha256:f4a58394c9610ee4c046e3a57299723db7ad0ef2bb1d1622d4ecd80d57660920
+docker: quay.io/biocontainers/calitas
+aliases:
+  calitas: /usr/local/bin/calitas

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-assert
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-assert
+latest:
+  1.06--pl5321hec16e2b_3: sha256:4acf686bfbf3b1445d887cc26748c02a1c7c5733274cf60045b0c875dacc8d32
+tags:
+  1.06--pl5321hec16e2b_3: sha256:4acf686bfbf3b1445d887cc26748c02a1c7c5733274cf60045b0c875dacc8d32
+docker: quay.io/biocontainers/perl-devel-assert

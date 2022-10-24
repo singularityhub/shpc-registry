@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mgcv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mgcv
+latest:
+  '1.8_28': sha256:ded839e25dfac18ec8295dfcb690b7b2f97c6359f1693dea54a653fe8d730c22
+tags:
+  '1.8_28': sha256:ded839e25dfac18ec8295dfcb690b7b2f97c6359f1693dea54a653fe8d730c22
+docker: quay.io/biocontainers/r-mgcv

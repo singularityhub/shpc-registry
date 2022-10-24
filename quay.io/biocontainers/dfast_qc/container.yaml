@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/dfast_qc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dfast_qc
+latest:
+  0.4.2--hdfd78af_0: sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43
+tags:
+  0.4.2--hdfd78af_0: sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43
+docker: quay.io/biocontainers/dfast_qc
+aliases:
+  .checkm-genome-post-link.sh: /usr/local/bin/.checkm-genome-post-link.sh
+  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
+  dfast_qc: /usr/local/bin/dfast_qc
+  dqc_admin_tools.py: /usr/local/bin/dqc_admin_tools.py
+  dqc_initial_setup.sh: /usr/local/bin/dqc_initial_setup.sh
+  pwiz.py: /usr/local/bin/pwiz.py
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel

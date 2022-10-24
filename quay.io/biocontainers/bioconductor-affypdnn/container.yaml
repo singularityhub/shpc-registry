@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affypdnn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affypdnn
+latest:
+  1.60.0--r36_0: sha256:b8f5537c726953a852c330dfb49c3269c1b7120bcae6636f6498300e9b743588
+tags:
+  1.60.0--r36_0: sha256:b8f5537c726953a852c330dfb49c3269c1b7120bcae6636f6498300e9b743588
+docker: quay.io/biocontainers/bioconductor-affypdnn

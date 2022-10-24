@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/shannon_cpp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shannon_cpp
+latest:
+  0.5.0--py27pl526h5dd6954_0: sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5
+tags:
+  0.5.0--py27pl526h5dd6954_0: sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5
+docker: quay.io/biocontainers/shannon_cpp
+aliases:
+  rcorrector: /usr/local/bin/rcorrector
+  run_rcorrector.pl: /usr/local/bin/run_rcorrector.pl
+  shannon_cpp: /usr/local/bin/shannon_cpp
+  syrupy.py: /usr/local/bin/syrupy.py

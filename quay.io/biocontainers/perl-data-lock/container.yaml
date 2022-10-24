@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-lock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-lock
+latest:
+  1.03--pl5321hdfd78af_1: sha256:c02531d11f4f41549da567bfb93100b2a653784bd65465fcf9f659e8f48ae734
+tags:
+  1.03--pl5321hdfd78af_1: sha256:c02531d11f4f41549da567bfb93100b2a653784bd65465fcf9f659e8f48ae734
+docker: quay.io/biocontainers/perl-data-lock

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-orderedlist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-orderedlist
+latest:
+  1.66.0--r41hdfd78af_0: sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b
+tags:
+  1.66.0--r41hdfd78af_0: sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b
+docker: quay.io/biocontainers/bioconductor-orderedlist

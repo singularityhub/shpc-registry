@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pymvpa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pymvpa
+latest:
+  2.6.5--py39h70e0db4_5: sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c
+tags:
+  2.6.5--py39h70e0db4_5: sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c
+docker: quay.io/biocontainers/pymvpa
+aliases:
+  nib-conform: /usr/local/bin/nib-conform
+  nib-dicomfs: /usr/local/bin/nib-dicomfs
+  nib-diff: /usr/local/bin/nib-diff
+  nib-ls: /usr/local/bin/nib-ls
+  nib-nifti-dx: /usr/local/bin/nib-nifti-dx
+  nib-roi: /usr/local/bin/nib-roi
+  nib-stats: /usr/local/bin/nib-stats
+  nib-tck2trk: /usr/local/bin/nib-tck2trk
+  nib-trk2tck: /usr/local/bin/nib-trk2tck
+  parrec2nii: /usr/local/bin/parrec2nii

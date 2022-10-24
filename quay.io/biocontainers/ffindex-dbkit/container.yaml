@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ffindex-dbkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ffindex-dbkit
+latest:
+  0.2--pyh5e36f6f_2: sha256:54836d70e734369d00861024200762246a65ca788d97b90043c4b244b94e7729
+tags:
+  0.2--pyh5e36f6f_2: sha256:54836d70e734369d00861024200762246a65ca788d97b90043c4b244b94e7729
+docker: quay.io/biocontainers/ffindex-dbkit
+aliases:
+  dbkit_create.py: /usr/local/bin/dbkit_create.py
+  dbkit_extract.py: /usr/local/bin/dbkit_extract.py
+  dbkit_merge.py: /usr/local/bin/dbkit_merge.py

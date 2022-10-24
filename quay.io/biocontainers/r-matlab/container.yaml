@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-matlab
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-matlab
+latest:
+  1.0.2--r3.3.2_0: sha256:7d7211689481d64e02ffd88d361c5a32dc7836b89f48ea03732a9c6270d0c2e7
+tags:
+  1.0.2--r3.3.2_0: sha256:7d7211689481d64e02ffd88d361c5a32dc7836b89f48ea03732a9c6270d0c2e7
+docker: quay.io/biocontainers/r-matlab

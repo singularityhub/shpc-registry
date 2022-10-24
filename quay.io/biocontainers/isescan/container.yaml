@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/isescan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isescan
+latest:
+  1.7.2.3--hec16e2b_1: sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab
+tags:
+  1.7.2.3--hec16e2b_1: sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab
+docker: quay.io/biocontainers/isescan
+aliases:
+  constants.py: /usr/local/bin/constants.py
+  isPredict.py: /usr/local/bin/isPredict.py
+  is_analysis.py: /usr/local/bin/is_analysis.py
+  isescan.py: /usr/local/bin/isescan.py
+  pred.py: /usr/local/bin/pred.py
+  pyssw.py: /usr/local/bin/pyssw.py
+  ssw_wrap.py: /usr/local/bin/ssw_wrap.py
+  tools.py: /usr/local/bin/tools.py

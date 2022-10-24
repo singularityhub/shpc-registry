@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-integer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-integer
+latest:
+  1.01--pl5321hdfd78af_2: sha256:bffb8f69b2054f07989537bf88fb54ca9fee0819d7e58cc368caf1100e95f6f8
+tags:
+  1.01--pl5321hdfd78af_2: sha256:bffb8f69b2054f07989537bf88fb54ca9fee0819d7e58cc368caf1100e95f6f8
+docker: quay.io/biocontainers/perl-integer

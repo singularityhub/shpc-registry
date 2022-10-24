@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-faahko
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-faahko
+latest:
+  1.34.0--r41hdfd78af_1: sha256:8b04dbcaf73402ba43d88c2b83891da7d52f4d749cc54a3275ec8e3053564136
+tags:
+  1.34.0--r41hdfd78af_1: sha256:8b04dbcaf73402ba43d88c2b83891da7d52f4d749cc54a3275ec8e3053564136
+docker: quay.io/biocontainers/bioconductor-faahko
+aliases:
+  .bioconductor-faahko-post-link.sh: /usr/local/bin/.bioconductor-faahko-post-link.sh
+  .bioconductor-faahko-pre-unlink.sh: /usr/local/bin/.bioconductor-faahko-pre-unlink.sh

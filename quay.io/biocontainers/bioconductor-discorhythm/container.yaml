@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-discorhythm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-discorhythm
+latest:
+  1.8.0--r41hdfd78af_0: sha256:d09e59e4f68798a1a1fe33720f16a6267b40b8a7bf413176298b748a834aff86
+tags:
+  1.8.0--r41hdfd78af_0: sha256:d09e59e4f68798a1a1fe33720f16a6267b40b8a7bf413176298b748a834aff86
+docker: quay.io/biocontainers/bioconductor-discorhythm

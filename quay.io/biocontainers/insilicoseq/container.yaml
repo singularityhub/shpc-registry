@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/insilicoseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for insilicoseq
+latest:
+  1.5.4--pyh5e36f6f_0: sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf
+tags:
+  1.5.4--pyh5e36f6f_0: sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf
+docker: quay.io/biocontainers/insilicoseq
+aliases:
+  iss: /usr/local/bin/iss

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geosubmission
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geosubmission
+latest:
+  1.46.0--r41hdfd78af_0: sha256:6aae8b86c44cfd518f51e280a97a32402381db6a8b0403c6e2b766bb4acc2ee3
+tags:
+  1.46.0--r41hdfd78af_0: sha256:6aae8b86c44cfd518f51e280a97a32402381db6a8b0403c6e2b766bb4acc2ee3
+docker: quay.io/biocontainers/bioconductor-geosubmission

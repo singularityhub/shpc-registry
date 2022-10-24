@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-psicquic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-psicquic
+latest:
+  1.32.0--r41hdfd78af_0: sha256:c7c468a22ceac5bdf0f456d8e7d3595846817e61e39c8032f9ae6b9ee637aa63
+tags:
+  1.32.0--r41hdfd78af_0: sha256:c7c468a22ceac5bdf0f456d8e7d3595846817e61e39c8032f9ae6b9ee637aa63
+docker: quay.io/biocontainers/bioconductor-psicquic

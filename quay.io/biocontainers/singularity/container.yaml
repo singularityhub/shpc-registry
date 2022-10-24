@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/singularity
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for singularity
+latest:
+  3.5.3: sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f
+tags:
+  3.5.3: sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f
+docker: quay.io/biocontainers/singularity
+aliases:
+  cnitool: /usr/local/bin/cnitool
+  docker-run.sh: /usr/local/bin/docker-run.sh
+  exec-plugins.sh: /usr/local/bin/exec-plugins.sh
+  jq: /usr/local/bin/jq
+  mksquashfs: /usr/local/bin/mksquashfs
+  onig-config: /usr/local/bin/onig-config
+  priv-net-run.sh: /usr/local/bin/priv-net-run.sh
+  release.sh: /usr/local/bin/release.sh
+  run-singularity: /usr/local/bin/run-singularity
+  scmp_sys_resolver: /usr/local/bin/scmp_sys_resolver
+  singularity: /usr/local/bin/singularity
+  unsquashfs: /usr/local/bin/unsquashfs

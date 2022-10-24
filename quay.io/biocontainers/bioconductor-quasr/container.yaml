@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-quasr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-quasr
+latest:
+  1.34.0--r41hc247a5b_2: sha256:f0a06ec8246db558b45cfd3dd3ca8e329620ff4edc5c1a32b5da1ad4c2a7dcce
+tags:
+  1.34.0--r41hc247a5b_2: sha256:f0a06ec8246db558b45cfd3dd3ca8e329620ff4edc5c1a32b5da1ad4c2a7dcce
+docker: quay.io/biocontainers/bioconductor-quasr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-caen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-caen
+latest:
+  1.2.0--r41hdfd78af_0: sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d
+tags:
+  1.2.0--r41hdfd78af_0: sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d
+docker: quay.io/biocontainers/bioconductor-caen

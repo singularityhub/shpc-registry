@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cocoa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cocoa
+latest:
+  2.8.0--r41hdfd78af_0: sha256:53a384957f4f6f364a3fd94adf03e44039de5b7b322c1af9773198eca9a11a4a
+tags:
+  2.8.0--r41hdfd78af_0: sha256:53a384957f4f6f364a3fd94adf03e44039de5b7b322c1af9773198eca9a11a4a
+docker: quay.io/biocontainers/bioconductor-cocoa

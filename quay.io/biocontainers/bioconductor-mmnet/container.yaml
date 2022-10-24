@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mmnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mmnet
+latest:
+  1.13.0--r3.4.1_0: sha256:00cb92df93f125ceeeaa187978540b177b6617003f7faf68b434a2bb483873d2
+tags:
+  1.13.0--r3.4.1_0: sha256:00cb92df93f125ceeeaa187978540b177b6617003f7faf68b434a2bb483873d2
+docker: quay.io/biocontainers/bioconductor-mmnet

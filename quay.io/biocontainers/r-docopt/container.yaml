@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-docopt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-docopt
+latest:
+  0.4.3.3--r3.2.2_0: sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc
+tags:
+  0.4.3.3--r3.2.2_0: sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc
+docker: quay.io/biocontainers/r-docopt

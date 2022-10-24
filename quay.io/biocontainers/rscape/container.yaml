@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/rscape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rscape
+latest:
+  1.4.0--h87f3376_2: sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b
+tags:
+  1.4.0--h87f3376_2: sha256:9d7f7ca8dba7431034a3725490de563b7c744dd6f36cc1bfee66a66be89c2b4b
+docker: quay.io/biocontainers/rscape
+aliases:
+  FUNCS.pm: /usr/local/bin/FUNCS.pm
+  MetamakeDemos.pl: /usr/local/bin/MetamakeDemos.pl
+  PDBFUNCS.pm: /usr/local/bin/PDBFUNCS.pm
+  R-scape: /usr/local/bin/R-scape
+  R-scape-sim: /usr/local/bin/R-scape-sim
+  R-scape-sim-nobps: /usr/local/bin/R-scape-sim-nobps
+  R-view: /usr/local/bin/R-view
+  SelectSubFamilyFromStockholm.pl: /usr/local/bin/SelectSubFamilyFromStockholm.pl
+  Stockholm.pm: /usr/local/bin/Stockholm.pm
+  appcov: /usr/local/bin/appcov
+  msafilter: /usr/local/bin/msafilter
+  pdb_parse.pl: /usr/local/bin/pdb_parse.pl
+  r2r: /usr/local/bin/r2r
+  r2r_msa_comply.pl: /usr/local/bin/r2r_msa_comply.pl

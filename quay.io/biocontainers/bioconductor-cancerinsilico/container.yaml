@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cancerinsilico
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cancerinsilico
+latest:
+  2.8.0--r40h5f743cb_0: sha256:50cedab63e3416b41364ac751624cd105756271fb3bbb11d9cbff6a2269600fc
+tags:
+  2.8.0--r40h5f743cb_0: sha256:50cedab63e3416b41364ac751624cd105756271fb3bbb11d9cbff6a2269600fc
+docker: quay.io/biocontainers/bioconductor-cancerinsilico

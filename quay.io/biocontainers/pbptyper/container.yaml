@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pbptyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbptyper
+latest:
+  1.0.4--hdfd78af_0: sha256:73f32f9996cfe1cba45a66668962ce479ef2e845a588b5de5444cd9ea22e3d55
+tags:
+  1.0.4--hdfd78af_0: sha256:73f32f9996cfe1cba45a66668962ce479ef2e845a588b5de5444cd9ea22e3d55
+docker: quay.io/biocontainers/pbptyper
+aliases:
+  executor: /usr/local/bin/executor
+  pbptyper: /usr/local/bin/pbptyper
+  rich-click: /usr/local/bin/rich-click

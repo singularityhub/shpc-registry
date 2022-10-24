@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cblaster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cblaster
+latest:
+  1.3.9--pyhb7b1952_0: sha256:3b41c02e0ae141309bda49bfc64ceecf5737118436dafbce5c5695e33fec776b
+tags:
+  1.3.9--pyhb7b1952_0: sha256:3b41c02e0ae141309bda49bfc64ceecf5737118436dafbce5c5695e33fec776b
+docker: quay.io/biocontainers/cblaster
+aliases:
+  cblaster: /usr/local/bin/cblaster
+  clinker: /usr/local/bin/clinker

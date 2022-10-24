@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-annotationhub
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-annotationhub
+latest:
+  3.2.0--r41hdfd78af_0: sha256:03512824214ad768fbb83e71814e8ba339ff608257c73dcd818b93b45440345b
+tags:
+  3.2.0--r41hdfd78af_0: sha256:03512824214ad768fbb83e71814e8ba339ff608257c73dcd818b93b45440345b
+docker: quay.io/biocontainers/bioconductor-annotationhub

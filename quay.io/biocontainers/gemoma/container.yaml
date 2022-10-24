@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gemoma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gemoma
+latest:
+  1.7.1--hdfd78af_0: sha256:04f16e69e42bdf754165ca71899cd3bdfe6a5c462a9e5e928e0c4d66e179daa5
+tags:
+  1.7.1--hdfd78af_0: sha256:04f16e69e42bdf754165ca71899cd3bdfe6a5c462a9e5e928e0c4d66e179daa5
+docker: quay.io/biocontainers/gemoma
+aliases:
+  GeMoMa: /usr/local/bin/GeMoMa

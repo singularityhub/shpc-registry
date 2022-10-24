@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-uri
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-uri
+latest:
+  5.12--pl5321hdfd78af_0: sha256:6f73a12d51df3cec24dd1702085286c4968b1755edea0a24f6e6ce39d1396791
+tags:
+  5.12--pl5321hdfd78af_0: sha256:6f73a12d51df3cec24dd1702085286c4968b1755edea0a24f6e6ce39d1396791
+docker: quay.io/biocontainers/perl-uri

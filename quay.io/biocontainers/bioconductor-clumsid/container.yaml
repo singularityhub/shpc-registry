@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clumsid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clumsid
+latest:
+  1.8.0--r41hdfd78af_0: sha256:0641f5886f083e28918c7d1581f016c703879fe763ba3cee9e90bb3281827822
+tags:
+  1.8.0--r41hdfd78af_0: sha256:0641f5886f083e28918c7d1581f016c703879fe763ba3cee9e90bb3281827822
+docker: quay.io/biocontainers/bioconductor-clumsid

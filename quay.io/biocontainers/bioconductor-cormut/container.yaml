@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cormut
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cormut
+latest:
+  1.29.0--r40_0: sha256:8faf74218f38e69a768d631398f5f7fac1f21ca70c68c2befccbc6bd5b5a7751
+tags:
+  1.29.0--r40_0: sha256:8faf74218f38e69a768d631398f5f7fac1f21ca70c68c2befccbc6bd5b5a7751
+docker: quay.io/biocontainers/bioconductor-cormut

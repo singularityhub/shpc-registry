@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/python-hivclustering
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-hivclustering
+latest:
+  1.5.6--py_0: sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf
+tags:
+  1.5.6--py_0: sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf
+docker: quay.io/biocontainers/python-hivclustering
+aliases:
+  TNS: /usr/local/bin/TNS
+  bam2fna: /usr/local/bin/bam2fna
+  bam2msa: /usr/local/bin/bam2msa
+  bamclip: /usr/local/bin/bamclip
+  bealign: /usr/local/bin/bealign
+  ccache-swig: /usr/local/bin/ccache-swig
+  clipedge: /usr/local/bin/clipedge
+  consensus: /usr/local/bin/consensus
+  hivnetworkannotate: /usr/local/bin/hivnetworkannotate
+  hivnetworkcsv: /usr/local/bin/hivnetworkcsv
+  msa2bam: /usr/local/bin/msa2bam
+  seqmerge: /usr/local/bin/seqmerge
+  swig: /usr/local/bin/swig
+  translate: /usr/local/bin/translate

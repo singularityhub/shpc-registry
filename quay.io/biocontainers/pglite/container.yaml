@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pglite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pglite
+latest:
+  0.1--0: sha256:9b1d0361d5a5ec3b131d1f1d3301ddf56f23c3ab9d3667a1cde37a3c6176c853
+tags:
+  0.1--0: sha256:9b1d0361d5a5ec3b131d1f1d3301ddf56f23c3ab9d3667a1cde37a3c6176c853
+docker: quay.io/biocontainers/pglite
+aliases:
+  pglite: /usr/local/bin/pglite

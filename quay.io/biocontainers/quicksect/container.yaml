@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/quicksect
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quicksect
+latest:
+  0.2.2--py39hbf8eff0_5: sha256:6a4ff9123a5e59195c23e198516c7ccd330ebfd7e1e41c8b3dab19d2a7588a38
+tags:
+  0.2.2--py39hbf8eff0_5: sha256:6a4ff9123a5e59195c23e198516c7ccd330ebfd7e1e41c8b3dab19d2a7588a38
+docker: quay.io/biocontainers/quicksect

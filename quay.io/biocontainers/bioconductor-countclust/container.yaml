@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-countclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-countclust
+latest:
+  1.21.0--r41hdfd78af_0: sha256:aeebd5a19a2129efb82a54cd40438c57a5a6827f1b0473c643613f45a6600e03
+tags:
+  1.21.0--r41hdfd78af_0: sha256:aeebd5a19a2129efb82a54cd40438c57a5a6827f1b0473c643613f45a6600e03
+docker: quay.io/biocontainers/bioconductor-countclust

@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/checkqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for checkqc
+latest:
+  3.6.6--pyhdfd78af_0: sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8
+tags:
+  3.6.6--pyhdfd78af_0: sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8
+docker: quay.io/biocontainers/checkqc
+aliases:
+  checkqc: /usr/local/bin/checkqc
+  checkqc-ws: /usr/local/bin/checkqc-ws
+  interop_aggregate: /usr/local/bin/interop_aggregate
+  interop_dumpbin: /usr/local/bin/interop_dumpbin
+  interop_dumptext: /usr/local/bin/interop_dumptext
+  interop_imaging_table: /usr/local/bin/interop_imaging_table
+  interop_index-summary: /usr/local/bin/interop_index-summary
+  interop_plot_by_cycle: /usr/local/bin/interop_plot_by_cycle
+  interop_plot_by_lane: /usr/local/bin/interop_plot_by_lane
+  interop_plot_flowcell: /usr/local/bin/interop_plot_flowcell
+  interop_plot_qscore_heatmap: /usr/local/bin/interop_plot_qscore_heatmap
+  interop_plot_qscore_histogram: /usr/local/bin/interop_plot_qscore_histogram
+  interop_plot_sample_qc: /usr/local/bin/interop_plot_sample_qc
+  interop_summary: /usr/local/bin/interop_summary
+  sample-sheet: /usr/local/bin/sample-sheet

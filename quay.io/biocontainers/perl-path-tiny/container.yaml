@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-path-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-path-tiny
+latest:
+  0.122--pl5321hdfd78af_0: sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f
+tags:
+  0.122--pl5321hdfd78af_0: sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f
+docker: quay.io/biocontainers/perl-path-tiny

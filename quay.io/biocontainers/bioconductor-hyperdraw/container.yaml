@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hyperdraw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hyperdraw
+latest:
+  1.46.0--r41hcb05c77_1: sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45
+tags:
+  1.46.0--r41hcb05c77_1: sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45
+docker: quay.io/biocontainers/bioconductor-hyperdraw

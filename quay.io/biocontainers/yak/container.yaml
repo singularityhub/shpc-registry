@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/yak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yak
+latest:
+  0.1--h7132678_2: sha256:a1e9fb7c97e4e402fbd60e77758f03ef471cac46c6b7c9c7aa99fc5d4f802b3f
+tags:
+  0.1--h7132678_2: sha256:a1e9fb7c97e4e402fbd60e77758f03ef471cac46c6b7c9c7aa99fc5d4f802b3f
+docker: quay.io/biocontainers/yak
+aliases:
+  yak: /usr/local/bin/yak

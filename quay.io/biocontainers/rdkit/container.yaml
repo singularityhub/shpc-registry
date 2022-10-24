@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rdkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rdkit
+latest:
+  2021.03.4: sha256:146a8bb33c578849e84e6a26855002ec32542d27995dbc8d37eb2b81fecbfa02
+tags:
+  2021.03.4: sha256:146a8bb33c578849e84e6a26855002ec32542d27995dbc8d37eb2b81fecbfa02
+docker: quay.io/biocontainers/rdkit

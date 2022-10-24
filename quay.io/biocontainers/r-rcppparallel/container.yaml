@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rcppparallel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rcppparallel
+latest:
+  4.3.20--r3.3.1_1: sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef
+tags:
+  4.3.20--r3.3.1_1: sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef
+docker: quay.io/biocontainers/r-rcppparallel

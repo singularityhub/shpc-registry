@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnasamba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnasamba
+latest:
+  0.2.5--py37h8902056_1: sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd
+tags:
+  0.2.5--py37h8902056_1: sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd
+docker: quay.io/biocontainers/rnasamba
+aliases:
+  rnasamba: /usr/local/bin/rnasamba

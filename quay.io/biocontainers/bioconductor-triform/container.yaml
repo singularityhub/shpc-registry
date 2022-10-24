@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-triform
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-triform
+latest:
+  1.29.0--r40_0: sha256:d2983e4dbf747b8c8cf94a16bc32b9b760312b6c073764ce7da3cba17eddcda4
+tags:
+  1.29.0--r40_0: sha256:d2983e4dbf747b8c8cf94a16bc32b9b760312b6c073764ce7da3cba17eddcda4
+docker: quay.io/biocontainers/bioconductor-triform

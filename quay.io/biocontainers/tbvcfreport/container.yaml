@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tbvcfreport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tbvcfreport
+latest:
+  0.1.8--pyhdfd78af_0: sha256:36dccde2b2093c77644ae8d0e6c8f1246361673531be953e775325b6196f6704
+tags:
+  0.1.8--pyhdfd78af_0: sha256:36dccde2b2093c77644ae8d0e6c8f1246361673531be953e775325b6196f6704
+docker: quay.io/biocontainers/tbvcfreport
+aliases:
+  tbvcfreport: /usr/local/bin/tbvcfreport

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/raxml-ng
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for raxml-ng
+latest:
+  1.1.0--h22e3c99_1: sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82
+tags:
+  1.1.0--h22e3c99_1: sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82
+docker: quay.io/biocontainers/raxml-ng

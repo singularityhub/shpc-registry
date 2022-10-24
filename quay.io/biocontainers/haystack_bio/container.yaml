@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/haystack_bio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for haystack_bio
+latest:
+  v0.5.0--0: sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3
+tags:
+  v0.5.0--0: sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3
+docker: quay.io/biocontainers/haystack_bio
+aliases:
+  bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed
+  font2c: /usr/local/bin/font2c
+  haystack_download_genome: /usr/local/bin/haystack_download_genome
+  haystack_hotspots: /usr/local/bin/haystack_hotspots
+  haystack_motifs: /usr/local/bin/haystack_motifs
+  haystack_pipeline: /usr/local/bin/haystack_pipeline
+  haystack_run_test: /usr/local/bin/haystack_run_test
+  haystack_tf_activity_plane: /usr/local/bin/haystack_tf_activity_plane
+  msql2mysql: /usr/local/bin/msql2mysql
+  mysql_convert_table_format: /usr/local/bin/mysql_convert_table_format
+  mysql_find_rows: /usr/local/bin/mysql_find_rows
+  mysql_fix_extensions: /usr/local/bin/mysql_fix_extensions
+  mysql_setpermission: /usr/local/bin/mysql_setpermission
+  mysql_waitpid: /usr/local/bin/mysql_waitpid
+  mysql_zap: /usr/local/bin/mysql_zap
+  mysqlaccess: /usr/local/bin/mysqlaccess
+  mysqlaccess.conf: /usr/local/bin/mysqlaccess.conf
+  mysqlbug: /usr/local/bin/mysqlbug
+  mysqlhotcopy: /usr/local/bin/mysqlhotcopy
+  wftopfa: /usr/local/bin/wftopfa

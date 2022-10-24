@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/xyalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xyalign
+latest:
+  1.1.5--py_1: sha256:d9572aa1b2666a1f053dd15e4597bbacd21236b0cd51ede4499193126af0d31d
+tags:
+  1.1.5--py_1: sha256:d9572aa1b2666a1f053dd15e4597bbacd21236b0cd51ede4499193126af0d31d
+docker: quay.io/biocontainers/xyalign
+aliases:
+  compare_vcfs: /usr/local/bin/compare_vcfs
+  explore_thresholds: /usr/local/bin/explore_thresholds
+  platypus: /usr/local/bin/platypus
+  plot_count_stats: /usr/local/bin/plot_count_stats
+  plot_window_differences: /usr/local/bin/plot_window_differences
+  xyalign: /usr/local/bin/xyalign

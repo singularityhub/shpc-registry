@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genetonic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genetonic
+latest:
+  1.6.0--r41hdfd78af_0: sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1
+tags:
+  1.6.0--r41hdfd78af_0: sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1
+docker: quay.io/biocontainers/bioconductor-genetonic

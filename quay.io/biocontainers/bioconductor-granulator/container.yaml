@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-granulator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-granulator
+latest:
+  1.2.0--r41hdfd78af_0: sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e
+tags:
+  1.2.0--r41hdfd78af_0: sha256:16a37815a50360d8634ab9f36e19366059aee28a547aa94216d0a806a142d72e
+docker: quay.io/biocontainers/bioconductor-granulator

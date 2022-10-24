@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/plant_tribes_assembly_post_processor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plant_tribes_assembly_post_processor
+latest:
+  1.0.4--h9ee0642_1: sha256:af37ba04e0a7a258c8473b35a5bf3fafe3b7f9d464a8c4a089a192b373fa7d07
+tags:
+  1.0.4--h9ee0642_1: sha256:af37ba04e0a7a258c8473b35a5bf3fafe3b7f9d464a8c4a089a192b373fa7d07
+docker: quay.io/biocontainers/plant_tribes_assembly_post_processor
+aliases:
+  AssemblyPostProcessor: /usr/local/bin/AssemblyPostProcessor
+  ESTScan: /usr/local/bin/ESTScan
+  TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
+  TransDecoder.Predict: /usr/local/bin/TransDecoder.Predict
+  cap3: /usr/local/bin/cap3
+  cdna_alignment_orf_to_genome_orf.pl: /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
+  compute_base_probs.pl: /usr/local/bin/compute_base_probs.pl
+  exclude_similar_proteins.pl: /usr/local/bin/exclude_similar_proteins.pl
+  fasta_prot_checker.pl: /usr/local/bin/fasta_prot_checker.pl
+  fetch: /usr/local/bin/fetch
+  ffindex_resume.pl: /usr/local/bin/ffindex_resume.pl
+  formcon: /usr/local/bin/formcon
+  gene_list_to_gff.pl: /usr/local/bin/gene_list_to_gff.pl
+  genometools-config: /usr/local/bin/genometools-config
+  get_FL_accs.pl: /usr/local/bin/get_FL_accs.pl
+  get_longest_ORF_per_transcript.pl: /usr/local/bin/get_longest_ORF_per_transcript.pl
+  get_top_longest_fasta_entries.pl: /usr/local/bin/get_top_longest_fasta_entries.pl
+  gff3_file_to_bed.pl: /usr/local/bin/gff3_file_to_bed.pl
+  gff3_file_to_proteins.pl: /usr/local/bin/gff3_file_to_proteins.pl
+  gff3_gene_to_gtf_format.pl: /usr/local/bin/gff3_gene_to_gtf_format.pl
+  gt: /usr/local/bin/gt
+  gtf_genome_to_cdna_fasta.pl: /usr/local/bin/gtf_genome_to_cdna_fasta.pl
+  gtf_to_alignment_gff3.pl: /usr/local/bin/gtf_to_alignment_gff3.pl
+  gtf_to_bed.pl: /usr/local/bin/gtf_to_bed.pl
+  indexer: /usr/local/bin/indexer
+  netfetch: /usr/local/bin/netfetch
+  nr_ORFs_gff3.pl: /usr/local/bin/nr_ORFs_gff3.pl
+  pfam_runner.pl: /usr/local/bin/pfam_runner.pl
+  refine_gff3_group_iso_strip_utrs.pl: /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
+  refine_hexamer_scores.pl: /usr/local/bin/refine_hexamer_scores.pl
+  remove_eclipsed_ORFs.pl: /usr/local/bin/remove_eclipsed_ORFs.pl
+  score_CDS_likelihood_all_6_frames.pl: /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
+  select_best_ORFs_per_transcript.pl: /usr/local/bin/select_best_ORFs_per_transcript.pl
+  seq_n_baseprobs_to_loglikelihood_vals.pl: /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
+  start_codon_refinement.pl: /usr/local/bin/start_codon_refinement.pl
+  train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
+  uri_unescape.pl: /usr/local/bin/uri_unescape.pl

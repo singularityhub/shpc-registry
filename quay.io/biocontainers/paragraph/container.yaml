@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/paragraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for paragraph
+latest:
+  2.3--h21f15d8_1: sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
+tags:
+  2.3--h21f15d8_1: sha256:1ef204d04d1ca59bef259497854add78e14aa98994e6ed26fc3b241fe906eb1a
+docker: quay.io/biocontainers/paragraph
+aliases:
+  __init__.py: /usr/local/bin/__init__.py
+  addVariants.py: /usr/local/bin/addVariants.py
+  compare-alignments.py: /usr/local/bin/compare-alignments.py
+  findgrm.py: /usr/local/bin/findgrm.py
+  graph-to-fasta: /usr/local/bin/graph-to-fasta
+  grmpy: /usr/local/bin/grmpy
+  grmpy-vcf-merge.py: /usr/local/bin/grmpy-vcf-merge.py
+  idxdepth: /usr/local/bin/idxdepth
+  kmerstats: /usr/local/bin/kmerstats
+  msa2vcf.py: /usr/local/bin/msa2vcf.py
+  multigrmpy.py: /usr/local/bin/multigrmpy.py
+  multiparagraph.py: /usr/local/bin/multiparagraph.py
+  pam: /usr/local/bin/pam
+  paragraph: /usr/local/bin/paragraph
+  paragraph2dot.py: /usr/local/bin/paragraph2dot.py
+  test_blackbox: /usr/local/bin/test_blackbox
+  test_grm: /usr/local/bin/test_grm
+  vcf2paragraph.py: /usr/local/bin/vcf2paragraph.py

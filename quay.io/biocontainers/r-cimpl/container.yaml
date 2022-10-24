@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-cimpl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-cimpl
+latest:
+  1.1--r41h9ee0642_4: sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e
+tags:
+  1.1--r41h9ee0642_4: sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e
+docker: quay.io/biocontainers/r-cimpl

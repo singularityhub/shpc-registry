@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/haploconduct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for haploconduct
+latest:
+  0.2.1--py27h16ec135_3: sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc
+tags:
+  0.2.1--py27h16ec135_3: sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc
+docker: quay.io/biocontainers/haploconduct
+aliases:
+  haploconduct: /usr/local/bin/haploconduct
+  rust-overlaps: /usr/local/bin/rust-overlaps

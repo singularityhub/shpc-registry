@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/malt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for malt
+latest:
+  0.53--hdfd78af_0: sha256:5bc6018958dd52f946ce816d0d9e5450c3b851198eb138844266f063a2bb7af1
+tags:
+  0.53--hdfd78af_0: sha256:5bc6018958dd52f946ce816d0d9e5450c3b851198eb138844266f063a2bb7af1
+docker: quay.io/biocontainers/malt
+aliases:
+  malt-build: /usr/local/bin/malt-build
+  malt-run: /usr/local/bin/malt-run

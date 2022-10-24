@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/dnaweaver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnaweaver
+latest:
+  v0.3.7--pyhdfd78af_0: sha256:c352fe8a6737c28ba0d4ab15c8da054f4e9488ca6fd089c7976aaf3813226573
+tags:
+  v0.3.7--pyhdfd78af_0: sha256:c352fe8a6737c28ba0d4ab15c8da054f4e9488ca6fd089c7976aaf3813226573
+docker: quay.io/biocontainers/dnaweaver
+aliases:
+  dnachisel: /usr/local/bin/dnachisel
+  weasyprint: /usr/local/bin/weasyprint

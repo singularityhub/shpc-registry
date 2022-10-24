@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mnnpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mnnpy
+latest:
+  0.1.9.5--py38hbff2b2d_4: sha256:257262fe751167d15d0d8fa5c1e6f781a5061529f078d15fa58650265e1405c8
+tags:
+  0.1.9.5--py38hbff2b2d_4: sha256:257262fe751167d15d0d8fa5c1e6f781a5061529f078d15fa58650265e1405c8
+docker: quay.io/biocontainers/mnnpy

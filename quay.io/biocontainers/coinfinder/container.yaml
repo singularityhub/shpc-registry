@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/coinfinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for coinfinder
+latest:
+  1.2.0--py37haba7c85_0: sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1
+tags:
+  1.2.0--py37haba7c85_0: sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1
+docker: quay.io/biocontainers/coinfinder
+aliases:
+  coinfinder: /usr/local/bin/coinfinder
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
+  lame: /usr/local/bin/lame
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  x264: /usr/local/bin/x264

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-impulsede2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-impulsede2
+latest:
+  1.8.0--r36_1: sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0
+tags:
+  1.8.0--r36_1: sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0
+docker: quay.io/biocontainers/bioconductor-impulsede2

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-epitxdb.mm.mm10
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epitxdb.mm.mm10
+latest:
+  0.99.6--r41hdfd78af_4: sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3
+tags:
+  0.99.6--r41hdfd78af_4: sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3
+docker: quay.io/biocontainers/bioconductor-epitxdb.mm.mm10
+aliases:
+  .bioconductor-epitxdb.mm.mm10-post-link.sh: /usr/local/bin/.bioconductor-epitxdb.mm.mm10-post-link.sh
+  .bioconductor-epitxdb.mm.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.mm.mm10-pre-unlink.sh

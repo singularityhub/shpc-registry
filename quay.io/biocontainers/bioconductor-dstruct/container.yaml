@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dstruct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dstruct
+latest:
+  1.0.0--r41hdfd78af_0: sha256:10f38ea906d4358a23f7601aa9bfc48f0f90687bf85d71b6fbfe15a2c136ad24
+tags:
+  1.0.0--r41hdfd78af_0: sha256:10f38ea906d4358a23f7601aa9bfc48f0f90687bf85d71b6fbfe15a2c136ad24
+docker: quay.io/biocontainers/bioconductor-dstruct

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-scrnaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scrnaseq
+latest:
+  2.8.0--r41hdfd78af_1: sha256:4709c7aec80879dfa98f424c0689d2c69882c08e0134e6243fe59fee0b0ad419
+tags:
+  2.8.0--r41hdfd78af_1: sha256:4709c7aec80879dfa98f424c0689d2c69882c08e0134e6243fe59fee0b0ad419
+docker: quay.io/biocontainers/bioconductor-scrnaseq
+aliases:
+  .bioconductor-scrnaseq-post-link.sh: /usr/local/bin/.bioconductor-scrnaseq-post-link.sh
+  .bioconductor-scrnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh

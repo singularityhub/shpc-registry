@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-prettyunits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-prettyunits
+latest:
+  1.0.2--r3.3.1_0: sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4
+tags:
+  1.0.2--r3.3.1_0: sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4
+docker: quay.io/biocontainers/r-prettyunits

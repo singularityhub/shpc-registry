@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rubic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rubic
+latest:
+  1.0.3--r41hdfd78af_4: sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25
+tags:
+  1.0.3--r41hdfd78af_4: sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25
+docker: quay.io/biocontainers/r-rubic

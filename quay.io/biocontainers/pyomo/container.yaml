@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/pyomo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyomo
+latest:
+  4.1.10527--py34_0: sha256:8b83739f4216ebadb1f720eb773a079c9a7ceb12763783268472e4502dc87d28
+tags:
+  4.1.10527--py34_0: sha256:8b83739f4216ebadb1f720eb773a079c9a7ceb12763783268472e4502dc87d28
+docker: quay.io/biocontainers/pyomo
+aliases:
+  2to3-3.4: /usr/local/bin/2to3-3.4
+  OSSolverService: /usr/local/bin/OSSolverService
+  PyomoOSSolverService: /usr/local/bin/PyomoOSSolverService
+  checkCopyright: /usr/local/bin/checkCopyright
+  checkcopyright: /usr/local/bin/checkcopyright
+  computeconf: /usr/local/bin/computeconf
+  dispatch_srvr: /usr/local/bin/dispatch_srvr
+  easy_install-3.4: /usr/local/bin/easy_install-3.4
+  idle3.4: /usr/local/bin/idle3.4
+  kill_pyro_mip_servers: /usr/local/bin/kill_pyro_mip_servers
+  launch_pyro_mip_servers: /usr/local/bin/launch_pyro_mip_servers
+  lbin: /usr/local/bin/lbin
+  lpython: /usr/local/bin/lpython
+  phsolverserver: /usr/local/bin/phsolverserver
+  pydoc3.4: /usr/local/bin/pydoc3.4
+  pyomo: /usr/local/bin/pyomo
+  pyomo_ns: /usr/local/bin/pyomo_ns
+  pyomo_nsc: /usr/local/bin/pyomo_nsc
+  pyomo_old: /usr/local/bin/pyomo_old
+  pyomo_python: /usr/local/bin/pyomo_python
+  pypi_downloads: /usr/local/bin/pypi_downloads
+  pyro_mip_server: /usr/local/bin/pyro_mip_server
+  python3.4: /usr/local/bin/python3.4
+  python3.4-config: /usr/local/bin/python3.4-config
+  python3.4m: /usr/local/bin/python3.4m
+  python3.4m-config: /usr/local/bin/python3.4m-config
+  pyutilib_test_driver: /usr/local/bin/pyutilib_test_driver
+  pyvenv-3.4: /usr/local/bin/pyvenv-3.4
+  readsol: /usr/local/bin/readsol
+  replaceCopyright: /usr/local/bin/replaceCopyright
+  replacecopyright: /usr/local/bin/replacecopyright
+  results_schema: /usr/local/bin/results_schema
+  runbenders: /usr/local/bin/runbenders
+  runef: /usr/local/bin/runef
+  runph: /usr/local/bin/runph
+  test.pyomo: /usr/local/bin/test.pyomo
+  test.pyutilib: /usr/local/bin/test.pyutilib

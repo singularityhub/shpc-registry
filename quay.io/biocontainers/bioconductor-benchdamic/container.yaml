@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-benchdamic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-benchdamic
+latest:
+  1.0.0--r41hdfd78af_0: sha256:47b02bdd15d720b9cb5b3bde3507707cc11dbe2fc62928a2cc5fd0d2128e7016
+tags:
+  1.0.0--r41hdfd78af_0: sha256:47b02bdd15d720b9cb5b3bde3507707cc11dbe2fc62928a2cc5fd0d2128e7016
+docker: quay.io/biocontainers/bioconductor-benchdamic

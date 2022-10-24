@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fastaindex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastaindex
+latest:
+  0.11c--py_3: sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241
+tags:
+  0.11c--py_3: sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241
+docker: quay.io/biocontainers/fastaindex
+aliases:
+  FastaIndex: /usr/local/bin/FastaIndex
+  fasta_stats: /usr/local/bin/fasta_stats

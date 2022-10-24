@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mhcnuggets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mhcnuggets
+latest:
+  2.3.2--py_0: sha256:246708b68739fde7d0a6a0ec09e5dc0e9164fff14c1dc634b2e454ea3aca8222
+tags:
+  2.3.2--py_0: sha256:246708b68739fde7d0a6a0ec09e5dc0e9164fff14c1dc634b2e454ea3aca8222
+docker: quay.io/biocontainers/mhcnuggets

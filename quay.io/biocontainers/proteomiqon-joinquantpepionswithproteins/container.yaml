@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins
+latest:
+  0.0.1--hdfd78af_1: sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2
+tags:
+  0.0.1--hdfd78af_1: sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2
+docker: quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins
+aliases:
+  proteomiqon-joinquantpepionswithproteins: /usr/local/bin/proteomiqon-joinquantpepionswithproteins

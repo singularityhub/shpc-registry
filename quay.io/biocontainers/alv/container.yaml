@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/alv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for alv
+latest:
+  1.7.1--pyhdfd78af_0: sha256:8a8190186e90c052f642a18b6245e27ab1fe87b255288db85c3dd5ef19ba41e4
+tags:
+  1.7.1--pyhdfd78af_0: sha256:8a8190186e90c052f642a18b6245e27ab1fe87b255288db85c3dd5ef19ba41e4
+docker: quay.io/biocontainers/alv
+aliases:
+  alv: /usr/local/bin/alv

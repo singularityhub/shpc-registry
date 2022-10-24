@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-reportingtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-reportingtools
+latest:
+  2.34.0--r41hdfd78af_0: sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b
+tags:
+  2.34.0--r41hdfd78af_0: sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b
+docker: quay.io/biocontainers/bioconductor-reportingtools
+aliases:
+  .bioconductor-pfam.db-post-link.sh: /usr/local/bin/.bioconductor-pfam.db-post-link.sh
+  .bioconductor-pfam.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rebook
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rebook
+latest:
+  1.4.0--r41hdfd78af_0: sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb
+tags:
+  1.4.0--r41hdfd78af_0: sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb
+docker: quay.io/biocontainers/bioconductor-rebook

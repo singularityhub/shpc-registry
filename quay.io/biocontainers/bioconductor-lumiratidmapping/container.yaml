@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lumiratidmapping
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lumiratidmapping
+latest:
+  1.10.0--r41hdfd78af_9: sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790
+tags:
+  1.10.0--r41hdfd78af_9: sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790
+docker: quay.io/biocontainers/bioconductor-lumiratidmapping
+aliases:
+  .bioconductor-lumiratidmapping-post-link.sh: /usr/local/bin/.bioconductor-lumiratidmapping-post-link.sh
+  .bioconductor-lumiratidmapping-pre-unlink.sh: /usr/local/bin/.bioconductor-lumiratidmapping-pre-unlink.sh

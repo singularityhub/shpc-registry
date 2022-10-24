@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/ragout
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ragout
+latest:
+  2.3--py36h2ad2d48_4: sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f
+tags:
+  2.3--py36h2ad2d48_4: sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f
+docker: quay.io/biocontainers/ragout
+aliases:
+  C-Sibelia.py: /usr/local/bin/C-Sibelia.py
+  Sibelia: /usr/local/bin/Sibelia
+  ragout: /usr/local/bin/ragout
+  ragout-maf2synteny: /usr/local/bin/ragout-maf2synteny
+  ragout-overlap: /usr/local/bin/ragout-overlap
+  snpEffAnnotate.py: /usr/local/bin/snpEffAnnotate.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-compquadform
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-compquadform
+latest:
+  1.4.1--r3.2.2_0: sha256:18945928ac0702af1ad0a91ffcdcd80d4f22487236f4c009ce9d7e097d918441
+tags:
+  1.4.1--r3.2.2_0: sha256:18945928ac0702af1ad0a91ffcdcd80d4f22487236f4c009ce9d7e097d918441
+docker: quay.io/biocontainers/r-compquadform

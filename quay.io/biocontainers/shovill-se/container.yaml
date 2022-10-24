@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/shovill-se
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shovill-se
+latest:
+  1.1.0se--hdfd78af_2: sha256:3118f2893b1dd2a56e58033959c6aee69f9a4c87d89dea1344414a9ea468cde9
+tags:
+  1.1.0se--hdfd78af_2: sha256:3118f2893b1dd2a56e58033959c6aee69f9a4c87d89dea1344414a9ea468cde9
+docker: quay.io/biocontainers/shovill-se
+aliases:
+  lighter: /usr/local/bin/lighter
+  shovill: /usr/local/bin/shovill
+  shovill-se: /usr/local/bin/shovill-se

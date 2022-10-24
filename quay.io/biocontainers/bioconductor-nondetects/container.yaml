@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nondetects
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nondetects
+latest:
+  2.8.0--r3.4.1_0: sha256:2faa0b60c0040470792c44c01f3dab5e9a1b84ee7885d2f12182a3fbe99eeba9
+tags:
+  2.8.0--r3.4.1_0: sha256:2faa0b60c0040470792c44c01f3dab5e9a1b84ee7885d2f12182a3fbe99eeba9
+docker: quay.io/biocontainers/bioconductor-nondetects

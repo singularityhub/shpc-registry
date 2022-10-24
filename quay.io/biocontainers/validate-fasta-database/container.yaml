@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/validate-fasta-database
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for validate-fasta-database
+latest:
+  1.0--hdfd78af_2: sha256:d5fdb70c29b291ae582920fd0aeaed0e35e731539f7fa5e776dab7717a61c839
+tags:
+  1.0--hdfd78af_2: sha256:d5fdb70c29b291ae582920fd0aeaed0e35e731539f7fa5e776dab7717a61c839
+docker: quay.io/biocontainers/validate-fasta-database
+aliases:
+  validate-fasta-database: /usr/local/bin/validate-fasta-database

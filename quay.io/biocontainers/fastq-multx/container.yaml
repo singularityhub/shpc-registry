@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastq-multx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastq-multx
+latest:
+  1.4.2--h9f5acd7_2: sha256:cdc4a85646a0a79053076460657ca015c047a49c6c74752080c603699cc4f266
+tags:
+  1.4.2--h9f5acd7_2: sha256:cdc4a85646a0a79053076460657ca015c047a49c6c74752080c603699cc4f266
+docker: quay.io/biocontainers/fastq-multx
+aliases:
+  fastq-multx: /usr/local/bin/fastq-multx

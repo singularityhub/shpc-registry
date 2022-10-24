@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-spidermir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spidermir
+latest:
+  1.8.2--r3.4.1_0: sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be
+tags:
+  1.8.2--r3.4.1_0: sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be
+docker: quay.io/biocontainers/bioconductor-spidermir
+aliases:
+  .bioconductor-mirnatap.db-post-link.sh: /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh
+  .bioconductor-mirnatap.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh

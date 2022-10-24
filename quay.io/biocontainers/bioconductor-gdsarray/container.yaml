@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gdsarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gdsarray
+latest:
+  1.8.0--r40_0: sha256:64208985e7e71ce882f62448175fca9e52e41749f100439b104fcaac7837cda4
+tags:
+  1.8.0--r40_0: sha256:64208985e7e71ce882f62448175fca9e52e41749f100439b104fcaac7837cda4
+docker: quay.io/biocontainers/bioconductor-gdsarray

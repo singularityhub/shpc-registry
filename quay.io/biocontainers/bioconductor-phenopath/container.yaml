@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phenopath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phenopath
+latest:
+  1.8.0--r36he1b5a44_1: sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a
+tags:
+  1.8.0--r36he1b5a44_1: sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a
+docker: quay.io/biocontainers/bioconductor-phenopath

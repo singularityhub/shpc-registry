@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-normalize450k
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-normalize450k
+latest:
+  1.22.0--r41hdfd78af_0: sha256:d5c9b781ca8f8cf70d51578a4721d347d0c9f4844c0bf97007abea39a651c8e0
+tags:
+  1.22.0--r41hdfd78af_0: sha256:d5c9b781ca8f8cf70d51578a4721d347d0c9f4844c0bf97007abea39a651c8e0
+docker: quay.io/biocontainers/bioconductor-normalize450k

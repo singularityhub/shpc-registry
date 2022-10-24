@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sampleclassifier
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sampleclassifier
+latest:
+  1.8.0--r36_1: sha256:ab1961229dc711f2e71353c1c355d9793411553359a383c39fd180195b6f6c4e
+tags:
+  1.8.0--r36_1: sha256:ab1961229dc711f2e71353c1c355d9793411553359a383c39fd180195b6f6c4e
+docker: quay.io/biocontainers/bioconductor-sampleclassifier

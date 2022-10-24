@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/crb-blast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crb-blast
+latest:
+  0.6.6--2: sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827
+tags:
+  0.6.6--2: sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827
+docker: quay.io/biocontainers/crb-blast
+aliases:
+  bioruby: /usr/local/bin/bioruby
+  br_biofetch.rb: /usr/local/bin/br_biofetch.rb
+  br_bioflat.rb: /usr/local/bin/br_bioflat.rb
+  br_biogetseq.rb: /usr/local/bin/br_biogetseq.rb
+  br_pmfetch.rb: /usr/local/bin/br_pmfetch.rb
+  crb-blast: /usr/local/bin/crb-blast

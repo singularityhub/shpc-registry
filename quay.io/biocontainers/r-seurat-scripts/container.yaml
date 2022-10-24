@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/r-seurat-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-seurat-scripts
+latest:
+  0.0.4--r341_2: sha256:d097e23da3cb5fc3c72ed7454d1172c1962f92278de63b0b3512b59e380f0d11
+tags:
+  0.0.4--r341_2: sha256:d097e23da3cb5fc3c72ed7454d1172c1962f92278de63b0b3512b59e380f0d11
+docker: quay.io/biocontainers/r-seurat-scripts
+aliases:
+  r-seurat-scripts-post-install-tests.bats: /usr/local/bin/r-seurat-scripts-post-install-tests.bats
+  r-seurat-scripts-post-install-tests.sh: /usr/local/bin/r-seurat-scripts-post-install-tests.sh
+  seurat-create-seurat-object.R: /usr/local/bin/seurat-create-seurat-object.R
+  seurat-dim-plot.R: /usr/local/bin/seurat-dim-plot.R
+  seurat-filter-cells.R: /usr/local/bin/seurat-filter-cells.R
+  seurat-find-clusters.R: /usr/local/bin/seurat-find-clusters.R
+  seurat-find-markers.R: /usr/local/bin/seurat-find-markers.R
+  seurat-find-variable-genes.R: /usr/local/bin/seurat-find-variable-genes.R
+  seurat-get-random-genes.R: /usr/local/bin/seurat-get-random-genes.R
+  seurat-normalise-data.R: /usr/local/bin/seurat-normalise-data.R
+  seurat-read-10x.R: /usr/local/bin/seurat-read-10x.R
+  seurat-run-pca.R: /usr/local/bin/seurat-run-pca.R
+  seurat-run-tsne.R: /usr/local/bin/seurat-run-tsne.R
+  seurat-scale-data.R: /usr/local/bin/seurat-scale-data.R

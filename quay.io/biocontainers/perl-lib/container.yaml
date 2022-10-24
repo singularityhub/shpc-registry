@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lib
+latest:
+  0.63--pl5321hdfd78af_2: sha256:fb5b876906c2ddeb7e88b240ed031553e7977f40e11d9ffb489095067c2959b3
+tags:
+  0.63--pl5321hdfd78af_2: sha256:fb5b876906c2ddeb7e88b240ed031553e7977f40e11d9ffb489095067c2959b3
+docker: quay.io/biocontainers/perl-lib

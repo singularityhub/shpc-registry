@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cydar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cydar
+latest:
+  1.8.0--r36he1b5a44_1: sha256:3c34bf8a1b42ec91799fbee12380b7047eeb0e2bf5f3a51b3ca7b786f03e6090
+tags:
+  1.8.0--r36he1b5a44_1: sha256:3c34bf8a1b42ec91799fbee12380b7047eeb0e2bf5f3a51b3ca7b786f03e6090
+docker: quay.io/biocontainers/bioconductor-cydar

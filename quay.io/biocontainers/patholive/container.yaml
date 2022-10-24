@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/patholive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for patholive
+latest:
+  1.0--hdfd78af_1: sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2
+tags:
+  1.0--hdfd78af_1: sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2
+docker: quay.io/biocontainers/patholive
+aliases:
+  PathoLive.py: /usr/local/bin/PathoLive.py
+  hilive: /usr/local/bin/hilive
+  hilive-build: /usr/local/bin/hilive-build
+  hilive-out: /usr/local/bin/hilive-out
+  patholive: /usr/local/bin/patholive

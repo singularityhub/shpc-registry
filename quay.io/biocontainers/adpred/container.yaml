@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/adpred
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for adpred
+latest:
+  1.2.8--pyhdfd78af_0: sha256:f4cf70e21de0a34f1f3af34bb98867ae72e8a2ddae0619fa7eaee3a1acd46c72
+tags:
+  1.2.8--pyhdfd78af_0: sha256:f4cf70e21de0a34f1f3af34bb98867ae72e8a2ddae0619fa7eaee3a1acd46c72
+docker: quay.io/biocontainers/adpred
+aliases:
+  run-adpred: /usr/local/bin/run-adpred

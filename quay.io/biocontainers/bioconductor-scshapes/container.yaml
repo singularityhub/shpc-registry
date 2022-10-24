@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scshapes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scshapes
+latest:
+  1.0.0--r41hdfd78af_0: sha256:f7be7ced7ebdec3ff1e62e3e095a0c6acffd875108485f0456028cb16723c210
+tags:
+  1.0.0--r41hdfd78af_0: sha256:f7be7ced7ebdec3ff1e62e3e095a0c6acffd875108485f0456028cb16723c210
+docker: quay.io/biocontainers/bioconductor-scshapes

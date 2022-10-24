@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/deeptools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deeptools
+latest:
+  3.1.3--py37h14c3975_1: sha256:2bf9fbdd82da72ae0a1e4b0fe8e634215b9bbc02bfa510c175e2f15ee3a2a1a8
+tags:
+  3.1.3--py37h14c3975_1: sha256:2bf9fbdd82da72ae0a1e4b0fe8e634215b9bbc02bfa510c175e2f15ee3a2a1a8
+docker: quay.io/biocontainers/deeptools
+aliases:
+  alignmentSieve: /usr/local/bin/alignmentSieve
+  bamCompare: /usr/local/bin/bamCompare
+  bamCoverage: /usr/local/bin/bamCoverage
+  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bigwigCompare: /usr/local/bin/bigwigCompare
+  computeGCBias: /usr/local/bin/computeGCBias
+  computeMatrix: /usr/local/bin/computeMatrix
+  computeMatrixOperations: /usr/local/bin/computeMatrixOperations
+  correctGCBias: /usr/local/bin/correctGCBias
+  deeptools: /usr/local/bin/deeptools
+  estimateReadFiltering: /usr/local/bin/estimateReadFiltering
+  estimateScaleFactor: /usr/local/bin/estimateScaleFactor
+  multiBamSummary: /usr/local/bin/multiBamSummary
+  multiBigwigSummary: /usr/local/bin/multiBigwigSummary
+  plotCorrelation: /usr/local/bin/plotCorrelation
+  plotCoverage: /usr/local/bin/plotCoverage
+  plotEnrichment: /usr/local/bin/plotEnrichment
+  plotFingerprint: /usr/local/bin/plotFingerprint
+  plotHeatmap: /usr/local/bin/plotHeatmap
+  plotPCA: /usr/local/bin/plotPCA
+  plotProfile: /usr/local/bin/plotProfile

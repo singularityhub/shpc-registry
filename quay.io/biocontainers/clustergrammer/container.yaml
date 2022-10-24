@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/clustergrammer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clustergrammer
+latest:
+  1.13.6--pyh864c0ab_3: sha256:5c0daed7e6b670530cbe349d0c7b8a96b72d9bf8e7c3526969e5d095274e5590
+tags:
+  1.13.6--pyh864c0ab_3: sha256:5c0daed7e6b670530cbe349d0c7b8a96b72d9bf8e7c3526969e5d095274e5590
+docker: quay.io/biocontainers/clustergrammer

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/transcomb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transcomb
+latest:
+  1.0--boost1.60_0: sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879
+tags:
+  1.0--boost1.60_0: sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879
+docker: quay.io/biocontainers/transcomb
+aliases:
+  Assemble: /usr/local/bin/Assemble
+  CorrectName: /usr/local/bin/CorrectName
+  Pre_Alignment: /usr/local/bin/Pre_Alignment
+  TransComb: /usr/local/bin/TransComb
+  bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0

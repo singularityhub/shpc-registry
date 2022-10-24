@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/art
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for art
+latest:
+  3.19.15--1: sha256:5acf125b9dd38b74bcbb9466172132149912a51c8b4b8be8c431697c2651c04c
+tags:
+  3.19.15--1: sha256:5acf125b9dd38b74bcbb9466172132149912a51c8b4b8be8c431697c2651c04c
+docker: quay.io/biocontainers/art
+aliases:
+  art_454: /usr/local/bin/art_454
+  art_SOLiD: /usr/local/bin/art_SOLiD
+  art_illumina: /usr/local/bin/art_illumina

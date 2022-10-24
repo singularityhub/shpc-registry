@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/aragorn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aragorn
+latest:
+  1.2.41--hec16e2b_0: sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4
+tags:
+  1.2.41--hec16e2b_0: sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4
+docker: quay.io/biocontainers/aragorn

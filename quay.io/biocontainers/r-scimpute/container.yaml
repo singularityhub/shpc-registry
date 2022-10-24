@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-scimpute
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-scimpute
+latest:
+  0.0.8--r41hdfd78af_3: sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569
+tags:
+  0.0.8--r41hdfd78af_3: sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569
+docker: quay.io/biocontainers/r-scimpute

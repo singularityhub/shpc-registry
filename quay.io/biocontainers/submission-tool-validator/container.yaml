@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/submission-tool-validator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for submission-tool-validator
+latest:
+  1.0.7--hdfd78af_0: sha256:397fbf415b7637596626b61d6a4046bf3facf0b707d587e3b80affea67f95a02
+tags:
+  1.0.7--hdfd78af_0: sha256:397fbf415b7637596626b61d6a4046bf3facf0b707d587e3b80affea67f95a02
+docker: quay.io/biocontainers/submission-tool-validator
+aliases:
+  submission-tool-validator: /usr/local/bin/submission-tool-validator

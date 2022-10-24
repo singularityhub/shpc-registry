@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bseqsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bseqsc
+latest:
+  1.0--r41hdfd78af_1: sha256:4e4ecca76f5b96cf2285a31cafa8ab4576d5afc79a8274d91f449909f9d366a2
+tags:
+  1.0--r41hdfd78af_1: sha256:4e4ecca76f5b96cf2285a31cafa8ab4576d5afc79a8274d91f449909f9d366a2
+docker: quay.io/biocontainers/r-bseqsc

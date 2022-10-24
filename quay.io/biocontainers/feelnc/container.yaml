@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/feelnc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for feelnc
+latest:
+  0.2--pl526_0: sha256:80753a45c717c2b2d1dededfe2732baa3cea54b12e8a73d1f48542bdef8480fd
+tags:
+  0.2--pl526_0: sha256:80753a45c717c2b2d1dededfe2732baa3cea54b12e8a73d1f48542bdef8480fd
+docker: quay.io/biocontainers/feelnc
+aliases:
+  FEELnc_classifier.pl: /usr/local/bin/FEELnc_classifier.pl
+  FEELnc_classifier.pl.bak: /usr/local/bin/FEELnc_classifier.pl.bak
+  FEELnc_codpot.pl: /usr/local/bin/FEELnc_codpot.pl
+  FEELnc_codpot.pl.bak: /usr/local/bin/FEELnc_codpot.pl.bak
+  FEELnc_filter.pl: /usr/local/bin/FEELnc_filter.pl
+  FEELnc_filter.pl.bak: /usr/local/bin/FEELnc_filter.pl.bak
+  FEELnc_pipeline.sh: /usr/local/bin/FEELnc_pipeline.sh
+  FEELnc_tpLevel2gnLevelClassification.R: /usr/local/bin/FEELnc_tpLevel2gnLevelClassification.R
+  FEELnc_tpLevel2gnLevelClassification.R.bak: /usr/local/bin/FEELnc_tpLevel2gnLevelClassification.R.bak
+  KmerInShort: /usr/local/bin/KmerInShort
+  fasta_ushuffle: /usr/local/bin/fasta_ushuffle
+  ushuffle: /usr/local/bin/ushuffle

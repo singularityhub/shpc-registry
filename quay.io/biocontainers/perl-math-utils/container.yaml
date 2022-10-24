@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-utils
+latest:
+  1.14--pl5321hdfd78af_0: sha256:1a6d9af26bb183ac9909efd0739c3cadcd94562416940003078a3aa54a2335d3
+tags:
+  1.14--pl5321hdfd78af_0: sha256:1a6d9af26bb183ac9909efd0739c3cadcd94562416940003078a3aa54a2335d3
+docker: quay.io/biocontainers/perl-math-utils

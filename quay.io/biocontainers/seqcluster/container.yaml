@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/seqcluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqcluster
+latest:
+  1.2.9--pyh5e36f6f_0: sha256:61eeb06073d386649651d5fca1030671294e737808436079ef306fb7e983d97c
+tags:
+  1.2.9--pyh5e36f6f_0: sha256:61eeb06073d386649651d5fca1030671294e737808436079ef306fb7e983d97c
+docker: quay.io/biocontainers/seqcluster
+aliases:
+  mirtop: /usr/local/bin/mirtop
+  seqcluster: /usr/local/bin/seqcluster
+  seqcluster_install: /usr/local/bin/seqcluster_install

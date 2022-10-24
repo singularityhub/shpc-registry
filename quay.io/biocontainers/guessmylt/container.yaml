@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/guessmylt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for guessmylt
+latest:
+  0.2.5--py_0: sha256:aa7fceb1b8c605680f47115d5a56785367ffe1dbafdafa599eec6b067cafe719
+tags:
+  0.2.5--py_0: sha256:aa7fceb1b8c605680f47115d5a56785367ffe1dbafdafa599eec6b067cafe719
+docker: quay.io/biocontainers/guessmylt
+aliases:
+  .busco-post-link.sh: /usr/local/bin/.busco-post-link.sh
+  GUESSmyLT: /usr/local/bin/GUESSmyLT
+  GUESSmyLT-example: /usr/local/bin/GUESSmyLT-example
+  PtR: /usr/local/bin/PtR
+  Trinity: /usr/local/bin/Trinity
+  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  autoRun.pathInfo: /usr/local/bin/autoRun.pathInfo
+  b2: /usr/local/bin/b2
+  bamtools-2.4.1: /usr/local/bin/bamtools-2.4.1
+  bjam: /usr/local/bin/bjam
+  contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  espoca: /usr/local/bin/espoca
+  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  filterGenesIn_mRNAname.pl.patch: /usr/local/bin/filterGenesIn_mRNAname.pl.patch
+  filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  generate_plot: /usr/local/bin/generate_plot
+  generate_plot.py: /usr/local/bin/generate_plot.py
+  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  gtf2gff.pl.origexit: /usr/local/bin/gtf2gff.pl.origexit
+  insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
+  intron2exex.pl: /usr/local/bin/intron2exex.pl
+  ratewig.pl: /usr/local/bin/ratewig.pl
+  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  run_BUSCO.py: /usr/local/bin/run_BUSCO.py
+  run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
+  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  run_Trinity_from_samples_file.pl: /usr/local/bin/run_Trinity_from_samples_file.pl
+  run_busco: /usr/local/bin/run_busco
+  run_expr_quantification_from_samples_file.pl: /usr/local/bin/run_expr_quantification_from_samples_file.pl
+  seqtk-trinity: /usr/local/bin/seqtk-trinity
+  webserver-results.body: /usr/local/bin/webserver-results.body

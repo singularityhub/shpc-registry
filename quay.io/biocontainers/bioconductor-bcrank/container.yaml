@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bcrank
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bcrank
+latest:
+  1.56.0--r41hc0cfd56_2: sha256:46932b601f4b18124dfe16e0915ae5f7789ebaba748dba7973ba5440eaeb26cb
+tags:
+  1.56.0--r41hc0cfd56_2: sha256:46932b601f4b18124dfe16e0915ae5f7789ebaba748dba7973ba5440eaeb26cb
+docker: quay.io/biocontainers/bioconductor-bcrank

@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/cellrank-krylov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cellrank-krylov
+latest:
+  1.5.1--pyh1e54042_0: sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
+tags:
+  1.5.1--pyh1e54042_0: sha256:e66608bf24b4fda39abc9327a2e2d087566c95bfbb9906fd8e2d64cf01666110
+docker: quay.io/biocontainers/cellrank-krylov
+aliases:
+  acpl: /usr/local/bin/acpl
+  amk_ccc: /usr/local/bin/amk_ccc
+  amk_fft2: /usr/local/bin/amk_fft2
+  amk_grf: /usr/local/bin/amk_grf
+  amk_hy: /usr/local/bin/amk_hy
+  amk_m2: /usr/local/bin/amk_m2
+  amk_p2: /usr/local/bin/amk_p2
+  atst: /usr/local/bin/atst
+  dggath: /usr/local/bin/dggath
+  dgmap: /usr/local/bin/dgmap
+  dgord: /usr/local/bin/dgord
+  dgpart: /usr/local/bin/dgpart
+  dgscat: /usr/local/bin/dgscat
+  dgtst: /usr/local/bin/dgtst
+  dunamai: /usr/local/bin/dunamai
+  gbase: /usr/local/bin/gbase
+  gcv: /usr/local/bin/gcv
+  gmk_hy: /usr/local/bin/gmk_hy
+  gmk_m2: /usr/local/bin/gmk_m2
+  gmk_m3: /usr/local/bin/gmk_m3
+  gmk_msh: /usr/local/bin/gmk_msh
+  gmk_ub2: /usr/local/bin/gmk_ub2
+  gmtst: /usr/local/bin/gmtst
+  gord: /usr/local/bin/gord
+  gotst: /usr/local/bin/gotst
+  gout: /usr/local/bin/gout
+  gpart: /usr/local/bin/gpart
+  gscat: /usr/local/bin/gscat
+  gtst: /usr/local/bin/gtst
+  loompy: /usr/local/bin/loompy
+  mcv: /usr/local/bin/mcv
+  mmk_m2: /usr/local/bin/mmk_m2
+  mmk_m3: /usr/local/bin/mmk_m3
+  mord: /usr/local/bin/mord
+  mtest: /usr/local/bin/mtest
+  mtst: /usr/local/bin/mtst
+  parmetis: /usr/local/bin/parmetis
+  pddrive: /usr/local/bin/pddrive
+  pddrive_spawn: /usr/local/bin/pddrive_spawn
+  pometis: /usr/local/bin/pometis
+  ptest: /usr/local/bin/ptest
+  scotch_esmumps: /usr/local/bin/scotch_esmumps

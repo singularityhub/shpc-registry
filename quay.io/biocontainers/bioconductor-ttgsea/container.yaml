@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ttgsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ttgsea
+latest:
+  1.2.0--r41hdfd78af_0: sha256:837b5f521ff1387391df7b08d09760d60ccd3ff2a8d83b8c2cde249eb93562b5
+tags:
+  1.2.0--r41hdfd78af_0: sha256:837b5f521ff1387391df7b08d09760d60ccd3ff2a8d83b8c2cde249eb93562b5
+docker: quay.io/biocontainers/bioconductor-ttgsea

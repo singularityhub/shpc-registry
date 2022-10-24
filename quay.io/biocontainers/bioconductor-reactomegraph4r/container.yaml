@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-reactomegraph4r
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-reactomegraph4r
+latest:
+  1.2.0--r41hdfd78af_0: sha256:78334cd35e3db205a86523cf9c94944ed5c3143724ef3443b5f70986026ce557
+tags:
+  1.2.0--r41hdfd78af_0: sha256:78334cd35e3db205a86523cf9c94944ed5c3143724ef3443b5f70986026ce557
+docker: quay.io/biocontainers/bioconductor-reactomegraph4r

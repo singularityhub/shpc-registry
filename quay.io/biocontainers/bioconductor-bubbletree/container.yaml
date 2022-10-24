@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bubbletree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bubbletree
+latest:
+  2.8.0--r3.4.1_1: sha256:56ec8558a11756a965cd4a986c572020d91f929b7f3d38c6ce1bbc55f21f0aca
+tags:
+  2.8.0--r3.4.1_1: sha256:56ec8558a11756a965cd4a986c572020d91f929b7f3d38c6ce1bbc55f21f0aca
+docker: quay.io/biocontainers/bioconductor-bubbletree

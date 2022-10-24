@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/clan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clan
+latest:
+  0.05--h9f5acd7_2: sha256:c21ca23fea4efb0f2fdd1153236ae4e763e4c75e37f048182f296e6de1da4370
+tags:
+  0.05--h9f5acd7_2: sha256:c21ca23fea4efb0f2fdd1153236ae4e763e4c75e37f048182f296e6de1da4370
+docker: quay.io/biocontainers/clan
+aliases:
+  clan_annotate: /usr/local/bin/clan_annotate
+  clan_index: /usr/local/bin/clan_index
+  clan_output: /usr/local/bin/clan_output
+  clan_search: /usr/local/bin/clan_search

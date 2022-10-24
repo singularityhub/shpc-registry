@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qckitfastq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qckitfastq
+latest:
+  1.8.0--r41h399db7b_0: sha256:a596621359b12ac8814adfa65c1bb8efb10f5e29f0c1753e9e2dc357846ddd68
+tags:
+  1.8.0--r41h399db7b_0: sha256:a596621359b12ac8814adfa65c1bb8efb10f5e29f0c1753e9e2dc357846ddd68
+docker: quay.io/biocontainers/bioconductor-qckitfastq

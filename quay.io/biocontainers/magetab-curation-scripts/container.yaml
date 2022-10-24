@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/magetab-curation-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for magetab-curation-scripts
+latest:
+  1.1.0--hdfd78af_0: sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
+tags:
+  1.1.0--hdfd78af_0: sha256:9663f6919f09d859a0505e12aba3423febc38bb36bc19226e2359e7ab4b26868
+docker: quay.io/biocontainers/magetab-curation-scripts
+aliases:
+  adf_checker.pl: /usr/local/bin/adf_checker.pl
+  check_atlas_eligibility.pl: /usr/local/bin/check_atlas_eligibility.pl
+  comment_out_assays.pl: /usr/local/bin/comment_out_assays.pl
+  crc32: /usr/local/bin/crc32
+  dm_date: /usr/local/bin/dm_date
+  dm_zdump: /usr/local/bin/dm_zdump
+  gal2adf.pl: /usr/local/bin/gal2adf.pl
+  launch_tracking_daemons.pl: /usr/local/bin/launch_tracking_daemons.pl
+  magetab_insert_array.pl: /usr/local/bin/magetab_insert_array.pl
+  magetab_insert_sub.pl: /usr/local/bin/magetab_insert_sub.pl
+  nimblegen2adf.pl: /usr/local/bin/nimblegen2adf.pl
+  pg_verify_checksums: /usr/local/bin/pg_verify_checksums
+  reset_array.pl: /usr/local/bin/reset_array.pl
+  reset_experiment.pl: /usr/local/bin/reset_experiment.pl
+  single_use_tracking_daemon.pl: /usr/local/bin/single_use_tracking_daemon.pl
+  split_magetab.pl: /usr/local/bin/split_magetab.pl
+  validate_magetab.pl: /usr/local/bin/validate_magetab.pl
+  validjson: /usr/local/bin/validjson

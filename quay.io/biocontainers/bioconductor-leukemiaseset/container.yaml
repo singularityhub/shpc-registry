@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-leukemiaseset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-leukemiaseset
+latest:
+  1.30.0--r41hdfd78af_1: sha256:2405678e612b4c233154d10c8f4e72e140ec1828caeb3a92e009ce48f1e7fbc2
+tags:
+  1.30.0--r41hdfd78af_1: sha256:2405678e612b4c233154d10c8f4e72e140ec1828caeb3a92e009ce48f1e7fbc2
+docker: quay.io/biocontainers/bioconductor-leukemiaseset
+aliases:
+  .bioconductor-leukemiaseset-post-link.sh: /usr/local/bin/.bioconductor-leukemiaseset-post-link.sh
+  .bioconductor-leukemiaseset-pre-unlink.sh: /usr/local/bin/.bioconductor-leukemiaseset-pre-unlink.sh

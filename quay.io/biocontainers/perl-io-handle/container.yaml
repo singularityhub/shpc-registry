@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-handle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-handle
+latest:
+  1.42--pl5321hdfd78af_2: sha256:87f33b91e1572d3f163c418ba60a5d3b1cb3635a73fcfa67d51aff91e991e9d3
+tags:
+  1.42--pl5321hdfd78af_2: sha256:87f33b91e1572d3f163c418ba60a5d3b1cb3635a73fcfa67d51aff91e991e9d3
+docker: quay.io/biocontainers/perl-io-handle

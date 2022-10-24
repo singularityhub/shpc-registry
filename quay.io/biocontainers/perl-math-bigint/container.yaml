@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-bigint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-bigint
+latest:
+  1.999837--pl5321hdfd78af_0: sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973
+tags:
+  1.999837--pl5321hdfd78af_0: sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973
+docker: quay.io/biocontainers/perl-math-bigint

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-regutools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-regutools
+latest:
+  1.6.0--r41hdfd78af_0: sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f
+tags:
+  1.6.0--r41hdfd78af_0: sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f
+docker: quay.io/biocontainers/bioconductor-regutools

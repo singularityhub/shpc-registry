@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-trajectorygeometry
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-trajectorygeometry
+latest:
+  1.2.0--r41hdfd78af_0: sha256:67a1b5ec12277fac7cbcfff3909299a85ff356cfb1656380ba08cbc0c06c7fbd
+tags:
+  1.2.0--r41hdfd78af_0: sha256:67a1b5ec12277fac7cbcfff3909299a85ff356cfb1656380ba08cbc0c06c7fbd
+docker: quay.io/biocontainers/bioconductor-trajectorygeometry

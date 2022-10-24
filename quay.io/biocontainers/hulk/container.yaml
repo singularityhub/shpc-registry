@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hulk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hulk
+latest:
+  1.0.0--h375a9b1_0: sha256:fd1bdff3d3665950265028498e27ea8f2966dcfb1463031bac89623075cd0589
+tags:
+  1.0.0--h375a9b1_0: sha256:fd1bdff3d3665950265028498e27ea8f2966dcfb1463031bac89623075cd0589
+docker: quay.io/biocontainers/hulk
+aliases:
+  hulk: /usr/local/bin/hulk

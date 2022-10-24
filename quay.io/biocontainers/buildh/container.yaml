@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/buildh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for buildh
+latest:
+  1.6.1--pyhdfd78af_0: sha256:5d9e7aed124c144ada6f6610336bf47b5f12a80d57dd36b9e04fea8dfda6ef6b
+tags:
+  1.6.1--pyhdfd78af_0: sha256:5d9e7aed124c144ada6f6610336bf47b5f12a80d57dd36b9e04fea8dfda6ef6b
+docker: quay.io/biocontainers/buildh
+aliases:
+  buildH: /usr/local/bin/buildH
+  gsd: /usr/local/bin/gsd
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo

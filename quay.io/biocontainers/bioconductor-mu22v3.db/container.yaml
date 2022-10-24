@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mu22v3.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mu22v3.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:3fad109dddbc05e84ef59b833386ee32bfa46796111788babd2615e3916b4e07
+tags:
+  3.2.3--r41hdfd78af_9: sha256:3fad109dddbc05e84ef59b833386ee32bfa46796111788babd2615e3916b4e07
+docker: quay.io/biocontainers/bioconductor-mu22v3.db
+aliases:
+  .bioconductor-mu22v3.db-post-link.sh: /usr/local/bin/.bioconductor-mu22v3.db-post-link.sh
+  .bioconductor-mu22v3.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mu22v3.db-pre-unlink.sh

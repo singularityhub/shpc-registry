@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tcga2stat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tcga2stat
+latest:
+  1.2--r41h3121a25_8: sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f
+tags:
+  1.2--r41h3121a25_8: sha256:aad507daf828a3d31654ccbc3cea3471d1df564f9d3aa56cf0ba96bc06f2892f
+docker: quay.io/biocontainers/r-tcga2stat

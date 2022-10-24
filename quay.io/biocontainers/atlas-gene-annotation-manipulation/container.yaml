@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/atlas-gene-annotation-manipulation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for atlas-gene-annotation-manipulation
+latest:
+  1.1.0--hdfd78af_0: sha256:6df522ec18b3e22021768a94ff0de7aa191729220a83040c31b41210f2b65967
+tags:
+  1.1.0--hdfd78af_0: sha256:6df522ec18b3e22021768a94ff0de7aa191729220a83040c31b41210f2b65967
+docker: quay.io/biocontainers/atlas-gene-annotation-manipulation
+aliases:
+  gtf2featureAnnotation.R: /usr/local/bin/gtf2featureAnnotation.R

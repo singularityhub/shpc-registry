@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/machina
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for machina
+latest:
+  1.2--h7ff8a90_4: sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89
+tags:
+  1.2--h7ff8a90_4: sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89
+docker: quay.io/biocontainers/machina
+aliases:
+  dimacs-solver: /usr/local/bin/dimacs-solver
+  dimacs-to-lgf: /usr/local/bin/dimacs-to-lgf
+  generatemigrationtrees: /usr/local/bin/generatemigrationtrees
+  generatemutationtrees: /usr/local/bin/generatemutationtrees
+  lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
+  lgf-gen: /usr/local/bin/lgf-gen
+  ms: /usr/local/bin/ms
+  pmh: /usr/local/bin/pmh
+  pmh_sankoff: /usr/local/bin/pmh_sankoff
+  pmh_ti: /usr/local/bin/pmh_ti
+  pmh_tr: /usr/local/bin/pmh_tr
+  visualizeclonetree: /usr/local/bin/visualizeclonetree
+  visualizemigrationgraph: /usr/local/bin/visualizemigrationgraph

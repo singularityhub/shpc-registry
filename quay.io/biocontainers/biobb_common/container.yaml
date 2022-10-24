@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biobb_common
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_common
+latest:
+  3.8.1--pyhdfd78af_0: sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e
+tags:
+  3.8.1--pyhdfd78af_0: sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e
+docker: quay.io/biocontainers/biobb_common

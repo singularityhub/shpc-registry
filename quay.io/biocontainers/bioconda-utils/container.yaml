@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/bioconda-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconda-utils
+latest:
+  1.1.5--pyhdfd78af_0: sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f
+tags:
+  1.1.5--pyhdfd78af_0: sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f
+docker: quay.io/biocontainers/bioconda-utils
+aliases:
+  anaconda: /usr/local/bin/anaconda
+  binstar: /usr/local/bin/binstar
+  bioconda-utils: /usr/local/bin/bioconda-utils
+  boa: /usr/local/bin/boa
+  celery: /usr/local/bin/celery
+  conda-build: /usr/local/bin/conda-build
+  conda-convert: /usr/local/bin/conda-convert
+  conda-debug: /usr/local/bin/conda-debug
+  conda-develop: /usr/local/bin/conda-develop
+  conda-index: /usr/local/bin/conda-index
+  conda-inspect: /usr/local/bin/conda-inspect
+  conda-mambabuild: /usr/local/bin/conda-mambabuild
+  conda-metapackage: /usr/local/bin/conda-metapackage
+  conda-render: /usr/local/bin/conda-render
+  conda-server: /usr/local/bin/conda-server
+  conda-skeleton: /usr/local/bin/conda-skeleton
+  conda-verify: /usr/local/bin/conda-verify
+  involucro: /usr/local/bin/involucro
+  mamba-package: /usr/local/bin/mamba-package
+  patchelf: /usr/local/bin/patchelf
+  pkginfo: /usr/local/bin/pkginfo
+  pyjson5: /usr/local/bin/pyjson5
+  rg: /usr/local/bin/rg
+  scalar: /usr/local/bin/scalar
+  skopeo: /usr/local/bin/skopeo
+  watchgod: /usr/local/bin/watchgod

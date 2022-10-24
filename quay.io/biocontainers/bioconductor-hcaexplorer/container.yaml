@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hcaexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hcaexplorer
+latest:
+  1.4.0--r40hdfd78af_1: sha256:1f5362e678984f236853cd128afd37c8e00589e949946d8ab5511cfb1a37a3db
+tags:
+  1.4.0--r40hdfd78af_1: sha256:1f5362e678984f236853cd128afd37c8e00589e949946d8ab5511cfb1a37a3db
+docker: quay.io/biocontainers/bioconductor-hcaexplorer

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mime-base64
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mime-base64
+latest:
+  3.16--pl5321hec16e2b_2: sha256:0c0c336977da34e1f3666c0aad237afae6e8526f28d5810435b15fdb4bd5f03c
+tags:
+  3.16--pl5321hec16e2b_2: sha256:0c0c336977da34e1f3666c0aad237afae6e8526f28d5810435b15fdb4bd5f03c
+docker: quay.io/biocontainers/perl-mime-base64

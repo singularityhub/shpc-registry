@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bacgwasim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bacgwasim
+latest:
+  2.1.1--pyhdfd78af_0: sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
+tags:
+  2.1.1--pyhdfd78af_0: sha256:4b06901ae551a2f2fba28bd82a4bbda2d4046698f939e66cdfe3f303dc910847
+docker: quay.io/biocontainers/bacgwasim
+aliases:
+  BacGWASim: /usr/local/bin/BacGWASim
+  SimBac: /usr/local/bin/SimBac
+  gcta64: /usr/local/bin/gcta64
+  plink: /usr/local/bin/plink

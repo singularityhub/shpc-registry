@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/dropletutils-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dropletutils-scripts
+latest:
+  0.0.5--hdfd78af_1: sha256:97ed6b5d0d80e52634e9f38f921c79792516ecea41947c31cd5c270c9ef7c5dd
+tags:
+  0.0.5--hdfd78af_1: sha256:97ed6b5d0d80e52634e9f38f921c79792516ecea41947c31cd5c270c9ef7c5dd
+docker: quay.io/biocontainers/dropletutils-scripts
+aliases:
+  dropletutils-barcoderanks.R: /usr/local/bin/dropletutils-barcoderanks.R
+  dropletutils-downsample-matrix.R: /usr/local/bin/dropletutils-downsample-matrix.R
+  dropletutils-empty-drops.R: /usr/local/bin/dropletutils-empty-drops.R
+  dropletutils-make-test-sdrf.R: /usr/local/bin/dropletutils-make-test-sdrf.R
+  dropletutils-read-10x-counts.R: /usr/local/bin/dropletutils-read-10x-counts.R
+  dropletutils-scripts-post-install-tests.bats: /usr/local/bin/dropletutils-scripts-post-install-tests.bats
+  dropletutils-scripts-post-install-tests.sh: /usr/local/bin/dropletutils-scripts-post-install-tests.sh

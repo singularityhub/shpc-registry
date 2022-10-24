@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/count_constant_sites
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for count_constant_sites
+latest:
+  0.1.1--h9ee0642_1: sha256:45f1c5a082d8877ebbb3e3cb5f1792d78341692826437d2d7bcc3131e3eb9dce
+tags:
+  0.1.1--h9ee0642_1: sha256:45f1c5a082d8877ebbb3e3cb5f1792d78341692826437d2d7bcc3131e3eb9dce
+docker: quay.io/biocontainers/count_constant_sites
+aliases:
+  count_constant_sites: /usr/local/bin/count_constant_sites

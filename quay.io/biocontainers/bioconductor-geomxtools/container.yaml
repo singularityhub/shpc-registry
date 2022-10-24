@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geomxtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geomxtools
+latest:
+  2.0.0--r41hdfd78af_0: sha256:8d1f370ad13bb6f12719ac2030c1989a4ca60131839839763b9f9840c9573c5f
+tags:
+  2.0.0--r41hdfd78af_0: sha256:8d1f370ad13bb6f12719ac2030c1989a4ca60131839839763b9f9840c9573c5f
+docker: quay.io/biocontainers/bioconductor-geomxtools

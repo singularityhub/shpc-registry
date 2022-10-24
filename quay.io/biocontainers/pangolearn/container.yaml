@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pangolearn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pangolearn
+latest:
+  2022.03.22--pyh5e36f6f_0: sha256:db575cb88a4dcc04fb1e9ae9ecdce6ef7e03e09fcd60bb2c3caa7f618e5f62cf
+tags:
+  2022.03.22--pyh5e36f6f_0: sha256:db575cb88a4dcc04fb1e9ae9ecdce6ef7e03e09fcd60bb2c3caa7f618e5f62cf
+docker: quay.io/biocontainers/pangolearn
+aliases:
+  pangoLEARN: /usr/local/bin/pangoLEARN

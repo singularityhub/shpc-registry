@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bbcanalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bbcanalyzer
+latest:
+  1.8.0--r3.4.1_0: sha256:954133a45ed1c15a3606327c9100710030f15019c5b075f067538e563c9fba38
+tags:
+  1.8.0--r3.4.1_0: sha256:954133a45ed1c15a3606327c9100710030f15019c5b075f067538e563c9fba38
+docker: quay.io/biocontainers/bioconductor-bbcanalyzer

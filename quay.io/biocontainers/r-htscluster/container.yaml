@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-htscluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-htscluster
+latest:
+  2.0.8--r41h3342da4_5: sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301
+tags:
+  2.0.8--r41h3342da4_5: sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301
+docker: quay.io/biocontainers/r-htscluster

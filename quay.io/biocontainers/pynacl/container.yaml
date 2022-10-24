@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pynacl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pynacl
+latest:
+  0.3.0--py36_0: sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010
+tags:
+  0.3.0--py36_0: sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010
+docker: quay.io/biocontainers/pynacl

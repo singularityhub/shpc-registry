@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pargenes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pargenes
+latest:
+  1.2.0--py27h8374a30_0: sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078
+tags:
+  1.2.0--py27h8374a30_0: sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078
+docker: quay.io/biocontainers/pargenes
+aliases:
+  pargenes-hpc-debug.py: /usr/local/bin/pargenes-hpc-debug.py
+  pargenes-hpc.py: /usr/local/bin/pargenes-hpc.py
+  pargenes.py: /usr/local/bin/pargenes.py

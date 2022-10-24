@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/orfm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for orfm
+latest:
+  1.3--hed695b0_0: sha256:17657fd85d06a2710df0d969e29b8e0f3185c08825cb249fff7fb9a2976c8301
+tags:
+  1.3--hed695b0_0: sha256:17657fd85d06a2710df0d969e29b8e0f3185c08825cb249fff7fb9a2976c8301
+docker: quay.io/biocontainers/orfm
+aliases:
+  orfm: /usr/local/bin/orfm

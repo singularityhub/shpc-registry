@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-interactive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-interactive
+latest:
+  1.023--pl5321hdfd78af_0: sha256:ec3636f462521e8d85205ff1b41983245844ef66f4fc285d38618a56b05b06d9
+tags:
+  1.023--pl5321hdfd78af_0: sha256:ec3636f462521e8d85205ff1b41983245844ef66f4fc285d38618a56b05b06d9
+docker: quay.io/biocontainers/perl-io-interactive

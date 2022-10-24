@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-multihiccompare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multihiccompare
+latest:
+  1.8.0--r40hdfd78af_1: sha256:18677d0a6343e180b478f6fc19aaea1ae25be8976ba47d4a4bfced1c9bd3d8c0
+tags:
+  1.8.0--r40hdfd78af_1: sha256:18677d0a6343e180b478f6fc19aaea1ae25be8976ba47d4a4bfced1c9bd3d8c0
+docker: quay.io/biocontainers/bioconductor-multihiccompare
+aliases:
+  .bioconductor-keggdzpathwaysgeo-post-link.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh
+  .bioconductor-keggdzpathwaysgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-linc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-linc
+latest:
+  1.8.0--r341hfc679d8_0: sha256:60ec90d8ca9ecb214a254866a813dbeeaecd1f7618ebe5a05105ca99dc5d9e00
+tags:
+  1.8.0--r341hfc679d8_0: sha256:60ec90d8ca9ecb214a254866a813dbeeaecd1f7618ebe5a05105ca99dc5d9e00
+docker: quay.io/biocontainers/bioconductor-linc

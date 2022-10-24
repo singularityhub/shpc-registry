@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-frmaexampledata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-frmaexampledata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477
+tags:
+  1.30.0--r41hdfd78af_1: sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477
+docker: quay.io/biocontainers/bioconductor-frmaexampledata
+aliases:
+  .bioconductor-frmaexampledata-post-link.sh: /usr/local/bin/.bioconductor-frmaexampledata-post-link.sh
+  .bioconductor-frmaexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-frmaexampledata-pre-unlink.sh

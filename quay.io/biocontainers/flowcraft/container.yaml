@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flowcraft
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flowcraft
+latest:
+  1.4.1--py_2: sha256:0429a8f688a352d95a37430ea58aabcec46b31cc832ce3d288218cb6fffccbaf
+tags:
+  1.4.1--py_2: sha256:0429a8f688a352d95a37430ea58aabcec46b31cc832ce3d288218cb6fffccbaf
+docker: quay.io/biocontainers/flowcraft
+aliases:
+  flowcraft: /usr/local/bin/flowcraft

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cand
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cand
+latest:
+  1.8.0--r3.3.2_0: sha256:6a11406ac9c123aecefc7d30ee2c611deb31ab1de63a6a1d7d8f00b33ab26312
+tags:
+  1.8.0--r3.3.2_0: sha256:6a11406ac9c123aecefc7d30ee2c611deb31ab1de63a6a1d7d8f00b33ab26312
+docker: quay.io/biocontainers/bioconductor-cand

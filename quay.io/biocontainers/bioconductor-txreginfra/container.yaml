@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-txreginfra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txreginfra
+latest:
+  1.8.0--r40_0: sha256:c8df9823aeb489e85fa746eaed5e69f6ec48cd29c185ee799b2d90bd1311b3d6
+tags:
+  1.8.0--r40_0: sha256:c8df9823aeb489e85fa746eaed5e69f6ec48cd29c185ee799b2d90bd1311b3d6
+docker: quay.io/biocontainers/bioconductor-txreginfra

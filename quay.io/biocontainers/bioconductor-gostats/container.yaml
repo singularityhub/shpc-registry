@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gostats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gostats
+latest:
+  2.60.0--r41hdfd78af_0: sha256:dac96483e0dfbdfef1d60039f2694a4fa4a989baa9a3b671f6eafaf88557fad9
+tags:
+  2.60.0--r41hdfd78af_0: sha256:dac96483e0dfbdfef1d60039f2694a4fa4a989baa9a3b671f6eafaf88557fad9
+docker: quay.io/biocontainers/bioconductor-gostats

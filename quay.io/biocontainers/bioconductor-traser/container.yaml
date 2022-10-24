@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioconductor-traser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-traser
+latest:
+  1.8.0--r3.4.1_0: sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba
+tags:
+  1.8.0--r3.4.1_0: sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba
+docker: quay.io/biocontainers/bioconductor-traser
+aliases:
+  BSgenome.Hsapiens.UCSC.hg19_1.4.0_R_x86_64-pc-linux-gnu.tar.gz: /usr/local/bin/BSgenome.Hsapiens.UCSC.hg19_1.4.0_R_x86_64-pc-linux-gnu.tar.gz

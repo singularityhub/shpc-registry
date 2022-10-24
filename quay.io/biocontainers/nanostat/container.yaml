@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanostat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanostat
+latest:
+  1.6.0--pyhdfd78af_0: sha256:9178ddb897ecec70ebf71be597f11bbfa776fad60ccd9afd29aecc5a5c1debc1
+tags:
+  1.6.0--pyhdfd78af_0: sha256:9178ddb897ecec70ebf71be597f11bbfa776fad60ccd9afd29aecc5a5c1debc1
+docker: quay.io/biocontainers/nanostat
+aliases:
+  NanoStat: /usr/local/bin/NanoStat

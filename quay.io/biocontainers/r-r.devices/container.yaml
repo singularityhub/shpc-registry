@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r.devices
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r.devices
+latest:
+  2.15.1--r3.3.1_0: sha256:b3be28b98fd86b25e612d917bedc3df543fafdc77fcc07a913aa617732f240e4
+tags:
+  2.15.1--r3.3.1_0: sha256:b3be28b98fd86b25e612d917bedc3df543fafdc77fcc07a913aa617732f240e4
+docker: quay.io/biocontainers/r-r.devices

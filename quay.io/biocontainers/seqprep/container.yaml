@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seqprep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqprep
+latest:
+  1.3.2--h7132678_6: sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600
+tags:
+  1.3.2--h7132678_6: sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600
+docker: quay.io/biocontainers/seqprep
+aliases:
+  SeqPrep: /usr/local/bin/SeqPrep

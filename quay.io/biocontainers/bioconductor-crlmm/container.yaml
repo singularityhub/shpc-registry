@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-crlmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-crlmm
+latest:
+  1.52.0--r41hc0cfd56_2: sha256:8f55a6dd6b6f55ee172c2f84c64300835a59ca469cd645cc8316086c114a19a8
+tags:
+  1.52.0--r41hc0cfd56_2: sha256:8f55a6dd6b6f55ee172c2f84c64300835a59ca469cd645cc8316086c114a19a8
+docker: quay.io/biocontainers/bioconductor-crlmm

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tloh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tloh
+latest:
+  1.2.0--r41hdfd78af_0: sha256:e9aadb333a6ad6f8331cd379173aaed8bc8b09b6e9767596cd967987b379021c
+tags:
+  1.2.0--r41hdfd78af_0: sha256:e9aadb333a6ad6f8331cd379173aaed8bc8b09b6e9767596cd967987b379021c
+docker: quay.io/biocontainers/bioconductor-tloh

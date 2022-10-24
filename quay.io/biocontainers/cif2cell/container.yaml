@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cif2cell
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cif2cell
+latest:
+  2.0.0a3: sha256:9a13a63ad7a2a467c8a4e29d1cb1d7494ab9cac9dbfa2db257fa6c3e806e2ee4
+tags:
+  2.0.0a3: sha256:9a13a63ad7a2a467c8a4e29d1cb1d7494ab9cac9dbfa2db257fa6c3e806e2ee4
+docker: quay.io/biocontainers/cif2cell
+aliases:
+  cif2cell: /usr/local/bin/cif2cell
+  vasp2cif: /usr/local/bin/vasp2cif

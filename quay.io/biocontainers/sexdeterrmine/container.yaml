@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sexdeterrmine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sexdeterrmine
+latest:
+  1.1.2--hdfd78af_1: sha256:1270ec66ccc7da188547ce2b09c0d2d2475a28a88c006d5727fbfa6ac06e8d1d
+tags:
+  1.1.2--hdfd78af_1: sha256:1270ec66ccc7da188547ce2b09c0d2d2475a28a88c006d5727fbfa6ac06e8d1d
+docker: quay.io/biocontainers/sexdeterrmine
+aliases:
+  sexdeterrmine: /usr/local/bin/sexdeterrmine

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-a4classif
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-a4classif
+latest:
+  1.42.0--r41hdfd78af_0: sha256:5d1bfc36c3c9c89a3b32d603fb16d44d7e273d05be0e1d8b21090af67a7d0c21
+tags:
+  1.42.0--r41hdfd78af_0: sha256:5d1bfc36c3c9c89a3b32d603fb16d44d7e273d05be0e1d8b21090af67a7d0c21
+docker: quay.io/biocontainers/bioconductor-a4classif

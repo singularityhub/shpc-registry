@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/elastic-blast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for elastic-blast
+latest:
+  0.2.7--pyhdfd78af_0: sha256:ea42cbd2ebc5e67f491242aca9806b69e81e59c535785d727a58e29d5f722f80
+tags:
+  0.2.7--pyhdfd78af_0: sha256:ea42cbd2ebc5e67f491242aca9806b69e81e59c535785d727a58e29d5f722f80
+docker: quay.io/biocontainers/elastic-blast
+aliases:
+  aws: /usr/local/bin/aws
+  aws-create-elastic-blast-janitor-role.sh: /usr/local/bin/aws-create-elastic-blast-janitor-role.sh
+  aws-delete-elastic-blast-janitor-role.sh: /usr/local/bin/aws-delete-elastic-blast-janitor-role.sh
+  aws-describe-elastic-blast-janitor-role.sh: /usr/local/bin/aws-describe-elastic-blast-janitor-role.sh
+  aws-get-auto-scaling-events.sh: /usr/local/bin/aws-get-auto-scaling-events.sh
+  aws-show-my-undeleted-searches.sh: /usr/local/bin/aws-show-my-undeleted-searches.sh
+  aws.cmd: /usr/local/bin/aws.cmd
+  aws_bash_completer: /usr/local/bin/aws_bash_completer
+  aws_completer: /usr/local/bin/aws_completer
+  aws_zsh_completer.sh: /usr/local/bin/aws_zsh_completer.sh
+  awslimitchecker: /usr/local/bin/awslimitchecker
+  blast-tuner.py: /usr/local/bin/blast-tuner.py
+  bq: /usr/local/bin/bq
+  cleanup-stale-gcp-resources.py: /usr/local/bin/cleanup-stale-gcp-resources.py
+  create-blastdb-metadata.py: /usr/local/bin/create-blastdb-metadata.py
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  elastic-blast: /usr/local/bin/elastic-blast
+  elb-cost.py: /usr/local/bin/elb-cost.py
+  fasta_split.py: /usr/local/bin/fasta_split.py
+  gcloud: /usr/local/bin/gcloud
+  gcp-setup-elastic-blast-janitor.sh: /usr/local/bin/gcp-setup-elastic-blast-janitor.sh
+  gcp-show-my-undeleted-searches.sh: /usr/local/bin/gcp-show-my-undeleted-searches.sh
+  gcp_ram_size.py: /usr/local/bin/gcp_ram_size.py
+  kubectl: /usr/local/bin/kubectl
+  publish.py: /usr/local/bin/publish.py
+  results2clustername.sh: /usr/local/bin/results2clustername.sh

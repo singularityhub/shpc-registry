@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-relations
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-relations
+latest:
+  0.6_6--r3.3.1_0: sha256:f7f3d8f82ed87b720f08184a5d9defff3ad98afb2fdcf67c1cae98ed9335c315
+tags:
+  0.6_6--r3.3.1_0: sha256:f7f3d8f82ed87b720f08184a5d9defff3ad98afb2fdcf67c1cae98ed9335c315
+docker: quay.io/biocontainers/r-relations

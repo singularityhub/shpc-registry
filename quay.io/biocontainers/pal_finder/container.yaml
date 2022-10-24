@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pal_finder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pal_finder
+latest:
+  0.02.04--hdfd78af_4: sha256:0b6a16059b57bcba5e0052e0ecf4cbdaaccd9f557abb2f008c397ffbbd7999c4
+tags:
+  0.02.04--hdfd78af_4: sha256:0b6a16059b57bcba5e0052e0ecf4cbdaaccd9f557abb2f008c397ffbbd7999c4
+docker: quay.io/biocontainers/pal_finder
+aliases:
+  long_seq_tm_test: /usr/local/bin/long_seq_tm_test
+  ntdpal: /usr/local/bin/ntdpal
+  oligotm: /usr/local/bin/oligotm
+  pal_finder: /usr/local/bin/pal_finder
+  primer3_core: /usr/local/bin/primer3_core

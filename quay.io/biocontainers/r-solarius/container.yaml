@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-solarius
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-solarius
+latest:
+  0.3.0.2--r3.4.1_0: sha256:073085b83265a2e18d391d1b2ca3a8abf491e62f1dd1a6f70ae3d7da12fe794e
+tags:
+  0.3.0.2--r3.4.1_0: sha256:073085b83265a2e18d391d1b2ca3a8abf491e62f1dd1a6f70ae3d7da12fe794e
+docker: quay.io/biocontainers/r-solarius

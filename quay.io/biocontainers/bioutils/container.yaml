@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioutils
+latest:
+  0.5.7--pyhdfd78af_0: sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc
+tags:
+  0.5.7--pyhdfd78af_0: sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc
+docker: quay.io/biocontainers/bioutils

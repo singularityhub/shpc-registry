@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rebaler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rebaler
+latest:
+  0.2.0--py_1: sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215
+tags:
+  0.2.0--py_1: sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215
+docker: quay.io/biocontainers/rebaler
+aliases:
+  rebaler: /usr/local/bin/rebaler

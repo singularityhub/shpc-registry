@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-minpack.lm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-minpack.lm
+latest:
+  1.2_1--r3.3.1_0: sha256:738373d9ffd4a14fa33301dc22af082f1bd1cfc155d37092a48dfb711b50e7c9
+tags:
+  1.2_1--r3.3.1_0: sha256:738373d9ffd4a14fa33301dc22af082f1bd1cfc155d37092a48dfb711b50e7c9
+docker: quay.io/biocontainers/r-minpack.lm

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-soap-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-soap-lite
+latest:
+  1.27--pl5321hdfd78af_0: sha256:ee9748919ef7829f75c5d502e3bebdb882bacbff69c3d5c2324219926dd4dc9a
+tags:
+  1.27--pl5321hdfd78af_0: sha256:ee9748919ef7829f75c5d502e3bebdb882bacbff69c3d5c2324219926dd4dc9a
+docker: quay.io/biocontainers/perl-soap-lite

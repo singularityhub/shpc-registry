@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/motifscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for motifscan
+latest:
+  1.3.0--py38hbff2b2d_2: sha256:63ad16bcbd5c1f716b5997e766259830602f1e4d4b97a6652a4366b4d2db5abd
+tags:
+  1.3.0--py38hbff2b2d_2: sha256:63ad16bcbd5c1f716b5997e766259830602f1e4d4b97a6652a4366b4d2db5abd
+docker: quay.io/biocontainers/motifscan
+aliases:
+  motifscan: /usr/local/bin/motifscan

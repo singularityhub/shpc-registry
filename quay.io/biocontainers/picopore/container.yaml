@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/picopore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for picopore
+latest:
+  1.2.0--pyh8b68c5b_1: sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10
+tags:
+  1.2.0--pyh8b68c5b_1: sha256:c2c1ae24b57c0452bb6fda5833b07856f76e2bd3dca7da46f344f4dec28f9b10
+docker: quay.io/biocontainers/picopore
+aliases:
+  picopore: /usr/local/bin/picopore
+  picopore-realtime: /usr/local/bin/picopore-realtime
+  picopore-rename: /usr/local/bin/picopore-rename
+  picopore-test: /usr/local/bin/picopore-test
+  watchmedo: /usr/local/bin/watchmedo

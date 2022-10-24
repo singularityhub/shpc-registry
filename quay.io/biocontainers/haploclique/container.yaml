@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/haploclique
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for haploclique
+latest:
+  1.3.1--h48762f8_2: sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c
+tags:
+  1.3.1--h48762f8_2: sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c
+docker: quay.io/biocontainers/haploclique
+aliases:
+  bamtools-2.4.1: /usr/local/bin/bamtools-2.4.1
+  haploclique: /usr/local/bin/haploclique

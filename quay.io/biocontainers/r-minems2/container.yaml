@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-minems2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-minems2
+latest:
+  0.9.3--r41h9f5acd7_4: sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086
+tags:
+  0.9.3--r41h9f5acd7_4: sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086
+docker: quay.io/biocontainers/r-minems2

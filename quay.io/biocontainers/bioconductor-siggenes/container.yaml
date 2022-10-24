@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-siggenes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-siggenes
+latest:
+  1.68.0--r41hdfd78af_0: sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b
+tags:
+  1.68.0--r41hdfd78af_0: sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b
+docker: quay.io/biocontainers/bioconductor-siggenes

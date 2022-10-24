@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffustats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffustats
+latest:
+  1.8.0--r40h5f743cb_0: sha256:314f107e5d33eba99c0fe91fd44bc8bf57cb841bc26793898d0628153509c838
+tags:
+  1.8.0--r40h5f743cb_0: sha256:314f107e5d33eba99c0fe91fd44bc8bf57cb841bc26793898d0628153509c838
+docker: quay.io/biocontainers/bioconductor-diffustats

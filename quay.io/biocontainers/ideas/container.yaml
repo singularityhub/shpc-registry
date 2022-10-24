@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ideas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ideas
+latest:
+  1.20--h9f5acd7_4: sha256:0d28666a469afe3c471c642cd4d6768de4bda0f7a754af5e0a7bfdcb3bbc8ba5
+tags:
+  1.20--h9f5acd7_4: sha256:0d28666a469afe3c471c642cd4d6768de4bda0f7a754af5e0a7bfdcb3bbc8ba5
+docker: quay.io/biocontainers/ideas
+aliases:
+  ideas: /usr/local/bin/ideas
+  prepMat: /usr/local/bin/prepMat

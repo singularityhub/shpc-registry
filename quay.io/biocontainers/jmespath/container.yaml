@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/jmespath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jmespath
+latest:
+  0.9.0--py36_0: sha256:958cdd61028e97f2efbf489feee625e4ee66bf2a25b91a06356b7c7e3266f53e
+tags:
+  0.9.0--py36_0: sha256:958cdd61028e97f2efbf489feee625e4ee66bf2a25b91a06356b7c7e3266f53e
+docker: quay.io/biocontainers/jmespath

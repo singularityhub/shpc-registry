@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flames
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flames
+latest:
+  1.0.2--r41hc247a5b_2: sha256:ab2aa45994b7945338a56f90d80e77eac1332ea66f88bd25097e05c535d96f87
+tags:
+  1.0.2--r41hc247a5b_2: sha256:ab2aa45994b7945338a56f90d80e77eac1332ea66f88bd25097e05c535d96f87
+docker: quay.io/biocontainers/bioconductor-flames

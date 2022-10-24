@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/unicycler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for unicycler
+latest:
+  0.5.0--py39h2add14b_2: sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da
+tags:
+  0.5.0--py39h2add14b_2: sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da
+docker: quay.io/biocontainers/unicycler
+aliases:
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  unicycler: /usr/local/bin/unicycler

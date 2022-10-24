@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vispr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vispr
+latest:
+  0.4.17--pyh864c0ab_0: sha256:2269d0c088056d3f391aaee4d21a7ce240ee093ce5ffa313aae6d521470c1734
+tags:
+  0.4.17--pyh864c0ab_0: sha256:2269d0c088056d3f391aaee4d21a7ce240ee093ce5ffa313aae6d521470c1734
+docker: quay.io/biocontainers/vispr
+aliases:
+  vispr: /usr/local/bin/vispr

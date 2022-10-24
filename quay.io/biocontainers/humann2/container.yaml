@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/humann2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for humann2
+latest:
+  2.8.1--py27_0: sha256:d983382a608ed92eea6717018c052c17ecd7578a032f9d9d64548db56e358a12
+tags:
+  2.8.1--py27_0: sha256:d983382a608ed92eea6717018c052c17ecd7578a032f9d9d64548db56e358a12
+docker: quay.io/biocontainers/humann2
+aliases:
+  add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
+  build_tree_single_strain.py: /usr/local/bin/build_tree_single_strain.py
+  compute_distance.py: /usr/local/bin/compute_distance.py
+  compute_distance_all.py: /usr/local/bin/compute_distance_all.py
+  dump_file.py: /usr/local/bin/dump_file.py
+  extract_markers.py: /usr/local/bin/extract_markers.py
+  fastx_len_filter.py: /usr/local/bin/fastx_len_filter.py
+  fix_AF1.py: /usr/local/bin/fix_AF1.py
+  humann2: /usr/local/bin/humann2
+  humann2_associate: /usr/local/bin/humann2_associate
+  humann2_barplot: /usr/local/bin/humann2_barplot
+  humann2_benchmark: /usr/local/bin/humann2_benchmark
+  humann2_build_custom_database: /usr/local/bin/humann2_build_custom_database
+  humann2_config: /usr/local/bin/humann2_config
+  humann2_databases: /usr/local/bin/humann2_databases
+  humann2_genefamilies_genus_level: /usr/local/bin/humann2_genefamilies_genus_level
+  humann2_humann1_kegg: /usr/local/bin/humann2_humann1_kegg
+  humann2_infer_taxonomy: /usr/local/bin/humann2_infer_taxonomy
+  humann2_join_tables: /usr/local/bin/humann2_join_tables
+  humann2_reduce_table: /usr/local/bin/humann2_reduce_table
+  humann2_regroup_table: /usr/local/bin/humann2_regroup_table
+  humann2_rename_table: /usr/local/bin/humann2_rename_table
+  humann2_renorm_table: /usr/local/bin/humann2_renorm_table
+  humann2_rna_dna_norm: /usr/local/bin/humann2_rna_dna_norm
+  humann2_split_stratified_table: /usr/local/bin/humann2_split_stratified_table
+  humann2_split_table: /usr/local/bin/humann2_split_table
+  humann2_strain_profiler: /usr/local/bin/humann2_strain_profiler
+  humann2_test: /usr/local/bin/humann2_test
+  humann2_unpack_pathways: /usr/local/bin/humann2_unpack_pathways
+  merge_metaphlan_tables.py: /usr/local/bin/merge_metaphlan_tables.py
+  metaphlan2.py: /usr/local/bin/metaphlan2.py
+  metaphlan2krona.py: /usr/local/bin/metaphlan2krona.py
+  metaphlan_hclust_heatmap.py: /usr/local/bin/metaphlan_hclust_heatmap.py
+  mixed_utils.py: /usr/local/bin/mixed_utils.py
+  ooSubprocess.py: /usr/local/bin/ooSubprocess.py
+  plot_bug.py: /usr/local/bin/plot_bug.py
+  plot_tree_ete2.py: /usr/local/bin/plot_tree_ete2.py
+  plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
+  read_fastx.py: /usr/local/bin/read_fastx.py
+  sam_filter.py: /usr/local/bin/sam_filter.py
+  sample2markers.py: /usr/local/bin/sample2markers.py
+  strainphlan.py: /usr/local/bin/strainphlan.py
+  which.py: /usr/local/bin/which.py

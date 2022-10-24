@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ntm-profiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ntm-profiler
+latest:
+  0.2.1--pyhdfd78af_0: sha256:47c9986c4aab4708c3d460fb3d9b7905781be6d3e0b72771841a365de0c68788
+tags:
+  0.2.1--pyhdfd78af_0: sha256:47c9986c4aab4708c3d460fb3d9b7905781be6d3e0b72771841a365de0c68788
+docker: quay.io/biocontainers/ntm-profiler
+aliases:
+  add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py
+  combine_vcf_variants.py: /usr/local/bin/combine_vcf_variants.py
+  delly: /usr/local/bin/delly
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  ntm-profiler: /usr/local/bin/ntm-profiler
+  rename_vcf_chrom.py: /usr/local/bin/rename_vcf_chrom.py

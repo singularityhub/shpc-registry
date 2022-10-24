@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biodbuniprot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biodbuniprot
+latest:
+  1.0.0--r41hdfd78af_0: sha256:873f071c1cdf8a23b6313727703132c9fdd42e4bfe46c8b35a54707deb58c48c
+tags:
+  1.0.0--r41hdfd78af_0: sha256:873f071c1cdf8a23b6313727703132c9fdd42e4bfe46c8b35a54707deb58c48c
+docker: quay.io/biocontainers/bioconductor-biodbuniprot

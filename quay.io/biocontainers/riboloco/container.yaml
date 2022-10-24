@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/riboloco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for riboloco
+latest:
+  0.3.9--pyh5e36f6f_0: sha256:d4d030962525df782068d81b56ab27195b354340fe78be307bac801e3d2edc86
+tags:
+  0.3.9--pyh5e36f6f_0: sha256:d4d030962525df782068d81b56ab27195b354340fe78be307bac801e3d2edc86
+docker: quay.io/biocontainers/riboloco
+aliases:
+  riboloco: /usr/local/bin/riboloco
+  riboloco_convert_gtf: /usr/local/bin/riboloco_convert_gtf
+  riboloco_find_orfs: /usr/local/bin/riboloco_find_orfs

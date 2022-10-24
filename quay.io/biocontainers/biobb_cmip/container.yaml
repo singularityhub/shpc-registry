@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/biobb_cmip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_cmip
+latest:
+  3.7.8--pyhdfd78af_0: sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc
+tags:
+  3.7.8--pyhdfd78af_0: sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc
+docker: quay.io/biocontainers/biobb_cmip
+aliases:
+  .cmip-post-link.sh: /usr/local/bin/.cmip-post-link.sh
+  avgEpsGrid: /usr/local/bin/avgEpsGrid
+  canal: /usr/local/bin/canal
+  check_structure: /usr/local/bin/check_structure
+  cmip: /usr/local/bin/cmip
+  getPatch: /usr/local/bin/getPatch
+  grd2cube: /usr/local/bin/grd2cube
+  gsd: /usr/local/bin/gsd
+  mrcfile-header: /usr/local/bin/mrcfile-header
+  mrcfile-validate: /usr/local/bin/mrcfile-validate
+  prepare_structure: /usr/local/bin/prepare_structure
+  surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
+  titration: /usr/local/bin/titration
+  watden: /usr/local/bin/watden

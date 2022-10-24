@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-munge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-munge
+latest:
+  0.097--pl5321hdfd78af_1: sha256:eb9d09dd0d178697df7269dff385db0d1006795fc58a717cc11d2e5d0666e513
+tags:
+  0.097--pl5321hdfd78af_1: sha256:eb9d09dd0d178697df7269dff385db0d1006795fc58a717cc11d2e5d0666e513
+docker: quay.io/biocontainers/perl-data-munge

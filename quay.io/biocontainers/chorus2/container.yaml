@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/chorus2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chorus2
+latest:
+  2.01--py39h09cc20e_1: sha256:83e1cb499bc45319d56cf3c220c2627b1e69b888fb245ca3d9808b85fcfbceae
+tags:
+  2.01--py39h09cc20e_1: sha256:83e1cb499bc45319d56cf3c220c2627b1e69b888fb245ca3d9808b85fcfbceae
+docker: quay.io/biocontainers/chorus2
+aliases:
+  Chorus2: /usr/local/bin/Chorus2
+  ChorusDraftPrebuild: /usr/local/bin/ChorusDraftPrebuild
+  ChorusGUI: /usr/local/bin/ChorusGUI
+  ChorusHomo: /usr/local/bin/ChorusHomo
+  ChorusNGSfilter: /usr/local/bin/ChorusNGSfilter
+  ChorusNGSselect: /usr/local/bin/ChorusNGSselect
+  ChorusNoRef: /usr/local/bin/ChorusNoRef
+  ChorusPBGUI: /usr/local/bin/ChorusPBGUI
+  pyfasta: /usr/local/bin/pyfasta

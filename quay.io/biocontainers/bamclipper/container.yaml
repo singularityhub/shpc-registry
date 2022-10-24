@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bamclipper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamclipper
+latest:
+  1.0.0--hdfd78af_2: sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95
+tags:
+  1.0.0--hdfd78af_2: sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95
+docker: quay.io/biocontainers/bamclipper
+aliases:
+  bamclipper.sh: /usr/local/bin/bamclipper.sh
+  clipprimer.pl: /usr/local/bin/clipprimer.pl
+  injectseparator.pl: /usr/local/bin/injectseparator.pl

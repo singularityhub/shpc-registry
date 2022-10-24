@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-fly.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fly.db0
+latest:
+  3.8.2--r36_1: sha256:392ad468196793bb43d42f392c40715b3e8aacfa4360824a8527046ece60ca16
+tags:
+  3.8.2--r36_1: sha256:392ad468196793bb43d42f392c40715b3e8aacfa4360824a8527046ece60ca16
+docker: quay.io/biocontainers/bioconductor-fly.db0
+aliases:
+  .bioconductor-fly.db0-post-link.sh: /usr/local/bin/.bioconductor-fly.db0-post-link.sh
+  .bioconductor-fly.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-fly.db0-pre-unlink.sh

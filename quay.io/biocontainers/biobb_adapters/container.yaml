@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biobb_adapters
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_adapters
+latest:
+  3.7.0--pyhdfd78af_0: sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85
+tags:
+  3.7.0--pyhdfd78af_0: sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85
+docker: quay.io/biocontainers/biobb_adapters
+aliases:
+  black-primer: /usr/local/bin/black-primer

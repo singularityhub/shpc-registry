@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snippy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snippy
+latest:
+  4.6.0--hdfd78af_2: sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70
+tags:
+  4.6.0--hdfd78af_2: sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70
+docker: quay.io/biocontainers/snippy
+aliases:
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py

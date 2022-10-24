@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/logol
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for logol
+latest:
+  1.7.8--2: sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5
+tags:
+  1.7.8--2: sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5
+docker: quay.io/biocontainers/logol
+aliases:
+  LogolExec.sh: /usr/local/bin/LogolExec.sh
+  LogolMultiExec.sh: /usr/local/bin/LogolMultiExec.sh
+  cassiopee: /usr/local/bin/cassiopee
+  cassiopeeknife: /usr/local/bin/cassiopeeknife
+  latex2html: /usr/local/bin/latex2html
+  swipl: /usr/local/bin/swipl
+  swipl-ld: /usr/local/bin/swipl-ld
+  swipl-rc: /usr/local/bin/swipl-rc

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vcflib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcflib
+latest:
+  1.0.3--ha04fe3b_2: sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3
+tags:
+  1.0.3--ha04fe3b_2: sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3
+docker: quay.io/biocontainers/vcflib

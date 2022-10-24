@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snakeobjects
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snakeobjects
+latest:
+  3.1.1--pyh5e36f6f_0: sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04
+tags:
+  3.1.1--pyh5e36f6f_0: sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04
+docker: quay.io/biocontainers/snakeobjects
+aliases:
+  sobjects: /usr/local/bin/sobjects

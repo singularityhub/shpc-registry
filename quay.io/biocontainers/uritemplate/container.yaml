@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/uritemplate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for uritemplate
+latest:
+  0.6--py36_0: sha256:c95df5d3859ada96708b1523d1adb9053ca02a23fe58f3106417bb17d0e724a6
+tags:
+  0.6--py36_0: sha256:c95df5d3859ada96708b1523d1adb9053ca02a23fe58f3106417bb17d0e724a6
+docker: quay.io/biocontainers/uritemplate

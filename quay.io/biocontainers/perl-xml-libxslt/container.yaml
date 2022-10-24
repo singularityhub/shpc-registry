@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-libxslt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-libxslt
+latest:
+  2.002000--pl5321hec16e2b_1: sha256:d6537980923761e3987021808ce0f0b8a44cdfbd49da8d68d99c345697faaf79
+tags:
+  2.002000--pl5321hec16e2b_1: sha256:d6537980923761e3987021808ce0f0b8a44cdfbd49da8d68d99c345697faaf79
+docker: quay.io/biocontainers/perl-xml-libxslt

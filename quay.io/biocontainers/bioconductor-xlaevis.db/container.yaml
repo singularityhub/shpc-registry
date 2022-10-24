@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-xlaevis.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xlaevis.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:0f501eb5d76b3e0c77eda0393677d6c6b17e31de1357b6c3bf07be4a9ff9b21e
+tags:
+  3.2.3--r41hdfd78af_9: sha256:0f501eb5d76b3e0c77eda0393677d6c6b17e31de1357b6c3bf07be4a9ff9b21e
+docker: quay.io/biocontainers/bioconductor-xlaevis.db
+aliases:
+  .bioconductor-org.xl.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.xl.eg.db-post-link.sh
+  .bioconductor-org.xl.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.xl.eg.db-pre-unlink.sh
+  .bioconductor-xlaevis.db-post-link.sh: /usr/local/bin/.bioconductor-xlaevis.db-post-link.sh
+  .bioconductor-xlaevis.db-pre-unlink.sh: /usr/local/bin/.bioconductor-xlaevis.db-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioconductor-explorase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-explorase
+latest:
+  1.53.0--r40hdfd78af_2: sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9
+tags:
+  1.53.0--r40hdfd78af_2: sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9
+docker: quay.io/biocontainers/bioconductor-explorase
+aliases:
+  ggobi: /usr/local/bin/ggobi

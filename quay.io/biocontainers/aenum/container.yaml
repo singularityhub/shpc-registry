@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/aenum
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aenum
+latest:
+  2.0.8--py35_0: sha256:0f87b552d190b86526073b5e2da525f1a4d107403cf1d939d642306c575d5484
+tags:
+  2.0.8--py35_0: sha256:0f87b552d190b86526073b5e2da525f1a4d107403cf1d939d642306c575d5484
+docker: quay.io/biocontainers/aenum

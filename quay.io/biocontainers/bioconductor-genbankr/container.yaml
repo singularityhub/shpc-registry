@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genbankr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genbankr
+latest:
+  1.8.0--r341_0: sha256:d252f968c85708a3763be02f3c3f36c8464a4fd3dbe583815e6ee557dce6bb47
+tags:
+  1.8.0--r341_0: sha256:d252f968c85708a3763be02f3c3f36c8464a4fd3dbe583815e6ee557dce6bb47
+docker: quay.io/biocontainers/bioconductor-genbankr

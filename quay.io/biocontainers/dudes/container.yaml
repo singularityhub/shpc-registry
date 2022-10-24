@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/dudes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dudes
+latest:
+  0.08--py_2: sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc
+tags:
+  0.08--py_2: sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc
+docker: quay.io/biocontainers/dudes
+aliases:
+  DUDes.py: /usr/local/bin/DUDes.py
+  DUDesDB.py: /usr/local/bin/DUDesDB.py

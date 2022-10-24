@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastuniq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastuniq
+latest:
+  1.1--h470a237_1: sha256:ce3811629bfb966cd510db0d78f5e8c8db4b467418db3ed1c4732036c91c4510
+tags:
+  1.1--h470a237_1: sha256:ce3811629bfb966cd510db0d78f5e8c8db4b467418db3ed1c4732036c91c4510
+docker: quay.io/biocontainers/fastuniq
+aliases:
+  fastuniq: /usr/local/bin/fastuniq

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-parser-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-parser-lite
+latest:
+  0.722--pl5321hdfd78af_1: sha256:6c3d3fd6be1fd8e031a72e73b2cae66817c2f9a9560c3fe0fb0a90fa3eec77cc
+tags:
+  0.722--pl5321hdfd78af_1: sha256:6c3d3fd6be1fd8e031a72e73b2cae66817c2f9a9560c3fe0fb0a90fa3eec77cc
+docker: quay.io/biocontainers/perl-xml-parser-lite

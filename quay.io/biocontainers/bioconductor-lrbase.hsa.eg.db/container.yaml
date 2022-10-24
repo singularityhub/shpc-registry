@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lrbase.hsa.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lrbase.hsa.eg.db
+latest:
+  2.0.0--r41hdfd78af_0: sha256:19176f4493ccf60e6e18eefe91c53548eadb0668d8d99b60784c4d9527959761
+tags:
+  2.0.0--r41hdfd78af_0: sha256:19176f4493ccf60e6e18eefe91c53548eadb0668d8d99b60784c4d9527959761
+docker: quay.io/biocontainers/bioconductor-lrbase.hsa.eg.db
+aliases:
+  .bioconductor-lrbase.hsa.eg.db-post-link.sh: /usr/local/bin/.bioconductor-lrbase.hsa.eg.db-post-link.sh
+  .bioconductor-lrbase.hsa.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.hsa.eg.db-pre-unlink.sh

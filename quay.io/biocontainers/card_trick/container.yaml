@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/card_trick
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for card_trick
+latest:
+  0.2.1--py_0: sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195
+tags:
+  0.2.1--py_0: sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195
+docker: quay.io/biocontainers/card_trick
+aliases:
+  card-trick: /usr/local/bin/card-trick
+  pronto: /usr/local/bin/pronto

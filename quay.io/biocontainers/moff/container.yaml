@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/moff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for moff
+latest:
+  2.0.3--hdfd78af_5: sha256:39d5c82e3f32c6fb9519b012301787f30382e2701b1ae9c900dad01f2c96fee6
+tags:
+  2.0.3--hdfd78af_5: sha256:39d5c82e3f32c6fb9519b012301787f30382e2701b1ae9c900dad01f2c96fee6
+docker: quay.io/biocontainers/moff
+aliases:
+  aprofutil: /usr/local/bin/aprofutil
+  moff_all.py: /usr/local/bin/moff_all.py
+  mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog

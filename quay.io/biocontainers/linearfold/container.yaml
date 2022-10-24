@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/linearfold
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for linearfold
+latest:
+  1.0--h9f5acd7_1: sha256:f071c8fee4b289b564e49cea288b809158e38e3bdcb0867e718d6a431efedfdd
+tags:
+  1.0--h9f5acd7_1: sha256:f071c8fee4b289b564e49cea288b809158e38e3bdcb0867e718d6a431efedfdd
+docker: quay.io/biocontainers/linearfold
+aliases:
+  gflags2man.py: /usr/local/bin/gflags2man.py
+  linearfold: /usr/local/bin/linearfold

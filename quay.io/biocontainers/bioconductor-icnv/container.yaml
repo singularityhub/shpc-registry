@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-icnv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-icnv
+latest:
+  1.8.0--r40_0: sha256:ca46d639df50813142859a8ab59601f98c956648d8e8ccc774398d1b99069145
+tags:
+  1.8.0--r40_0: sha256:ca46d639df50813142859a8ab59601f98c956648d8e8ccc774398d1b99069145
+docker: quay.io/biocontainers/bioconductor-icnv

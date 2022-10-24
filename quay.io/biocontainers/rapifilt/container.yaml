@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rapifilt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rapifilt
+latest:
+  1.0--hb97b32f_3: sha256:6d51fddf2e855204a838fbac981dd5320e61ca1d96cf3ef0a50eba97db21541b
+tags:
+  1.0--hb97b32f_3: sha256:6d51fddf2e855204a838fbac981dd5320e61ca1d96cf3ef0a50eba97db21541b
+docker: quay.io/biocontainers/rapifilt
+aliases:
+  rapifilt: /usr/local/bin/rapifilt

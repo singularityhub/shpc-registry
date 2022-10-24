@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/requests-toolbelt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for requests-toolbelt
+latest:
+  0.5.0--py35_0: sha256:3b636534c2e4391a13db9b131f7764b1ddf5eca812ab3675257ea46061801efc
+tags:
+  0.5.0--py35_0: sha256:3b636534c2e4391a13db9b131f7764b1ddf5eca812ab3675257ea46061801efc
+docker: quay.io/biocontainers/requests-toolbelt

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/squid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for squid
+latest:
+  1.5--h30ed3be_5: sha256:1e7d7a7b2424c5b912514471646aca6146f02b113645f78b97ee2a91d2bfae25
+tags:
+  1.5--h30ed3be_5: sha256:1e7d7a7b2424c5b912514471646aca6146f02b113645f78b97ee2a91d2bfae25
+docker: quay.io/biocontainers/squid
+aliases:
+  squid: /usr/local/bin/squid

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-timedate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-timedate
+latest:
+  2.33--pl5321hdfd78af_2: sha256:1dece29855884a4a18fbb3552b4ca1d97aec8daa22efc44673fbd65da1a1555e
+tags:
+  2.33--pl5321hdfd78af_2: sha256:1dece29855884a4a18fbb3552b4ca1d97aec8daa22efc44673fbd65da1a1555e
+docker: quay.io/biocontainers/perl-timedate

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nextalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nextalign
+latest:
+  2.7.0--h9ee0642_0: sha256:d7d53b9e97bf7b17d8c3d2e6b6ec964a992be6d00dc54ff67614f0d1fe9b7c4e
+tags:
+  2.7.0--h9ee0642_0: sha256:d7d53b9e97bf7b17d8c3d2e6b6ec964a992be6d00dc54ff67614f0d1fe9b7c4e
+docker: quay.io/biocontainers/nextalign
+aliases:
+  nextalign: /usr/local/bin/nextalign

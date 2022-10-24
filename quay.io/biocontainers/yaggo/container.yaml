@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/yaggo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yaggo
+latest:
+  1.5.9--0: sha256:a51367f9d77246dfc82e3a042b9d4ad9345f1c3332dcaa3962b832219babc640
+tags:
+  1.5.9--0: sha256:a51367f9d77246dfc82e3a042b9d4ad9345f1c3332dcaa3962b832219babc640
+docker: quay.io/biocontainers/yaggo
+aliases:
+  yaggo: /usr/local/bin/yaggo

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sitadela
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sitadela
+latest:
+  1.2.0--r41hdfd78af_0: sha256:bed7b011d5ae9013114bb5b06d03fc3705f1bec61e71df957b5716c85a4f98af
+tags:
+  1.2.0--r41hdfd78af_0: sha256:bed7b011d5ae9013114bb5b06d03fc3705f1bec61e71df957b5716c85a4f98af
+docker: quay.io/biocontainers/bioconductor-sitadela

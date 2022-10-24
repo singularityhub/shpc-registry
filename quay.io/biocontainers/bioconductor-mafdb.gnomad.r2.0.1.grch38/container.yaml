@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.grch38
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.grch38
+latest:
+  3.9.0--r36_1: sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3
+tags:
+  3.9.0--r36_1: sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3
+docker: quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38
+aliases:
+  .bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh
+  .bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh

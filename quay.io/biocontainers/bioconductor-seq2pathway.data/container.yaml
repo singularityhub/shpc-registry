@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-seq2pathway.data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-seq2pathway.data
+latest:
+  1.26.0--r41hdfd78af_1: sha256:ecfb7940f8bc1e5e50e0b37d5e920ff0f3d303ec0d62bf3f8c8540502b0464a1
+tags:
+  1.26.0--r41hdfd78af_1: sha256:ecfb7940f8bc1e5e50e0b37d5e920ff0f3d303ec0d62bf3f8c8540502b0464a1
+docker: quay.io/biocontainers/bioconductor-seq2pathway.data
+aliases:
+  .bioconductor-seq2pathway.data-post-link.sh: /usr/local/bin/.bioconductor-seq2pathway.data-post-link.sh
+  .bioconductor-seq2pathway.data-pre-unlink.sh: /usr/local/bin/.bioconductor-seq2pathway.data-pre-unlink.sh

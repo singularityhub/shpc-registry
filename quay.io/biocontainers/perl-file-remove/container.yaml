@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-remove
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-remove
+latest:
+  1.57--pl5321h9f5acd7_3: sha256:22a87c28ba2aa5a9bfd207d3796f1d984086412c6fe2139f5906ef8b3183aad0
+tags:
+  1.57--pl5321h9f5acd7_3: sha256:22a87c28ba2aa5a9bfd207d3796f1d984086412c6fe2139f5906ef8b3183aad0
+docker: quay.io/biocontainers/perl-file-remove

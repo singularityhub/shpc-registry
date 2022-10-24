@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/srax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for srax
+latest:
+  1.5--pl5321ha8f3691_2: sha256:6f521a8ef2406b1bf0e8bbda74fe02236859f3a3454692a808ac40366914b816
+tags:
+  1.5--pl5321ha8f3691_2: sha256:6f521a8ef2406b1bf0e8bbda74fe02236859f3a3454692a808ac40366914b816
+docker: quay.io/biocontainers/srax
+aliases:
+  envpath: /usr/local/bin/envpath
+  sraX: /usr/local/bin/sraX

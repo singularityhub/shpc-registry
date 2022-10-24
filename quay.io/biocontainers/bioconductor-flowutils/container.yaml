@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowutils
+latest:
+  1.58.0--r41hdfd78af_0: sha256:5692eb84129f8427b454f88ac2a0b09d6d30464392fa6ade86d501b0e52297fb
+tags:
+  1.58.0--r41hdfd78af_0: sha256:5692eb84129f8427b454f88ac2a0b09d6d30464392fa6ade86d501b0e52297fb
+docker: quay.io/biocontainers/bioconductor-flowutils

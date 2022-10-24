@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/phylogenetics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylogenetics
+latest:
+  0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
+tags:
+  0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
+docker: quay.io/biocontainers/phylogenetics
+aliases:
+  .vega3-post-link.sh: /usr/local/bin/.vega3-post-link.sh
+  .vega3-pre-unlink.sh: /usr/local/bin/.vega3-pre-unlink.sh
+  jupyter-console: /usr/local/bin/jupyter-console
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole

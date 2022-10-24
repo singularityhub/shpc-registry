@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rrcov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rrcov
+latest:
+  1.3_11--r3.2.2_0: sha256:d15e838d9f1f7fdb83989e73728e19dd22a526734d14ac8cf4d94ddf8ff265f3
+tags:
+  1.3_11--r3.2.2_0: sha256:d15e838d9f1f7fdb83989e73728e19dd22a526734d14ac8cf4d94ddf8ff265f3
+docker: quay.io/biocontainers/r-rrcov

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/atlas-data-import
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for atlas-data-import
+latest:
+  0.1.1--hdfd78af_0: sha256:8874bfe643d54aee07dafa42351cd3258b136764da5110cbba1903b3957443f0
+tags:
+  0.1.1--hdfd78af_0: sha256:8874bfe643d54aee07dafa42351cd3258b136764da5110cbba1903b3957443f0
+docker: quay.io/biocontainers/atlas-data-import
+aliases:
+  data_import_post_install_tests.bats: /usr/local/bin/data_import_post_install_tests.bats
+  data_import_post_install_tests.sh: /usr/local/bin/data_import_post_install_tests.sh
+  get_experiment_data.R: /usr/local/bin/get_experiment_data.R
+  import_classification_data.R: /usr/local/bin/import_classification_data.R

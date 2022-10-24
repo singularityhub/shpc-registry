@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mreps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mreps
+latest:
+  2.6.01--hec16e2b_2: sha256:345b5ddf18348e042b24a8b553d7755deceb7118fd672af40af68f5affddf04a
+tags:
+  2.6.01--hec16e2b_2: sha256:345b5ddf18348e042b24a8b553d7755deceb7118fd672af40af68f5affddf04a
+docker: quay.io/biocontainers/mreps
+aliases:
+  mreps: /usr/local/bin/mreps

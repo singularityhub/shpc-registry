@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/logbook
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for logbook
+latest:
+  1.4.3--py37h14c3975_0: sha256:7bd8c68dde8888cb4da83be21a2e4e0d9b4ab20963afaab29c93eca1dc5aecda
+tags:
+  1.4.3--py37h14c3975_0: sha256:7bd8c68dde8888cb4da83be21a2e4e0d9b4ab20963afaab29c93eca1dc5aecda
+docker: quay.io/biocontainers/logbook

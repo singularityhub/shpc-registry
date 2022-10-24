@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-metaboanalyst
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-metaboanalyst
+latest:
+  2.0.0--r40hdfd78af_2: sha256:c75c6ac5fd53ae0dec4fdf67aa59a7c0b85d860850efe6c299481d9e04f88b25
+tags:
+  2.0.0--r40hdfd78af_2: sha256:c75c6ac5fd53ae0dec4fdf67aa59a7c0b85d860850efe6c299481d9e04f88b25
+docker: quay.io/biocontainers/r-metaboanalyst

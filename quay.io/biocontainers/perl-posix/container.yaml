@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-posix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-posix
+latest:
+  1.38_03--pl5321hdfd78af_2: sha256:78b75e0d593264337c16a32edb53d14cb9c8cf84fb284f2f6b4c2f1671fa09f9
+tags:
+  1.38_03--pl5321hdfd78af_2: sha256:78b75e0d593264337c16a32edb53d14cb9c8cf84fb284f2f6b4c2f1671fa09f9
+docker: quay.io/biocontainers/perl-posix

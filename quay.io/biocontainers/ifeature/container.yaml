@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ifeature
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ifeature
+latest:
+  0.0.6--pyh3252c3a_0: sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191
+tags:
+  0.0.6--pyh3252c3a_0: sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191
+docker: quay.io/biocontainers/ifeature

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/terminus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for terminus
+latest:
+  v0.1.0--h2db0a6b_0: sha256:d697cdff1ac8396bbe362e3436073c5bc850c3b79bb6d40cdba5fb9e5ee009fa
+tags:
+  v0.1.0--h2db0a6b_0: sha256:d697cdff1ac8396bbe362e3436073c5bc850c3b79bb6d40cdba5fb9e5ee009fa
+docker: quay.io/biocontainers/terminus
+aliases:
+  terminus: /usr/local/bin/terminus

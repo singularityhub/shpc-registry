@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-easyreporting
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-easyreporting
+latest:
+  1.6.0--r41hdfd78af_0: sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55
+tags:
+  1.6.0--r41hdfd78af_0: sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55
+docker: quay.io/biocontainers/bioconductor-easyreporting

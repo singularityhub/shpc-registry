@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lddt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lddt
+latest:
+  2.2--h9ee0642_0: sha256:8f15a5d8edac35149aeddf173805abc0dcb81748bda9e675cafb6884471b28ca
+tags:
+  2.2--h9ee0642_0: sha256:8f15a5d8edac35149aeddf173805abc0dcb81748bda9e675cafb6884471b28ca
+docker: quay.io/biocontainers/lddt
+aliases:
+  lddt: /usr/local/bin/lddt

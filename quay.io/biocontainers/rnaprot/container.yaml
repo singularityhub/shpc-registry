@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/rnaprot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnaprot
+latest:
+  0.5--pyhdfd78af_1: sha256:47b6bb127dcbd7524e4291b9b43689ced232eba9195274cbcc17ebc2b4235e69
+tags:
+  0.5--pyhdfd78af_1: sha256:47b6bb127dcbd7524e4291b9b43689ced232eba9195274cbcc17ebc2b4235e69
+docker: quay.io/biocontainers/rnaprot
+aliases:
+  bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed
+  gtf_extract_gene_regions.py: /usr/local/bin/gtf_extract_gene_regions.py
+  gtf_extract_transcript_regions.py: /usr/local/bin/gtf_extract_transcript_regions.py
+  pyro4-check-config: /usr/local/bin/pyro4-check-config
+  pyro4-flameserver: /usr/local/bin/pyro4-flameserver
+  pyro4-httpgateway: /usr/local/bin/pyro4-httpgateway
+  pyro4-ns: /usr/local/bin/pyro4-ns
+  pyro4-nsc: /usr/local/bin/pyro4-nsc
+  pyro4-test-echoserver: /usr/local/bin/pyro4-test-echoserver
+  rnaprot: /usr/local/bin/rnaprot
+  ushuffle: /usr/local/bin/ushuffle

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tcgacrcmrna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tcgacrcmrna
+latest:
+  1.9.0--r40_0: sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150
+tags:
+  1.9.0--r40_0: sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150
+docker: quay.io/biocontainers/bioconductor-tcgacrcmrna
+aliases:
+  .bioconductor-tcgacrcmrna-post-link.sh: /usr/local/bin/.bioconductor-tcgacrcmrna-post-link.sh
+  .bioconductor-tcgacrcmrna-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgacrcmrna-pre-unlink.sh

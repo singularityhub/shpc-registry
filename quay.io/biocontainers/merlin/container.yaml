@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/merlin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for merlin
+latest:
+  1.1.2--hd03093a_5: sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380
+tags:
+  1.1.2--hd03093a_5: sha256:144620fb3de22d03342ec56cdf86770c4365da5f66b426e804b1ae343460c380
+docker: quay.io/biocontainers/merlin
+aliases:
+  hapmapConverter: /usr/local/bin/hapmapConverter
+  merlin: /usr/local/bin/merlin
+  merlin-offline: /usr/local/bin/merlin-offline
+  merlin-regress: /usr/local/bin/merlin-regress
+  minx: /usr/local/bin/minx
+  minx-offline: /usr/local/bin/minx-offline
+  pedmerge: /usr/local/bin/pedmerge
+  pedstats: /usr/local/bin/pedstats
+  pedwipe: /usr/local/bin/pedwipe

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-genenet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-genenet
+latest:
+  1.2.13--r3.2.2_0: sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8
+tags:
+  1.2.13--r3.2.2_0: sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8
+docker: quay.io/biocontainers/r-genenet

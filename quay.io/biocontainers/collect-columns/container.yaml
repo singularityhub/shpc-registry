@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/collect-columns
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for collect-columns
+latest:
+  1.0.0--py_0: sha256:0aa82857e5b2aa05af2e486b02d216180e14d7fcede15d9defeff6bea6dad716
+tags:
+  1.0.0--py_0: sha256:0aa82857e5b2aa05af2e486b02d216180e14d7fcede15d9defeff6bea6dad716
+docker: quay.io/biocontainers/collect-columns
+aliases:
+  collect-columns: /usr/local/bin/collect-columns

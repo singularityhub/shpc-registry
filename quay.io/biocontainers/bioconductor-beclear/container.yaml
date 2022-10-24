@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-beclear
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-beclear
+latest:
+  2.8.0--r41h399db7b_0: sha256:1f935f7433b9cda2a8620fe7252a010a71a995cefb30e79bed1417e1e1bae19e
+tags:
+  2.8.0--r41h399db7b_0: sha256:1f935f7433b9cda2a8620fe7252a010a71a995cefb30e79bed1417e1e1bae19e
+docker: quay.io/biocontainers/bioconductor-beclear

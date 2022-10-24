@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sailfish
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sailfish
+latest:
+  0.10.1--pl5321hf742e08_6: sha256:0d00607f18734d639fe66519229424ce0d126cb85b2f5a2db3b3eb6f0c60b854
+tags:
+  0.10.1--pl5321hf742e08_6: sha256:0d00607f18734d639fe66519229424ce0d126cb85b2f5a2db3b3eb6f0c60b854
+docker: quay.io/biocontainers/sailfish
+aliases:
+  sailfish: /usr/local/bin/sailfish

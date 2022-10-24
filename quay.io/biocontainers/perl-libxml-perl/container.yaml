@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-libxml-perl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-libxml-perl
+latest:
+  0.08--pl5321hdfd78af_3: sha256:18eb430325cf5ec8114b6ccca697dd72d5f825a60a7a644bfa7ffc42bf576903
+tags:
+  0.08--pl5321hdfd78af_3: sha256:18eb430325cf5ec8114b6ccca697dd72d5f825a60a7a644bfa7ffc42bf576903
+docker: quay.io/biocontainers/perl-libxml-perl

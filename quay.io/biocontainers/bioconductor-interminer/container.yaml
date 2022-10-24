@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-interminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-interminer
+latest:
+  1.8.0--r36_0: sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81
+tags:
+  1.8.0--r36_0: sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81
+docker: quay.io/biocontainers/bioconductor-interminer

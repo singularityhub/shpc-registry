@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/rkp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rkp
+latest:
+  0.1.0--py_0: sha256:97620022a7ee1bfe1a1b474e21918dbdeb7ce19daca52e1bcfc2ed5428fb305f
+tags:
+  0.1.0--py_0: sha256:97620022a7ee1bfe1a1b474e21918dbdeb7ce19daca52e1bcfc2ed5428fb305f
+docker: quay.io/biocontainers/rkp
+aliases:
+  RKP.py: /usr/local/bin/RKP.py
+  create_kmers.sh: /usr/local/bin/create_kmers.sh
+  heatmap.R: /usr/local/bin/heatmap.R
+  map_kmers.sh: /usr/local/bin/map_kmers.sh

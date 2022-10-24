@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene
+latest:
+  3.2.2--r40_9: sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32
+tags:
+  3.2.2--r40_9: sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32
+docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene
+aliases:
+  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
+  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh

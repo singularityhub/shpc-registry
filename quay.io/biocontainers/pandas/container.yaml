@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pandas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pandas
+latest:
+  1.4.3: sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7
+tags:
+  1.4.3: sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7
+docker: quay.io/biocontainers/pandas

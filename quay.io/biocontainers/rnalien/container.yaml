@@ -1,0 +1,78 @@
+url: https://biocontainers.pro/tools/rnalien
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnalien
+latest:
+  1.8.0--hdfd78af_2: sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
+tags:
+  1.8.0--hdfd78af_2: sha256:eb121b2d07afbb378251b370445c43b4f8075cf4d52a91d134d51d9454431d9f
+docker: quay.io/biocontainers/rnalien
+aliases:
+  LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm
+  RNAcentralHTTPRequest: /usr/local/bin/RNAcentralHTTPRequest
+  RNAcentralHTTPRequest-bin: /usr/local/bin/RNAcentralHTTPRequest-bin
+  RNAcode: /usr/local/bin/RNAcode
+  RNAlien: /usr/local/bin/RNAlien
+  RNAlien-bin: /usr/local/bin/RNAlien-bin
+  RNAlienScan: /usr/local/bin/RNAlienScan
+  RNAlienScan-bin: /usr/local/bin/RNAlienScan-bin
+  RNAlienStatistics: /usr/local/bin/RNAlienStatistics
+  RNAlienStatistics-bin: /usr/local/bin/RNAlienStatistics-bin
+  RNAz: /usr/local/bin/RNAz
+  RNAz.pm: /usr/local/bin/RNAz.pm
+  aln-seqs.pl: /usr/local/bin/aln-seqs.pl
+  aln2fa.pl: /usr/local/bin/aln2fa.pl
+  alnsel.pl: /usr/local/bin/alnsel.pl
+  average-dot.pl: /usr/local/bin/average-dot.pl
+  benchmark-plot.R: /usr/local/bin/benchmark-plot.R
+  cmsearchToBed: /usr/local/bin/cmsearchToBed
+  cmsearchToBed-bin: /usr/local/bin/cmsearchToBed-bin
+  coloraln.pl: /usr/local/bin/coloraln.pl
+  colorrna.pl: /usr/local/bin/colorrna.pl
+  convertMaf.pl: /usr/local/bin/convertMaf.pl
+  dot2pp: /usr/local/bin/dot2pp
+  exparna_p: /usr/local/bin/exparna_p
+  exploc_p: /usr/local/bin/exploc_p
+  extractMAFblock.pl: /usr/local/bin/extractMAFblock.pl
+  gen-reliab-dot.pl: /usr/local/bin/gen-reliab-dot.pl
+  locarna: /usr/local/bin/locarna
+  locarna-mea.pl: /usr/local/bin/locarna-mea.pl
+  locarna-motif-scan: /usr/local/bin/locarna-motif-scan
+  locarna_deviation: /usr/local/bin/locarna_deviation
+  locarna_mcc: /usr/local/bin/locarna_mcc
+  locarna_p: /usr/local/bin/locarna_p
+  locarna_rnafold_pp: /usr/local/bin/locarna_rnafold_pp
+  locarnap-predict-and-plot.pl: /usr/local/bin/locarnap-predict-and-plot.pl
+  locarnap-realign-all.pl: /usr/local/bin/locarnap-realign-all.pl
+  locarnap-revcomp.pl: /usr/local/bin/locarnap-revcomp.pl
+  locarnap-revisit-RNAz-hits.pl: /usr/local/bin/locarnap-revisit-RNAz-hits.pl
+  locarnap_fit: /usr/local/bin/locarnap_fit
+  locarnate: /usr/local/bin/locarnate
+  mafStats.pl: /usr/local/bin/mafStats.pl
+  mlocarna: /usr/local/bin/mlocarna
+  mlocarna_nnames: /usr/local/bin/mlocarna_nnames
+  mpi.pl: /usr/local/bin/mpi.pl
+  plot-bmprobs: /usr/local/bin/plot-bmprobs
+  pp2dot: /usr/local/bin/pp2dot
+  reliability-profile.pl: /usr/local/bin/reliability-profile.pl
+  ribosum2cc: /usr/local/bin/ribosum2cc
+  rnazAnnotate.pl: /usr/local/bin/rnazAnnotate.pl
+  rnazBEDsort.pl: /usr/local/bin/rnazBEDsort.pl
+  rnazBEDstats.pl: /usr/local/bin/rnazBEDstats.pl
+  rnazBlast.pl: /usr/local/bin/rnazBlast.pl
+  rnazCMsearch.pl: /usr/local/bin/rnazCMsearch.pl
+  rnazCluster.pl: /usr/local/bin/rnazCluster.pl
+  rnazFilter.pl: /usr/local/bin/rnazFilter.pl
+  rnazIndex.pl: /usr/local/bin/rnazIndex.pl
+  rnazMAF2BED.pl: /usr/local/bin/rnazMAF2BED.pl
+  rnazMaf2Coordinates.pl: /usr/local/bin/rnazMaf2Coordinates.pl
+  rnazMafRenumberMaf.pl: /usr/local/bin/rnazMafRenumberMaf.pl
+  rnazMafSplit.pl: /usr/local/bin/rnazMafSplit.pl
+  rnazOutputSort.pl: /usr/local/bin/rnazOutputSort.pl
+  rnazRandomizeAln.pl: /usr/local/bin/rnazRandomizeAln.pl
+  rnazSelectSeqs.pl: /usr/local/bin/rnazSelectSeqs.pl
+  rnazSliceAlnByPos.pl: /usr/local/bin/rnazSliceAlnByPos.pl
+  rnazSort.pl: /usr/local/bin/rnazSort.pl
+  rnazWindow.pl: /usr/local/bin/rnazWindow.pl
+  rnazWindow_gq.pl: /usr/local/bin/rnazWindow_gq.pl
+  sparse: /usr/local/bin/sparse
+  stats2plot.pl: /usr/local/bin/stats2plot.pl

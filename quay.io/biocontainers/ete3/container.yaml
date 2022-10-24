@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ete3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ete3
+latest:
+  3.1.2: sha256:fd5bac3a286d030babc7ce40d5bacd97e494cb066f5fb7240c8e85f14c6a16dc
+tags:
+  3.1.2: sha256:fd5bac3a286d030babc7ce40d5bacd97e494cb066f5fb7240c8e85f14c6a16dc
+docker: quay.io/biocontainers/ete3

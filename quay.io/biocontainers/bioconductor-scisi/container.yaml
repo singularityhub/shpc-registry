@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scisi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scisi
+latest:
+  1.65.0--r41hdfd78af_0: sha256:fa17554c55034b62badacdffa6373825f1616ae294e2611e091eb56a238abb53
+tags:
+  1.65.0--r41hdfd78af_0: sha256:fa17554c55034b62badacdffa6373825f1616ae294e2611e091eb56a238abb53
+docker: quay.io/biocontainers/bioconductor-scisi

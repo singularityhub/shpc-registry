@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dir.expiry
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dir.expiry
+latest:
+  1.2.0--r41hdfd78af_0: sha256:de9ce855e987206006d507e977dd154974d640ec8d8ded1c60dd5e856d1597bd
+tags:
+  1.2.0--r41hdfd78af_0: sha256:de9ce855e987206006d507e977dd154974d640ec8d8ded1c60dd5e856d1597bd
+docker: quay.io/biocontainers/bioconductor-dir.expiry

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-metagxbreast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metagxbreast
+latest:
+  1.8.0--r40_0: sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de
+tags:
+  1.8.0--r40_0: sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de
+docker: quay.io/biocontainers/bioconductor-metagxbreast
+aliases:
+  .bioconductor-metagxbreast-post-link.sh: /usr/local/bin/.bioconductor-metagxbreast-post-link.sh
+  .bioconductor-metagxbreast-pre-unlink.sh: /usr/local/bin/.bioconductor-metagxbreast-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-enhancedvolcano
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-enhancedvolcano
+latest:
+  1.8.0--r40hdfd78af_1: sha256:ee6850f58a53822b67fafab3464b0dd1c77e1edec8cdaa5056e06be300613ba5
+tags:
+  1.8.0--r40hdfd78af_1: sha256:ee6850f58a53822b67fafab3464b0dd1c77e1edec8cdaa5056e06be300613ba5
+docker: quay.io/biocontainers/bioconductor-enhancedvolcano

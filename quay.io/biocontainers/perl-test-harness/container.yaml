@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-harness
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-harness
+latest:
+  3.44--pl5321hdfd78af_0: sha256:b78cb0dfe61ac5451180397d6f7f757236de43e0ec35a365e53ddc1060d353fd
+tags:
+  3.44--pl5321hdfd78af_0: sha256:b78cb0dfe61ac5451180397d6f7f757236de43e0ec35a365e53ddc1060d353fd
+docker: quay.io/biocontainers/perl-test-harness

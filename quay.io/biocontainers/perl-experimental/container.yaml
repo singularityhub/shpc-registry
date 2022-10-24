@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-experimental
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-experimental
+latest:
+  0.028--pl5321hdfd78af_0: sha256:a2e26480c299e95848ae1c350eb632554815be5d6e3fe57a83c427fe853fcca5
+tags:
+  0.028--pl5321hdfd78af_0: sha256:a2e26480c299e95848ae1c350eb632554815be5d6e3fe57a83c427fe853fcca5
+docker: quay.io/biocontainers/perl-experimental

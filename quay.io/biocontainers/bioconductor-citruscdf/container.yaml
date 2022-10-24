@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-citruscdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-citruscdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:0e95b90ef0917f2fc185f6f36a8a792ff3dc8cad7d95fd7c9013a067715eb403
+tags:
+  2.18.0--r41hdfd78af_9: sha256:0e95b90ef0917f2fc185f6f36a8a792ff3dc8cad7d95fd7c9013a067715eb403
+docker: quay.io/biocontainers/bioconductor-citruscdf
+aliases:
+  .bioconductor-citruscdf-post-link.sh: /usr/local/bin/.bioconductor-citruscdf-post-link.sh
+  .bioconductor-citruscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-citruscdf-pre-unlink.sh

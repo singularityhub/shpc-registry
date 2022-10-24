@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kobas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kobas
+latest:
+  3.0.3--py_3: sha256:430b30f6141a51f581f301e8b66bbb8db401d730673acb9eb6ef28ace78a9c66
+tags:
+  3.0.3--py_3: sha256:430b30f6141a51f581f301e8b66bbb8db401d730673acb9eb6ef28ace78a9c66
+docker: quay.io/biocontainers/kobas
+aliases:
+  kobas-annotate: /usr/local/bin/kobas-annotate
+  kobas-identify: /usr/local/bin/kobas-identify
+  kobas-run: /usr/local/bin/kobas-run

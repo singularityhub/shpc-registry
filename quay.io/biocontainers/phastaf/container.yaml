@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/phastaf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phastaf
+latest:
+  0.1.0--hdfd78af_1: sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81
+tags:
+  0.1.0--hdfd78af_1: sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81
+docker: quay.io/biocontainers/phastaf
+aliases:
+  phastaf: /usr/local/bin/phastaf

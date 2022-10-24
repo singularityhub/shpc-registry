@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-meb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-meb
+latest:
+  1.8.0--r41hdfd78af_0: sha256:ed83a3cc8cf4e3ff44a0c2d80431d98256e74e6d7dcad932b9b88f0731756707
+tags:
+  1.8.0--r41hdfd78af_0: sha256:ed83a3cc8cf4e3ff44a0c2d80431d98256e74e6d7dcad932b9b88f0731756707
+docker: quay.io/biocontainers/bioconductor-meb

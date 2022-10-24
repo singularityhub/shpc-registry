@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mglex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mglex
+latest:
+  0.2.1--py_0: sha256:66ed866fb5e5b4d7e1ba42278c302f2c48b55577153641e64dd477cfb474f7dd
+tags:
+  0.2.1--py_0: sha256:66ed866fb5e5b4d7e1ba42278c302f2c48b55577153641e64dd477cfb474f7dd
+docker: quay.io/biocontainers/mglex
+aliases:
+  mglex-cli: /usr/local/bin/mglex-cli

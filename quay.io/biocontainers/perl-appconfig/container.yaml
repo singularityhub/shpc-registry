@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-appconfig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-appconfig
+latest:
+  1.71--pl5321hdfd78af_2: sha256:e5bdf81e97289a390853b763411f754a82fcf5d9727959c4a4d450259b2c9d5b
+tags:
+  1.71--pl5321hdfd78af_2: sha256:e5bdf81e97289a390853b763411f754a82fcf5d9727959c4a4d450259b2c9d5b
+docker: quay.io/biocontainers/perl-appconfig

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-prostar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prostar
+latest:
+  1.26.0--r41hdfd78af_0: sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8
+tags:
+  1.26.0--r41hdfd78af_0: sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8
+docker: quay.io/biocontainers/bioconductor-prostar
+aliases:
+  .bioconductor-dapardata-post-link.sh: /usr/local/bin/.bioconductor-dapardata-post-link.sh
+  .bioconductor-dapardata-pre-unlink.sh: /usr/local/bin/.bioconductor-dapardata-pre-unlink.sh

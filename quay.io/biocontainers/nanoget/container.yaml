@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/nanoget
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanoget
+latest:
+  1.9.1--py_0: sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993
+tags:
+  1.9.1--py_0: sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993
+docker: quay.io/biocontainers/nanoget

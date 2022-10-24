@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-acgh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-acgh
+latest:
+  1.72.0--r41hc247a5b_2: sha256:54c79a871b3ecc03fd410be5b0657ede25657bc808229653fe5eee65986988a9
+tags:
+  1.72.0--r41hc247a5b_2: sha256:54c79a871b3ecc03fd410be5b0657ede25657bc808229653fe5eee65986988a9
+docker: quay.io/biocontainers/bioconductor-acgh

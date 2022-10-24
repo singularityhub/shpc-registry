@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/interproscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for interproscan
+latest:
+  5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
+tags:
+  5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
+docker: quay.io/biocontainers/interproscan
+aliases:
+  .interproscan-post-link.sh: /usr/local/bin/.interproscan-post-link.sh
+  2ft: /usr/local/bin/2ft
+  6ft: /usr/local/bin/6ft
+  _gdlib-config: /usr/local/bin/_gdlib-config
+  cath-assign-domains: /usr/local/bin/cath-assign-domains
+  cath-cluster: /usr/local/bin/cath-cluster
+  cath-map-clusters: /usr/local/bin/cath-map-clusters
+  cath-refine-align: /usr/local/bin/cath-refine-align
+  cath-resolve-hits: /usr/local/bin/cath-resolve-hits
+  cath-score-align: /usr/local/bin/cath-score-align
+  cath-ssap: /usr/local/bin/cath-ssap
+  cath-superpose: /usr/local/bin/cath-superpose
+  compare_2_profiles.pl: /usr/local/bin/compare_2_profiles.pl
+  fasta_to_fastq.pl: /usr/local/bin/fasta_to_fastq.pl
+  gtop: /usr/local/bin/gtop
+  hmmalign2: /usr/local/bin/hmmalign2
+  hmmbuild2: /usr/local/bin/hmmbuild2
+  hmmcalibrate2: /usr/local/bin/hmmcalibrate2
+  hmmconvert2: /usr/local/bin/hmmconvert2
+  hmmemit2: /usr/local/bin/hmmemit2
+  hmmfetch2: /usr/local/bin/hmmfetch2
+  hmmindex2: /usr/local/bin/hmmindex2
+  hmmpfam2: /usr/local/bin/hmmpfam2
+  hmmsearch2: /usr/local/bin/hmmsearch2
+  htop: /usr/local/bin/htop
+  interproscan.sh: /usr/local/bin/interproscan.sh
+  make_iupac_cmp.pl: /usr/local/bin/make_iupac_cmp.pl
+  pfcalibrateV3: /usr/local/bin/pfcalibrateV3
+  pfdump: /usr/local/bin/pfdump
+  pfemit: /usr/local/bin/pfemit
+  pfindex: /usr/local/bin/pfindex
+  pfmake: /usr/local/bin/pfmake
+  pfpam: /usr/local/bin/pfpam
+  pfscale: /usr/local/bin/pfscale
+  pfscan: /usr/local/bin/pfscan
+  pfscanV3: /usr/local/bin/pfscanV3
+  pfsearch: /usr/local/bin/pfsearch
+  pfsearchV3: /usr/local/bin/pfsearchV3
+  pfw: /usr/local/bin/pfw
+  ps_scan.pl: /usr/local/bin/ps_scan.pl
+  psa2msa: /usr/local/bin/psa2msa
+  ptof: /usr/local/bin/ptof
+  ptoh: /usr/local/bin/ptoh
+  scramble_fasta.pl: /usr/local/bin/scramble_fasta.pl
+  sfld_postprocess: /usr/local/bin/sfld_postprocess
+  sfld_preprocess: /usr/local/bin/sfld_preprocess
+  sfld_preprocess.py: /usr/local/bin/sfld_preprocess.py
+  sort_fasta.pl: /usr/local/bin/sort_fasta.pl
+  split_profile_file.pl: /usr/local/bin/split_profile_file.pl

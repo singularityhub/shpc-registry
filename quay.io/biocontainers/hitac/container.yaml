@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hitac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hitac
+latest:
+  2.0.9--pyhdfd78af_1: sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4
+tags:
+  2.0.9--pyhdfd78af_1: sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4
+docker: quay.io/biocontainers/hitac
+aliases:
+  hiclass: /usr/local/bin/hiclass

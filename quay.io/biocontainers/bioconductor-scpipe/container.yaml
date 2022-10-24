@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scpipe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scpipe
+latest:
+  1.8.0--r36he1b5a44_0: sha256:d69b4633d465a1c758f192fc2d23a5022020eeaf2f20dcef292e173b57e440e4
+tags:
+  1.8.0--r36he1b5a44_0: sha256:d69b4633d465a1c758f192fc2d23a5022020eeaf2f20dcef292e173b57e440e4
+docker: quay.io/biocontainers/bioconductor-scpipe

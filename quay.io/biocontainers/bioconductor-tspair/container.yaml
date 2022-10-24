@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tspair
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tspair
+latest:
+  1.52.0--r41hc0cfd56_2: sha256:f9fa00157be67a4c8b8fe04fe2ec2c058ea8a8792cc3848894168a9293f15e44
+tags:
+  1.52.0--r41hc0cfd56_2: sha256:f9fa00157be67a4c8b8fe04fe2ec2c058ea8a8792cc3848894168a9293f15e44
+docker: quay.io/biocontainers/bioconductor-tspair

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/popt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for popt
+latest:
+  1.16--1: sha256:b9c8d96a6695522ea21610de3e127588d8111969a620d5d59ad4a2743a955b3f
+tags:
+  1.16--1: sha256:b9c8d96a6695522ea21610de3e127588d8111969a620d5d59ad4a2743a955b3f
+docker: quay.io/biocontainers/popt

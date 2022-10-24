@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/peakachu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peakachu
+latest:
+  0.2.0--py36h91eb985_2: sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4
+tags:
+  0.2.0--py36h91eb985_2: sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4
+docker: quay.io/biocontainers/peakachu
+aliases:
+  blockbuster.x: /usr/local/bin/blockbuster.x
+  peakachu: /usr/local/bin/peakachu

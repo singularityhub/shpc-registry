@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/svgwrite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svgwrite
+latest:
+  1.1.6--py36_0: sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705
+tags:
+  1.1.6--py36_0: sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705
+docker: quay.io/biocontainers/svgwrite

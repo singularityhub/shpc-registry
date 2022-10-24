@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bh
+latest:
+  1.60.0_2--r3.2.2_0: sha256:f42e0af37800ea83bccd4c2ee5857a3a508e15dfc39a9c5455cb16218d72a306
+tags:
+  1.60.0_2--r3.2.2_0: sha256:f42e0af37800ea83bccd4c2ee5857a3a508e15dfc39a9c5455cb16218d72a306
+docker: quay.io/biocontainers/r-bh

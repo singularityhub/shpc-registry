@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-generecommender
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-generecommender
+latest:
+  1.66.0--r41hdfd78af_0: sha256:d5ad1bf6fcc002b1a0fb1be5ced715fa4f092990d5893ab612eb70f636b947b5
+tags:
+  1.66.0--r41hdfd78af_0: sha256:d5ad1bf6fcc002b1a0fb1be5ced715fa4f092990d5893ab612eb70f636b947b5
+docker: quay.io/biocontainers/bioconductor-generecommender

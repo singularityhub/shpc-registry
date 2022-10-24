@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nucler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nucler
+latest:
+  2.8.0--r3.3.2_0: sha256:bbdd08c4a63d921b69eb620ce99e8c2dc48bf618e57488b82fdc90f8ecaafb7c
+tags:
+  2.8.0--r3.3.2_0: sha256:bbdd08c4a63d921b69eb620ce99e8c2dc48bf618e57488b82fdc90f8ecaafb7c
+docker: quay.io/biocontainers/bioconductor-nucler

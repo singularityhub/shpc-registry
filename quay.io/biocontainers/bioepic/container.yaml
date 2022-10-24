@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioepic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioepic
+latest:
+  0.1.6--py35_0: sha256:0bc9cac1c28062cb6e5727b1c4f66660b6f9fd2fb678b6131191c35eca28606a
+tags:
+  0.1.6--py35_0: sha256:0bc9cac1c28062cb6e5727b1c4f66660b6f9fd2fb678b6131191c35eca28606a
+docker: quay.io/biocontainers/bioepic
+aliases:
+  epic: /usr/local/bin/epic
+  epic-effective: /usr/local/bin/epic-effective

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/velocyto.py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for velocyto.py
+latest:
+  0.17.17--py38h17adfb0_5: sha256:04a16c2f7ee50cd0880d04bb1d4982fcf3ee723d9195a38affa9275c13854a6a
+tags:
+  0.17.17--py38h17adfb0_5: sha256:04a16c2f7ee50cd0880d04bb1d4982fcf3ee723d9195a38affa9275c13854a6a
+docker: quay.io/biocontainers/velocyto.py
+aliases:
+  velocyto: /usr/local/bin/velocyto

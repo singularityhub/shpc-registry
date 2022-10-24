@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellity
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellity
+latest:
+  1.22.0--r41hdfd78af_0: sha256:dc6dd07a0ee050009ec300529d0a07d058524dc680a98797e29369ef56f4b70e
+tags:
+  1.22.0--r41hdfd78af_0: sha256:dc6dd07a0ee050009ec300529d0a07d058524dc680a98797e29369ef56f4b70e
+docker: quay.io/biocontainers/bioconductor-cellity

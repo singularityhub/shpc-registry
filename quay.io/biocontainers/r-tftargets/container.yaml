@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tftargets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tftargets
+latest:
+  1.3--r41hdfd78af_3: sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0
+tags:
+  1.3--r41hdfd78af_3: sha256:5688596ec712a4178e1ee71f22382a54d159056f4cea881e1e7fc85daba609d0
+docker: quay.io/biocontainers/r-tftargets

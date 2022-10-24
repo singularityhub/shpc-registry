@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/smoove
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smoove
+latest:
+  0.2.8--h9ee0642_1: sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
+tags:
+  0.2.8--h9ee0642_1: sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8
+docker: quay.io/biocontainers/smoove
+aliases:
+  cnvanator_to_bedpes.py: /usr/local/bin/cnvanator_to_bedpes.py
+  create_coordinates: /usr/local/bin/create_coordinates
+  duphold: /usr/local/bin/duphold
+  extractSplitReads_BwaMem: /usr/local/bin/extractSplitReads_BwaMem
+  gsort: /usr/local/bin/gsort
+  lib_stats.R: /usr/local/bin/lib_stats.R
+  lumpy: /usr/local/bin/lumpy
+  lumpy_filter: /usr/local/bin/lumpy_filter
+  lumpyexpress: /usr/local/bin/lumpyexpress
+  lumpyexpress.config: /usr/local/bin/lumpyexpress.config
+  mosdepth: /usr/local/bin/mosdepth
+  samblaster: /usr/local/bin/samblaster
+  smoove: /usr/local/bin/smoove
+  sv_classifier.py: /usr/local/bin/sv_classifier.py
+  svtools: /usr/local/bin/svtools
+  svtyper: /usr/local/bin/svtyper
+  svtyper-sso: /usr/local/bin/svtyper-sso
+  update_info.py: /usr/local/bin/update_info.py
+  vcf_allele_freq.py: /usr/local/bin/vcf_allele_freq.py
+  vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
+  vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
+  vcf_paste.py: /usr/local/bin/vcf_paste.py

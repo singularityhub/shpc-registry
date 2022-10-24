@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/topas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for topas
+latest:
+  1.0.1--hdfd78af_1: sha256:298e5546e48ed8d3fae03ee8417e589520df9db575218a58709b7c1473333f48
+tags:
+  1.0.1--hdfd78af_1: sha256:298e5546e48ed8d3fae03ee8417e589520df9db575218a58709b7c1473333f48
+docker: quay.io/biocontainers/topas
+aliases:
+  topas: /usr/local/bin/topas

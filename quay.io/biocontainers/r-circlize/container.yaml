@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-circlize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-circlize
+latest:
+  0.3.3--r3.2.2_0: sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47
+tags:
+  0.3.3--r3.2.2_0: sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47
+docker: quay.io/biocontainers/r-circlize

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-treeio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-treeio
+latest:
+  1.8.1--r36_0: sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a
+tags:
+  1.8.1--r36_0: sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a
+docker: quay.io/biocontainers/bioconductor-treeio

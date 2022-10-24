@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-wasabi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-wasabi
+latest:
+  1.0.1--r41hdfd78af_4: sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987
+tags:
+  1.0.1--r41hdfd78af_4: sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987
+docker: quay.io/biocontainers/r-wasabi

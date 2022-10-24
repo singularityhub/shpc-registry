@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-icobra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-icobra
+latest:
+  1.8.0--r341_0: sha256:4464bbc7059ba1af906216dab9582c5c7b568c212bce2f6715d7251948fc38c9
+tags:
+  1.8.0--r341_0: sha256:4464bbc7059ba1af906216dab9582c5c7b568c212bce2f6715d7251948fc38c9
+docker: quay.io/biocontainers/bioconductor-icobra

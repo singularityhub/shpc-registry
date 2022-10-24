@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biggr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biggr
+latest:
+  1.30.0--r41hdfd78af_0: sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a
+tags:
+  1.30.0--r41hdfd78af_0: sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a
+docker: quay.io/biocontainers/bioconductor-biggr

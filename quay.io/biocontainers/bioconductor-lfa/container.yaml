@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lfa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lfa
+latest:
+  1.8.0--r3.4.1_0: sha256:cc3f599fcb740bdcac72567ade8fda293fffead73a4b81bcfcd8a4e6ff520223
+tags:
+  1.8.0--r3.4.1_0: sha256:cc3f599fcb740bdcac72567ade8fda293fffead73a4b81bcfcd8a4e6ff520223
+docker: quay.io/biocontainers/bioconductor-lfa

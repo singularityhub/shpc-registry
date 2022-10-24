@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/paralyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for paralyzer
+latest:
+  1.5--hdfd78af_3: sha256:6b02e49eb6e9868614bad5ad5a3cd6a060a414c22cb817b1d5924d8112ec51af
+tags:
+  1.5--hdfd78af_3: sha256:6b02e49eb6e9868614bad5ad5a3cd6a060a414c22cb817b1d5924d8112ec51af
+docker: quay.io/biocontainers/paralyzer
+aliases:
+  PARalyzer: /usr/local/bin/PARalyzer

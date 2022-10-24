@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/lotus2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lotus2
+latest:
+  2.21--hdfd78af_0: sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d
+tags:
+  2.21--hdfd78af_0: sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d
+docker: quay.io/biocontainers/lotus2
+aliases:
+  .lotus2-post-link.sh: /usr/local/bin/.lotus2-post-link.sh
+  .lotus2-pre-unlink.sh: /usr/local/bin/.lotus2-pre-unlink.sh
+  ITSx: /usr/local/bin/ITSx
+  LCA: /usr/local/bin/LCA
+  amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py
+  graph_plot.py: /usr/local/bin/graph_plot.py
+  iqtree2: /usr/local/bin/iqtree2
+  lambda: /usr/local/bin/lambda
+  lambda_indexer: /usr/local/bin/lambda_indexer
+  lotus2: /usr/local/bin/lotus2
+  rdp_classifier: /usr/local/bin/rdp_classifier
+  rtk: /usr/local/bin/rtk
+  sdm: /usr/local/bin/sdm
+  swarm: /usr/local/bin/swarm

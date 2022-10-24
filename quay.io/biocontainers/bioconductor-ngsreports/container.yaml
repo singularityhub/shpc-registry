@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ngsreports
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ngsreports
+latest:
+  1.8.0--r41hdfd78af_0: sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27
+tags:
+  1.8.0--r41hdfd78af_0: sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27
+docker: quay.io/biocontainers/bioconductor-ngsreports

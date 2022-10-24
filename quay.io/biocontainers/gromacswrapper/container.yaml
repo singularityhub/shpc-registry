@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/gromacswrapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gromacswrapper
+latest:
+  0.8.2--pyh5e36f6f_0: sha256:853b4ed0373185fc608774e4383fbcb3ba13c2a5bd5f043806759cceb31c5346
+tags:
+  0.8.2--pyh5e36f6f_0: sha256:853b4ed0373185fc608774e4383fbcb3ba13c2a5bd5f043806759cceb31c5346
+docker: quay.io/biocontainers/gromacswrapper
+aliases:
+  gw-forcefield.py: /usr/local/bin/gw-forcefield.py
+  gw-join_parts.py: /usr/local/bin/gw-join_parts.py
+  gw-merge_topologies.py: /usr/local/bin/gw-merge_topologies.py
+  gw-partial_tempering.py: /usr/local/bin/gw-partial_tempering.py

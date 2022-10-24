@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bionetstat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bionetstat
+latest:
+  1.8.0--r40_0: sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339
+tags:
+  1.8.0--r40_0: sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339
+docker: quay.io/biocontainers/bioconductor-bionetstat

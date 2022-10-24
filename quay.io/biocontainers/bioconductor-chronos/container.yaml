@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chronos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chronos
+latest:
+  1.8.1--r351_0: sha256:68f55464e2b2be67c77c757e92578a1a778cb82b1f7a694ed0ea9be3ac7cc528
+tags:
+  1.8.1--r351_0: sha256:68f55464e2b2be67c77c757e92578a1a778cb82b1f7a694ed0ea9be3ac7cc528
+docker: quay.io/biocontainers/bioconductor-chronos

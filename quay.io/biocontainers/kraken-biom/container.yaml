@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kraken-biom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kraken-biom
+latest:
+  1.2.0--pyh5e36f6f_0: sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd
+tags:
+  1.2.0--pyh5e36f6f_0: sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd
+docker: quay.io/biocontainers/kraken-biom
+aliases:
+  kraken-biom: /usr/local/bin/kraken-biom

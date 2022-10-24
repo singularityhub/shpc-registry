@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/miru-hero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for miru-hero
+latest:
+  0.10.0--pyh5e36f6f_0: sha256:c35f4b9201ed8c15f389e902cac1ac0e4e872031518461c3214deb83e29a8aa5
+tags:
+  0.10.0--pyh5e36f6f_0: sha256:c35f4b9201ed8c15f389e902cac1ac0e4e872031518461c3214deb83e29a8aa5
+docker: quay.io/biocontainers/miru-hero
+aliases:
+  MiruHero: /usr/local/bin/MiruHero

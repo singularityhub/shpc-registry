@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-expressionview
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-expressionview
+latest:
+  1.42.0--r40h399db7b_1: sha256:c1b7f58f22a4e43d16c2a6579cd50f4ba79547b880b3a0dc26f900bdb3574bff
+tags:
+  1.42.0--r40h399db7b_1: sha256:c1b7f58f22a4e43d16c2a6579cd50f4ba79547b880b3a0dc26f900bdb3574bff
+docker: quay.io/biocontainers/bioconductor-expressionview

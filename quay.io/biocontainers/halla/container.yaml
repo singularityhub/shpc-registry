@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/halla
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for halla
+latest:
+  0.8.17--py36_0: sha256:4c4ae4051f8db1e777892a856a89447478a610d6f9a58858e754ab40637f0848
+tags:
+  0.8.17--py36_0: sha256:4c4ae4051f8db1e777892a856a89447478a610d6f9a58858e754ab40637f0848
+docker: quay.io/biocontainers/halla
+aliases:
+  halla: /usr/local/bin/halla
+  halladata: /usr/local/bin/halladata
+  hallagram: /usr/local/bin/hallagram
+  hallascatter: /usr/local/bin/hallascatter

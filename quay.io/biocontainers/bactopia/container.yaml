@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/bactopia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bactopia
+latest:
+  2.1.1--hdfd78af_0: sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51
+tags:
+  2.1.1--hdfd78af_0: sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51
+docker: quay.io/biocontainers/bactopia
+aliases:
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  ariba: /usr/local/bin/ariba
+  bactopia: /usr/local/bin/bactopia
+  bactopia-citations.py: /usr/local/bin/bactopia-citations.py
+  bactopia-datasets.py: /usr/local/bin/bactopia-datasets.py
+  bactopia-download.py: /usr/local/bin/bactopia-download.py
+  bactopia-prepare.py: /usr/local/bin/bactopia-prepare.py
+  bactopia-search.py: /usr/local/bin/bactopia-search.py
+  check-assembly-accession.py: /usr/local/bin/check-assembly-accession.py
+  check-fastqs.py: /usr/local/bin/check-fastqs.py
+  cleanup-coverage.py: /usr/local/bin/cleanup-coverage.py
+  dna_mutation: /usr/local/bin/dna_mutation
+  executor: /usr/local/bin/executor
+  fasta2parts: /usr/local/bin/fasta2parts
+  fasta_check: /usr/local/bin/fasta_check
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  gimme_taxa.py: /usr/local/bin/gimme_taxa.py
+  mamba-package: /usr/local/bin/mamba-package
+  mask-consensus.py: /usr/local/bin/mask-consensus.py
+  merge-blast-json.py: /usr/local/bin/merge-blast-json.py
+  mlst-blast.py: /usr/local/bin/mlst-blast.py
+  ncbi-genome-download: /usr/local/bin/ncbi-genome-download
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  ngd: /usr/local/bin/ngd
+  select-references.py: /usr/local/bin/select-references.py
+  split-coverages.py: /usr/local/bin/split-coverages.py
+  staphopia: /usr/local/bin/staphopia

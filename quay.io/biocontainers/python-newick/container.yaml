@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-newick
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-newick
+latest:
+  1.3.2--pyh5e36f6f_0: sha256:39911c6233ad17c924924b82206cbb6008ebb761b07d6d19000e6a24298c1574
+tags:
+  1.3.2--pyh5e36f6f_0: sha256:39911c6233ad17c924924b82206cbb6008ebb761b07d6d19000e6a24298c1574
+docker: quay.io/biocontainers/python-newick

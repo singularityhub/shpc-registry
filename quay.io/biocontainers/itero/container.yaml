@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/itero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for itero
+latest:
+  1.1.2--py_1: sha256:a1f00e2670ec270fe4dea51820396de3a90da5ef836fc5e29ce18f499cb74fc5
+tags:
+  1.1.2--py_1: sha256:a1f00e2670ec270fe4dea51820396de3a90da5ef836fc5e29ce18f499cb74fc5
+docker: quay.io/biocontainers/itero
+aliases:
+  dipspades.py: /usr/local/bin/dipspades.py
+  gawk-5.0.1: /usr/local/bin/gawk-5.0.1
+  itero: /usr/local/bin/itero
+  spades-dipspades-core: /usr/local/bin/spades-dipspades-core

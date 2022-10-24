@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/matchms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for matchms
+latest:
+  0.9.2--pyh5e36f6f_0: sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0
+tags:
+  0.9.2--pyh5e36f6f_0: sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0
+docker: quay.io/biocontainers/matchms

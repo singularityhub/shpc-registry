@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maaslin2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maaslin2
+latest:
+  1.8.0--r41hdfd78af_0: sha256:e412db0ee818b9416615c69c48439436160c4a5658cc896e4abd05aea45cfbf1
+tags:
+  1.8.0--r41hdfd78af_0: sha256:e412db0ee818b9416615c69c48439436160c4a5658cc896e4abd05aea45cfbf1
+docker: quay.io/biocontainers/bioconductor-maaslin2

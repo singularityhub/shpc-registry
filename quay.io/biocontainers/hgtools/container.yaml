@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hgtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hgtools
+latest:
+  8.2.1--py_0: sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f
+tags:
+  8.2.1--py_0: sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f
+docker: quay.io/biocontainers/hgtools

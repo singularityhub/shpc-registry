@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-prroc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-prroc
+latest:
+  1.1--r3.3.1_0: sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a
+tags:
+  1.1--r3.3.1_0: sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a
+docker: quay.io/biocontainers/r-prroc

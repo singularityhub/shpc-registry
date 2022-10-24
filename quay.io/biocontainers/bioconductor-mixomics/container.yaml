@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mixomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mixomics
+latest:
+  6.8.0--r36_1: sha256:308d3d4bd8c4f2b1469b6399db0c59beb4f997c94b5323c7058a2fb503cd8b25
+tags:
+  6.8.0--r36_1: sha256:308d3d4bd8c4f2b1469b6399db0c59beb4f997c94b5323c7058a2fb503cd8b25
+docker: quay.io/biocontainers/bioconductor-mixomics

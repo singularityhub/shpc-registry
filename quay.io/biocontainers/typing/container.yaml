@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/typing
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for typing
+latest:
+  3.5.2.2--py36_0: sha256:211cdcc9ef4c951de06ca83122abb38f990fd7f7228f32d5446d615a2873b63c
+tags:
+  3.5.2.2--py36_0: sha256:211cdcc9ef4c951de06ca83122abb38f990fd7f7228f32d5446d615a2873b63c
+docker: quay.io/biocontainers/typing

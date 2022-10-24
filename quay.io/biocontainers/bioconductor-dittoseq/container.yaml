@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dittoseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dittoseq
+latest:
+  1.6.0--r41hdfd78af_0: sha256:4496821416aef5cc939f99aaed99f50ef450f4355f8dbd0cae69a0a88929c7cf
+tags:
+  1.6.0--r41hdfd78af_0: sha256:4496821416aef5cc939f99aaed99f50ef450f4355f8dbd0cae69a0a88929c7cf
+docker: quay.io/biocontainers/bioconductor-dittoseq

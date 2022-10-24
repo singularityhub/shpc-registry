@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tpmcalculator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tpmcalculator
+latest:
+  0.0.4--ha7703dc_2: sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e
+tags:
+  0.0.4--ha7703dc_2: sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e
+docker: quay.io/biocontainers/tpmcalculator
+aliases:
+  TPMCalculator: /usr/local/bin/TPMCalculator

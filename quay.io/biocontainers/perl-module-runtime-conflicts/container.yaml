@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-runtime-conflicts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-runtime-conflicts
+latest:
+  0.003--pl5321hdfd78af_1: sha256:7d475cd91a0316d099b587b5e454490d3ec629a3027063298a13e0eb1101ac36
+tags:
+  0.003--pl5321hdfd78af_1: sha256:7d475cd91a0316d099b587b5e454490d3ec629a3027063298a13e0eb1101ac36
+docker: quay.io/biocontainers/perl-module-runtime-conflicts

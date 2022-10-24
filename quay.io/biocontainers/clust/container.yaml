@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clust
+latest:
+  1.8.9--py27h24bf2e0_0: sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80
+tags:
+  1.8.9--py27h24bf2e0_0: sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80
+docker: quay.io/biocontainers/clust
+aliases:
+  clust: /usr/local/bin/clust

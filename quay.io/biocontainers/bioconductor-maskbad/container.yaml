@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maskbad
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maskbad
+latest:
+  1.38.0--r41hdfd78af_0: sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e
+tags:
+  1.38.0--r41hdfd78af_0: sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e
+docker: quay.io/biocontainers/bioconductor-maskbad

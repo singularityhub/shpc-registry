@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genclust
+latest:
+  1.0--hec16e2b_3: sha256:3f7ada966b6d03c4430cf0ae1a89ad93228b878e9c8e4dbc648e3f800f883ad0
+tags:
+  1.0--hec16e2b_3: sha256:3f7ada966b6d03c4430cf0ae1a89ad93228b878e9c8e4dbc648e3f800f883ad0
+docker: quay.io/biocontainers/genclust
+aliases:
+  genclust: /usr/local/bin/genclust

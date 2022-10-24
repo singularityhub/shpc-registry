@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-peca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-peca
+latest:
+  1.30.0--r41hdfd78af_0: sha256:4207e7638070f92d91f786a52eab99848c5c28478c4f0c4210890c954a7bdee0
+tags:
+  1.30.0--r41hdfd78af_0: sha256:4207e7638070f92d91f786a52eab99848c5c28478c4f0c4210890c954a7bdee0
+docker: quay.io/biocontainers/bioconductor-peca

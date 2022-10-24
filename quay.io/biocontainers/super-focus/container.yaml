@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/super-focus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for super-focus
+latest:
+  1.6--pyhdfd78af_1: sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9
+tags:
+  1.6--pyhdfd78af_1: sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9
+docker: quay.io/biocontainers/super-focus
+aliases:
+  prerapsearch: /usr/local/bin/prerapsearch
+  rapsearch: /usr/local/bin/rapsearch
+  superfocus: /usr/local/bin/superfocus
+  superfocus_downloadDB: /usr/local/bin/superfocus_downloadDB

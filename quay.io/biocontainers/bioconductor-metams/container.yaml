@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metams
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metams
+latest:
+  1.8.0--0: sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0
+tags:
+  1.8.0--0: sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0
+docker: quay.io/biocontainers/bioconductor-metams

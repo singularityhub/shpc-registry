@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gars
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gars
+latest:
+  1.6.0--r36_0: sha256:d3867b11f0e794642dce17d3d0ef7a417e3e2811e9bdc7dfedcf2f9328d4b4ff
+tags:
+  1.6.0--r36_0: sha256:d3867b11f0e794642dce17d3d0ef7a417e3e2811e9bdc7dfedcf2f9328d4b4ff
+docker: quay.io/biocontainers/bioconductor-gars

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bugseq-porechop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bugseq-porechop
+latest:
+  0.3.4pre--py37h96cfd12_2: sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26
+tags:
+  0.3.4pre--py37h96cfd12_2: sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26
+docker: quay.io/biocontainers/bugseq-porechop

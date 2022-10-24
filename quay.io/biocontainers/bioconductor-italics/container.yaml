@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-italics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-italics
+latest:
+  2.52.0--r41hdfd78af_0: sha256:18f6b53ce57c110bbcb6c515ba5943f1326151d3548e180480f1f15f34628468
+tags:
+  2.52.0--r41hdfd78af_0: sha256:18f6b53ce57c110bbcb6c515ba5943f1326151d3548e180480f1f15f34628468
+docker: quay.io/biocontainers/bioconductor-italics
+aliases:
+  .bioconductor-italicsdata-post-link.sh: /usr/local/bin/.bioconductor-italicsdata-post-link.sh
+  .bioconductor-italicsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-italicsdata-pre-unlink.sh
+  .bioconductor-pd.mapping50k.xba240-post-link.sh: /usr/local/bin/.bioconductor-pd.mapping50k.xba240-post-link.sh
+  .bioconductor-pd.mapping50k.xba240-pre-unlink.sh: /usr/local/bin/.bioconductor-pd.mapping50k.xba240-pre-unlink.sh

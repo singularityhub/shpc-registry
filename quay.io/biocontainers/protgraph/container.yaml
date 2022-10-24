@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/protgraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for protgraph
+latest:
+  0.3.4--pyhdfd78af_0: sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d
+tags:
+  0.3.4--pyhdfd78af_0: sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d
+docker: quay.io/biocontainers/protgraph
+aliases:
+  geomet: /usr/local/bin/geomet
+  protgraph: /usr/local/bin/protgraph
+  protgraph_compact_fasta: /usr/local/bin/protgraph_compact_fasta
+  protgraph_generate_fasta_decoys: /usr/local/bin/protgraph_generate_fasta_decoys
+  protgraph_pepsqlite_to_fasta: /usr/local/bin/protgraph_pepsqlite_to_fasta
+  protgraph_print_sums: /usr/local/bin/protgraph_print_sums
+  protgraph_replace_fasta_header: /usr/local/bin/protgraph_replace_fasta_header

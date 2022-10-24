@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bacphlip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bacphlip
+latest:
+  0.9.6--py_0: sha256:5fa4c9c8384b700bb7549e62634002197be5ea68c4017d0182d1184c2b236447
+tags:
+  0.9.6--py_0: sha256:5fa4c9c8384b700bb7549e62634002197be5ea68c4017d0182d1184c2b236447
+docker: quay.io/biocontainers/bacphlip
+aliases:
+  bacphlip: /usr/local/bin/bacphlip

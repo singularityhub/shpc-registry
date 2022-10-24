@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/repaq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for repaq
+latest:
+  0.3.0--h5b5514e_2: sha256:a3049ac4dd58c8c01b6109b6488c682f86f0d80bdd29ce4c605bc4b75a8740ea
+tags:
+  0.3.0--h5b5514e_2: sha256:a3049ac4dd58c8c01b6109b6488c682f86f0d80bdd29ce4c605bc4b75a8740ea
+docker: quay.io/biocontainers/repaq
+aliases:
+  repaq: /usr/local/bin/repaq

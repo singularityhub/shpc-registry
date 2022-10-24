@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hcamatrixbrowser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hcamatrixbrowser
+latest:
+  1.0.1--r40hdfd78af_1: sha256:6af731b29b38e88cc3406b182fbc7f01bca972390c4e0ffd1ceafe1c684fe34e
+tags:
+  1.0.1--r40hdfd78af_1: sha256:6af731b29b38e88cc3406b182fbc7f01bca972390c4e0ffd1ceafe1c684fe34e
+docker: quay.io/biocontainers/bioconductor-hcamatrixbrowser

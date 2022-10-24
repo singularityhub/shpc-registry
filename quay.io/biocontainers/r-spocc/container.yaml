@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-spocc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-spocc
+latest:
+  0.9.0--r351h6115d3f_1: sha256:d24449edb2c6160e026a6613489ee28901d62cb84968f6d9578aef9d467c444f
+tags:
+  0.9.0--r351h6115d3f_1: sha256:d24449edb2c6160e026a6613489ee28901d62cb84968f6d9578aef9d467c444f
+docker: quay.io/biocontainers/r-spocc

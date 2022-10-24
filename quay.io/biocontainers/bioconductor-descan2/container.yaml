@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-descan2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-descan2
+latest:
+  1.8.0--r40h5f743cb_0: sha256:37641c2f246075aa60efea422e8ba3b677d69cc50aded25cd5a53ea421fdf77d
+tags:
+  1.8.0--r40h5f743cb_0: sha256:37641c2f246075aa60efea422e8ba3b677d69cc50aded25cd5a53ea421fdf77d
+docker: quay.io/biocontainers/bioconductor-descan2

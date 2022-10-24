@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneplotter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneplotter
+latest:
+  1.72.0--r41hdfd78af_0: sha256:c8e2f7c835d703fd2acc94d3301eeb3054481bf2499ca27e7cf9ac03bb1fb4c1
+tags:
+  1.72.0--r41hdfd78af_0: sha256:c8e2f7c835d703fd2acc94d3301eeb3054481bf2499ca27e7cf9ac03bb1fb4c1
+docker: quay.io/biocontainers/bioconductor-geneplotter

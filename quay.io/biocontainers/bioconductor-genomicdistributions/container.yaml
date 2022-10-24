@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicdistributions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicdistributions
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a9819edc4aa607acccfce4aec2119d0690084be80ced74224656b5e7227612e3
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a9819edc4aa607acccfce4aec2119d0690084be80ced74224656b5e7227612e3
+docker: quay.io/biocontainers/bioconductor-genomicdistributions

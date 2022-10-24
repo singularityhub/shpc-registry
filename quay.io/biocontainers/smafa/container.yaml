@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/smafa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smafa
+latest:
+  0.5.0--hec16e2b_2: sha256:bfab3052298105cd88386083a2cca6b77dba01f1f0768276a8ab87f0941b4c12
+tags:
+  0.5.0--hec16e2b_2: sha256:bfab3052298105cd88386083a2cca6b77dba01f1f0768276a8ab87f0941b4c12
+docker: quay.io/biocontainers/smafa
+aliases:
+  smafa: /usr/local/bin/smafa

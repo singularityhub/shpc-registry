@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pathracer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathracer
+latest:
+  3.16.0.dev--h95f258a_0: sha256:d5eae18a177d025c6aa54f6afb0ba6b8c9005d8896ed3e63f413b095712b6669
+tags:
+  3.16.0.dev--h95f258a_0: sha256:d5eae18a177d025c6aa54f6afb0ba6b8c9005d8896ed3e63f413b095712b6669
+docker: quay.io/biocontainers/pathracer
+aliases:
+  pathracer: /usr/local/bin/pathracer

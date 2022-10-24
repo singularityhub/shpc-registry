@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-m3c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-m3c
+latest:
+  1.8.0--r36_0: sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f
+tags:
+  1.8.0--r36_0: sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f
+docker: quay.io/biocontainers/bioconductor-m3c

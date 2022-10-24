@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/phipack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phipack
+latest:
+  1.1--hec16e2b_2: sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96
+tags:
+  1.1--hec16e2b_2: sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96
+docker: quay.io/biocontainers/phipack
+aliases:
+  Phi: /usr/local/bin/Phi
+  Profile: /usr/local/bin/Profile

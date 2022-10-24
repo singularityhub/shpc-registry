@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/jobtree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jobtree
+latest:
+  3.0.3--py_1: sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2
+tags:
+  3.0.3--py_1: sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2
+docker: quay.io/biocontainers/jobtree
+aliases:
+  jobTreeKill: /usr/local/bin/jobTreeKill
+  jobTreeRestarts: /usr/local/bin/jobTreeRestarts
+  jobTreeStats: /usr/local/bin/jobTreeStats
+  jobTreeStatus: /usr/local/bin/jobTreeStatus
+  multijob: /usr/local/bin/multijob

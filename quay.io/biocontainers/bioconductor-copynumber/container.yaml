@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-copynumber
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-copynumber
+latest:
+  1.34.0--r41hdfd78af_0: sha256:90c45c1f7614ae1d90889193736f77f9e1d5db13d7937f7cedce8733ee1bd468
+tags:
+  1.34.0--r41hdfd78af_0: sha256:90c45c1f7614ae1d90889193736f77f9e1d5db13d7937f7cedce8733ee1bd468
+docker: quay.io/biocontainers/bioconductor-copynumber

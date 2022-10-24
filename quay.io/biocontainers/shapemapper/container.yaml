@@ -1,0 +1,81 @@
+url: https://biocontainers.pro/tools/shapemapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shapemapper
+latest:
+  1.2--py27h470a237_1: sha256:32365eeed2cc737efe8b8ea51ca59f4ce28d665b76f9d9cc685c14088a4a4d8f
+tags:
+  1.2--py27h470a237_1: sha256:32365eeed2cc737efe8b8ea51ca59f4ce28d665b76f9d9cc685c14088a4a4d8f
+docker: quay.io/biocontainers/shapemapper
+aliases:
+  AccessFold: /usr/local/bin/AccessFold
+  AllSub: /usr/local/bin/AllSub
+  CircleCompare: /usr/local/bin/CircleCompare
+  CycleFold: /usr/local/bin/CycleFold
+  DuplexFold: /usr/local/bin/DuplexFold
+  DuplexFold-smp: /usr/local/bin/DuplexFold-smp
+  DynalignDotPlot: /usr/local/bin/DynalignDotPlot
+  EDcalculator: /usr/local/bin/EDcalculator
+  EDcalculator-smp: /usr/local/bin/EDcalculator-smp
+  EXAMPLE.cfg: /usr/local/bin/EXAMPLE.cfg
+  EnergyPlot: /usr/local/bin/EnergyPlot
+  EnsembleEnergy: /usr/local/bin/EnsembleEnergy
+  Fold: /usr/local/bin/Fold
+  Fold-smp: /usr/local/bin/Fold-smp
+  MaxExpect: /usr/local/bin/MaxExpect
+  MaxExpect-smp: /usr/local/bin/MaxExpect-smp
+  NAPSS: /usr/local/bin/NAPSS
+  OligoWalk: /usr/local/bin/OligoWalk
+  PARTS: /usr/local/bin/PARTS
+  ProbKnot: /usr/local/bin/ProbKnot
+  ProbKnot-smp: /usr/local/bin/ProbKnot-smp
+  ProbScan: /usr/local/bin/ProbScan
+  ProbabilityPlot: /usr/local/bin/ProbabilityPlot
+  ProbablePair: /usr/local/bin/ProbablePair
+  ProbablePair-smp: /usr/local/bin/ProbablePair-smp
+  RemovePseudoknots: /usr/local/bin/RemovePseudoknots
+  RemovePseudoknots-smp: /usr/local/bin/RemovePseudoknots-smp
+  Rsample: /usr/local/bin/Rsample
+  Rsample-smp: /usr/local/bin/Rsample-smp
+  ShapeKnots: /usr/local/bin/ShapeKnots
+  ShapeKnots-smp: /usr/local/bin/ShapeKnots-smp
+  ShapeMapper.py: /usr/local/bin/ShapeMapper.py
+  TurboFold: /usr/local/bin/TurboFold
+  TurboFold-smp: /usr/local/bin/TurboFold-smp
+  bifold: /usr/local/bin/bifold
+  bifold-smp: /usr/local/bin/bifold-smp
+  bipartition: /usr/local/bin/bipartition
+  bipartition-smp: /usr/local/bin/bipartition-smp
+  conf.py: /usr/local/bin/conf.py
+  countMutations: /usr/local/bin/countMutations
+  countMutations.py: /usr/local/bin/countMutations.py
+  ct2dot: /usr/local/bin/ct2dot
+  defaults.cfg: /usr/local/bin/defaults.cfg
+  design: /usr/local/bin/design
+  dot2ct: /usr/local/bin/dot2ct
+  draw: /usr/local/bin/draw
+  dynalign: /usr/local/bin/dynalign
+  dynalign-smp: /usr/local/bin/dynalign-smp
+  dynalign_ii: /usr/local/bin/dynalign_ii
+  dynalign_ii-smp: /usr/local/bin/dynalign_ii-smp
+  efn2: /usr/local/bin/efn2
+  efn2-smp: /usr/local/bin/efn2-smp
+  generateReactivityProfiles.py: /usr/local/bin/generateReactivityProfiles.py
+  makeOldMutationStrings.py: /usr/local/bin/makeOldMutationStrings.py
+  multilign: /usr/local/bin/multilign
+  multilign-smp: /usr/local/bin/multilign-smp
+  oligoscreen: /usr/local/bin/oligoscreen
+  oligoscreen-smp: /usr/local/bin/oligoscreen-smp
+  parseAlignment: /usr/local/bin/parseAlignment
+  parseConfigFile.py: /usr/local/bin/parseConfigFile.py
+  partition: /usr/local/bin/partition
+  partition-smp: /usr/local/bin/partition-smp
+  perl5.22.2: /usr/local/bin/perl5.22.2
+  phmm: /usr/local/bin/phmm
+  pivotCSV.py: /usr/local/bin/pivotCSV.py
+  pvclient.py: /usr/local/bin/pvclient.py
+  refold: /usr/local/bin/refold
+  scorer: /usr/local/bin/scorer
+  stochastic: /usr/local/bin/stochastic
+  stochastic-smp: /usr/local/bin/stochastic-smp
+  trimPhred: /usr/local/bin/trimPhred
+  validate: /usr/local/bin/validate

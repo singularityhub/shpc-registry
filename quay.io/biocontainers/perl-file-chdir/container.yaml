@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-chdir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-chdir
+latest:
+  0.1010--pl5321hdfd78af_3: sha256:b933f86aef64169eb77cd38d57e22e69221a2eeeaf533cf1940b85969b9ebe65
+tags:
+  0.1010--pl5321hdfd78af_3: sha256:b933f86aef64169eb77cd38d57e22e69221a2eeeaf533cf1940b85969b9ebe65
+docker: quay.io/biocontainers/perl-file-chdir

@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/fsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fsa
+latest:
+  1.15.9--h5b5514e_3: sha256:63a805cfa5a45173df51bfa614fd1fde0044f4e83027a8e526afe2efab0472aa
+tags:
+  1.15.9--h5b5514e_3: sha256:63a805cfa5a45173df51bfa614fd1fde0044f4e83027a8e526afe2efab0472aa
+docker: quay.io/biocontainers/fsa
+aliases:
+  fsa: /usr/local/bin/fsa
+  gapcleaner: /usr/local/bin/gapcleaner
+  isect_mercator_alignment_gff: /usr/local/bin/isect_mercator_alignment_gff
+  map_coords: /usr/local/bin/map_coords
+  map_gff_coords: /usr/local/bin/map_gff_coords
+  percentid: /usr/local/bin/percentid
+  prot2codon: /usr/local/bin/prot2codon
+  slice_fasta: /usr/local/bin/slice_fasta
+  slice_fasta_gff: /usr/local/bin/slice_fasta_gff
+  slice_mercator_alignment: /usr/local/bin/slice_mercator_alignment

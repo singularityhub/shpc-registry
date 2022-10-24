@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r.rsp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r.rsp
+latest:
+  0.30.0--r3.3.1_0: sha256:2b4bcd1dcfec88acf3dc2ddc0682da1f3b06e2f9955155347ec8326c8053a405
+tags:
+  0.30.0--r3.3.1_0: sha256:2b4bcd1dcfec88acf3dc2ddc0682da1f3b06e2f9955155347ec8326c8053a405
+docker: quay.io/biocontainers/r-r.rsp

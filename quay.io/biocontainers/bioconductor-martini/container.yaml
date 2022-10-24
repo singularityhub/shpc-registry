@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-martini
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-martini
+latest:
+  1.8.0--r40h5f743cb_0: sha256:89b08de431556324244e831ee4a576dc49f050915dec5cb522275518782c50f9
+tags:
+  1.8.0--r40h5f743cb_0: sha256:89b08de431556324244e831ee4a576dc49f050915dec5cb522275518782c50f9
+docker: quay.io/biocontainers/bioconductor-martini

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gemini
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gemini
+latest:
+  1.8.0--r41hdfd78af_0: sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c
+tags:
+  1.8.0--r41hdfd78af_0: sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c
+docker: quay.io/biocontainers/bioconductor-gemini

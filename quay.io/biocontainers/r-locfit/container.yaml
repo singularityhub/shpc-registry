@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-locfit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-locfit
+latest:
+  1.5_9.1--r3.3.1_2: sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d
+tags:
+  1.5_9.1--r3.3.1_2: sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d
+docker: quay.io/biocontainers/r-locfit

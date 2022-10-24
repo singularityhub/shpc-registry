@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyinotify
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyinotify
+latest:
+  0.9.6--py35_0: sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1
+tags:
+  0.9.6--py35_0: sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1
+docker: quay.io/biocontainers/pyinotify

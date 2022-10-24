@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mapscape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mapscape
+latest:
+  1.8.0--r361_1: sha256:cc2dc6b0bf25e581425e85300b673a4609fd98315858274fedad19413dc5c01b
+tags:
+  1.8.0--r361_1: sha256:cc2dc6b0bf25e581425e85300b673a4609fd98315858274fedad19413dc5c01b
+docker: quay.io/biocontainers/bioconductor-mapscape

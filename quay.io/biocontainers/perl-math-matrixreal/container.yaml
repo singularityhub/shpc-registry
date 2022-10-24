@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-matrixreal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-matrixreal
+latest:
+  2.13--pl5321hdfd78af_2: sha256:d71dc938edcedef3848fd34578f7069af526716c0b8ee73fb79976e41743215e
+tags:
+  2.13--pl5321hdfd78af_2: sha256:d71dc938edcedef3848fd34578f7069af526716c0b8ee73fb79976e41743215e
+docker: quay.io/biocontainers/perl-math-matrixreal

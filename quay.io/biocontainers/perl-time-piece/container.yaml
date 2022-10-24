@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-time-piece
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-time-piece
+latest:
+  1.27--pl5321hdfd78af_2: sha256:bddc8a19822f199f6af0c4236de68305c6132bcf5b9b45b908e8e0d1f90d38a9
+tags:
+  1.27--pl5321hdfd78af_2: sha256:bddc8a19822f199f6af0c4236de68305c6132bcf5b9b45b908e8e0d1f90d38a9
+docker: quay.io/biocontainers/perl-time-piece

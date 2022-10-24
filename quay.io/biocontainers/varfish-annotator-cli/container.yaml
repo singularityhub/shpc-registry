@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/varfish-annotator-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for varfish-annotator-cli
+latest:
+  0.9--0: sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467
+tags:
+  0.9--0: sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467
+docker: quay.io/biocontainers/varfish-annotator-cli
+aliases:
+  varfish-annotator: /usr/local/bin/varfish-annotator

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metavelvet-annois
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metavelvet-annois
+latest:
+  0.2.01--pl5321hdfd78af_6: sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c
+tags:
+  0.2.01--pl5321hdfd78af_6: sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c
+docker: quay.io/biocontainers/metavelvet-annois
+aliases:
+  run-annoIS.pl: /usr/local/bin/run-annoIS.pl

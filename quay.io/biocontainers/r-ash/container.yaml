@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ash
+latest:
+  1.0_15--r3.3.1_1: sha256:42ee073114f8b1d9877edeee8e335868d0f3e44c025db52848c73d3f04f4ef71
+tags:
+  1.0_15--r3.3.1_1: sha256:42ee073114f8b1d9877edeee8e335868d0f3e44c025db52848c73d3f04f4ef71
+docker: quay.io/biocontainers/r-ash

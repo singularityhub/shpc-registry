@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hugene10sttranscriptcluster.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hugene10sttranscriptcluster.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:fbe0fcc4e04644fd3fbb9ed68c8959ff116775e1035400256b1490e0ac767150
+tags:
+  8.8.0--r41hdfd78af_1: sha256:fbe0fcc4e04644fd3fbb9ed68c8959ff116775e1035400256b1490e0ac767150
+docker: quay.io/biocontainers/bioconductor-hugene10sttranscriptcluster.db
+aliases:
+  .bioconductor-hugene10sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-hugene10sttranscriptcluster.db-post-link.sh
+  .bioconductor-hugene10sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene10sttranscriptcluster.db-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-harshlight
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-harshlight
+latest:
+  1.66.0--r41hc0cfd56_2: sha256:4b17c72c615160929b78955a0a76acc0806c6ce4a9c03b9e52359a0313c893af
+tags:
+  1.66.0--r41hc0cfd56_2: sha256:4b17c72c615160929b78955a0a76acc0806c6ce4a9c03b9e52359a0313c893af
+docker: quay.io/biocontainers/bioconductor-harshlight

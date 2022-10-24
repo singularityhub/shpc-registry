@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metcirc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metcirc
+latest:
+  1.6.0--r3.4.1_0: sha256:0aa4fd8cca0b775e5a43fe7a6209cdb8d7e1e9aeb69577dc5982a538c8dc6de1
+tags:
+  1.6.0--r3.4.1_0: sha256:0aa4fd8cca0b775e5a43fe7a6209cdb8d7e1e9aeb69577dc5982a538c8dc6de1
+docker: quay.io/biocontainers/bioconductor-metcirc

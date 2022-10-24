@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/sicer2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sicer2
+latest:
+  1.0.3--py37h37892f8_2: sha256:d5e957a3d4b01a6cbe55117151fbbd664d261524c1f367585b31c1123980cf9f
+tags:
+  1.0.3--py37h37892f8_2: sha256:d5e957a3d4b01a6cbe55117151fbbd664d261524c1f367585b31c1123980cf9f
+docker: quay.io/biocontainers/sicer2
+aliases:
+  recognicer: /usr/local/bin/recognicer
+  recognicer_df: /usr/local/bin/recognicer_df
+  sicer: /usr/local/bin/sicer
+  sicer_df: /usr/local/bin/sicer_df

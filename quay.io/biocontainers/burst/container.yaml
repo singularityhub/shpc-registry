@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/burst
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for burst
+latest:
+  v1.0--hdfd78af_1: sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
+tags:
+  v1.0--hdfd78af_1: sha256:18940befe4320d7b01cff71eff828661e40cae55aa5c5d7c2ec833c3c08f0fde
+docker: quay.io/biocontainers/burst
+aliases:
+  bcov2-strip: /usr/local/bin/bcov2-strip
+  burst_linux_DB12: /usr/local/bin/burst_linux_DB12
+  burst_linux_DB15: /usr/local/bin/burst_linux_DB15
+  lingenome: /usr/local/bin/lingenome
+  t2gg: /usr/local/bin/t2gg

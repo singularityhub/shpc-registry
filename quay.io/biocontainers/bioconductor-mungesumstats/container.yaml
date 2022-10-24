@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mungesumstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mungesumstats
+latest:
+  1.2.0--r41hdfd78af_0: sha256:79722dfe89d3b50e2e9724ddea2081e92987efc639fc0cde3e13b8a1ec97a37e
+tags:
+  1.2.0--r41hdfd78af_0: sha256:79722dfe89d3b50e2e9724ddea2081e92987efc639fc0cde3e13b8a1ec97a37e
+docker: quay.io/biocontainers/bioconductor-mungesumstats

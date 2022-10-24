@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/uropa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for uropa
+latest:
+  4.0.2--pyhdfd78af_0: sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83
+tags:
+  4.0.2--pyhdfd78af_0: sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83
+docker: quay.io/biocontainers/uropa
+aliases:
+  uropa: /usr/local/bin/uropa
+  uropa2gtf.R: /usr/local/bin/uropa2gtf.R
+  uropa_summary.R: /usr/local/bin/uropa_summary.R

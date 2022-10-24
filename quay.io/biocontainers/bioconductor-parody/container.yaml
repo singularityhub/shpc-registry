@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-parody
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-parody
+latest:
+  1.52.0--r41hdfd78af_0: sha256:1f29ce1f53bd61ed5039b1f535ee7e6b3ddd86df52427cf9e52e0e99ce134a04
+tags:
+  1.52.0--r41hdfd78af_0: sha256:1f29ce1f53bd61ed5039b1f535ee7e6b3ddd86df52427cf9e52e0e99ce134a04
+docker: quay.io/biocontainers/bioconductor-parody

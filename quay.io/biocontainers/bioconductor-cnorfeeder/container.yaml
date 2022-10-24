@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnorfeeder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnorfeeder
+latest:
+  1.34.0--r41hdfd78af_0: sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d
+tags:
+  1.34.0--r41hdfd78af_0: sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d
+docker: quay.io/biocontainers/bioconductor-cnorfeeder

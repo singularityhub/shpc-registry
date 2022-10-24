@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mclust
+latest:
+  5.2--r3.3.2_0: sha256:5bb451f3389a10dce832c4e3cd167233c8d925598b4595ccf9dcb7f959fa7b58
+tags:
+  5.2--r3.3.2_0: sha256:5bb451f3389a10dce832c4e3cd167233c8d925598b4595ccf9dcb7f959fa7b58
+docker: quay.io/biocontainers/r-mclust

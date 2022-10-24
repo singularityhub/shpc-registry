@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/multivcfanalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multivcfanalyzer
+latest:
+  0.85.2--hdfd78af_1: sha256:99a2a896c574f2a9812b46ffebfe678b2c81b96b50d6e37264afd821b1d2b58b
+tags:
+  0.85.2--hdfd78af_1: sha256:99a2a896c574f2a9812b46ffebfe678b2c81b96b50d6e37264afd821b1d2b58b
+docker: quay.io/biocontainers/multivcfanalyzer
+aliases:
+  multivcfanalyzer: /usr/local/bin/multivcfanalyzer

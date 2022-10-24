@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-meat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-meat
+latest:
+  1.6.0--r41hdfd78af_0: sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e
+tags:
+  1.6.0--r41hdfd78af_0: sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e
+docker: quay.io/biocontainers/bioconductor-meat

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-scope-guard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-scope-guard
+latest:
+  0.21--pl5321hdfd78af_3: sha256:69146175ecca4e161f4cc58859b7ac6ef80af7ead7188740200eff52aeb684c9
+tags:
+  0.21--pl5321hdfd78af_3: sha256:69146175ecca4e161f4cc58859b7ac6ef80af7ead7188740200eff52aeb684c9
+docker: quay.io/biocontainers/perl-scope-guard

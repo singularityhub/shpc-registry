@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flapjack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flapjack
+latest:
+  1.20.10.07--hdfd78af_1: sha256:7e41296d5324822c6842cb0712d8289f2d4812dc1f78d4b393288033e075c94f
+tags:
+  1.20.10.07--hdfd78af_1: sha256:7e41296d5324822c6842cb0712d8289f2d4812dc1f78d4b393288033e075c94f
+docker: quay.io/biocontainers/flapjack
+aliases:
+  flapjack: /usr/local/bin/flapjack

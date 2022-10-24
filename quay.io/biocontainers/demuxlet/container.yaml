@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/demuxlet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for demuxlet
+latest:
+  1.0--h35e0156_4: sha256:3fdeed309bd076f7fe864ff1760d4d90f5e641c540eb71788af6f78285ae3fbc
+tags:
+  1.0--h35e0156_4: sha256:3fdeed309bd076f7fe864ff1760d4d90f5e641c540eb71788af6f78285ae3fbc
+docker: quay.io/biocontainers/demuxlet
+aliases:
+  demuxlet: /usr/local/bin/demuxlet

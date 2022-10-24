@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-yaml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-yaml
+latest:
+  2.1.13--r3.3.1_1: sha256:e286d1a408cdbac65dcb541dc832773307617795804157e1d4f9847f794abb76
+tags:
+  2.1.13--r3.3.1_1: sha256:e286d1a408cdbac65dcb541dc832773307617795804157e1d4f9847f794abb76
+docker: quay.io/biocontainers/r-yaml

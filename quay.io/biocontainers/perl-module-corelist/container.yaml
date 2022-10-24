@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-corelist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-corelist
+latest:
+  5.20220620--pl5321hdfd78af_0: sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e
+tags:
+  5.20220620--pl5321hdfd78af_0: sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e
+docker: quay.io/biocontainers/perl-module-corelist

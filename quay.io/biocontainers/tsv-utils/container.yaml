@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/tsv-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tsv-utils
+latest:
+  2.2.0--h9ee0642_0: sha256:aecdc81d23a00151711286d9cd8cd2c96b0537a44b2184fd21c591a98699dc8e
+tags:
+  2.2.0--h9ee0642_0: sha256:aecdc81d23a00151711286d9cd8cd2c96b0537a44b2184fd21c591a98699dc8e
+docker: quay.io/biocontainers/tsv-utils
+aliases:
+  csv2tsv: /usr/local/bin/csv2tsv
+  keep-header: /usr/local/bin/keep-header
+  number-lines: /usr/local/bin/number-lines
+  tsv-append: /usr/local/bin/tsv-append
+  tsv-filter: /usr/local/bin/tsv-filter
+  tsv-join: /usr/local/bin/tsv-join
+  tsv-pretty: /usr/local/bin/tsv-pretty
+  tsv-sample: /usr/local/bin/tsv-sample
+  tsv-select: /usr/local/bin/tsv-select
+  tsv-split: /usr/local/bin/tsv-split
+  tsv-summarize: /usr/local/bin/tsv-summarize
+  tsv-uniq: /usr/local/bin/tsv-uniq

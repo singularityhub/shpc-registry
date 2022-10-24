@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mace
+latest:
+  1.2--py27hdeff1b7_3: sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
+tags:
+  1.2--py27hdeff1b7_3: sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061
+docker: quay.io/biocontainers/mace
+aliases:
+  mace.py: /usr/local/bin/mace.py
+  preprocessor.py: /usr/local/bin/preprocessor.py

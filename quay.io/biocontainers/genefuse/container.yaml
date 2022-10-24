@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genefuse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genefuse
+latest:
+  0.8.0--h5b5514e_0: sha256:72f2a460380436b279e621d476a303e55e48949ee7118e472382041e55515195
+tags:
+  0.8.0--h5b5514e_0: sha256:72f2a460380436b279e621d476a303e55e48949ee7118e472382041e55515195
+docker: quay.io/biocontainers/genefuse
+aliases:
+  genefuse: /usr/local/bin/genefuse

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-perl-ostype
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-perl-ostype
+latest:
+  1.010--pl5321hdfd78af_2: sha256:8cbf3e41fb5a0f1c0fa498d9a094da2589650f0371ef039badacfd12e8a972cd
+tags:
+  1.010--pl5321hdfd78af_2: sha256:8cbf3e41fb5a0f1c0fa498d9a094da2589650f0371ef039badacfd12e8a972cd
+docker: quay.io/biocontainers/perl-perl-ostype

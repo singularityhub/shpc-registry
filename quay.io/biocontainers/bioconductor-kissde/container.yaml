@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-kissde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-kissde
+latest:
+  1.8.0--r40_0: sha256:4adc7e6f7c32a7ca984a011dc1a98fecb1d9fb99047a5b8d6a2edc79f3ebe8e0
+tags:
+  1.8.0--r40_0: sha256:4adc7e6f7c32a7ca984a011dc1a98fecb1d9fb99047a5b8d6a2edc79f3ebe8e0
+docker: quay.io/biocontainers/bioconductor-kissde

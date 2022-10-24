@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/python-omero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-omero
+latest:
+  5.7.1--py_0: sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc
+tags:
+  5.7.1--py_0: sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc
+docker: quay.io/biocontainers/python-omero
+aliases:
+  omero: /usr/local/bin/omero
+  omero.bat: /usr/local/bin/omero.bat
+  setpythonpath.bat: /usr/local/bin/setpythonpath.bat
+  slice2py: /usr/local/bin/slice2py
+  winconfig.bat: /usr/local/bin/winconfig.bat

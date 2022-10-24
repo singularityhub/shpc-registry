@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mixin-linewise
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mixin-linewise
+latest:
+  0.110--pl5321hdfd78af_0: sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b
+tags:
+  0.110--pl5321hdfd78af_0: sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b
+docker: quay.io/biocontainers/perl-mixin-linewise

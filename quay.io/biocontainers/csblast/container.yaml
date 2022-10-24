@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/csblast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for csblast
+latest:
+  2.2.3--h9f5acd7_1: sha256:14e900025b43dcc8104578bda9a843760f994ced1a1d639ad701397eac508ccd
+tags:
+  2.2.3--h9f5acd7_1: sha256:14e900025b43dcc8104578bda9a843760f994ced1a1d639ad701397eac508ccd
+docker: quay.io/biocontainers/csblast
+aliases:
+  csblast: /usr/local/bin/csblast
+  csbuild: /usr/local/bin/csbuild

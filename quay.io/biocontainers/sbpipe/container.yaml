@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/sbpipe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sbpipe
+latest:
+  4.21.0--pyh864c0ab_1: sha256:766c6ef099c95365c5b8dfb78778274a4aea27fcd3604380826a20253d69a1e2
+tags:
+  4.21.0--pyh864c0ab_1: sha256:766c6ef099c95365c5b8dfb78778274a4aea27fcd3604380826a20253d69a1e2
+docker: quay.io/biocontainers/sbpipe
+aliases:
+  sbpipe: /usr/local/bin/sbpipe
+  sbpipe_move_datasets: /usr/local/bin/sbpipe_move_datasets

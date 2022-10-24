@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-genabel.data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-genabel.data
+latest:
+  1.0.0--r3.3.1_0: sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f
+tags:
+  1.0.0--r3.3.1_0: sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f
+docker: quay.io/biocontainers/r-genabel.data

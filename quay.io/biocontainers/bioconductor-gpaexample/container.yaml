@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gpaexample
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gpaexample
+latest:
+  1.6.0--r41hdfd78af_1: sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3
+tags:
+  1.6.0--r41hdfd78af_1: sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3
+docker: quay.io/biocontainers/bioconductor-gpaexample
+aliases:
+  .bioconductor-gpaexample-post-link.sh: /usr/local/bin/.bioconductor-gpaexample-post-link.sh
+  .bioconductor-gpaexample-pre-unlink.sh: /usr/local/bin/.bioconductor-gpaexample-pre-unlink.sh

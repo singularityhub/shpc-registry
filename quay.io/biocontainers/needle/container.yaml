@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/needle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for needle
+latest:
+  1.0.1--h19e8d03_1: sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f
+tags:
+  1.0.1--h19e8d03_1: sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f
+docker: quay.io/biocontainers/needle

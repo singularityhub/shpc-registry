@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ularcirc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ularcirc
+latest:
+  1.8.0--r40hdfd78af_1: sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8
+tags:
+  1.8.0--r40hdfd78af_1: sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8
+docker: quay.io/biocontainers/bioconductor-ularcirc
+aliases:
+  .bioconductor-mirbase.db-post-link.sh: /usr/local/bin/.bioconductor-mirbase.db-post-link.sh
+  .bioconductor-mirbase.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirbase.db-pre-unlink.sh

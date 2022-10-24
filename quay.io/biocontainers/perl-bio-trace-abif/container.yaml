@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-trace-abif
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-trace-abif
+latest:
+  1.06--pl5321hdfd78af_2: sha256:0c4a5ef140ec23887de274961c89e2aead018369cc8425a7b6c6edda7b83b937
+tags:
+  1.06--pl5321hdfd78af_2: sha256:0c4a5ef140ec23887de274961c89e2aead018369cc8425a7b6c6edda7b83b937
+docker: quay.io/biocontainers/perl-bio-trace-abif

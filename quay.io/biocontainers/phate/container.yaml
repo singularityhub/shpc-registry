@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/phate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phate
+latest:
+  1.0.8--pyhdfd78af_0: sha256:2bf4a6fd6d23962168cbe375d77c1a17b4469682771c5774ff09c6d51431a6db
+tags:
+  1.0.8--pyhdfd78af_0: sha256:2bf4a6fd6d23962168cbe375d77c1a17b4469682771c5774ff09c6d51431a6db
+docker: quay.io/biocontainers/phate

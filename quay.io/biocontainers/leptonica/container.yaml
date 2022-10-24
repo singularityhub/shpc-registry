@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/leptonica
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for leptonica
+latest:
+  1.73--1: sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9
+tags:
+  1.73--1: sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9
+docker: quay.io/biocontainers/leptonica
+aliases:
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  printimage: /usr/local/bin/printimage
+  printsplitimage: /usr/local/bin/printsplitimage
+  printtiff: /usr/local/bin/printtiff
+  splitimage2pdf: /usr/local/bin/splitimage2pdf
+  xtractprotos: /usr/local/bin/xtractprotos

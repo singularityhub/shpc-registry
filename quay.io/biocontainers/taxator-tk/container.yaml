@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/taxator-tk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taxator-tk
+latest:
+  1.3.3e--hdfd78af_2: sha256:afdb530ec60bbd93136309967fb504194cb6c96bbb587f477a163b6412673688
+tags:
+  1.3.3e--hdfd78af_2: sha256:afdb530ec60bbd93136309967fb504194cb6c96bbb587f477a163b6412673688
+docker: quay.io/biocontainers/taxator-tk
+aliases:
+  alignments-filter: /usr/local/bin/alignments-filter
+  binner: /usr/local/bin/binner
+  fasta-strip-identifier: /usr/local/bin/fasta-strip-identifier
+  last_maf_convert.py: /usr/local/bin/last_maf_convert.py
+  taxator: /usr/local/bin/taxator
+  taxatortk.py: /usr/local/bin/taxatortk.py
+  taxknife: /usr/local/bin/taxknife
+  taxsummary2krona: /usr/local/bin/taxsummary2krona

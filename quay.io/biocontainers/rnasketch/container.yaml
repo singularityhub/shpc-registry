@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/rnasketch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnasketch
+latest:
+  1.5--py_2: sha256:4c1422044a4faa3bbc239967fd17c7421624c21ecb7be4cbebcd83c90905e9e6
+tags:
+  1.5--py_2: sha256:4c1422044a4faa3bbc239967fd17c7421624c21ecb7be4cbebcd83c90905e9e6
+docker: quay.io/biocontainers/rnasketch
+aliases:
+  RNAblueprint: /usr/local/bin/RNAblueprint
+  design-cofold.py: /usr/local/bin/design-cofold.py
+  design-energyshift.py: /usr/local/bin/design-energyshift.py
+  design-generategraphml.py: /usr/local/bin/design-generategraphml.py
+  design-ligandswitch.py: /usr/local/bin/design-ligandswitch.py
+  design-multistate.py: /usr/local/bin/design-multistate.py
+  design-printgraphml.py: /usr/local/bin/design-printgraphml.py
+  design-redprint-multistate.py: /usr/local/bin/design-redprint-multistate.py
+  design-thermoswitch.py: /usr/local/bin/design-thermoswitch.py

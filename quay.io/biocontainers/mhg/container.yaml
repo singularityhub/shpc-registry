@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mhg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mhg
+latest:
+  1.1.0--hdfd78af_0: sha256:fb197a0e21bc6ebfb3536f713768a58f2f79c9329c418127b44e5d5403634eb9
+tags:
+  1.1.0--hdfd78af_0: sha256:fb197a0e21bc6ebfb3536f713768a58f2f79c9329c418127b44e5d5403634eb9
+docker: quay.io/biocontainers/mhg
+aliases:
+  MHG: /usr/local/bin/MHG
+  MHG-partition: /usr/local/bin/MHG-partition
+  genome-to-blast-db: /usr/local/bin/genome-to-blast-db

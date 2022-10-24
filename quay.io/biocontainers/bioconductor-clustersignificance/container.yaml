@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clustersignificance
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clustersignificance
+latest:
+  1.8.2--r351_0: sha256:26329bb2a9df64553f806901b51eac5c6c953d3c558e8353dd245377e7fff501
+tags:
+  1.8.2--r351_0: sha256:26329bb2a9df64553f806901b51eac5c6c953d3c558e8353dd245377e7fff501
+docker: quay.io/biocontainers/bioconductor-clustersignificance

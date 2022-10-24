@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-text-ansitable
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-ansitable
+latest:
+  0.48--pl5321hdfd78af_2: sha256:42f2507b647bb09962f4eb7f83ea52dc4a8f4083d8cac1adb2640537d5c53f60
+tags:
+  0.48--pl5321hdfd78af_2: sha256:42f2507b647bb09962f4eb7f83ea52dc4a8f4083d8cac1adb2640537d5c53f60
+docker: quay.io/biocontainers/perl-text-ansitable
+aliases:
+  ansitable-list-border-styles: /usr/local/bin/ansitable-list-border-styles
+  ansitable-list-color-themes: /usr/local/bin/ansitable-list-color-themes
+  ansitable-list-style-sets: /usr/local/bin/ansitable-list-style-sets

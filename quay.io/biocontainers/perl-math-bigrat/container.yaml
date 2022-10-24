@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-bigrat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-bigrat
+latest:
+  0.2624--pl5321hdfd78af_0: sha256:5e5551dbe2590dabba58cacfa96634e684e5c021505f0274a4c424bcb0a3c31a
+tags:
+  0.2624--pl5321hdfd78af_0: sha256:5e5551dbe2590dabba58cacfa96634e684e5c021505f0274a4c424bcb0a3c31a
+docker: quay.io/biocontainers/perl-math-bigrat

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bpipe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bpipe
+latest:
+  0.9.9.9--0: sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e
+tags:
+  0.9.9.9--0: sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e
+docker: quay.io/biocontainers/bpipe
+aliases:
+  bg-bpipe: /usr/local/bin/bg-bpipe
+  bpipe: /usr/local/bin/bpipe
+  bpipe-pbspro.sh: /usr/local/bin/bpipe-pbspro.sh
+  bpipe-slurm.sh: /usr/local/bin/bpipe-slurm.sh
+  bpipe-torque.sh: /usr/local/bin/bpipe-torque.sh
+  bpipe-utils.sh: /usr/local/bin/bpipe-utils.sh
+  groovy_script: /usr/local/bin/groovy_script

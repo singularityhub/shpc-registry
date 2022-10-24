@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneselectmmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneselectmmd
+latest:
+  2.38.0--r41hefde4a7_2: sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851
+tags:
+  2.38.0--r41hefde4a7_2: sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851
+docker: quay.io/biocontainers/bioconductor-geneselectmmd

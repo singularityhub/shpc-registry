@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flask-script
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flask-script
+latest:
+  2.0.5--py35_0: sha256:aa69e288bb686e8920d3f204224fdd02928dc15a26252bdcb59231ac405aa0d5
+tags:
+  2.0.5--py35_0: sha256:aa69e288bb686e8920d3f204224fdd02928dc15a26252bdcb59231ac405aa0d5
+docker: quay.io/biocontainers/flask-script

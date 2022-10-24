@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/badread
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for badread
+latest:
+  0.2.0--py_0: sha256:8ca62c6bcca0457ec337629e60d783da5b7a0cbf6b9c47e863c53099c33d624f
+tags:
+  0.2.0--py_0: sha256:8ca62c6bcca0457ec337629e60d783da5b7a0cbf6b9c47e863c53099c33d624f
+docker: quay.io/biocontainers/badread
+aliases:
+  badread: /usr/local/bin/badread
+  edlib-aligner: /usr/local/bin/edlib-aligner

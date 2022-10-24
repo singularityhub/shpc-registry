@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fgnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fgnet
+latest:
+  3.28.0--r41hdfd78af_0: sha256:e77d7d23b8c6cf2a35ea5c770c4b85a4ad4721cd837fbd44823d484147bf2989
+tags:
+  3.28.0--r41hdfd78af_0: sha256:e77d7d23b8c6cf2a35ea5c770c4b85a4ad4721cd837fbd44823d484147bf2989
+docker: quay.io/biocontainers/bioconductor-fgnet

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dart
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dart
+latest:
+  1.42.0--r41hdfd78af_0: sha256:ba1c94d776946dc27fb1fca85ff57779c380f8bdd762883ca6b4060874e395a3
+tags:
+  1.42.0--r41hdfd78af_0: sha256:ba1c94d776946dc27fb1fca85ff57779c380f8bdd762883ca6b4060874e395a3
+docker: quay.io/biocontainers/bioconductor-dart

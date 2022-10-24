@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nanostringnctools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nanostringnctools
+latest:
+  1.2.0--r41hdfd78af_0: sha256:ac157040fe65aa6189bd4abed0e36cd8c612bd709ea1f22b83daf315323fac16
+tags:
+  1.2.0--r41hdfd78af_0: sha256:ac157040fe65aa6189bd4abed0e36cd8c612bd709ea1f22b83daf315323fac16
+docker: quay.io/biocontainers/bioconductor-nanostringnctools

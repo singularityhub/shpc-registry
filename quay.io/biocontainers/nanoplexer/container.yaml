@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanoplexer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanoplexer
+latest:
+  0.1.2--h7132678_2: sha256:9d5ed38902c8878c6fb38a06ab3e9cd738d79a08ba18468a7f4e376ca1b6317e
+tags:
+  0.1.2--h7132678_2: sha256:9d5ed38902c8878c6fb38a06ab3e9cd738d79a08ba18468a7f4e376ca1b6317e
+docker: quay.io/biocontainers/nanoplexer
+aliases:
+  nanoplexer: /usr/local/bin/nanoplexer

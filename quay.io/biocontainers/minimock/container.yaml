@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/minimock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minimock
+latest:
+  1.2.8--py27_1: sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e
+tags:
+  1.2.8--py27_1: sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e
+docker: quay.io/biocontainers/minimock

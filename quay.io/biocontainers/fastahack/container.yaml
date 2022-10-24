@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastahack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastahack
+latest:
+  2016.07.2--h9f5acd7_4: sha256:5fad12f37ddef35fe586482c52c534ae4f15c56a5f930e360303c49cb6d15794
+tags:
+  2016.07.2--h9f5acd7_4: sha256:5fad12f37ddef35fe586482c52c534ae4f15c56a5f930e360303c49cb6d15794
+docker: quay.io/biocontainers/fastahack
+aliases:
+  fastahack: /usr/local/bin/fastahack

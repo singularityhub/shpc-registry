@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cnvetti
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cnvetti
+latest:
+  0.2.0--he4cf2ce_0: sha256:e3ed89e21c80a3001f7660dea4d0ff587b930c0469e41ae75eb615e2fdc94539
+tags:
+  0.2.0--he4cf2ce_0: sha256:e3ed89e21c80a3001f7660dea4d0ff587b930c0469e41ae75eb615e2fdc94539
+docker: quay.io/biocontainers/cnvetti
+aliases:
+  cnvetti: /usr/local/bin/cnvetti

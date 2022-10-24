@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/ganon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ganon
+latest:
+  1.1.2--py38h80bae55_1: sha256:80637fc5693e890f44ba56cdc00e407e319d7063801dfdeb178a53a9112d0594
+tags:
+  1.1.2--py38h80bae55_1: sha256:80637fc5693e890f44ba56cdc00e407e319d7063801dfdeb178a53a9112d0594
+docker: quay.io/biocontainers/ganon
+aliases:
+  binpacking: /usr/local/bin/binpacking
+  ganon: /usr/local/bin/ganon
+  ganon-build: /usr/local/bin/ganon-build
+  ganon-classify: /usr/local/bin/ganon-classify
+  ganon-get-seq-info.sh: /usr/local/bin/ganon-get-seq-info.sh
+  taxsbp: /usr/local/bin/taxsbp

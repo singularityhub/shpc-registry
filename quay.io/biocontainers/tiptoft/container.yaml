@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/tiptoft
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tiptoft
+latest:
+  1.0.2--py37h8902056_3: sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5
+tags:
+  1.0.2--py37h8902056_3: sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5
+docker: quay.io/biocontainers/tiptoft
+aliases:
+  tiptoft: /usr/local/bin/tiptoft
+  tiptoft_database_downloader: /usr/local/bin/tiptoft_database_downloader

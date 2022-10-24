@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scrublet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scrublet
+latest:
+  0.2.3--pyh5e36f6f_1: sha256:2a4a79a2c72725db6560f3c9c823fd1128dd81b811816405cb3b752f83fe3421
+tags:
+  0.2.3--pyh5e36f6f_1: sha256:2a4a79a2c72725db6560f3c9c823fd1128dd81b811816405cb3b752f83fe3421
+docker: quay.io/biocontainers/scrublet

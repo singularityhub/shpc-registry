@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/c-ares
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for c-ares
+latest:
+  1.11.0--h470a237_1: sha256:006bbe729179eed0a33b1b98e9178a95a5fcd619c16ebb72503996cd6b2d529e
+tags:
+  1.11.0--h470a237_1: sha256:006bbe729179eed0a33b1b98e9178a95a5fcd619c16ebb72503996cd6b2d529e
+docker: quay.io/biocontainers/c-ares

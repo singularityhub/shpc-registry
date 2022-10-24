@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/blasr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blasr
+latest:
+  5.3.f8bfa9c--0: sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f
+tags:
+  5.3.f8bfa9c--0: sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f
+docker: quay.io/biocontainers/blasr
+aliases:
+  loadPulses: /usr/local/bin/loadPulses
+  pls2fasta: /usr/local/bin/pls2fasta
+  samFilter: /usr/local/bin/samFilter
+  samtoh5: /usr/local/bin/samtoh5
+  samtom4: /usr/local/bin/samtom4
+  sawriter: /usr/local/bin/sawriter
+  sdpMatcher: /usr/local/bin/sdpMatcher

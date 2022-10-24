@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-visse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-visse
+latest:
+  1.2.2--r41hdfd78af_0: sha256:0b005632ff78fb32c52954ae2557f944e9ee474e9eeeb7826c6b621a74876193
+tags:
+  1.2.2--r41hdfd78af_0: sha256:0b005632ff78fb32c52954ae2557f944e9ee474e9eeeb7826c6b621a74876193
+docker: quay.io/biocontainers/bioconductor-visse
+aliases:
+  .bioconductor-msigdb-post-link.sh: /usr/local/bin/.bioconductor-msigdb-post-link.sh
+  .bioconductor-msigdb-pre-unlink.sh: /usr/local/bin/.bioconductor-msigdb-pre-unlink.sh

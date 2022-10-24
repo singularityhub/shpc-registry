@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tracktables
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tracktables
+latest:
+  1.28.0--r41hdfd78af_0: sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f
+tags:
+  1.28.0--r41hdfd78af_0: sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f
+docker: quay.io/biocontainers/bioconductor-tracktables

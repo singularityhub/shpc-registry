@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-prada
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prada
+latest:
+  1.63.0--r40h037d062_0: sha256:ba5b232d8d7716e12e5b09745e312ea291dd7018de786dc649b5fac50035c011
+tags:
+  1.63.0--r40h037d062_0: sha256:ba5b232d8d7716e12e5b09745e312ea291dd7018de786dc649b5fac50035c011
+docker: quay.io/biocontainers/bioconductor-prada

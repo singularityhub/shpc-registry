@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/avro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for avro
+latest:
+  1.8.0--py35_0: sha256:fe7efee24290245817e19eac6d806bdedae1fce056ffdd55abb8b83d6243b389
+tags:
+  1.8.0--py35_0: sha256:fe7efee24290245817e19eac6d806bdedae1fce056ffdd55abb8b83d6243b389
+docker: quay.io/biocontainers/avro

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-dunn.test
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dunn.test
+latest:
+  1.3.1--r3.2.2_0: sha256:c9728af2d0a76e91dd1f817a3ad0be3e2f4fde01f76adb81f63888a8a7861912
+tags:
+  1.3.1--r3.2.2_0: sha256:c9728af2d0a76e91dd1f817a3ad0be3e2f4fde01f76adb81f63888a8a7861912
+docker: quay.io/biocontainers/r-dunn.test

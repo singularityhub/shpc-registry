@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cluster_vcf_records
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cluster_vcf_records
+latest:
+  0.13.3--pyhdfd78af_0: sha256:70949d65a84629f2e4c9d5efe4eeaa1ca3df7b3fba80a3f28072839977d0689e
+tags:
+  0.13.3--pyhdfd78af_0: sha256:70949d65a84629f2e4c9d5efe4eeaa1ca3df7b3fba80a3f28072839977d0689e
+docker: quay.io/biocontainers/cluster_vcf_records

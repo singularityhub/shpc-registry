@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-grridge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-grridge
+latest:
+  1.8.0--r36_1: sha256:b0af9194a9dbb239c9697ffc90529e5c3874f47145c80664c4b7a982cd35af28
+tags:
+  1.8.0--r36_1: sha256:b0af9194a9dbb239c9697ffc90529e5c3874f47145c80664c4b7a982cd35af28
+docker: quay.io/biocontainers/bioconductor-grridge

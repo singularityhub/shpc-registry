@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffcoexp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffcoexp
+latest:
+  1.8.0--r40_0: sha256:580d71d9c763eb944ab1b3c6563dc3a8e1dd380edb5f6946f619f5e7a4b70da2
+tags:
+  1.8.0--r40_0: sha256:580d71d9c763eb944ab1b3c6563dc3a8e1dd380edb5f6946f619f5e7a4b70da2
+docker: quay.io/biocontainers/bioconductor-diffcoexp

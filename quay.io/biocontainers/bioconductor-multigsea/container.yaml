@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-multigsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multigsea
+latest:
+  1.4.0--r41hdfd78af_0: sha256:c48d4d33bedb3cb204b65077ef465a804f193e42786ac976bf233ec2f1f8b468
+tags:
+  1.4.0--r41hdfd78af_0: sha256:c48d4d33bedb3cb204b65077ef465a804f193e42786ac976bf233ec2f1f8b468
+docker: quay.io/biocontainers/bioconductor-multigsea

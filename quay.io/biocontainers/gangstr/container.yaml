@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gangstr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gangstr
+latest:
+  2.5.0--h48cf4b7_4: sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81
+tags:
+  2.5.0--h48cf4b7_4: sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81
+docker: quay.io/biocontainers/gangstr
+aliases:
+  GangSTR: /usr/local/bin/GangSTR

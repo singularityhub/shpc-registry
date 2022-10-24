@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcfanno
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcfanno
+latest:
+  0.3.3--h9ee0642_0: sha256:201932e9213c303413ffee8d3c638b243ee31b1be6b8ed65e9ee9175b30443ff
+tags:
+  0.3.3--h9ee0642_0: sha256:201932e9213c303413ffee8d3c638b243ee31b1be6b8ed65e9ee9175b30443ff
+docker: quay.io/biocontainers/vcfanno
+aliases:
+  vcfanno: /usr/local/bin/vcfanno

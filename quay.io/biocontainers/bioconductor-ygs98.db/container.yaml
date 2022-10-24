@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ygs98.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ygs98.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95
+tags:
+  3.2.3--r41hdfd78af_7: sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95
+docker: quay.io/biocontainers/bioconductor-ygs98.db
+aliases:
+  .bioconductor-ygs98.db-post-link.sh: /usr/local/bin/.bioconductor-ygs98.db-post-link.sh
+  .bioconductor-ygs98.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh

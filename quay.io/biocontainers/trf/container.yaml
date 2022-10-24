@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/trf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trf
+latest:
+  4.09--2: sha256:a60f811670644ce43846bd0185d1c2e60282f38337f16ef98fb67d27b5c34bd5
+tags:
+  4.09--2: sha256:a60f811670644ce43846bd0185d1c2e60282f38337f16ef98fb67d27b5c34bd5
+docker: quay.io/biocontainers/trf

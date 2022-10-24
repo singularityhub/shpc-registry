@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-imman
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-imman
+latest:
+  1.7.0--r40_0: sha256:f5e3ad3a0aa9be642a0ad69ce64f49e817f1d9e5df5839e777697c3415fe6b38
+tags:
+  1.7.0--r40_0: sha256:f5e3ad3a0aa9be642a0ad69ce64f49e817f1d9e5df5839e777697c3415fe6b38
+docker: quay.io/biocontainers/bioconductor-imman

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-browservizdemo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-browservizdemo
+latest:
+  1.11.0--r351hfc679d8_0: sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576
+tags:
+  1.11.0--r351hfc679d8_0: sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576
+docker: quay.io/biocontainers/bioconductor-browservizdemo

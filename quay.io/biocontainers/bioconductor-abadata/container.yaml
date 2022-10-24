@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-abadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-abadata
+latest:
+  1.8.0--r3.4.1_0: sha256:30264efb6a99ec8d2f2620fbe5095c874228a0481ea1a0efbec17ab77e81f032
+tags:
+  1.8.0--r3.4.1_0: sha256:30264efb6a99ec8d2f2620fbe5095c874228a0481ea1a0efbec17ab77e81f032
+docker: quay.io/biocontainers/bioconductor-abadata
+aliases:
+  .bioconductor-abadata-post-link.sh: /usr/local/bin/.bioconductor-abadata-post-link.sh
+  .bioconductor-abadata-pre-unlink.sh: /usr/local/bin/.bioconductor-abadata-pre-unlink.sh

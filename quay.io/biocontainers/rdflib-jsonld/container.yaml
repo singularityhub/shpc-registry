@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rdflib-jsonld
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rdflib-jsonld
+latest:
+  0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
+tags:
+  0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
+docker: quay.io/biocontainers/rdflib-jsonld

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/damasker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for damasker
+latest:
+  1.0p1--hec16e2b_4: sha256:ed4af8957f360fd46c6efad21cf255cb92a2d9a42a3b422c503122ca38477740
+tags:
+  1.0p1--hec16e2b_4: sha256:ed4af8957f360fd46c6efad21cf255cb92a2d9a42a3b422c503122ca38477740
+docker: quay.io/biocontainers/damasker
+aliases:
+  HPC.REPmask: /usr/local/bin/HPC.REPmask
+  HPC.TANmask: /usr/local/bin/HPC.TANmask
+  REPmask: /usr/local/bin/REPmask
+  TANmask: /usr/local/bin/TANmask
+  datander: /usr/local/bin/datander

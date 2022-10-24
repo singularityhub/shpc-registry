@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/multitax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multitax
+latest:
+  1.2.0--pyhdfd78af_0: sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd
+tags:
+  1.2.0--pyhdfd78af_0: sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd
+docker: quay.io/biocontainers/multitax

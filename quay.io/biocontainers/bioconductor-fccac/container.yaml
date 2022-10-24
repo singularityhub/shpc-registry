@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fccac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fccac
+latest:
+  1.8.0--r351_0: sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd
+tags:
+  1.8.0--r351_0: sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd
+docker: quay.io/biocontainers/bioconductor-fccac

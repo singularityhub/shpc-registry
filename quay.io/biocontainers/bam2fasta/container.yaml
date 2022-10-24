@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bam2fasta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bam2fasta
+latest:
+  1.0.8--pyh3252c3a_0: sha256:a074c3040fc06f2871ec28c4272c00ae183dad35e4682c33aa69f913f7f9d342
+tags:
+  1.0.8--pyh3252c3a_0: sha256:a074c3040fc06f2871ec28c4272c00ae183dad35e4682c33aa69f913f7f9d342
+docker: quay.io/biocontainers/bam2fasta
+aliases:
+  bam2fasta: /usr/local/bin/bam2fasta
+  pathos_connect: /usr/local/bin/pathos_connect
+  portpicker: /usr/local/bin/portpicker
+  pox: /usr/local/bin/pox
+  ppserver: /usr/local/bin/ppserver

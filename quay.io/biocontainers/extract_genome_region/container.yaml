@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/extract_genome_region
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for extract_genome_region
+latest:
+  0.0.3--pyh864c0ab_3: sha256:8012aec3e5cb7aa3b70b498201cf47b050c8ed49eddbd68929a05cb4969cf8fc
+tags:
+  0.0.3--pyh864c0ab_3: sha256:8012aec3e5cb7aa3b70b498201cf47b050c8ed49eddbd68929a05cb4969cf8fc
+docker: quay.io/biocontainers/extract_genome_region
+aliases:
+  extract_genome_region: /usr/local/bin/extract_genome_region

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/scanindel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scanindel
+latest:
+  1.3--1: sha256:c60df4825e351dd87945e687319c5cc6708cc92afb47a2f33e8521c815dfcea0
+tags:
+  1.3--1: sha256:c60df4825e351dd87945e687319c5cc6708cc92afb47a2f33e8521c815dfcea0
+docker: quay.io/biocontainers/scanindel
+aliases:
+  ScanIndel.py: /usr/local/bin/ScanIndel.py
+  inchworm: /usr/local/bin/inchworm
+  vcf-combine.py: /usr/local/bin/vcf-combine.py

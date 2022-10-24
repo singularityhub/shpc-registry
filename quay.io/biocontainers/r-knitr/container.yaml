@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-knitr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-knitr
+latest:
+  1.12.3--0: sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e
+tags:
+  1.12.3--0: sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e
+docker: quay.io/biocontainers/r-knitr

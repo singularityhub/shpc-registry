@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/visitor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for visitor
+latest:
+  0.1.2--py36_0: sha256:0f5c6f258e284d9f765b88e051e3ea25a54b6e9041b08b97f519efbac3465235
+tags:
+  0.1.2--py36_0: sha256:0f5c6f258e284d9f765b88e051e3ea25a54b6e9041b08b97f519efbac3465235
+docker: quay.io/biocontainers/visitor

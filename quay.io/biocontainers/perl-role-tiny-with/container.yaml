@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-role-tiny-with
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-role-tiny-with
+latest:
+  2.000005--pl5321hdfd78af_2: sha256:c96590da72bec0c21ebd3fc2fec934a605906cf8e90a00a9f145f6155fa61efd
+tags:
+  2.000005--pl5321hdfd78af_2: sha256:c96590da72bec0c21ebd3fc2fec934a605906cf8e90a00a9f145f6155fa61efd
+docker: quay.io/biocontainers/perl-role-tiny-with

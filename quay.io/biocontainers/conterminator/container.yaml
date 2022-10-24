@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/conterminator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for conterminator
+latest:
+  1.c74b5--h95f258a_1: sha256:acd54557b7875528ea413fd69dd70715aa87e59f0d8f93ad0798c27927bba44a
+tags:
+  1.c74b5--h95f258a_1: sha256:acd54557b7875528ea413fd69dd70715aa87e59f0d8f93ad0798c27927bba44a
+docker: quay.io/biocontainers/conterminator
+aliases:
+  conterminator: /usr/local/bin/conterminator

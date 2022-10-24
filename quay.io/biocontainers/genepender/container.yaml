@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/genepender
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genepender
+latest:
+  v2.6--h470a237_1: sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e
+tags:
+  v2.6--h470a237_1: sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e
+docker: quay.io/biocontainers/genepender
+aliases:
+  genepender: /usr/local/bin/genepender
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/parsnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parsnp
+latest:
+  1.7.4--hd03093a_1: sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158
+tags:
+  1.7.4--hd03093a_1: sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158
+docker: quay.io/biocontainers/parsnp
+aliases:
+  Phi: /usr/local/bin/Phi
+  Profile: /usr/local/bin/Profile
+  extend.py: /usr/local/bin/extend.py
+  harvesttools: /usr/local/bin/harvesttools
+  logger.py: /usr/local/bin/logger.py
+  parsnp: /usr/local/bin/parsnp
+  template.ini: /usr/local/bin/template.ini

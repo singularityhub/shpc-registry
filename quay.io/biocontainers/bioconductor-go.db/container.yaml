@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-go.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-go.db
+latest:
+  3.8.2--r36_1: sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921
+tags:
+  3.8.2--r36_1: sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921
+docker: quay.io/biocontainers/bioconductor-go.db

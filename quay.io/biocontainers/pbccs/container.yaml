@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pbccs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbccs
+latest:
+  6.4.0--h9ee0642_0: sha256:6876708af8f1bd3af45740d86fa2f0479bea48e72bc97118240cb9f4fbd5e13b
+tags:
+  6.4.0--h9ee0642_0: sha256:6876708af8f1bd3af45740d86fa2f0479bea48e72bc97118240cb9f4fbd5e13b
+docker: quay.io/biocontainers/pbccs
+aliases:
+  ccs: /usr/local/bin/ccs
+  ccs-alt: /usr/local/bin/ccs-alt

@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/n50
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for n50
+latest:
+  1.5.0--pl5321hdfd78af_0: sha256:922c631bfe7177b00b92556e28920909f8dadbfba6760fc49582efed0128d886
+tags:
+  1.5.0--pl5321hdfd78af_0: sha256:922c631bfe7177b00b92556e28920909f8dadbfba6760fc49582efed0128d886
+docker: quay.io/biocontainers/n50
+aliases:
+  fqc: /usr/local/bin/fqc
+  fqlen.pl: /usr/local/bin/fqlen.pl
+  fu-cat: /usr/local/bin/fu-cat
+  fu-compare: /usr/local/bin/fu-compare
+  fu-count: /usr/local/bin/fu-count
+  fu-extract: /usr/local/bin/fu-extract
+  fu-grep: /usr/local/bin/fu-grep
+  fu-hash: /usr/local/bin/fu-hash
+  fu-len: /usr/local/bin/fu-len
+  fu-rename: /usr/local/bin/fu-rename
+  fu-sort: /usr/local/bin/fu-sort
+  fu-uniq: /usr/local/bin/fu-uniq
+  n50: /usr/local/bin/n50

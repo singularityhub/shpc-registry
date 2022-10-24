@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastq-screen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastq-screen
+latest:
+  0.5.2--1: sha256:185edd8b53542a657ebe4e4a90a0ad949c25abe10392c8859729a60c7c71ac55
+tags:
+  0.5.2--1: sha256:185edd8b53542a657ebe4e4a90a0ad949c25abe10392c8859729a60c7c71ac55
+docker: quay.io/biocontainers/fastq-screen
+aliases:
+  bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
+  cvtbdf.pl: /usr/local/bin/cvtbdf.pl
+  fastq_screen: /usr/local/bin/fastq_screen

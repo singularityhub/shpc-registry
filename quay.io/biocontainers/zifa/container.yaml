@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/zifa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zifa
+latest:
+  0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
+tags:
+  0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
+docker: quay.io/biocontainers/zifa

@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/gnuvid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gnuvid
+latest:
+  2.4--hdfd78af_0: sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391
+tags:
+  2.4--hdfd78af_0: sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391
+docker: quay.io/biocontainers/gnuvid
+aliases:
+  Clonal_complex_assigner.py: /usr/local/bin/Clonal_complex_assigner.py
+  Extract_US_genomes.py: /usr/local/bin/Extract_US_genomes.py
+  Extract_fasta_sequence_blast_report.py: /usr/local/bin/Extract_fasta_sequence_blast_report.py
+  GNUVID.py: /usr/local/bin/GNUVID.py
+  GNUVID_CCs_summary.py: /usr/local/bin/GNUVID_CCs_summary.py
+  GNUVID_FASTA_divider.py: /usr/local/bin/GNUVID_FASTA_divider.py
+  GNUVID_Post_CC_processor.py: /usr/local/bin/GNUVID_Post_CC_processor.py
+  GNUVID_Post_Training.py: /usr/local/bin/GNUVID_Post_Training.py
+  GNUVID_Predict.py: /usr/local/bin/GNUVID_Predict.py
+  GNUVID_Subsample_STs.py: /usr/local/bin/GNUVID_Subsample_STs.py
+  GNUVID_Training.py: /usr/local/bin/GNUVID_Training.py
+  GNUVID_database_customizer.py: /usr/local/bin/GNUVID_database_customizer.py
+  GNUVID_preprocessor.py: /usr/local/bin/GNUVID_preprocessor.py
+  GNUVID_update_db.py: /usr/local/bin/GNUVID_update_db.py
+  Metadata_piechart.py: /usr/local/bin/Metadata_piechart.py
+  Temporal_plot_Introductions_Importations.py: /usr/local/bin/Temporal_plot_Introductions_Importations.py
+  gofasta: /usr/local/bin/gofasta

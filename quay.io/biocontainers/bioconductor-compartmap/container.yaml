@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-compartmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-compartmap
+latest:
+  1.8.0--r40hdfd78af_1: sha256:67b40860756bb2589143be08b86f93dc178d134bef3358fc38d98aeafaaa7191
+tags:
+  1.8.0--r40hdfd78af_1: sha256:67b40860756bb2589143be08b86f93dc178d134bef3358fc38d98aeafaaa7191
+docker: quay.io/biocontainers/bioconductor-compartmap

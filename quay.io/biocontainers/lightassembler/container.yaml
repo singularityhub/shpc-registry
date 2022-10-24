@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lightassembler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lightassembler
+latest:
+  1.0--hd03093a_3: sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3
+tags:
+  1.0--hd03093a_3: sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3
+docker: quay.io/biocontainers/lightassembler
+aliases:
+  LightAssembler: /usr/local/bin/LightAssembler

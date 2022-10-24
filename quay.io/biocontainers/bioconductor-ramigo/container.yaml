@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ramigo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ramigo
+latest:
+  1.28.0--r341_0: sha256:ca6149d0f101a6dd6bef862062e7115c44fe72cc0d1cb5341c6bbd4e73f795e0
+tags:
+  1.28.0--r341_0: sha256:ca6149d0f101a6dd6bef862062e7115c44fe72cc0d1cb5341c6bbd4e73f795e0
+docker: quay.io/biocontainers/bioconductor-ramigo

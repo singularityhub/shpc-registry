@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/debarcer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for debarcer
+latest:
+  2.1.4--pyhdfd78af_2: sha256:a90402d9d7f24264d3a586cb4d42499c65ee465cc894eacbba025244421b3e50
+tags:
+  2.1.4--pyhdfd78af_2: sha256:a90402d9d7f24264d3a586cb4d42499c65ee465cc894eacbba025244421b3e50
+docker: quay.io/biocontainers/debarcer
+aliases:
+  debarcer: /usr/local/bin/debarcer
+  pygal_gen.py: /usr/local/bin/pygal_gen.py

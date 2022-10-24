@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spia
+latest:
+  2.46.0--r41hdfd78af_0: sha256:6d02a3b3c635d28d5e0efb1e14bec2a2dfea8453876fa0b893a4db2ba0125d23
+tags:
+  2.46.0--r41hdfd78af_0: sha256:6d02a3b3c635d28d5e0efb1e14bec2a2dfea8453876fa0b893a4db2ba0125d23
+docker: quay.io/biocontainers/bioconductor-spia

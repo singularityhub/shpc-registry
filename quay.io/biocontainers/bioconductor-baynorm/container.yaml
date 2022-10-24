@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-baynorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-baynorm
+latest:
+  1.8.0--r40h399db7b_1: sha256:88285a0f0e14fad190212258d19605281f9f67310bb05b8e43f9ff052a73a3ca
+tags:
+  1.8.0--r40h399db7b_1: sha256:88285a0f0e14fad190212258d19605281f9f67310bb05b8e43f9ff052a73a3ca
+docker: quay.io/biocontainers/bioconductor-baynorm

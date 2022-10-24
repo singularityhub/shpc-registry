@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/pathogen-profiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathogen-profiler
+latest:
+  2.0.1--pypyh5e36f6f_0: sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2
+tags:
+  2.0.1--pypyh5e36f6f_0: sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2
+docker: quay.io/biocontainers/pathogen-profiler
+aliases:
+  add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py
+  combine_vcf_variants.py: /usr/local/bin/combine_vcf_variants.py
+  delly: /usr/local/bin/delly
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  rename_vcf_chrom.py: /usr/local/bin/rename_vcf_chrom.py
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  update_version.sh: /usr/local/bin/update_version.sh

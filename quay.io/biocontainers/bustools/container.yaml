@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bustools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bustools
+latest:
+  0.41.0--h15996b6_2: sha256:97f0688f3fc0c4f8f642f52e0b1643e4921b816f1a7855bba5dbe31a904c924c
+tags:
+  0.41.0--h15996b6_2: sha256:97f0688f3fc0c4f8f642f52e0b1643e4921b816f1a7855bba5dbe31a904c924c
+docker: quay.io/biocontainers/bustools
+aliases:
+  bustools: /usr/local/bin/bustools

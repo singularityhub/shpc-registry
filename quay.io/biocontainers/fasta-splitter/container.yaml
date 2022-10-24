@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fasta-splitter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fasta-splitter
+latest:
+  0.2.6--hdfd78af_1: sha256:85cbb6d36c59537e6bd19558b72d6581db4bbacc81434f2c0a45df48716e3832
+tags:
+  0.2.6--hdfd78af_1: sha256:85cbb6d36c59537e6bd19558b72d6581db4bbacc81434f2c0a45df48716e3832
+docker: quay.io/biocontainers/fasta-splitter
+aliases:
+  fasta-splitter: /usr/local/bin/fasta-splitter

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/plant_tribes_gene_family_classifier
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plant_tribes_gene_family_classifier
+latest:
+  1.0.4--hdfd78af_2: sha256:87b56a8ed527d2a08a2e733373a62b68502e17fdbb29adf7898cda601f284496
+tags:
+  1.0.4--hdfd78af_2: sha256:87b56a8ed527d2a08a2e733373a62b68502e17fdbb29adf7898cda601f284496
+docker: quay.io/biocontainers/plant_tribes_gene_family_classifier
+aliases:
+  GeneFamilyClassifier: /usr/local/bin/GeneFamilyClassifier

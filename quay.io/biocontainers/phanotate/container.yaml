@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/phanotate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phanotate
+latest:
+  1.5.0--hc16433a_2: sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59
+tags:
+  1.5.0--hc16433a_2: sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59
+docker: quay.io/biocontainers/phanotate
+aliases:
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  phanotate.py: /usr/local/bin/phanotate.py
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4

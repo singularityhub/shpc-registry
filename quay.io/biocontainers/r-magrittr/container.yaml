@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-magrittr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-magrittr
+latest:
+  1.5--r3.2.2_0: sha256:b69db2ec2129bffe44bd2f2299adfb7b79e3c3a5e9788418bece8b395f1c0dfb
+tags:
+  1.5--r3.2.2_0: sha256:b69db2ec2129bffe44bd2f2299adfb7b79e3c3a5e9788418bece8b395f1c0dfb
+docker: quay.io/biocontainers/r-magrittr

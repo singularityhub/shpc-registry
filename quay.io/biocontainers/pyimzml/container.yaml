@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyimzml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyimzml
+latest:
+  1.5.1--pyh5e36f6f_0: sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b
+tags:
+  1.5.1--pyh5e36f6f_0: sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b
+docker: quay.io/biocontainers/pyimzml
+aliases:
+  wheezy.template: /usr/local/bin/wheezy.template

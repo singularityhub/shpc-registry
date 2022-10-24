@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/openpyxl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for openpyxl
+latest:
+  2.4.0--py35_0: sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a
+tags:
+  2.4.0--py35_0: sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a
+docker: quay.io/biocontainers/openpyxl

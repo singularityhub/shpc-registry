@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastpca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastpca
+latest:
+  0.9.1: sha256:24440f9942ff0d5871cc1b0897a6dcb80bf40da788d07fc5bd4abe1f3ea5df05
+tags:
+  0.9.1: sha256:24440f9942ff0d5871cc1b0897a6dcb80bf40da788d07fc5bd4abe1f3ea5df05
+docker: quay.io/biocontainers/fastpca
+aliases:
+  fastpca: /usr/local/bin/fastpca

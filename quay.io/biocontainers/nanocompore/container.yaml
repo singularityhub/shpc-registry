@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nanocompore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanocompore
+latest:
+  1.0.4--pyhdfd78af_0: sha256:5ece0cff49e555fbbaca72b98efe6f1db1dd62a4cf471a2672ae254ed26e9575
+tags:
+  1.0.4--pyhdfd78af_0: sha256:5ece0cff49e555fbbaca72b98efe6f1db1dd62a4cf471a2672ae254ed26e9575
+docker: quay.io/biocontainers/nanocompore
+aliases:
+  bedparse: /usr/local/bin/bedparse
+  nanocompore: /usr/local/bin/nanocompore

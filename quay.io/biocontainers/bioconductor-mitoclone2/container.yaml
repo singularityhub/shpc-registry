@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mitoclone2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mitoclone2
+latest:
+  1.0.0--r41hc247a5b_2: sha256:bab002f7303685066a2f0cca57c4240a86fed25576ba0479b6e910b68a67afe0
+tags:
+  1.0.0--r41hc247a5b_2: sha256:bab002f7303685066a2f0cca57c4240a86fed25576ba0479b6e910b68a67afe0
+docker: quay.io/biocontainers/bioconductor-mitoclone2

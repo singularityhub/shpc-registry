@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconda2biocontainer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconda2biocontainer
+latest:
+  0.0.7--pyhdfd78af_0: sha256:79d233da5e6b4b84755914f1a5c603c286acf2091c40b931cf8f13129ec06761
+tags:
+  0.0.7--pyhdfd78af_0: sha256:79d233da5e6b4b84755914f1a5c603c286acf2091c40b931cf8f13129ec06761
+docker: quay.io/biocontainers/bioconda2biocontainer
+aliases:
+  bioconda2biocontainer: /usr/local/bin/bioconda2biocontainer
+  bioconda2cwldocker: /usr/local/bin/bioconda2cwldocker
+  biocontainers-search: /usr/local/bin/biocontainers-search

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lrbasedbi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lrbasedbi
+latest:
+  2.4.0--r41hdfd78af_0: sha256:a7c13f461a12f99d3d2ddd27344920b544d770623f5e819bcc00900aaadafaa0
+tags:
+  2.4.0--r41hdfd78af_0: sha256:a7c13f461a12f99d3d2ddd27344920b544d770623f5e819bcc00900aaadafaa0
+docker: quay.io/biocontainers/bioconductor-lrbasedbi

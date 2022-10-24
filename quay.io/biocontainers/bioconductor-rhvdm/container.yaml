@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rhvdm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rhvdm
+latest:
+  1.49.0--r36_1: sha256:dac73c6636818b522679660fce06fdf0ac0f5a4e5777709d6f35c601fdbf7b6f
+tags:
+  1.49.0--r36_1: sha256:dac73c6636818b522679660fce06fdf0ac0f5a4e5777709d6f35c601fdbf7b6f
+docker: quay.io/biocontainers/bioconductor-rhvdm

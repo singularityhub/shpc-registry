@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/stereogene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stereogene
+latest:
+  2.20--h87f3376_4: sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773
+tags:
+  2.20--h87f3376_4: sha256:e53a555a358aa82cbe3631c4c49d25d468fe02c33950342b4f48dca1edd3f773
+docker: quay.io/biocontainers/stereogene
+aliases:
+  Binner: /usr/local/bin/Binner
+  Confounder: /usr/local/bin/Confounder
+  ParseGenes: /usr/local/bin/ParseGenes
+  Projector: /usr/local/bin/Projector
+  Smoother: /usr/local/bin/Smoother
+  StereoGene: /usr/local/bin/StereoGene

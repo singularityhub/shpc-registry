@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hspeccdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hspeccdf
+latest:
+  0.99.1--r41hdfd78af_9: sha256:8e39aa578bc0e06bb61a2869e53e8ab023c6ba89ac018f7e9372e6659d0955d2
+tags:
+  0.99.1--r41hdfd78af_9: sha256:8e39aa578bc0e06bb61a2869e53e8ab023c6ba89ac018f7e9372e6659d0955d2
+docker: quay.io/biocontainers/bioconductor-hspeccdf
+aliases:
+  .bioconductor-hspeccdf-post-link.sh: /usr/local/bin/.bioconductor-hspeccdf-post-link.sh
+  .bioconductor-hspeccdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hspeccdf-pre-unlink.sh

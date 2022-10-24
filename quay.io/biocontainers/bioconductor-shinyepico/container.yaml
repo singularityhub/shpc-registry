@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-shinyepico
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-shinyepico
+latest:
+  1.2.0--r41hdfd78af_0: sha256:29d963d769cffa712512d7d23e4975cb147084801f0bc6d75f32a35914692095
+tags:
+  1.2.0--r41hdfd78af_0: sha256:29d963d769cffa712512d7d23e4975cb147084801f0bc6d75f32a35914692095
+docker: quay.io/biocontainers/bioconductor-shinyepico

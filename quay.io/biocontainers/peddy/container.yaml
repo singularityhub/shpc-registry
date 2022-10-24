@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/peddy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peddy
+latest:
+  0.4.8--pyh5e36f6f_0: sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a
+tags:
+  0.4.8--pyh5e36f6f_0: sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a
+docker: quay.io/biocontainers/peddy
+aliases:
+  peddy: /usr/local/bin/peddy
+  toolshed: /usr/local/bin/toolshed

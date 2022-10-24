@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pigengene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pigengene
+latest:
+  1.8.0--r351_0: sha256:80aeac87a4d78552487ee6b7db5b2b60edc6217f094ef3fdb25b1a40f45e676c
+tags:
+  1.8.0--r351_0: sha256:80aeac87a4d78552487ee6b7db5b2b60edc6217f094ef3fdb25b1a40f45e676c
+docker: quay.io/biocontainers/bioconductor-pigengene

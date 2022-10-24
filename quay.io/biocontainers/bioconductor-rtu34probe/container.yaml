@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rtu34probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtu34probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:abc93a8bad2adf31acb16bd8be3d8474843b703767c306b450bff88feb52cabe
+tags:
+  2.18.0--r41hdfd78af_9: sha256:abc93a8bad2adf31acb16bd8be3d8474843b703767c306b450bff88feb52cabe
+docker: quay.io/biocontainers/bioconductor-rtu34probe
+aliases:
+  .bioconductor-rtu34probe-post-link.sh: /usr/local/bin/.bioconductor-rtu34probe-post-link.sh
+  .bioconductor-rtu34probe-pre-unlink.sh: /usr/local/bin/.bioconductor-rtu34probe-pre-unlink.sh

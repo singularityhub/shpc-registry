@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/gridss
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gridss
+latest:
+  2.9.4--0: sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd
+tags:
+  2.9.4--0: sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd
+docker: quay.io/biocontainers/gridss
+aliases:
+  AllocateEvidence: /usr/local/bin/AllocateEvidence
+  AnnotateInexactHomology: /usr/local/bin/AnnotateInexactHomology
+  AnnotateInexactHomologyBedpe: /usr/local/bin/AnnotateInexactHomologyBedpe
+  AnnotateReferenceCoverage: /usr/local/bin/AnnotateReferenceCoverage
+  AnnotateUntemplatedSequence: /usr/local/bin/AnnotateUntemplatedSequence
+  AnnotateVariants: /usr/local/bin/AnnotateVariants
+  AssembleBreakends: /usr/local/bin/AssembleBreakends
+  CallVariants: /usr/local/bin/CallVariants
+  CollectCigarMetrics: /usr/local/bin/CollectCigarMetrics
+  CollectFragmentGCMetrics: /usr/local/bin/CollectFragmentGCMetrics
+  CollectGridssMetrics: /usr/local/bin/CollectGridssMetrics
+  CollectGridssMetricsAndExtractFullReads: /usr/local/bin/CollectGridssMetricsAndExtractFullReads
+  CollectGridssMetricsAndExtractSVReads: /usr/local/bin/CollectGridssMetricsAndExtractSVReads
+  CollectIdsvMetrics: /usr/local/bin/CollectIdsvMetrics
+  CollectMapqMetrics: /usr/local/bin/CollectMapqMetrics
+  CollectStructuralVariantReadMetrics: /usr/local/bin/CollectStructuralVariantReadMetrics
+  CollectTagMetrics: /usr/local/bin/CollectTagMetrics
+  ComputeSamTags: /usr/local/bin/ComputeSamTags
+  ExtractFullReads: /usr/local/bin/ExtractFullReads
+  ExtractSVReads: /usr/local/bin/ExtractSVReads
+  GeneratePonBedpe: /usr/local/bin/GeneratePonBedpe
+  IdentifyVariants: /usr/local/bin/IdentifyVariants
+  IndexedExtractFullReads: /usr/local/bin/IndexedExtractFullReads
+  ReportThresholdCoverage: /usr/local/bin/ReportThresholdCoverage
+  SoftClipsToSplitReads: /usr/local/bin/SoftClipsToSplitReads
+  gridss: /usr/local/bin/gridss
+  gridss_annotate_insertions_repeatmaster: /usr/local/bin/gridss_annotate_insertions_repeatmaster
+  gridss_somatic_filter: /usr/local/bin/gridss_somatic_filter

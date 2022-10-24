@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-dmrcatedata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dmrcatedata
+latest:
+  2.8.2--r40hdfd78af_0: sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3
+tags:
+  2.8.2--r40hdfd78af_0: sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3
+docker: quay.io/biocontainers/bioconductor-dmrcatedata
+aliases:
+  .bioconductor-dmrcatedata-post-link.sh: /usr/local/bin/.bioconductor-dmrcatedata-post-link.sh
+  .bioconductor-dmrcatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-dmrcatedata-pre-unlink.sh

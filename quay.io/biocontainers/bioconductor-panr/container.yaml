@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-panr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-panr
+latest:
+  1.40.0--r41hdfd78af_0: sha256:d8aa5b03e8203f1cb845a6b4c7e5c2a886231d4957333586d56ce60c391fca2a
+tags:
+  1.40.0--r41hdfd78af_0: sha256:d8aa5b03e8203f1cb845a6b4c7e5c2a886231d4957333586d56ce60c391fca2a
+docker: quay.io/biocontainers/bioconductor-panr

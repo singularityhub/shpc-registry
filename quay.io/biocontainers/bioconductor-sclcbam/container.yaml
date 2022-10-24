@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-sclcbam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sclcbam
+latest:
+  1.26.0--r41hdfd78af_1: sha256:22852f8511bdc01fb1e6c23ec0aa121b068cb6d13cddea1f00b3351ced569622
+tags:
+  1.26.0--r41hdfd78af_1: sha256:22852f8511bdc01fb1e6c23ec0aa121b068cb6d13cddea1f00b3351ced569622
+docker: quay.io/biocontainers/bioconductor-sclcbam
+aliases:
+  .bioconductor-sclcbam-post-link.sh: /usr/local/bin/.bioconductor-sclcbam-post-link.sh
+  .bioconductor-sclcbam-pre-unlink.sh: /usr/local/bin/.bioconductor-sclcbam-pre-unlink.sh

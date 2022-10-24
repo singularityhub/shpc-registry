@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cytodx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cytodx
+latest:
+  1.8.0--r40_0: sha256:bf344b421bee276471a2073336742f9858f8204c9b6a0ac8ee518ca974ed901e
+tags:
+  1.8.0--r40_0: sha256:bf344b421bee276471a2073336742f9858f8204c9b6a0ac8ee518ca974ed901e
+docker: quay.io/biocontainers/bioconductor-cytodx

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-speedglm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-speedglm
+latest:
+  0.3_1--r3.3.1_0: sha256:fcd8e55fb534f7712a2e457e302a6a2429772f49facf6db9b94dabf0c9418ce7
+tags:
+  0.3_1--r3.3.1_0: sha256:fcd8e55fb534f7712a2e457e302a6a2429772f49facf6db9b94dabf0c9418ce7
+docker: quay.io/biocontainers/r-speedglm

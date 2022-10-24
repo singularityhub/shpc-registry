@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mysql-connector-c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mysql-connector-c
+latest:
+  6.1.6--2: sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1
+tags:
+  6.1.6--2: sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1
+docker: quay.io/biocontainers/mysql-connector-c

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-termreadkey
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-termreadkey
+latest:
+  2.38--pl5321hec16e2b_3: sha256:24aad029f9b7eea78dd213a86382b96745f691c58125c7086b8075656d677b87
+tags:
+  2.38--pl5321hec16e2b_3: sha256:24aad029f9b7eea78dd213a86382b96745f691c58125c7086b8075656d677b87
+docker: quay.io/biocontainers/perl-termreadkey

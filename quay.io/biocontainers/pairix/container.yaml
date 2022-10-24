@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pairix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pairix
+latest:
+  0.3.7--py36haf49e46_4: sha256:beeb156ca2c238c3c6b602f20e75bda97b1866df449fcf0f9a552088b6240fa1
+tags:
+  0.3.7--py36haf49e46_4: sha256:beeb156ca2c238c3c6b602f20e75bda97b1866df449fcf0f9a552088b6240fa1
+docker: quay.io/biocontainers/pairix

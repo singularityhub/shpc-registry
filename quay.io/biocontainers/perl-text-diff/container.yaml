@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-diff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-diff
+latest:
+  1.45--pl5321hdfd78af_1: sha256:b86d24008b3359797b89c7fd6517c3e0ee239a3d497c6f7ea1e5935a3ea5de3c
+tags:
+  1.45--pl5321hdfd78af_1: sha256:b86d24008b3359797b89c7fd6517c3e0ee239a3d497c6f7ea1e5935a3ea5de3c
+docker: quay.io/biocontainers/perl-text-diff

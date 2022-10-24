@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-info
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-info
+latest:
+  0.002--pl5321hdfd78af_1: sha256:4dd355e1cd6d1c0dd1f954cbd9ac670f5b915a13997ec322108694cabc80aec3
+tags:
+  0.002--pl5321hdfd78af_1: sha256:4dd355e1cd6d1c0dd1f954cbd9ac670f5b915a13997ec322108694cabc80aec3
+docker: quay.io/biocontainers/perl-sub-info

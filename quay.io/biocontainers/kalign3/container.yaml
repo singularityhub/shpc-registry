@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/kalign3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kalign3
+latest:
+  3.3.2--hec16e2b_0: sha256:23b624001b98d1c7374b7c77303b3dadef92a46e5a986a3c5f94ec525992fb25
+tags:
+  3.3.2--hec16e2b_0: sha256:23b624001b98d1c7374b7c77303b3dadef92a46e5a986a3c5f94ec525992fb25
+docker: quay.io/biocontainers/kalign3
+aliases:
+  kalign: /usr/local/bin/kalign
+  kchaos: /usr/local/bin/kchaos

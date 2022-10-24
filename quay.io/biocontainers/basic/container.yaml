@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/basic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for basic
+latest:
+  1.5.1--pyh864c0ab_1: sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c
+tags:
+  1.5.1--pyh864c0ab_1: sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c
+docker: quay.io/biocontainers/basic
+aliases:
+  BASIC.py: /usr/local/bin/BASIC.py

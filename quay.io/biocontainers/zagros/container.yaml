@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/zagros
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zagros
+latest:
+  1.0.0--h7fd9d64_7: sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1
+tags:
+  1.0.0--h7fd9d64_7: sha256:fdb6b2e961a0efb21a41047c0c27d7dfeb49eeef3ef8cbb762e7dcd54848acc1
+docker: quay.io/biocontainers/zagros
+aliases:
+  extractDEs: /usr/local/bin/extractDEs
+  thermo: /usr/local/bin/thermo
+  zagros: /usr/local/bin/zagros

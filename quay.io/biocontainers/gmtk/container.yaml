@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/gmtk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gmtk
+latest:
+  1.4.4--h0326b38_9: sha256:c0e74d5fe9113bb4d6cd7ad25d09b8d1829932683064f3435a6e99a9659c0efb
+tags:
+  1.4.4--h0326b38_9: sha256:c0e74d5fe9113bb4d6cd7ad25d09b8d1829932683064f3435a6e99a9659c0efb
+docker: quay.io/biocontainers/gmtk
+aliases:
+  discrete-mi: /usr/local/bin/discrete-mi
+  fixTri.sh: /usr/local/bin/fixTri.sh
+  generate_random_graph.pl: /usr/local/bin/generate_random_graph.pl
+  gmtkDMLPtrain: /usr/local/bin/gmtkDMLPtrain
+  gmtkDTindex: /usr/local/bin/gmtkDTindex
+  gmtkEMtrain: /usr/local/bin/gmtkEMtrain
+  gmtkJT: /usr/local/bin/gmtkJT
+  gmtkKernel: /usr/local/bin/gmtkKernel
+  gmtkMMItrain: /usr/local/bin/gmtkMMItrain
+  gmtkModelInfo: /usr/local/bin/gmtkModelInfo
+  gmtkNGramIndex: /usr/local/bin/gmtkNGramIndex
+  gmtkOnline: /usr/local/bin/gmtkOnline
+  gmtkParmConvert: /usr/local/bin/gmtkParmConvert
+  gmtkPrint: /usr/local/bin/gmtkPrint
+  gmtkTFmerge: /usr/local/bin/gmtkTFmerge
+  gmtkTie: /usr/local/bin/gmtkTie
+  gmtkTime: /usr/local/bin/gmtkTime
+  gmtkTriangulate: /usr/local/bin/gmtkTriangulate
+  gmtkViterbi: /usr/local/bin/gmtkViterbi
+  obs-cat: /usr/local/bin/obs-cat
+  obs-concat: /usr/local/bin/obs-concat
+  obs-diff: /usr/local/bin/obs-diff
+  obs-info: /usr/local/bin/obs-info
+  obs-print: /usr/local/bin/obs-print
+  obs-skmeans: /usr/local/bin/obs-skmeans
+  obs-stats: /usr/local/bin/obs-stats
+  obs-window: /usr/local/bin/obs-window
+  triangulateGA: /usr/local/bin/triangulateGA
+  triangulateParallel: /usr/local/bin/triangulateParallel
+  triangulateTimings: /usr/local/bin/triangulateTimings

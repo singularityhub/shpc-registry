@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/orthofinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for orthofinder
+latest:
+  2.5.4--hdfd78af_0: sha256:d71c5b9c9661e3ca7a612f9109a9f57627a2edecd418e8472608c3c0ef05ef5c
+tags:
+  2.5.4--hdfd78af_0: sha256:d71c5b9c9661e3ca7a612f9109a9f57627a2edecd418e8472608c3c0ef05ef5c
+docker: quay.io/biocontainers/orthofinder
+aliases:
+  convert_orthofinder_tree_ids.py: /usr/local/bin/convert_orthofinder_tree_ids.py
+  make_ultrametric.py: /usr/local/bin/make_ultrametric.py
+  orthofinder: /usr/local/bin/orthofinder
+  primary_transcript.py: /usr/local/bin/primary_transcript.py
+  raxml-ng: /usr/local/bin/raxml-ng
+  raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi

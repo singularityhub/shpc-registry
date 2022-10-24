@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-mockmodule
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-mockmodule
+latest:
+  0.13--pl5321hdfd78af_3: sha256:8a2c5b9d51c64e3634669c96fe2676f8ea7c8cfdb5a58e1a72e67ae05660d21c
+tags:
+  0.13--pl5321hdfd78af_3: sha256:8a2c5b9d51c64e3634669c96fe2676f8ea7c8cfdb5a58e1a72e67ae05660d21c
+docker: quay.io/biocontainers/perl-test-mockmodule

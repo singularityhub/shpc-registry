@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tenxbusdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tenxbusdata
+latest:
+  1.8.0--r41hdfd78af_1: sha256:50c5643a32be5d5544a3d6e4b288ef94e550e9e10535f25c76bcce22eed27946
+tags:
+  1.8.0--r41hdfd78af_1: sha256:50c5643a32be5d5544a3d6e4b288ef94e550e9e10535f25c76bcce22eed27946
+docker: quay.io/biocontainers/bioconductor-tenxbusdata
+aliases:
+  .bioconductor-tenxbusdata-post-link.sh: /usr/local/bin/.bioconductor-tenxbusdata-post-link.sh
+  .bioconductor-tenxbusdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxbusdata-pre-unlink.sh

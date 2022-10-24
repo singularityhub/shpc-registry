@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-icluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-icluster
+latest:
+  2.1.0--r3.4.1_0: sha256:0295474ba46606c76ed3af977d898ecb8fb061b27c7dbaa68f7cdb3e5194b5b4
+tags:
+  2.1.0--r3.4.1_0: sha256:0295474ba46606c76ed3af977d898ecb8fb061b27c7dbaa68f7cdb3e5194b5b4
+docker: quay.io/biocontainers/r-icluster

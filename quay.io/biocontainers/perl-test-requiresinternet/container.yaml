@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-requiresinternet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-requiresinternet
+latest:
+  0.05--pl5321hdfd78af_1: sha256:4beb76e0134147a3fe41fe6e8aedefe8a458c528196bf5b3b3f6830303d74552
+tags:
+  0.05--pl5321hdfd78af_1: sha256:4beb76e0134147a3fe41fe6e8aedefe8a458c528196bf5b3b3f6830303d74552
+docker: quay.io/biocontainers/perl-test-requiresinternet

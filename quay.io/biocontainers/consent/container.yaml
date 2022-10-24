@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/consent
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for consent
+latest:
+  2.2.2--h5b5514e_2: sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940
+tags:
+  2.2.2--h5b5514e_2: sha256:98f032fc58c454aafcbf1b47edcc57ac35b7dca2f5ee08b91b253da292c43940
+docker: quay.io/biocontainers/consent
+aliases:
+  CONSENT-correct: /usr/local/bin/CONSENT-correct
+  CONSENT-correction: /usr/local/bin/CONSENT-correction
+  CONSENT-explode: /usr/local/bin/CONSENT-explode
+  CONSENT-merge: /usr/local/bin/CONSENT-merge
+  CONSENT-polish: /usr/local/bin/CONSENT-polish
+  CONSENT-polishing: /usr/local/bin/CONSENT-polishing
+  CONSENT-reformatPAF: /usr/local/bin/CONSENT-reformatPAF

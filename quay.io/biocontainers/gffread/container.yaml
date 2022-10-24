@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gffread
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gffread
+latest:
+  0.9.9--1: sha256:419e1859e4fdd30217071a75fab40058e89aaaae142615d8102ac8985227e75f
+tags:
+  0.9.9--1: sha256:419e1859e4fdd30217071a75fab40058e89aaaae142615d8102ac8985227e75f
+docker: quay.io/biocontainers/gffread
+aliases:
+  gffread: /usr/local/bin/gffread

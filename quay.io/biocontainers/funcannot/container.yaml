@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/funcannot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for funcannot
+latest:
+  v2.8--h470a237_1: sha256:b8c2d24f89a4293ee221ee4af860d3a5d02355f369fccb779525cf4a89470b37
+tags:
+  v2.8--h470a237_1: sha256:b8c2d24f89a4293ee221ee4af860d3a5d02355f369fccb779525cf4a89470b37
+docker: quay.io/biocontainers/funcannot
+aliases:
+  funcannot: /usr/local/bin/funcannot

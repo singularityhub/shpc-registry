@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gep2pep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gep2pep
+latest:
+  1.8.0--r40_0: sha256:c169c096173f9ff336d0d981706aa6e4fc915a8e2db708dd101710404ff27cfc
+tags:
+  1.8.0--r40_0: sha256:c169c096173f9ff336d0d981706aa6e4fc915a8e2db708dd101710404ff27cfc
+docker: quay.io/biocontainers/bioconductor-gep2pep

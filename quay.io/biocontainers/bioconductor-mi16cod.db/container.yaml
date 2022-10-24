@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mi16cod.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mi16cod.db
+latest:
+  3.4.0--r41hdfd78af_9: sha256:b8746b193edd334e3958bebfd9b4ee2842982147d140d6669e607e7a9fe5bdc4
+tags:
+  3.4.0--r41hdfd78af_9: sha256:b8746b193edd334e3958bebfd9b4ee2842982147d140d6669e607e7a9fe5bdc4
+docker: quay.io/biocontainers/bioconductor-mi16cod.db
+aliases:
+  .bioconductor-mi16cod.db-post-link.sh: /usr/local/bin/.bioconductor-mi16cod.db-post-link.sh
+  .bioconductor-mi16cod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mi16cod.db-pre-unlink.sh

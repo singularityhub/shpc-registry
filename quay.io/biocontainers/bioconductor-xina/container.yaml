@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xina
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xina
+latest:
+  1.8.0--r40hdfd78af_1: sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6
+tags:
+  1.8.0--r40hdfd78af_1: sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6
+docker: quay.io/biocontainers/bioconductor-xina

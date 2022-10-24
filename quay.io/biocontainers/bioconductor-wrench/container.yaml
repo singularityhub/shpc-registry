@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-wrench
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-wrench
+latest:
+  1.8.0--r40hdfd78af_1: sha256:af5b9eee8db39b7e4fcee50f87e3e34ab81596582aeb60d6247877732181794b
+tags:
+  1.8.0--r40hdfd78af_1: sha256:af5b9eee8db39b7e4fcee50f87e3e34ab81596582aeb60d6247877732181794b
+docker: quay.io/biocontainers/bioconductor-wrench

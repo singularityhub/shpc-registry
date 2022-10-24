@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/reveal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for reveal
+latest:
+  0.1--py27h95a95ce_7: sha256:74ad2313518ece943c42f939e27b5bb1da0ea636836f1cc7ed6cc25e39b409d9
+tags:
+  0.1--py27h95a95ce_7: sha256:74ad2313518ece943c42f939e27b5bb1da0ea636836f1cc7ed6cc25e39b409d9
+docker: quay.io/biocontainers/reveal
+aliases:
+  reveal: /usr/local/bin/reveal

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyclone-vi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyclone-vi
+latest:
+  0.1.2--pyhb7b1952_0: sha256:92c9ae0c6c9df4678d2268ba8c46f509c75f92a358460e4da420064a02aac690
+tags:
+  0.1.2--pyhb7b1952_0: sha256:92c9ae0c6c9df4678d2268ba8c46f509c75f92a358460e4da420064a02aac690
+docker: quay.io/biocontainers/pyclone-vi
+aliases:
+  pyclone-vi: /usr/local/bin/pyclone-vi

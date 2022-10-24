@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cityhash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cityhash
+latest:
+  0.2.3.post9--py27_0: sha256:60b4e58ff40b7c5520acfe548dfd5018a6d369d1b6a833612b2746d232d26ff1
+tags:
+  0.2.3.post9--py27_0: sha256:60b4e58ff40b7c5520acfe548dfd5018a6d369d1b6a833612b2746d232d26ff1
+docker: quay.io/biocontainers/cityhash

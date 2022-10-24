@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-yeastrnaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yeastrnaseq
+latest:
+  0.32.0--r41hdfd78af_1: sha256:3b71b0bcf818b6e0bc98684602920f304e6972d0f98b58c525e459a0bec27101
+tags:
+  0.32.0--r41hdfd78af_1: sha256:3b71b0bcf818b6e0bc98684602920f304e6972d0f98b58c525e459a0bec27101
+docker: quay.io/biocontainers/bioconductor-yeastrnaseq
+aliases:
+  .bioconductor-yeastrnaseq-post-link.sh: /usr/local/bin/.bioconductor-yeastrnaseq-post-link.sh
+  .bioconductor-yeastrnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastrnaseq-pre-unlink.sh

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/eukcc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eukcc
+latest:
+  2.1.0--pypyhdfd78af_0: sha256:5d12324186ac9d29b62326338aba059c97e51094fc51e87447f61d0b46cb96d4
+tags:
+  2.1.0--pypyhdfd78af_0: sha256:5d12324186ac9d29b62326338aba059c97e51094fc51e87447f61d0b46cb96d4
+docker: quay.io/biocontainers/eukcc
+aliases:
+  binlinks.py: /usr/local/bin/binlinks.py
+  epa-ng: /usr/local/bin/epa-ng
+  eukcc: /usr/local/bin/eukcc
+  filter_euk_bins.py: /usr/local/bin/filter_euk_bins.py
+  metaeuk: /usr/local/bin/metaeuk
+  shared_markers: /usr/local/bin/shared_markers

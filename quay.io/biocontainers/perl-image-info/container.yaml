@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-image-info
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-image-info
+latest:
+  1.42--pl5321hdfd78af_0: sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b
+tags:
+  1.42--pl5321hdfd78af_0: sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b
+docker: quay.io/biocontainers/perl-image-info

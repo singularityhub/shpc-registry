@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu95dprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu95dprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:7e8762028c0a8ee1945a16c59db526b50dce534d65e99b4bf80709224e2ee4a9
+tags:
+  2.18.0--r41hdfd78af_9: sha256:7e8762028c0a8ee1945a16c59db526b50dce534d65e99b4bf80709224e2ee4a9
+docker: quay.io/biocontainers/bioconductor-hgu95dprobe
+aliases:
+  .bioconductor-hgu95dprobe-post-link.sh: /usr/local/bin/.bioconductor-hgu95dprobe-post-link.sh
+  .bioconductor-hgu95dprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95dprobe-pre-unlink.sh

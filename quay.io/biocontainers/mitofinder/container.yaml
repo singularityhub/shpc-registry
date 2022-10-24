@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/mitofinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mitofinder
+latest:
+  1.4.1--py27h9801fc8_1: sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
+tags:
+  1.4.1--py27h9801fc8_1: sha256:618176a5bc2fee2912498abc8f0380ef3816715722ed9bc26546658b1f338faf
+docker: quay.io/biocontainers/mitofinder
+aliases:
+  FirstBuildChecker.py: /usr/local/bin/FirstBuildChecker.py
+  arwen: /usr/local/bin/arwen
+  circularizationCheck.py: /usr/local/bin/circularizationCheck.py
+  export_mitochondrial_contigs.py: /usr/local/bin/export_mitochondrial_contigs.py
+  extract_genes.py: /usr/local/bin/extract_genes.py
+  extract_seq.py: /usr/local/bin/extract_seq.py
+  genbankOutput.py: /usr/local/bin/genbankOutput.py
+  geneChecker.py: /usr/local/bin/geneChecker.py
+  geneChecker_fasta.py: /usr/local/bin/geneChecker_fasta.py
+  geneChecker_fasta_gaps.py: /usr/local/bin/geneChecker_fasta_gaps.py
+  mitofinder: /usr/local/bin/mitofinder
+  rename_fasta_seqID.py: /usr/local/bin/rename_fasta_seqID.py
+  runIDBA.py: /usr/local/bin/runIDBA.py
+  runMegahit.py: /usr/local/bin/runMegahit.py
+  runMetaspades.py: /usr/local/bin/runMetaspades.py
+  sort_gff.py: /usr/local/bin/sort_gff.py
+  tRNAscanChecker.py: /usr/local/bin/tRNAscanChecker.py

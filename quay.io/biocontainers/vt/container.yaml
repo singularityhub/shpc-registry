@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vt
+latest:
+  2015.11.10--h5ef6573_4: sha256:43e8bd11d199c37d62ff613f38cbf42ad957c950532392a3e257dacb62887e95
+tags:
+  2015.11.10--h5ef6573_4: sha256:43e8bd11d199c37d62ff613f38cbf42ad957c950532392a3e257dacb62887e95
+docker: quay.io/biocontainers/vt

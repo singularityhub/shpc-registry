@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ptairdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ptairdata
+latest:
+  1.2.0--r41hdfd78af_1: sha256:4b42b65d750e09c19f95782e12ae50abe2e624eb1aed5fa03ade9f5abf2eb808
+tags:
+  1.2.0--r41hdfd78af_1: sha256:4b42b65d750e09c19f95782e12ae50abe2e624eb1aed5fa03ade9f5abf2eb808
+docker: quay.io/biocontainers/bioconductor-ptairdata
+aliases:
+  .bioconductor-ptairdata-post-link.sh: /usr/local/bin/.bioconductor-ptairdata-post-link.sh
+  .bioconductor-ptairdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ptairdata-pre-unlink.sh

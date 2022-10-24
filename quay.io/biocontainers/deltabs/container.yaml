@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/deltabs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deltabs
+latest:
+  0.1--2: sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17
+tags:
+  0.1--2: sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17
+docker: quay.io/biocontainers/deltabs
+aliases:
+  buildCustomModels.pl: /usr/local/bin/buildCustomModels.pl
+  deltaBS.pl: /usr/local/bin/deltaBS.pl

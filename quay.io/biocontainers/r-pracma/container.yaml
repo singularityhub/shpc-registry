@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pracma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pracma
+latest:
+  1.8.8--r3.3.2_1: sha256:9b9490be6786b607496e4b9adbcc1d7417be5861d702391a80b69526b8974496
+tags:
+  1.8.8--r3.3.2_1: sha256:9b9490be6786b607496e4b9adbcc1d7417be5861d702391a80b69526b8974496
+docker: quay.io/biocontainers/r-pracma

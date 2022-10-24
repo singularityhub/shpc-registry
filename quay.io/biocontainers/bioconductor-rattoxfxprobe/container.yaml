@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rattoxfxprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rattoxfxprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:a6e18d1d3436005a8482ba1e3bfa5e18f2133e690efa5dade5374bb71dc66123
+tags:
+  2.18.0--r41hdfd78af_9: sha256:a6e18d1d3436005a8482ba1e3bfa5e18f2133e690efa5dade5374bb71dc66123
+docker: quay.io/biocontainers/bioconductor-rattoxfxprobe
+aliases:
+  .bioconductor-rattoxfxprobe-post-link.sh: /usr/local/bin/.bioconductor-rattoxfxprobe-post-link.sh
+  .bioconductor-rattoxfxprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-rattoxfxprobe-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-trnascanimport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-trnascanimport
+latest:
+  1.8.0--r40_0: sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732
+tags:
+  1.8.0--r40_0: sha256:baad7d1d6f038594e156994eaa25b0909e8a974836e1a8905dcbb3c48193a732
+docker: quay.io/biocontainers/bioconductor-trnascanimport

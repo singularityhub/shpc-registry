@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epigrahmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epigrahmm
+latest:
+  1.2.2--r41hc247a5b_1: sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb
+tags:
+  1.2.2--r41hc247a5b_1: sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb
+docker: quay.io/biocontainers/bioconductor-epigrahmm

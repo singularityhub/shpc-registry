@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mogene21stprobeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mogene21stprobeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:3373134ff8b25ffb680c7e24892617f1ebc9932374fe1c30d060054fa97de86c
+tags:
+  8.8.0--r41hdfd78af_1: sha256:3373134ff8b25ffb680c7e24892617f1ebc9932374fe1c30d060054fa97de86c
+docker: quay.io/biocontainers/bioconductor-mogene21stprobeset.db
+aliases:
+  .bioconductor-mogene21stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-mogene21stprobeset.db-post-link.sh
+  .bioconductor-mogene21stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene21stprobeset.db-pre-unlink.sh

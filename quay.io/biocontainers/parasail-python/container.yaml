@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/parasail-python
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parasail-python
+latest:
+  1.2.4--py38h3b68952_2: sha256:78d3565f88b8f4c480b9387548012eb06b6cc43c8c65ae993e0d8ceaaadd25c9
+tags:
+  1.2.4--py38h3b68952_2: sha256:78d3565f88b8f4c480b9387548012eb06b6cc43c8c65ae993e0d8ceaaadd25c9
+docker: quay.io/biocontainers/parasail-python

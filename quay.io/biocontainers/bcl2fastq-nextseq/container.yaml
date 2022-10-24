@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bcl2fastq-nextseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcl2fastq-nextseq
+latest:
+  1.3.0--pyh5e36f6f_0: sha256:d8998bccc50b77285293a18d9f675fcdaccd2faeb1446b8b9cb5a963825f1985
+tags:
+  1.3.0--pyh5e36f6f_0: sha256:d8998bccc50b77285293a18d9f675fcdaccd2faeb1446b8b9cb5a963825f1985
+docker: quay.io/biocontainers/bcl2fastq-nextseq
+aliases:
+  bcl_to_fastq: /usr/local/bin/bcl_to_fastq

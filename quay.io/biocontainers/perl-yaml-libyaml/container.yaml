@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-yaml-libyaml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-yaml-libyaml
+latest:
+  0.66--pl5321hec16e2b_3: sha256:ee45633a35fb57130d8a6b20c7c5c3519c97d71af91becf1d6816606fe93f23b
+tags:
+  0.66--pl5321hec16e2b_3: sha256:ee45633a35fb57130d8a6b20c7c5c3519c97d71af91becf1d6816606fe93f23b
+docker: quay.io/biocontainers/perl-yaml-libyaml

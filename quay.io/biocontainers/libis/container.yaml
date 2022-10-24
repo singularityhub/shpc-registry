@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/libis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libis
+latest:
+  0.1.6--py_0: sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
+tags:
+  0.1.6--py_0: sha256:17cfd3c97160af78f846b652f0d6182b25f2cdfbc70ed1685749643f8d6e85b3
+docker: quay.io/biocontainers/libis
+aliases:
+  .moabs-post-link.sh: /usr/local/bin/.moabs-post-link.sh
+  LiBis: /usr/local/bin/LiBis
+  bamsort.sh: /usr/local/bin/bamsort.sh
+  bbf: /usr/local/bin/bbf
+  bseqc2: /usr/local/bin/bseqc2
+  bseqc2mbiasplot.R: /usr/local/bin/bseqc2mbiasplot.R
+  bsmap: /usr/local/bin/bsmap
+  lut_pdiffCI.dat: /usr/local/bin/lut_pdiffCI.dat
+  lut_pdiffInRegion.dat: /usr/local/bin/lut_pdiffInRegion.dat
+  mcall: /usr/local/bin/mcall
+  mcomp: /usr/local/bin/mcomp
+  moabs: /usr/local/bin/moabs
+  numCI: /usr/local/bin/numCI
+  pefilter: /usr/local/bin/pefilter
+  preprocess_novoalign.sh: /usr/local/bin/preprocess_novoalign.sh
+  redepth.pl: /usr/local/bin/redepth.pl
+  routines.pm: /usr/local/bin/routines.pm
+  template_for_cfg: /usr/local/bin/template_for_cfg
+  template_for_qsub: /usr/local/bin/template_for_qsub

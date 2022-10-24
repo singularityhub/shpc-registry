@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/clark
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clark
+latest:
+  1.2.6.1--h9f5acd7_2: sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473
+tags:
+  1.2.6.1--h9f5acd7_2: sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473
+docker: quay.io/biocontainers/clark
+aliases:
+  CLARK: /usr/local/bin/CLARK
+  CLARK-S: /usr/local/bin/CLARK-S
+  CLARK-l: /usr/local/bin/CLARK-l
+  converter: /usr/local/bin/converter
+  dscriptMaker: /usr/local/bin/dscriptMaker
+  exeSeq: /usr/local/bin/exeSeq
+  extractSeqs: /usr/local/bin/extractSeqs
+  getAbundance: /usr/local/bin/getAbundance
+  getAccssnTaxID: /usr/local/bin/getAccssnTaxID
+  getConfidenceDensity: /usr/local/bin/getConfidenceDensity
+  getGammaDensity: /usr/local/bin/getGammaDensity
+  getTargetSpecificKmersStat: /usr/local/bin/getTargetSpecificKmersStat
+  getTargetsDef: /usr/local/bin/getTargetsDef
+  getfilesToTaxNodes: /usr/local/bin/getfilesToTaxNodes
+  makeSummaryTables: /usr/local/bin/makeSummaryTables

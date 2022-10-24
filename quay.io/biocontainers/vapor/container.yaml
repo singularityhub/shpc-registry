@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vapor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vapor
+latest:
+  1.0.2--pyhdfd78af_0: sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a
+tags:
+  1.0.2--pyhdfd78af_0: sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a
+docker: quay.io/biocontainers/vapor
+aliases:
+  vapor.py: /usr/local/bin/vapor.py

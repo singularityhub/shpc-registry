@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gofunction
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gofunction
+latest:
+  1.35.0--r40_0: sha256:974249820e8a30e35200966981d81b00ceb02cda2875fa4892df97c52247f1ea
+tags:
+  1.35.0--r40_0: sha256:974249820e8a30e35200966981d81b00ceb02cda2875fa4892df97c52247f1ea
+docker: quay.io/biocontainers/bioconductor-gofunction

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-roleswitch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-roleswitch
+latest:
+  1.25.0--r40_0: sha256:029822d18556f6813a61f53e7f3ca3de2f506f57508aa3d5a76e499dc356bc6b
+tags:
+  1.25.0--r40_0: sha256:029822d18556f6813a61f53e7f3ca3de2f506f57508aa3d5a76e499dc356bc6b
+docker: quay.io/biocontainers/bioconductor-roleswitch

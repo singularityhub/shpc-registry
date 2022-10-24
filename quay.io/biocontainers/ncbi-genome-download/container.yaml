@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ncbi-genome-download
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncbi-genome-download
+latest:
+  0.3.1--pyh5e36f6f_0: sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8
+tags:
+  0.3.1--pyh5e36f6f_0: sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8
+docker: quay.io/biocontainers/ncbi-genome-download
+aliases:
+  gimme_taxa.py: /usr/local/bin/gimme_taxa.py
+  ncbi-genome-download: /usr/local/bin/ncbi-genome-download
+  ngd: /usr/local/bin/ngd

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rrparser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rrparser
+latest:
+  2.5.0: sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d
+tags:
+  2.5.0: sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d
+docker: quay.io/biocontainers/rrparser

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msprep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msprep
+latest:
+  1.4.0--r41hdfd78af_0: sha256:c8730bb17f4620830e270fa110911380d137838598ce4cf0a7bfc40a7a8a6847
+tags:
+  1.4.0--r41hdfd78af_0: sha256:c8730bb17f4620830e270fa110911380d137838598ce4cf0a7bfc40a7a8a6847
+docker: quay.io/biocontainers/bioconductor-msprep

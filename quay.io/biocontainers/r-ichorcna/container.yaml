@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/r-ichorcna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ichorcna
+latest:
+  0.3.2--r41hdfd78af_1: sha256:03e5a912ec6db75c41d7f8660b061cbda4b9256b9d5fce96de5560a96f43d8a7
+tags:
+  0.3.2--r41hdfd78af_1: sha256:03e5a912ec6db75c41d7f8660b061cbda4b9256b9d5fce96de5560a96f43d8a7
+docker: quay.io/biocontainers/r-ichorcna
+aliases:
+  createPanelOfNormals.R: /usr/local/bin/createPanelOfNormals.R
+  runIchorCNA.R: /usr/local/bin/runIchorCNA.R

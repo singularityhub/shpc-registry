@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-string-random
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-string-random
+latest:
+  0.30--pl5321hdfd78af_2: sha256:e00c2cc482bbbe33a9b929a601a78519120274a2a4077a1be99b3c9229e0f26e
+tags:
+  0.30--pl5321hdfd78af_2: sha256:e00c2cc482bbbe33a9b929a601a78519120274a2a4077a1be99b3c9229e0f26e
+docker: quay.io/biocontainers/perl-string-random

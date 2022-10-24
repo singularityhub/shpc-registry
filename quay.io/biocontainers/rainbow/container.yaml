@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/rainbow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rainbow
+latest:
+  2.0.4--hec16e2b_7: sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee
+tags:
+  2.0.4--hec16e2b_7: sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee
+docker: quay.io/biocontainers/rainbow
+aliases:
+  rainbow: /usr/local/bin/rainbow
+  select_all_rbcontig.pl: /usr/local/bin/select_all_rbcontig.pl
+  select_all_rbcontig.pl.bak: /usr/local/bin/select_all_rbcontig.pl.bak
+  select_best_rbcontig.pl: /usr/local/bin/select_best_rbcontig.pl
+  select_best_rbcontig.pl.bak: /usr/local/bin/select_best_rbcontig.pl.bak
+  select_best_rbcontig_plus_read1.pl: /usr/local/bin/select_best_rbcontig_plus_read1.pl
+  select_best_rbcontig_plus_read1.pl.bak: /usr/local/bin/select_best_rbcontig_plus_read1.pl.bak
+  select_sec_rbcontig.pl: /usr/local/bin/select_sec_rbcontig.pl
+  select_sec_rbcontig.pl.bak: /usr/local/bin/select_sec_rbcontig.pl.bak

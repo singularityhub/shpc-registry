@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cvbio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cvbio
+latest:
+  3.0.0--hdfd78af_1: sha256:6616ead9b44097a9424845eaa95a037e84eae00f3258900df4bc82e3c6f870eb
+tags:
+  3.0.0--hdfd78af_1: sha256:6616ead9b44097a9424845eaa95a037e84eae00f3258900df4bc82e3c6f870eb
+docker: quay.io/biocontainers/cvbio
+aliases:
+  cvbio: /usr/local/bin/cvbio

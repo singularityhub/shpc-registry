@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pbgzip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbgzip
+latest:
+  2016.08.04--h67092d7_3: sha256:a3259f6de5fb63cf9e07e546aec7c9086a6a04f88ab736ff84608a5b9385706f
+tags:
+  2016.08.04--h67092d7_3: sha256:a3259f6de5fb63cf9e07e546aec7c9086a6a04f88ab736ff84608a5b9385706f
+docker: quay.io/biocontainers/pbgzip
+aliases:
+  pbgzip: /usr/local/bin/pbgzip

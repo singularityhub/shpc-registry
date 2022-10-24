@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/jcvi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jcvi
+latest:
+  1.1.5--py36h29c9776_0: sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db
+tags:
+  1.1.5--py36h29c9776_0: sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db
+docker: quay.io/biocontainers/jcvi
+aliases:
+  coveralls: /usr/local/bin/coveralls
+  cpuinfo: /usr/local/bin/cpuinfo
+  py.test-benchmark: /usr/local/bin/py.test-benchmark
+  pytest-benchmark: /usr/local/bin/pytest-benchmark

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/proot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proot
+latest:
+  5.1.0--0: sha256:a8f0c7c6857fef7f54dc1abdc5558230f99ddbb008464b26c018ef2d6ae8c497
+tags:
+  5.1.0--0: sha256:a8f0c7c6857fef7f54dc1abdc5558230f99ddbb008464b26c018ef2d6ae8c497
+docker: quay.io/biocontainers/proot
+aliases:
+  proot: /usr/local/bin/proot

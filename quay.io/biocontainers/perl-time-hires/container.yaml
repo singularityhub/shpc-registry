@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-time-hires
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-time-hires
+latest:
+  1.9764--pl5321hec16e2b_2: sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40
+tags:
+  1.9764--pl5321hec16e2b_2: sha256:058b7110f15320ecbfd6c52bf18536c4f034eace8ec8740a8043b4091142fb40
+docker: quay.io/biocontainers/perl-time-hires

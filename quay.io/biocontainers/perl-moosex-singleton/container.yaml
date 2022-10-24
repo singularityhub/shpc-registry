@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-singleton
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-singleton
+latest:
+  0.30--pl5321hdfd78af_1: sha256:da7c8141a89047fec875cc6a347491edddee84bc8bae939f588b660245c84d7e
+tags:
+  0.30--pl5321hdfd78af_1: sha256:da7c8141a89047fec875cc6a347491edddee84bc8bae939f588b660245c84d7e
+docker: quay.io/biocontainers/perl-moosex-singleton

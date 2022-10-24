@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rbiopaxparser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rbiopaxparser
+latest:
+  2.34.0--r41hdfd78af_0: sha256:26d4caad7dad9b5cf8686b7e425ac58b8591f64a4d860b17bf4acf22aea137cf
+tags:
+  2.34.0--r41hdfd78af_0: sha256:26d4caad7dad9b5cf8686b7e425ac58b8591f64a4d860b17bf4acf22aea137cf
+docker: quay.io/biocontainers/bioconductor-rbiopaxparser

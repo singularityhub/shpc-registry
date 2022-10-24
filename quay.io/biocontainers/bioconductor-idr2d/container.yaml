@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-idr2d
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-idr2d
+latest:
+  1.8.0--r41hdfd78af_0: sha256:0e5f9b289390e18e5276394d84bf30343e8ca4eaa93bcb3882acd09a5605cc66
+tags:
+  1.8.0--r41hdfd78af_0: sha256:0e5f9b289390e18e5276394d84bf30343e8ca4eaa93bcb3882acd09a5605cc66
+docker: quay.io/biocontainers/bioconductor-idr2d

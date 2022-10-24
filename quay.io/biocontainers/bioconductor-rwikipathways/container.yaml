@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rwikipathways
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rwikipathways
+latest:
+  1.8.2--r40_0: sha256:3c4943d789edcfbcc28045a1df557c41c60ebe876fa02f32680ef0d5a256d8d2
+tags:
+  1.8.2--r40_0: sha256:3c4943d789edcfbcc28045a1df557c41c60ebe876fa02f32680ef0d5a256d8d2
+docker: quay.io/biocontainers/bioconductor-rwikipathways

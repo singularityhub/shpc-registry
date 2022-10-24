@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/randfold
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for randfold
+latest:
+  2.0.1--hec16e2b_4: sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316
+tags:
+  2.0.1--hec16e2b_4: sha256:c392a31446a0cc452d7f0b0b0c2d570e98d005b9c29aa3897c4302b2c9e26316
+docker: quay.io/biocontainers/randfold
+aliases:
+  afetch: /usr/local/bin/afetch
+  alistat: /usr/local/bin/alistat
+  compalign: /usr/local/bin/compalign
+  compstruct: /usr/local/bin/compstruct
+  randfold: /usr/local/bin/randfold
+  revcomp: /usr/local/bin/revcomp
+  seqsplit: /usr/local/bin/seqsplit
+  seqstat: /usr/local/bin/seqstat
+  sfetch: /usr/local/bin/sfetch
+  shuffle: /usr/local/bin/shuffle
+  sindex: /usr/local/bin/sindex
+  sreformat: /usr/local/bin/sreformat
+  weight: /usr/local/bin/weight

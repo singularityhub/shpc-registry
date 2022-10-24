@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/bioconductor-appreci8r
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-appreci8r
+latest:
+  1.6.0--r40_0: sha256:2115800a57f475258f8284e278574eb3c785336d3329155fdc15aecc341f0268
+tags:
+  1.6.0--r40_0: sha256:2115800a57f475258f8284e278574eb3c785336d3329155fdc15aecc341f0268
+docker: quay.io/biocontainers/bioconductor-appreci8r
+aliases:
+  .bioconductor-cosmic.67-post-link.sh: /usr/local/bin/.bioconductor-cosmic.67-post-link.sh
+  .bioconductor-cosmic.67-pre-unlink.sh: /usr/local/bin/.bioconductor-cosmic.67-pre-unlink.sh
+  .bioconductor-mafdb.1kgenomes.phase3.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.hs37d5-post-link.sh
+  .bioconductor-mafdb.1kgenomes.phase3.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.hs37d5-pre-unlink.sh
+  .bioconductor-mafdb.exac.r1.0.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.hs37d5-post-link.sh
+  .bioconductor-mafdb.exac.r1.0.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.hs37d5-pre-unlink.sh
+  .bioconductor-mafdb.gnomadex.r2.1.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.gnomadex.r2.1.hs37d5-post-link.sh
+  .bioconductor-mafdb.gnomadex.r2.1.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.gnomadex.r2.1.hs37d5-pre-unlink.sh
+  .bioconductor-polyphen.hsapiens.dbsnp131-post-link.sh: /usr/local/bin/.bioconductor-polyphen.hsapiens.dbsnp131-post-link.sh
+  .bioconductor-polyphen.hsapiens.dbsnp131-pre-unlink.sh: /usr/local/bin/.bioconductor-polyphen.hsapiens.dbsnp131-pre-unlink.sh
+  .bioconductor-sift.hsapiens.dbsnp137-post-link.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp137-post-link.sh
+  .bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh
+  .bioconductor-snplocs.hsapiens.dbsnp144.grch37-post-link.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch37-post-link.sh
+  .bioconductor-snplocs.hsapiens.dbsnp144.grch37-pre-unlink.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch37-pre-unlink.sh
+  .bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37-post-link.sh: /usr/local/bin/.bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37-post-link.sh
+  .bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37-pre-unlink.sh: /usr/local/bin/.bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37-pre-unlink.sh

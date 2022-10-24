@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-flexmix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-flexmix
+latest:
+  2.3_14--r3.3.2_0: sha256:d1966702a708ec37eb664f48b07f0710270cb4711e694a8ca039f740c925530f
+tags:
+  2.3_14--r3.3.2_0: sha256:d1966702a708ec37eb664f48b07f0710270cb4711e694a8ca039f740c925530f
+docker: quay.io/biocontainers/r-flexmix

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rdgidb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rdgidb
+latest:
+  1.8.0--r351_0: sha256:03d4a258693bb5a22c87be151e96c7f872e168f5f1bec93f29bc80ab439ea056
+tags:
+  1.8.0--r351_0: sha256:03d4a258693bb5a22c87be151e96c7f872e168f5f1bec93f29bc80ab439ea056
+docker: quay.io/biocontainers/bioconductor-rdgidb

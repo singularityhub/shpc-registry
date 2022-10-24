@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/erds
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for erds
+latest:
+  1.1--pl5.22.0_1: sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef
+tags:
+  1.1--pl5.22.0_1: sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef
+docker: quay.io/biocontainers/erds
+aliases:
+  erds_pipeline: /usr/local/bin/erds_pipeline

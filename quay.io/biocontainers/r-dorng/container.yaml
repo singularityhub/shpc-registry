@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-dorng
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dorng
+latest:
+  1.6--r3.3.2_0: sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe
+tags:
+  1.6--r3.3.2_0: sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe
+docker: quay.io/biocontainers/r-dorng

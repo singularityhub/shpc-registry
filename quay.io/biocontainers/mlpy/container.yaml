@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mlpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mlpy
+latest:
+  3.5.0--py27hc30c61c_3: sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6
+tags:
+  3.5.0--py27hc30c61c_3: sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6
+docker: quay.io/biocontainers/mlpy

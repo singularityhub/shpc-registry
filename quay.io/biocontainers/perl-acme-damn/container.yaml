@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-acme-damn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-acme-damn
+latest:
+  0.08--pl5321h9f5acd7_5: sha256:47c914004c81de0dd568063ece1a0599a34ebdfbdfce546776c54e44506e15ba
+tags:
+  0.08--pl5321h9f5acd7_5: sha256:47c914004c81de0dd568063ece1a0599a34ebdfbdfce546776c54e44506e15ba
+docker: quay.io/biocontainers/perl-acme-damn

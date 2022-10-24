@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oppti
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oppti
+latest:
+  1.8.0--r41hdfd78af_0: sha256:4c8278e874943a15548ce7844730a5776fd837703900a0c4d8f6b83e85503327
+tags:
+  1.8.0--r41hdfd78af_0: sha256:4c8278e874943a15548ce7844730a5776fd837703900a0c4d8f6b83e85503327
+docker: quay.io/biocontainers/bioconductor-oppti

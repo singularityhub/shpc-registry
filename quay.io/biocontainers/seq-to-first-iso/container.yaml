@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seq-to-first-iso
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seq-to-first-iso
+latest:
+  1.1.0--py_0: sha256:de73757335e1e42d6408eea65c52e5f8347f0412239260552dac3337b5e13950
+tags:
+  1.1.0--py_0: sha256:de73757335e1e42d6408eea65c52e5f8347f0412239260552dac3337b5e13950
+docker: quay.io/biocontainers/seq-to-first-iso
+aliases:
+  seq-to-first-iso: /usr/local/bin/seq-to-first-iso

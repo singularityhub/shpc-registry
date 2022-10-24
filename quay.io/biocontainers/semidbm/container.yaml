@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/semidbm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for semidbm
+latest:
+  0.5.1--pyh864c0ab_3: sha256:881f21c29d58c96c310f87084016094cecef5ca6c6e6d9c3a4043592f6942430
+tags:
+  0.5.1--pyh864c0ab_3: sha256:881f21c29d58c96c310f87084016094cecef5ca6c6e6d9c3a4043592f6942430
+docker: quay.io/biocontainers/semidbm

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/nim-falcon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nim-falcon
+latest:
+  3.0.2--h18d090a_1: sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348
+tags:
+  3.0.2--h18d090a_1: sha256:c31482c31b6c24d54e67875be8da35f328897ccea22542cc5335ed4376cfe348
+docker: quay.io/biocontainers/nim-falcon
+aliases:
+  falconc: /usr/local/bin/falconc
+  fc_consensus.exe: /usr/local/bin/fc_consensus.exe
+  fc_rr_hctg_track.exe: /usr/local/bin/fc_rr_hctg_track.exe
+  fc_rr_hctg_track2.exe: /usr/local/bin/fc_rr_hctg_track2.exe

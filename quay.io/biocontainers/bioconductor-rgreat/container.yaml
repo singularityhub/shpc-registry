@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgreat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgreat
+latest:
+  1.8.0--r3.4.1_0: sha256:307a11a4ff4a03b5aeb83e06ad202340ae56372277729b4e1ba6d48ff9256dbe
+tags:
+  1.8.0--r3.4.1_0: sha256:307a11a4ff4a03b5aeb83e06ad202340ae56372277729b4e1ba6d48ff9256dbe
+docker: quay.io/biocontainers/bioconductor-rgreat

@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/aquamis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aquamis
+latest:
+  1.3.7--hdfd78af_0: sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e
+tags:
+  1.3.7--hdfd78af_0: sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e
+docker: quay.io/biocontainers/aquamis
+aliases:
+  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
+  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
+  aquamis: /usr/local/bin/aquamis
+  aquamis_setup.sh: /usr/local/bin/aquamis_setup.sh
+  bracken: /usr/local/bin/bracken
+  bracken-build: /usr/local/bin/bracken-build
+  combine_bracken_outputs.py: /usr/local/bin/combine_bracken_outputs.py
+  confindr: /usr/local/bin/confindr
+  confindr.py: /usr/local/bin/confindr.py
+  confindr_create_db: /usr/local/bin/confindr_create_db
+  confindr_database_setup: /usr/local/bin/confindr_database_setup
+  create_sampleSheet.sh: /usr/local/bin/create_sampleSheet.sh
+  est_abundance.py: /usr/local/bin/est_abundance.py
+  filter_json.py: /usr/local/bin/filter_json.py
+  generate_kmer_distribution.py: /usr/local/bin/generate_kmer_distribution.py
+  genson: /usr/local/bin/genson
+  helper_functions.py: /usr/local/bin/helper_functions.py
+  icarus.py: /usr/local/bin/icarus.py
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  kmer2read_distr: /usr/local/bin/kmer2read_distr
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  lighter: /usr/local/bin/lighter
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  mlst: /usr/local/bin/mlst
+  parse_json.py: /usr/local/bin/parse_json.py
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
+  shovill: /usr/local/bin/shovill
+  skesa: /usr/local/bin/skesa
+  taxonkit: /usr/local/bin/taxonkit
+  write_QC_report.Rmd: /usr/local/bin/write_QC_report.Rmd
+  write_report.Rmd: /usr/local/bin/write_report.Rmd

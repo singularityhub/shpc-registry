@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/multigps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multigps
+latest:
+  0.74--h9ee0642_3: sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0
+tags:
+  0.74--h9ee0642_3: sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0
+docker: quay.io/biocontainers/multigps
+aliases:
+  multigps: /usr/local/bin/multigps
+  xsltproc_lite: /usr/local/bin/xsltproc_lite

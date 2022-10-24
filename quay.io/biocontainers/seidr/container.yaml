@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/seidr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seidr
+latest:
+  0.14.2--mpi_openmpi_h430a956: sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc
+tags:
+  0.14.2--mpi_openmpi_h430a956: sha256:fad286334f630046f070f4c1fc050289723a1fb140a4161873c8105e4efbdefc
+docker: quay.io/biocontainers/seidr
+aliases:
+  anoverence: /usr/local/bin/anoverence
+  correlation: /usr/local/bin/correlation
+  el-ensemble: /usr/local/bin/el-ensemble
+  genie3: /usr/local/bin/genie3
+  llr-ensemble: /usr/local/bin/llr-ensemble
+  mi: /usr/local/bin/mi
+  narromi: /usr/local/bin/narromi
+  pcor: /usr/local/bin/pcor
+  plsnet: /usr/local/bin/plsnet
+  seidr: /usr/local/bin/seidr
+  svm-ensemble: /usr/local/bin/svm-ensemble
+  tigress: /usr/local/bin/tigress
+  tomsimilarity: /usr/local/bin/tomsimilarity

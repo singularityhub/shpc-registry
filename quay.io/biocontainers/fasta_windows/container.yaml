@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fasta_windows
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fasta_windows
+latest:
+  0.2.4--hec16e2b_1: sha256:cdcbceb94d381b3a24fcdd25694d1cbb2a86f00bc2f5d81da0b23d58340e0445
+tags:
+  0.2.4--hec16e2b_1: sha256:cdcbceb94d381b3a24fcdd25694d1cbb2a86f00bc2f5d81da0b23d58340e0445
+docker: quay.io/biocontainers/fasta_windows
+aliases:
+  fasta_windows: /usr/local/bin/fasta_windows

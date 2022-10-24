@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cgmlst-dists
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgmlst-dists
+latest:
+  0.4.0--hec16e2b_2: sha256:b573ee0d0edf1afc64fd3815dfe79b842c05ca9930c73a36bd58f1ec3917c705
+tags:
+  0.4.0--hec16e2b_2: sha256:b573ee0d0edf1afc64fd3815dfe79b842c05ca9930c73a36bd58f1ec3917c705
+docker: quay.io/biocontainers/cgmlst-dists
+aliases:
+  cgmlst-dists: /usr/local/bin/cgmlst-dists

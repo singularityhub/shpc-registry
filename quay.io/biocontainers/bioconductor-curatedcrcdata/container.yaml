@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-curatedcrcdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-curatedcrcdata
+latest:
+  2.26.0--r41hdfd78af_1: sha256:3f1aa4727610edcd00974677ff6724dcc8fd2d5641e20df011b112a87246e0ab
+tags:
+  2.26.0--r41hdfd78af_1: sha256:3f1aa4727610edcd00974677ff6724dcc8fd2d5641e20df011b112a87246e0ab
+docker: quay.io/biocontainers/bioconductor-curatedcrcdata
+aliases:
+  .bioconductor-curatedcrcdata-post-link.sh: /usr/local/bin/.bioconductor-curatedcrcdata-post-link.sh
+  .bioconductor-curatedcrcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedcrcdata-pre-unlink.sh

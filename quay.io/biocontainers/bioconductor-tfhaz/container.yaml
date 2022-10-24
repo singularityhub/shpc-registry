@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tfhaz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tfhaz
+latest:
+  1.8.0--r36_0: sha256:a22c792efcbe59aadd21eb5652dfc541029f9ccaeef57b234e2052b9e26c1f9c
+tags:
+  1.8.0--r36_0: sha256:a22c792efcbe59aadd21eb5652dfc541029f9ccaeef57b234e2052b9e26c1f9c
+docker: quay.io/biocontainers/bioconductor-tfhaz

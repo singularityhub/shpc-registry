@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-exporter-progressive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-exporter-progressive
+latest:
+  0.001013--pl5321hdfd78af_1: sha256:96904b505f75355070c005cee752e450dea4e07533f51a3ded845eb8f0058220
+tags:
+  0.001013--pl5321hdfd78af_1: sha256:96904b505f75355070c005cee752e450dea4e07533f51a3ded845eb8f0058220
+docker: quay.io/biocontainers/perl-sub-exporter-progressive

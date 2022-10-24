@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/theta2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for theta2
+latest:
+  0.7--hdfd78af_3: sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9
+tags:
+  0.7--hdfd78af_3: sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9
+docker: quay.io/biocontainers/theta2
+aliases:
+  RunTHetA.py: /usr/local/bin/RunTHetA.py

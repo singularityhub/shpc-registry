@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gsealm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gsealm
+latest:
+  1.54.0--r41hdfd78af_0: sha256:3ca0af58143953b265751753c97d585ba8f3b7969678647996eb48a7486e735f
+tags:
+  1.54.0--r41hdfd78af_0: sha256:3ca0af58143953b265751753c97d585ba8f3b7969678647996eb48a7486e735f
+docker: quay.io/biocontainers/bioconductor-gsealm

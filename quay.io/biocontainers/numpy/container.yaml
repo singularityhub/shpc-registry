@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/numpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for numpy
+latest:
+  1.15.4: sha256:9e3ba67f41f34154b794231a73a5ba98cbf06c192e73315e672cb37cd8907af4
+tags:
+  1.15.4: sha256:9e3ba67f41f34154b794231a73a5ba98cbf06c192e73315e672cb37cd8907af4
+docker: quay.io/biocontainers/numpy

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-agricolae
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-agricolae
+latest:
+  1.2_4--r3.3.2_0: sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35
+tags:
+  1.2_4--r3.3.2_0: sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35
+docker: quay.io/biocontainers/r-agricolae

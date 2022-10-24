@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tap-harness-env
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tap-harness-env
+latest:
+  3.30--pl5321hdfd78af_2: sha256:e42b033760b5538cf5bf5e4c3ca16b5675b896a9e44db861000a00e4e24e958c
+tags:
+  3.30--pl5321hdfd78af_2: sha256:e42b033760b5538cf5bf5e4c3ca16b5675b896a9e44db861000a00e4e24e958c
+docker: quay.io/biocontainers/perl-tap-harness-env

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/artic-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for artic-tools
+latest:
+  0.3.1--hb777114_3: sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa
+tags:
+  0.3.1--hb777114_3: sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa
+docker: quay.io/biocontainers/artic-tools
+aliases:
+  artic-tools: /usr/local/bin/artic-tools

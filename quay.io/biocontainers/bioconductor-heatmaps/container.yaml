@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-heatmaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-heatmaps
+latest:
+  1.8.0--r36_1: sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430
+tags:
+  1.8.0--r36_1: sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430
+docker: quay.io/biocontainers/bioconductor-heatmaps

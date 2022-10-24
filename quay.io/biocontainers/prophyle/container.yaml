@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/prophyle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prophyle
+latest:
+  0.3.1.0--py36h8b12597_5: sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83
+tags:
+  0.3.1.0--py36h8b12597_5: sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83
+docker: quay.io/biocontainers/prophyle
+aliases:
+  prophyle: /usr/local/bin/prophyle
+  prophyle_analyze.py: /usr/local/bin/prophyle_analyze.py
+  prophyle_assignment.py: /usr/local/bin/prophyle_assignment.py
+  prophyle_ncbi_tree.py: /usr/local/bin/prophyle_ncbi_tree.py
+  prophyle_otu_table.py: /usr/local/bin/prophyle_otu_table.py
+  prophyle_paired_end.py: /usr/local/bin/prophyle_paired_end.py
+  prophyle_plot_tree.py: /usr/local/bin/prophyle_plot_tree.py
+  prophyle_propagation_makefile.py: /usr/local/bin/prophyle_propagation_makefile.py
+  prophyle_propagation_postprocessing.py: /usr/local/bin/prophyle_propagation_postprocessing.py
+  prophyle_propagation_preprocessing.py: /usr/local/bin/prophyle_propagation_preprocessing.py
+  prophyle_split_allseq.py: /usr/local/bin/prophyle_split_allseq.py

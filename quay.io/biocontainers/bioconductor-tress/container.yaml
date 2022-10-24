@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tress
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tress
+latest:
+  1.0.0--r41hdfd78af_0: sha256:b7ae25fa223fd8ff805c8939711cd7e680000d9dd77e21e7cbb135ec8377dbce
+tags:
+  1.0.0--r41hdfd78af_0: sha256:b7ae25fa223fd8ff805c8939711cd7e680000d9dd77e21e7cbb135ec8377dbce
+docker: quay.io/biocontainers/bioconductor-tress

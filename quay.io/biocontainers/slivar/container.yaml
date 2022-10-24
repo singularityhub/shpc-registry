@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/slivar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for slivar
+latest:
+  0.2.7--h2eeb373_0: sha256:2b821cf760c580d6a4da342129a0039706f1d6be335dcf3ef9f649fdc1232b10
+tags:
+  0.2.7--h2eeb373_0: sha256:2b821cf760c580d6a4da342129a0039706f1d6be335dcf3ef9f649fdc1232b10
+docker: quay.io/biocontainers/slivar
+aliases:
+  pslivar: /usr/local/bin/pslivar
+  slivar: /usr/local/bin/slivar

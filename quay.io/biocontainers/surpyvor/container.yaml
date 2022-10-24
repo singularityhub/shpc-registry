@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/surpyvor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for surpyvor
+latest:
+  0.8.1--py_1: sha256:fac270c3114ac8a77003046632ca27a2fbe0350830e8a1f229a7a639dce9154b
+tags:
+  0.8.1--py_1: sha256:fac270c3114ac8a77003046632ca27a2fbe0350830e8a1f229a7a639dce9154b
+docker: quay.io/biocontainers/surpyvor
+aliases:
+  SURVIVOR: /usr/local/bin/SURVIVOR
+  surpyvor: /usr/local/bin/surpyvor

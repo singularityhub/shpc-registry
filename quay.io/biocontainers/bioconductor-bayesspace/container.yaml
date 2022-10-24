@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bayesspace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bayesspace
+latest:
+  1.4.1--r41hc247a5b_1: sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327
+tags:
+  1.4.1--r41hc247a5b_1: sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327
+docker: quay.io/biocontainers/bioconductor-bayesspace

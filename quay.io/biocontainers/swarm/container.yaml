@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/swarm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for swarm
+latest:
+  3.1.0--h9f5acd7_2: sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812
+tags:
+  3.1.0--h9f5acd7_2: sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812
+docker: quay.io/biocontainers/swarm
+aliases:
+  amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py
+  graph_plot.py: /usr/local/bin/graph_plot.py
+  swarm: /usr/local/bin/swarm

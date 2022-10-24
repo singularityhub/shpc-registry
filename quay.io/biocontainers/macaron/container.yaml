@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/macaron
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for macaron
+latest:
+  1.0--pyh864c0ab_1: sha256:a99862a78cb795988247ef4e2bdada2750d45294191f9277203c80b06d84bea6
+tags:
+  1.0--pyh864c0ab_1: sha256:a99862a78cb795988247ef4e2bdada2750d45294191f9277203c80b06d84bea6
+docker: quay.io/biocontainers/macaron
+aliases:
+  MACARON: /usr/local/bin/MACARON
+  MACARON_validate: /usr/local/bin/MACARON_validate

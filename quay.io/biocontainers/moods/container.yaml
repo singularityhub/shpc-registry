@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/moods
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for moods
+latest:
+  1.9.4.1--py36hf484d3e_0: sha256:4104151994349a4f85e4a6fc8d810b2a66aab7de54dbadd53200675977500126
+tags:
+  1.9.4.1--py36hf484d3e_0: sha256:4104151994349a4f85e4a6fc8d810b2a66aab7de54dbadd53200675977500126
+docker: quay.io/biocontainers/moods
+aliases:
+  moods-dna.py: /usr/local/bin/moods-dna.py

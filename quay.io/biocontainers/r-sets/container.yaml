@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sets
+latest:
+  1.0_16--r3.3.2_0: sha256:c027b635d88df8660dbd8efe5b76a61c06c17920d3d1c456eb25365ce88a2a63
+tags:
+  1.0_16--r3.3.2_0: sha256:c027b635d88df8660dbd8efe5b76a61c06c17920d3d1c456eb25365ce88a2a63
+docker: quay.io/biocontainers/r-sets

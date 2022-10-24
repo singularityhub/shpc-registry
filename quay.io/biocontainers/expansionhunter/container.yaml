@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/expansionhunter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for expansionhunter
+latest:
+  4.0.2--he785bd8_0: sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271
+tags:
+  4.0.2--he785bd8_0: sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271
+docker: quay.io/biocontainers/expansionhunter
+aliases:
+  ExpansionHunter: /usr/local/bin/ExpansionHunter

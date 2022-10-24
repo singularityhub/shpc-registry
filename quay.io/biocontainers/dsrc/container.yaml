@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dsrc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dsrc
+latest:
+  2015.06.04--h7ff8a90_4: sha256:c09ee47a183d8abed7ca2de63e23f2e1e02e185328a5096e786ddd75109964ef
+tags:
+  2015.06.04--h7ff8a90_4: sha256:c09ee47a183d8abed7ca2de63e23f2e1e02e185328a5096e786ddd75109964ef
+docker: quay.io/biocontainers/dsrc
+aliases:
+  dsrc: /usr/local/bin/dsrc

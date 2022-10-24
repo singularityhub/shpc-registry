@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-deoptimr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-deoptimr
+latest:
+  1.0_8--r3.4.1_0: sha256:cccc5365be0785692aec59298964b9ff585e33127447363c1c0b70b61366788e
+tags:
+  1.0_8--r3.4.1_0: sha256:cccc5365be0785692aec59298964b9ff585e33127447363c1c0b70b61366788e
+docker: quay.io/biocontainers/r-deoptimr

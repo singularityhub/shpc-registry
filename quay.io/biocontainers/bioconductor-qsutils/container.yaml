@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qsutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qsutils
+latest:
+  1.8.0--r40hdfd78af_1: sha256:705107d4b54981cf41960931840219d039a19be56572935be39a37b4740a8971
+tags:
+  1.8.0--r40hdfd78af_1: sha256:705107d4b54981cf41960931840219d039a19be56572935be39a37b4740a8971
+docker: quay.io/biocontainers/bioconductor-qsutils

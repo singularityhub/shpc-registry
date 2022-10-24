@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clipcontext
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clipcontext
+latest:
+  0.7--py_0: sha256:bf42c6fceededd595a0678670c7cd61032f6af9e7bc594ab2bf2f0fe7f70648f
+tags:
+  0.7--py_0: sha256:bf42c6fceededd595a0678670c7cd61032f6af9e7bc594ab2bf2f0fe7f70648f
+docker: quay.io/biocontainers/clipcontext
+aliases:
+  clipcontext: /usr/local/bin/clipcontext

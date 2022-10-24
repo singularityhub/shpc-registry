@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-wrassp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-wrassp
+latest:
+  0.1.4--r3.3.2_0: sha256:5ad0ff8fadb46cc6f25f1d90b3cad3d2cd20ed291b13e3d713d0e79a4802df8f
+tags:
+  0.1.4--r3.3.2_0: sha256:5ad0ff8fadb46cc6f25f1d90b3cad3d2cd20ed291b13e3d713d0e79a4802df8f
+docker: quay.io/biocontainers/r-wrassp

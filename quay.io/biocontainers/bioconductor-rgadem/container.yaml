@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgadem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgadem
+latest:
+  2.42.0--r41hc0cfd56_2: sha256:46ed0f62604fc8ec7ab7a01bd5d7bde2c99904d12e6de58d1995ea9f66a11dae
+tags:
+  2.42.0--r41hc0cfd56_2: sha256:46ed0f62604fc8ec7ab7a01bd5d7bde2c99904d12e6de58d1995ea9f66a11dae
+docker: quay.io/biocontainers/bioconductor-rgadem

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cexor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cexor
+latest:
+  1.8.0--0: sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6
+tags:
+  1.8.0--0: sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6
+docker: quay.io/biocontainers/bioconductor-cexor

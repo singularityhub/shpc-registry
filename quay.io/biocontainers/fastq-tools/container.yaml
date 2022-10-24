@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/fastq-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastq-tools
+latest:
+  0.8.3--hbd632db_2: sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59
+tags:
+  0.8.3--hbd632db_2: sha256:00762c30c401e8ed388a09f4b557f8d035f6d138ce0524e3beaa9513d14bcb59
+docker: quay.io/biocontainers/fastq-tools
+aliases:
+  fastq-grep: /usr/local/bin/fastq-grep
+  fastq-kmers: /usr/local/bin/fastq-kmers
+  fastq-match: /usr/local/bin/fastq-match
+  fastq-qscale: /usr/local/bin/fastq-qscale
+  fastq-qual: /usr/local/bin/fastq-qual
+  fastq-qualadj: /usr/local/bin/fastq-qualadj
+  fastq-sample: /usr/local/bin/fastq-sample
+  fastq-sort: /usr/local/bin/fastq-sort
+  fastq-uniq: /usr/local/bin/fastq-uniq

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/solvebio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for solvebio
+latest:
+  2.9.0--py_0: sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4
+tags:
+  2.9.0--py_0: sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4
+docker: quay.io/biocontainers/solvebio
+aliases:
+  solvebio: /usr/local/bin/solvebio

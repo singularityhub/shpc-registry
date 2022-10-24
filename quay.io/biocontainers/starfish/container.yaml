@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/starfish
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for starfish
+latest:
+  0.2.2--pyhdfd78af_0: sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3
+tags:
+  0.2.2--pyhdfd78af_0: sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3
+docker: quay.io/biocontainers/starfish
+aliases:
+  slicedimage: /usr/local/bin/slicedimage
+  starfish: /usr/local/bin/starfish
+  tiff2fsspec: /usr/local/bin/tiff2fsspec

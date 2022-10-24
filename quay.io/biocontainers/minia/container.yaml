@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/minia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minia
+latest:
+  3.2.6--hd03093a_1: sha256:3378184951a6e726e80b9ccacaebbca1218530c46703b860f3c15ae8b1c1ab4b
+tags:
+  3.2.6--hd03093a_1: sha256:3378184951a6e726e80b9ccacaebbca1218530c46703b860f3c15ae8b1c1ab4b
+docker: quay.io/biocontainers/minia
+aliases:
+  gatb-h5dump: /usr/local/bin/gatb-h5dump
+  merci: /usr/local/bin/merci
+  minia: /usr/local/bin/minia

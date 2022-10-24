@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biomformat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biomformat
+latest:
+  1.8.0--r351_0: sha256:53ea0ba24cf1b038ef84ef86b7dfcac96582675caf374b45de206dacac7dabf9
+tags:
+  1.8.0--r351_0: sha256:53ea0ba24cf1b038ef84ef86b7dfcac96582675caf374b45de206dacac7dabf9
+docker: quay.io/biocontainers/bioconductor-biomformat

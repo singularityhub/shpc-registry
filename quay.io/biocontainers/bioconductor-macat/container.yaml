@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-macat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-macat
+latest:
+  1.68.0--r41hdfd78af_0: sha256:9511b121b0643f5c36b44d576c82e1f884d1fcd6ef7073637bbc93c791343726
+tags:
+  1.68.0--r41hdfd78af_0: sha256:9511b121b0643f5c36b44d576c82e1f884d1fcd6ef7073637bbc93c791343726
+docker: quay.io/biocontainers/bioconductor-macat

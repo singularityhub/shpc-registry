@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.hs37d5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.hs37d5
+latest:
+  3.8.0--r36_2: sha256:afdba81fd995a12dfad615db9378324011981b1adc459155e9db1187764a626b
+tags:
+  3.8.0--r36_2: sha256:afdba81fd995a12dfad615db9378324011981b1adc459155e9db1187764a626b
+docker: quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5
+aliases:
+  .bioconductor-mafdb.gnomadex.r2.1.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.gnomadex.r2.1.hs37d5-post-link.sh
+  .bioconductor-mafdb.gnomadex.r2.1.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.gnomadex.r2.1.hs37d5-pre-unlink.sh

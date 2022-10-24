@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ncgtw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ncgtw
+latest:
+  1.8.0--r41hc247a5b_2: sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3
+tags:
+  1.8.0--r41hc247a5b_2: sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3
+docker: quay.io/biocontainers/bioconductor-ncgtw

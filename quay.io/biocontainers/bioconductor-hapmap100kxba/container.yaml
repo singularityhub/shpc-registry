@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hapmap100kxba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba
+latest:
+  1.36.0--r41hdfd78af_1: sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a
+tags:
+  1.36.0--r41hdfd78af_1: sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a
+docker: quay.io/biocontainers/bioconductor-hapmap100kxba
+aliases:
+  .bioconductor-hapmap100kxba-post-link.sh: /usr/local/bin/.bioconductor-hapmap100kxba-post-link.sh
+  .bioconductor-hapmap100kxba-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmap100kxba-pre-unlink.sh

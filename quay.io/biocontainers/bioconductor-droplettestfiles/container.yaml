@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-droplettestfiles
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-droplettestfiles
+latest:
+  1.4.0--r41hdfd78af_1: sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd
+tags:
+  1.4.0--r41hdfd78af_1: sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd
+docker: quay.io/biocontainers/bioconductor-droplettestfiles
+aliases:
+  .bioconductor-droplettestfiles-post-link.sh: /usr/local/bin/.bioconductor-droplettestfiles-post-link.sh
+  .bioconductor-droplettestfiles-pre-unlink.sh: /usr/local/bin/.bioconductor-droplettestfiles-pre-unlink.sh

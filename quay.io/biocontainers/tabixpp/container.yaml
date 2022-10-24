@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tabixpp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tabixpp
+latest:
+  1.1.0--h470d46e_9: sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a
+tags:
+  1.1.0--h470d46e_9: sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a
+docker: quay.io/biocontainers/tabixpp

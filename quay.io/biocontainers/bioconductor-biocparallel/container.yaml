@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocparallel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocparallel
+latest:
+  1.6.6--r3.3.2_1: sha256:364c3578ee80bc268c22a276ab3e0144c18148dd8caad3aa07fab9baa098fa5d
+tags:
+  1.6.6--r3.3.2_1: sha256:364c3578ee80bc268c22a276ab3e0144c18148dd8caad3aa07fab9baa098fa5d
+docker: quay.io/biocontainers/bioconductor-biocparallel

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-compepitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-compepitools
+latest:
+  1.27.0--r41hdfd78af_0: sha256:041c0c2d3d617c665ef4c966f8b9b9bce12de7262dddc32be531771e45dd064b
+tags:
+  1.27.0--r41hdfd78af_0: sha256:041c0c2d3d617c665ef4c966f8b9b9bce12de7262dddc32be531771e45dd064b
+docker: quay.io/biocontainers/bioconductor-compepitools

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/modlamp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for modlamp
+latest:
+  4.2.1--pyh9f0ad1d_0: sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113
+tags:
+  4.2.1--pyh9f0ad1d_0: sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113
+docker: quay.io/biocontainers/modlamp
+aliases:
+  example_descriptors.py: /usr/local/bin/example_descriptors.py
+  example_modlamp.py: /usr/local/bin/example_modlamp.py

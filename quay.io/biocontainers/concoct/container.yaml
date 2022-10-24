@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/concoct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for concoct
+latest:
+  1.1.0--py310h74abf4b_3: sha256:109756b95a510daac9a52b9bb54520c065694eccbaff5a1ff8a502747ec297f5
+tags:
+  1.1.0--py310h74abf4b_3: sha256:109756b95a510daac9a52b9bb54520c065694eccbaff5a1ff8a502747ec297f5
+docker: quay.io/biocontainers/concoct
+aliases:
+  concoct: /usr/local/bin/concoct
+  concoct_coverage_table.py: /usr/local/bin/concoct_coverage_table.py
+  concoct_refine: /usr/local/bin/concoct_refine
+  cut_up_fasta.py: /usr/local/bin/cut_up_fasta.py
+  extract_fasta_bins.py: /usr/local/bin/extract_fasta_bins.py
+  merge_cutup_clustering.py: /usr/local/bin/merge_cutup_clustering.py

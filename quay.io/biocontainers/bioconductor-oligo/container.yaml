@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oligo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oligo
+latest:
+  1.58.0--r41hc0cfd56_2: sha256:16cbc6cd7914d0b9e33c3de46e849cd37a6d1fe28f7f563d87ea7e211170be40
+tags:
+  1.58.0--r41hc0cfd56_2: sha256:16cbc6cd7914d0b9e33c3de46e849cd37a6d1fe28f7f563d87ea7e211170be40
+docker: quay.io/biocontainers/bioconductor-oligo

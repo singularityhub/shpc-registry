@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gprege
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gprege
+latest:
+  1.38.0--r41hdfd78af_0: sha256:89aad9ec6c1b7613744809eff9b38e7ee5dc86fa5d65eeb2c4f9ff9285922a5c
+tags:
+  1.38.0--r41hdfd78af_0: sha256:89aad9ec6c1b7613744809eff9b38e7ee5dc86fa5d65eeb2c4f9ff9285922a5c
+docker: quay.io/biocontainers/bioconductor-gprege

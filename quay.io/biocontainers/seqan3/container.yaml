@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/seqan3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqan3
+latest:
+  3.2.0--hdfd78af_0: sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483
+tags:
+  3.2.0--hdfd78af_0: sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483
+docker: quay.io/biocontainers/seqan3

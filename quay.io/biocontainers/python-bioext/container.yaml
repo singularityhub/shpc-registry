@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/python-bioext
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-bioext
+latest:
+  0.20.4--py39h7f6d023_2: sha256:da83fe6d4b44b625e96632c11892d4a7d3786c6cd6bc3cce7537811b927e8545
+tags:
+  0.20.4--py39h7f6d023_2: sha256:da83fe6d4b44b625e96632c11892d4a7d3786c6cd6bc3cce7537811b927e8545
+docker: quay.io/biocontainers/python-bioext
+aliases:
+  bam2fna: /usr/local/bin/bam2fna
+  bam2msa: /usr/local/bin/bam2msa
+  bamclip: /usr/local/bin/bamclip
+  bealign: /usr/local/bin/bealign
+  clipedge: /usr/local/bin/clipedge
+  consensus: /usr/local/bin/consensus
+  msa2bam: /usr/local/bin/msa2bam
+  seqmerge: /usr/local/bin/seqmerge
+  translate: /usr/local/bin/translate

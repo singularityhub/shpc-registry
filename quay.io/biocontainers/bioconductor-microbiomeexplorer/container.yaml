@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-microbiomeexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-microbiomeexplorer
+latest:
+  1.4.0--r41hdfd78af_0: sha256:5363ab9da69d8734647a0010ddb325d19a2265482eceda0e364c94ba01909701
+tags:
+  1.4.0--r41hdfd78af_0: sha256:5363ab9da69d8734647a0010ddb325d19a2265482eceda0e364c94ba01909701
+docker: quay.io/biocontainers/bioconductor-microbiomeexplorer
