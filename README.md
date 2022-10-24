@@ -28,6 +28,7 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 ### BioContainers
 
 We have a [script](.github/scripts/update_biocontainers.py) that will generate (non existing) modules for BioContainers,
+
 and it is run once a week! It works by way of using an updated cache at [https://github.com/singularityhub/shpc-registry-cache]
 generated directly from Biocontainers, which not only captures aliases for a latest tag, but also derives the accumulated
 counts across all 8K+ containers. With these counts we can generate aliases as follows:
@@ -53,7 +54,6 @@ python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(p
 ```
 
 from the root. Since this added over 8K containers to the registry, we needed a new strategy for running the updater TBA!
-
 
 ### Expected content
 

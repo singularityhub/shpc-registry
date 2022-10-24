@@ -1,3 +1,4 @@
+docker: quay.io/biocontainers/vawk
 url: https://biocontainers.pro/tools/vawk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vawk
@@ -5,7 +6,6 @@ latest:
   0.0.2--py_4: sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2
 tags:
   0.0.2--py_4: sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2
-docker: quay.io/biocontainers/vawk
 aliases:
   gawk-4.2.1: /usr/local/bin/gawk-4.2.1
   vawk: /usr/local/bin/vawk
