@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/muspinsim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for muspinsim
+latest:
+  1.1.0: sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff
+tags:
+  1.1.0: sha256:a7dcb5d935ac087732b106ce210dc14a8eea5609a5288d497c2538c6643c4dff
+docker: quay.io/biocontainers/muspinsim
+aliases:
+  ase: /usr/local/bin/ase
+  ase-build: /usr/local/bin/ase-build
+  ase-db: /usr/local/bin/ase-db
+  ase-gui: /usr/local/bin/ase-gui
+  ase-info: /usr/local/bin/ase-info
+  ase-run: /usr/local/bin/ase-run
+  magresaverage: /usr/local/bin/magresaverage
+  muspinsim: /usr/local/bin/muspinsim
+  muspinsim.mpi: /usr/local/bin/muspinsim.mpi
+  phylogen: /usr/local/bin/phylogen
+  soprano_submitter: /usr/local/bin/soprano_submitter
+  vasp2cell: /usr/local/bin/vasp2cell

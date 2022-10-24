@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rtn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtn
+latest:
+  2.8.1--r36_0: sha256:35d61a9af6052720d1e7c56e62324da7c2ace255dc9520a55f511974783d04ce
+tags:
+  2.8.1--r36_0: sha256:35d61a9af6052720d1e7c56e62324da7c2ace255dc9520a55f511974783d04ce
+docker: quay.io/biocontainers/bioconductor-rtn

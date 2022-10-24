@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hmtnote
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hmtnote
+latest:
+  0.7.2--pyhdfd78af_0: sha256:330c0c5c07e1a4785aa99a6a7ba1f98095e70051367626892d80714b65a79f71
+tags:
+  0.7.2--pyhdfd78af_0: sha256:330c0c5c07e1a4785aa99a6a7ba1f98095e70051367626892d80714b65a79f71
+docker: quay.io/biocontainers/hmtnote
+aliases:
+  hmtnote: /usr/local/bin/hmtnote

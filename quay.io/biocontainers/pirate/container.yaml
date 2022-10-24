@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/pirate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pirate
+latest:
+  1.0.5--hdfd78af_0: sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0
+tags:
+  1.0.5--hdfd78af_0: sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0
+docker: quay.io/biocontainers/pirate
+aliases:
+  PIRATE: /usr/local/bin/PIRATE
+  PIRATE_to_Rtab.pl: /usr/local/bin/PIRATE_to_Rtab.pl
+  PIRATE_to_roary.pl: /usr/local/bin/PIRATE_to_roary.pl
+  analyse_blast_outputs.pl: /usr/local/bin/analyse_blast_outputs.pl
+  analyse_loci_list.pl: /usr/local/bin/analyse_loci_list.pl
+  annotate_treeWAS_output.pl: /usr/local/bin/annotate_treeWAS_output.pl
+  convert_to_distmat.pl: /usr/local/bin/convert_to_distmat.pl
+  convert_to_treeWAS.pl: /usr/local/bin/convert_to_treeWAS.pl
+  create_pangenome_alignment_aa.pl: /usr/local/bin/create_pangenome_alignment_aa.pl
+  pangenome_variants_to_treeWAS.pl: /usr/local/bin/pangenome_variants_to_treeWAS.pl
+  paralogs_to_Rtab.pl: /usr/local/bin/paralogs_to_Rtab.pl
+  select_representative: /usr/local/bin/select_representative
+  subsample_outputs.pl: /usr/local/bin/subsample_outputs.pl
+  subset_alignments.pl: /usr/local/bin/subset_alignments.pl
+  unique_sequences.pl: /usr/local/bin/unique_sequences.pl

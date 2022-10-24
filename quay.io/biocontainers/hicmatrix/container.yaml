@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/hicmatrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hicmatrix
+latest:
+  2.2--pyh24bf2e0_1: sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea
+tags:
+  2.2--pyh24bf2e0_1: sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea
+docker: quay.io/biocontainers/hicmatrix
+aliases:
+  dask-mpi: /usr/local/bin/dask-mpi
+  dask-remote: /usr/local/bin/dask-remote
+  dask-submit: /usr/local/bin/dask-submit

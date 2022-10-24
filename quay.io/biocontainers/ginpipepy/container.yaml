@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ginpipepy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ginpipepy
+latest:
+  1.0.0--pyhb7b1952_0: sha256:aa2a1e174daac286c4c7f9fb0a20de130353dea8194dd4fa97f0d4e29348f52d
+tags:
+  1.0.0--pyhb7b1952_0: sha256:aa2a1e174daac286c4c7f9fb0a20de130353dea8194dd4fa97f0d4e29348f52d
+docker: quay.io/biocontainers/ginpipepy

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scvelo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scvelo
+latest:
+  0.2.4--pyhdfd78af_0: sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665
+tags:
+  0.2.4--pyhdfd78af_0: sha256:3d4efa840d2b363f087a44a3f211084c21068fa6e0abf797e1a8325c289bb665
+docker: quay.io/biocontainers/scvelo
+aliases:
+  loompy: /usr/local/bin/loompy

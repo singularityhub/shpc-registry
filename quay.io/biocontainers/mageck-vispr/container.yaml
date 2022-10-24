@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mageck-vispr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mageck-vispr
+latest:
+  0.5.6--py_0: sha256:a934573b0aa1b48a5efaec6f764960a365443c614fa7f22cad94e0744b45a77b
+tags:
+  0.5.6--py_0: sha256:a934573b0aa1b48a5efaec6f764960a365443c614fa7f22cad94e0744b45a77b
+docker: quay.io/biocontainers/mageck-vispr
+aliases:
+  RRA: /usr/local/bin/RRA
+  mageck: /usr/local/bin/mageck
+  mageck-vispr: /usr/local/bin/mageck-vispr
+  mageckGSEA: /usr/local/bin/mageckGSEA
+  vispr: /usr/local/bin/vispr

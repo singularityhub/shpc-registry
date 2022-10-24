@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cummerbund
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cummerbund
+latest:
+  2.8.2--r351_1: sha256:781a7009f2aba73ebef94e74855f6b02cec59e263e26635bb2ffd7eb5d0dce77
+tags:
+  2.8.2--r351_1: sha256:781a7009f2aba73ebef94e74855f6b02cec59e263e26635bb2ffd7eb5d0dce77
+docker: quay.io/biocontainers/bioconductor-cummerbund

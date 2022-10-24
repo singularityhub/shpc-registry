@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cntools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cntools
+latest:
+  1.50.0--r41hc0cfd56_2: sha256:0d0d4bea26c7062e3305028914fd14609be7d56c5fbcab8467462d5f666db578
+tags:
+  1.50.0--r41hc0cfd56_2: sha256:0d0d4bea26c7062e3305028914fd14609be7d56c5fbcab8467462d5f666db578
+docker: quay.io/biocontainers/bioconductor-cntools

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/sentieon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sentieon
+latest:
+  202112.05--h5b5514e_1: sha256:77ac2ecdf69680d30338e4c369f69795d40d9a44f6da1099ec00e602ef2e44d6
+tags:
+  202112.05--h5b5514e_1: sha256:77ac2ecdf69680d30338e4c369f69795d40d9a44f6da1099ec00e602ef2e44d6
+docker: quay.io/biocontainers/sentieon
+aliases:
+  sentieon: /usr/local/bin/sentieon
+  sentieon-bwa: /usr/local/bin/sentieon-bwa

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fastcluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fastcluster
+latest:
+  1.1.20--r3.3.2_1: sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772
+tags:
+  1.1.20--r3.3.2_1: sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772
+docker: quay.io/biocontainers/r-fastcluster

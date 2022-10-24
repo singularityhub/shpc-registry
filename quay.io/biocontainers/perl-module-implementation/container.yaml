@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-implementation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-implementation
+latest:
+  0.09--pl5321hdfd78af_3: sha256:ee98af5d538bfdb16bcd57da2e10140d48ecf3509d721c8c52a04de1b8a8eae7
+tags:
+  0.09--pl5321hdfd78af_3: sha256:ee98af5d538bfdb16bcd57da2e10140d48ecf3509d721c8c52a04de1b8a8eae7
+docker: quay.io/biocontainers/perl-module-implementation

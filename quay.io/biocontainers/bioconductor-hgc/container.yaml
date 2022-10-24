@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hgc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgc
+latest:
+  1.2.0--r41hc247a5b_2: sha256:d90b193d5b533823481114e16ceffa1c43919e4cd0e7de55f1c5834002645cf9
+tags:
+  1.2.0--r41hc247a5b_2: sha256:d90b193d5b533823481114e16ceffa1c43919e4cd0e7de55f1c5834002645cf9
+docker: quay.io/biocontainers/bioconductor-hgc

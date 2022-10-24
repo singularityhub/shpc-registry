@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-plgem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-plgem
+latest:
+  1.66.0--r41hdfd78af_0: sha256:887302c2dc0d7090ce32d927b575b68d521a7b694bbd33f53ca0abdbd284ea66
+tags:
+  1.66.0--r41hdfd78af_0: sha256:887302c2dc0d7090ce32d927b575b68d521a7b694bbd33f53ca0abdbd284ea66
+docker: quay.io/biocontainers/bioconductor-plgem

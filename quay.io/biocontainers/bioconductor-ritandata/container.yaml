@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ritandata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ritandata
+latest:
+  1.8.0--r36_1: sha256:82032f69af8b0579fc56e423cacc258671746d2c9a8e2104866e2238b7e58ebd
+tags:
+  1.8.0--r36_1: sha256:82032f69af8b0579fc56e423cacc258671746d2c9a8e2104866e2238b7e58ebd
+docker: quay.io/biocontainers/bioconductor-ritandata
+aliases:
+  .bioconductor-ritandata-post-link.sh: /usr/local/bin/.bioconductor-ritandata-post-link.sh
+  .bioconductor-ritandata-pre-unlink.sh: /usr/local/bin/.bioconductor-ritandata-pre-unlink.sh

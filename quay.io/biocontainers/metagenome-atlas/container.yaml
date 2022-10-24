@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/metagenome-atlas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metagenome-atlas
+latest:
+  2.9.1--pyhdfd78af_0: sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca
+tags:
+  2.9.1--pyhdfd78af_0: sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca
+docker: quay.io/biocontainers/metagenome-atlas
+aliases:
+  atlas: /usr/local/bin/atlas
+  cookiecutter: /usr/local/bin/cookiecutter
+  mamba-package: /usr/local/bin/mamba-package
+  slugify: /usr/local/bin/slugify

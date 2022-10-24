@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-meshsim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-meshsim
+latest:
+  1.7.0--r3.4.1_0: sha256:138556d4dc1d44f6642df1068149c247a61ac2d277227a41faa91b28da900351
+tags:
+  1.7.0--r3.4.1_0: sha256:138556d4dc1d44f6642df1068149c247a61ac2d277227a41faa91b28da900351
+docker: quay.io/biocontainers/bioconductor-meshsim

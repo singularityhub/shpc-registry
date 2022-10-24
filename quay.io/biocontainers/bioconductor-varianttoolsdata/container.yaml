@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-varianttoolsdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata
+latest:
+  1.8.0--r36_1: sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca
+tags:
+  1.8.0--r36_1: sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca
+docker: quay.io/biocontainers/bioconductor-varianttoolsdata
+aliases:
+  .bioconductor-varianttoolsdata-post-link.sh: /usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh
+  .bioconductor-varianttoolsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh

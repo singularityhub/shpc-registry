@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/platypus-variant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for platypus-variant
+latest:
+  0.8.1.2--py27hb698ca4_5: sha256:b26b2fcdc85c69a3f39c753935691d4a04748b5edab2e923a147f4f7532e228c
+tags:
+  0.8.1.2--py27hb698ca4_5: sha256:b26b2fcdc85c69a3f39c753935691d4a04748b5edab2e923a147f4f7532e228c
+docker: quay.io/biocontainers/platypus-variant
+aliases:
+  platypus: /usr/local/bin/platypus

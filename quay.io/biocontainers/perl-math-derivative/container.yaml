@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-derivative
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-derivative
+latest:
+  1.01--pl5321hdfd78af_1: sha256:667f977554c891057d3a4837f530fa4546fe78d0551de8fdeab916bc1699a955
+tags:
+  1.01--pl5321hdfd78af_1: sha256:667f977554c891057d3a4837f530fa4546fe78d0551de8fdeab916bc1699a955
+docker: quay.io/biocontainers/perl-math-derivative

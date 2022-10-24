@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rblast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rblast
+latest:
+  0.99.1--r41h9ee0642_5: sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd
+tags:
+  0.99.1--r41h9ee0642_5: sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd
+docker: quay.io/biocontainers/r-rblast

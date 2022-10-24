@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/sloika
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sloika
+latest:
+  2.0.1--np112_0: sha256:d1a30f58f3e61c1e10eb4262102f01b18cd4db83e1953b148bbd9241d7188545
+tags:
+  2.0.1--np112_0: sha256:d1a30f58f3e61c1e10eb4262102f01b18cd4db83e1953b148bbd9241d7188545
+docker: quay.io/biocontainers/sloika
+aliases:
+  basecall_network.py: /usr/local/bin/basecall_network.py
+  chunkify.py: /usr/local/bin/chunkify.py
+  dump_json.py: /usr/local/bin/dump_json.py
+  extract_reference.py: /usr/local/bin/extract_reference.py
+  theano-test: /usr/local/bin/theano-test
+  train_network.py: /usr/local/bin/train_network.py
+  validate_network.py: /usr/local/bin/validate_network.py
+  verify_network.py: /usr/local/bin/verify_network.py

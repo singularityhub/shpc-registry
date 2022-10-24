@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-esatac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-esatac
+latest:
+  1.8.0--r36he1b5a44_1: sha256:fc1cfd5d22cada0a02a2fe4c4dcf8a32d641cc45fb6c23eeb5f4f2c3dc754732
+tags:
+  1.8.0--r36he1b5a44_1: sha256:fc1cfd5d22cada0a02a2fe4c4dcf8a32d641cc45fb6c23eeb5f4f2c3dc754732
+docker: quay.io/biocontainers/bioconductor-esatac
+aliases:
+  .bioconductor-jaspar2016-post-link.sh: /usr/local/bin/.bioconductor-jaspar2016-post-link.sh
+  .bioconductor-jaspar2016-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh

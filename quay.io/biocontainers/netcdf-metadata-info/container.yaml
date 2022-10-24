@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/netcdf-metadata-info
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for netcdf-metadata-info
+latest:
+  1.1.6--hec16e2b_4: sha256:1a9c60d505c7aa39284ceca51f70f9f87f486742870e93b0eca531e6aa7d5c98
+tags:
+  1.1.6--hec16e2b_4: sha256:1a9c60d505c7aa39284ceca51f70f9f87f486742870e93b0eca531e6aa7d5c98
+docker: quay.io/biocontainers/netcdf-metadata-info
+aliases:
+  netcdf-metadata-info: /usr/local/bin/netcdf-metadata-info

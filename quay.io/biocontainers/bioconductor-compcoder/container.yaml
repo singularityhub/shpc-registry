@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-compcoder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-compcoder
+latest:
+  1.30.0--r41hdfd78af_0: sha256:b84d1af6e7b19cc865519d616fa574ffa43e8b6a1f86afa99333f4556d6b7165
+tags:
+  1.30.0--r41hdfd78af_0: sha256:b84d1af6e7b19cc865519d616fa574ffa43e8b6a1f86afa99333f4556d6b7165
+docker: quay.io/biocontainers/bioconductor-compcoder

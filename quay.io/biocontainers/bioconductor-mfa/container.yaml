@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mfa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mfa
+latest:
+  1.8.0--r36he1b5a44_0: sha256:de69067bce4482a27ba77eaa19f1ab6a4be9cc7370083e2fc8675063753bed26
+tags:
+  1.8.0--r36he1b5a44_0: sha256:de69067bce4482a27ba77eaa19f1ab6a4be9cc7370083e2fc8675063753bed26
+docker: quay.io/biocontainers/bioconductor-mfa

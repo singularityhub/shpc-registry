@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scipy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scipy
+latest:
+  1.1.0: sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40
+tags:
+  1.1.0: sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40
+docker: quay.io/biocontainers/scipy

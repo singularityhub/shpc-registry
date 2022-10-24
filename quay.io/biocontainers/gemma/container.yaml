@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gemma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gemma
+latest:
+  0.98.3--hb4ccc14_0: sha256:a4dc7b706d43d76790238b0d747cfb59161172eef354976847780181d6a09304
+tags:
+  0.98.3--hb4ccc14_0: sha256:a4dc7b706d43d76790238b0d747cfb59161172eef354976847780181d6a09304
+docker: quay.io/biocontainers/gemma
+aliases:
+  gemma: /usr/local/bin/gemma

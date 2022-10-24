@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bird_tool_utils_python
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bird_tool_utils_python
+latest:
+  0.4.1--pyhdfd78af_0: sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b
+tags:
+  0.4.1--pyhdfd78af_0: sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b
+docker: quay.io/biocontainers/bird_tool_utils_python

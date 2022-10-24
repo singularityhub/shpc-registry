@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bprmeth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bprmeth
+latest:
+  1.8.1--r351hf484d3e_0: sha256:22008019d0323c98a8ce16e7abaf1f5701c023335911c457e0137bfe38fd5f66
+tags:
+  1.8.1--r351hf484d3e_0: sha256:22008019d0323c98a8ce16e7abaf1f5701c023335911c457e0137bfe38fd5f66
+docker: quay.io/biocontainers/bioconductor-bprmeth

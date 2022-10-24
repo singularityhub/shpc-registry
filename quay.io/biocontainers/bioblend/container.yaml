@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioblend
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioblend
+latest:
+  1.0.0--pyhdfd78af_0: sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e
+tags:
+  1.0.0--pyhdfd78af_0: sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e
+docker: quay.io/biocontainers/bioblend

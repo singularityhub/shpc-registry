@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bedtk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bedtk
+latest:
+  0.0.r25.dirty--h7132678_2: sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5
+tags:
+  0.0.r25.dirty--h7132678_2: sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5
+docker: quay.io/biocontainers/bedtk
+aliases:
+  bedtk: /usr/local/bin/bedtk

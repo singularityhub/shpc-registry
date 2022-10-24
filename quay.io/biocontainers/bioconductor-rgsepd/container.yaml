@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgsepd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgsepd
+latest:
+  1.8.0--r3.4.1_0: sha256:eedb4db94b826179372f38f5941cb2b80d110a8029a20882398ea9eecf90abdb
+tags:
+  1.8.0--r3.4.1_0: sha256:eedb4db94b826179372f38f5941cb2b80d110a8029a20882398ea9eecf90abdb
+docker: quay.io/biocontainers/bioconductor-rgsepd

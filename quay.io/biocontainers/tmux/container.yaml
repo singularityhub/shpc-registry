@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/tmux
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tmux
+latest:
+  2.1--1: sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a
+tags:
+  2.1--1: sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a
+docker: quay.io/biocontainers/tmux
+aliases:
+  event_rpcgen.py: /usr/local/bin/event_rpcgen.py
+  tmux: /usr/local/bin/tmux

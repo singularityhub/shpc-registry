@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-simlr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-simlr
+latest:
+  1.8.1--r351hf484d3e_0: sha256:727c0f0455c8bbeebaf9b88d6564d2ceae9dc812a50f403840ecd6ffaf714b73
+tags:
+  1.8.1--r351hf484d3e_0: sha256:727c0f0455c8bbeebaf9b88d6564d2ceae9dc812a50f403840ecd6ffaf714b73
+docker: quay.io/biocontainers/bioconductor-simlr

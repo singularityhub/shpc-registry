@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-slingshot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-slingshot
+latest:
+  2.2.0--r41hdfd78af_0: sha256:247b06327225bc8d425d80d009ec6fba950297b00fa5412630580bec3d90815a
+tags:
+  2.2.0--r41hdfd78af_0: sha256:247b06327225bc8d425d80d009ec6fba950297b00fa5412630580bec3d90815a
+docker: quay.io/biocontainers/bioconductor-slingshot

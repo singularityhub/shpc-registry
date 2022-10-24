@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-purbayes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-purbayes
+latest:
+  1.3--r3.4.1_0: sha256:c71825f0b850853b56fd09cc24d8aca5013617045e43e98848a715b6faa0c115
+tags:
+  1.3--r3.4.1_0: sha256:c71825f0b850853b56fd09cc24d8aca5013617045e43e98848a715b6faa0c115
+docker: quay.io/biocontainers/r-purbayes

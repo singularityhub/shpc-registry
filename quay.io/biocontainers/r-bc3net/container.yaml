@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bc3net
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bc3net
+latest:
+  1.0.4--r36h6115d3f_1: sha256:63a880f7da65a14edaff0c7db4b5c498e4cf91c5ab6e50c25404cc777ac6b0ca
+tags:
+  1.0.4--r36h6115d3f_1: sha256:63a880f7da65a14edaff0c7db4b5c498e4cf91c5ab6e50c25404cc777ac6b0ca
+docker: quay.io/biocontainers/r-bc3net

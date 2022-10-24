@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-maqcexpression4plex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maqcexpression4plex
+latest:
+  1.38.0--r41hdfd78af_1: sha256:4bd24c105de6e22b8b5014b54bd4b00b6fe55b47b8e8ab65c204b541c7484b20
+tags:
+  1.38.0--r41hdfd78af_1: sha256:4bd24c105de6e22b8b5014b54bd4b00b6fe55b47b8e8ab65c204b541c7484b20
+docker: quay.io/biocontainers/bioconductor-maqcexpression4plex
+aliases:
+  .bioconductor-maqcexpression4plex-post-link.sh: /usr/local/bin/.bioconductor-maqcexpression4plex-post-link.sh
+  .bioconductor-maqcexpression4plex-pre-unlink.sh: /usr/local/bin/.bioconductor-maqcexpression4plex-pre-unlink.sh

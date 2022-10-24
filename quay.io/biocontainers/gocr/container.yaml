@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gocr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gocr
+latest:
+  0.50--hec16e2b_4: sha256:af5d9ac323d151e22e20d3cee1124fbeefa75e9709f99a9ae9b8d8a2d28ff55b
+tags:
+  0.50--hec16e2b_4: sha256:af5d9ac323d151e22e20d3cee1124fbeefa75e9709f99a9ae9b8d8a2d28ff55b
+docker: quay.io/biocontainers/gocr
+aliases:
+  gocr: /usr/local/bin/gocr
+  gocr.tcl: /usr/local/bin/gocr.tcl

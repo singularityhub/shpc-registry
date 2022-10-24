@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-http-date
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-http-date
+latest:
+  6.05--pl5321hdfd78af_0: sha256:5f7c05328a9cad499547d2e3d1540ab4249a0d2a2541085fc21dcf7443646ff6
+tags:
+  6.05--pl5321hdfd78af_0: sha256:5f7c05328a9cad499547d2e3d1540ab4249a0d2a2541085fc21dcf7443646ff6
+docker: quay.io/biocontainers/perl-http-date

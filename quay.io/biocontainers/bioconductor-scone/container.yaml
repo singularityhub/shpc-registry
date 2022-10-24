@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scone
+latest:
+  1.8.0--r36_1: sha256:56c15cec63e5d8214b83ee5dfc8880264752f66df1f96211e18ee88f08e30699
+tags:
+  1.8.0--r36_1: sha256:56c15cec63e5d8214b83ee5dfc8880264752f66df1f96211e18ee88f08e30699
+docker: quay.io/biocontainers/bioconductor-scone

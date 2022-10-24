@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tsne
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tsne
+latest:
+  0.1_3--r3.3.1_0: sha256:d84b31672615a6683a04883f5755ba7e7078a9161f324e512df0489fffbdd929
+tags:
+  0.1_3--r3.3.1_0: sha256:d84b31672615a6683a04883f5755ba7e7078a9161f324e512df0489fffbdd929
+docker: quay.io/biocontainers/r-tsne

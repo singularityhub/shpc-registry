@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pathtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pathtools
+latest:
+  3.75--pl5321hec16e2b_3: sha256:2e0631751c69f7bc0456e8450f556c4e703e14c8e19a73f523b94737e97639ea
+tags:
+  3.75--pl5321hec16e2b_3: sha256:2e0631751c69f7bc0456e8450f556c4e703e14c8e19a73f523b94737e97639ea
+docker: quay.io/biocontainers/perl-pathtools

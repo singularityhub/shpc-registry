@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flash2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flash2
+latest:
+  2.2.00--h7132678_4: sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4
+tags:
+  2.2.00--h7132678_4: sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4
+docker: quay.io/biocontainers/flash2
+aliases:
+  flash2: /usr/local/bin/flash2

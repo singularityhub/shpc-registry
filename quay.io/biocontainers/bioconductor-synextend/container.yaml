@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-synextend
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-synextend
+latest:
+  1.6.0--r41hdfd78af_0: sha256:4cfe457a4cb59bede6d82f0f70b3f02a8778eb3d2ff66c49ff9762af4247f67b
+tags:
+  1.6.0--r41hdfd78af_0: sha256:4cfe457a4cb59bede6d82f0f70b3f02a8778eb3d2ff66c49ff9762af4247f67b
+docker: quay.io/biocontainers/bioconductor-synextend

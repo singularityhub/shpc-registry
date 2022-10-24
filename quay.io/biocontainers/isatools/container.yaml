@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/isatools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isatools
+latest:
+  0.9.5--py36_0: sha256:3a87a4e0142dbf26fbe73dab20a3616f56e2e4ceec6bac2d3552678884744f54
+tags:
+  0.9.5--py36_0: sha256:3a87a4e0142dbf26fbe73dab20a3616f56e2e4ceec6bac2d3552678884744f54
+docker: quay.io/biocontainers/isatools
+aliases:
+  isatools: /usr/local/bin/isatools
+  mzml2isa: /usr/local/bin/mzml2isa
+  pronto: /usr/local/bin/pronto

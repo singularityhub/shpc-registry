@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mgs-canopy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mgs-canopy
+latest:
+  1.0--h2df963e_5: sha256:82a47c5bf181cd458fda6ff66ddf6e735aa3e1b9f130a90f963f959be1f6d37c
+tags:
+  1.0--h2df963e_5: sha256:82a47c5bf181cd458fda6ff66ddf6e735aa3e1b9f130a90f963f959be1f6d37c
+docker: quay.io/biocontainers/mgs-canopy
+aliases:
+  canopy: /usr/local/bin/canopy
+  cc.bin: /usr/local/bin/cc.bin

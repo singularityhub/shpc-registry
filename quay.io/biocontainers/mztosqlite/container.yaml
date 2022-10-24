@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mztosqlite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mztosqlite
+latest:
+  2.1.1--py310h7cba7a3_1: sha256:86dbba97978c6e4ad89c5d95e380eba07c641c96e526af6c47eb14c987e3c51b
+tags:
+  2.1.1--py310h7cba7a3_1: sha256:86dbba97978c6e4ad89c5d95e380eba07c641c96e526af6c47eb14c987e3c51b
+docker: quay.io/biocontainers/mztosqlite
+aliases:
+  mz_to_sqlite: /usr/local/bin/mz_to_sqlite

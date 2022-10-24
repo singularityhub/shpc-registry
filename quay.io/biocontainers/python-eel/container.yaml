@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/python-eel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-eel
+latest:
+  1.0--py27hd63410e_3: sha256:e3d55d09b219484a4beb8a29c313b003ae0622d6a3368e94f05d4e5c6dc7d411
+tags:
+  1.0--py27hd63410e_3: sha256:e3d55d09b219484a4beb8a29c313b003ae0622d6a3368e94f05d4e5c6dc7d411
+docker: quay.io/biocontainers/python-eel
+aliases:
+  eel: /usr/local/bin/eel

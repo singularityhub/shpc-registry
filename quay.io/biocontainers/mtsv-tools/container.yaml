@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mtsv-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mtsv-tools
+latest:
+  2.0.2--hec16e2b_1: sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13
+tags:
+  2.0.2--hec16e2b_1: sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13
+docker: quay.io/biocontainers/mtsv-tools
+aliases:
+  mtsv-binner: /usr/local/bin/mtsv-binner
+  mtsv-build: /usr/local/bin/mtsv-build
+  mtsv-chunk: /usr/local/bin/mtsv-chunk
+  mtsv-collapse: /usr/local/bin/mtsv-collapse
+  mtsv-collapse-old: /usr/local/bin/mtsv-collapse-old
+  mtsv-readprep: /usr/local/bin/mtsv-readprep

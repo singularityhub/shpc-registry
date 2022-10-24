@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/selectsequencesfrommsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for selectsequencesfrommsa
+latest:
+  1.0.5--pl526h9ebf644_0: sha256:1bcab6c04adbfc83aa1134b66b458a2acc039001eace61068ca843437fd92d13
+tags:
+  1.0.5--pl526h9ebf644_0: sha256:1bcab6c04adbfc83aa1134b66b458a2acc039001eace61068ca843437fd92d13
+docker: quay.io/biocontainers/selectsequencesfrommsa
+aliases:
+  SelectSequencesFromMSA: /usr/local/bin/SelectSequencesFromMSA

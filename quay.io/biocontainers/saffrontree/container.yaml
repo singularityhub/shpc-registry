@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/saffrontree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for saffrontree
+latest:
+  0.1.2--py36_0: sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1
+tags:
+  0.1.2--py36_0: sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1
+docker: quay.io/biocontainers/saffrontree
+aliases:
+  saffrontree: /usr/local/bin/saffrontree

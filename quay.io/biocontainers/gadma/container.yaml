@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/gadma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gadma
+latest:
+  2.0.0rc22--pyhdfd78af_0: sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74
+tags:
+  2.0.0rc22--pyhdfd78af_0: sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74
+docker: quay.io/biocontainers/gadma
+aliases:
+  demes: /usr/local/bin/demes
+  gadma: /usr/local/bin/gadma
+  gadma-get_confidence_intervals: /usr/local/bin/gadma-get_confidence_intervals
+  gadma-get_confidence_intervals_for_ld: /usr/local/bin/gadma-get_confidence_intervals_for_ld
+  gadma-precompute_ld_data: /usr/local/bin/gadma-precompute_ld_data
+  gadma-run_ls_on_boot_data: /usr/local/bin/gadma-run_ls_on_boot_data

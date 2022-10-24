@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/cmash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cmash
+latest:
+  0.5.2--pyh5e36f6f_0: sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
+tags:
+  0.5.2--pyh5e36f6f_0: sha256:106b89f56dd28dc588e54f50fba8018d9c2aff20e534351313d14e2cfbaf07b8
+docker: quay.io/biocontainers/cmash
+aliases:
+  MakeDNADatabase.py: /usr/local/bin/MakeDNADatabase.py
+  MakeNodeGraph.py: /usr/local/bin/MakeNodeGraph.py
+  MakeStreamingDNADatabase.py: /usr/local/bin/MakeStreamingDNADatabase.py
+  MakeStreamingPrefilter.py: /usr/local/bin/MakeStreamingPrefilter.py
+  QueryDNADatabase.py: /usr/local/bin/QueryDNADatabase.py
+  StreamingQueryDNADatabase.py: /usr/local/bin/StreamingQueryDNADatabase.py
+  StreamingQueryDNADatabase_queue.py: /usr/local/bin/StreamingQueryDNADatabase_queue.py
+  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
+  abundance-dist.py: /usr/local/bin/abundance-dist.py
+  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  count-median.py: /usr/local/bin/count-median.py
+  do-partition.py: /usr/local/bin/do-partition.py
+  extract-long-sequences.py: /usr/local/bin/extract-long-sequences.py
+  extract-paired-reads.py: /usr/local/bin/extract-paired-reads.py
+  extract-partitions.py: /usr/local/bin/extract-partitions.py
+  fastq-to-fasta.py: /usr/local/bin/fastq-to-fasta.py
+  filter-abund-single.py: /usr/local/bin/filter-abund-single.py
+  filter-abund.py: /usr/local/bin/filter-abund.py
+  filter-stoptags.py: /usr/local/bin/filter-stoptags.py
+  find-knots.py: /usr/local/bin/find-knots.py
+  interleave-reads.py: /usr/local/bin/interleave-reads.py
+  load-graph.py: /usr/local/bin/load-graph.py
+  load-into-counting.py: /usr/local/bin/load-into-counting.py
+  make-initial-stoptags.py: /usr/local/bin/make-initial-stoptags.py
+  merge-partitions.py: /usr/local/bin/merge-partitions.py
+  normalize-by-median.py: /usr/local/bin/normalize-by-median.py
+  partition-graph.py: /usr/local/bin/partition-graph.py
+  readstats.py: /usr/local/bin/readstats.py
+  sample-reads-randomly.py: /usr/local/bin/sample-reads-randomly.py
+  split-paired-reads.py: /usr/local/bin/split-paired-reads.py
+  trim-low-abund.py: /usr/local/bin/trim-low-abund.py
+  unique-kmers.py: /usr/local/bin/unique-kmers.py

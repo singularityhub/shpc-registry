@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/yahs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yahs
+latest:
+  1.2a.2--h7132678_0: sha256:c946489c2a3b5f18f55f8a48059f544db6aed5f94fdde4f712f21210be861f98
+tags:
+  1.2a.2--h7132678_0: sha256:c946489c2a3b5f18f55f8a48059f544db6aed5f94fdde4f712f21210be861f98
+docker: quay.io/biocontainers/yahs
+aliases:
+  agp_to_fasta: /usr/local/bin/agp_to_fasta
+  juicer: /usr/local/bin/juicer
+  yahs: /usr/local/bin/yahs

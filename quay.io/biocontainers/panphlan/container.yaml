@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/panphlan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for panphlan
+latest:
+  3.1--py_0: sha256:4fbdbf8c2c65b88ace3a165bc1c99ea5eac4799b57c5a1ad5fcb45f1dcc2a06f
+tags:
+  3.1--py_0: sha256:4fbdbf8c2c65b88ace3a165bc1c99ea5eac4799b57c5a1ad5fcb45f1dcc2a06f
+docker: quay.io/biocontainers/panphlan
+aliases:
+  misc.py: /usr/local/bin/misc.py
+  panphlan_download_pangenome.py: /usr/local/bin/panphlan_download_pangenome.py
+  panphlan_map.py: /usr/local/bin/panphlan_map.py
+  panphlan_profiling.py: /usr/local/bin/panphlan_profiling.py

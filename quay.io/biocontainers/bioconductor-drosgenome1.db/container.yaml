@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-drosgenome1.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-drosgenome1.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:93f8f2f51bdc952fa9f7db6bd4d7c0b4fb36f6eeebe1a19575321942ec014295
+tags:
+  3.2.3--r41hdfd78af_7: sha256:93f8f2f51bdc952fa9f7db6bd4d7c0b4fb36f6eeebe1a19575321942ec014295
+docker: quay.io/biocontainers/bioconductor-drosgenome1.db
+aliases:
+  .bioconductor-drosgenome1.db-post-link.sh: /usr/local/bin/.bioconductor-drosgenome1.db-post-link.sh
+  .bioconductor-drosgenome1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-drosgenome1.db-pre-unlink.sh
+  .bioconductor-org.dm.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.dm.eg.db-post-link.sh
+  .bioconductor-org.dm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.dm.eg.db-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rhtslib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rhtslib
+latest:
+  1.8.0--r3.4.1_0: sha256:7c5f0fed385af1e45b94a67168ffc8ef43dba1ab68cb84cb1bc14c430516190d
+tags:
+  1.8.0--r3.4.1_0: sha256:7c5f0fed385af1e45b94a67168ffc8ef43dba1ab68cb84cb1bc14c430516190d
+docker: quay.io/biocontainers/bioconductor-rhtslib

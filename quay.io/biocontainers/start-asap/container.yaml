@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/start-asap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for start-asap
+latest:
+  1.3.0--hdfd78af_1: sha256:9608cf0862e248038c56ab1c7fbe1cf4a4c1361849bf1f2f71a3678395a38490
+tags:
+  1.3.0--hdfd78af_1: sha256:9608cf0862e248038c56ab1c7fbe1cf4a4c1361849bf1f2f71a3678395a38490
+docker: quay.io/biocontainers/start-asap
+aliases:
+  start-asap: /usr/local/bin/start-asap

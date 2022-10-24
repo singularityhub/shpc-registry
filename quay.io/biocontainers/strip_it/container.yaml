@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/strip_it
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strip_it
+latest:
+  1.0.2--h7d875b9_6: sha256:13b913ecec336a08d465a3c52c50c0d05fae824cef0f4f5b06af8f6e2d8570f4
+tags:
+  1.0.2--h7d875b9_6: sha256:13b913ecec336a08d465a3c52c50c0d05fae824cef0f4f5b06af8f6e2d8570f4
+docker: quay.io/biocontainers/strip_it
+aliases:
+  babel: /usr/local/bin/babel
+  obchiral: /usr/local/bin/obchiral
+  strip-it: /usr/local/bin/strip-it

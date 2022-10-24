@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pcan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcan
+latest:
+  1.8.0--r351_0: sha256:8a6805edbc77d7a895b9365cf3553bcb622282814805a2f4e84447be6f05a4df
+tags:
+  1.8.0--r351_0: sha256:8a6805edbc77d7a895b9365cf3553bcb622282814805a2f4e84447be6f05a4df
+docker: quay.io/biocontainers/bioconductor-pcan

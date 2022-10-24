@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sarscov2formatter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sarscov2formatter
+latest:
+  1.0--pyhdfd78af_0: sha256:5cc7cfeb48aa80e1c769cb7ccdff7b84033bf0dbd5a26613c1386821d7da3173
+tags:
+  1.0--pyhdfd78af_0: sha256:5cc7cfeb48aa80e1c769cb7ccdff7b84033bf0dbd5a26613c1386821d7da3173
+docker: quay.io/biocontainers/sarscov2formatter
+aliases:
+  sarscov2formatter: /usr/local/bin/sarscov2formatter

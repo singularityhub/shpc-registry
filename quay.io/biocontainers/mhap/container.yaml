@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mhap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mhap
+latest:
+  2.1.3--hdfd78af_1: sha256:8cab9abad491b3e2a5fd113a7743178f53555c7d529bd1ba98f04beab63df929
+tags:
+  2.1.3--hdfd78af_1: sha256:8cab9abad491b3e2a5fd113a7743178f53555c7d529bd1ba98f04beab63df929
+docker: quay.io/biocontainers/mhap
+aliases:
+  mhap: /usr/local/bin/mhap

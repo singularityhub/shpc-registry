@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-champ
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-champ
+latest:
+  2.22.0--r41hdfd78af_0: sha256:c0cd9f27cc89e1c8a367e2213b9f4be0b4f28fc7c9a5acd0c5e63cb637ba0321
+tags:
+  2.22.0--r41hdfd78af_0: sha256:c0cd9f27cc89e1c8a367e2213b9f4be0b4f28fc7c9a5acd0c5e63cb637ba0321
+docker: quay.io/biocontainers/bioconductor-champ
+aliases:
+  .bioconductor-champdata-post-link.sh: /usr/local/bin/.bioconductor-champdata-post-link.sh
+  .bioconductor-champdata-pre-unlink.sh: /usr/local/bin/.bioconductor-champdata-pre-unlink.sh
+  .bioconductor-genelendatabase-post-link.sh: /usr/local/bin/.bioconductor-genelendatabase-post-link.sh
+  .bioconductor-genelendatabase-pre-unlink.sh: /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh
+  .bioconductor-illumina450probevariants.db-post-link.sh: /usr/local/bin/.bioconductor-illumina450probevariants.db-post-link.sh
+  .bioconductor-illumina450probevariants.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illumina450probevariants.db-pre-unlink.sh
+  .bioconductor-illuminahumanmethylationepicmanifest-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh
+  .bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh

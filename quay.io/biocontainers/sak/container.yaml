@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sak
+latest:
+  0.4.6--h9ee0642_2: sha256:e536dc3ee532634ae9aec6cff47e4f51f425d5c8efc31fceb9369c3c22b6d6c3
+tags:
+  0.4.6--h9ee0642_2: sha256:e536dc3ee532634ae9aec6cff47e4f51f425d5c8efc31fceb9369c3c22b6d6c3
+docker: quay.io/biocontainers/sak
+aliases:
+  sak: /usr/local/bin/sak

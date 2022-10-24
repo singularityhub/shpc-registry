@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lapointe.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lapointe.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:a5ac2999123a29b02343dba714efe84a52ec1166e2e1d17d6c5a8bc84ba33f70
+tags:
+  3.2.3--r41hdfd78af_9: sha256:a5ac2999123a29b02343dba714efe84a52ec1166e2e1d17d6c5a8bc84ba33f70
+docker: quay.io/biocontainers/bioconductor-lapointe.db
+aliases:
+  .bioconductor-lapointe.db-post-link.sh: /usr/local/bin/.bioconductor-lapointe.db-post-link.sh
+  .bioconductor-lapointe.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lapointe.db-pre-unlink.sh

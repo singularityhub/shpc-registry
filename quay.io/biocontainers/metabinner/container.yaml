@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metabinner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metabinner
+latest:
+  1.4.4--hdfd78af_0: sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772
+tags:
+  1.4.4--hdfd78af_0: sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772
+docker: quay.io/biocontainers/metabinner
+aliases:
+  run_metabinner.sh: /usr/local/bin/run_metabinner.sh

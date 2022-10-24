@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-uncompress-bunzip2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-uncompress-bunzip2
+latest:
+  2.064--pl5321hdfd78af_2: sha256:4327ed1443a012618b287260380f86ff615f447c02f989b6f6a2e1d3a00046ab
+tags:
+  2.064--pl5321hdfd78af_2: sha256:4327ed1443a012618b287260380f86ff615f447c02f989b6f6a2e1d3a00046ab
+docker: quay.io/biocontainers/perl-io-uncompress-bunzip2

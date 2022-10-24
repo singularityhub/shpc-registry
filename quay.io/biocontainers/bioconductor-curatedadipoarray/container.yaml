@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-curatedadipoarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-curatedadipoarray
+latest:
+  1.6.0--r41hdfd78af_1: sha256:b7713835449de27a5dee8699ff583723b9bba6ae2c28f756b7477ab794b2b169
+tags:
+  1.6.0--r41hdfd78af_1: sha256:b7713835449de27a5dee8699ff583723b9bba6ae2c28f756b7477ab794b2b169
+docker: quay.io/biocontainers/bioconductor-curatedadipoarray
+aliases:
+  .bioconductor-curatedadipoarray-post-link.sh: /usr/local/bin/.bioconductor-curatedadipoarray-post-link.sh
+  .bioconductor-curatedadipoarray-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedadipoarray-pre-unlink.sh

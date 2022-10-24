@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/strainseeker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strainseeker
+latest:
+  1.5.1--hec16e2b_2: sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696
+tags:
+  1.5.1--hec16e2b_2: sha256:be4bb3c9bf5d80b0623a5acc096b7b28bffdccdc28ef07e07b31d62a2dba5696
+docker: quay.io/biocontainers/strainseeker
+aliases:
+  builder.pl: /usr/local/bin/builder.pl
+  cov.R: /usr/local/bin/cov.R
+  drawtree.R: /usr/local/bin/drawtree.R
+  gdistribution: /usr/local/bin/gdistribution
+  glistcompare: /usr/local/bin/glistcompare
+  glistmaker: /usr/local/bin/glistmaker
+  glistquery: /usr/local/bin/glistquery
+  gmer_counter: /usr/local/bin/gmer_counter
+  oe.R: /usr/local/bin/oe.R
+  seeker.pl: /usr/local/bin/seeker.pl

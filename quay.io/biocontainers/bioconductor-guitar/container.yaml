@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-guitar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-guitar
+latest:
+  2.8.0--r41hdfd78af_0: sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b
+tags:
+  2.8.0--r41hdfd78af_0: sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b
+docker: quay.io/biocontainers/bioconductor-guitar

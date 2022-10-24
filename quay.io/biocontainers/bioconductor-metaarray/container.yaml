@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metaarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metaarray
+latest:
+  1.66.0--r40h037d062_0: sha256:583f0b945c3e6b2207bf52c6ba960edbfbc46bd6eea82dd1c020b2fa0c2c27c7
+tags:
+  1.66.0--r40h037d062_0: sha256:583f0b945c3e6b2207bf52c6ba960edbfbc46bd6eea82dd1c020b2fa0c2c27c7
+docker: quay.io/biocontainers/bioconductor-metaarray

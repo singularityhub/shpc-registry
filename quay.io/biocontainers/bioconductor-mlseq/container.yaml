@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mlseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mlseq
+latest:
+  2.8.0--r40hdfd78af_1: sha256:f83763f03c34520e36941f38217c5314a9784ad6f1388cc6595c10853de23288
+tags:
+  2.8.0--r40hdfd78af_1: sha256:f83763f03c34520e36941f38217c5314a9784ad6f1388cc6595c10853de23288
+docker: quay.io/biocontainers/bioconductor-mlseq

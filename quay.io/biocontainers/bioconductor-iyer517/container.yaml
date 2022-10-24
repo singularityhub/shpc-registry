@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-iyer517
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iyer517
+latest:
+  1.36.0--r41hdfd78af_1: sha256:2d9263ce73b9452818da9870ca405e604852bf461a81cad3c8eab212c7816ec2
+tags:
+  1.36.0--r41hdfd78af_1: sha256:2d9263ce73b9452818da9870ca405e604852bf461a81cad3c8eab212c7816ec2
+docker: quay.io/biocontainers/bioconductor-iyer517
+aliases:
+  .bioconductor-iyer517-post-link.sh: /usr/local/bin/.bioconductor-iyer517-post-link.sh
+  .bioconductor-iyer517-pre-unlink.sh: /usr/local/bin/.bioconductor-iyer517-pre-unlink.sh

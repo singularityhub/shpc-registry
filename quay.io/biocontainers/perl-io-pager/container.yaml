@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-io-pager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-pager
+latest:
+  2.10--pl5321hdfd78af_1: sha256:5caf20d0edc1d527864f8a1892919af7ecb87c2e71957c40c7eea6aaeb932d1a
+tags:
+  2.10--pl5321hdfd78af_1: sha256:5caf20d0edc1d527864f8a1892919af7ecb87c2e71957c40c7eea6aaeb932d1a
+docker: quay.io/biocontainers/perl-io-pager
+aliases:
+  tp: /usr/local/bin/tp

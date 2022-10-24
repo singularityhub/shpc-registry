@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/truvari
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for truvari
+latest:
+  3.5.0--pyhdfd78af_0: sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3
+tags:
+  3.5.0--pyhdfd78af_0: sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3
+docker: quay.io/biocontainers/truvari
+aliases:
+  bwamempy: /usr/local/bin/bwamempy
+  truvari: /usr/local/bin/truvari

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/checkv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for checkv
+latest:
+  1.0.1--pyhdfd78af_0: sha256:9077a083c6a33c8d0b06162f0d4f52b6bc751068112a1f4f8ee23118d04f4b1f
+tags:
+  1.0.1--pyhdfd78af_0: sha256:9077a083c6a33c8d0b06162f0d4f52b6bc751068112a1f4f8ee23118d04f4b1f
+docker: quay.io/biocontainers/checkv
+aliases:
+  .checkv-post-link.sh: /usr/local/bin/.checkv-post-link.sh
+  checkv: /usr/local/bin/checkv
+  prodigal-gv: /usr/local/bin/prodigal-gv

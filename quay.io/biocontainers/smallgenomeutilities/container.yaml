@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/smallgenomeutilities
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smallgenomeutilities
+latest:
+  0.3.8--pyhdfd78af_0: sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
+tags:
+  0.3.8--pyhdfd78af_0: sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
+docker: quay.io/biocontainers/smallgenomeutilities
+aliases:
+  aln2basecnt: /usr/local/bin/aln2basecnt
+  compute_mds: /usr/local/bin/compute_mds
+  convert_qr: /usr/local/bin/convert_qr
+  convert_reference: /usr/local/bin/convert_reference
+  coverage_stats: /usr/local/bin/coverage_stats
+  extract_consensus: /usr/local/bin/extract_consensus
+  extract_coverage_intervals: /usr/local/bin/extract_coverage_intervals
+  extract_sam: /usr/local/bin/extract_sam
+  extract_seq: /usr/local/bin/extract_seq
+  frameshift_deletions_checks: /usr/local/bin/frameshift_deletions_checks
+  gather_coverage: /usr/local/bin/gather_coverage
+  mapper: /usr/local/bin/mapper
+  min_coverage: /usr/local/bin/min_coverage
+  minority_freq: /usr/local/bin/minority_freq
+  pair_sequences: /usr/local/bin/pair_sequences
+  predict_num_reads: /usr/local/bin/predict_num_reads
+  pysamstats: /usr/local/bin/pysamstats
+  remove_gaps_msa: /usr/local/bin/remove_gaps_msa

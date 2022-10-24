@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/counterr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for counterr
+latest:
+  0.1--pyh864c0ab_1: sha256:34a58afc2647e366ed50c790774f1c774b7f6dcdda50dfe59a6b3ade878aff69
+tags:
+  0.1--pyh864c0ab_1: sha256:34a58afc2647e366ed50c790774f1c774b7f6dcdda50dfe59a6b3ade878aff69
+docker: quay.io/biocontainers/counterr
+aliases:
+  counterr: /usr/local/bin/counterr

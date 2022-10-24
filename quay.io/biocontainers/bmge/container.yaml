@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bmge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bmge
+latest:
+  1.12--hdfd78af_1: sha256:a57150e63e9775579d7bb60e2104838a6f3a517d345786568bc99fdbbab8110f
+tags:
+  1.12--hdfd78af_1: sha256:a57150e63e9775579d7bb60e2104838a6f3a517d345786568bc99fdbbab8110f
+docker: quay.io/biocontainers/bmge
+aliases:
+  bmge: /usr/local/bin/bmge

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ldblock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ldblock
+latest:
+  1.24.0--r41hdfd78af_0: sha256:90723b79084217a6a4342ecee417fff81c260850efe1e5c31f622d16e6d63045
+tags:
+  1.24.0--r41hdfd78af_0: sha256:90723b79084217a6a4342ecee417fff81c260850efe1e5c31f622d16e6d63045
+docker: quay.io/biocontainers/bioconductor-ldblock

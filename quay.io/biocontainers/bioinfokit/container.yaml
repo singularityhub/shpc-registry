@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioinfokit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioinfokit
+latest:
+  2.1.0--pyh7cba7a3_0: sha256:b10d89b5c42960dae7bc100b95fcce5eda37c3ff8b1f2eb60dfa141fe6003cc7
+tags:
+  2.1.0--pyh7cba7a3_0: sha256:b10d89b5c42960dae7bc100b95fcce5eda37c3ff8b1f2eb60dfa141fe6003cc7
+docker: quay.io/biocontainers/bioinfokit

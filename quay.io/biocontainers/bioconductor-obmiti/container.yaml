@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-obmiti
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-obmiti
+latest:
+  1.2.0--r41hdfd78af_1: sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9
+tags:
+  1.2.0--r41hdfd78af_1: sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9
+docker: quay.io/biocontainers/bioconductor-obmiti
+aliases:
+  .bioconductor-obmiti-post-link.sh: /usr/local/bin/.bioconductor-obmiti-post-link.sh
+  .bioconductor-obmiti-pre-unlink.sh: /usr/local/bin/.bioconductor-obmiti-pre-unlink.sh

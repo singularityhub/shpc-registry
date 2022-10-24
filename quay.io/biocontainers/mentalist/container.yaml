@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/mentalist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mentalist
+latest:
+  0.2.4--hec16e2b_5: sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009
+tags:
+  0.2.4--hec16e2b_5: sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009
+docker: quay.io/biocontainers/mentalist
+aliases:
+  .julia-post-link.sh: /usr/local/bin/.julia-post-link.sh
+  .julia-pre-unlink.sh: /usr/local/bin/.julia-pre-unlink.sh
+  MentaLiST.jl: /usr/local/bin/MentaLiST.jl
+  build_db_functions.jl: /usr/local/bin/build_db_functions.jl
+  calling_functions.jl: /usr/local/bin/calling_functions.jl
+  db_graph.jl: /usr/local/bin/db_graph.jl
+  julia: /usr/local/bin/julia
+  julia-debug: /usr/local/bin/julia-debug
+  mentalist: /usr/local/bin/mentalist
+  mlst_download_functions.jl: /usr/local/bin/mlst_download_functions.jl

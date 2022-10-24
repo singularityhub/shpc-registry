@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-path
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-path
+latest:
+  2.16--pl526_0: sha256:a3737cca08aee5be095030ea5c6f3f5291b9170ea47b8797a1cc36422db93835
+tags:
+  2.16--pl526_0: sha256:a3737cca08aee5be095030ea5c6f3f5291b9170ea47b8797a1cc36422db93835
+docker: quay.io/biocontainers/perl-file-path

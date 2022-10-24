@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-parsexs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-parsexs
+latest:
+  3.44--pl5321hdfd78af_0: sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd
+tags:
+  3.44--pl5321hdfd78af_0: sha256:76055a60a4345fee00f78b679d0417ee1f00c5eceda500ea77f9503f641831cd
+docker: quay.io/biocontainers/perl-extutils-parsexs

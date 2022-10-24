@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-splicinggraphs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-splicinggraphs
+latest:
+  1.34.0--r41hdfd78af_0: sha256:861acb8e0fa0012eb5994ef1eb65adaffc4a50e372400a1bc08b348006bae0d2
+tags:
+  1.34.0--r41hdfd78af_0: sha256:861acb8e0fa0012eb5994ef1eb65adaffc4a50e372400a1bc08b348006bae0d2
+docker: quay.io/biocontainers/bioconductor-splicinggraphs

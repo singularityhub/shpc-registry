@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-authen-sasl-saslprep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-authen-sasl-saslprep
+latest:
+  1.100--pl5321hdfd78af_1: sha256:fe7c46fd46166f748b1bafb722eb677b496e19e6ea4c2243fc51460008cc9820
+tags:
+  1.100--pl5321hdfd78af_1: sha256:fe7c46fd46166f748b1bafb722eb677b496e19e6ea4c2243fc51460008cc9820
+docker: quay.io/biocontainers/perl-authen-sasl-saslprep

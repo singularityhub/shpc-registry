@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/modeltest-ng
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for modeltest-ng
+latest:
+  0.1.7--h5c6ebe3_0: sha256:7cc84ec52a7810e39b81e51fbeafcd19481c143dd164d7e898024577d4463d7d
+tags:
+  0.1.7--h5c6ebe3_0: sha256:7cc84ec52a7810e39b81e51fbeafcd19481c143dd164d7e898024577d4463d7d
+docker: quay.io/biocontainers/modeltest-ng
+aliases:
+  modeltest-ng: /usr/local/bin/modeltest-ng
+  modeltest-ng-mpi: /usr/local/bin/modeltest-ng-mpi

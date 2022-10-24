@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/trycycler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trycycler
+latest:
+  0.5.3--pyhdfd78af_0: sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935
+tags:
+  0.5.3--pyhdfd78af_0: sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935
+docker: quay.io/biocontainers/trycycler
+aliases:
+  trycycler: /usr/local/bin/trycycler

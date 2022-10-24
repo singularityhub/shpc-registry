@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-htrat230pm.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-htrat230pm.db
+latest:
+  3.13.0--r41hdfd78af_1: sha256:18ee6b2a5a8d7a2c630aabdf1041e0984f28c65a6ddfdd6dc236992cdd14767f
+tags:
+  3.13.0--r41hdfd78af_1: sha256:18ee6b2a5a8d7a2c630aabdf1041e0984f28c65a6ddfdd6dc236992cdd14767f
+docker: quay.io/biocontainers/bioconductor-htrat230pm.db
+aliases:
+  .bioconductor-htrat230pm.db-post-link.sh: /usr/local/bin/.bioconductor-htrat230pm.db-post-link.sh
+  .bioconductor-htrat230pm.db-pre-unlink.sh: /usr/local/bin/.bioconductor-htrat230pm.db-pre-unlink.sh

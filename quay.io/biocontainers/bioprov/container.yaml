@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioprov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioprov
+latest:
+  0.1.23--pyh5e36f6f_0: sha256:c7b387078e6da87b09423777bade603d0c8654d0b259831053e07212e9cda951
+tags:
+  0.1.23--pyh5e36f6f_0: sha256:c7b387078e6da87b09423777bade603d0c8654d0b259831053e07212e9cda951
+docker: quay.io/biocontainers/bioprov
+aliases:
+  bioprov: /usr/local/bin/bioprov
+  coveralls: /usr/local/bin/coveralls

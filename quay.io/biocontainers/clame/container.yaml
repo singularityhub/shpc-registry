@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/clame
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clame
+latest:
+  1.0--he1b5a44_1: sha256:1bcbdfe0d6a46941f48f832083d57d046c81d47d85c35c8cd7f2edff08043c3a
+tags:
+  1.0--he1b5a44_1: sha256:1bcbdfe0d6a46941f48f832083d57d046c81d47d85c35c8cd7f2edff08043c3a
+docker: quay.io/biocontainers/clame
+aliases:
+  binning: /usr/local/bin/binning
+  clame: /usr/local/bin/clame
+  genFm9: /usr/local/bin/genFm9
+  mapping: /usr/local/bin/mapping

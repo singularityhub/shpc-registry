@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gclib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gclib
+latest:
+  0.0.1--h2d50403_5: sha256:f8b3637096e3c680545ed7d38b2a8bd6d155cbc4a957608567c0c27ffcae2332
+tags:
+  0.0.1--h2d50403_5: sha256:f8b3637096e3c680545ed7d38b2a8bd6d155cbc4a957608567c0c27ffcae2332
+docker: quay.io/biocontainers/gclib
+aliases:
+  gtest: /usr/local/bin/gtest
+  threads: /usr/local/bin/threads

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mzr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mzr
+latest:
+  2.6.3--r3.3.1_1: sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146
+tags:
+  2.6.3--r3.3.1_1: sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146
+docker: quay.io/biocontainers/bioconductor-mzr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sleuth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sleuth
+latest:
+  0.30.0--r41hdfd78af_5: sha256:6190232787b5fc4080eb23570cbb56edfaa29a8fb011a56659dfe04db96a8fe4
+tags:
+  0.30.0--r41hdfd78af_5: sha256:6190232787b5fc4080eb23570cbb56edfaa29a8fb011a56659dfe04db96a8fe4
+docker: quay.io/biocontainers/r-sleuth

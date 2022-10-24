@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/pispino
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pispino
+latest:
+  1.1--pyh864c0ab_3: sha256:74c75150c6a6a7426bfedf4798a42c334744714e7b01ff9a92d575b5989dcfcb
+tags:
+  1.1--pyh864c0ab_3: sha256:74c75150c6a6a7426bfedf4798a42c334744714e7b01ff9a92d575b5989dcfcb
+docker: quay.io/biocontainers/pispino
+aliases:
+  fasta_clipping_histogram.pl: /usr/local/bin/fasta_clipping_histogram.pl
+  fasta_formatter: /usr/local/bin/fasta_formatter
+  fasta_nucleotide_changer: /usr/local/bin/fasta_nucleotide_changer
+  fastq_masker: /usr/local/bin/fastq_masker
+  fastq_quality_boxplot_graph.sh: /usr/local/bin/fastq_quality_boxplot_graph.sh
+  fastq_quality_converter: /usr/local/bin/fastq_quality_converter
+  fastq_quality_filter: /usr/local/bin/fastq_quality_filter
+  fastq_quality_trimmer: /usr/local/bin/fastq_quality_trimmer
+  fastq_to_fasta: /usr/local/bin/fastq_to_fasta
+  fastx_artifacts_filter: /usr/local/bin/fastx_artifacts_filter
+  fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
+  fastx_clipper: /usr/local/bin/fastx_clipper
+  fastx_collapser: /usr/local/bin/fastx_collapser
+  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_quality_stats: /usr/local/bin/fastx_quality_stats
+  fastx_renamer: /usr/local/bin/fastx_renamer
+  fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement
+  fastx_trimmer: /usr/local/bin/fastx_trimmer
+  fastx_uncollapser: /usr/local/bin/fastx_uncollapser
+  pispino_createreadpairslist: /usr/local/bin/pispino_createreadpairslist
+  pispino_seqprep: /usr/local/bin/pispino_seqprep

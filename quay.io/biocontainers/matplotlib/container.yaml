@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/matplotlib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for matplotlib
+latest:
+  3.5.1: sha256:6f03d481b5b606226bc7f5e0b3820d79c2d088d6c157446c306537a3b8932473
+tags:
+  3.5.1: sha256:6f03d481b5b606226bc7f5e0b3820d79c2d088d6c157446c306537a3b8932473
+docker: quay.io/biocontainers/matplotlib

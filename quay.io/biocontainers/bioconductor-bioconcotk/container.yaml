@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-bioconcotk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bioconcotk
+latest:
+  1.8.0--r40_0: sha256:62fa4ee96ef2d9341e1226bd3d4992f3fb0ba1cfc576430fc35ae37d83ee83ca
+tags:
+  1.8.0--r40_0: sha256:62fa4ee96ef2d9341e1226bd3d4992f3fb0ba1cfc576430fc35ae37d83ee83ca
+docker: quay.io/biocontainers/bioconductor-bioconcotk
+aliases:
+  .bioconductor-curatedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh
+  .bioconductor-curatedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh

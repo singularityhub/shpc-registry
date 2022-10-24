@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/ucsc-cell-browser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ucsc-cell-browser
+latest:
+  1.1.1--pyhdfd78af_1: sha256:f3a65e13b73dbdfa24b4183dd7b4a1ad49737d58fabb93efff9f4f3bdf665c11
+tags:
+  1.1.1--pyhdfd78af_1: sha256:f3a65e13b73dbdfa24b4183dd7b4a1ad49737d58fabb93efff9f4f3bdf665c11
+docker: quay.io/biocontainers/ucsc-cell-browser
+aliases:
+  cbBuild: /usr/local/bin/cbBuild
+  cbGenes: /usr/local/bin/cbGenes
+  cbGuessGencode: /usr/local/bin/cbGuessGencode
+  cbHub: /usr/local/bin/cbHub
+  cbImportCellranger: /usr/local/bin/cbImportCellranger
+  cbImportScanpy: /usr/local/bin/cbImportScanpy
+  cbImportSeurat: /usr/local/bin/cbImportSeurat
+  cbMarkerAnnotate: /usr/local/bin/cbMarkerAnnotate
+  cbScanpy: /usr/local/bin/cbScanpy
+  cbSeurat: /usr/local/bin/cbSeurat
+  cbTool: /usr/local/bin/cbTool
+  cbUpgrade: /usr/local/bin/cbUpgrade

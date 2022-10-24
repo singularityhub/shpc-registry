@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cmapr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cmapr
+latest:
+  1.6.0--r41hdfd78af_0: sha256:f44542852009142292a7079767edf3f01bd965c733cbdb28ef8e648d4e3cdd59
+tags:
+  1.6.0--r41hdfd78af_0: sha256:f44542852009142292a7079767edf3f01bd965c733cbdb28ef8e648d4e3cdd59
+docker: quay.io/biocontainers/bioconductor-cmapr

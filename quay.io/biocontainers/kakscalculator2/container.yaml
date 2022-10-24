@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kakscalculator2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kakscalculator2
+latest:
+  2.0.1--h9f5acd7_2: sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40
+tags:
+  2.0.1--h9f5acd7_2: sha256:172eea3e171ef608e73e2bbae63645d9dd4c82052f6bdf924d19326fcdba6d40
+docker: quay.io/biocontainers/kakscalculator2
+aliases:
+  AXTConvertor: /usr/local/bin/AXTConvertor
+  ConPairs: /usr/local/bin/ConPairs
+  KaKs_Calculator: /usr/local/bin/KaKs_Calculator

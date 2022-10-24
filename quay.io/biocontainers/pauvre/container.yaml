@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pauvre
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pauvre
+latest:
+  0.2.2--py_0: sha256:40c4eef83acf599bd70e565d063439f5c5ded93654dab676e4635da48d8b0602
+tags:
+  0.2.2--py_0: sha256:40c4eef83acf599bd70e565d063439f5c5ded93654dab676e4635da48d8b0602
+docker: quay.io/biocontainers/pauvre
+aliases:
+  pauvre: /usr/local/bin/pauvre

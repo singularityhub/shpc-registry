@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/plotly
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plotly
+latest:
+  3.1.1: sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207
+tags:
+  3.1.1: sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207
+docker: quay.io/biocontainers/plotly

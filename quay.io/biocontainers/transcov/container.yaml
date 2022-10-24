@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/transcov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transcov
+latest:
+  1.1.3--py_0: sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c
+tags:
+  1.1.3--py_0: sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c
+docker: quay.io/biocontainers/transcov
+aliases:
+  transcov: /usr/local/bin/transcov

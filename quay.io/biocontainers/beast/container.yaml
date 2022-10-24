@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/beast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for beast
+latest:
+  1.8.4--0: sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645
+tags:
+  1.8.4--0: sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645
+docker: quay.io/biocontainers/beast
+aliases:
+  beast: /usr/local/bin/beast
+  beauti: /usr/local/bin/beauti
+  loganalyser: /usr/local/bin/loganalyser
+  logcombiner: /usr/local/bin/logcombiner
+  treeannotator: /usr/local/bin/treeannotator
+  treestat: /usr/local/bin/treestat

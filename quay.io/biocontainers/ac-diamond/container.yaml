@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ac-diamond
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ac-diamond
+latest:
+  1.0--h46c59ee_4: sha256:797beea248d4d705ae728663cb7ce82fc873b790fdfb774c61ae18ac416d596a
+tags:
+  1.0--h46c59ee_4: sha256:797beea248d4d705ae728663cb7ce82fc873b790fdfb774c61ae18ac416d596a
+docker: quay.io/biocontainers/ac-diamond
+aliases:
+  ac-diamond: /usr/local/bin/ac-diamond

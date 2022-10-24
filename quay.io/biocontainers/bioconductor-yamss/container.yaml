@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-yamss
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yamss
+latest:
+  1.8.1--r351_0: sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77
+tags:
+  1.8.1--r351_0: sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77
+docker: quay.io/biocontainers/bioconductor-yamss

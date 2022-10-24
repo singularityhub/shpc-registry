@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pygmes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pygmes
+latest:
+  0.1.7--py_0: sha256:979bf43e70e53adfd95a551e1dd5175c1d8c1d06c183251e1c72718a0ef35c43
+tags:
+  0.1.7--py_0: sha256:979bf43e70e53adfd95a551e1dd5175c1d8c1d06c183251e1c72718a0ef35c43
+docker: quay.io/biocontainers/pygmes
+aliases:
+  pygmes: /usr/local/bin/pygmes

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/blastalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blastalign
+latest:
+  1.4--hec16e2b_7: sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4
+tags:
+  1.4--hec16e2b_7: sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4
+docker: quay.io/biocontainers/blastalign
+aliases:
+  BlastAlign: /usr/local/bin/BlastAlign
+  BlastAlign.py: /usr/local/bin/BlastAlign.py
+  BlastAlignP: /usr/local/bin/BlastAlignP

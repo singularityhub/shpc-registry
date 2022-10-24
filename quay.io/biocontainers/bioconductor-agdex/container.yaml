@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-agdex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-agdex
+latest:
+  1.42.0--r41hdfd78af_0: sha256:41ad00b61d704ccd367fa9952874931bb5b7cb0291edad7a3e9d44b2d90fbf09
+tags:
+  1.42.0--r41hdfd78af_0: sha256:41ad00b61d704ccd367fa9952874931bb5b7cb0291edad7a3e9d44b2d90fbf09
+docker: quay.io/biocontainers/bioconductor-agdex

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/scpred-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scpred-cli
+latest:
+  0.1.0--hdfd78af_2: sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5
+tags:
+  0.1.0--hdfd78af_2: sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5
+docker: quay.io/biocontainers/scpred-cli
+aliases:
+  get_test_data.R: /usr/local/bin/get_test_data.R
+  scpred_get_feature_space.R: /usr/local/bin/scpred_get_feature_space.R
+  scpred_get_std_output.R: /usr/local/bin/scpred_get_std_output.R
+  scpred_post_install_tests.bats: /usr/local/bin/scpred_post_install_tests.bats
+  scpred_post_install_tests.sh: /usr/local/bin/scpred_post_install_tests.sh
+  scpred_predict.R: /usr/local/bin/scpred_predict.R
+  scpred_train_model.R: /usr/local/bin/scpred_train_model.R

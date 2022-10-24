@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/uvaia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for uvaia
+latest:
+  2.0.1--hc308579_0: sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c
+tags:
+  2.0.1--hc308579_0: sha256:de75ff534bbc25d266e2af1c439b3d9ed0837b63db06e4cc74bb1450b669fb4c
+docker: quay.io/biocontainers/uvaia
+aliases:
+  uvaia: /usr/local/bin/uvaia
+  uvaia_legacy: /usr/local/bin/uvaia_legacy
+  uvaiaball: /usr/local/bin/uvaiaball
+  uvaiaclust: /usr/local/bin/uvaiaclust
+  uvaialign: /usr/local/bin/uvaialign

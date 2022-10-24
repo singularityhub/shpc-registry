@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/comut
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for comut
+latest:
+  0.0.3--pyhdfd78af_0: sha256:dc7f837eb28e3a9104c864a519de8d0dcb1fb35046fb6685bb4c558d57d3d1dd
+tags:
+  0.0.3--pyhdfd78af_0: sha256:dc7f837eb28e3a9104c864a519de8d0dcb1fb35046fb6685bb4c558d57d3d1dd
+docker: quay.io/biocontainers/comut

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/alignment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for alignment
+latest:
+  1.0.10--pyh5e36f6f_0: sha256:03eeb9788d1295c9211ad078219d8c58d837faf70b4440fb21e0db8acad9bb59
+tags:
+  1.0.10--pyh5e36f6f_0: sha256:03eeb9788d1295c9211ad078219d8c58d837faf70b4440fb21e0db8acad9bb59
+docker: quay.io/biocontainers/alignment

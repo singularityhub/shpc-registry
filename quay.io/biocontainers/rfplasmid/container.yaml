@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rfplasmid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rfplasmid
+latest:
+  0.0.18--pyhdfd78af_0: sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870
+tags:
+  0.0.18--pyhdfd78af_0: sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870
+docker: quay.io/biocontainers/rfplasmid
+aliases:
+  rfplasmid: /usr/local/bin/rfplasmid

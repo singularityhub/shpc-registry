@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-readonly
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-readonly
+latest:
+  2.05--pl5321hdfd78af_1: sha256:03f8f2c08314d822552b7caecfe3dd6ddbebf38ff4a45dd187b3ccf021aff95e
+tags:
+  2.05--pl5321hdfd78af_1: sha256:03f8f2c08314d822552b7caecfe3dd6ddbebf38ff4a45dd187b3ccf021aff95e
+docker: quay.io/biocontainers/perl-readonly

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maigespack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maigespack
+latest:
+  1.58.0--r41h5c21468_1: sha256:ef2839f049f3656cb74527a3a1879f5d2214e0474f040a4144a294b41e091465
+tags:
+  1.58.0--r41h5c21468_1: sha256:ef2839f049f3656cb74527a3a1879f5d2214e0474f040a4144a294b41e091465
+docker: quay.io/biocontainers/bioconductor-maigespack

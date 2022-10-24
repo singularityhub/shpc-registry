@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-blacksheepr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-blacksheepr
+latest:
+  1.8.0--r41hdfd78af_0: sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0
+tags:
+  1.8.0--r41hdfd78af_0: sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0
+docker: quay.io/biocontainers/bioconductor-blacksheepr
+aliases:
+  .bioconductor-pasilla-post-link.sh: /usr/local/bin/.bioconductor-pasilla-post-link.sh
+  .bioconductor-pasilla-pre-unlink.sh: /usr/local/bin/.bioconductor-pasilla-pre-unlink.sh

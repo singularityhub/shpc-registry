@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/progressivemauve
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for progressivemauve
+latest:
+  snapshot_2015_02_13--h9ee0642_3: sha256:1ef6c12869b7654e14c8ac8befbc30b132da1488c6103ab326761057a1f56c3b
+tags:
+  snapshot_2015_02_13--h9ee0642_3: sha256:1ef6c12869b7654e14c8ac8befbc30b132da1488c6103ab326761057a1f56c3b
+docker: quay.io/biocontainers/progressivemauve
+aliases:
+  progressiveMauve: /usr/local/bin/progressiveMauve

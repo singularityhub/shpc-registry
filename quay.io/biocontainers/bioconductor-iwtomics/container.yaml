@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iwtomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iwtomics
+latest:
+  1.8.0--r36_1: sha256:7e1fab9c747d781a43bf259b8ec09e9e2ffc91f4d8a43d32e3fd1d50b0f59739
+tags:
+  1.8.0--r36_1: sha256:7e1fab9c747d781a43bf259b8ec09e9e2ffc91f4d8a43d32e3fd1d50b0f59739
+docker: quay.io/biocontainers/bioconductor-iwtomics

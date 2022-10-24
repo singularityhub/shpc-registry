@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fem
+latest:
+  3.15.0--r40_0: sha256:bcd55b09b268be73e5e6c05afdf48219d0e7f4966589694c0f18fa0cb65715d2
+tags:
+  3.15.0--r40_0: sha256:bcd55b09b268be73e5e6c05afdf48219d0e7f4966589694c0f18fa0cb65715d2
+docker: quay.io/biocontainers/bioconductor-fem

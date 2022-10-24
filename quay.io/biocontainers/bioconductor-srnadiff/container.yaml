@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-srnadiff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-srnadiff
+latest:
+  1.8.0--r40h5f743cb_0: sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf
+tags:
+  1.8.0--r40h5f743cb_0: sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf
+docker: quay.io/biocontainers/bioconductor-srnadiff

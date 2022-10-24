@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sscu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sscu
+latest:
+  2.8.0--r3.4.1_0: sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79
+tags:
+  2.8.0--r3.4.1_0: sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79
+docker: quay.io/biocontainers/bioconductor-sscu

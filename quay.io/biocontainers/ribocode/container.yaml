@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ribocode
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ribocode
+latest:
+  1.2.9--py36_0: sha256:3b319abf8e7e774c1eb51a423834f5abd099704f56e94d02acb8e8b89e4bd3dc
+tags:
+  1.2.9--py36_0: sha256:3b319abf8e7e774c1eb51a423834f5abd099704f56e94d02acb8e8b89e4bd3dc
+docker: quay.io/biocontainers/ribocode
+aliases:
+  GTFupdate: /usr/local/bin/GTFupdate
+  ORFcount: /usr/local/bin/ORFcount
+  RiboCode: /usr/local/bin/RiboCode
+  RiboCode_onestep: /usr/local/bin/RiboCode_onestep
+  metaplots: /usr/local/bin/metaplots
+  plot_orf_density: /usr/local/bin/plot_orf_density
+  prepare_transcripts: /usr/local/bin/prepare_transcripts

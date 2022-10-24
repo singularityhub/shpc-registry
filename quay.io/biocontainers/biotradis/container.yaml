@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/biotradis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biotradis
+latest:
+  1.4.5--hdfd78af_5: sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
+tags:
+  1.4.5--hdfd78af_5: sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054
+docker: quay.io/biocontainers/biotradis
+aliases:
+  add_tradis_tags: /usr/local/bin/add_tradis_tags
+  bacteria_tradis: /usr/local/bin/bacteria_tradis
+  basqcol: /usr/local/bin/basqcol
+  check_tradis_tags: /usr/local/bin/check_tradis_tags
+  combine_tradis_plots: /usr/local/bin/combine_tradis_plots
+  fetchseq: /usr/local/bin/fetchseq
+  filter_tradis_tags: /usr/local/bin/filter_tradis_tags
+  readstats: /usr/local/bin/readstats
+  remove_tradis_tags: /usr/local/bin/remove_tradis_tags
+  simqual: /usr/local/bin/simqual
+  simread: /usr/local/bin/simread
+  smalt: /usr/local/bin/smalt
+  splitmates: /usr/local/bin/splitmates
+  splitreads: /usr/local/bin/splitreads
+  tradis_comparison.R: /usr/local/bin/tradis_comparison.R
+  tradis_essentiality.R: /usr/local/bin/tradis_essentiality.R
+  tradis_gene_insert_sites: /usr/local/bin/tradis_gene_insert_sites
+  tradis_merge_plots: /usr/local/bin/tradis_merge_plots
+  tradis_plot: /usr/local/bin/tradis_plot
+  trunkreads: /usr/local/bin/trunkreads

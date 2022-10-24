@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-viseago
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-viseago
+latest:
+  1.8.0--r41hdfd78af_0: sha256:d2271654e4ba6083718a806ff2bc7b02ffb84aaaed8dd3bafd763af07473ac72
+tags:
+  1.8.0--r41hdfd78af_0: sha256:d2271654e4ba6083718a806ff2bc7b02ffb84aaaed8dd3bafd763af07473ac72
+docker: quay.io/biocontainers/bioconductor-viseago

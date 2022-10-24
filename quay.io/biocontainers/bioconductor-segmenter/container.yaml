@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-segmenter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-segmenter
+latest:
+  1.0.0--r41hdfd78af_0: sha256:3897c7d0b7793ef5b8ccfc47c3156e9f2da14801cea3ee45b735e00e61c8bccd
+tags:
+  1.0.0--r41hdfd78af_0: sha256:3897c7d0b7793ef5b8ccfc47c3156e9f2da14801cea3ee45b735e00e61c8bccd
+docker: quay.io/biocontainers/bioconductor-segmenter
+aliases:
+  .bioconductor-chromhmmdata-post-link.sh: /usr/local/bin/.bioconductor-chromhmmdata-post-link.sh
+  .bioconductor-chromhmmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-chromhmmdata-pre-unlink.sh

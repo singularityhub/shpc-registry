@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-blimatestingdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-blimatestingdata
+latest:
+  1.9.0--r40_0: sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2
+tags:
+  1.9.0--r40_0: sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2
+docker: quay.io/biocontainers/bioconductor-blimatestingdata
+aliases:
+  .bioconductor-blimatestingdata-post-link.sh: /usr/local/bin/.bioconductor-blimatestingdata-post-link.sh
+  .bioconductor-blimatestingdata-pre-unlink.sh: /usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh

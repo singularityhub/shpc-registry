@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-archive-zip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-archive-zip
+latest:
+  1.68--pl5321hdfd78af_0: sha256:478741133b1e77004d8e4c1c09c23ce0d990ad89807e05b74484931f0f6a8f3d
+tags:
+  1.68--pl5321hdfd78af_0: sha256:478741133b1e77004d8e4c1c09c23ce0d990ad89807e05b74484931f0f6a8f3d
+docker: quay.io/biocontainers/perl-archive-zip
+aliases:
+  crc32: /usr/local/bin/crc32

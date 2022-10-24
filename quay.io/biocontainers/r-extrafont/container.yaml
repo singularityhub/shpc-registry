@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-extrafont
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-extrafont
+latest:
+  0.17--r3.3.2_0: sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315
+tags:
+  0.17--r3.3.2_0: sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315
+docker: quay.io/biocontainers/r-extrafont

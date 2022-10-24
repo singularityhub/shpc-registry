@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/suds-jurko
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for suds-jurko
+latest:
+  0.6--py36_1: sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44
+tags:
+  0.6--py36_1: sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44
+docker: quay.io/biocontainers/suds-jurko

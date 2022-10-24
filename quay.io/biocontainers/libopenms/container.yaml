@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/libopenms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libopenms
+latest:
+  2.8.0--h7ca0330_3: sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729
+tags:
+  2.8.0--h7ca0330_3: sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729
+docker: quay.io/biocontainers/libopenms

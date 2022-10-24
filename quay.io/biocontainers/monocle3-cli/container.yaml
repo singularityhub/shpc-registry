@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/monocle3-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for monocle3-cli
+latest:
+  0.0.9--r36_1: sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6
+tags:
+  0.0.9--r36_1: sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6
+docker: quay.io/biocontainers/monocle3-cli
+aliases:
+  gdalserver: /usr/local/bin/gdalserver
+  monocle3: /usr/local/bin/monocle3

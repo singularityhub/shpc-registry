@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/kat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kat
+latest:
+  2.4.2--py36h873903e_2: sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4
+tags:
+  2.4.2--py36h873903e_2: sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4
+docker: quay.io/biocontainers/kat
+aliases:
+  kat: /usr/local/bin/kat
+  kat_distanalysis: /usr/local/bin/kat_distanalysis
+  kat_jellyfish: /usr/local/bin/kat_jellyfish
+  kat_plot_cold: /usr/local/bin/kat_plot_cold
+  kat_plot_density: /usr/local/bin/kat_plot_density
+  kat_plot_profile: /usr/local/bin/kat_plot_profile
+  kat_plot_spectra_cn: /usr/local/bin/kat_plot_spectra_cn
+  kat_plot_spectra_hist: /usr/local/bin/kat_plot_spectra_hist
+  kat_plot_spectra_mx: /usr/local/bin/kat_plot_spectra_mx

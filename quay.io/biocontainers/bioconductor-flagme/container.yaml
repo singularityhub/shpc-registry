@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flagme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flagme
+latest:
+  1.50.0--r41hc0cfd56_2: sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901
+tags:
+  1.50.0--r41hc0cfd56_2: sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901
+docker: quay.io/biocontainers/bioconductor-flagme
+aliases:
+  .bioconductor-gcspikelite-post-link.sh: /usr/local/bin/.bioconductor-gcspikelite-post-link.sh
+  .bioconductor-gcspikelite-pre-unlink.sh: /usr/local/bin/.bioconductor-gcspikelite-pre-unlink.sh

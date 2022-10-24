@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/trimns_vgp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trimns_vgp
+latest:
+  1.0--py_0: sha256:e073d2fde3373be41637147910b3fe5034baadf709456fe25c467f828bcc4944
+tags:
+  1.0--py_0: sha256:e073d2fde3373be41637147910b3fe5034baadf709456fe25c467f828bcc4944
+docker: quay.io/biocontainers/trimns_vgp
+aliases:
+  clip_regions_DNAnexus.py: /usr/local/bin/clip_regions_DNAnexus.py
+  remove_fake_cut_sites_DNAnexus.py: /usr/local/bin/remove_fake_cut_sites_DNAnexus.py
+  trim_Ns_DNAnexus.py: /usr/local/bin/trim_Ns_DNAnexus.py

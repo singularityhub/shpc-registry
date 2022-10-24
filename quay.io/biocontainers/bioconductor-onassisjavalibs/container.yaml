@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-onassisjavalibs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-onassisjavalibs
+latest:
+  1.8.0--r36_0: sha256:c622be81cb965cff887dbadba84ac24a9a10deb782de6e8040fa915bf8763d45
+tags:
+  1.8.0--r36_0: sha256:c622be81cb965cff887dbadba84ac24a9a10deb782de6e8040fa915bf8763d45
+docker: quay.io/biocontainers/bioconductor-onassisjavalibs
+aliases:
+  .bioconductor-onassisjavalibs-post-link.sh: /usr/local/bin/.bioconductor-onassisjavalibs-post-link.sh
+  .bioconductor-onassisjavalibs-pre-unlink.sh: /usr/local/bin/.bioconductor-onassisjavalibs-pre-unlink.sh

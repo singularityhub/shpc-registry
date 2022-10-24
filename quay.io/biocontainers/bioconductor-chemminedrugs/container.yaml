@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chemminedrugs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chemminedrugs
+latest:
+  1.0.2--r41hdfd78af_9: sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e
+tags:
+  1.0.2--r41hdfd78af_9: sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e
+docker: quay.io/biocontainers/bioconductor-chemminedrugs
+aliases:
+  .bioconductor-chemminedrugs-post-link.sh: /usr/local/bin/.bioconductor-chemminedrugs-post-link.sh
+  .bioconductor-chemminedrugs-pre-unlink.sh: /usr/local/bin/.bioconductor-chemminedrugs-pre-unlink.sh

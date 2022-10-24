@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-if
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-if
+latest:
+  0.0608--pl5321hdfd78af_2: sha256:d0143123994e8387c38058ff7521147e5c0ce3144890202fa5696b12e3c1616d
+tags:
+  0.0608--pl5321hdfd78af_2: sha256:d0143123994e8387c38058ff7521147e5c0ce3144890202fa5696b12e3c1616d
+docker: quay.io/biocontainers/perl-if

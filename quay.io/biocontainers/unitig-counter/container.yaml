@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/unitig-counter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for unitig-counter
+latest:
+  1.1.0--h56fc30b_0: sha256:ae6f8424538cf528728dfa0979619e3b742b67551bd8b34007768949d1ac4d19
+tags:
+  1.1.0--h56fc30b_0: sha256:ae6f8424538cf528728dfa0979619e3b742b67551bd8b34007768949d1ac4d19
+docker: quay.io/biocontainers/unitig-counter
+aliases:
+  cdbg-ops: /usr/local/bin/cdbg-ops
+  gatb-h5dump: /usr/local/bin/gatb-h5dump
+  unitig-counter: /usr/local/bin/unitig-counter

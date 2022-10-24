@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-email-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-email-simple
+latest:
+  2.216--hdfd78af_1: sha256:d9caada984725df743642ef97e1e83af1ecfe8ff1624dffe916d50e71eee072d
+tags:
+  2.216--hdfd78af_1: sha256:d9caada984725df743642ef97e1e83af1ecfe8ff1624dffe916d50e71eee072d
+docker: quay.io/biocontainers/perl-email-simple

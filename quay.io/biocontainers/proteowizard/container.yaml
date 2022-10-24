@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/proteowizard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteowizard
+latest:
+  3_0_9992--h2d50403_2: sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f
+tags:
+  3_0_9992--h2d50403_2: sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f
+docker: quay.io/biocontainers/proteowizard
+aliases:
+  chainsaw: /usr/local/bin/chainsaw
+  idcat: /usr/local/bin/idcat
+  idconvert: /usr/local/bin/idconvert
+  msaccess: /usr/local/bin/msaccess
+  msbenchmark: /usr/local/bin/msbenchmark
+  mscat: /usr/local/bin/mscat
+  msconvert: /usr/local/bin/msconvert
+  msdiff: /usr/local/bin/msdiff
+  msdir: /usr/local/bin/msdir
+  msistats: /usr/local/bin/msistats
+  mspicture: /usr/local/bin/mspicture
+  peakaboo: /usr/local/bin/peakaboo
+  pepcat: /usr/local/bin/pepcat
+  pepsum: /usr/local/bin/pepsum
+  qtofpeakpicker: /usr/local/bin/qtofpeakpicker
+  sldout: /usr/local/bin/sldout
+  txt2mzml: /usr/local/bin/txt2mzml

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mess
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mess
+latest:
+  0.5.5--r351h29659fb_0: sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f
+tags:
+  0.5.5--r351h29659fb_0: sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f
+docker: quay.io/biocontainers/r-mess

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-histonehmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-histonehmm
+latest:
+  1.8--r41h1aed7a7_4: sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc
+tags:
+  1.8--r41h1aed7a7_4: sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc
+docker: quay.io/biocontainers/r-histonehmm

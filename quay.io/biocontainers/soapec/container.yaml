@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/soapec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for soapec
+latest:
+  2.03--hd03093a_6: sha256:b7d7a98d8d124e7aa81a6090b1bdd690dfcd97c77af989622c3abe37542e9ad6
+tags:
+  2.03--hd03093a_6: sha256:b7d7a98d8d124e7aa81a6090b1bdd690dfcd97c77af989622c3abe37542e9ad6
+docker: quay.io/biocontainers/soapec
+aliases:
+  Corrector_AR: /usr/local/bin/Corrector_AR
+  Corrector_HA: /usr/local/bin/Corrector_HA
+  KmerFreq_AR: /usr/local/bin/KmerFreq_AR
+  KmerFreq_HA: /usr/local/bin/KmerFreq_HA

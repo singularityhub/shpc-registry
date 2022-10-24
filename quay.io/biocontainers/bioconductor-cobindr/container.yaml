@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cobindr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cobindr
+latest:
+  1.25.0--r40_0: sha256:f1192148f42c42242914427b5f22731ba608fb2435deeb01a21c3929ca75db67
+tags:
+  1.25.0--r40_0: sha256:f1192148f42c42242914427b5f22731ba608fb2435deeb01a21c3929ca75db67
+docker: quay.io/biocontainers/bioconductor-cobindr

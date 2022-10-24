@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/exparna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for exparna
+latest:
+  1.0.1--pl5321h9f5acd7_5: sha256:b49fb292fb9b0cb3806ed7ae453b997759f188f2a76a7500af2c83286bf0849d
+tags:
+  1.0.1--pl5321h9f5acd7_5: sha256:b49fb292fb9b0cb3806ed7ae453b997759f188f2a76a7500af2c83286bf0849d
+docker: quay.io/biocontainers/exparna
+aliases:
+  ExpaRNA: /usr/local/bin/ExpaRNA
+  RNAmultifold: /usr/local/bin/RNAmultifold

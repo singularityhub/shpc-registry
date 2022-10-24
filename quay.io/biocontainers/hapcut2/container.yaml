@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/hapcut2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hapcut2
+latest:
+  1.3.3--hb0d9459_3: sha256:40f48104f97e5a17d14c9deece97b7ce5f006e09a1bd78c6d058d23ed7e08d7c
+tags:
+  1.3.3--hb0d9459_3: sha256:40f48104f97e5a17d14c9deece97b7ce5f006e09a1bd78c6d058d23ed7e08d7c
+docker: quay.io/biocontainers/hapcut2
+aliases:
+  HAPCUT2: /usr/local/bin/HAPCUT2
+  LinkFragments.py: /usr/local/bin/LinkFragments.py
+  calculate_haplotype_statistics.py: /usr/local/bin/calculate_haplotype_statistics.py
+  extractHAIRS: /usr/local/bin/extractHAIRS
+  hapcut2: /usr/local/bin/hapcut2

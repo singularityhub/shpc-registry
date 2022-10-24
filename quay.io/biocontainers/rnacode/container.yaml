@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnacode
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnacode
+latest:
+  0.3--hec16e2b_3: sha256:b73fc2d9fb7f96fbba1cfd39a849b304628c245d562dd6a5e4c8bd1b708c2fc8
+tags:
+  0.3--hec16e2b_3: sha256:b73fc2d9fb7f96fbba1cfd39a849b304628c245d562dd6a5e4c8bd1b708c2fc8
+docker: quay.io/biocontainers/rnacode
+aliases:
+  RNAcode: /usr/local/bin/RNAcode

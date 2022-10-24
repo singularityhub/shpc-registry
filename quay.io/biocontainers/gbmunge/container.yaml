@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gbmunge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gbmunge
+latest:
+  2018.07.06--hec16e2b_4: sha256:818cc218ed20d40030152ff0e960f73e1dc026ad44342597e0d15d61c4de1bc5
+tags:
+  2018.07.06--hec16e2b_4: sha256:818cc218ed20d40030152ff0e960f73e1dc026ad44342597e0d15d61c4de1bc5
+docker: quay.io/biocontainers/gbmunge
+aliases:
+  gbmunge: /usr/local/bin/gbmunge

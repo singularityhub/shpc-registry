@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-usort
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-usort
+latest:
+  1.8.0--r351_0: sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d
+tags:
+  1.8.0--r351_0: sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d
+docker: quay.io/biocontainers/bioconductor-usort
+aliases:
+  .bioconductor-hsmmsinglecell-post-link.sh: /usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh
+  .bioconductor-hsmmsinglecell-pre-unlink.sh: /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-aod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-aod
+latest:
+  1.3--r3.3.1_0: sha256:a5972a1012f1b5244d75ad5ce66665f35d7a992b1cc4e6b5e4bff788a773fb64
+tags:
+  1.3--r3.3.1_0: sha256:a5972a1012f1b5244d75ad5ce66665f35d7a992b1cc4e6b5e4bff788a773fb64
+docker: quay.io/biocontainers/r-aod

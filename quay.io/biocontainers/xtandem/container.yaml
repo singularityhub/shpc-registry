@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/xtandem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xtandem
+latest:
+  15.12.15.2--h072c6ed_6: sha256:881ed790dc6ea4dcc09c0a30d57645624e5a67b737d2e025e9a3e3cab99ee431
+tags:
+  15.12.15.2--h072c6ed_6: sha256:881ed790dc6ea4dcc09c0a30d57645624e5a67b737d2e025e9a3e3cab99ee431
+docker: quay.io/biocontainers/xtandem
+aliases:
+  xtandem: /usr/local/bin/xtandem

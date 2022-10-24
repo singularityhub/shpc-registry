@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-checkbin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-checkbin
+latest:
+  0.04--pl5321hdfd78af_3: sha256:2b8aa2f86c8b0d826887c1e1bfc1392e80817e1558921b29c514850973dffd87
+tags:
+  0.04--pl5321hdfd78af_3: sha256:2b8aa2f86c8b0d826887c1e1bfc1392e80817e1558921b29c514850973dffd87
+docker: quay.io/biocontainers/perl-devel-checkbin

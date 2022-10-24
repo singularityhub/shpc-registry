@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-sax-writer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-sax-writer
+latest:
+  0.57--pl5321hdfd78af_1: sha256:9cfac1f93d6edf1456f6924ca51bfd1cbfa2aae087b4c84f6ffea7645eb7c2cc
+tags:
+  0.57--pl5321hdfd78af_1: sha256:9cfac1f93d6edf1456f6924ca51bfd1cbfa2aae087b4c84f6ffea7645eb7c2cc
+docker: quay.io/biocontainers/perl-xml-sax-writer

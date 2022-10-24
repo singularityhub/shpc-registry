@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-qdnaseq.hg19
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qdnaseq.hg19
+latest:
+  1.24.0--r41hdfd78af_1: sha256:6a875f17066d84796dc27fa9e284a7281e1c4e113edcdee372dde9b9a752ffed
+tags:
+  1.24.0--r41hdfd78af_1: sha256:6a875f17066d84796dc27fa9e284a7281e1c4e113edcdee372dde9b9a752ffed
+docker: quay.io/biocontainers/bioconductor-qdnaseq.hg19
+aliases:
+  .bioconductor-qdnaseq.hg19-post-link.sh: /usr/local/bin/.bioconductor-qdnaseq.hg19-post-link.sh
+  .bioconductor-qdnaseq.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-qdnaseq.hg19-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-anvilbilling
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-anvilbilling
+latest:
+  1.4.0--r41hdfd78af_0: sha256:716ba39d17a0505c332775698ca850de9ec9dfc5553cfcd0c58bbe20f5637b3b
+tags:
+  1.4.0--r41hdfd78af_0: sha256:716ba39d17a0505c332775698ca850de9ec9dfc5553cfcd0c58bbe20f5637b3b
+docker: quay.io/biocontainers/bioconductor-anvilbilling

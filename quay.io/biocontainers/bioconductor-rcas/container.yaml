@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcas
+latest:
+  1.8.0--r351_0: sha256:468fb28a68bc4d4c90c3b85616b75f65b45f52b561eedd4f65096bb65fe99575
+tags:
+  1.8.0--r351_0: sha256:468fb28a68bc4d4c90c3b85616b75f65b45f52b561eedd4f65096bb65fe99575
+docker: quay.io/biocontainers/bioconductor-rcas

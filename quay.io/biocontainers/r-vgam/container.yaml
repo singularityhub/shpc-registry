@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-vgam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-vgam
+latest:
+  1.0_2--r3.3.1_0: sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30
+tags:
+  1.0_2--r3.3.1_0: sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30
+docker: quay.io/biocontainers/r-vgam

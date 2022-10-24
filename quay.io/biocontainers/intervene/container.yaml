@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/intervene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for intervene
+latest:
+  0.6.5--pyh3252c3a_1: sha256:936817596f2e8cec901c264c7178adec98f96c17b9b1f8bde62d07bf2ba7e0df
+tags:
+  0.6.5--pyh3252c3a_1: sha256:936817596f2e8cec901c264c7178adec98f96c17b9b1f8bde62d07bf2ba7e0df
+docker: quay.io/biocontainers/intervene
+aliases:
+  intervene: /usr/local/bin/intervene

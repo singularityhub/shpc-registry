@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/metamaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metamaps
+latest:
+  0.1.98102e9--h7ff8a90_1: sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
+tags:
+  0.1.98102e9--h7ff8a90_1: sha256:ba772dcb091145643e68054cf20a0b9b0c28148e4c39cd73f882045efd796692
+docker: quay.io/biocontainers/metamaps
+aliases:
+  DBinfo.pl: /usr/local/bin/DBinfo.pl
+  annotateRefSeqSequencesWithUniqueTaxonIDs.pl: /usr/local/bin/annotateRefSeqSequencesWithUniqueTaxonIDs.pl
+  benchmarkInference.pl: /usr/local/bin/benchmarkInference.pl
+  buildDB.pl: /usr/local/bin/buildDB.pl
+  callCentrifugeOnConvertedDB.pl: /usr/local/bin/callCentrifugeOnConvertedDB.pl
+  callKraken2OnConvertedDB.pl: /usr/local/bin/callKraken2OnConvertedDB.pl
+  callKrakenOnConvertedDB.pl: /usr/local/bin/callKrakenOnConvertedDB.pl
+  combineAndAnnotateReferences.pl: /usr/local/bin/combineAndAnnotateReferences.pl
+  convertMetaMapsToCentrifuge.pl: /usr/local/bin/convertMetaMapsToCentrifuge.pl
+  convertMetaMapsToKraken.pl: /usr/local/bin/convertMetaMapsToKraken.pl
+  convertMetaMapsToMash.pl: /usr/local/bin/convertMetaMapsToMash.pl
+  doPlots.R: /usr/local/bin/doPlots.R
+  downloadRefSeq.pl: /usr/local/bin/downloadRefSeq.pl
+  estimateSelfSimilarity.pl: /usr/local/bin/estimateSelfSimilarity.pl
+  firstQuartileScore.pl: /usr/local/bin/firstQuartileScore.pl
+  fixSimulationStore.pl: /usr/local/bin/fixSimulationStore.pl
+  geneLevelAnalysis.pl: /usr/local/bin/geneLevelAnalysis.pl
+  metamaps: /usr/local/bin/metamaps
+  plotMappingSummary.R: /usr/local/bin/plotMappingSummary.R
+  plotUnknownResults.R: /usr/local/bin/plotUnknownResults.R
+  shortenContigIDs.pl: /usr/local/bin/shortenContigIDs.pl
+  simulate.pl: /usr/local/bin/simulate.pl
+  test2.pl: /usr/local/bin/test2.pl
+  validateDB.pl: /usr/local/bin/validateDB.pl

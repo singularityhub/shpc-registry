@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pengls
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pengls
+latest:
+  1.0.0--r41hdfd78af_0: sha256:9e60990bc6a502901b608fac051aeea0597da4a61b39b9c63ba826f14a026271
+tags:
+  1.0.0--r41hdfd78af_0: sha256:9e60990bc6a502901b608fac051aeea0597da4a61b39b9c63ba826f14a026271
+docker: quay.io/biocontainers/bioconductor-pengls

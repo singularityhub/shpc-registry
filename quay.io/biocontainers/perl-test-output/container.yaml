@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-output
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-output
+latest:
+  1.031--pl5321hdfd78af_1: sha256:642db2fea4d2095b6c7086c369e3932a7bddb87430eaf71a5a9fd277a49b592d
+tags:
+  1.031--pl5321hdfd78af_1: sha256:642db2fea4d2095b6c7086c369e3932a7bddb87430eaf71a5a9fd277a49b592d
+docker: quay.io/biocontainers/perl-test-output

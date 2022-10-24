@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-exception-class
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-exception-class
+latest:
+  1.45--pl5321hdfd78af_0: sha256:195ee07b9a93dd574265a55e8e3dc8c24b52022c82b9328b6e3697a71a319dc3
+tags:
+  1.45--pl5321hdfd78af_0: sha256:195ee07b9a93dd574265a55e8e3dc8c24b52022c82b9328b6e3697a71a319dc3
+docker: quay.io/biocontainers/perl-exception-class

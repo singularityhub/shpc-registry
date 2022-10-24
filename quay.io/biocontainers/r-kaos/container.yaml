@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-kaos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-kaos
+latest:
+  0.1.0--r351h6115d3f_0: sha256:e79e20f5c446fa657e9c18981e2d360edd7ff98d709fc8e172d1ba89c978b4b8
+tags:
+  0.1.0--r351h6115d3f_0: sha256:e79e20f5c446fa657e9c18981e2d360edd7ff98d709fc8e172d1ba89c978b4b8
+docker: quay.io/biocontainers/r-kaos

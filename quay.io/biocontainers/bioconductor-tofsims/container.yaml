@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tofsims
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tofsims
+latest:
+  1.22.0--r41hc247a5b_2: sha256:975a0a4127500788fc5393d14fbe22733ca72529579adb871519d28d5dc39839
+tags:
+  1.22.0--r41hc247a5b_2: sha256:975a0a4127500788fc5393d14fbe22733ca72529579adb871519d28d5dc39839
+docker: quay.io/biocontainers/bioconductor-tofsims

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cyvcf2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cyvcf2
+latest:
+  0.8.4--py36h355e19c_4: sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60
+tags:
+  0.8.4--py36h355e19c_4: sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60
+docker: quay.io/biocontainers/cyvcf2

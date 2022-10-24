@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tidyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tidyr
+latest:
+  1.0.2: sha256:121699ae880e82d44c1e8c7ff8aeeaf7a97ab0d0dd840de3a4ca91aa3814f5a3
+tags:
+  1.0.2: sha256:121699ae880e82d44c1e8c7ff8aeeaf7a97ab0d0dd840de3a4ca91aa3814f5a3
+docker: quay.io/biocontainers/r-tidyr

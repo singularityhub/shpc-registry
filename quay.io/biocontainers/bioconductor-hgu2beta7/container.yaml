@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu2beta7
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu2beta7
+latest:
+  1.34.0--r41hdfd78af_1: sha256:c7de83acbcbbecd7a11eba58710d25c8d3445d50c0580d1bd838e6d92e810e2b
+tags:
+  1.34.0--r41hdfd78af_1: sha256:c7de83acbcbbecd7a11eba58710d25c8d3445d50c0580d1bd838e6d92e810e2b
+docker: quay.io/biocontainers/bioconductor-hgu2beta7
+aliases:
+  .bioconductor-hgu2beta7-post-link.sh: /usr/local/bin/.bioconductor-hgu2beta7-post-link.sh
+  .bioconductor-hgu2beta7-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu2beta7-pre-unlink.sh

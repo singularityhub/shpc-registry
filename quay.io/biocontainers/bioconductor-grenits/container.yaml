@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-grenits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-grenits
+latest:
+  1.46.0--r41hc247a5b_2: sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12
+tags:
+  1.46.0--r41hc247a5b_2: sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12
+docker: quay.io/biocontainers/bioconductor-grenits

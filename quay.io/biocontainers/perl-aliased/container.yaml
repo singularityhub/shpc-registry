@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-aliased
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-aliased
+latest:
+  0.34--pl5321hdfd78af_3: sha256:5a5b31c025082724b7b923bd99e37d7ce4a19fd054ea5610df9a94571203d209
+tags:
+  0.34--pl5321hdfd78af_3: sha256:5a5b31c025082724b7b923bd99e37d7ce4a19fd054ea5610df9a94571203d209
+docker: quay.io/biocontainers/perl-aliased

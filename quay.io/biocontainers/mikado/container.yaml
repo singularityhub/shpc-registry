@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/mikado
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mikado
+latest:
+  2.2.4--py39h70b41aa_0: sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea
+tags:
+  2.2.4--py39h70b41aa_0: sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea
+docker: quay.io/biocontainers/mikado
+aliases:
+  add_transcript_feature_to_gtf.py: /usr/local/bin/add_transcript_feature_to_gtf.py
+  align_collect.py: /usr/local/bin/align_collect.py
+  asm_collect.py: /usr/local/bin/asm_collect.py
+  bam2gtf.py: /usr/local/bin/bam2gtf.py
+  black-primer: /usr/local/bin/black-primer
+  calculate_distances.py: /usr/local/bin/calculate_distances.py
+  class_run.py: /usr/local/bin/class_run.py
+  convert_cdna_match_gff3.py: /usr/local/bin/convert_cdna_match_gff3.py
+  daijin: /usr/local/bin/daijin
+  extract_promoter_regions.py: /usr/local/bin/extract_promoter_regions.py
+  getFastaFromIds.py: /usr/local/bin/getFastaFromIds.py
+  gffjunc_to_bed12.py: /usr/local/bin/gffjunc_to_bed12.py
+  grep.py: /usr/local/bin/grep.py
+  hypothesis: /usr/local/bin/hypothesis
+  merge_junction_bed12.py: /usr/local/bin/merge_junction_bed12.py
+  mikado: /usr/local/bin/mikado
+  remove_from_embl.py: /usr/local/bin/remove_from_embl.py
+  remove_utrs.py: /usr/local/bin/remove_utrs.py
+  sanitize_blast_db.py: /usr/local/bin/sanitize_blast_db.py
+  split_fasta.py: /usr/local/bin/split_fasta.py
+  tease_maker_apart.py: /usr/local/bin/tease_maker_apart.py
+  trim_long_introns.py: /usr/local/bin/trim_long_introns.py

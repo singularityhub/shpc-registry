@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-greengenes13.5mgdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-greengenes13.5mgdb
+latest:
+  2.0.0--r40hdfd78af_6: sha256:8bcd9b39f01e46ea77e46de9d7586be44dac8157fc78994e84515b73209f41a8
+tags:
+  2.0.0--r40hdfd78af_6: sha256:8bcd9b39f01e46ea77e46de9d7586be44dac8157fc78994e84515b73209f41a8
+docker: quay.io/biocontainers/bioconductor-greengenes13.5mgdb
+aliases:
+  .bioconductor-greengenes13.5mgdb-post-link.sh: /usr/local/bin/.bioconductor-greengenes13.5mgdb-post-link.sh
+  .bioconductor-greengenes13.5mgdb-pre-unlink.sh: /usr/local/bin/.bioconductor-greengenes13.5mgdb-pre-unlink.sh

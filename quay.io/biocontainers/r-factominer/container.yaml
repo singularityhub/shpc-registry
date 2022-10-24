@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-factominer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-factominer
+latest:
+  1.38--r3.4.1_0: sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706
+tags:
+  1.38--r3.4.1_0: sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706
+docker: quay.io/biocontainers/r-factominer

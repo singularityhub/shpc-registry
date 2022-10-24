@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gtrellis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gtrellis
+latest:
+  1.26.0--r41hdfd78af_0: sha256:38a955a59deaff9985782d0440e8f69ed5139eef9a46ff55bd22443d889a2a0d
+tags:
+  1.26.0--r41hdfd78af_0: sha256:38a955a59deaff9985782d0440e8f69ed5139eef9a46ff55bd22443d889a2a0d
+docker: quay.io/biocontainers/bioconductor-gtrellis

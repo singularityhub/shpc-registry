@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/alfa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for alfa
+latest:
+  1.1.1--pyh5e36f6f_0: sha256:fcb14e5153096d7faada4911989566038f1eca4899db82706478a360fe9af660
+tags:
+  1.1.1--pyh5e36f6f_0: sha256:fcb14e5153096d7faada4911989566038f1eca4899db82706478a360fe9af660
+docker: quay.io/biocontainers/alfa
+aliases:
+  alfa: /usr/local/bin/alfa

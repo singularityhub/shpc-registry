@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/dxpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dxpy
+latest:
+  0.318.1--pyh5e36f6f_0: sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca
+tags:
+  0.318.1--pyh5e36f6f_0: sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca
+docker: quay.io/biocontainers/dxpy
+aliases:
+  dx: /usr/local/bin/dx
+  dx-app-wizard: /usr/local/bin/dx-app-wizard
+  dx-build-app: /usr/local/bin/dx-build-app
+  dx-build-applet: /usr/local/bin/dx-build-applet
+  dx-clone-asset: /usr/local/bin/dx-clone-asset
+  dx-docker: /usr/local/bin/dx-docker
+  dx-download-all-inputs: /usr/local/bin/dx-download-all-inputs
+  dx-fetch-bundled-depends: /usr/local/bin/dx-fetch-bundled-depends
+  dx-generate-dxapp: /usr/local/bin/dx-generate-dxapp
+  dx-jobutil-add-output: /usr/local/bin/dx-jobutil-add-output
+  dx-jobutil-dxlink: /usr/local/bin/dx-jobutil-dxlink
+  dx-jobutil-new-job: /usr/local/bin/dx-jobutil-new-job
+  dx-jobutil-parse-link: /usr/local/bin/dx-jobutil-parse-link
+  dx-jobutil-report-error: /usr/local/bin/dx-jobutil-report-error
+  dx-log-stream: /usr/local/bin/dx-log-stream
+  dx-mount-all-inputs: /usr/local/bin/dx-mount-all-inputs
+  dx-notebook-reconnect: /usr/local/bin/dx-notebook-reconnect
+  dx-print-bash-vars: /usr/local/bin/dx-print-bash-vars
+  dx-upload-all-outputs: /usr/local/bin/dx-upload-all-outputs
+  wsdump: /usr/local/bin/wsdump
+  xattr: /usr/local/bin/xattr

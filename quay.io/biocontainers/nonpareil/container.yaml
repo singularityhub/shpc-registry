@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nonpareil
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nonpareil
+latest:
+  3.4.1--r41h9f5acd7_1: sha256:c5a505e4313c44fa008fad2afa551cd50b2ea33f50dd2e4e3859c20f02bbab6b
+tags:
+  3.4.1--r41h9f5acd7_1: sha256:c5a505e4313c44fa008fad2afa551cd50b2ea33f50dd2e4e3859c20f02bbab6b
+docker: quay.io/biocontainers/nonpareil
+aliases:
+  nonpareil: /usr/local/bin/nonpareil

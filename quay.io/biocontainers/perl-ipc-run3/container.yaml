@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ipc-run3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ipc-run3
+latest:
+  0.048--pl5321hdfd78af_1: sha256:d9fa10893c8cd7326c12142246f61b16eb4f336b1e237c89691e7d931cebb303
+tags:
+  0.048--pl5321hdfd78af_1: sha256:d9fa10893c8cd7326c12142246f61b16eb4f336b1e237c89691e7d931cebb303
+docker: quay.io/biocontainers/perl-ipc-run3

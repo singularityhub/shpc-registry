@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-msgpack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-msgpack
+latest:
+  0.6.1--py36h2ad2d48_5: sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24
+tags:
+  0.6.1--py36h2ad2d48_5: sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24
+docker: quay.io/biocontainers/python-msgpack

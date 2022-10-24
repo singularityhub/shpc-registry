@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nam
+latest:
+  1.6.4--r351h9d2a408_0: sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f
+tags:
+  1.6.4--r351h9d2a408_0: sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f
+docker: quay.io/biocontainers/r-nam

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/goalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for goalign
+latest:
+  0.3.5--h4b4d50d_1: sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd
+tags:
+  0.3.5--h4b4d50d_1: sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd
+docker: quay.io/biocontainers/goalign
+aliases:
+  goalign: /usr/local/bin/goalign
+  goalign_test.sh: /usr/local/bin/goalign_test.sh

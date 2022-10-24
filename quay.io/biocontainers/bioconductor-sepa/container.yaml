@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-sepa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sepa
+latest:
+  1.8.0--r3.4.1_0: sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd
+tags:
+  1.8.0--r3.4.1_0: sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd
+docker: quay.io/biocontainers/bioconductor-sepa
+aliases:
+  GO.db_3.5.0_R_x86_64-pc-linux-gnu.tar.gz: /usr/local/bin/GO.db_3.5.0_R_x86_64-pc-linux-gnu.tar.gz
+  org.Hs.eg.db_3.4.2_R_x86_64-pc-linux-gnu.tar.gz: /usr/local/bin/org.Hs.eg.db_3.4.2_R_x86_64-pc-linux-gnu.tar.gz
+  org.Mm.eg.db_3.5.0_R_x86_64-pc-linux-gnu.tar.gz: /usr/local/bin/org.Mm.eg.db_3.5.0_R_x86_64-pc-linux-gnu.tar.gz

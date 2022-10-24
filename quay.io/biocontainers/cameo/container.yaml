@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cameo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cameo
+latest:
+  0.13.6--pyhdfd78af_0: sha256:a87c3d8258e0c7d3d30285ae263833747983aaccf992c50e36e26415c4133d02
+tags:
+  0.13.6--pyhdfd78af_0: sha256:a87c3d8258e0c7d3d30285ae263833747983aaccf992c50e36e26415c4133d02
+docker: quay.io/biocontainers/cameo
+aliases:
+  cameo: /usr/local/bin/cameo
+  grako: /usr/local/bin/grako
+  httpx: /usr/local/bin/httpx

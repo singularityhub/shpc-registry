@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-facopy.annot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-facopy.annot
+latest:
+  1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
+tags:
+  1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
+docker: quay.io/biocontainers/bioconductor-facopy.annot
+aliases:
+  .bioconductor-facopy.annot-post-link.sh: /usr/local/bin/.bioconductor-facopy.annot-post-link.sh
+  .bioconductor-facopy.annot-pre-unlink.sh: /usr/local/bin/.bioconductor-facopy.annot-pre-unlink.sh

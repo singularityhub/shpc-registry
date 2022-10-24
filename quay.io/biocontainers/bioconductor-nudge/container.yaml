@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nudge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nudge
+latest:
+  1.46.0--r351_0: sha256:ec5bf0fb581831d71434f0d5a5a0c0a899002ea2c8a14b18ae745e69bd7ebe19
+tags:
+  1.46.0--r351_0: sha256:ec5bf0fb581831d71434f0d5a5a0c0a899002ea2c8a14b18ae745e69bd7ebe19
+docker: quay.io/biocontainers/bioconductor-nudge

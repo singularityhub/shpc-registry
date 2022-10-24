@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/biotdg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biotdg
+latest:
+  0.1.0--py_0: sha256:c46f134747201d3c6670d1bda679b562c84c56efa9016652adddb08cce7c042b
+tags:
+  0.1.0--py_0: sha256:c46f134747201d3c6670d1bda679b562c84c56efa9016652adddb08cce7c042b
+docker: quay.io/biocontainers/biotdg
+aliases:
+  biotdg: /usr/local/bin/biotdg
+  dwgsim: /usr/local/bin/dwgsim
+  dwgsim_eval: /usr/local/bin/dwgsim_eval

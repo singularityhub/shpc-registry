@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/asciigenome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for asciigenome
+latest:
+  1.8.0--0: sha256:0ad0505b4c6ff89bf69a28ff1d937a71afe19c1e8caa73e35553f11757f2f89c
+tags:
+  1.8.0--0: sha256:0ad0505b4c6ff89bf69a28ff1d937a71afe19c1e8caa73e35553f11757f2f89c
+docker: quay.io/biocontainers/asciigenome
+aliases:
+  ASCIIGenome: /usr/local/bin/ASCIIGenome

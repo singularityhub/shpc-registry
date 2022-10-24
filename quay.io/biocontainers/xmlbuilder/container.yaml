@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xmlbuilder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xmlbuilder
+latest:
+  1.0--py27_1: sha256:393bc1df64bc47a991cbbbbb9d697521afe4e14f15cf6cfe7dbcdd37d586b827
+tags:
+  1.0--py27_1: sha256:393bc1df64bc47a991cbbbbb9d697521afe4e14f15cf6cfe7dbcdd37d586b827
+docker: quay.io/biocontainers/xmlbuilder

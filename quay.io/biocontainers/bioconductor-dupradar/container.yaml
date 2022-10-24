@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dupradar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dupradar
+latest:
+  1.8.0--r3.4.1_1: sha256:0f810499962bf98741c82fc1cbbc5cfc86ff2e049efe08c1bde9a3b889486d6a
+tags:
+  1.8.0--r3.4.1_1: sha256:0f810499962bf98741c82fc1cbbc5cfc86ff2e049efe08c1bde9a3b889486d6a
+docker: quay.io/biocontainers/bioconductor-dupradar

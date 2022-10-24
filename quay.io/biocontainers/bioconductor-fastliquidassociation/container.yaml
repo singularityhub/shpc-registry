@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-fastliquidassociation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fastliquidassociation
+latest:
+  1.30.0--r41hdfd78af_0: sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602
+tags:
+  1.30.0--r41hdfd78af_0: sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602
+docker: quay.io/biocontainers/bioconductor-fastliquidassociation
+aliases:
+  .bioconductor-yeastcc-post-link.sh: /usr/local/bin/.bioconductor-yeastcc-post-link.sh
+  .bioconductor-yeastcc-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastcc-pre-unlink.sh

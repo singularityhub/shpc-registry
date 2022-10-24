@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biasaway
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biasaway
+latest:
+  3.3.0--py_0: sha256:7451e7ea4a3c0e6358182966f2f91c3a7416f7250533bff7b4fc46d86801ba8c
+tags:
+  3.3.0--py_0: sha256:7451e7ea4a3c0e6358182966f2f91c3a7416f7250533bff7b4fc46d86801ba8c
+docker: quay.io/biocontainers/biasaway
+aliases:
+  biasaway: /usr/local/bin/biasaway

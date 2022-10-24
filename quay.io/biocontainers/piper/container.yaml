@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/piper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for piper
+latest:
+  0.12.3--pyhdfd78af_0: sha256:8aa82fbb1ae15e6a3ee039c96a2142988931c2400b6a9e71c140c6fcb0b87a78
+tags:
+  0.12.3--pyhdfd78af_0: sha256:8aa82fbb1ae15e6a3ee039c96a2142988931c2400b6a9e71c140c6fcb0b87a78
+docker: quay.io/biocontainers/piper

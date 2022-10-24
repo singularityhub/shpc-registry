@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/ptools_bin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ptools_bin
+latest:
+  0.0.7--pyh5e36f6f_0: sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
+tags:
+  0.0.7--pyh5e36f6f_0: sha256:2cc59e9ccf72d460836f424dbfe63554d3b9b224c1a2ba3574a5dd110c77310c
+docker: quay.io/biocontainers/ptools_bin
+aliases:
+  10x_bam2fastq: /usr/local/bin/10x_bam2fastq
+  compress: /usr/local/bin/compress
+  createDiff: /usr/local/bin/createDiff
+  getSeq_genome_wN: /usr/local/bin/getSeq_genome_wN
+  getSeq_genome_woN: /usr/local/bin/getSeq_genome_woN
+  makeBAM.sh: /usr/local/bin/makeBAM.sh
+  makeDiff.sh: /usr/local/bin/makeDiff.sh
+  makeFastq.sh: /usr/local/bin/makeFastq.sh
+  make_unique: /usr/local/bin/make_unique
+  makepBAM_genome.sh: /usr/local/bin/makepBAM_genome.sh
+  makepBAM_transcriptome.sh: /usr/local/bin/makepBAM_transcriptome.sh
+  pbam2bam: /usr/local/bin/pbam2bam
+  pbam_mapped_transcriptome: /usr/local/bin/pbam_mapped_transcriptome
+  print_unique: /usr/local/bin/print_unique

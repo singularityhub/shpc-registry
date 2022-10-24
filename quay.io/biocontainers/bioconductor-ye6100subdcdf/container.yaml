@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ye6100subdcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ye6100subdcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:5d652da46b78b685ae264c5fb88467927999c361409b0543a036a5b3dd2191b7
+tags:
+  2.18.0--r41hdfd78af_9: sha256:5d652da46b78b685ae264c5fb88467927999c361409b0543a036a5b3dd2191b7
+docker: quay.io/biocontainers/bioconductor-ye6100subdcdf
+aliases:
+  .bioconductor-ye6100subdcdf-post-link.sh: /usr/local/bin/.bioconductor-ye6100subdcdf-post-link.sh
+  .bioconductor-ye6100subdcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ye6100subdcdf-pre-unlink.sh

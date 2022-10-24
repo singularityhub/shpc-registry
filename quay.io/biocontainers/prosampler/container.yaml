@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prosampler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prosampler
+latest:
+  1.0--hc9558a2_0: sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a
+tags:
+  1.0--hc9558a2_0: sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a
+docker: quay.io/biocontainers/prosampler
+aliases:
+  ProSampler: /usr/local/bin/ProSampler

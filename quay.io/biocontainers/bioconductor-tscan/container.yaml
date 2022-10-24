@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tscan
+latest:
+  1.32.0--r41hdfd78af_0: sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc
+tags:
+  1.32.0--r41hdfd78af_0: sha256:f19321a89bc71359e24c9fd3152d73f9008d95b88ca95e43adeb5beb375f49cc
+docker: quay.io/biocontainers/bioconductor-tscan

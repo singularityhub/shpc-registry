@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msimpute
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msimpute
+latest:
+  1.4.0--r41hdfd78af_0: sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399
+tags:
+  1.4.0--r41hdfd78af_0: sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399
+docker: quay.io/biocontainers/bioconductor-msimpute

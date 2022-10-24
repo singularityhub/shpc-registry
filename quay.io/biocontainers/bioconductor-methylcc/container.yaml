@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-methylcc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methylcc
+latest:
+  1.6.0--r41hdfd78af_0: sha256:d789fbdb9a6bc8e20b5c0b3ff0a20c8f5d24589f6822c4b5958cff847235766c
+tags:
+  1.6.0--r41hdfd78af_0: sha256:d789fbdb9a6bc8e20b5c0b3ff0a20c8f5d24589f6822c4b5958cff847235766c
+docker: quay.io/biocontainers/bioconductor-methylcc
+aliases:
+  .bioconductor-flowsorted.blood.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-post-link.sh
+  .bioconductor-flowsorted.blood.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-pre-unlink.sh

@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/bleties
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bleties
+latest:
+  0.1.9--pyhdfd78af_0: sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d
+tags:
+  0.1.9--pyhdfd78af_0: sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d
+docker: quay.io/biocontainers/bleties
+aliases:
+  NCRF: /usr/local/bin/NCRF
+  bleties: /usr/local/bin/bleties
+  milcor_plot.py: /usr/local/bin/milcor_plot.py
+  milraa_plot.py: /usr/local/bin/milraa_plot.py
+  ncrf_cat: /usr/local/bin/ncrf_cat
+  ncrf_cat.py: /usr/local/bin/ncrf_cat.py
+  ncrf_consensus_filter: /usr/local/bin/ncrf_consensus_filter
+  ncrf_consensus_filter.py: /usr/local/bin/ncrf_consensus_filter.py
+  ncrf_parse.py: /usr/local/bin/ncrf_parse.py
+  ncrf_resolve_overlaps: /usr/local/bin/ncrf_resolve_overlaps
+  ncrf_resolve_overlaps.py: /usr/local/bin/ncrf_resolve_overlaps.py
+  ncrf_sort: /usr/local/bin/ncrf_sort
+  ncrf_sort.py: /usr/local/bin/ncrf_sort.py
+  ncrf_summary: /usr/local/bin/ncrf_summary
+  ncrf_summary.py: /usr/local/bin/ncrf_summary.py
+  ncrf_to_bed: /usr/local/bin/ncrf_to_bed
+  ncrf_to_bed.py: /usr/local/bin/ncrf_to_bed.py
+  spoa: /usr/local/bin/spoa

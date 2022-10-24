@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/merfishtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for merfishtools
+latest:
+  1.5.0--py35h549429d_0: sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6
+tags:
+  1.5.0--py35h549429d_0: sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6
+docker: quay.io/biocontainers/merfishtools
+aliases:
+  merfishtools: /usr/local/bin/merfishtools

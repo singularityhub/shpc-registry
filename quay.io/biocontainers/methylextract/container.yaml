@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/methylextract
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for methylextract
+latest:
+  1.9.1--1: sha256:e53dca4fdba04b3f989fed47f98c43cbf87427c635c6140e90a801470f01bac2
+tags:
+  1.9.1--1: sha256:e53dca4fdba04b3f989fed47f98c43cbf87427c635c6140e90a801470f01bac2
+docker: quay.io/biocontainers/methylextract
+aliases:
+  MethylExtract.pl: /usr/local/bin/MethylExtract.pl
+  MethylExtractBSCR.pl: /usr/local/bin/MethylExtractBSCR.pl
+  MethylExtractBSPvalue.pl: /usr/local/bin/MethylExtractBSPvalue.pl

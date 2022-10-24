@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cutqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cutqc
+latest:
+  0.07--hdfd78af_0: sha256:164a0dcee4bfba8cfa346948f7492139310765baa5d44a219fa864d14f893629
+tags:
+  0.07--hdfd78af_0: sha256:164a0dcee4bfba8cfa346948f7492139310765baa5d44a219fa864d14f893629
+docker: quay.io/biocontainers/cutqc
+aliases:
+  cutqc: /usr/local/bin/cutqc
+  fastqc_report.Rmd: /usr/local/bin/fastqc_report.Rmd
+  fastqc_single_report.Rmd: /usr/local/bin/fastqc_single_report.Rmd

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-milor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-milor
+latest:
+  1.2.0--r41hdfd78af_0: sha256:70d08972ec1ef8354155354a3047ad441cdb232215da090841a27f37280b62c0
+tags:
+  1.2.0--r41hdfd78af_0: sha256:70d08972ec1ef8354155354a3047ad441cdb232215da090841a27f37280b62c0
+docker: quay.io/biocontainers/bioconductor-milor

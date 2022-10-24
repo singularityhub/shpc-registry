@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methvisual
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methvisual
+latest:
+  1.39.0--r40_0: sha256:03f372a8a484dbd6c66e62d0ca07b6471db38518c3cb193d112f00fd8405683a
+tags:
+  1.39.0--r40_0: sha256:03f372a8a484dbd6c66e62d0ca07b6471db38518c3cb193d112f00fd8405683a
+docker: quay.io/biocontainers/bioconductor-methvisual

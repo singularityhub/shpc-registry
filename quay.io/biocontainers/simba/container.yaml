@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/simba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simba
+latest:
+  1.1--pyhdfd78af_0: sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448
+tags:
+  1.1--pyhdfd78af_0: sha256:8947ee7a83ad53fcc315209ff5fef1dbb49da2419dab574d82df465b43452448
+docker: quay.io/biocontainers/simba
+aliases:
+  torchbiggraph_config: /usr/local/bin/torchbiggraph_config
+  torchbiggraph_eval: /usr/local/bin/torchbiggraph_eval
+  torchbiggraph_example_fb15k: /usr/local/bin/torchbiggraph_example_fb15k
+  torchbiggraph_example_livejournal: /usr/local/bin/torchbiggraph_example_livejournal
+  torchbiggraph_export_to_tsv: /usr/local/bin/torchbiggraph_export_to_tsv
+  torchbiggraph_import_from_parquet: /usr/local/bin/torchbiggraph_import_from_parquet
+  torchbiggraph_import_from_tsv: /usr/local/bin/torchbiggraph_import_from_tsv
+  torchbiggraph_partitionserver: /usr/local/bin/torchbiggraph_partitionserver
+  torchbiggraph_train: /usr/local/bin/torchbiggraph_train

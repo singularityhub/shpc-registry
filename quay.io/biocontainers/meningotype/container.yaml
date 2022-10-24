@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/meningotype
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for meningotype
+latest:
+  0.8.5--pyhdfd78af_0: sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501
+tags:
+  0.8.5--pyhdfd78af_0: sha256:9d28ae0b769f13c72a37cc86c230eb7c028f13dbe55f2843edee3ea199844501
+docker: quay.io/biocontainers/meningotype
+aliases:
+  gfPcr: /usr/local/bin/gfPcr
+  isPcr: /usr/local/bin/isPcr
+  meningotype: /usr/local/bin/meningotype

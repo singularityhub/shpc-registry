@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/jasminesv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jasminesv
+latest:
+  1.1.5--hdfd78af_0: sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71
+tags:
+  1.1.5--hdfd78af_0: sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71
+docker: quay.io/biocontainers/jasminesv
+aliases:
+  igv_jasmine: /usr/local/bin/igv_jasmine
+  iris: /usr/local/bin/iris
+  iris.jar: /usr/local/bin/iris.jar
+  jasmine: /usr/local/bin/jasmine
+  jasmine.jar: /usr/local/bin/jasmine.jar
+  jasmine_igv.jar: /usr/local/bin/jasmine_igv.jar
+  jasmine_iris.jar: /usr/local/bin/jasmine_iris.jar

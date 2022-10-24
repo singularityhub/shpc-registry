@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-miqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-miqc
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a7dd9bc4fbffdf98c881c54d618d52d0cb6c1624186e5d66c38f7c4b817d96f7
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a7dd9bc4fbffdf98c881c54d618d52d0cb6c1624186e5d66c38f7c4b817d96f7
+docker: quay.io/biocontainers/bioconductor-miqc

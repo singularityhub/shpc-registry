@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-massspecwavelet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-massspecwavelet
+latest:
+  1.60.1--r41hc0cfd56_0: sha256:2512be2726fc609d5fb75f41e717d5cfa9a103540c6a25a140b44d7476e005f9
+tags:
+  1.60.1--r41hc0cfd56_0: sha256:2512be2726fc609d5fb75f41e717d5cfa9a103540c6a25a140b44d7476e005f9
+docker: quay.io/biocontainers/bioconductor-massspecwavelet

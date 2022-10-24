@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyrad
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyrad
+latest:
+  3.0.66--py_3: sha256:8ca6b425d1bb17ff93ba400c34e2d4cb2d9d748c6aba7c5e231d9fe4fb89b4c7
+tags:
+  3.0.66--py_3: sha256:8ca6b425d1bb17ff93ba400c34e2d4cb2d9d748c6aba7c5e231d9fe4fb89b4c7
+docker: quay.io/biocontainers/pyrad
+aliases:
+  pyrad: /usr/local/bin/pyrad

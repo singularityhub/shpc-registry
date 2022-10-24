@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/peewee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peewee
+latest:
+  2.8.0--py36_1: sha256:0468726d18a2cf3d7f76223bbaf5c6e1758d25e36581a5224458f7eeafe83288
+tags:
+  2.8.0--py36_1: sha256:0468726d18a2cf3d7f76223bbaf5c6e1758d25e36581a5224458f7eeafe83288
+docker: quay.io/biocontainers/peewee
+aliases:
+  pwiz.py: /usr/local/bin/pwiz.py

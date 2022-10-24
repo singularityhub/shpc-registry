@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-filter-buffertext
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-filter-buffertext
+latest:
+  1.01--pl5321hdfd78af_3: sha256:df87f7f57d0ee0003714b39658043e6cb969a33db9d5eadcf2826cb3e55dcb2d
+tags:
+  1.01--pl5321hdfd78af_3: sha256:df87f7f57d0ee0003714b39658043e6cb969a33db9d5eadcf2826cb3e55dcb2d
+docker: quay.io/biocontainers/perl-xml-filter-buffertext

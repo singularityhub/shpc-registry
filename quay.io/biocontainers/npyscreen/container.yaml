@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/npyscreen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for npyscreen
+latest:
+  4.10.5--pyh864c0ab_3: sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d
+tags:
+  4.10.5--pyh864c0ab_3: sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d
+docker: quay.io/biocontainers/npyscreen

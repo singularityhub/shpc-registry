@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-mus.musculus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mus.musculus
+latest:
+  1.3.1--r41hdfd78af_9: sha256:e0249d69a5a33b443c420ed22722a1552079a369b437e682a5ccbcad4ef962c9
+tags:
+  1.3.1--r41hdfd78af_9: sha256:e0249d69a5a33b443c420ed22722a1552079a369b437e682a5ccbcad4ef962c9
+docker: quay.io/biocontainers/bioconductor-mus.musculus
+aliases:
+  .bioconductor-mus.musculus-post-link.sh: /usr/local/bin/.bioconductor-mus.musculus-post-link.sh
+  .bioconductor-mus.musculus-pre-unlink.sh: /usr/local/bin/.bioconductor-mus.musculus-pre-unlink.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/seqtk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqtk
+latest:
+  1.3--h7132678_4: sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9
+tags:
+  1.3--h7132678_4: sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9
+docker: quay.io/biocontainers/seqtk

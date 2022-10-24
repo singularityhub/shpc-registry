@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mogamun
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mogamun
+latest:
+  1.4.0--r41hdfd78af_0: sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb
+tags:
+  1.4.0--r41hdfd78af_0: sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb
+docker: quay.io/biocontainers/bioconductor-mogamun

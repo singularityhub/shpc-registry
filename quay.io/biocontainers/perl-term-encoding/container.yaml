@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-term-encoding
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-term-encoding
+latest:
+  0.03--pl5321hdfd78af_1: sha256:79e9ff6023fe320499a53ab18ba17b17b0fb43add833d6d89268136ae9c490b1
+tags:
+  0.03--pl5321hdfd78af_1: sha256:79e9ff6023fe320499a53ab18ba17b17b0fb43add833d6d89268136ae9c490b1
+docker: quay.io/biocontainers/perl-term-encoding

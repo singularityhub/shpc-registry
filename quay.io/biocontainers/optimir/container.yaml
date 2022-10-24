@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/optimir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for optimir
+latest:
+  1.2--pyh5e36f6f_0: sha256:7fa9916e26968a11683af4278f9347ad538a16b1ec9e54f14d9ac21fadce009f
+tags:
+  1.2--pyh5e36f6f_0: sha256:7fa9916e26968a11683af4278f9347ad538a16b1ec9e54f14d9ac21fadce009f
+docker: quay.io/biocontainers/optimir
+aliases:
+  optimir: /usr/local/bin/optimir

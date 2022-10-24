@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methinheritsim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methinheritsim
+latest:
+  1.8.0--r36_0: sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e
+tags:
+  1.8.0--r36_0: sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e
+docker: quay.io/biocontainers/bioconductor-methinheritsim

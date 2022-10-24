@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/opfi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opfi
+latest:
+  0.1.2--pyhdfd78af_0: sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
+tags:
+  0.1.2--pyhdfd78af_0: sha256:6e4c04a579feca5379d397e640de49cd9319c74c04e49eaa8d7f8b88e1eb3b5e
+docker: quay.io/biocontainers/opfi
+aliases:
+  grf-alignment: /usr/local/bin/grf-alignment
+  grf-alignment2: /usr/local/bin/grf-alignment2
+  grf-dbn: /usr/local/bin/grf-dbn
+  grf-filter: /usr/local/bin/grf-filter
+  grf-intersperse: /usr/local/bin/grf-intersperse
+  grf-main: /usr/local/bin/grf-main
+  grf-mite-cluster: /usr/local/bin/grf-mite-cluster
+  grf-nest: /usr/local/bin/grf-nest
+  hypothesis: /usr/local/bin/hypothesis
+  pilercr: /usr/local/bin/pilercr

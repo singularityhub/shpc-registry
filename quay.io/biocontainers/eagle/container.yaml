@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/eagle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eagle
+latest:
+  0.9.4.6--pyh5ca1d4c_0: sha256:4fa74d66cc6dc1274361a3e8e85a0e1c6182766e038994b48eab05e0d0a19220
+tags:
+  0.9.4.6--pyh5ca1d4c_0: sha256:4fa74d66cc6dc1274361a3e8e85a0e1c6182766e038994b48eab05e0d0a19220
+docker: quay.io/biocontainers/eagle
+aliases:
+  eagle: /usr/local/bin/eagle
+  sqt: /usr/local/bin/sqt

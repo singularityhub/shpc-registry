@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-interpretmsspectrum
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-interpretmsspectrum
+latest:
+  1.2--r41h3342da4_2: sha256:b2af360966d64406f167f8c6b4d7110ad75f7ded4ccc13895dbe563262da1d63
+tags:
+  1.2--r41h3342da4_2: sha256:b2af360966d64406f167f8c6b4d7110ad75f7ded4ccc13895dbe563262da1d63
+docker: quay.io/biocontainers/r-interpretmsspectrum

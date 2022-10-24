@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lambda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lambda
+latest:
+  2.0.0--h19e8d03_3: sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72
+tags:
+  2.0.0--h19e8d03_3: sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72
+docker: quay.io/biocontainers/lambda
+aliases:
+  lambda2: /usr/local/bin/lambda2

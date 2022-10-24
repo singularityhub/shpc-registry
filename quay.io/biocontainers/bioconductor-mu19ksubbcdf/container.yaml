@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mu19ksubbcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mu19ksubbcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:956ba0d7f5775075301a7f4e89a43b1daea7aab34dfc05497ea7d31312935807
+tags:
+  2.18.0--r41hdfd78af_9: sha256:956ba0d7f5775075301a7f4e89a43b1daea7aab34dfc05497ea7d31312935807
+docker: quay.io/biocontainers/bioconductor-mu19ksubbcdf
+aliases:
+  .bioconductor-mu19ksubbcdf-post-link.sh: /usr/local/bin/.bioconductor-mu19ksubbcdf-post-link.sh
+  .bioconductor-mu19ksubbcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mu19ksubbcdf-pre-unlink.sh

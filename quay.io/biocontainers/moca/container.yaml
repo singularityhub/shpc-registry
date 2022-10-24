@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/moca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for moca
+latest:
+  0.4.3--py_1: sha256:4586b3bb217892dda8a0a64726bf9d757f7ef67c282a5b85c6cf2796833b953f
+tags:
+  0.4.3--py_1: sha256:4586b3bb217892dda8a0a64726bf9d757f7ef67c282a5b85c6cf2796833b953f
+docker: quay.io/biocontainers/moca
+aliases:
+  moca: /usr/local/bin/moca

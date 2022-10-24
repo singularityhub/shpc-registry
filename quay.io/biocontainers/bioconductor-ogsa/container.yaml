@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ogsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ogsa
+latest:
+  1.8.0--r3.4.1_0: sha256:1cae82810a07f295fc57c05194a2a7732b34031160fd89353cba043dbede9dca
+tags:
+  1.8.0--r3.4.1_0: sha256:1cae82810a07f295fc57c05194a2a7732b34031160fd89353cba043dbede9dca
+docker: quay.io/biocontainers/bioconductor-ogsa

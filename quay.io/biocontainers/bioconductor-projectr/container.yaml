@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-projectr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-projectr
+latest:
+  1.8.0--r41hdfd78af_0: sha256:4368ce3dff1872715f03b2d6fd60eb989253c60d1dc8805dc2af17a429ac0e36
+tags:
+  1.8.0--r41hdfd78af_0: sha256:4368ce3dff1872715f03b2d6fd60eb989253c60d1dc8805dc2af17a429ac0e36
+docker: quay.io/biocontainers/bioconductor-projectr

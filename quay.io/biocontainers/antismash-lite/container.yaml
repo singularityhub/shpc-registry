@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/antismash-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for antismash-lite
+latest:
+  6.1.1--pyhdfd78af_0: sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43
+tags:
+  6.1.1--pyhdfd78af_0: sha256:f5c47cde9daeb4788b33f554794da7fb5030b97658d960279d7ccf55112abb43
+docker: quay.io/biocontainers/antismash-lite
+aliases:
+  antismash: /usr/local/bin/antismash
+  download-antismash-databases: /usr/local/bin/download-antismash-databases
+  hmmalign2: /usr/local/bin/hmmalign2
+  hmmbuild2: /usr/local/bin/hmmbuild2
+  hmmcalibrate2: /usr/local/bin/hmmcalibrate2
+  hmmconvert2: /usr/local/bin/hmmconvert2
+  hmmemit2: /usr/local/bin/hmmemit2
+  hmmfetch2: /usr/local/bin/hmmfetch2
+  hmmindex2: /usr/local/bin/hmmindex2
+  hmmpfam2: /usr/local/bin/hmmpfam2
+  hmmsearch2: /usr/local/bin/hmmsearch2
+  less2scss: /usr/local/bin/less2scss
+  pyscss: /usr/local/bin/pyscss
+  xsltproc_lite: /usr/local/bin/xsltproc_lite

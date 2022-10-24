@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/arrow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for arrow
+latest:
+  0.7.0--py36_0: sha256:577b99dee130a0949f19d1fa5f37375089d78574e38072fd1b195d8f4d1108be
+tags:
+  0.7.0--py36_0: sha256:577b99dee130a0949f19d1fa5f37375089d78574e38072fd1b195d8f4d1108be
+docker: quay.io/biocontainers/arrow

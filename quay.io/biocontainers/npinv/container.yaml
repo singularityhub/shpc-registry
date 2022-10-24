@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/npinv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for npinv
+latest:
+  1.24--py310h7cba7a3_5: sha256:f084e1ade1f22ebc0d7b3e13bd2f79c71bed46f803813c322358132d964fbcbc
+tags:
+  1.24--py310h7cba7a3_5: sha256:f084e1ade1f22ebc0d7b3e13bd2f79c71bed46f803813c322358132d964fbcbc
+docker: quay.io/biocontainers/npinv
+aliases:
+  npinv: /usr/local/bin/npinv

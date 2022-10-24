@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-matrixeqtl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-matrixeqtl
+latest:
+  2.1.1--r3.3.1_0: sha256:f1440dec26eea57a1056e5cb218f22b3c3f3e533ca2e734bfcca76b336bb9375
+tags:
+  2.1.1--r3.3.1_0: sha256:f1440dec26eea57a1056e5cb218f22b3c3f3e533ca2e734bfcca76b336bb9375
+docker: quay.io/biocontainers/r-matrixeqtl

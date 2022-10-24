@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/r-eacon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-eacon
+latest:
+  0.3.6--r41hdfd78af_1: sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d
+tags:
+  0.3.6--r41hdfd78af_1: sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d
+docker: quay.io/biocontainers/r-eacon
+aliases:
+  .bioconductor-bsgenome.hsapiens.1000genomes.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.1000genomes.hs37d5-post-link.sh
+  .bioconductor-bsgenome.hsapiens.1000genomes.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.1000genomes.hs37d5-pre-unlink.sh

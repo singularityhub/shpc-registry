@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-grmetrics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-grmetrics
+latest:
+  1.8.1--r351_0: sha256:cc3a1adc91533e9331e4d39c01cbb6c44316393c645bf49e40e87b8c54c87254
+tags:
+  1.8.1--r351_0: sha256:cc3a1adc91533e9331e4d39c01cbb6c44316393c645bf49e40e87b8c54c87254
+docker: quay.io/biocontainers/bioconductor-grmetrics

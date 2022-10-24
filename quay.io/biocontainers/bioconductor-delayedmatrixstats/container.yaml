@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-delayedmatrixstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-delayedmatrixstats
+latest:
+  1.8.0--r36_0: sha256:ff42ee2c7667ca75e6214dd6215fff5f0e8649bc929b4ca5eb689f4639f47e3c
+tags:
+  1.8.0--r36_0: sha256:ff42ee2c7667ca75e6214dd6215fff5f0e8649bc929b4ca5eb689f4639f47e3c
+docker: quay.io/biocontainers/bioconductor-delayedmatrixstats

@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/iva
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for iva
+latest:
+  1.0.9--py_2: sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2
+tags:
+  1.0.9--py_2: sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2
+docker: quay.io/biocontainers/iva
+aliases:
+  basqcol: /usr/local/bin/basqcol
+  fetchseq: /usr/local/bin/fetchseq
+  iva: /usr/local/bin/iva
+  iva_qc: /usr/local/bin/iva_qc
+  iva_qc_make_db: /usr/local/bin/iva_qc_make_db
+  mixreads: /usr/local/bin/mixreads
+  readstats: /usr/local/bin/readstats
+  simqual: /usr/local/bin/simqual
+  simread: /usr/local/bin/simread
+  smalt: /usr/local/bin/smalt
+  splitmates: /usr/local/bin/splitmates
+  splitreads: /usr/local/bin/splitreads
+  trunkreads: /usr/local/bin/trunkreads

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/staphb_toolkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for staphb_toolkit
+latest:
+  2.0.0--pyhdfd78af_0: sha256:6d3b3371b8b029af19b919e842efc036cd74bf809f8a84a9aa027d8d25805ed0
+tags:
+  2.0.0--pyhdfd78af_0: sha256:6d3b3371b8b029af19b919e842efc036cd74bf809f8a84a9aa027d8d25805ed0
+docker: quay.io/biocontainers/staphb_toolkit
+aliases:
+  pyfiglet: /usr/local/bin/pyfiglet
+  pysemver: /usr/local/bin/pysemver
+  spython: /usr/local/bin/spython
+  staphb-tk: /usr/local/bin/staphb-tk
+  wsdump: /usr/local/bin/wsdump

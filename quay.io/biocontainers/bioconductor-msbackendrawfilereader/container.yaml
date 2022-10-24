@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msbackendrawfilereader
+latest:
+  1.0.0--r41hdfd78af_0: sha256:d1bbbeb560b39ae1bd1e4b705db5cc7a7d0b960c9b961460eaf2525bd2599448
+tags:
+  1.0.0--r41hdfd78af_0: sha256:d1bbbeb560b39ae1bd1e4b705db5cc7a7d0b960c9b961460eaf2525bd2599448
+docker: quay.io/biocontainers/bioconductor-msbackendrawfilereader
+aliases:
+  aprofutil: /usr/local/bin/aprofutil
+  mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog

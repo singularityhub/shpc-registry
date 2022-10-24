@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pylprotpredictor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pylprotpredictor
+latest:
+  1.0.2--pyh864c0ab_1: sha256:6053728952de731cdf0d5387138df229303ecf6597b2820e011a69fd69a2fc78
+tags:
+  1.0.2--pyh864c0ab_1: sha256:6053728952de731cdf0d5387138df229303ecf6597b2820e011a69fd69a2fc78
+docker: quay.io/biocontainers/pylprotpredictor
+aliases:
+  PylProtPredictor: /usr/local/bin/PylProtPredictor
+  codecov: /usr/local/bin/codecov
+  flake8: /usr/local/bin/flake8
+  pycodestyle: /usr/local/bin/pycodestyle
+  pyflakes: /usr/local/bin/pyflakes
+  pylprotpredictor: /usr/local/bin/pylprotpredictor

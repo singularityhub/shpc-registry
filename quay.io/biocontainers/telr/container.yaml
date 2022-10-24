@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/telr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for telr
+latest:
+  0.2--pyhdfd78af_1: sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1
+tags:
+  0.2--pyhdfd78af_1: sha256:747495fb7770dff6d91720f5236ce20d1d88c9ec036728c30796b292d887a6e1
+docker: quay.io/biocontainers/telr
+aliases:
+  queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
+  queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
+  sniffles: /usr/local/bin/sniffles
+  sniffles-debug: /usr/local/bin/sniffles-debug
+  telr: /usr/local/bin/telr
+  wtdbg-cns: /usr/local/bin/wtdbg-cns
+  wtdbg2: /usr/local/bin/wtdbg2
+  wtpoa-cns: /usr/local/bin/wtpoa-cns

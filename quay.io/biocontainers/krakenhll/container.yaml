@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/krakenhll
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for krakenhll
+latest:
+  0.4.8--pl526ha92aebf_1: sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec
+tags:
+  0.4.8--pl526ha92aebf_1: sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec
+docker: quay.io/biocontainers/krakenhll
+aliases:
+  build_taxdb: /usr/local/bin/build_taxdb
+  krakenhll: /usr/local/bin/krakenhll
+  krakenhll-build: /usr/local/bin/krakenhll-build
+  krakenhll-download: /usr/local/bin/krakenhll-download
+  krakenhll-extract-reads: /usr/local/bin/krakenhll-extract-reads
+  krakenhll-filter: /usr/local/bin/krakenhll-filter
+  krakenhll-mpa-report: /usr/local/bin/krakenhll-mpa-report
+  krakenhll-report: /usr/local/bin/krakenhll-report
+  krakenhll-translate: /usr/local/bin/krakenhll-translate
+  read_merger.pl: /usr/local/bin/read_merger.pl

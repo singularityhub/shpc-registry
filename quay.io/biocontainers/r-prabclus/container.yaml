@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-prabclus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-prabclus
+latest:
+  2.2_6--r3.3.2_0: sha256:f93e7b10d1cf4458d006daac387038cd17e7c525fef7bc2f5e6bde5c195c34ec
+tags:
+  2.2_6--r3.3.2_0: sha256:f93e7b10d1cf4458d006daac387038cd17e7c525fef7bc2f5e6bde5c195c34ec
+docker: quay.io/biocontainers/r-prabclus

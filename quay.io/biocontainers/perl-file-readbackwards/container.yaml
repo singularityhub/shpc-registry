@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-readbackwards
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-readbackwards
+latest:
+  1.06--pl5321hdfd78af_0: sha256:346b9d798bbcd2832ee4bbb5f80a511b0219e9b1ecc25cee74b9b02cfc462178
+tags:
+  1.06--pl5321hdfd78af_0: sha256:346b9d798bbcd2832ee4bbb5f80a511b0219e9b1ecc25cee74b9b02cfc462178
+docker: quay.io/biocontainers/perl-file-readbackwards

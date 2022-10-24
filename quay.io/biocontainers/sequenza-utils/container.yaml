@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sequenza-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sequenza-utils
+latest:
+  3.0.0--py27h95a95ce_5: sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2
+tags:
+  3.0.0--py27h95a95ce_5: sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2
+docker: quay.io/biocontainers/sequenza-utils
+aliases:
+  sequenza-utils: /usr/local/bin/sequenza-utils

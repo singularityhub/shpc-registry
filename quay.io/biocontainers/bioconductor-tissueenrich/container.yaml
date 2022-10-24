@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tissueenrich
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tissueenrich
+latest:
+  1.8.0--r40_0: sha256:97ab630173e37ed182fe2737096a227ecc1b0cd09fa9c2c9294be12d8be31316
+tags:
+  1.8.0--r40_0: sha256:97ab630173e37ed182fe2737096a227ecc1b0cd09fa9c2c9294be12d8be31316
+docker: quay.io/biocontainers/bioconductor-tissueenrich

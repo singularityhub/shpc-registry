@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pophelper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pophelper
+latest:
+  2.3.1--r41hdfd78af_2: sha256:fc3cf60bce1f4ba6157df792b9dd59aa4dbbf5ac88ccdf73c5aeee4327667ab2
+tags:
+  2.3.1--r41hdfd78af_2: sha256:fc3cf60bce1f4ba6157df792b9dd59aa4dbbf5ac88ccdf73c5aeee4327667ab2
+docker: quay.io/biocontainers/r-pophelper

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-peer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-peer
+latest:
+  1.3--r341h470a237_1: sha256:a1f701ccf7a278805b51ad8cc1eeb8df532fda2553a5daf4cc2baf6fbd3feb02
+tags:
+  1.3--r341h470a237_1: sha256:a1f701ccf7a278805b51ad8cc1eeb8df532fda2553a5daf4cc2baf6fbd3feb02
+docker: quay.io/biocontainers/r-peer

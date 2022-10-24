@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-statistics-basic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-statistics-basic
+latest:
+  1.6611--pl5321hdfd78af_3: sha256:c0823f463c888edc7b9523e15559540b4825194245da150287419dafe393fd1c
+tags:
+  1.6611--pl5321hdfd78af_3: sha256:c0823f463c888edc7b9523e15559540b4825194245da150287419dafe393fd1c
+docker: quay.io/biocontainers/perl-statistics-basic

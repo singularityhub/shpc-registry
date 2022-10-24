@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cansnper2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cansnper2
+latest:
+  2.0.6--py_0: sha256:970881caf9bf51f6e6340a5d4a052b69a3c56ad20cafd7fdb74842099a074aa8
+tags:
+  2.0.6--py_0: sha256:970881caf9bf51f6e6340a5d4a052b69a3c56ad20cafd7fdb74842099a074aa8
+docker: quay.io/biocontainers/cansnper2
+aliases:
+  CanSNPer2: /usr/local/bin/CanSNPer2
+  CanSNPer2-database: /usr/local/bin/CanSNPer2-database
+  CanSNPer2-download: /usr/local/bin/CanSNPer2-download
+  CanSNPer2-test: /usr/local/bin/CanSNPer2-test
+  flextaxd: /usr/local/bin/flextaxd
+  flextaxd-create: /usr/local/bin/flextaxd-create
+  progressiveMauve: /usr/local/bin/progressiveMauve

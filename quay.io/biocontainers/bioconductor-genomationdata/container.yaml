@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-genomationdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomationdata
+latest:
+  1.26.0--r41hdfd78af_1: sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250
+tags:
+  1.26.0--r41hdfd78af_1: sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250
+docker: quay.io/biocontainers/bioconductor-genomationdata
+aliases:
+  .bioconductor-genomationdata-post-link.sh: /usr/local/bin/.bioconductor-genomationdata-post-link.sh
+  .bioconductor-genomationdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomationdata-pre-unlink.sh

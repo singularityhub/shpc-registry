@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tag
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tag
+latest:
+  0.5.1--py_0: sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b
+tags:
+  0.5.1--py_0: sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b
+docker: quay.io/biocontainers/tag
+aliases:
+  tag: /usr/local/bin/tag

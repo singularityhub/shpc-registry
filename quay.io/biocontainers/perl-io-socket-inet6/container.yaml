@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-socket-inet6
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-socket-inet6
+latest:
+  2.73--pl5321hdfd78af_0: sha256:3517b7b9f4db49860a597935c39a74fcf6ee15d0a149094d2dae3477f4320fc7
+tags:
+  2.73--pl5321hdfd78af_0: sha256:3517b7b9f4db49860a597935c39a74fcf6ee15d0a149094d2dae3477f4320fc7
+docker: quay.io/biocontainers/perl-io-socket-inet6

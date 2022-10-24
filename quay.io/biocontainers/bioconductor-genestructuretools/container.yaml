@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-genestructuretools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genestructuretools
+latest:
+  1.8.0--r40_0: sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca
+tags:
+  1.8.0--r40_0: sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca
+docker: quay.io/biocontainers/bioconductor-genestructuretools
+aliases:
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh

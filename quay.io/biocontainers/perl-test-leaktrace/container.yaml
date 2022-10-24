@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-leaktrace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-leaktrace
+latest:
+  0.17--pl5321hec16e2b_1: sha256:c00852b5f0e8d0cbd89a993c09180e1d4bcfa3d025db5613e9339ff93a6ca79e
+tags:
+  0.17--pl5321hec16e2b_1: sha256:c00852b5f0e8d0cbd89a993c09180e1d4bcfa3d025db5613e9339ff93a6ca79e
+docker: quay.io/biocontainers/perl-test-leaktrace

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-biox-workflow-plugin-filedetails
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-biox-workflow-plugin-filedetails
+latest:
+  0.11--0: sha256:d7210c1b7b046de3924d5c297765cd673fb156aafdf442d4a9b4c86b65cf3114
+tags:
+  0.11--0: sha256:d7210c1b7b046de3924d5c297765cd673fb156aafdf442d4a9b4c86b65cf3114
+docker: quay.io/biocontainers/perl-biox-workflow-plugin-filedetails
+aliases:
+  biox-workflow.pl: /usr/local/bin/biox-workflow.pl
+  filedetails.pl: /usr/local/bin/filedetails.pl

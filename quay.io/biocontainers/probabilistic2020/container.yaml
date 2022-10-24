@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/probabilistic2020
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for probabilistic2020
+latest:
+  1.2.3--py27h20e14e4_5: sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f
+tags:
+  1.2.3--py27h20e14e4_5: sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f
+docker: quay.io/biocontainers/probabilistic2020
+aliases:
+  extract_gene_seq: /usr/local/bin/extract_gene_seq
+  mut_annotate: /usr/local/bin/mut_annotate
+  probabilistic2020: /usr/local/bin/probabilistic2020
+  simulate_non_silent_ratio: /usr/local/bin/simulate_non_silent_ratio

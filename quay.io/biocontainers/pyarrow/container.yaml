@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/pyarrow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyarrow
+latest:
+  4.0.1: sha256:f4b5e14e392f0edbe802386c7f7c6dbf3897c5c0b92915b27535ec7a4508afdd
+tags:
+  4.0.1: sha256:f4b5e14e392f0edbe802386c7f7c6dbf3897c5c0b92915b27535ec7a4508afdd
+docker: quay.io/biocontainers/pyarrow
+aliases:
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump

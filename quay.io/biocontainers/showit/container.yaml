@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/showit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for showit
+latest:
+  1.1.4--pyh864c0ab_1: sha256:851d60cc62fb5eed690233b676ba217db6281ca3ee5f899e3a80b7297bed9344
+tags:
+  1.1.4--pyh864c0ab_1: sha256:851d60cc62fb5eed690233b676ba217db6281ca3ee5f899e3a80b7297bed9344
+docker: quay.io/biocontainers/showit

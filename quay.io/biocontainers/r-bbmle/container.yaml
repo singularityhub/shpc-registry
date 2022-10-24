@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bbmle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bbmle
+latest:
+  1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
+tags:
+  1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
+docker: quay.io/biocontainers/r-bbmle

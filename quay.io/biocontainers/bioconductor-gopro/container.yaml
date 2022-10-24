@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gopro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gopro
+latest:
+  1.8.0--r351hf484d3e_0: sha256:1da51e006a66eaee5ba08a555ca3940c96c8b93536eb01150a1a35380557ffb5
+tags:
+  1.8.0--r351hf484d3e_0: sha256:1da51e006a66eaee5ba08a555ca3940c96c8b93536eb01150a1a35380557ffb5
+docker: quay.io/biocontainers/bioconductor-gopro

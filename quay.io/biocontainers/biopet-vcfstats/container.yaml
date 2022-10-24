@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-vcfstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-vcfstats
+latest:
+  1.2--hdfd78af_1: sha256:3ea750d6710ec26e4e05e619fc25882d1dc3d48163cb4186fb8a3e711e7b408f
+tags:
+  1.2--hdfd78af_1: sha256:3ea750d6710ec26e4e05e619fc25882d1dc3d48163cb4186fb8a3e711e7b408f
+docker: quay.io/biocontainers/biopet-vcfstats
+aliases:
+  biopet-vcfstats: /usr/local/bin/biopet-vcfstats

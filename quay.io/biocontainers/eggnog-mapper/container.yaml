@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/eggnog-mapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eggnog-mapper
+latest:
+  2.1.9--pyhdfd78af_0: sha256:c583657bc48787ef25c96a7a78e195dcaf78b3864b37f945b514a81e9f29581b
+tags:
+  2.1.9--pyhdfd78af_0: sha256:c583657bc48787ef25c96a7a78e195dcaf78b3864b37f945b514a81e9f29581b
+docker: quay.io/biocontainers/eggnog-mapper
+aliases:
+  create_dbs.py: /usr/local/bin/create_dbs.py
+  download_eggnog_data.py: /usr/local/bin/download_eggnog_data.py
+  emapper.py: /usr/local/bin/emapper.py
+  hmm_mapper.py: /usr/local/bin/hmm_mapper.py
+  hmm_server.py: /usr/local/bin/hmm_server.py
+  hmm_worker.py: /usr/local/bin/hmm_worker.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-cnogpro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-cnogpro
+latest:
+  1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
+tags:
+  1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
+docker: quay.io/biocontainers/r-cnogpro

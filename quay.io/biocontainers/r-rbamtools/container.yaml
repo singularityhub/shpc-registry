@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rbamtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rbamtools
+latest:
+  2.16.11--r351h29659fb_0: sha256:c992a91c1c31f14b6f55cc293666459b66f2b4bedf977bcb2914c147e5906d86
+tags:
+  2.16.11--r351h29659fb_0: sha256:c992a91c1c31f14b6f55cc293666459b66f2b4bedf977bcb2914c147e5906d86
+docker: quay.io/biocontainers/r-rbamtools

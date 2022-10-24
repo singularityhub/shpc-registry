@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stark
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stark
+latest:
+  0.1.1--h9f5acd7_3: sha256:585f1426bb9cc3d19ffa2a2bb08aaf48e9aa383a7f06210b3cd6dcb6524e9e2b
+tags:
+  0.1.1--h9f5acd7_3: sha256:585f1426bb9cc3d19ffa2a2bb08aaf48e9aa383a7f06210b3cd6dcb6524e9e2b
+docker: quay.io/biocontainers/stark
+aliases:
+  stark: /usr/local/bin/stark

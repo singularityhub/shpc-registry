@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ma
+latest:
+  2.0.1--py39h6935b12_0: sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d
+tags:
+  2.0.1--py39h6935b12_0: sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d
+docker: quay.io/biocontainers/ma
+aliases:
+  maCMD: /usr/local/bin/maCMD

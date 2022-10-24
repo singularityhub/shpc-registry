@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-yeastgsdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yeastgsdata
+latest:
+  0.32.0--r41hdfd78af_1: sha256:af4804fcd1fb4dae4e76bc658fa14c2e0f45d8e35ab5ab57a34a59d40e06b74e
+tags:
+  0.32.0--r41hdfd78af_1: sha256:af4804fcd1fb4dae4e76bc658fa14c2e0f45d8e35ab5ab57a34a59d40e06b74e
+docker: quay.io/biocontainers/bioconductor-yeastgsdata
+aliases:
+  .bioconductor-yeastgsdata-post-link.sh: /usr/local/bin/.bioconductor-yeastgsdata-post-link.sh
+  .bioconductor-yeastgsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastgsdata-pre-unlink.sh

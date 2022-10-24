@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/livekraken
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for livekraken
+latest:
+  1.0--pl5321h2df963e_8: sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b
+tags:
+  1.0--pl5321h2df963e_8: sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b
+docker: quay.io/biocontainers/livekraken
+aliases:
+  livekraken: /usr/local/bin/livekraken
+  livekraken-build: /usr/local/bin/livekraken-build
+  livekraken-filter: /usr/local/bin/livekraken-filter
+  livekraken-mpa-report: /usr/local/bin/livekraken-mpa-report
+  livekraken-report: /usr/local/bin/livekraken-report
+  livekraken-translate: /usr/local/bin/livekraken-translate
+  livekraken_sankey_diagram.py: /usr/local/bin/livekraken_sankey_diagram.py

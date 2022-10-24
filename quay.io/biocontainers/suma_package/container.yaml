@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/suma_package
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for suma_package
+latest:
+  1.0.00--h7132678_5: sha256:781cd79ca306b4ed25847f9a095dc97ddce2a2d647e4857ec618082fc2dac600
+tags:
+  1.0.00--h7132678_5: sha256:781cd79ca306b4ed25847f9a095dc97ddce2a2d647e4857ec618082fc2dac600
+docker: quay.io/biocontainers/suma_package
+aliases:
+  sumaclust: /usr/local/bin/sumaclust
+  sumatra: /usr/local/bin/sumatra

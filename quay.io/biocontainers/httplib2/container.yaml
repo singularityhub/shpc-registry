@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/httplib2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for httplib2
+latest:
+  0.9.2--py35_0: sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152
+tags:
+  0.9.2--py35_0: sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152
+docker: quay.io/biocontainers/httplib2

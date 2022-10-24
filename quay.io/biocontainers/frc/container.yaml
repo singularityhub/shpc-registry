@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/frc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for frc
+latest:
+  5b3f53e--boost1.64_0: sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050
+tags:
+  5b3f53e--boost1.64_0: sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050
+docker: quay.io/biocontainers/frc
+aliases:
+  FRC: /usr/local/bin/FRC
+  bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0

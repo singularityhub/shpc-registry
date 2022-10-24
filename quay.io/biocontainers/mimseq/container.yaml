@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mimseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mimseq
+latest:
+  1.2--pyhdfd78af_0: sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262
+tags:
+  1.2--pyhdfd78af_0: sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262
+docker: quay.io/biocontainers/mimseq
+aliases:
+  git2_cli: /usr/local/bin/git2_cli
+  gmap_compress: /usr/local/bin/gmap_compress
+  gmap_reassemble: /usr/local/bin/gmap_reassemble
+  gmap_uncompress: /usr/local/bin/gmap_uncompress
+  mimseq: /usr/local/bin/mimseq

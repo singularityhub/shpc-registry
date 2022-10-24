@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gatb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gatb
+latest:
+  1.4.2--hbeba21e_1: sha256:460a7c23cad7716d6b5f717dda0d342f1affc3caa231242300e51c24dc160a0a
+tags:
+  1.4.2--hbeba21e_1: sha256:460a7c23cad7716d6b5f717dda0d342f1affc3caa231242300e51c24dc160a0a
+docker: quay.io/biocontainers/gatb
+aliases:
+  dbgh5: /usr/local/bin/dbgh5
+  dbginfo: /usr/local/bin/dbginfo
+  leon: /usr/local/bin/leon

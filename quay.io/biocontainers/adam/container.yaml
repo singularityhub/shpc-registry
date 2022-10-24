@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/adam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for adam
+latest:
+  1.0--hdfd78af_0: sha256:25971a9e9ebcf48a23f085e2beef3317c65edc6bd459bb707677039e7b895f54
+tags:
+  1.0--hdfd78af_0: sha256:25971a9e9ebcf48a23f085e2beef3317c65edc6bd459bb707677039e7b895f54
+docker: quay.io/biocontainers/adam
+aliases:
+  adam-shell: /usr/local/bin/adam-shell
+  adam-submit: /usr/local/bin/adam-submit
+  beeline: /usr/local/bin/beeline
+  beeline.cmd: /usr/local/bin/beeline.cmd
+  docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  find-spark-home: /usr/local/bin/find-spark-home
+  find-spark-home.cmd: /usr/local/bin/find-spark-home.cmd
+  find_spark_home.py: /usr/local/bin/find_spark_home.py
+  load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
+  load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  pyspark: /usr/local/bin/pyspark
+  pyspark.cmd: /usr/local/bin/pyspark.cmd
+  pyspark2.cmd: /usr/local/bin/pyspark2.cmd
+  run-example: /usr/local/bin/run-example
+  run-example.cmd: /usr/local/bin/run-example.cmd
+  spark-class: /usr/local/bin/spark-class
+  spark-class.cmd: /usr/local/bin/spark-class.cmd
+  spark-class2.cmd: /usr/local/bin/spark-class2.cmd
+  spark-shell: /usr/local/bin/spark-shell
+  spark-shell.cmd: /usr/local/bin/spark-shell.cmd
+  spark-shell2.cmd: /usr/local/bin/spark-shell2.cmd
+  spark-sql: /usr/local/bin/spark-sql
+  spark-sql.cmd: /usr/local/bin/spark-sql.cmd
+  spark-sql2.cmd: /usr/local/bin/spark-sql2.cmd
+  spark-submit: /usr/local/bin/spark-submit
+  spark-submit.cmd: /usr/local/bin/spark-submit.cmd
+  spark-submit2.cmd: /usr/local/bin/spark-submit2.cmd
+  sparkR: /usr/local/bin/sparkR
+  sparkR.cmd: /usr/local/bin/sparkR.cmd
+  sparkR2.cmd: /usr/local/bin/sparkR2.cmd

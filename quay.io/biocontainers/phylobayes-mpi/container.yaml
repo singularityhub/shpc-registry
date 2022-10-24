@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/phylobayes-mpi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylobayes-mpi
+latest:
+  1.9--h5c6ebe3_0: sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5
+tags:
+  1.9--h5c6ebe3_0: sha256:59cea55c90b867a650fdbcf1935c621a4a37daca90aba2c4e4317777a626fae5
+docker: quay.io/biocontainers/phylobayes-mpi
+aliases:
+  bpcomp: /usr/local/bin/bpcomp
+  cvrep: /usr/local/bin/cvrep
+  io_demo: /usr/local/bin/io_demo
+  pb_mpi: /usr/local/bin/pb_mpi
+  readpb_mpi: /usr/local/bin/readpb_mpi
+  tracecomp: /usr/local/bin/tracecomp
+  ucx_info: /usr/local/bin/ucx_info
+  ucx_perftest: /usr/local/bin/ucx_perftest
+  ucx_read_profile: /usr/local/bin/ucx_read_profile

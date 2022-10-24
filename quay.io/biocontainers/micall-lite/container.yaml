@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/micall-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for micall-lite
+latest:
+  0.1rc5--py38hbff2b2d_3: sha256:168f963f43d3b0bf016cd9ce07528da2f483e203cdf96212bc397e77f002954c
+tags:
+  0.1rc5--py38hbff2b2d_3: sha256:168f963f43d3b0bf016cd9ce07528da2f483e203cdf96212bc397e77f002954c
+docker: quay.io/biocontainers/micall-lite
+aliases:
+  micall: /usr/local/bin/micall

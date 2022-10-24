@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sushi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sushi
+latest:
+  1.31.0--r41hdfd78af_0: sha256:31e04c22367d1e40e262809c0ac611a409b40152f295ef2d63548cd25541f779
+tags:
+  1.31.0--r41hdfd78af_0: sha256:31e04c22367d1e40e262809c0ac611a409b40152f295ef2d63548cd25541f779
+docker: quay.io/biocontainers/bioconductor-sushi

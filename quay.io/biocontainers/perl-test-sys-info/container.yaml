@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-sys-info
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-sys-info
+latest:
+  0.23--pl5321hdfd78af_1: sha256:300d744e930234b60bd38f65142c1bd2ac35b32fcc6a3860ea3af28f4b4dc82b
+tags:
+  0.23--pl5321hdfd78af_1: sha256:300d744e930234b60bd38f65142c1bd2ac35b32fcc6a3860ea3af28f4b4dc82b
+docker: quay.io/biocontainers/perl-test-sys-info

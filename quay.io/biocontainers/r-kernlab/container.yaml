@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-kernlab
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-kernlab
+latest:
+  0.9_25--r3.3.2_0: sha256:b0cf454c0a54d567e36ccdffcc0d6bda542619933b84d140a16e4af990172e3a
+tags:
+  0.9_25--r3.3.2_0: sha256:b0cf454c0a54d567e36ccdffcc0d6bda542619933b84d140a16e4af990172e3a
+docker: quay.io/biocontainers/r-kernlab

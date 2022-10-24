@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/svim-asm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svim-asm
+latest:
+  1.0.3--pyhdfd78af_0: sha256:36494601b4cd59e2394f3ab52307a3db002b9faa137106ff6c81601d5287b022
+tags:
+  1.0.3--pyhdfd78af_0: sha256:36494601b4cd59e2394f3ab52307a3db002b9faa137106ff6c81601d5287b022
+docker: quay.io/biocontainers/svim-asm
+aliases:
+  svim-asm: /usr/local/bin/svim-asm

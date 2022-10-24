@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/sixgill
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sixgill
+latest:
+  0.2.4--py_3: sha256:c4ff3e41f2af17e3a2ac0e540c3438950a62a7f5cf48b5ffa16abd3377b17007
+tags:
+  0.2.4--py_3: sha256:c4ff3e41f2af17e3a2ac0e540c3438950a62a7f5cf48b5ffa16abd3377b17007
+docker: quay.io/biocontainers/sixgill
+aliases:
+  sixgill_build: /usr/local/bin/sixgill_build
+  sixgill_filter: /usr/local/bin/sixgill_filter
+  sixgill_makefasta: /usr/local/bin/sixgill_makefasta
+  sixgill_merge: /usr/local/bin/sixgill_merge

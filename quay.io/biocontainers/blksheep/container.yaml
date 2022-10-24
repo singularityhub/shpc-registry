@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/blksheep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blksheep
+latest:
+  0.0.7--py_0: sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9
+tags:
+  0.0.7--py_0: sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9
+docker: quay.io/biocontainers/blksheep
+aliases:
+  blacksheep: /usr/local/bin/blacksheep

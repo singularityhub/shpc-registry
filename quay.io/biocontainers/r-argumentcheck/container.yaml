@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-argumentcheck
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-argumentcheck
+latest:
+  0.10.2--r3.4.1_0: sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d
+tags:
+  0.10.2--r3.4.1_0: sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d
+docker: quay.io/biocontainers/r-argumentcheck

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/wes-service-client
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wes-service-client
+latest:
+  2.7--py_1: sha256:b351bbc8a29b7ce06cca86fdc7aa4c04a9e2b33efde3c8184746a038c6b0d928
+tags:
+  2.7--py_1: sha256:b351bbc8a29b7ce06cca86fdc7aa4c04a9e2b33efde3c8184746a038c6b0d928
+docker: quay.io/biocontainers/wes-service-client
+aliases:
+  wes-client: /usr/local/bin/wes-client
+  wes-server: /usr/local/bin/wes-server

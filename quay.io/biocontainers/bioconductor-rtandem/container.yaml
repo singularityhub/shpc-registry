@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rtandem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtandem
+latest:
+  1.27.0--r40h1090f8d_0: sha256:a1160e7eacde20ff86bfdf355e06e8a835bc59d40789c1f0479a51d8c9908d33
+tags:
+  1.27.0--r40h1090f8d_0: sha256:a1160e7eacde20ff86bfdf355e06e8a835bc59d40789c1f0479a51d8c9908d33
+docker: quay.io/biocontainers/bioconductor-rtandem

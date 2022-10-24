@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netbiov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netbiov
+latest:
+  1.28.0--r41hdfd78af_0: sha256:d3f2e007bf57952d4cbb5e8ca6b6ec83de5fe2a0aa647307f9651d85547a3405
+tags:
+  1.28.0--r41hdfd78af_0: sha256:d3f2e007bf57952d4cbb5e8ca6b6ec83de5fe2a0aa647307f9651d85547a3405
+docker: quay.io/biocontainers/bioconductor-netbiov

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scfeaturefilter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scfeaturefilter
+latest:
+  1.8.0--r40_0: sha256:32cb8d9631e93f975f625ef36cd13fd9501a20927aef5bb9a09657f688581922
+tags:
+  1.8.0--r40_0: sha256:32cb8d9631e93f975f625ef36cd13fd9501a20927aef5bb9a09657f688581922
+docker: quay.io/biocontainers/bioconductor-scfeaturefilter

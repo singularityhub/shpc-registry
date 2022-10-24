@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mce-shared
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mce-shared
+latest:
+  1.840--pl5321hdfd78af_1: sha256:6348c4faf98bb96442ce3fd5272a101adcd02afcd9f19b6da125bab3d9c16bac
+tags:
+  1.840--pl5321hdfd78af_1: sha256:6348c4faf98bb96442ce3fd5272a101adcd02afcd9f19b6da125bab3d9c16bac
+docker: quay.io/biocontainers/perl-mce-shared

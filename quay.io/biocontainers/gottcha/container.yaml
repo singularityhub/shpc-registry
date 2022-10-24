@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/gottcha
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gottcha
+latest:
+  1.0--pl526_2: sha256:1fab9581afbc7cb8765364707bb583796ca2436e36355d5b914cab555b6b0c15
+tags:
+  1.0--pl526_2: sha256:1fab9581afbc7cb8765364707bb583796ca2436e36355d5b914cab555b6b0c15
+docker: quay.io/biocontainers/gottcha
+aliases:
+  convert_abu2list.pl: /usr/local/bin/convert_abu2list.pl
+  filterGottcha.pl: /usr/local/bin/filterGottcha.pl
+  gottcha.pl: /usr/local/bin/gottcha.pl
+  gottcha_db.pl: /usr/local/bin/gottcha_db.pl
+  makeVariantTaxLookups.pl: /usr/local/bin/makeVariantTaxLookups.pl
+  mkGottchaTaxTree.pl: /usr/local/bin/mkGottchaTaxTree.pl
+  mkGottchaXML.pl: /usr/local/bin/mkGottchaXML.pl
+  profileGottcha.pl: /usr/local/bin/profileGottcha.pl
+  splitrim: /usr/local/bin/splitrim

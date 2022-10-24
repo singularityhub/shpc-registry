@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/autodock-vina
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for autodock-vina
+latest:
+  1.1.2--h9ee0642_3: sha256:a60cdd1216f989f42741917855a29fc95f025373c261b8569c95d727631a5a19
+tags:
+  1.1.2--h9ee0642_3: sha256:a60cdd1216f989f42741917855a29fc95f025373c261b8569c95d727631a5a19
+docker: quay.io/biocontainers/autodock-vina
+aliases:
+  vina: /usr/local/bin/vina
+  vina_split: /usr/local/bin/vina_split

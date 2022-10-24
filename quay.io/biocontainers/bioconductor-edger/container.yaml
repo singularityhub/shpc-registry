@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-edger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-edger
+latest:
+  3.36.0--r41hc247a5b_2: sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8
+tags:
+  3.36.0--r41hc247a5b_2: sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8
+docker: quay.io/biocontainers/bioconductor-edger

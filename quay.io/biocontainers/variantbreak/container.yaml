@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/variantbreak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for variantbreak
+latest:
+  1.0.4--py_0: sha256:6e257a6c8d51c1dc5becc0d29ba8dc78eb9eb50ef30eeec48975515ba9790946
+tags:
+  1.0.4--py_0: sha256:6e257a6c8d51c1dc5becc0d29ba8dc78eb9eb50ef30eeec48975515ba9790946
+docker: quay.io/biocontainers/variantbreak
+aliases:
+  variantbreak: /usr/local/bin/variantbreak

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-cpan-meta-requirements
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-cpan-meta-requirements
+latest:
+  2.140--pl5321hdfd78af_1: sha256:23ecc4ee281b9c6e8e03cc964ace0280c4a2e113f2e3167b924b2c2cbc98e708
+tags:
+  2.140--pl5321hdfd78af_1: sha256:23ecc4ee281b9c6e8e03cc964ace0280c4a2e113f2e3167b924b2c2cbc98e708
+docker: quay.io/biocontainers/perl-cpan-meta-requirements

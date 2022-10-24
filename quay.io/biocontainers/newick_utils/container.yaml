@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/newick_utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for newick_utils
+latest:
+  1.6--hec16e2b_5: sha256:9bc5359a806cb9d07e0c41d5a9445321c2765a309b6564a0d5482307420c8d76
+tags:
+  1.6--hec16e2b_5: sha256:9bc5359a806cb9d07e0c41d5a9445321c2765a309b6564a0d5482307420c8d76
+docker: quay.io/biocontainers/newick_utils
+aliases:
+  nw_clade: /usr/local/bin/nw_clade
+  nw_condense: /usr/local/bin/nw_condense
+  nw_display: /usr/local/bin/nw_display
+  nw_distance: /usr/local/bin/nw_distance
+  nw_duration: /usr/local/bin/nw_duration
+  nw_ed: /usr/local/bin/nw_ed
+  nw_gen: /usr/local/bin/nw_gen
+  nw_indent: /usr/local/bin/nw_indent
+  nw_labels: /usr/local/bin/nw_labels
+  nw_match: /usr/local/bin/nw_match
+  nw_order: /usr/local/bin/nw_order
+  nw_prune: /usr/local/bin/nw_prune
+  nw_rename: /usr/local/bin/nw_rename
+  nw_reroot: /usr/local/bin/nw_reroot
+  nw_stats: /usr/local/bin/nw_stats
+  nw_support: /usr/local/bin/nw_support
+  nw_topology: /usr/local/bin/nw_topology
+  nw_trim: /usr/local/bin/nw_trim

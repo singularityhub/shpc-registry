@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gdsctools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gdsctools
+latest:
+  1.0.1--pyh864c0ab_1: sha256:31052fc2779a4db66d9150b74fa0b82550ec2ad521eaa4b0a308285dd7279a85
+tags:
+  1.0.1--pyh864c0ab_1: sha256:31052fc2779a4db66d9150b74fa0b82550ec2ad521eaa4b0a308285dd7279a85
+docker: quay.io/biocontainers/gdsctools
+aliases:
+  gdsctools_anova: /usr/local/bin/gdsctools_anova
+  gdsctools_regression: /usr/local/bin/gdsctools_regression

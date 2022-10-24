@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gganatogram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gganatogram
+latest:
+  0.0.1--r41hdfd78af_0: sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e
+tags:
+  0.0.1--r41hdfd78af_0: sha256:1ba3f62bc5c3bc1e0aeb8b24951efa4314a5126c5bb094bb88b17ff0871f491e
+docker: quay.io/biocontainers/r-gganatogram

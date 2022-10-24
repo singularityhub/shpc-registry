@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/easydev
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for easydev
+latest:
+  0.9.31--py35_1: sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02
+tags:
+  0.9.31--py35_1: sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02
+docker: quay.io/biocontainers/easydev

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/je-suite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for je-suite
+latest:
+  2.0.RC--0: sha256:85b39d0c82192d39396d8ae1626c3a03a3de3c77522aa00f0b4b3d9a57ad9b8d
+tags:
+  2.0.RC--0: sha256:85b39d0c82192d39396d8ae1626c3a03a3de3c77522aa00f0b4b3d9a57ad9b8d
+docker: quay.io/biocontainers/je-suite
+aliases:
+  je: /usr/local/bin/je

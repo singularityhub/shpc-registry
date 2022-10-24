@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-variable-magic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-variable-magic
+latest:
+  0.63--pl5321hec16e2b_0: sha256:2013306ab85264ff8376bba7122580090d3a176a4827e177b39ba7ab998797a1
+tags:
+  0.63--pl5321hec16e2b_0: sha256:2013306ab85264ff8376bba7122580090d3a176a4827e177b39ba7ab998797a1
+docker: quay.io/biocontainers/perl-variable-magic

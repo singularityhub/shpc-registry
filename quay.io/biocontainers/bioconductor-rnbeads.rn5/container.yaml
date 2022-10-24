@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rnbeads.rn5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnbeads.rn5
+latest:
+  1.26.0--r41hdfd78af_1: sha256:c2e65fccc3b242c528cafdf8f4e5c9683ee8f5d5ca780d4578d6fc8494496e91
+tags:
+  1.26.0--r41hdfd78af_1: sha256:c2e65fccc3b242c528cafdf8f4e5c9683ee8f5d5ca780d4578d6fc8494496e91
+docker: quay.io/biocontainers/bioconductor-rnbeads.rn5
+aliases:
+  .bioconductor-rnbeads.rn5-post-link.sh: /usr/local/bin/.bioconductor-rnbeads.rn5-post-link.sh
+  .bioconductor-rnbeads.rn5-pre-unlink.sh: /usr/local/bin/.bioconductor-rnbeads.rn5-pre-unlink.sh

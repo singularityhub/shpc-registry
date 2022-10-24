@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-randrotation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-randrotation
+latest:
+  1.6.0--r41hdfd78af_0: sha256:786dab0b38caa583502e90dddd40c06191d971ed7d232bbac4ce9754284b4776
+tags:
+  1.6.0--r41hdfd78af_0: sha256:786dab0b38caa583502e90dddd40c06191d971ed7d232bbac4ce9754284b4776
+docker: quay.io/biocontainers/bioconductor-randrotation

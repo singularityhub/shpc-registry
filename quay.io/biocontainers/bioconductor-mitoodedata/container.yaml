@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mitoodedata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mitoodedata
+latest:
+  1.26.0--r40hdfd78af_1: sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
+tags:
+  1.26.0--r40hdfd78af_1: sha256:cf4884f01cf4e7fbfd1847964992e82e778e697cb2ed4939c6b8255110e053ea
+docker: quay.io/biocontainers/bioconductor-mitoodedata
+aliases:
+  .bioconductor-mitoodedata-post-link.sh: /usr/local/bin/.bioconductor-mitoodedata-post-link.sh
+  .bioconductor-mitoodedata-pre-unlink.sh: /usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh

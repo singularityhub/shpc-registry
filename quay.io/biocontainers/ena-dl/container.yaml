@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ena-dl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ena-dl
+latest:
+  1.0.0--hdfd78af_2: sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e
+tags:
+  1.0.0--hdfd78af_2: sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e
+docker: quay.io/biocontainers/ena-dl
+aliases:
+  ena-dl: /usr/local/bin/ena-dl

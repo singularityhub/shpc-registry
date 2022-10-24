@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geoquery
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geoquery
+latest:
+  2.62.0--r41hdfd78af_0: sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253
+tags:
+  2.62.0--r41hdfd78af_0: sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253
+docker: quay.io/biocontainers/bioconductor-geoquery

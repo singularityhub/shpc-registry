@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/chexalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chexalign
+latest:
+  0.12--hdfd78af_1: sha256:adbafbb7ebc6842b2c9df2f5b31887d8368f8053405c84e55eb28418036c4caf
+tags:
+  0.12--hdfd78af_1: sha256:adbafbb7ebc6842b2c9df2f5b31887d8368f8053405c84e55eb28418036c4caf
+docker: quay.io/biocontainers/chexalign
+aliases:
+  chexalign: /usr/local/bin/chexalign

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-logicfs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-logicfs
+latest:
+  2.8.0--r40_0: sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1
+tags:
+  2.8.0--r40_0: sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1
+docker: quay.io/biocontainers/bioconductor-logicfs

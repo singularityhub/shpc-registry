@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/novoplasty
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for novoplasty
+latest:
+  4.3.1--pl5321hdfd78af_1: sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f
+tags:
+  4.3.1--pl5321hdfd78af_1: sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f
+docker: quay.io/biocontainers/novoplasty
+aliases:
+  Circos.pl: /usr/local/bin/Circos.pl
+  NOVOPlasty.pl: /usr/local/bin/NOVOPlasty.pl
+  NOVOPlasty4.3.1.pl: /usr/local/bin/NOVOPlasty4.3.1.pl
+  filter_reads.pl: /usr/local/bin/filter_reads.pl

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rcircos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rcircos
+latest:
+  1.2.0--r3.3.1_0: sha256:cbd51b9b0cfd22d38f52036d1db573102cc36ed47800334dc3f413d431af0911
+tags:
+  1.2.0--r3.3.1_0: sha256:cbd51b9b0cfd22d38f52036d1db573102cc36ed47800334dc3f413d431af0911
+docker: quay.io/biocontainers/r-rcircos

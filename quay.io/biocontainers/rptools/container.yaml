@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/rptools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rptools
+latest:
+  5.12.3: sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6
+tags:
+  5.12.3: sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6
+docker: quay.io/biocontainers/rptools
+aliases:
+  filetype: /usr/local/bin/filetype
+  httpx: /usr/local/bin/httpx
+  pint-convert: /usr/local/bin/pint-convert
+  search_zenodo: /usr/local/bin/search_zenodo
+  search_zenodo.py: /usr/local/bin/search_zenodo.py
+  slugify: /usr/local/bin/slugify
+  upload_zenodo: /usr/local/bin/upload_zenodo
+  upload_zenodo.py: /usr/local/bin/upload_zenodo.py

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dca
+latest:
+  0.3.4--pyhdfd78af_0: sha256:5d2aef32017ba7fbc576b42aa527a4d8c36956aef442803af50444d521a234db
+tags:
+  0.3.4--pyhdfd78af_0: sha256:5d2aef32017ba7fbc576b42aa527a4d8c36956aef442803af50444d521a234db
+docker: quay.io/biocontainers/dca
+aliases:
+  dca: /usr/local/bin/dca
+  dunamai: /usr/local/bin/dunamai
+  hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker

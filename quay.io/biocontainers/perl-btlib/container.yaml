@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-btlib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-btlib
+latest:
+  0.19--0: sha256:0c456f14cc22781b2b1b098ac1c29adb63b0a7feecc50504a5083fd052e5162c
+tags:
+  0.19--0: sha256:0c456f14cc22781b2b1b098ac1c29adb63b0a7feecc50504a5083fd052e5162c
+docker: quay.io/biocontainers/perl-btlib
+aliases:
+  fetch: /usr/local/bin/fetch
+  indexer: /usr/local/bin/indexer
+  netfetch: /usr/local/bin/netfetch

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-method-modifiers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-method-modifiers
+latest:
+  2.13--pl5321hdfd78af_0: sha256:bcd4049c30df381ca4e46aa6fe681da692759db046809346f05aa659d2bff215
+tags:
+  2.13--pl5321hdfd78af_0: sha256:bcd4049c30df381ca4e46aa6fe681da692759db046809346f05aa659d2bff215
+docker: quay.io/biocontainers/perl-class-method-modifiers

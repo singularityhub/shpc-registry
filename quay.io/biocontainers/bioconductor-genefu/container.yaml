@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genefu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genefu
+latest:
+  2.26.0--r41hdfd78af_0: sha256:3186faac563ab6ba6db044d2fb9b0885c53cb1a6c50d9a8ef4d480fdb978e98f
+tags:
+  2.26.0--r41hdfd78af_0: sha256:3186faac563ab6ba6db044d2fb9b0885c53cb1a6c50d9a8ef4d480fdb978e98f
+docker: quay.io/biocontainers/bioconductor-genefu

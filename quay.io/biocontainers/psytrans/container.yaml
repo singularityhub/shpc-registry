@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/psytrans
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for psytrans
+latest:
+  2.0.0--hdfd78af_1: sha256:6b589e680114c834bd2804f33a945ed06bf76a9df0415943d24e0c0d8132cbf6
+tags:
+  2.0.0--hdfd78af_1: sha256:6b589e680114c834bd2804f33a945ed06bf76a9df0415943d24e0c0d8132cbf6
+docker: quay.io/biocontainers/psytrans
+aliases:
+  psytrans.py: /usr/local/bin/psytrans.py

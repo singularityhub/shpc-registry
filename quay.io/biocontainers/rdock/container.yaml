@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/rdock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rdock
+latest:
+  2013.1--pl5.22.0_1: sha256:601dd7a7deb3bd2886b1f0a0b52e0de66267dce163d8128c5252b39d41a7f3c5
+tags:
+  2013.1--pl5.22.0_1: sha256:601dd7a7deb3bd2886b1f0a0b52e0de66267dce163d8128c5252b39d41a7f3c5
+docker: quay.io/biocontainers/rdock
+aliases:
+  ht_protocol_finder.pl: /usr/local/bin/ht_protocol_finder.pl
+  make_grid.csh: /usr/local/bin/make_grid.csh
+  obchiral: /usr/local/bin/obchiral
+  rbcalcgrid: /usr/local/bin/rbcalcgrid
+  rbcavity: /usr/local/bin/rbcavity
+  rbdock: /usr/local/bin/rbdock
+  rblist: /usr/local/bin/rblist
+  rbmoegrid: /usr/local/bin/rbmoegrid
+  run_rbdock.pl: /usr/local/bin/run_rbdock.pl
+  run_rbscreen.pl: /usr/local/bin/run_rbscreen.pl
+  sdfield: /usr/local/bin/sdfield
+  sdfilter: /usr/local/bin/sdfilter
+  sdmodify: /usr/local/bin/sdmodify
+  sdreport: /usr/local/bin/sdreport
+  sdrmsd: /usr/local/bin/sdrmsd
+  sdsort: /usr/local/bin/sdsort
+  sdsplit: /usr/local/bin/sdsplit
+  sdtether: /usr/local/bin/sdtether

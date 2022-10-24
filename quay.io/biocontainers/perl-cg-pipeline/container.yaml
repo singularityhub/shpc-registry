@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-cg-pipeline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-cg-pipeline
+latest:
+  0.5--pl5321hdfd78af_1: sha256:3a5f278efff25a60f4465d3e439ed8b17e608dedc55f434f8544ceda5d21715c
+tags:
+  0.5--pl5321hdfd78af_1: sha256:3a5f278efff25a60f4465d3e439ed8b17e608dedc55f434f8544ceda5d21715c
+docker: quay.io/biocontainers/perl-cg-pipeline

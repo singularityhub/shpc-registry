@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-damefinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-damefinder
+latest:
+  1.6.0--r41hdfd78af_0: sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e
+tags:
+  1.6.0--r41hdfd78af_0: sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e
+docker: quay.io/biocontainers/bioconductor-damefinder

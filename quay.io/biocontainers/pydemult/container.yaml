@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pydemult
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pydemult
+latest:
+  0.6--py_0: sha256:a718f7252bd8c16d059c5b38bf75dbc53038eb61b72f1be6d0675c8c434315c0
+tags:
+  0.6--py_0: sha256:a718f7252bd8c16d059c5b38bf75dbc53038eb61b72f1be6d0675c8c434315c0
+docker: quay.io/biocontainers/pydemult
+aliases:
+  pydemult: /usr/local/bin/pydemult

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyalveo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyalveo
+latest:
+  1.0.3--py36_1: sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c
+tags:
+  1.0.3--py36_1: sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c
+docker: quay.io/biocontainers/pyalveo
+aliases:
+  pyjwt: /usr/local/bin/pyjwt

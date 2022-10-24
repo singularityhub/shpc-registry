@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/perl-fast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-fast
+latest:
+  1.06--pl5321hdfd78af_2: sha256:a70f6b76df634023945351362d020147151d1add9e4fbd7309596928f20f1577
+tags:
+  1.06--pl5321hdfd78af_2: sha256:a70f6b76df634023945351362d020147151d1add9e4fbd7309596928f20f1577
+docker: quay.io/biocontainers/perl-fast
+aliases:
+  alncut: /usr/local/bin/alncut
+  alnpi: /usr/local/bin/alnpi
+  fascodon: /usr/local/bin/fascodon
+  fascomp: /usr/local/bin/fascomp
+  fasconvert: /usr/local/bin/fasconvert
+  fascut: /usr/local/bin/fascut
+  fasfilter: /usr/local/bin/fasfilter
+  fasgrep: /usr/local/bin/fasgrep
+  fashead: /usr/local/bin/fashead
+  faslen: /usr/local/bin/faslen
+  faspaste: /usr/local/bin/faspaste
+  fasrc: /usr/local/bin/fasrc
+  fassort: /usr/local/bin/fassort
+  fassub: /usr/local/bin/fassub
+  fastail: /usr/local/bin/fastail
+  fastax: /usr/local/bin/fastax
+  fastaxsort: /usr/local/bin/fastaxsort
+  fastr: /usr/local/bin/fastr
+  fasuniq: /usr/local/bin/fasuniq
+  faswc: /usr/local/bin/faswc
+  fasxl: /usr/local/bin/fasxl
+  gbfalncut: /usr/local/bin/gbfalncut
+  gbfcut: /usr/local/bin/gbfcut

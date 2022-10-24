@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanopolishcomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanopolishcomp
+latest:
+  0.6.12--py_0: sha256:4ab23729e764c954ea9b6cdca44b77bee7eeaad0441769186629f49ff60beaba
+tags:
+  0.6.12--py_0: sha256:4ab23729e764c954ea9b6cdca44b77bee7eeaad0441769186629f49ff60beaba
+docker: quay.io/biocontainers/nanopolishcomp
+aliases:
+  NanopolishComp: /usr/local/bin/NanopolishComp

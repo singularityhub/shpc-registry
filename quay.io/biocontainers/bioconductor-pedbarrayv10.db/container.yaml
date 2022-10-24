@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pedbarrayv10.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pedbarrayv10.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:291b93b8ba7cb03230b904ff138caaaf644540dfd9d749ab0abfe6933459ac0f
+tags:
+  3.2.3--r41hdfd78af_9: sha256:291b93b8ba7cb03230b904ff138caaaf644540dfd9d749ab0abfe6933459ac0f
+docker: quay.io/biocontainers/bioconductor-pedbarrayv10.db
+aliases:
+  .bioconductor-pedbarrayv10.db-post-link.sh: /usr/local/bin/.bioconductor-pedbarrayv10.db-post-link.sh
+  .bioconductor-pedbarrayv10.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pedbarrayv10.db-pre-unlink.sh

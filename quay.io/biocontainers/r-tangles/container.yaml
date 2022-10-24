@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tangles
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tangles
+latest:
+  0.8.1: sha256:1dcb385b691057797ba5603777272011076936062a08e9aa2cf94563960441cd
+tags:
+  0.8.1: sha256:1dcb385b691057797ba5603777272011076936062a08e9aa2cf94563960441cd
+docker: quay.io/biocontainers/r-tangles

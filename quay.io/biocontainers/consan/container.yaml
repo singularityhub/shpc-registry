@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/consan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for consan
+latest:
+  1.2--hec16e2b_3: sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045
+tags:
+  1.2--hec16e2b_3: sha256:80ccd27c6c491b5ca514c48296a1f5523a60a5d43d9032d9c4c7402424fe6045
+docker: quay.io/biocontainers/consan
+aliases:
+  bstats: /usr/local/bin/bstats
+  comppair: /usr/local/bin/comppair
+  conus_compare: /usr/local/bin/conus_compare
+  conus_train: /usr/local/bin/conus_train
+  pModel: /usr/local/bin/pModel
+  scompare: /usr/local/bin/scompare
+  sfold: /usr/local/bin/sfold
+  strain_ml: /usr/local/bin/strain_ml

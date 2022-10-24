@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-bio-automatedannotation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-automatedannotation
+latest:
+  2021.01.04.08.19.58.619--pl5321hdfd78af_0: sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe
+tags:
+  2021.01.04.08.19.58.619--pl5321hdfd78af_0: sha256:817d6e2ca438375ada01d98f5880357fee5d322a5cdbfd502e0f7bda8a8d9bfe
+docker: quay.io/biocontainers/perl-bio-automatedannotation
+aliases:
+  annotate_bacteria: /usr/local/bin/annotate_bacteria
+  gene_name_occurances: /usr/local/bin/gene_name_occurances
+  parse_genes_from_gffs: /usr/local/bin/parse_genes_from_gffs

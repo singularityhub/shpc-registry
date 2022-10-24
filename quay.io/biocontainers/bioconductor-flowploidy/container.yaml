@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowploidy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowploidy
+latest:
+  1.8.0--r351_0: sha256:98394452fa90e7614ed010b11cf07863bd9790d115db4046f0c352c69f6225fe
+tags:
+  1.8.0--r351_0: sha256:98394452fa90e7614ed010b11cf07863bd9790d115db4046f0c352c69f6225fe
+docker: quay.io/biocontainers/bioconductor-flowploidy

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tinyfasta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tinyfasta
+latest:
+  0.1.0--py_0: sha256:09cd4ba4d54e81732b1bae4912c3303cf6dee0bfa88f8374d3824e43e9bbec7f
+tags:
+  0.1.0--py_0: sha256:09cd4ba4d54e81732b1bae4912c3303cf6dee0bfa88f8374d3824e43e9bbec7f
+docker: quay.io/biocontainers/tinyfasta

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nbpseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nbpseq
+latest:
+  0.3.1--r41h73dbb54_0: sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd
+tags:
+  0.3.1--r41h73dbb54_0: sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd
+docker: quay.io/biocontainers/r-nbpseq

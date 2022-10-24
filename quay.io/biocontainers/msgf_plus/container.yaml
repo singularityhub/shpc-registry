@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/msgf_plus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msgf_plus
+latest:
+  2022.04.18--hdfd78af_0: sha256:52e1e4829b8b4d9de59e361058b2443f9fbe65260d9324c2566fe731840fd410
+tags:
+  2022.04.18--hdfd78af_0: sha256:52e1e4829b8b4d9de59e361058b2443f9fbe65260d9324c2566fe731840fd410
+docker: quay.io/biocontainers/msgf_plus
+aliases:
+  msgf_plus: /usr/local/bin/msgf_plus

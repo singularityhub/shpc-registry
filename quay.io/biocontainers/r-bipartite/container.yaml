@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bipartite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bipartite
+latest:
+  2.11--r351h29659fb_2: sha256:60ee2ce4a7cdf2c5437b1a74b021f9cb0dd9dfa7f85e5730ff82e1a4645bc3e3
+tags:
+  2.11--r351h29659fb_2: sha256:60ee2ce4a7cdf2c5437b1a74b021f9cb0dd9dfa7f85e5730ff82e1a4645bc3e3
+docker: quay.io/biocontainers/r-bipartite

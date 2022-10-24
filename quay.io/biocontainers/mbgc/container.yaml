@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mbgc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mbgc
+latest:
+  1.2.1--h9f5acd7_1: sha256:98e821540be1bd54912c3e3475921d619ae651b482d4a06058ec9002dd9044f6
+tags:
+  1.2.1--h9f5acd7_1: sha256:98e821540be1bd54912c3e3475921d619ae651b482d4a06058ec9002dd9044f6
+docker: quay.io/biocontainers/mbgc
+aliases:
+  mbgc: /usr/local/bin/mbgc

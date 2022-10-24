@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pulsedsilac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pulsedsilac
+latest:
+  1.8.0--r41hdfd78af_0: sha256:11477634f37890502403960c98375b333282e73739d2983bbde1ef320740c03e
+tags:
+  1.8.0--r41hdfd78af_0: sha256:11477634f37890502403960c98375b333282e73739d2983bbde1ef320740c03e
+docker: quay.io/biocontainers/bioconductor-pulsedsilac

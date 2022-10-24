@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sojourner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sojourner
+latest:
+  1.8.0--r41hc247a5b_2: sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd
+tags:
+  1.8.0--r41hc247a5b_2: sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd
+docker: quay.io/biocontainers/bioconductor-sojourner

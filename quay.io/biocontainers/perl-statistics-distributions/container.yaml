@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-statistics-distributions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-statistics-distributions
+latest:
+  1.02--pl5321hdfd78af_2: sha256:dea9a38b0d1eb7ef9d98aa4475aaf70b8f5ca5dd95fdc7ad7237e3c66a7e1361
+tags:
+  1.02--pl5321hdfd78af_2: sha256:dea9a38b0d1eb7ef9d98aa4475aaf70b8f5ca5dd95fdc7ad7237e3c66a7e1361
+docker: quay.io/biocontainers/perl-statistics-distributions

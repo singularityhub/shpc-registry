@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/jamm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jamm
+latest:
+  1.0.8.0--hdfd78af_1: sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
+tags:
+  1.0.8.0--hdfd78af_1: sha256:515a2fcf19f1976119cf8e26ecd0c9130a5303bbff9b79dcb038c31f05b46c7e
+docker: quay.io/biocontainers/jamm
+aliases:
+  JAMM.sh: /usr/local/bin/JAMM.sh
+  SignalGenerator.sh: /usr/local/bin/SignalGenerator.sh
+  bincalculator.r: /usr/local/bin/bincalculator.r
+  peakfilter.pl: /usr/local/bin/peakfilter.pl
+  peakfinder.r: /usr/local/bin/peakfinder.r
+  peakhelper.r: /usr/local/bin/peakhelper.r
+  readshifter.pl: /usr/local/bin/readshifter.pl
+  signalmaker.r: /usr/local/bin/signalmaker.r
+  xcorr.r: /usr/local/bin/xcorr.r
+  xcorrhelper.r: /usr/local/bin/xcorrhelper.r

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-waveslim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-waveslim
+latest:
+  1.7.5--r3.3.1_0: sha256:c5ba4aa2115bebaef8b6f5fb10dfabfad2f3cafc2a7d538ca8372f1b6571a64c
+tags:
+  1.7.5--r3.3.1_0: sha256:c5ba4aa2115bebaef8b6f5fb10dfabfad2f3cafc2a7d538ca8372f1b6571a64c
+docker: quay.io/biocontainers/r-waveslim

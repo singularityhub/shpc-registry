@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/ncrf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncrf
+latest:
+  1.01.02--hec16e2b_3: sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6
+tags:
+  1.01.02--hec16e2b_3: sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6
+docker: quay.io/biocontainers/ncrf
+aliases:
+  NCRF: /usr/local/bin/NCRF
+  ncrf_cat: /usr/local/bin/ncrf_cat
+  ncrf_cat.py: /usr/local/bin/ncrf_cat.py
+  ncrf_consensus_filter: /usr/local/bin/ncrf_consensus_filter
+  ncrf_consensus_filter.py: /usr/local/bin/ncrf_consensus_filter.py
+  ncrf_parse.py: /usr/local/bin/ncrf_parse.py
+  ncrf_resolve_overlaps: /usr/local/bin/ncrf_resolve_overlaps
+  ncrf_resolve_overlaps.py: /usr/local/bin/ncrf_resolve_overlaps.py
+  ncrf_sort: /usr/local/bin/ncrf_sort
+  ncrf_sort.py: /usr/local/bin/ncrf_sort.py
+  ncrf_summary: /usr/local/bin/ncrf_summary
+  ncrf_summary.py: /usr/local/bin/ncrf_summary.py
+  ncrf_to_bed: /usr/local/bin/ncrf_to_bed
+  ncrf_to_bed.py: /usr/local/bin/ncrf_to_bed.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/phylics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylics
+latest:
+  1.0.7--pyhdfd78af_0: sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc
+tags:
+  1.0.7--pyhdfd78af_0: sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc
+docker: quay.io/biocontainers/phylics

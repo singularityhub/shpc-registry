@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rsm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rsm
+latest:
+  2.7_4--r3.2.2_0: sha256:656c6e69c499a3d84b8dc9b30ab7ea1a3a3e142ade127218f8b5ce6b82f5f170
+tags:
+  2.7_4--r3.2.2_0: sha256:656c6e69c499a3d84b8dc9b30ab7ea1a3a3e142ade127218f8b5ce6b82f5f170
+docker: quay.io/biocontainers/r-rsm

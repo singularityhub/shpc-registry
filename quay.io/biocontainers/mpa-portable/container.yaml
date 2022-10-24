@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mpa-portable
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mpa-portable
+latest:
+  2.0.0--hdfd78af_3: sha256:82b84b33772a22ebd5b6044be3a048ed97c728b10e24482b5dcc1538665d1a95
+tags:
+  2.0.0--hdfd78af_3: sha256:82b84b33772a22ebd5b6044be3a048ed97c728b10e24482b5dcc1538665d1a95
+docker: quay.io/biocontainers/mpa-portable
+aliases:
+  comet: /usr/local/bin/comet
+  comet.exe: /usr/local/bin/comet.exe
+  mpa-portable: /usr/local/bin/mpa-portable
+  xtandem: /usr/local/bin/xtandem

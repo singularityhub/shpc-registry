@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cistrome_beta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cistrome_beta
+latest:
+  1.0.7--py27h9801fc8_5: sha256:ced86bf344fec552d67f2ad02cee0f8cfc7ab4b8a396c596c4d30409b72f83ca
+tags:
+  1.0.7--py27h9801fc8_5: sha256:ced86bf344fec552d67f2ad02cee0f8cfc7ab4b8a396c596c4d30409b72f83ca
+docker: quay.io/biocontainers/cistrome_beta
+aliases:
+  BETA: /usr/local/bin/BETA
+  misp: /usr/local/bin/misp

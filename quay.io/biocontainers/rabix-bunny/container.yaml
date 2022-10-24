@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rabix-bunny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rabix-bunny
+latest:
+  1.0.4--hdfd78af_9: sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796
+tags:
+  1.0.4--hdfd78af_9: sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796
+docker: quay.io/biocontainers/rabix-bunny
+aliases:
+  rabix: /usr/local/bin/rabix

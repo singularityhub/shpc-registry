@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gwasurvivr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gwasurvivr
+latest:
+  1.8.0--r40hdfd78af_1: sha256:b785e7a00fc9992cf568d2e5cc2c0527f24293614cd7173f72f1c0ff3ee0a32f
+tags:
+  1.8.0--r40hdfd78af_1: sha256:b785e7a00fc9992cf568d2e5cc2c0527f24293614cd7173f72f1c0ff3ee0a32f
+docker: quay.io/biocontainers/bioconductor-gwasurvivr

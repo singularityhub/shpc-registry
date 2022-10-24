@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sigfuge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sigfuge
+latest:
+  1.32.0--r41hdfd78af_0: sha256:310f5b8f9a90f01d53c1f2e1eec674ac7586bc724d096d64e80736869988ac8c
+tags:
+  1.32.0--r41hdfd78af_0: sha256:310f5b8f9a90f01d53c1f2e1eec674ac7586bc724d096d64e80736869988ac8c
+docker: quay.io/biocontainers/bioconductor-sigfuge

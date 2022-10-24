@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cdk-inchi-to-svg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cdk-inchi-to-svg
+latest:
+  0.9--hdfd78af_1: sha256:d99e981629d701ab1937e883c20bcbbceae2af5920ff26ebcd072f344c8625d0
+tags:
+  0.9--hdfd78af_1: sha256:d99e981629d701ab1937e883c20bcbbceae2af5920ff26ebcd072f344c8625d0
+docker: quay.io/biocontainers/cdk-inchi-to-svg
+aliases:
+  cdk-inchi-to-svg: /usr/local/bin/cdk-inchi-to-svg

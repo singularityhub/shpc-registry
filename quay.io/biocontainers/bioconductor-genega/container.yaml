@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genega
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genega
+latest:
+  1.44.0--r41hdfd78af_0: sha256:aab4f0174e4f2607662a3002907f06384361abb9f3537f8717e0c0ada7df7cda
+tags:
+  1.44.0--r41hdfd78af_0: sha256:aab4f0174e4f2607662a3002907f06384361abb9f3537f8717e0c0ada7df7cda
+docker: quay.io/biocontainers/bioconductor-genega

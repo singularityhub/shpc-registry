@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffbind
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffbind
+latest:
+  3.4.11--r41hc247a5b_1: sha256:6c4dc11db8dbe34f4bd342b1f711548c25546414b82adfac52a2e7b7d498062b
+tags:
+  3.4.11--r41hc247a5b_1: sha256:6c4dc11db8dbe34f4bd342b1f711548c25546414b82adfac52a2e7b7d498062b
+docker: quay.io/biocontainers/bioconductor-diffbind

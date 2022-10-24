@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chromplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chromplot
+latest:
+  1.8.0--r351_0: sha256:6a45a9c1f22e44af3a4b8823872fe4f35f4cf3b80153cd4afce0543a8da7f81e
+tags:
+  1.8.0--r351_0: sha256:6a45a9c1f22e44af3a4b8823872fe4f35f4cf3b80153cd4afce0543a8da7f81e
+docker: quay.io/biocontainers/bioconductor-chromplot

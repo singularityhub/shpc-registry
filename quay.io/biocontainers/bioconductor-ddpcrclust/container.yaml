@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ddpcrclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ddpcrclust
+latest:
+  1.8.0--r40_0: sha256:c552ef9cc5d7b0dc19ada482549b15140e9ff82043134d82d277e3c4527d696d
+tags:
+  1.8.0--r40_0: sha256:c552ef9cc5d7b0dc19ada482549b15140e9ff82043134d82d277e3c4527d696d
+docker: quay.io/biocontainers/bioconductor-ddpcrclust

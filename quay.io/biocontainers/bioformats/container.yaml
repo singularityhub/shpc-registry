@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioformats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioformats
+latest:
+  0.1.15--pyh864c0ab_2: sha256:95116517887feda35da2e41dcd6c8689dde2ffb22632a124036fe8b30391647c
+tags:
+  0.1.15--pyh864c0ab_2: sha256:95116517887feda35da2e41dcd6c8689dde2ffb22632a124036fe8b30391647c
+docker: quay.io/biocontainers/bioformats
+aliases:
+  bioformats: /usr/local/bin/bioformats

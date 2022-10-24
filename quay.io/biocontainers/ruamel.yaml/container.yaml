@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ruamel.yaml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ruamel.yaml
+latest:
+  0.12.13--py35_0: sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc
+tags:
+  0.12.13--py35_0: sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc
+docker: quay.io/biocontainers/ruamel.yaml

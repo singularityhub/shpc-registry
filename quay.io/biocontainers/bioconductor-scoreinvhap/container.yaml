@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scoreinvhap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scoreinvhap
+latest:
+  1.8.0--r36_0: sha256:7c5c41d7649e5128b89c03562833b6ed6a393b46051c248b09501ae8179e8d5c
+tags:
+  1.8.0--r36_0: sha256:7c5c41d7649e5128b89c03562833b6ed6a393b46051c248b09501ae8179e8d5c
+docker: quay.io/biocontainers/bioconductor-scoreinvhap

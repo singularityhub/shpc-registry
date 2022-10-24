@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affyrnadegradation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affyrnadegradation
+latest:
+  1.40.0--r41hdfd78af_0: sha256:3edc7c31da6d298b7be496a2dab2e5403c475d0925cf32aa829a84380eede033
+tags:
+  1.40.0--r41hdfd78af_0: sha256:3edc7c31da6d298b7be496a2dab2e5403c475d0925cf32aa829a84380eede033
+docker: quay.io/biocontainers/bioconductor-affyrnadegradation

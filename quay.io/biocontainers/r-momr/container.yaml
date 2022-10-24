@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-momr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-momr
+latest:
+  1.1--r351h6115d3f_0: sha256:0b53224b77e7ce2228499258ba526b3919c1bc9d27ce7b2cc9dcfb4ddb45a594
+tags:
+  1.1--r351h6115d3f_0: sha256:0b53224b77e7ce2228499258ba526b3919c1bc9d27ce7b2cc9dcfb4ddb45a594
+docker: quay.io/biocontainers/r-momr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-net-netrc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-net-netrc
+latest:
+  2.14--pl5321hdfd78af_2: sha256:6e3d1da842793971d90033369a248b3197d2a8fe4e6797e56daa5c551bc94930
+tags:
+  2.14--pl5321hdfd78af_2: sha256:6e3d1da842793971d90033369a248b3197d2a8fe4e6797e56daa5c551bc94930
+docker: quay.io/biocontainers/perl-net-netrc

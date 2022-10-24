@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scatterhatch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scatterhatch
+latest:
+  1.0.0--r41hdfd78af_0: sha256:60d37428a786ec23268a39bd7ae9006b7c5b5ae2f95cda4367173b7019aa96a9
+tags:
+  1.0.0--r41hdfd78af_0: sha256:60d37428a786ec23268a39bd7ae9006b7c5b5ae2f95cda4367173b7019aa96a9
+docker: quay.io/biocontainers/bioconductor-scatterhatch

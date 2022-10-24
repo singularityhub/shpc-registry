@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kggseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kggseq
+latest:
+  1.1--0: sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42
+tags:
+  1.1--0: sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42
+docker: quay.io/biocontainers/kggseq
+aliases:
+  .kggseq-post-link.sh: /usr/local/bin/.kggseq-post-link.sh
+  kggseq: /usr/local/bin/kggseq
+  kggseq1.log: /usr/local/bin/kggseq1.log

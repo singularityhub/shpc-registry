@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-branchpointer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-branchpointer
+latest:
+  1.8.0--r351_0: sha256:44a0bd4c349c2b752b6ee08b1b8fd93da8dbd9019bc555634757a305f271d2fc
+tags:
+  1.8.0--r351_0: sha256:44a0bd4c349c2b752b6ee08b1b8fd93da8dbd9019bc555634757a305f271d2fc
+docker: quay.io/biocontainers/bioconductor-branchpointer
+aliases:
+  .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
+  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/google-sparsehash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for google-sparsehash
+latest:
+  2.0.3--1: sha256:b5eabd7ede74ceaebe0395d65a9794f4b95ce2db835f75b199bb1d6b37e3b363
+tags:
+  2.0.3--1: sha256:b5eabd7ede74ceaebe0395d65a9794f4b95ce2db835f75b199bb1d6b37e3b363
+docker: quay.io/biocontainers/google-sparsehash
+aliases:
+  sparsetable_unittest: /usr/local/bin/sparsetable_unittest

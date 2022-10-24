@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hdf5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hdf5
+latest:
+  1.10.4: sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306
+tags:
+  1.10.4: sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306
+docker: quay.io/biocontainers/hdf5

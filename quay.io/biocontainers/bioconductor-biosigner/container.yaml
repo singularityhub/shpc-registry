@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biosigner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biosigner
+latest:
+  1.8.0--r351_0: sha256:3220e64228c73e4091b06bb199085787df828d941ce8e48662119cd660e10fbd
+tags:
+  1.8.0--r351_0: sha256:3220e64228c73e4091b06bb199085787df828d941ce8e48662119cd660e10fbd
+docker: quay.io/biocontainers/bioconductor-biosigner

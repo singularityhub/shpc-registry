@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/quake
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quake
+latest:
+  0.3.5--py27hed98c23_4: sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
+tags:
+  0.3.5--py27hed98c23_4: sha256:f0031eb32c61e5e62c2aab2b1e3b3742a674c03024b478cd8e07e7da9b57d36e
+docker: quay.io/biocontainers/quake
+aliases:
+  build_bithash: /usr/local/bin/build_bithash
+  correct: /usr/local/bin/correct
+  correct_stats: /usr/local/bin/correct_stats
+  count-kmers: /usr/local/bin/count-kmers
+  count-qmers: /usr/local/bin/count-qmers
+  count_qmers: /usr/local/bin/count_qmers
+  cov_model.py: /usr/local/bin/cov_model.py
+  cov_model.r: /usr/local/bin/cov_model.r
+  cov_model_qmer.r: /usr/local/bin/cov_model_qmer.r
+  kmer_hist.r: /usr/local/bin/kmer_hist.r
+  quake.py: /usr/local/bin/quake.py
+  reduce-kmers: /usr/local/bin/reduce-kmers
+  reduce-qmers: /usr/local/bin/reduce-qmers
+  trim: /usr/local/bin/trim

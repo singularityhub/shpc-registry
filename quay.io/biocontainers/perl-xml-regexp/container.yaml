@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-regexp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-regexp
+latest:
+  0.04--pl5321hdfd78af_3: sha256:79d1e5d1b90a4786ffa8717786e1068fda5dbf2cb57f1029d67dd668bd2acfa8
+tags:
+  0.04--pl5321hdfd78af_3: sha256:79d1e5d1b90a4786ffa8717786e1068fda5dbf2cb57f1029d67dd668bd2acfa8
+docker: quay.io/biocontainers/perl-xml-regexp

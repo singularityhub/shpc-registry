@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sqlite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sqlite
+latest:
+  3.33.0: sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8
+tags:
+  3.33.0: sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8
+docker: quay.io/biocontainers/sqlite

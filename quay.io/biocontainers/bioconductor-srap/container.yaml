@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-srap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-srap
+latest:
+  1.27.0--r40_0: sha256:f5bb31825bf7ce02d2be21205fcd02b862772ca1a1080d2b14a05334b36fa671
+tags:
+  1.27.0--r40_0: sha256:f5bb31825bf7ce02d2be21205fcd02b862772ca1a1080d2b14a05334b36fa671
+docker: quay.io/biocontainers/bioconductor-srap

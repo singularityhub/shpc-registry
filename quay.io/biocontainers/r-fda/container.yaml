@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fda
+latest:
+  2.4.4--r3.2.2_0: sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630
+tags:
+  2.4.4--r3.2.2_0: sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630
+docker: quay.io/biocontainers/r-fda

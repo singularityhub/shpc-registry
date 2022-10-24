@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pscl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pscl
+latest:
+  1.4.9--r3.3.1_0: sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba
+tags:
+  1.4.9--r3.3.1_0: sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba
+docker: quay.io/biocontainers/r-pscl

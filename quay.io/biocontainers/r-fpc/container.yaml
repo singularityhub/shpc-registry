@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fpc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fpc
+latest:
+  2.1_10--r3.3.2_0: sha256:07f95c954e44b49ea25121c1dccc3774888ac4b2feb147fb2d5c76652fb5a501
+tags:
+  2.1_10--r3.3.2_0: sha256:07f95c954e44b49ea25121c1dccc3774888ac4b2feb147fb2d5c76652fb5a501
+docker: quay.io/biocontainers/r-fpc

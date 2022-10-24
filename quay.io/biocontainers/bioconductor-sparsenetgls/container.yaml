@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sparsenetgls
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sparsenetgls
+latest:
+  1.8.0--r40hdfd78af_1: sha256:e4e92b80181eaf234f3f1e3b9d2dfa7a43412c526055aa5d1008dd2edceb77a8
+tags:
+  1.8.0--r40hdfd78af_1: sha256:e4e92b80181eaf234f3f1e3b9d2dfa7a43412c526055aa5d1008dd2edceb77a8
+docker: quay.io/biocontainers/bioconductor-sparsenetgls

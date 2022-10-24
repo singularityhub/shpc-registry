@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/chembl_structure_pipeline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chembl_structure_pipeline
+latest:
+  1.0.0: sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2
+tags:
+  1.0.0: sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2
+docker: quay.io/biocontainers/chembl_structure_pipeline

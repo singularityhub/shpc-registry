@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/intervals
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for intervals
+latest:
+  0.6.0--py36_0: sha256:8fb2b70b41a4d62f6a1214a439bf2ea1527d1432b78d2d662004a65839a5e773
+tags:
+  0.6.0--py36_0: sha256:8fb2b70b41a4d62f6a1214a439bf2ea1527d1432b78d2d662004a65839a5e773
+docker: quay.io/biocontainers/intervals

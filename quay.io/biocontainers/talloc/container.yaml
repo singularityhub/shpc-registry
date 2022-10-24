@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/talloc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for talloc
+latest:
+  2.1.9--0: sha256:55187548fd8f8a225bef01b8352871a2af2159409e2ed0f4051a53a9cdba4fcf
+tags:
+  2.1.9--0: sha256:55187548fd8f8a225bef01b8352871a2af2159409e2ed0f4051a53a9cdba4fcf
+docker: quay.io/biocontainers/talloc

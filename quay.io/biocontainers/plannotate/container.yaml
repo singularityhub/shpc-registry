@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/plannotate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plannotate
+latest:
+  1.2.0--pyhdfd78af_3: sha256:ec3631d1d1976aaf1ee26a2928314db1ecdd9e1985c9a0d064c86bb2a2ddf27d
+tags:
+  1.2.0--pyhdfd78af_3: sha256:ec3631d1d1976aaf1ee26a2928314db1ecdd9e1985c9a0d064c86bb2a2ddf27d
+docker: quay.io/biocontainers/plannotate
+aliases:
+  base58: /usr/local/bin/base58
+  csv-import: /usr/local/bin/csv-import
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  plannotate: /usr/local/bin/plannotate
+  rg: /usr/local/bin/rg
+  streamlit: /usr/local/bin/streamlit
+  streamlit.cmd: /usr/local/bin/streamlit.cmd
+  timezone-dump: /usr/local/bin/timezone-dump
+  watchmedo: /usr/local/bin/watchmedo

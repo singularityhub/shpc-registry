@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msfeatures
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msfeatures
+latest:
+  1.2.0--r41hdfd78af_0: sha256:f2d00cdfdb0183a0aefae31f14357c9bcffb2e3c80e83342715372c4acbc0668
+tags:
+  1.2.0--r41hdfd78af_0: sha256:f2d00cdfdb0183a0aefae31f14357c9bcffb2e3c80e83342715372c4acbc0668
+docker: quay.io/biocontainers/bioconductor-msfeatures

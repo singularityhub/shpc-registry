@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pycoqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pycoqc
+latest:
+  2.5.2--py_0: sha256:ea0a084751a0b48b5ffe90e9d3adfa8f57473709a1b0a95c9cb38d434ee3a9a2
+tags:
+  2.5.2--py_0: sha256:ea0a084751a0b48b5ffe90e9d3adfa8f57473709a1b0a95c9cb38d434ee3a9a2
+docker: quay.io/biocontainers/pycoqc
+aliases:
+  Barcode_split: /usr/local/bin/Barcode_split
+  Fast5_to_seq_summary: /usr/local/bin/Fast5_to_seq_summary
+  pycoQC: /usr/local/bin/pycoQC

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cve
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cve
+latest:
+  1.8.0--r351_0: sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa
+tags:
+  1.8.0--r351_0: sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa
+docker: quay.io/biocontainers/bioconductor-cve

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/rsem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rsem
+latest:
+  1.3.3--pl5321ha04fe3b_5: sha256:e436327fa9811f86220f4ee4dc5da42a75b84c2ddc4307478452fa085cf18a29
+tags:
+  1.3.3--pl5321ha04fe3b_5: sha256:e436327fa9811f86220f4ee4dc5da42a75b84c2ddc4307478452fa085cf18a29
+docker: quay.io/biocontainers/rsem
+aliases:
+  bigWigSummary: /usr/local/bin/bigWigSummary
+  convert-sam-for-rsem: /usr/local/bin/convert-sam-for-rsem
+  extract-transcript-to-gene-map-from-trinity: /usr/local/bin/extract-transcript-to-gene-map-from-trinity
+  rsem-bam2readdepth: /usr/local/bin/rsem-bam2readdepth
+  rsem-bam2wig: /usr/local/bin/rsem-bam2wig
+  rsem-build-read-index: /usr/local/bin/rsem-build-read-index
+  rsem-calculate-credibility-intervals: /usr/local/bin/rsem-calculate-credibility-intervals
+  rsem-calculate-expression: /usr/local/bin/rsem-calculate-expression
+  rsem-control-fdr: /usr/local/bin/rsem-control-fdr
+  rsem-extract-reference-transcripts: /usr/local/bin/rsem-extract-reference-transcripts
+  rsem-for-ebseq-calculate-clustering-info: /usr/local/bin/rsem-for-ebseq-calculate-clustering-info
+  rsem-for-ebseq-find-DE: /usr/local/bin/rsem-for-ebseq-find-DE
+  rsem-for-ebseq-generate-ngvector-from-clustering-info: /usr/local/bin/rsem-for-ebseq-generate-ngvector-from-clustering-info
+  rsem-gen-transcript-plots: /usr/local/bin/rsem-gen-transcript-plots
+  rsem-generate-data-matrix: /usr/local/bin/rsem-generate-data-matrix
+  rsem-get-unique: /usr/local/bin/rsem-get-unique
+  rsem-gff3-to-gtf: /usr/local/bin/rsem-gff3-to-gtf
+  rsem-parse-alignments: /usr/local/bin/rsem-parse-alignments
+  rsem-plot-model: /usr/local/bin/rsem-plot-model
+  rsem-plot-transcript-wiggles: /usr/local/bin/rsem-plot-transcript-wiggles
+  rsem-prepare-reference: /usr/local/bin/rsem-prepare-reference
+  rsem-preref: /usr/local/bin/rsem-preref
+  rsem-refseq-extract-primary-assembly: /usr/local/bin/rsem-refseq-extract-primary-assembly
+  rsem-run-ebseq: /usr/local/bin/rsem-run-ebseq
+  rsem-run-em: /usr/local/bin/rsem-run-em
+  rsem-run-gibbs: /usr/local/bin/rsem-run-gibbs
+  rsem-sam-validator: /usr/local/bin/rsem-sam-validator
+  rsem-scan-for-paired-end-reads: /usr/local/bin/rsem-scan-for-paired-end-reads
+  rsem-simulate-reads: /usr/local/bin/rsem-simulate-reads
+  rsem-synthesis-reference-transcripts: /usr/local/bin/rsem-synthesis-reference-transcripts
+  rsem-tbam2gbam: /usr/local/bin/rsem-tbam2gbam

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-idmappingretrieval
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-idmappingretrieval
+latest:
+  1.34.0--r36_0: sha256:7c4df2194b76d28e7fafa359f9ea9aac9294e14721b9d56e07bef7ceac691f58
+tags:
+  1.34.0--r36_0: sha256:7c4df2194b76d28e7fafa359f9ea9aac9294e14721b9d56e07bef7ceac691f58
+docker: quay.io/biocontainers/bioconductor-idmappingretrieval

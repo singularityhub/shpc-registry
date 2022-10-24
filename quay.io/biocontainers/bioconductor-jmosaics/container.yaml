@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-jmosaics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-jmosaics
+latest:
+  1.10.0--0: sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218
+tags:
+  1.10.0--0: sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218
+docker: quay.io/biocontainers/bioconductor-jmosaics

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cssq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cssq
+latest:
+  1.6.0--r41hdfd78af_0: sha256:9cdedea27fff6a14b72efe30ce3e136f22d35677bcfe911a196815829ec53913
+tags:
+  1.6.0--r41hdfd78af_0: sha256:9cdedea27fff6a14b72efe30ce3e136f22d35677bcfe911a196815829ec53913
+docker: quay.io/biocontainers/bioconductor-cssq

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-copa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-copa
+latest:
+  1.62.0--r41hc0cfd56_2: sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456
+tags:
+  1.62.0--r41hc0cfd56_2: sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456
+docker: quay.io/biocontainers/bioconductor-copa

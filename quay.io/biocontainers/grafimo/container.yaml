@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/grafimo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for grafimo
+latest:
+  1.1.6--py39h5371cbf_0: sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd
+tags:
+  1.1.6--py39h5371cbf_0: sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd
+docker: quay.io/biocontainers/grafimo
+aliases:
+  grafimo: /usr/local/bin/grafimo
+  vg: /usr/local/bin/vg

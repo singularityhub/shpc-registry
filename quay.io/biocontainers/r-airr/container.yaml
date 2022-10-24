@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-airr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-airr
+latest:
+  1.2.0--r351h6115d3f_1: sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d
+tags:
+  1.2.0--r351h6115d3f_1: sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d
+docker: quay.io/biocontainers/r-airr

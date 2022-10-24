@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-import-into
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-import-into
+latest:
+  1.002005--pl5321hdfd78af_1: sha256:08ca2bb568cb6c4ef4d8497f3d8e721582703d541807cd07997592b76909aed9
+tags:
+  1.002005--pl5321hdfd78af_1: sha256:08ca2bb568cb6c4ef4d8497f3d8e721582703d541807cd07997592b76909aed9
+docker: quay.io/biocontainers/perl-import-into

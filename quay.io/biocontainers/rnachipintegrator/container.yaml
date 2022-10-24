@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnachipintegrator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnachipintegrator
+latest:
+  2.0.0--py_1: sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6
+tags:
+  2.0.0--py_1: sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6
+docker: quay.io/biocontainers/rnachipintegrator
+aliases:
+  RnaChipIntegrator: /usr/local/bin/RnaChipIntegrator

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/aquila_umap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aquila_umap
+latest:
+  1.0--pyh864c0ab_2: sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f
+tags:
+  1.0--pyh864c0ab_2: sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f
+docker: quay.io/biocontainers/aquila_umap
+aliases:
+  aquila_umap: /usr/local/bin/aquila_umap

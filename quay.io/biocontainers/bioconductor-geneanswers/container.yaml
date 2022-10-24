@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneanswers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneanswers
+latest:
+  2.36.0--r41hdfd78af_0: sha256:ec3dd276b4a096f94fd67fd773a2720668cc874bce201dd1daf1e8fa58b2d1bb
+tags:
+  2.36.0--r41hdfd78af_0: sha256:ec3dd276b4a096f94fd67fd773a2720668cc874bce201dd1daf1e8fa58b2d1bb
+docker: quay.io/biocontainers/bioconductor-geneanswers

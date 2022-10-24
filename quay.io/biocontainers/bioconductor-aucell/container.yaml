@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-aucell
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-aucell
+latest:
+  1.8.0--r36_0: sha256:9a32f14b0efb499dd6dfe9450282d9a756922c7079a087a1dcafb110b7dd5273
+tags:
+  1.8.0--r36_0: sha256:9a32f14b0efb499dd6dfe9450282d9a756922c7079a087a1dcafb110b7dd5273
+docker: quay.io/biocontainers/bioconductor-aucell

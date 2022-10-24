@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-parser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-parser
+latest:
+  3.79--pl5321h9f5acd7_0: sha256:5b1b36262cfba67cb7aedac234e2eac0dc53abf720baebc320ad07a1e6edd985
+tags:
+  3.79--pl5321h9f5acd7_0: sha256:5b1b36262cfba67cb7aedac234e2eac0dc53abf720baebc320ad07a1e6edd985
+docker: quay.io/biocontainers/perl-html-parser

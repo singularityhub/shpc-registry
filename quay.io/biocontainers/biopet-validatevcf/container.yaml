@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-validatevcf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-validatevcf
+latest:
+  0.1--hdfd78af_1: sha256:f5a48774d9584ae3681675b43750f758ff73030fb1de14f98700e88d25bb59f2
+tags:
+  0.1--hdfd78af_1: sha256:f5a48774d9584ae3681675b43750f758ff73030fb1de14f98700e88d25bb59f2
+docker: quay.io/biocontainers/biopet-validatevcf
+aliases:
+  biopet-validatevcf: /usr/local/bin/biopet-validatevcf

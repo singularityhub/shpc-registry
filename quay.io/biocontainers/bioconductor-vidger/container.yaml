@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-vidger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-vidger
+latest:
+  1.8.0--r40_0: sha256:991726354e2ea3da05ba941dfce23ade42517b004a25e276b8476050ef33abdc
+tags:
+  1.8.0--r40_0: sha256:991726354e2ea3da05ba941dfce23ade42517b004a25e276b8476050ef33abdc
+docker: quay.io/biocontainers/bioconductor-vidger

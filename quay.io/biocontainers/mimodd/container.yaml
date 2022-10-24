@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mimodd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mimodd
+latest:
+  0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
+tags:
+  0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
+docker: quay.io/biocontainers/mimodd
+aliases:
+  BATCH: /usr/local/bin/BATCH
+  COMPILE: /usr/local/bin/COMPILE
+  INSTALL: /usr/local/bin/INSTALL
+  LINK: /usr/local/bin/LINK
+  REMOVE: /usr/local/bin/REMOVE
+  Rcmd: /usr/local/bin/Rcmd
+  Rd2pdf: /usr/local/bin/Rd2pdf
+  Rdconv: /usr/local/bin/Rdconv
+  Rdiff: /usr/local/bin/Rdiff
+  Rprof: /usr/local/bin/Rprof
+  SHLIB: /usr/local/bin/SHLIB
+  Stangle: /usr/local/bin/Stangle
+  Sweave: /usr/local/bin/Sweave
+  ar: /usr/local/bin/ar
+  build: /usr/local/bin/build
+  c++: /usr/local/bin/c++
+  cc: /usr/local/bin/cc
+  check: /usr/local/bin/check
+  config: /usr/local/bin/config
+  f77: /usr/local/bin/f77
+  f77_f2c: /usr/local/bin/f77_f2c
+  fc: /usr/local/bin/fc
+  g++: /usr/local/bin/g++
+  gcc: /usr/local/bin/gcc
+  gfortran: /usr/local/bin/gfortran
+  javareconf: /usr/local/bin/javareconf
+  mimodd: /usr/local/bin/mimodd
+  mkinstalldirs: /usr/local/bin/mkinstalldirs
+  pager: /usr/local/bin/pager
+  ranlib: /usr/local/bin/ranlib
+  rtags: /usr/local/bin/rtags
+  strip: /usr/local/bin/strip

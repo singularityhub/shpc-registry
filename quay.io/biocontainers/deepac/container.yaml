@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/deepac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepac
+latest:
+  0.9.3--py_1: sha256:8c1672e6ba919988ba7d9bbd909e1a3298dd226f13c4af3778d0a87529d7c8f8
+tags:
+  0.9.3--py_1: sha256:8c1672e6ba919988ba7d9bbd909e1a3298dd226f13c4af3778d0a87529d7c8f8
+docker: quay.io/biocontainers/deepac
+aliases:
+  deepac: /usr/local/bin/deepac

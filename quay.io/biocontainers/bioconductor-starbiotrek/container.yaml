@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-starbiotrek
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-starbiotrek
+latest:
+  1.8.1--r351_1: sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d
+tags:
+  1.8.1--r351_1: sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d
+docker: quay.io/biocontainers/bioconductor-starbiotrek
+aliases:
+  .bioconductor-mirnatap.db-post-link.sh: /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh
+  .bioconductor-mirnatap.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh

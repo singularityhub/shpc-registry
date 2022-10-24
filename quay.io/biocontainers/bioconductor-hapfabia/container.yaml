@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hapfabia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hapfabia
+latest:
+  1.36.0--r41hc0cfd56_2: sha256:c4e92ea65ba47de1f41aab6dd1f80a2e2fcb214cc820459ef38d57947b376802
+tags:
+  1.36.0--r41hc0cfd56_2: sha256:c4e92ea65ba47de1f41aab6dd1f80a2e2fcb214cc820459ef38d57947b376802
+docker: quay.io/biocontainers/bioconductor-hapfabia

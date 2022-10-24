@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rd-analyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rd-analyzer
+latest:
+  1.01--hdfd78af_0: sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41
+tags:
+  1.01--hdfd78af_0: sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41
+docker: quay.io/biocontainers/rd-analyzer
+aliases:
+  RD-Analyzer-extended.py: /usr/local/bin/RD-Analyzer-extended.py
+  RD-Analyzer.py: /usr/local/bin/RD-Analyzer.py

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/irida-staramr-results
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for irida-staramr-results
+latest:
+  0.3.1--pyh5e36f6f_0: sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5
+tags:
+  0.3.1--pyh5e36f6f_0: sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5
+docker: quay.io/biocontainers/irida-staramr-results
+aliases:
+  irida-staramr-results: /usr/local/bin/irida-staramr-results

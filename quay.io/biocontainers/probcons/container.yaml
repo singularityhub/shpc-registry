@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/probcons
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for probcons
+latest:
+  1.12--h8b12597_1: sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d
+tags:
+  1.12--h8b12597_1: sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d
+docker: quay.io/biocontainers/probcons
+aliases:
+  probcons: /usr/local/bin/probcons

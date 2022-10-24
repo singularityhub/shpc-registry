@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/isoseq3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isoseq3
+latest:
+  3.8.0--h9ee0642_0: sha256:3380db4a010394b4e4f14a843edce78e6e4e93d5790b32e83cb0cbef0bc97acb
+tags:
+  3.8.0--h9ee0642_0: sha256:3380db4a010394b4e4f14a843edce78e6e4e93d5790b32e83cb0cbef0bc97acb
+docker: quay.io/biocontainers/isoseq3
+aliases:
+  .isoseq3-post-link.sh: /usr/local/bin/.isoseq3-post-link.sh
+  isoseq3: /usr/local/bin/isoseq3

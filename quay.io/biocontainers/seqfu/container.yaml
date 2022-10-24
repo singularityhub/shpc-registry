@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/seqfu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqfu
+latest:
+  1.9.1--h38613fd_0: sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865
+tags:
+  1.9.1--h38613fd_0: sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865
+docker: quay.io/biocontainers/seqfu
+aliases:
+  dadaist2-mergeseqs: /usr/local/bin/dadaist2-mergeseqs
+  fu-16Sregion: /usr/local/bin/fu-16Sregion
+  fu-cov: /usr/local/bin/fu-cov
+  fu-homocomp: /usr/local/bin/fu-homocomp
+  fu-index: /usr/local/bin/fu-index
+  fu-msa: /usr/local/bin/fu-msa
+  fu-multirelabel: /usr/local/bin/fu-multirelabel
+  fu-nanotags: /usr/local/bin/fu-nanotags
+  fu-orf: /usr/local/bin/fu-orf
+  fu-primers: /usr/local/bin/fu-primers
+  fu-shred: /usr/local/bin/fu-shred
+  fu-sw: /usr/local/bin/fu-sw
+  fu-tabcheck: /usr/local/bin/fu-tabcheck
+  fu-virfilter: /usr/local/bin/fu-virfilter
+  seqfu: /usr/local/bin/seqfu

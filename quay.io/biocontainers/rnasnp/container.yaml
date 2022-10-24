@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnasnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnasnp
+latest:
+  1.2--h1b792b2_6: sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362
+tags:
+  1.2--h1b792b2_6: sha256:213f29bc7bf7bbaa4e2dc929bddac209e1b452867bf63662435dc5090a999362
+docker: quay.io/biocontainers/rnasnp
+aliases:
+  RNAsnp: /usr/local/bin/RNAsnp

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tenxbraindata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tenxbraindata
+latest:
+  1.8.0--r40_0: sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5
+tags:
+  1.8.0--r40_0: sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5
+docker: quay.io/biocontainers/bioconductor-tenxbraindata
+aliases:
+  .bioconductor-tenxbraindata-post-link.sh: /usr/local/bin/.bioconductor-tenxbraindata-post-link.sh
+  .bioconductor-tenxbraindata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxbraindata-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oncomix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oncomix
+latest:
+  1.8.0--r36_0: sha256:4a2409ada37d0d7d092d7004d1b5cec1a107cec25df20941b16afad58ddab7c8
+tags:
+  1.8.0--r36_0: sha256:4a2409ada37d0d7d092d7004d1b5cec1a107cec25df20941b16afad58ddab7c8
+docker: quay.io/biocontainers/bioconductor-oncomix

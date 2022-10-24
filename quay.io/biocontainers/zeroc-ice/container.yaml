@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/zeroc-ice
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zeroc-ice
+latest:
+  3.7.1--py27hc3b63c6_1: sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03
+tags:
+  3.7.1--py27hc3b63c6_1: sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03
+docker: quay.io/biocontainers/zeroc-ice
+aliases:
+  slice2py: /usr/local/bin/slice2py

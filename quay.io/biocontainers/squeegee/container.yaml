@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/squeegee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for squeegee
+latest:
+  0.2.0--hdfd78af_0: sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
+tags:
+  0.2.0--hdfd78af_0: sha256:57e9d7d23a3edd00031d62968539ea71e2e01409a151d1264730da3b13b84025
+docker: quay.io/biocontainers/squeegee
+aliases:
+  existDB: /usr/local/bin/existDB
+  kmer-mask: /usr/local/bin/kmer-mask
+  mapMers: /usr/local/bin/mapMers
+  mapMers-depth: /usr/local/bin/mapMers-depth
+  mt19937ar-test: /usr/local/bin/mt19937ar-test
+  positionDB: /usr/local/bin/positionDB
+  simple: /usr/local/bin/simple
+  squeegee: /usr/local/bin/squeegee
+  test-merStream: /usr/local/bin/test-merStream
+  test-seqCache: /usr/local/bin/test-seqCache
+  test-seqStream: /usr/local/bin/test-seqStream

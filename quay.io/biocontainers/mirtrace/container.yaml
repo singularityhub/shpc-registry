@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mirtrace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirtrace
+latest:
+  1.0.1--hdfd78af_1: sha256:b5295e1ede22b5f9588f2673f2a1d381935845060798055b3be2f41dc93b5ec4
+tags:
+  1.0.1--hdfd78af_1: sha256:b5295e1ede22b5f9588f2673f2a1d381935845060798055b3be2f41dc93b5ec4
+docker: quay.io/biocontainers/mirtrace
+aliases:
+  mirtrace: /usr/local/bin/mirtrace
+  mirtrace.jar: /usr/local/bin/mirtrace.jar

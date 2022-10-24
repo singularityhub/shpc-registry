@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dnp-diprofile
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnp-diprofile
+latest:
+  1.0--hf1761c0_4: sha256:e4001a753e2fa9eac53e20e98a4c3c486271a2ffcae7f1ec629ddbeff6b89386
+tags:
+  1.0--hf1761c0_4: sha256:e4001a753e2fa9eac53e20e98a4c3c486271a2ffcae7f1ec629ddbeff6b89386
+docker: quay.io/biocontainers/dnp-diprofile
+aliases:
+  dnp-diprofile: /usr/local/bin/dnp-diprofile

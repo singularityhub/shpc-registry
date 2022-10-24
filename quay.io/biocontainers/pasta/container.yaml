@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/pasta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pasta
+latest:
+  1.7.8--py36h8c4c3a4_4: sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36
+tags:
+  1.7.8--py36h8c4c3a4_4: sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36
+docker: quay.io/biocontainers/pasta
+aliases:
+  README.txt: /usr/local/bin/README.txt
+  fakealigner: /usr/local/bin/fakealigner
+  faketree: /usr/local/bin/faketree
+  fasttreeMP: /usr/local/bin/fasttreeMP
+  hmmeralign: /usr/local/bin/hmmeralign
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  opal.jar: /usr/local/bin/opal.jar
+  padaligner: /usr/local/bin/padaligner
+  randtree: /usr/local/bin/randtree
+  raxml: /usr/local/bin/raxml
+  raxmlp: /usr/local/bin/raxmlp
+  run_pasta.py: /usr/local/bin/run_pasta.py
+  run_pasta_gui.py: /usr/local/bin/run_pasta_gui.py
+  run_seqtools.py: /usr/local/bin/run_seqtools.py

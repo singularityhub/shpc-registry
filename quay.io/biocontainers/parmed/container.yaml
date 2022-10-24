@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/parmed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parmed
+latest:
+  3.4.3: sha256:50c5c71a21e8122c280844405b5a8c105511e563735eeaa65cb81f9f146e5ee4
+tags:
+  3.4.3: sha256:50c5c71a21e8122c280844405b5a8c105511e563735eeaa65cb81f9f146e5ee4
+docker: quay.io/biocontainers/parmed
+aliases:
+  parmed: /usr/local/bin/parmed
+  xparmed: /usr/local/bin/xparmed

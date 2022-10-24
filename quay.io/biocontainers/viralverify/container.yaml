@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/viralverify
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for viralverify
+latest:
+  1.1--hdfd78af_0: sha256:6330e97fdaa22ddc92c9ee8c7df23b515aa96b8cadf03e5ef112ab0c448d812d
+tags:
+  1.1--hdfd78af_0: sha256:6330e97fdaa22ddc92c9ee8c7df23b515aa96b8cadf03e5ef112ab0c448d812d
+docker: quay.io/biocontainers/viralverify
+aliases:
+  training_script: /usr/local/bin/training_script
+  viralverify: /usr/local/bin/viralverify

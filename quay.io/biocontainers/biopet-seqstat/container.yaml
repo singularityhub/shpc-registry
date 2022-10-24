@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-seqstat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-seqstat
+latest:
+  1.0.1--hdfd78af_1: sha256:9055b1f986aef48d43775867fd00c847a18a21b876af5e039aa7fd985e6548f3
+tags:
+  1.0.1--hdfd78af_1: sha256:9055b1f986aef48d43775867fd00c847a18a21b876af5e039aa7fd985e6548f3
+docker: quay.io/biocontainers/biopet-seqstat
+aliases:
+  biopet-seqstat: /usr/local/bin/biopet-seqstat

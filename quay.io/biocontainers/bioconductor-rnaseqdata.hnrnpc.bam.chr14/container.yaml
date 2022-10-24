@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnaseqdata.hnrnpc.bam.chr14
+latest:
+  0.32.0--r41hdfd78af_1: sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d
+tags:
+  0.32.0--r41hdfd78af_1: sha256:1c6f6e5c2657229810f1ed8e5da4ddfa95747bf39e867fd755b358062478e74d
+docker: quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14
+aliases:
+  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh
+  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh

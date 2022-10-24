@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/saspector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for saspector
+latest:
+  0.0.5--pyhdfd78af_0: sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
+tags:
+  0.0.5--pyhdfd78af_0: sha256:f31f4140479e99f4719863cd8bddfd4fd0c6c12ffa8d38a92e52d29943833f56
+docker: quay.io/biocontainers/saspector
+aliases:
+  SASpector: /usr/local/bin/SASpector
+  coverage.py: /usr/local/bin/coverage.py
+  gene_predict.py: /usr/local/bin/gene_predict.py
+  kmer.py: /usr/local/bin/kmer.py
+  mapper.py: /usr/local/bin/mapper.py
+  quastunmap.py: /usr/local/bin/quastunmap.py
+  select_mash.py: /usr/local/bin/select_mash.py
+  sourmash: /usr/local/bin/sourmash
+  summary.py: /usr/local/bin/summary.py
+  tandem_repeats.py: /usr/local/bin/tandem_repeats.py

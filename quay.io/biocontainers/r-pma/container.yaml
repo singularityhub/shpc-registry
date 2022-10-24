@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pma
+latest:
+  1.2.1--r40h0357c0b_2: sha256:5135066d6eeda0be80c1f9f70f39367107b4610e6c3f57db90980167e856b777
+tags:
+  1.2.1--r40h0357c0b_2: sha256:5135066d6eeda0be80c1f9f70f39367107b4610e6c3f57db90980167e856b777
+docker: quay.io/biocontainers/r-pma

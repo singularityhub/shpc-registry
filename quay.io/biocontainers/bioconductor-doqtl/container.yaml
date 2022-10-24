@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-doqtl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-doqtl
+latest:
+  1.19.0--r36h516909a_1: sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae
+tags:
+  1.19.0--r36h516909a_1: sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae
+docker: quay.io/biocontainers/bioconductor-doqtl
+aliases:
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh

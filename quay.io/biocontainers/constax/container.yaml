@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/constax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for constax
+latest:
+  2.0.9--hdfd78af_0: sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98
+tags:
+  2.0.9--hdfd78af_0: sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98
+docker: quay.io/biocontainers/constax
+aliases:
+  AbundanceStats: /usr/local/bin/AbundanceStats
+  AlignmentTools: /usr/local/bin/AlignmentTools
+  Clustering: /usr/local/bin/Clustering
+  FrameBot: /usr/local/bin/FrameBot
+  KmerFilter: /usr/local/bin/KmerFilter
+  ProbeMatch: /usr/local/bin/ProbeMatch
+  ReadSeq: /usr/local/bin/ReadSeq
+  SeqFilters: /usr/local/bin/SeqFilters
+  SequenceMatch: /usr/local/bin/SequenceMatch
+  classifier: /usr/local/bin/classifier
+  constax: /usr/local/bin/constax
+  constax_no_inputs.sh: /usr/local/bin/constax_no_inputs.sh
+  hmmgs: /usr/local/bin/hmmgs

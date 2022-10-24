@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fields
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fields
+latest:
+  8.4_1--r3.2.2_0: sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8
+tags:
+  8.4_1--r3.2.2_0: sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8
+docker: quay.io/biocontainers/r-fields

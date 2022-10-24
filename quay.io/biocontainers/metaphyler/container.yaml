@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/metaphyler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaphyler
+latest:
+  1.25--hec16e2b_6: sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd
+tags:
+  1.25--hec16e2b_6: sha256:45fe1435b5b087ce26d44fa6ab07ae5f574f39c74b5678c3fdd8503ed375c0bd
+docker: quay.io/biocontainers/metaphyler
+aliases:
+  buildMetaphyler.pl: /usr/local/bin/buildMetaphyler.pl
+  combine: /usr/local/bin/combine
+  installMetaphyler.pl: /usr/local/bin/installMetaphyler.pl
+  metaphylerClassify: /usr/local/bin/metaphylerClassify
+  metaphylerTrain: /usr/local/bin/metaphylerTrain
+  report.pl: /usr/local/bin/report.pl
+  runClassifier.pl: /usr/local/bin/runClassifier.pl
+  runMetaphyler.pl: /usr/local/bin/runMetaphyler.pl
+  simuReads: /usr/local/bin/simuReads
+  taxprof: /usr/local/bin/taxprof

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/np-likeness-scorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for np-likeness-scorer
+latest:
+  2.1--py35_0: sha256:5f763c7077a033626c390ab3f33efbf6f43c28170bb87e8fc7ab052bb69f8a5d
+tags:
+  2.1--py35_0: sha256:5f763c7077a033626c390ab3f33efbf6f43c28170bb87e8fc7ab052bb69f8a5d
+docker: quay.io/biocontainers/np-likeness-scorer
+aliases:
+  np-likeness: /usr/local/bin/np-likeness

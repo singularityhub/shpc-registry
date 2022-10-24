@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sbt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sbt
+latest:
+  0.13.12--1: sha256:0a7e5bdb3f6da90b5c97ce8e2d21e4d3d37dafef080ccfd681441145cefd5af0
+tags:
+  0.13.12--1: sha256:0a7e5bdb3f6da90b5c97ce8e2d21e4d3d37dafef080ccfd681441145cefd5af0
+docker: quay.io/biocontainers/sbt
+aliases:
+  sbt: /usr/local/bin/sbt

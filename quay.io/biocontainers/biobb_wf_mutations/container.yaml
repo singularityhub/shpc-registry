@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/biobb_wf_mutations
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_wf_mutations
+latest:
+  0.0.6--py_0: sha256:d8c4be020cfa729de2c4a18a0369789b68a3ef48994f91aa87a6b7d7502735a5
+tags:
+  0.0.6--py_0: sha256:d8c4be020cfa729de2c4a18a0369789b68a3ef48994f91aa87a6b7d7502735a5
+docker: quay.io/biocontainers/biobb_wf_mutations
+aliases:
+  .biobb_wf_mutations-post-link.sh: /usr/local/bin/.biobb_wf_mutations-post-link.sh
+  GMXRC: /usr/local/bin/GMXRC
+  GMXRC.bash: /usr/local/bin/GMXRC.bash
+  GMXRC.csh: /usr/local/bin/GMXRC.csh
+  GMXRC.zsh: /usr/local/bin/GMXRC.zsh
+  demux.pl: /usr/local/bin/demux.pl
+  editconf: /usr/local/bin/editconf
+  fix_side_chain: /usr/local/bin/fix_side_chain
+  genion: /usr/local/bin/genion
+  genrestr: /usr/local/bin/genrestr
+  gmx: /usr/local/bin/gmx
+  gmx-completion-gmx.bash: /usr/local/bin/gmx-completion-gmx.bash
+  gmx-completion.bash: /usr/local/bin/gmx-completion.bash
+  grompp: /usr/local/bin/grompp
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  make_ndx: /usr/local/bin/make_ndx
+  mdrun: /usr/local/bin/mdrun
+  mutate: /usr/local/bin/mutate
+  ndx2resttop: /usr/local/bin/ndx2resttop
+  pdb: /usr/local/bin/pdb
+  pdb2gmx: /usr/local/bin/pdb2gmx
+  pdb_cluster_zip: /usr/local/bin/pdb_cluster_zip
+  pdb_variants: /usr/local/bin/pdb_variants
+  solvate: /usr/local/bin/solvate
+  xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl

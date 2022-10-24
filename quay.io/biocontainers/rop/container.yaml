@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/rop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rop
+latest:
+  1.1.2--py27heb79e2c_3: sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
+tags:
+  1.1.2--py27heb79e2c_3: sha256:faf170b3f75a72462539626a48068207786057f0c00a5d9f23e47a6d94783754
+docker: quay.io/biocontainers/rop
+aliases:
+  bam2fastx: /usr/local/bin/bam2fastx
+  bam_merge: /usr/local/bin/bam_merge
+  bed_to_juncs: /usr/local/bin/bed_to_juncs
+  contig_to_chr_coords: /usr/local/bin/contig_to_chr_coords
+  fix_map_ordering: /usr/local/bin/fix_map_ordering
+  gtf_juncs: /usr/local/bin/gtf_juncs
+  gtf_to_fasta: /usr/local/bin/gtf_to_fasta
+  juncs_db: /usr/local/bin/juncs_db
+  long_spanning_reads: /usr/local/bin/long_spanning_reads
+  map2gtf: /usr/local/bin/map2gtf
+  prep_reads: /usr/local/bin/prep_reads
+  rop: /usr/local/bin/rop
+  sam_juncs: /usr/local/bin/sam_juncs
+  samtools_0.1.18: /usr/local/bin/samtools_0.1.18
+  segment_juncs: /usr/local/bin/segment_juncs
+  sra_to_solid: /usr/local/bin/sra_to_solid
+  tophat: /usr/local/bin/tophat
+  tophat-fusion-post: /usr/local/bin/tophat-fusion-post
+  tophat2: /usr/local/bin/tophat2
+  tophat_reports: /usr/local/bin/tophat_reports

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rforproteomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rforproteomics
+latest:
+  1.32.0--r41hdfd78af_1: sha256:3e28c86bd45fe66eb28d7008a6f804da61445965ac5626d549b5c3f986edcd05
+tags:
+  1.32.0--r41hdfd78af_1: sha256:3e28c86bd45fe66eb28d7008a6f804da61445965ac5626d549b5c3f986edcd05
+docker: quay.io/biocontainers/bioconductor-rforproteomics
+aliases:
+  .bioconductor-rforproteomics-post-link.sh: /usr/local/bin/.bioconductor-rforproteomics-post-link.sh
+  .bioconductor-rforproteomics-pre-unlink.sh: /usr/local/bin/.bioconductor-rforproteomics-pre-unlink.sh

@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/biophi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biophi
+latest:
+  1.0.5--pyhdfd78af_0: sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531
+tags:
+  1.0.5--pyhdfd78af_0: sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531
+docker: quay.io/biocontainers/biophi
+aliases:
+  ANARCI: /usr/local/bin/ANARCI
+  biophi: /usr/local/bin/biophi
+  celery: /usr/local/bin/celery
+  fairseq-eval-lm: /usr/local/bin/fairseq-eval-lm
+  fairseq-generate: /usr/local/bin/fairseq-generate
+  fairseq-interactive: /usr/local/bin/fairseq-interactive
+  fairseq-preprocess: /usr/local/bin/fairseq-preprocess
+  fairseq-score: /usr/local/bin/fairseq-score
+  fairseq-train: /usr/local/bin/fairseq-train
+  fairseq-validate: /usr/local/bin/fairseq-validate
+  sacrebleu: /usr/local/bin/sacrebleu
+  sapiens: /usr/local/bin/sapiens

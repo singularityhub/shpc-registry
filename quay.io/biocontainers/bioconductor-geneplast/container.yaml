@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneplast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneplast
+latest:
+  1.8.0--r351_0: sha256:c8ebd52e1b89a9e4b739eb5efd97dcd73426bd9924f8c056d19ca6661802a6b9
+tags:
+  1.8.0--r351_0: sha256:c8ebd52e1b89a9e4b739eb5efd97dcd73426bd9924f8c056d19ca6661802a6b9
+docker: quay.io/biocontainers/bioconductor-geneplast

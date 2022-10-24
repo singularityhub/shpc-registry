@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-hwriter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-hwriter
+latest:
+  1.3.2--r3.2.2_0: sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565
+tags:
+  1.3.2--r3.2.2_0: sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565
+docker: quay.io/biocontainers/r-hwriter

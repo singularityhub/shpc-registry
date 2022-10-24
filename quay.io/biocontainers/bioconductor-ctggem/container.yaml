@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ctggem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ctggem
+latest:
+  1.6.0--r41hdfd78af_0: sha256:a09d99d1e430e46d7b23540354ecdc954a7157d3f2d957d2341d63cb1a946cab
+tags:
+  1.6.0--r41hdfd78af_0: sha256:a09d99d1e430e46d7b23540354ecdc954a7157d3f2d957d2341d63cb1a946cab
+docker: quay.io/biocontainers/bioconductor-ctggem

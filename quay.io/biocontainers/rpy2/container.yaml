@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rpy2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rpy2
+latest:
+  2.9.4: sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542
+tags:
+  2.9.4: sha256:18fd7f54938bd21d520cbdb2187cf257ba09100efd493545891a16ee20835542
+docker: quay.io/biocontainers/rpy2

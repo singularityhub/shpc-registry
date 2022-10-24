@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/coast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for coast
+latest:
+  0.2.2--pyh5e36f6f_0: sha256:d83452302f64630cd49d8fecb16ff78bf5c47edb439cb3a53cc4c4d795d9f41a
+tags:
+  0.2.2--pyh5e36f6f_0: sha256:d83452302f64630cd49d8fecb16ff78bf5c47edb439cb3a53cc4c4d795d9f41a
+docker: quay.io/biocontainers/coast
+aliases:
+  coast: /usr/local/bin/coast

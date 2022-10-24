@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bax2bam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bax2bam
+latest:
+  0.0.9--h018d624_7: sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee
+tags:
+  0.0.9--h018d624_7: sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee
+docker: quay.io/biocontainers/bax2bam
+aliases:
+  .bax2bam-post-link.sh: /usr/local/bin/.bax2bam-post-link.sh
+  .blasr_libcpp-post-link.sh: /usr/local/bin/.blasr_libcpp-post-link.sh
+  .pbbam-post-link.sh: /usr/local/bin/.pbbam-post-link.sh
+  .pbcopper-post-link.sh: /usr/local/bin/.pbcopper-post-link.sh
+  bax2bam: /usr/local/bin/bax2bam
+  pbbamify: /usr/local/bin/pbbamify

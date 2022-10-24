@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/smartdenovo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smartdenovo
+latest:
+  1.0.0--hec16e2b_5: sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b
+tags:
+  1.0.0--hec16e2b_5: sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b
+docker: quay.io/biocontainers/smartdenovo
+aliases:
+  pairaln: /usr/local/bin/pairaln
+  smartdenovo.pl: /usr/local/bin/smartdenovo.pl
+  wtclp: /usr/local/bin/wtclp
+  wtcns: /usr/local/bin/wtcns
+  wtcyc: /usr/local/bin/wtcyc
+  wtext: /usr/local/bin/wtext
+  wtgbo: /usr/local/bin/wtgbo
+  wtlay: /usr/local/bin/wtlay
+  wtmer: /usr/local/bin/wtmer
+  wtmsa: /usr/local/bin/wtmsa
+  wtobt: /usr/local/bin/wtobt
+  wtpre: /usr/local/bin/wtpre
+  wtzmo: /usr/local/bin/wtzmo

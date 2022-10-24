@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fgga
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fgga
+latest:
+  1.2.0--r41hdfd78af_0: sha256:b4ff85fc969f01cee3f1cd94098afbc234798aa9eaea9cfa87371c588ac4bd0d
+tags:
+  1.2.0--r41hdfd78af_0: sha256:b4ff85fc969f01cee3f1cd94098afbc234798aa9eaea9cfa87371c588ac4bd0d
+docker: quay.io/biocontainers/bioconductor-fgga

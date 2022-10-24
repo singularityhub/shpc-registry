@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-inlinedocs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-inlinedocs
+latest:
+  2013.9.3--r3.3.1_0: sha256:6ef05561b1faca14258f1b314faef3023f5ed0f20f38c404d7aa2bab0ea187a8
+tags:
+  2013.9.3--r3.3.1_0: sha256:6ef05561b1faca14258f1b314faef3023f5ed0f20f38c404d7aa2bab0ea187a8
+docker: quay.io/biocontainers/r-inlinedocs

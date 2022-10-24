@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bnbc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bnbc
+latest:
+  1.8.0--r36he1b5a44_0: sha256:114a99caacce74252d1bbe103d2b0123058af05be6d58b7c03bb3d4992eafe7f
+tags:
+  1.8.0--r36he1b5a44_0: sha256:114a99caacce74252d1bbe103d2b0123058af05be6d58b7c03bb3d4992eafe7f
+docker: quay.io/biocontainers/bioconductor-bnbc

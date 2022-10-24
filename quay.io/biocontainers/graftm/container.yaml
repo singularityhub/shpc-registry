@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/graftm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for graftm
+latest:
+  0.14.0--pypyhdfd78af_1: sha256:a88e377bbd6dfb1a3264318d0bbacf020e6f2a7a15ca26f78991772cbb6c954c
+tags:
+  0.14.0--pypyhdfd78af_1: sha256:a88e377bbd6dfb1a3264318d0bbacf020e6f2a7a15ca26f78991772cbb6c954c
+docker: quay.io/biocontainers/graftm
+aliases:
+  graftM: /usr/local/bin/graftM
+  ktClassifyHits: /usr/local/bin/ktClassifyHits
+  ktImportHits: /usr/local/bin/ktImportHits
+  mfqe: /usr/local/bin/mfqe
+  orfm: /usr/local/bin/orfm
+  taxit: /usr/local/bin/taxit

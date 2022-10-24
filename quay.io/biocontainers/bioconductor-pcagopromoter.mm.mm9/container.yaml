@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pcagopromoter.mm.mm9
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcagopromoter.mm.mm9
+latest:
+  1.26.0--r40hdfd78af_1: sha256:08859ab9dc13a67afdd54d167dcd515cd2d2012e7ae2d61fc27a764f82c0c8b8
+tags:
+  1.26.0--r40hdfd78af_1: sha256:08859ab9dc13a67afdd54d167dcd515cd2d2012e7ae2d61fc27a764f82c0c8b8
+docker: quay.io/biocontainers/bioconductor-pcagopromoter.mm.mm9
+aliases:
+  .bioconductor-pcagopromoter.mm.mm9-post-link.sh: /usr/local/bin/.bioconductor-pcagopromoter.mm.mm9-post-link.sh
+  .bioconductor-pcagopromoter.mm.mm9-pre-unlink.sh: /usr/local/bin/.bioconductor-pcagopromoter.mm.mm9-pre-unlink.sh

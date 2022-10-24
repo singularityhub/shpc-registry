@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-perl-unsafe-signals
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-perl-unsafe-signals
+latest:
+  0.03--pl5321h9f5acd7_5: sha256:a226af0249430febc7f9def6c31ec331c6b5e0600b4e1fd775cc8b7d2f100596
+tags:
+  0.03--pl5321h9f5acd7_5: sha256:a226af0249430febc7f9def6c31ec331c6b5e0600b4e1fd775cc8b7d2f100596
+docker: quay.io/biocontainers/perl-perl-unsafe-signals

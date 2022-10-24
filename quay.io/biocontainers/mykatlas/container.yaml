@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mykatlas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mykatlas
+latest:
+  0.6.1--py27h21c881e_5: sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20
+tags:
+  0.6.1--py27h21c881e_5: sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20
+docker: quay.io/biocontainers/mykatlas
+aliases:
+  atlas: /usr/local/bin/atlas
+  mccortex31: /usr/local/bin/mccortex31

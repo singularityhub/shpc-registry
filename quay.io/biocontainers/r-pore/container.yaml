@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pore
+latest:
+  0.24--r41h9ee0642_4: sha256:663287b1a398a531b13ad9f9c065c4947e13f32661f5e8f65862284933e3013f
+tags:
+  0.24--r41h9ee0642_4: sha256:663287b1a398a531b13ad9f9c065c4947e13f32661f5e8f65862284933e3013f
+docker: quay.io/biocontainers/r-pore

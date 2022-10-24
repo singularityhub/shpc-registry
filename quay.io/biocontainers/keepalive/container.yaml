@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/keepalive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for keepalive
+latest:
+  0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
+tags:
+  0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
+docker: quay.io/biocontainers/keepalive

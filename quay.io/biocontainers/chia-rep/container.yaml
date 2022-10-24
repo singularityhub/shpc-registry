@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/chia-rep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chia-rep
+latest:
+  3.1.1--py36h4aaaa08_2: sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80
+tags:
+  3.1.1--py36h4aaaa08_2: sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80
+docker: quay.io/biocontainers/chia-rep

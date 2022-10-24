@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nucleosim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nucleosim
+latest:
+  1.8.0--r341_0: sha256:685a84c3e33a46e48e632d2d14df119dec66e5fb00f0b00c6bf193295239582e
+tags:
+  1.8.0--r341_0: sha256:685a84c3e33a46e48e632d2d14df119dec66e5fb00f0b00c6bf193295239582e
+docker: quay.io/biocontainers/bioconductor-nucleosim

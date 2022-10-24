@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-validateannotation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-validateannotation
+latest:
+  0.1--hdfd78af_1: sha256:312bcd47ad3a4eefc1ea3573312fcbb6186bd103b266b1f7285b154725078a95
+tags:
+  0.1--hdfd78af_1: sha256:312bcd47ad3a4eefc1ea3573312fcbb6186bd103b266b1f7285b154725078a95
+docker: quay.io/biocontainers/biopet-validateannotation
+aliases:
+  biopet-validateannotation: /usr/local/bin/biopet-validateannotation

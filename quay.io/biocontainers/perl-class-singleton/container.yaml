@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-singleton
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-singleton
+latest:
+  1.6--pl5321hdfd78af_0: sha256:c9f9fb420ff3170693cfd0693667b68138c18b12d0eab508283d780fa6d27389
+tags:
+  1.6--pl5321hdfd78af_0: sha256:c9f9fb420ff3170693cfd0693667b68138c18b12d0eab508283d780fa6d27389
+docker: quay.io/biocontainers/perl-class-singleton

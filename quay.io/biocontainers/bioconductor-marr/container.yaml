@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-marr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-marr
+latest:
+  1.4.0--r41hc247a5b_2: sha256:d51ada54a125eecbac88b074298a22aaa55f6ec626c5b03f00424193be09701d
+tags:
+  1.4.0--r41hc247a5b_2: sha256:d51ada54a125eecbac88b074298a22aaa55f6ec626c5b03f00424193be09701d
+docker: quay.io/biocontainers/bioconductor-marr

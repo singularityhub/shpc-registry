@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgfocusprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgfocusprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38
+tags:
+  2.18.0--r41hdfd78af_9: sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38
+docker: quay.io/biocontainers/bioconductor-hgfocusprobe
+aliases:
+  .bioconductor-hgfocusprobe-post-link.sh: /usr/local/bin/.bioconductor-hgfocusprobe-post-link.sh
+  .bioconductor-hgfocusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hgfocusprobe-pre-unlink.sh

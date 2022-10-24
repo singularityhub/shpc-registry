@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ectyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ectyper
+latest:
+  1.0.0--pyhdfd78af_1: sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465
+tags:
+  1.0.0--pyhdfd78af_1: sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465
+docker: quay.io/biocontainers/ectyper
+aliases:
+  .ectyper-post-link.sh: /usr/local/bin/.ectyper-post-link.sh
+  ectyper: /usr/local/bin/ectyper

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mlgt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mlgt
+latest:
+  0.16--r3.3.2_0: sha256:51fdb3126c4e103ed7034ce69bfc4c6764c500630e4508b43d8b1d4ca3ddbad2
+tags:
+  0.16--r3.3.2_0: sha256:51fdb3126c4e103ed7034ce69bfc4c6764c500630e4508b43d8b1d4ca3ddbad2
+docker: quay.io/biocontainers/r-mlgt

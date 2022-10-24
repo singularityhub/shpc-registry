@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-topaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-topaseq
+latest:
+  1.24.0--r40h399db7b_1: sha256:cd7c4529a79c67668ec5a64223a642644fa9abdf39de428bb1df42002e93736a
+tags:
+  1.24.0--r40h399db7b_1: sha256:cd7c4529a79c67668ec5a64223a642644fa9abdf39de428bb1df42002e93736a
+docker: quay.io/biocontainers/bioconductor-topaseq

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mldbm-sync
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mldbm-sync
+latest:
+  0.30--pl5321hdfd78af_2: sha256:6238f51205b1e8fb21b340e0c6716f809fdf28a3fe79bedb8830af33ba2f40ea
+tags:
+  0.30--pl5321hdfd78af_2: sha256:6238f51205b1e8fb21b340e0c6716f809fdf28a3fe79bedb8830af33ba2f40ea
+docker: quay.io/biocontainers/perl-mldbm-sync

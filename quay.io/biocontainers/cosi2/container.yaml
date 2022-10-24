@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/cosi2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cosi2
+latest:
+  2.3.0rc4--py27h2d50403_1: sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779
+tags:
+  2.3.0rc4--py27h2d50403_1: sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779
+docker: quay.io/biocontainers/cosi2
+aliases:
+  coalescent: /usr/local/bin/coalescent
+  get_recomap: /usr/local/bin/get_recomap
+  recomap_hapmap2: /usr/local/bin/recomap_hapmap2
+  recosimulate: /usr/local/bin/recosimulate
+  sample_stats_extra: /usr/local/bin/sample_stats_extra

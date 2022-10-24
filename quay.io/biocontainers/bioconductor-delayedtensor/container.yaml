@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-delayedtensor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-delayedtensor
+latest:
+  1.0.0--r41hdfd78af_0: sha256:891c8aa10491b6a62051ee9ca8ccb6b2d02752fe455a51fbee987d5f1c95d677
+tags:
+  1.0.0--r41hdfd78af_0: sha256:891c8aa10491b6a62051ee9ca8ccb6b2d02752fe455a51fbee987d5f1c95d677
+docker: quay.io/biocontainers/bioconductor-delayedtensor

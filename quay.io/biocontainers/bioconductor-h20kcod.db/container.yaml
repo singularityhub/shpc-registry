@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-h20kcod.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-h20kcod.db
+latest:
+  3.4.0--r41hdfd78af_9: sha256:db399268ff0835557057f94639859b37fd1a327e519e8a00178c2de25e945e37
+tags:
+  3.4.0--r41hdfd78af_9: sha256:db399268ff0835557057f94639859b37fd1a327e519e8a00178c2de25e945e37
+docker: quay.io/biocontainers/bioconductor-h20kcod.db
+aliases:
+  .bioconductor-h20kcod.db-post-link.sh: /usr/local/bin/.bioconductor-h20kcod.db-post-link.sh
+  .bioconductor-h20kcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-h20kcod.db-pre-unlink.sh

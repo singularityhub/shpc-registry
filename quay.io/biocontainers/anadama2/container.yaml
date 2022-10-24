@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/anadama2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for anadama2
+latest:
+  0.8.0--pyhdfd78af_0: sha256:eb63964c5eda4d732e554f5aca4374f2f77e71e51dfc8311873a1f568e80cba4
+tags:
+  0.8.0--pyhdfd78af_0: sha256:eb63964c5eda4d732e554f5aca4374f2f77e71e51dfc8311873a1f568e80cba4
+docker: quay.io/biocontainers/anadama2
+aliases:
+  anadama2_aws_batch_task: /usr/local/bin/anadama2_aws_batch_task
+  ptangle: /usr/local/bin/ptangle
+  pweave: /usr/local/bin/pweave
+  pweave-convert: /usr/local/bin/pweave-convert
+  pypublish: /usr/local/bin/pypublish

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rsemmed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rsemmed
+latest:
+  1.4.0--r41hdfd78af_0: sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f
+tags:
+  1.4.0--r41hdfd78af_0: sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f
+docker: quay.io/biocontainers/bioconductor-rsemmed

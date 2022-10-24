@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/helperlibs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for helperlibs
+latest:
+  0.2.1--py_0: sha256:6119bd97173a24f6efca12683493b0c85f45f6c32051941363e42ce453fb2639
+tags:
+  0.2.1--py_0: sha256:6119bd97173a24f6efca12683493b0c85f45f6c32051941363e42ce453fb2639
+docker: quay.io/biocontainers/helperlibs

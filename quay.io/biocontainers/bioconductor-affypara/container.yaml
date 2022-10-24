@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affypara
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affypara
+latest:
+  1.50.0--r40hdfd78af_1: sha256:1c04b6832938b0b07106d4af41011bbed50bfeb8c8b4025d288a555e927dd0c8
+tags:
+  1.50.0--r40hdfd78af_1: sha256:1c04b6832938b0b07106d4af41011bbed50bfeb8c8b4025d288a555e927dd0c8
+docker: quay.io/biocontainers/bioconductor-affypara

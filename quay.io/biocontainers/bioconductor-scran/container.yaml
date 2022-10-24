@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scran
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scran
+latest:
+  1.8.4--r351hfc679d8_0: sha256:c8e1836826ec416408dea1ed111010c2b80d20c73bda3c842d4edd6ac9bf96a0
+tags:
+  1.8.4--r351hfc679d8_0: sha256:c8e1836826ec416408dea1ed111010c2b80d20c73bda3c842d4edd6ac9bf96a0
+docker: quay.io/biocontainers/bioconductor-scran

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/migrate-n
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for migrate-n
+latest:
+  3.6.11--hde308d1_4: sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804
+tags:
+  3.6.11--hde308d1_4: sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804
+docker: quay.io/biocontainers/migrate-n
+aliases:
+  migrate-n: /usr/local/bin/migrate-n
+  migrate-n-mpi: /usr/local/bin/migrate-n-mpi

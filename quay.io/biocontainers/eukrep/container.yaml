@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/eukrep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eukrep
+latest:
+  0.6.7--pyh5e36f6f_2: sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31
+tags:
+  0.6.7--pyh5e36f6f_2: sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31
+docker: quay.io/biocontainers/eukrep
+aliases:
+  EukRep: /usr/local/bin/EukRep
+  kpal: /usr/local/bin/kpal

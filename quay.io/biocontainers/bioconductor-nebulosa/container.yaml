@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nebulosa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nebulosa
+latest:
+  1.4.0--r41hdfd78af_0: sha256:e2e5801e747cf3a459dd83c12cb9919648529656ea584edb7084604250670274
+tags:
+  1.4.0--r41hdfd78af_0: sha256:e2e5801e747cf3a459dd83c12cb9919648529656ea584edb7084604250670274
+docker: quay.io/biocontainers/bioconductor-nebulosa

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rwgcod.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rwgcod.db
+latest:
+  3.4.0--r41hdfd78af_9: sha256:4b78019c20c9532847028d746db4d3b210e40c093256343d7e6b799147a50e79
+tags:
+  3.4.0--r41hdfd78af_9: sha256:4b78019c20c9532847028d746db4d3b210e40c093256343d7e6b799147a50e79
+docker: quay.io/biocontainers/bioconductor-rwgcod.db
+aliases:
+  .bioconductor-rwgcod.db-post-link.sh: /usr/local/bin/.bioconductor-rwgcod.db-post-link.sh
+  .bioconductor-rwgcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rwgcod.db-pre-unlink.sh

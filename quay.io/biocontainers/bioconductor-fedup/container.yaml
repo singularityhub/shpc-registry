@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fedup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fedup
+latest:
+  1.2.0--r41hdfd78af_0: sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd
+tags:
+  1.2.0--r41hdfd78af_0: sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd
+docker: quay.io/biocontainers/bioconductor-fedup

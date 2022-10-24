@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/getorganelle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for getorganelle
+latest:
+  1.7.6.1--pyh5e36f6f_0: sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226
+tags:
+  1.7.6.1--pyh5e36f6f_0: sha256:675d6c87fa16e483c1ced595e9ba032b57179032e940ba500099094340a6c226
+docker: quay.io/biocontainers/getorganelle
+aliases:
+  check_annotations.py: /usr/local/bin/check_annotations.py
+  cook_coding_for_blast.py: /usr/local/bin/cook_coding_for_blast.py
+  disentangle_organelle_assembly.py: /usr/local/bin/disentangle_organelle_assembly.py
+  evaluate_assembly_using_mapping.py: /usr/local/bin/evaluate_assembly_using_mapping.py
+  fastg_to_gfa.py: /usr/local/bin/fastg_to_gfa.py
+  get_organelle_config.py: /usr/local/bin/get_organelle_config.py
+  get_organelle_from_assembly.py: /usr/local/bin/get_organelle_from_assembly.py
+  get_organelle_from_reads.py: /usr/local/bin/get_organelle_from_reads.py
+  get_pair_reads.py: /usr/local/bin/get_pair_reads.py
+  gfa_to_fasta.py: /usr/local/bin/gfa_to_fasta.py
+  gfa_to_fastg.py: /usr/local/bin/gfa_to_fastg.py
+  join_spades_fastg_by_blast.py: /usr/local/bin/join_spades_fastg_by_blast.py
+  make_batch_for_get_organelle.py: /usr/local/bin/make_batch_for_get_organelle.py
+  make_batch_for_iteratively_mapping_assembling.py: /usr/local/bin/make_batch_for_iteratively_mapping_assembling.py
+  plastome_arch_info.py: /usr/local/bin/plastome_arch_info.py
+  reconstruct_graph_from_fasta.py: /usr/local/bin/reconstruct_graph_from_fasta.py
+  rm_low_coverage_duplicated_contigs.py: /usr/local/bin/rm_low_coverage_duplicated_contigs.py
+  round_statistics.py: /usr/local/bin/round_statistics.py
+  slim_graph.py: /usr/local/bin/slim_graph.py
+  summary_get_organelle_output.py: /usr/local/bin/summary_get_organelle_output.py

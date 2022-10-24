@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-getopt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-getopt
+latest:
+  0.75--pl5321hdfd78af_0: sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f
+tags:
+  0.75--pl5321hdfd78af_0: sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f
+docker: quay.io/biocontainers/perl-moosex-getopt

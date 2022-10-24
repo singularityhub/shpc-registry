@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rbec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rbec
+latest:
+  1.2.0--r41hc247a5b_2: sha256:3e9f94d0700d48e4ba59d1be2e2de8933718036ebf173e7280ad07b121384332
+tags:
+  1.2.0--r41hc247a5b_2: sha256:3e9f94d0700d48e4ba59d1be2e2de8933718036ebf173e7280ad07b121384332
+docker: quay.io/biocontainers/bioconductor-rbec

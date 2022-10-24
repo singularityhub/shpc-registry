@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sparqlwrapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sparqlwrapper
+latest:
+  1.7.6--py35_0: sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46
+tags:
+  1.7.6--py35_0: sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46
+docker: quay.io/biocontainers/sparqlwrapper

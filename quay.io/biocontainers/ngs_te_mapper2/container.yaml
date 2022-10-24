@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ngs_te_mapper2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngs_te_mapper2
+latest:
+  1.0.2--pyhdfd78af_1: sha256:db69be145358560534e88b04dc3dd60149e874dd60972d37f485b5634d3b44ab
+tags:
+  1.0.2--pyhdfd78af_1: sha256:db69be145358560534e88b04dc3dd60149e874dd60972d37f485b5634d3b44ab
+docker: quay.io/biocontainers/ngs_te_mapper2
+aliases:
+  ngs_te_mapper2: /usr/local/bin/ngs_te_mapper2
+  queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
+  queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl

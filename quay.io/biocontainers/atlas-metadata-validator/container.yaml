@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/atlas-metadata-validator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for atlas-metadata-validator
+latest:
+  1.6.1--pyhdfd78af_0: sha256:be1a06266ce8ae61988c4c338cca65d02a099af9f5e3a1d4eedc24ec452ef9a6
+tags:
+  1.6.1--pyhdfd78af_0: sha256:be1a06266ce8ae61988c4c338cca65d02a099af9f5e3a1d4eedc24ec452ef9a6
+docker: quay.io/biocontainers/atlas-metadata-validator
+aliases:
+  atlas_validation.py: /usr/local/bin/atlas_validation.py

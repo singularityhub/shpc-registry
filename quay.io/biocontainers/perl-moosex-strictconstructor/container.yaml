@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-strictconstructor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-strictconstructor
+latest:
+  0.21--pl5321hdfd78af_1: sha256:60b316ed0fb6dfedd3e6fd760691ddf045143662ddc01e6c2266e2e26d2fc661
+tags:
+  0.21--pl5321hdfd78af_1: sha256:60b316ed0fb6dfedd3e6fd760691ddf045143662ddc01e6c2266e2e26d2fc661
+docker: quay.io/biocontainers/perl-moosex-strictconstructor

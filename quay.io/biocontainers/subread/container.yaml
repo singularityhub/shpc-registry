@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/subread
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for subread
+latest:
+  2.0.1--h7132678_2: sha256:6f4696f9eb45f8de613b889ec9adfcb200be4658de651edd14404bdd606ce729
+tags:
+  2.0.1--h7132678_2: sha256:6f4696f9eb45f8de613b889ec9adfcb200be4658de651edd14404bdd606ce729
+docker: quay.io/biocontainers/subread
+aliases:
+  detectionCall: /usr/local/bin/detectionCall
+  exactSNP: /usr/local/bin/exactSNP
+  featureCounts: /usr/local/bin/featureCounts
+  flattenGTF: /usr/local/bin/flattenGTF
+  genRandomReads: /usr/local/bin/genRandomReads
+  propmapped: /usr/local/bin/propmapped
+  qualityScores: /usr/local/bin/qualityScores
+  removeDup: /usr/local/bin/removeDup
+  repair: /usr/local/bin/repair
+  subindel: /usr/local/bin/subindel
+  subjunc: /usr/local/bin/subjunc
+  sublong: /usr/local/bin/sublong
+  subread-align: /usr/local/bin/subread-align
+  subread-buildindex: /usr/local/bin/subread-buildindex
+  subread-fullscan: /usr/local/bin/subread-fullscan
+  txUnique: /usr/local/bin/txUnique

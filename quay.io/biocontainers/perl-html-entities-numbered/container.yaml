@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-entities-numbered
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-entities-numbered
+latest:
+  0.04--pl5321hdfd78af_2: sha256:0f11c32a2bca035b9fbc76d6b5abbe97ac879ca66a208a5b1deaf9bf0a1ea4e9
+tags:
+  0.04--pl5321hdfd78af_2: sha256:0f11c32a2bca035b9fbc76d6b5abbe97ac879ca66a208a5b1deaf9bf0a1ea4e9
+docker: quay.io/biocontainers/perl-html-entities-numbered

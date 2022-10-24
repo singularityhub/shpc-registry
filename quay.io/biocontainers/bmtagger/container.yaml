@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bmtagger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bmtagger
+latest:
+  3.101--h470a237_4: sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97
+tags:
+  3.101--h470a237_4: sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97
+docker: quay.io/biocontainers/bmtagger
+aliases:
+  bmfilter: /usr/local/bin/bmfilter
+  bmtagger.sh: /usr/local/bin/bmtagger.sh
+  bmtool: /usr/local/bin/bmtool
+  extract_fullseq: /usr/local/bin/extract_fullseq
+  srprism: /usr/local/bin/srprism

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/curlywhirly
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for curlywhirly
+latest:
+  1.17.08.31--hdfd78af_2: sha256:c177116db08e2ee0d458a9690fd3e3be15e5972b2854f335764f7974b236ad34
+tags:
+  1.17.08.31--hdfd78af_2: sha256:c177116db08e2ee0d458a9690fd3e3be15e5972b2854f335764f7974b236ad34
+docker: quay.io/biocontainers/curlywhirly
+aliases:
+  curlywhirly: /usr/local/bin/curlywhirly

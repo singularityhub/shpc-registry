@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lwp-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lwp-simple
+latest:
+  6.39--pl5321h9ee0642_5: sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26
+tags:
+  6.39--pl5321h9ee0642_5: sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26
+docker: quay.io/biocontainers/perl-lwp-simple

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bloom-faster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bloom-faster
+latest:
+  1.7--pl5321hec16e2b_4: sha256:600ff3a8a1ea41bae4e01f3990f9fe913015d4c1d148bc7c06f99c03bffac7f8
+tags:
+  1.7--pl5321hec16e2b_4: sha256:600ff3a8a1ea41bae4e01f3990f9fe913015d4c1d148bc7c06f99c03bffac7f8
+docker: quay.io/biocontainers/perl-bloom-faster

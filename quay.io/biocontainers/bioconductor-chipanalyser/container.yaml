@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chipanalyser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chipanalyser
+latest:
+  1.8.0--r36_0: sha256:2935eee980d355ceca1583a15a68fd64d2bce60ae405f40bf4416a7e7e1c7cef
+tags:
+  1.8.0--r36_0: sha256:2935eee980d355ceca1583a15a68fd64d2bce60ae405f40bf4416a7e7e1c7cef
+docker: quay.io/biocontainers/bioconductor-chipanalyser

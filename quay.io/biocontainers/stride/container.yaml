@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stride
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stride
+latest:
+  1.0--h8b12597_5: sha256:2ed78d461f2e6ac283a9e07bf727750ed0270f751c127fd2503a7b3b286b380b
+tags:
+  1.0--h8b12597_5: sha256:2ed78d461f2e6ac283a9e07bf727750ed0270f751c127fd2503a7b3b286b380b
+docker: quay.io/biocontainers/stride
+aliases:
+  stride: /usr/local/bin/stride

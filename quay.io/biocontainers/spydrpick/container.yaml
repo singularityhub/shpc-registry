@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/spydrpick
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spydrpick
+latest:
+  1.2.0--h78a066a_0: sha256:40cff2b3eb29468368902ec79e028ad06e7c69dab6aad405b6ae42931633cecd
+tags:
+  1.2.0--h78a066a_0: sha256:40cff2b3eb29468368902ec79e028ad06e7c69dab6aad405b6ae42931633cecd
+docker: quay.io/biocontainers/spydrpick
+aliases:
+  SpydrPick: /usr/local/bin/SpydrPick

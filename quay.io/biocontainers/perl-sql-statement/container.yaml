@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sql-statement
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sql-statement
+latest:
+  1.414--pl5321hdfd78af_0: sha256:5332dad5d08519312cbe7fe77706ad266508cf06f23bf92e4c97af503e8ba0d3
+tags:
+  1.414--pl5321hdfd78af_0: sha256:5332dad5d08519312cbe7fe77706ad266508cf06f23bf92e4c97af503e8ba0d3
+docker: quay.io/biocontainers/perl-sql-statement

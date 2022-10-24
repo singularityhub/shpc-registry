@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-return-multilevel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-return-multilevel
+latest:
+  0.08--pl5321hdfd78af_0: sha256:caf5fa6aeaf1a4f8b6eea61ba17f7cefbd76f0d812eafd5b53b731287686bcd1
+tags:
+  0.08--pl5321hdfd78af_0: sha256:caf5fa6aeaf1a4f8b6eea61ba17f7cefbd76f0d812eafd5b53b731287686bcd1
+docker: quay.io/biocontainers/perl-return-multilevel

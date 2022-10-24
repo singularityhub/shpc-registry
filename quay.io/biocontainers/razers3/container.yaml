@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/razers3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for razers3
+latest:
+  3.5.8--h19e8d03_2: sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae
+tags:
+  3.5.8--h19e8d03_2: sha256:6fa1a8edecb657c83c35570973ccffb55309006e0b9f68e8c32ee7300b055cae
+docker: quay.io/biocontainers/razers3
+aliases:
+  razers3: /usr/local/bin/razers3

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/nanosim-h
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanosim-h
+latest:
+  1.1.0.4--pyr40h145b6a8_2: sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
+tags:
+  1.1.0.4--pyr40h145b6a8_2: sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150
+docker: quay.io/biocontainers/nanosim-h
+aliases:
+  last-split8: /usr/local/bin/last-split8
+  lastal8: /usr/local/bin/lastal8
+  lastdb8: /usr/local/bin/lastdb8
+  maf-cut: /usr/local/bin/maf-cut
+  nanosim-h: /usr/local/bin/nanosim-h
+  nanosim-h-train: /usr/local/bin/nanosim-h-train

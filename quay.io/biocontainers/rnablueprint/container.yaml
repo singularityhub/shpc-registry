@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnablueprint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnablueprint
+latest:
+  1.3.2--pl5321hfe0f59a_4: sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939
+tags:
+  1.3.2--pl5321hfe0f59a_4: sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939
+docker: quay.io/biocontainers/rnablueprint
+aliases:
+  RNAblueprint: /usr/local/bin/RNAblueprint

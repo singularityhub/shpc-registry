@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/var-agg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for var-agg
+latest:
+  0.1.1--hbcae180_1: sha256:c825883dcd89ec0c7a2715157b7d6e312acff23496985c079a596ba879392973
+tags:
+  0.1.1--hbcae180_1: sha256:c825883dcd89ec0c7a2715157b7d6e312acff23496985c079a596ba879392973
+docker: quay.io/biocontainers/var-agg
+aliases:
+  var-agg: /usr/local/bin/var-agg

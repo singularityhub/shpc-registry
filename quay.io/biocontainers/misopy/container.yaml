@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/misopy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for misopy
+latest:
+  0.5.4--py27h9801fc8_5: sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
+tags:
+  0.5.4--py27h9801fc8_5: sha256:b9fef964b1087d05d539e104e7f9b6adc219e7cfc4a804360ea8f39e1ff88867
+docker: quay.io/biocontainers/misopy
+aliases:
+  compare_miso: /usr/local/bin/compare_miso
+  exon_utils: /usr/local/bin/exon_utils
+  filter_events: /usr/local/bin/filter_events
+  index_gff: /usr/local/bin/index_gff
+  miso: /usr/local/bin/miso
+  miso_pack: /usr/local/bin/miso_pack
+  miso_zip: /usr/local/bin/miso_zip
+  module_availability: /usr/local/bin/module_availability
+  pe_utils: /usr/local/bin/pe_utils
+  plot.py: /usr/local/bin/plot.py
+  run_events_analysis.py: /usr/local/bin/run_events_analysis.py
+  run_miso.py: /usr/local/bin/run_miso.py
+  sam_to_bam: /usr/local/bin/sam_to_bam
+  sashimi_plot: /usr/local/bin/sashimi_plot
+  summarize_miso: /usr/local/bin/summarize_miso
+  test_miso: /usr/local/bin/test_miso
+  varfilter.py: /usr/local/bin/varfilter.py

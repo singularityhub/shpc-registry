@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-matrixstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-matrixstats
+latest:
+  0.51.0--r3.3.1_1: sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4
+tags:
+  0.51.0--r3.3.1_1: sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4
+docker: quay.io/biocontainers/r-matrixstats

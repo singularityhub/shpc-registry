@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/proteomiqon-peptidespectrummatching
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteomiqon-peptidespectrummatching
+latest:
+  0.0.7--hdfd78af_1: sha256:4b3ec0a98188be7b26679637a2cb3d442a630eeae7d33e895c9392fa4ce4da52
+tags:
+  0.0.7--hdfd78af_1: sha256:4b3ec0a98188be7b26679637a2cb3d442a630eeae7d33e895c9392fa4ce4da52
+docker: quay.io/biocontainers/proteomiqon-peptidespectrummatching
+aliases:
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp
+  proteomiqon-peptidespectrummatching: /usr/local/bin/proteomiqon-peptidespectrummatching

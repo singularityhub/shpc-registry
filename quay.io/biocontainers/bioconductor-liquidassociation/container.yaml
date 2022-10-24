@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-liquidassociation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-liquidassociation
+latest:
+  1.48.0--r41hdfd78af_0: sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af
+tags:
+  1.48.0--r41hdfd78af_0: sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af
+docker: quay.io/biocontainers/bioconductor-liquidassociation
+aliases:
+  .bioconductor-yeastcc-post-link.sh: /usr/local/bin/.bioconductor-yeastcc-post-link.sh
+  .bioconductor-yeastcc-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastcc-pre-unlink.sh

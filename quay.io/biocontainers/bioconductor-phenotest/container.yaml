@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phenotest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phenotest
+latest:
+  1.42.0--r41hdfd78af_0: sha256:7292e4a4c9f8f0ef3709b2520c6093888fb1b978dfeba1c17721ba1644a7858a
+tags:
+  1.42.0--r41hdfd78af_0: sha256:7292e4a4c9f8f0ef3709b2520c6093888fb1b978dfeba1c17721ba1644a7858a
+docker: quay.io/biocontainers/bioconductor-phenotest

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rebet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rebet
+latest:
+  1.8.0--r40hd029910_1: sha256:dfe0d0a6acdf391425d5b21de2fbd1b591d543ac79399fb919b9d514ee07cd02
+tags:
+  1.8.0--r40hd029910_1: sha256:dfe0d0a6acdf391425d5b21de2fbd1b591d543ac79399fb919b9d514ee07cd02
+docker: quay.io/biocontainers/bioconductor-rebet

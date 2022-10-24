@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/grampa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for grampa
+latest:
+  1.3.1--pyhdfd78af_0: sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168
+tags:
+  1.3.1--pyhdfd78af_0: sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168
+docker: quay.io/biocontainers/grampa
+aliases:
+  grampa.py: /usr/local/bin/grampa.py

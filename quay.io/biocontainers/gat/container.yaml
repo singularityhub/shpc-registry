@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/gat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gat
+latest:
+  1.3.6--py39h87d955d_4: sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707
+tags:
+  1.3.6--py39h87d955d_4: sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707
+docker: quay.io/biocontainers/gat
+aliases:
+  gat-compare.py: /usr/local/bin/gat-compare.py
+  gat-great.py: /usr/local/bin/gat-great.py
+  gat-plot.py: /usr/local/bin/gat-plot.py
+  gat-run.py: /usr/local/bin/gat-run.py

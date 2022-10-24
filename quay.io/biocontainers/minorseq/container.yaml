@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/minorseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minorseq
+latest:
+  1.12.0--0: sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8
+tags:
+  1.12.0--0: sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8
+docker: quay.io/biocontainers/minorseq
+aliases:
+  .minorseq-post-link.sh: /usr/local/bin/.minorseq-post-link.sh
+  .pbccs-post-link.sh: /usr/local/bin/.pbccs-post-link.sh
+  .pbmm2-post-link.sh: /usr/local/bin/.pbmm2-post-link.sh
+  ccs: /usr/local/bin/ccs
+  ccs-alt: /usr/local/bin/ccs-alt
+  cleric: /usr/local/bin/cleric
+  fuse: /usr/local/bin/fuse
+  juliet: /usr/local/bin/juliet
+  julietflow: /usr/local/bin/julietflow
+  mixdata: /usr/local/bin/mixdata
+  pbmm2: /usr/local/bin/pbmm2

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bold-identification
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bold-identification
+latest:
+  0.0.27--py_0: sha256:6e0cfbd7006460d82c5555487206e09c869e212714d6255990d5346d3ccf1bef
+tags:
+  0.0.27--py_0: sha256:6e0cfbd7006460d82c5555487206e09c869e212714d6255990d5346d3ccf1bef
+docker: quay.io/biocontainers/bold-identification
+aliases:
+  bold_identification: /usr/local/bin/bold_identification

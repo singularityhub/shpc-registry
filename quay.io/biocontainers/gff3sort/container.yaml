@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gff3sort
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gff3sort
+latest:
+  0.1.a1a2bc9--hdfd78af_2: sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8
+tags:
+  0.1.a1a2bc9--hdfd78af_2: sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8
+docker: quay.io/biocontainers/gff3sort
+aliases:
+  check-disorder.pl: /usr/local/bin/check-disorder.pl
+  gff3sort.pl: /usr/local/bin/gff3sort.pl

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.topmed.freeze5.hg19
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.topmed.freeze5.hg19
+latest:
+  3.9.0--r36_1: sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07
+tags:
+  3.9.0--r36_1: sha256:b1fbd2443857addaaab60894ad1ed01fac93873745c7f92d3c40d83f927e4f07
+docker: quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg19
+aliases:
+  .bioconductor-mafdb.topmed.freeze5.hg19-post-link.sh: /usr/local/bin/.bioconductor-mafdb.topmed.freeze5.hg19-post-link.sh
+  .bioconductor-mafdb.topmed.freeze5.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.topmed.freeze5.hg19-pre-unlink.sh

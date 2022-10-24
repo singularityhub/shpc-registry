@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-musicatk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-musicatk
+latest:
+  1.4.0--r41hdfd78af_0: sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37
+tags:
+  1.4.0--r41hdfd78af_0: sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37
+docker: quay.io/biocontainers/bioconductor-musicatk
+aliases:
+  .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
+  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
+  .bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
+  .bioconductor-tcgabiolinksgui.data-post-link.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh
+  .bioconductor-tcgabiolinksgui.data-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh

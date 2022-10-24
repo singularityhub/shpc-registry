@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/seq2c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seq2c
+latest:
+  2019.05.30--pl526_0: sha256:9e7d371ad8851eedf2f499dc48ca9c98c60bfebfff49ea359c4883266acd71f3
+tags:
+  2019.05.30--pl526_0: sha256:9e7d371ad8851eedf2f499dc48ca9c98c60bfebfff49ea359c4883266acd71f3
+docker: quay.io/biocontainers/seq2c
+aliases:
+  cov2lr.pl: /usr/local/bin/cov2lr.pl
+  lr2gene.pl: /usr/local/bin/lr2gene.pl
+  seq2cov.pl: /usr/local/bin/seq2cov.pl

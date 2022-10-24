@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rpa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rpa
+latest:
+  1.50.0--r41hdfd78af_0: sha256:974284081b51d3875966e3790be07c892e29c5913a00f6bab5a9b1015f6e41a2
+tags:
+  1.50.0--r41hdfd78af_0: sha256:974284081b51d3875966e3790be07c892e29c5913a00f6bab5a9b1015f6e41a2
+docker: quay.io/biocontainers/bioconductor-rpa

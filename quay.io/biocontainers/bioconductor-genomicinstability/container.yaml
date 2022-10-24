@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicinstability
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicinstability
+latest:
+  1.0.0--r41hdfd78af_0: sha256:b2dfa52c92271683a44b6d4ce4e18cbc16ee3eb4b779474b45d9e327e0dfa54e
+tags:
+  1.0.0--r41hdfd78af_0: sha256:b2dfa52c92271683a44b6d4ce4e18cbc16ee3eb4b779474b45d9e327e0dfa54e
+docker: quay.io/biocontainers/bioconductor-genomicinstability

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/squizz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for squizz
+latest:
+  0.99d--hec16e2b_4: sha256:6f7404af0d76b299fc46734e2a06099a5191433af30fd349e85b8acbcc4b38ab
+tags:
+  0.99d--hec16e2b_4: sha256:6f7404af0d76b299fc46734e2a06099a5191433af30fd349e85b8acbcc4b38ab
+docker: quay.io/biocontainers/squizz
+aliases:
+  squizz: /usr/local/bin/squizz

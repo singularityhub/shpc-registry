@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/gdal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gdal
+latest:
+  2.4.0: sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0
+tags:
+  2.4.0: sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0
+docker: quay.io/biocontainers/gdal
+aliases:
+  epsg_tr.py: /usr/local/bin/epsg_tr.py
+  esri2wkt.py: /usr/local/bin/esri2wkt.py
+  gcps2vec.py: /usr/local/bin/gcps2vec.py
+  gcps2wld.py: /usr/local/bin/gcps2wld.py
+  gdal2tiles.py: /usr/local/bin/gdal2tiles.py
+  gdal2xyz.py: /usr/local/bin/gdal2xyz.py
+  gdal_auth.py: /usr/local/bin/gdal_auth.py
+  gdal_calc.py: /usr/local/bin/gdal_calc.py
+  gdal_edit.py: /usr/local/bin/gdal_edit.py
+  gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
+  gdal_merge.py: /usr/local/bin/gdal_merge.py
+  gdal_pansharpen.py: /usr/local/bin/gdal_pansharpen.py
+  gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
+  gdal_proximity.py: /usr/local/bin/gdal_proximity.py
+  gdal_retile.py: /usr/local/bin/gdal_retile.py
+  gdal_sieve.py: /usr/local/bin/gdal_sieve.py
+  gdalchksum.py: /usr/local/bin/gdalchksum.py
+  gdalcompare.py: /usr/local/bin/gdalcompare.py
+  gdalident.py: /usr/local/bin/gdalident.py
+  gdalimport.py: /usr/local/bin/gdalimport.py
+  gdalmove.py: /usr/local/bin/gdalmove.py
+  gdalserver: /usr/local/bin/gdalserver
+  mkgraticule.py: /usr/local/bin/mkgraticule.py
+  nad2bin: /usr/local/bin/nad2bin
+  ogrmerge.py: /usr/local/bin/ogrmerge.py
+  pct2rgb.py: /usr/local/bin/pct2rgb.py
+  rgb2pct.py: /usr/local/bin/rgb2pct.py

@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/bicseq2-seg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bicseq2-seg
+latest:
+  0.7.2--hec16e2b_3: sha256:84608234d4a71ec86e461f0b9fa73ed10f6069312e2b4b9b2fbf0a31a13106b3
+tags:
+  0.7.2--hec16e2b_3: sha256:84608234d4a71ec86e461f0b9fa73ed10f6069312e2b4b9b2fbf0a31a13106b3
+docker: quay.io/biocontainers/bicseq2-seg
+aliases:
+  BICseqMulSample.pl: /usr/local/bin/BICseqMulSample.pl
+  BICseqOneSample.pl: /usr/local/bin/BICseqOneSample.pl
+  BICseqTwoSample.pl: /usr/local/bin/BICseqTwoSample.pl
+  EstLambdaFct: /usr/local/bin/EstLambdaFct
+  MBICseq: /usr/local/bin/MBICseq
+  NBICseq-seg.pl: /usr/local/bin/NBICseq-seg.pl
+  bootstrap: /usr/local/bin/bootstrap
+  combineFile: /usr/local/bin/combineFile
+  combineSegBoostrap.R: /usr/local/bin/combineSegBoostrap.R
+  countRead: /usr/local/bin/countRead
+  genotype: /usr/local/bin/genotype
+  genotype.pl: /usr/local/bin/genotype.pl
+  plotProfile.R: /usr/local/bin/plotProfile.R
+  report.R: /usr/local/bin/report.R
+  reportOneSample.R: /usr/local/bin/reportOneSample.R

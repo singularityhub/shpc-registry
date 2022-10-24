@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/biolite-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biolite-tools
+latest:
+  0.4.0--hd03093a_6: sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0
+tags:
+  0.4.0--hd03093a_6: sha256:63fb1431d4d78e1fd4c7bd30cd202a63c38aa47fb47d36d9270d7759b19eecc0
+docker: quay.io/biocontainers/biolite-tools
+aliases:
+  bl-coverage: /usr/local/bin/bl-coverage
+  bl-exclude: /usr/local/bin/bl-exclude
+  bl-fasta2fastq: /usr/local/bin/bl-fasta2fastq
+  bl-fastq2fasta: /usr/local/bin/bl-fastq2fasta
+  bl-filter-illumina: /usr/local/bin/bl-filter-illumina
+  bl-insert-stats: /usr/local/bin/bl-insert-stats
+  bl-interleave: /usr/local/bin/bl-interleave
+  bl-pair-reads: /usr/local/bin/bl-pair-reads
+  bl-pileup-stats: /usr/local/bin/bl-pileup-stats
+  bl-randomize: /usr/local/bin/bl-randomize
+  bl-threshold: /usr/local/bin/bl-threshold

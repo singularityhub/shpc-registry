@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/cojac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cojac
+latest:
+  0.2--hdfd78af_0: sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db
+tags:
+  0.2--hdfd78af_0: sha256:8455969a912054a6fa222c3c36143d327b51fe9904035390d5d36bd8731c47db
+docker: quay.io/biocontainers/cojac
+aliases:
+  cooc-colourmut: /usr/local/bin/cooc-colourmut
+  cooc-curate: /usr/local/bin/cooc-curate
+  cooc-mutbamscan: /usr/local/bin/cooc-mutbamscan
+  cooc-pubmut: /usr/local/bin/cooc-pubmut
+  cooc-tabmut: /usr/local/bin/cooc-tabmut
+  phe2cojac: /usr/local/bin/phe2cojac

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/openjdk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for openjdk
+latest:
+  8.0.121: sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9
+tags:
+  8.0.121: sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9
+docker: quay.io/biocontainers/openjdk

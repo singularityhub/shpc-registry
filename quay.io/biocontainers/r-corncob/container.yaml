@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-corncob
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-corncob
+latest:
+  0.3.0--r41h3342da4_0: sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8
+tags:
+  0.3.0--r41h3342da4_0: sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8
+docker: quay.io/biocontainers/r-corncob

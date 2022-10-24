@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/variantmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for variantmap
+latest:
+  1.0.2--py_0: sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0
+tags:
+  1.0.2--py_0: sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0
+docker: quay.io/biocontainers/variantmap
+aliases:
+  variantmap_app.py: /usr/local/bin/variantmap_app.py

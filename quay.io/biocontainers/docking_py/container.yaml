@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/docking_py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for docking_py
+latest:
+  0.2.3--py_0: sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
+tags:
+  0.2.3--py_0: sha256:8003521478c3922aaca3cf98f9e34463e25871637d19bc08eb3109934e145b9c
+docker: quay.io/biocontainers/docking_py
+aliases:
+  adt: /usr/local/bin/adt
+  archosv: /usr/local/bin/archosv
+  cadd: /usr/local/bin/cadd
+  docking_py: /usr/local/bin/docking_py
+  mglenv.csh: /usr/local/bin/mglenv.csh
+  mglenv.sh: /usr/local/bin/mglenv.sh
+  pdb2pqr_cli: /usr/local/bin/pdb2pqr_cli
+  pmv: /usr/local/bin/pmv
+  prepare_ligand4.py: /usr/local/bin/prepare_ligand4.py
+  prepare_receptor4.py: /usr/local/bin/prepare_receptor4.py
+  python2.5: /usr/local/bin/python2.5
+  python2.5-config: /usr/local/bin/python2.5-config
+  pythonsh: /usr/local/bin/pythonsh
+  qvina2: /usr/local/bin/qvina2
+  qvina2_split: /usr/local/bin/qvina2_split
+  qvinaw: /usr/local/bin/qvinaw
+  qvinaw_split: /usr/local/bin/qvinaw_split
+  smina: /usr/local/bin/smina
+  tester: /usr/local/bin/tester
+  vina: /usr/local/bin/vina
+  vina_split: /usr/local/bin/vina_split
+  vision: /usr/local/bin/vision

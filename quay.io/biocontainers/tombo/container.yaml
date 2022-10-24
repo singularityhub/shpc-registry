@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/tombo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tombo
+latest:
+  1.0--py27_0: sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb
+tags:
+  1.0--py27_0: sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb
+docker: quay.io/biocontainers/tombo
+aliases:
+  graphmap: /usr/local/bin/graphmap
+  tombo: /usr/local/bin/tombo

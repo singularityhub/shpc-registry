@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-gsvadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gsvadata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082
+tags:
+  1.30.0--r41hdfd78af_1: sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082
+docker: quay.io/biocontainers/bioconductor-gsvadata
+aliases:
+  .bioconductor-gsvadata-post-link.sh: /usr/local/bin/.bioconductor-gsvadata-post-link.sh
+  .bioconductor-gsvadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh
+  .bioconductor-hgu95a.db-post-link.sh: /usr/local/bin/.bioconductor-hgu95a.db-post-link.sh
+  .bioconductor-hgu95a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh

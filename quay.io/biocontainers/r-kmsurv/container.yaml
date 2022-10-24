@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-kmsurv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-kmsurv
+latest:
+  0.1_5--r3.3.2_0: sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a
+tags:
+  0.1_5--r3.3.2_0: sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a
+docker: quay.io/biocontainers/r-kmsurv

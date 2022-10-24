@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/siann
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for siann
+latest:
+  1.3--hdfd78af_0: sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751
+tags:
+  1.3--hdfd78af_0: sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751
+docker: quay.io/biocontainers/siann
+aliases:
+  make_database.sh: /usr/local/bin/make_database.sh
+  siann.py: /usr/local/bin/siann.py

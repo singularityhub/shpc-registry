@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bisquerna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bisquerna
+latest:
+  1.0.5--r41h3342da4_0: sha256:84b55f1f8ceddd24767747c359efa63d1cb4eb9c790ed7e26bc02a083401ba7c
+tags:
+  1.0.5--r41h3342da4_0: sha256:84b55f1f8ceddd24767747c359efa63d1cb4eb9c790ed7e26bc02a083401ba7c
+docker: quay.io/biocontainers/r-bisquerna

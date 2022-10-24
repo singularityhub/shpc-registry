@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-xnomial
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-xnomial
+latest:
+  1.0.4--0: sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e
+tags:
+  1.0.4--0: sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e
+docker: quay.io/biocontainers/r-xnomial

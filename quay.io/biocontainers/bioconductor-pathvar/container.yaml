@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pathvar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pathvar
+latest:
+  1.8.0--r3.4.1_0: sha256:b653598cda227bfadefb08033b7906928132409ac3c725b776d5aeed7027672c
+tags:
+  1.8.0--r3.4.1_0: sha256:b653598cda227bfadefb08033b7906928132409ac3c725b776d5aeed7027672c
+docker: quay.io/biocontainers/bioconductor-pathvar

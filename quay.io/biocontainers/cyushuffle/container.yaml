@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cyushuffle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cyushuffle
+latest:
+  1.1.2--py39hbf8eff0_3: sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357
+tags:
+  1.1.2--py39hbf8eff0_3: sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357
+docker: quay.io/biocontainers/cyushuffle

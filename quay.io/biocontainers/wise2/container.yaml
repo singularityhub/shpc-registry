@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/wise2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wise2
+latest:
+  2.4.1--h40d77a6_1: sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059
+tags:
+  2.4.1--h40d77a6_1: sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059
+docker: quay.io/biocontainers/wise2
+aliases:
+  dba: /usr/local/bin/dba
+  dnal: /usr/local/bin/dnal
+  estwise: /usr/local/bin/estwise
+  estwisedb: /usr/local/bin/estwisedb
+  genewise: /usr/local/bin/genewise
+  genewisedb: /usr/local/bin/genewisedb
+  promoterwise: /usr/local/bin/promoterwise
+  psw: /usr/local/bin/psw
+  pswdb: /usr/local/bin/pswdb
+  scanwise: /usr/local/bin/scanwise
+  scanwise_server: /usr/local/bin/scanwise_server

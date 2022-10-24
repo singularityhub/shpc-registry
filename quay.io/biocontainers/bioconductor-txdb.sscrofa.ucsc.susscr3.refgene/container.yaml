@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
+latest:
+  3.4.6--r36_1: sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6
+tags:
+  3.4.6--r36_1: sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6
+docker: quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene
+aliases:
+  .bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh
+  .bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh

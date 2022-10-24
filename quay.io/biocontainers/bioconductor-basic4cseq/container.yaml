@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-basic4cseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-basic4cseq
+latest:
+  1.6.0--r3.4.1_0: sha256:d657b95b2ed78da7074f49bf72662ac5c84550792cc9fd03f786f52877b94dba
+tags:
+  1.6.0--r3.4.1_0: sha256:d657b95b2ed78da7074f49bf72662ac5c84550792cc9fd03f786f52877b94dba
+docker: quay.io/biocontainers/bioconductor-basic4cseq

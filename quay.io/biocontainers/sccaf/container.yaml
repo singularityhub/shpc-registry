@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/sccaf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sccaf
+latest:
+  0.0.9--py_0: sha256:a414e19efb731079c3d3e1b671a941b57ebe58f21179fc3a54b1acf9abc33d56
+tags:
+  0.0.9--py_0: sha256:a414e19efb731079c3d3e1b671a941b57ebe58f21179fc3a54b1acf9abc33d56
+docker: quay.io/biocontainers/sccaf
+aliases:
+  sccaf: /usr/local/bin/sccaf
+  sccaf-assess: /usr/local/bin/sccaf-assess
+  sccaf-assess-merger: /usr/local/bin/sccaf-assess-merger
+  sccaf-regress-out: /usr/local/bin/sccaf-regress-out

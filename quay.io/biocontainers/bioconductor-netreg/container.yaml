@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netreg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netreg
+latest:
+  1.8.0--r36he1b5a44_1: sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0
+tags:
+  1.8.0--r36he1b5a44_1: sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0
+docker: quay.io/biocontainers/bioconductor-netreg

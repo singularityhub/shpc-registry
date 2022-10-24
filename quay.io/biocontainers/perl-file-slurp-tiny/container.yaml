@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-slurp-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-slurp-tiny
+latest:
+  0.004--pl5321hdfd78af_2: sha256:fa8afe7e70867a280f65dff495d7a33b6a6aad4c4d37abba01c503dd7ea7b167
+tags:
+  0.004--pl5321hdfd78af_2: sha256:fa8afe7e70867a280f65dff495d7a33b6a6aad4c4d37abba01c503dd7ea7b167
+docker: quay.io/biocontainers/perl-file-slurp-tiny

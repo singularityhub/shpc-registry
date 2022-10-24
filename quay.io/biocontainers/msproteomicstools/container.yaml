@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/msproteomicstools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msproteomicstools
+latest:
+  0.8.0--py27h6d73bfa_1: sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1
+tags:
+  0.8.0--py27h6d73bfa_1: sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1
+docker: quay.io/biocontainers/msproteomicstools
+aliases:
+  AlignmentGUI.py: /usr/local/bin/AlignmentGUI.py
+  MSE2mzML.py: /usr/local/bin/MSE2mzML.py
+  MSE_split.py: /usr/local/bin/MSE_split.py
+  NISTParser.py: /usr/local/bin/NISTParser.py
+  ProtFDRTraML2Fasta.py: /usr/local/bin/ProtFDRTraML2Fasta.py
+  ProtFDRmProphet2Mayu.py: /usr/local/bin/ProtFDRmProphet2Mayu.py
+  TAPIR.py: /usr/local/bin/TAPIR.py
+  add_protein_annotation.py: /usr/local/bin/add_protein_annotation.py
+  compute_full_matrix.py: /usr/local/bin/compute_full_matrix.py
+  convertFromPeakview.py: /usr/local/bin/convertFromPeakview.py
+  convertMassLynxTomzML.py: /usr/local/bin/convertMassLynxTomzML.py
+  convertNISTLibraryToTSV.py: /usr/local/bin/convertNISTLibraryToTSV.py
+  copy_accesion.py: /usr/local/bin/copy_accesion.py
+  count_pep_prot.py: /usr/local/bin/count_pep_prot.py
+  dsdp5: /usr/local/bin/dsdp5
+  extract_matrix.py: /usr/local/bin/extract_matrix.py
+  fdr_cutoff.py: /usr/local/bin/fdr_cutoff.py
+  feature_alignment.py: /usr/local/bin/feature_alignment.py
+  featurealigner2msstats.py: /usr/local/bin/featurealigner2msstats.py
+  filterChrom.py: /usr/local/bin/filterChrom.py
+  filterPeakview.py: /usr/local/bin/filterPeakview.py
+  filterSqMass.py: /usr/local/bin/filterSqMass.py
+  fix_sonar.py: /usr/local/bin/fix_sonar.py
+  fix_swath_windows.py: /usr/local/bin/fix_swath_windows.py
+  makeSwathFile.py: /usr/local/bin/makeSwathFile.py
+  mergeSqMass.py: /usr/local/bin/mergeSqMass.py
+  pepxml2csv.py: /usr/local/bin/pepxml2csv.py
+  pepxml2csv_simple.py: /usr/local/bin/pepxml2csv_simple.py
+  plot_alignment_tree.py: /usr/local/bin/plot_alignment_tree.py
+  preprocess_peakview.py: /usr/local/bin/preprocess_peakview.py
+  proteinDBmasses.py: /usr/local/bin/proteinDBmasses.py
+  proteinDigest.py: /usr/local/bin/proteinDigest.py
+  proteins_not_in_library.py: /usr/local/bin/proteins_not_in_library.py
+  pseudoreverseDB.py: /usr/local/bin/pseudoreverseDB.py
+  requantAlignedValues.py: /usr/local/bin/requantAlignedValues.py
+  spectrast2spectrast_irt.py: /usr/local/bin/spectrast2spectrast_irt.py
+  spectrast2tsv.py: /usr/local/bin/spectrast2tsv.py
+  spectrast_cluster.py: /usr/local/bin/spectrast_cluster.py
+  spectrast_updateiRTs.py: /usr/local/bin/spectrast_updateiRTs.py
+  splitMSE.py: /usr/local/bin/splitMSE.py
+  split_mzXML_intoSwath.py: /usr/local/bin/split_mzXML_intoSwath.py
+  tmp.py: /usr/local/bin/tmp.py
+  trafoXML_visualize.py: /usr/local/bin/trafoXML_visualize.py
+  tsv2spectrast.py: /usr/local/bin/tsv2spectrast.py

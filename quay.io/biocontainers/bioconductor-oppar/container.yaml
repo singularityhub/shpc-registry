@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oppar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oppar
+latest:
+  1.8.0--r341h470a237_0: sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b
+tags:
+  1.8.0--r341h470a237_0: sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b
+docker: quay.io/biocontainers/bioconductor-oppar

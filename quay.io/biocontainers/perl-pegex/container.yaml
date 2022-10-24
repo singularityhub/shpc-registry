@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pegex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pegex
+latest:
+  0.61--pl5321hdfd78af_2: sha256:a0b8cbc904080608eea28e284481aeb42678c997490631e593f9a728ceaaac15
+tags:
+  0.61--pl5321hdfd78af_2: sha256:a0b8cbc904080608eea28e284481aeb42678c997490631e593f9a728ceaaac15
+docker: quay.io/biocontainers/perl-pegex

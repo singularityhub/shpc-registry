@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cnv_facets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cnv_facets
+latest:
+  v0.11.3--r351_2: sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068
+tags:
+  v0.11.3--r351_2: sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068
+docker: quay.io/biocontainers/cnv_facets
+aliases:
+  cnv_facets.R: /usr/local/bin/cnv_facets.R
+  snp-pileup: /usr/local/bin/snp-pileup

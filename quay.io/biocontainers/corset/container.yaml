@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/corset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for corset
+latest:
+  1.09--hd03093a_3: sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a
+tags:
+  1.09--hd03093a_3: sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a
+docker: quay.io/biocontainers/corset
+aliases:
+  corset: /usr/local/bin/corset
+  corset_fasta_ID_changer: /usr/local/bin/corset_fasta_ID_changer

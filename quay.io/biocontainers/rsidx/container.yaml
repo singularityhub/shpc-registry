@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rsidx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rsidx
+latest:
+  0.3--pyhdfd78af_0: sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42
+tags:
+  0.3--pyhdfd78af_0: sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42
+docker: quay.io/biocontainers/rsidx
+aliases:
+  rsidx: /usr/local/bin/rsidx

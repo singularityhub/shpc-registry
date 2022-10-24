@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-dbm-deep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-dbm-deep
+latest:
+  2.0013--pl526_1: sha256:ca50b734b0a20a7f9e2aab560f73066343aebdcbe91b2580b5ec1284f9df6787
+tags:
+  2.0013--pl526_1: sha256:ca50b734b0a20a7f9e2aab560f73066343aebdcbe91b2580b5ec1284f9df6787
+docker: quay.io/biocontainers/perl-dbm-deep

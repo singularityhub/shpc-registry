@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/snipit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snipit
+latest:
+  1.0.7--pyhdfd78af_0: sha256:9d75413d3937ba09a76a50e02dcb071fc942dfc75f3b90367fc64f8cf8df1f7e
+tags:
+  1.0.7--pyhdfd78af_0: sha256:9d75413d3937ba09a76a50e02dcb071fc942dfc75f3b90367fc64f8cf8df1f7e
+docker: quay.io/biocontainers/snipit
+aliases:
+  snipit: /usr/local/bin/snipit
+  snp_functions.py: /usr/local/bin/snp_functions.py

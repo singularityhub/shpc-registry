@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hamroaster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hamroaster
+latest:
+  1.1--hdfd78af_0: sha256:602732a6c1a23eb5f72a7bae87f63649ae96421950b4883c65672ef50a051b1f
+tags:
+  1.1--hdfd78af_0: sha256:602732a6c1a23eb5f72a7bae87f63649ae96421950b4883c65672ef50a051b1f
+docker: quay.io/biocontainers/hamroaster
+aliases:
+  hAMRoaster: /usr/local/bin/hAMRoaster

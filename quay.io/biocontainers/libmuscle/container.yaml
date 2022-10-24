@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/libmuscle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libmuscle
+latest:
+  3.7--h470a237_1: sha256:bf9fc0fcc57d6c315e3b7c81b639243b3e29a4c5f87e7eb35c846fa6d7a7b0c4
+tags:
+  3.7--h470a237_1: sha256:bf9fc0fcc57d6c315e3b7c81b639243b3e29a4c5f87e7eb35c846fa6d7a7b0c4
+docker: quay.io/biocontainers/libmuscle

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bigmemoryextras
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bigmemoryextras
+latest:
+  1.38.0--r40hdfd78af_1: sha256:092da228d767319d21b9bf91859f45d75161db045bf3a153e53b27a48d8cba41
+tags:
+  1.38.0--r40hdfd78af_1: sha256:092da228d767319d21b9bf91859f45d75161db045bf3a153e53b27a48d8cba41
+docker: quay.io/biocontainers/bioconductor-bigmemoryextras

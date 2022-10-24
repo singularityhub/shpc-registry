@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-debcam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-debcam
+latest:
+  1.8.0--r40hdfd78af_1: sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf
+tags:
+  1.8.0--r40hdfd78af_1: sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf
+docker: quay.io/biocontainers/bioconductor-debcam

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tweedeseqcountdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tweedeseqcountdata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40
+tags:
+  1.32.0--r41hdfd78af_1: sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40
+docker: quay.io/biocontainers/bioconductor-tweedeseqcountdata
+aliases:
+  .bioconductor-tweedeseqcountdata-post-link.sh: /usr/local/bin/.bioconductor-tweedeseqcountdata-post-link.sh
+  .bioconductor-tweedeseqcountdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tweedeseqcountdata-pre-unlink.sh

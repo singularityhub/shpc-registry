@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-gd-svg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-gd-svg
+latest:
+  0.33--pl5321hdfd78af_2: sha256:f3ee1ad731f367a47282851c1842b2e27dd552748199782d7ef16c2e379660b0
+tags:
+  0.33--pl5321hdfd78af_2: sha256:f3ee1ad731f367a47282851c1842b2e27dd552748199782d7ef16c2e379660b0
+docker: quay.io/biocontainers/perl-gd-svg

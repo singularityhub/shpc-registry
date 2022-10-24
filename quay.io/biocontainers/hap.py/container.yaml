@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/hap.py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hap.py
+latest:
+  0.3.7--py27_1: sha256:ebb9d998e938cc6d659c2d9fe214c94ae05786d8c6cd79456763bac4856f61c5
+tags:
+  0.3.7--py27_1: sha256:ebb9d998e938cc6d659c2d9fe214c94ae05786d8c6cd79456763bac4856f61c5
+docker: quay.io/biocontainers/hap.py
+aliases:
+  alleles: /usr/local/bin/alleles
+  bamstats.py: /usr/local/bin/bamstats.py
+  blocksplit: /usr/local/bin/blocksplit
+  cnx.py: /usr/local/bin/cnx.py
+  dipenum: /usr/local/bin/dipenum
+  fastainfo: /usr/local/bin/fastainfo
+  ftx.py: /usr/local/bin/ftx.py
+  gvcf2bed: /usr/local/bin/gvcf2bed
+  hap.py: /usr/local/bin/hap.py
+  hapcmp: /usr/local/bin/hapcmp
+  hapenum: /usr/local/bin/hapenum
+  multimerge: /usr/local/bin/multimerge
+  ovc.py: /usr/local/bin/ovc.py
+  pre.py: /usr/local/bin/pre.py
+  preprocess: /usr/local/bin/preprocess
+  qfy.py: /usr/local/bin/qfy.py
+  quantify: /usr/local/bin/quantify
+  roc: /usr/local/bin/roc
+  scmp: /usr/local/bin/scmp
+  som.py: /usr/local/bin/som.py
+  test_haplotypes: /usr/local/bin/test_haplotypes
+  validatevcf: /usr/local/bin/validatevcf
+  vcfhdr2json: /usr/local/bin/vcfhdr2json
+  xcmp: /usr/local/bin/xcmp

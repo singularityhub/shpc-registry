@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/clustalw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clustalw
+latest:
+  2.1--h9f5acd7_7: sha256:b6a0bd2d397078fa1a35d7f4cef68a75ea953dbaa101781c48cdebc3994c4972
+tags:
+  2.1--h9f5acd7_7: sha256:b6a0bd2d397078fa1a35d7f4cef68a75ea953dbaa101781c48cdebc3994c4972
+docker: quay.io/biocontainers/clustalw

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ripat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ripat
+latest:
+  1.4.0--r41hdfd78af_0: sha256:759ffb313189da631d2186a84235848ac5147db393c9d2d1dbda27eec93c4748
+tags:
+  1.4.0--r41hdfd78af_0: sha256:759ffb313189da631d2186a84235848ac5147db393c9d2d1dbda27eec93c4748
+docker: quay.io/biocontainers/bioconductor-ripat

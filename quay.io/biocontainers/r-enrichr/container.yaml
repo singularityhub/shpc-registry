@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-enrichr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-enrichr
+latest:
+  1.0--r36h6115d3f_1: sha256:304e260c72d1d10059080eb3a97cf1368146bf6b406eb4407b45c79e49cc0f94
+tags:
+  1.0--r36h6115d3f_1: sha256:304e260c72d1d10059080eb3a97cf1368146bf6b406eb4407b45c79e49cc0f94
+docker: quay.io/biocontainers/r-enrichr

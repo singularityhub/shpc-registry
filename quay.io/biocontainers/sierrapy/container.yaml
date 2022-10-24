@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/sierrapy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sierrapy
+latest:
+  0.4.1--pyh7cba7a3_0: sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7
+tags:
+  0.4.1--pyh7cba7a3_0: sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7
+docker: quay.io/biocontainers/sierrapy
+aliases:
+  gql-cli: /usr/local/bin/gql-cli
+  sierrapy: /usr/local/bin/sierrapy

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/simscsntree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simscsntree
+latest:
+  0.0.9--pyh5e36f6f_0: sha256:6c732dc5303167874c8cc7c0454e94adb06486e2f2b6d324ee81eb301bf36f24
+tags:
+  0.0.9--pyh5e36f6f_0: sha256:6c732dc5303167874c8cc7c0454e94adb06486e2f2b6d324ee81eb301bf36f24
+docker: quay.io/biocontainers/simscsntree

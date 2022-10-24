@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-sortedcontainers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-sortedcontainers
+latest:
+  2.4.0--pyh5e36f6f_0: sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637
+tags:
+  2.4.0--pyh5e36f6f_0: sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637
+docker: quay.io/biocontainers/python-sortedcontainers

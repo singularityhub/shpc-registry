@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gfinisher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gfinisher
+latest:
+  1.4--py27_0: sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642
+tags:
+  1.4--py27_0: sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642
+docker: quay.io/biocontainers/gfinisher
+aliases:
+  gfinisher: /usr/local/bin/gfinisher

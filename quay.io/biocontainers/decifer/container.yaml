@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/decifer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for decifer
+latest:
+  2.1.3--py310h243b37b_0: sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a
+tags:
+  2.1.3--py310h243b37b_0: sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a
+docker: quay.io/biocontainers/decifer
+aliases:
+  decifer: /usr/local/bin/decifer
+  dimacs-solver: /usr/local/bin/dimacs-solver
+  dimacs-to-lgf: /usr/local/bin/dimacs-to-lgf
+  fitbeta: /usr/local/bin/fitbeta
+  generatestatetrees: /usr/local/bin/generatestatetrees
+  lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
+  lgf-gen: /usr/local/bin/lgf-gen
+  mergestatetrees: /usr/local/bin/mergestatetrees

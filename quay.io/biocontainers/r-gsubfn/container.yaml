@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gsubfn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gsubfn
+latest:
+  0.6_6--r3.3.2_0: sha256:06b4f129e4747e6a1f3accf271c4095748636a45e602258bc1c9d81e5362f329
+tags:
+  0.6_6--r3.3.2_0: sha256:06b4f129e4747e6a1f3accf271c4095748636a45e602258bc1c9d81e5362f329
+docker: quay.io/biocontainers/r-gsubfn

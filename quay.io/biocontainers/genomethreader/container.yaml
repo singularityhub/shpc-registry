@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/genomethreader
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomethreader
+latest:
+  1.7.1--h87f3376_4: sha256:7b18c7d28f81a7ffbe7c864c7130a896fb6bf887347a212d5feb3d1dbf33bcb2
+tags:
+  1.7.1--h87f3376_4: sha256:7b18c7d28f81a7ffbe7c864c7130a896fb6bf887347a212d5feb3d1dbf33bcb2
+docker: quay.io/biocontainers/genomethreader
+aliases:
+  gth: /usr/local/bin/gth
+  gthclean.sh: /usr/local/bin/gthclean.sh
+  gthcleanrec.sh: /usr/local/bin/gthcleanrec.sh
+  gthconsensus: /usr/local/bin/gthconsensus
+  gthfilestat: /usr/local/bin/gthfilestat
+  gthgetseq: /usr/local/bin/gthgetseq
+  gthsplit: /usr/local/bin/gthsplit
+  gthsplit2dim.sh: /usr/local/bin/gthsplit2dim.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sparse-neighbors-search
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sparse-neighbors-search
+latest:
+  0.7--py37h675a0cb_2: sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943
+tags:
+  0.7--py37h675a0cb_2: sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943
+docker: quay.io/biocontainers/sparse-neighbors-search

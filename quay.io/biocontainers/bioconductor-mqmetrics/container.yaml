@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mqmetrics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mqmetrics
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc
+docker: quay.io/biocontainers/bioconductor-mqmetrics

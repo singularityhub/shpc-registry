@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-treesummarizedexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-treesummarizedexperiment
+latest:
+  2.2.0--r41hdfd78af_0: sha256:07479a671c37ad4531b06b675e858f4d85f8171695c9654508346a506375e270
+tags:
+  2.2.0--r41hdfd78af_0: sha256:07479a671c37ad4531b06b675e858f4d85f8171695c9654508346a506375e270
+docker: quay.io/biocontainers/bioconductor-treesummarizedexperiment

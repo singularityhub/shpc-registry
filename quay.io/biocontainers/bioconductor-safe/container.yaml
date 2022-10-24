@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-safe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-safe
+latest:
+  3.34.0--r41hdfd78af_0: sha256:209ffffbeb9ec009267fa37fa3a8f2dd32f351eb66e6812c7d349398c9ad3123
+tags:
+  3.34.0--r41hdfd78af_0: sha256:209ffffbeb9ec009267fa37fa3a8f2dd32f351eb66e6812c7d349398c9ad3123
+docker: quay.io/biocontainers/bioconductor-safe

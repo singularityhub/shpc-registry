@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-waddr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-waddr
+latest:
+  1.8.0--r41hc247a5b_2: sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677
+tags:
+  1.8.0--r41hc247a5b_2: sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677
+docker: quay.io/biocontainers/bioconductor-waddr

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mirlab
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirlab
+latest:
+  1.24.0--r41hdfd78af_0: sha256:75de825544468d8930ecef5cf10d8eede54f4c4fd8cd59c1218329675b152aae
+tags:
+  1.24.0--r41hdfd78af_0: sha256:75de825544468d8930ecef5cf10d8eede54f4c4fd8cd59c1218329675b152aae
+docker: quay.io/biocontainers/bioconductor-mirlab
+aliases:
+  .bioconductor-tcgabiolinksgui.data-post-link.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh
+  .bioconductor-tcgabiolinksgui.data-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh

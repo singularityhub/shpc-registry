@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bcool
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcool
+latest:
+  1.0.0--hdfd78af_2: sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3
+tags:
+  1.0.0--hdfd78af_2: sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3
+docker: quay.io/biocontainers/bcool
+aliases:
+  bcalm: /usr/local/bin/bcalm
+  bcool: /usr/local/bin/bcool
+  bgreat: /usr/local/bin/bgreat
+  btrim: /usr/local/bin/btrim
+  ntcard: /usr/local/bin/ntcard
+  nthll: /usr/local/bin/nthll

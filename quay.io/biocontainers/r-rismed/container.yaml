@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rismed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rismed
+latest:
+  2.1.7--r40h6115d3f_2: sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f
+tags:
+  2.1.7--r40h6115d3f_2: sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f
+docker: quay.io/biocontainers/r-rismed

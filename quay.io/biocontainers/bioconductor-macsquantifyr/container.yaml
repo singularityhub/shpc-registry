@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-macsquantifyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-macsquantifyr
+latest:
+  1.8.0--r41hdfd78af_0: sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf
+tags:
+  1.8.0--r41hdfd78af_0: sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf
+docker: quay.io/biocontainers/bioconductor-macsquantifyr

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/openmg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for openmg
+latest:
+  0.1--hdfd78af_4: sha256:d10e23ea6730149b1abc132351dd5d8dc2cac4c9edc52566665c27c1a1b7f4c2
+tags:
+  0.1--hdfd78af_4: sha256:d10e23ea6730149b1abc132351dd5d8dc2cac4c9edc52566665c27c1a1b7f4c2
+docker: quay.io/biocontainers/openmg
+aliases:
+  apt: /usr/local/bin/apt
+  openmg: /usr/local/bin/openmg

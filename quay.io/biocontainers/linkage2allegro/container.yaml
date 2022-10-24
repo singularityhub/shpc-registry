@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/linkage2allegro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for linkage2allegro
+latest:
+  2017.3--py_1: sha256:452f10dac7dda906f4aa7ee5a823723dc1305655e02d73356d7dd4850e9c6f75
+tags:
+  2017.3--py_1: sha256:452f10dac7dda906f4aa7ee5a823723dc1305655e02d73356d7dd4850e9c6f75
+docker: quay.io/biocontainers/linkage2allegro
+aliases:
+  linkage2allegro: /usr/local/bin/linkage2allegro

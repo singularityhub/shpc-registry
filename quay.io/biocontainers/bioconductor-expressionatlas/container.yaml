@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-expressionatlas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-expressionatlas
+latest:
+  1.22.0--r41hdfd78af_0: sha256:caecbf4411994c57a17d80981911754694fab1898c02ab9ffdad457001f1841d
+tags:
+  1.22.0--r41hdfd78af_0: sha256:caecbf4411994c57a17d80981911754694fab1898c02ab9ffdad457001f1841d
+docker: quay.io/biocontainers/bioconductor-expressionatlas

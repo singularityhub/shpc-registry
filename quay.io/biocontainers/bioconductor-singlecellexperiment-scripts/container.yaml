@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-singlecellexperiment-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-singlecellexperiment-scripts
+latest:
+  0.0.3--hdfd78af_1: sha256:cd0fbfa6937a7e6eae825c86ad560ffaf011ffef4546096016921326b7bbeecc
+tags:
+  0.0.3--hdfd78af_1: sha256:cd0fbfa6937a7e6eae825c86ad560ffaf011ffef4546096016921326b7bbeecc
+docker: quay.io/biocontainers/bioconductor-singlecellexperiment-scripts
+aliases:
+  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
+  singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
+  singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
+  singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R

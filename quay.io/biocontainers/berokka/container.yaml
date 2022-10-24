@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/berokka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for berokka
+latest:
+  0.2.3--hdfd78af_3: sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8
+tags:
+  0.2.3--hdfd78af_3: sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8
+docker: quay.io/biocontainers/berokka
+aliases:
+  berokka: /usr/local/bin/berokka

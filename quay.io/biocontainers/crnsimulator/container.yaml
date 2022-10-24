@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crnsimulator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crnsimulator
+latest:
+  0.9--pyh5bfb8f1_0: sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92
+tags:
+  0.9--pyh5bfb8f1_0: sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92
+docker: quay.io/biocontainers/crnsimulator
+aliases:
+  crnsimulator: /usr/local/bin/crnsimulator

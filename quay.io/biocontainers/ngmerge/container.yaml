@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ngmerge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngmerge
+latest:
+  0.3--ha92aebf_1: sha256:402ffca1c82b4bdec35135061645988e91193c83cedda6a3a24116362c1294eb
+tags:
+  0.3--ha92aebf_1: sha256:402ffca1c82b4bdec35135061645988e91193c83cedda6a3a24116362c1294eb
+docker: quay.io/biocontainers/ngmerge
+aliases:
+  NGmerge: /usr/local/bin/NGmerge

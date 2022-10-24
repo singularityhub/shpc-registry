@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/r-ngsplotdb-mm10
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ngsplotdb-mm10
+latest:
+  3.00--hdfd78af_7: sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a
+tags:
+  3.00--hdfd78af_7: sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a
+docker: quay.io/biocontainers/r-ngsplotdb-mm10
+aliases:
+  .r-ngsplotdb-mm10-post-link.sh: /usr/local/bin/.r-ngsplotdb-mm10-post-link.sh
+  .r-ngsplotdb-mm10-pre-unlink.sh: /usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh
+  ExtractGName.R: /usr/local/bin/ExtractGName.R
+  alt_reg_cufflinks: /usr/local/bin/alt_reg_cufflinks
+  alter2bed.pl: /usr/local/bin/alter2bed.pl
+  combine_diff.pl: /usr/local/bin/combine_diff.pl
+  coordinat.pl: /usr/local/bin/coordinat.pl
+  difflist2bed.pl: /usr/local/bin/difflist2bed.pl
+  get_difflist.pl: /usr/local/bin/get_difflist.pl
+  gtf2txt_plot.pl: /usr/local/bin/gtf2txt_plot.pl
+  install.db.tables.r: /usr/local/bin/install.db.tables.r
+  make_cgi_list.R: /usr/local/bin/make_cgi_list.R
+  make_gene_model.R: /usr/local/bin/make_gene_model.R
+  ngs.plot.r: /usr/local/bin/ngs.plot.r
+  ngsplotdb.py: /usr/local/bin/ngsplotdb.py
+  parse_diff.pl: /usr/local/bin/parse_diff.pl
+  plotCorrGram.r: /usr/local/bin/plotCorrGram.r
+  remove.db.tables.r: /usr/local/bin/remove.db.tables.r
+  replot.r: /usr/local/bin/replot.r
+  setTableDefaults.py: /usr/local/bin/setTableDefaults.py
+  time.bigWig.extractOnly.r: /usr/local/bin/time.bigWig.extractOnly.r
+  time.bigWig.r: /usr/local/bin/time.bigWig.r
+  time.libload.r: /usr/local/bin/time.libload.r
+  time.ngs.plot.extractOnly.r: /usr/local/bin/time.ngs.plot.extractOnly.r
+  time.ngs.plot.r: /usr/local/bin/time.ngs.plot.r
+  time.tabix.2.r: /usr/local/bin/time.tabix.2.r
+  time.tabix.extractOnly.r: /usr/local/bin/time.tabix.extractOnly.r
+  time.tabix.r: /usr/local/bin/time.tabix.r

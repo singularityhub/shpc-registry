@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ashkenazimsonchr21
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ashkenazimsonchr21
+latest:
+  1.24.0--r41hdfd78af_1: sha256:8eb01423ea092e3f6b7efc7a28845970a9bd95e1657dde8f72b38123287d9f1d
+tags:
+  1.24.0--r41hdfd78af_1: sha256:8eb01423ea092e3f6b7efc7a28845970a9bd95e1657dde8f72b38123287d9f1d
+docker: quay.io/biocontainers/bioconductor-ashkenazimsonchr21
+aliases:
+  .bioconductor-ashkenazimsonchr21-post-link.sh: /usr/local/bin/.bioconductor-ashkenazimsonchr21-post-link.sh
+  .bioconductor-ashkenazimsonchr21-pre-unlink.sh: /usr/local/bin/.bioconductor-ashkenazimsonchr21-pre-unlink.sh

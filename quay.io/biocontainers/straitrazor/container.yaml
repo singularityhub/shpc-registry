@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/straitrazor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for straitrazor
+latest:
+  3.0.1--h9f5acd7_4: sha256:5b33438bf941d1b8a2d963f1b04342c398d72543c467fdde8aaf8b6f8d41b7f5
+tags:
+  3.0.1--h9f5acd7_4: sha256:5b33438bf941d1b8a2d963f1b04342c398d72543c467fdde8aaf8b6f8d41b7f5
+docker: quay.io/biocontainers/straitrazor
+aliases:
+  str8rzr: /usr/local/bin/str8rzr

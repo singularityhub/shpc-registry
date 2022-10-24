@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methylscaper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methylscaper
+latest:
+  1.2.0--r41hdfd78af_0: sha256:acc9c9cf853dbeebfa7fdf02538e38bbf1279a6d2f6d0a5a8346cdbe049ad92d
+tags:
+  1.2.0--r41hdfd78af_0: sha256:acc9c9cf853dbeebfa7fdf02538e38bbf1279a6d2f6d0a5a8346cdbe049ad92d
+docker: quay.io/biocontainers/bioconductor-methylscaper

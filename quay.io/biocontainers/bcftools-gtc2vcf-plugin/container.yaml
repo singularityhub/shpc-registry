@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcftools-gtc2vcf-plugin
+latest:
+  1.9--hedc5323_0: sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf
+tags:
+  1.9--hedc5323_0: sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf
+docker: quay.io/biocontainers/bcftools-gtc2vcf-plugin

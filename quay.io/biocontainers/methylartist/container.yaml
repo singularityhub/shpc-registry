@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/methylartist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for methylartist
+latest:
+  1.2.3--pyhdfd78af_0: sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f
+tags:
+  1.2.3--pyhdfd78af_0: sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f
+docker: quay.io/biocontainers/methylartist
+aliases:
+  demux_fast5: /usr/local/bin/demux_fast5
+  methylartist: /usr/local/bin/methylartist

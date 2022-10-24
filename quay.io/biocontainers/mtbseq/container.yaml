@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mtbseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mtbseq
+latest:
+  1.0.4--hdfd78af_2: sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948
+tags:
+  1.0.4--hdfd78af_2: sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948
+docker: quay.io/biocontainers/mtbseq
+aliases:
+  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  MTBseq: /usr/local/bin/MTBseq
+  gatk3: /usr/local/bin/gatk3

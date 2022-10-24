@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-wrap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-wrap
+latest:
+  2021.0814--pl5321hdfd78af_0: sha256:e5c4e980368af7acfea1c5ffc90cff985c0ac202863260f1df63cc0848ae70ac
+tags:
+  2021.0814--pl5321hdfd78af_0: sha256:e5c4e980368af7acfea1c5ffc90cff985c0ac202863260f1df63cc0848ae70ac
+docker: quay.io/biocontainers/perl-text-wrap

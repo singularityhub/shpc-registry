@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flask-markdown
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flask-markdown
+latest:
+  0.3--py35_0: sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515
+tags:
+  0.3--py35_0: sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515
+docker: quay.io/biocontainers/flask-markdown

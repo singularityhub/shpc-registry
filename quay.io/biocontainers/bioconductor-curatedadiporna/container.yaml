@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-curatedadiporna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-curatedadiporna
+latest:
+  1.8.0--r41hdfd78af_0: sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368
+tags:
+  1.8.0--r41hdfd78af_0: sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368
+docker: quay.io/biocontainers/bioconductor-curatedadiporna
+aliases:
+  .bioconductor-curatedadiporna-post-link.sh: /usr/local/bin/.bioconductor-curatedadiporna-post-link.sh
+  .bioconductor-curatedadiporna-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedadiporna-pre-unlink.sh

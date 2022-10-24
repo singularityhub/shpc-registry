@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-bio-gff3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-gff3
+latest:
+  2.0--pl5321hdfd78af_5: sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118
+tags:
+  2.0--pl5321hdfd78af_5: sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118
+docker: quay.io/biocontainers/perl-bio-gff3
+aliases:
+  gff3_from_fasta: /usr/local/bin/gff3_from_fasta

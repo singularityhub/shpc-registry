@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/kma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kma
+latest:
+  1.4.0--h7132678_0: sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1
+tags:
+  1.4.0--h7132678_0: sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1
+docker: quay.io/biocontainers/kma
+aliases:
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update

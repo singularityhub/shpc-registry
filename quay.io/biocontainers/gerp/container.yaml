@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gerp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gerp
+latest:
+  2.1--h1b792b2_2: sha256:f4db0e9f5652ae4b6796621f094b0a126a71a4d0ba7a7f702ca15cedfc81c9f1
+tags:
+  2.1--h1b792b2_2: sha256:f4db0e9f5652ae4b6796621f094b0a126a71a4d0ba7a7f702ca15cedfc81c9f1
+docker: quay.io/biocontainers/gerp
+aliases:
+  gerpcol: /usr/local/bin/gerpcol
+  gerpelem: /usr/local/bin/gerpelem

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clusterone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clusterone
+latest:
+  1.0--hdfd78af_0: sha256:aff74428702075706093548c9b0221c8eb97b9fc63a8ed024b3d9772b7c6637c
+tags:
+  1.0--hdfd78af_0: sha256:aff74428702075706093548c9b0221c8eb97b9fc63a8ed024b3d9772b7c6637c
+docker: quay.io/biocontainers/clusterone
+aliases:
+  clusterone: /usr/local/bin/clusterone

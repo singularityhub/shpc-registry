@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scoop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scoop
+latest:
+  0.7.1.1--pyh864c0ab_4: sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879
+tags:
+  0.7.1.1--pyh864c0ab_4: sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879
+docker: quay.io/biocontainers/scoop

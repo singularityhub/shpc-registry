@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/biobb_amber
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_amber
+latest:
+  3.8.0--pyhdfd78af_1: sha256:191b3a2664ed3f62929addfc23fc8c300ec8a942d15a6394136a83638584126c
+tags:
+  3.8.0--pyhdfd78af_1: sha256:191b3a2664ed3f62929addfc23fc8c300ec8a942d15a6394136a83638584126c
+docker: quay.io/biocontainers/biobb_amber
+aliases:
+  MMPBSA.py.MPI: /usr/local/bin/MMPBSA.py.MPI
+  amber_to_pdb: /usr/local/bin/amber_to_pdb
+  bar_pbsa.py: /usr/local/bin/bar_pbsa.py
+  cestats_run: /usr/local/bin/cestats_run
+  cphstats_run: /usr/local/bin/cphstats_run
+  cpptraj_randomize_ions: /usr/local/bin/cpptraj_randomize_ions
+  leap_add_ions: /usr/local/bin/leap_add_ions
+  leap_build_linear_structure: /usr/local/bin/leap_build_linear_structure
+  leap_gen_top: /usr/local/bin/leap_gen_top
+  leap_solvate: /usr/local/bin/leap_solvate
+  makeCHIR_RST: /usr/local/bin/makeCHIR_RST
+  makeCSA_RST.na: /usr/local/bin/makeCSA_RST.na
+  makeDIP_RST.dna: /usr/local/bin/makeDIP_RST.dna
+  makeDIP_RST.protein: /usr/local/bin/makeDIP_RST.protein
+  makeRIGID_RST: /usr/local/bin/makeRIGID_RST
+  nab_build_dna_structure: /usr/local/bin/nab_build_dna_structure
+  parmed_cpinutil: /usr/local/bin/parmed_cpinutil
+  parmed_hmassrepartition: /usr/local/bin/parmed_hmassrepartition
+  pdb4amber_run: /usr/local/bin/pdb4amber_run
+  pmemd_mdrun: /usr/local/bin/pmemd_mdrun
+  process_mdout: /usr/local/bin/process_mdout
+  process_minout: /usr/local/bin/process_minout
+  py_resp.py: /usr/local/bin/py_resp.py
+  sander_mdrun: /usr/local/bin/sander_mdrun
+  tinker_to_amber: /usr/local/bin/tinker_to_amber

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gsalib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gsalib
+latest:
+  2.1--r3.3.2_0: sha256:a816641eaa00c75629fba5abd62df968dcab1822eb93eae30778165f57d119cc
+tags:
+  2.1--r3.3.2_0: sha256:a816641eaa00c75629fba5abd62df968dcab1822eb93eae30778165f57d119cc
+docker: quay.io/biocontainers/r-gsalib

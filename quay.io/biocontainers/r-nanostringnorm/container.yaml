@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nanostringnorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nanostringnorm
+latest:
+  1.2.1--r40h6115d3f_3: sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b
+tags:
+  1.2.1--r40h6115d3f_3: sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b
+docker: quay.io/biocontainers/r-nanostringnorm

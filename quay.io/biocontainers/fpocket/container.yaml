@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fpocket
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fpocket
+latest:
+  4.0.0: sha256:7573c66dd281156da5ba049f9bbc5236617b5659c453efe42cb55967848478a9
+tags:
+  4.0.0: sha256:7573c66dd281156da5ba049f9bbc5236617b5659c453efe42cb55967848478a9
+docker: quay.io/biocontainers/fpocket
+aliases:
+  dpocket: /usr/local/bin/dpocket
+  fpocket: /usr/local/bin/fpocket
+  mdpocket: /usr/local/bin/mdpocket
+  tpocket: /usr/local/bin/tpocket

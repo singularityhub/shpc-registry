@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-icare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-icare
+latest:
+  1.22.0--r41hc0cfd56_2: sha256:d96ca382cd12cae3d1da3fbd175563650e5da2715a8cdb0bc760ec2b2df65813
+tags:
+  1.22.0--r41hc0cfd56_2: sha256:d96ca382cd12cae3d1da3fbd175563650e5da2715a8cdb0bc760ec2b2df65813
+docker: quay.io/biocontainers/bioconductor-icare

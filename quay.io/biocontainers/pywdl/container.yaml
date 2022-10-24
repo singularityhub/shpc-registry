@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pywdl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pywdl
+latest:
+  1.0.22--pyh864c0ab_3: sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56
+tags:
+  1.0.22--pyh864c0ab_3: sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56
+docker: quay.io/biocontainers/pywdl
+aliases:
+  wdl: /usr/local/bin/wdl
+  wdl2dot: /usr/local/bin/wdl2dot
+  xtermcolor: /usr/local/bin/xtermcolor

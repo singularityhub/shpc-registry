@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-clinfun
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-clinfun
+latest:
+  1.0.15--r40h9bbef5b_0: sha256:e8b1ab5deafef17cfb36c430127d5ce38dad58eb87c6731bcd65626720c5830e
+tags:
+  1.0.15--r40h9bbef5b_0: sha256:e8b1ab5deafef17cfb36c430127d5ce38dad58eb87c6731bcd65626720c5830e
+docker: quay.io/biocontainers/r-clinfun

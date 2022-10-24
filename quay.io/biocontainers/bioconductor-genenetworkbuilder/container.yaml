@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genenetworkbuilder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genenetworkbuilder
+latest:
+  1.36.1--r41hc247a5b_1: sha256:95d65d458abcfc62a64c59113bf7e1cbadeee8cdfdba850ff882897b0775354b
+tags:
+  1.36.1--r41hc247a5b_1: sha256:95d65d458abcfc62a64c59113bf7e1cbadeee8cdfdba850ff882897b0775354b
+docker: quay.io/biocontainers/bioconductor-genenetworkbuilder

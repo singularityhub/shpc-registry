@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-exomedepth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-exomedepth
+latest:
+  1.1.15--r41h833e266_4: sha256:f7334c772f7021dbb89c372c7ffaad7b942d9eb1c13dd845522f8811648ffaf9
+tags:
+  1.1.15--r41h833e266_4: sha256:f7334c772f7021dbb89c372c7ffaad7b942d9eb1c13dd845522f8811648ffaf9
+docker: quay.io/biocontainers/r-exomedepth

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gwasdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gwasdata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba
+tags:
+  1.32.0--r41hdfd78af_1: sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba
+docker: quay.io/biocontainers/bioconductor-gwasdata
+aliases:
+  .bioconductor-gwasdata-post-link.sh: /usr/local/bin/.bioconductor-gwasdata-post-link.sh
+  .bioconductor-gwasdata-pre-unlink.sh: /usr/local/bin/.bioconductor-gwasdata-pre-unlink.sh

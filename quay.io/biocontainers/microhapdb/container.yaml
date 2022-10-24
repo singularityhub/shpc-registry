@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/microhapdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for microhapdb
+latest:
+  0.7--pyhdfd78af_0: sha256:b537af27e4611aaa3332259a166cf71859f8bac727148de9ce8a0a7e71207096
+tags:
+  0.7--pyhdfd78af_0: sha256:b537af27e4611aaa3332259a166cf71859f8bac727148de9ce8a0a7e71207096
+docker: quay.io/biocontainers/microhapdb
+aliases:
+  microhapdb: /usr/local/bin/microhapdb

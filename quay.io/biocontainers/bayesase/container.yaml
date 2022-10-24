@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/bayesase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bayesase
+latest:
+  21.1.7--py_0: sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8
+tags:
+  21.1.7--py_0: sha256:bc9b6df00e9c590ac362268a7482da4cb8e93134faebfe9ab97b7c342be3d1a8
+docker: quay.io/biocontainers/bayesase
+aliases:
+  bwa_split_sam_seonly_2output.py: /usr/local/bin/bwa_split_sam_seonly_2output.py
+  calculate_priors_ase_count_tables.py: /usr/local/bin/calculate_priors_ase_count_tables.py
+  check_aln_design_file.py: /usr/local/bin/check_aln_design_file.py
+  check_comparate_design_file.py: /usr/local/bin/check_comparate_design_file.py
+  check_lost_reads.py: /usr/local/bin/check_lost_reads.py
+  check_sam_present.py: /usr/local/bin/check_sam_present.py
+  check_samcomp_lost_reads.py: /usr/local/bin/check_samcomp_lost_reads.py
+  combine_count_tables.py: /usr/local/bin/combine_count_tables.py
+  merge_comparates_generate_bayesian_headers.py: /usr/local/bin/merge_comparates_generate_bayesian_headers.py
+  merge_priors_to_comparate.py: /usr/local/bin/merge_priors_to_comparate.py
+  nbmodel_stan2.py: /usr/local/bin/nbmodel_stan2.py
+  sam_compare_w_feature.py: /usr/local/bin/sam_compare_w_feature.py
+  summarize_sam_compare_cnts_table_1cond.py: /usr/local/bin/summarize_sam_compare_cnts_table_1cond.py

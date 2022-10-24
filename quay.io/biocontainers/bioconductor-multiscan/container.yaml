@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-multiscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multiscan
+latest:
+  1.54.0--r41hc0cfd56_2: sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374
+tags:
+  1.54.0--r41hc0cfd56_2: sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374
+docker: quay.io/biocontainers/bioconductor-multiscan

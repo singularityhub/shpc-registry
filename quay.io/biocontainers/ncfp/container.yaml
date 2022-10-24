@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ncfp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncfp
+latest:
+  0.2.0--py_0: sha256:ca86d4cce41a9555ac7a11c1eb663424e2784b34a02482842dbec24db895b886
+tags:
+  0.2.0--py_0: sha256:ca86d4cce41a9555ac7a11c1eb663424e2784b34a02482842dbec24db895b886
+docker: quay.io/biocontainers/ncfp
+aliases:
+  ncfp: /usr/local/bin/ncfp

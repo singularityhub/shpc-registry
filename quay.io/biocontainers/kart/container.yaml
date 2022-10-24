@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/kart
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kart
+latest:
+  2.5.6--h2ccddb4_2: sha256:56652c970bb60463bdecca7402a51fc689e6f4addac1d48263b6461edd9d0f6c
+tags:
+  2.5.6--h2ccddb4_2: sha256:56652c970bb60463bdecca7402a51fc689e6f4addac1d48263b6461edd9d0f6c
+docker: quay.io/biocontainers/kart
+aliases:
+  bwt_index: /usr/local/bin/bwt_index
+  kart: /usr/local/bin/kart

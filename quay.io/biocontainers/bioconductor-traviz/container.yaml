@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-traviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-traviz
+latest:
+  1.0.0--r41hdfd78af_0: sha256:f078bd82c66234d67d49dfe0432c28085f24b3c10cacda32ebdc211e8d9e0aec
+tags:
+  1.0.0--r41hdfd78af_0: sha256:f078bd82c66234d67d49dfe0432c28085f24b3c10cacda32ebdc211e8d9e0aec
+docker: quay.io/biocontainers/bioconductor-traviz

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic
+latest:
+  1.8.0--r40hdfd78af_1: sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c
+tags:
+  1.8.0--r40hdfd78af_1: sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c
+docker: quay.io/biocontainers/bioconductor-flowsorted.blood.epic
+aliases:
+  .bioconductor-flowsorted.blood.epic-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh
+  .bioconductor-flowsorted.blood.epic-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-lme4qtl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-lme4qtl
+latest:
+  0.1.10--r41h9ee0642_4: sha256:0044f60b307f24dcff532a867d9f8e3123829bec6b50068e11c9335d1bab97ba
+tags:
+  0.1.10--r41h9ee0642_4: sha256:0044f60b307f24dcff532a867d9f8e3123829bec6b50068e11c9335d1bab97ba
+docker: quay.io/biocontainers/r-lme4qtl

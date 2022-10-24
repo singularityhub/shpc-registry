@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cigar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cigar
+latest:
+  0.1.3--pyh864c0ab_1: sha256:d1ad6dc6b584c85baab9b43cb460f75ca36f6ba268073e626016ff162d51bf16
+tags:
+  0.1.3--pyh864c0ab_1: sha256:d1ad6dc6b584c85baab9b43cb460f75ca36f6ba268073e626016ff162d51bf16
+docker: quay.io/biocontainers/cigar

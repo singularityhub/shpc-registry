@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-greylistchip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-greylistchip
+latest:
+  1.26.0--r41hdfd78af_0: sha256:b480b0f16495d38024b723fc5d7622146185540b66ccfa888a6a6036a84f7194
+tags:
+  1.26.0--r41hdfd78af_0: sha256:b480b0f16495d38024b723fc5d7622146185540b66ccfa888a6a6036a84f7194
+docker: quay.io/biocontainers/bioconductor-greylistchip

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fings
+latest:
+  1.7.1--pyhb7b1952_0: sha256:d2d2de9daaefd1491540b0286a3309dd7f9f11ee103b2a3c270616941b59e984
+tags:
+  1.7.1--pyhb7b1952_0: sha256:d2d2de9daaefd1491540b0286a3309dd7f9f11ee103b2a3c270616941b59e984
+docker: quay.io/biocontainers/fings
+aliases:
+  fings: /usr/local/bin/fings

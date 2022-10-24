@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-savr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-savr
+latest:
+  1.32.0--r41hdfd78af_0: sha256:029d83b6c85a499b28eaff0cfa4e998592f1c20913ee8f13ccda8215b76108aa
+tags:
+  1.32.0--r41hdfd78af_0: sha256:029d83b6c85a499b28eaff0cfa4e998592f1c20913ee8f13ccda8215b76108aa
+docker: quay.io/biocontainers/bioconductor-savr

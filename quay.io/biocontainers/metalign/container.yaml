@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/metalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metalign
+latest:
+  0.12.5--pyh864c0ab_1: sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46
+tags:
+  0.12.5--pyh864c0ab_1: sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46
+docker: quay.io/biocontainers/metalign
+aliases:
+  MakeDNADatabase.py: /usr/local/bin/MakeDNADatabase.py
+  MakeNodeGraph.py: /usr/local/bin/MakeNodeGraph.py
+  MakeStreamingDNADatabase.py: /usr/local/bin/MakeStreamingDNADatabase.py
+  MakeStreamingPrefilter.py: /usr/local/bin/MakeStreamingPrefilter.py
+  QueryDNADatabase.py: /usr/local/bin/QueryDNADatabase.py
+  StreamingQueryDNADatabase.py: /usr/local/bin/StreamingQueryDNADatabase.py
+  StreamingQueryDNADatabase_queue.py: /usr/local/bin/StreamingQueryDNADatabase_queue.py
+  map_and_profile.py: /usr/local/bin/map_and_profile.py
+  metalign.py: /usr/local/bin/metalign.py
+  select_db.py: /usr/local/bin/select_db.py

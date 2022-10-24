@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nbsplice
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nbsplice
+latest:
+  1.8.0--r40hdfd78af_1: sha256:c1c61c4ab750fd05e09594fee380c71121bca76b224b50c411cc1021d5dc22bb
+tags:
+  1.8.0--r40hdfd78af_1: sha256:c1c61c4ab750fd05e09594fee380c71121bca76b224b50c411cc1021d5dc22bb
+docker: quay.io/biocontainers/bioconductor-nbsplice

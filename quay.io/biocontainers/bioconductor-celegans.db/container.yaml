@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-celegans.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-celegans.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:26ddc891456fab47bd24d964af85a4679370a1fb3b184831efc22770faf2a4e6
+tags:
+  3.2.3--r41hdfd78af_7: sha256:26ddc891456fab47bd24d964af85a4679370a1fb3b184831efc22770faf2a4e6
+docker: quay.io/biocontainers/bioconductor-celegans.db
+aliases:
+  .bioconductor-celegans.db-post-link.sh: /usr/local/bin/.bioconductor-celegans.db-post-link.sh
+  .bioconductor-celegans.db-pre-unlink.sh: /usr/local/bin/.bioconductor-celegans.db-pre-unlink.sh
+  .bioconductor-org.ce.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.ce.eg.db-post-link.sh
+  .bioconductor-org.ce.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.ce.eg.db-pre-unlink.sh

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/pytest-cov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pytest-cov
+latest:
+  2.4.0--py34_0: sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505
+tags:
+  2.4.0--py34_0: sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505
+docker: quay.io/biocontainers/pytest-cov
+aliases:
+  2to3-3.4: /usr/local/bin/2to3-3.4
+  coverage-3.4: /usr/local/bin/coverage-3.4
+  coverage3: /usr/local/bin/coverage3
+  easy_install-3.4: /usr/local/bin/easy_install-3.4
+  idle3.4: /usr/local/bin/idle3.4
+  pydoc3.4: /usr/local/bin/pydoc3.4
+  python3.4: /usr/local/bin/python3.4
+  python3.4-config: /usr/local/bin/python3.4-config
+  python3.4m: /usr/local/bin/python3.4m
+  python3.4m-config: /usr/local/bin/python3.4m-config
+  pyvenv-3.4: /usr/local/bin/pyvenv-3.4

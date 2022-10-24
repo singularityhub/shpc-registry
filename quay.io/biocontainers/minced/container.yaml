@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/minced
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minced
+latest:
+  0.4.2--hdfd78af_1: sha256:9f9f64da530cf3225f5126b9d30a9ccba53b061870156b8fd812c75e448f2104
+tags:
+  0.4.2--hdfd78af_1: sha256:9f9f64da530cf3225f5126b9d30a9ccba53b061870156b8fd812c75e448f2104
+docker: quay.io/biocontainers/minced

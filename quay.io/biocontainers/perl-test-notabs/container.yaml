@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-notabs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-notabs
+latest:
+  2.02--pl5321hdfd78af_1: sha256:ebe071a198d268b7d4db0ad7773700c010946db4230e462482fe94263393f82f
+tags:
+  2.02--pl5321hdfd78af_1: sha256:ebe071a198d268b7d4db0ad7773700c010946db4230e462482fe94263393f82f
+docker: quay.io/biocontainers/perl-test-notabs

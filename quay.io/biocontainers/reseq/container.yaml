@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/reseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for reseq
+latest:
+  1.1--py37h3a4aa43_2: sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9
+tags:
+  1.1--py37h3a4aa43_2: sha256:312c546111b31bcf8102850521306694b539350a3f744bdbacbcfa5edfe1c4e9
+docker: quay.io/biocontainers/reseq
+aliases:
+  plotDataStats.py: /usr/local/bin/plotDataStats.py
+  reseq: /usr/local/bin/reseq
+  reseq-prepare-names.py: /usr/local/bin/reseq-prepare-names.py

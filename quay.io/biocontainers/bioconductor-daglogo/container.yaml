@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-daglogo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-daglogo
+latest:
+  1.32.0--r41hdfd78af_0: sha256:d10773b3a7ce39127ac5e66af105cb840f8906c564cc716c67a46215d162ca7f
+tags:
+  1.32.0--r41hdfd78af_0: sha256:d10773b3a7ce39127ac5e66af105cb840f8906c564cc716c67a46215d162ca7f
+docker: quay.io/biocontainers/bioconductor-daglogo

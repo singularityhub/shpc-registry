@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/savvy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for savvy
+latest:
+  2.1.0--hfb1f815_0: sha256:afdc978ed9c748ad990268a507b0140d99246e5c3d918a99e90d9b576213429b
+tags:
+  2.1.0--hfb1f815_0: sha256:afdc978ed9c748ad990268a507b0140d99246e5c3d918a99e90d9b576213429b
+docker: quay.io/biocontainers/savvy
+aliases:
+  sav: /usr/local/bin/sav

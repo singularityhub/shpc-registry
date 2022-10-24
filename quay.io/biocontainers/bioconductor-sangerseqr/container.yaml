@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sangerseqr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sangerseqr
+latest:
+  1.30.0--r41hdfd78af_0: sha256:d7d4932edb46891beb08818f539725f8989f30dfcc757e0d48e35da03b17e975
+tags:
+  1.30.0--r41hdfd78af_0: sha256:d7d4932edb46891beb08818f539725f8989f30dfcc757e0d48e35da03b17e975
+docker: quay.io/biocontainers/bioconductor-sangerseqr

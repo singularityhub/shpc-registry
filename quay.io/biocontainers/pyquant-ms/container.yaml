@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/pyquant-ms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyquant-ms
+latest:
+  0.2.4--py27h4329609_5: sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
+tags:
+  0.2.4--py27h4329609_5: sha256:ac6b9c10980b125edd898fc4fed0681a9377c0c3d450686c12a49f087fa5cf41
+docker: quay.io/biocontainers/pyquant-ms
+aliases:
+  fastadigest.py: /usr/local/bin/fastadigest.py
+  fastadigeststats.py: /usr/local/bin/fastadigeststats.py
+  fastxTrimmer.py: /usr/local/bin/fastxTrimmer.py
+  featureCollapser.py: /usr/local/bin/featureCollapser.py
+  fetchOrfs.py: /usr/local/bin/fetchOrfs.py
+  incorporateGFF.py: /usr/local/bin/incorporateGFF.py
+  incorporateVCF.py: /usr/local/bin/incorporateVCF.py
+  intersectFiles.py: /usr/local/bin/intersectFiles.py
+  junctionalReads.py: /usr/local/bin/junctionalReads.py
+  proteinInference.py: /usr/local/bin/proteinInference.py
+  ptmSummary.py: /usr/local/bin/ptmSummary.py
+  pyQuant: /usr/local/bin/pyQuant

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-dumbbench
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-dumbbench
+latest:
+  0.111--pl5321hdfd78af_1: sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316
+tags:
+  0.111--pl5321hdfd78af_1: sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316
+docker: quay.io/biocontainers/perl-dumbbench
+aliases:
+  dumbbench: /usr/local/bin/dumbbench
+  use-devel-assertos: /usr/local/bin/use-devel-assertos

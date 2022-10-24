@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/wtforms-alchemy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wtforms-alchemy
+latest:
+  0.16.9--py_0: sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb
+tags:
+  0.16.9--py_0: sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb
+docker: quay.io/biocontainers/wtforms-alchemy

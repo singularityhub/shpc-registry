@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gsalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gsalign
+latest:
+  1.0.9--hdb83ec4_0: sha256:16540873bed0cc08b51b7c7284270e4625f1586480be6df0f1c9d76e0ba2d7c2
+tags:
+  1.0.9--hdb83ec4_0: sha256:16540873bed0cc08b51b7c7284270e4625f1586480be6df0f1c9d76e0ba2d7c2
+docker: quay.io/biocontainers/gsalign
+aliases:
+  GSAlign: /usr/local/bin/GSAlign
+  bwt_index: /usr/local/bin/bwt_index

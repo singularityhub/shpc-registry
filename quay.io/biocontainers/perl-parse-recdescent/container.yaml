@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-parse-recdescent
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-parse-recdescent
+latest:
+  1.967015--pl5321hdfd78af_1: sha256:90c7e3ad75b18d4a3aef5a6a5eb3388363406d9f60c27368823b47ff48f94419
+tags:
+  1.967015--pl5321hdfd78af_1: sha256:90c7e3ad75b18d4a3aef5a6a5eb3388363406d9f60c27368823b47ff48f94419
+docker: quay.io/biocontainers/perl-parse-recdescent

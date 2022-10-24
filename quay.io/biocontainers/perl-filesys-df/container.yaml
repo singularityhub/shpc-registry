@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-filesys-df
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-filesys-df
+latest:
+  0.92--pl5321hec16e2b_5: sha256:507c9f025eef8d2130f4dd4c58e3a07dec0d8a365debcb1bd6b2596e4074de79
+tags:
+  0.92--pl5321hec16e2b_5: sha256:507c9f025eef8d2130f4dd4c58e3a07dec0d8a365debcb1bd6b2596e4074de79
+docker: quay.io/biocontainers/perl-filesys-df

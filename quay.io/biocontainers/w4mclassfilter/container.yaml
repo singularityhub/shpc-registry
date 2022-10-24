@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/w4mclassfilter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for w4mclassfilter
+latest:
+  0.98.9--r351_0: sha256:4544d0ad3cfd578b6ba2894d06964de77b141c2fbd2bb79203fee1706d364ad9
+tags:
+  0.98.9--r351_0: sha256:4544d0ad3cfd578b6ba2894d06964de77b141c2fbd2bb79203fee1706d364ad9
+docker: quay.io/biocontainers/w4mclassfilter

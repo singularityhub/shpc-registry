@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/simka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simka
+latest:
+  1.5.3--hd03093a_2: sha256:7e6acc9951a8350da07d006a2b238e81bf5af3db3338a678c2bc55d9b1619c8c
+tags:
+  1.5.3--hd03093a_2: sha256:7e6acc9951a8350da07d006a2b238e81bf5af3db3338a678c2bc55d9b1619c8c
+docker: quay.io/biocontainers/simka
+aliases:
+  simka: /usr/local/bin/simka
+  simkaCount: /usr/local/bin/simkaCount
+  simkaCountProcess: /usr/local/bin/simkaCountProcess
+  simkaMerge: /usr/local/bin/simkaMerge
+  simkaMin.py: /usr/local/bin/simkaMin.py
+  simkaMinCore: /usr/local/bin/simkaMinCore
+  simkaMin_update.py: /usr/local/bin/simkaMin_update.py
+  simkaMin_utils.py: /usr/local/bin/simkaMin_utils.py

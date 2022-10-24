@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/loompy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for loompy
+latest:
+  2.0.9--py36_0: sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5
+tags:
+  2.0.9--py36_0: sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5
+docker: quay.io/biocontainers/loompy

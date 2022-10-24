@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/haplogrep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for haplogrep
+latest:
+  2.4.0--hdfd78af_0: sha256:007b643e393117f5de59e5650893591a0f19e9d1fec3da9dabbd6693ba680d7f
+tags:
+  2.4.0--hdfd78af_0: sha256:007b643e393117f5de59e5650893591a0f19e9d1fec3da9dabbd6693ba680d7f
+docker: quay.io/biocontainers/haplogrep
+aliases:
+  haplogrep: /usr/local/bin/haplogrep
+  haplogrep.jar: /usr/local/bin/haplogrep.jar

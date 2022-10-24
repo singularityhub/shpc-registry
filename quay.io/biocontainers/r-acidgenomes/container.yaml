@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-acidgenomes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-acidgenomes
+latest:
+  0.3.0--r41hdfd78af_0: sha256:44d5d46dc2e579e3443a74aacca29eb700f3168cb05513863d84f7307eaea512
+tags:
+  0.3.0--r41hdfd78af_0: sha256:44d5d46dc2e579e3443a74aacca29eb700f3168cb05513863d84f7307eaea512
+docker: quay.io/biocontainers/r-acidgenomes

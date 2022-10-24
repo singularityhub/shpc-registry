@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r4cker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r4cker
+latest:
+  1.0--r41hdfd78af_3: sha256:c849bb82d1552fc0eb0ab5377b6e4a4a647c25b35c49f698cde7ea73337c9b3f
+tags:
+  1.0--r41hdfd78af_3: sha256:c849bb82d1552fc0eb0ab5377b6e4a4a647c25b35c49f698cde7ea73337c9b3f
+docker: quay.io/biocontainers/r-r4cker

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-cosmiq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cosmiq
+latest:
+  1.28.0--r41hc247a5b_2: sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c
+tags:
+  1.28.0--r41hc247a5b_2: sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c
+docker: quay.io/biocontainers/bioconductor-cosmiq
+aliases:
+  .bioconductor-faahko-post-link.sh: /usr/local/bin/.bioconductor-faahko-post-link.sh
+  .bioconductor-faahko-pre-unlink.sh: /usr/local/bin/.bioconductor-faahko-pre-unlink.sh

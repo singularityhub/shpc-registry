@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bioassayr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bioassayr
+latest:
+  1.32.0--r41hdfd78af_0: sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c
+tags:
+  1.32.0--r41hdfd78af_0: sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c
+docker: quay.io/biocontainers/bioconductor-bioassayr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metapod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metapod
+latest:
+  1.2.0--r41hc247a5b_2: sha256:928cf849fb46ac357439fb25740455b265e0bc4f18a250a8b4a56b546de4cb26
+tags:
+  1.2.0--r41hc247a5b_2: sha256:928cf849fb46ac357439fb25740455b265e0bc4f18a250a8b4a56b546de4cb26
+docker: quay.io/biocontainers/bioconductor-metapod

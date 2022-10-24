@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/kmc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kmc
+latest:
+  3.2.1--hf1761c0_2: sha256:caf06b4128b4a848e7782ac1f88e4f9f85e9ee8d4c7e03249168ce79be212e25
+tags:
+  3.2.1--hf1761c0_2: sha256:caf06b4128b4a848e7782ac1f88e4f9f85e9ee8d4c7e03249168ce79be212e25
+docker: quay.io/biocontainers/kmc

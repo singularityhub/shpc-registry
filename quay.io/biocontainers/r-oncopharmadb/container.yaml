@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-oncopharmadb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-oncopharmadb
+latest:
+  0.0.1--r41hdfd78af_0: sha256:56797dcc6b0023a99f2a9dc17c4d9aff82b7e6e8eb3372f2e0521f91a3de0b13
+tags:
+  0.0.1--r41hdfd78af_0: sha256:56797dcc6b0023a99f2a9dc17c4d9aff82b7e6e8eb3372f2e0521f91a3de0b13
+docker: quay.io/biocontainers/r-oncopharmadb

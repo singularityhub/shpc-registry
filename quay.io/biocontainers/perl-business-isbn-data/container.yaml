@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-business-isbn-data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-business-isbn-data
+latest:
+  20210112.006--pl5321hdfd78af_0: sha256:c0756d6d8350f13ec9b74bd580969fcdbbe09ae8e3a2beba86f3b5fc1df3cf08
+tags:
+  20210112.006--pl5321hdfd78af_0: sha256:c0756d6d8350f13ec9b74bd580969fcdbbe09ae8e3a2beba86f3b5fc1df3cf08
+docker: quay.io/biocontainers/perl-business-isbn-data

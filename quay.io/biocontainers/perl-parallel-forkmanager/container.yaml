@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-parallel-forkmanager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-parallel-forkmanager
+latest:
+  2.02--pl5321hdfd78af_1: sha256:22b31e372afe1d28d15dd3ff10df015d709de5d40f09ff8f358ac1ce21578417
+tags:
+  2.02--pl5321hdfd78af_1: sha256:22b31e372afe1d28d15dd3ff10df015d709de5d40f09ff8f358ac1ce21578417
+docker: quay.io/biocontainers/perl-parallel-forkmanager

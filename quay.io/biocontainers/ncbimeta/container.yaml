@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/ncbimeta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncbimeta
+latest:
+  0.8.3--pyhdfd78af_0: sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f
+tags:
+  0.8.3--pyhdfd78af_0: sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f
+docker: quay.io/biocontainers/ncbimeta
+aliases:
+  NCBImeta: /usr/local/bin/NCBImeta
+  NCBImetaAnnotate: /usr/local/bin/NCBImetaAnnotate
+  NCBImetaExport: /usr/local/bin/NCBImetaExport
+  NCBImetaJoin: /usr/local/bin/NCBImetaJoin

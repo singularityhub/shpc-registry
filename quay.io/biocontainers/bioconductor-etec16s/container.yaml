@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-etec16s
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-etec16s
+latest:
+  1.22.0--r41hdfd78af_1: sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba
+tags:
+  1.22.0--r41hdfd78af_1: sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba
+docker: quay.io/biocontainers/bioconductor-etec16s
+aliases:
+  .bioconductor-etec16s-post-link.sh: /usr/local/bin/.bioconductor-etec16s-post-link.sh
+  .bioconductor-etec16s-pre-unlink.sh: /usr/local/bin/.bioconductor-etec16s-pre-unlink.sh

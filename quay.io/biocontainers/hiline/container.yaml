@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/hiline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hiline
+latest:
+  0.2.4--py39h8aee962_0: sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b
+tags:
+  0.2.4--py39h8aee962_0: sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b
+docker: quay.io/biocontainers/hiline
+aliases:
+  HiLine: /usr/local/bin/HiLine
+  _HiLine_Aligner: /usr/local/bin/_HiLine_Aligner
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42

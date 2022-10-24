@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cgat-report
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgat-report
+latest:
+  0.9.1--py_0: sha256:29e015051c290043fc2b95277b8127857cd3a416635c6b72b7eaa9fbfe101e94
+tags:
+  0.9.1--py_0: sha256:29e015051c290043fc2b95277b8127857cd3a416635c6b72b7eaa9fbfe101e94
+docker: quay.io/biocontainers/cgat-report
+aliases:
+  cgatreport-build: /usr/local/bin/cgatreport-build
+  cgatreport-clean: /usr/local/bin/cgatreport-clean
+  cgatreport-get: /usr/local/bin/cgatreport-get
+  cgatreport-profile: /usr/local/bin/cgatreport-profile
+  cgatreport-quickstart: /usr/local/bin/cgatreport-quickstart
+  cgatreport-serve: /usr/local/bin/cgatreport-serve
+  cgatreport-test: /usr/local/bin/cgatreport-test

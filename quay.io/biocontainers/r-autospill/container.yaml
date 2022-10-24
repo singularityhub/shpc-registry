@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-autospill
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-autospill
+latest:
+  0.2.0--r41hdfd78af_0: sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c
+tags:
+  0.2.0--r41hdfd78af_0: sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c
+docker: quay.io/biocontainers/r-autospill

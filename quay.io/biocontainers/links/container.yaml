@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/links
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for links
+latest:
+  2.0.1--h9f5acd7_2: sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f
+tags:
+  2.0.1--h9f5acd7_2: sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f
+docker: quay.io/biocontainers/links
+aliases:
+  LINKS: /usr/local/bin/LINKS
+  LINKS-make: /usr/local/bin/LINKS-make
+  LINKS-make-real: /usr/local/bin/LINKS-make-real
+  LINKS.pl: /usr/local/bin/LINKS.pl
+  LINKS_CPP: /usr/local/bin/LINKS_CPP

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lastz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lastz
+latest:
+  1.04.15--hec16e2b_1: sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89
+tags:
+  1.04.15--hec16e2b_1: sha256:bca1bdeabf63ea0c19eaf9128d2c5075a50400a594ee71e97e8ebf03c7661b89
+docker: quay.io/biocontainers/lastz
+aliases:
+  lastz: /usr/local/bin/lastz
+  lastz_32: /usr/local/bin/lastz_32
+  lastz_D: /usr/local/bin/lastz_D

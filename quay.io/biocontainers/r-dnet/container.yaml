@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-dnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dnet
+latest:
+  1.1.7--r41h3342da4_3: sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5
+tags:
+  1.1.7--r41h3342da4_3: sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5
+docker: quay.io/biocontainers/r-dnet

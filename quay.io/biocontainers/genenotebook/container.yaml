@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/genenotebook
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genenotebook
+latest:
+  0.3.1--h9f5acd7_1: sha256:a30f10d56d1312fe0385ff04c55967b7073e782d8b38ef204e6b954701b15c41
+tags:
+  0.3.1--h9f5acd7_1: sha256:a30f10d56d1312fe0385ff04c55967b7073e782d8b38ef204e6b954701b15c41
+docker: quay.io/biocontainers/genenotebook
+aliases:
+  genenotebook: /usr/local/bin/genenotebook
+  install_compass: /usr/local/bin/install_compass
+  mongo: /usr/local/bin/mongo
+  mongod: /usr/local/bin/mongod
+  mongos: /usr/local/bin/mongos
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  npx: /usr/local/bin/npx

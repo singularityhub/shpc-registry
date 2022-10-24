@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/medaka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for medaka
+latest:
+  1.2.2--py36hbcc4abb_0: sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8
+tags:
+  1.2.2--py36hbcc4abb_0: sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8
+docker: quay.io/biocontainers/medaka
+aliases:
+  hdf2tf.py: /usr/local/bin/hdf2tf.py
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_haploid_variant: /usr/local/bin/medaka_haploid_variant
+  medaka_variant: /usr/local/bin/medaka_variant
+  medaka_version_report: /usr/local/bin/medaka_version_report
+  mini_align: /usr/local/bin/mini_align

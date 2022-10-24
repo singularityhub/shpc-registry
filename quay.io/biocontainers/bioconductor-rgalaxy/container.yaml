@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgalaxy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgalaxy
+latest:
+  1.37.1--r41hdfd78af_0: sha256:36d5dc05af8a8a9ba667f60867414431c7f377519c19187f3c03de0b2c95fc02
+tags:
+  1.37.1--r41hdfd78af_0: sha256:36d5dc05af8a8a9ba667f60867414431c7f377519c19187f3c03de0b2c95fc02
+docker: quay.io/biocontainers/bioconductor-rgalaxy

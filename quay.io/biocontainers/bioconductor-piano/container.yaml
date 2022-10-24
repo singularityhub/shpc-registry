@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-piano
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-piano
+latest:
+  2.8.0--r41hdfd78af_0: sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f
+tags:
+  2.8.0--r41hdfd78af_0: sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f
+docker: quay.io/biocontainers/bioconductor-piano

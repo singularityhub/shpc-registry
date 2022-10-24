@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-string-util
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-string-util
+latest:
+  1.26--pl5321hdfd78af_2: sha256:e42ed7476fb7c1e8a81d4d70e585e11ff2cf5a5396124171c182a15b469ff98d
+tags:
+  1.26--pl5321hdfd78af_2: sha256:e42ed7476fb7c1e8a81d4d70e585e11ff2cf5a5396124171c182a15b469ff98d
+docker: quay.io/biocontainers/perl-string-util

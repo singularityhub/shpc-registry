@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fishtaco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fishtaco
+latest:
+  1.1.1--py36_0: sha256:af39906ad758f5a989aab57913df3976cc9a7d04bd9907a0b4f6031ad9145fca
+tags:
+  1.1.1--py36_0: sha256:af39906ad758f5a989aab57913df3976cc9a7d04bd9907a0b4f6031ad9145fca
+docker: quay.io/biocontainers/fishtaco
+aliases:
+  run_fishtaco.py: /usr/local/bin/run_fishtaco.py
+  run_musicc.py: /usr/local/bin/run_musicc.py
+  test_fishtaco.py: /usr/local/bin/test_fishtaco.py
+  test_musicc.py: /usr/local/bin/test_musicc.py

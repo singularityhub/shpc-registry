@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maftools
+latest:
+  2.8.0--r41hd029910_0: sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73
+tags:
+  2.8.0--r41hd029910_0: sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73
+docker: quay.io/biocontainers/bioconductor-maftools

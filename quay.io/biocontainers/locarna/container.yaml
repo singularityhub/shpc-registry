@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/locarna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for locarna
+latest:
+  2.0.0RC8--h9f5acd7_2: sha256:8268570b9afd9615850876b18e1732357bf1ee8a27db61c281d6f4aa30334920
+tags:
+  2.0.0RC8--h9f5acd7_2: sha256:8268570b9afd9615850876b18e1732357bf1ee8a27db61c281d6f4aa30334920
+docker: quay.io/biocontainers/locarna
+aliases:
+  LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm
+  RNAz.pm: /usr/local/bin/RNAz.pm
+  aln-seqs.pl: /usr/local/bin/aln-seqs.pl
+  aln2fa.pl: /usr/local/bin/aln2fa.pl
+  alnsel.pl: /usr/local/bin/alnsel.pl
+  average-dot.pl: /usr/local/bin/average-dot.pl
+  benchmark-plot.R: /usr/local/bin/benchmark-plot.R
+  dot2pp: /usr/local/bin/dot2pp
+  exparna_p: /usr/local/bin/exparna_p
+  exploc_p: /usr/local/bin/exploc_p
+  gen-reliab-dot.pl: /usr/local/bin/gen-reliab-dot.pl
+  locarna: /usr/local/bin/locarna
+  locarna-mea.pl: /usr/local/bin/locarna-mea.pl
+  locarna-motif-scan: /usr/local/bin/locarna-motif-scan
+  locarna_deviation: /usr/local/bin/locarna_deviation
+  locarna_mcc: /usr/local/bin/locarna_mcc
+  locarna_p: /usr/local/bin/locarna_p
+  locarna_rnafold_pp: /usr/local/bin/locarna_rnafold_pp
+  locarnap-predict-and-plot.pl: /usr/local/bin/locarnap-predict-and-plot.pl
+  locarnap-realign-all.pl: /usr/local/bin/locarnap-realign-all.pl
+  locarnap-revcomp.pl: /usr/local/bin/locarnap-revcomp.pl
+  locarnap-revisit-RNAz-hits.pl: /usr/local/bin/locarnap-revisit-RNAz-hits.pl
+  locarnap_fit: /usr/local/bin/locarnap_fit
+  locarnate: /usr/local/bin/locarnate
+  mlocarna: /usr/local/bin/mlocarna
+  mlocarna_nnames: /usr/local/bin/mlocarna_nnames
+  plot-bmprobs: /usr/local/bin/plot-bmprobs
+  pp2dot: /usr/local/bin/pp2dot
+  reliability-profile.pl: /usr/local/bin/reliability-profile.pl
+  ribosum2cc: /usr/local/bin/ribosum2cc
+  sparse: /usr/local/bin/sparse

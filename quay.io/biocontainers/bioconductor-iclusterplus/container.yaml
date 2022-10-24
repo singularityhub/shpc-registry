@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iclusterplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iclusterplus
+latest:
+  1.30.0--r41hefde4a7_2: sha256:86cc817102ee51e101abc5a61c7585e9516aa1b36eae3a4c85a9d6e8960d59f4
+tags:
+  1.30.0--r41hefde4a7_2: sha256:86cc817102ee51e101abc5a61c7585e9516aa1b36eae3a4c85a9d6e8960d59f4
+docker: quay.io/biocontainers/bioconductor-iclusterplus

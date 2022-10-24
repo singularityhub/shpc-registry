@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/metasnv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metasnv
+latest:
+  2.0.4--py37h47940ae_4: sha256:b6e0ebfa3b6260e5e05d5a9382608ee99db96f65e7f33df6b498b18e822a5604
+tags:
+  2.0.4--py37h47940ae_4: sha256:b6e0ebfa3b6260e5e05d5a9382608ee99db96f65e7f33df6b498b18e822a5604
+docker: quay.io/biocontainers/metasnv
+aliases:
+  metaSNV.py: /usr/local/bin/metaSNV.py
+  metaSNV_DistDiv.py: /usr/local/bin/metaSNV_DistDiv.py
+  metaSNV_Filtering.py: /usr/local/bin/metaSNV_Filtering.py
+  metaSNV_subpopr.R: /usr/local/bin/metaSNV_subpopr.R

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-damirseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-damirseq
+latest:
+  2.6.0--r41hdfd78af_0: sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce
+tags:
+  2.6.0--r41hdfd78af_0: sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce
+docker: quay.io/biocontainers/bioconductor-damirseq

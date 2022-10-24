@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/correlationplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for correlationplus
+latest:
+  0.2.1--pyh5e36f6f_0: sha256:77e2f3c9e1eecc8d98b5689fe20d416eb72a01be22c3ca864dce544572913d96
+tags:
+  0.2.1--pyh5e36f6f_0: sha256:77e2f3c9e1eecc8d98b5689fe20d416eb72a01be22c3ca864dce544572913d96
+docker: quay.io/biocontainers/correlationplus
+aliases:
+  correlationplus: /usr/local/bin/correlationplus
+  evol: /usr/local/bin/evol
+  gsd: /usr/local/bin/gsd
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  prody: /usr/local/bin/prody

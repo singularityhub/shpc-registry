@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-singlecellnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-singlecellnet
+latest:
+  0.4.1--r41hdfd78af_3: sha256:16a0227b0a261ace6e2b17b29b9e8d90660490e05bb26a556734e3712160a1e7
+tags:
+  0.4.1--r41hdfd78af_3: sha256:16a0227b0a261ace6e2b17b29b9e8d90660490e05bb26a556734e3712160a1e7
+docker: quay.io/biocontainers/r-singlecellnet

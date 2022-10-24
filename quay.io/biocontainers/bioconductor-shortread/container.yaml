@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-shortread
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-shortread
+latest:
+  1.52.0--r41hc247a5b_2: sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a
+tags:
+  1.52.0--r41hc247a5b_2: sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a
+docker: quay.io/biocontainers/bioconductor-shortread

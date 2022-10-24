@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-config-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-config-tiny
+latest:
+  2.28--pl5321hdfd78af_0: sha256:53880603d6b3e124e8560f6b58de84cc3d14b318c5f132431c1306bcd281c40d
+tags:
+  2.28--pl5321hdfd78af_0: sha256:53880603d6b3e124e8560f6b58de84cc3d14b318c5f132431c1306bcd281c40d
+docker: quay.io/biocontainers/perl-config-tiny

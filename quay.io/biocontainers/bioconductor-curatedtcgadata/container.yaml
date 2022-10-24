@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-curatedtcgadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-curatedtcgadata
+latest:
+  1.8.0--r36_0: sha256:975d911f99fdae54b6b79d4fe5344d6a06d369f7c0745fbd72068f12f99274a6
+tags:
+  1.8.0--r36_0: sha256:975d911f99fdae54b6b79d4fe5344d6a06d369f7c0745fbd72068f12f99274a6
+docker: quay.io/biocontainers/bioconductor-curatedtcgadata
+aliases:
+  .bioconductor-curatedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh
+  .bioconductor-curatedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh

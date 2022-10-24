@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/scala
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scala
+latest:
+  2.11.8--1: sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453
+tags:
+  2.11.8--1: sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453
+docker: quay.io/biocontainers/scala
+aliases:
+  fsc: /usr/local/bin/fsc
+  fsc.bat: /usr/local/bin/fsc.bat
+  scala: /usr/local/bin/scala
+  scala.bat: /usr/local/bin/scala.bat
+  scalac: /usr/local/bin/scalac
+  scalac.bat: /usr/local/bin/scalac.bat
+  scaladoc: /usr/local/bin/scaladoc
+  scaladoc.bat: /usr/local/bin/scaladoc.bat
+  scalap: /usr/local/bin/scalap
+  scalap.bat: /usr/local/bin/scalap.bat

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ontoprocdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ontoprocdata
+latest:
+  0.99.9--r41hdfd78af_1: sha256:513546f1630c241e5d72aaa52f7d4189432c03567ba2140d69cd794201592b40
+tags:
+  0.99.9--r41hdfd78af_1: sha256:513546f1630c241e5d72aaa52f7d4189432c03567ba2140d69cd794201592b40
+docker: quay.io/biocontainers/bioconductor-ontoprocdata
+aliases:
+  .bioconductor-ontoprocdata-post-link.sh: /usr/local/bin/.bioconductor-ontoprocdata-post-link.sh
+  .bioconductor-ontoprocdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ontoprocdata-pre-unlink.sh

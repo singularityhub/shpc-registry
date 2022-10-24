@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prince
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prince
+latest:
+  2.3--pyh864c0ab_1: sha256:025c61c55faa354c7e51290aa240088c04a00616301e11d9fd389e8a09333d20
+tags:
+  2.3--pyh864c0ab_1: sha256:025c61c55faa354c7e51290aa240088c04a00616301e11d9fd389e8a09333d20
+docker: quay.io/biocontainers/prince
+aliases:
+  prince: /usr/local/bin/prince

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rpf-count-cds
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rpf-count-cds
+latest:
+  0.0.1--py_1: sha256:3b397775181005e0ec2784811d9437efd68a72c805d6d861983b0294a61b76fd
+tags:
+  0.0.1--py_1: sha256:3b397775181005e0ec2784811d9437efd68a72c805d6d861983b0294a61b76fd
+docker: quay.io/biocontainers/rpf-count-cds
+aliases:
+  RPF_count_CDS.py: /usr/local/bin/RPF_count_CDS.py
+  RPF_count_CDS_nonStranded.py: /usr/local/bin/RPF_count_CDS_nonStranded.py

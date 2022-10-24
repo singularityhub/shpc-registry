@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/hicup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hicup
+latest:
+  0.8.3--hdfd78af_1: sha256:6c69771af7a01e414b71e69776e28ad7e801ecff962974a11106fd708b18012e
+tags:
+  0.8.3--hdfd78af_1: sha256:6c69771af7a01e414b71e69776e28ad7e801ecff962974a11106fd708b18012e
+docker: quay.io/biocontainers/hicup
+aliases:
+  find_common_fragment_interactions.pl: /usr/local/bin/find_common_fragment_interactions.pl
+  hicup: /usr/local/bin/hicup
+  hicup2fithic: /usr/local/bin/hicup2fithic
+  hicup2gothic: /usr/local/bin/hicup2gothic
+  hicup2hicpipe: /usr/local/bin/hicup2hicpipe
+  hicup2homer: /usr/local/bin/hicup2homer
+  hicup2juicer: /usr/local/bin/hicup2juicer
+  hicup_capture: /usr/local/bin/hicup_capture
+  hicup_checker: /usr/local/bin/hicup_checker
+  hicup_deduplicator: /usr/local/bin/hicup_deduplicator
+  hicup_digester: /usr/local/bin/hicup_digester
+  hicup_filter: /usr/local/bin/hicup_filter
+  hicup_mapper: /usr/local/bin/hicup_mapper
+  hicup_module.pm: /usr/local/bin/hicup_module.pm
+  hicup_reporter: /usr/local/bin/hicup_reporter
+  hicup_truncater: /usr/local/bin/hicup_truncater
+  make_hic_array.pl: /usr/local/bin/make_hic_array.pl

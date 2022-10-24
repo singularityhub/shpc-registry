@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/wkhtmltopdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wkhtmltopdf
+latest:
+  0.12.3--0: sha256:f61cd4881d7bead97fc674f7a11b653b7066add46598c8e7fc446f81d95daebd
+tags:
+  0.12.3--0: sha256:f61cd4881d7bead97fc674f7a11b653b7066add46598c8e7fc446f81d95daebd
+docker: quay.io/biocontainers/wkhtmltopdf
+aliases:
+  wkhtmltoimage: /usr/local/bin/wkhtmltoimage
+  wkhtmltopdf: /usr/local/bin/wkhtmltopdf

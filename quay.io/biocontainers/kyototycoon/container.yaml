@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/kyototycoon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kyototycoon
+latest:
+  2017.04.10--hd344e51_3: sha256:6651b8770a005a6cce1af51ae6dbeea7a73b8ba9dadd92249fa796d7dc6fbc0e
+tags:
+  2017.04.10--hd344e51_3: sha256:6651b8770a005a6cce1af51ae6dbeea7a73b8ba9dadd92249fa796d7dc6fbc0e
+docker: quay.io/biocontainers/kyototycoon
+aliases:
+  kccachetest: /usr/local/bin/kccachetest
+  kcdirmgr: /usr/local/bin/kcdirmgr
+  kcdirtest: /usr/local/bin/kcdirtest
+  kcforestmgr: /usr/local/bin/kcforestmgr
+  kcforesttest: /usr/local/bin/kcforesttest
+  kcgrasstest: /usr/local/bin/kcgrasstest
+  kchashmgr: /usr/local/bin/kchashmgr
+  kchashtest: /usr/local/bin/kchashtest
+  kclangctest: /usr/local/bin/kclangctest
+  kcpolymgr: /usr/local/bin/kcpolymgr
+  kcpolytest: /usr/local/bin/kcpolytest
+  kcprototest: /usr/local/bin/kcprototest
+  kcstashtest: /usr/local/bin/kcstashtest
+  kctreemgr: /usr/local/bin/kctreemgr
+  kctreetest: /usr/local/bin/kctreetest
+  kcutilmgr: /usr/local/bin/kcutilmgr
+  kcutiltest: /usr/local/bin/kcutiltest
+  ktremotemgr: /usr/local/bin/ktremotemgr
+  ktremotetest: /usr/local/bin/ktremotetest
+  ktserver: /usr/local/bin/ktserver
+  kttimedmgr: /usr/local/bin/kttimedmgr
+  kttimedtest: /usr/local/bin/kttimedtest
+  ktutilmgr: /usr/local/bin/ktutilmgr
+  ktutilserv: /usr/local/bin/ktutilserv
+  ktutiltest: /usr/local/bin/ktutiltest

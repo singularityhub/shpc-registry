@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-splicer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-splicer
+latest:
+  1.22.0--r351h470a237_0: sha256:3565b1c171972813a6b33aa68a8f104ca8b67355e14119f8f4fe0b75595f9e8b
+tags:
+  1.22.0--r351h470a237_0: sha256:3565b1c171972813a6b33aa68a8f104ca8b67355e14119f8f4fe0b75595f9e8b
+docker: quay.io/biocontainers/bioconductor-splicer

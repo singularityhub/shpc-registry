@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/logomaker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for logomaker
+latest:
+  0.8--pyh864c0ab_1: sha256:49549169724f0452c4aefbb0b987f7731f5f268aa2e879b24e57e9694708cf85
+tags:
+  0.8--pyh864c0ab_1: sha256:49549169724f0452c4aefbb0b987f7731f5f268aa2e879b24e57e9694708cf85
+docker: quay.io/biocontainers/logomaker

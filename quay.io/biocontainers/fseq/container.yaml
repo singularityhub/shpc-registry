@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fseq
+latest:
+  1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
+tags:
+  1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
+docker: quay.io/biocontainers/fseq
+aliases:
+  fseq: /usr/local/bin/fseq
+  mapviewToBed.pl: /usr/local/bin/mapviewToBed.pl

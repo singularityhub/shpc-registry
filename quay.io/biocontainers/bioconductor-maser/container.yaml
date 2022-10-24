@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maser
+latest:
+  1.8.0--r40hdfd78af_0: sha256:d20a73643300ba80f8461a8bc9af1b670f6c2c64f76d203bece8d807a6e0fd40
+tags:
+  1.8.0--r40hdfd78af_0: sha256:d20a73643300ba80f8461a8bc9af1b670f6c2c64f76d203bece8d807a6e0fd40
+docker: quay.io/biocontainers/bioconductor-maser

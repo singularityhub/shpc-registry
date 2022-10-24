@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-micrornaome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-micrornaome
+latest:
+  1.8.0--r36_0: sha256:a557144d03190db977828dede7136307c87ca377b19e5fe4cf90eb0eb0f3a763
+tags:
+  1.8.0--r36_0: sha256:a557144d03190db977828dede7136307c87ca377b19e5fe4cf90eb0eb0f3a763
+docker: quay.io/biocontainers/bioconductor-micrornaome
+aliases:
+  .bioconductor-micrornaome-post-link.sh: /usr/local/bin/.bioconductor-micrornaome-post-link.sh
+  .bioconductor-micrornaome-pre-unlink.sh: /usr/local/bin/.bioconductor-micrornaome-pre-unlink.sh

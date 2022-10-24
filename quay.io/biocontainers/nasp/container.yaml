@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/nasp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nasp
+latest:
+  1.2.1--py36hf8e0771_1: sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871
+tags:
+  1.2.1--py36hf8e0771_1: sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871
+docker: quay.io/biocontainers/nasp
+aliases:
+  convert_external_genome: /usr/local/bin/convert_external_genome
+  filter_matrix_by_coord.py: /usr/local/bin/filter_matrix_by_coord.py
+  filter_matrix_by_distance.py: /usr/local/bin/filter_matrix_by_distance.py
+  filter_matrix_by_genome.py: /usr/local/bin/filter_matrix_by_genome.py
+  find_duplicates: /usr/local/bin/find_duplicates
+  format_fasta: /usr/local/bin/format_fasta
+  matrix_to_fasta.py: /usr/local/bin/matrix_to_fasta.py
+  merge_matrices.py: /usr/local/bin/merge_matrices.py
+  nasp: /usr/local/bin/nasp
+  report_single_snps_single_isolate.py: /usr/local/bin/report_single_snps_single_isolate.py
+  vcf_to_matrix: /usr/local/bin/vcf_to_matrix

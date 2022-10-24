@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/chap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chap
+latest:
+  0.9.1--h2df963e_2: sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
+tags:
+  0.9.1--h2df963e_2: sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98
+docker: quay.io/biocontainers/chap
+aliases:
+  GMXRC: /usr/local/bin/GMXRC
+  GMXRC.bash: /usr/local/bin/GMXRC.bash
+  GMXRC.csh: /usr/local/bin/GMXRC.csh
+  GMXRC.zsh: /usr/local/bin/GMXRC.zsh
+  GenX_IR: /usr/local/bin/GenX_IR
+  chap: /usr/local/bin/chap
+  demux.pl: /usr/local/bin/demux.pl
+  gmx: /usr/local/bin/gmx
+  gmx-completion-gmx.bash: /usr/local/bin/gmx-completion-gmx.bash
+  gmx-completion.bash: /usr/local/bin/gmx-completion.bash
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-assembler: /usr/local/bin/hwloc-assembler
+  hwloc-assembler-remote: /usr/local/bin/hwloc-assembler-remote
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distances: /usr/local/bin/hwloc-distances
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  iga64: /usr/local/bin/iga64
+  llvm-spirv: /usr/local/bin/llvm-spirv
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  ocloc: /usr/local/bin/ocloc
+  xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl

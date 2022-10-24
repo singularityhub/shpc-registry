@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/kneaddata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kneaddata
+latest:
+  0.9.0--pyhdfd78af_0: sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25
+tags:
+  0.9.0--pyhdfd78af_0: sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25
+docker: quay.io/biocontainers/kneaddata
+aliases:
+  kneaddata: /usr/local/bin/kneaddata
+  kneaddata_bowtie2_discordant_pairs: /usr/local/bin/kneaddata_bowtie2_discordant_pairs
+  kneaddata_build_database: /usr/local/bin/kneaddata_build_database
+  kneaddata_database: /usr/local/bin/kneaddata_database
+  kneaddata_read_count_table: /usr/local/bin/kneaddata_read_count_table
+  kneaddata_test: /usr/local/bin/kneaddata_test
+  kneaddata_trf_parallel: /usr/local/bin/kneaddata_trf_parallel

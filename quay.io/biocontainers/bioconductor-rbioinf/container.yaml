@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rbioinf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rbioinf
+latest:
+  1.54.0--r41hc0cfd56_2: sha256:631191850d3edd75f715a58c0a8e4eed3adaf293e362095a76d08839ba16bab2
+tags:
+  1.54.0--r41hc0cfd56_2: sha256:631191850d3edd75f715a58c0a8e4eed3adaf293e362095a76d08839ba16bab2
+docker: quay.io/biocontainers/bioconductor-rbioinf

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-procedural
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-procedural
+latest:
+  1.7.4--pl5321h9ee0642_0: sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6
+tags:
+  1.7.4--pl5321h9ee0642_0: sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6
+docker: quay.io/biocontainers/perl-bio-procedural

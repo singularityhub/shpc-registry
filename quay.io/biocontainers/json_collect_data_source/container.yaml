@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/json_collect_data_source
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for json_collect_data_source
+latest:
+  1.0.1--2: sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281
+tags:
+  1.0.1--2: sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281
+docker: quay.io/biocontainers/json_collect_data_source
+aliases:
+  json_collect_data_source.py: /usr/local/bin/json_collect_data_source.py

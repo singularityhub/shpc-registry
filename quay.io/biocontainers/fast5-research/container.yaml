@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fast5-research
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fast5-research
+latest:
+  1.2.8--pyhbdddce8_0: sha256:ea3c572b2db00214ab2c883d9a7ef98ff5c6319e04dba759ca14cda599d1be8d
+tags:
+  1.2.8--pyhbdddce8_0: sha256:ea3c572b2db00214ab2c883d9a7ef98ff5c6319e04dba759ca14cda599d1be8d
+docker: quay.io/biocontainers/fast5-research
+aliases:
+  extract_reads: /usr/local/bin/extract_reads

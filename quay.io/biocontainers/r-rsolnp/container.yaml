@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rsolnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rsolnp
+latest:
+  1.16--r3.3.1_0: sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c
+tags:
+  1.16--r3.3.1_0: sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c
+docker: quay.io/biocontainers/r-rsolnp

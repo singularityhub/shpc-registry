@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-stringy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-stringy
+latest:
+  2.111--pl5321hdfd78af_2: sha256:44fb7fff76bba8409d85224340a65a78ad387ecd4e7fc5e22b10faccc661caf3
+tags:
+  2.111--pl5321hdfd78af_2: sha256:44fb7fff76bba8409d85224340a65a78ad387ecd4e7fc5e22b10faccc661caf3
+docker: quay.io/biocontainers/perl-io-stringy

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/illumina-cleanup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for illumina-cleanup
+latest:
+  1.0.0--hdfd78af_2: sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
+tags:
+  1.0.0--hdfd78af_2: sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c
+docker: quay.io/biocontainers/illumina-cleanup
+aliases:
+  Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh
+  fastq-scan: /usr/local/bin/fastq-scan
+  illumina-cleanup: /usr/local/bin/illumina-cleanup
+  jq: /usr/local/bin/jq
+  lighter: /usr/local/bin/lighter
+  nextflow: /usr/local/bin/nextflow
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  onig-config: /usr/local/bin/onig-config

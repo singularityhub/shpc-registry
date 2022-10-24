@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-quaternaryprod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-quaternaryprod
+latest:
+  1.6.0--r3.4.1_0: sha256:2d6c93ceecf1c2c11881775b35763b0175da2b2d9e6315103e74abb4d14c7fac
+tags:
+  1.6.0--r3.4.1_0: sha256:2d6c93ceecf1c2c11881775b35763b0175da2b2d9e6315103e74abb4d14c7fac
+docker: quay.io/biocontainers/bioconductor-quaternaryprod

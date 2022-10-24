@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/elasticluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for elasticluster
+latest:
+  0.1.3bcbio--py27_12: sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955
+tags:
+  0.1.3bcbio--py27_12: sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955
+docker: quay.io/biocontainers/elasticluster
+aliases:
+  ansible: /usr/local/bin/ansible
+  ansible-doc: /usr/local/bin/ansible-doc
+  ansible-galaxy: /usr/local/bin/ansible-galaxy
+  ansible-playbook: /usr/local/bin/ansible-playbook
+  ansible-pull: /usr/local/bin/ansible-pull
+  ansible-vault: /usr/local/bin/ansible-vault
+  elasticluster: /usr/local/bin/elasticluster
+  gflags2man.py: /usr/local/bin/gflags2man.py

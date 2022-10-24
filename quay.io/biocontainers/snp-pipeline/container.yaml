@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/snp-pipeline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snp-pipeline
+latest:
+  2.2.1--pyh3252c3a_0: sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
+tags:
+  2.2.1--pyh3252c3a_0: sha256:ea9d663b2a3137f53a584f57f711bdf66ab62e2336b5d9e21db645f4bc52d2aa
+docker: quay.io/biocontainers/snp-pipeline
+aliases:
+  alignSampleToReference.sh: /usr/local/bin/alignSampleToReference.sh
+  calculate_snp_distances.py: /usr/local/bin/calculate_snp_distances.py
+  call_consensus.py: /usr/local/bin/call_consensus.py
+  cfsan_snp_pipeline: /usr/local/bin/cfsan_snp_pipeline
+  collectSampleMetrics.sh: /usr/local/bin/collectSampleMetrics.sh
+  combineSampleMetrics.sh: /usr/local/bin/combineSampleMetrics.sh
+  copy_snppipeline_data.py: /usr/local/bin/copy_snppipeline_data.py
+  create_snp_list.py: /usr/local/bin/create_snp_list.py
+  create_snp_matrix.py: /usr/local/bin/create_snp_matrix.py
+  create_snp_reference_seq.py: /usr/local/bin/create_snp_reference_seq.py
+  mergeVcf.sh: /usr/local/bin/mergeVcf.sh
+  prepReference.sh: /usr/local/bin/prepReference.sh
+  prepSamples.sh: /usr/local/bin/prepSamples.sh
+  qarrayrun: /usr/local/bin/qarrayrun
+  run_snp_pipeline.sh: /usr/local/bin/run_snp_pipeline.sh
+  snp_filter.py: /usr/local/bin/snp_filter.py

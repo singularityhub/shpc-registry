@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biolib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biolib
+latest:
+  0.1.9--py_0: sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553
+tags:
+  0.1.9--py_0: sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553
+docker: quay.io/biocontainers/biolib

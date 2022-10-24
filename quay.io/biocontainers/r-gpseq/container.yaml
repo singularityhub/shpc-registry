@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gpseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gpseq
+latest:
+  0.5--r3.3.2_0: sha256:ef9e1b5d3b834fe7d62daf5245e022eeae9cfdab318dcf3ccf1b391da31d0e67
+tags:
+  0.5--r3.3.2_0: sha256:ef9e1b5d3b834fe7d62daf5245e022eeae9cfdab318dcf3ccf1b391da31d0e67
+docker: quay.io/biocontainers/r-gpseq

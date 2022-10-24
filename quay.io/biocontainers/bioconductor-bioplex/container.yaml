@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bioplex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bioplex
+latest:
+  1.0.1--r41hdfd78af_0: sha256:54431d9178dafcca0b9bd9814ada771cac4ba159c7dc0914748fb685c6471869
+tags:
+  1.0.1--r41hdfd78af_0: sha256:54431d9178dafcca0b9bd9814ada771cac4ba159c7dc0914748fb685c6471869
+docker: quay.io/biocontainers/bioconductor-bioplex

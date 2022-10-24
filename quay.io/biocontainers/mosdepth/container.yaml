@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mosdepth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mosdepth
+latest:
+  0.3.3--h37c5b7d_2: sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e
+tags:
+  0.3.3--h37c5b7d_2: sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e
+docker: quay.io/biocontainers/mosdepth
+aliases:
+  mosdepth: /usr/local/bin/mosdepth

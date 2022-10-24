@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fsnviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fsnviz
+latest:
+  0.3.0--pyhdfd78af_5: sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4
+tags:
+  0.3.0--pyhdfd78af_5: sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4
+docker: quay.io/biocontainers/fsnviz
+aliases:
+  crimson: /usr/local/bin/crimson
+  fsnviz: /usr/local/bin/fsnviz

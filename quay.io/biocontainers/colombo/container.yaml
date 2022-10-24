@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/colombo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for colombo
+latest:
+  v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
+tags:
+  v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
+docker: quay.io/biocontainers/colombo
+aliases:
+  Colombo: /usr/local/bin/Colombo
+  SigiCRF: /usr/local/bin/SigiCRF
+  SigiHMM: /usr/local/bin/SigiHMM
+  mSigiHMM: /usr/local/bin/mSigiHMM

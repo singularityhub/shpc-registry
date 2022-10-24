@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-biomark
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-biomark
+latest:
+  0.4.5--r3.4.1_0: sha256:c7219a1e7f590b28fa0b6e916fcf9f38f0fc6c56796ef712b19ab01ad1505a0a
+tags:
+  0.4.5--r3.4.1_0: sha256:c7219a1e7f590b28fa0b6e916fcf9f38f0fc6c56796ef712b19ab01ad1505a0a
+docker: quay.io/biocontainers/r-biomark

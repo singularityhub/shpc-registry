@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pod-simple-text
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pod-simple-text
+latest:
+  3.28--pl5321hdfd78af_2: sha256:4d69001ffbaf09700a86e8f916cb78adc10270f981940a3b70155f05a1aff0b4
+tags:
+  3.28--pl5321hdfd78af_2: sha256:4d69001ffbaf09700a86e8f916cb78adc10270f981940a3b70155f05a1aff0b4
+docker: quay.io/biocontainers/perl-pod-simple-text

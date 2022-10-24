@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lyner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lyner
+latest:
+  0.4.3--py_0: sha256:ceb75388a8f472a5afe7bcdf48fa8928d9809326d4c2f66ade820f3547fded32
+tags:
+  0.4.3--py_0: sha256:ceb75388a8f472a5afe7bcdf48fa8928d9809326d4c2f66ade820f3547fded32
+docker: quay.io/biocontainers/lyner
+aliases:
+  lyner: /usr/local/bin/lyner

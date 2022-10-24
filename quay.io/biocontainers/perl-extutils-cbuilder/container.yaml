@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-cbuilder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-cbuilder
+latest:
+  0.280230--pl526_1: sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0
+tags:
+  0.280230--pl526_1: sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0
+docker: quay.io/biocontainers/perl-extutils-cbuilder

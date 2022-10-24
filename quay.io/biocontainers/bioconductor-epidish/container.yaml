@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epidish
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epidish
+latest:
+  2.8.0--r41hdfd78af_0: sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e
+tags:
+  2.8.0--r41hdfd78af_0: sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e
+docker: quay.io/biocontainers/bioconductor-epidish

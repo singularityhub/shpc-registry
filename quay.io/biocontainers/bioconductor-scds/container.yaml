@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scds
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scds
+latest:
+  1.8.0--r41hdfd78af_0: sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1
+tags:
+  1.8.0--r41hdfd78af_0: sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1
+docker: quay.io/biocontainers/bioconductor-scds

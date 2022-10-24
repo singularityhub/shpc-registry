@@ -1,0 +1,78 @@
+url: https://biocontainers.pro/tools/deltapd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deltapd
+latest:
+  0.1.5--py37h466c021_3: sha256:60731202ba2fbf37d31a761371feeadc9f00ee5a1333540d896fa75a78593326
+tags:
+  0.1.5--py37h466c021_3: sha256:60731202ba2fbf37d31a761371feeadc9f00ee5a1333540d896fa75a78593326
+docker: quay.io/biocontainers/deltapd
+aliases:
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam
+  deltapd: /usr/local/bin/deltapd
+  esdcompat: /usr/local/bin/esdcompat
+  getfattr: /usr/local/bin/getfattr
+  jack_alias: /usr/local/bin/jack_alias
+  jack_bufsize: /usr/local/bin/jack_bufsize
+  jack_connect: /usr/local/bin/jack_connect
+  jack_control: /usr/local/bin/jack_control
+  jack_cpu: /usr/local/bin/jack_cpu
+  jack_cpu_load: /usr/local/bin/jack_cpu_load
+  jack_disconnect: /usr/local/bin/jack_disconnect
+  jack_evmon: /usr/local/bin/jack_evmon
+  jack_freewheel: /usr/local/bin/jack_freewheel
+  jack_iodelay: /usr/local/bin/jack_iodelay
+  jack_latent_client: /usr/local/bin/jack_latent_client
+  jack_load: /usr/local/bin/jack_load
+  jack_lsp: /usr/local/bin/jack_lsp
+  jack_metro: /usr/local/bin/jack_metro
+  jack_midi_dump: /usr/local/bin/jack_midi_dump
+  jack_midi_latency_test: /usr/local/bin/jack_midi_latency_test
+  jack_midiseq: /usr/local/bin/jack_midiseq
+  jack_midisine: /usr/local/bin/jack_midisine
+  jack_monitor_client: /usr/local/bin/jack_monitor_client
+  jack_multiple_metro: /usr/local/bin/jack_multiple_metro
+  jack_netsource: /usr/local/bin/jack_netsource
+  jack_property: /usr/local/bin/jack_property
+  jack_rec: /usr/local/bin/jack_rec
+  jack_samplerate: /usr/local/bin/jack_samplerate
+  jack_server_control: /usr/local/bin/jack_server_control
+  jack_session_notify: /usr/local/bin/jack_session_notify
+  jack_showtime: /usr/local/bin/jack_showtime
+  jack_simdtests: /usr/local/bin/jack_simdtests
+  jack_simple_client: /usr/local/bin/jack_simple_client
+  jack_simple_session_client: /usr/local/bin/jack_simple_session_client
+  jack_test: /usr/local/bin/jack_test
+  jack_thru: /usr/local/bin/jack_thru
+  jack_transport: /usr/local/bin/jack_transport
+  jack_unload: /usr/local/bin/jack_unload
+  jack_wait: /usr/local/bin/jack_wait
+  jack_zombie: /usr/local/bin/jack_zombie
+  jackd: /usr/local/bin/jackd
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  pa-info: /usr/local/bin/pa-info
+  pacat: /usr/local/bin/pacat
+  pacmd: /usr/local/bin/pacmd
+  pactl: /usr/local/bin/pactl
+  padsp: /usr/local/bin/padsp
+  pamon: /usr/local/bin/pamon
+  paplay: /usr/local/bin/paplay
+  parec: /usr/local/bin/parec
+  parecord: /usr/local/bin/parecord
+  pasuspender: /usr/local/bin/pasuspender
+  pulseaudio: /usr/local/bin/pulseaudio
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime
+  qmltyperegistrar: /usr/local/bin/qmltyperegistrar
+  qpaeq: /usr/local/bin/qpaeq
+  setfattr: /usr/local/bin/setfattr
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  tracegen: /usr/local/bin/tracegen

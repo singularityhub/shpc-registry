@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/adapterremovalfixprefix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for adapterremovalfixprefix
+latest:
+  0.0.5--hdfd78af_2: sha256:9b56ad5655ccf1fcb6c3fea33e9832dd50fe1d8bf8bae9426a1c77bf142dcfc4
+tags:
+  0.0.5--hdfd78af_2: sha256:9b56ad5655ccf1fcb6c3fea33e9832dd50fe1d8bf8bae9426a1c77bf142dcfc4
+docker: quay.io/biocontainers/adapterremovalfixprefix
+aliases:
+  AdapterRemovalFixPrefix: /usr/local/bin/AdapterRemovalFixPrefix

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/somatic-sniper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for somatic-sniper
+latest:
+  1.0.5.0--0: sha256:e82aacba18ec9b4d803f8081580c51ea896070a223f645923cfc6f4335df3465
+tags:
+  1.0.5.0--0: sha256:e82aacba18ec9b4d803f8081580c51ea896070a223f645923cfc6f4335df3465
+docker: quay.io/biocontainers/somatic-sniper
+aliases:
+  bam-somaticsniper: /usr/local/bin/bam-somaticsniper

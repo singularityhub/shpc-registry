@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mir-prefer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mir-prefer
+latest:
+  0.24--hdfd78af_4: sha256:2ae66576ec3e8cca0317394ffab369617a943e5f0970e0877e31dd3d6e3da211
+tags:
+  0.24--hdfd78af_4: sha256:2ae66576ec3e8cca0317394ffab369617a943e5f0970e0877e31dd3d6e3da211
+docker: quay.io/biocontainers/mir-prefer
+aliases:
+  bowtie-align-reads.py: /usr/local/bin/bowtie-align-reads.py
+  convert-mirdeep2-fasta.py: /usr/local/bin/convert-mirdeep2-fasta.py
+  convert-readcount-file.py: /usr/local/bin/convert-readcount-file.py
+  miR_PREFeR.py: /usr/local/bin/miR_PREFeR.py
+  process-reads-fasta.py: /usr/local/bin/process-reads-fasta.py

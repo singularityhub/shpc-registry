@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genvisr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genvisr
+latest:
+  1.8.0--r3.4.1_0: sha256:c4b6c9c442066fb0e13e3c21bc5e30bc0803007402dac2b7f8ba82e56d6b8558
+tags:
+  1.8.0--r3.4.1_0: sha256:c4b6c9c442066fb0e13e3c21bc5e30bc0803007402dac2b7f8ba82e56d6b8558
+docker: quay.io/biocontainers/bioconductor-genvisr

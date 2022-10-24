@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dexus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dexus
+latest:
+  1.30.0--r40h399db7b_1: sha256:df657423a371cc32b01e09688e2fb162ed54ac7f893b97aaf9e27ff99264a59a
+tags:
+  1.30.0--r40h399db7b_1: sha256:df657423a371cc32b01e09688e2fb162ed54ac7f893b97aaf9e27ff99264a59a
+docker: quay.io/biocontainers/bioconductor-dexus

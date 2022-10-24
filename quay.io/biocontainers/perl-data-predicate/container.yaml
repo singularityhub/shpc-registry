@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-predicate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-predicate
+latest:
+  2.1.1--pl5321hdfd78af_2: sha256:5d9dcf75e40cb4b720a4b9a70ca25fc9c7897cecc0f12fc07ced07417a87df5b
+tags:
+  2.1.1--pl5321hdfd78af_2: sha256:5d9dcf75e40cb4b720a4b9a70ca25fc9c7897cecc0f12fc07ced07417a87df5b
+docker: quay.io/biocontainers/perl-data-predicate

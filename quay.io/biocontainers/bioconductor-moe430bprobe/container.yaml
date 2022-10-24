@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-moe430bprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-moe430bprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:368324a89f4084a395b4379564af09d03d8ed15503bcf58867dbea276801087e
+tags:
+  2.18.0--r41hdfd78af_9: sha256:368324a89f4084a395b4379564af09d03d8ed15503bcf58867dbea276801087e
+docker: quay.io/biocontainers/bioconductor-moe430bprobe
+aliases:
+  .bioconductor-moe430bprobe-post-link.sh: /usr/local/bin/.bioconductor-moe430bprobe-post-link.sh
+  .bioconductor-moe430bprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-moe430bprobe-pre-unlink.sh

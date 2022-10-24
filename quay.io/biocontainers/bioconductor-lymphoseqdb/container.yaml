@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lymphoseqdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lymphoseqdb
+latest:
+  0.99.2--r41hdfd78af_9: sha256:103f70f01cb108bd40de2f8b00ecd2b56ffc27c6f73438234b7ecad2ce4b3dc6
+tags:
+  0.99.2--r41hdfd78af_9: sha256:103f70f01cb108bd40de2f8b00ecd2b56ffc27c6f73438234b7ecad2ce4b3dc6
+docker: quay.io/biocontainers/bioconductor-lymphoseqdb
+aliases:
+  .bioconductor-lymphoseqdb-post-link.sh: /usr/local/bin/.bioconductor-lymphoseqdb-post-link.sh
+  .bioconductor-lymphoseqdb-pre-unlink.sh: /usr/local/bin/.bioconductor-lymphoseqdb-pre-unlink.sh

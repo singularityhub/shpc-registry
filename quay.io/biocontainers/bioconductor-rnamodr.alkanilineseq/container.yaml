@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnamodr.alkanilineseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnamodr.alkanilineseq
+latest:
+  1.8.0--r41hdfd78af_0: sha256:35be0dd65c38b2c2f3e8cf20563d44a9b450dc00a5b1325b7063e31800aa7365
+tags:
+  1.8.0--r41hdfd78af_0: sha256:35be0dd65c38b2c2f3e8cf20563d44a9b450dc00a5b1325b7063e31800aa7365
+docker: quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq

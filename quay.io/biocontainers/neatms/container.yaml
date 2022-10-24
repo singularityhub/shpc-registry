@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/neatms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for neatms
+latest:
+  0.7--py_0: sha256:c14e016cffe8a62755484f60a474b220ea07f8aa0ddd195ec67d6a8a0fba463c
+tags:
+  0.7--py_0: sha256:c14e016cffe8a62755484f60a474b220ea07f8aa0ddd195ec67d6a8a0fba463c
+docker: quay.io/biocontainers/neatms

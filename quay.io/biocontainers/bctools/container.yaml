@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bctools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bctools
+latest:
+  0.2.2--2: sha256:bcb2c89ff57e304a17cc1191417a7c89dded0c392fff4bbfeed04ffe40eddc79
+tags:
+  0.2.2--2: sha256:bcb2c89ff57e304a17cc1191417a7c89dded0c392fff4bbfeed04ffe40eddc79
+docker: quay.io/biocontainers/bctools
+aliases:
+  convert_bc_to_binary_RY.py: /usr/local/bin/convert_bc_to_binary_RY.py
+  coords2clnt.py: /usr/local/bin/coords2clnt.py
+  datamash: /usr/local/bin/datamash
+  extract_aln_ends.py: /usr/local/bin/extract_aln_ends.py
+  extract_bcs.py: /usr/local/bin/extract_bcs.py
+  merge_pcr_duplicates.py: /usr/local/bin/merge_pcr_duplicates.py
+  remove_tail.py: /usr/local/bin/remove_tail.py
+  rm_spurious_events.pl: /usr/local/bin/rm_spurious_events.pl
+  rm_spurious_events.py: /usr/local/bin/rm_spurious_events.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cghnormaliter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cghnormaliter
+latest:
+  1.48.0--r41hdfd78af_0: sha256:31bcd3bdb3eea315bd4bd189817092d3c9fb9e6e09bc35ce82a5fac3ef122c55
+tags:
+  1.48.0--r41hdfd78af_0: sha256:31bcd3bdb3eea315bd4bd189817092d3c9fb9e6e09bc35ce82a5fac3ef122c55
+docker: quay.io/biocontainers/bioconductor-cghnormaliter

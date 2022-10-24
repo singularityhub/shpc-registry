@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gblocks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gblocks
+latest:
+  0.91b--h9ee0642_2: sha256:11d9f0b38fcc98cd73cf1e6da0d9f8f9b55130f97cdffaf5161683ecebfbce50
+tags:
+  0.91b--h9ee0642_2: sha256:11d9f0b38fcc98cd73cf1e6da0d9f8f9b55130f97cdffaf5161683ecebfbce50
+docker: quay.io/biocontainers/gblocks
+aliases:
+  Gblocks: /usr/local/bin/Gblocks

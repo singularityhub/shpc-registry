@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/catch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for catch
+latest:
+  1.5.0--pyhdfd78af_0: sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8
+tags:
+  1.5.0--pyhdfd78af_0: sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8
+docker: quay.io/biocontainers/catch
+aliases:
+  analyze_probe_coverage.py: /usr/local/bin/analyze_probe_coverage.py
+  design.py: /usr/local/bin/design.py
+  design_large.py: /usr/local/bin/design_large.py
+  design_naively.py: /usr/local/bin/design_naively.py
+  pool.py: /usr/local/bin/pool.py

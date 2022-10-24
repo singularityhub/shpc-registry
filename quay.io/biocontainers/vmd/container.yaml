@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vmd
+latest:
+  1.9.3: sha256:c8ccfdd9efd621cee192c7b58ee986f030c251b89b203b68dd830938f67b0d28
+tags:
+  1.9.3: sha256:c8ccfdd9efd621cee192c7b58ee986f030c251b89b203b68dd830938f67b0d28
+docker: quay.io/biocontainers/vmd
+aliases:
+  vmd: /usr/local/bin/vmd

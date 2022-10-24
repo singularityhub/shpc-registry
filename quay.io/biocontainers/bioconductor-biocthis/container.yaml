@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocthis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocthis
+latest:
+  1.4.0--r41hdfd78af_0: sha256:2e6c6cd3faa0e5bd40c8a38b62f69278b9102a46f453dad4d7e0d94ccc6d8322
+tags:
+  1.4.0--r41hdfd78af_0: sha256:2e6c6cd3faa0e5bd40c8a38b62f69278b9102a46f453dad4d7e0d94ccc6d8322
+docker: quay.io/biocontainers/bioconductor-biocthis

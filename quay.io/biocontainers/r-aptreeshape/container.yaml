@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-aptreeshape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-aptreeshape
+latest:
+  1.5_0--r351h6115d3f_3: sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba
+tags:
+  1.5_0--r351h6115d3f_3: sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba
+docker: quay.io/biocontainers/r-aptreeshape

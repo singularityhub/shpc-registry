@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/verifyidintensity
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for verifyidintensity
+latest:
+  0.0.1--h7ff8a90_2: sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65
+tags:
+  0.0.1--h7ff8a90_2: sha256:bd0fd29d2513849dc3d258d99ac25235672c7be4fd49f89410cf8441a3833c65
+docker: quay.io/biocontainers/verifyidintensity
+aliases:
+  verifyIDintensity: /usr/local/bin/verifyIDintensity

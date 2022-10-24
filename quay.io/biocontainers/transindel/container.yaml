@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/transindel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transindel
+latest:
+  1.0--hdfd78af_2: sha256:628a19184a45264569593ef19ca163c464f4c9a968d4914504d30878f1700577
+tags:
+  1.0--hdfd78af_2: sha256:628a19184a45264569593ef19ca163c464f4c9a968d4914504d30878f1700577
+docker: quay.io/biocontainers/transindel
+aliases:
+  transIndel_build_DNA.py: /usr/local/bin/transIndel_build_DNA.py
+  transIndel_build_RNA.py: /usr/local/bin/transIndel_build_RNA.py
+  transIndel_call.py: /usr/local/bin/transIndel_call.py

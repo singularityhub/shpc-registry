@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/minialign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minialign
+latest:
+  0.5.3--1: sha256:80fcc5ff9f4b49cda4e3dfa946a4a6c951382e12155d3e6c09f80ccf255e9f25
+tags:
+  0.5.3--1: sha256:80fcc5ff9f4b49cda4e3dfa946a4a6c951382e12155d3e6c09f80ccf255e9f25
+docker: quay.io/biocontainers/minialign
+aliases:
+  minialign: /usr/local/bin/minialign

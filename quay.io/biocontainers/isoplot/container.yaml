@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/isoplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isoplot
+latest:
+  1.3.1--pyh5e36f6f_0: sha256:0bb7ac6f3617ff2c64405e3da2458ebf71be25b26ece2b817c1376b425ac90d7
+tags:
+  1.3.1--pyh5e36f6f_0: sha256:0bb7ac6f3617ff2c64405e3da2458ebf71be25b26ece2b817c1376b425ac90d7
+docker: quay.io/biocontainers/isoplot
+aliases:
+  colorcet: /usr/local/bin/colorcet
+  isoplot: /usr/local/bin/isoplot

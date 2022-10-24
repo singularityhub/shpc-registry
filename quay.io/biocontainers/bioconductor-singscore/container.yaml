@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-singscore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-singscore
+latest:
+  1.8.0--r40_0: sha256:ee2b434bc9bfcef2d2977ae77060d6132118ec58cf8d9ec02d67ae0576d6fecf
+tags:
+  1.8.0--r40_0: sha256:ee2b434bc9bfcef2d2977ae77060d6132118ec58cf8d9ec02d67ae0576d6fecf
+docker: quay.io/biocontainers/bioconductor-singscore

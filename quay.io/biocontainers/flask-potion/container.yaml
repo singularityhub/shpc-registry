@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flask-potion
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flask-potion
+latest:
+  0.12.1--py35_0: sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe
+tags:
+  0.12.1--py35_0: sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe
+docker: quay.io/biocontainers/flask-potion

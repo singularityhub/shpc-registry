@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/damageprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for damageprofiler
+latest:
+  1.1--hdfd78af_2: sha256:d7374403da149d78344d543dbdfa3ac129ce9836823aedb213932c1428dab45f
+tags:
+  1.1--hdfd78af_2: sha256:d7374403da149d78344d543dbdfa3ac129ce9836823aedb213932c1428dab45f
+docker: quay.io/biocontainers/damageprofiler
+aliases:
+  damageprofiler: /usr/local/bin/damageprofiler

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/wfmash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wfmash
+latest:
+  0.9.1--hfdddef0_3: sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc
+tags:
+  0.9.1--hfdddef0_3: sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc
+docker: quay.io/biocontainers/wfmash
+aliases:
+  wfmash: /usr/local/bin/wfmash

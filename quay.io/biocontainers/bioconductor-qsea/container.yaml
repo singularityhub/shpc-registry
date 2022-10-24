@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qsea
+latest:
+  1.8.0--r351h14c3975_0: sha256:c9493b747813e21437230afcb3dbe6547b4a975c2476bea28aad6c400c8bd34d
+tags:
+  1.8.0--r351h14c3975_0: sha256:c9493b747813e21437230afcb3dbe6547b4a975c2476bea28aad6c400c8bd34d
+docker: quay.io/biocontainers/bioconductor-qsea

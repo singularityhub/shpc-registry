@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu133a2frmavecs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu133a2frmavecs
+latest:
+  1.2.0--r41hdfd78af_9: sha256:5605b4a217a3009e34b1e7608d5f573b06768c1aef98ffffc35d897cd780a480
+tags:
+  1.2.0--r41hdfd78af_9: sha256:5605b4a217a3009e34b1e7608d5f573b06768c1aef98ffffc35d897cd780a480
+docker: quay.io/biocontainers/bioconductor-hgu133a2frmavecs
+aliases:
+  .bioconductor-hgu133a2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133a2frmavecs-post-link.sh
+  .bioconductor-hgu133a2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133a2frmavecs-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jmztab-m
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jmztab-m
+latest:
+  1.0.6--hdfd78af_1: sha256:038c0b53de2a3fe2691e269f04483075288dd493caa0931fe0dcc0a09abe0b4c
+tags:
+  1.0.6--hdfd78af_1: sha256:038c0b53de2a3fe2691e269f04483075288dd493caa0931fe0dcc0a09abe0b4c
+docker: quay.io/biocontainers/jmztab-m
+aliases:
+  jmztab-m: /usr/local/bin/jmztab-m

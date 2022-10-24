@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rmir.hsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rmir.hsa
+latest:
+  1.0.5--r41hdfd78af_9: sha256:7a9263ae65f2cd638d4b7b007fe73589f9dd285921f321ec87da2261ae387a1a
+tags:
+  1.0.5--r41hdfd78af_9: sha256:7a9263ae65f2cd638d4b7b007fe73589f9dd285921f321ec87da2261ae387a1a
+docker: quay.io/biocontainers/bioconductor-rmir.hsa
+aliases:
+  .bioconductor-rmir.hsa-post-link.sh: /usr/local/bin/.bioconductor-rmir.hsa-post-link.sh
+  .bioconductor-rmir.hsa-pre-unlink.sh: /usr/local/bin/.bioconductor-rmir.hsa-pre-unlink.sh

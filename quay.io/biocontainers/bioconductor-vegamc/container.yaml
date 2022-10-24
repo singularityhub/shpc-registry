@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-vegamc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-vegamc
+latest:
+  3.32.0--r41hc0cfd56_2: sha256:1b40ecae1fd4f39679f129563b7287b702f0200ff80d1e94fd4738f6df5e2a31
+tags:
+  3.32.0--r41hc0cfd56_2: sha256:1b40ecae1fd4f39679f129563b7287b702f0200ff80d1e94fd4738f6df5e2a31
+docker: quay.io/biocontainers/bioconductor-vegamc

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-classdiscovery
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-classdiscovery
+latest:
+  3.4.0--r41h3342da4_0: sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a
+tags:
+  3.4.0--r41h3342da4_0: sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a
+docker: quay.io/biocontainers/r-classdiscovery

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-leaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-leaps
+latest:
+  2.9--r3.2.2_0: sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82
+tags:
+  2.9--r3.2.2_0: sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82
+docker: quay.io/biocontainers/r-leaps

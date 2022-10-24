@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sciphi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sciphi
+latest:
+  0.1.7--h7ff8a90_2: sha256:3d8b40615a2df11ce4bed696f2d4b3f98c31a706c4dbfda37f42db5b508a72b6
+tags:
+  0.1.7--h7ff8a90_2: sha256:3d8b40615a2df11ce4bed696f2d4b3f98c31a706c4dbfda37f42db5b508a72b6
+docker: quay.io/biocontainers/sciphi
+aliases:
+  sciphi: /usr/local/bin/sciphi

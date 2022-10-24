@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-intramirexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-intramirexplorer
+latest:
+  1.8.0--r36_0: sha256:75a4204f890dc897c6e4fc76b2a5edaa92c3b699e0153f194bf71abcef910aba
+tags:
+  1.8.0--r36_0: sha256:75a4204f890dc897c6e4fc76b2a5edaa92c3b699e0153f194bf71abcef910aba
+docker: quay.io/biocontainers/bioconductor-intramirexplorer

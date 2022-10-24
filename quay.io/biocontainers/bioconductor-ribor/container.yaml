@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ribor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ribor
+latest:
+  1.6.0--r41hdfd78af_0: sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f
+tags:
+  1.6.0--r41hdfd78af_0: sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f
+docker: quay.io/biocontainers/bioconductor-ribor

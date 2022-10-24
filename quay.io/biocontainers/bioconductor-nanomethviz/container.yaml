@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nanomethviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nanomethviz
+latest:
+  2.0.0--r41hc247a5b_2: sha256:dfa3d49acde10f541a873508f14d3549f2bd01df87b9d7f6e48e205b02afa038
+tags:
+  2.0.0--r41hc247a5b_2: sha256:dfa3d49acde10f541a873508f14d3549f2bd01df87b9d7f6e48e205b02afa038
+docker: quay.io/biocontainers/bioconductor-nanomethviz

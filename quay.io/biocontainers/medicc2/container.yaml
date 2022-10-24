@@ -1,0 +1,69 @@
+url: https://biocontainers.pro/tools/medicc2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for medicc2
+latest:
+  0.8.1--py39h67e14b5_0: sha256:8389cc73c5124a25a6131d2052c0702edfaf9bfffdf7b36ebeb817c54d4f717a
+tags:
+  0.8.1--py39h67e14b5_0: sha256:8389cc73c5124a25a6131d2052c0702edfaf9bfffdf7b36ebeb817c54d4f717a
+docker: quay.io/biocontainers/medicc2
+aliases:
+  farcompilestrings: /usr/local/bin/farcompilestrings
+  farconvert: /usr/local/bin/farconvert
+  farcreate: /usr/local/bin/farcreate
+  farequal: /usr/local/bin/farequal
+  farextract: /usr/local/bin/farextract
+  farinfo: /usr/local/bin/farinfo
+  farisomorphic: /usr/local/bin/farisomorphic
+  farprintstrings: /usr/local/bin/farprintstrings
+  fstarcsort: /usr/local/bin/fstarcsort
+  fstclosure: /usr/local/bin/fstclosure
+  fstcompile: /usr/local/bin/fstcompile
+  fstcompose: /usr/local/bin/fstcompose
+  fstcompress: /usr/local/bin/fstcompress
+  fstconcat: /usr/local/bin/fstconcat
+  fstconnect: /usr/local/bin/fstconnect
+  fstconvert: /usr/local/bin/fstconvert
+  fstdeterminize: /usr/local/bin/fstdeterminize
+  fstdifference: /usr/local/bin/fstdifference
+  fstdisambiguate: /usr/local/bin/fstdisambiguate
+  fstdraw: /usr/local/bin/fstdraw
+  fstencode: /usr/local/bin/fstencode
+  fstepsnormalize: /usr/local/bin/fstepsnormalize
+  fstequal: /usr/local/bin/fstequal
+  fstequivalent: /usr/local/bin/fstequivalent
+  fstinfo: /usr/local/bin/fstinfo
+  fstintersect: /usr/local/bin/fstintersect
+  fstinvert: /usr/local/bin/fstinvert
+  fstisomorphic: /usr/local/bin/fstisomorphic
+  fstlinear: /usr/local/bin/fstlinear
+  fstloglinearapply: /usr/local/bin/fstloglinearapply
+  fstmap: /usr/local/bin/fstmap
+  fstminimize: /usr/local/bin/fstminimize
+  fstprint: /usr/local/bin/fstprint
+  fstproject: /usr/local/bin/fstproject
+  fstprune: /usr/local/bin/fstprune
+  fstpush: /usr/local/bin/fstpush
+  fstrandgen: /usr/local/bin/fstrandgen
+  fstrelabel: /usr/local/bin/fstrelabel
+  fstreplace: /usr/local/bin/fstreplace
+  fstreverse: /usr/local/bin/fstreverse
+  fstreweight: /usr/local/bin/fstreweight
+  fstrmepsilon: /usr/local/bin/fstrmepsilon
+  fstshortestdistance: /usr/local/bin/fstshortestdistance
+  fstshortestpath: /usr/local/bin/fstshortestpath
+  fstspecial: /usr/local/bin/fstspecial
+  fstsymbols: /usr/local/bin/fstsymbols
+  fstsynchronize: /usr/local/bin/fstsynchronize
+  fsttopsort: /usr/local/bin/fsttopsort
+  fstunion: /usr/local/bin/fstunion
+  medicc2: /usr/local/bin/medicc2
+  mpdtcompose: /usr/local/bin/mpdtcompose
+  mpdtexpand: /usr/local/bin/mpdtexpand
+  mpdtinfo: /usr/local/bin/mpdtinfo
+  mpdtreverse: /usr/local/bin/mpdtreverse
+  pdtcompose: /usr/local/bin/pdtcompose
+  pdtexpand: /usr/local/bin/pdtexpand
+  pdtinfo: /usr/local/bin/pdtinfo
+  pdtreplace: /usr/local/bin/pdtreplace
+  pdtreverse: /usr/local/bin/pdtreverse
+  pdtshortestpath: /usr/local/bin/pdtshortestpath

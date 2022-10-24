@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/menetools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for menetools
+latest:
+  2.0.6--py_0: sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2
+tags:
+  2.0.6--py_0: sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2
+docker: quay.io/biocontainers/menetools
+aliases:
+  menecheck: /usr/local/bin/menecheck
+  menecof: /usr/local/bin/menecof
+  menepath: /usr/local/bin/menepath
+  menescope: /usr/local/bin/menescope

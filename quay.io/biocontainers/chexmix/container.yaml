@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/chexmix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chexmix
+latest:
+  0.52--hdfd78af_0: sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
+tags:
+  0.52--hdfd78af_0: sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128
+docker: quay.io/biocontainers/chexmix
+aliases:
+  centrimo-plots: /usr/local/bin/centrimo-plots
+  chexmix: /usr/local/bin/chexmix
+  dtc: /usr/local/bin/dtc
+  fasta-from-bed: /usr/local/bin/fasta-from-bed
+  fasta-holdout-set: /usr/local/bin/fasta-holdout-set
+  fasta-re-match: /usr/local/bin/fasta-re-match
+  index-fasta-file: /usr/local/bin/index-fasta-file
+  meme-chip_html_to_tsv: /usr/local/bin/meme-chip_html_to_tsv
+  momo: /usr/local/bin/momo
+  sea: /usr/local/bin/sea
+  streme: /usr/local/bin/streme
+  streme_xml_to_html: /usr/local/bin/streme_xml_to_html
+  tgene: /usr/local/bin/tgene
+  xstreme: /usr/local/bin/xstreme
+  xstreme_html_to_tsv: /usr/local/bin/xstreme_html_to_tsv

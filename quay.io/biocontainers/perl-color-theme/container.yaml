@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-color-theme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-color-theme
+latest:
+  0.10.1--pl5321hdfd78af_1: sha256:586665715781ea8edae454df97efb232a65aa9ad393e030b6324bebcf5b4387c
+tags:
+  0.10.1--pl5321hdfd78af_1: sha256:586665715781ea8edae454df97efb232a65aa9ad393e030b6324bebcf5b4387c
+docker: quay.io/biocontainers/perl-color-theme

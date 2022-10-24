@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/wiggletools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wiggletools
+latest:
+  1.2.8--he98db58_2: sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68
+tags:
+  1.2.8--he98db58_2: sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68
+docker: quay.io/biocontainers/wiggletools
+aliases:
+  wiggletools: /usr/local/bin/wiggletools

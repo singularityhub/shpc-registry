@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-enrichtf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-enrichtf
+latest:
+  1.8.0--r41hdfd78af_0: sha256:e5f7c9840a9d1bfea2f08052ecce917bf7e2ad33f0c505eddbaeb41f18121353
+tags:
+  1.8.0--r41hdfd78af_0: sha256:e5f7c9840a9d1bfea2f08052ecce917bf7e2ad33f0c505eddbaeb41f18121353
+docker: quay.io/biocontainers/bioconductor-enrichtf
+aliases:
+  .bioconductor-jaspar2018-post-link.sh: /usr/local/bin/.bioconductor-jaspar2018-post-link.sh
+  .bioconductor-jaspar2018-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh

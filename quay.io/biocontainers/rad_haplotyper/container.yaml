@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/rad_haplotyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rad_haplotyper
+latest:
+  1.1.9--pl5321hec16e2b_6: sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5
+tags:
+  1.1.9--pl5321hec16e2b_6: sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5
+docker: quay.io/biocontainers/rad_haplotyper
+aliases:
+  ErrorCount.sh: /usr/local/bin/ErrorCount.sh
+  RefMapOpt.sh: /usr/local/bin/RefMapOpt.sh
+  ReferenceOpt.sh: /usr/local/bin/ReferenceOpt.sh
+  Rename_SequenceFiles.sh: /usr/local/bin/Rename_SequenceFiles.sh
+  dDocent: /usr/local/bin/dDocent
+  dDocent_filters: /usr/local/bin/dDocent_filters
+  filter_hwe_by_pop.pl: /usr/local/bin/filter_hwe_by_pop.pl
+  filter_missing_ind.sh: /usr/local/bin/filter_missing_ind.sh
+  mawk: /usr/local/bin/mawk
+  pear: /usr/local/bin/pear
+  pearRM: /usr/local/bin/pearRM
+  pop_missing_filter.sh: /usr/local/bin/pop_missing_filter.sh
+  rad_haplotyper.pl: /usr/local/bin/rad_haplotyper.pl
+  rainbow: /usr/local/bin/rainbow
+  remake_reference.sh: /usr/local/bin/remake_reference.sh
+  remove.bad.hap.loci.sh: /usr/local/bin/remove.bad.hap.loci.sh
+  select_all_rbcontig.pl: /usr/local/bin/select_all_rbcontig.pl
+  select_all_rbcontig.pl.bak: /usr/local/bin/select_all_rbcontig.pl.bak
+  select_best_rbcontig.pl: /usr/local/bin/select_best_rbcontig.pl
+  select_best_rbcontig.pl.bak: /usr/local/bin/select_best_rbcontig.pl.bak
+  select_best_rbcontig_plus_read1.pl: /usr/local/bin/select_best_rbcontig_plus_read1.pl
+  select_best_rbcontig_plus_read1.pl.bak: /usr/local/bin/select_best_rbcontig_plus_read1.pl.bak
+  select_sec_rbcontig.pl: /usr/local/bin/select_sec_rbcontig.pl
+  select_sec_rbcontig.pl.bak: /usr/local/bin/select_sec_rbcontig.pl.bak
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py

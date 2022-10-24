@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ococo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ococo
+latest:
+  0.1.2.7--h867801b_5: sha256:0fb9c4047d3a8c055a8a3a1aacdbaaeca934da7467429a460d8031e7f12f1e31
+tags:
+  0.1.2.7--h867801b_5: sha256:0fb9c4047d3a8c055a8a3a1aacdbaaeca934da7467429a460d8031e7f12f1e31
+docker: quay.io/biocontainers/ococo
+aliases:
+  ococo: /usr/local/bin/ococo

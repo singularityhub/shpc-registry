@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/qhull
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qhull
+latest:
+  2015.2--h2d50403_0: sha256:748ece7ba2740ae20394fee0935a217c2f9ae598073f39112477594f615ebf4b
+tags:
+  2015.2--h2d50403_0: sha256:748ece7ba2740ae20394fee0935a217c2f9ae598073f39112477594f615ebf4b
+docker: quay.io/biocontainers/qhull
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox

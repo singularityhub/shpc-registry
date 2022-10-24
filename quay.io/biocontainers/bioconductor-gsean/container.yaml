@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gsean
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gsean
+latest:
+  1.8.0--r40_0: sha256:a2a4cb7e0123975b9d12ba9c839a0ef986915c0fb8984bd1d7f54940c03e1458
+tags:
+  1.8.0--r40_0: sha256:a2a4cb7e0123975b9d12ba9c839a0ef986915c0fb8984bd1d7f54940c03e1458
+docker: quay.io/biocontainers/bioconductor-gsean
+aliases:
+  .bioconductor-yeastexpdata-post-link.sh: /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh
+  .bioconductor-yeastexpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh

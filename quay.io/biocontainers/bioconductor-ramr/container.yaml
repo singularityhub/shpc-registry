@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ramr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ramr
+latest:
+  1.2.0--r41hdfd78af_0: sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2
+tags:
+  1.2.0--r41hdfd78af_0: sha256:5101cb7045e88a3324ba6c50d2b88356c2d6c59dbff14a54eece728396e812c2
+docker: quay.io/biocontainers/bioconductor-ramr

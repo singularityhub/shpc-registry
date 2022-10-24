@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/dipcall
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dipcall
+latest:
+  0.3--0: sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0
+tags:
+  0.3--0: sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0
+docker: quay.io/biocontainers/dipcall
+aliases:
+  bedtk: /usr/local/bin/bedtk
+  dipcall-aux.js: /usr/local/bin/dipcall-aux.js
+  htsbox: /usr/local/bin/htsbox
+  meryl-analyze: /usr/local/bin/meryl-analyze
+  meryl-check: /usr/local/bin/meryl-check
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup
+  meryl-simple: /usr/local/bin/meryl-simple
+  run-dipcall: /usr/local/bin/run-dipcall
+  unimap: /usr/local/bin/unimap
+  winnowmap: /usr/local/bin/winnowmap

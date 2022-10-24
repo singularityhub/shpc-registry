@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/wisestork
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wisestork
+latest:
+  0.1.2--py_1: sha256:4109b86dcab48314c81153e23620e8cf4801b20f036c9903232afbcb1bc91ef7
+tags:
+  0.1.2--py_1: sha256:4109b86dcab48314c81153e23620e8cf4801b20f036c9903232afbcb1bc91ef7
+docker: quay.io/biocontainers/wisestork
+aliases:
+  wisestork: /usr/local/bin/wisestork

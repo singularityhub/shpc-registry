@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnviz
+latest:
+  1.2.0--r41hdfd78af_0: sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a
+tags:
+  1.2.0--r41hdfd78af_0: sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a
+docker: quay.io/biocontainers/bioconductor-cnviz

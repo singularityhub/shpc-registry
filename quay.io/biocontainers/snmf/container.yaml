@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/snmf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snmf
+latest:
+  1.2--pl526h516909a_2: sha256:70d792ac2bfd3c00a6fc3eb575d0ab3efa674b1eefc38dbfe59f188336b662ad
+tags:
+  1.2--pl526h516909a_2: sha256:70d792ac2bfd3c00a6fc3eb575d0ab3efa674b1eefc38dbfe59f188336b662ad
+docker: quay.io/biocontainers/snmf
+aliases:
+  ancestrymap2geno: /usr/local/bin/ancestrymap2geno
+  createDataSet: /usr/local/bin/createDataSet
+  crossEntropy: /usr/local/bin/crossEntropy
+  geno2lfmm: /usr/local/bin/geno2lfmm
+  lfmm2geno: /usr/local/bin/lfmm2geno
+  ped2geno: /usr/local/bin/ped2geno
+  sNMF: /usr/local/bin/sNMF
+  vcf2geno: /usr/local/bin/vcf2geno

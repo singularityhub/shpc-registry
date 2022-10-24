@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-excluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-excluster
+latest:
+  1.8.0--r40hdfd78af_1: sha256:693874ace269138376d5ccbf52b092859c749abbae99a13729db0774e05932fb
+tags:
+  1.8.0--r40hdfd78af_1: sha256:693874ace269138376d5ccbf52b092859c749abbae99a13729db0774e05932fb
+docker: quay.io/biocontainers/bioconductor-excluster

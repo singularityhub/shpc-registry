@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tfea.chip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tfea.chip
+latest:
+  1.8.0--r40_0: sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05
+tags:
+  1.8.0--r40_0: sha256:4c4407505e36645eada6e683f6377280155443bce56fd9d9311029c363601c05
+docker: quay.io/biocontainers/bioconductor-tfea.chip

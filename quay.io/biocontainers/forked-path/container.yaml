@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/forked-path
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for forked-path
+latest:
+  0.2.3--py27_2: sha256:b4668e6180497f84d0222911a0953e705ab572b1d5d6d69cedc84f4f8be5f5ba
+tags:
+  0.2.3--py27_2: sha256:b4668e6180497f84d0222911a0953e705ab572b1d5d6d69cedc84f4f8be5f5ba
+docker: quay.io/biocontainers/forked-path

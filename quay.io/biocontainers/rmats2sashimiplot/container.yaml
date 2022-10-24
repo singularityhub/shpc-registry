@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rmats2sashimiplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rmats2sashimiplot
+latest:
+  2.0.4--py27h21c881e_2: sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5
+tags:
+  2.0.4--py27h21c881e_2: sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5
+docker: quay.io/biocontainers/rmats2sashimiplot
+aliases:
+  index_gff: /usr/local/bin/index_gff
+  rmats2sashimiplot: /usr/local/bin/rmats2sashimiplot
+  sashimi_plot: /usr/local/bin/sashimi_plot

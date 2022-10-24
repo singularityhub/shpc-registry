@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-parathyroidse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-parathyroidse
+latest:
+  1.32.0--r41hdfd78af_1: sha256:70b8357a603ac392379203efec386bddfa2e6eb4a6c1f158f04f0f0bdecbca34
+tags:
+  1.32.0--r41hdfd78af_1: sha256:70b8357a603ac392379203efec386bddfa2e6eb4a6c1f158f04f0f0bdecbca34
+docker: quay.io/biocontainers/bioconductor-parathyroidse
+aliases:
+  .bioconductor-parathyroidse-post-link.sh: /usr/local/bin/.bioconductor-parathyroidse-post-link.sh
+  .bioconductor-parathyroidse-pre-unlink.sh: /usr/local/bin/.bioconductor-parathyroidse-pre-unlink.sh

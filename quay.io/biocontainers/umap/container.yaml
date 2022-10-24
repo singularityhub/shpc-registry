@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/umap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for umap
+latest:
+  1.1.1--pyh1687a27_0: sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a
+tags:
+  1.1.1--pyh1687a27_0: sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a
+docker: quay.io/biocontainers/umap
+aliases:
+  combine_umaps.py: /usr/local/bin/combine_umaps.py
+  get_kmers.py: /usr/local/bin/get_kmers.py
+  handle_fasta.py: /usr/local/bin/handle_fasta.py
+  map_bed.py: /usr/local/bin/map_bed.py
+  run_bowtie.py: /usr/local/bin/run_bowtie.py
+  ubismap.py: /usr/local/bin/ubismap.py
+  uint8_to_bed.py: /usr/local/bin/uint8_to_bed.py
+  uint8_to_bed_parallel.py: /usr/local/bin/uint8_to_bed_parallel.py
+  unify_bowtie.py: /usr/local/bin/unify_bowtie.py

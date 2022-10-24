@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-consensusseeker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-consensusseeker
+latest:
+  1.8.0--r341_0: sha256:dc8f12362f56063ed369aa5b9b987b0cd830dffdbf8f2c63e59b3470ad70dfaf
+tags:
+  1.8.0--r341_0: sha256:dc8f12362f56063ed369aa5b9b987b0cd830dffdbf8f2c63e59b3470ad70dfaf
+docker: quay.io/biocontainers/bioconductor-consensusseeker

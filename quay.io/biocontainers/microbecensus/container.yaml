@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/microbecensus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for microbecensus
+latest:
+  1.1.1--0: sha256:d1e21bc500e2898c6e9f713c45a5f278ff949b9e8aa53d84e60ddc8369499a56
+tags:
+  1.1.1--0: sha256:d1e21bc500e2898c6e9f713c45a5f278ff949b9e8aa53d84e60ddc8369499a56
+docker: quay.io/biocontainers/microbecensus
+aliases:
+  run_microbe_census.py: /usr/local/bin/run_microbe_census.py

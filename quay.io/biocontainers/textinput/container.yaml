@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/textinput
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for textinput
+latest:
+  0.2--pyh864c0ab_1: sha256:6f2ab57f904258cc7f311616f0fd5b76b4cf69a0d7645b5b5f5d05a232c39c1a
+tags:
+  0.2--pyh864c0ab_1: sha256:6f2ab57f904258cc7f311616f0fd5b76b4cf69a0d7645b5b5f5d05a232c39c1a
+docker: quay.io/biocontainers/textinput
+aliases:
+  filter: /usr/local/bin/filter
+  hidehead: /usr/local/bin/hidehead
+  innerjoin: /usr/local/bin/innerjoin
+  intersect: /usr/local/bin/intersect
+  mean: /usr/local/bin/mean
+  nohead: /usr/local/bin/nohead

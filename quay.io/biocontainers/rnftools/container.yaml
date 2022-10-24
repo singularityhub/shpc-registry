@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/rnftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnftools
+latest:
+  0.3.1.3--py36_0: sha256:8b588055977bbf83116f394d755c088c885b37b2ccce0b81d50b2d87ba0d2f29
+tags:
+  0.3.1.3--py36_0: sha256:8b588055977bbf83116f394d755c088c885b37b2ccce0b81d50b2d87ba0d2f29
+docker: quay.io/biocontainers/rnftools
+aliases:
+  art_454: /usr/local/bin/art_454
+  art_SOLiD: /usr/local/bin/art_SOLiD
+  art_illumina: /usr/local/bin/art_illumina
+  cairosvg: /usr/local/bin/cairosvg
+  curesim: /usr/local/bin/curesim
+  dwgsim: /usr/local/bin/dwgsim
+  dwgsim_eval: /usr/local/bin/dwgsim_eval
+  mason_frag_sequencing: /usr/local/bin/mason_frag_sequencing
+  mason_genome: /usr/local/bin/mason_genome
+  mason_materializer: /usr/local/bin/mason_materializer
+  mason_methylation: /usr/local/bin/mason_methylation
+  mason_simulator: /usr/local/bin/mason_simulator
+  mason_splicing: /usr/local/bin/mason_splicing
+  mason_variator: /usr/local/bin/mason_variator
+  rnftools: /usr/local/bin/rnftools
+  svg42pdf: /usr/local/bin/svg42pdf

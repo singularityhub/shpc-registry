@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnaither
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnaither
+latest:
+  2.36.0--r40_0: sha256:76c947c148060e0066dfec51114be6f44185f97b5abcce1b16d6e1e9123c8689
+tags:
+  2.36.0--r40_0: sha256:76c947c148060e0066dfec51114be6f44185f97b5abcce1b16d6e1e9123c8689
+docker: quay.io/biocontainers/bioconductor-rnaither

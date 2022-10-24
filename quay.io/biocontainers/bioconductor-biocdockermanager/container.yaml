@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocdockermanager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocdockermanager
+latest:
+  1.6.0--r41hdfd78af_0: sha256:efecde61010b335dfb710204f55798034d70830d344e77ea071d0f52cee7ca64
+tags:
+  1.6.0--r41hdfd78af_0: sha256:efecde61010b335dfb710204f55798034d70830d344e77ea071d0f52cee7ca64
+docker: quay.io/biocontainers/bioconductor-biocdockermanager

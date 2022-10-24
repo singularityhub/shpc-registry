@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-skellam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-skellam
+latest:
+  0.2.0--r3.3.1_0: sha256:1494fc483e7bddcaceca16e19849be6da8ba6b35f6987aa54f3675dec9ca46cb
+tags:
+  0.2.0--r3.3.1_0: sha256:1494fc483e7bddcaceca16e19849be6da8ba6b35f6987aa54f3675dec9ca46cb
+docker: quay.io/biocontainers/r-skellam

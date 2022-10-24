@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genomic_regions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomic_regions
+latest:
+  0.0.9--py_0: sha256:921428a9bf7476a9c3aaf232948fb7c51f56e568ed4012afddf55cb5dedc9f55
+tags:
+  0.0.9--py_0: sha256:921428a9bf7476a9c3aaf232948fb7c51f56e568ed4012afddf55cb5dedc9f55
+docker: quay.io/biocontainers/genomic_regions
+aliases:
+  convert-regions: /usr/local/bin/convert-regions

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-delayedarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-delayedarray
+latest:
+  0.8.0--r351h14c3975_0: sha256:7859783e28cd29574f681942ccb0daffb0c68889478f62a979971fe3b61c1ca3
+tags:
+  0.8.0--r351h14c3975_0: sha256:7859783e28cd29574f681942ccb0daffb0c68889478f62a979971fe3b61c1ca3
+docker: quay.io/biocontainers/bioconductor-delayedarray

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-balanced
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-balanced
+latest:
+  2.06--pl5321hdfd78af_0: sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d
+tags:
+  2.06--pl5321hdfd78af_0: sha256:ff107dbf72e82c2715e8ce2fce02a11520a2e3fd0e1cd1f5da2bc83df1b98d6d
+docker: quay.io/biocontainers/perl-text-balanced

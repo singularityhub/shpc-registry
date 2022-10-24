@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-archive-extract
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-archive-extract
+latest:
+  0.88--pl5321hdfd78af_0: sha256:7f9658e6912b6bdcd55cf68ea02e20ad02de4be495f290ec6918534cc912cffd
+tags:
+  0.88--pl5321hdfd78af_0: sha256:7f9658e6912b6bdcd55cf68ea02e20ad02de4be495f290ec6918534cc912cffd
+docker: quay.io/biocontainers/perl-archive-extract

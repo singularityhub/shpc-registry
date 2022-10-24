@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pdatk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pdatk
+latest:
+  1.2.0--r41hdfd78af_0: sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a
+tags:
+  1.2.0--r41hdfd78af_0: sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a
+docker: quay.io/biocontainers/bioconductor-pdatk

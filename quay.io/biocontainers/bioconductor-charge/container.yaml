@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-charge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-charge
+latest:
+  1.7.0--r40_0: sha256:ab173f29aeb94e6da85dcb1017d4b998d8672338c6b35f8d92400d8c3b657b44
+tags:
+  1.7.0--r40_0: sha256:ab173f29aeb94e6da85dcb1017d4b998d8672338c6b35f8d92400d8c3b657b44
+docker: quay.io/biocontainers/bioconductor-charge

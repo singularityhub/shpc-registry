@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/kinsimriboswitch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kinsimriboswitch
+latest:
+  0.3--pl5262r40ha325a96_3: sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
+tags:
+  0.3--pl5262r40ha325a96_3: sha256:8237010fd1a5beb3cf465f262e55ec60a05839c8281fde8a092b9685dcebe59a
+docker: quay.io/biocontainers/kinsimriboswitch
+aliases:
+  addr2line: /usr/local/bin/addr2line
+  ar: /usr/local/bin/ar
+  as: /usr/local/bin/as
+  barriers-RNA2: /usr/local/bin/barriers-RNA2
+  c++: /usr/local/bin/c++
+  c++filt: /usr/local/bin/c++filt
+  cc: /usr/local/bin/cc
+  cpp: /usr/local/bin/cpp
+  ct-ng.config: /usr/local/bin/ct-ng.config
+  dwp: /usr/local/bin/dwp
+  elfedit: /usr/local/bin/elfedit
+  f95: /usr/local/bin/f95
+  g++: /usr/local/bin/g++
+  gcc: /usr/local/bin/gcc
+  gcc-ar: /usr/local/bin/gcc-ar
+  gcc-nm: /usr/local/bin/gcc-nm
+  gcc-ranlib: /usr/local/bin/gcc-ranlib
+  gcov: /usr/local/bin/gcov
+  gcov-dump: /usr/local/bin/gcov-dump
+  gcov-tool: /usr/local/bin/gcov-tool
+  gfortran: /usr/local/bin/gfortran
+  gfortran.bin: /usr/local/bin/gfortran.bin
+  gold: /usr/local/bin/gold
+  gprof: /usr/local/bin/gprof
+  kinGenMacrostates: /usr/local/bin/kinGenMacrostates
+  kinPlot.R: /usr/local/bin/kinPlot.R
+  kinSimRibo_mergeRateMats: /usr/local/bin/kinSimRibo_mergeRateMats
+  kinSimRiboswitch: /usr/local/bin/kinSimRiboswitch
+  ld: /usr/local/bin/ld
+  ld.bfd: /usr/local/bin/ld.bfd
+  ld.gold: /usr/local/bin/ld.gold
+  nm: /usr/local/bin/nm
+  objcopy: /usr/local/bin/objcopy
+  objdump: /usr/local/bin/objdump
+  qd-config: /usr/local/bin/qd-config
+  ranlib: /usr/local/bin/ranlib
+  readelf: /usr/local/bin/readelf
+  size: /usr/local/bin/size
+  stoch_genDimerRates: /usr/local/bin/stoch_genDimerRates
+  strings: /usr/local/bin/strings
+  strip: /usr/local/bin/strip
+  structConnect: /usr/local/bin/structConnect
+  treekin: /usr/local/bin/treekin
+  tts: /usr/local/bin/tts

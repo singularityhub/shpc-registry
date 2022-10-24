@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bel-resources
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bel-resources
+latest:
+  0.0.3--py_0: sha256:8ff017d37b391093762bf0aededd80957591bb5bf70d8592ffd7131e1fa709c4
+tags:
+  0.0.3--py_0: sha256:8ff017d37b391093762bf0aededd80957591bb5bf70d8592ffd7131e1fa709c4
+docker: quay.io/biocontainers/bel-resources
+aliases:
+  bel-resources: /usr/local/bin/bel-resources

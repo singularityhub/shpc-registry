@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-apcomplex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-apcomplex
+latest:
+  2.60.0--r41hdfd78af_0: sha256:901e78551a7eefc599920daa63fba64f9c10376e71cbeee57043da8ca635ca66
+tags:
+  2.60.0--r41hdfd78af_0: sha256:901e78551a7eefc599920daa63fba64f9c10376e71cbeee57043da8ca635ca66
+docker: quay.io/biocontainers/bioconductor-apcomplex

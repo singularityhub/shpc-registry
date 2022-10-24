@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-profia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-profia
+latest:
+  1.8.1--r351h14c3975_0: sha256:c528818a2a6872f2fd7b17f6e056d49ac225b6f2a25f74af7f819ae879a024d2
+tags:
+  1.8.1--r351h14c3975_0: sha256:c528818a2a6872f2fd7b17f6e056d49ac225b6f2a25f74af7f819ae879a024d2
+docker: quay.io/biocontainers/bioconductor-profia

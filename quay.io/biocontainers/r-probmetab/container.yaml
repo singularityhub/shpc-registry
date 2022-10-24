@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-probmetab
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-probmetab
+latest:
+  1.1--r34he1b5a44_4: sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617
+tags:
+  1.1--r34he1b5a44_4: sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617
+docker: quay.io/biocontainers/r-probmetab

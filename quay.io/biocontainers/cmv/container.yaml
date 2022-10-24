@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/cmv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cmv
+latest:
+  1.0.8--1: sha256:ed32fe1d4399560176fe846747850541dabab2c53a14bc0da88a1481f41ccaf2
+tags:
+  1.0.8--1: sha256:ed32fe1d4399560176fe846747850541dabab2c53a14bc0da88a1481f41ccaf2
+docker: quay.io/biocontainers/cmv
+aliases:
+  CMCV: /usr/local/bin/CMCV
+  CMCWStoCMCV: /usr/local/bin/CMCWStoCMCV
+  CMCtoHMMC: /usr/local/bin/CMCtoHMMC
+  CMV: /usr/local/bin/CMV
+  CMVJson: /usr/local/bin/CMVJson
+  HMMCV: /usr/local/bin/HMMCV
+  HMMCtoCMC: /usr/local/bin/HMMCtoCMC
+  HMMV: /usr/local/bin/HMMV

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-validatefastq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-validatefastq
+latest:
+  0.1.1--hdfd78af_3: sha256:e3a325660baa94dd624d7f87d4d6392383f72e1f6d1e5839829f3f8a52775297
+tags:
+  0.1.1--hdfd78af_3: sha256:e3a325660baa94dd624d7f87d4d6392383f72e1f6d1e5839829f3f8a52775297
+docker: quay.io/biocontainers/biopet-validatefastq
+aliases:
+  biopet-validatefastq: /usr/local/bin/biopet-validatefastq

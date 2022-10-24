@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-focalcall
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-focalcall
+latest:
+  1.21.0--r40_0: sha256:85c14c17329a99be0e8b42946db588e779c4282f63249f79630680b77fda600f
+tags:
+  1.21.0--r40_0: sha256:85c14c17329a99be0e8b42946db588e779c4282f63249f79630680b77fda600f
+docker: quay.io/biocontainers/bioconductor-focalcall

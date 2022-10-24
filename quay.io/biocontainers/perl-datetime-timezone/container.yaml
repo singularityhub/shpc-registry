@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-datetime-timezone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-datetime-timezone
+latest:
+  2.52--pl5321h9f5acd7_1: sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34
+tags:
+  2.52--pl5321h9f5acd7_1: sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34
+docker: quay.io/biocontainers/perl-datetime-timezone

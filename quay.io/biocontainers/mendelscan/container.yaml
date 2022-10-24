@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mendelscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mendelscan
+latest:
+  v1.2.2--1: sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437
+tags:
+  v1.2.2--1: sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437
+docker: quay.io/biocontainers/mendelscan
+aliases:
+  mendelscan: /usr/local/bin/mendelscan

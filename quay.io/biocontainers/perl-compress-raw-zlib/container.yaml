@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-compress-raw-zlib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-compress-raw-zlib
+latest:
+  2.105--pl5321h87f3376_0: sha256:e93ab2100b624b3fe065b697e37ca7fa01133c956fd37540550b0f1baa7b42ab
+tags:
+  2.105--pl5321h87f3376_0: sha256:e93ab2100b624b3fe065b697e37ca7fa01133c956fd37540550b0f1baa7b42ab
+docker: quay.io/biocontainers/perl-compress-raw-zlib

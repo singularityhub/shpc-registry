@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/smof
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smof
+latest:
+  2.22.2--pyhdfd78af_0: sha256:5338621ccbbe58f42226b00f94dc91a4cf274f8464e556245330a4b7651a363e
+tags:
+  2.22.2--pyhdfd78af_0: sha256:5338621ccbbe58f42226b00f94dc91a4cf274f8464e556245330a4b7651a363e
+docker: quay.io/biocontainers/smof
+aliases:
+  smof: /usr/local/bin/smof

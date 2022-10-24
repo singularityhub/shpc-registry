@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/lofreq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lofreq
+latest:
+  2.1.5--py38ha1fcc84_8: sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8
+tags:
+  2.1.5--py38ha1fcc84_8: sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8
+docker: quay.io/biocontainers/lofreq
+aliases:
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py

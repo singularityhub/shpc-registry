@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scfind
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scfind
+latest:
+  1.9.0--r40h5f743cb_0: sha256:20858aa60e5e17a80a1d4d9cfb5bce7cc0cac7f01114f2b7438d1c3bc1b39419
+tags:
+  1.9.0--r40h5f743cb_0: sha256:20858aa60e5e17a80a1d4d9cfb5bce7cc0cac7f01114f2b7438d1c3bc1b39419
+docker: quay.io/biocontainers/bioconductor-scfind

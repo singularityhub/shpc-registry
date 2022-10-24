@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/markov_clustering
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for markov_clustering
+latest:
+  0.0.6--py_0: sha256:5aa79190e51e2d61069708daa259971a3946d7ba985eea939815b2fbae98c001
+tags:
+  0.0.6--py_0: sha256:5aa79190e51e2d61069708daa259971a3946d7ba985eea939815b2fbae98c001
+docker: quay.io/biocontainers/markov_clustering

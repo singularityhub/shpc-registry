@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sodar-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sodar-cli
+latest:
+  0.1.0--pyhdfd78af_0: sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e
+tags:
+  0.1.0--pyhdfd78af_0: sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e
+docker: quay.io/biocontainers/sodar-cli
+aliases:
+  sodar-cli: /usr/local/bin/sodar-cli

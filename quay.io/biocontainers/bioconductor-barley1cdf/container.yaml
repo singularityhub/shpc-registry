@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-barley1cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-barley1cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:0b2d0be3e4a2d1984bcbe54c57e902452a7c69d09186037a9eb1899a0e166ed9
+tags:
+  2.18.0--r41hdfd78af_9: sha256:0b2d0be3e4a2d1984bcbe54c57e902452a7c69d09186037a9eb1899a0e166ed9
+docker: quay.io/biocontainers/bioconductor-barley1cdf
+aliases:
+  .bioconductor-barley1cdf-post-link.sh: /usr/local/bin/.bioconductor-barley1cdf-post-link.sh
+  .bioconductor-barley1cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-barley1cdf-pre-unlink.sh

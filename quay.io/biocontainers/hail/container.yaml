@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/hail
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hail
+latest:
+  0.2.61--py36hf1ae8f4_1: sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88
+tags:
+  0.2.61--py36hf1ae8f4_1: sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88
+docker: quay.io/biocontainers/hail
+aliases:
+  beeline: /usr/local/bin/beeline
+  beeline.cmd: /usr/local/bin/beeline.cmd
+  docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
+  find-spark-home: /usr/local/bin/find-spark-home
+  find-spark-home.cmd: /usr/local/bin/find-spark-home.cmd
+  find_spark_home.py: /usr/local/bin/find_spark_home.py
+  hailctl: /usr/local/bin/hailctl
+  load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
+  load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  pyspark: /usr/local/bin/pyspark
+  pyspark.cmd: /usr/local/bin/pyspark.cmd
+  pyspark2.cmd: /usr/local/bin/pyspark2.cmd
+  run-example: /usr/local/bin/run-example
+  run-example.cmd: /usr/local/bin/run-example.cmd
+  spark-class: /usr/local/bin/spark-class
+  spark-class.cmd: /usr/local/bin/spark-class.cmd
+  spark-class2.cmd: /usr/local/bin/spark-class2.cmd
+  spark-shell: /usr/local/bin/spark-shell
+  spark-shell.cmd: /usr/local/bin/spark-shell.cmd
+  spark-shell2.cmd: /usr/local/bin/spark-shell2.cmd
+  spark-sql: /usr/local/bin/spark-sql
+  spark-sql.cmd: /usr/local/bin/spark-sql.cmd
+  spark-sql2.cmd: /usr/local/bin/spark-sql2.cmd
+  spark-submit: /usr/local/bin/spark-submit
+  spark-submit.cmd: /usr/local/bin/spark-submit.cmd
+  spark-submit2.cmd: /usr/local/bin/spark-submit2.cmd
+  sparkR: /usr/local/bin/sparkR
+  sparkR.cmd: /usr/local/bin/sparkR.cmd
+  sparkR2.cmd: /usr/local/bin/sparkR2.cmd

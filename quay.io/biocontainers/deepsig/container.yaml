@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/deepsig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepsig
+latest:
+  1.2.5--pyhdfd78af_0: sha256:ea1c4e448e424674de57798828cb5c0939bd6578ef69c0c629090ac30bb51c07
+tags:
+  1.2.5--pyhdfd78af_0: sha256:ea1c4e448e424674de57798828cb5c0939bd6578ef69c0c629090ac30bb51c07
+docker: quay.io/biocontainers/deepsig
+aliases:
+  deepsig: /usr/local/bin/deepsig

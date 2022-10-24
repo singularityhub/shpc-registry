@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rnabob
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnabob
+latest:
+  2.2.1--h470a237_1: sha256:08f5562582fbad7bf3cdc5d6407870116b7d1bc9bc8a59e9de74511c7b3e4d6a
+tags:
+  2.2.1--h470a237_1: sha256:08f5562582fbad7bf3cdc5d6407870116b7d1bc9bc8a59e9de74511c7b3e4d6a
+docker: quay.io/biocontainers/rnabob
+aliases:
+  rnabob: /usr/local/bin/rnabob

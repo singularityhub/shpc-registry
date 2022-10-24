@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ncbi-acc-download
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncbi-acc-download
+latest:
+  0.2.8--pyh5e36f6f_0: sha256:3b70fe4c32c73012cfdb022db314f58becd4eba9f8d9a97f0985a64d0985a4bb
+tags:
+  0.2.8--pyh5e36f6f_0: sha256:3b70fe4c32c73012cfdb022db314f58becd4eba9f8d9a97f0985a64d0985a4bb
+docker: quay.io/biocontainers/ncbi-acc-download
+aliases:
+  nad: /usr/local/bin/nad
+  ncbi-acc-download: /usr/local/bin/ncbi-acc-download

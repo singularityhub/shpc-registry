@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rat2302probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rat2302probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:a9ec47a45ba1027f2dc1809fd2fca14f5db937b9bc54563ae3732c841dbaf004
+tags:
+  2.18.0--r41hdfd78af_9: sha256:a9ec47a45ba1027f2dc1809fd2fca14f5db937b9bc54563ae3732c841dbaf004
+docker: quay.io/biocontainers/bioconductor-rat2302probe
+aliases:
+  .bioconductor-rat2302probe-post-link.sh: /usr/local/bin/.bioconductor-rat2302probe-post-link.sh
+  .bioconductor-rat2302probe-pre-unlink.sh: /usr/local/bin/.bioconductor-rat2302probe-pre-unlink.sh

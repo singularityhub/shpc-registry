@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/metawatt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metawatt
+latest:
+  3.5.3--2: sha256:da159d423a4fd5965bd007be7dd2626f3ef7a5363ba01958cb1c99a081e3b37f
+tags:
+  3.5.3--2: sha256:da159d423a4fd5965bd007be7dd2626f3ef7a5363ba01958cb1c99a081e3b37f
+docker: quay.io/biocontainers/metawatt
+aliases:
+  .metawatt-post-link.sh: /usr/local/bin/.metawatt-post-link.sh
+  demuxbyname2.sh: /usr/local/bin/demuxbyname2.sh
+  metawatt: /usr/local/bin/metawatt

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/barriers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for barriers
+latest:
+  1.8.1--h1b792b2_1: sha256:53fd695a36a1c6e23bf4b1e9a869a5bf468f454222bf5e6f0698df597a8630ff
+tags:
+  1.8.1--h1b792b2_1: sha256:53fd695a36a1c6e23bf4b1e9a869a5bf468f454222bf5e6f0698df597a8630ff
+docker: quay.io/biocontainers/barriers
+aliases:
+  barriers: /usr/local/bin/barriers
+  crossrates.pl: /usr/local/bin/crossrates.pl
+  fix_bar.pl: /usr/local/bin/fix_bar.pl
+  genPoHoLandscape: /usr/local/bin/genPoHoLandscape
+  saddle.pl: /usr/local/bin/saddle.pl
+  saddle2dot.pl: /usr/local/bin/saddle2dot.pl
+  saddle2gml.pl: /usr/local/bin/saddle2gml.pl
+  treeplot.pl: /usr/local/bin/treeplot.pl

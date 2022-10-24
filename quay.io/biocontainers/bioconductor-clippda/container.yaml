@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clippda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clippda
+latest:
+  1.44.0--r41hdfd78af_0: sha256:8a63a3c185c090070e5df0dd3bd9e9f0901cbbd7d070c59861081726cdd04142
+tags:
+  1.44.0--r41hdfd78af_0: sha256:8a63a3c185c090070e5df0dd3bd9e9f0901cbbd7d070c59861081726cdd04142
+docker: quay.io/biocontainers/bioconductor-clippda

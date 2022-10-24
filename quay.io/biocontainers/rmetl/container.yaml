@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rmetl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rmetl
+latest:
+  1.0.4--py_0: sha256:12e307e4a90479c8a60478413930e0d48e53b64a9dd033c23a016cdbb1b13efa
+tags:
+  1.0.4--py_0: sha256:12e307e4a90479c8a60478413930e0d48e53b64a9dd033c23a016cdbb1b13efa
+docker: quay.io/biocontainers/rmetl
+aliases:
+  ngmlr: /usr/local/bin/ngmlr
+  rMETL: /usr/local/bin/rMETL

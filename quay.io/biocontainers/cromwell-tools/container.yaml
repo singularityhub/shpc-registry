@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cromwell-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cromwell-tools
+latest:
+  2.4.1--py_0: sha256:f2a162186757140d873049b21c26b0a5b187a11a773ee3f33778cf6f2ed8eac6
+tags:
+  2.4.1--py_0: sha256:f2a162186757140d873049b21c26b0a5b187a11a773ee3f33778cf6f2ed8eac6
+docker: quay.io/biocontainers/cromwell-tools
+aliases:
+  cromwell-tools: /usr/local/bin/cromwell-tools

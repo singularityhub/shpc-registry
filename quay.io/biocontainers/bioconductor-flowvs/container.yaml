@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowvs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowvs
+latest:
+  1.26.0--r41hdfd78af_0: sha256:fb17c462bac7cc5a099269be716dbe621fec44400cdf300117e6786ae2e17282
+tags:
+  1.26.0--r41hdfd78af_0: sha256:fb17c462bac7cc5a099269be716dbe621fec44400cdf300117e6786ae2e17282
+docker: quay.io/biocontainers/bioconductor-flowvs

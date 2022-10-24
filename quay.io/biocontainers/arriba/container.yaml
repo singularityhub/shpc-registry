@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/arriba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for arriba
+latest:
+  2.3.0--ha04fe3b_1: sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5
+tags:
+  2.3.0--ha04fe3b_1: sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5
+docker: quay.io/biocontainers/arriba
+aliases:
+  arriba: /usr/local/bin/arriba
+  convert_fusions_to_vcf.sh: /usr/local/bin/convert_fusions_to_vcf.sh
+  draw_fusions.R: /usr/local/bin/draw_fusions.R
+  extract_fusion-supporting_alignments.sh: /usr/local/bin/extract_fusion-supporting_alignments.sh
+  quantify_virus_expression.sh: /usr/local/bin/quantify_virus_expression.sh
+  run_arriba.sh: /usr/local/bin/run_arriba.sh
+  run_arriba_on_prealigned_bam.sh: /usr/local/bin/run_arriba_on_prealigned_bam.sh

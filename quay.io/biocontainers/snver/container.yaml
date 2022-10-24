@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/snver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snver
+latest:
+  0.5.3--hdfd78af_1: sha256:0e85cfc9cd3b22796a18374a2ceff2d94feab778ac4f76f5c51b3cb45350a158
+tags:
+  0.5.3--hdfd78af_1: sha256:0e85cfc9cd3b22796a18374a2ceff2d94feab778ac4f76f5c51b3cb45350a158
+docker: quay.io/biocontainers/snver
+aliases:
+  snver: /usr/local/bin/snver
+  snver-pool: /usr/local/bin/snver-pool

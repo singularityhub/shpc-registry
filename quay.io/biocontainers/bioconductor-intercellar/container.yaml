@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-intercellar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-intercellar
+latest:
+  2.0.0--r41hdfd78af_0: sha256:c636d11da28bb9d09fa713cd32e6771f2140ad06ee10f7010a24caa30f6d5817
+tags:
+  2.0.0--r41hdfd78af_0: sha256:c636d11da28bb9d09fa713cd32e6771f2140ad06ee10f7010a24caa30f6d5817
+docker: quay.io/biocontainers/bioconductor-intercellar

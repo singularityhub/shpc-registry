@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metavizr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metavizr
+latest:
+  1.8.0--r36_1: sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5
+tags:
+  1.8.0--r36_1: sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5
+docker: quay.io/biocontainers/bioconductor-metavizr

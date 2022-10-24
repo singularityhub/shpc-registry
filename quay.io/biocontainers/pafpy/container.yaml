@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pafpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pafpy
+latest:
+  0.2.0--py_0: sha256:ee0e9e1960474b996452e51b1281ef9ff476eea689950a0032105a2b24eefd61
+tags:
+  0.2.0--py_0: sha256:ee0e9e1960474b996452e51b1281ef9ff476eea689950a0032105a2b24eefd61
+docker: quay.io/biocontainers/pafpy

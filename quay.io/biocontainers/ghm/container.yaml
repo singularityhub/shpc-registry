@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ghm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ghm
+latest:
+  3.1--h7132678_5: sha256:dd8b5633b0aee3fbd474b3b9833446424faefbd5048898d76b467ee47c5f1239
+tags:
+  3.1--h7132678_5: sha256:dd8b5633b0aee3fbd474b3b9833446424faefbd5048898d76b467ee47c5f1239
+docker: quay.io/biocontainers/ghm
+aliases:
+  ghm: /usr/local/bin/ghm

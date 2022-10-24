@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/dendropy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dendropy
+latest:
+  4.5.2--pyh3252c3a_0: sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0
+tags:
+  4.5.2--pyh3252c3a_0: sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0
+docker: quay.io/biocontainers/dendropy

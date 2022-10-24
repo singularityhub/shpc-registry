@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/kmasker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kmasker
+latest:
+  1.1.1--py38pl5321r41h4a32c8e_4: sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc
+tags:
+  1.1.1--py38pl5321r41h4a32c8e_4: sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc
+docker: quay.io/biocontainers/kmasker
+aliases:
+  Kmasker: /usr/local/bin/Kmasker
+  cmasker: /usr/local/bin/cmasker
+  fastq-clipper: /usr/local/bin/fastq-clipper
+  fastq-join: /usr/local/bin/fastq-join
+  fastq-mcf: /usr/local/bin/fastq-mcf
+  fastq-multx: /usr/local/bin/fastq-multx
+  fastq-stats: /usr/local/bin/fastq-stats
+  gffread: /usr/local/bin/gffread
+  which: /usr/local/bin/which

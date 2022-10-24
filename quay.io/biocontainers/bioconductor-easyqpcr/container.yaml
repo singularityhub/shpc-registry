@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-easyqpcr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-easyqpcr
+latest:
+  1.31.0--r40hdfd78af_1: sha256:b695a53ad2cc02991229d4a7ef1e9dc78c7daf1665c201a1ee025b09f0eb1fad
+tags:
+  1.31.0--r40hdfd78af_1: sha256:b695a53ad2cc02991229d4a7ef1e9dc78c7daf1665c201a1ee025b09f0eb1fad
+docker: quay.io/biocontainers/bioconductor-easyqpcr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-probe-perl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-probe-perl
+latest:
+  0.03--pl5321hdfd78af_1: sha256:4140e9f8e97faf2fb67a9e654b94fe152c251c9c3e237beefabdac0d5b26d348
+tags:
+  0.03--pl5321hdfd78af_1: sha256:4140e9f8e97faf2fb67a9e654b94fe152c251c9c3e237beefabdac0d5b26d348
+docker: quay.io/biocontainers/perl-probe-perl

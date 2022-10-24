@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pytabix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pytabix
+latest:
+  0.1--py39h2add14b_2: sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c
+tags:
+  0.1--py39h2add14b_2: sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c
+docker: quay.io/biocontainers/pytabix

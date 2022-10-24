@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-json-maybexs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-json-maybexs
+latest:
+  1.004003--pl5321hdfd78af_0: sha256:99ce3509961d3c9b463f72d34a6c8a3c670e6bf38add911853991c815676fc77
+tags:
+  1.004003--pl5321hdfd78af_0: sha256:99ce3509961d3c9b463f72d34a6c8a3c670e6bf38add911853991c815676fc77
+docker: quay.io/biocontainers/perl-json-maybexs

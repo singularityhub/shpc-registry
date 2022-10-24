@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epihet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epihet
+latest:
+  1.8.0--r41hdfd78af_0: sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53
+tags:
+  1.8.0--r41hdfd78af_0: sha256:9fdda811379f6f1c62312c88944525d1bac212e80bbcba8ff5d5812a8b1b1b53
+docker: quay.io/biocontainers/bioconductor-epihet

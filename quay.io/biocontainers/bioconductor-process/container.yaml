@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-process
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-process
+latest:
+  1.70.0--r41hdfd78af_0: sha256:b9508b3f6fa4bc635cd05232199eae182a1b5a66299a14e6791feaf39e629a43
+tags:
+  1.70.0--r41hdfd78af_0: sha256:b9508b3f6fa4bc635cd05232199eae182a1b5a66299a14e6791feaf39e629a43
+docker: quay.io/biocontainers/bioconductor-process

@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/dropseq_tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dropseq_tools
+latest:
+  2.5.1--hdfd78af_0: sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89
+tags:
+  2.5.1--hdfd78af_0: sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89
+docker: quay.io/biocontainers/dropseq_tools
+aliases:
+  BamTagHistogram: /usr/local/bin/BamTagHistogram
+  BamTagOfTagCounts: /usr/local/bin/BamTagOfTagCounts
+  BaseDistributionAtReadPosition: /usr/local/bin/BaseDistributionAtReadPosition
+  CensusSeq: /usr/local/bin/CensusSeq
+  CollapseBarcodesInPlace: /usr/local/bin/CollapseBarcodesInPlace
+  CollapseTagWithContext: /usr/local/bin/CollapseTagWithContext
+  CompareDropSeqAlignments: /usr/local/bin/CompareDropSeqAlignments
+  ConvertToRefFlat: /usr/local/bin/ConvertToRefFlat
+  CountUnmatchedSampleIndices: /usr/local/bin/CountUnmatchedSampleIndices
+  CreateIntervalsFiles: /usr/local/bin/CreateIntervalsFiles
+  CsiAnalysis: /usr/local/bin/CsiAnalysis
+  DetectBeadSubstitutionErrors: /usr/local/bin/DetectBeadSubstitutionErrors
+  DetectBeadSynthesisErrors: /usr/local/bin/DetectBeadSynthesisErrors
+  DigitalExpression: /usr/local/bin/DigitalExpression
+  FilterBam: /usr/local/bin/FilterBam
+  FilterBamByTag: /usr/local/bin/FilterBamByTag
+  FilterGtf: /usr/local/bin/FilterGtf
+  GatherGeneGCLength: /usr/local/bin/GatherGeneGCLength
+  GatherMolecularBarcodeDistributionByGene: /usr/local/bin/GatherMolecularBarcodeDistributionByGene
+  GatherReadQualityMetrics: /usr/local/bin/GatherReadQualityMetrics
+  MaskReferenceSequence: /usr/local/bin/MaskReferenceSequence
+  MergeDgeSparse: /usr/local/bin/MergeDgeSparse
+  PolyATrimmer: /usr/local/bin/PolyATrimmer
+  ReduceGtf: /usr/local/bin/ReduceGtf
+  RollCall: /usr/local/bin/RollCall
+  SelectCellsByNumTranscripts: /usr/local/bin/SelectCellsByNumTranscripts
+  SingleCellRnaSeqMetricsCollector: /usr/local/bin/SingleCellRnaSeqMetricsCollector
+  SplitBamByCell: /usr/local/bin/SplitBamByCell
+  TagBamWithReadSequenceExtended: /usr/local/bin/TagBamWithReadSequenceExtended
+  TagReadWithGeneExonFunction: /usr/local/bin/TagReadWithGeneExonFunction
+  TagReadWithGeneFunction: /usr/local/bin/TagReadWithGeneFunction
+  TagReadWithInterval: /usr/local/bin/TagReadWithInterval
+  TrimStartingSequence: /usr/local/bin/TrimStartingSequence
+  ValidateReference: /usr/local/bin/ValidateReference

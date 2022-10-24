@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-plethy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-plethy
+latest:
+  1.30.0--r41hdfd78af_0: sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3
+tags:
+  1.30.0--r41hdfd78af_0: sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3
+docker: quay.io/biocontainers/bioconductor-plethy

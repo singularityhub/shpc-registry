@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/orsum
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for orsum
+latest:
+  1.4.0--hdfd78af_0: sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf
+tags:
+  1.4.0--hdfd78af_0: sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf
+docker: quay.io/biocontainers/orsum
+aliases:
+  orsum.py: /usr/local/bin/orsum.py
+  plotFunctions.py: /usr/local/bin/plotFunctions.py
+  termCombinationLib.py: /usr/local/bin/termCombinationLib.py

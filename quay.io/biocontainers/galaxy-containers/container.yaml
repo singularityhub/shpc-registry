@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/galaxy-containers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-containers
+latest:
+  21.9.0--pyhdfd78af_0: sha256:a43c77abb0238e8182ac9a0de92f365b76871f335bcdd46004888aa71222f520
+tags:
+  21.9.0--pyhdfd78af_0: sha256:a43c77abb0238e8182ac9a0de92f365b76871f335bcdd46004888aa71222f520
+docker: quay.io/biocontainers/galaxy-containers

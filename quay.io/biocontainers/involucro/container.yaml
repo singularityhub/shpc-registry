@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/involucro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for involucro
+latest:
+  1.1.2--he881be0_3: sha256:f05e70162e3811b9173e4c7536003a4bdb13135e9691675cb071b97d2a579abf
+tags:
+  1.1.2--he881be0_3: sha256:f05e70162e3811b9173e4c7536003a4bdb13135e9691675cb071b97d2a579abf
+docker: quay.io/biocontainers/involucro
+aliases:
+  involucro: /usr/local/bin/involucro

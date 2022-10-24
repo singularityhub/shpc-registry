@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowstats
+latest:
+  4.6.0--r41hdfd78af_0: sha256:825923226536223d968b792fde0a4f13f38838f6eaad50000e80e888f49c46e1
+tags:
+  4.6.0--r41hdfd78af_0: sha256:825923226536223d968b792fde0a4f13f38838f6eaad50000e80e888f49c46e1
+docker: quay.io/biocontainers/bioconductor-flowstats

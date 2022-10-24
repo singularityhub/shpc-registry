@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/eigensoft
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eigensoft
+latest:
+  7.2.1--h2469040_5: sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e
+tags:
+  7.2.1--h2469040_5: sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e
+docker: quay.io/biocontainers/eigensoft
+aliases:
+  baseprog: /usr/local/bin/baseprog
+  convertf: /usr/local/bin/convertf
+  eigenstrat: /usr/local/bin/eigenstrat
+  eigenstratQTL: /usr/local/bin/eigenstratQTL
+  mergeit: /usr/local/bin/mergeit
+  pca: /usr/local/bin/pca
+  pcatoy: /usr/local/bin/pcatoy
+  smarteigenstrat: /usr/local/bin/smarteigenstrat
+  smartpca: /usr/local/bin/smartpca
+  smartrel: /usr/local/bin/smartrel
+  smshrink: /usr/local/bin/smshrink
+  twstats: /usr/local/bin/twstats

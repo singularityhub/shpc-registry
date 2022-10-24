@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fadapa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fadapa
+latest:
+  0.3.1--pyh864c0ab_2: sha256:ed773bae5fab99b1c4479850725e8c9217c007848ce658f5cf9d381cab565661
+tags:
+  0.3.1--pyh864c0ab_2: sha256:ed773bae5fab99b1c4479850725e8c9217c007848ce658f5cf9d381cab565661
+docker: quay.io/biocontainers/fadapa

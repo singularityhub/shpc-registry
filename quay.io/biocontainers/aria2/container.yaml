@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/aria2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aria2
+latest:
+  1.36.0: sha256:acb0c86334ea0b2ba9454cc1b4d08f30c5a6ec7852159fd28fe34698154798d6
+tags:
+  1.36.0: sha256:acb0c86334ea0b2ba9454cc1b4d08f30c5a6ec7852159fd28fe34698154798d6
+docker: quay.io/biocontainers/aria2
+aliases:
+  aria2c: /usr/local/bin/aria2c

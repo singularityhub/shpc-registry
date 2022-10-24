@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ragene11stprobeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ragene11stprobeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:faadddb19dfe396e53ca089a08cec8158e6a2b3a8c7885279f120e813fc61776
+tags:
+  8.8.0--r41hdfd78af_1: sha256:faadddb19dfe396e53ca089a08cec8158e6a2b3a8c7885279f120e813fc61776
+docker: quay.io/biocontainers/bioconductor-ragene11stprobeset.db
+aliases:
+  .bioconductor-ragene11stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-ragene11stprobeset.db-post-link.sh
+  .bioconductor-ragene11stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene11stprobeset.db-pre-unlink.sh

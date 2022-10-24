@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-kimod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-kimod
+latest:
+  1.8.0--r351_0: sha256:dec288df1090f703076c9ce884eae19d07d6ccec4cd96fd7c8af87ecf151d272
+tags:
+  1.8.0--r351_0: sha256:dec288df1090f703076c9ce884eae19d07d6ccec4cd96fd7c8af87ecf151d272
+docker: quay.io/biocontainers/bioconductor-kimod

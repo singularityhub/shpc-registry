@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/sina
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sina
+latest:
+  1.7.2--h9aa86b4_0: sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
+tags:
+  1.7.2--h9aa86b4_0: sha256:5f56be1b79c498c843f01ab601983ad179d548dfc05e9573187eed9c55c5490c
+docker: quay.io/biocontainers/sina
+aliases:
+  arb_2_ascii: /usr/local/bin/arb_2_ascii
+  arb_2_bin: /usr/local/bin/arb_2_bin
+  arb_a2ps: /usr/local/bin/arb_a2ps
+  arb_consensus_tree: /usr/local/bin/arb_consensus_tree
+  arb_convert_aln: /usr/local/bin/arb_convert_aln
+  arb_db_server: /usr/local/bin/arb_db_server
+  arb_dnarates: /usr/local/bin/arb_dnarates
+  arb_export_rates: /usr/local/bin/arb_export_rates
+  arb_export_tree: /usr/local/bin/arb_export_tree
+  arb_flush_mem: /usr/local/bin/arb_flush_mem
+  arb_gene_probe: /usr/local/bin/arb_gene_probe
+  arb_help2xml: /usr/local/bin/arb_help2xml
+  arb_message: /usr/local/bin/arb_message
+  arb_naligner: /usr/local/bin/arb_naligner
+  arb_name_server: /usr/local/bin/arb_name_server
+  arb_notify: /usr/local/bin/arb_notify
+  arb_primer: /usr/local/bin/arb_primer
+  arb_probe: /usr/local/bin/arb_probe
+  arb_proto_2_xsub: /usr/local/bin/arb_proto_2_xsub
+  arb_pt_server: /usr/local/bin/arb_pt_server
+  arb_read_tree: /usr/local/bin/arb_read_tree
+  arb_readseq: /usr/local/bin/arb_readseq
+  arb_replace: /usr/local/bin/arb_replace
+  arb_rnacma: /usr/local/bin/arb_rnacma
+  arb_treegen: /usr/local/bin/arb_treegen
+  sina: /usr/local/bin/sina

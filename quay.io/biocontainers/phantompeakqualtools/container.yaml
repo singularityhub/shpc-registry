@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/phantompeakqualtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phantompeakqualtools
+latest:
+  1.2.2--hdfd78af_1: sha256:ad08ef789f67575aa3bb0cca5970dbddace8180121b0205da8e2da5dd1ee5846
+tags:
+  1.2.2--hdfd78af_1: sha256:ad08ef789f67575aa3bb0cca5970dbddace8180121b0205da8e2da5dd1ee5846
+docker: quay.io/biocontainers/phantompeakqualtools
+aliases:
+  run_spp.R: /usr/local/bin/run_spp.R

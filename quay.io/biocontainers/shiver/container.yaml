@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/shiver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shiver
+latest:
+  1.3.5--py35_0: sha256:665d05461b9b3a9d41235a0b45b13109822738ee71dd6a309ba307e657105e56
+tags:
+  1.3.5--py35_0: sha256:665d05461b9b3a9d41235a0b45b13109822738ee71dd6a309ba307e657105e56
+docker: quay.io/biocontainers/shiver
+aliases:
+  basqcol: /usr/local/bin/basqcol
+  fetchseq: /usr/local/bin/fetchseq
+  mixreads: /usr/local/bin/mixreads
+  readstats: /usr/local/bin/readstats
+  shiver_align_contigs.sh: /usr/local/bin/shiver_align_contigs.sh
+  shiver_config.sh: /usr/local/bin/shiver_config.sh
+  shiver_full_auto.sh: /usr/local/bin/shiver_full_auto.sh
+  shiver_funcs.sh: /usr/local/bin/shiver_funcs.sh
+  shiver_init.sh: /usr/local/bin/shiver_init.sh
+  shiver_map_reads.sh: /usr/local/bin/shiver_map_reads.sh
+  shiver_reprocess_bam.sh: /usr/local/bin/shiver_reprocess_bam.sh
+  simqual: /usr/local/bin/simqual
+  simread: /usr/local/bin/simread
+  smalt: /usr/local/bin/smalt
+  splitmates: /usr/local/bin/splitmates
+  splitreads: /usr/local/bin/splitreads
+  trunkreads: /usr/local/bin/trunkreads

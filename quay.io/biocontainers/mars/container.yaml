@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mars
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mars
+latest:
+  1.2.4--pyhdfd78af_0: sha256:e42b55e9d6f677e881fe31bafd4dba176b5fe9c178192121b93265662f991d46
+tags:
+  1.2.4--pyhdfd78af_0: sha256:e42b55e9d6f677e881fe31bafd4dba176b5fe9c178192121b93265662f991d46
+docker: quay.io/biocontainers/mars
+aliases:
+  MARS_step1: /usr/local/bin/MARS_step1
+  MARS_step2: /usr/local/bin/MARS_step2

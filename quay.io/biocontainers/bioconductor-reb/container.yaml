@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-reb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-reb
+latest:
+  1.65.0--r40h037d062_0: sha256:8869550f1a7ad395722d95a9199f53f750ec44d2c329929a977d4b7f7a33f7a2
+tags:
+  1.65.0--r40h037d062_0: sha256:8869550f1a7ad395722d95a9199f53f750ec44d2c329929a977d4b7f7a33f7a2
+docker: quay.io/biocontainers/bioconductor-reb

@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/desman
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for desman
+latest:
+  2.1--py39h00cc477_7: sha256:75fbcb4f3d1b8939351c4b8101ad45851899e6cda78a2d0412c399f59b84b306
+tags:
+  2.1--py39h00cc477_7: sha256:75fbcb4f3d1b8939351c4b8101ad45851899e6cda78a2d0412c399f59b84b306
+docker: quay.io/biocontainers/desman
+aliases:
+  AddLengths.pl: /usr/local/bin/AddLengths.pl
+  CalcDelta.py: /usr/local/bin/CalcDelta.py
+  CalcGeneCov.py: /usr/local/bin/CalcGeneCov.py
+  ClassifyContigNR.py: /usr/local/bin/ClassifyContigNR.py
+  ClusterMeanCov.py: /usr/local/bin/ClusterMeanCov.py
+  Collate.pl: /usr/local/bin/Collate.pl
+  CombineTau.pl: /usr/local/bin/CombineTau.pl
+  CompAssign.py: /usr/local/bin/CompAssign.py
+  ExtractCogs.py: /usr/local/bin/ExtractCogs.py
+  ExtractCountFreqGenes.py: /usr/local/bin/ExtractCountFreqGenes.py
+  ExtractCountFreqP.pl: /usr/local/bin/ExtractCountFreqP.pl
+  ExtractGenes.py: /usr/local/bin/ExtractGenes.py
+  Filter.pl: /usr/local/bin/Filter.pl
+  GeneAssign.py: /usr/local/bin/GeneAssign.py
+  GetVariants.py: /usr/local/bin/GetVariants.py
+  GetVariantsCore.py: /usr/local/bin/GetVariantsCore.py
+  GetVariantsEta.py: /usr/local/bin/GetVariantsEta.py
+  LabelSMap.pl: /usr/local/bin/LabelSMap.pl
+  LengthFilter.py: /usr/local/bin/LengthFilter.py
+  Lengths.py: /usr/local/bin/Lengths.py
+  MapCogBack.pl: /usr/local/bin/MapCogBack.pl
+  MapGHeader.pl: /usr/local/bin/MapGHeader.pl
+  NormGeneCounts.py: /usr/local/bin/NormGeneCounts.py
+  PlotDev.R: /usr/local/bin/PlotDev.R
+  PlotLL.R: /usr/local/bin/PlotLL.R
+  ReverseStrand.pl: /usr/local/bin/ReverseStrand.pl
+  Select.sh: /usr/local/bin/Select.sh
+  SelectClusterCogs.pl: /usr/local/bin/SelectClusterCogs.pl
+  SelectContigsPos.pl: /usr/local/bin/SelectContigsPos.pl
+  SelectGene.py: /usr/local/bin/SelectGene.py
+  SplitClusters.pl: /usr/local/bin/SplitClusters.pl
+  TauFasta.pl: /usr/local/bin/TauFasta.pl
+  Variant_Filter.py: /usr/local/bin/Variant_Filter.py
+  contig_read_count_per_genome.py: /usr/local/bin/contig_read_count_per_genome.py
+  desman: /usr/local/bin/desman
+  desmanflow.nf: /usr/local/bin/desmanflow.nf
+  extract_species_contigs.py: /usr/local/bin/extract_species_contigs.py
+  gene_read_count_per_genome.py: /usr/local/bin/gene_read_count_per_genome.py
+  get_elite_range.py: /usr/local/bin/get_elite_range.py
+  pileups_to_freq_table.py: /usr/local/bin/pileups_to_freq_table.py
+  resolvenhap.py: /usr/local/bin/resolvenhap.py
+  runDesman.sh: /usr/local/bin/runDesman.sh
+  taucomp.py: /usr/local/bin/taucomp.py
+  validateSNP.py: /usr/local/bin/validateSNP.py
+  validateSNP2.py: /usr/local/bin/validateSNP2.py
+  validateSNP3.py: /usr/local/bin/validateSNP3.py
+  write_strain_fasta.py: /usr/local/bin/write_strain_fasta.py

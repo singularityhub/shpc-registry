@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lobstahs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lobstahs
+latest:
+  1.8.1--r351_0: sha256:6a51e5e30e29cd7343ba27f1e654ce50bcd5cff9ceab02dccbbe469ca782cd46
+tags:
+  1.8.1--r351_0: sha256:6a51e5e30e29cd7343ba27f1e654ce50bcd5cff9ceab02dccbbe469ca782cd46
+docker: quay.io/biocontainers/bioconductor-lobstahs

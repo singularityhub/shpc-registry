@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xnastring
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xnastring
+latest:
+  1.2.2--r41hc247a5b_1: sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e
+tags:
+  1.2.2--r41hc247a5b_1: sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e
+docker: quay.io/biocontainers/bioconductor-xnastring

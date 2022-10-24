@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pyani
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyani
+latest:
+  0.2.9--pyh24bf2e0_0: sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f
+tags:
+  0.2.9--pyh24bf2e0_0: sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f
+docker: quay.io/biocontainers/pyani
+aliases:
+  average_nucleotide_identity.py: /usr/local/bin/average_nucleotide_identity.py
+  delta_filter_wrapper.py: /usr/local/bin/delta_filter_wrapper.py
+  genbank_get_genomes_by_taxon.py: /usr/local/bin/genbank_get_genomes_by_taxon.py

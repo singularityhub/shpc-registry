@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-shaman
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-shaman
+latest:
+  2.0--r41hdfd78af_4: sha256:62cea04adac401b2f54635cde6ae6434637fc7c2c87eab04a5a02614f9dea757
+tags:
+  2.0--r41hdfd78af_4: sha256:62cea04adac401b2f54635cde6ae6434637fc7c2c87eab04a5a02614f9dea757
+docker: quay.io/biocontainers/r-shaman

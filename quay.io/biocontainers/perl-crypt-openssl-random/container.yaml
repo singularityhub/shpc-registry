@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-crypt-openssl-random
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-crypt-openssl-random
+latest:
+  0.11--pl5321h1f4ba0c_3: sha256:4be3ecad1b8612df912e3c28bf4a9baa632b859f73cd8f2993f4aaad7cef224b
+tags:
+  0.11--pl5321h1f4ba0c_3: sha256:4be3ecad1b8612df912e3c28bf4a9baa632b859f73cd8f2993f4aaad7cef224b
+docker: quay.io/biocontainers/perl-crypt-openssl-random

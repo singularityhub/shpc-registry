@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lpnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lpnet
+latest:
+  2.26.0--r41hdfd78af_0: sha256:7cd5422b6da8de307dafe7f210ee5f1b0f48e3982f403a6f27ddb442396800b2
+tags:
+  2.26.0--r41hdfd78af_0: sha256:7cd5422b6da8de307dafe7f210ee5f1b0f48e3982f403a6f27ddb442396800b2
+docker: quay.io/biocontainers/bioconductor-lpnet

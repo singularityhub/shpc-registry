@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-systempipeshiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-systempipeshiny
+latest:
+  1.4.0--r41hdfd78af_0: sha256:2a8c4f17594b3d5d30993d4f26135613c7946609fefbaff128ede574211ea202
+tags:
+  1.4.0--r41hdfd78af_0: sha256:2a8c4f17594b3d5d30993d4f26135613c7946609fefbaff128ede574211ea202
+docker: quay.io/biocontainers/bioconductor-systempipeshiny

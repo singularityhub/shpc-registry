@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mwastools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mwastools
+latest:
+  1.8.0--r36_1: sha256:91431b41a094dbe342475014287c208e6ee4fe05874ccae6ca085809dc2b1366
+tags:
+  1.8.0--r36_1: sha256:91431b41a094dbe342475014287c208e6ee4fe05874ccae6ca085809dc2b1366
+docker: quay.io/biocontainers/bioconductor-mwastools

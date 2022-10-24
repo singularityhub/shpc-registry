@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ramclustr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ramclustr
+latest:
+  1.2.4--r41h3342da4_0: sha256:c593b557fc54763b6e5fd35b2e7c9f7697c887ae2fac0bd45ad758393417349c
+tags:
+  1.2.4--r41h3342da4_0: sha256:c593b557fc54763b6e5fd35b2e7c9f7697c887ae2fac0bd45ad758393417349c
+docker: quay.io/biocontainers/r-ramclustr

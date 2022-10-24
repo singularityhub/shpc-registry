@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/piemmer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for piemmer
+latest:
+  1.0.5--pyhfa5458b_0: sha256:bb465cd92d79199a1ec80ca6ddca08f2d8eea030d6832eef384abfedb0a2c052
+tags:
+  1.0.5--pyhfa5458b_0: sha256:bb465cd92d79199a1ec80ca6ddca08f2d8eea030d6832eef384abfedb0a2c052
+docker: quay.io/biocontainers/piemmer

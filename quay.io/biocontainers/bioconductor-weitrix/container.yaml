@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-weitrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-weitrix
+latest:
+  1.6.0--r41hdfd78af_0: sha256:c5989f3483caadb7bda5a89e558444c312ba72cb45b6e6791c358ecb013be781
+tags:
+  1.6.0--r41hdfd78af_0: sha256:c5989f3483caadb7bda5a89e558444c312ba72cb45b6e6791c358ecb013be781
+docker: quay.io/biocontainers/bioconductor-weitrix

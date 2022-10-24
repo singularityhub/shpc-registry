@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit
+latest:
+  v0.09--pl526_0: sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425
+tags:
+  v0.09--pl526_0: sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425
+docker: quay.io/biocontainers/perl-bio-rna-rnaalisplit
+aliases:
+  FUNCS.pm: /usr/local/bin/FUNCS.pm
+  MetamakeDemos.pl: /usr/local/bin/MetamakeDemos.pl
+  PDBFUNCS.pm: /usr/local/bin/PDBFUNCS.pm
+  R-scape: /usr/local/bin/R-scape
+  R-scape-sim: /usr/local/bin/R-scape-sim
+  R-scape-sim-nobps: /usr/local/bin/R-scape-sim-nobps
+  R-view: /usr/local/bin/R-view
+  RNAalisplit.pl: /usr/local/bin/RNAalisplit.pl
+  RNAz: /usr/local/bin/RNAz
+  SelectSubFamilyFromStockholm.pl: /usr/local/bin/SelectSubFamilyFromStockholm.pl
+  Stockholm.pm: /usr/local/bin/Stockholm.pm
+  appcov: /usr/local/bin/appcov
+  eval_alignment.pl: /usr/local/bin/eval_alignment.pl
+  msafilter: /usr/local/bin/msafilter
+  pdb_parse.pl: /usr/local/bin/pdb_parse.pl
+  r2r: /usr/local/bin/r2r
+  r2r_msa_comply.pl: /usr/local/bin/r2r_msa_comply.pl
+  rnazAnnotate.pl: /usr/local/bin/rnazAnnotate.pl
+  rnazBEDsort.pl: /usr/local/bin/rnazBEDsort.pl
+  rnazBEDstats.pl: /usr/local/bin/rnazBEDstats.pl
+  rnazBlast.pl: /usr/local/bin/rnazBlast.pl
+  rnazCluster.pl: /usr/local/bin/rnazCluster.pl
+  rnazFilter.pl: /usr/local/bin/rnazFilter.pl
+  rnazIndex.pl: /usr/local/bin/rnazIndex.pl
+  rnazMAF2BED.pl: /usr/local/bin/rnazMAF2BED.pl
+  rnazRandomizeAln.pl: /usr/local/bin/rnazRandomizeAln.pl
+  rnazSelectSeqs.pl: /usr/local/bin/rnazSelectSeqs.pl
+  rnazSort.pl: /usr/local/bin/rnazSort.pl
+  rnazWindow.pl: /usr/local/bin/rnazWindow.pl

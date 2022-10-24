@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-graphics-colornames
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-graphics-colornames
+latest:
+  2.11--pl5321hdfd78af_1: sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492
+tags:
+  2.11--pl5321hdfd78af_1: sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492
+docker: quay.io/biocontainers/perl-graphics-colornames

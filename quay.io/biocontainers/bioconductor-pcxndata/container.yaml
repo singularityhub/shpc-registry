@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pcxndata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcxndata
+latest:
+  2.8.0--r36_0: sha256:816352145f8c11c37242a3194b77924c9668940be6f2737a9021cb5c0d83a004
+tags:
+  2.8.0--r36_0: sha256:816352145f8c11c37242a3194b77924c9668940be6f2737a9021cb5c0d83a004
+docker: quay.io/biocontainers/bioconductor-pcxndata
+aliases:
+  .bioconductor-pcxndata-post-link.sh: /usr/local/bin/.bioconductor-pcxndata-post-link.sh
+  .bioconductor-pcxndata-pre-unlink.sh: /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh

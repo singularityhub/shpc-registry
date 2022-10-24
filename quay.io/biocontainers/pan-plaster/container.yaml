@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pan-plaster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pan-plaster
+latest:
+  1.2.1--hdfd78af_0: sha256:fed6778ea62c415a6d01fff696f3f30485fbb4ff1af0e07d70af15b73b47a375
+tags:
+  1.2.1--hdfd78af_0: sha256:fed6778ea62c415a6d01fff696f3f30485fbb4ff1af0e07d70af15b73b47a375
+docker: quay.io/biocontainers/pan-plaster
+aliases:
+  plaster: /usr/local/bin/plaster

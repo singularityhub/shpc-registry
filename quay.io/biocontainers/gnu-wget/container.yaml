@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gnu-wget
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gnu-wget
+latest:
+  1.18--h60da905_7: sha256:578b143b3a2a7377605f726d49336b32617ec6d010f19bb39a885a156617d9ab
+tags:
+  1.18--h60da905_7: sha256:578b143b3a2a7377605f726d49336b32617ec6d010f19bb39a885a156617d9ab
+docker: quay.io/biocontainers/gnu-wget

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-idpmisc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-idpmisc
+latest:
+  1.1.17--r3.3.1_0: sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74
+tags:
+  1.1.17--r3.3.1_0: sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74
+docker: quay.io/biocontainers/r-idpmisc

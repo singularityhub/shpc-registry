@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pth2o2lipids
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pth2o2lipids
+latest:
+  1.8.0--r351_0: sha256:17ae112b6e99c3d686a1e12495545fbf300b1e88f2f2fd5c42f04796d8a0a679
+tags:
+  1.8.0--r351_0: sha256:17ae112b6e99c3d686a1e12495545fbf300b1e88f2f2fd5c42f04796d8a0a679
+docker: quay.io/biocontainers/bioconductor-pth2o2lipids
+aliases:
+  .bioconductor-pth2o2lipids-post-link.sh: /usr/local/bin/.bioconductor-pth2o2lipids-post-link.sh
+  .bioconductor-pth2o2lipids-pre-unlink.sh: /usr/local/bin/.bioconductor-pth2o2lipids-pre-unlink.sh

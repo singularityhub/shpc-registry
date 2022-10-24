@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-net-ssleay
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-net-ssleay
+latest:
+  1.92--pl5321h0e0aaa8_1: sha256:23f63262ef015dc28d56adf3fcae0531ac9984cab634f6bff57a02d583dbf1f5
+tags:
+  1.92--pl5321h0e0aaa8_1: sha256:23f63262ef015dc28d56adf3fcae0531ac9984cab634f6bff57a02d583dbf1f5
+docker: quay.io/biocontainers/perl-net-ssleay

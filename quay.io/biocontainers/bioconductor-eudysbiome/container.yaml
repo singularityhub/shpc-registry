@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-eudysbiome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-eudysbiome
+latest:
+  1.8.0--r3.4.1_0: sha256:fa4a3cd198ec3982251894fe99e5543c74924f92f9db23b0b829c0735916dbb5
+tags:
+  1.8.0--r3.4.1_0: sha256:fa4a3cd198ec3982251894fe99e5543c74924f92f9db23b0b829c0735916dbb5
+docker: quay.io/biocontainers/bioconductor-eudysbiome

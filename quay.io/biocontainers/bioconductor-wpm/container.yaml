@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-wpm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-wpm
+latest:
+  1.4.0--r41hdfd78af_0: sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da
+tags:
+  1.4.0--r41hdfd78af_0: sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da
+docker: quay.io/biocontainers/bioconductor-wpm

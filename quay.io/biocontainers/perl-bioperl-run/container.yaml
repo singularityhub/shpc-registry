@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bioperl-run
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bioperl-run
+latest:
+  1.007003--pl5321hdfd78af_0: sha256:1c1ac1a0b102f159ab93a9566b7f8f92c3d6832e04b064929c92218e9a64b27c
+tags:
+  1.007003--pl5321hdfd78af_0: sha256:1c1ac1a0b102f159ab93a9566b7f8f92c3d6832e04b064929c92218e9a64b27c
+docker: quay.io/biocontainers/perl-bioperl-run

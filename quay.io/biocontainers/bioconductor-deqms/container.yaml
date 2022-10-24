@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-deqms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-deqms
+latest:
+  1.8.0--r40hdfd78af_1: sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9
+tags:
+  1.8.0--r40hdfd78af_1: sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9
+docker: quay.io/biocontainers/bioconductor-deqms

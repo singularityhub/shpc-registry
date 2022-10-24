@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/seq-seq-pan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seq-seq-pan
+latest:
+  1.1.0--py_1: sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
+tags:
+  1.1.0--py_1: sha256:c98387c8641568767ec544db4174415b9da26ebfbaddeaf2d692aee2ee3b19a8
+docker: quay.io/biocontainers/seq-seq-pan
+aliases:
+  addUnalignedIntervals: /usr/local/bin/addUnalignedIntervals
+  alignmentProjector: /usr/local/bin/alignmentProjector
+  backbone_global_to_local: /usr/local/bin/backbone_global_to_local
+  bbAnalyze: /usr/local/bin/bbAnalyze
+  bbFilter: /usr/local/bin/bbFilter
+  coordinateTranslate: /usr/local/bin/coordinateTranslate
+  createBackboneMFA: /usr/local/bin/createBackboneMFA
+  extractBCITrees: /usr/local/bin/extractBCITrees
+  faToNib: /usr/local/bin/faToNib
+  getAlignmentWindows: /usr/local/bin/getAlignmentWindows
+  getOrthologList: /usr/local/bin/getOrthologList
+  gfClient: /usr/local/bin/gfClient
+  gfServer: /usr/local/bin/gfServer
+  makeBadgerMatrix: /usr/local/bin/makeBadgerMatrix
+  mauveAligner: /usr/local/bin/mauveAligner
+  mauveStatic: /usr/local/bin/mauveStatic
+  mauveToXMFA: /usr/local/bin/mauveToXMFA
+  mfa2xmfa: /usr/local/bin/mfa2xmfa
+  nibFrag: /usr/local/bin/nibFrag
+  progressiveMauve: /usr/local/bin/progressiveMauve
+  progressiveMauveStatic: /usr/local/bin/progressiveMauveStatic
+  projectAndStrip: /usr/local/bin/projectAndStrip
+  pslPretty: /usr/local/bin/pslPretty
+  pslReps: /usr/local/bin/pslReps
+  pslSort: /usr/local/bin/pslSort
+  randomGeneSample: /usr/local/bin/randomGeneSample
+  repeatoire: /usr/local/bin/repeatoire
+  scoreAlignment: /usr/local/bin/scoreAlignment
+  seq-seq-pan: /usr/local/bin/seq-seq-pan
+  seq-seq-pan-consensus: /usr/local/bin/seq-seq-pan-consensus
+  seq-seq-pan-genomedescription: /usr/local/bin/seq-seq-pan-genomedescription
+  seq-seq-pan-wga: /usr/local/bin/seq-seq-pan-wga
+  stripGapColumns: /usr/local/bin/stripGapColumns
+  stripSubsetLCBs: /usr/local/bin/stripSubsetLCBs
+  toGrimmFormat: /usr/local/bin/toGrimmFormat
+  toMultiFastA: /usr/local/bin/toMultiFastA
+  toRawSequence: /usr/local/bin/toRawSequence
+  uniqueMerCount: /usr/local/bin/uniqueMerCount
+  uniquifyTrees: /usr/local/bin/uniquifyTrees
+  xmfa2maf: /usr/local/bin/xmfa2maf

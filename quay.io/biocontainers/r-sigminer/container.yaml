@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sigminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sigminer
+latest:
+  2.1.7--r41hecf12ef_1: sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366
+tags:
+  2.1.7--r41hecf12ef_1: sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366
+docker: quay.io/biocontainers/r-sigminer

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-deconstructsigs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-deconstructsigs
+latest:
+  1.9.0--r41hdfd78af_1: sha256:1b0012956d491eed0690488b22dd4eadf7100e9eabb8b7067d99b32caff53bca
+tags:
+  1.9.0--r41hdfd78af_1: sha256:1b0012956d491eed0690488b22dd4eadf7100e9eabb8b7067d99b32caff53bca
+docker: quay.io/biocontainers/r-deconstructsigs

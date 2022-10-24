@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/targqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for targqc
+latest:
+  1.8.1--pyh5ca1d4c_1: sha256:9ce968510525b18152e6826cca6d5b2d50712a7747119a0175b4ef75a29d66f5
+tags:
+  1.8.1--pyh5ca1d4c_1: sha256:9ce968510525b18152e6826cca6d5b2d50712a7747119a0175b4ef75a29d66f5
+docker: quay.io/biocontainers/targqc
+aliases:
+  annotate_bed.py: /usr/local/bin/annotate_bed.py
+  cols: /usr/local/bin/cols
+  qualimap: /usr/local/bin/qualimap
+  tabutils: /usr/local/bin/tabutils
+  targqc: /usr/local/bin/targqc
+  tsv: /usr/local/bin/tsv

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/retry_decorator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for retry_decorator
+latest:
+  1.1.1--py_0: sha256:ccfefa25f264a6f57b55d624255fce83cf07f47ac5e6facc58efe82c17afde99
+tags:
+  1.1.1--py_0: sha256:ccfefa25f264a6f57b55d624255fce83cf07f47ac5e6facc58efe82c17afde99
+docker: quay.io/biocontainers/retry_decorator

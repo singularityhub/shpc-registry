@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanomod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanomod
+latest:
+  0.2.2--py_0: sha256:551e6aab5cf1b0815e02cc60f16bd911ae8c1b025d8c3bc3b91db73e496b2e61
+tags:
+  0.2.2--py_0: sha256:551e6aab5cf1b0815e02cc60f16bd911ae8c1b025d8c3bc3b91db73e496b2e61
+docker: quay.io/biocontainers/nanomod
+aliases:
+  NanoMod.py: /usr/local/bin/NanoMod.py

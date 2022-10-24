@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mofapy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mofapy
+latest:
+  1.2--py_1: sha256:74695ffcfcee3996643f02c7372f6820d38e551234fac9adc6fc5e8b0af1eeea
+tags:
+  1.2--py_1: sha256:74695ffcfcee3996643f02c7372f6820d38e551234fac9adc6fc5e8b0af1eeea
+docker: quay.io/biocontainers/mofapy

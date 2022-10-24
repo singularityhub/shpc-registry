@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/homoeditdistance
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for homoeditdistance
+latest:
+  0.0.1--py_0: sha256:6c01c1d040eb249afbe168b95149d5c9a889c4af6aba581d0882402c5ee36583
+tags:
+  0.0.1--py_0: sha256:6c01c1d040eb249afbe168b95149d5c9a889c4af6aba581d0882402c5ee36583
+docker: quay.io/biocontainers/homoeditdistance
+aliases:
+  hed: /usr/local/bin/hed

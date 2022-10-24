@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scmeth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scmeth
+latest:
+  1.8.0--r40_0: sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06
+tags:
+  1.8.0--r40_0: sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06
+docker: quay.io/biocontainers/bioconductor-scmeth

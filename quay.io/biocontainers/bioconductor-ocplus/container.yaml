@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ocplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ocplus
+latest:
+  1.68.0--r41hdfd78af_0: sha256:4bded9f427e95d51c563651210c79304bc9ccd6e5f3da3615e27c01b9257913f
+tags:
+  1.68.0--r41hdfd78af_0: sha256:4bded9f427e95d51c563651210c79304bc9ccd6e5f3da3615e27c01b9257913f
+docker: quay.io/biocontainers/bioconductor-ocplus

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sequenza
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sequenza
+latest:
+  3.0.0--r41h3342da4_4: sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0
+tags:
+  3.0.0--r41h3342da4_4: sha256:7d1f967f7a5739b45c78fdf485c1776f248558127087ee360293ec593450f6c0
+docker: quay.io/biocontainers/r-sequenza

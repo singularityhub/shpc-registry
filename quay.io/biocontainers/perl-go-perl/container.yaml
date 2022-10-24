@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/perl-go-perl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-go-perl
+latest:
+  0.15--pl5321hdfd78af_4: sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
+tags:
+  0.15--pl5321hdfd78af_4: sha256:a26833552505f2ab397197787908f1a13905eebf9082d3fc20316670bcac0eaf
+docker: quay.io/biocontainers/perl-go-perl
+aliases:
+  go-apply-xslt: /usr/local/bin/go-apply-xslt
+  go-dag-summary.pl: /usr/local/bin/go-dag-summary.pl
+  go-export-graph.pl: /usr/local/bin/go-export-graph.pl
+  go-export-prolog.pl: /usr/local/bin/go-export-prolog.pl
+  go-filter-subset.pl: /usr/local/bin/go-filter-subset.pl
+  go-show-assocs-by-node.pl: /usr/local/bin/go-show-assocs-by-node.pl
+  go-show-paths-to-root.pl: /usr/local/bin/go-show-paths-to-root.pl
+  go2chadoxml: /usr/local/bin/go2chadoxml
+  go2error_report: /usr/local/bin/go2error_report
+  go2fmt.pl: /usr/local/bin/go2fmt.pl
+  go2godb_prestore: /usr/local/bin/go2godb_prestore
+  go2obo: /usr/local/bin/go2obo
+  go2obo_html: /usr/local/bin/go2obo_html
+  go2obo_text: /usr/local/bin/go2obo_text
+  go2obo_xml: /usr/local/bin/go2obo_xml
+  go2owl: /usr/local/bin/go2owl
+  go2pathlist: /usr/local/bin/go2pathlist
+  go2prolog: /usr/local/bin/go2prolog
+  go2rdf: /usr/local/bin/go2rdf
+  go2rdfxml: /usr/local/bin/go2rdfxml
+  go2summary: /usr/local/bin/go2summary
+  go2sxpr: /usr/local/bin/go2sxpr
+  go2tbl: /usr/local/bin/go2tbl
+  go2text_html: /usr/local/bin/go2text_html
+  go2xml: /usr/local/bin/go2xml
+  map2slim: /usr/local/bin/map2slim

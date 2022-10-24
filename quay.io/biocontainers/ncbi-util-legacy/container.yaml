@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/ncbi-util-legacy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncbi-util-legacy
+latest:
+  6.1--h0e27e84_3: sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
+tags:
+  6.1--h0e27e84_3: sha256:a5ccabe573691d689e165ff30e999de79bf58653097c19bcaf83540f3efbcf0b
+docker: quay.io/biocontainers/ncbi-util-legacy
+aliases:
+  Nentrez: /usr/local/bin/Nentrez
+  Psequin: /usr/local/bin/Psequin
+  asn2ff: /usr/local/bin/asn2ff
+  asn2gb: /usr/local/bin/asn2gb
+  asn2idx: /usr/local/bin/asn2idx
+  asndhuff: /usr/local/bin/asndhuff
+  asntool: /usr/local/bin/asntool
+  blastcl3: /usr/local/bin/blastcl3
+  cdscan: /usr/local/bin/cdscan
+  checksub: /usr/local/bin/checksub
+  ddv: /usr/local/bin/ddv
+  debruijn: /usr/local/bin/debruijn
+  demo_regexp: /usr/local/bin/demo_regexp
+  demo_regexp_grep: /usr/local/bin/demo_regexp_grep
+  dosimple: /usr/local/bin/dosimple
+  entrcmd: /usr/local/bin/entrcmd
+  entrez2: /usr/local/bin/entrez2
+  errhdr: /usr/local/bin/errhdr
+  fa2htgs: /usr/local/bin/fa2htgs
+  findspl: /usr/local/bin/findspl
+  gene2xml: /usr/local/bin/gene2xml
+  getmesh: /usr/local/bin/getmesh
+  getpub: /usr/local/bin/getpub
+  gil2bin: /usr/local/bin/gil2bin
+  idfetch: /usr/local/bin/idfetch
+  indexpub: /usr/local/bin/indexpub
+  makeset: /usr/local/bin/makeset
+  mwm: /usr/local/bin/mwm
+  ncbisort: /usr/local/bin/ncbisort
+  sbtedit: /usr/local/bin/sbtedit
+  seqtest: /usr/local/bin/seqtest
+  tcsh: /usr/local/bin/tcsh
+  test_regexp: /usr/local/bin/test_regexp
+  testcore: /usr/local/bin/testcore
+  testobj: /usr/local/bin/testobj
+  testval: /usr/local/bin/testval
+  udv: /usr/local/bin/udv
+  uil: /usr/local/bin/uil
+  vecscreen: /usr/local/bin/vecscreen
+  xmbind: /usr/local/bin/xmbind

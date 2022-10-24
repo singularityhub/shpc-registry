@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/twobitreader
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for twobitreader
+latest:
+  3.1.7--pyh864c0ab_1: sha256:af1fc976185bce013ec0876f299fa7072e1a892e4ee80293949985cfbc9dbe03
+tags:
+  3.1.7--pyh864c0ab_1: sha256:af1fc976185bce013ec0876f299fa7072e1a892e4ee80293949985cfbc9dbe03
+docker: quay.io/biocontainers/twobitreader

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/spotyping3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spotyping3
+latest:
+  3.0--py_0: sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e
+tags:
+  3.0--py_0: sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e
+docker: quay.io/biocontainers/spotyping3
+aliases:
+  SpoTyping.py: /usr/local/bin/SpoTyping.py
+  SpoTyping_plot.r: /usr/local/bin/SpoTyping_plot.r

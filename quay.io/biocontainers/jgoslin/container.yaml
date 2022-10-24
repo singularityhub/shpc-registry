@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jgoslin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jgoslin
+latest:
+  2.0.2--hdfd78af_0: sha256:69596708ec89864bdf76c57dc2e82f878debe63c3debdd5fd573e5263d01c0d7
+tags:
+  2.0.2--hdfd78af_0: sha256:69596708ec89864bdf76c57dc2e82f878debe63c3debdd5fd573e5263d01c0d7
+docker: quay.io/biocontainers/jgoslin
+aliases:
+  jgoslin: /usr/local/bin/jgoslin

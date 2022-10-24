@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-regparallel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-regparallel
+latest:
+  1.8.0--r40hdfd78af_1: sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82
+tags:
+  1.8.0--r40hdfd78af_1: sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82
+docker: quay.io/biocontainers/bioconductor-regparallel
+aliases:
+  .bioconductor-regparallel-post-link.sh: /usr/local/bin/.bioconductor-regparallel-post-link.sh
+  .bioconductor-regparallel-pre-unlink.sh: /usr/local/bin/.bioconductor-regparallel-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iterclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iterclust
+latest:
+  1.8.0--r36_0: sha256:d334c5e27a58cb5d44464742251668fc2703ff6ea3fa2d235cc654d04d7cef71
+tags:
+  1.8.0--r36_0: sha256:d334c5e27a58cb5d44464742251668fc2703ff6ea3fa2d235cc654d04d7cef71
+docker: quay.io/biocontainers/bioconductor-iterclust

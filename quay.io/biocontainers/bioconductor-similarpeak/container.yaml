@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-similarpeak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-similarpeak
+latest:
+  1.8.0--r3.3.2_0: sha256:03428e5d4b708cedb12a5f411e75ef529ee6e86e67e76de41ba479ac8dab62b4
+tags:
+  1.8.0--r3.3.2_0: sha256:03428e5d4b708cedb12a5f411e75ef529ee6e86e67e76de41ba479ac8dab62b4
+docker: quay.io/biocontainers/bioconductor-similarpeak

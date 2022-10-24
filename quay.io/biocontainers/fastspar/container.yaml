@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fastspar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastspar
+latest:
+  1.0.0--he5b3f4d_3: sha256:33bd34aa33f7d0b52778ebe9382a19f0c137920135acae647bb87e2dfead9a33
+tags:
+  1.0.0--he5b3f4d_3: sha256:33bd34aa33f7d0b52778ebe9382a19f0c137920135acae647bb87e2dfead9a33
+docker: quay.io/biocontainers/fastspar
+aliases:
+  fastspar: /usr/local/bin/fastspar
+  fastspar_bootstrap: /usr/local/bin/fastspar_bootstrap
+  fastspar_pvalues: /usr/local/bin/fastspar_pvalues
+  fastspar_reduce: /usr/local/bin/fastspar_reduce

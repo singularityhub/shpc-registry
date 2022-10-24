@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyaml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyaml
+latest:
+  15.8.2--py36_0: sha256:f83fecb3e5fcc6733b39294855ccd2f05628faab9bb761ef98f8c460d0fd5d7c
+tags:
+  15.8.2--py36_0: sha256:f83fecb3e5fcc6733b39294855ccd2f05628faab9bb761ef98f8c460d0fd5d7c
+docker: quay.io/biocontainers/pyaml

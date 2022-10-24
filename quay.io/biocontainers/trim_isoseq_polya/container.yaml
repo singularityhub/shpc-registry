@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/trim_isoseq_polya
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trim_isoseq_polya
+latest:
+  0.0.3--h7c8eefc_0: sha256:c26e41e3027585ae697972d4ebb4e3e0dfdcb8d23155d8fcd7a638c49a01567b
+tags:
+  0.0.3--h7c8eefc_0: sha256:c26e41e3027585ae697972d4ebb4e3e0dfdcb8d23155d8fcd7a638c49a01567b
+docker: quay.io/biocontainers/trim_isoseq_polya
+aliases:
+  trim_isoseq_polyA: /usr/local/bin/trim_isoseq_polyA

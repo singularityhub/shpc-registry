@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-vcfarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-vcfarray
+latest:
+  1.8.0--r41hdfd78af_0: sha256:e14e6e6d6c2e49f7bdd88222c7a5d94097b84e2432a22b91f3d69162687e8a13
+tags:
+  1.8.0--r41hdfd78af_0: sha256:e14e6e6d6c2e49f7bdd88222c7a5d94097b84e2432a22b91f3d69162687e8a13
+docker: quay.io/biocontainers/bioconductor-vcfarray

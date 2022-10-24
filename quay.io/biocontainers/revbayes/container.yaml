@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/revbayes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for revbayes
+latest:
+  1.0.13--h105e827_5: sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428
+tags:
+  1.0.13--h105e827_5: sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428
+docker: quay.io/biocontainers/revbayes
+aliases:
+  rb: /usr/local/bin/rb
+  rb-mpi: /usr/local/bin/rb-mpi

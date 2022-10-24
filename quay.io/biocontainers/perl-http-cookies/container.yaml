@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-http-cookies
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-http-cookies
+latest:
+  6.10--pl5321hdfd78af_0: sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5
+tags:
+  6.10--pl5321hdfd78af_0: sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5
+docker: quay.io/biocontainers/perl-http-cookies

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnvranger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnvranger
+latest:
+  1.8.0--r41hdfd78af_0: sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910
+tags:
+  1.8.0--r41hdfd78af_0: sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910
+docker: quay.io/biocontainers/bioconductor-cnvranger

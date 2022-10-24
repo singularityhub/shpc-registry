@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-gdgraph-histogram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-gdgraph-histogram
+latest:
+  1.1--pl5321hdfd78af_4: sha256:31e2cde369817d09e7cde26afedb891bf2cd420e71116404a9cd07ff78099dec
+tags:
+  1.1--pl5321hdfd78af_4: sha256:31e2cde369817d09e7cde26afedb891bf2cd420e71116404a9cd07ff78099dec
+docker: quay.io/biocontainers/perl-gdgraph-histogram

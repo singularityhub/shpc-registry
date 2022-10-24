@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gfold
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gfold
+latest:
+  1.1.4--gsl2.2_2: sha256:45631bb47bd1213148e147edab18b2413b8bb9da1c17358a0b743313fbc3c962
+tags:
+  1.1.4--gsl2.2_2: sha256:45631bb47bd1213148e147edab18b2413b8bb9da1c17358a0b743313fbc3c962
+docker: quay.io/biocontainers/gfold
+aliases:
+  gfold: /usr/local/bin/gfold

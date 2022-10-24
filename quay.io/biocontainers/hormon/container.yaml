@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/hormon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hormon
+latest:
+  1.0.0--pyhdfd78af_0: sha256:5a9e5c74b0c1d94bbd145eee617ced61a653a9f6d78757b283f14c196024f7b2
+tags:
+  1.0.0--pyhdfd78af_0: sha256:5a9e5c74b0c1d94bbd145eee617ced61a653a9f6d78757b283f14c196024f7b2
+docker: quay.io/biocontainers/hormon
+aliases:
+  HORmon: /usr/local/bin/HORmon
+  monomer_inference: /usr/local/bin/monomer_inference
+  stringdecomposer: /usr/local/bin/stringdecomposer

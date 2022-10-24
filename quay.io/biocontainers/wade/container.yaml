@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/wade
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wade
+latest:
+  0.2.6--r41hdfd78af_1: sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242
+tags:
+  0.2.6--r41hdfd78af_1: sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242
+docker: quay.io/biocontainers/wade

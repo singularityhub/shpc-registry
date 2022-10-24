@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gispa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gispa
+latest:
+  1.8.0--r36_1: sha256:c39cb2413aadf39e45934f8183e27e4a40fe83d098482c9e9bfa9928f8aa429e
+tags:
+  1.8.0--r36_1: sha256:c39cb2413aadf39e45934f8183e27e4a40fe83d098482c9e9bfa9928f8aa429e
+docker: quay.io/biocontainers/bioconductor-gispa

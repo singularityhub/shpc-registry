@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-most
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-most
+latest:
+  0.38--pl5321hdfd78af_0: sha256:b9b9a64bb6ee1ca91e7bec096a6a2603c16e4bb08541de2ebc3238d831fa068f
+tags:
+  0.38--pl5321hdfd78af_0: sha256:b9b9a64bb6ee1ca91e7bec096a6a2603c16e4bb08541de2ebc3238d831fa068f
+docker: quay.io/biocontainers/perl-test-most

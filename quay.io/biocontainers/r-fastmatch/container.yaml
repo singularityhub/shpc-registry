@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fastmatch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fastmatch
+latest:
+  1.1_0--r3.3.1_0: sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39
+tags:
+  1.1_0--r3.3.1_0: sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39
+docker: quay.io/biocontainers/r-fastmatch

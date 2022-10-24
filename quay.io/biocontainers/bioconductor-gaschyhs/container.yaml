@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gaschyhs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gaschyhs
+latest:
+  1.32.0--r41hdfd78af_1: sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc
+tags:
+  1.32.0--r41hdfd78af_1: sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc
+docker: quay.io/biocontainers/bioconductor-gaschyhs
+aliases:
+  .bioconductor-gaschyhs-post-link.sh: /usr/local/bin/.bioconductor-gaschyhs-post-link.sh
+  .bioconductor-gaschyhs-pre-unlink.sh: /usr/local/bin/.bioconductor-gaschyhs-pre-unlink.sh

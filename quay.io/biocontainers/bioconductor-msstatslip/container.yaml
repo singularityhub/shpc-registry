@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msstatslip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msstatslip
+latest:
+  1.0.0--r41hc247a5b_2: sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41
+tags:
+  1.0.0--r41hc247a5b_2: sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41
+docker: quay.io/biocontainers/bioconductor-msstatslip

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/recognizer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for recognizer
+latest:
+  1.8.3--hdfd78af_0: sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275
+tags:
+  1.8.3--hdfd78af_0: sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275
+docker: quay.io/biocontainers/recognizer
+aliases:
+  recognizer.py: /usr/local/bin/recognizer.py

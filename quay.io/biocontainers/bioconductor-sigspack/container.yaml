@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sigspack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sigspack
+latest:
+  1.8.0--r41hdfd78af_0: sha256:a8515295fbbeea66477bd8848881454890a5eb3ef54ba1cd38bce1f79433985c
+tags:
+  1.8.0--r41hdfd78af_0: sha256:a8515295fbbeea66477bd8848881454890a5eb3ef54ba1cd38bce1f79433985c
+docker: quay.io/biocontainers/bioconductor-sigspack

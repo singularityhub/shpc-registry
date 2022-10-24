@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-help
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-help
+latest:
+  1.52.0--r41hdfd78af_0: sha256:581c7fd7b9b6c1fe7c07cf24b626836ec89c758e4ecc8dd3b0d86b3b63fa75f8
+tags:
+  1.52.0--r41hdfd78af_0: sha256:581c7fd7b9b6c1fe7c07cf24b626836ec89c758e4ecc8dd3b0d86b3b63fa75f8
+docker: quay.io/biocontainers/bioconductor-help

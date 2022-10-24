@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-basics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-basics
+latest:
+  2.6.0--r41hc247a5b_2: sha256:352c976fc8e71db491868d8f0a731d846e04c5b24a387cd59d91f7759033b186
+tags:
+  2.6.0--r41hc247a5b_2: sha256:352c976fc8e71db491868d8f0a731d846e04c5b24a387cd59d91f7759033b186
+docker: quay.io/biocontainers/bioconductor-basics

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fermi-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fermi-lite
+latest:
+  0.1--h7132678_5: sha256:cd0193712125eac5ddf1632862f4882efde3a116788c9a3a317a847f6d6cb518
+tags:
+  0.1--h7132678_5: sha256:cd0193712125eac5ddf1632862f4882efde3a116788c9a3a317a847f6d6cb518
+docker: quay.io/biocontainers/fermi-lite
+aliases:
+  fml-asm: /usr/local/bin/fml-asm

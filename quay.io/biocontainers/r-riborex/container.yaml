@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-riborex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-riborex
+latest:
+  2.4.0--r41hdfd78af_4: sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf
+tags:
+  2.4.0--r41hdfd78af_4: sha256:5badb161dee10a0fda67424b48590b053c5cdac90d1d872401c1608aa137edbf
+docker: quay.io/biocontainers/r-riborex

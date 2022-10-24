@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iranges
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iranges
+latest:
+  2.8.2--r3.4.1_0: sha256:f601f2fc26f9fc1b4346a03c380ed998c2a7ede6ce9c83b1027509ce5605233b
+tags:
+  2.8.2--r3.4.1_0: sha256:f601f2fc26f9fc1b4346a03c380ed998c2a7ede6ce9c83b1027509ce5605233b
+docker: quay.io/biocontainers/bioconductor-iranges

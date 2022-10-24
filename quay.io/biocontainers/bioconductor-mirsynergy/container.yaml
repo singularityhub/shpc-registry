@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mirsynergy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirsynergy
+latest:
+  1.23.0--r40_0: sha256:ad33e03e17582d48a98493574e5683107174d2fa5b03fe9a78e30a9aa8065671
+tags:
+  1.23.0--r40_0: sha256:ad33e03e17582d48a98493574e5683107174d2fa5b03fe9a78e30a9aa8065671
+docker: quay.io/biocontainers/bioconductor-mirsynergy

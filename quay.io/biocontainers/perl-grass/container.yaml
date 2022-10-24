@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/perl-grass
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-grass
+latest:
+  1.1.6--2: sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603
+tags:
+  1.1.6--2: sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603
+docker: quay.io/biocontainers/perl-grass
+aliases:
+  bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
+  brass_bedpe2vcf.pl: /usr/local/bin/brass_bedpe2vcf.pl
+  cgpAppendIdsToVcf.pl: /usr/local/bin/cgpAppendIdsToVcf.pl
+  cgpVCFSplit.pl: /usr/local/bin/cgpVCFSplit.pl
+  cover: /usr/local/bin/cover
+  cpancover: /usr/local/bin/cpancover
+  cvtbdf.pl: /usr/local/bin/cvtbdf.pl
+  dotty: /usr/local/bin/dotty
+  gcov2perl: /usr/local/bin/gcov2perl
+  grass.pl: /usr/local/bin/grass.pl
+  lneato: /usr/local/bin/lneato

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/drax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for drax
+latest:
+  0.0.0--hdfd78af_4: sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
+tags:
+  0.0.0--hdfd78af_4: sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364
+docker: quay.io/biocontainers/drax
+aliases:
+  addTaxonNames: /usr/local/bin/addTaxonNames
+  bbmergegapped.sh: /usr/local/bin/bbmergegapped.sh
+  bbqc.sh: /usr/local/bin/bbqc.sh
+  convertNR: /usr/local/bin/convertNR
+  convert_mar_to_kaiju.py: /usr/local/bin/convert_mar_to_kaiju.py
+  drax: /usr/local/bin/drax
+  gbk2faa.pl: /usr/local/bin/gbk2faa.pl
+  groot: /usr/local/bin/groot
+  kaiju: /usr/local/bin/kaiju
+  kaiju2krona: /usr/local/bin/kaiju2krona
+  kaijuReport: /usr/local/bin/kaijuReport
+  kaijup: /usr/local/bin/kaijup
+  kaijux: /usr/local/bin/kaijux
+  makeDB.sh: /usr/local/bin/makeDB.sh
+  mergeOutputs: /usr/local/bin/mergeOutputs
+  metacherchant.sh: /usr/local/bin/metacherchant.sh
+  mkbwt: /usr/local/bin/mkbwt
+  mkfmi: /usr/local/bin/mkfmi
+  nextflow: /usr/local/bin/nextflow
+  normandcorrectwrapper.sh: /usr/local/bin/normandcorrectwrapper.sh
+  taxonlist.tsv: /usr/local/bin/taxonlist.tsv

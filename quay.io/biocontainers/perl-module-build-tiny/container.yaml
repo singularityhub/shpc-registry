@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-build-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-build-tiny
+latest:
+  0.039--pl5321hdfd78af_5: sha256:3c7a9f1a47df032f47a803d159eb873a851c6eb381dae277f2b96563d20c334b
+tags:
+  0.039--pl5321hdfd78af_5: sha256:3c7a9f1a47df032f47a803d159eb873a851c6eb381dae277f2b96563d20c334b
+docker: quay.io/biocontainers/perl-module-build-tiny

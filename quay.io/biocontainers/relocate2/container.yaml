@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/relocate2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for relocate2
+latest:
+  2.0.1--hdfd78af_6: sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
+tags:
+  2.0.1--hdfd78af_6: sha256:900d3dd35c324f03f328839ce134df937a9f5b0b4b122cbc4cd431eb66c7e109
+docker: quay.io/biocontainers/relocate2
+aliases:
+  characterizer.pl: /usr/local/bin/characterizer.pl
+  clean_false_positive.py: /usr/local/bin/clean_false_positive.py
+  clean_pairs_memory.py: /usr/local/bin/clean_pairs_memory.py
+  faToNib: /usr/local/bin/faToNib
+  fastq_split.pl: /usr/local/bin/fastq_split.pl
+  gfClient: /usr/local/bin/gfClient
+  nibFrag: /usr/local/bin/nibFrag
+  pslPretty: /usr/local/bin/pslPretty
+  pslReps: /usr/local/bin/pslReps
+  pslSort: /usr/local/bin/pslSort
+  relocaTE2.py: /usr/local/bin/relocaTE2.py
+  relocaTE2_temp.py: /usr/local/bin/relocaTE2_temp.py
+  relocaTE_absenceFinder.py: /usr/local/bin/relocaTE_absenceFinder.py
+  relocaTE_align.py: /usr/local/bin/relocaTE_align.py
+  relocaTE_insertionFinder.py: /usr/local/bin/relocaTE_insertionFinder.py
+  relocaTE_trim.py: /usr/local/bin/relocaTE_trim.py
+  utility.py: /usr/local/bin/utility.py

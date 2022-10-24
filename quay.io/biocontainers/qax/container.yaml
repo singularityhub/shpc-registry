@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/qax
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qax
+latest:
+  0.9.6--hac521b0_1: sha256:ce9893b86cd763810e66ea6a762996c4e9d28dd85877f07662210d16297daa9b
+tags:
+  0.9.6--hac521b0_1: sha256:ce9893b86cd763810e66ea6a762996c4e9d28dd85877f07662210d16297daa9b
+docker: quay.io/biocontainers/qax
+aliases:
+  qax: /usr/local/bin/qax

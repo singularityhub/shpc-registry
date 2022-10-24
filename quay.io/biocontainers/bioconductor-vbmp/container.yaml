@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-vbmp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-vbmp
+latest:
+  1.62.0--r41hdfd78af_0: sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db
+tags:
+  1.62.0--r41hdfd78af_0: sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db
+docker: quay.io/biocontainers/bioconductor-vbmp

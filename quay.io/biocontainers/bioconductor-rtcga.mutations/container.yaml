@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rtcga.mutations
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtcga.mutations
+latest:
+  20151101.24.0--r41hdfd78af_1: sha256:d1fa873350e96d90c2c6696b075eecc017eca6462d24312cfa1c0c1db4291ba4
+tags:
+  20151101.24.0--r41hdfd78af_1: sha256:d1fa873350e96d90c2c6696b075eecc017eca6462d24312cfa1c0c1db4291ba4
+docker: quay.io/biocontainers/bioconductor-rtcga.mutations
+aliases:
+  .bioconductor-rtcga.mutations-post-link.sh: /usr/local/bin/.bioconductor-rtcga.mutations-post-link.sh
+  .bioconductor-rtcga.mutations-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.mutations-pre-unlink.sh

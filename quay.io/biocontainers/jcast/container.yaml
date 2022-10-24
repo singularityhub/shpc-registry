@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jcast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jcast
+latest:
+  0.3.5--pyhdfd78af_0: sha256:156feea982fbb615a4e8faf42f7a679e77db75fdfced049083ef718b20899514
+tags:
+  0.3.5--pyhdfd78af_0: sha256:156feea982fbb615a4e8faf42f7a679e77db75fdfced049083ef718b20899514
+docker: quay.io/biocontainers/jcast
+aliases:
+  jcast: /usr/local/bin/jcast

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pysftp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pysftp
+latest:
+  0.2.9--py35_0: sha256:9eccaea40140b04ff6cfd934c86aff5a02413c29e6bf2e2ad5fae04be366fed1
+tags:
+  0.2.9--py35_0: sha256:9eccaea40140b04ff6cfd934c86aff5a02413c29e6bf2e2ad5fae04be366fed1
+docker: quay.io/biocontainers/pysftp

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hdf5array
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hdf5array
+latest:
+  1.8.1--r351_0: sha256:4e27f447a5b20ea3799aaed016ff2733a5369820db29480abc48a3729e8382b0
+tags:
+  1.8.1--r351_0: sha256:4e27f447a5b20ea3799aaed016ff2733a5369820db29480abc48a3729e8382b0
+docker: quay.io/biocontainers/bioconductor-hdf5array

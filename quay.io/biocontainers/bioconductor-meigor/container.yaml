@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-meigor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-meigor
+latest:
+  1.28.0--r41hdfd78af_0: sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed
+tags:
+  1.28.0--r41hdfd78af_0: sha256:d4c65fafa9a070b782d800b53b75c018621760f9a19c587f052055cd41b9c4ed
+docker: quay.io/biocontainers/bioconductor-meigor

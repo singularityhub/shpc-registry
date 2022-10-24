@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spatialexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatialexperiment
+latest:
+  1.4.0--r41hdfd78af_0: sha256:b1ac1ecad65d211a40864db951be69e4a442eb6259e13ebbe24db34f046a14dd
+tags:
+  1.4.0--r41hdfd78af_0: sha256:b1ac1ecad65d211a40864db951be69e4a442eb6259e13ebbe24db34f046a14dd
+docker: quay.io/biocontainers/bioconductor-spatialexperiment

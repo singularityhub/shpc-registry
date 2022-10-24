@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-findpython
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-findpython
+latest:
+  1.0.1--r3.3.2_0: sha256:1fe4415d9ccd5c6d71aceb665d410fcd79ea0fcafdca58e6085fd03e3637a2e2
+tags:
+  1.0.1--r3.3.2_0: sha256:1fe4415d9ccd5c6d71aceb665d410fcd79ea0fcafdca58e6085fd03e3637a2e2
+docker: quay.io/biocontainers/r-findpython

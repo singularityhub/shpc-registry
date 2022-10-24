@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnpbayes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnpbayes
+latest:
+  1.13.5--r36he1b5a44_1: sha256:76b7b171767c63c334d9fe673291f345bd58ba2b6afb84544d751537c5d65b48
+tags:
+  1.13.5--r36he1b5a44_1: sha256:76b7b171767c63c334d9fe673291f345bd58ba2b6afb84544d751537c5d65b48
+docker: quay.io/biocontainers/bioconductor-cnpbayes

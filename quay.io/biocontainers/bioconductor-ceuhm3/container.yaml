@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ceuhm3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ceuhm3
+latest:
+  0.26.0--r40_0: sha256:cbb6e4cf351b1fc34309d0f6549f0f45b0cba45286bc303949869950f49f50cd
+tags:
+  0.26.0--r40_0: sha256:cbb6e4cf351b1fc34309d0f6549f0f45b0cba45286bc303949869950f49f50cd
+docker: quay.io/biocontainers/bioconductor-ceuhm3
+aliases:
+  .bioconductor-ceuhm3-post-link.sh: /usr/local/bin/.bioconductor-ceuhm3-post-link.sh
+  .bioconductor-ceuhm3-pre-unlink.sh: /usr/local/bin/.bioconductor-ceuhm3-pre-unlink.sh

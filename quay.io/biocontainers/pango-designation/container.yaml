@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pango-designation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pango-designation
+latest:
+  1.2.84--pyhdfd78af_0: sha256:e115d7bd9b116fd046f6759d3e70a2d83202257da737072547f8d4c3102af35a
+tags:
+  1.2.84--pyhdfd78af_0: sha256:e115d7bd9b116fd046f6759d3e70a2d83202257da737072547f8d4c3102af35a
+docker: quay.io/biocontainers/pango-designation
+aliases:
+  pango_designation: /usr/local/bin/pango_designation

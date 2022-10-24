@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-velocyto.r
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-velocyto.r
+latest:
+  0.6--r41h46c59ee_4: sha256:035375e26022e0f01f6c46c53c956bfb8e7f20672ce50a41dca3602f8f2ab58d
+tags:
+  0.6--r41h46c59ee_4: sha256:035375e26022e0f01f6c46c53c956bfb8e7f20672ce50a41dca3602f8f2ab58d
+docker: quay.io/biocontainers/r-velocyto.r

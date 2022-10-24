@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/seqlike
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqlike
+latest:
+  1.1.6--pyh5e36f6f_0: sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433
+tags:
+  1.1.6--pyh5e36f6f_0: sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433
+docker: quay.io/biocontainers/seqlike

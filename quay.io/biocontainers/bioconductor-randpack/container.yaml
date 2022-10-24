@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-randpack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-randpack
+latest:
+  1.40.0--r41hdfd78af_0: sha256:c87a95aa0339cd2c2f57969f178bbbf1ee9f68d0feec666d0db8b6e428735192
+tags:
+  1.40.0--r41hdfd78af_0: sha256:c87a95aa0339cd2c2f57969f178bbbf1ee9f68d0feec666d0db8b6e428735192
+docker: quay.io/biocontainers/bioconductor-randpack

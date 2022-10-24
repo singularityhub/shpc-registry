@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ddipy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ddipy
+latest:
+  0.0.5--py_0: sha256:6ac55dea1e272d44ae3469f41cf17610de7e5c999c71242f32845f480d635da2
+tags:
+  0.0.5--py_0: sha256:6ac55dea1e272d44ae3469f41cf17610de7e5c999c71242f32845f480d635da2
+docker: quay.io/biocontainers/ddipy
+aliases:
+  omicsdi: /usr/local/bin/omicsdi

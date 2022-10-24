@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/minepy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minepy
+latest:
+  1.2.3--py36h14c3975_0: sha256:98e7c4aa37a1ba803585fbba883c38db215bc655cf18f65051b355d3281d793f
+tags:
+  1.2.3--py36h14c3975_0: sha256:98e7c4aa37a1ba803585fbba883c38db215bc655cf18f65051b355d3281d793f
+docker: quay.io/biocontainers/minepy

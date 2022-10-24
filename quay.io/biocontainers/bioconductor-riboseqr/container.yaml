@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-riboseqr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-riboseqr
+latest:
+  1.28.0--r41hdfd78af_0: sha256:faa48e03f2e2ac84af95a57db5fc26ed56dcf06bf9e87ed894f16d4cbfaed66d
+tags:
+  1.28.0--r41hdfd78af_0: sha256:faa48e03f2e2ac84af95a57db5fc26ed56dcf06bf9e87ed894f16d4cbfaed66d
+docker: quay.io/biocontainers/bioconductor-riboseqr

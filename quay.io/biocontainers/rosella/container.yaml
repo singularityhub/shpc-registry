@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rosella
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rosella
+latest:
+  0.4.2--h6f8cb4c_1: sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2
+tags:
+  0.4.2--h6f8cb4c_1: sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2
+docker: quay.io/biocontainers/rosella
+aliases:
+  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  rosella: /usr/local/bin/rosella

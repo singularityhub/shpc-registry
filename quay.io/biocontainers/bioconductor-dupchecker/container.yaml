@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dupchecker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dupchecker
+latest:
+  1.25.0--r40_0: sha256:79cb494d3c658e8964361a50de7f2a8b1897528726f545ed9e8f6db7f923e492
+tags:
+  1.25.0--r40_0: sha256:79cb494d3c658e8964361a50de7f2a8b1897528726f545ed9e8f6db7f923e492
+docker: quay.io/biocontainers/bioconductor-dupchecker

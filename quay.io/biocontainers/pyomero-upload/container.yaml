@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pyomero-upload
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyomero-upload
+latest:
+  5.6.2_2.2.0--py_0: sha256:a93203020efcf69d4f457cab7023e7b6ebb0f37c036d9d9299770afaa8bea246
+tags:
+  5.6.2_2.2.0--py_0: sha256:a93203020efcf69d4f457cab7023e7b6ebb0f37c036d9d9299770afaa8bea246
+docker: quay.io/biocontainers/pyomero-upload
+aliases:
+  omero: /usr/local/bin/omero
+  omero.bat: /usr/local/bin/omero.bat
+  setpythonpath.bat: /usr/local/bin/setpythonpath.bat
+  slice2py: /usr/local/bin/slice2py
+  winconfig.bat: /usr/local/bin/winconfig.bat

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-doscheda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-doscheda
+latest:
+  1.8.0--r36_0: sha256:823bfe1f4ad09bbeccbdbbd61392821b31ea6d196832eeca3c8145afd967574b
+tags:
+  1.8.0--r36_0: sha256:823bfe1f4ad09bbeccbdbbd61392821b31ea6d196832eeca3c8145afd967574b
+docker: quay.io/biocontainers/bioconductor-doscheda

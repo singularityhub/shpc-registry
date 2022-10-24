@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pathprintgeodata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pathprintgeodata
+latest:
+  1.20.0--r40hdfd78af_1: sha256:5d978a3330421f01c1a68c96ce0895eae6f05fe2dac51ef88963191f5a96918b
+tags:
+  1.20.0--r40hdfd78af_1: sha256:5d978a3330421f01c1a68c96ce0895eae6f05fe2dac51ef88963191f5a96918b
+docker: quay.io/biocontainers/bioconductor-pathprintgeodata
+aliases:
+  .bioconductor-pathprintgeodata-post-link.sh: /usr/local/bin/.bioconductor-pathprintgeodata-post-link.sh
+  .bioconductor-pathprintgeodata-pre-unlink.sh: /usr/local/bin/.bioconductor-pathprintgeodata-pre-unlink.sh

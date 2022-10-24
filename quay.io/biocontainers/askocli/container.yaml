@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/askocli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for askocli
+latest:
+  0.5--py_0: sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1
+tags:
+  0.5--py_0: sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1
+docker: quay.io/biocontainers/askocli
+aliases:
+  askocli: /usr/local/bin/askocli

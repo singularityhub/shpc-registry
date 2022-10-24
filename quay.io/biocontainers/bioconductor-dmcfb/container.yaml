@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dmcfb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dmcfb
+latest:
+  1.8.0--r41hdfd78af_0: sha256:a9fcea041ad36bb68032e544f5835f402254dec9a0f2d4f69566de77845c4ba6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:a9fcea041ad36bb68032e544f5835f402254dec9a0f2d4f69566de77845c4ba6
+docker: quay.io/biocontainers/bioconductor-dmcfb

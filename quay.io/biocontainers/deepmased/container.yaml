@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/deepmased
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepmased
+latest:
+  0.3.1--pyh5ca1d4c_0: sha256:b609a61f557d37c8a33be24736fe01692c7ac79d0cafec60f98425b9dcd4ef7c
+tags:
+  0.3.1--pyh5ca1d4c_0: sha256:b609a61f557d37c8a33be24736fe01692c7ac79d0cafec60f98425b9dcd4ef7c
+docker: quay.io/biocontainers/deepmased
+aliases:
+  DeepMAsED: /usr/local/bin/DeepMAsED

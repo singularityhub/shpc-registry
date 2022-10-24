@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/phonenumbers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phonenumbers
+latest:
+  7.2.4--py35_0: sha256:20f3b6ec85a8f37258f05ee76aef9891a2baa80603c302a5ebd2773fc413b247
+tags:
+  7.2.4--py35_0: sha256:20f3b6ec85a8f37258f05ee76aef9891a2baa80603c302a5ebd2773fc413b247
+docker: quay.io/biocontainers/phonenumbers

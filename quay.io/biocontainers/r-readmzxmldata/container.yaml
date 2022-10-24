@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-readmzxmldata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-readmzxmldata
+latest:
+  2.8.1--r3.2.2_0: sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6
+tags:
+  2.8.1--r3.2.2_0: sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6
+docker: quay.io/biocontainers/r-readmzxmldata

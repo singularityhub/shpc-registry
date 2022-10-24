@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/denovogear
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for denovogear
+latest:
+  1.1.1--boost1.60_0: sha256:7e2f79d3922eb70614c8e6d585f47fa22f8c910e27f29d6f9d24f65999178255
+tags:
+  1.1.1--boost1.60_0: sha256:7e2f79d3922eb70614c8e6d585f47fa22f8c910e27f29d6f9d24f65999178255
+docker: quay.io/biocontainers/denovogear
+aliases:
+  dng: /usr/local/bin/dng

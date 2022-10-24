@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bedparse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bedparse
+latest:
+  0.2.3--py_0: sha256:08999450fc0c5a7c8bbd0a1553dfffe2cba7d12887ef0ffe801401f30d3d804b
+tags:
+  0.2.3--py_0: sha256:08999450fc0c5a7c8bbd0a1553dfffe2cba7d12887ef0ffe801401f30d3d804b
+docker: quay.io/biocontainers/bedparse
+aliases:
+  bedparse: /usr/local/bin/bedparse

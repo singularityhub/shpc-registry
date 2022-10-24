@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/barrnap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for barrnap
+latest:
+  0.9--hdfd78af_4: sha256:e018f6307a956736cb0d3b7ce2ca0bc53fb5929d52c9d843dbf369cffa1c1e99
+tags:
+  0.9--hdfd78af_4: sha256:e018f6307a956736cb0d3b7ce2ca0bc53fb5929d52c9d843dbf369cffa1c1e99
+docker: quay.io/biocontainers/barrnap

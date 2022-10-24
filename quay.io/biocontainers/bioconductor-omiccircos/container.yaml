@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-omiccircos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-omiccircos
+latest:
+  1.32.0--r41hdfd78af_0: sha256:be43aa4a3c918b29e3f5a91cfce51bd9621c99f8513c3d70b0b118ba010539b9
+tags:
+  1.32.0--r41hdfd78af_0: sha256:be43aa4a3c918b29e3f5a91cfce51bd9621c99f8513c3d70b0b118ba010539b9
+docker: quay.io/biocontainers/bioconductor-omiccircos

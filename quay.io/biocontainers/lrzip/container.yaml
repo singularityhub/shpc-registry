@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/lrzip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lrzip
+latest:
+  0.621--h159dde0_5: sha256:5e6c6973f0575878373c440924b432fe856f6e3896d467f525d41cd5f2f3a9b5
+tags:
+  0.621--h159dde0_5: sha256:5e6c6973f0575878373c440924b432fe856f6e3896d467f525d41cd5f2f3a9b5
+docker: quay.io/biocontainers/lrzip
+aliases:
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar

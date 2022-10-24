@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hypo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hypo
+latest:
+  1.0.3--h9a82719_1: sha256:5822ce168b1a6afaa492ce87c599ab5de1d63e6c76603a42e6bd1d6ca70da272
+tags:
+  1.0.3--h9a82719_1: sha256:5822ce168b1a6afaa492ce87c599ab5de1d63e6c76603a42e6bd1d6ca70da272
+docker: quay.io/biocontainers/hypo
+aliases:
+  hypo: /usr/local/bin/hypo

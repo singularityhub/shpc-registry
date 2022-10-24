@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-coregx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-coregx
+latest:
+  1.6.0--r41hdfd78af_0: sha256:dc0e22e245e8fa644826838eed3e304b9d15b5e9ade059a3320f59b08cf8a720
+tags:
+  1.6.0--r41hdfd78af_0: sha256:dc0e22e245e8fa644826838eed3e304b9d15b5e9ade059a3320f59b08cf8a720
+docker: quay.io/biocontainers/bioconductor-coregx

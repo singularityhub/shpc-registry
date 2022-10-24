@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgraph2js
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgraph2js
+latest:
+  1.8.0--r351_0: sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0
+tags:
+  1.8.0--r351_0: sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0
+docker: quay.io/biocontainers/bioconductor-rgraph2js

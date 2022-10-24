@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/rambo-k
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rambo-k
+latest:
+  1.21--1: sha256:1ae0c6f3c394c43d6cdc92a67fcb681d0d860d8862431379516746db7d1135ae
+tags:
+  1.21--1: sha256:1ae0c6f3c394c43d6cdc92a67fcb681d0d860d8862431379516746db7d1135ae
+docker: quay.io/biocontainers/rambo-k
+aliases:
+  RAMBOK.py: /usr/local/bin/RAMBOK.py
+  classifier.jar: /usr/local/bin/classifier.jar
+  plot.py: /usr/local/bin/plot.py
+  simulate_reads.py: /usr/local/bin/simulate_reads.py
+  trainer.jar: /usr/local/bin/trainer.jar

@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/phyx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phyx
+latest:
+  1.1--hb7044ba_2: sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489
+tags:
+  1.1--hb7044ba_2: sha256:feb27c2f8c5bb5428e001c288903ae00f8367e1f5eeb6d1c424585c43e4ce489
+docker: quay.io/biocontainers/phyx
+aliases:
+  pxaa2cdn: /usr/local/bin/pxaa2cdn
+  pxbdfit: /usr/local/bin/pxbdfit
+  pxbdsim: /usr/local/bin/pxbdsim
+  pxboot: /usr/local/bin/pxboot
+  pxbp: /usr/local/bin/pxbp
+  pxcat: /usr/local/bin/pxcat
+  pxclsq: /usr/local/bin/pxclsq
+  pxcltr: /usr/local/bin/pxcltr
+  pxcolt: /usr/local/bin/pxcolt
+  pxcomp: /usr/local/bin/pxcomp
+  pxconsq: /usr/local/bin/pxconsq
+  pxcontrates: /usr/local/bin/pxcontrates
+  pxfqfilt: /usr/local/bin/pxfqfilt
+  pxlog: /usr/local/bin/pxlog
+  pxlssq: /usr/local/bin/pxlssq
+  pxlstr: /usr/local/bin/pxlstr
+  pxmono: /usr/local/bin/pxmono
+  pxmrca: /usr/local/bin/pxmrca
+  pxmrcacut: /usr/local/bin/pxmrcacut
+  pxmrcaname: /usr/local/bin/pxmrcaname
+  pxnj: /usr/local/bin/pxnj
+  pxnw: /usr/local/bin/pxnw
+  pxrecode: /usr/local/bin/pxrecode
+  pxrevcomp: /usr/local/bin/pxrevcomp
+  pxrls: /usr/local/bin/pxrls
+  pxrlt: /usr/local/bin/pxrlt
+  pxrmk: /usr/local/bin/pxrmk
+  pxrms: /usr/local/bin/pxrms
+  pxrmt: /usr/local/bin/pxrmt
+  pxrr: /usr/local/bin/pxrr
+  pxs2fa: /usr/local/bin/pxs2fa
+  pxs2nex: /usr/local/bin/pxs2nex
+  pxs2phy: /usr/local/bin/pxs2phy
+  pxseqgen: /usr/local/bin/pxseqgen
+  pxssort: /usr/local/bin/pxssort
+  pxsstat: /usr/local/bin/pxsstat
+  pxstrec: /usr/local/bin/pxstrec
+  pxsw: /usr/local/bin/pxsw
+  pxt2new: /usr/local/bin/pxt2new
+  pxt2nex: /usr/local/bin/pxt2nex
+  pxtcol: /usr/local/bin/pxtcol
+  pxtcomb: /usr/local/bin/pxtcomb
+  pxtgen: /usr/local/bin/pxtgen
+  pxtlate: /usr/local/bin/pxtlate
+  pxtrt: /usr/local/bin/pxtrt
+  pxtscale: /usr/local/bin/pxtscale
+  pxupgma: /usr/local/bin/pxupgma
+  pxvcf2fa: /usr/local/bin/pxvcf2fa

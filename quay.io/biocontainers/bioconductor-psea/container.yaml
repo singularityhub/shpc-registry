@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-psea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-psea
+latest:
+  1.28.0--r41hdfd78af_0: sha256:3c0826a387c94651164a928186e441b9a2aaf9b4300121a5fc57b5638d3152f5
+tags:
+  1.28.0--r41hdfd78af_0: sha256:3c0826a387c94651164a928186e441b9a2aaf9b4300121a5fc57b5638d3152f5
+docker: quay.io/biocontainers/bioconductor-psea

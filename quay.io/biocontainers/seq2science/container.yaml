@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/seq2science
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seq2science
+latest:
+  0.9.5--pypyhdfd78af_0: sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495
+tags:
+  0.9.5--pypyhdfd78af_0: sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495
+docker: quay.io/biocontainers/seq2science
+aliases:
+  bedToGenePred: /usr/local/bin/bedToGenePred
+  conda2solv: /usr/local/bin/conda2solv
+  deseq2science: /usr/local/bin/deseq2science
+  dumpsolv: /usr/local/bin/dumpsolv
+  genePredToBed: /usr/local/bin/genePredToBed
+  genePredToGtf: /usr/local/bin/genePredToGtf
+  genomepy: /usr/local/bin/genomepy
+  gff3ToGenePred: /usr/local/bin/gff3ToGenePred
+  installcheck: /usr/local/bin/installcheck
+  mamba: /usr/local/bin/mamba
+  mamba-package: /usr/local/bin/mamba-package
+  mergesolv: /usr/local/bin/mergesolv
+  pysradb: /usr/local/bin/pysradb
+  repo2solv: /usr/local/bin/repo2solv
+  seq2science: /usr/local/bin/seq2science
+  testsolv: /usr/local/bin/testsolv

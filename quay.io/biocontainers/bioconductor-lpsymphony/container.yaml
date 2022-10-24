@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lpsymphony
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lpsymphony
+latest:
+  1.8.0--r341hfc679d8_0: sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239
+tags:
+  1.8.0--r341hfc679d8_0: sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239
+docker: quay.io/biocontainers/bioconductor-lpsymphony

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-coveb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-coveb
+latest:
+  1.8.1--r351_0: sha256:168a6597c962489d42d5daddef58a24b7621eaf200087f7cd28ad492a21fe1ac
+tags:
+  1.8.1--r351_0: sha256:168a6597c962489d42d5daddef58a24b7621eaf200087f7cd28ad492a21fe1ac
+docker: quay.io/biocontainers/bioconductor-coveb

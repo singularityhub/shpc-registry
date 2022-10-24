@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/seqscreen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqscreen
+latest:
+  4.0--hdfd78af_0: sha256:8c2734117ced23268008bf5855894a922ca92a1b592e5857602c7db961f457e4
+tags:
+  4.0--hdfd78af_0: sha256:8c2734117ced23268008bf5855894a922ca92a1b592e5857602c7db961f457e4
+docker: quay.io/biocontainers/seqscreen
+aliases:
+  centrifuge: /usr/local/bin/centrifuge
+  centrifuge-BuildSharedSequence.pl: /usr/local/bin/centrifuge-BuildSharedSequence.pl
+  centrifuge-RemoveEmptySequence.pl: /usr/local/bin/centrifuge-RemoveEmptySequence.pl
+  centrifuge-RemoveN.pl: /usr/local/bin/centrifuge-RemoveN.pl
+  centrifuge-build: /usr/local/bin/centrifuge-build
+  centrifuge-build-bin: /usr/local/bin/centrifuge-build-bin
+  centrifuge-class: /usr/local/bin/centrifuge-class
+  centrifuge-compress.pl: /usr/local/bin/centrifuge-compress.pl
+  centrifuge-download: /usr/local/bin/centrifuge-download
+  centrifuge-inspect: /usr/local/bin/centrifuge-inspect
+  centrifuge-inspect-bin: /usr/local/bin/centrifuge-inspect-bin
+  centrifuge-kreport: /usr/local/bin/centrifuge-kreport
+  centrifuge-sort-nt.pl: /usr/local/bin/centrifuge-sort-nt.pl
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  gdrive: /usr/local/bin/gdrive
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  prerapsearch: /usr/local/bin/prerapsearch
+  rapsearch: /usr/local/bin/rapsearch
+  seqscreen: /usr/local/bin/seqscreen
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel

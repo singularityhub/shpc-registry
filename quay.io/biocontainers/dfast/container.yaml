@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/dfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dfast
+latest:
+  1.2.7--h8b12597_0: sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7
+tags:
+  1.2.7--h8b12597_0: sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7
+docker: quay.io/biocontainers/dfast
+aliases:
+  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
+  dfast: /usr/local/bin/dfast
+  dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
+  file_downloader.py: /usr/local/bin/file_downloader.py
+  ghostx: /usr/local/bin/ghostx
+  mga: /usr/local/bin/mga

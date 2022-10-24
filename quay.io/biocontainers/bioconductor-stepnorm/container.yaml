@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-stepnorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-stepnorm
+latest:
+  1.66.0--r41hdfd78af_0: sha256:93aed3590b31c82bfca249f73a0b9bcae8d10d662f5346965eeddd916a4d9f10
+tags:
+  1.66.0--r41hdfd78af_0: sha256:93aed3590b31c82bfca249f73a0b9bcae8d10d662f5346965eeddd916a4d9f10
+docker: quay.io/biocontainers/bioconductor-stepnorm

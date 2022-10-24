@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-expressionnormalizationworkflow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-expressionnormalizationworkflow
+latest:
+  1.16.0--r40h399db7b_1: sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c
+tags:
+  1.16.0--r40h399db7b_1: sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c
+docker: quay.io/biocontainers/bioconductor-expressionnormalizationworkflow

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-yeast2cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yeast2cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:3892ce137d3ffcd977f9f955336726c8fe2256f9f35c54b992077f23c7dcb4b3
+tags:
+  2.18.0--r41hdfd78af_9: sha256:3892ce137d3ffcd977f9f955336726c8fe2256f9f35c54b992077f23c7dcb4b3
+docker: quay.io/biocontainers/bioconductor-yeast2cdf
+aliases:
+  .bioconductor-yeast2cdf-post-link.sh: /usr/local/bin/.bioconductor-yeast2cdf-post-link.sh
+  .bioconductor-yeast2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-yeast2cdf-pre-unlink.sh
