@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fineradstructure
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fineradstructure
+latest:
+  0.3.2r109--h5269a4d_4: sha256:a1b784484d29614f2da7c53ca3295007e4a6b34bf65969acee22477485856114
+tags:
+  0.3.2r109--h5269a4d_4: sha256:a1b784484d29614f2da7c53ca3295007e4a6b34bf65969acee22477485856114
+docker: quay.io/biocontainers/fineradstructure
+aliases:
+  RADpainter: /usr/local/bin/RADpainter
+  finestructure: /usr/local/bin/finestructure

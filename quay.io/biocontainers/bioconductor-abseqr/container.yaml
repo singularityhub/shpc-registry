@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-abseqr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-abseqr
+latest:
+  1.8.0--r40hdfd78af_1: sha256:11aba41abfea4cbcbd1451f0f4e74584b89e53101327dd5aa6f6e9106b928f98
+tags:
+  1.8.0--r40hdfd78af_1: sha256:11aba41abfea4cbcbd1451f0f4e74584b89e53101327dd5aa6f6e9106b928f98
+docker: quay.io/biocontainers/bioconductor-abseqr

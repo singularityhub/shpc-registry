@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/hilive2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hilive2
+latest:
+  2.0a--h2e6a766_2: sha256:8672f9f210bba35b64cee5cebd5610ed03a5acb11ec6df4a9846ed18aa7dfbd6
+tags:
+  2.0a--h2e6a766_2: sha256:8672f9f210bba35b64cee5cebd5610ed03a5acb11ec6df4a9846ed18aa7dfbd6
+docker: quay.io/biocontainers/hilive2
+aliases:
+  hilive: /usr/local/bin/hilive
+  hilive-build: /usr/local/bin/hilive-build
+  hilive-out: /usr/local/bin/hilive-out

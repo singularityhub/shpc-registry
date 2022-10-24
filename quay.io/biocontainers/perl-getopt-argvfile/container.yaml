@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-getopt-argvfile
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-getopt-argvfile
+latest:
+  1.11--pl5321hdfd78af_2: sha256:4c0f5bb9516cfce57737922713d67862918170076039ad1806ba67c196652f53
+tags:
+  1.11--pl5321hdfd78af_2: sha256:4c0f5bb9516cfce57737922713d67862918170076039ad1806ba67c196652f53
+docker: quay.io/biocontainers/perl-getopt-argvfile

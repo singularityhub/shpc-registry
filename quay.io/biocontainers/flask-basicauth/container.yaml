@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flask-basicauth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flask-basicauth
+latest:
+  0.2.0--py36_0: sha256:5f80167ffd3d5430de867966db627fde6a76c0d6c507b224f0a1871bb32adb14
+tags:
+  0.2.0--py36_0: sha256:5f80167ffd3d5430de867966db627fde6a76c0d6c507b224f0a1871bb32adb14
+docker: quay.io/biocontainers/flask-basicauth

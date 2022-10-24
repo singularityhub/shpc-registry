@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ncbi-amrfinderplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ncbi-amrfinderplus
+latest:
+  3.9.8--h671e170_0: sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7
+tags:
+  3.9.8--h671e170_0: sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7
+docker: quay.io/biocontainers/ncbi-amrfinderplus
+aliases:
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  fasta_check: /usr/local/bin/fasta_check
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rdavidwebservice
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rdavidwebservice
+latest:
+  1.28.0--r40hdfd78af_1: sha256:ccc535cd45b08fcbe6597e1cd9f0aefc820b953fc0c5e19bcb91691c5e038407
+tags:
+  1.28.0--r40hdfd78af_1: sha256:ccc535cd45b08fcbe6597e1cd9f0aefc820b953fc0c5e19bcb91691c5e038407
+docker: quay.io/biocontainers/bioconductor-rdavidwebservice

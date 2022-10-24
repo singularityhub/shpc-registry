@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-acidcli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-acidcli
+latest:
+  0.2.0--r41hdfd78af_0: sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e
+tags:
+  0.2.0--r41hdfd78af_0: sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e
+docker: quay.io/biocontainers/r-acidcli

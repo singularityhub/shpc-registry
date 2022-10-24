@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/batvi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for batvi
+latest:
+  1.04--h5b5514e_7: sha256:468cc76c6d0cae8151e58a7ff9bc7a274a0c0624f437959a4f4343fbb1b06cb6
+tags:
+  1.04--h5b5514e_7: sha256:468cc76c6d0cae8151e58a7ff9bc7a274a0c0624f437959a4f4343fbb1b06cb6
+docker: quay.io/biocontainers/batvi
+aliases:
+  call_integrations.sh: /usr/local/bin/call_integrations.sh
+  cat_sorted_sam.sh: /usr/local/bin/cat_sorted_sam.sh
+  clean_run.sh: /usr/local/bin/clean_run.sh
+  collate.sh: /usr/local/bin/collate.sh
+  collate_from_file.sh: /usr/local/bin/collate_from_file.sh
+  combine_hits.pl: /usr/local/bin/combine_hits.pl
+  commandline.sh: /usr/local/bin/commandline.sh
+  convert_to_fastq.sh: /usr/local/bin/convert_to_fastq.sh
+  email.sh: /usr/local/bin/email.sh
+  extract_hbv_from_fasta.sh: /usr/local/bin/extract_hbv_from_fasta.sh
+  extract_sam_xargs.sh: /usr/local/bin/extract_sam_xargs.sh
+  extract_unmapped_and_oneside.sh: /usr/local/bin/extract_unmapped_and_oneside.sh
+  extracthbv.sh: /usr/local/bin/extracthbv.sh
+  gen_paths.sh: /usr/local/bin/gen_paths.sh
+  get_blast_hits.sh: /usr/local/bin/get_blast_hits.sh
+  get_reads.pl: /usr/local/bin/get_reads.pl
+  hbvblast.sh: /usr/local/bin/hbvblast.sh
+  join_sam.sh: /usr/local/bin/join_sam.sh
+  manualcompile.sh: /usr/local/bin/manualcompile.sh
+  relabelunbugreads.sh: /usr/local/bin/relabelunbugreads.sh
+  search_text.sh: /usr/local/bin/search_text.sh
+  sort_by_name.sh: /usr/local/bin/sort_by_name.sh
+  unbug.pl: /usr/local/bin/unbug.pl
+  unbug.sh: /usr/local/bin/unbug.sh
+  unbug_xarg.sh: /usr/local/bin/unbug_xarg.sh
+  view_xargs.sh: /usr/local/bin/view_xargs.sh

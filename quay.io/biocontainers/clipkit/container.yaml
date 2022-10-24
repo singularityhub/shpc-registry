@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clipkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clipkit
+latest:
+  1.3.0--pyhdfd78af_0: sha256:bb97e79f0e669a077bda8d2366dd583fbcbf4991d5396bdca4162896c351cd13
+tags:
+  1.3.0--pyhdfd78af_0: sha256:bb97e79f0e669a077bda8d2366dd583fbcbf4991d5396bdca4162896c351cd13
+docker: quay.io/biocontainers/clipkit
+aliases:
+  clipkit: /usr/local/bin/clipkit

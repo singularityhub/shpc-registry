@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-donapllp2013
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-donapllp2013
+latest:
+  1.32.0--r41hdfd78af_1: sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c
+tags:
+  1.32.0--r41hdfd78af_1: sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c
+docker: quay.io/biocontainers/bioconductor-donapllp2013
+aliases:
+  .bioconductor-donapllp2013-post-link.sh: /usr/local/bin/.bioconductor-donapllp2013-post-link.sh
+  .bioconductor-donapllp2013-pre-unlink.sh: /usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh

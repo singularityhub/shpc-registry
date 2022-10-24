@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-inversion
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-inversion
+latest:
+  1.42.0--r41hc0cfd56_2: sha256:c81dbb8fafeb812b2f092244753531b1d856e8d7bcb1045912f6076576c4423d
+tags:
+  1.42.0--r41hc0cfd56_2: sha256:c81dbb8fafeb812b2f092244753531b1d856e8d7bcb1045912f6076576c4423d
+docker: quay.io/biocontainers/bioconductor-inversion

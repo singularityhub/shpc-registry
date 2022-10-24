@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lockfile-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lockfile-simple
+latest:
+  0.208--hdfd78af_1: sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23
+tags:
+  0.208--hdfd78af_1: sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23
+docker: quay.io/biocontainers/perl-lockfile-simple

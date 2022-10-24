@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metid
+latest:
+  1.8.0--r40hdfd78af_1: sha256:5e124a960b80554a44f27fa121def07d2722075aa18a5e515152a478f1454d5e
+tags:
+  1.8.0--r40hdfd78af_1: sha256:5e124a960b80554a44f27fa121def07d2722075aa18a5e515152a478f1454d5e
+docker: quay.io/biocontainers/bioconductor-metid

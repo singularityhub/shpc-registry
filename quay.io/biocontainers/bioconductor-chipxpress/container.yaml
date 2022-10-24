@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chipxpress
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chipxpress
+latest:
+  1.38.0--r41hdfd78af_0: sha256:3a91a505453cd6a893955913ad0c42994d2f89d13a132aeac690dc241ecf5caf
+tags:
+  1.38.0--r41hdfd78af_0: sha256:3a91a505453cd6a893955913ad0c42994d2f89d13a132aeac690dc241ecf5caf
+docker: quay.io/biocontainers/bioconductor-chipxpress
+aliases:
+  .bioconductor-chipxpressdata-post-link.sh: /usr/local/bin/.bioconductor-chipxpressdata-post-link.sh
+  .bioconductor-chipxpressdata-pre-unlink.sh: /usr/local/bin/.bioconductor-chipxpressdata-pre-unlink.sh

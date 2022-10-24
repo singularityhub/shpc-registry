@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stringdecomposer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stringdecomposer
+latest:
+  1.1.2--py36h2ad2d48_1: sha256:35bf0c6868a75eb0b9acf3bbbbc590eee33ce3ca146abb01fa6633fd6b537dfb
+tags:
+  1.1.2--py36h2ad2d48_1: sha256:35bf0c6868a75eb0b9acf3bbbbc590eee33ce3ca146abb01fa6633fd6b537dfb
+docker: quay.io/biocontainers/stringdecomposer
+aliases:
+  stringdecomposer: /usr/local/bin/stringdecomposer

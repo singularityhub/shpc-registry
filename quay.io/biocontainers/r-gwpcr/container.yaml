@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gwpcr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gwpcr
+latest:
+  1.0.4--r41hec16e2b_1: sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e
+tags:
+  1.0.4--r41hec16e2b_1: sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e
+docker: quay.io/biocontainers/r-gwpcr

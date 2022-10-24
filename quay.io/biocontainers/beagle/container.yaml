@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/beagle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for beagle
+latest:
+  beagle_4.0_06Jun17--0: sha256:fb71419bc25fbd2704b4611e2903f9ab928b1e4644466b842de2aa6786b5d850
+tags:
+  beagle_4.0_06Jun17--0: sha256:fb71419bc25fbd2704b4611e2903f9ab928b1e4644466b842de2aa6786b5d850
+docker: quay.io/biocontainers/beagle
+aliases:
+  beagle: /usr/local/bin/beagle

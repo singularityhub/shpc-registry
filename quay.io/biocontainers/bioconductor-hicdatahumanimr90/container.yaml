@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hicdatahumanimr90
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hicdatahumanimr90
+latest:
+  1.9.0--r40_0: sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d
+tags:
+  1.9.0--r40_0: sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d
+docker: quay.io/biocontainers/bioconductor-hicdatahumanimr90
+aliases:
+  .bioconductor-hicdatahumanimr90-post-link.sh: /usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh
+  .bioconductor-hicdatahumanimr90-pre-unlink.sh: /usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh

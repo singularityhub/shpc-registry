@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fpa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fpa
+latest:
+  0.5--hbcae180_2: sha256:b216fc65991a5553c9b9ad100ef66d9fa0f75ec038bad01f5f3010b318aedc43
+tags:
+  0.5--hbcae180_2: sha256:b216fc65991a5553c9b9ad100ef66d9fa0f75ec038bad01f5f3010b318aedc43
+docker: quay.io/biocontainers/fpa
+aliases:
+  fpa: /usr/local/bin/fpa

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-exploremodelmatrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-exploremodelmatrix
+latest:
+  1.6.0--r41hdfd78af_0: sha256:4ec7ee7288a004b15f6eb5ba137d167a5755a245171f27baa8b1270edb581b78
+tags:
+  1.6.0--r41hdfd78af_0: sha256:4ec7ee7288a004b15f6eb5ba137d167a5755a245171f27baa8b1270edb581b78
+docker: quay.io/biocontainers/bioconductor-exploremodelmatrix

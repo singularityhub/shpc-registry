@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/negative_training_sampler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for negative_training_sampler
+latest:
+  0.3.1--py_0: sha256:47b6ea9fe250d7c44a9c52a7a465fb5efac9586105645bb674f203f87e41f7a8
+tags:
+  0.3.1--py_0: sha256:47b6ea9fe250d7c44a9c52a7a465fb5efac9586105645bb674f203f87e41f7a8
+docker: quay.io/biocontainers/negative_training_sampler
+aliases:
+  negative_training_sampler: /usr/local/bin/negative_training_sampler

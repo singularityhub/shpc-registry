@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneattribution
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneattribution
+latest:
+  1.8.0--r351_0: sha256:5e63a9f613d40cb83d67d6d59b05c4535aa447f5d65d6abcacb2950626771fc5
+tags:
+  1.8.0--r351_0: sha256:5e63a9f613d40cb83d67d6d59b05c4535aa447f5d65d6abcacb2950626771fc5
+docker: quay.io/biocontainers/bioconductor-geneattribution

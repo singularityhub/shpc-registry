@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/mhcflurry
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mhcflurry
+latest:
+  2.0.1--pyh864c0ab_0: sha256:00f87fd3ce4d2c069d14c44822d6ef024dd55165a181cde57bbc96119ce4ee53
+tags:
+  2.0.1--pyh864c0ab_0: sha256:00f87fd3ce4d2c069d14c44822d6ef024dd55165a181cde57bbc96119ce4ee53
+docker: quay.io/biocontainers/mhcflurry
+aliases:
+  _mhcflurry-cluster-worker-entry-point: /usr/local/bin/_mhcflurry-cluster-worker-entry-point
+  mhcflurry-calibrate-percentile-ranks: /usr/local/bin/mhcflurry-calibrate-percentile-ranks
+  mhcflurry-class1-select-allele-specific-models: /usr/local/bin/mhcflurry-class1-select-allele-specific-models
+  mhcflurry-class1-select-pan-allele-models: /usr/local/bin/mhcflurry-class1-select-pan-allele-models
+  mhcflurry-class1-select-processing-models: /usr/local/bin/mhcflurry-class1-select-processing-models
+  mhcflurry-class1-train-allele-specific-models: /usr/local/bin/mhcflurry-class1-train-allele-specific-models
+  mhcflurry-class1-train-pan-allele-models: /usr/local/bin/mhcflurry-class1-train-pan-allele-models
+  mhcflurry-class1-train-presentation-models: /usr/local/bin/mhcflurry-class1-train-presentation-models
+  mhcflurry-class1-train-processing-models: /usr/local/bin/mhcflurry-class1-train-processing-models
+  mhcflurry-downloads: /usr/local/bin/mhcflurry-downloads
+  mhcflurry-predict: /usr/local/bin/mhcflurry-predict
+  mhcflurry-predict-scan: /usr/local/bin/mhcflurry-predict-scan
+  pyjwt: /usr/local/bin/pyjwt

@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/artic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for artic
+latest:
+  1.2.3--pyhdfd78af_0: sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03
+tags:
+  1.2.3--pyhdfd78af_0: sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03
+docker: quay.io/biocontainers/artic
+aliases:
+  align_trim: /usr/local/bin/align_trim
+  align_trim_n: /usr/local/bin/align_trim_n
+  artic: /usr/local/bin/artic
+  artic-tools: /usr/local/bin/artic-tools
+  artic_fasta_header: /usr/local/bin/artic_fasta_header
+  artic_get_stats: /usr/local/bin/artic_get_stats
+  artic_make_depth_mask: /usr/local/bin/artic_make_depth_mask
+  artic_mask: /usr/local/bin/artic_mask
+  artic_vcf_filter: /usr/local/bin/artic_vcf_filter
+  artic_vcf_merge: /usr/local/bin/artic_vcf_merge
+  check_compression: /usr/local/bin/check_compression
+  compress_fast5: /usr/local/bin/compress_fast5
+  demux_fast5: /usr/local/bin/demux_fast5
+  fast5_subset: /usr/local/bin/fast5_subset
+  hdf2tf.py: /usr/local/bin/hdf2tf.py
+  longshot: /usr/local/bin/longshot
+  margin_cons: /usr/local/bin/margin_cons
+  margin_cons_medaka: /usr/local/bin/margin_cons_medaka
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_haploid_variant: /usr/local/bin/medaka_haploid_variant
+  medaka_version_report: /usr/local/bin/medaka_version_report
+  mini_align: /usr/local/bin/mini_align
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  nanopolish: /usr/local/bin/nanopolish
+  nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
+  nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
+  porechop: /usr/local/bin/porechop
+  rich-click: /usr/local/bin/rich-click
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  vcfextract: /usr/local/bin/vcfextract
+  whatshap: /usr/local/bin/whatshap

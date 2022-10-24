@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iasva
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iasva
+latest:
+  1.8.0--r40hdfd78af_1: sha256:f7aaf404d78ff993a53528403617218ae1e252c08e9f0aff5f34b68fc576ba28
+tags:
+  1.8.0--r40hdfd78af_1: sha256:f7aaf404d78ff993a53528403617218ae1e252c08e9f0aff5f34b68fc576ba28
+docker: quay.io/biocontainers/bioconductor-iasva

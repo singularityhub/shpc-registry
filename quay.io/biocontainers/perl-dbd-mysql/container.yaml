@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-dbd-mysql
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-dbd-mysql
+latest:
+  4.050--pl5321h9f5acd7_0: sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a
+tags:
+  4.050--pl5321h9f5acd7_0: sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a
+docker: quay.io/biocontainers/perl-dbd-mysql
+aliases:
+  use-devel-checklib: /usr/local/bin/use-devel-checklib

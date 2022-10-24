@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cogent
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cogent
+latest:
+  1.9--py27h9801fc8_4: sha256:679dd3174a77952fa28dce4bfe36a957b81f37b69638df82fef702bd14b89839
+tags:
+  1.9--py27h9801fc8_4: sha256:679dd3174a77952fa28dce4bfe36a957b81f37b69638df82fef702bd14b89839
+docker: quay.io/biocontainers/cogent

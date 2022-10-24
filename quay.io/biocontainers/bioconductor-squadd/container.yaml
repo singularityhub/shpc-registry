@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-squadd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-squadd
+latest:
+  1.44.0--r41hdfd78af_0: sha256:b8626207fcc5e1ef622c545d962d0c537f0fb8f57d3281bb17ec8ad7c24ca9ba
+tags:
+  1.44.0--r41hdfd78af_0: sha256:b8626207fcc5e1ef622c545d962d0c537f0fb8f57d3281bb17ec8ad7c24ca9ba
+docker: quay.io/biocontainers/bioconductor-squadd

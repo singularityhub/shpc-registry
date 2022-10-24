@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-eol
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-eol
+latest:
+  2.02--pl5321hdfd78af_0: sha256:34166c8d17140e3e8810ade69ea2967be667963f5f8c963d1e4bc253beeb7bf9
+tags:
+  2.02--pl5321hdfd78af_0: sha256:34166c8d17140e3e8810ade69ea2967be667963f5f8c963d1e4bc253beeb7bf9
+docker: quay.io/biocontainers/perl-test-eol

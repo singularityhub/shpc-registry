@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mta10probeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mta10probeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:3062a535ff9bcb857120ac906ed017d834c8980d7f684d4f76ae83b3b8b2d884
+tags:
+  8.8.0--r41hdfd78af_1: sha256:3062a535ff9bcb857120ac906ed017d834c8980d7f684d4f76ae83b3b8b2d884
+docker: quay.io/biocontainers/bioconductor-mta10probeset.db
+aliases:
+  .bioconductor-mta10probeset.db-post-link.sh: /usr/local/bin/.bioconductor-mta10probeset.db-post-link.sh
+  .bioconductor-mta10probeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mta10probeset.db-pre-unlink.sh

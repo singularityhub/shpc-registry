@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/oncotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for oncotator
+latest:
+  1.9.9.0--py27h516909a_2: sha256:8d49c0e76928ce1b02e1d06630db6b2a24aa12169d9431a2672be53121a4b9e2
+tags:
+  1.9.9.0--py27h516909a_2: sha256:8d49c0e76928ce1b02e1d06630db6b2a24aa12169d9431a2672be53121a4b9e2
+docker: quay.io/biocontainers/oncotator
+aliases:
+  Oncotator: /usr/local/bin/Oncotator
+  addDatasourceMd5: /usr/local/bin/addDatasourceMd5
+  get_exons: /usr/local/bin/get_exons
+  initializeDatasource: /usr/local/bin/initializeDatasource
+  initializeTranscriptDatasource: /usr/local/bin/initializeTranscriptDatasource
+  oncotator: /usr/local/bin/oncotator

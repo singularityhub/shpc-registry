@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/magicblast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for magicblast
+latest:
+  1.6.0--hf1761c0_1: sha256:f93c39752229aef9f4fdf236cf42339a8f8474f23075f6a6904d00fa559c2519
+tags:
+  1.6.0--hf1761c0_1: sha256:f93c39752229aef9f4fdf236cf42339a8f8474f23075f6a6904d00fa559c2519
+docker: quay.io/biocontainers/magicblast
+aliases:
+  magicblast: /usr/local/bin/magicblast

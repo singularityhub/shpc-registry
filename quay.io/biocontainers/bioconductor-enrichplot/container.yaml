@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-enrichplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-enrichplot
+latest:
+  1.8.1--r40_0: sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872
+tags:
+  1.8.1--r40_0: sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872
+docker: quay.io/biocontainers/bioconductor-enrichplot

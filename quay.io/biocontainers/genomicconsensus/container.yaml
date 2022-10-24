@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/genomicconsensus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomicconsensus
+latest:
+  3.0.2--py27h470a237_2: sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16
+tags:
+  3.0.2--py27h470a237_2: sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16
+docker: quay.io/biocontainers/genomicconsensus
+aliases:
+  dataset.py: /usr/local/bin/dataset.py
+  gffToBed: /usr/local/bin/gffToBed
+  gffToVcf: /usr/local/bin/gffToVcf
+  pbservice: /usr/local/bin/pbservice
+  plurality: /usr/local/bin/plurality
+  quiver: /usr/local/bin/quiver
+  summarizeConsensus: /usr/local/bin/summarizeConsensus
+  variantCaller: /usr/local/bin/variantCaller

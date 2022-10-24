@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/encyclopedia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for encyclopedia
+latest:
+  1.2.2--hdfd78af_0: sha256:9fd1f149c2d3387bbc31b9b954fec8c7f975367d4f7ab34025a94b9eef0d9308
+tags:
+  1.2.2--hdfd78af_0: sha256:9fd1f149c2d3387bbc31b9b954fec8c7f975367d4f7ab34025a94b9eef0d9308
+docker: quay.io/biocontainers/encyclopedia
+aliases:
+  EncyclopeDIA: /usr/local/bin/EncyclopeDIA

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-moda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-moda
+latest:
+  1.8.0--r351_0: sha256:962bc57acd9cd1a43034297819db9c3d9987871dd1762916aad10ce695df775c
+tags:
+  1.8.0--r351_0: sha256:962bc57acd9cd1a43034297819db9c3d9987871dd1762916aad10ce695df775c
+docker: quay.io/biocontainers/bioconductor-moda

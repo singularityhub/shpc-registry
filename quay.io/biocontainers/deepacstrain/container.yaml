@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/deepacstrain
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepacstrain
+latest:
+  0.2.1--py_0: sha256:1f46e7ed53b6bf873c334911e196a7197b34948be6f6a7904d3a337c8b4a929a
+tags:
+  0.2.1--py_0: sha256:1f46e7ed53b6bf873c334911e196a7197b34948be6f6a7904d3a337c8b4a929a
+docker: quay.io/biocontainers/deepacstrain
+aliases:
+  deepac: /usr/local/bin/deepac
+  deepac-strain: /usr/local/bin/deepac-strain
+  pyjwt: /usr/local/bin/pyjwt

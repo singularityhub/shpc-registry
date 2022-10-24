@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/rpbasicdesign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rpbasicdesign
+latest:
+  1.1.1: sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5
+tags:
+  1.1.1: sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5
+docker: quay.io/biocontainers/rpbasicdesign
+aliases:
+  depinfo: /usr/local/bin/depinfo
+  filetype: /usr/local/bin/filetype
+  httpx: /usr/local/bin/httpx
+  pint-convert: /usr/local/bin/pint-convert
+  search_zenodo: /usr/local/bin/search_zenodo
+  search_zenodo.py: /usr/local/bin/search_zenodo.py
+  slugify: /usr/local/bin/slugify
+  upload_zenodo: /usr/local/bin/upload_zenodo
+  upload_zenodo.py: /usr/local/bin/upload_zenodo.py

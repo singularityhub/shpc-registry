@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-seqcna.annot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-seqcna.annot
+latest:
+  1.30.0--r41hdfd78af_1: sha256:e8ecf152d88a2d43120b6fc728ad84ae2d6717badd32296677975f569c2e0bc2
+tags:
+  1.30.0--r41hdfd78af_1: sha256:e8ecf152d88a2d43120b6fc728ad84ae2d6717badd32296677975f569c2e0bc2
+docker: quay.io/biocontainers/bioconductor-seqcna.annot
+aliases:
+  .bioconductor-seqcna.annot-post-link.sh: /usr/local/bin/.bioconductor-seqcna.annot-post-link.sh
+  .bioconductor-seqcna.annot-pre-unlink.sh: /usr/local/bin/.bioconductor-seqcna.annot-pre-unlink.sh

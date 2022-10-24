@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/fanc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fanc
+latest:
+  0.9.23b--py37h8902056_2: sha256:e020b005bfffab0e8225bc06025050b3f1a14f8302713088a9f519be8b602e19
+tags:
+  0.9.23b--py37h8902056_2: sha256:e020b005bfffab0e8225bc06025050b3f1a14f8302713088a9f519be8b602e19
+docker: quay.io/biocontainers/fanc
+aliases:
+  calc-prorate: /usr/local/bin/calc-prorate
+  cheroot: /usr/local/bin/cheroot
+  cherryd: /usr/local/bin/cherryd
+  convert-regions: /usr/local/bin/convert-regions
+  fanc: /usr/local/bin/fanc
+  fancplot: /usr/local/bin/fancplot
+  gridmap_web: /usr/local/bin/gridmap_web

@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/lukasa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lukasa
+latest:
+  0.0.8--py310hdfd78af_1: sha256:e55304725d85cb9cc8859c82f3ecdf95d0b2cada7e792bb18ff4ff6321567737
+tags:
+  0.0.8--py310hdfd78af_1: sha256:e55304725d85cb9cc8859c82f3ecdf95d0b2cada7e792bb18ff4ff6321567737
+docker: quay.io/biocontainers/lukasa
+aliases:
+  catchr.pl: /usr/local/bin/catchr.pl
+  corepack: /usr/local/bin/corepack
+  cwl-cite-extract: /usr/local/bin/cwl-cite-extract
+  cwl-docker-extract: /usr/local/bin/cwl-docker-extract
+  cwl-explode: /usr/local/bin/cwl-explode
+  cwl-expression-refactor: /usr/local/bin/cwl-expression-refactor
+  cwl-format: /usr/local/bin/cwl-format
+  cwl-graph-split: /usr/local/bin/cwl-graph-split
+  cwl-normalizer: /usr/local/bin/cwl-normalizer
+  cwl-upgrader: /usr/local/bin/cwl-upgrader
+  lukasa.py: /usr/local/bin/lukasa.py
+  makblk.pl: /usr/local/bin/makblk.pl
+  makdbs: /usr/local/bin/makdbs
+  makeidx.pl: /usr/local/bin/makeidx.pl
+  makmdm: /usr/local/bin/makmdm
+  metaeuk: /usr/local/bin/metaeuk
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  npx: /usr/local/bin/npx
+  sortgrcd: /usr/local/bin/sortgrcd
+  spaln: /usr/local/bin/spaln
+  spspaln.pl: /usr/local/bin/spspaln.pl

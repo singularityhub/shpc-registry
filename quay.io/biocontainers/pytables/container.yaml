@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pytables
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pytables
+latest:
+  3.4.4: sha256:f8c5004faeba8a605082f00ca4e79a23b417ed470c0414f01381df9c08daa235
+tags:
+  3.4.4: sha256:f8c5004faeba8a605082f00ca4e79a23b417ed470c0414f01381df9c08daa235
+docker: quay.io/biocontainers/pytables

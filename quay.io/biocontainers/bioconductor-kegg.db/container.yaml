@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-kegg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-kegg.db
+latest:
+  3.2.4--r40hdfd78af_2: sha256:79bc532e0c308a2a14e297f3aa35e52e15e8cbc84210f29f5b1a072f11f99423
+tags:
+  3.2.4--r40hdfd78af_2: sha256:79bc532e0c308a2a14e297f3aa35e52e15e8cbc84210f29f5b1a072f11f99423
+docker: quay.io/biocontainers/bioconductor-kegg.db

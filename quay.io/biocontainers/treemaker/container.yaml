@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/treemaker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for treemaker
+latest:
+  1.4--pyh9f0ad1d_0: sha256:7ae5318f784b788900f4ee64f14e371c34d121dc232736f3b9b90ff1ff904122
+tags:
+  1.4--pyh9f0ad1d_0: sha256:7ae5318f784b788900f4ee64f14e371c34d121dc232736f3b9b90ff1ff904122
+docker: quay.io/biocontainers/treemaker
+aliases:
+  treemaker: /usr/local/bin/treemaker

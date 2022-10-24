@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jasmine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jasmine
+latest:
+  1.1--hdfd78af_1: sha256:f0314983a3e6e1e372df597c4efd5b7c1ed8c258ecfa43d0f5f851039e6a134a
+tags:
+  1.1--hdfd78af_1: sha256:f0314983a3e6e1e372df597c4efd5b7c1ed8c258ecfa43d0f5f851039e6a134a
+docker: quay.io/biocontainers/jasmine
+aliases:
+  jasmine: /usr/local/bin/jasmine

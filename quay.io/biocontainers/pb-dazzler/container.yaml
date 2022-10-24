@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/pb-dazzler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pb-dazzler
+latest:
+  0.0.1--hec16e2b_2: sha256:ae0bd4afb8926f1b44a96332bc915446a992736c699538efe31b731a0d96c370
+tags:
+  0.0.1--hec16e2b_2: sha256:ae0bd4afb8926f1b44a96332bc915446a992736c699538efe31b731a0d96c370
+docker: quay.io/biocontainers/pb-dazzler
+aliases:
+  Catrack: /usr/local/bin/Catrack
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DB2Falcon: /usr/local/bin/DB2Falcon
+  DB2fasta: /usr/local/bin/DB2fasta
+  DBdump: /usr/local/bin/DBdump
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm
+  DBshow: /usr/local/bin/DBshow
+  DBsplit: /usr/local/bin/DBsplit
+  DBstats: /usr/local/bin/DBstats
+  HPC.REPmask: /usr/local/bin/HPC.REPmask
+  HPC.TANmask: /usr/local/bin/HPC.TANmask
+  HPC.daligner: /usr/local/bin/HPC.daligner
+  LA4Falcon: /usr/local/bin/LA4Falcon
+  LA4Ice: /usr/local/bin/LA4Ice
+  LAcat: /usr/local/bin/LAcat
+  LAcheck: /usr/local/bin/LAcheck
+  LAdump: /usr/local/bin/LAdump
+  LAindex: /usr/local/bin/LAindex
+  LAmerge: /usr/local/bin/LAmerge
+  LAshow: /usr/local/bin/LAshow
+  LAsort: /usr/local/bin/LAsort
+  LAsplit: /usr/local/bin/LAsplit
+  REPmask: /usr/local/bin/REPmask
+  TANmask: /usr/local/bin/TANmask
+  daligner: /usr/local/bin/daligner
+  daligner_p: /usr/local/bin/daligner_p
+  datander: /usr/local/bin/datander
+  dexta: /usr/local/bin/dexta
+  fasta2DAM: /usr/local/bin/fasta2DAM
+  fasta2DB: /usr/local/bin/fasta2DB
+  rangen: /usr/local/bin/rangen
+  simulator: /usr/local/bin/simulator
+  undexta: /usr/local/bin/undexta

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-m6aboost
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-m6aboost
+latest:
+  1.0.0--r41hdfd78af_0: sha256:c207c9e91ffa77913eca3ed5ae8b579395457036d25f056b637e1f57320adbec
+tags:
+  1.0.0--r41hdfd78af_0: sha256:c207c9e91ffa77913eca3ed5ae8b579395457036d25f056b637e1f57320adbec
+docker: quay.io/biocontainers/bioconductor-m6aboost

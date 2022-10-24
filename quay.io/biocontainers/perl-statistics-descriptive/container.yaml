@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-statistics-descriptive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-statistics-descriptive
+latest:
+  3.0800--pl5321hdfd78af_0: sha256:773d5336061d23fdc9a422fe0c35de78bed1567bac930877724c7f2d1c1dd401
+tags:
+  3.0800--pl5321hdfd78af_0: sha256:773d5336061d23fdc9a422fe0c35de78bed1567bac930877724c7f2d1c1dd401
+docker: quay.io/biocontainers/perl-statistics-descriptive

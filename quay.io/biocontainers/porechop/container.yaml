@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/porechop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for porechop
+latest:
+  0.2.4--py36h2ad2d48_3: sha256:35800da592ada9572f5a5afaa11f4f0c6256f60380d861bc87ed18150efe429b
+tags:
+  0.2.4--py36h2ad2d48_3: sha256:35800da592ada9572f5a5afaa11f4f0c6256f60380d861bc87ed18150efe429b
+docker: quay.io/biocontainers/porechop
+aliases:
+  porechop: /usr/local/bin/porechop

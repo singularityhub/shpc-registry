@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/maf2synteny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for maf2synteny
+latest:
+  1.2--h87f3376_1: sha256:e689496243bbcc4a7b0960e91ab59c6a580e1c0d65b20033236c9cd8c083a5b2
+tags:
+  1.2--h87f3376_1: sha256:e689496243bbcc4a7b0960e91ab59c6a580e1c0d65b20033236c9cd8c083a5b2
+docker: quay.io/biocontainers/maf2synteny
+aliases:
+  maf2synteny: /usr/local/bin/maf2synteny

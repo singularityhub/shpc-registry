@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/phyphy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phyphy
+latest:
+  0.4.3--py_0: sha256:e41eefe1fc8da85b610c6bcdff528adcb0c7b49e3a1ddf043332afc9d825b356
+tags:
+  0.4.3--py_0: sha256:e41eefe1fc8da85b610c6bcdff528adcb0c7b49e3a1ddf043332afc9d825b356
+docker: quay.io/biocontainers/phyphy

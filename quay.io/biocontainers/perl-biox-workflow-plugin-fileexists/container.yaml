@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-biox-workflow-plugin-fileexists
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-biox-workflow-plugin-fileexists
+latest:
+  0.13--1: sha256:475abd9f4beb74c841c39a2c01bc18feeacf5da1b7c77ce9e42b32a3b2cadfd0
+tags:
+  0.13--1: sha256:475abd9f4beb74c841c39a2c01bc18feeacf5da1b7c77ce9e42b32a3b2cadfd0
+docker: quay.io/biocontainers/perl-biox-workflow-plugin-fileexists
+aliases:
+  biox-workflow.pl: /usr/local/bin/biox-workflow.pl

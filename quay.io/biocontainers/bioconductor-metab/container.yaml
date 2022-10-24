@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metab
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metab
+latest:
+  1.28.0--r41hdfd78af_0: sha256:34c465eb05a106e0aab626bc27b427ec3032b74273ffa73f2177df12ec5aecb2
+tags:
+  1.28.0--r41hdfd78af_0: sha256:34c465eb05a106e0aab626bc27b427ec3032b74273ffa73f2177df12ec5aecb2
+docker: quay.io/biocontainers/bioconductor-metab

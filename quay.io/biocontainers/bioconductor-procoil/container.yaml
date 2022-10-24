@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-procoil
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-procoil
+latest:
+  2.8.0--r351_0: sha256:c91e72c2c60c5dc76e41d7571da6fd0a5e7cc57dae3534f8ba5702bd23880379
+tags:
+  2.8.0--r351_0: sha256:c91e72c2c60c5dc76e41d7571da6fd0a5e7cc57dae3534f8ba5702bd23880379
+docker: quay.io/biocontainers/bioconductor-procoil

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcwl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcwl
+latest:
+  1.8.0--py39r41hdfd78af_0: sha256:b7d2bea3b22496203db712b155e407db8573a7aa923880773aff87163b852df6
+tags:
+  1.8.0--py39r41hdfd78af_0: sha256:b7d2bea3b22496203db712b155e407db8573a7aa923880773aff87163b852df6
+docker: quay.io/biocontainers/bioconductor-rcwl

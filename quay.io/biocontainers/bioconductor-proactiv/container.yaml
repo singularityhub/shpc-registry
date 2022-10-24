@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-proactiv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-proactiv
+latest:
+  1.4.0--r41hdfd78af_0: sha256:2ad73e39127cda2f8b81079500f3484986edece8ff8cc883feff6125ae7e82df
+tags:
+  1.4.0--r41hdfd78af_0: sha256:2ad73e39127cda2f8b81079500f3484986edece8ff8cc883feff6125ae7e82df
+docker: quay.io/biocontainers/bioconductor-proactiv

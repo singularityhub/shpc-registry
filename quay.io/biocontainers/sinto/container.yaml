@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sinto
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sinto
+latest:
+  0.9.0--pyh086e186_0: sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca
+tags:
+  0.9.0--pyh086e186_0: sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca
+docker: quay.io/biocontainers/sinto
+aliases:
+  sinto: /usr/local/bin/sinto

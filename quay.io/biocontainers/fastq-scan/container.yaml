@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastq-scan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastq-scan
+latest:
+  1.0.0--h9f5acd7_1: sha256:02ecc930d960f1e6861fa00afa4c143afa03ad6b98fc118aa118ee950cb5e27e
+tags:
+  1.0.0--h9f5acd7_1: sha256:02ecc930d960f1e6861fa00afa4c143afa03ad6b98fc118aa118ee950cb5e27e
+docker: quay.io/biocontainers/fastq-scan
+aliases:
+  fastq-scan: /usr/local/bin/fastq-scan
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config

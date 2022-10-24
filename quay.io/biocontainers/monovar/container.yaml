@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/monovar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for monovar
+latest:
+  v0.0.1--2: sha256:6242adec0c874a00549039c152c097678969e44cace41721d2ed76424ccafe8e
+tags:
+  v0.0.1--2: sha256:6242adec0c874a00549039c152c097678969e44cace41721d2ed76424ccafe8e
+docker: quay.io/biocontainers/monovar
+aliases:
+  monovar: /usr/local/bin/monovar

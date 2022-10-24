@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-vcftools-vcf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-vcftools-vcf
+latest:
+  0.953--pl5.22.0_1: sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3
+tags:
+  0.953--pl5.22.0_1: sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3
+docker: quay.io/biocontainers/perl-vcftools-vcf

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-constant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-constant
+latest:
+  0.25--pl5321hec16e2b_2: sha256:b064d99fabf9b4f22add7c3c2039ac81b5e2a5f47c392f3873c90e39057bc441
+tags:
+  0.25--pl5321hec16e2b_2: sha256:b064d99fabf9b4f22add7c3c2039ac81b5e2a5f47c392f3873c90e39057bc441
+docker: quay.io/biocontainers/perl-extutils-constant

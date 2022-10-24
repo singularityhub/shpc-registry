@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epivizrdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epivizrdata
+latest:
+  1.8.0--r351_0: sha256:887c44c2b50a3f36b1c68ab1316a7771f5018c94a8806d90af392151bc52ab5b
+tags:
+  1.8.0--r351_0: sha256:887c44c2b50a3f36b1c68ab1316a7771f5018c94a8806d90af392151bc52ab5b
+docker: quay.io/biocontainers/bioconductor-epivizrdata

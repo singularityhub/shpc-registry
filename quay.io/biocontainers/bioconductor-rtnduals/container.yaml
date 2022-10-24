@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rtnduals
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rtnduals
+latest:
+  1.8.1--r36_0: sha256:4839ee900f0e8e5a5ec9f65826b872ab04b5883f4c059173d45b61cabde4bed5
+tags:
+  1.8.1--r36_0: sha256:4839ee900f0e8e5a5ec9f65826b872ab04b5883f4c059173d45b61cabde4bed5
+docker: quay.io/biocontainers/bioconductor-rtnduals

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/chicagotools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chicagotools
+latest:
+  1.2.0--2: sha256:a54128a8fb650b7d92dd95a9062bc032f5c95bda3ccf06ee2296c5b9595b7a08
+tags:
+  1.2.0--2: sha256:a54128a8fb650b7d92dd95a9062bc032f5c95bda3ccf06ee2296c5b9595b7a08
+docker: quay.io/biocontainers/chicagotools
+aliases:
+  bam2chicago.sh: /usr/local/bin/bam2chicago.sh
+  fitDistCurve.R: /usr/local/bin/fitDistCurve.R
+  makeDesignFiles.py: /usr/local/bin/makeDesignFiles.py
+  makeNBaitsPerBinFile.py: /usr/local/bin/makeNBaitsPerBinFile.py
+  makeNPerBinFile.py: /usr/local/bin/makeNPerBinFile.py
+  makePeakMatrix.R: /usr/local/bin/makePeakMatrix.R
+  makeProxOEFile.py: /usr/local/bin/makeProxOEFile.py
+  runChicago.R: /usr/local/bin/runChicago.R

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pydp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pydp
+latest:
+  0.2.4--py_0: sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f
+tags:
+  0.2.4--py_0: sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f
+docker: quay.io/biocontainers/pydp

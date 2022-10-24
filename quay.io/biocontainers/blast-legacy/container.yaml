@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/blast-legacy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blast-legacy
+latest:
+  2.2.26--h9ee0642_3: sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065
+tags:
+  2.2.26--h9ee0642_3: sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065
+docker: quay.io/biocontainers/blast-legacy

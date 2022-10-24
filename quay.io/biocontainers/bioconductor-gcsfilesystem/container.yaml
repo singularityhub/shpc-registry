@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gcsfilesystem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gcsfilesystem
+latest:
+  1.4.0--r41hdfd78af_0: sha256:36b822fe096cd5a8301435c307291b72dc4cb42035f5b14c10c20491511bfd37
+tags:
+  1.4.0--r41hdfd78af_0: sha256:36b822fe096cd5a8301435c307291b72dc4cb42035f5b14c10c20491511bfd37
+docker: quay.io/biocontainers/bioconductor-gcsfilesystem

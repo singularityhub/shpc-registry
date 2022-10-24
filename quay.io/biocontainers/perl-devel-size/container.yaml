@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-size
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-size
+latest:
+  0.83--pl5321hec16e2b_2: sha256:78e2a7daddff55951a9f3dc8c200b0fb9d8cfab58a7f2e36cfa4772489bc28a4
+tags:
+  0.83--pl5321hec16e2b_2: sha256:78e2a7daddff55951a9f3dc8c200b0fb9d8cfab58a7f2e36cfa4772489bc28a4
+docker: quay.io/biocontainers/perl-devel-size

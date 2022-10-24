@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pathogentrack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathogentrack
+latest:
+  0.2.3--pyh5e36f6f_0: sha256:0cacc5e6a26cf97c333cb85799d04fe7348bc79afb28b3f2548ee6a5e3eacf4d
+tags:
+  0.2.3--pyh5e36f6f_0: sha256:0cacc5e6a26cf97c333cb85799d04fe7348bc79afb28b3f2548ee6a5e3eacf4d
+docker: quay.io/biocontainers/pathogentrack
+aliases:
+  PathogenTrack: /usr/local/bin/PathogenTrack

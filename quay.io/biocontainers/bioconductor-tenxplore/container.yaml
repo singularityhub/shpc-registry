@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tenxplore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tenxplore
+latest:
+  1.8.0--r36_0: sha256:b6c2f522bef9013dae5eec4a11a4eac4d5f2fd11195ae4a0b79fe5108ef92673
+tags:
+  1.8.0--r36_0: sha256:b6c2f522bef9013dae5eec4a11a4eac4d5f2fd11195ae4a0b79fe5108ef92673
+docker: quay.io/biocontainers/bioconductor-tenxplore

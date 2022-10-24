@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-acde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-acde
+latest:
+  1.8.0--r3.4.1_0: sha256:7c3aba92ea8829f4d4e6f8aef8d0e7f0ff12b0428c060159a5d90f5a31f2292c
+tags:
+  1.8.0--r3.4.1_0: sha256:7c3aba92ea8829f4d4e6f8aef8d0e7f0ff12b0428c060159a5d90f5a31f2292c
+docker: quay.io/biocontainers/bioconductor-acde

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/domclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for domclust
+latest:
+  1.2.8a--h470a237_1: sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36
+tags:
+  1.2.8a--h470a237_1: sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36
+docker: quay.io/biocontainers/domclust
+aliases:
+  addtit.pl: /usr/local/bin/addtit.pl
+  blast2homfile.pl: /usr/local/bin/blast2homfile.pl
+  cmpr.pl: /usr/local/bin/cmpr.pl
+  convgraph.pl: /usr/local/bin/convgraph.pl
+  domclust: /usr/local/bin/domclust
+  fasta2genefile.pl: /usr/local/bin/fasta2genefile.pl
+  perl5.22.2: /usr/local/bin/perl5.22.2

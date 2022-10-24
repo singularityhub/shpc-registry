@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nanotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nanotator
+latest:
+  1.8.0--r41hdfd78af_0: sha256:e729b789415026ee1dd5ebed85de1cc04319b84d809c7235b6072962b6de8685
+tags:
+  1.8.0--r41hdfd78af_0: sha256:e729b789415026ee1dd5ebed85de1cc04319b84d809c7235b6072962b6de8685
+docker: quay.io/biocontainers/bioconductor-nanotator

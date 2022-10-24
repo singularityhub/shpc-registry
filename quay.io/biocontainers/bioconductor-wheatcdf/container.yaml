@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-wheatcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-wheatcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e
+tags:
+  2.18.0--r41hdfd78af_9: sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e
+docker: quay.io/biocontainers/bioconductor-wheatcdf
+aliases:
+  .bioconductor-wheatcdf-post-link.sh: /usr/local/bin/.bioconductor-wheatcdf-post-link.sh
+  .bioconductor-wheatcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-wheatcdf-pre-unlink.sh

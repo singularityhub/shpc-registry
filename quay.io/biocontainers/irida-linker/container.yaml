@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/irida-linker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for irida-linker
+latest:
+  1.1.1--hdfd78af_2: sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4
+tags:
+  1.1.1--hdfd78af_2: sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4
+docker: quay.io/biocontainers/irida-linker
+aliases:
+  ngsArchiveLinker.pl: /usr/local/bin/ngsArchiveLinker.pl

@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/centrifuge-core
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for centrifuge-core
+latest:
+  1.0.4_beta--h5b5514e_2: sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8
+tags:
+  1.0.4_beta--h5b5514e_2: sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8
+docker: quay.io/biocontainers/centrifuge-core
+aliases:
+  centrifuge: /usr/local/bin/centrifuge
+  centrifuge-BuildSharedSequence.pl: /usr/local/bin/centrifuge-BuildSharedSequence.pl
+  centrifuge-RemoveEmptySequence.pl: /usr/local/bin/centrifuge-RemoveEmptySequence.pl
+  centrifuge-RemoveN.pl: /usr/local/bin/centrifuge-RemoveN.pl
+  centrifuge-build: /usr/local/bin/centrifuge-build
+  centrifuge-build-bin: /usr/local/bin/centrifuge-build-bin
+  centrifuge-class: /usr/local/bin/centrifuge-class
+  centrifuge-compress.pl: /usr/local/bin/centrifuge-compress.pl
+  centrifuge-download: /usr/local/bin/centrifuge-download
+  centrifuge-inspect: /usr/local/bin/centrifuge-inspect
+  centrifuge-inspect-bin: /usr/local/bin/centrifuge-inspect-bin
+  centrifuge-kreport: /usr/local/bin/centrifuge-kreport
+  centrifuge-sort-nt.pl: /usr/local/bin/centrifuge-sort-nt.pl

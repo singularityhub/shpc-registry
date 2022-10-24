@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pgma-simple
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pgma-simple
+latest:
+  0.1--h9f5acd7_4: sha256:74a7dc6d1dd8df00486d19884583e58485a4302527a23086d8d8692a25b947e6
+tags:
+  0.1--h9f5acd7_4: sha256:74a7dc6d1dd8df00486d19884583e58485a4302527a23086d8d8692a25b947e6
+docker: quay.io/biocontainers/pgma-simple
+aliases:
+  pgma: /usr/local/bin/pgma

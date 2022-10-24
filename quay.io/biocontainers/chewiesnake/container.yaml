@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/chewiesnake
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chewiesnake
+latest:
+  3.0.0--hdfd78af_2: sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
+tags:
+  3.0.0--hdfd78af_2: sha256:62ec678ea64f72d175cb829038c34aa9910beddc663adbdbfaf8959e5f385575
+docker: quay.io/biocontainers/chewiesnake
+aliases:
+  Clustering_DistanceMatrix.R: /usr/local/bin/Clustering_DistanceMatrix.R
+  alleleprofile_hasher.py: /usr/local/bin/alleleprofile_hasher.py
+  chewBBACA.py: /usr/local/bin/chewBBACA.py
+  chewie: /usr/local/bin/chewie
+  chewiesnake: /usr/local/bin/chewiesnake
+  chewiesnake_join: /usr/local/bin/chewiesnake_join
+  create_alleledbSheet.sh: /usr/local/bin/create_alleledbSheet.sh
+  create_sampleSheet.sh: /usr/local/bin/create_sampleSheet.sh
+  grapetree: /usr/local/bin/grapetree
+  hashID.py: /usr/local/bin/hashID.py
+  lighter: /usr/local/bin/lighter
+  shovill: /usr/local/bin/shovill
+  skesa: /usr/local/bin/skesa

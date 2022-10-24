@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-cohcap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cohcap
+latest:
+  1.40.0--pl5321r41hc247a5b_3: sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b
+tags:
+  1.40.0--pl5321r41hc247a5b_3: sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b
+docker: quay.io/biocontainers/bioconductor-cohcap
+aliases:
+  .bioconductor-cohcapanno-post-link.sh: /usr/local/bin/.bioconductor-cohcapanno-post-link.sh
+  .bioconductor-cohcapanno-pre-unlink.sh: /usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh

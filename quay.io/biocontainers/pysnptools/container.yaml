@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pysnptools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pysnptools
+latest:
+  0.3.13--py27h95a95ce_6: sha256:7fd3c6aa131474b78b53f76fe95002ae972b2784057839ff125f624e031a2f08
+tags:
+  0.3.13--py27h95a95ce_6: sha256:7fd3c6aa131474b78b53f76fe95002ae972b2784057839ff125f624e031a2f08
+docker: quay.io/biocontainers/pysnptools

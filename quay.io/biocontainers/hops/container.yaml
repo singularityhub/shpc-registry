@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/hops
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hops
+latest:
+  0.35--hdfd78af_1: sha256:7b98b7c806032743291c2d113ca6fadb7d6620485d71011d8661f0790ea357c5
+tags:
+  0.35--hdfd78af_1: sha256:7b98b7c806032743291c2d113ca6fadb7d6620485d71011d8661f0790ea357c5
+docker: quay.io/biocontainers/hops
+aliases:
+  MaltExtract: /usr/local/bin/MaltExtract
+  hops: /usr/local/bin/hops
+  malt-build: /usr/local/bin/malt-build
+  malt-run: /usr/local/bin/malt-run
+  postprocessing.AMPS.r: /usr/local/bin/postprocessing.AMPS.r

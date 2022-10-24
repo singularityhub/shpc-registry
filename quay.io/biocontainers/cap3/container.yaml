@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cap3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cap3
+latest:
+  10.2011--h779adbc_3: sha256:f86b860ece986c5691fdce2ed35bb4046527f9eb2af7236b1053e070d0b7a750
+tags:
+  10.2011--h779adbc_3: sha256:f86b860ece986c5691fdce2ed35bb4046527f9eb2af7236b1053e070d0b7a750
+docker: quay.io/biocontainers/cap3
+aliases:
+  cap3: /usr/local/bin/cap3
+  formcon: /usr/local/bin/formcon

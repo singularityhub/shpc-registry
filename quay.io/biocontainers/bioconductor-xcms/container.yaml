@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xcms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xcms
+latest:
+  3.8.0--r36he1b5a44_0: sha256:dcab40228cb284c5727912c49d31af6a1f86076f7a1461b454affdaaabf78cc4
+tags:
+  3.8.0--r36he1b5a44_0: sha256:dcab40228cb284c5727912c49d31af6a1f86076f7a1461b454affdaaabf78cc4
+docker: quay.io/biocontainers/bioconductor-xcms

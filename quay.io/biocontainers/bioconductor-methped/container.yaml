@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methped
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methped
+latest:
+  1.8.0--r341_0: sha256:3ee49c92ce65dbbfd1346ccd1b1bbbdb2b2b9516b9eed02761addcfed0bd362d
+tags:
+  1.8.0--r341_0: sha256:3ee49c92ce65dbbfd1346ccd1b1bbbdb2b2b9516b9eed02761addcfed0bd362d
+docker: quay.io/biocontainers/bioconductor-methped

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gatk-framework
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gatk-framework
+latest:
+  3.6.24--hdfd78af_6: sha256:4413ea8582d279d58a21cd1cd082e84ef4f6574cf9fe36610ee942cf4255e592
+tags:
+  3.6.24--hdfd78af_6: sha256:4413ea8582d279d58a21cd1cd082e84ef4f6574cf9fe36610ee942cf4255e592
+docker: quay.io/biocontainers/gatk-framework
+aliases:
+  gatk-framework: /usr/local/bin/gatk-framework

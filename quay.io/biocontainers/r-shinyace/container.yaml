@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-shinyace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-shinyace
+latest:
+  0.2.1--r3.3.1_0: sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599
+tags:
+  0.2.1--r3.3.1_0: sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599
+docker: quay.io/biocontainers/r-shinyace

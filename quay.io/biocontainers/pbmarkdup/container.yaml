@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pbmarkdup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbmarkdup
+latest:
+  1.0.2--0: sha256:fa876b4e8673e6b5e77b9c9022d9a61d1796a5a02a29df21c4debc7afababece
+tags:
+  1.0.2--0: sha256:fa876b4e8673e6b5e77b9c9022d9a61d1796a5a02a29df21c4debc7afababece
+docker: quay.io/biocontainers/pbmarkdup
+aliases:
+  .pbmarkdup-post-link.sh: /usr/local/bin/.pbmarkdup-post-link.sh
+  pbmarkdup: /usr/local/bin/pbmarkdup

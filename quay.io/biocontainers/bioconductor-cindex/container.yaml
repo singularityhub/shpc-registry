@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cindex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cindex
+latest:
+  1.8.0--r351_0: sha256:6df66f2813ab9dbca4629a7c6f547f1bf1179d8638cf0849e6527679f82328d0
+tags:
+  1.8.0--r351_0: sha256:6df66f2813ab9dbca4629a7c6f547f1bf1179d8638cf0849e6527679f82328d0
+docker: quay.io/biocontainers/bioconductor-cindex

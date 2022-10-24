@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methylkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methylkit
+latest:
+  1.8.1--r351hf484d3e_0: sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d
+tags:
+  1.8.1--r351hf484d3e_0: sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d
+docker: quay.io/biocontainers/bioconductor-methylkit

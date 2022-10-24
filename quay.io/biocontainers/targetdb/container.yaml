@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/targetdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for targetdb
+latest:
+  1.3.1--pyh864c0ab_0: sha256:4a523b0f824316de7958ed1221b19ed581d71fb9ccef85fadc65e6a10c4ace46
+tags:
+  1.3.1--pyh864c0ab_0: sha256:4a523b0f824316de7958ed1221b19ed581d71fb9ccef85fadc65e6a10c4ace46
+docker: quay.io/biocontainers/targetdb
+aliases:
+  dpocket: /usr/local/bin/dpocket
+  fpocket: /usr/local/bin/fpocket
+  hyper: /usr/local/bin/hyper
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  mdpocket: /usr/local/bin/mdpocket
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  targetDB: /usr/local/bin/targetDB
+  target_DB: /usr/local/bin/target_DB
+  tmrdemo: /usr/local/bin/tmrdemo
+  tpocket: /usr/local/bin/tpocket

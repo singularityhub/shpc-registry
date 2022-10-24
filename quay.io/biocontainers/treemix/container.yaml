@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/treemix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for treemix
+latest:
+  1.13--boost1.64_gsl2.2_0: sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779
+tags:
+  1.13--boost1.64_gsl2.2_0: sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779
+docker: quay.io/biocontainers/treemix
+aliases:
+  f4ratio: /usr/local/bin/f4ratio
+  fourpop: /usr/local/bin/fourpop
+  plotting_funcs.R: /usr/local/bin/plotting_funcs.R
+  threepop: /usr/local/bin/threepop
+  treemix: /usr/local/bin/treemix

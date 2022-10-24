@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flanker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flanker
+latest:
+  0.1.5--py_0: sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89
+tags:
+  0.1.5--py_0: sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89
+docker: quay.io/biocontainers/flanker
+aliases:
+  flanker: /usr/local/bin/flanker

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/rgi_conda_dev
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rgi_conda_dev
+latest:
+  3.1.2--py27_1: sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12
+tags:
+  3.1.2--py27_1: sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12
+docker: quay.io/biocontainers/rgi_conda_dev
+aliases:
+  rgi: /usr/local/bin/rgi
+  rgi_clean: /usr/local/bin/rgi_clean
+  rgi_jsonformat: /usr/local/bin/rgi_jsonformat
+  rgi_jsontab: /usr/local/bin/rgi_jsontab
+  rgi_load: /usr/local/bin/rgi_load

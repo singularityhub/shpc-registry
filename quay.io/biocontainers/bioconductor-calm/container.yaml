@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-calm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-calm
+latest:
+  1.8.0--r41hdfd78af_0: sha256:858659121abac4147701ff616c8367adc45c70d0a2e194efcf54b01730176f85
+tags:
+  1.8.0--r41hdfd78af_0: sha256:858659121abac4147701ff616c8367adc45c70d0a2e194efcf54b01730176f85
+docker: quay.io/biocontainers/bioconductor-calm

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-statistics-ttest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-statistics-ttest
+latest:
+  1.1--pl5321hdfd78af_2: sha256:8373e701a72e4b293c1da7462580ea19a00b879066f452aae8cdd6ba21a047da
+tags:
+  1.1--pl5321hdfd78af_2: sha256:8373e701a72e4b293c1da7462580ea19a00b879066f452aae8cdd6ba21a047da
+docker: quay.io/biocontainers/perl-statistics-ttest

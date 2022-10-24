@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/referenceseeker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for referenceseeker
+latest:
+  1.8.0--pyhdfd78af_0: sha256:a350dac172356cc3f9720f6f8ed9610662a84b9247ad7f01c2fa4153aa4dfabb
+tags:
+  1.8.0--pyhdfd78af_0: sha256:a350dac172356cc3f9720f6f8ed9610662a84b9247ad7f01c2fa4153aa4dfabb
+docker: quay.io/biocontainers/referenceseeker
+aliases:
+  referenceseeker: /usr/local/bin/referenceseeker
+  referenceseeker_db: /usr/local/bin/referenceseeker_db

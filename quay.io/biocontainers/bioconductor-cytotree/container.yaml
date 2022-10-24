@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cytotree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cytotree
+latest:
+  1.0.3--r40h399db7b_1: sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c
+tags:
+  1.0.3--r40h399db7b_1: sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c
+docker: quay.io/biocontainers/bioconductor-cytotree

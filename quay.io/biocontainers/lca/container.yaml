@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lca
+latest:
+  0.23--hd03093a_1: sha256:914333ec6aedc403748387c136645c0db05125b4b2571b74eafb00e67df49ab5
+tags:
+  0.23--hd03093a_1: sha256:914333ec6aedc403748387c136645c0db05125b4b2571b74eafb00e67df49ab5
+docker: quay.io/biocontainers/lca
+aliases:
+  LCA: /usr/local/bin/LCA

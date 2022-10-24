@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-attribute-handlers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-attribute-handlers
+latest:
+  0.96--pl5321hdfd78af_3: sha256:6a5a72881279473739a077d73e7004a4004a94bd3e4d2f1da7aa6a70bfd81d64
+tags:
+  0.96--pl5321hdfd78af_3: sha256:6a5a72881279473739a077d73e7004a4004a94bd3e4d2f1da7aa6a70bfd81d64
+docker: quay.io/biocontainers/perl-attribute-handlers

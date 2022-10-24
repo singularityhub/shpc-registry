@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-treekor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-treekor
+latest:
+  1.2.0--r41hdfd78af_0: sha256:b048679c87e5f506d259d988c0e89a36c07fb490d1ab08a8985897e82d65beb7
+tags:
+  1.2.0--r41hdfd78af_0: sha256:b048679c87e5f506d259d988c0e89a36c07fb490d1ab08a8985897e82d65beb7
+docker: quay.io/biocontainers/bioconductor-treekor

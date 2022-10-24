@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tiff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tiff
+latest:
+  0.1.5--r3.3.2_2: sha256:f9e89d9358ff512dc7ae5f6d23a801be0b587d02a18ff4b8b5d75cfa34b17fc4
+tags:
+  0.1.5--r3.3.2_2: sha256:f9e89d9358ff512dc7ae5f6d23a801be0b587d02a18ff4b8b5d75cfa34b17fc4
+docker: quay.io/biocontainers/r-tiff

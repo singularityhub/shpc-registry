@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-spline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-spline
+latest:
+  0.02--pl5321hdfd78af_3: sha256:37a9de9e87d7779b8e1dbc1531d55a49136834e7fcc26254d7e7a2052b925098
+tags:
+  0.02--pl5321hdfd78af_3: sha256:37a9de9e87d7779b8e1dbc1531d55a49136834e7fcc26254d7e7a2052b925098
+docker: quay.io/biocontainers/perl-math-spline

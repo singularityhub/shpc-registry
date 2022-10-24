@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lola
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lola
+latest:
+  1.8.0--r3.4.1_0: sha256:f01b34ef072d05e4e314dc157c86a025b42d441629f90c0f9172b0b21431ca1b
+tags:
+  1.8.0--r3.4.1_0: sha256:f01b34ef072d05e4e314dc157c86a025b42d441629f90c0f9172b0b21431ca1b
+docker: quay.io/biocontainers/bioconductor-lola

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-aroma.apd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-aroma.apd
+latest:
+  0.6.0--r3.3.2_0: sha256:afcc03c355766228155e8a2c7de117021be73b4b44c767880571dcea23b698e1
+tags:
+  0.6.0--r3.3.2_0: sha256:afcc03c355766228155e8a2c7de117021be73b4b44c767880571dcea23b698e1
+docker: quay.io/biocontainers/r-aroma.apd

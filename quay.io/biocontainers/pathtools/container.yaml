@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pathtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathtools
+latest:
+  0.1.2--py35_0: sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54
+tags:
+  0.1.2--py35_0: sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54
+docker: quay.io/biocontainers/pathtools

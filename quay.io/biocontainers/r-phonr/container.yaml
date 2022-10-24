@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-phonr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-phonr
+latest:
+  1.0_3--r3.2.2_0: sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481
+tags:
+  1.0_3--r3.2.2_0: sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481
+docker: quay.io/biocontainers/r-phonr

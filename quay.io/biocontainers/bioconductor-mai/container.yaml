@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mai
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mai
+latest:
+  1.0.0--r41hdfd78af_0: sha256:2b416daeac059e1bb615dde26571e4808141d8a09d4b431563b9067652a3172e
+tags:
+  1.0.0--r41hdfd78af_0: sha256:2b416daeac059e1bb615dde26571e4808141d8a09d4b431563b9067652a3172e
+docker: quay.io/biocontainers/bioconductor-mai

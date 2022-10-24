@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dashing
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dashing
+latest:
+  1.0--hfb1f815_0: sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d
+tags:
+  1.0--hfb1f815_0: sha256:c9d7eacebbd93f4cd248c921d16f592d5674d022abfc6d09810748f22494084d
+docker: quay.io/biocontainers/dashing
+aliases:
+  dashing: /usr/local/bin/dashing

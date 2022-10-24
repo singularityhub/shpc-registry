@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-degreport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-degreport
+latest:
+  1.8.2--r3.3.2_1: sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a
+tags:
+  1.8.2--r3.3.2_1: sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a
+docker: quay.io/biocontainers/bioconductor-degreport

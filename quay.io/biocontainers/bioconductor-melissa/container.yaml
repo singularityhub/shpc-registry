@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-melissa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-melissa
+latest:
+  1.8.0--r41hdfd78af_0: sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c
+tags:
+  1.8.0--r41hdfd78af_0: sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c
+docker: quay.io/biocontainers/bioconductor-melissa

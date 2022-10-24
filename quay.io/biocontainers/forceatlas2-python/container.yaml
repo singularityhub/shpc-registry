@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/forceatlas2-python
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for forceatlas2-python
+latest:
+  1.1--py_1: sha256:f37e1832ac2e3e3bb99d12f1e9090c1253a2359294e69b25940107ed9c4e7e3e
+tags:
+  1.1--py_1: sha256:f37e1832ac2e3e3bb99d12f1e9090c1253a2359294e69b25940107ed9c4e7e3e
+docker: quay.io/biocontainers/forceatlas2-python

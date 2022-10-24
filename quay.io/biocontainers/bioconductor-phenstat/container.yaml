@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phenstat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phenstat
+latest:
+  2.30.0--r41hdfd78af_0: sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604
+tags:
+  2.30.0--r41hdfd78af_0: sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604
+docker: quay.io/biocontainers/bioconductor-phenstat

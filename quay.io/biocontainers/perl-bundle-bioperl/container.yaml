@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bundle-bioperl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bundle-bioperl
+latest:
+  2.1.9--pl5321hdfd78af_1: sha256:a3f872290a486b636ed03c6bea752dcb99e62e627a167b1d5695f5a9b36630bb
+tags:
+  2.1.9--pl5321hdfd78af_1: sha256:a3f872290a486b636ed03c6bea752dcb99e62e627a167b1d5695f5a9b36630bb
+docker: quay.io/biocontainers/perl-bundle-bioperl

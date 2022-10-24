@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pdbfixer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pdbfixer
+latest:
+  1.8.1: sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1
+tags:
+  1.8.1: sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1
+docker: quay.io/biocontainers/pdbfixer
+aliases:
+  .ocl-icd-system-post-link.sh: /usr/local/bin/.ocl-icd-system-post-link.sh
+  .ocl-icd-system-pre-unlink.sh: /usr/local/bin/.ocl-icd-system-pre-unlink.sh
+  pdbfixer: /usr/local/bin/pdbfixer

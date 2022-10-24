@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ga4ghmongo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ga4ghmongo
+latest:
+  0.0.1.2--pyh864c0ab_2: sha256:f7f0b8bb8a1ac053e4411b2679214fd8031f84c4d38ecd3c3fbeb2b8231f9325
+tags:
+  0.0.1.2--pyh864c0ab_2: sha256:f7f0b8bb8a1ac053e4411b2679214fd8031f84c4d38ecd3c3fbeb2b8231f9325
+docker: quay.io/biocontainers/ga4ghmongo

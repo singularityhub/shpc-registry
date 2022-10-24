@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-excluderanges
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-excluderanges
+latest:
+  0.99.6--r41hdfd78af_1: sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909
+tags:
+  0.99.6--r41hdfd78af_1: sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909
+docker: quay.io/biocontainers/bioconductor-excluderanges
+aliases:
+  .bioconductor-excluderanges-post-link.sh: /usr/local/bin/.bioconductor-excluderanges-post-link.sh
+  .bioconductor-excluderanges-pre-unlink.sh: /usr/local/bin/.bioconductor-excluderanges-pre-unlink.sh

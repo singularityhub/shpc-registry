@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mimager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mimager
+latest:
+  1.8.0--r36_1: sha256:b9fe4a0e8e36df50a50af04b82afa7fe2aada1d9f7b162a5ec1116bb8d5410e0
+tags:
+  1.8.0--r36_1: sha256:b9fe4a0e8e36df50a50af04b82afa7fe2aada1d9f7b162a5ec1116bb8d5410e0
+docker: quay.io/biocontainers/bioconductor-mimager

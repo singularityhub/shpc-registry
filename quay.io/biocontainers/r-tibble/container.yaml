@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tibble
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tibble
+latest:
+  1.2--r3.3.2_1: sha256:ab7d61bb14c70493245ca0e986d10fdebfffd54d8300d27a85d2ffca03ccb7bc
+tags:
+  1.2--r3.3.2_1: sha256:ab7d61bb14c70493245ca0e986d10fdebfffd54d8300d27a85d2ffca03ccb7bc
+docker: quay.io/biocontainers/r-tibble

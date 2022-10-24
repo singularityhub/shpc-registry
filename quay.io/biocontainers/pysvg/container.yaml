@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pysvg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pysvg
+latest:
+  0.2.2--py27_0: sha256:b44376ed8aca3c51136278e1025e97d439a41e440124ef9d0c5cb422971b3f48
+tags:
+  0.2.2--py27_0: sha256:b44376ed8aca3c51136278e1025e97d439a41e440124ef9d0c5cb422971b3f48
+docker: quay.io/biocontainers/pysvg

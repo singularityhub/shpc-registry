@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/trnanalysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trnanalysis
+latest:
+  0.1.9--py_0: sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8
+tags:
+  0.1.9--py_0: sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8
+docker: quay.io/biocontainers/trnanalysis
+aliases:
+  cgat: /usr/local/bin/cgat
+  detectionCall: /usr/local/bin/detectionCall
+  exactSNP: /usr/local/bin/exactSNP
+  fastq_screen: /usr/local/bin/fastq_screen
+  featureCounts: /usr/local/bin/featureCounts
+  flattenGTF: /usr/local/bin/flattenGTF
+  genRandomReads: /usr/local/bin/genRandomReads
+  propmapped: /usr/local/bin/propmapped
+  qualityScores: /usr/local/bin/qualityScores
+  removeDup: /usr/local/bin/removeDup
+  repair: /usr/local/bin/repair
+  subindel: /usr/local/bin/subindel
+  subjunc: /usr/local/bin/subjunc
+  sublong: /usr/local/bin/sublong
+  subread-align: /usr/local/bin/subread-align
+  subread-buildindex: /usr/local/bin/subread-buildindex
+  subread-fullscan: /usr/local/bin/subread-fullscan
+  trnanalysis: /usr/local/bin/trnanalysis
+  txUnique: /usr/local/bin/txUnique

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/oncofuse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for oncofuse
+latest:
+  1.1.1--hdfd78af_2: sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7
+tags:
+  1.1.1--hdfd78af_2: sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7
+docker: quay.io/biocontainers/oncofuse
+aliases:
+  oncofuse: /usr/local/bin/oncofuse

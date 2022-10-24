@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mccortex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mccortex
+latest:
+  1.0--hd03093a_5: sha256:21b784cc4ff2cef9ff84aa966fc88b0f496d763cbfe3e6cd406ac59eccb980a0
+tags:
+  1.0--hd03093a_5: sha256:21b784cc4ff2cef9ff84aa966fc88b0f496d763cbfe3e6cd406ac59eccb980a0
+docker: quay.io/biocontainers/mccortex
+aliases:
+  mccortex: /usr/local/bin/mccortex
+  mccortex127: /usr/local/bin/mccortex127
+  mccortex31: /usr/local/bin/mccortex31
+  mccortex63: /usr/local/bin/mccortex63
+  mccortex95: /usr/local/bin/mccortex95

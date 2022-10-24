@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rimmport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rimmport
+latest:
+  1.8.0--r341_0: sha256:519064578fd2c8c6f964338cc090ab98ef8c868622ca6ea54e60604ebaf07e11
+tags:
+  1.8.0--r341_0: sha256:519064578fd2c8c6f964338cc090ab98ef8c868622ca6ea54e60604ebaf07e11
+docker: quay.io/biocontainers/bioconductor-rimmport

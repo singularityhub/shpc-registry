@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-edaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-edaseq
+latest:
+  2.8.0--r3.4.1_0: sha256:1f12d27572ba0ee2852930224e8029d8da9e97afd4f79bc034bda7d55fc47594
+tags:
+  2.8.0--r3.4.1_0: sha256:1f12d27572ba0ee2852930224e8029d8da9e97afd4f79bc034bda7d55fc47594
+docker: quay.io/biocontainers/bioconductor-edaseq

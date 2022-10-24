@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-manor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-manor
+latest:
+  1.66.0--r41hc0cfd56_2: sha256:79b8ef18b7fd494c5d00b545db7ae3acd8795a8d04dce7c1f2f82edb5dabc7b5
+tags:
+  1.66.0--r41hc0cfd56_2: sha256:79b8ef18b7fd494c5d00b545db7ae3acd8795a8d04dce7c1f2f82edb5dabc7b5
+docker: quay.io/biocontainers/bioconductor-manor

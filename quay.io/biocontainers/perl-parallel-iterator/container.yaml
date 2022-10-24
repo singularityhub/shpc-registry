@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-parallel-iterator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-parallel-iterator
+latest:
+  1.00--pl5321hdfd78af_1: sha256:a5de0d3aa9a23c89b052264857668d3daa8e01814b889288aedf5387a3c9f64a
+tags:
+  1.00--pl5321hdfd78af_1: sha256:a5de0d3aa9a23c89b052264857668d3daa8e01814b889288aedf5387a3c9f64a
+docker: quay.io/biocontainers/perl-parallel-iterator

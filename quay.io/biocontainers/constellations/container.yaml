@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/constellations
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for constellations
+latest:
+  0.1.9--pyh5e36f6f_0: sha256:1a9a999b0b2ffb81ca3a5cd5ae5d8097fa0cbd19c19cae54729bb8b9f6b1d73f
+tags:
+  0.1.9--pyh5e36f6f_0: sha256:1a9a999b0b2ffb81ca3a5cd5ae5d8097fa0cbd19c19cae54729bb8b9f6b1d73f
+docker: quay.io/biocontainers/constellations
+aliases:
+  constellations: /usr/local/bin/constellations

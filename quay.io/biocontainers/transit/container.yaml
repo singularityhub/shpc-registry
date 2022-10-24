@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/transit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transit
+latest:
+  3.2.3--pyhdfd78af_0: sha256:423dd80c1ec97b4aa09a4f9c50bf7e038f6ad069e5a64fd51971f55168f6ee0a
+tags:
+  3.2.3--pyhdfd78af_0: sha256:423dd80c1ec97b4aa09a4f9c50bf7e038f6ad069e5a64fd51971f55168f6ee0a
+docker: quay.io/biocontainers/transit
+aliases:
+  tpp: /usr/local/bin/tpp
+  transit: /usr/local/bin/transit

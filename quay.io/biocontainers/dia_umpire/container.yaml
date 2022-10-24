@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/dia_umpire
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dia_umpire
+latest:
+  2.1.6--hdfd78af_1: sha256:34c7ced7b14fae1bacebc926e9f86eda4081aa3dbbb62a05be04e8f4dda27220
+tags:
+  2.1.6--hdfd78af_1: sha256:34c7ced7b14fae1bacebc926e9f86eda4081aa3dbbb62a05be04e8f4dda27220
+docker: quay.io/biocontainers/dia_umpire
+aliases:
+  dia_umpire_quant: /usr/local/bin/dia_umpire_quant
+  dia_umpire_se: /usr/local/bin/dia_umpire_se

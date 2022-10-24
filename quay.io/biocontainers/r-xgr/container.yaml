@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-xgr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-xgr
+latest:
+  1.1.7--r41h3342da4_3: sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9
+tags:
+  1.1.7--r41h3342da4_3: sha256:d8b3e36d06c43a0364ad83a1c82605673e178ecf8e2d03b8c9a0be424f9745d9
+docker: quay.io/biocontainers/r-xgr

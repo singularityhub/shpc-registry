@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fastobo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastobo
+latest:
+  0.9.3--py37hfa133b6_0: sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd
+tags:
+  0.9.3--py37hfa133b6_0: sha256:198362f9416f7adef5678bf2cc4da2c9807c0ba5e1affdb8b71339157089cacd
+docker: quay.io/biocontainers/fastobo

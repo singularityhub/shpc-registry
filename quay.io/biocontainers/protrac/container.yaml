@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/protrac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for protrac
+latest:
+  2.4.2--pl5321hdfd78af_3: sha256:b5ac9c1655f235537a52b840120f8b0d7c715b3996b6548370d21091213a3cc8
+tags:
+  2.4.2--pl5321hdfd78af_3: sha256:b5ac9c1655f235537a52b840120f8b0d7c715b3996b6548370d21091213a3cc8
+docker: quay.io/biocontainers/protrac
+aliases:
+  bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
+  cvtbdf.pl: /usr/local/bin/cvtbdf.pl
+  proTRAC_2.4.2.pl: /usr/local/bin/proTRAC_2.4.2.pl

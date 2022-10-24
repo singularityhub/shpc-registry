@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-variantannotation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-variantannotation
+latest:
+  1.40.0--r41hc0cfd56_2: sha256:eeccbb621feb9bcdf9b55a02834d9f62ffd3909f4509e2defb0f8d1f5bb22dad
+tags:
+  1.40.0--r41hc0cfd56_2: sha256:eeccbb621feb9bcdf9b55a02834d9f62ffd3909f4509e2defb0f8d1f5bb22dad
+docker: quay.io/biocontainers/bioconductor-variantannotation

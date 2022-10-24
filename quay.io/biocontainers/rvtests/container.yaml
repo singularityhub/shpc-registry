@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/rvtests
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rvtests
+latest:
+  2.0.7--h3d151dd_2: sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf
+tags:
+  2.0.7--h3d151dd_2: sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf
+docker: quay.io/biocontainers/rvtests
+aliases:
+  bgen2vcf: /usr/local/bin/bgen2vcf
+  bgenFileInfo: /usr/local/bin/bgenFileInfo
+  combineKinship: /usr/local/bin/combineKinship
+  kinshipDecompose: /usr/local/bin/kinshipDecompose
+  plink2vcf: /usr/local/bin/plink2vcf
+  rvtest: /usr/local/bin/rvtest
+  vcf2geno: /usr/local/bin/vcf2geno
+  vcf2kinship: /usr/local/bin/vcf2kinship
+  vcf2ld_gene: /usr/local/bin/vcf2ld_gene
+  vcf2ld_neighbor: /usr/local/bin/vcf2ld_neighbor
+  vcf2ld_window: /usr/local/bin/vcf2ld_window
+  vcf2plink: /usr/local/bin/vcf2plink
+  vcfAnnoSummaryLite: /usr/local/bin/vcfAnnoSummaryLite
+  vcfConcordance: /usr/local/bin/vcfConcordance
+  vcfExtractSite: /usr/local/bin/vcfExtractSite
+  vcfIndvSummary: /usr/local/bin/vcfIndvSummary
+  vcfPair: /usr/local/bin/vcfPair
+  vcfPeek: /usr/local/bin/vcfPeek
+  vcfSummary: /usr/local/bin/vcfSummary
+  vcfSummaryLite: /usr/local/bin/vcfSummaryLite
+  vcfVariantSummaryLite: /usr/local/bin/vcfVariantSummaryLite

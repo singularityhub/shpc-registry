@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pctgcdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pctgcdata
+latest:
+  0.3.0--r41h9ee0642_2: sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991
+tags:
+  0.3.0--r41h9ee0642_2: sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991
+docker: quay.io/biocontainers/r-pctgcdata

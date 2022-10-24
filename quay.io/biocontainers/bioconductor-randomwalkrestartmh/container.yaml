@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-randomwalkrestartmh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-randomwalkrestartmh
+latest:
+  1.8.0--r40_0: sha256:ca30d1da0f7ca3958de90b0f7813d1f0170adaf8368e308493d4eeb01cb8c269
+tags:
+  1.8.0--r40_0: sha256:ca30d1da0f7ca3958de90b0f7813d1f0170adaf8368e308493d4eeb01cb8c269
+docker: quay.io/biocontainers/bioconductor-randomwalkrestartmh

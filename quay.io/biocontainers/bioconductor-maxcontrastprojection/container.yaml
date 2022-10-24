@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-maxcontrastprojection
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection
+latest:
+  1.8.0--r36_1: sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3
+tags:
+  1.8.0--r36_1: sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3
+docker: quay.io/biocontainers/bioconductor-maxcontrastprojection

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/maxentpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for maxentpy
+latest:
+  0.02--py39hbf8eff0_1: sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d
+tags:
+  0.02--py39hbf8eff0_1: sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d
+docker: quay.io/biocontainers/maxentpy

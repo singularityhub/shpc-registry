@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/taxsbp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taxsbp
+latest:
+  1.1.1--py_0: sha256:9080e25d7e311d9ec7c30cb9b4c0a7cf7da9c3d1bc6378144e8f0494d07c258d
+tags:
+  1.1.1--py_0: sha256:9080e25d7e311d9ec7c30cb9b4c0a7cf7da9c3d1bc6378144e8f0494d07c258d
+docker: quay.io/biocontainers/taxsbp
+aliases:
+  binpacking: /usr/local/bin/binpacking
+  taxsbp: /usr/local/bin/taxsbp

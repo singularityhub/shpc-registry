@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-recountmethylation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-recountmethylation
+latest:
+  1.4.0--r41hdfd78af_0: sha256:a91cc6110f30e15d79f593e2fe231450b57e31c3e15fc8c1b171f476428d08b3
+tags:
+  1.4.0--r41hdfd78af_0: sha256:a91cc6110f30e15d79f593e2fe231450b57e31c3e15fc8c1b171f476428d08b3
+docker: quay.io/biocontainers/bioconductor-recountmethylation

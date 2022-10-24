@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sponge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sponge
+latest:
+  1.8.0--r36_0: sha256:4b049d2aa308b959da922bb979401739b2c6d47944f6281f586ca378ff9972ce
+tags:
+  1.8.0--r36_0: sha256:4b049d2aa308b959da922bb979401739b2c6d47944f6281f586ca378ff9972ce
+docker: quay.io/biocontainers/bioconductor-sponge

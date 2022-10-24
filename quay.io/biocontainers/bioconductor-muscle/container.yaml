@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-muscle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-muscle
+latest:
+  3.36.0--r41hc247a5b_2: sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57
+tags:
+  3.36.0--r41hc247a5b_2: sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57
+docker: quay.io/biocontainers/bioconductor-muscle

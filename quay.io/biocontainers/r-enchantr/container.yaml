@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-enchantr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-enchantr
+latest:
+  0.0.1--r41hdfd78af_0: sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994
+tags:
+  0.0.1--r41hdfd78af_0: sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994
+docker: quay.io/biocontainers/r-enchantr

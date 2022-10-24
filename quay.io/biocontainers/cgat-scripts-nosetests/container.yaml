@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/cgat-scripts-nosetests
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgat-scripts-nosetests
+latest:
+  0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
+tags:
+  0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
+docker: quay.io/biocontainers/cgat-scripts-nosetests
+aliases:
+  msql2mysql: /usr/local/bin/msql2mysql
+  mysql_client_test: /usr/local/bin/mysql_client_test
+  mysql_convert_table_format: /usr/local/bin/mysql_convert_table_format
+  mysql_find_rows: /usr/local/bin/mysql_find_rows
+  mysql_fix_extensions: /usr/local/bin/mysql_fix_extensions
+  mysql_plugin: /usr/local/bin/mysql_plugin
+  mysql_setpermission: /usr/local/bin/mysql_setpermission
+  mysql_waitpid: /usr/local/bin/mysql_waitpid
+  mysql_zap: /usr/local/bin/mysql_zap
+  mysqlaccess: /usr/local/bin/mysqlaccess
+  mysqlaccess.conf: /usr/local/bin/mysqlaccess.conf
+  mysqlbug: /usr/local/bin/mysqlbug
+  mysqlhotcopy: /usr/local/bin/mysqlhotcopy
+  mysqltest: /usr/local/bin/mysqltest
+  pep8: /usr/local/bin/pep8
+  replace: /usr/local/bin/replace
+  resolve_stack_dump: /usr/local/bin/resolve_stack_dump
+  resolveip: /usr/local/bin/resolveip

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/setsimilaritysearch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for setsimilaritysearch
+latest:
+  1.0.0: sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320
+tags:
+  1.0.0: sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320
+docker: quay.io/biocontainers/setsimilaritysearch
+aliases:
+  all_pairs.py: /usr/local/bin/all_pairs.py

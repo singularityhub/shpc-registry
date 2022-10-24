@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hecatomb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hecatomb
+latest:
+  1.1.0--hdfd78af_0: sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05
+tags:
+  1.1.0--hdfd78af_0: sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05
+docker: quay.io/biocontainers/hecatomb
+aliases:
+  hecatomb: /usr/local/bin/hecatomb

@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/phylip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylip
+latest:
+  3.697--h470a237_0: sha256:2cc601d6ec626d6f5bb9da16d3bffd735f5acc84189424bfb96aad72e6d63796
+tags:
+  3.697--h470a237_0: sha256:2cc601d6ec626d6f5bb9da16d3bffd735f5acc84189424bfb96aad72e6d63796
+docker: quay.io/biocontainers/phylip
+aliases:
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  clique: /usr/local/bin/clique
+  consense: /usr/local/bin/consense
+  contml: /usr/local/bin/contml
+  contrast: /usr/local/bin/contrast
+  dnacomp: /usr/local/bin/dnacomp
+  dnadist: /usr/local/bin/dnadist
+  dnainvar: /usr/local/bin/dnainvar
+  dnaml: /usr/local/bin/dnaml
+  dnamlk: /usr/local/bin/dnamlk
+  dnamove: /usr/local/bin/dnamove
+  dnapars: /usr/local/bin/dnapars
+  dnapenny: /usr/local/bin/dnapenny
+  dollop: /usr/local/bin/dollop
+  dolmove: /usr/local/bin/dolmove
+  dolpenny: /usr/local/bin/dolpenny
+  drawgram: /usr/local/bin/drawgram
+  drawgram_gui: /usr/local/bin/drawgram_gui
+  drawtree: /usr/local/bin/drawtree
+  drawtree_gui: /usr/local/bin/drawtree_gui
+  fitch: /usr/local/bin/fitch
+  gendist: /usr/local/bin/gendist
+  kitsch: /usr/local/bin/kitsch
+  libdrawgram.so: /usr/local/bin/libdrawgram.so
+  libdrawtree.so: /usr/local/bin/libdrawtree.so
+  mix: /usr/local/bin/mix
+  move: /usr/local/bin/move
+  neighbor: /usr/local/bin/neighbor
+  pars: /usr/local/bin/pars
+  penny: /usr/local/bin/penny
+  phylip: /usr/local/bin/phylip
+  proml: /usr/local/bin/proml
+  promlk: /usr/local/bin/promlk
+  protdist: /usr/local/bin/protdist
+  protpars: /usr/local/bin/protpars
+  restdist: /usr/local/bin/restdist
+  restml: /usr/local/bin/restml
+  retree: /usr/local/bin/retree
+  seqboot: /usr/local/bin/seqboot
+  treedist: /usr/local/bin/treedist

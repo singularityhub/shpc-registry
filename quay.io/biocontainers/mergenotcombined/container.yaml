@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mergenotcombined
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mergenotcombined
+latest:
+  1.0--h87f3376_2: sha256:db3e59a02f099381846ddd92659d9a408fb75e301f1b3c8ee3d6061092915582
+tags:
+  1.0--h87f3376_2: sha256:db3e59a02f099381846ddd92659d9a408fb75e301f1b3c8ee3d6061092915582
+docker: quay.io/biocontainers/mergenotcombined
+aliases:
+  mergeNotCombined: /usr/local/bin/mergeNotCombined

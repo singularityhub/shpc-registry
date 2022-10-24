@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fastq-dl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastq-dl
+latest:
+  1.1.1--hdfd78af_0: sha256:6fdff94f1566200bf2b37f354aa3ceba5075e893f85e3eca2581197cdbd7d72b
+tags:
+  1.1.1--hdfd78af_0: sha256:6fdff94f1566200bf2b37f354aa3ceba5075e893f85e3eca2581197cdbd7d72b
+docker: quay.io/biocontainers/fastq-dl
+aliases:
+  executor: /usr/local/bin/executor
+  fastq-dl: /usr/local/bin/fastq-dl

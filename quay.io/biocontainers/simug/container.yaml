@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/simug
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simug
+latest:
+  1.0.0--hdfd78af_1: sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f
+tags:
+  1.0.0--hdfd78af_1: sha256:ac29c7be10235b0c30c524bf5cceba9906a5f886aa250b0c40a2b189c6013d7f
+docker: quay.io/biocontainers/simug
+aliases:
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  simuG: /usr/local/bin/simuG
+  uncompress: /usr/local/bin/uncompress
+  vcf2model: /usr/local/bin/vcf2model
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zless: /usr/local/bin/zless
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew

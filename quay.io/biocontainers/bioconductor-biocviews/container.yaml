@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocviews
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocviews
+latest:
+  1.62.0--r41hdfd78af_0: sha256:3825d548e52e5c2570887f5ff4bb6dae3f004cab993e7f30fb0de43ff7164833
+tags:
+  1.62.0--r41hdfd78af_0: sha256:3825d548e52e5c2570887f5ff4bb6dae3f004cab993e7f30fb0de43ff7164833
+docker: quay.io/biocontainers/bioconductor-biocviews

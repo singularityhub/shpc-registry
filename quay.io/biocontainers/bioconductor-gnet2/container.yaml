@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gnet2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gnet2
+latest:
+  1.8.0--r41h399db7b_0: sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12
+tags:
+  1.8.0--r41h399db7b_0: sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12
+docker: quay.io/biocontainers/bioconductor-gnet2

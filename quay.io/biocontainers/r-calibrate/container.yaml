@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-calibrate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-calibrate
+latest:
+  1.7.2--r3.2.2_0: sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc
+tags:
+  1.7.2--r3.2.2_0: sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc
+docker: quay.io/biocontainers/r-calibrate

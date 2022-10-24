@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-spp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-spp
+latest:
+  1.16.0--r41hecf12ef_6: sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a
+tags:
+  1.16.0--r41hecf12ef_6: sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a
+docker: quay.io/biocontainers/r-spp

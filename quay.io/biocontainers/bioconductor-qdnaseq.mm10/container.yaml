@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-qdnaseq.mm10
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qdnaseq.mm10
+latest:
+  1.8.0--r3.4.1_1: sha256:2319f74bf0c920e325209e96b8ec4af6ddb01ae8642d8ce07248251722d19de7
+tags:
+  1.8.0--r3.4.1_1: sha256:2319f74bf0c920e325209e96b8ec4af6ddb01ae8642d8ce07248251722d19de7
+docker: quay.io/biocontainers/bioconductor-qdnaseq.mm10
+aliases:
+  .bioconductor-qdnaseq.mm10-post-link.sh: /usr/local/bin/.bioconductor-qdnaseq.mm10-post-link.sh
+  .bioconductor-qdnaseq.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-qdnaseq.mm10-pre-unlink.sh

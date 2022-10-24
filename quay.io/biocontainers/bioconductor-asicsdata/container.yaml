@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-asicsdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-asicsdata
+latest:
+  1.8.0--r40_0: sha256:51be5dff203b0d988470541e9809b84d1e007084bf57392170aa3a562002c1f1
+tags:
+  1.8.0--r40_0: sha256:51be5dff203b0d988470541e9809b84d1e007084bf57392170aa3a562002c1f1
+docker: quay.io/biocontainers/bioconductor-asicsdata
+aliases:
+  .bioconductor-asicsdata-post-link.sh: /usr/local/bin/.bioconductor-asicsdata-post-link.sh
+  .bioconductor-asicsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-asicsdata-pre-unlink.sh

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicstate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicstate
+latest:
+  0.99.9--r41hdfd78af_3: sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2
+tags:
+  0.99.9--r41hdfd78af_3: sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2
+docker: quay.io/biocontainers/bioconductor-genomicstate
+aliases:
+  .bioconductor-genomicstate-post-link.sh: /usr/local/bin/.bioconductor-genomicstate-post-link.sh
+  .bioconductor-genomicstate-pre-unlink.sh: /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh

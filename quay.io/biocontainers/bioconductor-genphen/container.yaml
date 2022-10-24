@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genphen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genphen
+latest:
+  1.22.0--r41hc247a5b_2: sha256:53a4c5dd6cf842480aa6de14bdbb9bf1e3100b463689658df97ec618d38b1b0a
+tags:
+  1.22.0--r41hc247a5b_2: sha256:53a4c5dd6cf842480aa6de14bdbb9bf1e3100b463689658df97ec618d38b1b0a
+docker: quay.io/biocontainers/bioconductor-genphen

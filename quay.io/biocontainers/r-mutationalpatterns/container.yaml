@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mutationalpatterns
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mutationalpatterns
+latest:
+  0.2b--r3.4.1_0: sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863
+tags:
+  0.2b--r3.4.1_0: sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863
+docker: quay.io/biocontainers/r-mutationalpatterns

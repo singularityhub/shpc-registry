@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/defiant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for defiant
+latest:
+  1.1.4--hec16e2b_3: sha256:6c2b5f1d6afac379a6ca33dee5b9d87cbb8b1418a3a481f5ccd069e1f9769f5e
+tags:
+  1.1.4--hec16e2b_3: sha256:6c2b5f1d6afac379a6ca33dee5b9d87cbb8b1418a3a481f5ccd069e1f9769f5e
+docker: quay.io/biocontainers/defiant
+aliases:
+  defiant: /usr/local/bin/defiant
+  roi: /usr/local/bin/roi

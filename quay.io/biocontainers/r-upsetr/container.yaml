@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-upsetr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-upsetr
+latest:
+  1.0.3--r3.3.1_1: sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531
+tags:
+  1.0.3--r3.3.1_1: sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531
+docker: quay.io/biocontainers/r-upsetr

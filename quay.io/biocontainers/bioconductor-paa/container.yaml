@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-paa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-paa
+latest:
+  1.28.0--r41hc247a5b_2: sha256:29a2e4487e4a186a36100af63c530bd23c19f4bf3501fe1558b96c3608475e39
+tags:
+  1.28.0--r41hc247a5b_2: sha256:29a2e4487e4a186a36100af63c530bd23c19f4bf3501fe1558b96c3608475e39
+docker: quay.io/biocontainers/bioconductor-paa

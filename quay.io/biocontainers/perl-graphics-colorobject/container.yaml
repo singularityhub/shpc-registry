@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-graphics-colorobject
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-graphics-colorobject
+latest:
+  0.5.0--pl5321hdfd78af_2: sha256:20a2508bfe2bbc2dc671830a538834bf1fea7cd2674c33f667239afd1c0a88e1
+tags:
+  0.5.0--pl5321hdfd78af_2: sha256:20a2508bfe2bbc2dc671830a538834bf1fea7cd2674c33f667239afd1c0a88e1
+docker: quay.io/biocontainers/perl-graphics-colorobject

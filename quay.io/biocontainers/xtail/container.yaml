@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xtail
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xtail
+latest:
+  1.1.5--r40_4: sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928
+tags:
+  1.1.5--r40_4: sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928
+docker: quay.io/biocontainers/xtail

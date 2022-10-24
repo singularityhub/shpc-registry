@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pegas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pegas
+latest:
+  0.11--r351h96ca727_2: sha256:6a6232f68f8f0bdd9c6d697c815bd2f458f79ce7c478060e02df397e38011e65
+tags:
+  0.11--r351h96ca727_2: sha256:6a6232f68f8f0bdd9c6d697c815bd2f458f79ce7c478060e02df397e38011e65
+docker: quay.io/biocontainers/r-pegas

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-buscorrect
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-buscorrect
+latest:
+  1.8.0--r40hd029910_1: sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38
+tags:
+  1.8.0--r40hd029910_1: sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38
+docker: quay.io/biocontainers/bioconductor-buscorrect

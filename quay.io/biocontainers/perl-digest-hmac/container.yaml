@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-digest-hmac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-digest-hmac
+latest:
+  1.04--pl5321hdfd78af_0: sha256:6265d28a02dcb3511a0a0019757cb8b2ba7ee2dbe48cc5820a5a5d6e6ab92a74
+tags:
+  1.04--pl5321hdfd78af_0: sha256:6265d28a02dcb3511a0a0019757cb8b2ba7ee2dbe48cc5820a5a5d6e6ab92a74
+docker: quay.io/biocontainers/perl-digest-hmac

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clusterprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clusterprofiler
+latest:
+  4.2.0--r41hdfd78af_0: sha256:44d80bdac4b4241fa90788f2ff5ab6dc5f8b3e8707000692759ad6bb515f15e8
+tags:
+  4.2.0--r41hdfd78af_0: sha256:44d80bdac4b4241fa90788f2ff5ab6dc5f8b3e8707000692759ad6bb515f15e8
+docker: quay.io/biocontainers/bioconductor-clusterprofiler

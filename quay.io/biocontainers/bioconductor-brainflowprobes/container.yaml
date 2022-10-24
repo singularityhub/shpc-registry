@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-brainflowprobes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-brainflowprobes
+latest:
+  1.8.0--r41hdfd78af_0: sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341
+tags:
+  1.8.0--r41hdfd78af_0: sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341
+docker: quay.io/biocontainers/bioconductor-brainflowprobes
+aliases:
+  .bioconductor-genomicstate-post-link.sh: /usr/local/bin/.bioconductor-genomicstate-post-link.sh
+  .bioconductor-genomicstate-pre-unlink.sh: /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nbamseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nbamseq
+latest:
+  1.8.0--r41hdfd78af_0: sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8
+tags:
+  1.8.0--r41hdfd78af_0: sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8
+docker: quay.io/biocontainers/bioconductor-nbamseq

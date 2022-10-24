@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-opweight
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-opweight
+latest:
+  1.8.0--r36_0: sha256:82bbc0f5dc5f807fb0013ed5ba433a63b41b5ae93587f3e27241269da80b8bb6
+tags:
+  1.8.0--r36_0: sha256:82bbc0f5dc5f807fb0013ed5ba433a63b41b5ae93587f3e27241269da80b8bb6
+docker: quay.io/biocontainers/bioconductor-opweight

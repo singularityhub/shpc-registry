@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/emmix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emmix
+latest:
+  1.3--he991be0_4: sha256:99ae966276f246c47e5323b54af95577572a662efff6ee912356c0e83a7e5293
+tags:
+  1.3--he991be0_4: sha256:99ae966276f246c47e5323b54af95577572a662efff6ee912356c0e83a7e5293
+docker: quay.io/biocontainers/emmix
+aliases:
+  EMMIX: /usr/local/bin/EMMIX

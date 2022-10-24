@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-db-refseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-db-refseq
+latest:
+  1.7.4--pl5321hdfd78af_0: sha256:b2e466d94359b49206c73793516fa2cc0f295eb854a424df2559d1a1b93cc889
+tags:
+  1.7.4--pl5321hdfd78af_0: sha256:b2e466d94359b49206c73793516fa2cc0f295eb854a424df2559d1a1b93cc889
+docker: quay.io/biocontainers/perl-bio-db-refseq

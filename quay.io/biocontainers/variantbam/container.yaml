@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/variantbam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for variantbam
+latest:
+  1.4.4a--h468198e_6: sha256:9df194aa4587d56ce8ece6926ade793be0095947f7a7c3e791b1969a295422cd
+tags:
+  1.4.4a--h468198e_6: sha256:9df194aa4587d56ce8ece6926ade793be0095947f7a7c3e791b1969a295422cd
+docker: quay.io/biocontainers/variantbam
+aliases:
+  variant: /usr/local/bin/variant

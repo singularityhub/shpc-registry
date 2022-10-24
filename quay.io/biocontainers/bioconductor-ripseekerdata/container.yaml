@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ripseekerdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ripseekerdata
+latest:
+  1.22.0--r36_0: sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa
+tags:
+  1.22.0--r36_0: sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa
+docker: quay.io/biocontainers/bioconductor-ripseekerdata
+aliases:
+  .bioconductor-ripseekerdata-post-link.sh: /usr/local/bin/.bioconductor-ripseekerdata-post-link.sh
+  .bioconductor-ripseekerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ripseekerdata-pre-unlink.sh

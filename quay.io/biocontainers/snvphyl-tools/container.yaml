@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/snvphyl-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snvphyl-tools
+latest:
+  1.8.2--pl5321hec16e2b_7: sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9
+tags:
+  1.8.2--pl5321hec16e2b_7: sha256:fe1f048582277dc804e194a3dab05e8e7f1286478b04d01af204733932d8cca9
+docker: quay.io/biocontainers/snvphyl-tools
+aliases:
+  consolidate_vcfs.pl: /usr/local/bin/consolidate_vcfs.pl
+  core-only.pl: /usr/local/bin/core-only.pl
+  extract_snvs_metaalign.pl: /usr/local/bin/extract_snvs_metaalign.pl
+  filter-positions.pl: /usr/local/bin/filter-positions.pl
+  filter-stats.pl: /usr/local/bin/filter-stats.pl
+  filterVcf.pl: /usr/local/bin/filterVcf.pl
+  filter_unique_basepairs.pl: /usr/local/bin/filter_unique_basepairs.pl
+  find-positions-used.pl: /usr/local/bin/find-positions-used.pl
+  find-repeats.pl: /usr/local/bin/find-repeats.pl
+  positions2phyloviz.pl: /usr/local/bin/positions2phyloviz.pl
+  positions2snv_alignment.pl: /usr/local/bin/positions2snv_alignment.pl
+  positions2snv_invariant_alignment.pl: /usr/local/bin/positions2snv_invariant_alignment.pl
+  rearrange_snv_matrix.pl: /usr/local/bin/rearrange_snv_matrix.pl
+  ref_stats.pl: /usr/local/bin/ref_stats.pl
+  reporter.pl: /usr/local/bin/reporter.pl
+  snv_matrix.pl: /usr/local/bin/snv_matrix.pl
+  tsvToVcf.pl: /usr/local/bin/tsvToVcf.pl
+  vcf2snv_alignment.pl: /usr/local/bin/vcf2snv_alignment.pl
+  vcftools: /usr/local/bin/vcftools
+  verify_excess_coverage.pl: /usr/local/bin/verify_excess_coverage.pl
+  verify_low_depth.pl: /usr/local/bin/verify_low_depth.pl
+  verify_mapping_quality.pl: /usr/local/bin/verify_mapping_quality.pl

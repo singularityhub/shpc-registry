@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-touch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-touch
+latest:
+  0.12--pl5321hdfd78af_0: sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5
+tags:
+  0.12--pl5321hdfd78af_0: sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5
+docker: quay.io/biocontainers/perl-file-touch

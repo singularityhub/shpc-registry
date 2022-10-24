@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-supersigs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-supersigs
+latest:
+  1.2.0--r41hdfd78af_0: sha256:3c453a37d59073085c8047a525f327c33aa15c8b62f7af9a7d3d284295846c99
+tags:
+  1.2.0--r41hdfd78af_0: sha256:3c453a37d59073085c8047a525f327c33aa15c8b62f7af9a7d3d284295846c99
+docker: quay.io/biocontainers/bioconductor-supersigs

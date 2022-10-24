@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-seqsetvis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-seqsetvis
+latest:
+  1.8.0--r40_0: sha256:c33f5ad4a8ef12fa9e03f53a2c8ebea7bd85d72a59e024ad5984b975d0341b94
+tags:
+  1.8.0--r40_0: sha256:c33f5ad4a8ef12fa9e03f53a2c8ebea7bd85d72a59e024ad5984b975d0341b94
+docker: quay.io/biocontainers/bioconductor-seqsetvis

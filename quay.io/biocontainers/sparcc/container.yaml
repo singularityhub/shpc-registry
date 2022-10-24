@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/sparcc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sparcc
+latest:
+  0.1.0--0: sha256:903a25a57b8360a0293601350420c8f13fcb043eacf5b3ecc7d9d25a9be05804
+tags:
+  0.1.0--0: sha256:903a25a57b8360a0293601350420c8f13fcb043eacf5b3ecc7d9d25a9be05804
+docker: quay.io/biocontainers/sparcc
+aliases:
+  Lineages.py: /usr/local/bin/Lineages.py
+  MakeBootstraps.py: /usr/local/bin/MakeBootstraps.py
+  PseudoPvals.py: /usr/local/bin/PseudoPvals.py
+  SampleDist.py: /usr/local/bin/SampleDist.py
+  SparCC.py: /usr/local/bin/SparCC.py
+  analysis_methods.py: /usr/local/bin/analysis_methods.py
+  compositional_methods.py: /usr/local/bin/compositional_methods.py
+  core_methods.py: /usr/local/bin/core_methods.py
+  io_methods.py: /usr/local/bin/io_methods.py

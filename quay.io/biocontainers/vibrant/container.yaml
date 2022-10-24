@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/vibrant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vibrant
+latest:
+  1.2.1--hdfd78af_2: sha256:12d656f306c195b53ef653dd42c2d3558abdb835710112840d62d7c25aa62530
+tags:
+  1.2.1--hdfd78af_2: sha256:12d656f306c195b53ef653dd42c2d3558abdb835710112840d62d7c25aa62530
+docker: quay.io/biocontainers/vibrant
+aliases:
+  .vibrant-post-link.sh: /usr/local/bin/.vibrant-post-link.sh
+  VIBRANT_annotation.py: /usr/local/bin/VIBRANT_annotation.py
+  VIBRANT_extract_nucleotide.py: /usr/local/bin/VIBRANT_extract_nucleotide.py
+  VIBRANT_extract_protein.py: /usr/local/bin/VIBRANT_extract_protein.py
+  VIBRANT_run.py: /usr/local/bin/VIBRANT_run.py
+  download-db.sh: /usr/local/bin/download-db.sh

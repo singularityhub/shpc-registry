@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/bamtocov
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamtocov
+latest:
+  2.7.0--hbd632db_1: sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8
+tags:
+  2.7.0--hbd632db_1: sha256:adaf35c67d230809d289ee9efee15906fbcb62b9e39c3aadb631e70e54f648d8
+docker: quay.io/biocontainers/bamtocov
+aliases:
+  average-coverage.py: /usr/local/bin/average-coverage.py
+  bamcountrefs: /usr/local/bin/bamcountrefs
+  bamtarget: /usr/local/bin/bamtarget
+  bamtocounts: /usr/local/bin/bamtocounts
+  bamtocov: /usr/local/bin/bamtocov
+  comparecounts.py: /usr/local/bin/comparecounts.py
+  covToWig.py: /usr/local/bin/covToWig.py
+  covtotarget: /usr/local/bin/covtotarget
+  feat-counts.py: /usr/local/bin/feat-counts.py
+  gff2bed.py: /usr/local/bin/gff2bed.py
+  low-cov-multisample.py: /usr/local/bin/low-cov-multisample.py
+  make-target-from-bam.py: /usr/local/bin/make-target-from-bam.py
+  prokka-annotation-refupdate.py: /usr/local/bin/prokka-annotation-refupdate.py
+  strip-seq-from-bam.py: /usr/local/bin/strip-seq-from-bam.py

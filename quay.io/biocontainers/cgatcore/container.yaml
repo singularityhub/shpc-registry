@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cgatcore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgatcore
+latest:
+  0.6.9--pyhdfd78af_0: sha256:baa5e4618d6c36e5a7764593addd1c5fc1aca45e8537f4dae7b67430492aafb4
+tags:
+  0.6.9--pyhdfd78af_0: sha256:baa5e4618d6c36e5a7764593addd1c5fc1aca45e8537f4dae7b67430492aafb4
+docker: quay.io/biocontainers/cgatcore
+aliases:
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  time: /usr/local/bin/time

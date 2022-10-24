@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-script
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-script
+latest:
+  1.29--pl5321hdfd78af_0: sha256:0ba5271fd111359586ac057f9a5562aa945ceca3a7143f58e86c99b6c4d5355e
+tags:
+  1.29--pl5321hdfd78af_0: sha256:0ba5271fd111359586ac057f9a5562aa945ceca3a7143f58e86c99b6c4d5355e
+docker: quay.io/biocontainers/perl-test-script

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bsseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bsseq
+latest:
+  1.30.0--r41hc247a5b_2: sha256:0aaef682fbbd002a38cacaa6efca9e4e4c1daaa23508b2888fdd942a120dbf7a
+tags:
+  1.30.0--r41hc247a5b_2: sha256:0aaef682fbbd002a38cacaa6efca9e4e4c1daaa23508b2888fdd942a120dbf7a
+docker: quay.io/biocontainers/bioconductor-bsseq

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/arcs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for arcs
+latest:
+  1.2.4--h7ff8a90_1: sha256:7f7df36477d38e2d91073cf65ddc75f166a5b524c345cd21e227250b96be1f08
+tags:
+  1.2.4--h7ff8a90_1: sha256:7f7df36477d38e2d91073cf65ddc75f166a5b524c345cd21e227250b96be1f08
+docker: quay.io/biocontainers/arcs
+aliases:
+  arcs: /usr/local/bin/arcs
+  arcs-make: /usr/local/bin/arcs-make
+  long-to-linked-pe: /usr/local/bin/long-to-linked-pe

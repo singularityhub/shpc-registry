@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-msqc1
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msqc1
+latest:
+  1.22.0--r41hdfd78af_1: sha256:5d83c51e814c32c9df09bb08621dd6acac192f8d1052db3bb16ca4dff5efca2c
+tags:
+  1.22.0--r41hdfd78af_1: sha256:5d83c51e814c32c9df09bb08621dd6acac192f8d1052db3bb16ca4dff5efca2c
+docker: quay.io/biocontainers/bioconductor-msqc1
+aliases:
+  .bioconductor-msqc1-post-link.sh: /usr/local/bin/.bioconductor-msqc1-post-link.sh
+  .bioconductor-msqc1-pre-unlink.sh: /usr/local/bin/.bioconductor-msqc1-pre-unlink.sh

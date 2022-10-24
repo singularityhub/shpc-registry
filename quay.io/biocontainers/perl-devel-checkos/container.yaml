@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-devel-checkos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-checkos
+latest:
+  1.81--pl5321hdfd78af_1: sha256:41d5647e499a078c3e1f0bdd64914d9bdd87740d74196abdd8feb6f7cca101c5
+tags:
+  1.81--pl5321hdfd78af_1: sha256:41d5647e499a078c3e1f0bdd64914d9bdd87740d74196abdd8feb6f7cca101c5
+docker: quay.io/biocontainers/perl-devel-checkos
+aliases:
+  use-devel-assertos: /usr/local/bin/use-devel-assertos

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/islandpath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for islandpath
+latest:
+  1.0.6--hdfd78af_0: sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17
+tags:
+  1.0.6--hdfd78af_0: sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17
+docker: quay.io/biocontainers/islandpath
+aliases:
+  islandpath: /usr/local/bin/islandpath

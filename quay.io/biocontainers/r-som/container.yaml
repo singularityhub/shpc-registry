@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-som
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-som
+latest:
+  0.3_5.1--r3.3.1_0: sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc
+tags:
+  0.3_5.1--r3.3.1_0: sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc
+docker: quay.io/biocontainers/r-som

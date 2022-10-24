@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-asics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-asics
+latest:
+  1.0.1--r3.4.1_0: sha256:26f1b690cdbb595bfeb8519541a57295934a0d5bb353637a9b1170b27dcdd087
+tags:
+  1.0.1--r3.4.1_0: sha256:26f1b690cdbb595bfeb8519541a57295934a0d5bb353637a9b1170b27dcdd087
+docker: quay.io/biocontainers/r-asics

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bio-ting
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bio-ting
+latest:
+  1.1.0--py_0: sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296
+tags:
+  1.1.0--py_0: sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296
+docker: quay.io/biocontainers/bio-ting
+aliases:
+  imseq2ting: /usr/local/bin/imseq2ting
+  ting: /usr/local/bin/ting

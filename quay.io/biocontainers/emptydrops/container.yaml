@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/emptydrops
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emptydrops
+latest:
+  0.0.5--py_0: sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a
+tags:
+  0.0.5--py_0: sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a
+docker: quay.io/biocontainers/emptydrops

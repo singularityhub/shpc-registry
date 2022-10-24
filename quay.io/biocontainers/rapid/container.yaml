@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/rapid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rapid
+latest:
+  1.0--hdfd78af_2: sha256:beac1bf0d12f670ce2eba134e2a1dd60eb8a078b145b617003118df368b86065
+tags:
+  1.0--hdfd78af_2: sha256:beac1bf0d12f670ce2eba134e2a1dd60eb8a078b145b617003118df368b86065
+docker: quay.io/biocontainers/rapid
+aliases:
+  compPlot.Rmd: /usr/local/bin/compPlot.Rmd
+  homePage.Rmd: /usr/local/bin/homePage.Rmd
+  master.html: /usr/local/bin/master.html
+  rapidDiff.r: /usr/local/bin/rapidDiff.r
+  rapidDiff.sh: /usr/local/bin/rapidDiff.sh
+  rapidNorm.r: /usr/local/bin/rapidNorm.r
+  rapidNorm.sh: /usr/local/bin/rapidNorm.sh
+  rapidStats.r: /usr/local/bin/rapidStats.r
+  rapidStats.sh: /usr/local/bin/rapidStats.sh
+  rapidVis.r: /usr/local/bin/rapidVis.r
+  rapidVis.sh: /usr/local/bin/rapidVis.sh
+  rapid_ParseSam.pl: /usr/local/bin/rapid_ParseSam.pl
+  rapid_ToFasta.pl: /usr/local/bin/rapid_ToFasta.pl
+  statsPlot.Rmd: /usr/local/bin/statsPlot.Rmd

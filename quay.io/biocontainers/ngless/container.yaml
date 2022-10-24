@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ngless
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngless
+latest:
+  1.5.0--h9ee0642_0: sha256:89c76fde148b34728c572790f3a73d2960ccd519d5ad43517cd65f924f7a7eda
+tags:
+  1.5.0--h9ee0642_0: sha256:89c76fde148b34728c572790f3a73d2960ccd519d5ad43517cd65f924f7a7eda
+docker: quay.io/biocontainers/ngless
+aliases:
+  ngless: /usr/local/bin/ngless
+  ngless-wrapped: /usr/local/bin/ngless-wrapped

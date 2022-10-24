@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-visitor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-visitor
+latest:
+  0.30--pl5321hdfd78af_3: sha256:cf873439d681ee0e560568ef1548eb50e49c96cd68e5029f2089b56ec0ae8d2d
+tags:
+  0.30--pl5321hdfd78af_3: sha256:cf873439d681ee0e560568ef1548eb50e49c96cd68e5029f2089b56ec0ae8d2d
+docker: quay.io/biocontainers/perl-data-visitor

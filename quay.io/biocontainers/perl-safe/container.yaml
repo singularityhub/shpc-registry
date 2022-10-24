@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-safe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-safe
+latest:
+  2.37--pl5321hdfd78af_2: sha256:b2cd5342d4fc9eccbb888cea71dbe0cdef179065d802c088333da4f917c6c32b
+tags:
+  2.37--pl5321hdfd78af_2: sha256:b2cd5342d4fc9eccbb888cea71dbe0cdef179065d802c088333da4f917c6c32b
+docker: quay.io/biocontainers/perl-safe

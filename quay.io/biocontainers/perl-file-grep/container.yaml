@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-grep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-grep
+latest:
+  0.02--pl5321hdfd78af_4: sha256:88c93f3b6a5fb7ae7332149c7b270b40452713345f149217264ae3291c6f514f
+tags:
+  0.02--pl5321hdfd78af_4: sha256:88c93f3b6a5fb7ae7332149c7b270b40452713345f149217264ae3291c6f514f
+docker: quay.io/biocontainers/perl-file-grep

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-easierdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-easierdata
+latest:
+  1.0.0--r41hdfd78af_1: sha256:a6f5c0f095c7b2e1672b72be58abc57867d705333a20e5467c6b68c9daad1d20
+tags:
+  1.0.0--r41hdfd78af_1: sha256:a6f5c0f095c7b2e1672b72be58abc57867d705333a20e5467c6b68c9daad1d20
+docker: quay.io/biocontainers/bioconductor-easierdata
+aliases:
+  .bioconductor-easierdata-post-link.sh: /usr/local/bin/.bioconductor-easierdata-post-link.sh
+  .bioconductor-easierdata-pre-unlink.sh: /usr/local/bin/.bioconductor-easierdata-pre-unlink.sh

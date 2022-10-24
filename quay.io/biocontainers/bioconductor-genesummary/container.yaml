@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-genesummary
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genesummary
+latest:
+  0.99.3--r41hdfd78af_1: sha256:75fede957c04d01042e582d65353bcd84eb9985a71add115b8af2111afcfd25e
+tags:
+  0.99.3--r41hdfd78af_1: sha256:75fede957c04d01042e582d65353bcd84eb9985a71add115b8af2111afcfd25e
+docker: quay.io/biocontainers/bioconductor-genesummary
+aliases:
+  .bioconductor-genesummary-post-link.sh: /usr/local/bin/.bioconductor-genesummary-post-link.sh
+  .bioconductor-genesummary-pre-unlink.sh: /usr/local/bin/.bioconductor-genesummary-pre-unlink.sh

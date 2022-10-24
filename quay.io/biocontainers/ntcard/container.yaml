@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ntcard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ntcard
+latest:
+  1.2.2--pl5321hd03093a_2: sha256:a445aa915d02f930ae426e19ddb2b1656da3db034b3b5ecde8a9e4d5256026cd
+tags:
+  1.2.2--pl5321hd03093a_2: sha256:a445aa915d02f930ae426e19ddb2b1656da3db034b3b5ecde8a9e4d5256026cd
+docker: quay.io/biocontainers/ntcard
+aliases:
+  ntcard: /usr/local/bin/ntcard
+  nthll: /usr/local/bin/nthll

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/porfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for porfast
+latest:
+  0.8.0--hed695b0_1: sha256:ce3353011864f153d8ecc15864b0b7b8f9565020864284a2d637a703ada16f4f
+tags:
+  0.8.0--hed695b0_1: sha256:ce3353011864f153d8ecc15864b0b7b8f9565020864284a2d637a703ada16f4f
+docker: quay.io/biocontainers/porfast
+aliases:
+  porfast: /usr/local/bin/porfast

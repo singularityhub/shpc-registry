@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fann
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fann
+latest:
+  2.2.0--h87f3376_4: sha256:e480b92b8d598028eade0cd49a8a530fd3a5cf200903b883b0b50eddf70b829f
+tags:
+  2.2.0--h87f3376_4: sha256:e480b92b8d598028eade0cd49a8a530fd3a5cf200903b883b0b50eddf70b829f
+docker: quay.io/biocontainers/fann

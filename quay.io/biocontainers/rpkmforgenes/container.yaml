@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rpkmforgenes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rpkmforgenes
+latest:
+  1.0.1--hdfd78af_3: sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e
+tags:
+  1.0.1--hdfd78af_3: sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e
+docker: quay.io/biocontainers/rpkmforgenes
+aliases:
+  rpkmforgenes.py: /usr/local/bin/rpkmforgenes.py

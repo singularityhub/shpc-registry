@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hypro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hypro
+latest:
+  0.1--py_0: sha256:22ca9b67892d4b173666a4819253d34a068dbea4cc601bc702d3cbb52496bca8
+tags:
+  0.1--py_0: sha256:22ca9b67892d4b173666a4819253d34a068dbea4cc601bc702d3cbb52496bca8
+docker: quay.io/biocontainers/hypro
+aliases:
+  hypro.py: /usr/local/bin/hypro.py
+  mmseqs2.sh: /usr/local/bin/mmseqs2.sh

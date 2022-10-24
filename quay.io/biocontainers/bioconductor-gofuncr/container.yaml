@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gofuncr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gofuncr
+latest:
+  1.8.0--r40h5f743cb_0: sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b
+tags:
+  1.8.0--r40h5f743cb_0: sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b
+docker: quay.io/biocontainers/bioconductor-gofuncr

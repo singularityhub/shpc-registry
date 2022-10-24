@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ada
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ada
+latest:
+  2.0_5--r3.3.1_0: sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f
+tags:
+  2.0_5--r3.3.1_0: sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f
+docker: quay.io/biocontainers/r-ada

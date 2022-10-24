@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mogene10stprobeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mogene10stprobeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:f79c1b97a3f551b29fa9580cd82873a8003795bcea2abef53ac6cdabdcca6be7
+tags:
+  8.8.0--r41hdfd78af_1: sha256:f79c1b97a3f551b29fa9580cd82873a8003795bcea2abef53ac6cdabdcca6be7
+docker: quay.io/biocontainers/bioconductor-mogene10stprobeset.db
+aliases:
+  .bioconductor-mogene10stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-mogene10stprobeset.db-post-link.sh
+  .bioconductor-mogene10stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene10stprobeset.db-pre-unlink.sh

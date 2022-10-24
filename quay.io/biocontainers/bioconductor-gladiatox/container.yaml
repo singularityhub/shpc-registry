@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gladiatox
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gladiatox
+latest:
+  1.8.0--r41hdfd78af_0: sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573
+tags:
+  1.8.0--r41hdfd78af_0: sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573
+docker: quay.io/biocontainers/bioconductor-gladiatox

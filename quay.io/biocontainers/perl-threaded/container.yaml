@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-threaded
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-threaded
+latest:
+  5.32.1--hdfd78af_1: sha256:d4b7329edc76f7d5cb6155f70eb530b9d2df5e8373c414743adf73f9b20fb7c0
+tags:
+  5.32.1--hdfd78af_1: sha256:d4b7329edc76f7d5cb6155f70eb530b9d2df5e8373c414743adf73f9b20fb7c0
+docker: quay.io/biocontainers/perl-threaded

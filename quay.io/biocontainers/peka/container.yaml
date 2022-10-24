@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/peka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peka
+latest:
+  1.0.0--pyhdfd78af_0: sha256:cce20276e134a6c24ca440718aaec27eb7bc5aa0d9d25a6baf34f72038a7ec2a
+tags:
+  1.0.0--pyhdfd78af_0: sha256:cce20276e134a6c24ca440718aaec27eb7bc5aa0d9d25a6baf34f72038a7ec2a
+docker: quay.io/biocontainers/peka
+aliases:
+  peka: /usr/local/bin/peka
+  peka.py: /usr/local/bin/peka.py

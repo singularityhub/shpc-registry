@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ebcsgen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ebcsgen
+latest:
+  2.1.0--pyhdfd78af_0: sha256:f0af525bb2b64e6571070d681c1beda04fc3bc358fbc5417d1fb5e612bca8008
+tags:
+  2.1.0--pyhdfd78af_0: sha256:f0af525bb2b64e6571070d681c1beda04fc3bc358fbc5417d1fb5e612bca8008
+docker: quay.io/biocontainers/ebcsgen
+aliases:
+  isympy: /usr/local/bin/isympy

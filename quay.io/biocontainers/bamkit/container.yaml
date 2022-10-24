@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bamkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamkit
+latest:
+  16.07.26--py_0: sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723
+tags:
+  16.07.26--py_0: sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723
+docker: quay.io/biocontainers/bamkit
+aliases:
+  bamcleanheader.py: /usr/local/bin/bamcleanheader.py
+  bamfilterrg.py: /usr/local/bin/bamfilterrg.py
+  bamgroupreads.py: /usr/local/bin/bamgroupreads.py
+  bamheadrg.py: /usr/local/bin/bamheadrg.py
+  bamlibs.py: /usr/local/bin/bamlibs.py
+  bamtofastq.py: /usr/local/bin/bamtofastq.py
+  sectosupp: /usr/local/bin/sectosupp

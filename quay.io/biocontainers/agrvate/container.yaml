@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/agrvate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for agrvate
+latest:
+  1.0.2--hdfd78af_0: sha256:69a7f3d16d6641206a9c1dd09c5f1c3e68ace8e50c4593703dbff52399a5aa03
+tags:
+  1.0.2--hdfd78af_0: sha256:69a7f3d16d6641206a9c1dd09c5f1c3e68ace8e50c4593703dbff52399a5aa03
+docker: quay.io/biocontainers/agrvate
+aliases:
+  agrvate: /usr/local/bin/agrvate
+  file: /usr/local/bin/file
+  snippy-clean_full_aln: /usr/local/bin/snippy-clean_full_aln
+  snippy-multi: /usr/local/bin/snippy-multi
+  snippy-vcf_extract_subs: /usr/local/bin/snippy-vcf_extract_subs

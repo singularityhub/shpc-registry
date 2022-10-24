@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-seqmagick
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-seqmagick
+latest:
+  0.1.5--r41h3121a25_0: sha256:2e4cb2e0a3b297764d50646e15e35971330fb7b9a403e4c9b5854faa3a6aa1f7
+tags:
+  0.1.5--r41h3121a25_0: sha256:2e4cb2e0a3b297764d50646e15e35971330fb7b9a403e4c9b5854faa3a6aa1f7
+docker: quay.io/biocontainers/r-seqmagick

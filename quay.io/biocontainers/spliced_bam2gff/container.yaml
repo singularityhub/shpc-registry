@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/spliced_bam2gff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spliced_bam2gff
+latest:
+  1.3--he881be0_1: sha256:d7e58276fc432139fe6ffa4d35971a6fd5d9c471e7741487428ef54c3ce9479c
+tags:
+  1.3--he881be0_1: sha256:d7e58276fc432139fe6ffa4d35971a6fd5d9c471e7741487428ef54c3ce9479c
+docker: quay.io/biocontainers/spliced_bam2gff
+aliases:
+  spliced_bam2gff: /usr/local/bin/spliced_bam2gff

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/convert_zero_one_based
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for convert_zero_one_based
+latest:
+  0.0.1--py_1: sha256:913506f1e34ba715850487940e3a92d1f7ad76f0ba742320dfa830dab8bfdb53
+tags:
+  0.0.1--py_1: sha256:913506f1e34ba715850487940e3a92d1f7ad76f0ba742320dfa830dab8bfdb53
+docker: quay.io/biocontainers/convert_zero_one_based
+aliases:
+  convert_zero_one_based: /usr/local/bin/convert_zero_one_based

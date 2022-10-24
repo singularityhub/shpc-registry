@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ngscopydata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ngscopydata
+latest:
+  1.9.0--r40_0: sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8
+tags:
+  1.9.0--r40_0: sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8
+docker: quay.io/biocontainers/bioconductor-ngscopydata
+aliases:
+  .bioconductor-ngscopydata-post-link.sh: /usr/local/bin/.bioconductor-ngscopydata-post-link.sh
+  .bioconductor-ngscopydata-pre-unlink.sh: /usr/local/bin/.bioconductor-ngscopydata-pre-unlink.sh

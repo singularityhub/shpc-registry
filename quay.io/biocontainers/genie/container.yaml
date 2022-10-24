@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/genie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genie
+latest:
+  0.7.0--h375a9b1_0: sha256:98097053bf0ba93fc91811705ec6c720fba8fb605f0ba8461c5fa7828e1ad3ae
+tags:
+  0.7.0--h375a9b1_0: sha256:98097053bf0ba93fc91811705ec6c720fba8fb605f0ba8461c5fa7828e1ad3ae
+docker: quay.io/biocontainers/genie
+aliases:
+  bolt: /usr/local/bin/bolt
+  genie: /usr/local/bin/genie

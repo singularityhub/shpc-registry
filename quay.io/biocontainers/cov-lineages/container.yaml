@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cov-lineages
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cov-lineages
+latest:
+  2020.05.19.2--pyh3252c3a_0: sha256:4a1130aefd98c7eb4ced9eedb54b765de7706e72adc4e14aa9dd0e43f4e9aeed
+tags:
+  2020.05.19.2--pyh3252c3a_0: sha256:4a1130aefd98c7eb4ced9eedb54b765de7706e72adc4e14aa9dd0e43f4e9aeed
+docker: quay.io/biocontainers/cov-lineages
+aliases:
+  lineages: /usr/local/bin/lineages

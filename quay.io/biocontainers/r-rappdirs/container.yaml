@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rappdirs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rappdirs
+latest:
+  0.3--r3.3.2_0: sha256:6422f52a52d3b226ed17feea10748aad358b86d640b777facb94de9240c8e2e7
+tags:
+  0.3--r3.3.2_0: sha256:6422f52a52d3b226ed17feea10748aad358b86d640b777facb94de9240c8e2e7
+docker: quay.io/biocontainers/r-rappdirs

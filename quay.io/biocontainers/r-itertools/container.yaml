@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-itertools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-itertools
+latest:
+  0.1_3--r3.3.1_0: sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296
+tags:
+  0.1_3--r3.3.1_0: sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296
+docker: quay.io/biocontainers/r-itertools

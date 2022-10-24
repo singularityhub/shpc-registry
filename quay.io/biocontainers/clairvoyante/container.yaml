@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/clairvoyante
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clairvoyante
+latest:
+  1.02--hdfd78af_2: sha256:ff4463765f330c42a338de65fb6278d98e02cb772af052746b9f552e03812c56
+tags:
+  1.02--hdfd78af_2: sha256:ff4463765f330c42a338de65fb6278d98e02cb772af052746b9f552e03812c56
+docker: quay.io/biocontainers/clairvoyante
+aliases:
+  clairvoyante.py: /usr/local/bin/clairvoyante.py
+  libpypy-c.so: /usr/local/bin/libpypy-c.so
+  libpypy-c.so.debug: /usr/local/bin/libpypy-c.so.debug
+  pypy: /usr/local/bin/pypy
+  pypy.debug: /usr/local/bin/pypy.debug
+  virtualenv-pypy: /usr/local/bin/virtualenv-pypy

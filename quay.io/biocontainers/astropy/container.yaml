@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/astropy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for astropy
+latest:
+  3.0.5--py37h7b6447c_1: sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629
+tags:
+  3.0.5--py37h7b6447c_1: sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629
+docker: quay.io/biocontainers/astropy
+aliases:
+  fits2bitmap: /usr/local/bin/fits2bitmap
+  fitscheck: /usr/local/bin/fitscheck
+  fitsdiff: /usr/local/bin/fitsdiff
+  fitsheader: /usr/local/bin/fitsheader
+  fitsinfo: /usr/local/bin/fitsinfo
+  samp_hub: /usr/local/bin/samp_hub
+  showtable: /usr/local/bin/showtable
+  volint: /usr/local/bin/volint
+  wcslint: /usr/local/bin/wcslint

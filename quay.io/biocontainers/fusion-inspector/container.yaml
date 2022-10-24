@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/fusion-inspector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fusion-inspector
+latest:
+  2.2.1--py37pl526hdbffeaa_0: sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350
+tags:
+  2.2.1--py37pl526hdbffeaa_0: sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350
+docker: quay.io/biocontainers/fusion-inspector
+aliases:
+  .fusion-inspector-post-link.sh: /usr/local/bin/.fusion-inspector-post-link.sh
+  FusionInspector: /usr/local/bin/FusionInspector
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  gmap_compress: /usr/local/bin/gmap_compress
+  gmap_reassemble: /usr/local/bin/gmap_reassemble
+  gmap_uncompress: /usr/local/bin/gmap_uncompress
+  seqtk-trinity: /usr/local/bin/seqtk-trinity
+  sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl

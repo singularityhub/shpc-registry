@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/epiweeks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epiweeks
+latest:
+  2.1.4--pyhdfd78af_0: sha256:faf5a70f129a2f8cd5bc56ee33f1318c22f5b1d87d153e67834b1be9b7f59ecf
+tags:
+  2.1.4--pyhdfd78af_0: sha256:faf5a70f129a2f8cd5bc56ee33f1318c22f5b1d87d153e67834b1be9b7f59ecf
+docker: quay.io/biocontainers/epiweeks

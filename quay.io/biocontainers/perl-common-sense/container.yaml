@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-common-sense
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-common-sense
+latest:
+  3.75--pl5321hdfd78af_0: sha256:5eee997ba032b59e9204dd5174f9a79edff0b4847517a1bc543ee0919ab9a538
+tags:
+  3.75--pl5321hdfd78af_0: sha256:5eee997ba032b59e9204dd5174f9a79edff0b4847517a1bc543ee0919ab9a538
+docker: quay.io/biocontainers/perl-common-sense

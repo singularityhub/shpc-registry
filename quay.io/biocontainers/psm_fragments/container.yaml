@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/psm_fragments
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for psm_fragments
+latest:
+  1.0.3--py_0: sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532
+tags:
+  1.0.3--py_0: sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532
+docker: quay.io/biocontainers/psm_fragments

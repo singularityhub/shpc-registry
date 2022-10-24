@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ephemeris
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ephemeris
+latest:
+  0.9.0--py_0: sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2
+tags:
+  0.9.0--py_0: sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2
+docker: quay.io/biocontainers/ephemeris
+aliases:
+  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
+  galaxy-wait: /usr/local/bin/galaxy-wait
+  get-tool-list: /usr/local/bin/get-tool-list
+  run-data-managers: /usr/local/bin/run-data-managers
+  setup-data-libraries: /usr/local/bin/setup-data-libraries
+  shed-tools: /usr/local/bin/shed-tools
+  workflow-install: /usr/local/bin/workflow-install
+  workflow-to-tools: /usr/local/bin/workflow-to-tools

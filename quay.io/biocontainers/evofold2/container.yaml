@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/evofold2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for evofold2
+latest:
+  0.1--h9ee0642_1: sha256:e26b87878f6d9ba32d93148118a255b3a0a48f43361f875c54f2243f48485d6e
+tags:
+  0.1--h9ee0642_1: sha256:e26b87878f6d9ba32d93148118a255b3a0a48f43361f875c54f2243f48485d6e
+docker: quay.io/biocontainers/evofold2
+aliases:
+  EvoFoldV2: /usr/local/bin/EvoFoldV2
+  EvoFoldV2.sh: /usr/local/bin/EvoFoldV2.sh
+  dfgEval: /usr/local/bin/dfgEval
+  dfgTrain: /usr/local/bin/dfgTrain
+  grammarTrain: /usr/local/bin/grammarTrain
+  multinomial: /usr/local/bin/multinomial

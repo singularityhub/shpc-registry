@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/msp2db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msp2db
+latest:
+  0.0.9--pyh864c0ab_1: sha256:9bf41e9d0ea3ea18e3168419225d21de9341c331f2c31b2abb3819285fe7f60b
+tags:
+  0.0.9--pyh864c0ab_1: sha256:9bf41e9d0ea3ea18e3168419225d21de9341c331f2c31b2abb3819285fe7f60b
+docker: quay.io/biocontainers/msp2db
+aliases:
+  msp2db: /usr/local/bin/msp2db

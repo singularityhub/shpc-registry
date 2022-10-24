@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-msmb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msmb
+latest:
+  1.8.0--r40hdfd78af_0: sha256:7b6cd660c3e94c3024638632e3452bfe989e883e7f898819b4a4707dfeb65119
+tags:
+  1.8.0--r40hdfd78af_0: sha256:7b6cd660c3e94c3024638632e3452bfe989e883e7f898819b4a4707dfeb65119
+docker: quay.io/biocontainers/bioconductor-msmb
+aliases:
+  .bioconductor-msmb-post-link.sh: /usr/local/bin/.bioconductor-msmb-post-link.sh
+  .bioconductor-msmb-pre-unlink.sh: /usr/local/bin/.bioconductor-msmb-pre-unlink.sh

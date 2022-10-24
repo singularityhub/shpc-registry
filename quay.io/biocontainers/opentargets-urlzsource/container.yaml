@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/opentargets-urlzsource
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opentargets-urlzsource
+latest:
+  1.0.0--pyh864c0ab_0: sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15
+tags:
+  1.0.0--pyh864c0ab_0: sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15
+docker: quay.io/biocontainers/opentargets-urlzsource

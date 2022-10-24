@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scaffold_builder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scaffold_builder
+latest:
+  2.3--pyhdfd78af_0: sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9
+tags:
+  2.3--pyhdfd78af_0: sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9
+docker: quay.io/biocontainers/scaffold_builder
+aliases:
+  scaffold_builder.py: /usr/local/bin/scaffold_builder.py

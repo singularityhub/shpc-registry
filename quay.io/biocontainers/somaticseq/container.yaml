@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/somaticseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for somaticseq
+latest:
+  3.7.3--pyhdfd78af_0: sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501
+tags:
+  3.7.3--pyhdfd78af_0: sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501
+docker: quay.io/biocontainers/somaticseq
+aliases:
+  MuSE: /usr/local/bin/MuSE
+  SSeq_tsv2vcf.py: /usr/local/bin/SSeq_tsv2vcf.py
+  ada_model_builder_ntChange.R: /usr/local/bin/ada_model_builder_ntChange.R
+  ada_model_predictor.R: /usr/local/bin/ada_model_predictor.R
+  concat.py: /usr/local/bin/concat.py
+  linguistic_sequence_complexity.py: /usr/local/bin/linguistic_sequence_complexity.py
+  lociCounterWithLabels.py: /usr/local/bin/lociCounterWithLabels.py
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  makeAlignmentScripts.py: /usr/local/bin/makeAlignmentScripts.py
+  makeSomaticScripts.py: /usr/local/bin/makeSomaticScripts.py
+  paired_end_bam2fastq.py: /usr/local/bin/paired_end_bam2fastq.py
+  remove_callers_from_somaticseq_tsv.py: /usr/local/bin/remove_callers_from_somaticseq_tsv.py
+  run_somaticseq.py: /usr/local/bin/run_somaticseq.py
+  run_workflows.py: /usr/local/bin/run_workflows.py
+  scalpel-discovery: /usr/local/bin/scalpel-discovery
+  scalpel-export: /usr/local/bin/scalpel-export
+  single_sample_vcf2tsv.py: /usr/local/bin/single_sample_vcf2tsv.py
+  somatic_vcf2tsv.py: /usr/local/bin/somatic_vcf2tsv.py
+  somatic_xgboost.py: /usr/local/bin/somatic_xgboost.py
+  somaticseq_parallel.py: /usr/local/bin/somaticseq_parallel.py
+  splitVcf.py: /usr/local/bin/splitVcf.py
+  split_Bed_into_equal_regions.py: /usr/local/bin/split_Bed_into_equal_regions.py
+  tally_variants_from_multiple_vcfs.py: /usr/local/bin/tally_variants_from_multiple_vcfs.py
+  testsomatic.R: /usr/local/bin/testsomatic.R
+  teststrandbias.R: /usr/local/bin/teststrandbias.R
+  var2vcf_paired.pl: /usr/local/bin/var2vcf_paired.pl
+  var2vcf_valid.pl: /usr/local/bin/var2vcf_valid.pl
+  vardict: /usr/local/bin/vardict
+  vardict.pl: /usr/local/bin/vardict.pl
+  vardict2mut.pl: /usr/local/bin/vardict2mut.pl
+  variant_annotation.py: /usr/local/bin/variant_annotation.py
+  varscan: /usr/local/bin/varscan
+  vcfsorter.pl: /usr/local/bin/vcfsorter.pl

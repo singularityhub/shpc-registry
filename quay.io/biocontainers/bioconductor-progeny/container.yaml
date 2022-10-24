@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-progeny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-progeny
+latest:
+  1.8.0--r36_0: sha256:e9090364da05edb2e71262f548d6f24d8435ef37f57d7e0edc7c92af0ecb0cc3
+tags:
+  1.8.0--r36_0: sha256:e9090364da05edb2e71262f548d6f24d8435ef37f57d7e0edc7c92af0ecb0cc3
+docker: quay.io/biocontainers/bioconductor-progeny

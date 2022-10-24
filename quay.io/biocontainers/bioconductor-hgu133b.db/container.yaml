@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu133b.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu133b.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:60acf5301269f93691118ad125c48876d174371f3e159e9a26d207c1023c0d02
+tags:
+  3.2.3--r41hdfd78af_7: sha256:60acf5301269f93691118ad125c48876d174371f3e159e9a26d207c1023c0d02
+docker: quay.io/biocontainers/bioconductor-hgu133b.db
+aliases:
+  .bioconductor-hgu133b.db-post-link.sh: /usr/local/bin/.bioconductor-hgu133b.db-post-link.sh
+  .bioconductor-hgu133b.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133b.db-pre-unlink.sh

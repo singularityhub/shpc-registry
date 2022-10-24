@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mokapot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mokapot
+latest:
+  0.8.3--pyhdfd78af_0: sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949
+tags:
+  0.8.3--pyhdfd78af_0: sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949
+docker: quay.io/biocontainers/mokapot
+aliases:
+  mokapot: /usr/local/bin/mokapot
+  triqler: /usr/local/bin/triqler

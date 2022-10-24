@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/snakesv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snakesv
+latest:
+  0.6--hdfd78af_0: sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42
+tags:
+  0.6--hdfd78af_0: sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42
+docker: quay.io/biocontainers/snakesv
+aliases:
+  01_prepare_short_read.sh: /usr/local/bin/01_prepare_short_read.sh
+  02_download_gtf_annotation.sh: /usr/local/bin/02_download_gtf_annotation.sh
+  03_prepare_long_read.sh: /usr/local/bin/03_prepare_long_read.sh
+  04_download_custom_annotation.sh: /usr/local/bin/04_download_custom_annotation.sh
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mamba: /usr/local/bin/mamba
+  mamba-package: /usr/local/bin/mamba-package
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  snakeSV: /usr/local/bin/snakeSV
+  testsolv: /usr/local/bin/testsolv

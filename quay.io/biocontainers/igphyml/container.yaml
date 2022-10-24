@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/igphyml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for igphyml
+latest:
+  1.1.4--hec16e2b_0: sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d
+tags:
+  1.1.4--hec16e2b_0: sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d
+docker: quay.io/biocontainers/igphyml
+aliases:
+  AlignRecords.py: /usr/local/bin/AlignRecords.py
+  AlignSets.py: /usr/local/bin/AlignSets.py
+  AssemblePairs.py: /usr/local/bin/AssemblePairs.py
+  AssignGenes.py: /usr/local/bin/AssignGenes.py
+  BuildConsensus.py: /usr/local/bin/BuildConsensus.py
+  BuildTrees.py: /usr/local/bin/BuildTrees.py
+  ClusterSets.py: /usr/local/bin/ClusterSets.py
+  CollapseSeq.py: /usr/local/bin/CollapseSeq.py
+  ConvertDb.py: /usr/local/bin/ConvertDb.py
+  ConvertHeaders.py: /usr/local/bin/ConvertHeaders.py
+  CreateGermlines.py: /usr/local/bin/CreateGermlines.py
+  DefineClones.py: /usr/local/bin/DefineClones.py
+  EstimateError.py: /usr/local/bin/EstimateError.py
+  FilterSeq.py: /usr/local/bin/FilterSeq.py
+  MakeDb.py: /usr/local/bin/MakeDb.py
+  MaskPrimers.py: /usr/local/bin/MaskPrimers.py
+  PairSeq.py: /usr/local/bin/PairSeq.py
+  ParseDb.py: /usr/local/bin/ParseDb.py
+  ParseHeaders.py: /usr/local/bin/ParseHeaders.py
+  ParseLog.py: /usr/local/bin/ParseLog.py
+  SplitSeq.py: /usr/local/bin/SplitSeq.py
+  UnifyHeaders.py: /usr/local/bin/UnifyHeaders.py
+  airr-tools: /usr/local/bin/airr-tools
+  igphyml: /usr/local/bin/igphyml

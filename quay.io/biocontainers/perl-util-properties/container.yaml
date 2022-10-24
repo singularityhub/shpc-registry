@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-util-properties
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-util-properties
+latest:
+  0.18--hdfd78af_1: sha256:fac8c756c813408f9e64283e8fb4eb93ab4ba28450702cb6dcd25deebde889c0
+tags:
+  0.18--hdfd78af_1: sha256:fac8c756c813408f9e64283e8fb4eb93ab4ba28450702cb6dcd25deebde889c0
+docker: quay.io/biocontainers/perl-util-properties

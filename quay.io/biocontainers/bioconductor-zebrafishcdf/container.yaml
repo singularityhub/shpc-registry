@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-zebrafishcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-zebrafishcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f
+tags:
+  2.18.0--r41hdfd78af_9: sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f
+docker: quay.io/biocontainers/bioconductor-zebrafishcdf
+aliases:
+  .bioconductor-zebrafishcdf-post-link.sh: /usr/local/bin/.bioconductor-zebrafishcdf-post-link.sh
+  .bioconductor-zebrafishcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-zebrafishcdf-pre-unlink.sh

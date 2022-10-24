@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/longqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for longqc
+latest:
+  1.2.0c--hdfd78af_0: sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
+tags:
+  1.2.0c--hdfd78af_0: sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a
+docker: quay.io/biocontainers/longqc
+aliases:
+  _version.py: /usr/local/bin/_version.py
+  longQC.py: /usr/local/bin/longQC.py
+  lq_adapt.py: /usr/local/bin/lq_adapt.py
+  lq_coverage.py: /usr/local/bin/lq_coverage.py
+  lq_exec.py: /usr/local/bin/lq_exec.py
+  lq_gamma.py: /usr/local/bin/lq_gamma.py
+  lq_gcfrac.py: /usr/local/bin/lq_gcfrac.py
+  lq_mask.py: /usr/local/bin/lq_mask.py
+  lq_nanopore.py: /usr/local/bin/lq_nanopore.py
+  lq_rs.py: /usr/local/bin/lq_rs.py
+  lq_sequel.py: /usr/local/bin/lq_sequel.py
+  lq_utils.py: /usr/local/bin/lq_utils.py
+  minimap2-coverage: /usr/local/bin/minimap2-coverage

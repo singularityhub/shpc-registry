@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/octopus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for octopus
+latest:
+  0.7.4--ha3c1580_2: sha256:342401712c1cb3f3e63fa01ab931a59bc1801ab75de95f1c2b3fb5b15d643db1
+tags:
+  0.7.4--ha3c1580_2: sha256:342401712c1cb3f3e63fa01ab931a59bc1801ab75de95f1c2b3fb5b15d643db1
+docker: quay.io/biocontainers/octopus
+aliases:
+  octopus: /usr/local/bin/octopus

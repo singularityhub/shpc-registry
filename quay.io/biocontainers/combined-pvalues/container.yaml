@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/combined-pvalues
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for combined-pvalues
+latest:
+  0.50.6--pyhdfd78af_0: sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c
+tags:
+  0.50.6--pyhdfd78af_0: sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c
+docker: quay.io/biocontainers/combined-pvalues
+aliases:
+  comb-p: /usr/local/bin/comb-p
+  toolshed: /usr/local/bin/toolshed

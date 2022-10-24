@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/heinz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for heinz
+latest:
+  2.0--he1b5a44_2: sha256:312eeb4f5fe35f30dbc0912245572e657db364e458e51ee888d788e80e9cc82a
+tags:
+  2.0--he1b5a44_2: sha256:312eeb4f5fe35f30dbc0912245572e657db364e458e51ee888d788e80e9cc82a
+docker: quay.io/biocontainers/heinz
+aliases:
+  dimacs-solver: /usr/local/bin/dimacs-solver
+  dimacs-to-lgf: /usr/local/bin/dimacs-to-lgf
+  heinz: /usr/local/bin/heinz
+  lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
+  lgf-gen: /usr/local/bin/lgf-gen

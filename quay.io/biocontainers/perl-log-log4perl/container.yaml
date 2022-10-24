@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-log-log4perl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-log-log4perl
+latest:
+  1.55--pl5321hdfd78af_0: sha256:925c31a9c40574dc7d02ecf424e959606006757c44792d46da34f9292f403150
+tags:
+  1.55--pl5321hdfd78af_0: sha256:925c31a9c40574dc7d02ecf424e959606006757c44792d46da34f9292f403150
+docker: quay.io/biocontainers/perl-log-log4perl

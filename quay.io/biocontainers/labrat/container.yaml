@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/labrat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for labrat
+latest:
+  0.3.0--pyhdfd78af_1: sha256:e2784b8b5a0ab77fc72669d9d0c189605d16eac085cc57dff6713dbd417296c4
+tags:
+  0.3.0--pyhdfd78af_1: sha256:e2784b8b5a0ab77fc72669d9d0c189605d16eac085cc57dff6713dbd417296c4
+docker: quay.io/biocontainers/labrat
+aliases:
+  LABRAT.py: /usr/local/bin/LABRAT.py
+  LABRAT_danRer.py: /usr/local/bin/LABRAT_danRer.py
+  LABRAT_dm6annotation.py: /usr/local/bin/LABRAT_dm6annotation.py
+  LABRAT_rn6annotation.py: /usr/local/bin/LABRAT_rn6annotation.py
+  LABRATsc.py: /usr/local/bin/LABRATsc.py

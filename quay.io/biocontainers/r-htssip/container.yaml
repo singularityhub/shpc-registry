@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-htssip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-htssip
+latest:
+  1.4.1--r41h3342da4_3: sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f
+tags:
+  1.4.1--r41h3342da4_3: sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f
+docker: quay.io/biocontainers/r-htssip

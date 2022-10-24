@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mapkl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mapkl
+latest:
+  1.24.0--r41hdfd78af_0: sha256:29fb5bfaf832de3f339ab9a1dd26779f0f75139a79086ab586b57554ec2a1273
+tags:
+  1.24.0--r41hdfd78af_0: sha256:29fb5bfaf832de3f339ab9a1dd26779f0f75139a79086ab586b57554ec2a1273
+docker: quay.io/biocontainers/bioconductor-mapkl

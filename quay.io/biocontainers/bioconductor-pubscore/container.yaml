@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pubscore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pubscore
+latest:
+  1.6.0--r41hdfd78af_0: sha256:a7d1003630426b3f39488df1d9be9b56314359e9acf0a0771b02640bff81a331
+tags:
+  1.6.0--r41hdfd78af_0: sha256:a7d1003630426b3f39488df1d9be9b56314359e9acf0a0771b02640bff81a331
+docker: quay.io/biocontainers/bioconductor-pubscore

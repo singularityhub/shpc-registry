@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/inheritance
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for inheritance
+latest:
+  0.1.5--pyh864c0ab_1: sha256:b13c9c1961fe0551f5063d5697543e028ded43cb5b016e3e20c49b892b906e25
+tags:
+  0.1.5--pyh864c0ab_1: sha256:b13c9c1961fe0551f5063d5697543e028ded43cb5b016e3e20c49b892b906e25
+docker: quay.io/biocontainers/inheritance

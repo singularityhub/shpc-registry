@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyimagingmspec
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyimagingmspec
+latest:
+  0.1.4--py_1: sha256:401b56c6c1c9c29e83a1dd623a0854d0efb4a0925fc5c8dd2e89d752f58da0f2
+tags:
+  0.1.4--py_1: sha256:401b56c6c1c9c29e83a1dd623a0854d0efb4a0925fc5c8dd2e89d752f58da0f2
+docker: quay.io/biocontainers/pyimagingmspec

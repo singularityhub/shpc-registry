@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/feht
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for feht
+latest:
+  1.1.0--h9ee0642_2: sha256:90fe268421161dea13e0b16b1550fc5069f1e8e556253ff7b45603f3e29ffb47
+tags:
+  1.1.0--h9ee0642_2: sha256:90fe268421161dea13e0b16b1550fc5069f1e8e556253ff7b45603f3e29ffb47
+docker: quay.io/biocontainers/feht
+aliases:
+  feht: /usr/local/bin/feht

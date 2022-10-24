@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/metavelvet-sl-pipeline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metavelvet-sl-pipeline
+latest:
+  1.0--pl5.22.0_0: sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9
+tags:
+  1.0--pl5.22.0_0: sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9
+docker: quay.io/biocontainers/metavelvet-sl-pipeline
+aliases:
+  FeatureExtract.pl: /usr/local/bin/FeatureExtract.pl
+  FeatureExtractPredict.pl: /usr/local/bin/FeatureExtractPredict.pl
+  GenerateCommand.pl: /usr/local/bin/GenerateCommand.pl
+  ReadTaxon.pl: /usr/local/bin/ReadTaxon.pl
+  checkdata.py: /usr/local/bin/checkdata.py
+  dwgsim: /usr/local/bin/dwgsim
+  dwgsim_eval: /usr/local/bin/dwgsim_eval
+  dwgsim_eval_plot.py: /usr/local/bin/dwgsim_eval_plot.py
+  dwgsim_mut_to_vcf.pl: /usr/local/bin/dwgsim_mut_to_vcf.pl
+  dwgsim_pileup_eval.pl: /usr/local/bin/dwgsim_pileup_eval.pl
+  easy.py: /usr/local/bin/easy.py
+  eval.pl: /usr/local/bin/eval.pl
+  grid.py: /usr/local/bin/grid.py
+  meta-velvete: /usr/local/bin/meta-velvete
+  meta-velvetg: /usr/local/bin/meta-velvetg
+  metaphlan2.py: /usr/local/bin/metaphlan2.py
+  metaphlan2krona.py: /usr/local/bin/metaphlan2krona.py
+  run-annoIS.pl: /usr/local/bin/run-annoIS.pl
+  subset.py: /usr/local/bin/subset.py

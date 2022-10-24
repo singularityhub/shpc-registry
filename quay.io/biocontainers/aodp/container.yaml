@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/aodp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aodp
+latest:
+  2.5.0.2--pl5321h9f5acd7_1: sha256:1e11d3b4229637dae820109767d6f83fdd24157f53070e6195cd78f08c14acc2
+tags:
+  2.5.0.2--pl5321h9f5acd7_1: sha256:1e11d3b4229637dae820109767d6f83fdd24157f53070e6195cd78f08c14acc2
+docker: quay.io/biocontainers/aodp
+aliases:
+  aodp: /usr/local/bin/aodp

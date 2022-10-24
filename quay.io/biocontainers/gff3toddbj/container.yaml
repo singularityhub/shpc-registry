@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/gff3toddbj
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gff3toddbj
+latest:
+  0.4.0--pyh5e36f6f_0: sha256:d8b0ebd5392bfd00f5cf42f7ebfc56c56cba0fdff9a4e964769f3767228c42b8
+tags:
+  0.4.0--pyh5e36f6f_0: sha256:d8b0ebd5392bfd00f5cf42f7ebfc56c56cba0fdff9a4e964769f3767228c42b8
+docker: quay.io/biocontainers/gff3toddbj
+aliases:
+  compare-ddbj: /usr/local/bin/compare-ddbj
+  genbank-to-ddbj: /usr/local/bin/genbank-to-ddbj
+  gff3-to-ddbj: /usr/local/bin/gff3-to-ddbj
+  list-products: /usr/local/bin/list-products
+  normalize-entry-names: /usr/local/bin/normalize-entry-names
+  split-fasta: /usr/local/bin/split-fasta

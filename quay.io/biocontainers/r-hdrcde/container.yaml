@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-hdrcde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-hdrcde
+latest:
+  3.1--r3.2.2_0: sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513
+tags:
+  3.1--r3.2.2_0: sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513
+docker: quay.io/biocontainers/r-hdrcde

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ebfilter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ebfilter
+latest:
+  0.2.2--pyh5ca1d4c_0: sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766
+tags:
+  0.2.2--pyh5ca1d4c_0: sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766
+docker: quay.io/biocontainers/ebfilter
+aliases:
+  EBFilter: /usr/local/bin/EBFilter

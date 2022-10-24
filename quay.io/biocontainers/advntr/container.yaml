@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/advntr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for advntr
+latest:
+  1.4.1--py27h20e14e4_2: sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d
+tags:
+  1.4.1--py27h20e14e4_2: sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d
+docker: quay.io/biocontainers/advntr
+aliases:
+  adVNTR-Filtering: /usr/local/bin/adVNTR-Filtering
+  advntr: /usr/local/bin/advntr

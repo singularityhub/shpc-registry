@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/peakzilla
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peakzilla
+latest:
+  1.0--py_2: sha256:6c1093f15de60de84c54caba603a8e2f436032e1d851b16fbc1553e14682aece
+tags:
+  1.0--py_2: sha256:6c1093f15de60de84c54caba603a8e2f436032e1d851b16fbc1553e14682aece
+docker: quay.io/biocontainers/peakzilla
+aliases:
+  peakzilla.py: /usr/local/bin/peakzilla.py

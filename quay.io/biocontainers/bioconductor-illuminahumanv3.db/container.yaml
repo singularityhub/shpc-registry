@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-illuminahumanv3.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-illuminahumanv3.db
+latest:
+  1.26.0--r41hdfd78af_9: sha256:734410825a5aebe184d02cf278f12756a7ce4b51199232355371992d106c536b
+tags:
+  1.26.0--r41hdfd78af_9: sha256:734410825a5aebe184d02cf278f12756a7ce4b51199232355371992d106c536b
+docker: quay.io/biocontainers/bioconductor-illuminahumanv3.db
+aliases:
+  .bioconductor-illuminahumanv3.db-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanv3.db-post-link.sh
+  .bioconductor-illuminahumanv3.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanv3.db-pre-unlink.sh

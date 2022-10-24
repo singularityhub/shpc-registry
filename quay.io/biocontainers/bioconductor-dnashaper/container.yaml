@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dnashaper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dnashaper
+latest:
+  1.8.0--r351hfc679d8_0: sha256:ce797282afc1a6d1f99ec0f0bc8cdbee47126c958e8ef8c1dc031b070200a897
+tags:
+  1.8.0--r351hfc679d8_0: sha256:ce797282afc1a6d1f99ec0f0bc8cdbee47126c958e8ef8c1dc031b070200a897
+docker: quay.io/biocontainers/bioconductor-dnashaper

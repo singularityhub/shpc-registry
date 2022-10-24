@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-twilight
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-twilight
+latest:
+  1.70.0--r41hc0cfd56_2: sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280
+tags:
+  1.70.0--r41hc0cfd56_2: sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280
+docker: quay.io/biocontainers/bioconductor-twilight

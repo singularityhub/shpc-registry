@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/neurodocker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for neurodocker
+latest:
+  0.5.0--py_0: sha256:15da860a99eaf1efc8792af833d1e9258525410f9e0859e0bd0ac69e58331a3a
+tags:
+  0.5.0--py_0: sha256:15da860a99eaf1efc8792af833d1e9258525410f9e0859e0bd0ac69e58331a3a
+docker: quay.io/biocontainers/neurodocker
+aliases:
+  neurodocker: /usr/local/bin/neurodocker

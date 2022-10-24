@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-pkgconfig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-pkgconfig
+latest:
+  1.16--pl5321hdfd78af_2: sha256:a56a925d21e01e15d48ebc8984ae9706941499491f3f28b53f98451b49488fe0
+tags:
+  1.16--pl5321hdfd78af_2: sha256:a56a925d21e01e15d48ebc8984ae9706941499491f3f28b53f98451b49488fe0
+docker: quay.io/biocontainers/perl-extutils-pkgconfig

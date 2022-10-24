@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/deepsignal-plant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepsignal-plant
+latest:
+  0.1.6--pyhdfd78af_0: sha256:739f5d3c829bea63657e237b390c1f09a3bc67f78dbb59d0f2df4aff3a4f0ba5
+tags:
+  0.1.6--pyhdfd78af_0: sha256:739f5d3c829bea63657e237b390c1f09a3bc67f78dbb59d0f2df4aff3a4f0ba5
+docker: quay.io/biocontainers/deepsignal-plant
+aliases:
+  .scikit-learn-post-link.sh: /usr/local/bin/.scikit-learn-post-link.sh
+  deepsignal_plant: /usr/local/bin/deepsignal_plant

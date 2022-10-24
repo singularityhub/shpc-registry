@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-basecallqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-basecallqc
+latest:
+  1.8.0--r36_1: sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14
+tags:
+  1.8.0--r36_1: sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14
+docker: quay.io/biocontainers/bioconductor-basecallqc

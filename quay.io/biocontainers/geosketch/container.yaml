@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/geosketch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for geosketch
+latest:
+  1.2--py_0: sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7
+tags:
+  1.2--py_0: sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7
+docker: quay.io/biocontainers/geosketch

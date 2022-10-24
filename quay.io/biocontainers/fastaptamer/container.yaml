@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/fastaptamer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastaptamer
+latest:
+  1.0.14--hdfd78af_1: sha256:835f80a358023c187eb0412452fe9884e3fef20d266981eab3f88d25c43456eb
+tags:
+  1.0.14--hdfd78af_1: sha256:835f80a358023c187eb0412452fe9884e3fef20d266981eab3f88d25c43456eb
+docker: quay.io/biocontainers/fastaptamer
+aliases:
+  fastaptamer_cluster: /usr/local/bin/fastaptamer_cluster
+  fastaptamer_cluster_xs: /usr/local/bin/fastaptamer_cluster_xs
+  fastaptamer_compare: /usr/local/bin/fastaptamer_compare
+  fastaptamer_count: /usr/local/bin/fastaptamer_count
+  fastaptamer_enrich: /usr/local/bin/fastaptamer_enrich
+  fastaptamer_search: /usr/local/bin/fastaptamer_search

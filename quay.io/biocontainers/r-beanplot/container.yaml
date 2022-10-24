@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-beanplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-beanplot
+latest:
+  1.2--r3.3.2_0: sha256:d0cad610e564c9187364135a6c02a2de00511e22341a3f77cbfd7a47674fc88b
+tags:
+  1.2--r3.3.2_0: sha256:d0cad610e564c9187364135a6c02a2de00511e22341a3f77cbfd7a47674fc88b
+docker: quay.io/biocontainers/r-beanplot

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/intervaltree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for intervaltree
+latest:
+  2.1.0--py36_0: sha256:ff136f42bdc068f9a9e3765e826920a7539c141a6a2c78b448e55b9e9c0b16da
+tags:
+  2.1.0--py36_0: sha256:ff136f42bdc068f9a9e3765e826920a7539c141a6a2c78b448e55b9e9c0b16da
+docker: quay.io/biocontainers/intervaltree

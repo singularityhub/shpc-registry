@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sigsquared
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sigsquared
+latest:
+  1.26.0--r41hdfd78af_0: sha256:fd1768860bd92854d5abca40a8d4bc1ca6ec16e05a891d0725efd993b012c8fa
+tags:
+  1.26.0--r41hdfd78af_0: sha256:fd1768860bd92854d5abca40a8d4bc1ca6ec16e05a891d0725efd993b012c8fa
+docker: quay.io/biocontainers/bioconductor-sigsquared

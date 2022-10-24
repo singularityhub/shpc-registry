@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hapmapsnp5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hapmapsnp5
+latest:
+  1.36.0--r41hdfd78af_1: sha256:5393e45d5564dc2613060ecbe009c771b177d6ce2bc554292eea7736ebdcd9d7
+tags:
+  1.36.0--r41hdfd78af_1: sha256:5393e45d5564dc2613060ecbe009c771b177d6ce2bc554292eea7736ebdcd9d7
+docker: quay.io/biocontainers/bioconductor-hapmapsnp5
+aliases:
+  .bioconductor-hapmapsnp5-post-link.sh: /usr/local/bin/.bioconductor-hapmapsnp5-post-link.sh
+  .bioconductor-hapmapsnp5-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmapsnp5-pre-unlink.sh

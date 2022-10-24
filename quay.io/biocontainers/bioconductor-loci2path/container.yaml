@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-loci2path
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-loci2path
+latest:
+  1.8.0--r40_0: sha256:2b1cc4fdfe687df9ff9219ba34ab84902a55010b3ded5fe6e7d30692fdfd12d7
+tags:
+  1.8.0--r40_0: sha256:2b1cc4fdfe687df9ff9219ba34ab84902a55010b3ded5fe6e7d30692fdfd12d7
+docker: quay.io/biocontainers/bioconductor-loci2path

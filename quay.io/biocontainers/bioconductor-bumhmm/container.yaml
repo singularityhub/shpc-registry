@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bumhmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bumhmm
+latest:
+  1.8.0--r36_1: sha256:e3f936bd0da423399ad22e8d8dc4bb93a4319a9810498a7925b42ddc0e6f5571
+tags:
+  1.8.0--r36_1: sha256:e3f936bd0da423399ad22e8d8dc4bb93a4319a9810498a7925b42ddc0e6f5571
+docker: quay.io/biocontainers/bioconductor-bumhmm

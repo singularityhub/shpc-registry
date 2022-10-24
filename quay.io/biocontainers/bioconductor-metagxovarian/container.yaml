@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-metagxovarian
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metagxovarian
+latest:
+  1.8.0--r40_0: sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984
+tags:
+  1.8.0--r40_0: sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984
+docker: quay.io/biocontainers/bioconductor-metagxovarian
+aliases:
+  .bioconductor-metagxovarian-post-link.sh: /usr/local/bin/.bioconductor-metagxovarian-post-link.sh
+  .bioconductor-metagxovarian-pre-unlink.sh: /usr/local/bin/.bioconductor-metagxovarian-pre-unlink.sh

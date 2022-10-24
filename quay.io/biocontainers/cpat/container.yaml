@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cpat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cpat
+latest:
+  3.0.4--py36h40b2fa4_1: sha256:0113650a0fc7cfaee126d3ae94201979fbf84716a89706e82848371eda7f6228
+tags:
+  3.0.4--py36h40b2fa4_1: sha256:0113650a0fc7cfaee126d3ae94201979fbf84716a89706e82848371eda7f6228
+docker: quay.io/biocontainers/cpat
+aliases:
+  cpat.py: /usr/local/bin/cpat.py
+  make_hexamer_tab.py: /usr/local/bin/make_hexamer_tab.py
+  make_logitModel.py: /usr/local/bin/make_logitModel.py

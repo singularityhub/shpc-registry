@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-citrusprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-citrusprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:970a81dcce874b80d7c2d294110801fb3e897eb0e7b3ed051c9846b98d13ebb2
+tags:
+  2.18.0--r41hdfd78af_9: sha256:970a81dcce874b80d7c2d294110801fb3e897eb0e7b3ed051c9846b98d13ebb2
+docker: quay.io/biocontainers/bioconductor-citrusprobe
+aliases:
+  .bioconductor-citrusprobe-post-link.sh: /usr/local/bin/.bioconductor-citrusprobe-post-link.sh
+  .bioconductor-citrusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-citrusprobe-pre-unlink.sh

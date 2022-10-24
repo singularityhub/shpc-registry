@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rjmcmcnucleosomes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rjmcmcnucleosomes
+latest:
+  1.8.0--r36he1b5a44_1: sha256:58a8e7510fdbd9c7a8422e859fe0624cdb305b19fa7ffe8aca2d91d397512203
+tags:
+  1.8.0--r36he1b5a44_1: sha256:58a8e7510fdbd9c7a8422e859fe0624cdb305b19fa7ffe8aca2d91d397512203
+docker: quay.io/biocontainers/bioconductor-rjmcmcnucleosomes

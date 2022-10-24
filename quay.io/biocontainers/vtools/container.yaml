@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/vtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vtools
+latest:
+  1.1.0--py38h17adfb0_4: sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da
+tags:
+  1.1.0--py38h17adfb0_4: sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da
+docker: quay.io/biocontainers/vtools
+aliases:
+  vtools-evaluate: /usr/local/bin/vtools-evaluate
+  vtools-filter: /usr/local/bin/vtools-filter
+  vtools-gcoverage: /usr/local/bin/vtools-gcoverage
+  vtools-stats: /usr/local/bin/vtools-stats

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test2-suite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test2-suite
+latest:
+  0.000145--pl5321hdfd78af_0: sha256:1f0d21947402a973cce866327dda4478d65b0743bce7e34013ea0dbb09a49a63
+tags:
+  0.000145--pl5321hdfd78af_0: sha256:1f0d21947402a973cce866327dda4478d65b0743bce7e34013ea0dbb09a49a63
+docker: quay.io/biocontainers/perl-test2-suite

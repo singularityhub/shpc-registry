@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-narrowpeaks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-narrowpeaks
+latest:
+  1.31.0--r40h037d062_0: sha256:82ad866934ecb0eb45a5db91d3a92e7a769af1d2d1f8a47b3332732d3ba88d13
+tags:
+  1.31.0--r40h037d062_0: sha256:82ad866934ecb0eb45a5db91d3a92e7a769af1d2d1f8a47b3332732d3ba88d13
+docker: quay.io/biocontainers/bioconductor-narrowpeaks

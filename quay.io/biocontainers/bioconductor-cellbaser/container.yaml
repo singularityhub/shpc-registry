@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellbaser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellbaser
+latest:
+  1.8.0--r36_1: sha256:acf259135abb3d6068f4e718ba7dd3db8e385dfd6caafad40382db95b54d47ce
+tags:
+  1.8.0--r36_1: sha256:acf259135abb3d6068f4e718ba7dd3db8e385dfd6caafad40382db95b54d47ce
+docker: quay.io/biocontainers/bioconductor-cellbaser

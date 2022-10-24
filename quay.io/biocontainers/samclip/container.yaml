@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/samclip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samclip
+latest:
+  0.4.0--hdfd78af_1: sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea
+tags:
+  0.4.0--hdfd78af_1: sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea
+docker: quay.io/biocontainers/samclip

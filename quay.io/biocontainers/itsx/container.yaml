@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/itsx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for itsx
+latest:
+  1.1b--2: sha256:460ad79eea1aebb5be6a640c7c9103833e4d2df1596f3471fd78f79c95ad1429
+tags:
+  1.1b--2: sha256:460ad79eea1aebb5be6a640c7c9103833e4d2df1596f3471fd78f79c95ad1429
+docker: quay.io/biocontainers/itsx
+aliases:
+  ITSx: /usr/local/bin/ITSx

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/turbocor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for turbocor
+latest:
+  0.1.1--h5177ac6_0: sha256:d6396b391cf95e8ddff206b2c4ca5b8843654589a12ca8e2b7ed2b3f06771ddb
+tags:
+  0.1.1--h5177ac6_0: sha256:d6396b391cf95e8ddff206b2c4ca5b8843654589a12ca8e2b7ed2b3f06771ddb
+docker: quay.io/biocontainers/turbocor
+aliases:
+  turbocor: /usr/local/bin/turbocor

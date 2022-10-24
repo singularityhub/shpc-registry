@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mutscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mutscan
+latest:
+  1.14.0--h5b5514e_2: sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602
+tags:
+  1.14.0--h5b5514e_2: sha256:4f31f7f329fb45c19bcb101897234c5d79d509843fb4001ec6f90132c0c65602
+docker: quay.io/biocontainers/mutscan
+aliases:
+  mutscan: /usr/local/bin/mutscan

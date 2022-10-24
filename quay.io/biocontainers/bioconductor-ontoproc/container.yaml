@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ontoproc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ontoproc
+latest:
+  1.8.0--r36_0: sha256:467225143240f58286464f1650b412169543b94fc89b9723314f63cf2ca32181
+tags:
+  1.8.0--r36_0: sha256:467225143240f58286464f1650b412169543b94fc89b9723314f63cf2ca32181
+docker: quay.io/biocontainers/bioconductor-ontoproc

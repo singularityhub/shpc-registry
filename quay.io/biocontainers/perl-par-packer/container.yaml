@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/perl-par-packer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-par-packer
+latest:
+  1.036--pl5321hec16e2b_4: sha256:648ab0f4fbb341d322422151868af62bedc37103071f89afdccffe68be4aa69d
+tags:
+  1.036--pl5321hec16e2b_4: sha256:648ab0f4fbb341d322422151868af62bedc37103071f89afdccffe68be4aa69d
+docker: quay.io/biocontainers/perl-par-packer
+aliases:
+  crc32: /usr/local/bin/crc32
+  par.pl: /usr/local/bin/par.pl
+  parl: /usr/local/bin/parl
+  parldyn: /usr/local/bin/parldyn
+  pp: /usr/local/bin/pp
+  scandeps.pl: /usr/local/bin/scandeps.pl
+  tkpp: /usr/local/bin/tkpp

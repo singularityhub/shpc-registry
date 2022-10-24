@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/megagta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for megagta
+latest:
+  0.1_alpha--0: sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b
+tags:
+  0.1_alpha--0: sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b
+docker: quay.io/biocontainers/megagta
+aliases:
+  megagta: /usr/local/bin/megagta
+  megagta.py: /usr/local/bin/megagta.py
+  post_proc.sh: /usr/local/bin/post_proc.sh
+  prepare_gene_ref.sh: /usr/local/bin/prepare_gene_ref.sh
+  xander_customized_hmmer_version_for_prepare_gene.sh: /usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh

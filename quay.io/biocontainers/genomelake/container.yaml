@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/genomelake
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomelake
+latest:
+  0.1.5--py37h516909a_0: sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e
+tags:
+  0.1.5--py37h516909a_0: sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e
+docker: quay.io/biocontainers/genomelake
+aliases:
+  dask-remote: /usr/local/bin/dask-remote
+  dask-submit: /usr/local/bin/dask-submit

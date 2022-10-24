@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/taranis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taranis
+latest:
+  2.0.1--hdfd78af_0: sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8
+tags:
+  2.0.1--hdfd78af_0: sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8
+docker: quay.io/biocontainers/taranis
+aliases:
+  Dockerfile: /usr/local/bin/Dockerfile
+  allele_calling.py: /usr/local/bin/allele_calling.py
+  analyze_schema.py: /usr/local/bin/analyze_schema.py
+  create_schema.py: /usr/local/bin/create_schema.py
+  distance_matrix.py: /usr/local/bin/distance_matrix.py
+  environment.yml: /usr/local/bin/environment.yml
+  logging_config.ini: /usr/local/bin/logging_config.ini
+  reference_alleles.py: /usr/local/bin/reference_alleles.py
+  taranis.py: /usr/local/bin/taranis.py
+  taranis_configuration.py: /usr/local/bin/taranis_configuration.py

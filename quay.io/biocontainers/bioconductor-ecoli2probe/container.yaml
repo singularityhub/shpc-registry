@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ecoli2probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ecoli2probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:74f07839fe9b101b3a51e5f363d7eed41f818ae2a60a24437ae66808c5c80c5b
+tags:
+  2.18.0--r41hdfd78af_9: sha256:74f07839fe9b101b3a51e5f363d7eed41f818ae2a60a24437ae66808c5c80c5b
+docker: quay.io/biocontainers/bioconductor-ecoli2probe
+aliases:
+  .bioconductor-ecoli2probe-post-link.sh: /usr/local/bin/.bioconductor-ecoli2probe-post-link.sh
+  .bioconductor-ecoli2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoli2probe-pre-unlink.sh

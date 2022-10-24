@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/qiimetomaaslin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qiimetomaaslin
+latest:
+  1.1.0--py27_1: sha256:f9bc4329924b01809cf2ebce7eb45b335a48a4033ad046d45925394f41972e96
+tags:
+  1.1.0--py27_1: sha256:f9bc4329924b01809cf2ebce7eb45b335a48a4033ad046d45925394f41972e96
+docker: quay.io/biocontainers/qiimetomaaslin
+aliases:
+  qiimeToMaaslin.py: /usr/local/bin/qiimeToMaaslin.py

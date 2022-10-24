@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/doubletd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for doubletd
+latest:
+  0.1.0--py_0: sha256:5e71e6ca958569c136f7349b974f38d425e82c5ecd9fe4ad5f8c6a4c1fcc15b6
+tags:
+  0.1.0--py_0: sha256:5e71e6ca958569c136f7349b974f38d425e82c5ecd9fe4ad5f8c6a4c1fcc15b6
+docker: quay.io/biocontainers/doubletd
+aliases:
+  doubletd: /usr/local/bin/doubletd

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/strike
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strike
+latest:
+  1.2--h9f5acd7_3: sha256:b42019e9f07ce957f57bc89a2942682bc50332d0f1bf7277c0ec1ee4d16e8ec1
+tags:
+  1.2--h9f5acd7_3: sha256:b42019e9f07ce957f57bc89a2942682bc50332d0f1bf7277c0ec1ee4d16e8ec1
+docker: quay.io/biocontainers/strike
+aliases:
+  strike: /usr/local/bin/strike

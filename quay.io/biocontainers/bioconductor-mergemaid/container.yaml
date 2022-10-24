@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mergemaid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mergemaid
+latest:
+  2.59.0--r40_0: sha256:6df57cf46e12c4735373d19876ae5d8d60d382c8ac8219dfb0caf30c9dbbd78f
+tags:
+  2.59.0--r40_0: sha256:6df57cf46e12c4735373d19876ae5d8d60d382c8ac8219dfb0caf30c9dbbd78f
+docker: quay.io/biocontainers/bioconductor-mergemaid

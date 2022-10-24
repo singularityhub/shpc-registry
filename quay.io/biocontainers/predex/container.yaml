@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/predex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for predex
+latest:
+  0.9.3--pyh5e36f6f_0: sha256:a629326ed726c76aebc5e66e34f10cfaacb6cd4911567791e504484d89c0fb0c
+tags:
+  0.9.3--pyh5e36f6f_0: sha256:a629326ed726c76aebc5e66e34f10cfaacb6cd4911567791e504484d89c0fb0c
+docker: quay.io/biocontainers/predex
+aliases:
+  predex: /usr/local/bin/predex

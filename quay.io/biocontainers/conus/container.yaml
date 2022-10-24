@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/conus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for conus
+latest:
+  1.0--hec16e2b_3: sha256:023454dfb3eff56eba8120e57ad9676f43db6a540a8256a1790f430c3bd35901
+tags:
+  1.0--hec16e2b_3: sha256:023454dfb3eff56eba8120e57ad9676f43db6a540a8256a1790f430c3bd35901
+docker: quay.io/biocontainers/conus
+aliases:
+  ambtest: /usr/local/bin/ambtest
+  conus_compare: /usr/local/bin/conus_compare
+  conus_fold: /usr/local/bin/conus_fold
+  conus_train: /usr/local/bin/conus_train
+  findopt: /usr/local/bin/findopt
+  pocheck: /usr/local/bin/pocheck
+  reorder: /usr/local/bin/reorder
+  scheck: /usr/local/bin/scheck
+  stk2ct: /usr/local/bin/stk2ct
+  weedamb: /usr/local/bin/weedamb

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pics
+latest:
+  2.38.0--r41hc0cfd56_2: sha256:d81d349d8a1d1e1badc5c0a3b0f48f67ce8be3e81de0deac249a27f15edcba05
+tags:
+  2.38.0--r41hc0cfd56_2: sha256:d81d349d8a1d1e1badc5c0a3b0f48f67ce8be3e81de0deac249a27f15edcba05
+docker: quay.io/biocontainers/bioconductor-pics

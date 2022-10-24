@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-celda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-celda
+latest:
+  1.8.1--r41h399db7b_0: sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66
+tags:
+  1.8.1--r41h399db7b_0: sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66
+docker: quay.io/biocontainers/bioconductor-celda

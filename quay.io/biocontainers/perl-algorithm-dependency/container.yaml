@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-algorithm-dependency
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-algorithm-dependency
+latest:
+  1.112--pl5321hdfd78af_0: sha256:63d1bf899ade8fa091616a173f99e54e3d87cb7c5322422085c3a32016e3bf88
+tags:
+  1.112--pl5321hdfd78af_0: sha256:63d1bf899ade8fa091616a173f99e54e3d87cb7c5322422085c3a32016e3bf88
+docker: quay.io/biocontainers/perl-algorithm-dependency

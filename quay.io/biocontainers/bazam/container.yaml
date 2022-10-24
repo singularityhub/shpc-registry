@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bazam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bazam
+latest:
+  1.0.1--hdfd78af_1: sha256:a029f3540870c616b904b85519cb37d055e90d7fe86a223364ab2c42f60e531c
+tags:
+  1.0.1--hdfd78af_1: sha256:a029f3540870c616b904b85519cb37d055e90d7fe86a223364ab2c42f60e531c
+docker: quay.io/biocontainers/bazam
+aliases:
+  bazam: /usr/local/bin/bazam

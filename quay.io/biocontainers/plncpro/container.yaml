@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/plncpro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plncpro
+latest:
+  1.2.2--py37h96cfd12_3: sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c
+tags:
+  1.2.2--py37h96cfd12_3: sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c
+docker: quay.io/biocontainers/plncpro
+aliases:
+  plncpro: /usr/local/bin/plncpro
+  plncpro_format_ff.sh: /usr/local/bin/plncpro_format_ff.sh

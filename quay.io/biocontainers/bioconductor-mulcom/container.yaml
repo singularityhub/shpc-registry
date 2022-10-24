@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mulcom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mulcom
+latest:
+  1.44.0--r41hc247a5b_2: sha256:1ffb54def1c1a9273d6a90050f91d3b8d987d6a913e4931383645b2111f3c589
+tags:
+  1.44.0--r41hc247a5b_2: sha256:1ffb54def1c1a9273d6a90050f91d3b8d987d6a913e4931383645b2111f3c589
+docker: quay.io/biocontainers/bioconductor-mulcom

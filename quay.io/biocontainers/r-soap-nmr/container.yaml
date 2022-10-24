@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-soap-nmr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-soap-nmr
+latest:
+  0.1.0.20170207--r41h9ee0642_4: sha256:0e164ad2d89248f0a58ca02d0a8af14747632a257907f67bccbf50f0b0328ef2
+tags:
+  0.1.0.20170207--r41h9ee0642_4: sha256:0e164ad2d89248f0a58ca02d0a8af14747632a257907f67bccbf50f0b0328ef2
+docker: quay.io/biocontainers/r-soap-nmr

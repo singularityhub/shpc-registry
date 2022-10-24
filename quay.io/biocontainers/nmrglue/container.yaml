@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/nmrglue
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nmrglue
+latest:
+  0.8--py36h91eb985_2: sha256:08dea831b6d34e9ddc6223f1e8d3743aa3e936552e5055d56bbb3dd047d67e08
+tags:
+  0.8--py36h91eb985_2: sha256:08dea831b6d34e9ddc6223f1e8d3743aa3e936552e5055d56bbb3dd047d67e08
+docker: quay.io/biocontainers/nmrglue

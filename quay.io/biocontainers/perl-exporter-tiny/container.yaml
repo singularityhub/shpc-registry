@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-exporter-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-exporter-tiny
+latest:
+  1.002002--pl5321hdfd78af_0: sha256:2765c24b94c98c58f658d79f21a102d450945fb8bc35867cf00a562bd867d8e8
+tags:
+  1.002002--pl5321hdfd78af_0: sha256:2765c24b94c98c58f658d79f21a102d450945fb8bc35867cf00a562bd867d8e8
+docker: quay.io/biocontainers/perl-exporter-tiny

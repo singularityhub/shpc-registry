@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/clearcnv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clearcnv
+latest:
+  0.306--pyhdfd78af_0: sha256:d1df04b07348bdf942d9af907e66e1af4ef46e8263d9b14eb6565a3673e9f5b9
+tags:
+  0.306--pyhdfd78af_0: sha256:d1df04b07348bdf942d9af907e66e1af4ef46e8263d9b14eb6565a3673e9f5b9
+docker: quay.io/biocontainers/clearcnv
+aliases:
+  clearCNV: /usr/local/bin/clearCNV
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  renderer: /usr/local/bin/renderer

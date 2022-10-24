@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/ggd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ggd
+latest:
+  1.1.3--pyh3252c3a_0: sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
+tags:
+  1.1.3--pyh3252c3a_0: sha256:575286a303e811f67e002e36146e4da21cdef4d84864cd5b355f574e0ac6777a
+docker: quay.io/biocontainers/ggd
+aliases:
+  .ggd-post-link.sh: /usr/local/bin/.ggd-post-link.sh
+  check-sort-order: /usr/local/bin/check-sort-order
+  conda-build: /usr/local/bin/conda-build
+  conda-convert: /usr/local/bin/conda-convert
+  conda-debug: /usr/local/bin/conda-debug
+  conda-develop: /usr/local/bin/conda-develop
+  conda-index: /usr/local/bin/conda-index
+  conda-inspect: /usr/local/bin/conda-inspect
+  conda-metapackage: /usr/local/bin/conda-metapackage
+  conda-render: /usr/local/bin/conda-render
+  conda-skeleton: /usr/local/bin/conda-skeleton
+  ggd: /usr/local/bin/ggd
+  gsort: /usr/local/bin/gsort
+  patchelf: /usr/local/bin/patchelf
+  pkginfo: /usr/local/bin/pkginfo
+  rg: /usr/local/bin/rg

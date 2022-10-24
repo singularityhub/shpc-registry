@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-optlist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-optlist
+latest:
+  0.112--pl5321hdfd78af_0: sha256:25d0313e52dcdfb71b630248615a1fb1ba57d36faf3a2729c72e40a145f9cc1b
+tags:
+  0.112--pl5321hdfd78af_0: sha256:25d0313e52dcdfb71b630248615a1fb1ba57d36faf3a2729c72e40a145f9cc1b
+docker: quay.io/biocontainers/perl-data-optlist

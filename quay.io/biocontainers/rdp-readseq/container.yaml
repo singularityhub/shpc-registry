@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rdp-readseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rdp-readseq
+latest:
+  2.0.2--1: sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1
+tags:
+  2.0.2--1: sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1
+docker: quay.io/biocontainers/rdp-readseq
+aliases:
+  ReadSeq: /usr/local/bin/ReadSeq

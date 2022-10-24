@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-adaptest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-adaptest
+latest:
+  1.7.1--r40_0: sha256:47c3b5f996f23ec2c26e28a57c9ef410e8f4b3485605e25e56a5ff7b4e04beac
+tags:
+  1.7.1--r40_0: sha256:47c3b5f996f23ec2c26e28a57c9ef410e8f4b3485605e25e56a5ff7b4e04beac
+docker: quay.io/biocontainers/bioconductor-adaptest

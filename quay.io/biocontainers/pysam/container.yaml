@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pysam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pysam
+latest:
+  0.9.1--py36h92ddc84_6: sha256:8dc49754162b54a475368512ad90708557349eaa419dd451231aa8a95977b1f8
+tags:
+  0.9.1--py36h92ddc84_6: sha256:8dc49754162b54a475368512ad90708557349eaa419dd451231aa8a95977b1f8
+docker: quay.io/biocontainers/pysam

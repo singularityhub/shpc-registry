@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-signaturesearchdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-signaturesearchdata
+latest:
+  1.8.4--r41hdfd78af_0: sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06
+tags:
+  1.8.4--r41hdfd78af_0: sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06
+docker: quay.io/biocontainers/bioconductor-signaturesearchdata
+aliases:
+  .bioconductor-signaturesearchdata-post-link.sh: /usr/local/bin/.bioconductor-signaturesearchdata-post-link.sh
+  .bioconductor-signaturesearchdata-pre-unlink.sh: /usr/local/bin/.bioconductor-signaturesearchdata-pre-unlink.sh

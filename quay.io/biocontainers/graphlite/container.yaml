@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/graphlite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for graphlite
+latest:
+  1.0.5--pyh864c0ab_3: sha256:14176e2d1585e79c27fb05874797e810f2ad5f3fda787bca3e50cd12e27b60fd
+tags:
+  1.0.5--pyh864c0ab_3: sha256:14176e2d1585e79c27fb05874797e810f2ad5f3fda787bca3e50cd12e27b60fd
+docker: quay.io/biocontainers/graphlite

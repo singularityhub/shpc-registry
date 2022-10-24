@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/tapestry
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tapestry
+latest:
+  1.0.0--py_0: sha256:4d7c580a970c4867423f7e13a192641208eb6737abd0264666829e481e27bea7
+tags:
+  1.0.0--py_0: sha256:4d7c580a970c4867423f7e13a192641208eb6737abd0264666829e481e27bea7
+docker: quay.io/biocontainers/tapestry
+aliases:
+  clean: /usr/local/bin/clean
+  weave: /usr/local/bin/weave

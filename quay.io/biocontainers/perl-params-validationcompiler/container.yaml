@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-params-validationcompiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-params-validationcompiler
+latest:
+  0.30--pl5321hdfd78af_0: sha256:e0fdb3c856ab8226062eb916551104e2cf64946e0f5a6146b848c46319f1faa7
+tags:
+  0.30--pl5321hdfd78af_0: sha256:e0fdb3c856ab8226062eb916551104e2cf64946e0f5a6146b848c46319f1faa7
+docker: quay.io/biocontainers/perl-params-validationcompiler

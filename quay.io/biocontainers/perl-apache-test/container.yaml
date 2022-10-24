@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-apache-test
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-apache-test
+latest:
+  1.43--pl5321hdfd78af_0: sha256:22c5ea687a8defa4fe42972b54c1e17ce5712ea4d5c377d64270ae70538e387f
+tags:
+  1.43--pl5321hdfd78af_0: sha256:22c5ea687a8defa4fe42972b54c1e17ce5712ea4d5c377d64270ae70538e387f
+docker: quay.io/biocontainers/perl-apache-test

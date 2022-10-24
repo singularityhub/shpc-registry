@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/im-pipelines
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for im-pipelines
+latest:
+  1.1.6--pyh3252c3a_0: sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
+tags:
+  1.1.6--pyh3252c3a_0: sha256:1ad3e7b7dc9811270716b8237d9cc1497de5bcb3ec46f4f4029d42dc811e489e
+docker: quay.io/biocontainers/im-pipelines
+aliases:
+  cluster_3d: /usr/local/bin/cluster_3d
+  cluster_butina: /usr/local/bin/cluster_butina
+  cluster_butina_matrix: /usr/local/bin/cluster_butina_matrix
+  conformers: /usr/local/bin/conformers
+  constrained_conf_gen: /usr/local/bin/constrained_conf_gen
+  featurestein_generate: /usr/local/bin/featurestein_generate
+  featurestein_score: /usr/local/bin/featurestein_score
+  max_min_picker: /usr/local/bin/max_min_picker
+  molvs: /usr/local/bin/molvs
+  o3dAlign: /usr/local/bin/o3dAlign
+  obabel_prepare_pdb: /usr/local/bin/obabel_prepare_pdb
+  pbf_ev: /usr/local/bin/pbf_ev
+  pk_tmax_cmax_sim: /usr/local/bin/pk_tmax_cmax_sim
+  plip: /usr/local/bin/plip
+  prepare_tether: /usr/local/bin/prepare_tether
+  rxn_maker: /usr/local/bin/rxn_maker
+  rxn_selector: /usr/local/bin/rxn_selector
+  rxn_smarts_filter: /usr/local/bin/rxn_smarts_filter
+  sanifier: /usr/local/bin/sanifier
+  screen: /usr/local/bin/screen
+  screen_multi: /usr/local/bin/screen_multi
+  smog2016: /usr/local/bin/smog2016
+  split_fragnet_candidates: /usr/local/bin/split_fragnet_candidates
+  standardise-mols: /usr/local/bin/standardise-mols
+  standardiser: /usr/local/bin/standardiser
+  standardize: /usr/local/bin/standardize
+  sucos: /usr/local/bin/sucos
+  sucos_max: /usr/local/bin/sucos_max
+  xcos: /usr/local/bin/xcos

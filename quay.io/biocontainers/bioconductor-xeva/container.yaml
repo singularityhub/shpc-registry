@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xeva
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xeva
+latest:
+  1.8.0--r41hdfd78af_0: sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518
+tags:
+  1.8.0--r41hdfd78af_0: sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518
+docker: quay.io/biocontainers/bioconductor-xeva

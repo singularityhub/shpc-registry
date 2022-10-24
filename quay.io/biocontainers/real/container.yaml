@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/real
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for real
+latest:
+  1.0--he941832_1: sha256:c920674b2d4585707b038124415b46b0c535eedbc5fe75b23df3693ad7bf5e1f
+tags:
+  1.0--he941832_1: sha256:c920674b2d4585707b038124415b46b0c535eedbc5fe75b23df3693ad7bf5e1f
+docker: quay.io/biocontainers/real
+aliases:
+  real: /usr/local/bin/real

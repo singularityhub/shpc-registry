@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cispath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cispath
+latest:
+  1.34.0--r41hc247a5b_2: sha256:5fb1c643bd4f9fedf159806793a9473db91d3f62cb7007b3c95db105b91297d5
+tags:
+  1.34.0--r41hc247a5b_2: sha256:5fb1c643bd4f9fedf159806793a9473db91d3f62cb7007b3c95db105b91297d5
+docker: quay.io/biocontainers/bioconductor-cispath

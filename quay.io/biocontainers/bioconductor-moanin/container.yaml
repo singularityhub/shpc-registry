@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-moanin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-moanin
+latest:
+  1.2.0--r41hdfd78af_0: sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5
+tags:
+  1.2.0--r41hdfd78af_0: sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5
+docker: quay.io/biocontainers/bioconductor-moanin

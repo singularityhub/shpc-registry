@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-survcomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-survcomp
+latest:
+  1.44.1--r41hc247a5b_1: sha256:7e9b331f948570c8fe5498279f2f2456342c2a8e7b55aa7d4707e52516497017
+tags:
+  1.44.1--r41hc247a5b_1: sha256:7e9b331f948570c8fe5498279f2f2456342c2a8e7b55aa7d4707e52516497017
+docker: quay.io/biocontainers/bioconductor-survcomp

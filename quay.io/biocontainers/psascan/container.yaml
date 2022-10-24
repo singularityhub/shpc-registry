@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/psascan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for psascan
+latest:
+  0.1.0--h9f5acd7_3: sha256:944b5ed6b0d4327153537bbf9705ec789c85c87f7df6309db80abfbe5ca3658b
+tags:
+  0.1.0--h9f5acd7_3: sha256:944b5ed6b0d4327153537bbf9705ec789c85c87f7df6309db80abfbe5ca3658b
+docker: quay.io/biocontainers/psascan
+aliases:
+  psascan: /usr/local/bin/psascan

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/gap2seq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gap2seq
+latest:
+  3.1--py39h6c8c9e3_3: sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406
+tags:
+  3.1--py39h6c8c9e3_3: sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406
+docker: quay.io/biocontainers/gap2seq
+aliases:
+  Gap2Seq: /usr/local/bin/Gap2Seq
+  Gap2Seq-core: /usr/local/bin/Gap2Seq-core
+  GapCutter: /usr/local/bin/GapCutter
+  GapMerger: /usr/local/bin/GapMerger
+  ReadFilter: /usr/local/bin/ReadFilter

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-papi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-papi
+latest:
+  1.26.0--r36_0: sha256:4ba697b1bcaabd515b897251cf32b95dc19ae8b09b65e6449bc907428202ba79
+tags:
+  1.26.0--r36_0: sha256:4ba697b1bcaabd515b897251cf32b95dc19ae8b09b65e6449bc907428202ba79
+docker: quay.io/biocontainers/bioconductor-papi

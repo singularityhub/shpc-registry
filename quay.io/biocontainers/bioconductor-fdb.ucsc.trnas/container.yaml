@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-fdb.ucsc.trnas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.trnas
+latest:
+  1.0.1--r41hdfd78af_9: sha256:78f1ad565ff78166c336a43a03df41516e941ab2d5aca1de3112ca0c58b73828
+tags:
+  1.0.1--r41hdfd78af_9: sha256:78f1ad565ff78166c336a43a03df41516e941ab2d5aca1de3112ca0c58b73828
+docker: quay.io/biocontainers/bioconductor-fdb.ucsc.trnas
+aliases:
+  .bioconductor-fdb.ucsc.trnas-post-link.sh: /usr/local/bin/.bioconductor-fdb.ucsc.trnas-post-link.sh
+  .bioconductor-fdb.ucsc.trnas-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.ucsc.trnas-pre-unlink.sh

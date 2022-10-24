@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-app-role-log4perl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-app-role-log4perl
+latest:
+  0.03--pl5321hdfd78af_2: sha256:031407d0b3bac9dc268b3f76f0b8eba37c04035ee604fec8a360d4d420bd775d
+tags:
+  0.03--pl5321hdfd78af_2: sha256:031407d0b3bac9dc268b3f76f0b8eba37c04035ee604fec8a360d4d420bd775d
+docker: quay.io/biocontainers/perl-moosex-app-role-log4perl

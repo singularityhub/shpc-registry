@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-bsseqdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bsseqdata
+latest:
+  0.32.0--r41hdfd78af_1: sha256:9f862f7751ef941989b34383eefe3bd2454066a40018577fb05748e623e64a40
+tags:
+  0.32.0--r41hdfd78af_1: sha256:9f862f7751ef941989b34383eefe3bd2454066a40018577fb05748e623e64a40
+docker: quay.io/biocontainers/bioconductor-bsseqdata
+aliases:
+  .bioconductor-bsseqdata-post-link.sh: /usr/local/bin/.bioconductor-bsseqdata-post-link.sh
+  .bioconductor-bsseqdata-pre-unlink.sh: /usr/local/bin/.bioconductor-bsseqdata-pre-unlink.sh

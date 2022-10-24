@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-compgo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-compgo
+latest:
+  1.26.0--r40hdfd78af_1: sha256:7e521dc05d2cb48816e7cfd8b18123ffba7244c53ccf53681f6a1bd64aa9bea3
+tags:
+  1.26.0--r40hdfd78af_1: sha256:7e521dc05d2cb48816e7cfd8b18123ffba7244c53ccf53681f6a1bd64aa9bea3
+docker: quay.io/biocontainers/bioconductor-compgo
+aliases:
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh

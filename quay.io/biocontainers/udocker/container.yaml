@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/udocker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for udocker
+latest:
+  1.1.1--py27_0: sha256:2dd0f7705765de299f1acf4c7e72de7c808c69016835d64852fe2c879b0a51fa
+tags:
+  1.1.1--py27_0: sha256:2dd0f7705765de299f1acf4c7e72de7c808c69016835d64852fe2c879b0a51fa
+docker: quay.io/biocontainers/udocker
+aliases:
+  proot: /usr/local/bin/proot
+  udocker: /usr/local/bin/udocker
+  udocker.py: /usr/local/bin/udocker.py

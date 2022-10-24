@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/nextclade_js
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nextclade_js
+latest:
+  0.14.4--h9ee0642_0: sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9
+tags:
+  0.14.4--h9ee0642_0: sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9
+docker: quay.io/biocontainers/nextclade_js
+aliases:
+  nextclade: /usr/local/bin/nextclade
+  nextclade.js: /usr/local/bin/nextclade.js
+  npx: /usr/local/bin/npx

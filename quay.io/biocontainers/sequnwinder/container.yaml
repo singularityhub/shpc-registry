@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/sequnwinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sequnwinder
+latest:
+  0.1.4--hdfd78af_1: sha256:8cc85e27130f2aec854d4aafc10596a2159bf17bb28647c80d82faf89f7b1c5c
+tags:
+  0.1.4--hdfd78af_1: sha256:8cc85e27130f2aec854d4aafc10596a2159bf17bb28647c80d82faf89f7b1c5c
+docker: quay.io/biocontainers/sequnwinder
+aliases:
+  dtc: /usr/local/bin/dtc
+  enr: /usr/local/bin/enr
+  fasta-from-bed: /usr/local/bin/fasta-from-bed
+  index-fasta-file: /usr/local/bin/index-fasta-file
+  sequnwinder: /usr/local/bin/sequnwinder
+  streme: /usr/local/bin/streme
+  streme_xml_to_html: /usr/local/bin/streme_xml_to_html
+  tgene: /usr/local/bin/tgene

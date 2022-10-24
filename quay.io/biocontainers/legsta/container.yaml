@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/legsta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for legsta
+latest:
+  0.5.1--hdfd78af_2: sha256:af7e0130449459de66f65b9b305caae35987bddd181953ca2653f4ac1cff2072
+tags:
+  0.5.1--hdfd78af_2: sha256:af7e0130449459de66f65b9b305caae35987bddd181953ca2653f4ac1cff2072
+docker: quay.io/biocontainers/legsta
+aliases:
+  gfPcr: /usr/local/bin/gfPcr
+  isPcr: /usr/local/bin/isPcr
+  legsta: /usr/local/bin/legsta

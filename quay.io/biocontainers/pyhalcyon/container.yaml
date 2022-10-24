@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyhalcyon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyhalcyon
+latest:
+  0.1.1--py_0: sha256:dd8058f9a5d2e79b34d2ee8c6c97ff7a343a180bca9413110bdb0d6ed1231690
+tags:
+  0.1.1--py_0: sha256:dd8058f9a5d2e79b34d2ee8c6c97ff7a343a180bca9413110bdb0d6ed1231690
+docker: quay.io/biocontainers/pyhalcyon
+aliases:
+  halcyon: /usr/local/bin/halcyon

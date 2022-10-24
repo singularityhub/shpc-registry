@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-data-inheritable
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-data-inheritable
+latest:
+  0.09--pl5321hdfd78af_0: sha256:3c0a83a6ae7457592d22716fdac94f0d3b4fb3413c980f19b1b33ca436353501
+tags:
+  0.09--pl5321hdfd78af_0: sha256:3c0a83a6ae7457592d22716fdac94f0d3b4fb3413c980f19b1b33ca436353501
+docker: quay.io/biocontainers/perl-class-data-inheritable

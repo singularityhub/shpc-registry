@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-prince
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prince
+latest:
+  1.8.0--r41hdfd78af_0: sha256:7319586981f96e3373a6719d9f2f4ffc1e99e427c202fef8bc7e7d4642d0357b
+tags:
+  1.8.0--r41hdfd78af_0: sha256:7319586981f96e3373a6719d9f2f4ffc1e99e427c202fef8bc7e7d4642d0357b
+docker: quay.io/biocontainers/bioconductor-prince

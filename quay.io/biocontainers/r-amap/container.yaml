@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-amap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-amap
+latest:
+  0.8_14--r3.3.2_1: sha256:7ba9675375f41b24f0835c201ce86d54bf283ea32cdc097b3d2f4ad8a57edae1
+tags:
+  0.8_14--r3.3.2_1: sha256:7ba9675375f41b24f0835c201ce86d54bf283ea32cdc097b3d2f4ad8a57edae1
+docker: quay.io/biocontainers/r-amap

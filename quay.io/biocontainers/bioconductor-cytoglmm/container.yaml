@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cytoglmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cytoglmm
+latest:
+  1.2.0--r41hdfd78af_0: sha256:d352afa441bdc906aacec2646ed65879183a1682cbf090be89870ad2b4e3f674
+tags:
+  1.2.0--r41hdfd78af_0: sha256:d352afa441bdc906aacec2646ed65879183a1682cbf090be89870ad2b4e3f674
+docker: quay.io/biocontainers/bioconductor-cytoglmm

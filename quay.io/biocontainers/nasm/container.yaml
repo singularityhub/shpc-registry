@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/nasm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nasm
+latest:
+  2.11.08--0: sha256:3ab599f56c500d09698c2f6bd54b460a62c8acd870edb0fa07acf38b3627aa18
+tags:
+  2.11.08--0: sha256:3ab599f56c500d09698c2f6bd54b460a62c8acd870edb0fa07acf38b3627aa18
+docker: quay.io/biocontainers/nasm
+aliases:
+  nasm: /usr/local/bin/nasm
+  ndisasm: /usr/local/bin/ndisasm

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ldsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ldsc
+latest:
+  1.0.1--pyhdfd78af_2: sha256:308ddebaa643d50306779ce42752eb4c4a3e1635be74531594013959e312af2c
+tags:
+  1.0.1--pyhdfd78af_2: sha256:308ddebaa643d50306779ce42752eb4c4a3e1635be74531594013959e312af2c
+docker: quay.io/biocontainers/ldsc
+aliases:
+  ldsc.py: /usr/local/bin/ldsc.py
+  munge_sumstats.py: /usr/local/bin/munge_sumstats.py

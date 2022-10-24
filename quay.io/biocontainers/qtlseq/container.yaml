@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/qtlseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qtlseq
+latest:
+  2.2.3--pyhdfd78af_0: sha256:1c2528cfe6194e60d44c08b0edaf7e4d3466a712c061b88ed994d0fecfe8d189
+tags:
+  2.2.3--pyhdfd78af_0: sha256:1c2528cfe6194e60d44c08b0edaf7e4d3466a712c061b88ed994d0fecfe8d189
+docker: quay.io/biocontainers/qtlseq
+aliases:
+  qtlplot: /usr/local/bin/qtlplot
+  qtlseq: /usr/local/bin/qtlseq

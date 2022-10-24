@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/metabinkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metabinkit
+latest:
+  0.2.2--r41hbd632db_4: sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087
+tags:
+  0.2.2--r41hbd632db_4: sha256:df0cb8a1995cb2badb2fcf5934bb0b6f5343c10cb167055b11230536204f3087
+docker: quay.io/biocontainers/metabinkit
+aliases:
+  metabin: /usr/local/bin/metabin
+  metabinkit_blast: /usr/local/bin/metabinkit_blast
+  metabinkit_blastgendb: /usr/local/bin/metabinkit_blastgendb
+  metabinkit_shared.sh: /usr/local/bin/metabinkit_shared.sh
+  taxonkit: /usr/local/bin/taxonkit
+  taxonkit_children.sh: /usr/local/bin/taxonkit_children.sh

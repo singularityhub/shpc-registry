@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-crcl18
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-crcl18
+latest:
+  1.9.0--r40_0: sha256:3ea595f7890493f57aeb93461585955abef0b5f45dc07607831d996c3bf6a36b
+tags:
+  1.9.0--r40_0: sha256:3ea595f7890493f57aeb93461585955abef0b5f45dc07607831d996c3bf6a36b
+docker: quay.io/biocontainers/bioconductor-crcl18
+aliases:
+  .bioconductor-crcl18-post-link.sh: /usr/local/bin/.bioconductor-crcl18-post-link.sh
+  .bioconductor-crcl18-pre-unlink.sh: /usr/local/bin/.bioconductor-crcl18-pre-unlink.sh

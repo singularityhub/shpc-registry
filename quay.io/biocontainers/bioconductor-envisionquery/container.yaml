@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-envisionquery
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-envisionquery
+latest:
+  1.38.0--r40hdfd78af_1: sha256:eada39278ff33cae4c3ea1ce6b3f0dc81f795c066e80fbdb866d65ba15193c78
+tags:
+  1.38.0--r40hdfd78af_1: sha256:eada39278ff33cae4c3ea1ce6b3f0dc81f795c066e80fbdb866d65ba15193c78
+docker: quay.io/biocontainers/bioconductor-envisionquery

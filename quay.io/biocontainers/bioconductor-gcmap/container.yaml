@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gcmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gcmap
+latest:
+  1.32.0--r40_0: sha256:b2eea8bd4514adb8e24768b21f908bf5cfab1153a06ab26d682e33b849e7eb07
+tags:
+  1.32.0--r40_0: sha256:b2eea8bd4514adb8e24768b21f908bf5cfab1153a06ab26d682e33b849e7eb07
+docker: quay.io/biocontainers/bioconductor-gcmap

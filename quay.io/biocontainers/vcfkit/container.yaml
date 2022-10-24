@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcfkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcfkit
+latest:
+  0.2.9--pyh5bfb8f1_0: sha256:e536f8da2dfa08ba638070f9c69de2dd5981b1e8116a394d059b8b4fbbe0f342
+tags:
+  0.2.9--pyh5bfb8f1_0: sha256:e536f8da2dfa08ba638070f9c69de2dd5981b1e8116a394d059b8b4fbbe0f342
+docker: quay.io/biocontainers/vcfkit
+aliases:
+  vk: /usr/local/bin/vk

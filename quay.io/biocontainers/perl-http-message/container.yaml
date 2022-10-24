@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-http-message
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-http-message
+latest:
+  6.36--pl5321hdfd78af_0: sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981
+tags:
+  6.36--pl5321hdfd78af_0: sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981
+docker: quay.io/biocontainers/perl-http-message

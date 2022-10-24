@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-transcriptr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-transcriptr
+latest:
+  1.8.0--r341_0: sha256:f6547a7f9e171b0d9b7fac7d807fc85f55d967045f9ec6bb5b807b7a3bda5a46
+tags:
+  1.8.0--r341_0: sha256:f6547a7f9e171b0d9b7fac7d807fc85f55d967045f9ec6bb5b807b7a3bda5a46
+docker: quay.io/biocontainers/bioconductor-transcriptr

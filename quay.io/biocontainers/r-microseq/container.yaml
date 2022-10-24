@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-microseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-microseq
+latest:
+  1.2--r3.4.1_0: sha256:4d96e84d1bcb73236a47fc2faed19967e80dbd22731f93f14b9e67a6efdb3b1c
+tags:
+  1.2--r3.4.1_0: sha256:4d96e84d1bcb73236a47fc2faed19967e80dbd22731f93f14b9e67a6efdb3b1c
+docker: quay.io/biocontainers/r-microseq

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sqldf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sqldf
+latest:
+  0.4_10--r3.3.1_0: sha256:bf0fd80ac7d9462eed5b1fe413dbd4b439e383169ebb3121ae2f8fe30d8bea53
+tags:
+  0.4_10--r3.3.1_0: sha256:bf0fd80ac7d9462eed5b1fe413dbd4b439e383169ebb3121ae2f8fe30d8bea53
+docker: quay.io/biocontainers/r-sqldf

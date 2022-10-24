@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/agg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for agg
+latest:
+  0.3.6--h8b12597_1: sha256:038e4f9cbc43406d9d30484401c0e34d3316ee6b9559a2414a9c7aac34b4dac6
+tags:
+  0.3.6--h8b12597_1: sha256:038e4f9cbc43406d9d30484401c0e34d3316ee6b9559a2414a9c7aac34b4dac6
+docker: quay.io/biocontainers/agg
+aliases:
+  agg: /usr/local/bin/agg

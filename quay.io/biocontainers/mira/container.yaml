@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mira
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mira
+latest:
+  4.9.6--1: sha256:f4c88e806e307861cf65f5d3bbbf5056007838540dc3647a3850579d95984c18
+tags:
+  4.9.6--1: sha256:f4c88e806e307861cf65f5d3bbbf5056007838540dc3647a3850579d95984c18
+docker: quay.io/biocontainers/mira
+aliases:
+  mira: /usr/local/bin/mira
+  mira-install-sls-rrna.sh: /usr/local/bin/mira-install-sls-rrna.sh
+  mirabait: /usr/local/bin/mirabait
+  miraconvert: /usr/local/bin/miraconvert
+  miramem: /usr/local/bin/miramem

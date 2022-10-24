@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-pushd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-pushd
+latest:
+  1.016--pl5321hdfd78af_2: sha256:7f226f44d576eb352ca66f407768c0edb7f74b63a5731e2ad63f81c7c3aa6946
+tags:
+  1.016--pl5321hdfd78af_2: sha256:7f226f44d576eb352ca66f407768c0edb7f74b63a5731e2ad63f81c7c3aa6946
+docker: quay.io/biocontainers/perl-file-pushd

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/scapp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scapp
+latest:
+  0.1.4--py_0: sha256:d45235843c1ecc8a0352279a9e9ae8e5c3e815b1be7d69e2a510ef53b9dc2ef1
+tags:
+  0.1.4--py_0: sha256:d45235843c1ecc8a0352279a9e9ae8e5c3e815b1be7d69e2a510ef53b9dc2ef1
+docker: quay.io/biocontainers/scapp
+aliases:
+  classify_fasta.py: /usr/local/bin/classify_fasta.py
+  scapp: /usr/local/bin/scapp
+  train.py: /usr/local/bin/train.py

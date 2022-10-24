@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-esetvis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-esetvis
+latest:
+  1.8.0--r351_0: sha256:7f971e1adef342a2d3b23ae8a8558b79ea276db35cd5610695a94b7654e61d7f
+tags:
+  1.8.0--r351_0: sha256:7f971e1adef342a2d3b23ae8a8558b79ea276db35cd5610695a94b7654e61d7f
+docker: quay.io/biocontainers/bioconductor-esetvis

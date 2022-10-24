@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-viridis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-viridis
+latest:
+  0.3.1--r3.2.2_0: sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d
+tags:
+  0.3.1--r3.2.2_0: sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d
+docker: quay.io/biocontainers/r-viridis

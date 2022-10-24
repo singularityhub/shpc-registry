@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-abarray
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-abarray
+latest:
+  1.62.0--r41hdfd78af_0: sha256:137a9d0885b497ca9fac7d4bea9112004367014e3ef8499be38968edb9de63d4
+tags:
+  1.62.0--r41hdfd78af_0: sha256:137a9d0885b497ca9fac7d4bea9112004367014e3ef8499be38968edb9de63d4
+docker: quay.io/biocontainers/bioconductor-abarray

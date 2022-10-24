@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/spectra-cluster-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spectra-cluster-cli
+latest:
+  1.1.2--hdfd78af_1: sha256:cf27ef9197eaf5570a0c8d177cf1cf11a4296a1a21ba4982b7dff37444456df3
+tags:
+  1.1.2--hdfd78af_1: sha256:cf27ef9197eaf5570a0c8d177cf1cf11a4296a1a21ba4982b7dff37444456df3
+docker: quay.io/biocontainers/spectra-cluster-cli
+aliases:
+  spectra-cluster-cli: /usr/local/bin/spectra-cluster-cli

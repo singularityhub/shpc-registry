@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fishpond
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fishpond
+latest:
+  2.0.1--r41hc247a5b_1: sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c
+tags:
+  2.0.1--r41hc247a5b_1: sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c
+docker: quay.io/biocontainers/bioconductor-fishpond

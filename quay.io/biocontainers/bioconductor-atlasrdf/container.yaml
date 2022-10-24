@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-atlasrdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-atlasrdf
+latest:
+  1.12.0--r3.3.2_0: sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac
+tags:
+  1.12.0--r3.3.2_0: sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac
+docker: quay.io/biocontainers/bioconductor-atlasrdf

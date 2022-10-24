@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gadem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gadem
+latest:
+  1.3.1--hec16e2b_4: sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e
+tags:
+  1.3.1--hec16e2b_4: sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e
+docker: quay.io/biocontainers/gadem
+aliases:
+  gadem: /usr/local/bin/gadem

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-runibic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-runibic
+latest:
+  1.8.0--r36he1b5a44_0: sha256:541144cc07c5dcfde1f9039e39af22a29500bad846bf450b55fa4c1c7c7fa80f
+tags:
+  1.8.0--r36he1b5a44_0: sha256:541144cc07c5dcfde1f9039e39af22a29500bad846bf450b55fa4c1c7c7fa80f
+docker: quay.io/biocontainers/bioconductor-runibic

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-dbd-pg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-dbd-pg
+latest:
+  3.8.1--pl526h14c3975_0: sha256:f4d5310c024fdaccdeb31dc97051644b09183b63c55366d4151989a6437a2845
+tags:
+  3.8.1--pl526h14c3975_0: sha256:f4d5310c024fdaccdeb31dc97051644b09183b63c55366d4151989a6437a2845
+docker: quay.io/biocontainers/perl-dbd-pg
+aliases:
+  pg_verify_checksums: /usr/local/bin/pg_verify_checksums

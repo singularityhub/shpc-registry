@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-proteoqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-proteoqc
+latest:
+  1.21.0--r36_0: sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b
+tags:
+  1.21.0--r36_0: sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b
+docker: quay.io/biocontainers/bioconductor-proteoqc

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-perfect
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-perfect
+latest:
+  1.8.0--r41hdfd78af_0: sha256:026931eaa4e12388fabbd42f705aebec2ad859957291a42d17fbd9a92cf88e71
+tags:
+  1.8.0--r41hdfd78af_0: sha256:026931eaa4e12388fabbd42f705aebec2ad859957291a42d17fbd9a92cf88e71
+docker: quay.io/biocontainers/bioconductor-perfect

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-igvr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-igvr
+latest:
+  1.7.8--r40_0: sha256:be69f28158e1e9b50e2f4784354c6a0a59bc6ea39f01b86f81388b157e1e0793
+tags:
+  1.7.8--r40_0: sha256:be69f28158e1e9b50e2f4784354c6a0a59bc6ea39f01b86f81388b157e1e0793
+docker: quay.io/biocontainers/bioconductor-igvr

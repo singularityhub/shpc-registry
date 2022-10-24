@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-classapi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-classapi
+latest:
+  1.07--pl5321hdfd78af_2: sha256:7d82f941720adbdf25ddca140ee592ed25766e0dbe1c09bffc1a5e94b941614b
+tags:
+  1.07--pl5321hdfd78af_2: sha256:7d82f941720adbdf25ddca140ee592ed25766e0dbe1c09bffc1a5e94b941614b
+docker: quay.io/biocontainers/perl-test-classapi

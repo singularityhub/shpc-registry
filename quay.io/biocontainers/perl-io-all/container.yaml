@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-all
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-all
+latest:
+  0.87--pl5321hdfd78af_1: sha256:827d993a170a6f43e3d89f1d9659f118215ed8dc8383291a99cb5c319ded190a
+tags:
+  0.87--pl5321hdfd78af_1: sha256:827d993a170a6f43e3d89f1d9659f118215ed8dc8383291a99cb5c319ded190a
+docker: quay.io/biocontainers/perl-io-all

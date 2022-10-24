@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mirge-build
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirge-build
+latest:
+  0.0.1--pyh3252c3a_0: sha256:106ba135c277c7fcc6418a89e8d6c1525f614df75bff50d3830d625d55dbefc5
+tags:
+  0.0.1--pyh3252c3a_0: sha256:106ba135c277c7fcc6418a89e8d6c1525f614df75bff50d3830d625d55dbefc5
+docker: quay.io/biocontainers/mirge-build
+aliases:
+  miRge-build: /usr/local/bin/miRge-build
+  perl5.30.3: /usr/local/bin/perl5.30.3

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sort-versions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sort-versions
+latest:
+  1.62--pl5321hdfd78af_3: sha256:132836e906b7296caac8442608636c3f123a255aa9d062d4b18be75d66beadeb
+tags:
+  1.62--pl5321hdfd78af_3: sha256:132836e906b7296caac8442608636c3f123a255aa9d062d4b18be75d66beadeb
+docker: quay.io/biocontainers/perl-sort-versions

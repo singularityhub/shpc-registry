@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-saigegds
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-saigegds
+latest:
+  1.8.1--r41hc247a5b_0: sha256:d771d815703ac3b404466d9b0c6056736db71a36e68ad3b51cd597756745e388
+tags:
+  1.8.1--r41hc247a5b_0: sha256:d771d815703ac3b404466d9b0c6056736db71a36e68ad3b51cd597756745e388
+docker: quay.io/biocontainers/bioconductor-saigegds

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-eval-closure
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-eval-closure
+latest:
+  0.14--pl5321h9f5acd7_6: sha256:5d36ff257daa8b04549198796fe54128f31fac15a779cdeedd2fd15ad1297a82
+tags:
+  0.14--pl5321h9f5acd7_6: sha256:5d36ff257daa8b04549198796fe54128f31fac15a779cdeedd2fd15ad1297a82
+docker: quay.io/biocontainers/perl-eval-closure

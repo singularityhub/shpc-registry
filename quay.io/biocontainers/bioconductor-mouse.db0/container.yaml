@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mouse.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mouse.db0
+latest:
+  3.8.2--r36_1: sha256:a15a687a2d0cfc320a80ade32f2499ee45efcbb76e1598cfbaa5e9b11d6cbc9d
+tags:
+  3.8.2--r36_1: sha256:a15a687a2d0cfc320a80ade32f2499ee45efcbb76e1598cfbaa5e9b11d6cbc9d
+docker: quay.io/biocontainers/bioconductor-mouse.db0
+aliases:
+  .bioconductor-mouse.db0-post-link.sh: /usr/local/bin/.bioconductor-mouse.db0-post-link.sh
+  .bioconductor-mouse.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse.db0-pre-unlink.sh

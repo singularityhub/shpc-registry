@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r2html
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r2html
+latest:
+  2.3.2--r3.3.2_0: sha256:fc27300580a1f4474663d175f3942c948440b10db7015963aedbeccfd698833e
+tags:
+  2.3.2--r3.3.2_0: sha256:fc27300580a1f4474663d175f3942c948440b10db7015963aedbeccfd698833e
+docker: quay.io/biocontainers/r-r2html

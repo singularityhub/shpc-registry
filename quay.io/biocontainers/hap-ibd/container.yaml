@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hap-ibd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hap-ibd
+latest:
+  1.0.rev20May22.818--hdfd78af_0: sha256:d495ae216e72693bfe0db52d2300df74d9b467fd50a2da0c4462c04417a972e4
+tags:
+  1.0.rev20May22.818--hdfd78af_0: sha256:d495ae216e72693bfe0db52d2300df74d9b467fd50a2da0c4462c04417a972e4
+docker: quay.io/biocontainers/hap-ibd
+aliases:
+  hap-ibd: /usr/local/bin/hap-ibd

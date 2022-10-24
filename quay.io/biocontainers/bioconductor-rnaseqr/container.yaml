@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rnaseqr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnaseqr
+latest:
+  1.8.0--r40hdfd78af_1: sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58
+tags:
+  1.8.0--r40hdfd78af_1: sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58
+docker: quay.io/biocontainers/bioconductor-rnaseqr
+aliases:
+  .bioconductor-systempiperdata-post-link.sh: /usr/local/bin/.bioconductor-systempiperdata-post-link.sh
+  .bioconductor-systempiperdata-pre-unlink.sh: /usr/local/bin/.bioconductor-systempiperdata-pre-unlink.sh

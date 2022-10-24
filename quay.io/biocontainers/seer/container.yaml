@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/seer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seer
+latest:
+  1.1.4--hb75bb0b_0: sha256:26f5c08323c37221c27772484c93363610921f45557206d6a6b81f495f993bbb
+tags:
+  1.1.4--hb75bb0b_0: sha256:26f5c08323c37221c27772484c93363610921f45557206d6a6b81f495f993bbb
+docker: quay.io/biocontainers/seer
+aliases:
+  combineKmers: /usr/local/bin/combineKmers
+  filter_seer: /usr/local/bin/filter_seer
+  kmds: /usr/local/bin/kmds
+  map_back: /usr/local/bin/map_back
+  seer: /usr/local/bin/seer

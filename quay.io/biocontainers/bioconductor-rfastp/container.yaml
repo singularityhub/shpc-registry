@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rfastp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rfastp
+latest:
+  1.4.0--r41hc247a5b_2: sha256:9d0e94156c3c01bb2a04f6624c0588392aa9b07097db7f0daad6e9f614395fd3
+tags:
+  1.4.0--r41hc247a5b_2: sha256:9d0e94156c3c01bb2a04f6624c0588392aa9b07097db7f0daad6e9f614395fd3
+docker: quay.io/biocontainers/bioconductor-rfastp

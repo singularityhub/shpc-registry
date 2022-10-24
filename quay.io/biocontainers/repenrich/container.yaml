@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/repenrich
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for repenrich
+latest:
+  1.2--hdfd78af_3: sha256:31e724e00affc4320d30a2e1edb91095ef2b5275ac319033bfc5e8c55b4f045d
+tags:
+  1.2--hdfd78af_3: sha256:31e724e00affc4320d30a2e1edb91095ef2b5275ac319033bfc5e8c55b4f045d
+docker: quay.io/biocontainers/repenrich
+aliases:
+  RepEnrich.py: /usr/local/bin/RepEnrich.py
+  RepEnrich_setup.py: /usr/local/bin/RepEnrich_setup.py

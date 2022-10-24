@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pypairs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pypairs
+latest:
+  3.2.3--py_0: sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e
+tags:
+  3.2.3--py_0: sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e
+docker: quay.io/biocontainers/pypairs
+aliases:
+  cyclone: /usr/local/bin/cyclone
+  sandbag: /usr/local/bin/sandbag

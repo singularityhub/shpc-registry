@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vartrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vartrix
+latest:
+  1.1.22--hd11b1f6_1: sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261
+tags:
+  1.1.22--hd11b1f6_1: sha256:8a2b494c0eb0afe4f0d77417e2cb8c9459b925e91c084f96df3ce84ba7ed4261
+docker: quay.io/biocontainers/vartrix
+aliases:
+  vartrix: /usr/local/bin/vartrix

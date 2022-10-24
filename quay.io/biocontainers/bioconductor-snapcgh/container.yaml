@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-snapcgh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-snapcgh
+latest:
+  1.64.0--r41hc0cfd56_2: sha256:bbcdad43c6899d00585f4e36add3d90be04e4d2b9fd7dbc258f49f6bb28e13c4
+tags:
+  1.64.0--r41hc0cfd56_2: sha256:bbcdad43c6899d00585f4e36add3d90be04e4d2b9fd7dbc258f49f6bb28e13c4
+docker: quay.io/biocontainers/bioconductor-snapcgh

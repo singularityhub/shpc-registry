@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/metaphlan2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaphlan2
+latest:
+  2.96.1--py_0: sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
+tags:
+  2.96.1--py_0: sha256:950ebbeb2d2c079e77738068b85758b904373c4e3eaf72d511575ef4baaa4924
+docker: quay.io/biocontainers/metaphlan2
+aliases:
+  add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
+  build_tree_single_strain.py: /usr/local/bin/build_tree_single_strain.py
+  compute_distance.py: /usr/local/bin/compute_distance.py
+  compute_distance_all.py: /usr/local/bin/compute_distance_all.py
+  dump_file.py: /usr/local/bin/dump_file.py
+  extract_markers.py: /usr/local/bin/extract_markers.py
+  fastx_len_filter.py: /usr/local/bin/fastx_len_filter.py
+  fix_AF1.py: /usr/local/bin/fix_AF1.py
+  merge_metaphlan_tables.py: /usr/local/bin/merge_metaphlan_tables.py
+  metaphlan2.py: /usr/local/bin/metaphlan2.py
+  metaphlan2krona.py: /usr/local/bin/metaphlan2krona.py
+  mixed_utils.py: /usr/local/bin/mixed_utils.py
+  ooSubprocess.py: /usr/local/bin/ooSubprocess.py
+  plot_bug.py: /usr/local/bin/plot_bug.py
+  plot_tree_ete2.py: /usr/local/bin/plot_tree_ete2.py
+  plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
+  read_fastx.py: /usr/local/bin/read_fastx.py
+  sam_filter.py: /usr/local/bin/sam_filter.py
+  sample2markers.py: /usr/local/bin/sample2markers.py
+  strainphlan.py: /usr/local/bin/strainphlan.py
+  which.py: /usr/local/bin/which.py

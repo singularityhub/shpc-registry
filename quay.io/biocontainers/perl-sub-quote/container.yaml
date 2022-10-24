@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-quote
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-quote
+latest:
+  2.006006--pl5321hdfd78af_0: sha256:bea0b03c7f505618d92169f0405d910fdce47b3ee3ca945166050a31f6044145
+tags:
+  2.006006--pl5321hdfd78af_0: sha256:bea0b03c7f505618d92169f0405d910fdce47b3ee3ca945166050a31f6044145
+docker: quay.io/biocontainers/perl-sub-quote

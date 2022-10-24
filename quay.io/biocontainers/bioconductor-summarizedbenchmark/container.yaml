@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-summarizedbenchmark
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-summarizedbenchmark
+latest:
+  2.8.0--r40hdfd78af_1: sha256:69f700a491d99333ce544c111bce419abe884c7a9c1f678d1fd690255b7b57ce
+tags:
+  2.8.0--r40hdfd78af_1: sha256:69f700a491d99333ce544c111bce419abe884c7a9c1f678d1fd690255b7b57ce
+docker: quay.io/biocontainers/bioconductor-summarizedbenchmark

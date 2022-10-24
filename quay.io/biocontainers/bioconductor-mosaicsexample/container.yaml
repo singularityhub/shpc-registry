@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mosaicsexample
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mosaicsexample
+latest:
+  1.32.0--r41hdfd78af_1: sha256:eb78e6f170399adab1ee79e414e75cdb8aedf60b5a4553d18c8ee8630ac4526a
+tags:
+  1.32.0--r41hdfd78af_1: sha256:eb78e6f170399adab1ee79e414e75cdb8aedf60b5a4553d18c8ee8630ac4526a
+docker: quay.io/biocontainers/bioconductor-mosaicsexample
+aliases:
+  .bioconductor-mosaicsexample-post-link.sh: /usr/local/bin/.bioconductor-mosaicsexample-post-link.sh
+  .bioconductor-mosaicsexample-pre-unlink.sh: /usr/local/bin/.bioconductor-mosaicsexample-pre-unlink.sh

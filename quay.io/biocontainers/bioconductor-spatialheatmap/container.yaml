@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-spatialheatmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatialheatmap
+latest:
+  2.0.0--r41hdfd78af_0: sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6
+tags:
+  2.0.0--r41hdfd78af_0: sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6
+docker: quay.io/biocontainers/bioconductor-spatialheatmap
+aliases:
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  x265: /usr/local/bin/x265

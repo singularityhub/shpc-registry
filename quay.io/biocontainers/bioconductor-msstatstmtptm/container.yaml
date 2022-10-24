@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msstatstmtptm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msstatstmtptm
+latest:
+  1.1.2--r41h619a076_2: sha256:8e8a7dd36e4c5bbeecfaaf5af1ceae9a1ed259569f4f7f8d7ad71724710687a7
+tags:
+  1.1.2--r41h619a076_2: sha256:8e8a7dd36e4c5bbeecfaaf5af1ceae9a1ed259569f4f7f8d7ad71724710687a7
+docker: quay.io/biocontainers/bioconductor-msstatstmtptm

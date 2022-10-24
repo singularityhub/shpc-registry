@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-googlegenomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-googlegenomics
+latest:
+  2.4.0--r351hf484d3e_0: sha256:548bff9db9b6a99006ddd90ae7dc4efd3da7c3b45a280aea4c368ea3fb646216
+tags:
+  2.4.0--r351hf484d3e_0: sha256:548bff9db9b6a99006ddd90ae7dc4efd3da7c3b45a280aea4c368ea3fb646216
+docker: quay.io/biocontainers/bioconductor-googlegenomics

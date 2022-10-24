@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-imp4p
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-imp4p
+latest:
+  0.7--r36h0357c0b_1: sha256:87f919d2bb851888b0da453c466091309292c820b32a4d8be50d7c0df368949b
+tags:
+  0.7--r36h0357c0b_1: sha256:87f919d2bb851888b0da453c466091309292c820b32a4d8be50d7c0df368949b
+docker: quay.io/biocontainers/r-imp4p

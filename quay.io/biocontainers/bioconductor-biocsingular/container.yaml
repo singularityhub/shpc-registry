@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocsingular
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocsingular
+latest:
+  1.8.0--r41h399db7b_0: sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0
+tags:
+  1.8.0--r41h399db7b_0: sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0
+docker: quay.io/biocontainers/bioconductor-biocsingular

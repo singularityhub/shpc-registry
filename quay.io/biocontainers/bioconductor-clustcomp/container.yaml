@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clustcomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clustcomp
+latest:
+  1.8.0--r351_0: sha256:a0724afe0156ffc26cbe71013dc64e372714d60261840b86d7fc95565ca831cc
+tags:
+  1.8.0--r351_0: sha256:a0724afe0156ffc26cbe71013dc64e372714d60261840b86d7fc95565ca831cc
+docker: quay.io/biocontainers/bioconductor-clustcomp

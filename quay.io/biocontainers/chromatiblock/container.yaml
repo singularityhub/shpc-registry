@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/chromatiblock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chromatiblock
+latest:
+  1.0.0--py_0: sha256:fce5317ca2a8159debfe7f1aa57cf173602b7b58aa01897f5c746a07e5fb1f9d
+tags:
+  1.0.0--py_0: sha256:fce5317ca2a8159debfe7f1aa57cf173602b7b58aa01897f5c746a07e5fb1f9d
+docker: quay.io/biocontainers/chromatiblock
+aliases:
+  C-Sibelia.py: /usr/local/bin/C-Sibelia.py
+  Sibelia: /usr/local/bin/Sibelia
+  cairosvg: /usr/local/bin/cairosvg
+  chromatiblock: /usr/local/bin/chromatiblock
+  snpEffAnnotate.py: /usr/local/bin/snpEffAnnotate.py

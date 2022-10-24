@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-categorycompare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-categorycompare
+latest:
+  1.38.0--r41hdfd78af_0: sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415
+tags:
+  1.38.0--r41hdfd78af_0: sha256:20378af2616bd4bff767c4624b9fe1a31ca47262c211b58afa41ede43b30f415
+docker: quay.io/biocontainers/bioconductor-categorycompare

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rniftyreg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rniftyreg
+latest:
+  2.2.0--r3.2.2_0: sha256:43dd90dd00e09f3bd2c82afd373bc998687fee47bb0e6a501f653e5f46d9a909
+tags:
+  2.2.0--r3.2.2_0: sha256:43dd90dd00e09f3bd2c82afd373bc998687fee47bb0e6a501f653e5f46d9a909
+docker: quay.io/biocontainers/r-rniftyreg

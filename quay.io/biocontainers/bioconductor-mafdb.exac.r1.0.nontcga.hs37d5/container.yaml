@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.nontcga.hs37d5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.exac.r1.0.nontcga.hs37d5
+latest:
+  3.7.0--r36_2: sha256:efeadbea4c2aff1fb96ceca69a7ad0e222dbfe12092c14e9b0319a3f314604ce
+tags:
+  3.7.0--r36_2: sha256:efeadbea4c2aff1fb96ceca69a7ad0e222dbfe12092c14e9b0319a3f314604ce
+docker: quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.hs37d5
+aliases:
+  .bioconductor-mafdb.exac.r1.0.nontcga.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.nontcga.hs37d5-post-link.sh
+  .bioconductor-mafdb.exac.r1.0.nontcga.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.nontcga.hs37d5-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ddrtree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ddrtree
+latest:
+  0.1.5--r3.3.1_0: sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477
+tags:
+  0.1.5--r3.3.1_0: sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477
+docker: quay.io/biocontainers/r-ddrtree

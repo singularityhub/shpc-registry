@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scalop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scalop
+latest:
+  2021.01.27--py_0: sha256:018e757277fe816bacdc7b7fc91f0cc8a8277d70246b60a69624ba855a2d9e2a
+tags:
+  2021.01.27--py_0: sha256:018e757277fe816bacdc7b7fc91f0cc8a8277d70246b60a69624ba855a2d9e2a
+docker: quay.io/biocontainers/scalop
+aliases:
+  SCALOP: /usr/local/bin/SCALOP

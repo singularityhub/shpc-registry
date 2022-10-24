@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-fatal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-fatal
+latest:
+  0.016--pl5321hdfd78af_0: sha256:fe953fe96b77b8f2e3fd9a96124e4d8579943aa38848649dc21f75fabb7e94f9
+tags:
+  0.016--pl5321hdfd78af_0: sha256:fe953fe96b77b8f2e3fd9a96124e4d8579943aa38848649dc21f75fabb7e94f9
+docker: quay.io/biocontainers/perl-test-fatal

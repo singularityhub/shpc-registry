@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sigmut
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sigmut
+latest:
+  1.0--hdfd78af_2: sha256:85ec382c26d09e07555072828a5f1a8bfafcfa524e5e4556e8b0fff5cc4ac991
+tags:
+  1.0--hdfd78af_2: sha256:85ec382c26d09e07555072828a5f1a8bfafcfa524e5e4556e8b0fff5cc4ac991
+docker: quay.io/biocontainers/sigmut
+aliases:
+  sigprofiler: /usr/local/bin/sigprofiler

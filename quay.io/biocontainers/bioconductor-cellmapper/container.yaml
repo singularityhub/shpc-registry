@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellmapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellmapper
+latest:
+  1.8.0--r351_0: sha256:1bfa81ea13064b5973f7c604f5f0cf02e88cb2c4839109301555e4d026764a5f
+tags:
+  1.8.0--r351_0: sha256:1bfa81ea13064b5973f7c604f5f0cf02e88cb2c4839109301555e4d026764a5f
+docker: quay.io/biocontainers/bioconductor-cellmapper

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-normalyzerde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-normalyzerde
+latest:
+  1.8.0--r40hdfd78af_1: sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a
+tags:
+  1.8.0--r40hdfd78af_1: sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a
+docker: quay.io/biocontainers/bioconductor-normalyzerde

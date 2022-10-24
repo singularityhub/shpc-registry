@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/edd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for edd
+latest:
+  1.1.19--py27h4329609_4: sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89
+tags:
+  1.1.19--py27h4329609_4: sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89
+docker: quay.io/biocontainers/edd
+aliases:
+  edd: /usr/local/bin/edd

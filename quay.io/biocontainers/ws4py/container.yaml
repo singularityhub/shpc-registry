@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ws4py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ws4py
+latest:
+  0.3.2--py36_0: sha256:9ff82c0f761b590cf09fb6d3ac96546e8a9834329458b7f3bb10d1d16d3b0846
+tags:
+  0.3.2--py36_0: sha256:9ff82c0f761b590cf09fb6d3ac96546e8a9834329458b7f3bb10d1d16d3b0846
+docker: quay.io/biocontainers/ws4py

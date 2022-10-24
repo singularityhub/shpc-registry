@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mono
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mono
+latest:
+  4.6.2.6--0: sha256:23f820b58776a14ef6fdb1f1d21eb9353757b09574860f6ec758ce482e514c9a
+tags:
+  4.6.2.6--0: sha256:23f820b58776a14ef6fdb1f1d21eb9353757b09574860f6ec758ce482e514c9a
+docker: quay.io/biocontainers/mono
+aliases:
+  prj2make: /usr/local/bin/prj2make

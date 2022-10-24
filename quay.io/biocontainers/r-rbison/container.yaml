@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rbison
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rbison
+latest:
+  0.6.0--r351h6115d3f_3: sha256:00fa7ac411b96f04e4c2403089856f631fa9b0428b7e092f975c3e28cea3ca46
+tags:
+  0.6.0--r351h6115d3f_3: sha256:00fa7ac411b96f04e4c2403089856f631fa9b0428b7e092f975c3e28cea3ca46
+docker: quay.io/biocontainers/r-rbison

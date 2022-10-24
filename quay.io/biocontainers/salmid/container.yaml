@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/salmid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for salmid
+latest:
+  0.1.23--py_0: sha256:76b0da2c587425532fbe8f6c75d41ac717dea062ac9f6c4076fec22c3fa31e53
+tags:
+  0.1.23--py_0: sha256:76b0da2c587425532fbe8f6c75d41ac717dea062ac9f6c4076fec22c3fa31e53
+docker: quay.io/biocontainers/salmid
+aliases:
+  SalmID.py: /usr/local/bin/SalmID.py

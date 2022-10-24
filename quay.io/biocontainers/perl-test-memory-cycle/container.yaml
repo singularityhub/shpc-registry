@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-memory-cycle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-memory-cycle
+latest:
+  1.06--pl5321hdfd78af_2: sha256:0434b1c0b3ee760fe75a0aab70100ab2c2aacb9d1a68dfc5028f34b4b336480d
+tags:
+  1.06--pl5321hdfd78af_2: sha256:0434b1c0b3ee760fe75a0aab70100ab2c2aacb9d1a68dfc5028f34b4b336480d
+docker: quay.io/biocontainers/perl-test-memory-cycle

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-csaw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-csaw
+latest:
+  1.6.1--r3.4.1_0: sha256:5c073467653ceb9178f46d9994c62043d4ca14f7ee87c0f88987e043ce7d7601
+tags:
+  1.6.1--r3.4.1_0: sha256:5c073467653ceb9178f46d9994c62043d4ca14f7ee87c0f88987e043ce7d7601
+docker: quay.io/biocontainers/bioconductor-csaw

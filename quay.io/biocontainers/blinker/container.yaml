@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/blinker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blinker
+latest:
+  1.4--py35_0: sha256:94dcbb61ba49fad3bbf13a571062c618d3da66b460cb2b7d01a5cb62f9e82328
+tags:
+  1.4--py35_0: sha256:94dcbb61ba49fad3bbf13a571062c618d3da66b460cb2b7d01a5cb62f9e82328
+docker: quay.io/biocontainers/blinker

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hsagilentdesign026652.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hsagilentdesign026652.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:fb9f7d352404ca27d3cba76f2ccb535d135adf4d200690efe4ca4108b39391a0
+tags:
+  3.2.3--r41hdfd78af_9: sha256:fb9f7d352404ca27d3cba76f2ccb535d135adf4d200690efe4ca4108b39391a0
+docker: quay.io/biocontainers/bioconductor-hsagilentdesign026652.db
+aliases:
+  .bioconductor-hsagilentdesign026652.db-post-link.sh: /usr/local/bin/.bioconductor-hsagilentdesign026652.db-post-link.sh
+  .bioconductor-hsagilentdesign026652.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hsagilentdesign026652.db-pre-unlink.sh

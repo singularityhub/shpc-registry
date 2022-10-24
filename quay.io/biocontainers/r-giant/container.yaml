@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-giant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-giant
+latest:
+  1.2--r3.3.2_0: sha256:be43f31d57d55e5caefd87d6a29653a1dc1493edcdb836a1d7d9bc96dae9956f
+tags:
+  1.2--r3.3.2_0: sha256:be43f31d57d55e5caefd87d6a29653a1dc1493edcdb836a1d7d9bc96dae9956f
+docker: quay.io/biocontainers/r-giant

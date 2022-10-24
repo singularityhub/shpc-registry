@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/plasmidhawk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plasmidhawk
+latest:
+  1.0.3--hdfd78af_0: sha256:d4030613496a3a7637d05321de8c56dc1c0e5f0d8c9445533fef7c4af3e1ce68
+tags:
+  1.0.3--hdfd78af_0: sha256:d4030613496a3a7637d05321de8c56dc1c0e5f0d8c9445533fef7c4af3e1ce68
+docker: quay.io/biocontainers/plasmidhawk
+aliases:
+  plasmidhawk: /usr/local/bin/plasmidhawk
+  plaster: /usr/local/bin/plaster

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hatchet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hatchet
+latest:
+  0.4.9--py37h22450f8_0: sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194
+tags:
+  0.4.9--py37h22450f8_0: sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194
+docker: quay.io/biocontainers/hatchet
+aliases:
+  hatchet: /usr/local/bin/hatchet
+  pyomo: /usr/local/bin/pyomo

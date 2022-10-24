@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/foldseek
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for foldseek
+latest:
+  3.915ef7d--pl5321hf1761c0_1: sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8
+tags:
+  3.915ef7d--pl5321hf1761c0_1: sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8
+docker: quay.io/biocontainers/foldseek
+aliases:
+  aria2c: /usr/local/bin/aria2c
+  foldseek: /usr/local/bin/foldseek

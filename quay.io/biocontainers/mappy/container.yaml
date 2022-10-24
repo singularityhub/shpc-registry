@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mappy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mappy
+latest:
+  2.9--py36_1: sha256:5e7ea3aac9c51a8751c411714d9e435435cd146bd9b002ede342066b7745dae3
+tags:
+  2.9--py36_1: sha256:5e7ea3aac9c51a8751c411714d9e435435cd146bd9b002ede342066b7745dae3
+docker: quay.io/biocontainers/mappy

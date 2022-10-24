@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-cycle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-cycle
+latest:
+  1.12--pl5321hdfd78af_1: sha256:53068bc350714a17f1d73aef3831c2c379ca6596a39512293bbc54a5eadd09e8
+tags:
+  1.12--pl5321hdfd78af_1: sha256:53068bc350714a17f1d73aef3831c2c379ca6596a39512293bbc54a5eadd09e8
+docker: quay.io/biocontainers/perl-devel-cycle

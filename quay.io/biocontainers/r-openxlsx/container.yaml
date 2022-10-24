@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-openxlsx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-openxlsx
+latest:
+  4.0.17--r3.3.2_0: sha256:7555451ab1c35ae7d467b7fdaf98263b266000ebc93a1e13b7af26581694395b
+tags:
+  4.0.17--r3.3.2_0: sha256:7555451ab1c35ae7d467b7fdaf98263b266000ebc93a1e13b7af26581694395b
+docker: quay.io/biocontainers/r-openxlsx

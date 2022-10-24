@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-simbindprofiles
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-simbindprofiles
+latest:
+  1.32.0--r41hdfd78af_0: sha256:226b3644c4f20f5e36b7c315c479694ed056112479bc7fb2b5a70f725b9155b5
+tags:
+  1.32.0--r41hdfd78af_0: sha256:226b3644c4f20f5e36b7c315c479694ed056112479bc7fb2b5a70f725b9155b5
+docker: quay.io/biocontainers/bioconductor-simbindprofiles

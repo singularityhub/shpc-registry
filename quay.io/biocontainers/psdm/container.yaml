@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/psdm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for psdm
+latest:
+  0.2.0--hec16e2b_1: sha256:d217f8d5850dfd3dcafa49b194eba7b5579b94a81565570557b81118de305b6a
+tags:
+  0.2.0--hec16e2b_1: sha256:d217f8d5850dfd3dcafa49b194eba7b5579b94a81565570557b81118de305b6a
+docker: quay.io/biocontainers/psdm
+aliases:
+  psdm: /usr/local/bin/psdm

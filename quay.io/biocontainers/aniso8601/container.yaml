@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/aniso8601
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aniso8601
+latest:
+  1.1.0--py36_0: sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b
+tags:
+  1.1.0--py36_0: sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b
+docker: quay.io/biocontainers/aniso8601

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-elmer.data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-elmer.data
+latest:
+  2.8.0--r36_1: sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da
+tags:
+  2.8.0--r36_1: sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da
+docker: quay.io/biocontainers/bioconductor-elmer.data
+aliases:
+  .bioconductor-elmer.data-post-link.sh: /usr/local/bin/.bioconductor-elmer.data-post-link.sh
+  .bioconductor-elmer.data-pre-unlink.sh: /usr/local/bin/.bioconductor-elmer.data-pre-unlink.sh

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/chisel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chisel
+latest:
+  1.1.3--pyhdfd78af_0: sha256:6c2c6da2c9563444f1373fe04fe0e85999a4be5c13b92dbfbe717738388f91d6
+tags:
+  1.1.3--pyhdfd78af_0: sha256:6c2c6da2c9563444f1373fe04fe0e85999a4be5c13b92dbfbe717738388f91d6
+docker: quay.io/biocontainers/chisel
+aliases:
+  aln2bed.pl: /usr/local/bin/aln2bed.pl
+  art_454: /usr/local/bin/art_454
+  art_SOLiD: /usr/local/bin/art_SOLiD
+  art_illumina: /usr/local/bin/art_illumina
+  art_profiler_454: /usr/local/bin/art_profiler_454
+  art_profiler_illumina: /usr/local/bin/art_profiler_illumina
+  chisel: /usr/local/bin/chisel
+  chisel_bedding: /usr/local/bin/chisel_bedding
+  chisel_calling: /usr/local/bin/chisel_calling
+  chisel_cloning: /usr/local/bin/chisel_cloning
+  chisel_nonormal: /usr/local/bin/chisel_nonormal
+  chisel_plotting: /usr/local/bin/chisel_plotting
+  chisel_prep: /usr/local/bin/chisel_prep
+  chisel_pseudonormal: /usr/local/bin/chisel_pseudonormal
+  chisel_rdr: /usr/local/bin/chisel_rdr
+  combinedAvg.pl: /usr/local/bin/combinedAvg.pl
+  empDist.pl: /usr/local/bin/empDist.pl
+  fastqReadAvg.pl: /usr/local/bin/fastqReadAvg.pl
+  map2bed.pl: /usr/local/bin/map2bed.pl
+  summation.pl: /usr/local/bin/summation.pl

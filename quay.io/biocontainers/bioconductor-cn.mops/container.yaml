@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cn.mops
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cn.mops
+latest:
+  1.40.0--r41hc247a5b_2: sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230
+tags:
+  1.40.0--r41hc247a5b_2: sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230
+docker: quay.io/biocontainers/bioconductor-cn.mops

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyasr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyasr
+latest:
+  0.6.1--py_0: sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199
+tags:
+  0.6.1--py_0: sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199
+docker: quay.io/biocontainers/pyasr

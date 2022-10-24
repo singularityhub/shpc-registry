@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/panx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for panx
+latest:
+  1.6.0--py27_0: sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4
+tags:
+  1.6.0--py27_0: sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4
+docker: quay.io/biocontainers/panx
+aliases:
+  FastTree.c: /usr/local/bin/FastTree.c
+  ancestral_reconstruction.py: /usr/local/bin/ancestral_reconstruction.py
+  ete: /usr/local/bin/ete
+  panX.py: /usr/local/bin/panX.py
+  temporal_signal.py: /usr/local/bin/temporal_signal.py
+  timetree_inference.py: /usr/local/bin/timetree_inference.py

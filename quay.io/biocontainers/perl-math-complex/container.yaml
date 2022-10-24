@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-complex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-complex
+latest:
+  1.59--pl5321hdfd78af_1: sha256:b76106e737f3951a7eb9da5091c586e96d0ce52a1cc17e8a3ccb78c06fb08f43
+tags:
+  1.59--pl5321hdfd78af_1: sha256:b76106e737f3951a7eb9da5091c586e96d0ce52a1cc17e8a3ccb78c06fb08f43
+docker: quay.io/biocontainers/perl-math-complex

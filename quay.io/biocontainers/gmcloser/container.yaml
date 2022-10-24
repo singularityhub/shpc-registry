@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/gmcloser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gmcloser
+latest:
+  1.6.2--hdfd78af_1: sha256:928ebaf71afe4fe0c1f6b36c0a2fd25f6c803f865fe0bb5e56703312fef9d7c1
+tags:
+  1.6.2--hdfd78af_1: sha256:928ebaf71afe4fe0c1f6b36c0a2fd25f6c803f865fe0bb5e56703312fef9d7c1
+docker: quay.io/biocontainers/gmcloser
+aliases:
+  Nucmer_contig_align.pl: /usr/local/bin/Nucmer_contig_align.pl
+  Nucmer_contig_validate.pl: /usr/local/bin/Nucmer_contig_validate.pl
+  Nucmer_scaf_validate.pl: /usr/local/bin/Nucmer_scaf_validate.pl
+  Nucmer_subcontig_validate.pl: /usr/local/bin/Nucmer_subcontig_validate.pl
+  connect_subcontigs_GMcloser2.pl: /usr/local/bin/connect_subcontigs_GMcloser2.pl
+  correct_contigs_coords.pl: /usr/local/bin/correct_contigs_coords.pl
+  correct_scafs_coords.pl: /usr/local/bin/correct_scafs_coords.pl
+  correct_subcontigs_coords.pl: /usr/local/bin/correct_subcontigs_coords.pl
+  coval-filter-short.pl: /usr/local/bin/coval-filter-short.pl
+  gmcloser: /usr/local/bin/gmcloser
+  gmcloser-blast-LR-MT.pl: /usr/local/bin/gmcloser-blast-LR-MT.pl
+  gmcloser-blast.pl: /usr/local/bin/gmcloser-blast.pl
+  gmcloser-nucmer.pl: /usr/local/bin/gmcloser-nucmer.pl
+  gmvalue: /usr/local/bin/gmvalue
+  gmvalue.utl: /usr/local/bin/gmvalue.utl
+  split_scaffolds_to_subcontigs.pl: /usr/local/bin/split_scaffolds_to_subcontigs.pl

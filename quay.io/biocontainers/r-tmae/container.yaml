@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tmae
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tmae
+latest:
+  1.0.4--r41h9ee0642_0: sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438
+tags:
+  1.0.4--r41h9ee0642_0: sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438
+docker: quay.io/biocontainers/r-tmae

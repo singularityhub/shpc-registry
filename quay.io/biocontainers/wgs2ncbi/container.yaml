@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/wgs2ncbi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wgs2ncbi
+latest:
+  1.1.2--pl5321hdfd78af_2: sha256:cbce4bd0bae265d74bb1bc8710195b8042802a3b39c78909539d78e73c8d1b96
+tags:
+  1.1.2--pl5321hdfd78af_2: sha256:cbce4bd0bae265d74bb1bc8710195b8042802a3b39c78909539d78e73c8d1b96
+docker: quay.io/biocontainers/wgs2ncbi
+aliases:
+  wgs2ncbi: /usr/local/bin/wgs2ncbi

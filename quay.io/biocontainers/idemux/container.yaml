@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/idemux
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for idemux
+latest:
+  0.1.6--pyhdfd78af_0: sha256:bb2f04989bb1cf3f673e7362bd4f9d3c8a4ece009b5126ea0360b1bc62e92d7d
+tags:
+  0.1.6--pyhdfd78af_0: sha256:bb2f04989bb1cf3f673e7362bd4f9d3c8a4ece009b5126ea0360b1bc62e92d7d
+docker: quay.io/biocontainers/idemux
+aliases:
+  idemux: /usr/local/bin/idemux

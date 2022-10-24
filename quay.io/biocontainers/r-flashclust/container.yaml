@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-flashclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-flashclust
+latest:
+  1.01_2--r3.3.2_0: sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c
+tags:
+  1.01_2--r3.3.2_0: sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c
+docker: quay.io/biocontainers/r-flashclust

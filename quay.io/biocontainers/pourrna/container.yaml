@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pourrna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pourrna
+latest:
+  1.2.0--h9f5acd7_3: sha256:af8773ea627de914eff33cccd3e9d8c435ed19d0a78ae9ba7302e5072c1bbb21
+tags:
+  1.2.0--h9f5acd7_3: sha256:af8773ea627de914eff33cccd3e9d8c435ed19d0a78ae9ba7302e5072c1bbb21
+docker: quay.io/biocontainers/pourrna
+aliases:
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  pourRNA: /usr/local/bin/pourRNA

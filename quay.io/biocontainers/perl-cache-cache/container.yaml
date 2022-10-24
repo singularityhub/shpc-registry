@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-cache-cache
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-cache-cache
+latest:
+  1.08--pl5321hdfd78af_1: sha256:f9d16f3e79b68e786f07ea5d0adbf8bf7e1901c7e66f6fae72c3563f824c0503
+tags:
+  1.08--pl5321hdfd78af_1: sha256:f9d16f3e79b68e786f07ea5d0adbf8bf7e1901c7e66f6fae72c3563f824c0503
+docker: quay.io/biocontainers/perl-cache-cache

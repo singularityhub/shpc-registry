@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyteomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyteomics
+latest:
+  4.5.5--pyh5e36f6f_0: sha256:7e334105042562cf02d3ad1e30672a02a5f7accc49f2b98f1e122e1783a3cda3
+tags:
+  4.5.5--pyh5e36f6f_0: sha256:7e334105042562cf02d3ad1e30672a02a5f7accc49f2b98f1e122e1783a3cda3
+docker: quay.io/biocontainers/pyteomics

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-shinymethyldata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-shinymethyldata
+latest:
+  1.9.0--r40_0: sha256:01635ba91ffa3b891fdadde837242c16b228c6badb6a4779d8cb56f1a0713546
+tags:
+  1.9.0--r40_0: sha256:01635ba91ffa3b891fdadde837242c16b228c6badb6a4779d8cb56f1a0713546
+docker: quay.io/biocontainers/bioconductor-shinymethyldata
+aliases:
+  .bioconductor-shinymethyldata-post-link.sh: /usr/local/bin/.bioconductor-shinymethyldata-post-link.sh
+  .bioconductor-shinymethyldata-pre-unlink.sh: /usr/local/bin/.bioconductor-shinymethyldata-pre-unlink.sh

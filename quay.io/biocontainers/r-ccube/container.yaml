@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ccube
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ccube
+latest:
+  1.0_beta.1--r41h46c59ee_1: sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5
+tags:
+  1.0_beta.1--r41h46c59ee_1: sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5
+docker: quay.io/biocontainers/r-ccube

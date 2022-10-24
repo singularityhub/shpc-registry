@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.hs37d5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.hs37d5
+latest:
+  3.7.0--r36_2: sha256:ef6b2d4dc787d5271ab4d23c3f0918152fab930d24166ebb1da2416b9977835c
+tags:
+  3.7.0--r36_2: sha256:ef6b2d4dc787d5271ab4d23c3f0918152fab930d24166ebb1da2416b9977835c
+docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.hs37d5
+aliases:
+  .bioconductor-mafdb.1kgenomes.phase3.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.hs37d5-post-link.sh
+  .bioconductor-mafdb.1kgenomes.phase3.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.1kgenomes.phase3.hs37d5-pre-unlink.sh

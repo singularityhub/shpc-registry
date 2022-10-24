@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-banocc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-banocc
+latest:
+  1.8.0--r36_1: sha256:194db4135dfbaa296f68d27b071cec6e8f532cc644d994b8341f5d35f900ebdd
+tags:
+  1.8.0--r36_1: sha256:194db4135dfbaa296f68d27b071cec6e8f532cc644d994b8341f5d35f900ebdd
+docker: quay.io/biocontainers/bioconductor-banocc

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-arrayquality
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-arrayquality
+latest:
+  1.72.0--r41hdfd78af_0: sha256:8bd66fdac9aca46503289a4082916ffa13b77a4dc7716c7776a4eed9d0597286
+tags:
+  1.72.0--r41hdfd78af_0: sha256:8bd66fdac9aca46503289a4082916ffa13b77a4dc7716c7776a4eed9d0597286
+docker: quay.io/biocontainers/bioconductor-arrayquality

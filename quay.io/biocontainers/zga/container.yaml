@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/zga
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zga
+latest:
+  0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
+tags:
+  0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
+docker: quay.io/biocontainers/zga
+aliases:
+  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
+  .zga-post-link.sh: /usr/local/bin/.zga-post-link.sh
+  dfast: /usr/local/bin/dfast
+  dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
+  file_downloader.py: /usr/local/bin/file_downloader.py
+  flye-modules: /usr/local/bin/flye-modules
+  flye-samtools: /usr/local/bin/flye-samtools
+  ghostx: /usr/local/bin/ghostx
+  mga: /usr/local/bin/mga
+  nxtrim: /usr/local/bin/nxtrim
+  unicycler: /usr/local/bin/unicycler
+  unicycler_align: /usr/local/bin/unicycler_align
+  unicycler_check: /usr/local/bin/unicycler_check
+  unicycler_polish: /usr/local/bin/unicycler_polish
+  unicycler_scrub: /usr/local/bin/unicycler_scrub
+  zga: /usr/local/bin/zga

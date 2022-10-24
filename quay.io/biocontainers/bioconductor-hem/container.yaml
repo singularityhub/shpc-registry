@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hem
+latest:
+  1.66.0--r41hc0cfd56_2: sha256:f343026ca1a51388de57d91a6b7b0f403543773ee85a10c597b66bc2958c37c2
+tags:
+  1.66.0--r41hc0cfd56_2: sha256:f343026ca1a51388de57d91a6b7b0f403543773ee85a10c597b66bc2958c37c2
+docker: quay.io/biocontainers/bioconductor-hem

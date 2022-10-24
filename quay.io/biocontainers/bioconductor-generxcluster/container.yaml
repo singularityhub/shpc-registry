@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-generxcluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-generxcluster
+latest:
+  1.30.0--r41hc0cfd56_2: sha256:f7efd6b08460fb73df4e389200b2ca8749c6d3807fa3eeaea4acd2553eba606d
+tags:
+  1.30.0--r41hc0cfd56_2: sha256:f7efd6b08460fb73df4e389200b2ca8749c6d3807fa3eeaea4acd2553eba606d
+docker: quay.io/biocontainers/bioconductor-generxcluster

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-error
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-error
+latest:
+  0.17029--pl5321hdfd78af_0: sha256:b510a060d7d8aadf5810b7f4bead32c9fcea44046d9eb7a8b3b6a91d3d87f034
+tags:
+  0.17029--pl5321hdfd78af_0: sha256:b510a060d7d8aadf5810b7f4bead32c9fcea44046d9eb7a8b3b6a91d3d87f034
+docker: quay.io/biocontainers/perl-error

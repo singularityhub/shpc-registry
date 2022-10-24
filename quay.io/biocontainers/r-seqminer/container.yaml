@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-seqminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-seqminer
+latest:
+  7.1--r351h29659fb_0: sha256:89abfed0647ff87797613928cec5be236fa2926f48ed8e9bd335948efc48c253
+tags:
+  7.1--r351h29659fb_0: sha256:89abfed0647ff87797613928cec5be236fa2926f48ed8e9bd335948efc48c253
+docker: quay.io/biocontainers/r-seqminer

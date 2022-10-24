@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/takeabreak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for takeabreak
+latest:
+  1.1.2--h5b5514e_5: sha256:0a73a3e9efabc85fda45e054b6c294cca979ef31311ed1d2b7cc5c8e1140e38e
+tags:
+  1.1.2--h5b5514e_5: sha256:0a73a3e9efabc85fda45e054b6c294cca979ef31311ed1d2b7cc5c8e1140e38e
+docker: quay.io/biocontainers/takeabreak
+aliases:
+  TakeABreak: /usr/local/bin/TakeABreak

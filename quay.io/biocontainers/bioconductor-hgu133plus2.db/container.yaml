@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu133plus2.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu133plus2.db
+latest:
+  3.2.3--r40_9: sha256:c1894e61572e364e5c1ceceff6736f1c329d1018c58dca2906d9b8da4a538006
+tags:
+  3.2.3--r40_9: sha256:c1894e61572e364e5c1ceceff6736f1c329d1018c58dca2906d9b8da4a538006
+docker: quay.io/biocontainers/bioconductor-hgu133plus2.db

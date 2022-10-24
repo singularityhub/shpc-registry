@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rsnps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rsnps
+latest:
+  0.3.0--r40h6115d3f_2: sha256:61d17fd899ea7c78c0924db005fea318ea1b2e615d8e52a66f2ba7fedfdf05ce
+tags:
+  0.3.0--r40h6115d3f_2: sha256:61d17fd899ea7c78c0924db005fea318ea1b2e615d8e52a66f2ba7fedfdf05ce
+docker: quay.io/biocontainers/r-rsnps

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/examine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for examine
+latest:
+  1.0.1--hdfd78af_0: sha256:5e339f17aa79cded33c2d25420fe53b90bcb5a5a865b058fb5e8cf509c4b117a
+tags:
+  1.0.1--hdfd78af_0: sha256:5e339f17aa79cded33c2d25420fe53b90bcb5a5a865b058fb5e8cf509c4b117a
+docker: quay.io/biocontainers/examine
+aliases:
+  examine: /usr/local/bin/examine

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gprofiler
+latest:
+  0.6.1--r3.3.1_0: sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9
+tags:
+  0.6.1--r3.3.1_0: sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9
+docker: quay.io/biocontainers/r-gprofiler

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-sads
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-sads
+latest:
+  0.4.2--r351ha65eedd_1: sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5
+tags:
+  0.4.2--r351ha65eedd_1: sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5
+docker: quay.io/biocontainers/r-sads

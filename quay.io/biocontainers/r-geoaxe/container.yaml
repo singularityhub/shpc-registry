@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-geoaxe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-geoaxe
+latest:
+  0.1.0--r351h6115d3f_4: sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486
+tags:
+  0.1.0--r351h6115d3f_4: sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486
+docker: quay.io/biocontainers/r-geoaxe

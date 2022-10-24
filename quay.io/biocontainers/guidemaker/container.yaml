@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/guidemaker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for guidemaker
+latest:
+  0.3.4--pyhdfd78af_0: sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d
+tags:
+  0.3.4--pyhdfd78af_0: sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d
+docker: quay.io/biocontainers/guidemaker
+aliases:
+  base58: /usr/local/bin/base58
+  black-primer: /usr/local/bin/black-primer
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  guidemaker: /usr/local/bin/guidemaker
+  onnxruntime_test: /usr/local/bin/onnxruntime_test
+  pdoc: /usr/local/bin/pdoc
+  pdoc3: /usr/local/bin/pdoc3
+  streamlit: /usr/local/bin/streamlit
+  streamlit.cmd: /usr/local/bin/streamlit.cmd
+  watchmedo: /usr/local/bin/watchmedo

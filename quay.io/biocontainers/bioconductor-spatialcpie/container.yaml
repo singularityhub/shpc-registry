@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spatialcpie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatialcpie
+latest:
+  1.8.0--r41hdfd78af_0: sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891
+tags:
+  1.8.0--r41hdfd78af_0: sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891
+docker: quay.io/biocontainers/bioconductor-spatialcpie

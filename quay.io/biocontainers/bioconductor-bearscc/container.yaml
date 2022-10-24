@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bearscc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bearscc
+latest:
+  1.7.0--r40_0: sha256:1d962fbe69ddafe63de11f2e28116a896a91d103ffd748870c81444510a76cb1
+tags:
+  1.7.0--r40_0: sha256:1d962fbe69ddafe63de11f2e28116a896a91d103ffd748870c81444510a76cb1
+docker: quay.io/biocontainers/bioconductor-bearscc

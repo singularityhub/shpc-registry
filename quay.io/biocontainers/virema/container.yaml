@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/virema
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for virema
+latest:
+  0.6--hdfd78af_2: sha256:d17e55da1589becb8623df43b5c53bfe9c55fb8a3b36421dcc1869ce9bff06c3
+tags:
+  0.6--hdfd78af_2: sha256:d17e55da1589becb8623df43b5c53bfe9c55fb8a3b36421dcc1869ce9bff06c3
+docker: quay.io/biocontainers/virema
+aliases:
+  Compiler_Module.py: /usr/local/bin/Compiler_Module.py
+  ConfigViReMa.py: /usr/local/bin/ConfigViReMa.py
+  ViReMa.py: /usr/local/bin/ViReMa.py

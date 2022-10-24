@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-http-negotiate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-http-negotiate
+latest:
+  6.01--pl526_3: sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612
+tags:
+  6.01--pl526_3: sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612
+docker: quay.io/biocontainers/perl-http-negotiate

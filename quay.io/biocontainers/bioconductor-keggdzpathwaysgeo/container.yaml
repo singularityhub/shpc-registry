@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-keggdzpathwaysgeo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-keggdzpathwaysgeo
+latest:
+  1.32.0--r41hdfd78af_1: sha256:62935199fcab49a780ac514e8d628866104088c31014d64ba6fee66faadf6147
+tags:
+  1.32.0--r41hdfd78af_1: sha256:62935199fcab49a780ac514e8d628866104088c31014d64ba6fee66faadf6147
+docker: quay.io/biocontainers/bioconductor-keggdzpathwaysgeo
+aliases:
+  .bioconductor-keggdzpathwaysgeo-post-link.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh
+  .bioconductor-keggdzpathwaysgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh

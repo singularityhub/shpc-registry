@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chromheatmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chromheatmap
+latest:
+  1.48.0--r41hdfd78af_0: sha256:e032a99fd2181f44337b36d45d586fe88427de2276645fb87bcd560a027b7a05
+tags:
+  1.48.0--r41hdfd78af_0: sha256:e032a99fd2181f44337b36d45d586fe88427de2276645fb87bcd560a027b7a05
+docker: quay.io/biocontainers/bioconductor-chromheatmap

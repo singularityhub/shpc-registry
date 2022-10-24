@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-argparse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-argparse
+latest:
+  1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
+tags:
+  1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
+docker: quay.io/biocontainers/r-argparse

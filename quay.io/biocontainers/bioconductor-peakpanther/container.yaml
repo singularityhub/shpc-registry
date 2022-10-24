@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-peakpanther
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-peakpanther
+latest:
+  1.8.0--r41hdfd78af_0: sha256:8a0054756aa49e76ee7412fcfaa4dcecc3339f9fffb1e8e28cafc42169ac6680
+tags:
+  1.8.0--r41hdfd78af_0: sha256:8a0054756aa49e76ee7412fcfaa4dcecc3339f9fffb1e8e28cafc42169ac6680
+docker: quay.io/biocontainers/bioconductor-peakpanther

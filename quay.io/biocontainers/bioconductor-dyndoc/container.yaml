@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dyndoc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dyndoc
+latest:
+  1.72.0--r41hdfd78af_0: sha256:f625001edb7fc3f659a6edf8ebc35f5468f45cc9bf14e6a80c9c4df7e0cb9455
+tags:
+  1.72.0--r41hdfd78af_0: sha256:f625001edb7fc3f659a6edf8ebc35f5468f45cc9bf14e6a80c9c4df7e0cb9455
+docker: quay.io/biocontainers/bioconductor-dyndoc

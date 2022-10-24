@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/linearpartition
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for linearpartition
+latest:
+  1.0--h9f5acd7_1: sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df
+tags:
+  1.0--h9f5acd7_1: sha256:b8c63c72f7ef8928ff94f4fdbf374ccd254192df27b91c00e2d5493a0ead99df
+docker: quay.io/biocontainers/linearpartition
+aliases:
+  draw_heatmap: /usr/local/bin/draw_heatmap
+  gflags2man.py: /usr/local/bin/gflags2man.py
+  linearpartition: /usr/local/bin/linearpartition

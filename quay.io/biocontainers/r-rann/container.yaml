@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rann
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rann
+latest:
+  2.5--r3.3.2_0: sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279
+tags:
+  2.5--r3.3.2_0: sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279
+docker: quay.io/biocontainers/r-rann

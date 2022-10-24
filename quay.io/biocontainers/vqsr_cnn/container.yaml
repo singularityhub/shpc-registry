@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vqsr_cnn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vqsr_cnn
+latest:
+  0.0.194--py_0: sha256:5bbec43d403410518acdf5cf831b39417f75c1f1daf332a078bbfc1fcea18cd5
+tags:
+  0.0.194--py_0: sha256:5bbec43d403410518acdf5cf831b39417f75c1f1daf332a078bbfc1fcea18cd5
+docker: quay.io/biocontainers/vqsr_cnn

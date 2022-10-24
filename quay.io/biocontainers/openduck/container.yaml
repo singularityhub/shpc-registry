@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/openduck
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for openduck
+latest:
+  0.1.2--py_0: sha256:28c0db678edbdeec5c7e8f1e54cdf8616b6af860af4920ccf82c6cc4991f50f7
+tags:
+  0.1.2--py_0: sha256:28c0db678edbdeec5c7e8f1e54cdf8616b6af860af4920ccf82c6cc4991f50f7
+docker: quay.io/biocontainers/openduck
+aliases:
+  duck_chunk: /usr/local/bin/duck_chunk
+  duck_prepare_sys: /usr/local/bin/duck_prepare_sys
+  duck_smd_runs: /usr/local/bin/duck_smd_runs
+  frag_duck: /usr/local/bin/frag_duck
+  get_wqb: /usr/local/bin/get_wqb

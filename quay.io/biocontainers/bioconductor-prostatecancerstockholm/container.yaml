@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-prostatecancerstockholm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prostatecancerstockholm
+latest:
+  1.22.0--r41hdfd78af_1: sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5
+tags:
+  1.22.0--r41hdfd78af_1: sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5
+docker: quay.io/biocontainers/bioconductor-prostatecancerstockholm
+aliases:
+  .bioconductor-prostatecancerstockholm-post-link.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-post-link.sh
+  .bioconductor-prostatecancerstockholm-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-pre-unlink.sh

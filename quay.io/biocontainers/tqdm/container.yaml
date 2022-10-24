@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tqdm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tqdm
+latest:
+  4.7.2--py36_0: sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604
+tags:
+  4.7.2--py36_0: sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604
+docker: quay.io/biocontainers/tqdm

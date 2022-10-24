@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/aquilasv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aquilasv
+latest:
+  1.5--pyhdfd78af_0: sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876
+tags:
+  1.5--pyhdfd78af_0: sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876
+docker: quay.io/biocontainers/aquilasv
+aliases:
+  AquilaSV_step1: /usr/local/bin/AquilaSV_step1
+  AquilaSV_step2: /usr/local/bin/AquilaSV_step2
+  AquilaSV_step3: /usr/local/bin/AquilaSV_step3

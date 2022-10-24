@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-airway
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-airway
+latest:
+  1.8.0--r40_0: sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4
+tags:
+  1.8.0--r40_0: sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4
+docker: quay.io/biocontainers/bioconductor-airway
+aliases:
+  .bioconductor-airway-post-link.sh: /usr/local/bin/.bioconductor-airway-post-link.sh
+  .bioconductor-airway-pre-unlink.sh: /usr/local/bin/.bioconductor-airway-pre-unlink.sh

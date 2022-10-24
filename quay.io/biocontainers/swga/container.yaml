@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/swga
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for swga
+latest:
+  0.4.4--py27heb12742_2: sha256:13a1c4e5d8855f93b4c0b2d5626ed32a9cb9c8d63884af1ef3da33e27795cb5e
+tags:
+  0.4.4--py27heb12742_2: sha256:13a1c4e5d8855f93b4c0b2d5626ed32a9cb9c8d63884af1ef3da33e27795cb5e
+docker: quay.io/biocontainers/swga
+aliases:
+  Tm: /usr/local/bin/Tm
+  dsk: /usr/local/bin/dsk
+  pskel: /usr/local/bin/pskel
+  pwiz.py: /usr/local/bin/pwiz.py
+  set_finder: /usr/local/bin/set_finder
+  swga: /usr/local/bin/swga
+  ws: /usr/local/bin/ws

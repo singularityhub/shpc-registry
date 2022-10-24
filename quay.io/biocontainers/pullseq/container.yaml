@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pullseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pullseq
+latest:
+  1.0.2--hbd632db_7: sha256:18f98b3b5d8373dbbb04c03195580a619a9f136533c96ae9749561ee91db3521
+tags:
+  1.0.2--hbd632db_7: sha256:18f98b3b5d8373dbbb04c03195580a619a9f136533c96ae9749561ee91db3521
+docker: quay.io/biocontainers/pullseq
+aliases:
+  pullseq: /usr/local/bin/pullseq
+  seqdiff: /usr/local/bin/seqdiff

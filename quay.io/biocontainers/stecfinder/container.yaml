@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stecfinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stecfinder
+latest:
+  1.1.0--pyhdfd78af_0: sha256:dadf3e030539a5df63721596346b54fff590ec8eb7fab0a16a42e8620c27372d
+tags:
+  1.1.0--pyhdfd78af_0: sha256:dadf3e030539a5df63721596346b54fff590ec8eb7fab0a16a42e8620c27372d
+docker: quay.io/biocontainers/stecfinder
+aliases:
+  stecfinder: /usr/local/bin/stecfinder

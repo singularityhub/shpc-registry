@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-openprimerui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-openprimerui
+latest:
+  1.8.0--r36_0: sha256:5ec0ba47e4cdedd07e07f99605916a073395a0ba7c9afa21d22d39c439a6d44c
+tags:
+  1.8.0--r36_0: sha256:5ec0ba47e4cdedd07e07f99605916a073395a0ba7c9afa21d22d39c439a6d44c
+docker: quay.io/biocontainers/bioconductor-openprimerui

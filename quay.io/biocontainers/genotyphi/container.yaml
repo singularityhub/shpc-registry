@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/genotyphi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genotyphi
+latest:
+  1.9.1--hdfd78af_1: sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde
+tags:
+  1.9.1--hdfd78af_1: sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde
+docker: quay.io/biocontainers/genotyphi
+aliases:
+  genotyphi: /usr/local/bin/genotyphi
+  genotyphi.py: /usr/local/bin/genotyphi.py
+  parse_typhi_mykrobe.py: /usr/local/bin/parse_typhi_mykrobe.py

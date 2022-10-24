@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-types-path-class
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-types-path-class
+latest:
+  0.09--pl5321hdfd78af_5: sha256:8a2b49b6b74c4aca5b899b9e2aa14f49f61226f999e062ded38c78bfdbd6a783
+tags:
+  0.09--pl5321hdfd78af_5: sha256:8a2b49b6b74c4aca5b899b9e2aa14f49f61226f999e062ded38c78bfdbd6a783
+docker: quay.io/biocontainers/perl-moosex-types-path-class

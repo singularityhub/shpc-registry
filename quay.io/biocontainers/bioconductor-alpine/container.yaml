@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-alpine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-alpine
+latest:
+  1.8.0--r351_0: sha256:9212aa3f4ae2bd4d0fed165be35f8f6b0e34342e292be37fac83ae3973754986
+tags:
+  1.8.0--r351_0: sha256:9212aa3f4ae2bd4d0fed165be35f8f6b0e34342e292be37fac83ae3973754986
+docker: quay.io/biocontainers/bioconductor-alpine

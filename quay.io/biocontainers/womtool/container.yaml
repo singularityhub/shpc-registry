@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/womtool
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for womtool
+latest:
+  53.1--0: sha256:34e98b4c720e02ca04fee75b38575b798dc3ec5b66ac570ae0a1f721f857559b
+tags:
+  53.1--0: sha256:34e98b4c720e02ca04fee75b38575b798dc3ec5b66ac570ae0a1f721f857559b
+docker: quay.io/biocontainers/womtool
+aliases:
+  womtool: /usr/local/bin/womtool

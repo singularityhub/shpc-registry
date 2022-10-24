@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/numkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for numkit
+latest:
+  1.2.2--pyh5e36f6f_1: sha256:b24093d26554ecd5c8e0ec415202a6ce7a2842056dc02257f19ba3c39ed56a7a
+tags:
+  1.2.2--pyh5e36f6f_1: sha256:b24093d26554ecd5c8e0ec415202a6ce7a2842056dc02257f19ba3c39ed56a7a
+docker: quay.io/biocontainers/numkit

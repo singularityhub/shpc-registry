@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sctools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sctools
+latest:
+  1.0.0--hd03093a_2: sha256:6b8a23ce4487ab761d8489d782bacd89b2aa04d3dd8f3ec88e093afcd79010fb
+tags:
+  1.0.0--hd03093a_2: sha256:6b8a23ce4487ab761d8489d782bacd89b2aa04d3dd8f3ec88e093afcd79010fb
+docker: quay.io/biocontainers/sctools
+aliases:
+  sctools_demultiplex: /usr/local/bin/sctools_demultiplex

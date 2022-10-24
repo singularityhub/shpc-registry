@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/wlogdate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wlogdate
+latest:
+  1.0.4--pyhdfd78af_0: sha256:edc3eb643100c7512bed03408675c7af71e4ae414795c20f56deefe21544ae08
+tags:
+  1.0.4--pyhdfd78af_0: sha256:edc3eb643100c7512bed03408675c7af71e4ae414795c20f56deefe21544ae08
+docker: quay.io/biocontainers/wlogdate
+aliases:
+  launch_wLogDate.py: /usr/local/bin/launch_wLogDate.py

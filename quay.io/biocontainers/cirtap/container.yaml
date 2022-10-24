@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cirtap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cirtap
+latest:
+  0.3.1--pyh5e36f6f_0: sha256:6e7579624bca8c95da6a0ce9ccb987d16fdd102d8f3340675725c0d7eb87d6c6
+tags:
+  0.3.1--pyh5e36f6f_0: sha256:6e7579624bca8c95da6a0ce9ccb987d16fdd102d8f3340675725c0d7eb87d6c6
+docker: quay.io/biocontainers/cirtap
+aliases:
+  cirtap: /usr/local/bin/cirtap

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-microbiomeprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-microbiomeprofiler
+latest:
+  1.0.0--r41hdfd78af_0: sha256:b412a999ced08246bf028d0e5a12fa8290c50b533fd89fb28669456dc65ba7ed
+tags:
+  1.0.0--r41hdfd78af_0: sha256:b412a999ced08246bf028d0e5a12fa8290c50b533fd89fb28669456dc65ba7ed
+docker: quay.io/biocontainers/bioconductor-microbiomeprofiler

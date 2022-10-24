@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metaprokka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaprokka
+latest:
+  1.14.6_1--pl5321hdfd78af_2: sha256:27ae7fd133dbeb44836f1452e328a6a7b108f0e2b97851fa055c72c9068c550e
+tags:
+  1.14.6_1--pl5321hdfd78af_2: sha256:27ae7fd133dbeb44836f1452e328a6a7b108f0e2b97851fa055c72c9068c550e
+docker: quay.io/biocontainers/metaprokka
+aliases:
+  metaprokka: /usr/local/bin/metaprokka

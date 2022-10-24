@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/edlib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for edlib
+latest:
+  1.2.3--h2d50403_1: sha256:acf2aa7794085e1864f67424a4369bdfbfad0f544cc15a132f3ac1cdb9518208
+tags:
+  1.2.3--h2d50403_1: sha256:acf2aa7794085e1864f67424a4369bdfbfad0f544cc15a132f3ac1cdb9518208
+docker: quay.io/biocontainers/edlib
+aliases:
+  edlib-aligner: /usr/local/bin/edlib-aligner

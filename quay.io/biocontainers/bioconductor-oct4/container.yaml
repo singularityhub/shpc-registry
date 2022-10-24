@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-oct4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oct4
+latest:
+  1.8.0--r41hdfd78af_0: sha256:73a49bec10fa4164f6a98ba6883c2e4ca80075369a11e1df138a2eb499d397fa
+tags:
+  1.8.0--r41hdfd78af_0: sha256:73a49bec10fa4164f6a98ba6883c2e4ca80075369a11e1df138a2eb499d397fa
+docker: quay.io/biocontainers/bioconductor-oct4
+aliases:
+  .bioconductor-oct4-post-link.sh: /usr/local/bin/.bioconductor-oct4-post-link.sh
+  .bioconductor-oct4-pre-unlink.sh: /usr/local/bin/.bioconductor-oct4-pre-unlink.sh

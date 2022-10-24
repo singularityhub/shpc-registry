@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-interactivecomplexheatmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-interactivecomplexheatmap
+latest:
+  1.2.0--r41hdfd78af_0: sha256:9e93d082392ea753e1a74868750486ccd3d18f10da8bef222719ef93b3f45f01
+tags:
+  1.2.0--r41hdfd78af_0: sha256:9e93d082392ea753e1a74868750486ccd3d18f10da8bef222719ef93b3f45f01
+docker: quay.io/biocontainers/bioconductor-interactivecomplexheatmap

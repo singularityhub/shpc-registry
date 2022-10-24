@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-stacktrace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-stacktrace
+latest:
+  2.04--pl5321hdfd78af_1: sha256:dbb5311b7ccdde9e053453b8b76c9ca513c6ee23b6114f5130d6624caa708bca
+tags:
+  2.04--pl5321hdfd78af_1: sha256:dbb5311b7ccdde9e053453b8b76c9ca513c6ee23b6114f5130d6624caa708bca
+docker: quay.io/biocontainers/perl-devel-stacktrace

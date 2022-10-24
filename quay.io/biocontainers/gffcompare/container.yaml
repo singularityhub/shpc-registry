@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gffcompare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gffcompare
+latest:
+  0.9.8--0: sha256:52eaf3065657c4105197fb8b5e62fd4211ec160c1004f9619c3e0bb2feb87749
+tags:
+  0.9.8--0: sha256:52eaf3065657c4105197fb8b5e62fd4211ec160c1004f9619c3e0bb2feb87749
+docker: quay.io/biocontainers/gffcompare
+aliases:
+  gffcompare: /usr/local/bin/gffcompare
+  gtest: /usr/local/bin/gtest
+  threads: /usr/local/bin/threads

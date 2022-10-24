@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-comet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-comet
+latest:
+  1.26.0--r41hdfd78af_0: sha256:7ad088e7b1589b6cb3b5e7f8707939bf5ca27119c9648d39071408fce8f5068f
+tags:
+  1.26.0--r41hdfd78af_0: sha256:7ad088e7b1589b6cb3b5e7f8707939bf5ca27119c9648d39071408fce8f5068f
+docker: quay.io/biocontainers/bioconductor-comet

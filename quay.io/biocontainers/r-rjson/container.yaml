@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rjson
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rjson
+latest:
+  0.2.15--r3.3.2_0: sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9
+tags:
+  0.2.15--r3.3.2_0: sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9
+docker: quay.io/biocontainers/r-rjson

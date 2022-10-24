@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-plw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-plw
+latest:
+  1.47.0--r40h037d062_0: sha256:d6973e008fe9b435492985461a60ebf02ffeacc7b7f7fb93f132e9757fe9e7e4
+tags:
+  1.47.0--r40h037d062_0: sha256:d6973e008fe9b435492985461a60ebf02ffeacc7b7f7fb93f132e9757fe9e7e4
+docker: quay.io/biocontainers/bioconductor-plw

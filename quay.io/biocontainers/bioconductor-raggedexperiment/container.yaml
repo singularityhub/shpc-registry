@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-raggedexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-raggedexperiment
+latest:
+  1.8.0--r36_1: sha256:08fcafd5ee52a4679de83fd64f3dffa6fe8413b2a6a4c77ede9ff0c4d5c65e89
+tags:
+  1.8.0--r36_1: sha256:08fcafd5ee52a4679de83fd64f3dffa6fe8413b2a6a4c77ede9ff0c4d5c65e89
+docker: quay.io/biocontainers/bioconductor-raggedexperiment

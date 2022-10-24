@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-seattleseqkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-seattleseqkit
+latest:
+  0.2--hdfd78af_1: sha256:02d3f4c20facffeecb7d4a52d97c6e35783035674d6841178a46608a8fba4df9
+tags:
+  0.2--hdfd78af_1: sha256:02d3f4c20facffeecb7d4a52d97c6e35783035674d6841178a46608a8fba4df9
+docker: quay.io/biocontainers/biopet-seattleseqkit
+aliases:
+  biopet-seattleseqkit: /usr/local/bin/biopet-seattleseqkit

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-brainimager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-brainimager
+latest:
+  1.1.0--r36_1: sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30
+tags:
+  1.1.0--r36_1: sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30
+docker: quay.io/biocontainers/bioconductor-brainimager

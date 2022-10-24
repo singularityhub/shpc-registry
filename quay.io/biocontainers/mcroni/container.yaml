@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/mcroni
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mcroni
+latest:
+  1.0.4--pyh5e36f6f_0: sha256:bcee9f6b16a877faac58e8e39c214f7cdd1b8262c24260d2d9bb081f4df77e68
+tags:
+  1.0.4--pyh5e36f6f_0: sha256:bcee9f6b16a877faac58e8e39c214f7cdd1b8262c24260d2d9bb081f4df77e68
+docker: quay.io/biocontainers/mcroni
+aliases:
+  _gdlib-config: /usr/local/bin/_gdlib-config
+  mcroni: /usr/local/bin/mcroni

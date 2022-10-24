@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dinosaur
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dinosaur
+latest:
+  1.2.0--hdfd78af_1: sha256:b834e03dfd53e47501909224193ff8ad4944d631c5c83d5733351e717c02293a
+tags:
+  1.2.0--hdfd78af_1: sha256:b834e03dfd53e47501909224193ff8ad4944d631c5c83d5733351e717c02293a
+docker: quay.io/biocontainers/dinosaur
+aliases:
+  dinosaur: /usr/local/bin/dinosaur

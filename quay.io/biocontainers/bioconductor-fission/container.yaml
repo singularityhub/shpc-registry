@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-fission
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fission
+latest:
+  1.8.0--r40_0: sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027
+tags:
+  1.8.0--r40_0: sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027
+docker: quay.io/biocontainers/bioconductor-fission
+aliases:
+  .bioconductor-fission-post-link.sh: /usr/local/bin/.bioconductor-fission-post-link.sh
+  .bioconductor-fission-pre-unlink.sh: /usr/local/bin/.bioconductor-fission-pre-unlink.sh

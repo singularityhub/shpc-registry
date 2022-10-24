@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-structssi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-structssi
+latest:
+  1.1.1--r41h3121a25_8: sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b
+tags:
+  1.1.1--r41h3121a25_8: sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b
+docker: quay.io/biocontainers/r-structssi

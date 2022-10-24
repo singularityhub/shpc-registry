@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-org.eck12.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-org.eck12.eg.db
+latest:
+  3.8.2--r36_1: sha256:149a1a60c20c0dafe8d62c401f7a5983ccd400cd4a9d078052cadaec3c6004b0
+tags:
+  3.8.2--r36_1: sha256:149a1a60c20c0dafe8d62c401f7a5983ccd400cd4a9d078052cadaec3c6004b0
+docker: quay.io/biocontainers/bioconductor-org.eck12.eg.db
+aliases:
+  .bioconductor-org.eck12.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.eck12.eg.db-post-link.sh
+  .bioconductor-org.eck12.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.eck12.eg.db-pre-unlink.sh

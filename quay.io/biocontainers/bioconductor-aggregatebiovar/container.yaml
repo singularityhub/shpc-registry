@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-aggregatebiovar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-aggregatebiovar
+latest:
+  1.4.0--r41hdfd78af_0: sha256:acedd03811fad2a91da150d743b241be11ff3720e37ca8b8a12ec631585dff3a
+tags:
+  1.4.0--r41hdfd78af_0: sha256:acedd03811fad2a91da150d743b241be11ff3720e37ca8b8a12ec631585dff3a
+docker: quay.io/biocontainers/bioconductor-aggregatebiovar

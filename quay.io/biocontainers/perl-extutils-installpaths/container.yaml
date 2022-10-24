@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-installpaths
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-installpaths
+latest:
+  0.012--pl526_0: sha256:aa5eb382b1e3c26a6904ddb43562dc35c4b6969ad5dc1cf4c031a8cf9e3b9a7d
+tags:
+  0.012--pl526_0: sha256:aa5eb382b1e3c26a6904ddb43562dc35c4b6969ad5dc1cf4c031a8cf9e3b9a7d
+docker: quay.io/biocontainers/perl-extutils-installpaths

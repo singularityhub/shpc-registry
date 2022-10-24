@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ggrepel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ggrepel
+latest:
+  0.6.5--r3.3.1_0: sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984
+tags:
+  0.6.5--r3.3.1_0: sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984
+docker: quay.io/biocontainers/r-ggrepel

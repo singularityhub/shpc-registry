@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-gzip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-gzip
+latest:
+  0.20--pl5321h7132678_4: sha256:5791beefbedc60764444eef0947f7edc079a82a49a81e6552a511ec81b197463
+tags:
+  0.20--pl5321h7132678_4: sha256:5791beefbedc60764444eef0947f7edc079a82a49a81e6552a511ec81b197463
+docker: quay.io/biocontainers/perl-io-gzip

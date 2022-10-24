@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-survey
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-survey
+latest:
+  3.31_5--r3.3.1_0: sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed
+tags:
+  3.31_5--r3.3.1_0: sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed
+docker: quay.io/biocontainers/r-survey

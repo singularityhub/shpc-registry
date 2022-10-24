@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/autodock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for autodock
+latest:
+  4.2.6--h9f5acd7_1: sha256:7e885b64621b5c311b10889785143e580a323ca0281ca515c7c5c8ba475e8399
+tags:
+  4.2.6--h9f5acd7_1: sha256:7e885b64621b5c311b10889785143e580a323ca0281ca515c7c5c8ba475e8399
+docker: quay.io/biocontainers/autodock
+aliases:
+  autodock4: /usr/local/bin/autodock4
+  autodock4.omp: /usr/local/bin/autodock4.omp

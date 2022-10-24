@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellnoptr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellnoptr
+latest:
+  1.40.0--r41hc0cfd56_2: sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930
+tags:
+  1.40.0--r41hc0cfd56_2: sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930
+docker: quay.io/biocontainers/bioconductor-cellnoptr

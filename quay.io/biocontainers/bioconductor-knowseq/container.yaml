@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-knowseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-knowseq
+latest:
+  1.8.0--r41hdfd78af_0: sha256:4fdada097d3a961c449bf2251ed1c655f135840b8f67601a1213e9b46a675b8a
+tags:
+  1.8.0--r41hdfd78af_0: sha256:4fdada097d3a961c449bf2251ed1c655f135840b8f67601a1213e9b46a675b8a
+docker: quay.io/biocontainers/bioconductor-knowseq

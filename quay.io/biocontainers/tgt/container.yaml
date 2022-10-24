@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/tgt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tgt
+latest:
+  1.4.3--py27_2: sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f
+tags:
+  1.4.3--py27_2: sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f
+docker: quay.io/biocontainers/tgt
+aliases:
+  tgt-concatenate-textgrids.py: /usr/local/bin/tgt-concatenate-textgrids.py
+  tgt-extract-part.py: /usr/local/bin/tgt-extract-part.py
+  tgt-print-tiernames.py: /usr/local/bin/tgt-print-tiernames.py
+  tgt-shift-boundaries.py: /usr/local/bin/tgt-shift-boundaries.py

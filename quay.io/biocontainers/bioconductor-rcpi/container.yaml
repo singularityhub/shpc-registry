@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcpi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcpi
+latest:
+  1.30.0--r41hdfd78af_0: sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7
+tags:
+  1.30.0--r41hdfd78af_0: sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7
+docker: quay.io/biocontainers/bioconductor-rcpi

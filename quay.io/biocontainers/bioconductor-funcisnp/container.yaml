@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-funcisnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-funcisnp
+latest:
+  1.32.0--r40_0: sha256:bdc79a3ee081420c49836d3fca90b5cb29d478418eb94ab0f02f97150a79d412
+tags:
+  1.32.0--r40_0: sha256:bdc79a3ee081420c49836d3fca90b5cb29d478418eb94ab0f02f97150a79d412
+docker: quay.io/biocontainers/bioconductor-funcisnp
+aliases:
+  .bioconductor-funcisnp.data-post-link.sh: /usr/local/bin/.bioconductor-funcisnp.data-post-link.sh
+  .bioconductor-funcisnp.data-pre-unlink.sh: /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh

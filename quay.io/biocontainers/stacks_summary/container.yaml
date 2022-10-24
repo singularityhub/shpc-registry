@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stacks_summary
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stacks_summary
+latest:
+  1.1--py27_0: sha256:5cbd56948a8a0db98053d0f3d2584a79b2bc5496fc3c9eeb0a38ced1689828b6
+tags:
+  1.1--py27_0: sha256:5cbd56948a8a0db98053d0f3d2584a79b2bc5496fc3c9eeb0a38ced1689828b6
+docker: quay.io/biocontainers/stacks_summary
+aliases:
+  stacks_summary.py: /usr/local/bin/stacks_summary.py

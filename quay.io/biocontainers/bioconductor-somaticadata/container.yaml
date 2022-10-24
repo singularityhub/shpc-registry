@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-somaticadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-somaticadata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e
+tags:
+  1.32.0--r41hdfd78af_1: sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e
+docker: quay.io/biocontainers/bioconductor-somaticadata
+aliases:
+  .bioconductor-somaticadata-post-link.sh: /usr/local/bin/.bioconductor-somaticadata-post-link.sh
+  .bioconductor-somaticadata-pre-unlink.sh: /usr/local/bin/.bioconductor-somaticadata-pre-unlink.sh

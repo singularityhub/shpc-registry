@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-uncoverapplib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-uncoverapplib
+latest:
+  1.4.0--r41hdfd78af_0: sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b
+tags:
+  1.4.0--r41hdfd78af_0: sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b
+docker: quay.io/biocontainers/bioconductor-uncoverapplib
+aliases:
+  .bioconductor-ensdb.hsapiens.v86-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
+  .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/treesapp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for treesapp
+latest:
+  0.9.8--py36hf1ae8f4_0: sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b
+tags:
+  0.9.8--py36hf1ae8f4_0: sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b
+docker: quay.io/biocontainers/treesapp
+aliases:
+  epa-ng: /usr/local/bin/epa-ng
+  samsum: /usr/local/bin/samsum
+  treesapp: /usr/local/bin/treesapp

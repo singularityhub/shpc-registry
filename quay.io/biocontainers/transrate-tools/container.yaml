@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/transrate-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transrate-tools
+latest:
+  1.0.0--ha7703dc_8: sha256:6137af01b3ad7c6431b47e62a823bfb34b018900316154d0aa634065e24c29ec
+tags:
+  1.0.0--ha7703dc_8: sha256:6137af01b3ad7c6431b47e62a823bfb34b018900316154d0aa634065e24c29ec
+docker: quay.io/biocontainers/transrate-tools
+aliases:
+  bam-read: /usr/local/bin/bam-read

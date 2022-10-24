@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-epitxdb.sc.saccer3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epitxdb.sc.saccer3
+latest:
+  0.99.5--r41hdfd78af_2: sha256:83fbdab38edc36892dd83a3030eef3462b9e33ec28f75e7fc318edd6c18c2b4a
+tags:
+  0.99.5--r41hdfd78af_2: sha256:83fbdab38edc36892dd83a3030eef3462b9e33ec28f75e7fc318edd6c18c2b4a
+docker: quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3
+aliases:
+  .bioconductor-epitxdb.sc.saccer3-post-link.sh: /usr/local/bin/.bioconductor-epitxdb.sc.saccer3-post-link.sh
+  .bioconductor-epitxdb.sc.saccer3-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.sc.saccer3-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-stategra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-stategra
+latest:
+  1.30.0--r41hdfd78af_0: sha256:208584d968acf7e426c7478f09fff71be3daef57b467831ef413df23293d6288
+tags:
+  1.30.0--r41hdfd78af_0: sha256:208584d968acf7e426c7478f09fff71be3daef57b467831ef413df23293d6288
+docker: quay.io/biocontainers/bioconductor-stategra

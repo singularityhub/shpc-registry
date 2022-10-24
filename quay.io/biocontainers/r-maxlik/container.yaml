@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-maxlik
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-maxlik
+latest:
+  1.3_4--r3.3.1_0: sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115
+tags:
+  1.3_4--r3.3.1_0: sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115
+docker: quay.io/biocontainers/r-maxlik

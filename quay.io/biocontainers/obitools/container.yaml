@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/obitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for obitools
+latest:
+  1.2.13--py27h9801fc8_4: sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
+tags:
+  1.2.13--py27h9801fc8_4: sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4
+docker: quay.io/biocontainers/obitools
+aliases:
+  ali2consensus: /usr/local/bin/ali2consensus
+  ecodbtaxstat: /usr/local/bin/ecodbtaxstat
+  ecotag: /usr/local/bin/ecotag
+  ecotaxspecificity: /usr/local/bin/ecotaxspecificity
+  ecotaxstat: /usr/local/bin/ecotaxstat
+  extractreads: /usr/local/bin/extractreads
+  extractreads2: /usr/local/bin/extractreads2
+  illuminapairedend: /usr/local/bin/illuminapairedend
+  ngsfilter: /usr/local/bin/ngsfilter
+  obiaddtaxids: /usr/local/bin/obiaddtaxids
+  obiannotate: /usr/local/bin/obiannotate
+  obiclean: /usr/local/bin/obiclean
+  obicomplement: /usr/local/bin/obicomplement
+  obiconvert: /usr/local/bin/obiconvert
+  obicount: /usr/local/bin/obicount
+  obicut: /usr/local/bin/obicut
+  obidistribute: /usr/local/bin/obidistribute
+  obiextract: /usr/local/bin/obiextract
+  obigrep: /usr/local/bin/obigrep
+  obihead: /usr/local/bin/obihead
+  obijoinpairedend: /usr/local/bin/obijoinpairedend
+  obipr2: /usr/local/bin/obipr2
+  obisample: /usr/local/bin/obisample
+  obiselect: /usr/local/bin/obiselect
+  obisilva: /usr/local/bin/obisilva
+  obisort: /usr/local/bin/obisort
+  obisplit: /usr/local/bin/obisplit
+  obistat: /usr/local/bin/obistat
+  obisubset: /usr/local/bin/obisubset
+  obitab: /usr/local/bin/obitab
+  obitail: /usr/local/bin/obitail
+  obitaxonomy: /usr/local/bin/obitaxonomy
+  obiuniq: /usr/local/bin/obiuniq
+  oligotag: /usr/local/bin/oligotag

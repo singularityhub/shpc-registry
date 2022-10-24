@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-annotables
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-annotables
+latest:
+  v0.1.90--r36_3: sha256:59d65792a78dbd94cf3f3bd254f62be3636122f56f485d12e3694ca41a6a2ac1
+tags:
+  v0.1.90--r36_3: sha256:59d65792a78dbd94cf3f3bd254f62be3636122f56f485d12e3694ca41a6a2ac1
+docker: quay.io/biocontainers/r-annotables

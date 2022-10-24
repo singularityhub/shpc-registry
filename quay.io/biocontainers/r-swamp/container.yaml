@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-swamp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-swamp
+latest:
+  1.5.1--r41h3121a25_3: sha256:e007bdc921ff01e3b86bab3875c1855a426c622a4f1f9be86b279e7d1a2fc0fe
+tags:
+  1.5.1--r41h3121a25_3: sha256:e007bdc921ff01e3b86bab3875c1855a426c622a4f1f9be86b279e7d1a2fc0fe
+docker: quay.io/biocontainers/r-swamp

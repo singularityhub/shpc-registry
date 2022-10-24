@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dearseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dearseq
+latest:
+  1.6.0--r41hdfd78af_0: sha256:6a7a747130e39ba7a83563bcfe9c848f7490e050909487bbf735a24f3af5623b
+tags:
+  1.6.0--r41hdfd78af_0: sha256:6a7a747130e39ba7a83563bcfe9c848f7490e050909487bbf735a24f3af5623b
+docker: quay.io/biocontainers/bioconductor-dearseq

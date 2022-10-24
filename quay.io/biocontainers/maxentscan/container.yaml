@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/maxentscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for maxentscan
+latest:
+  0_2004.04.21--pl5321hdfd78af_4: sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6
+tags:
+  0_2004.04.21--pl5321hdfd78af_4: sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6
+docker: quay.io/biocontainers/maxentscan
+aliases:
+  maxentscan_score3.pl: /usr/local/bin/maxentscan_score3.pl
+  maxentscan_score5.pl: /usr/local/bin/maxentscan_score5.pl

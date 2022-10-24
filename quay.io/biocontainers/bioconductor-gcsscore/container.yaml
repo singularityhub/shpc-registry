@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gcsscore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gcsscore
+latest:
+  1.8.0--r41hdfd78af_0: sha256:73528548613d36b1c4bdba34b3da925040ebe8195830fb79a076a3941218cd4e
+tags:
+  1.8.0--r41hdfd78af_0: sha256:73528548613d36b1c4bdba34b3da925040ebe8195830fb79a076a3941218cd4e
+docker: quay.io/biocontainers/bioconductor-gcsscore

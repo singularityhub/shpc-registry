@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pathwaymatcher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pathwaymatcher
+latest:
+  1.9.1--hdfd78af_3: sha256:77797c82b6825fe93f1ee73bd8386aa014f88813f60df1466d61b1cf3b0dccd0
+tags:
+  1.9.1--hdfd78af_3: sha256:77797c82b6825fe93f1ee73bd8386aa014f88813f60df1466d61b1cf3b0dccd0
+docker: quay.io/biocontainers/pathwaymatcher
+aliases:
+  pathwaymatcher: /usr/local/bin/pathwaymatcher
+  pathwaymatcher.py: /usr/local/bin/pathwaymatcher.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bader
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bader
+latest:
+  1.32.0--r41hc247a5b_2: sha256:da3c0f3f904847058860d9a8b070d2aa45148f1ac8faf8ba3b9a277a1fdadc58
+tags:
+  1.32.0--r41hc247a5b_2: sha256:da3c0f3f904847058860d9a8b070d2aa45148f1ac8faf8ba3b9a277a1fdadc58
+docker: quay.io/biocontainers/bioconductor-bader

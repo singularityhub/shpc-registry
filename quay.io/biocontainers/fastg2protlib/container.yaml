@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fastg2protlib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastg2protlib
+latest:
+  1.0.2--py_0: sha256:717f4a6f4ff2a5850c8ceaf2a88a4b9cb3dd2acc82ee3ccdf23e117afbd45eeb
+tags:
+  1.0.2--py_0: sha256:717f4a6f4ff2a5850c8ceaf2a88a4b9cb3dd2acc82ee3ccdf23e117afbd45eeb
+docker: quay.io/biocontainers/fastg2protlib

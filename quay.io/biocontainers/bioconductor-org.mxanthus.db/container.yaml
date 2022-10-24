@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-org.mxanthus.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-org.mxanthus.db
+latest:
+  1.0.27--r41hdfd78af_6: sha256:1853fc2aa6be57ac505c13a55278ff4c8bf936702229c5362778c2f0d340f086
+tags:
+  1.0.27--r41hdfd78af_6: sha256:1853fc2aa6be57ac505c13a55278ff4c8bf936702229c5362778c2f0d340f086
+docker: quay.io/biocontainers/bioconductor-org.mxanthus.db
+aliases:
+  .bioconductor-org.mxanthus.db-post-link.sh: /usr/local/bin/.bioconductor-org.mxanthus.db-post-link.sh
+  .bioconductor-org.mxanthus.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.mxanthus.db-pre-unlink.sh

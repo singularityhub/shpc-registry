@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/xcftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xcftools
+latest:
+  1.0.7--1: sha256:3388ffe4ae48929ef39f97b34c76114c5db6049902c893016a4285a442130577
+tags:
+  1.0.7--1: sha256:3388ffe4ae48929ef39f97b34c76114c5db6049902c893016a4285a442130577
+docker: quay.io/biocontainers/xcftools
+aliases:
+  xcf2png: /usr/local/bin/xcf2png
+  xcf2pnm: /usr/local/bin/xcf2pnm
+  xcfinfo: /usr/local/bin/xcfinfo
+  xcfview: /usr/local/bin/xcfview

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/toil
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for toil
+latest:
+  5.6.0--pyhdfd78af_0: sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041
+tags:
+  5.6.0--pyhdfd78af_0: sha256:d148c547f7829b59b69155dd5add29ddd2d8a3b93e10f3f9ebbdb1126bc63041
+docker: quay.io/biocontainers/toil
+aliases:
+  _toil_contained_executor: /usr/local/bin/_toil_contained_executor
+  _toil_mesos_executor: /usr/local/bin/_toil_mesos_executor
+  _toil_worker: /usr/local/bin/_toil_worker
+  cwltoil: /usr/local/bin/cwltoil
+  toil: /usr/local/bin/toil
+  toil-cwl-runner: /usr/local/bin/toil-cwl-runner
+  wsdump: /usr/local/bin/wsdump

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pandaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pandaseq
+latest:
+  2.8.1--h67092d7_5: sha256:1be33559ab6f1f426f99c2e0d8230f52643df009756da4a6e6ece0dbf04e5f18
+tags:
+  2.8.1--h67092d7_5: sha256:1be33559ab6f1f426f99c2e0d8230f52643df009756da4a6e6ece0dbf04e5f18
+docker: quay.io/biocontainers/pandaseq
+aliases:
+  pandaseq: /usr/local/bin/pandaseq
+  pandaseq-checkid: /usr/local/bin/pandaseq-checkid
+  pandaseq-diff: /usr/local/bin/pandaseq-diff
+  pandaseq-hang: /usr/local/bin/pandaseq-hang
+  pandaxs: /usr/local/bin/pandaxs

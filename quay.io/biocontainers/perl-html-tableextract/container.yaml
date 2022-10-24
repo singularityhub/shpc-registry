@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-tableextract
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-tableextract
+latest:
+  2.13--pl5321hdfd78af_3: sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500
+tags:
+  2.13--pl5321hdfd78af_3: sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500
+docker: quay.io/biocontainers/perl-html-tableextract

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-yaqcaffy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yaqcaffy
+latest:
+  1.50.0--r40hdfd78af_1: sha256:4b8b8f07e1ada7c45d0bf33a0559c464bb5ea5c219ea74aaa8c2a735e07a22d6
+tags:
+  1.50.0--r40hdfd78af_1: sha256:4b8b8f07e1ada7c45d0bf33a0559c464bb5ea5c219ea74aaa8c2a735e07a22d6
+docker: quay.io/biocontainers/bioconductor-yaqcaffy

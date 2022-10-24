@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-font-ttf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-font-ttf
+latest:
+  1.06--pl5321hdfd78af_1: sha256:78812613b5c9f1af0d47d4387068ebc1ef80956896d77a0597b7c5994d23bf47
+tags:
+  1.06--pl5321hdfd78af_1: sha256:78812613b5c9f1af0d47d4387068ebc1ef80956896d77a0597b7c5994d23bf47
+docker: quay.io/biocontainers/perl-font-ttf

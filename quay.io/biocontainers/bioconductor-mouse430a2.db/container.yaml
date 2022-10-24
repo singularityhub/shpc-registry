@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mouse430a2.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mouse430a2.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:29f2685988078ff34cdec4a7f7a622bcbd5ba85ddbb70b9b1848ebe53e2cae1f
+tags:
+  3.2.3--r41hdfd78af_7: sha256:29f2685988078ff34cdec4a7f7a622bcbd5ba85ddbb70b9b1848ebe53e2cae1f
+docker: quay.io/biocontainers/bioconductor-mouse430a2.db
+aliases:
+  .bioconductor-mouse430a2.db-post-link.sh: /usr/local/bin/.bioconductor-mouse430a2.db-post-link.sh
+  .bioconductor-mouse430a2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse430a2.db-pre-unlink.sh

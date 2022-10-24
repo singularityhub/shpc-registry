@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-interactionset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-interactionset
+latest:
+  1.8.0--r351hfc679d8_0: sha256:f77c9692eb99dffce2a7cc55ab49d836d338591c6c5745f7b5609bd801219475
+tags:
+  1.8.0--r351hfc679d8_0: sha256:f77c9692eb99dffce2a7cc55ab49d836d338591c6c5745f7b5609bd801219475
+docker: quay.io/biocontainers/bioconductor-interactionset

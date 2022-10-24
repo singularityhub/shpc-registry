@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sarscov2summary
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sarscov2summary
+latest:
+  0.5--py_1: sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9
+tags:
+  0.5--py_1: sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9
+docker: quay.io/biocontainers/sarscov2summary
+aliases:
+  sarscov2summary: /usr/local/bin/sarscov2summary

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pod-eventual
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pod-eventual
+latest:
+  0.094002--pl5321hdfd78af_0: sha256:09deb30d169b1bb3656c42b158c8c7aef0163a3ab3db38d64ad9118973e2ca6f
+tags:
+  0.094002--pl5321hdfd78af_0: sha256:09deb30d169b1bb3656c42b158c8c7aef0163a3ab3db38d64ad9118973e2ca6f
+docker: quay.io/biocontainers/perl-pod-eventual

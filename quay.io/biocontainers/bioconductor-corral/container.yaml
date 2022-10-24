@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-corral
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-corral
+latest:
+  1.2.0--r41hdfd78af_0: sha256:79e19c0a9dfffb9b3b311defcaa11286dab3cbde94d08c8e5ddf9c60ca804cbf
+tags:
+  1.2.0--r41hdfd78af_0: sha256:79e19c0a9dfffb9b3b311defcaa11286dab3cbde94d08c8e5ddf9c60ca804cbf
+docker: quay.io/biocontainers/bioconductor-corral

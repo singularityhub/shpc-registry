@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/xtermcolor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xtermcolor
+latest:
+  1.3--pyh864c0ab_2: sha256:fee38653c8470e93ebf3e2ae54833652b75a17b6f4ff64a294acdc8348e13a5c
+tags:
+  1.3--pyh864c0ab_2: sha256:fee38653c8470e93ebf3e2ae54833652b75a17b6f4ff64a294acdc8348e13a5c
+docker: quay.io/biocontainers/xtermcolor
+aliases:
+  xtermcolor: /usr/local/bin/xtermcolor

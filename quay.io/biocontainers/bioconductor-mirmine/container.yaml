@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mirmine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirmine
+latest:
+  1.8.0--r36_0: sha256:dae5e7bae52f956f0316946c2c00d31ec111f71e9ee47ab5eb4ed899b52416e6
+tags:
+  1.8.0--r36_0: sha256:dae5e7bae52f956f0316946c2c00d31ec111f71e9ee47ab5eb4ed899b52416e6
+docker: quay.io/biocontainers/bioconductor-mirmine

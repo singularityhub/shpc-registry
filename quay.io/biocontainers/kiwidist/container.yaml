@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/kiwidist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kiwidist
+latest:
+  0.3.6--py_3: sha256:6519f0cbe8f73f5583a201f0bde3f173fb48362d8809506b2633de15b2b47fc2
+tags:
+  0.3.6--py_3: sha256:6519f0cbe8f73f5583a201f0bde3f173fb48362d8809506b2633de15b2b47fc2
+docker: quay.io/biocontainers/kiwidist
+aliases:
+  assistant-qt4: /usr/local/bin/assistant-qt4
+  designer-qt4: /usr/local/bin/designer-qt4
+  lconvert-qt4: /usr/local/bin/lconvert-qt4
+  linguist-qt4: /usr/local/bin/linguist-qt4
+  lrelease-qt4: /usr/local/bin/lrelease-qt4
+  lupdate-qt4: /usr/local/bin/lupdate-qt4
+  moc-qt4: /usr/local/bin/moc-qt4
+  pixeltool-qt4: /usr/local/bin/pixeltool-qt4
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
+  qcollectiongenerator-qt4: /usr/local/bin/qcollectiongenerator-qt4
+  qdbus-qt4: /usr/local/bin/qdbus-qt4
+  qdbuscpp2xml-qt4: /usr/local/bin/qdbuscpp2xml-qt4
+  qdbusviewer-qt4: /usr/local/bin/qdbusviewer-qt4
+  qdbusxml2cpp-qt4: /usr/local/bin/qdbusxml2cpp-qt4
+  qdoc3-qt4: /usr/local/bin/qdoc3-qt4
+  qhelpconverter-qt4: /usr/local/bin/qhelpconverter-qt4
+  qhelpgenerator-qt4: /usr/local/bin/qhelpgenerator-qt4
+  qmake-qt4: /usr/local/bin/qmake-qt4
+  qmlplugindump-qt4: /usr/local/bin/qmlplugindump-qt4
+  qmlviewer-qt4: /usr/local/bin/qmlviewer-qt4
+  qt3to4-qt4: /usr/local/bin/qt3to4-qt4
+  qtconfig-qt4: /usr/local/bin/qtconfig-qt4
+  qttracereplay-qt4: /usr/local/bin/qttracereplay-qt4
+  rcc-qt4: /usr/local/bin/rcc-qt4
+  uic-qt4: /usr/local/bin/uic-qt4
+  xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
+  xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4

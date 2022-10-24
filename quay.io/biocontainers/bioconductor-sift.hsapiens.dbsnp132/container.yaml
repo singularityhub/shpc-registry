@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-sift.hsapiens.dbsnp132
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sift.hsapiens.dbsnp132
+latest:
+  1.0.2--r41hdfd78af_9: sha256:4f0c67351636180da5316b7f9d80af0f6722add9db890eb1af1e7d385457b876
+tags:
+  1.0.2--r41hdfd78af_9: sha256:4f0c67351636180da5316b7f9d80af0f6722add9db890eb1af1e7d385457b876
+docker: quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp132
+aliases:
+  .bioconductor-sift.hsapiens.dbsnp132-post-link.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp132-post-link.sh
+  .bioconductor-sift.hsapiens.dbsnp132-pre-unlink.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp132-pre-unlink.sh

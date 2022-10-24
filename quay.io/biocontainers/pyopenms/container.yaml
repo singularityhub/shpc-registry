@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyopenms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyopenms
+latest:
+  2.8.0--py36h24c8720_1: sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c
+tags:
+  2.8.0--py36h24c8720_1: sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c
+docker: quay.io/biocontainers/pyopenms

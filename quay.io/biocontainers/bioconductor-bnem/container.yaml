@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bnem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bnem
+latest:
+  1.2.0--r41hdfd78af_0: sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10
+tags:
+  1.2.0--r41hdfd78af_0: sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10
+docker: quay.io/biocontainers/bioconductor-bnem

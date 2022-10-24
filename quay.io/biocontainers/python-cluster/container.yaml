@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-cluster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-cluster
+latest:
+  1.4.1.post3--pyh3252c3a_0: sha256:0e1ee4afed1bf3206e3b3f94756bb9d9ca6409d1c6c28397737923954f5f1b44
+tags:
+  1.4.1.post3--pyh3252c3a_0: sha256:0e1ee4afed1bf3206e3b3f94756bb9d9ca6409d1c6c28397737923954f5f1b44
+docker: quay.io/biocontainers/python-cluster

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-swfdr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-swfdr
+latest:
+  1.8.0--r351_0: sha256:c000f86d2783e25a1fe0dd95e619826aea94607f8758321cb2d24f8bcc66e6ed
+tags:
+  1.8.0--r351_0: sha256:c000f86d2783e25a1fe0dd95e619826aea94607f8758321cb2d24f8bcc66e6ed
+docker: quay.io/biocontainers/bioconductor-swfdr

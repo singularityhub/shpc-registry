@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-dapar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dapar
+latest:
+  1.26.0--r41hdfd78af_0: sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997
+tags:
+  1.26.0--r41hdfd78af_0: sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997
+docker: quay.io/biocontainers/bioconductor-dapar
+aliases:
+  .bioconductor-dapardata-post-link.sh: /usr/local/bin/.bioconductor-dapardata-post-link.sh
+  .bioconductor-dapardata-pre-unlink.sh: /usr/local/bin/.bioconductor-dapardata-pre-unlink.sh

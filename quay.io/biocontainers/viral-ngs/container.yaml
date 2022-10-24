@@ -1,0 +1,60 @@
+url: https://biocontainers.pro/tools/viral-ngs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for viral-ngs
+latest:
+  1.13.4--py35_0: sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb
+tags:
+  1.13.4--py35_0: sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb
+docker: quay.io/biocontainers/viral-ngs
+aliases:
+  .viral-ngs-post-link.sh: /usr/local/bin/.viral-ngs-post-link.sh
+  Trinity-test: /usr/local/bin/Trinity-test
+  assembly.py: /usr/local/bin/assembly.py
+  bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0
+  bmfilter: /usr/local/bin/bmfilter
+  bmtagger.sh: /usr/local/bin/bmtagger.sh
+  bmtool: /usr/local/bin/bmtool
+  broad_utils.py: /usr/local/bin/broad_utils.py
+  coverage-3.5: /usr/local/bin/coverage-3.5
+  coverage3: /usr/local/bin/coverage3
+  extract_fullseq: /usr/local/bin/extract_fullseq
+  flake8: /usr/local/bin/flake8
+  gatk-register: /usr/local/bin/gatk-register
+  illumina.py: /usr/local/bin/illumina.py
+  install_tools.py: /usr/local/bin/install_tools.py
+  interhost.py: /usr/local/bin/interhost.py
+  intrahost.py: /usr/local/bin/intrahost.py
+  isnovoindex: /usr/local/bin/isnovoindex
+  kraken-build.bak: /usr/local/bin/kraken-build.bak
+  kraken-filter.bak: /usr/local/bin/kraken-filter.bak
+  kraken-mpa-report.bak: /usr/local/bin/kraken-mpa-report.bak
+  kraken-report.bak: /usr/local/bin/kraken-report.bak
+  kraken-translate.bak: /usr/local/bin/kraken-translate.bak
+  kraken.bak: /usr/local/bin/kraken.bak
+  metagenomics.py: /usr/local/bin/metagenomics.py
+  mvicuna: /usr/local/bin/mvicuna
+  ncbi.py: /usr/local/bin/ncbi.py
+  novo2paf: /usr/local/bin/novo2paf
+  novoalign: /usr/local/bin/novoalign
+  novoalign-license-register: /usr/local/bin/novoalign-license-register
+  novoalignCS: /usr/local/bin/novoalignCS
+  novoalignCSMPI: /usr/local/bin/novoalignCSMPI
+  novoalignMPI: /usr/local/bin/novoalignMPI
+  novobarcode: /usr/local/bin/novobarcode
+  novoindex: /usr/local/bin/novoindex
+  novomethyl: /usr/local/bin/novomethyl
+  novope2bed.pl: /usr/local/bin/novope2bed.pl
+  novorun.pl: /usr/local/bin/novorun.pl
+  novosort: /usr/local/bin/novosort
+  novoutil: /usr/local/bin/novoutil
+  prinseq-graphs-noPCA.pl: /usr/local/bin/prinseq-graphs-noPCA.pl
+  prinseq-graphs.pl: /usr/local/bin/prinseq-graphs.pl
+  prinseq-lite.pl: /usr/local/bin/prinseq-lite.pl
+  py.test-3.5: /usr/local/bin/py.test-3.5
+  pyflakes: /usr/local/bin/pyflakes
+  read_utils.py: /usr/local/bin/read_utils.py
+  reports.py: /usr/local/bin/reports.py
+  srprism: /usr/local/bin/srprism
+  taxon_filter.py: /usr/local/bin/taxon_filter.py
+  variant_caller: /usr/local/bin/variant_caller
+  vphaser2: /usr/local/bin/vphaser2

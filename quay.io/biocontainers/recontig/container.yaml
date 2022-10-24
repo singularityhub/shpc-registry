@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/recontig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for recontig
+latest:
+  1.5.0--h9ee0642_0: sha256:58ea03b898a3d709b075d796c24d00a98921a44bd335f62ba85c634eaece64e6
+tags:
+  1.5.0--h9ee0642_0: sha256:58ea03b898a3d709b075d796c24d00a98921a44bd335f62ba85c634eaece64e6
+docker: quay.io/biocontainers/recontig
+aliases:
+  recontig: /usr/local/bin/recontig

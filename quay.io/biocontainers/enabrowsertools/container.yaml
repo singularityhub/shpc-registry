@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/enabrowsertools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for enabrowsertools
+latest:
+  1.5.4--0: sha256:1374458c207e010b82b0b3f9aa084eb186ab361e00558c755a7bb4e8f0813b83
+tags:
+  1.5.4--0: sha256:1374458c207e010b82b0b3f9aa084eb186ab361e00558c755a7bb4e8f0813b83
+docker: quay.io/biocontainers/enabrowsertools
+aliases:
+  assemblyGet.py: /usr/local/bin/assemblyGet.py
+  enaDataGet: /usr/local/bin/enaDataGet
+  enaDataGet.py: /usr/local/bin/enaDataGet.py
+  enaGroupGet: /usr/local/bin/enaGroupGet
+  enaGroupGet.py: /usr/local/bin/enaGroupGet.py
+  readGet.py: /usr/local/bin/readGet.py
+  sequenceGet.py: /usr/local/bin/sequenceGet.py
+  utils.py: /usr/local/bin/utils.py
+  utils_py2.py: /usr/local/bin/utils_py2.py

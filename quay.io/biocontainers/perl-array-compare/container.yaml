@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-array-compare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-array-compare
+latest:
+  3.0.1--pl5321hdfd78af_2: sha256:27fe6ca6c08097251f2bc20e3d5c4566fd6d7e9c832394e90a308fbc4e44ab08
+tags:
+  3.0.1--pl5321hdfd78af_2: sha256:27fe6ca6c08097251f2bc20e3d5c4566fd6d7e9c832394e90a308fbc4e44ab08
+docker: quay.io/biocontainers/perl-array-compare

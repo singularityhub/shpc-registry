@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pydotplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pydotplus
+latest:
+  2.0.2--py36_0: sha256:f0f7b42ed369c94bd13c4fefe29d373840618c08a52f74f7cb0e54ddf716b425
+tags:
+  2.0.2--py36_0: sha256:f0f7b42ed369c94bd13c4fefe29d373840618c08a52f74f7cb0e54ddf716b425
+docker: quay.io/biocontainers/pydotplus

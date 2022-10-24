@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-orfik
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-orfik
+latest:
+  1.8.1--r40h5f743cb_0: sha256:7c8261edc73a588ea1847ea8a620626a12074f546b56a811845dc7799cdb66d2
+tags:
+  1.8.1--r40h5f743cb_0: sha256:7c8261edc73a588ea1847ea8a620626a12074f546b56a811845dc7799cdb66d2
+docker: quay.io/biocontainers/bioconductor-orfik

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-polyester
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-polyester
+latest:
+  1.30.0--r41hdfd78af_0: sha256:1680fe0290d01b1c9b26ab26792625dd4780e9d0e7c62762d0858dc20617ce0c
+tags:
+  1.30.0--r41hdfd78af_0: sha256:1680fe0290d01b1c9b26ab26792625dd4780e9d0e7c62762d0858dc20617ce0c
+docker: quay.io/biocontainers/bioconductor-polyester

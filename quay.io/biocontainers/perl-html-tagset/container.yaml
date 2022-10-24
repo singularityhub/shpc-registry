@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-tagset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-tagset
+latest:
+  3.20--pl5321hdfd78af_4: sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0
+tags:
+  3.20--pl5321hdfd78af_4: sha256:f943b2142c6b460a8ccbd087d263a34a203aee4542ac637950247f5d476d70b0
+docker: quay.io/biocontainers/perl-html-tagset

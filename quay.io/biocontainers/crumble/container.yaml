@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crumble
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crumble
+latest:
+  0.9.0--hb0d9459_1: sha256:ba4ef419e22f50f1e618330b4e66097612efca633a33a6f6f480427af8d9b38a
+tags:
+  0.9.0--hb0d9459_1: sha256:ba4ef419e22f50f1e618330b4e66097612efca633a33a6f6f480427af8d9b38a
+docker: quay.io/biocontainers/crumble
+aliases:
+  crumble: /usr/local/bin/crumble

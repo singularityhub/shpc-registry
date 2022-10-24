@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-worm.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-worm.db0
+latest:
+  3.8.2--r36_1: sha256:d6e14fe868384ff78e083d6a670c24ffa2c8cd28a3c0faab4aed6cbb3227830c
+tags:
+  3.8.2--r36_1: sha256:d6e14fe868384ff78e083d6a670c24ffa2c8cd28a3c0faab4aed6cbb3227830c
+docker: quay.io/biocontainers/bioconductor-worm.db0
+aliases:
+  .bioconductor-worm.db0-post-link.sh: /usr/local/bin/.bioconductor-worm.db0-post-link.sh
+  .bioconductor-worm.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-worm.db0-pre-unlink.sh

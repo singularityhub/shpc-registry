@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffcyt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffcyt
+latest:
+  1.8.6--r40_0: sha256:5e5209d0e5f92cbc2e9b84ab8c20dabc6396df4810d5cca5a64aa4cefc3048c1
+tags:
+  1.8.6--r40_0: sha256:5e5209d0e5f92cbc2e9b84ab8c20dabc6396df4810d5cca5a64aa4cefc3048c1
+docker: quay.io/biocontainers/bioconductor-diffcyt

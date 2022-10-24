@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/multiprocess
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multiprocess
+latest:
+  0.70.4--py35_0: sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc
+tags:
+  0.70.4--py35_0: sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc
+docker: quay.io/biocontainers/multiprocess
+aliases:
+  get_objgraph.py: /usr/local/bin/get_objgraph.py
+  unpickle.py: /usr/local/bin/unpickle.py

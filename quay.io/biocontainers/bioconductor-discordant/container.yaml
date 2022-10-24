@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-discordant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-discordant
+latest:
+  1.8.0--r36h516909a_1: sha256:858d2dacc35d4146066f13d871a6c3a06af47c844d06be0fd268c8dfff287cc3
+tags:
+  1.8.0--r36h516909a_1: sha256:858d2dacc35d4146066f13d871a6c3a06af47c844d06be0fd268c8dfff287cc3
+docker: quay.io/biocontainers/bioconductor-discordant

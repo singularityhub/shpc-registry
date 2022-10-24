@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/digestiflow-demux
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for digestiflow-demux
+latest:
+  0.5.2--py_0: sha256:9ff7c24380e4ab456d3651f13ce15af623c794b66f386378e529119c63480ee5
+tags:
+  0.5.2--py_0: sha256:9ff7c24380e4ab456d3651f13ce15af623c794b66f386378e529119c63480ee5
+docker: quay.io/biocontainers/digestiflow-demux
+aliases:
+  digestiflow-demux: /usr/local/bin/digestiflow-demux

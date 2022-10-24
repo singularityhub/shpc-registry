@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/filechunkio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for filechunkio
+latest:
+  1.6--py35_0: sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1
+tags:
+  1.6--py35_0: sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1
+docker: quay.io/biocontainers/filechunkio

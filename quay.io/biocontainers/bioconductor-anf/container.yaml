@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-anf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-anf
+latest:
+  1.8.0--r36_0: sha256:ce63582d382f63aadbd09fd0fb39b96e9a68b50bff8ba35f884d1c14bfe63426
+tags:
+  1.8.0--r36_0: sha256:ce63582d382f63aadbd09fd0fb39b96e9a68b50bff8ba35f884d1c14bfe63426
+docker: quay.io/biocontainers/bioconductor-anf

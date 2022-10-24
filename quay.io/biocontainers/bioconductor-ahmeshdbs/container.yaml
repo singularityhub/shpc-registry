@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ahmeshdbs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ahmeshdbs
+latest:
+  1.2.0--r41hdfd78af_1: sha256:73a548296ef6d743f730fa2fcdb22165fb217aded3dc6b4a106a5ee5e82771ab
+tags:
+  1.2.0--r41hdfd78af_1: sha256:73a548296ef6d743f730fa2fcdb22165fb217aded3dc6b4a106a5ee5e82771ab
+docker: quay.io/biocontainers/bioconductor-ahmeshdbs
+aliases:
+  .bioconductor-ahmeshdbs-post-link.sh: /usr/local/bin/.bioconductor-ahmeshdbs-post-link.sh
+  .bioconductor-ahmeshdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahmeshdbs-pre-unlink.sh

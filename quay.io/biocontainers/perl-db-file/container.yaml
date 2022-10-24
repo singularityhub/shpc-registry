@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-db-file
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-db-file
+latest:
+  1.855--pl5321h779adbc_1: sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c
+tags:
+  1.855--pl5321h779adbc_1: sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c
+docker: quay.io/biocontainers/perl-db-file

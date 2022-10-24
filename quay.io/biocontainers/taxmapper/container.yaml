@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/taxmapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taxmapper
+latest:
+  1.0.2--py_3: sha256:080f59425c21689eba6561f7ac7602b0950d75eca67b8f8da268e033da281eee
+tags:
+  1.0.2--py_3: sha256:080f59425c21689eba6561f7ac7602b0950d75eca67b8f8da268e033da281eee
+docker: quay.io/biocontainers/taxmapper
+aliases:
+  ddls: /usr/local/bin/ddls
+  taxmapper: /usr/local/bin/taxmapper

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-graphpac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-graphpac
+latest:
+  1.36.0--r41hdfd78af_0: sha256:3a2ba3fc9dfd1444d07a6fa5e9d1d5b83e4708ff39cc1b792683f7c8671aa98f
+tags:
+  1.36.0--r41hdfd78af_0: sha256:3a2ba3fc9dfd1444d07a6fa5e9d1d5b83e4708ff39cc1b792683f7c8671aa98f
+docker: quay.io/biocontainers/bioconductor-graphpac

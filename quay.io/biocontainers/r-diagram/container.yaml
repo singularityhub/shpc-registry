@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-diagram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-diagram
+latest:
+  1.6.3--r3.2.2_0: sha256:ce3814364ba484d1a75ed991204a965ab43b5c5d4c5d90d6a8847c5e3a609c50
+tags:
+  1.6.3--r3.2.2_0: sha256:ce3814364ba484d1a75ed991204a965ab43b5c5d4c5d90d6a8847c5e3a609c50
+docker: quay.io/biocontainers/r-diagram

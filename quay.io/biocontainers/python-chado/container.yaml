@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/python-chado
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-chado
+latest:
+  2.3.9--pyh5e36f6f_0: sha256:49ea8a2863267a08b11520a4f0c3d7eb7b92a90b212035588e63dc06325e3a00
+tags:
+  2.3.9--pyh5e36f6f_0: sha256:49ea8a2863267a08b11520a4f0c3d7eb7b92a90b212035588e63dc06325e3a00
+docker: quay.io/biocontainers/python-chado
+aliases:
+  chakin: /usr/local/bin/chakin

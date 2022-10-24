@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mmult
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mmult
+latest:
+  0.0.0.2--r40h8b68381_0: sha256:c099eb09160108f3eefb9dabe039f978bb6f1b1fba9b87bf879875de28600601
+tags:
+  0.0.0.2--r40h8b68381_0: sha256:c099eb09160108f3eefb9dabe039f978bb6f1b1fba9b87bf879875de28600601
+docker: quay.io/biocontainers/mmult
+aliases:
+  bbglm: /usr/local/bin/bbglm
+  cpgcdifenrich: /usr/local/bin/cpgcdifenrich
+  cpgcdifenrichhist.R: /usr/local/bin/cpgcdifenrichhist.R
+  vmcvmrnme: /usr/local/bin/vmcvmrnme

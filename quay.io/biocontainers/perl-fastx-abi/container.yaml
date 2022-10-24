@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/perl-fastx-abi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-fastx-abi
+latest:
+  1.0.1--pl5321hdfd78af_1: sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891
+tags:
+  1.0.1--pl5321hdfd78af_1: sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891
+docker: quay.io/biocontainers/perl-fastx-abi
+aliases:
+  abi2fq: /usr/local/bin/abi2fq
+  mergeabi: /usr/local/bin/mergeabi
+  stripabitags: /usr/local/bin/stripabitags

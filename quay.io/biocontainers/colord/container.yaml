@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/colord
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for colord
+latest:
+  1.1.0--h9ee0642_1: sha256:cde7f3de1298fa9c6f31bebffb889395a3560edf51b29f5f9c36bf7d52fcc48b
+tags:
+  1.1.0--h9ee0642_1: sha256:cde7f3de1298fa9c6f31bebffb889395a3560edf51b29f5f9c36bf7d52fcc48b
+docker: quay.io/biocontainers/colord
+aliases:
+  colord: /usr/local/bin/colord

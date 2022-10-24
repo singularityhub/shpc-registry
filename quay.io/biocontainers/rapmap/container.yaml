@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rapmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rapmap
+latest:
+  v0.2.1--hfc679d8_2: sha256:b17abbee8b67810c8291d09721a3d982edf74800ce5d4879e9d265391a5756c4
+tags:
+  v0.2.1--hfc679d8_2: sha256:b17abbee8b67810c8291d09721a3d982edf74800ce5d4879e9d265391a5756c4
+docker: quay.io/biocontainers/rapmap
+aliases:
+  rapmap: /usr/local/bin/rapmap

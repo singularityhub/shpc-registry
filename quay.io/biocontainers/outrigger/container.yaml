@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/outrigger
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for outrigger
+latest:
+  1.1.1--pyh864c0ab_2: sha256:0a55b49a7076ec1a474536a3e4b01d99201e49488550e573a93a2b856f3007be
+tags:
+  1.1.1--pyh864c0ab_2: sha256:0a55b49a7076ec1a474536a3e4b01d99201e49488550e573a93a2b856f3007be
+docker: quay.io/biocontainers/outrigger
+aliases:
+  outrigger: /usr/local/bin/outrigger

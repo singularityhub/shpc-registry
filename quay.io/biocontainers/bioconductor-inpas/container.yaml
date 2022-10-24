@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-inpas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-inpas
+latest:
+  2.2.0--r41hdfd78af_0: sha256:8e2d2e3418f6fcb41c346f34e119cf85284816ec3468b9c7d62fa4a347299b9c
+tags:
+  2.2.0--r41hdfd78af_0: sha256:8e2d2e3418f6fcb41c346f34e119cf85284816ec3468b9c7d62fa4a347299b9c
+docker: quay.io/biocontainers/bioconductor-inpas
+aliases:
+  .bioconductor-bsgenome.drerio.ucsc.danrer7-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.drerio.ucsc.danrer7-post-link.sh
+  .bioconductor-bsgenome.drerio.ucsc.danrer7-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.drerio.ucsc.danrer7-pre-unlink.sh

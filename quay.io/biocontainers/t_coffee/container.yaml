@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/t_coffee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for t_coffee
+latest:
+  11.0.8--py37hea885bf_8: sha256:01f6245b193d856e861a80511a5d59a68660ac4cb295519988141c4c087f8de4
+tags:
+  11.0.8--py37hea885bf_8: sha256:01f6245b193d856e861a80511a5d59a68660ac4cb295519988141c4c087f8de4
+docker: quay.io/biocontainers/t_coffee

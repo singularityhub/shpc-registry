@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcftoolbox
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcftoolbox
+latest:
+  1.5.1--py_0: sha256:19d02030a8946c3b6019ab72c592e9660224d9adf1bbc78b5f22def11a42d053
+tags:
+  1.5.1--py_0: sha256:19d02030a8946c3b6019ab72c592e9660224d9adf1bbc78b5f22def11a42d053
+docker: quay.io/biocontainers/vcftoolbox
+aliases:
+  vcftoolbox: /usr/local/bin/vcftoolbox

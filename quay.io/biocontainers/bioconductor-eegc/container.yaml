@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-eegc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-eegc
+latest:
+  1.8.1--r351_0: sha256:ad37d47986fa924558c8f9d74186e5908664984a7fdcb521dfa2f0c1feddad54
+tags:
+  1.8.1--r351_0: sha256:ad37d47986fa924558c8f9d74186e5908664984a7fdcb521dfa2f0c1feddad54
+docker: quay.io/biocontainers/bioconductor-eegc

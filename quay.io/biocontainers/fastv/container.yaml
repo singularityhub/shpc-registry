@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastv
+latest:
+  0.8.1--hd03093a_2: sha256:4b64e899b424ad47bb4f6adbd0c067329be1717028472ad89a01d09eb9aaf73e
+tags:
+  0.8.1--hd03093a_2: sha256:4b64e899b424ad47bb4f6adbd0c067329be1717028472ad89a01d09eb9aaf73e
+docker: quay.io/biocontainers/fastv
+aliases:
+  fastv: /usr/local/bin/fastv

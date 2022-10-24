@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-busparse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-busparse
+latest:
+  1.8.0--r41hc247a5b_2: sha256:fd5a91c33887f7ae6732147e467381b6d7071c6cdaa582f218c1ee3de8c760eb
+tags:
+  1.8.0--r41hc247a5b_2: sha256:fd5a91c33887f7ae6732147e467381b6d7071c6cdaa582f218c1ee3de8c760eb
+docker: quay.io/biocontainers/bioconductor-busparse

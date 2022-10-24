@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-path-class
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-path-class
+latest:
+  0.37--pl5321hdfd78af_2: sha256:8c66cf978d4b8f5a53c5b149052912580632558c94a812cb5ebe4aee716ea32b
+tags:
+  0.37--pl5321hdfd78af_2: sha256:8c66cf978d4b8f5a53c5b149052912580632558c94a812cb5ebe4aee716ea32b
+docker: quay.io/biocontainers/perl-path-class

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/magpurify
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for magpurify
+latest:
+  2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
+tags:
+  2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
+docker: quay.io/biocontainers/magpurify
+aliases:
+  .magpurify-post-link.sh: /usr/local/bin/.magpurify-post-link.sh
+  coverm: /usr/local/bin/coverm
+  last-split8: /usr/local/bin/last-split8
+  lastal8: /usr/local/bin/lastal8
+  lastdb8: /usr/local/bin/lastdb8
+  maf-cut: /usr/local/bin/maf-cut
+  magpurify: /usr/local/bin/magpurify
+  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  starcode: /usr/local/bin/starcode

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lissero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lissero
+latest:
+  0.4.9--py_0: sha256:d209fcec504828bfb4338764d476032d9d7fa213fbeaf3d6c8656f25532abf3d
+tags:
+  0.4.9--py_0: sha256:d209fcec504828bfb4338764d476032d9d7fa213fbeaf3d6c8656f25532abf3d
+docker: quay.io/biocontainers/lissero
+aliases:
+  gfPcr: /usr/local/bin/gfPcr
+  isPcr: /usr/local/bin/isPcr
+  lissero: /usr/local/bin/lissero

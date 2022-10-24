@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-namespacesupport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-namespacesupport
+latest:
+  1.12--pl5321hdfd78af_1: sha256:f3f83dedd82940031267b28a338146f0df54bdbc7d0cc4aa236a48c5231224e8
+tags:
+  1.12--pl5321hdfd78af_1: sha256:f3f83dedd82940031267b28a338146f0df54bdbc7d0cc4aa236a48c5231224e8
+docker: quay.io/biocontainers/perl-xml-namespacesupport

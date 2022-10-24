@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bamaligncleaner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamaligncleaner
+latest:
+  0.2.2--pyhdfd78af_0: sha256:b57e7dcb85672b67b721267cd8fb2198cb70db67d97d9522b574cb28bc5e9c87
+tags:
+  0.2.2--pyhdfd78af_0: sha256:b57e7dcb85672b67b721267cd8fb2198cb70db67d97d9522b574cb28bc5e9c87
+docker: quay.io/biocontainers/bamaligncleaner
+aliases:
+  bamAlignCleaner: /usr/local/bin/bamAlignCleaner

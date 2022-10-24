@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chicago
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chicago
+latest:
+  1.8.0--r351_0: sha256:5743fa3b73935838dff88e0f76cba7717abccb5c09675004aa91ec9f7a1a1a59
+tags:
+  1.8.0--r351_0: sha256:5743fa3b73935838dff88e0f76cba7717abccb5c09675004aa91ec9f7a1a1a59
+docker: quay.io/biocontainers/bioconductor-chicago

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-glob
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-glob
+latest:
+  0.11--pl5321hdfd78af_2: sha256:3e3f2137af4dc3c73dede70b61b84444431f0b40580b1bfb363a9abd0b1fafeb
+tags:
+  0.11--pl5321hdfd78af_2: sha256:3e3f2137af4dc3c73dede70b61b84444431f0b40580b1bfb363a9abd0b1fafeb
+docker: quay.io/biocontainers/perl-text-glob

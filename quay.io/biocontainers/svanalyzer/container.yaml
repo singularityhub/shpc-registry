@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/svanalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svanalyzer
+latest:
+  0.36--pl5321hdfd78af_2: sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b
+tags:
+  0.36--pl5321hdfd78af_2: sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b
+docker: quay.io/biocontainers/svanalyzer
+aliases:
+  SVbenchmark: /usr/local/bin/SVbenchmark
+  SVcomp: /usr/local/bin/SVcomp
+  SVmerge: /usr/local/bin/SVmerge
+  SVrefine: /usr/local/bin/SVrefine
+  SVwiden: /usr/local/bin/SVwiden
+  svanalyzer: /usr/local/bin/svanalyzer

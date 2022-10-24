@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/deepmod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepmod
+latest:
+  0.1.3--pyh864c0ab_1: sha256:fac869f873415fe71217fa90ba2020d292ec2824ae613f2d013a8f176ad65210
+tags:
+  0.1.3--pyh864c0ab_1: sha256:fac869f873415fe71217fa90ba2020d292ec2824ae613f2d013a8f176ad65210
+docker: quay.io/biocontainers/deepmod
+aliases:
+  DeepMod.py: /usr/local/bin/DeepMod.py
+  cal_EcoliDetPerf.py: /usr/local/bin/cal_EcoliDetPerf.py
+  generate_motif_pos.py: /usr/local/bin/generate_motif_pos.py
+  hm_cluster_predict.py: /usr/local/bin/hm_cluster_predict.py
+  sum_chr_mod.py: /usr/local/bin/sum_chr_mod.py

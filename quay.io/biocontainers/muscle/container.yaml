@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/muscle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for muscle
+latest:
+  5.1--h9f5acd7_1: sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69
+tags:
+  5.1--h9f5acd7_1: sha256:f8875d3ab2357f8909ed6df60df1adfe9ce9ab03d3660412e2b7d88bed347a69
+docker: quay.io/biocontainers/muscle

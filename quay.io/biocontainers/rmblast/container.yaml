@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rmblast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rmblast
+latest:
+  2.9.0--h2d02072_0: sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c
+tags:
+  2.9.0--h2d02072_0: sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c
+docker: quay.io/biocontainers/rmblast

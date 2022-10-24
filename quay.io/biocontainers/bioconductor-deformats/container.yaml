@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-deformats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-deformats
+latest:
+  1.8.0--r341_0: sha256:0b232cc51141e4f5bc5f7b7646cab9d06787a09de6e4e9b83803106f574375d7
+tags:
+  1.8.0--r341_0: sha256:0b232cc51141e4f5bc5f7b7646cab9d06787a09de6e4e9b83803106f574375d7
+docker: quay.io/biocontainers/bioconductor-deformats

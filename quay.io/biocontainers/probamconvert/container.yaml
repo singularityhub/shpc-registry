@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/probamconvert
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for probamconvert
+latest:
+  1.0.2--2: sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2
+tags:
+  1.0.2--2: sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2
+docker: quay.io/biocontainers/probamconvert
+aliases:
+  proBAM.py: /usr/local/bin/proBAM.py
+  proBAM_ENSEMBL.py: /usr/local/bin/proBAM_ENSEMBL.py
+  proBAM_GUI.py: /usr/local/bin/proBAM_GUI.py
+  proBAM_IDparser.py: /usr/local/bin/proBAM_IDparser.py
+  proBAM_biomart.py: /usr/local/bin/proBAM_biomart.py
+  proBAM_coref.py: /usr/local/bin/proBAM_coref.py
+  proBAM_input.py: /usr/local/bin/proBAM_input.py
+  proBAM_mzTab.py: /usr/local/bin/proBAM_mzTab.py
+  proBAM_mzid.py: /usr/local/bin/proBAM_mzid.py
+  proBAM_pepxml.py: /usr/local/bin/proBAM_pepxml.py
+  proBAM_proBED.py: /usr/local/bin/proBAM_proBED.py

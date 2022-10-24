@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/dimspy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dimspy
+latest:
+  2.0.0--pyhdfd78af_1: sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
+tags:
+  2.0.0--pyhdfd78af_1: sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34
+docker: quay.io/biocontainers/dimspy
+aliases:
+  csc: /usr/local/bin/csc
+  csc-dim: /usr/local/bin/csc-dim
+  csi: /usr/local/bin/csi
+  dimspy: /usr/local/bin/dimspy
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
+  monograph: /usr/local/bin/monograph
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
+  vbc: /usr/local/bin/vbc

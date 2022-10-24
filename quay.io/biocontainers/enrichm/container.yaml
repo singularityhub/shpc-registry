@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/enrichm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for enrichm
+latest:
+  0.6.4--pyhdfd78af_0: sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09
+tags:
+  0.6.4--pyhdfd78af_0: sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09
+docker: quay.io/biocontainers/enrichm
+aliases:
+  chronic: /usr/local/bin/chronic
+  combine: /usr/local/bin/combine
+  enrichm: /usr/local/bin/enrichm
+  errno: /usr/local/bin/errno
+  ifdata: /usr/local/bin/ifdata
+  ifne: /usr/local/bin/ifne
+  isutf8: /usr/local/bin/isutf8
+  lckdo: /usr/local/bin/lckdo
+  mispipe: /usr/local/bin/mispipe
+  pee: /usr/local/bin/pee
+  seqmagick: /usr/local/bin/seqmagick
+  sponge: /usr/local/bin/sponge
+  ts: /usr/local/bin/ts
+  vidir: /usr/local/bin/vidir
+  vipe: /usr/local/bin/vipe
+  zrun: /usr/local/bin/zrun

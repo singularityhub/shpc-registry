@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ngsep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngsep
+latest:
+  4.0.1--0: sha256:2dc30fe5e877473536883be51b06ddf6a6cc62dcd3179c62d338dee9c3f7293b
+tags:
+  4.0.1--0: sha256:2dc30fe5e877473536883be51b06ddf6a6cc62dcd3179c62d338dee9c3f7293b
+docker: quay.io/biocontainers/ngsep
+aliases:
+  ngsep: /usr/local/bin/ngsep

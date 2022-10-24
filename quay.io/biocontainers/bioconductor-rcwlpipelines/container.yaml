@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-rcwlpipelines
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcwlpipelines
+latest:
+  1.8.0--r41hdfd78af_0: sha256:c856038a7cf670f905648cccf353fd28e29db9ac2445ecd4afd073f8636f5f1b
+tags:
+  1.8.0--r41hdfd78af_0: sha256:c856038a7cf670f905648cccf353fd28e29db9ac2445ecd4afd073f8636f5f1b
+docker: quay.io/biocontainers/bioconductor-rcwlpipelines
+aliases:
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  npx: /usr/local/bin/npx

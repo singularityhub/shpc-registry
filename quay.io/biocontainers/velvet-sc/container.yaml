@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/velvet-sc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for velvet-sc
+latest:
+  0.7.62--h7132678_5: sha256:0fb5ecb2fea2547e4b5fe981217004f65710b2c1eb173cb03bbbd03b1a56ee36
+tags:
+  0.7.62--h7132678_5: sha256:0fb5ecb2fea2547e4b5fe981217004f65710b2c1eb173cb03bbbd03b1a56ee36
+docker: quay.io/biocontainers/velvet-sc
+aliases:
+  shuffleSequences_fasta.pl: /usr/local/bin/shuffleSequences_fasta.pl
+  shuffleSequences_fastq.pl: /usr/local/bin/shuffleSequences_fastq.pl

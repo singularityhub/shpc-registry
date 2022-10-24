@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vpolo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vpolo
+latest:
+  0.3.0--pyh864c0ab_0: sha256:bf7ada0539b7a6ae93863fe1a8cc255d5308670004eec5718ed4f089eebb8356
+tags:
+  0.3.0--pyh864c0ab_0: sha256:bf7ada0539b7a6ae93863fe1a8cc255d5308670004eec5718ed4f089eebb8356
+docker: quay.io/biocontainers/vpolo

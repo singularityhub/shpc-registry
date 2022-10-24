@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gtfparse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gtfparse
+latest:
+  1.2.1--pyh864c0ab_0: sha256:1a7bf400b3710a919b5ff4d188fc72bb9627430a1f83c719401fc4eac451e2f6
+tags:
+  1.2.1--pyh864c0ab_0: sha256:1a7bf400b3710a919b5ff4d188fc72bb9627430a1f83c719401fc4eac451e2f6
+docker: quay.io/biocontainers/gtfparse

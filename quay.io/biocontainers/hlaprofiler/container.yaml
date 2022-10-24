@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hlaprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hlaprofiler
+latest:
+  1.0.5--hdfd78af_3: sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71
+tags:
+  1.0.5--hdfd78af_3: sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71
+docker: quay.io/biocontainers/hlaprofiler
+aliases:
+  HLAProfiler.pl: /usr/local/bin/HLAProfiler.pl
+  install.pl: /usr/local/bin/install.pl

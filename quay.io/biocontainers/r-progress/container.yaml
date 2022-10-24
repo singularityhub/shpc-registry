@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-progress
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-progress
+latest:
+  1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
+tags:
+  1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
+docker: quay.io/biocontainers/r-progress

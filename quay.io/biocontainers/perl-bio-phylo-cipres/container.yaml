@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-bio-phylo-cipres
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-phylo-cipres
+latest:
+  v0.2.1--pl5321hdfd78af_2: sha256:a2dc08e700c19273c2d80a0c8b688cdd3c474b5b22906d10c534beb21ae0e9ce
+tags:
+  v0.2.1--pl5321hdfd78af_2: sha256:a2dc08e700c19273c2d80a0c8b688cdd3c474b5b22906d10c534beb21ae0e9ce
+docker: quay.io/biocontainers/perl-bio-phylo-cipres
+aliases:
+  cipresrun: /usr/local/bin/cipresrun

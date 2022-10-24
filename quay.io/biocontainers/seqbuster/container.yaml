@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seqbuster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqbuster
+latest:
+  3.5--hdfd78af_1: sha256:bdcee5918ba4545bcf1a947f93c255a7afe0767b133791d1a897492b000f78e1
+tags:
+  3.5--hdfd78af_1: sha256:bdcee5918ba4545bcf1a947f93c255a7afe0767b133791d1a897492b000f78e1
+docker: quay.io/biocontainers/seqbuster
+aliases:
+  miraligner: /usr/local/bin/miraligner

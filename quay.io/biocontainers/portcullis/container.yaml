@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/portcullis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for portcullis
+latest:
+  1.2.4--py38haf070c8_0: sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e
+tags:
+  1.2.4--py38haf070c8_0: sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e
+docker: quay.io/biocontainers/portcullis
+aliases:
+  junctools: /usr/local/bin/junctools
+  portcullis: /usr/local/bin/portcullis
+  portcullis_rule_filter: /usr/local/bin/portcullis_rule_filter

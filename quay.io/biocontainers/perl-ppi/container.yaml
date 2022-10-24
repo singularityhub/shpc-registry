@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ppi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ppi
+latest:
+  1.236--pl5321hdfd78af_3: sha256:eb3bc42469de30880880bcca437fbb744ef87b5a73c043ea5c5cb750db5a60fd
+tags:
+  1.236--pl5321hdfd78af_3: sha256:eb3bc42469de30880880bcca437fbb744ef87b5a73c043ea5c5cb750db5a60fd
+docker: quay.io/biocontainers/perl-ppi

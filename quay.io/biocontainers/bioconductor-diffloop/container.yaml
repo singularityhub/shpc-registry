@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffloop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffloop
+latest:
+  1.8.0--r351_0: sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966
+tags:
+  1.8.0--r351_0: sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966
+docker: quay.io/biocontainers/bioconductor-diffloop

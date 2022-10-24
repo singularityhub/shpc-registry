@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/pomoxis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pomoxis
+latest:
+  0.3.9--pyhdfd78af_0: sha256:3aa7f109f3857cdfc5b23d00cf24af7b93b8664c603afc7348ac747311b870fa
+tags:
+  0.3.9--pyhdfd78af_0: sha256:3aa7f109f3857cdfc5b23d00cf24af7b93b8664c603afc7348ac747311b870fa
+docker: quay.io/biocontainers/pomoxis
+aliases:
+  assess_assembly: /usr/local/bin/assess_assembly
+  assess_homopolymers: /usr/local/bin/assess_homopolymers
+  catalogue_errors: /usr/local/bin/catalogue_errors
+  common_errors_from_bam: /usr/local/bin/common_errors_from_bam
+  coverage_from_bam: /usr/local/bin/coverage_from_bam
+  coverage_from_fastx: /usr/local/bin/coverage_from_fastx
+  fast_convert: /usr/local/bin/fast_convert
+  find_indels: /usr/local/bin/find_indels
+  intersect_assembly_errors: /usr/local/bin/intersect_assembly_errors
+  long_fastx: /usr/local/bin/long_fastx
+  mini_align: /usr/local/bin/mini_align
+  mini_assemble: /usr/local/bin/mini_assemble
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
+  pomoxis_path: /usr/local/bin/pomoxis_path
+  porechop: /usr/local/bin/porechop
+  qscores_from_summary: /usr/local/bin/qscores_from_summary
+  ref_seqs_from_bam: /usr/local/bin/ref_seqs_from_bam
+  reverse_bed: /usr/local/bin/reverse_bed
+  split_fastx: /usr/local/bin/split_fastx
+  stats_from_bam: /usr/local/bin/stats_from_bam
+  subsample_bam: /usr/local/bin/subsample_bam
+  summary_from_stats: /usr/local/bin/summary_from_stats
+  tag_bam: /usr/local/bin/tag_bam
+  trim_alignments: /usr/local/bin/trim_alignments

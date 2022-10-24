@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/python-goenrichment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-goenrichment
+latest:
+  1.0.3--pyh5e36f6f_0: sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7
+tags:
+  1.0.3--pyh5e36f6f_0: sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7
+docker: quay.io/biocontainers/python-goenrichment
+aliases:
+  goenrich: /usr/local/bin/goenrich
+  goenrich_createdb: /usr/local/bin/goenrich_createdb

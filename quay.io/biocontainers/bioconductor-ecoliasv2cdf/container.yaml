@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ecoliasv2cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ecoliasv2cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:d1d0d7be1e4044727b064fc23d0f7cd1d2ef549a1128c49da2462f091849e60e
+tags:
+  2.18.0--r41hdfd78af_9: sha256:d1d0d7be1e4044727b064fc23d0f7cd1d2ef549a1128c49da2462f091849e60e
+docker: quay.io/biocontainers/bioconductor-ecoliasv2cdf
+aliases:
+  .bioconductor-ecoliasv2cdf-post-link.sh: /usr/local/bin/.bioconductor-ecoliasv2cdf-post-link.sh
+  .bioconductor-ecoliasv2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoliasv2cdf-pre-unlink.sh

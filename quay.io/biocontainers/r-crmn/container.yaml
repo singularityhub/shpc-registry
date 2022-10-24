@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-crmn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-crmn
+latest:
+  0.0.21--r41h3342da4_2: sha256:e2bd0d3a647c8f7bf5eb4aae1c1683381db0a32b490e849274bee76f2bf282eb
+tags:
+  0.0.21--r41h3342da4_2: sha256:e2bd0d3a647c8f7bf5eb4aae1c1683381db0a32b490e849274bee76f2bf282eb
+docker: quay.io/biocontainers/r-crmn

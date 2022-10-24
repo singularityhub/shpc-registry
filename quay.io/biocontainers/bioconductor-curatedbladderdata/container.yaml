@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-curatedbladderdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-curatedbladderdata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:ed4a523db9f37dbc89890af9c08c7ce51e7adef1395ab07d12439796c69c2a22
+tags:
+  1.30.0--r41hdfd78af_1: sha256:ed4a523db9f37dbc89890af9c08c7ce51e7adef1395ab07d12439796c69c2a22
+docker: quay.io/biocontainers/bioconductor-curatedbladderdata
+aliases:
+  .bioconductor-curatedbladderdata-post-link.sh: /usr/local/bin/.bioconductor-curatedbladderdata-post-link.sh
+  .bioconductor-curatedbladderdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedbladderdata-pre-unlink.sh

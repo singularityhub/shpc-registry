@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-fftwtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fftwtools
+latest:
+  0.9.7--r3.2.2_0: sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740
+tags:
+  0.9.7--r3.2.2_0: sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740
+docker: quay.io/biocontainers/r-fftwtools

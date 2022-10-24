@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/gretel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gretel
+latest:
+  0.0.94--pyh864c0ab_1: sha256:353c3ff10716ee973ad013af9c29d09ce4d3e7a5b275f093d606b0d0d3d4175b
+tags:
+  0.0.94--pyh864c0ab_1: sha256:353c3ff10716ee973ad013af9c29d09ce4d3e7a5b275f093d606b0d0d3d4175b
+docker: quay.io/biocontainers/gretel
+aliases:
+  gretel: /usr/local/bin/gretel
+  gretel-snpper: /usr/local/bin/gretel-snpper

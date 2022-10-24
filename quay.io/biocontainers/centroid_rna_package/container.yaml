@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/centroid_rna_package
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for centroid_rna_package
+latest:
+  0.0.16--h9ee0642_1: sha256:aefd53ebc952defcf38f63a12dddf24c20426971d0533b81d25789572aecad57
+tags:
+  0.0.16--h9ee0642_1: sha256:aefd53ebc952defcf38f63a12dddf24c20426971d0533b81d25789572aecad57
+docker: quay.io/biocontainers/centroid_rna_package
+aliases:
+  centroid_alifold: /usr/local/bin/centroid_alifold
+  centroid_fold: /usr/local/bin/centroid_fold
+  centroid_homfold: /usr/local/bin/centroid_homfold

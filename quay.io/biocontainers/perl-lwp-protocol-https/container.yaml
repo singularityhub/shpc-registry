@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lwp-protocol-https
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lwp-protocol-https
+latest:
+  6.10--pl5321hdfd78af_0: sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9
+tags:
+  6.10--pl5321hdfd78af_0: sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9
+docker: quay.io/biocontainers/perl-lwp-protocol-https

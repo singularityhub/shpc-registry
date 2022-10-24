@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/ebisearch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ebisearch
+latest:
+  0.0.3--py_2: sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987
+tags:
+  0.0.3--py_2: sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987
+docker: quay.io/biocontainers/ebisearch
+aliases:
+  ebi_metagenomics: /usr/local/bin/ebi_metagenomics
+  ebisearch: /usr/local/bin/ebisearch
+  flake8: /usr/local/bin/flake8
+  pycodestyle: /usr/local/bin/pycodestyle
+  pyflakes: /usr/local/bin/pyflakes

@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/mitos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mitos
+latest:
+  2.1.0--pyhdfd78af_0: sha256:5a17df47ea636c4fd46f2b7cd173e8551446228b4baca21dc20392b1d43503d9
+tags:
+  2.1.0--pyhdfd78af_0: sha256:5a17df47ea636c4fd46f2b7cd173e8551446228b4baca21dc20392b1d43503d9
+docker: quay.io/biocontainers/mitos
+aliases:
+  analyse.py: /usr/local/bin/analyse.py
+  gcpp.py: /usr/local/bin/gcpp.py
+  geneorder.py: /usr/local/bin/geneorder.py
+  getfeatures.py: /usr/local/bin/getfeatures.py
+  getinfo.py: /usr/local/bin/getinfo.py
+  plotprot.R: /usr/local/bin/plotprot.R
+  plotrna.R: /usr/local/bin/plotrna.R
+  plotstst.R: /usr/local/bin/plotstst.R
+  refseqsplit.py: /usr/local/bin/refseqsplit.py
+  runmitos.py: /usr/local/bin/runmitos.py
+  subseq.py: /usr/local/bin/subseq.py
+  taxtree.py: /usr/local/bin/taxtree.py
+  update-blastdb.py: /usr/local/bin/update-blastdb.py

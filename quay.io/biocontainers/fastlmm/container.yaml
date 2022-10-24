@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fastlmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastlmm
+latest:
+  0.2.32--py27h95a95ce_5: sha256:b060d9d2dedcf02b770fb469645b4dc68b488173caa9669fac9bdcfc3e0a78a0
+tags:
+  0.2.32--py27h95a95ce_5: sha256:b060d9d2dedcf02b770fb469645b4dc68b488173caa9669fac9bdcfc3e0a78a0
+docker: quay.io/biocontainers/fastlmm

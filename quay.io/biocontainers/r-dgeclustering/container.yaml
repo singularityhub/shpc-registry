@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-dgeclustering
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dgeclustering
+latest:
+  0.1.0--r41h9ee0642_3: sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41
+tags:
+  0.1.0--r41h9ee0642_3: sha256:020e9b02c94baf801be9f2ac0b9638491aa791619d3e04dbab933691f2455a41
+docker: quay.io/biocontainers/r-dgeclustering

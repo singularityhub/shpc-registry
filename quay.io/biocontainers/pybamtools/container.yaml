@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pybamtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pybamtools
+latest:
+  0.0.4--py_3: sha256:643d48347a272508bea843bfcf87e979443521151cd7a929af109ab9979847b4
+tags:
+  0.0.4--py_3: sha256:643d48347a272508bea843bfcf87e979443521151cd7a929af109ab9979847b4
+docker: quay.io/biocontainers/pybamtools

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bgafun
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bgafun
+latest:
+  1.49.0--r40_0: sha256:a75b1e204b0ec00aa389c71ca1a133ff9be0239a3f3ceebd2ec196ae539a1d04
+tags:
+  1.49.0--r40_0: sha256:a75b1e204b0ec00aa389c71ca1a133ff9be0239a3f3ceebd2ec196ae539a1d04
+docker: quay.io/biocontainers/bioconductor-bgafun

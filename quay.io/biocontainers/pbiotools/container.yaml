@@ -1,0 +1,60 @@
+url: https://biocontainers.pro/tools/pbiotools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbiotools
+latest:
+  2.0.0--pyhdfd78af_0: sha256:efdaebaf960ad4aeeac6cdab026f97f41989454349d208b97f31f08170c90a24
+tags:
+  2.0.0--pyhdfd78af_0: sha256:efdaebaf960ad4aeeac6cdab026f97f41989454349d208b97f31f08170c90a24
+docker: quay.io/biocontainers/pbiotools
+aliases:
+  bam-to-wiggle: /usr/local/bin/bam-to-wiggle
+  bed-to-bigBed: /usr/local/bin/bed-to-bigBed
+  bed12-to-gtf: /usr/local/bin/bed12-to-gtf
+  bedx-to-bedy: /usr/local/bin/bedx-to-bedy
+  calculate-bed-overlap: /usr/local/bin/calculate-bed-overlap
+  convert-ccds-to-bed: /usr/local/bin/convert-ccds-to-bed
+  count-aligned-reads: /usr/local/bin/count-aligned-reads
+  count-reads: /usr/local/bin/count-reads
+  create-aligned-read-count-bar-chart: /usr/local/bin/create-aligned-read-count-bar-chart
+  create-init-ribo-track: /usr/local/bin/create-init-ribo-track
+  create-mygene-report: /usr/local/bin/create-mygene-report
+  dna-to-aa: /usr/local/bin/dna-to-aa
+  download-srr-files: /usr/local/bin/download-srr-files
+  epylint: /usr/local/bin/epylint
+  estimate-metagene-profile-bayes-factors: /usr/local/bin/estimate-metagene-profile-bayes-factors
+  extract-bed-sequences: /usr/local/bin/extract-bed-sequences
+  extract-cds-coordinates: /usr/local/bin/extract-cds-coordinates
+  extract-metagene-profiles: /usr/local/bin/extract-metagene-profiles
+  fasta-to-fastq: /usr/local/bin/fasta-to-fastq
+  fastq-pe-dedupe: /usr/local/bin/fastq-pe-dedupe
+  filter-bam-by-ids: /usr/local/bin/filter-bam-by-ids
+  fix-all-bed-files: /usr/local/bin/fix-all-bed-files
+  get-all-utrs: /usr/local/bin/get-all-utrs
+  get-read-length-distribution: /usr/local/bin/get-read-length-distribution
+  gtf-to-bed12: /usr/local/bin/gtf-to-bed12
+  isort: /usr/local/bin/isort
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  join-long-chromosomes: /usr/local/bin/join-long-chromosomes
+  merge-isoforms: /usr/local/bin/merge-isoforms
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  parse-meme-names: /usr/local/bin/parse-meme-names
+  pickle-stan: /usr/local/bin/pickle-stan
+  plot-read-length-distribution: /usr/local/bin/plot-read-length-distribution
+  pyensembl: /usr/local/bin/pyensembl
+  pylint: /usr/local/bin/pylint
+  pylint-config: /usr/local/bin/pylint-config
+  pyreverse: /usr/local/bin/pyreverse
+  remove-duplicate-bed-entries: /usr/local/bin/remove-duplicate-bed-entries
+  remove-duplicate-sequences: /usr/local/bin/remove-duplicate-sequences
+  remove-multimapping-reads: /usr/local/bin/remove-multimapping-reads
+  reorder-fasta: /usr/local/bin/reorder-fasta
+  run-bowtie: /usr/local/bin/run-bowtie
+  run-signalp: /usr/local/bin/run-signalp
+  run-tmhmm: /usr/local/bin/run-tmhmm
+  select-periodic-offsets: /usr/local/bin/select-periodic-offsets
+  split-bed12-blocks: /usr/local/bin/split-bed12-blocks
+  split-long-chromosomes: /usr/local/bin/split-long-chromosomes
+  subtract-bed: /usr/local/bin/subtract-bed
+  symilar: /usr/local/bin/symilar

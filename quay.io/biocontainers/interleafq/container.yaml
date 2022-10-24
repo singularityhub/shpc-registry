@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/interleafq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for interleafq
+latest:
+  1.1.0--pl5321hdfd78af_2: sha256:55258613a4d7d476fb6f654e3858acb54099519ae7a15ab5505f3194f6daab01
+tags:
+  1.1.0--pl5321hdfd78af_2: sha256:55258613a4d7d476fb6f654e3858acb54099519ae7a15ab5505f3194f6daab01
+docker: quay.io/biocontainers/interleafq
+aliases:
+  fqc: /usr/local/bin/fqc
+  fqlen.pl: /usr/local/bin/fqlen.pl
+  interleafq: /usr/local/bin/interleafq

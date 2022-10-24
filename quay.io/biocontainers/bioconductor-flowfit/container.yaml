@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowfit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowfit
+latest:
+  1.24.0--r36_0: sha256:964bd108b617db78fc3f9c5dd8b05f06df7af3fb533856382be6551c3665d8cb
+tags:
+  1.24.0--r36_0: sha256:964bd108b617db78fc3f9c5dd8b05f06df7af3fb533856382be6551c3665d8cb
+docker: quay.io/biocontainers/bioconductor-flowfit

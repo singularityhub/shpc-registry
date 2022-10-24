@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/bftools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bftools
+latest:
+  6.7.0--hdfd78af_0: sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba
+tags:
+  6.7.0--hdfd78af_0: sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba
+docker: quay.io/biocontainers/bftools
+aliases:
+  bf.sh: /usr/local/bin/bf.sh
+  bfconvert: /usr/local/bin/bfconvert
+  bioformats_package.jar: /usr/local/bin/bioformats_package.jar
+  config.sh: /usr/local/bin/config.sh
+  domainlist: /usr/local/bin/domainlist
+  formatlist: /usr/local/bin/formatlist
+  ijview: /usr/local/bin/ijview
+  logback.xml: /usr/local/bin/logback.xml
+  mkfake: /usr/local/bin/mkfake
+  showinf: /usr/local/bin/showinf
+  xmlindent: /usr/local/bin/xmlindent
+  xmlvalid: /usr/local/bin/xmlvalid

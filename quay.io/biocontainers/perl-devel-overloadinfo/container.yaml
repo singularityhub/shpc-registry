@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-devel-overloadinfo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-devel-overloadinfo
+latest:
+  0.007--pl5321hdfd78af_0: sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69
+tags:
+  0.007--pl5321hdfd78af_0: sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69
+docker: quay.io/biocontainers/perl-devel-overloadinfo

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/corsid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for corsid
+latest:
+  0.1.3--pyh5e36f6f_0: sha256:119edf7404a3020e7fbb2365c435c9fa2d7684727f2efbc6415b537e2c45d72c
+tags:
+  0.1.3--pyh5e36f6f_0: sha256:119edf7404a3020e7fbb2365c435c9fa2d7684727f2efbc6415b537e2c45d72c
+docker: quay.io/biocontainers/corsid
+aliases:
+  corsid: /usr/local/bin/corsid
+  corsid_a: /usr/local/bin/corsid_a

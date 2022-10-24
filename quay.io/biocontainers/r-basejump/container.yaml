@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-basejump
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-basejump
+latest:
+  0.9.9--r351_0: sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4
+tags:
+  0.9.9--r351_0: sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4
+docker: quay.io/biocontainers/r-basejump

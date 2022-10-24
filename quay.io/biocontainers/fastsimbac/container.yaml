@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/fastsimbac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastsimbac
+latest:
+  1.0.1_bd3ad13d8f79--h72a8191_3: sha256:485c722038a6d6dd632323fbda32ec5c06fab95bf62d6724135286800eff5523
+tags:
+  1.0.1_bd3ad13d8f79--h72a8191_3: sha256:485c722038a6d6dd632323fbda32ec5c06fab95bf62d6724135286800eff5523
+docker: quay.io/biocontainers/fastsimbac
+aliases:
+  fastSimBac: /usr/local/bin/fastSimBac
+  msformatter: /usr/local/bin/msformatter

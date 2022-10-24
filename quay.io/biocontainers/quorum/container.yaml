@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/quorum
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quorum
+latest:
+  1.1.1--h7d875b9_4: sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10
+tags:
+  1.1.1--h7d875b9_4: sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10
+docker: quay.io/biocontainers/quorum
+aliases:
+  merge_mate_pairs: /usr/local/bin/merge_mate_pairs
+  quorum: /usr/local/bin/quorum
+  quorum_create_database: /usr/local/bin/quorum_create_database
+  quorum_error_correct_reads: /usr/local/bin/quorum_error_correct_reads
+  split_mate_pairs: /usr/local/bin/split_mate_pairs

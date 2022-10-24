@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sample-sheet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sample-sheet
+latest:
+  0.9.4--py_0: sha256:a8da80e55e8585bc6ae1299686364839bdf9d3b46fe92e1c7ff8257ee92ba42e
+tags:
+  0.9.4--py_0: sha256:a8da80e55e8585bc6ae1299686364839bdf9d3b46fe92e1c7ff8257ee92ba42e
+docker: quay.io/biocontainers/sample-sheet
+aliases:
+  sample-sheet: /usr/local/bin/sample-sheet

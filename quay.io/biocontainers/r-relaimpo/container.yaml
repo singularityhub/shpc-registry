@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-relaimpo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-relaimpo
+latest:
+  2.2_2--r3.3.1_0: sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b
+tags:
+  2.2_2--r3.3.1_0: sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b
+docker: quay.io/biocontainers/r-relaimpo

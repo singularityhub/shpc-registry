@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnaseqcomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnaseqcomp
+latest:
+  1.8.0--r3.4.1_0: sha256:d797e7f1b2d7237cf48d66ff1d56143bec549ed55d5d51ec69e447212c83e644
+tags:
+  1.8.0--r3.4.1_0: sha256:d797e7f1b2d7237cf48d66ff1d56143bec549ed55d5d51ec69e447212c83e644
+docker: quay.io/biocontainers/bioconductor-rnaseqcomp

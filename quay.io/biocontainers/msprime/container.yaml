@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/msprime
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msprime
+latest:
+  0.4.0--py34_gsl1.16_2: sha256:12b8da552f7dcb575c5855738a4b0029eacf78efa47f6ec60f00c133f6c1d8f6
+tags:
+  0.4.0--py34_gsl1.16_2: sha256:12b8da552f7dcb575c5855738a4b0029eacf78efa47f6ec60f00c133f6c1d8f6
+docker: quay.io/biocontainers/msprime
+aliases:
+  2to3-3.4: /usr/local/bin/2to3-3.4
+  easy_install-3.4: /usr/local/bin/easy_install-3.4
+  idle3.4: /usr/local/bin/idle3.4
+  msp: /usr/local/bin/msp
+  mspms: /usr/local/bin/mspms
+  pydoc3.4: /usr/local/bin/pydoc3.4
+  python3.4: /usr/local/bin/python3.4
+  python3.4-config: /usr/local/bin/python3.4-config
+  python3.4m: /usr/local/bin/python3.4m
+  python3.4m-config: /usr/local/bin/python3.4m-config
+  pyvenv-3.4: /usr/local/bin/pyvenv-3.4

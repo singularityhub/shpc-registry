@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/matchtigs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for matchtigs
+latest:
+  1.2.0--hdfd78af_0: sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647
+tags:
+  1.2.0--hdfd78af_0: sha256:f35cc56c7409188e63259484d4f5f9db116c4b808d56d521fcf62ffc67a24647
+docker: quay.io/biocontainers/matchtigs
+aliases:
+  cargo: /usr/local/bin/cargo
+  cargo-clippy: /usr/local/bin/cargo-clippy
+  cargo-fmt: /usr/local/bin/cargo-fmt
+  clippy-driver: /usr/local/bin/clippy-driver
+  matchtigs: /usr/local/bin/matchtigs
+  rls: /usr/local/bin/rls
+  rust-demangler: /usr/local/bin/rust-demangler
+  rust-gdb: /usr/local/bin/rust-gdb
+  rust-gdbgui: /usr/local/bin/rust-gdbgui
+  rust-lldb: /usr/local/bin/rust-lldb
+  rustc: /usr/local/bin/rustc
+  rustdoc: /usr/local/bin/rustdoc
+  rustfmt: /usr/local/bin/rustfmt

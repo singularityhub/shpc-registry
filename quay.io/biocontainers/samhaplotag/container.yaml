@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/samhaplotag
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samhaplotag
+latest:
+  0.0.4--h9f5acd7_1: sha256:10c80be02ecc495c76de9d97d0060548a86591eb99de99fe08c86438c5c0e630
+tags:
+  0.0.4--h9f5acd7_1: sha256:10c80be02ecc495c76de9d97d0060548a86591eb99de99fe08c86438c5c0e630
+docker: quay.io/biocontainers/samhaplotag
+aliases:
+  10xSpoof: /usr/local/bin/10xSpoof
+  16BaseBCGen: /usr/local/bin/16BaseBCGen
+  SamHaplotag: /usr/local/bin/SamHaplotag

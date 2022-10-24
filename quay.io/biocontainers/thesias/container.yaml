@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/thesias
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for thesias
+latest:
+  3.1.1--hec16e2b_3: sha256:1c64ad7124bd66a63ca9d2363ddea51150143d004001ceb4020800c5147e436e
+tags:
+  3.1.1--hec16e2b_3: sha256:1c64ad7124bd66a63ca9d2363ddea51150143d004001ceb4020800c5147e436e
+docker: quay.io/biocontainers/thesias
+aliases:
+  THESIAS: /usr/local/bin/THESIAS

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/parafly
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parafly
+latest:
+  r2013_01_21--1: sha256:847dfde25fc5aaca81d2fa5a69276dc1df6d206166469d7f5ae10ff98278fb29
+tags:
+  r2013_01_21--1: sha256:847dfde25fc5aaca81d2fa5a69276dc1df6d206166469d7f5ae10ff98278fb29
+docker: quay.io/biocontainers/parafly
+aliases:
+  ParaFly: /usr/local/bin/ParaFly

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-powsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-powsc
+latest:
+  1.2.0--r41hdfd78af_0: sha256:ceb8dde2ce5e6ca674cc442e347f32e4e3800e681782d331d0a39a4e06a1a09b
+tags:
+  1.2.0--r41hdfd78af_0: sha256:ceb8dde2ce5e6ca674cc442e347f32e4e3800e681782d331d0a39a4e06a1a09b
+docker: quay.io/biocontainers/bioconductor-powsc

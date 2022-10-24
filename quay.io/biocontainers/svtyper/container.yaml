@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/svtyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svtyper
+latest:
+  0.7.1--py_0: sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b
+tags:
+  0.7.1--py_0: sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b
+docker: quay.io/biocontainers/svtyper
+aliases:
+  lib_stats.R: /usr/local/bin/lib_stats.R
+  sv_classifier.py: /usr/local/bin/sv_classifier.py
+  svtyper: /usr/local/bin/svtyper
+  svtyper-sso: /usr/local/bin/svtyper-sso
+  update_info.py: /usr/local/bin/update_info.py
+  vcf_allele_freq.py: /usr/local/bin/vcf_allele_freq.py
+  vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
+  vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
+  vcf_paste.py: /usr/local/bin/vcf_paste.py

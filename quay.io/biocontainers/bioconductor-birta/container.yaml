@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-birta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-birta
+latest:
+  1.31.0--r40h5f743cb_0: sha256:33a84765d823645f537aca08c173b6560808609a19a65caf1c409324c0071bbd
+tags:
+  1.31.0--r40h5f743cb_0: sha256:33a84765d823645f537aca08c173b6560808609a19a65caf1c409324c0071bbd
+docker: quay.io/biocontainers/bioconductor-birta

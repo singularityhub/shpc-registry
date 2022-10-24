@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/ngscheckmate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngscheckmate
+latest:
+  1.0.0--py27r41hdfd78af_3: sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af
+tags:
+  1.0.0--py27r41hdfd78af_3: sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af
+docker: quay.io/biocontainers/ngscheckmate
+aliases:
+  ncm.py: /usr/local/bin/ncm.py
+  ncm_fastq.py: /usr/local/bin/ncm_fastq.py

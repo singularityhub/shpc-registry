@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mhcnames
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mhcnames
+latest:
+  0.4.8--pyh864c0ab_1: sha256:1b88b2b1440293cebcfc828479e08a8b2927c23f7e5f20e8715117b3b38d3c16
+tags:
+  0.4.8--pyh864c0ab_1: sha256:1b88b2b1440293cebcfc828479e08a8b2927c23f7e5f20e8715117b3b38d3c16
+docker: quay.io/biocontainers/mhcnames

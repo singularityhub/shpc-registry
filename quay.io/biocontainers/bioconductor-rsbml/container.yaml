@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rsbml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rsbml
+latest:
+  2.52.0--r41hc247a5b_2: sha256:aa1e274e4cf51299daadaf5a57c3a639a920fb970fc342422ca0721aaf24e106
+tags:
+  2.52.0--r41hc247a5b_2: sha256:aa1e274e4cf51299daadaf5a57c3a639a920fb970fc342422ca0721aaf24e106
+docker: quay.io/biocontainers/bioconductor-rsbml

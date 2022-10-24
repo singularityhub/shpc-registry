@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-joda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-joda
+latest:
+  1.35.0--r40_0: sha256:a9c9bbf2d9ca43bec6286eb52fd388dfb8f524c4679d4ca50d4e5c7db6053ee2
+tags:
+  1.35.0--r40_0: sha256:a9c9bbf2d9ca43bec6286eb52fd388dfb8f524c4679d4ca50d4e5c7db6053ee2
+docker: quay.io/biocontainers/bioconductor-joda

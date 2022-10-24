@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/splicemap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for splicemap
+latest:
+  3.3.5.2--h9f5acd7_4: sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc
+tags:
+  3.3.5.2--h9f5acd7_4: sha256:570bbfc229dd65ee9fda0375bec232704a60773ce6b76678d02a370b8f3007bc
+docker: quay.io/biocontainers/splicemap
+aliases:
+  SpliceMap: /usr/local/bin/SpliceMap
+  amalgamateSAM: /usr/local/bin/amalgamateSAM
+  colorJunction: /usr/local/bin/colorJunction
+  countsam: /usr/local/bin/countsam
+  findNovelJunctions: /usr/local/bin/findNovelJunctions
+  neighborFilter: /usr/local/bin/neighborFilter
+  nnrFilter: /usr/local/bin/nnrFilter
+  precipitateSAM: /usr/local/bin/precipitateSAM
+  randomJunctionFilter: /usr/local/bin/randomJunctionFilter
+  runSpliceMap: /usr/local/bin/runSpliceMap
+  sortsam: /usr/local/bin/sortsam
+  statSpliceMap: /usr/local/bin/statSpliceMap
+  subseq: /usr/local/bin/subseq
+  uniqueJunctionFilter: /usr/local/bin/uniqueJunctionFilter
+  wig2barwig: /usr/local/bin/wig2barwig

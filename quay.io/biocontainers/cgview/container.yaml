@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cgview
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgview
+latest:
+  1.0--hdfd78af_6: sha256:5055b0e5e070b0b4533eb487726e0475d57a7bb734229af29c0e618219b1405e
+tags:
+  1.0--hdfd78af_6: sha256:5055b0e5e070b0b4533eb487726e0475d57a7bb734229af29c0e618219b1405e
+docker: quay.io/biocontainers/cgview
+aliases:
+  cgview: /usr/local/bin/cgview
+  cgview_xml_builder.pl: /usr/local/bin/cgview_xml_builder.pl

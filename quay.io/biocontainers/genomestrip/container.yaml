@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genomestrip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomestrip
+latest:
+  2.00.1833--hdfd78af_4: sha256:8b10af529781c89854549ca2e66e585e48553c94e761bf6ed4fbb34af57c7134
+tags:
+  2.00.1833--hdfd78af_4: sha256:8b10af529781c89854549ca2e66e585e48553c94e761bf6ed4fbb34af57c7134
+docker: quay.io/biocontainers/genomestrip
+aliases:
+  genomestrip: /usr/local/bin/genomestrip

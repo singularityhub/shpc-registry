@@ -1,0 +1,66 @@
+url: https://biocontainers.pro/tools/biobambam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobambam
+latest:
+  2.0.87--h516909a_2: sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673
+tags:
+  2.0.87--h516909a_2: sha256:5a55a5f2cbcaa19cc864da48c6cd82f38206bfd169bf9127ec9fb7aecbbd5673
+docker: quay.io/biocontainers/biobambam
+aliases:
+  bam12auxmerge: /usr/local/bin/bam12auxmerge
+  bam12split: /usr/local/bin/bam12split
+  bam12strip: /usr/local/bin/bam12strip
+  bamadapterclip: /usr/local/bin/bamadapterclip
+  bamadapterfind: /usr/local/bin/bamadapterfind
+  bamalignfrac: /usr/local/bin/bamalignfrac
+  bamauxmerge: /usr/local/bin/bamauxmerge
+  bamauxsort: /usr/local/bin/bamauxsort
+  bamcat: /usr/local/bin/bamcat
+  bamchecksort: /usr/local/bin/bamchecksort
+  bamclipreinsert: /usr/local/bin/bamclipreinsert
+  bamcollate: /usr/local/bin/bamcollate
+  bamcollate2: /usr/local/bin/bamcollate2
+  bamdownsamplerandom: /usr/local/bin/bamdownsamplerandom
+  bamexplode: /usr/local/bin/bamexplode
+  bamfillquery: /usr/local/bin/bamfillquery
+  bamfilteraux: /usr/local/bin/bamfilteraux
+  bamfilterflags: /usr/local/bin/bamfilterflags
+  bamfilterheader: /usr/local/bin/bamfilterheader
+  bamfilterheader2: /usr/local/bin/bamfilterheader2
+  bamfilterlength: /usr/local/bin/bamfilterlength
+  bamfiltermc: /usr/local/bin/bamfiltermc
+  bamfilternames: /usr/local/bin/bamfilternames
+  bamfilterrefid: /usr/local/bin/bamfilterrefid
+  bamfilterrg: /usr/local/bin/bamfilterrg
+  bamfixmateinformation: /usr/local/bin/bamfixmateinformation
+  bamflagsplit: /usr/local/bin/bamflagsplit
+  bamheap2: /usr/local/bin/bamheap2
+  bamindex: /usr/local/bin/bamindex
+  bamintervalcomment: /usr/local/bin/bamintervalcomment
+  bamintervalcommenthist: /usr/local/bin/bamintervalcommenthist
+  bamlastfilter: /usr/local/bin/bamlastfilter
+  bammapdist: /usr/local/bin/bammapdist
+  bammarkduplicates: /usr/local/bin/bammarkduplicates
+  bammarkduplicates2: /usr/local/bin/bammarkduplicates2
+  bammarkduplicatesopt: /usr/local/bin/bammarkduplicatesopt
+  bammaskflags: /usr/local/bin/bammaskflags
+  bammdnm: /usr/local/bin/bammdnm
+  bammerge: /usr/local/bin/bammerge
+  bamnumericalindex: /usr/local/bin/bamnumericalindex
+  bamrank: /usr/local/bin/bamrank
+  bamranksort: /usr/local/bin/bamranksort
+  bamrecalculatecigar: /usr/local/bin/bamrecalculatecigar
+  bamrecompress: /usr/local/bin/bamrecompress
+  bamrefinterval: /usr/local/bin/bamrefinterval
+  bamreset: /usr/local/bin/bamreset
+  bamscrapcount: /usr/local/bin/bamscrapcount
+  bamseqchksum: /usr/local/bin/bamseqchksum
+  bamsormadup: /usr/local/bin/bamsormadup
+  bamsort: /usr/local/bin/bamsort
+  bamsplit: /usr/local/bin/bamsplit
+  bamsplitdiv: /usr/local/bin/bamsplitdiv
+  bamstreamingmarkduplicates: /usr/local/bin/bamstreamingmarkduplicates
+  bamtagconversion: /usr/local/bin/bamtagconversion
+  bamtofastq: /usr/local/bin/bamtofastq
+  bamvalidate: /usr/local/bin/bamvalidate
+  bamzztoname: /usr/local/bin/bamzztoname

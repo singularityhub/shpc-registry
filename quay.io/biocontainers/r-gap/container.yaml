@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gap
+latest:
+  1.2.1--r36h9bbef5b_1: sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8
+tags:
+  1.2.1--r36h9bbef5b_1: sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8
+docker: quay.io/biocontainers/r-gap

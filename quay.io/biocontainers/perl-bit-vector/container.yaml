@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bit-vector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bit-vector
+latest:
+  7.4--pl5321h77fc8f9_4: sha256:25fe28a8ca0b88f85bbc5ca86606260ab8160063212628679662b2d5660f1068
+tags:
+  7.4--pl5321h77fc8f9_4: sha256:25fe28a8ca0b88f85bbc5ca86606260ab8160063212628679662b2d5660f1068
+docker: quay.io/biocontainers/perl-bit-vector

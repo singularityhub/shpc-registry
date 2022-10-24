@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mixkernel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mixkernel
+latest:
+  0.8--r41h3342da4_0: sha256:1dcba1c67234799697602fc257841fef00f57041cc55fcc845bd3977d31009e4
+tags:
+  0.8--r41h3342da4_0: sha256:1dcba1c67234799697602fc257841fef00f57041cc55fcc845bd3977d31009e4
+docker: quay.io/biocontainers/r-mixkernel

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iggeneusage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iggeneusage
+latest:
+  1.8.0--r41hc247a5b_2: sha256:61f76c2ff410f5efb8debdd8b6a5fadf8bc816d684d337fa336dd556ce7dc9b9
+tags:
+  1.8.0--r41hc247a5b_2: sha256:61f76c2ff410f5efb8debdd8b6a5fadf8bc816d684d337fa336dd556ce7dc9b9
+docker: quay.io/biocontainers/bioconductor-iggeneusage

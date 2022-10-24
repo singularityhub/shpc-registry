@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/apt-probeset-summarize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for apt-probeset-summarize
+latest:
+  2.10.0--h9f5acd7_3: sha256:9b0d8782daca43d81dd1e18752c012e435d24d45efe5fb0a17ef243ddefcd390
+tags:
+  2.10.0--h9f5acd7_3: sha256:9b0d8782daca43d81dd1e18752c012e435d24d45efe5fb0a17ef243ddefcd390
+docker: quay.io/biocontainers/apt-probeset-summarize
+aliases:
+  apt-probeset-summarize: /usr/local/bin/apt-probeset-summarize

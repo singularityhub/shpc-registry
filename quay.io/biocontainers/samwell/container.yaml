@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/samwell
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samwell
+latest:
+  0.0.4--py39hbf8eff0_1: sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b
+tags:
+  0.0.4--py39hbf8eff0_1: sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b
+docker: quay.io/biocontainers/samwell

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/pegasuspy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pegasuspy
+latest:
+  1.7.1--py39hbf8eff0_0: sha256:97d2aee83385e763406e04bfe198d6a5dd63d454e115174c16397775c9c92ce0
+tags:
+  1.7.1--py39hbf8eff0_0: sha256:97d2aee83385e763406e04bfe198d6a5dd63d454e115174c16397775c9c92ce0
+docker: quay.io/biocontainers/pegasuspy
+aliases:
+  csv-import: /usr/local/bin/csv-import
+  demuxEM: /usr/local/bin/demuxEM
+  loompy: /usr/local/bin/loompy
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  pegasus: /usr/local/bin/pegasus
+  pegasusio: /usr/local/bin/pegasusio
+  pybind11-config: /usr/local/bin/pybind11-config
+  timezone-dump: /usr/local/bin/timezone-dump
+  torchrun: /usr/local/bin/torchrun
+  wordcloud_cli: /usr/local/bin/wordcloud_cli

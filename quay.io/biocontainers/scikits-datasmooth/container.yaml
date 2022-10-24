@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scikits-datasmooth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scikits-datasmooth
+latest:
+  0.7.1--pyh145b6a8_2: sha256:9f2779cc2c518231acd1812cca517886e14fb01642b86bdfc4b848b283dd99f0
+tags:
+  0.7.1--pyh145b6a8_2: sha256:9f2779cc2c518231acd1812cca517886e14fb01642b86bdfc4b848b283dd99f0
+docker: quay.io/biocontainers/scikits-datasmooth
+aliases:
+  dsdp5: /usr/local/bin/dsdp5

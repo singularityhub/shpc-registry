@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lordfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lordfast
+latest:
+  0.0.9--hd28b015_0: sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478
+tags:
+  0.0.9--hd28b015_0: sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478
+docker: quay.io/biocontainers/lordfast
+aliases:
+  lordfast: /usr/local/bin/lordfast

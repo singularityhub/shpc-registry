@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/reago
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for reago
+latest:
+  1.1--py34_0: sha256:6e1d0e05a5bd28e2eb859c5e808f7bee6d9c844778f60da6b76ff16bc1a5e55a
+tags:
+  1.1--py34_0: sha256:6e1d0e05a5bd28e2eb859c5e808f7bee6d9c844778f60da6b76ff16bc1a5e55a
+docker: quay.io/biocontainers/reago
+aliases:
+  reago.py: /usr/local/bin/reago.py

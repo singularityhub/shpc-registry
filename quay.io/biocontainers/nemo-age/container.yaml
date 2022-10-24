@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nemo-age
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nemo-age
+latest:
+  0.30.0--h5e66344_2: sha256:7ecb7253220de4f755847332e05a2cd7719934614530b87a11ffd9744b14decb
+tags:
+  0.30.0--h5e66344_2: sha256:7ecb7253220de4f755847332e05a2cd7719934614530b87a11ffd9744b14decb
+docker: quay.io/biocontainers/nemo-age
+aliases:
+  nemoage: /usr/local/bin/nemoage

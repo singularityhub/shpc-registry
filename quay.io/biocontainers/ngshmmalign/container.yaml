@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ngshmmalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngshmmalign
+latest:
+  0.1.1--ha04c180_4: sha256:215848fa34c835be224695bfa3d60d88abab91cd231871b7748e1ab0ba314c46
+tags:
+  0.1.1--ha04c180_4: sha256:215848fa34c835be224695bfa3d60d88abab91cd231871b7748e1ab0ba314c46
+docker: quay.io/biocontainers/ngshmmalign
+aliases:
+  ngshmmalign: /usr/local/bin/ngshmmalign

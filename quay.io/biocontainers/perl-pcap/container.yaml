@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/perl-pcap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pcap
+latest:
+  3.5.2--pl5321hec16e2b_2: sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
+tags:
+  3.5.2--pl5321hec16e2b_2: sha256:bd2ae0beb471e456068db53ba6fa8cce228263ed43f44ddcbded8a71e46c046e
+docker: quay.io/biocontainers/perl-pcap
+aliases:
+  bamToBw.pl: /usr/local/bin/bamToBw.pl
+  bam_stats.pl: /usr/local/bin/bam_stats.pl
+  bam_to_sra_sub.pl: /usr/local/bin/bam_to_sra_sub.pl
+  bwa_aln.pl: /usr/local/bin/bwa_aln.pl
+  bwa_mem.pl: /usr/local/bin/bwa_mem.pl
+  cgpAppendIdsToVcf.pl: /usr/local/bin/cgpAppendIdsToVcf.pl
+  cgpVCFSplit.pl: /usr/local/bin/cgpVCFSplit.pl
+  cover: /usr/local/bin/cover
+  cpancover: /usr/local/bin/cpancover
+  detectExtremeDepth.pl: /usr/local/bin/detectExtremeDepth.pl
+  diff_bams.pl: /usr/local/bin/diff_bams.pl
+  gcov2perl: /usr/local/bin/gcov2perl
+  gnos_pull.pl: /usr/local/bin/gnos_pull.pl
+  monitor.pl: /usr/local/bin/monitor.pl
+  ppi2html: /usr/local/bin/ppi2html
+  xam_coverage_bins.pl: /usr/local/bin/xam_coverage_bins.pl
+  xml_to_bas.pl: /usr/local/bin/xml_to_bas.pl

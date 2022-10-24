@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/triqler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for triqler
+latest:
+  0.6.2--pyh5e36f6f_0: sha256:5342050f3bf8d11688eb864f08c7942e2492d5b71bdaccf818ec1a40ef06c166
+tags:
+  0.6.2--pyh5e36f6f_0: sha256:5342050f3bf8d11688eb864f08c7942e2492d5b71bdaccf818ec1a40ef06c166
+docker: quay.io/biocontainers/triqler
+aliases:
+  triqler: /usr/local/bin/triqler

@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/phyloflash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phyloflash
+latest:
+  3.4.1--hdfd78af_0: sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c
+tags:
+  3.4.1--hdfd78af_0: sha256:d110b0bb01fc725502adad58e6cb36a679890bf745c3d0c02526a126e848294c
+docker: quay.io/biocontainers/phyloflash
+aliases:
+  ENA_phyloFlash.pl: /usr/local/bin/ENA_phyloFlash.pl
+  emirge.py: /usr/local/bin/emirge.py
+  emirge_amplicon.py: /usr/local/bin/emirge_amplicon.py
+  emirge_makedb.py: /usr/local/bin/emirge_makedb.py
+  emirge_rename_fasta.py: /usr/local/bin/emirge_rename_fasta.py
+  phyloFlash.pl: /usr/local/bin/phyloFlash.pl
+  phyloFlash_barplot.R: /usr/local/bin/phyloFlash_barplot.R
+  phyloFlash_compare.pl: /usr/local/bin/phyloFlash_compare.pl
+  phyloFlash_fastgFishing.pl: /usr/local/bin/phyloFlash_fastgFishing.pl
+  phyloFlash_heatmap.R: /usr/local/bin/phyloFlash_heatmap.R
+  phyloFlash_makedb.pl: /usr/local/bin/phyloFlash_makedb.pl
+  phyloFlash_plotscript_svg.pl: /usr/local/bin/phyloFlash_plotscript_svg.pl

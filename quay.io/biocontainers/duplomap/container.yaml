@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/duplomap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for duplomap
+latest:
+  0.9.5--h7132678_2: sha256:205bf25a1c6991a1b9e7eec0b659d0d57e734611f9ecb802dfd5a0083b628570
+tags:
+  0.9.5--h7132678_2: sha256:205bf25a1c6991a1b9e7eec0b659d0d57e734611f9ecb802dfd5a0083b628570
+docker: quay.io/biocontainers/duplomap
+aliases:
+  duplomap: /usr/local/bin/duplomap
+  duplomap-prepare: /usr/local/bin/duplomap-prepare

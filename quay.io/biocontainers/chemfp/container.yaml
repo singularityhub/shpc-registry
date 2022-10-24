@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/chemfp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chemfp
+latest:
+  1.6.1--py27h9801fc8_2: sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d
+tags:
+  1.6.1--py27h9801fc8_2: sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d
+docker: quay.io/biocontainers/chemfp
+aliases:
+  fpcat: /usr/local/bin/fpcat
+  ob2fps: /usr/local/bin/ob2fps
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
+  oe2fps: /usr/local/bin/oe2fps
+  rdkit2fps: /usr/local/bin/rdkit2fps
+  sdf2fps: /usr/local/bin/sdf2fps
+  simsearch: /usr/local/bin/simsearch

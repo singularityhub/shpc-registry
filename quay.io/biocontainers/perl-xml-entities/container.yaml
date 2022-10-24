@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-xml-entities
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-entities
+latest:
+  1.0002--pl5321hdfd78af_2: sha256:7ff08de9bf15d235e4ca5012a1cd07c1f39f5a9fdbca44f222d96dd412d38c85
+tags:
+  1.0002--pl5321hdfd78af_2: sha256:7ff08de9bf15d235e4ca5012a1cd07c1f39f5a9fdbca44f222d96dd412d38c85
+docker: quay.io/biocontainers/perl-xml-entities
+aliases:
+  download-entities.pl: /usr/local/bin/download-entities.pl

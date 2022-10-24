@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/seqiolib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqiolib
+latest:
+  0.2.4--pyhdfd78af_0: sha256:8706b763774c94d70390b21cd02df65a8c375bf3ca3a1cd4d27efe6ff31377a9
+tags:
+  0.2.4--pyhdfd78af_0: sha256:8706b763774c94d70390b21cd02df65a8c375bf3ca3a1cd4d27efe6ff31377a9
+docker: quay.io/biocontainers/seqiolib

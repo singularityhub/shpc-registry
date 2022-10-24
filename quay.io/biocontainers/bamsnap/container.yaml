@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bamsnap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamsnap
+latest:
+  0.2.19--py_0: sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41
+tags:
+  0.2.19--py_0: sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41
+docker: quay.io/biocontainers/bamsnap
+aliases:
+  bamsnap: /usr/local/bin/bamsnap

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanosv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanosv
+latest:
+  1.2.4--py_0: sha256:f1ebe015816151c89fc302a5719075f7703e466eb789d1961944b14198f47c2e
+tags:
+  1.2.4--py_0: sha256:f1ebe015816151c89fc302a5719075f7703e466eb789d1961944b14198f47c2e
+docker: quay.io/biocontainers/nanosv
+aliases:
+  NanoSV: /usr/local/bin/NanoSV

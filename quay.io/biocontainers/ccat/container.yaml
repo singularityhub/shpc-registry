@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ccat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ccat
+latest:
+  3.0--hec16e2b_5: sha256:edcb462eda3cb3b51ffffc12a2133fd8971c6e0871b39e1e0641fd16527b6f9c
+tags:
+  3.0--hec16e2b_5: sha256:edcb462eda3cb3b51ffffc12a2133fd8971c6e0871b39e1e0641fd16527b6f9c
+docker: quay.io/biocontainers/ccat
+aliases:
+  CCAT: /usr/local/bin/CCAT

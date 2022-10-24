@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msgfplus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msgfplus
+latest:
+  1.28.0--r41hdfd78af_0: sha256:81da405b0ef916140579ecbbd259c2ace3d6e5aa2387a783a115736e74f76361
+tags:
+  1.28.0--r41hdfd78af_0: sha256:81da405b0ef916140579ecbbd259c2ace3d6e5aa2387a783a115736e74f76361
+docker: quay.io/biocontainers/bioconductor-msgfplus

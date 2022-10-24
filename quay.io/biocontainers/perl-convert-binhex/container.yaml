@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-convert-binhex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-convert-binhex
+latest:
+  1.125--pl5321hdfd78af_2: sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163
+tags:
+  1.125--pl5321hdfd78af_2: sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163
+docker: quay.io/biocontainers/perl-convert-binhex

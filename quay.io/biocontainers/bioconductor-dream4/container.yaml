@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-dream4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dream4
+latest:
+  1.30.0--r41hdfd78af_1: sha256:a625e1b31f664cf2ae39667fc3d0356c593fdc17c9da14623183f44328ba2ef6
+tags:
+  1.30.0--r41hdfd78af_1: sha256:a625e1b31f664cf2ae39667fc3d0356c593fdc17c9da14623183f44328ba2ef6
+docker: quay.io/biocontainers/bioconductor-dream4
+aliases:
+  .bioconductor-dream4-post-link.sh: /usr/local/bin/.bioconductor-dream4-post-link.sh
+  .bioconductor-dream4-pre-unlink.sh: /usr/local/bin/.bioconductor-dream4-pre-unlink.sh

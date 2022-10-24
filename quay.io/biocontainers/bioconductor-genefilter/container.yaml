@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genefilter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genefilter
+latest:
+  1.76.0--r41h38f54d8_2: sha256:2c36dd9a71a0014a4905740549d8d6352f694116d191623803b52dc7597e833d
+tags:
+  1.76.0--r41h38f54d8_2: sha256:2c36dd9a71a0014a4905740549d8d6352f694116d191623803b52dc7597e833d
+docker: quay.io/biocontainers/bioconductor-genefilter

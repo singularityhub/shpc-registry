@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seqan_tcoffee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqan_tcoffee
+latest:
+  1.13.8--h19e8d03_2: sha256:f6e7db8052671cecc4f31871811b21b66b6b92229554313e1da7e39578eaa653
+tags:
+  1.13.8--h19e8d03_2: sha256:f6e7db8052671cecc4f31871811b21b66b6b92229554313e1da7e39578eaa653
+docker: quay.io/biocontainers/seqan_tcoffee
+aliases:
+  seqan_tcoffee: /usr/local/bin/seqan_tcoffee

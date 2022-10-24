@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/purge_haplotigs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for purge_haplotigs
+latest:
+  1.1.2--hdfd78af_0: sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0
+tags:
+  1.1.2--hdfd78af_0: sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0
+docker: quay.io/biocontainers/purge_haplotigs
+aliases:
+  purge_haplotigs: /usr/local/bin/purge_haplotigs

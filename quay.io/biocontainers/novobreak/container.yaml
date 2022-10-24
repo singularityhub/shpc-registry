@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/novobreak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for novobreak
+latest:
+  1.1.3rc--h7132678_8: sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5
+tags:
+  1.1.3rc--h7132678_8: sha256:f3eb4e7de7cbe9ef3251aae8b770633daf6eb66e8602bed7d329b2df5ef95cd5
+docker: quay.io/biocontainers/novobreak
+aliases:
+  SSAKE: /usr/local/bin/SSAKE
+  TQS.py: /usr/local/bin/TQS.py
+  TQSexport.py: /usr/local/bin/TQSexport.py
+  TQSfastq.pl: /usr/local/bin/TQSfastq.pl
+  TQSfastq.py: /usr/local/bin/TQSfastq.py
+  analyzePositionSSAKE.pl: /usr/local/bin/analyzePositionSSAKE.pl
+  fetch_discordant.pl: /usr/local/bin/fetch_discordant.pl
+  filter_sv.bak.pl: /usr/local/bin/filter_sv.bak.pl
+  filter_sv.pl: /usr/local/bin/filter_sv.pl
+  filter_sv2.pl: /usr/local/bin/filter_sv2.pl
+  filter_sv_icgc.pl: /usr/local/bin/filter_sv_icgc.pl
+  getStats.pl: /usr/local/bin/getStats.pl
+  group_bp_reads.pl: /usr/local/bin/group_bp_reads.pl
+  infer_bp.pl: /usr/local/bin/infer_bp.pl
+  infer_bp_v4.pl: /usr/local/bin/infer_bp_v4.pl
+  infer_sv.pl: /usr/local/bin/infer_sv.pl
+  makeFastaFileFromScaffolds.pl: /usr/local/bin/makeFastaFileFromScaffolds.pl
+  makePairedOutput.pl: /usr/local/bin/makePairedOutput.pl
+  makePairedOutput2EQUALfiles.pl: /usr/local/bin/makePairedOutput2EQUALfiles.pl
+  makePairedOutput2UNEQUALfiles.pl: /usr/local/bin/makePairedOutput2UNEQUALfiles.pl
+  nLength.pl: /usr/local/bin/nLength.pl
+  novoBreak: /usr/local/bin/novoBreak
+  qseq2fasta.pl: /usr/local/bin/qseq2fasta.pl
+  run_novoBreak.sh: /usr/local/bin/run_novoBreak.sh
+  run_novobreak: /usr/local/bin/run_novobreak
+  run_ssake.pl: /usr/local/bin/run_ssake.pl
+  splitInput.pl: /usr/local/bin/splitInput.pl

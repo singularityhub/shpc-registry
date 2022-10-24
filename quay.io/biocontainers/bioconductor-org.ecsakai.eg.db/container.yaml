@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-org.ecsakai.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-org.ecsakai.eg.db
+latest:
+  3.8.2--r36_1: sha256:45d2f46cf91d3a1c9728f272ce4dcfc3cba57d0b163f42fb508efb95a1bb079f
+tags:
+  3.8.2--r36_1: sha256:45d2f46cf91d3a1c9728f272ce4dcfc3cba57d0b163f42fb508efb95a1bb079f
+docker: quay.io/biocontainers/bioconductor-org.ecsakai.eg.db
+aliases:
+  .bioconductor-org.ecsakai.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.ecsakai.eg.db-post-link.sh
+  .bioconductor-org.ecsakai.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.ecsakai.eg.db-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/skmer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for skmer
+latest:
+  3.2.1--pyhfa5458b_0: sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171
+tags:
+  3.2.1--pyhfa5458b_0: sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171
+docker: quay.io/biocontainers/skmer
+aliases:
+  skmer: /usr/local/bin/skmer

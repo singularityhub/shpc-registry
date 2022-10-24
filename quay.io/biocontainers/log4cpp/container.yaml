@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/log4cpp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for log4cpp
+latest:
+  1.1--0: sha256:1d69b44d13138fd226e365a7e82f4876f9cf2cc299075844a02d59473e28d51b
+tags:
+  1.1--0: sha256:1d69b44d13138fd226e365a7e82f4876f9cf2cc299075844a02d59473e28d51b
+docker: quay.io/biocontainers/log4cpp
+aliases:
+  log4cpp-config: /usr/local/bin/log4cpp-config

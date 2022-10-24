@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-csv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-csv
+latest:
+  2.01--pl5321hdfd78af_0: sha256:8a1d520051ac95d7161c71866d1bf24383f21ef9a7274514828491b86c7ac078
+tags:
+  2.01--pl5321hdfd78af_0: sha256:8a1d520051ac95d7161c71866d1bf24383f21ef9a7274514828491b86c7ac078
+docker: quay.io/biocontainers/perl-text-csv

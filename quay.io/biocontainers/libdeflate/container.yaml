@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/libdeflate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libdeflate
+latest:
+  1.2--h516909a_1: sha256:0ac556a3197108583719179a5940a6876381feb49b768663d1fbec2f85b43e7d
+tags:
+  1.2--h516909a_1: sha256:0ac556a3197108583719179a5940a6876381feb49b768663d1fbec2f85b43e7d
+docker: quay.io/biocontainers/libdeflate

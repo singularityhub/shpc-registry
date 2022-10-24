@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/famsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for famsa
+latest:
+  2.2.2--h9f5acd7_0: sha256:7ebd3d06ba7e5e2300ebcb17e7c69becc35032257e4d5c9e3861f523c4be6cdf
+tags:
+  2.2.2--h9f5acd7_0: sha256:7ebd3d06ba7e5e2300ebcb17e7c69becc35032257e4d5c9e3861f523c4be6cdf
+docker: quay.io/biocontainers/famsa
+aliases:
+  famsa: /usr/local/bin/famsa

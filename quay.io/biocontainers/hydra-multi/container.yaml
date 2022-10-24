@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/hydra-multi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hydra-multi
+latest:
+  0.5.4--py27h5b5514e_2: sha256:766594888b18519ace58e4fc245d9cab7c7af951dc7a6b0589c5b12ff4385e26
+tags:
+  0.5.4--py27h5b5514e_2: sha256:766594888b18519ace58e4fc245d9cab7c7af951dc7a6b0589c5b12ff4385e26
+docker: quay.io/biocontainers/hydra-multi
+aliases:
+  assemble-routed-files.sh: /usr/local/bin/assemble-routed-files.sh
+  bedpeToBam.py: /usr/local/bin/bedpeToBam.py
+  bedpeToBed12.py: /usr/local/bin/bedpeToBed12.py
+  combine-assembled-files.sh: /usr/local/bin/combine-assembled-files.sh
+  dedupDiscordantsMultiPass.py: /usr/local/bin/dedupDiscordantsMultiPass.py
+  extract_all_discordants.sh: /usr/local/bin/extract_all_discordants.sh
+  extract_discordants.py: /usr/local/bin/extract_discordants.py
+  finalizeBreakpoints.py: /usr/local/bin/finalizeBreakpoints.py
+  forceOneClusterPerPairMem.py: /usr/local/bin/forceOneClusterPerPairMem.py
+  frequency.py: /usr/local/bin/frequency.py
+  hydra-assembler: /usr/local/bin/hydra-assembler
+  hydra-ext: /usr/local/bin/hydra-ext
+  hydra-multi.sh: /usr/local/bin/hydra-multi.sh
+  hydra-router: /usr/local/bin/hydra-router
+  hydraToBreakpoint.py: /usr/local/bin/hydraToBreakpoint.py
+  make_hydra_config.py: /usr/local/bin/make_hydra_config.py
+  mergeBreakpoints.py: /usr/local/bin/mergeBreakpoints.py
+  pairDiscordants.py: /usr/local/bin/pairDiscordants.py

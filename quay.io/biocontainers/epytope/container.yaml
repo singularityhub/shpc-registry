@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/epytope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epytope
+latest:
+  3.1.0--pyh5e36f6f_0: sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9
+tags:
+  3.1.0--pyh5e36f6f_0: sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9
+docker: quay.io/biocontainers/epytope
+aliases:
+  _mhcflurry-cluster-worker-entry-point: /usr/local/bin/_mhcflurry-cluster-worker-entry-point
+  mhcflurry-calibrate-percentile-ranks: /usr/local/bin/mhcflurry-calibrate-percentile-ranks
+  mhcflurry-class1-select-allele-specific-models: /usr/local/bin/mhcflurry-class1-select-allele-specific-models
+  mhcflurry-class1-select-pan-allele-models: /usr/local/bin/mhcflurry-class1-select-pan-allele-models
+  mhcflurry-class1-train-allele-specific-models: /usr/local/bin/mhcflurry-class1-train-allele-specific-models
+  mhcflurry-class1-train-pan-allele-models: /usr/local/bin/mhcflurry-class1-train-pan-allele-models
+  mhcflurry-downloads: /usr/local/bin/mhcflurry-downloads
+  mhcflurry-predict: /usr/local/bin/mhcflurry-predict
+  pyomo: /usr/local/bin/pyomo

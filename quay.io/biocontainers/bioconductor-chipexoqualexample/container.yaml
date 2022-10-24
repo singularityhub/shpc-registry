@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chipexoqualexample
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample
+latest:
+  1.8.0--r36_1: sha256:ed284a73f9f99f4dd6a8d6a73dc5d4a05d1e17a416bf61609568254205563ed2
+tags:
+  1.8.0--r36_1: sha256:ed284a73f9f99f4dd6a8d6a73dc5d4a05d1e17a416bf61609568254205563ed2
+docker: quay.io/biocontainers/bioconductor-chipexoqualexample
+aliases:
+  .bioconductor-chipexoqualexample-post-link.sh: /usr/local/bin/.bioconductor-chipexoqualexample-post-link.sh
+  .bioconductor-chipexoqualexample-pre-unlink.sh: /usr/local/bin/.bioconductor-chipexoqualexample-pre-unlink.sh

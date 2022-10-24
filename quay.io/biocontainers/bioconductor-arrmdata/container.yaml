@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-arrmdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-arrmdata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:d439ab215ae781076d0af48839816e5f655b3c51f75d7ea45c99db5c1bb42bde
+tags:
+  1.30.0--r41hdfd78af_1: sha256:d439ab215ae781076d0af48839816e5f655b3c51f75d7ea45c99db5c1bb42bde
+docker: quay.io/biocontainers/bioconductor-arrmdata
+aliases:
+  .bioconductor-arrmdata-post-link.sh: /usr/local/bin/.bioconductor-arrmdata-post-link.sh
+  .bioconductor-arrmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-arrmdata-pre-unlink.sh

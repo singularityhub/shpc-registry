@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/yanc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yanc
+latest:
+  0.3.3--py36_1: sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52
+tags:
+  0.3.3--py36_1: sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52
+docker: quay.io/biocontainers/yanc

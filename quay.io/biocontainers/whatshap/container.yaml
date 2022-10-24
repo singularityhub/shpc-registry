@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/whatshap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for whatshap
+latest:
+  1.5--py39hc16433a_0: sha256:061a520a1dff9d31b267754fc55410c18b4d4449f66bb3f975ad95aba313d4ea
+tags:
+  1.5--py39hc16433a_0: sha256:061a520a1dff9d31b267754fc55410c18b4d4449f66bb3f975ad95aba313d4ea
+docker: quay.io/biocontainers/whatshap
+aliases:
+  whatshap: /usr/local/bin/whatshap

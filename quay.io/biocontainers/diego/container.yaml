@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/diego
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for diego
+latest:
+  0.1.2--py_0: sha256:04d58f2fe5e2a10b3ed4c383a75c44c1680d4a109eef79824f01a897dea41890
+tags:
+  0.1.2--py_0: sha256:04d58f2fe5e2a10b3ed4c383a75c44c1680d4a109eef79824f01a897dea41890
+docker: quay.io/biocontainers/diego
+aliases:
+  HTseq2DIEGO.pl: /usr/local/bin/HTseq2DIEGO.pl
+  diego.py: /usr/local/bin/diego.py
+  gfftoDIEGObed.pl: /usr/local/bin/gfftoDIEGObed.pl
+  pre_STAR.py: /usr/local/bin/pre_STAR.py
+  pre_segemehl.pl: /usr/local/bin/pre_segemehl.pl
+  pre_std.py: /usr/local/bin/pre_std.py
+  pre_tophat.pl: /usr/local/bin/pre_tophat.pl

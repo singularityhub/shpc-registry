@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/carnac-lr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for carnac-lr
+latest:
+  1.0.0--h87f3376_2: sha256:6956f76c647d8a8cecd5ab95d15717c4781bb93a2e6332d2eacfefaa31101ffb
+tags:
+  1.0.0--h87f3376_2: sha256:6956f76c647d8a8cecd5ab95d15717c4781bb93a2e6332d2eacfefaa31101ffb
+docker: quay.io/biocontainers/carnac-lr
+aliases:
+  CARNAC-LR: /usr/local/bin/CARNAC-LR
+  CARNAC_to_fasta: /usr/local/bin/CARNAC_to_fasta
+  CARNAC_to_fasta.py: /usr/local/bin/CARNAC_to_fasta.py
+  paf_to_CARNAC.py: /usr/local/bin/paf_to_CARNAC.py

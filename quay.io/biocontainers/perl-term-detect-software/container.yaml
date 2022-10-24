@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-term-detect-software
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-term-detect-software
+latest:
+  0.223--pl5321hdfd78af_0: sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395
+tags:
+  0.223--pl5321hdfd78af_0: sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395
+docker: quay.io/biocontainers/perl-term-detect-software

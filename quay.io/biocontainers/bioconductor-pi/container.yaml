@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pi
+latest:
+  2.6.0--r41hdfd78af_0: sha256:8daecc7bc02198e662ce6dff95324b2e453a72e54d03795948c478ebac0ff343
+tags:
+  2.6.0--r41hdfd78af_0: sha256:8daecc7bc02198e662ce6dff95324b2e453a72e54d03795948c478ebac0ff343
+docker: quay.io/biocontainers/bioconductor-pi

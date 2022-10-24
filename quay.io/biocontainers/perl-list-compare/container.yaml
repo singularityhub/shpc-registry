@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-list-compare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-list-compare
+latest:
+  0.53--pl5321hdfd78af_2: sha256:89019d1498bac45bf95b49f6ce7b212b061c733d9822619de888ffa015aea6bb
+tags:
+  0.53--pl5321hdfd78af_2: sha256:89019d1498bac45bf95b49f6ce7b212b061c733d9822619de888ffa015aea6bb
+docker: quay.io/biocontainers/perl-list-compare

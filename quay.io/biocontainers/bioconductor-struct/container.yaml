@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-struct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-struct
+latest:
+  1.6.0--r41hdfd78af_0: sha256:de8e3aab31205981cd8c7850de019877b91c125d06df500526a245ec511ba868
+tags:
+  1.6.0--r41hdfd78af_0: sha256:de8e3aab31205981cd8c7850de019877b91c125d06df500526a245ec511ba868
+docker: quay.io/biocontainers/bioconductor-struct

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-paeg1acdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-paeg1acdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:324a57bbf1f1b3e81f3e3995144d365daa6641c92ed8bb13e91bcf7ff62f4471
+tags:
+  2.18.0--r41hdfd78af_9: sha256:324a57bbf1f1b3e81f3e3995144d365daa6641c92ed8bb13e91bcf7ff62f4471
+docker: quay.io/biocontainers/bioconductor-paeg1acdf
+aliases:
+  .bioconductor-paeg1acdf-post-link.sh: /usr/local/bin/.bioconductor-paeg1acdf-post-link.sh
+  .bioconductor-paeg1acdf-pre-unlink.sh: /usr/local/bin/.bioconductor-paeg1acdf-pre-unlink.sh

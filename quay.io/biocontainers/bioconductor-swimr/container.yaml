@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-swimr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-swimr
+latest:
+  1.29.0--r41hdfd78af_0: sha256:7a5f2eb4b8e43af032a44adce56876e8ec8b32bc7066e63fb672c41ebb3c91cc
+tags:
+  1.29.0--r41hdfd78af_0: sha256:7a5f2eb4b8e43af032a44adce56876e8ec8b32bc7066e63fb672c41ebb3c91cc
+docker: quay.io/biocontainers/bioconductor-swimr

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mrsfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mrsfast
+latest:
+  3.4.2--h7132678_2: sha256:0eef21f24fffa5eed8e296953fdaab52feae5d1501e7f067a65bbc529d949020
+tags:
+  3.4.2--h7132678_2: sha256:0eef21f24fffa5eed8e296953fdaab52feae5d1501e7f067a65bbc529d949020
+docker: quay.io/biocontainers/mrsfast
+aliases:
+  mrsfast: /usr/local/bin/mrsfast

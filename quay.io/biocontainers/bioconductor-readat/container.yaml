@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-readat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-readat
+latest:
+  1.8.0--r351_0: sha256:f46b0c8b8529cb1aa7a047009a4826a67e52f8b34b6555524723e942a5a418e3
+tags:
+  1.8.0--r351_0: sha256:f46b0c8b8529cb1aa7a047009a4826a67e52f8b34b6555524723e942a5a418e3
+docker: quay.io/biocontainers/bioconductor-readat

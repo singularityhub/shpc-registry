@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/omssa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for omssa
+latest:
+  2.1.9--h9ee0642_1: sha256:d8f488ad6728a19175e1612e10b3762054d08062670a67548de1d758f129c96e
+tags:
+  2.1.9--h9ee0642_1: sha256:d8f488ad6728a19175e1612e10b3762054d08062670a67548de1d758f129c96e
+docker: quay.io/biocontainers/omssa
+aliases:
+  omssa2pepXML: /usr/local/bin/omssa2pepXML
+  omssacl: /usr/local/bin/omssacl
+  omssamerge: /usr/local/bin/omssamerge

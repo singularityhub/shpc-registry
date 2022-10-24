@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vargeno
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vargeno
+latest:
+  1.0.3--h9f5acd7_3: sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc
+tags:
+  1.0.3--h9f5acd7_3: sha256:4da3bde328e0c75ffe430ad7a8f90fcd15a0914b9a06f9649a5a99e25d07e9fc
+docker: quay.io/biocontainers/vargeno
+aliases:
+  vargeno: /usr/local/bin/vargeno

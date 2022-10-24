@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/hg-color
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hg-color
+latest:
+  1.1.1--he1b5a44_1: sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
+tags:
+  1.1.1--he1b5a44_1: sha256:9faf64eab37610f50de2823bb1e0767ccd2625428395913eb257e07911330df7
+docker: quay.io/biocontainers/hg-color
+aliases:
+  HG-CoLoR: /usr/local/bin/HG-CoLoR
+  PgSAgen: /usr/local/bin/PgSAgen
+  PgSAtest: /usr/local/bin/PgSAtest
+  blasr-license: /usr/local/bin/blasr-license
+  filterShortReads.py: /usr/local/bin/filterShortReads.py
+  formatLongReads.py: /usr/local/bin/formatLongReads.py
+  merge_mate_pairs: /usr/local/bin/merge_mate_pairs
+  quorum: /usr/local/bin/quorum
+  quorum_create_database: /usr/local/bin/quorum_create_database
+  quorum_error_correct_reads: /usr/local/bin/quorum_error_correct_reads
+  split.py: /usr/local/bin/split.py
+  split_mate_pairs: /usr/local/bin/split_mate_pairs
+  trim.py: /usr/local/bin/trim.py

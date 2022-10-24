@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/perl-bio-bigfile
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-bigfile
+latest:
+  1.07--pl526hab1572f_1: sha256:1a20db37bc1ba1e679ebe4d6a7483d00263ef17ff2812dd5882ca18d862aaded
+tags:
+  1.07--pl526hab1572f_1: sha256:1a20db37bc1ba1e679ebe4d6a7483d00263ef17ff2812dd5882ca18d862aaded
+docker: quay.io/biocontainers/perl-bio-bigfile
+aliases:
+  bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
+  ibd2sdi: /usr/local/bin/ibd2sdi
+  index_bigwigset.pl: /usr/local/bin/index_bigwigset.pl
+  innochecksum: /usr/local/bin/innochecksum
+  myisam_ftdump: /usr/local/bin/myisam_ftdump
+  myisamchk: /usr/local/bin/myisamchk
+  myisamlog: /usr/local/bin/myisamlog
+  myisampack: /usr/local/bin/myisampack
+  mysql: /usr/local/bin/mysql
+  mysql.server: /usr/local/bin/mysql.server
+  mysql_config_editor: /usr/local/bin/mysql_config_editor
+  mysql_secure_installation: /usr/local/bin/mysql_secure_installation
+  mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysql_tzinfo_to_sql: /usr/local/bin/mysql_tzinfo_to_sql
+  mysql_upgrade: /usr/local/bin/mysql_upgrade
+  mysqladmin: /usr/local/bin/mysqladmin
+  mysqlbinlog: /usr/local/bin/mysqlbinlog
+  mysqlcheck: /usr/local/bin/mysqlcheck
+  mysqld: /usr/local/bin/mysqld
+  mysqld_multi: /usr/local/bin/mysqld_multi
+  mysqld_safe: /usr/local/bin/mysqld_safe
+  mysqldump: /usr/local/bin/mysqldump
+  mysqldumpslow: /usr/local/bin/mysqldumpslow
+  mysqlimport: /usr/local/bin/mysqlimport
+  mysqlpump: /usr/local/bin/mysqlpump
+  mysqlshow: /usr/local/bin/mysqlshow
+  mysqlslap: /usr/local/bin/mysqlslap
+  wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
+  zlib_decompress: /usr/local/bin/zlib_decompress

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clipper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clipper
+latest:
+  1.34.0--r41hc247a5b_2: sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6
+tags:
+  1.34.0--r41hc247a5b_2: sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6
+docker: quay.io/biocontainers/bioconductor-clipper

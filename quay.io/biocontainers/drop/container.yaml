@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/drop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for drop
+latest:
+  1.2.2--pyhdfd78af_0: sha256:4f844567e238de0bb3d2e5f90f921386b6db893371ae2b481fa43cbc0df2153e
+tags:
+  1.2.2--pyhdfd78af_0: sha256:4f844567e238de0bb3d2e5f90f921386b6db893371ae2b481fa43cbc0df2153e
+docker: quay.io/biocontainers/drop
+aliases:
+  drop: /usr/local/bin/drop
+  git2_cli: /usr/local/bin/git2_cli
+  wbuild: /usr/local/bin/wbuild

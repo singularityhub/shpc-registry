@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pathrender
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pathrender
+latest:
+  1.62.0--r41hdfd78af_0: sha256:612ac39d6d5c49e6d99fbcdaf1afc62ac3dd72a01fe53f504160d4d2adf45ccb
+tags:
+  1.62.0--r41hdfd78af_0: sha256:612ac39d6d5c49e6d99fbcdaf1afc62ac3dd72a01fe53f504160d4d2adf45ccb
+docker: quay.io/biocontainers/bioconductor-pathrender
+aliases:
+  .bioconductor-cmap-post-link.sh: /usr/local/bin/.bioconductor-cmap-post-link.sh
+  .bioconductor-cmap-pre-unlink.sh: /usr/local/bin/.bioconductor-cmap-pre-unlink.sh

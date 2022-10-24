@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-assessorfdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-assessorfdata
+latest:
+  1.8.0--r40hdfd78af_1: sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d
+tags:
+  1.8.0--r40hdfd78af_1: sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d
+docker: quay.io/biocontainers/bioconductor-assessorfdata
+aliases:
+  .bioconductor-assessorfdata-post-link.sh: /usr/local/bin/.bioconductor-assessorfdata-post-link.sh
+  .bioconductor-assessorfdata-pre-unlink.sh: /usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh

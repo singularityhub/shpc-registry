@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-maldiquant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-maldiquant
+latest:
+  1.18--r341ha44fe06_0: sha256:bb119d31be7906085022628b2791b5f8fdc2c2ae4e58830969236f74a93c9266
+tags:
+  1.18--r341ha44fe06_0: sha256:bb119d31be7906085022628b2791b5f8fdc2c2ae4e58830969236f74a93c9266
+docker: quay.io/biocontainers/r-maldiquant

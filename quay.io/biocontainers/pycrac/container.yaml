@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/pycrac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pycrac
+latest:
+  1.5.1--pyh5e36f6f_0: sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9
+tags:
+  1.5.1--pyh5e36f6f_0: sha256:ecd1d27d5e584a550ffd28c6bdae218e00c8d9defeea453c68f8762be0ecf2f9
+docker: quay.io/biocontainers/pycrac
+aliases:
+  pyAlignment2Tab.py: /usr/local/bin/pyAlignment2Tab.py
+  pyBarcodeFilter.py: /usr/local/bin/pyBarcodeFilter.py
+  pyBinCollector.py: /usr/local/bin/pyBinCollector.py
+  pyCalculateChromosomeLengths.py: /usr/local/bin/pyCalculateChromosomeLengths.py
+  pyCalculateFDRs.py: /usr/local/bin/pyCalculateFDRs.py
+  pyCalculateMutationFrequencies.py: /usr/local/bin/pyCalculateMutationFrequencies.py
+  pyCheckGTFfile.py: /usr/local/bin/pyCheckGTFfile.py
+  pyClusterReads.py: /usr/local/bin/pyClusterReads.py
+  pyExtractLinesFromGTF.py: /usr/local/bin/pyExtractLinesFromGTF.py
+  pyFasta2tab.py: /usr/local/bin/pyFasta2tab.py
+  pyFastqDuplicateRemover.py: /usr/local/bin/pyFastqDuplicateRemover.py
+  pyFastqJoiner.py: /usr/local/bin/pyFastqJoiner.py
+  pyFastqSplitter.py: /usr/local/bin/pyFastqSplitter.py
+  pyFilterGTF.py: /usr/local/bin/pyFilterGTF.py
+  pyGTF2bed.py: /usr/local/bin/pyGTF2bed.py
+  pyGTF2bedGraph.py: /usr/local/bin/pyGTF2bedGraph.py
+  pyGTF2sgr.py: /usr/local/bin/pyGTF2sgr.py
+  pyGetGTFSources.py: /usr/local/bin/pyGetGTFSources.py
+  pyGetGeneNamesFromGTF.py: /usr/local/bin/pyGetGeneNamesFromGTF.py
+  pyMotif.py: /usr/local/bin/pyMotif.py
+  pyNormalizeIntervalLengths.py: /usr/local/bin/pyNormalizeIntervalLengths.py
+  pyPileup.py: /usr/local/bin/pyPileup.py
+  pyReadAligner.py: /usr/local/bin/pyReadAligner.py
+  pyReadCounters.py: /usr/local/bin/pyReadCounters.py
+  pySelectMotifsFromGTF.py: /usr/local/bin/pySelectMotifsFromGTF.py
+  pybed2GTF.py: /usr/local/bin/pybed2GTF.py

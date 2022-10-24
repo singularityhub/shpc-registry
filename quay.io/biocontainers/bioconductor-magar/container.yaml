@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-magar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-magar
+latest:
+  1.2.0--r41hdfd78af_0: sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e
+tags:
+  1.2.0--r41hdfd78af_0: sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e
+docker: quay.io/biocontainers/bioconductor-magar
+aliases:
+  .bioconductor-rnbeads.hg19-post-link.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-post-link.sh
+  .bioconductor-rnbeads.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-pre-unlink.sh

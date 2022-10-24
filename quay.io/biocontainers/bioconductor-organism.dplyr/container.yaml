@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-organism.dplyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-organism.dplyr
+latest:
+  1.22.1--r41hdfd78af_0: sha256:3bcf9341dfdab449e4b2b56d69248e069c9ddb0b03f96ad58738bc47a52a52d8
+tags:
+  1.22.1--r41hdfd78af_0: sha256:3bcf9341dfdab449e4b2b56d69248e069c9ddb0b03f96ad58738bc47a52a52d8
+docker: quay.io/biocontainers/bioconductor-organism.dplyr

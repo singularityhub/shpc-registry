@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/sv2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sv2
+latest:
+  1.4.3.4--py27h4329609_7: sha256:2494fe678531ec6cd4b8dee703aa2d1a6daeab0e4cfe81ea7277d17426e39fb5
+tags:
+  1.4.3.4--py27h4329609_7: sha256:2494fe678531ec6cd4b8dee703aa2d1a6daeab0e4cfe81ea7277d17426e39fb5
+docker: quay.io/biocontainers/sv2
+aliases:
+  sv2: /usr/local/bin/sv2
+  sv2train: /usr/local/bin/sv2train

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-extract-use
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-extract-use
+latest:
+  1.043--pl5321hdfd78af_3: sha256:bcf14b169b7dd0bc01ee1342bf5c3ab2f0b1c1bf994d784aede0a0f53c131f7f
+tags:
+  1.043--pl5321hdfd78af_3: sha256:bcf14b169b7dd0bc01ee1342bf5c3ab2f0b1c1bf994d784aede0a0f53c131f7f
+docker: quay.io/biocontainers/perl-module-extract-use

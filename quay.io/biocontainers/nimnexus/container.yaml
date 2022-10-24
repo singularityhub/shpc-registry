@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nimnexus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nimnexus
+latest:
+  0.1.1--hcb20899_3: sha256:3a3e07cb246460cfda10bb119a4a1964d626fbe8d0541edd83d9b37f6ee3f867
+tags:
+  0.1.1--hcb20899_3: sha256:3a3e07cb246460cfda10bb119a4a1964d626fbe8d0541edd83d9b37f6ee3f867
+docker: quay.io/biocontainers/nimnexus
+aliases:
+  nimnexus: /usr/local/bin/nimnexus

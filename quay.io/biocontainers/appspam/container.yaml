@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/appspam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for appspam
+latest:
+  1.03--h9f5acd7_2: sha256:73dafecacd7cc3b654f3cdfb5e0b70f9f4150f17f15e343e0584559b63b7db88
+tags:
+  1.03--h9f5acd7_2: sha256:73dafecacd7cc3b654f3cdfb5e0b70f9f4150f17f15e343e0584559b63b7db88
+docker: quay.io/biocontainers/appspam
+aliases:
+  appspam: /usr/local/bin/appspam

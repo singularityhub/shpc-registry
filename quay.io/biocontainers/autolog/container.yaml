@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/autolog
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for autolog
+latest:
+  0.2--py_0: sha256:0b7ce1163d2e0d873bd537093cb70c2f7d242f0042ae472cabd79bc094f060ad
+tags:
+  0.2--py_0: sha256:0b7ce1163d2e0d873bd537093cb70c2f7d242f0042ae472cabd79bc094f060ad
+docker: quay.io/biocontainers/autolog

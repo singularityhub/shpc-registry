@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rat.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rat.db0
+latest:
+  3.8.2--r36_1: sha256:afb677e77047221a91bfa3ed47bd4089140b61ab63f544f9768e8476d31b93f9
+tags:
+  3.8.2--r36_1: sha256:afb677e77047221a91bfa3ed47bd4089140b61ab63f544f9768e8476d31b93f9
+docker: quay.io/biocontainers/bioconductor-rat.db0
+aliases:
+  .bioconductor-rat.db0-post-link.sh: /usr/local/bin/.bioconductor-rat.db0-post-link.sh
+  .bioconductor-rat.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-rat.db0-pre-unlink.sh

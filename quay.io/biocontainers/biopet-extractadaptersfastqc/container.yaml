@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-extractadaptersfastqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-extractadaptersfastqc
+latest:
+  0.2--hdfd78af_3: sha256:21e18cb23477e460b7ac555b91be2d4583f7f52a737d40da59ae9a43ebb658e6
+tags:
+  0.2--hdfd78af_3: sha256:21e18cb23477e460b7ac555b91be2d4583f7f52a737d40da59ae9a43ebb658e6
+docker: quay.io/biocontainers/biopet-extractadaptersfastqc
+aliases:
+  biopet-extractadaptersfastqc: /usr/local/bin/biopet-extractadaptersfastqc

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/datamash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for datamash
+latest:
+  1.1.0--0: sha256:17955e3ff741f6da7c7bb6dbf19125ba708a81a8ba6887fa0821c66908c5962a
+tags:
+  1.1.0--0: sha256:17955e3ff741f6da7c7bb6dbf19125ba708a81a8ba6887fa0821c66908c5962a
+docker: quay.io/biocontainers/datamash
+aliases:
+  datamash: /usr/local/bin/datamash

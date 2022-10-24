@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-shinytandem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-shinytandem
+latest:
+  1.26.0--r40_0: sha256:b6f86d3c02420880c48308007c2596fde28199381dc12ce9cf8103deae81fd8f
+tags:
+  1.26.0--r40_0: sha256:b6f86d3c02420880c48308007c2596fde28199381dc12ce9cf8103deae81fd8f
+docker: quay.io/biocontainers/bioconductor-shinytandem

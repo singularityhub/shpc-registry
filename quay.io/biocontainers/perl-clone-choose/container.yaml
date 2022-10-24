@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-clone-choose
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-clone-choose
+latest:
+  0.010--pl5321hdfd78af_1: sha256:4a62471a621c0f280c80c506f6c964ec470b347ae5fba526cb0d1e6a4d78b3d7
+tags:
+  0.010--pl5321hdfd78af_1: sha256:4a62471a621c0f280c80c506f6c964ec470b347ae5fba526cb0d1e6a4d78b3d7
+docker: quay.io/biocontainers/perl-clone-choose

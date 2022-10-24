@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lyve-set
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lyve-set
+latest:
+  2.0.1--pl5321hdfd78af_1: sha256:2a254ca5f37c6bec35ec552ffd284e1462efd9bdb2b9e9a384555319b5e15742
+tags:
+  2.0.1--pl5321hdfd78af_1: sha256:2a254ca5f37c6bec35ec552ffd284e1462efd9bdb2b9e9a384555319b5e15742
+docker: quay.io/biocontainers/perl-lyve-set

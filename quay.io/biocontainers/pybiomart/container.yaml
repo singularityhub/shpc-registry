@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pybiomart
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pybiomart
+latest:
+  0.2.0--pyh864c0ab_1: sha256:bf005b8fc49431605dda5ae9eca0f0624f97203eb059b3362b788ba38c0ee4ff
+tags:
+  0.2.0--pyh864c0ab_1: sha256:bf005b8fc49431605dda5ae9eca0f0624f97203eb059b3362b788ba38c0ee4ff
+docker: quay.io/biocontainers/pybiomart

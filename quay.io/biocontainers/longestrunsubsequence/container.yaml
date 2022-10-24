@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/longestrunsubsequence
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for longestrunsubsequence
+latest:
+  1.0.1--py_0: sha256:a3ed5f7efd93f8dc18593df807a53865031a70caf7c497955e3d9a62938a679e
+tags:
+  1.0.1--py_0: sha256:a3ed5f7efd93f8dc18593df807a53865031a70caf7c497955e3d9a62938a679e
+docker: quay.io/biocontainers/longestrunsubsequence

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/micro_razers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for micro_razers
+latest:
+  1.0.6--h19e8d03_5: sha256:6b722f7caeadfedb9649b97cf68f519bb9f2af4974a83e2c917cef72d2b97851
+tags:
+  1.0.6--h19e8d03_5: sha256:6b722f7caeadfedb9649b97cf68f519bb9f2af4974a83e2c917cef72d2b97851
+docker: quay.io/biocontainers/micro_razers
+aliases:
+  micro_razers: /usr/local/bin/micro_razers

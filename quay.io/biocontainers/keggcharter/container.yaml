@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/keggcharter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for keggcharter
+latest:
+  0.4.0--hdfd78af_0: sha256:5df9959b05dfafa90df13d270b008d606c42e23cfc3bda8c05ffffa407796233
+tags:
+  0.4.0--hdfd78af_0: sha256:5df9959b05dfafa90df13d270b008d606c42e23cfc3bda8c05ffffa407796233
+docker: quay.io/biocontainers/keggcharter
+aliases:
+  KEGGCharter_prokaryotic_maps.txt: /usr/local/bin/KEGGCharter_prokaryotic_maps.txt
+  keggcharter.py: /usr/local/bin/keggcharter.py
+  keggpathway_map.py: /usr/local/bin/keggpathway_map.py

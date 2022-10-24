@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanofilt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanofilt
+latest:
+  2.8.0--py_0: sha256:8ebe42afcf1ef2c86ecbcc553b12717cf9fc4b0ec5a219ea70422d5142b19b6e
+tags:
+  2.8.0--py_0: sha256:8ebe42afcf1ef2c86ecbcc553b12717cf9fc4b0ec5a219ea70422d5142b19b6e
+docker: quay.io/biocontainers/nanofilt
+aliases:
+  NanoFilt: /usr/local/bin/NanoFilt

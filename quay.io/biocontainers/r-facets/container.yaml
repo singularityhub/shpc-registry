@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-facets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-facets
+latest:
+  0.6.2--r41h1107714_1: sha256:0e2f95e9cc91ba9e34a9e75ad9164042404ace12c738f7dad145079bb2e53e0a
+tags:
+  0.6.2--r41h1107714_1: sha256:0e2f95e9cc91ba9e34a9e75ad9164042404ace12c738f7dad145079bb2e53e0a
+docker: quay.io/biocontainers/r-facets

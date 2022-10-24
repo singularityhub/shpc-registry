@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oscope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oscope
+latest:
+  1.8.0--r3.4.1_0: sha256:341aa36409d095a7af3261d2678acb21e3aac0a32dc97b94eb753c4092c6a1a8
+tags:
+  1.8.0--r3.4.1_0: sha256:341aa36409d095a7af3261d2678acb21e3aac0a32dc97b94eb753c4092c6a1a8
+docker: quay.io/biocontainers/bioconductor-oscope

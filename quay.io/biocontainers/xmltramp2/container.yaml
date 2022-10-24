@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xmltramp2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xmltramp2
+latest:
+  3.1.1--py35_0: sha256:c207beaeb449ed91f7e0a88a1da3e4c311958c4462732a6c9d448f1daa9dae1c
+tags:
+  3.1.1--py35_0: sha256:c207beaeb449ed91f7e0a88a1da3e4c311958c4462732a6c9d448f1daa9dae1c
+docker: quay.io/biocontainers/xmltramp2

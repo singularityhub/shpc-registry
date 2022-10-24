@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/epa-ng
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epa-ng
+latest:
+  0.3.8--hd03093a_2: sha256:9e7a04e04cde0a2ae52646be7bacfdb846cd025a52c9edae304acbf7ea8f8539
+tags:
+  0.3.8--hd03093a_2: sha256:9e7a04e04cde0a2ae52646be7bacfdb846cd025a52c9edae304acbf7ea8f8539
+docker: quay.io/biocontainers/epa-ng
+aliases:
+  epa-ng: /usr/local/bin/epa-ng

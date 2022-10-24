@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ldblockshow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ldblockshow
+latest:
+  1.40--pl5321hd03093a_2: sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2
+tags:
+  1.40--pl5321hd03093a_2: sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2
+docker: quay.io/biocontainers/ldblockshow
+aliases:
+  LDBlockShow: /usr/local/bin/LDBlockShow
+  ShowLDSVG: /usr/local/bin/ShowLDSVG
+  plink: /usr/local/bin/plink

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-toast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-toast
+latest:
+  1.7.1--r41hdfd78af_0: sha256:b8ecf66124f6a42aeeb40f6d9125b9d60889e4e5d1011cf255f6d9686eb1b86c
+tags:
+  1.7.1--r41hdfd78af_0: sha256:b8ecf66124f6a42aeeb40f6d9125b9d60889e4e5d1011cf255f6d9686eb1b86c
+docker: quay.io/biocontainers/bioconductor-toast

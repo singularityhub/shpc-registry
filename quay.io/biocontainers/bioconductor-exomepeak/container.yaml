@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-exomepeak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-exomepeak
+latest:
+  2.17.0--r36_1: sha256:c1d50e1954a023b07daf6a9dfb6ab4ef1555da37442564633d429f0d69469c6f
+tags:
+  2.17.0--r36_1: sha256:c1d50e1954a023b07daf6a9dfb6ab4ef1555da37442564633d429f0d69469c6f
+docker: quay.io/biocontainers/bioconductor-exomepeak

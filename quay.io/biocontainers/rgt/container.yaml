@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/rgt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rgt
+latest:
+  0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
+tags:
+  0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
+docker: quay.io/biocontainers/rgt
+aliases:
+  .rgt-post-link.sh: /usr/local/bin/.rgt-post-link.sh
+  bed2associated_genes.py: /usr/local/bin/bed2associated_genes.py
+  bed2fasta.py: /usr/local/bin/bed2fasta.py
+  bigWigMerge: /usr/local/bin/bigWigMerge
+  download-db.sh: /usr/local/bin/download-db.sh
+  emtools.py: /usr/local/bin/emtools.py
+  expressionFromGenomicSet.py: /usr/local/bin/expressionFromGenomicSet.py
+  geneAssociationZscore.py: /usr/local/bin/geneAssociationZscore.py
+  geneOntologyFromBed.py: /usr/local/bin/geneOntologyFromBed.py
+  genesFromBed.py: /usr/local/bin/genesFromBed.py
+  havana_analysis.py: /usr/local/bin/havana_analysis.py
+  intersectGenomicSets.py: /usr/local/bin/intersectGenomicSets.py
+  mapExpressionMotif.py: /usr/local/bin/mapExpressionMotif.py
+  mapGeneNetwork.py: /usr/local/bin/mapGeneNetwork.py
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  phylocsf_check.py: /usr/local/bin/phylocsf_check.py
+  protectionScore.py: /usr/local/bin/protectionScore.py
+  random_regions.py: /usr/local/bin/random_regions.py
+  rgt-TDF: /usr/local/bin/rgt-TDF
+  rgt-THOR: /usr/local/bin/rgt-THOR
+  rgt-filterVCF: /usr/local/bin/rgt-filterVCF
+  rgt-hint: /usr/local/bin/rgt-hint
+  rgt-motifanalysis: /usr/local/bin/rgt-motifanalysis
+  rgt-tools.py: /usr/local/bin/rgt-tools.py
+  rgt-viz: /usr/local/bin/rgt-viz
+  setupGenomicData.py: /usr/local/bin/setupGenomicData.py
+  setupLogoData.py: /usr/local/bin/setupLogoData.py
+  update_alias.py: /usr/local/bin/update_alias.py

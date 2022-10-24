@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/lua
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lua
+latest:
+  5.3.4: sha256:f567742f48e7da8324dfa60535516347ced782edfac5312f385e9e619a553fc0
+tags:
+  5.3.4: sha256:f567742f48e7da8324dfa60535516347ced782edfac5312f385e9e619a553fc0
+docker: quay.io/biocontainers/lua
+aliases:
+  lua: /usr/local/bin/lua
+  luac: /usr/local/bin/luac

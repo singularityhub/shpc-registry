@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kmer-db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kmer-db
+latest:
+  1.9.4--hd03093a_1: sha256:88e69e42a7990d16651420b61616795fa82e01f1947ddceb9765756384db3346
+tags:
+  1.9.4--hd03093a_1: sha256:88e69e42a7990d16651420b61616795fa82e01f1947ddceb9765756384db3346
+docker: quay.io/biocontainers/kmer-db
+aliases:
+  kmer-db: /usr/local/bin/kmer-db

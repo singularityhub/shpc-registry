@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/minvar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minvar
+latest:
+  2.2.2--py_1: sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9
+tags:
+  2.2.2--py_1: sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9
+docker: quay.io/biocontainers/minvar
+aliases:
+  _gdlib-config: /usr/local/bin/_gdlib-config
+  blast2sam: /usr/local/bin/blast2sam
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  minvar: /usr/local/bin/minvar
+  sierrapy: /usr/local/bin/sierrapy

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/contammix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for contammix
+latest:
+  1.0.11--r41h9f5acd7_0: sha256:4e0d9a087bb9ea2b41d3cd2510036320d7aef6d73c9e39df4627525900bb1902
+tags:
+  1.0.11--r41h9f5acd7_0: sha256:4e0d9a087bb9ea2b41d3cd2510036320d7aef6d73c9e39df4627525900bb1902
+docker: quay.io/biocontainers/contammix
+aliases:
+  contammix: /usr/local/bin/contammix

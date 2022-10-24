@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ksw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ksw
+latest:
+  0.2.1--h5b5514e_3: sha256:77a4585738abd15335b3265c70ebfc744670cc874793c6332dd495fec3a7e262
+tags:
+  0.2.1--h5b5514e_3: sha256:77a4585738abd15335b3265c70ebfc744670cc874793c6332dd495fec3a7e262
+docker: quay.io/biocontainers/ksw
+aliases:
+  ksw: /usr/local/bin/ksw

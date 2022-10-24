@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rlist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rlist
+latest:
+  0.4.6.1--r3.2.2_0: sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610
+tags:
+  0.4.6.1--r3.2.2_0: sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610
+docker: quay.io/biocontainers/r-rlist

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bucketcache
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bucketcache
+latest:
+  0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
+tags:
+  0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
+docker: quay.io/biocontainers/bucketcache

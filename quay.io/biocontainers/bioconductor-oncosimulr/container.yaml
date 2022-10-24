@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oncosimulr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oncosimulr
+latest:
+  3.2.0--r41hc247a5b_2: sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4
+tags:
+  3.2.0--r41hc247a5b_2: sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4
+docker: quay.io/biocontainers/bioconductor-oncosimulr

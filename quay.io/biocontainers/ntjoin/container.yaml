@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/ntjoin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ntjoin
+latest:
+  1.1.1--py39h6935b12_0: sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b
+tags:
+  1.1.1--py39h6935b12_0: sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b
+docker: quay.io/biocontainers/ntjoin
+aliases:
+  indexlr: /usr/local/bin/indexlr
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar
+  ntJoin: /usr/local/bin/ntJoin
+  ntjoin_assemble.py: /usr/local/bin/ntjoin_assemble.py
+  ntjoin_overlap.py: /usr/local/bin/ntjoin_overlap.py
+  ntjoin_utils.py: /usr/local/bin/ntjoin_utils.py
+  read_fasta.py: /usr/local/bin/read_fasta.py

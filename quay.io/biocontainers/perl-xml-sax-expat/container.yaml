@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-sax-expat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-sax-expat
+latest:
+  0.51--pl5321hdfd78af_4: sha256:4307f3025d619c9cded98226aa4f7c0bca044188ea33d5f087ec40aa1615b5b2
+tags:
+  0.51--pl5321hdfd78af_4: sha256:4307f3025d619c9cded98226aa4f7c0bca044188ea33d5f087ec40aa1615b5b2
+docker: quay.io/biocontainers/perl-xml-sax-expat

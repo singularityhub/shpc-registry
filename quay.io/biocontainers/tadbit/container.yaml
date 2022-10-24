@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/tadbit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tadbit
+latest:
+  1.0.1--py36h4aaaa08_1: sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897
+tags:
+  1.0.1--py36h4aaaa08_1: sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897
+docker: quay.io/biocontainers/tadbit
+aliases:
+  gem-indexer: /usr/local/bin/gem-indexer
+  gem-mapper: /usr/local/bin/gem-mapper
+  gem-retriever: /usr/local/bin/gem-retriever
+  normalize_oneD.R: /usr/local/bin/normalize_oneD.R
+  tadbit: /usr/local/bin/tadbit

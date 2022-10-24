@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-copyneutralima
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-copyneutralima
+latest:
+  1.8.0--r40hdfd78af_1: sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36
+tags:
+  1.8.0--r40hdfd78af_1: sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36
+docker: quay.io/biocontainers/bioconductor-copyneutralima
+aliases:
+  .bioconductor-copyneutralima-post-link.sh: /usr/local/bin/.bioconductor-copyneutralima-post-link.sh
+  .bioconductor-copyneutralima-pre-unlink.sh: /usr/local/bin/.bioconductor-copyneutralima-pre-unlink.sh

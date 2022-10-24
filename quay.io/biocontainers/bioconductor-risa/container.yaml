@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-risa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-risa
+latest:
+  1.36.0--r41hc247a5b_2: sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872
+tags:
+  1.36.0--r41hc247a5b_2: sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872
+docker: quay.io/biocontainers/bioconductor-risa

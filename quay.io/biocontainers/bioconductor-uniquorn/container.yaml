@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-uniquorn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-uniquorn
+latest:
+  2.8.0--r40_0: sha256:8fc224c01bd3adb5ac9587a49092eb5917eff74bb7b7eacc237d6bc1c3f49cb8
+tags:
+  2.8.0--r40_0: sha256:8fc224c01bd3adb5ac9587a49092eb5917eff74bb7b7eacc237d6bc1c3f49cb8
+docker: quay.io/biocontainers/bioconductor-uniquorn

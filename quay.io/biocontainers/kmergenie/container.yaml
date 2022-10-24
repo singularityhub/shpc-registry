@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/kmergenie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kmergenie
+latest:
+  1.7051--py39r41h2add14b_3: sha256:fd65f2010653b00d9ca276320fd3f8b17fc557746796ec910cdb1756233910d0
+tags:
+  1.7051--py39r41h2add14b_3: sha256:fd65f2010653b00d9ca276320fd3f8b17fc557746796ec910cdb1756233910d0
+docker: quay.io/biocontainers/kmergenie
+aliases:
+  __init__.py: /usr/local/bin/__init__.py
+  cutoff.r: /usr/local/bin/cutoff.r
+  cutoff.r.bak: /usr/local/bin/cutoff.r.bak
+  decide: /usr/local/bin/decide
+  decide.bak: /usr/local/bin/decide.bak
+  docopt.py: /usr/local/bin/docopt.py
+  est-genomic-kmers.r: /usr/local/bin/est-genomic-kmers.r
+  est-genomic-kmers.r.bak: /usr/local/bin/est-genomic-kmers.r.bak
+  est-mean.r: /usr/local/bin/est-mean.r
+  est-mean.r.bak: /usr/local/bin/est-mean.r.bak
+  est-params.r: /usr/local/bin/est-params.r
+  est-params.r.bak: /usr/local/bin/est-params.r.bak
+  fit-histogram.r: /usr/local/bin/fit-histogram.r
+  fit-histogram.r.bak: /usr/local/bin/fit-histogram.r.bak
+  generate_report.py: /usr/local/bin/generate_report.py
+  generate_report.py.bak: /usr/local/bin/generate_report.py.bak
+  generate_report.pyc.bak: /usr/local/bin/generate_report.pyc.bak
+  kmergenie: /usr/local/bin/kmergenie
+  model-diploid.r: /usr/local/bin/model-diploid.r
+  model-diploid.r.bak: /usr/local/bin/model-diploid.r.bak
+  model.r: /usr/local/bin/model.r
+  model.r.bak: /usr/local/bin/model.r.bak
+  plot_genomic_kmers.r: /usr/local/bin/plot_genomic_kmers.r
+  plot_genomic_kmers.r.bak: /usr/local/bin/plot_genomic_kmers.r.bak
+  plot_histogram.r: /usr/local/bin/plot_histogram.r
+  plot_histogram.r.bak: /usr/local/bin/plot_histogram.r.bak
+  specialk: /usr/local/bin/specialk
+  test_install: /usr/local/bin/test_install
+  test_install.bak: /usr/local/bin/test_install.bak
+  wrapper.py: /usr/local/bin/wrapper.py
+  zeta.r: /usr/local/bin/zeta.r
+  zeta.r.bak: /usr/local/bin/zeta.r.bak

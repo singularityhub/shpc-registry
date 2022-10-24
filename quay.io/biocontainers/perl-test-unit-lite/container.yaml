@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-unit-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-unit-lite
+latest:
+  0.1202--pl5321hdfd78af_2: sha256:ba1ad8045474ca7c146939879994ff9791fbc9cf8861268aedfe474efc32b068
+tags:
+  0.1202--pl5321hdfd78af_2: sha256:ba1ad8045474ca7c146939879994ff9791fbc9cf8861268aedfe474efc32b068
+docker: quay.io/biocontainers/perl-test-unit-lite

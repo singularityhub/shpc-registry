@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gatktool
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gatktool
+latest:
+  0.0.1--py_0: sha256:2d82b27d1f324315c048bc31c0eb93df67f36437f29b58ba65409ea758d2f6c7
+tags:
+  0.0.1--py_0: sha256:2d82b27d1f324315c048bc31c0eb93df67f36437f29b58ba65409ea758d2f6c7
+docker: quay.io/biocontainers/gatktool

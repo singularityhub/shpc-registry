@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-outliers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-outliers
+latest:
+  0.14--r3.3.1_0: sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab
+tags:
+  0.14--r3.3.1_0: sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab
+docker: quay.io/biocontainers/r-outliers

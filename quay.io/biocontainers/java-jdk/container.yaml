@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/java-jdk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for java-jdk
+latest:
+  8.0.92--1: sha256:ddcd5b420aa4b30e1b555d663513851dd4c5b2e0b900611daa8e3b499387d8d8
+tags:
+  8.0.92--1: sha256:ddcd5b420aa4b30e1b555d663513851dd4c5b2e0b900611daa8e3b499387d8d8
+docker: quay.io/biocontainers/java-jdk

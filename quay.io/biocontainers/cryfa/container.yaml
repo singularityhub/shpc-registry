@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/cryfa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cryfa
+latest:
+  20.04--h9f5acd7_0: sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20
+tags:
+  20.04--h9f5acd7_0: sha256:d1a135e085c6aaf1189ec55e534b36699171578bd9b2df1476da8f95736f4f20
+docker: quay.io/biocontainers/cryfa
+aliases:
+  cryfa: /usr/local/bin/cryfa
+  keygen: /usr/local/bin/keygen

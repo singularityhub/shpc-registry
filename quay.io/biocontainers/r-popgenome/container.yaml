@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-popgenome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-popgenome
+latest:
+  2.7.2--r36h0357c0b_0: sha256:7e48a40134d280647f4996b566e9f52219dc8a8e01ce01f04567069b9250828a
+tags:
+  2.7.2--r36h0357c0b_0: sha256:7e48a40134d280647f4996b566e9f52219dc8a8e01ce01f04567069b9250828a
+docker: quay.io/biocontainers/r-popgenome

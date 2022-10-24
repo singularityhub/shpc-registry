@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-powertcr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-powertcr
+latest:
+  1.8.0--r40_0: sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4
+tags:
+  1.8.0--r40_0: sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4
+docker: quay.io/biocontainers/bioconductor-powertcr

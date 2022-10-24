@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu133abarcodevecs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu133abarcodevecs
+latest:
+  1.32.0--r41hdfd78af_1: sha256:14fb5299d23a9925615a261df342468fe24fe6e7f855d8b4a98d66f9a1ac873a
+tags:
+  1.32.0--r41hdfd78af_1: sha256:14fb5299d23a9925615a261df342468fe24fe6e7f855d8b4a98d66f9a1ac873a
+docker: quay.io/biocontainers/bioconductor-hgu133abarcodevecs
+aliases:
+  .bioconductor-hgu133abarcodevecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133abarcodevecs-post-link.sh
+  .bioconductor-hgu133abarcodevecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133abarcodevecs-pre-unlink.sh

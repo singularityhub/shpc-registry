@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-dist-checkconflicts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-dist-checkconflicts
+latest:
+  0.11--pl5321hdfd78af_3: sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901
+tags:
+  0.11--pl5321hdfd78af_3: sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901
+docker: quay.io/biocontainers/perl-dist-checkconflicts

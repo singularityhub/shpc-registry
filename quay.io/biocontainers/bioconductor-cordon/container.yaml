@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cordon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cordon
+latest:
+  1.8.0--r40hdfd78af_1: sha256:d9b6f118dda0d5c9d67528e7083092313384d6b4e198434fce507c470fd4c9ce
+tags:
+  1.8.0--r40hdfd78af_1: sha256:d9b6f118dda0d5c9d67528e7083092313384d6b4e198434fce507c470fd4c9ce
+docker: quay.io/biocontainers/bioconductor-cordon

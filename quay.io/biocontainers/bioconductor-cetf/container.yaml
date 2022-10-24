@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cetf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cetf
+latest:
+  1.6.0--r41hc247a5b_2: sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31
+tags:
+  1.6.0--r41hc247a5b_2: sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31
+docker: quay.io/biocontainers/bioconductor-cetf

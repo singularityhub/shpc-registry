@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r.methodss3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r.methodss3
+latest:
+  1.7.1--r3.3.1_0: sha256:610ace7795fedb9ca263c8a0630db2cbf2b64c3d821f11ccacb29c61aaba9055
+tags:
+  1.7.1--r3.3.1_0: sha256:610ace7795fedb9ca263c8a0630db2cbf2b64c3d821f11ccacb29c61aaba9055
+docker: quay.io/biocontainers/r-r.methodss3

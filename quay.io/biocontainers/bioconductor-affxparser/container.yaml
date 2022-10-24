@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affxparser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affxparser
+latest:
+  1.66.0--r41hc247a5b_2: sha256:12bd20c6e471d9ff385f4bdc90309eff7c2f8cec7c2a5ffba592d85c1e640d72
+tags:
+  1.66.0--r41hc247a5b_2: sha256:12bd20c6e471d9ff385f4bdc90309eff7c2f8cec7c2a5ffba592d85c1e640d72
+docker: quay.io/biocontainers/bioconductor-affxparser

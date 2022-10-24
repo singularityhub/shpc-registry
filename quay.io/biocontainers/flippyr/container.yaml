@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flippyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flippyr
+latest:
+  0.5.3--pyh5e36f6f_0: sha256:c0f2752b9f3d722096336ade880e5dce12b228dbd5644cd7d9aa598bb8831f73
+tags:
+  0.5.3--pyh5e36f6f_0: sha256:c0f2752b9f3d722096336ade880e5dce12b228dbd5644cd7d9aa598bb8831f73
+docker: quay.io/biocontainers/flippyr
+aliases:
+  flippyr: /usr/local/bin/flippyr

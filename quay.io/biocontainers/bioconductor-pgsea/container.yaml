@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pgsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pgsea
+latest:
+  1.61.0--r40_0: sha256:aab35810d2c27d55055e25751b9bfcf4c5d47b79ceac55872fa4de8577bac824
+tags:
+  1.61.0--r40_0: sha256:aab35810d2c27d55055e25751b9bfcf4c5d47b79ceac55872fa4de8577bac824
+docker: quay.io/biocontainers/bioconductor-pgsea

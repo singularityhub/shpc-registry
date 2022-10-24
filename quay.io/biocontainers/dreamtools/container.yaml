@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dreamtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dreamtools
+latest:
+  1.3.0--py36_0: sha256:ec181ed37ad7cc688c6695c228ce3443635d30d17877d2bee4183819224fbeba
+tags:
+  1.3.0--py36_0: sha256:ec181ed37ad7cc688c6695c228ce3443635d30d17877d2bee4183819224fbeba
+docker: quay.io/biocontainers/dreamtools
+aliases:
+  dreamtools: /usr/local/bin/dreamtools
+  dreamtools-layout: /usr/local/bin/dreamtools-layout
+  dreamtools-scoring: /usr/local/bin/dreamtools-scoring
+  synapse: /usr/local/bin/synapse

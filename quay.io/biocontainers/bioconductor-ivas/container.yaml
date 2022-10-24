@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ivas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ivas
+latest:
+  2.8.0--r40_0: sha256:b2218ec5924abf8fe6b6df8405951b5c7eeebba4bb9da8466a7a3b34d5f646db
+tags:
+  2.8.0--r40_0: sha256:b2218ec5924abf8fe6b6df8405951b5c7eeebba4bb9da8466a7a3b34d5f646db
+docker: quay.io/biocontainers/bioconductor-ivas

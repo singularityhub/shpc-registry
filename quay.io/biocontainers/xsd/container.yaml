@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xsd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xsd
+latest:
+  4.0.0_dep--h0a036d8_4: sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f
+tags:
+  4.0.0_dep--h0a036d8_4: sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f
+docker: quay.io/biocontainers/xsd

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dram
+latest:
+  1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
+tags:
+  1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
+docker: quay.io/biocontainers/dram
+aliases:
+  .dram-post-link.sh: /usr/local/bin/.dram-post-link.sh
+  DRAM-setup.py: /usr/local/bin/DRAM-setup.py
+  DRAM-v.py: /usr/local/bin/DRAM-v.py
+  DRAM.py: /usr/local/bin/DRAM.py

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ena-webin-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ena-webin-cli
+latest:
+  5.0.0--hdfd78af_0: sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96
+tags:
+  5.0.0--hdfd78af_0: sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96
+docker: quay.io/biocontainers/ena-webin-cli
+aliases:
+  ena-webin-cli: /usr/local/bin/ena-webin-cli

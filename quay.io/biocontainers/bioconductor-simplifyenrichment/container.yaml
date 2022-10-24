@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-simplifyenrichment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-simplifyenrichment
+latest:
+  1.4.0--r41hdfd78af_0: sha256:63dbc2701b9e1ed8fceebf4bec87ef86294e0598300932bcf7ab66828cab7d4c
+tags:
+  1.4.0--r41hdfd78af_0: sha256:63dbc2701b9e1ed8fceebf4bec87ef86294e0598300932bcf7ab66828cab7d4c
+docker: quay.io/biocontainers/bioconductor-simplifyenrichment

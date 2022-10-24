@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-plrs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-plrs
+latest:
+  1.27.0--r40_0: sha256:ea9ccd3758ec624550125d70ec3c187718906cd03d8621982639d2e7feadec36
+tags:
+  1.27.0--r40_0: sha256:ea9ccd3758ec624550125d70ec3c187718906cd03d8621982639d2e7feadec36
+docker: quay.io/biocontainers/bioconductor-plrs

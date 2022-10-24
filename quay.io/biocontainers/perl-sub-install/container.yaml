@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-install
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-install
+latest:
+  0.928--pl5321hdfd78af_3: sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3
+tags:
+  0.928--pl5321hdfd78af_3: sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3
+docker: quay.io/biocontainers/perl-sub-install

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-batchjobs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-batchjobs
+latest:
+  1.6--r3.2.2_0: sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629
+tags:
+  1.6--r3.2.2_0: sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629
+docker: quay.io/biocontainers/r-batchjobs

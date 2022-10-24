@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/epimuller
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epimuller
+latest:
+  0.0.8--pyhdfd78af_0: sha256:d21ecefebd541f175a196af249b0fd46883f1c10620243ea499d984557ca090a
+tags:
+  0.0.8--pyhdfd78af_0: sha256:d21ecefebd541f175a196af249b0fd46883f1c10620243ea499d984557ca090a
+docker: quay.io/biocontainers/epimuller
+aliases:
+  cairosvg: /usr/local/bin/cairosvg
+  epimuller: /usr/local/bin/epimuller
+  epimuller-define: /usr/local/bin/epimuller-define
+  epimuller-draw: /usr/local/bin/epimuller-draw
+  epimuller-parse: /usr/local/bin/epimuller-parse

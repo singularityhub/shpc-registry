@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/manta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for manta
+latest:
+  1.6.0--h9ee0642_2: sha256:021aabe5f7314e02e60722c559f6f3c4bb6b1118c2e2ec0eb3095a8c7e431f26
+tags:
+  1.6.0--h9ee0642_2: sha256:021aabe5f7314e02e60722c559f6f3c4bb6b1118c2e2ec0eb3095a8c7e431f26
+docker: quay.io/biocontainers/manta
+aliases:
+  configManta.py: /usr/local/bin/configManta.py
+  convertInversion.py: /usr/local/bin/convertInversion.py
+  denovo_scoring.py: /usr/local/bin/denovo_scoring.py

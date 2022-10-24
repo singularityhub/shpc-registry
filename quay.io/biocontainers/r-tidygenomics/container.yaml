@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-tidygenomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-tidygenomics
+latest:
+  0.1.2--r41hecf12ef_4: sha256:70e1ed47252e8ef02292e6ba26fc347ad224d6325b2341237258771f57f8a383
+tags:
+  0.1.2--r41hecf12ef_4: sha256:70e1ed47252e8ef02292e6ba26fc347ad224d6325b2341237258771f57f8a383
+docker: quay.io/biocontainers/r-tidygenomics

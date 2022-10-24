@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-graphite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-graphite
+latest:
+  1.40.0--r41hdfd78af_0: sha256:2b3a965bf006074d7d28fe494fa91e311cc02cc043f33427d40ad245bb570b17
+tags:
+  1.40.0--r41hdfd78af_0: sha256:2b3a965bf006074d7d28fe494fa91e311cc02cc043f33427d40ad245bb570b17
+docker: quay.io/biocontainers/bioconductor-graphite

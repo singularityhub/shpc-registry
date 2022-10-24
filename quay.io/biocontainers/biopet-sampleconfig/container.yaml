@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-sampleconfig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-sampleconfig
+latest:
+  0.3--hdfd78af_1: sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f
+tags:
+  0.3--hdfd78af_1: sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f
+docker: quay.io/biocontainers/biopet-sampleconfig
+aliases:
+  biopet-sampleconfig: /usr/local/bin/biopet-sampleconfig

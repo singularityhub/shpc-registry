@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/vphaser2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vphaser2
+latest:
+  2.0--h22a709c_9: sha256:38ed87b31e9d6aefb26c3071f71e8678467b7d52c63ce3925e940022db956fd7
+tags:
+  2.0--h22a709c_9: sha256:38ed87b31e9d6aefb26c3071f71e8678467b7d52c63ce3925e940022db956fd7
+docker: quay.io/biocontainers/vphaser2
+aliases:
+  variant_caller: /usr/local/bin/variant_caller
+  vphaser2: /usr/local/bin/vphaser2

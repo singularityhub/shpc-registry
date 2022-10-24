@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/goslimmer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for goslimmer
+latest:
+  1.0--hdfd78af_1: sha256:381dfddaa1bf4944e63338b1da2ee28acdf79d2a63c6d6de018cac3616c6b75e
+tags:
+  1.0--hdfd78af_1: sha256:381dfddaa1bf4944e63338b1da2ee28acdf79d2a63c6d6de018cac3616c6b75e
+docker: quay.io/biocontainers/goslimmer
+aliases:
+  goslimmer: /usr/local/bin/goslimmer

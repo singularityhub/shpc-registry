@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/genomicassertions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomicassertions
+latest:
+  0.2.5--pyh864c0ab_3: sha256:7fcb8db2ceb6e7abfce1260ba421a120e410b72937eafe30917247805fbb5d94
+tags:
+  0.2.5--pyh864c0ab_3: sha256:7fcb8db2ceb6e7abfce1260ba421a120e410b72937eafe30917247805fbb5d94
+docker: quay.io/biocontainers/genomicassertions

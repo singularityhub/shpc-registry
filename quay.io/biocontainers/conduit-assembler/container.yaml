@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/conduit-assembler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for conduit-assembler
+latest:
+  0.1.2--h14cfee4_1: sha256:b98582dad27b3e5d6460babd00e13135a3165699bc714d83c4be4940128bac30
+tags:
+  0.1.2--h14cfee4_1: sha256:b98582dad27b3e5d6460babd00e13135a3165699bc714d83c4be4940128bac30
+docker: quay.io/biocontainers/conduit-assembler
+aliases:
+  conduit: /usr/local/bin/conduit
+  conduitUtils: /usr/local/bin/conduitUtils

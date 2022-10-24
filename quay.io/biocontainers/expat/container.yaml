@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/expat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for expat
+latest:
+  2.1.0--0: sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f
+tags:
+  2.1.0--0: sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f
+docker: quay.io/biocontainers/expat

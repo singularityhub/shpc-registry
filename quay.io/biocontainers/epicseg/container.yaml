@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/epicseg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epicseg
+latest:
+  1.0--r41hec16e2b_6: sha256:d6afb897a583b37026ba13bfa6bf145beaf4dfec19402c743f44e30fdf42fd46
+tags:
+  1.0--r41hec16e2b_6: sha256:d6afb897a583b37026ba13bfa6bf145beaf4dfec19402c743f44e30fdf42fd46
+docker: quay.io/biocontainers/epicseg

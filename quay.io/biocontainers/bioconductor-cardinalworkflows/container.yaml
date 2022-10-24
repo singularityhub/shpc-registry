@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-cardinalworkflows
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cardinalworkflows
+latest:
+  1.26.0--r41hdfd78af_1: sha256:4742c23033d347851c7f5ec2a0c8b70829ec6b0bf10b4ea416d4f207ebaefbad
+tags:
+  1.26.0--r41hdfd78af_1: sha256:4742c23033d347851c7f5ec2a0c8b70829ec6b0bf10b4ea416d4f207ebaefbad
+docker: quay.io/biocontainers/bioconductor-cardinalworkflows
+aliases:
+  .bioconductor-cardinalworkflows-post-link.sh: /usr/local/bin/.bioconductor-cardinalworkflows-post-link.sh
+  .bioconductor-cardinalworkflows-pre-unlink.sh: /usr/local/bin/.bioconductor-cardinalworkflows-pre-unlink.sh

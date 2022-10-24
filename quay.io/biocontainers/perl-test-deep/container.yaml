@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-deep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-deep
+latest:
+  1.130--pl5321hdfd78af_0: sha256:85d9f82e531103da28600c65072b3606ff408c88054769814be2c8d3bc703d5c
+tags:
+  1.130--pl5321hdfd78af_0: sha256:85d9f82e531103da28600c65072b3606ff408c88054769814be2c8d3bc703d5c
+docker: quay.io/biocontainers/perl-test-deep

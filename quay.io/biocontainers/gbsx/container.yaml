@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gbsx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gbsx
+latest:
+  1.3--hdfd78af_1: sha256:fecd76e92aaafb6a2d7f69c9bf04c5f6c29149e0882550f6dbb168aa23e67a4c
+tags:
+  1.3--hdfd78af_1: sha256:fecd76e92aaafb6a2d7f69c9bf04c5f6c29149e0882550f6dbb168aa23e67a4c
+docker: quay.io/biocontainers/gbsx
+aliases:
+  gbsx: /usr/local/bin/gbsx

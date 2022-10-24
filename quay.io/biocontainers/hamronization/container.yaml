@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hamronization
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hamronization
+latest:
+  1.1.1--pyhdfd78af_0: sha256:898958d555fa4b032d7a276b96ee051554fec8a65d1a6b0428cbbce61bf093a8
+tags:
+  1.1.1--pyhdfd78af_0: sha256:898958d555fa4b032d7a276b96ee051554fec8a65d1a6b0428cbbce61bf093a8
+docker: quay.io/biocontainers/hamronization
+aliases:
+  hamronize: /usr/local/bin/hamronize

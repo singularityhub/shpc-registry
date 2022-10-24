@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-alsace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-alsace
+latest:
+  1.30.0--r41hdfd78af_0: sha256:a6e40e36d7619e750469926b89c40571b20f3dc51cb8720e3d723af400179655
+tags:
+  1.30.0--r41hdfd78af_0: sha256:a6e40e36d7619e750469926b89c40571b20f3dc51cb8720e3d723af400179655
+docker: quay.io/biocontainers/bioconductor-alsace

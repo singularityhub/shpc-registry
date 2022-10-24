@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fithic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fithic
+latest:
+  2.0.8--pyhdfd78af_0: sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1
+tags:
+  2.0.8--pyhdfd78af_0: sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1
+docker: quay.io/biocontainers/fithic
+aliases:
+  fithic: /usr/local/bin/fithic

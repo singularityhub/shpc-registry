@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bcbio-prioritize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcbio-prioritize
+latest:
+  0.0.8--hdfd78af_3: sha256:d11f1ca7398b2430ce380f28c21ba83a66f3c8db17ec9e5b3d0b7d4a35a21731
+tags:
+  0.0.8--hdfd78af_3: sha256:d11f1ca7398b2430ce380f28c21ba83a66f3c8db17ec9e5b3d0b7d4a35a21731
+docker: quay.io/biocontainers/bcbio-prioritize
+aliases:
+  bcbio-prioritize: /usr/local/bin/bcbio-prioritize

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-derfinderhelper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-derfinderhelper
+latest:
+  1.28.0--r41hdfd78af_0: sha256:0acb46969279e7a03686928a608ad058c517a39bea879e5ea509879a631d0a85
+tags:
+  1.28.0--r41hdfd78af_0: sha256:0acb46969279e7a03686928a608ad058c517a39bea879e5ea509879a631d0a85
+docker: quay.io/biocontainers/bioconductor-derfinderhelper

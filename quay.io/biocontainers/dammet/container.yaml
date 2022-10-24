@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dammet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dammet
+latest:
+  1.0.1a--h5e47628_6: sha256:0c78d978ef090757f7a7a017f0e31bf886308c6c930e86d10501a086d8096131
+tags:
+  1.0.1a--h5e47628_6: sha256:0c78d978ef090757f7a7a017f0e31bf886308c6c930e86d10501a086d8096131
+docker: quay.io/biocontainers/dammet
+aliases:
+  DamMet: /usr/local/bin/DamMet

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/smudgeplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smudgeplot
+latest:
+  0.2.5--py38r41hbff2b2d_0: sha256:9e47c3550abc185291a5466bc5137d4f5f711bb258f3363fe6fe6129ba2c8b62
+tags:
+  0.2.5--py38r41hbff2b2d_0: sha256:9e47c3550abc185291a5466bc5137d4f5f711bb258f3363fe6fe6129ba2c8b62
+docker: quay.io/biocontainers/smudgeplot
+aliases:
+  smudgeplot.py: /usr/local/bin/smudgeplot.py
+  smudgeplot_plot.R: /usr/local/bin/smudgeplot_plot.R

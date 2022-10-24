@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tophat-recondition
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tophat-recondition
+latest:
+  1.4--hdfd78af_4: sha256:f250ad90bb16faf2802ae98e1dc400b1264b9b71d7079f2ecfac3309e73cc46b
+tags:
+  1.4--hdfd78af_4: sha256:f250ad90bb16faf2802ae98e1dc400b1264b9b71d7079f2ecfac3309e73cc46b
+docker: quay.io/biocontainers/tophat-recondition
+aliases:
+  tophat-recondition: /usr/local/bin/tophat-recondition

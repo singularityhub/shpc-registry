@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-signet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-signet
+latest:
+  1.7.0--r40_0: sha256:1905b9196ae3558e1c5bb5a4445edd58ba104c530fb05b560b393284dd77916f
+tags:
+  1.7.0--r40_0: sha256:1905b9196ae3558e1c5bb5a4445edd58ba104c530fb05b560b393284dd77916f
+docker: quay.io/biocontainers/bioconductor-signet

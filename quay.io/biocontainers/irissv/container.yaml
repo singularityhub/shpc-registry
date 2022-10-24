@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/irissv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for irissv
+latest:
+  1.0.4--hdfd78af_2: sha256:e854b554b11377b9b47f32d1c33b13d84b9fde2c5b99045d946f1e01568ec6a1
+tags:
+  1.0.4--hdfd78af_2: sha256:e854b554b11377b9b47f32d1c33b13d84b9fde2c5b99045d946f1e01568ec6a1
+docker: quay.io/biocontainers/irissv
+aliases:
+  iris: /usr/local/bin/iris
+  iris.jar: /usr/local/bin/iris.jar

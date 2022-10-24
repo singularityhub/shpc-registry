@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ipath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ipath
+latest:
+  1.0.0--r41hc247a5b_2: sha256:2cc72b83e4f7a9ab426d5ae2782f6bee68c61ffed4ac1d85b4e9ef3a61963991
+tags:
+  1.0.0--r41hc247a5b_2: sha256:2cc72b83e4f7a9ab426d5ae2782f6bee68c61ffed4ac1d85b4e9ef3a61963991
+docker: quay.io/biocontainers/bioconductor-ipath

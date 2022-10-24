@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-app-cpanminus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-app-cpanminus
+latest:
+  1.7044--pl526_1: sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39
+tags:
+  1.7044--pl526_1: sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39
+docker: quay.io/biocontainers/perl-app-cpanminus

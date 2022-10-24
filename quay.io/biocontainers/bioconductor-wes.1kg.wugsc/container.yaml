@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-wes.1kg.wugsc
+latest:
+  1.26.0--r41hdfd78af_1: sha256:ae22077dd3067c8096cc7c6d9ad0a9cdfd197f34c3ce98cc1664e3fcc17d957a
+tags:
+  1.26.0--r41hdfd78af_1: sha256:ae22077dd3067c8096cc7c6d9ad0a9cdfd197f34c3ce98cc1664e3fcc17d957a
+docker: quay.io/biocontainers/bioconductor-wes.1kg.wugsc
+aliases:
+  .bioconductor-wes.1kg.wugsc-post-link.sh: /usr/local/bin/.bioconductor-wes.1kg.wugsc-post-link.sh
+  .bioconductor-wes.1kg.wugsc-pre-unlink.sh: /usr/local/bin/.bioconductor-wes.1kg.wugsc-pre-unlink.sh

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastml
+latest:
+  3.11--hc9558a2_0: sha256:3a1cf697f1a2b83d1d2f63f5e6d98ce2cd12dea18d1f53896ebc5fcba1010e3d
+tags:
+  3.11--hc9558a2_0: sha256:3a1cf697f1a2b83d1d2f63f5e6d98ce2cd12dea18d1f53896ebc5fcba1010e3d
+docker: quay.io/biocontainers/fastml
+aliases:
+  .fastml-post-link.sh: /usr/local/bin/.fastml-post-link.sh
+  FastML_Wrapper.pl: /usr/local/bin/FastML_Wrapper.pl
+  fastml: /usr/local/bin/fastml

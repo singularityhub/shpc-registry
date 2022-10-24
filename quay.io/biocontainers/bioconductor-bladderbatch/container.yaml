@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-bladderbatch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bladderbatch
+latest:
+  1.32.0--r41hdfd78af_1: sha256:3701ded72d7f48b2a04cc696f05e2577e80607f55ae2ca0ba80aab6944d95e8b
+tags:
+  1.32.0--r41hdfd78af_1: sha256:3701ded72d7f48b2a04cc696f05e2577e80607f55ae2ca0ba80aab6944d95e8b
+docker: quay.io/biocontainers/bioconductor-bladderbatch
+aliases:
+  .bioconductor-bladderbatch-post-link.sh: /usr/local/bin/.bioconductor-bladderbatch-post-link.sh
+  .bioconductor-bladderbatch-pre-unlink.sh: /usr/local/bin/.bioconductor-bladderbatch-pre-unlink.sh

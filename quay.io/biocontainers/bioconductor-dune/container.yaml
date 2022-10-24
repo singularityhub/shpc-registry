@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dune
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dune
+latest:
+  1.6.0--r41hdfd78af_0: sha256:f985490ff40b2368e41a04d9f252a66223678d7fdc0f31eb65132f1e7a5a6943
+tags:
+  1.6.0--r41hdfd78af_0: sha256:f985490ff40b2368e41a04d9f252a66223678d7fdc0f31eb65132f1e7a5a6943
+docker: quay.io/biocontainers/bioconductor-dune

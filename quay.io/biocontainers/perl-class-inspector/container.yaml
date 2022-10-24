@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-inspector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-inspector
+latest:
+  1.36--pl5321hdfd78af_0: sha256:dc92e8a809d167dfcce56fb7f82350c61e6e769fcd11147fe2db56546ffcf254
+tags:
+  1.36--pl5321hdfd78af_0: sha256:dc92e8a809d167dfcce56fb7f82350c61e6e769fcd11147fe2db56546ffcf254
+docker: quay.io/biocontainers/perl-class-inspector

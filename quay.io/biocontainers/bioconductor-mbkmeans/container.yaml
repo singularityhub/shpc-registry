@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mbkmeans
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mbkmeans
+latest:
+  1.8.0--r41h399db7b_0: sha256:3fdacb8139038de7841daa21d2eef8afe27bfb664ab96d7a45fd35de0f9ff6bb
+tags:
+  1.8.0--r41h399db7b_0: sha256:3fdacb8139038de7841daa21d2eef8afe27bfb664ab96d7a45fd35de0f9ff6bb
+docker: quay.io/biocontainers/bioconductor-mbkmeans

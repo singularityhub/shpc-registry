@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sharedobject
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sharedobject
+latest:
+  1.8.0--r41hc247a5b_2: sha256:3a776b57ef04f6d7f56c91011c4fa27b69fc832ad2a2d3b037ae8f6e40f5810c
+tags:
+  1.8.0--r41hc247a5b_2: sha256:3a776b57ef04f6d7f56c91011c4fa27b69fc832ad2a2d3b037ae8f6e40f5810c
+docker: quay.io/biocontainers/bioconductor-sharedobject

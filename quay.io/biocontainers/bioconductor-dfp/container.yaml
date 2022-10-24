@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dfp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dfp
+latest:
+  1.52.0--r41hdfd78af_0: sha256:6ce737d366c1159e727827a638834e918b03712ba8fc47f796d7d77907123e0e
+tags:
+  1.52.0--r41hdfd78af_0: sha256:6ce737d366c1159e727827a638834e918b03712ba8fc47f796d7d77907123e0e
+docker: quay.io/biocontainers/bioconductor-dfp

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-snphood
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-snphood
+latest:
+  1.8.0--r3.4.1_0: sha256:c9401d4f03c0f2d9432e7dcf03660a532830be6b5de6962b9a37aba9de632750
+tags:
+  1.8.0--r3.4.1_0: sha256:c9401d4f03c0f2d9432e7dcf03660a532830be6b5de6962b9a37aba9de632750
+docker: quay.io/biocontainers/bioconductor-snphood

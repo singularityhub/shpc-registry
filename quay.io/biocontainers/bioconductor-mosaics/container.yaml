@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mosaics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mosaics
+latest:
+  2.4.1--0: sha256:e96105f6cfa0d0cd06acd7e07470fd952f4c638e85ed1f76c61e195211539338
+tags:
+  2.4.1--0: sha256:e96105f6cfa0d0cd06acd7e07470fd952f4c638e85ed1f76c61e195211539338
+docker: quay.io/biocontainers/bioconductor-mosaics

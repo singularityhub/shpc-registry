@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/delegation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for delegation
+latest:
+  1.1--pyh864c0ab_1: sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b
+tags:
+  1.1--pyh864c0ab_1: sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b
+docker: quay.io/biocontainers/delegation

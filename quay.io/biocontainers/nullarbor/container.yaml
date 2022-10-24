@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/nullarbor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nullarbor
+latest:
+  2.0.20191013--hdfd78af_3: sha256:c5ca9ba1519766198953ff6cd18cc9330ddb9a1c8498567a54d0538530bbff1f
+tags:
+  2.0.20191013--hdfd78af_3: sha256:c5ca9ba1519766198953ff6cd18cc9330ddb9a1c8498567a54d0538530bbff1f
+docker: quay.io/biocontainers/nullarbor
+aliases:
+  centrifuge_evaluate.py: /usr/local/bin/centrifuge_evaluate.py
+  centrifuge_simulate_reads.py: /usr/local/bin/centrifuge_simulate_reads.py
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  fa: /usr/local/bin/fa
+  fq: /usr/local/bin/fq
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  nullarbor-json.pl: /usr/local/bin/nullarbor-json.pl
+  nullarbor-report.pl: /usr/local/bin/nullarbor-report.pl
+  nullarbor.pl: /usr/local/bin/nullarbor.pl
+  nw_clade: /usr/local/bin/nw_clade
+  nw_condense: /usr/local/bin/nw_condense
+  nw_display: /usr/local/bin/nw_display
+  nw_distance: /usr/local/bin/nw_distance
+  nw_duration: /usr/local/bin/nw_duration
+  nw_ed: /usr/local/bin/nw_ed
+  nw_gen: /usr/local/bin/nw_gen
+  nw_indent: /usr/local/bin/nw_indent
+  nw_labels: /usr/local/bin/nw_labels
+  nw_match: /usr/local/bin/nw_match
+  nw_order: /usr/local/bin/nw_order
+  nw_prune: /usr/local/bin/nw_prune
+  nw_rename: /usr/local/bin/nw_rename
+  nw_reroot: /usr/local/bin/nw_reroot
+  nw_stats: /usr/local/bin/nw_stats
+  nw_support: /usr/local/bin/nw_support
+  nw_topology: /usr/local/bin/nw_topology
+  nw_trim: /usr/local/bin/nw_trim
+  quicktree: /usr/local/bin/quicktree
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  roary2svg.pl: /usr/local/bin/roary2svg.pl
+  shovill: /usr/local/bin/shovill
+  snp-dists: /usr/local/bin/snp-dists
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/s3gof3r
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for s3gof3r
+latest:
+  0.5.0--h9ee0642_2: sha256:6894d1a1f200d6a1f3ddc4aa8e65fc1a9be2e10f825f6d8c943233919834f807
+tags:
+  0.5.0--h9ee0642_2: sha256:6894d1a1f200d6a1f3ddc4aa8e65fc1a9be2e10f825f6d8c943233919834f807
+docker: quay.io/biocontainers/s3gof3r
+aliases:
+  gof3r: /usr/local/bin/gof3r

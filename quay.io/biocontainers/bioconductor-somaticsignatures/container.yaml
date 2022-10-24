@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-somaticsignatures
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-somaticsignatures
+latest:
+  2.30.0--r41hdfd78af_0: sha256:508e24cb5ea45495663141d097e07ef47853b2675eee63ebb733fce956249bb8
+tags:
+  2.30.0--r41hdfd78af_0: sha256:508e24cb5ea45495663141d097e07ef47853b2675eee63ebb733fce956249bb8
+docker: quay.io/biocontainers/bioconductor-somaticsignatures

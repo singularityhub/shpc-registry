@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mp3treesim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mp3treesim
+latest:
+  1.0.6--py_0: sha256:34d94e5828677f51ee17ec89ac3d6e40787881519e894f50ae891c67ee05c53b
+tags:
+  1.0.6--py_0: sha256:34d94e5828677f51ee17ec89ac3d6e40787881519e894f50ae891c67ee05c53b
+docker: quay.io/biocontainers/mp3treesim
+aliases:
+  mp3treesim: /usr/local/bin/mp3treesim

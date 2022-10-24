@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rae230a.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rae230a.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c
+tags:
+  3.2.3--r41hdfd78af_7: sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c
+docker: quay.io/biocontainers/bioconductor-rae230a.db
+aliases:
+  .bioconductor-rae230a.db-post-link.sh: /usr/local/bin/.bioconductor-rae230a.db-post-link.sh
+  .bioconductor-rae230a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rae230a.db-pre-unlink.sh

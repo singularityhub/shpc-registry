@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/perl-bio-mlst-check
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-mlst-check
+latest:
+  2.1.1706216--pl5321hdfd78af_3: sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83
+tags:
+  2.1.1706216--pl5321hdfd78af_3: sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83
+docker: quay.io/biocontainers/perl-bio-mlst-check
+aliases:
+  download_fasta_database: /usr/local/bin/download_fasta_database
+  download_mlst_databases: /usr/local/bin/download_mlst_databases
+  get_emm_sequence_type: /usr/local/bin/get_emm_sequence_type
+  get_sequence_type: /usr/local/bin/get_sequence_type

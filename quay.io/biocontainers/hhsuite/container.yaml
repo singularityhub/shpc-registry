@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/hhsuite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hhsuite
+latest:
+  v3.2.0--py36pl526hf484d3e_0: sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f
+tags:
+  v3.2.0--py36pl526hf484d3e_0: sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f
+docker: quay.io/biocontainers/hhsuite
+aliases:
+  a3m_database_extract: /usr/local/bin/a3m_database_extract
+  a3m_database_filter: /usr/local/bin/a3m_database_filter
+  a3m_database_reduce: /usr/local/bin/a3m_database_reduce
+  a3m_extract: /usr/local/bin/a3m_extract
+  a3m_reduce: /usr/local/bin/a3m_reduce
+  cstranslate: /usr/local/bin/cstranslate
+  ffindex_apply: /usr/local/bin/ffindex_apply
+  ffindex_build: /usr/local/bin/ffindex_build
+  ffindex_from_fasta: /usr/local/bin/ffindex_from_fasta
+  ffindex_from_fasta_with_split: /usr/local/bin/ffindex_from_fasta_with_split
+  ffindex_get: /usr/local/bin/ffindex_get
+  ffindex_modify: /usr/local/bin/ffindex_modify
+  ffindex_order: /usr/local/bin/ffindex_order
+  ffindex_reduce: /usr/local/bin/ffindex_reduce
+  ffindex_unpack: /usr/local/bin/ffindex_unpack
+  hhalign: /usr/local/bin/hhalign
+  hhalign_omp: /usr/local/bin/hhalign_omp
+  hhblits: /usr/local/bin/hhblits
+  hhblits_ca3m: /usr/local/bin/hhblits_ca3m
+  hhblits_omp: /usr/local/bin/hhblits_omp
+  hhconsensus: /usr/local/bin/hhconsensus
+  hhfilter: /usr/local/bin/hhfilter
+  hhmake: /usr/local/bin/hhmake
+  hhsearch: /usr/local/bin/hhsearch
+  hhsearch_omp: /usr/local/bin/hhsearch_omp

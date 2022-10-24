@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dmrcate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dmrcate
+latest:
+  2.6.0--r41hdfd78af_0: sha256:ce68ca011201bd2ca98d6dccf64ea7b520ea38c83bcfebeebe8d0aaa18a65a12
+tags:
+  2.6.0--r41hdfd78af_0: sha256:ce68ca011201bd2ca98d6dccf64ea7b520ea38c83bcfebeebe8d0aaa18a65a12
+docker: quay.io/biocontainers/bioconductor-dmrcate

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hpaanalyze
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hpaanalyze
+latest:
+  1.8.1--r40hdfd78af_0: sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733
+tags:
+  1.8.1--r40hdfd78af_0: sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733
+docker: quay.io/biocontainers/bioconductor-hpaanalyze

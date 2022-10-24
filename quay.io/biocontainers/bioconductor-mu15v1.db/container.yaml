@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mu15v1.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mu15v1.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:d4070b8cf568f63d4d6dd481d7307ba1d3ad719c343dfa86215cdcaec7bd95a5
+tags:
+  3.2.3--r41hdfd78af_9: sha256:d4070b8cf568f63d4d6dd481d7307ba1d3ad719c343dfa86215cdcaec7bd95a5
+docker: quay.io/biocontainers/bioconductor-mu15v1.db
+aliases:
+  .bioconductor-mu15v1.db-post-link.sh: /usr/local/bin/.bioconductor-mu15v1.db-post-link.sh
+  .bioconductor-mu15v1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mu15v1.db-pre-unlink.sh

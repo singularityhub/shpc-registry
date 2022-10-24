@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pairsnp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pairsnp
+latest:
+  0.3.1--hd03093a_0: sha256:e40980cdccd3c1c2eb98f6a0f20cdbe76a5b2327cab8d7816587750809d3e306
+tags:
+  0.3.1--hd03093a_0: sha256:e40980cdccd3c1c2eb98f6a0f20cdbe76a5b2327cab8d7816587750809d3e306
+docker: quay.io/biocontainers/pairsnp
+aliases:
+  pairsnp: /usr/local/bin/pairsnp

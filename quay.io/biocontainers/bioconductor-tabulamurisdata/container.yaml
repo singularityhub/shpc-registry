@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tabulamurisdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tabulamurisdata
+latest:
+  1.8.0--r40hdfd78af_1: sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855
+tags:
+  1.8.0--r40hdfd78af_1: sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855
+docker: quay.io/biocontainers/bioconductor-tabulamurisdata
+aliases:
+  .bioconductor-tabulamurisdata-post-link.sh: /usr/local/bin/.bioconductor-tabulamurisdata-post-link.sh
+  .bioconductor-tabulamurisdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tabulamurisdata-pre-unlink.sh

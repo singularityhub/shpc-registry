@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/parascopy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parascopy
+latest:
+  1.9.1--py39heba0655_0: sha256:510ea5bec833767af1c344ca772bae2d9bab06a4cf6c260cec1ebf528b5887c3
+tags:
+  1.9.1--py39heba0655_0: sha256:510ea5bec833767af1c344ca772bae2d9bab06a4cf6c260cec1ebf528b5887c3
+docker: quay.io/biocontainers/parascopy
+aliases:
+  _parascopy_freebayes: /usr/local/bin/_parascopy_freebayes
+  parascopy: /usr/local/bin/parascopy

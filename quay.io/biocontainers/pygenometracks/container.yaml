@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pygenometracks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pygenometracks
+latest:
+  3.7--pyhdfd78af_0: sha256:275cc3a08e50ecd803ae7fd5e572cf4fb640d06a51792a313260bd9a8e2a54ee
+tags:
+  3.7--pyhdfd78af_0: sha256:275cc3a08e50ecd803ae7fd5e572cf4fb640d06a51792a313260bd9a8e2a54ee
+docker: quay.io/biocontainers/pygenometracks
+aliases:
+  make_tracks_file: /usr/local/bin/make_tracks_file
+  pgt: /usr/local/bin/pgt
+  pyGenomeTracks: /usr/local/bin/pyGenomeTracks

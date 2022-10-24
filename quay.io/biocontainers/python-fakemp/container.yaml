@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-fakemp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-fakemp
+latest:
+  0.9.1--pyh864c0ab_3: sha256:700625553568f342761013cad05f278bc0c43957e779eadff0f289ca02b796bc
+tags:
+  0.9.1--pyh864c0ab_3: sha256:700625553568f342761013cad05f278bc0c43957e779eadff0f289ca02b796bc
+docker: quay.io/biocontainers/python-fakemp

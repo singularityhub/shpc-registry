@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-iterativebma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-iterativebma
+latest:
+  1.52.0--r41hdfd78af_0: sha256:d132341a61f38467eee342ac2c095a21f5a595fa452f0eacd79b836324c1e5ea
+tags:
+  1.52.0--r41hdfd78af_0: sha256:d132341a61f38467eee342ac2c095a21f5a595fa452f0eacd79b836324c1e5ea
+docker: quay.io/biocontainers/bioconductor-iterativebma

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-exporter-tidy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-exporter-tidy
+latest:
+  0.08--pl5321hdfd78af_2: sha256:8c4f97038aad96a8dac85f59671adbbd58a0d0b5f36a74bea77dd30785083eab
+tags:
+  0.08--pl5321hdfd78af_2: sha256:8c4f97038aad96a8dac85f59671adbbd58a0d0b5f36a74bea77dd30785083eab
+docker: quay.io/biocontainers/perl-exporter-tidy

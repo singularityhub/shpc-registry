@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pgdspider
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pgdspider
+latest:
+  2.1.1.5--hdfd78af_1: sha256:1380f25c1f9be1e02ca2b54c84f06339b877c10a4bb98dcbb36db944b5874d59
+tags:
+  2.1.1.5--hdfd78af_1: sha256:1380f25c1f9be1e02ca2b54c84f06339b877c10a4bb98dcbb36db944b5874d59
+docker: quay.io/biocontainers/pgdspider
+aliases:
+  PGDSpider2-cli: /usr/local/bin/PGDSpider2-cli
+  PGDSpider2-gui: /usr/local/bin/PGDSpider2-gui

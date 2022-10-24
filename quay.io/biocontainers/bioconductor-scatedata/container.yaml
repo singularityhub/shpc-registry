@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-scatedata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scatedata
+latest:
+  1.4.0--r41hdfd78af_1: sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a
+tags:
+  1.4.0--r41hdfd78af_1: sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a
+docker: quay.io/biocontainers/bioconductor-scatedata
+aliases:
+  .bioconductor-scatedata-post-link.sh: /usr/local/bin/.bioconductor-scatedata-post-link.sh
+  .bioconductor-scatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh

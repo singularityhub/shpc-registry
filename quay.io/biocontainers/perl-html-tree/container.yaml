@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-tree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-tree
+latest:
+  5.07--pl5321hdfd78af_2: sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a
+tags:
+  5.07--pl5321hdfd78af_2: sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a
+docker: quay.io/biocontainers/perl-html-tree

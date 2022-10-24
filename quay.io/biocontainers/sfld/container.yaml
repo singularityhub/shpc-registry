@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sfld
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sfld
+latest:
+  1.1--hec16e2b_2: sha256:7e913dcd8b72f079c24d662a25f8c6086ea80c155f21d2bacd331227931878f7
+tags:
+  1.1--hec16e2b_2: sha256:7e913dcd8b72f079c24d662a25f8c6086ea80c155f21d2bacd331227931878f7
+docker: quay.io/biocontainers/sfld
+aliases:
+  sfld_postprocess: /usr/local/bin/sfld_postprocess
+  sfld_preprocess: /usr/local/bin/sfld_preprocess
+  sfld_preprocess.py: /usr/local/bin/sfld_preprocess.py

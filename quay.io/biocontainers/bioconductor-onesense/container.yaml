@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-onesense
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-onesense
+latest:
+  1.8.0--r36_0: sha256:f7a84a1a9a4ca27acd970d30fd70ffc891017603aa03c077b059f12296973fd7
+tags:
+  1.8.0--r36_0: sha256:f7a84a1a9a4ca27acd970d30fd70ffc891017603aa03c077b059f12296973fd7
+docker: quay.io/biocontainers/bioconductor-onesense

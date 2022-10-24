@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ericscript
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ericscript
+latest:
+  0.5.5--hdfd78af_5: sha256:d6c08e44e06a25c5dcca541b33adfd5297ccc3ef657b2b0fd437760865fdd1f5
+tags:
+  0.5.5--hdfd78af_5: sha256:d6c08e44e06a25c5dcca541b33adfd5297ccc3ef657b2b0fd437760865fdd1f5
+docker: quay.io/biocontainers/ericscript
+aliases:
+  ericscript.pl: /usr/local/bin/ericscript.pl

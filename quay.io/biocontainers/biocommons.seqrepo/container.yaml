@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/biocommons.seqrepo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biocommons.seqrepo
+latest:
+  0.6.5--pyhdfd78af_0: sha256:0d81c542e2264b4b8773759139a07a8bc824ff6755d4a813dc588604e70c1f6b
+tags:
+  0.6.5--pyhdfd78af_0: sha256:0d81c542e2264b4b8773759139a07a8bc824ff6755d4a813dc588604e70c1f6b
+docker: quay.io/biocontainers/biocommons.seqrepo
+aliases:
+  pyppeteer-install: /usr/local/bin/pyppeteer-install
+  seqrepo: /usr/local/bin/seqrepo
+  sqlformat: /usr/local/bin/sqlformat
+  yoyo: /usr/local/bin/yoyo
+  yoyo-migrate: /usr/local/bin/yoyo-migrate

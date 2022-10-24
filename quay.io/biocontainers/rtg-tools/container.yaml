@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rtg-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rtg-tools
+latest:
+  3.9.1--1: sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4
+tags:
+  3.9.1--1: sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4
+docker: quay.io/biocontainers/rtg-tools
+aliases:
+  rtg: /usr/local/bin/rtg

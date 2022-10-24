@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-topconfects
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-topconfects
+latest:
+  1.8.0--r41hdfd78af_0: sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d
+tags:
+  1.8.0--r41hdfd78af_0: sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d
+docker: quay.io/biocontainers/bioconductor-topconfects

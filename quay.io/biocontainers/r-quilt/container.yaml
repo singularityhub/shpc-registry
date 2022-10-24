@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-quilt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-quilt
+latest:
+  1.0.3--r41h37595e4_1: sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8
+tags:
+  1.0.3--r41h37595e4_1: sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8
+docker: quay.io/biocontainers/r-quilt

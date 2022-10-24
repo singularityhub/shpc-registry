@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sigpathway
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sigpathway
+latest:
+  1.62.0--r41hc0cfd56_2: sha256:6c2307b8a8c449027f5cfa81adde84b1efa353c408327f19439f562c091e2b33
+tags:
+  1.62.0--r41hc0cfd56_2: sha256:6c2307b8a8c449027f5cfa81adde84b1efa353c408327f19439f562c091e2b33
+docker: quay.io/biocontainers/bioconductor-sigpathway

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bam2fastx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bam2fastx
+latest:
+  1.3.1--hb7da652_2: sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7
+tags:
+  1.3.1--hb7da652_2: sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7
+docker: quay.io/biocontainers/bam2fastx
+aliases:
+  .bam2fastx-post-link.sh: /usr/local/bin/.bam2fastx-post-link.sh
+  .pbbam-post-link.sh: /usr/local/bin/.pbbam-post-link.sh
+  .pbcopper-post-link.sh: /usr/local/bin/.pbcopper-post-link.sh
+  bam2fasta: /usr/local/bin/bam2fasta
+  bam2fastq: /usr/local/bin/bam2fastq
+  ccs-kinetics-bystrandify: /usr/local/bin/ccs-kinetics-bystrandify
+  pbbamify: /usr/local/bin/pbbamify

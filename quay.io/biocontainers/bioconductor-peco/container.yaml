@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-peco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-peco
+latest:
+  1.6.0--r41hdfd78af_0: sha256:523cc450c5135d2cc361c92104818d8a9df868027da937c41292eb01db9971eb
+tags:
+  1.6.0--r41hdfd78af_0: sha256:523cc450c5135d2cc361c92104818d8a9df868027da937c41292eb01db9971eb
+docker: quay.io/biocontainers/bioconductor-peco

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snpsift
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snpsift
+latest:
+  5.1d--hdfd78af_0: sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402
+tags:
+  5.1d--hdfd78af_0: sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402
+docker: quay.io/biocontainers/snpsift
+aliases:
+  SnpSift: /usr/local/bin/SnpSift

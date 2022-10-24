@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/tesorter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tesorter
+latest:
+  1.3.0--py_0: sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788
+tags:
+  1.3.0--py_0: sha256:9cdc74b9e07458e3e4a57a3e15faa45137cb748b31a39f40cbfc9e200bc27788
+docker: quay.io/biocontainers/tesorter
+aliases:
+  LTR_retriever.py: /usr/local/bin/LTR_retriever.py
+  RepeatMasker.py: /usr/local/bin/RepeatMasker.py
+  TEsorter: /usr/local/bin/TEsorter
+  TEsorter-test: /usr/local/bin/TEsorter-test
+  concatenate_domains.py: /usr/local/bin/concatenate_domains.py
+  get_record.py: /usr/local/bin/get_record.py
+  ppserver.py: /usr/local/bin/ppserver.py

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/perl-sanger-cgp-battenberg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sanger-cgp-battenberg
+latest:
+  1.4.1--pl5321hec16e2b_8: sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c
+tags:
+  1.4.1--pl5321hec16e2b_8: sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c
+docker: quay.io/biocontainers/perl-sanger-cgp-battenberg
+aliases:
+  alleleCounter: /usr/local/bin/alleleCounter
+  alleleCounter.pl: /usr/local/bin/alleleCounter.pl
+  bamToBw.pl: /usr/local/bin/bamToBw.pl
+  bam_stats.pl: /usr/local/bin/bam_stats.pl
+  bam_to_sra_sub.pl: /usr/local/bin/bam_to_sra_sub.pl
+  battenberg.pl: /usr/local/bin/battenberg.pl
+  battenberg_CN_to_VCF.pl: /usr/local/bin/battenberg_CN_to_VCF.pl
+  battenberg_version.pl: /usr/local/bin/battenberg_version.pl
+  bwa_aln.pl: /usr/local/bin/bwa_aln.pl
+  bwa_mem.pl: /usr/local/bin/bwa_mem.pl
+  cgpAppendIdsToVcf.pl: /usr/local/bin/cgpAppendIdsToVcf.pl
+  cgpVCFSplit.pl: /usr/local/bin/cgpVCFSplit.pl
+  cover: /usr/local/bin/cover
+  cpancover: /usr/local/bin/cpancover
+  detectExtremeDepth.pl: /usr/local/bin/detectExtremeDepth.pl
+  diff_bams.pl: /usr/local/bin/diff_bams.pl
+  download_generate_bberg_ref_files.pl: /usr/local/bin/download_generate_bberg_ref_files.pl
+  gcov2perl: /usr/local/bin/gcov2perl
+  gnos_pull.pl: /usr/local/bin/gnos_pull.pl
+  impute2: /usr/local/bin/impute2
+  monitor.pl: /usr/local/bin/monitor.pl
+  ppi2html: /usr/local/bin/ppi2html
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
+  xam_coverage_bins.pl: /usr/local/bin/xam_coverage_bins.pl
+  xml_to_bas.pl: /usr/local/bin/xml_to_bas.pl

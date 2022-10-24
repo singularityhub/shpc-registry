@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fargene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fargene
+latest:
+  0.1--py27h21c881e_4: sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a
+tags:
+  0.1--py27h21c881e_4: sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a
+docker: quay.io/biocontainers/fargene
+aliases:
+  ORFfinder: /usr/local/bin/ORFfinder
+  fargene: /usr/local/bin/fargene
+  fargene_model_creation: /usr/local/bin/fargene_model_creation
+  pick_long_reads: /usr/local/bin/pick_long_reads

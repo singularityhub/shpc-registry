@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/backspinpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for backspinpy
+latest:
+  0.2.1--pyh24bf2e0_1: sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934
+tags:
+  0.2.1--pyh24bf2e0_1: sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934
+docker: quay.io/biocontainers/backspinpy
+aliases:
+  backspin: /usr/local/bin/backspin

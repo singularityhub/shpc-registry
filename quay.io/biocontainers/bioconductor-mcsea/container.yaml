@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mcsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mcsea
+latest:
+  1.8.0--r40_0: sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390
+tags:
+  1.8.0--r40_0: sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390
+docker: quay.io/biocontainers/bioconductor-mcsea
+aliases:
+  .bioconductor-mcseadata-post-link.sh: /usr/local/bin/.bioconductor-mcseadata-post-link.sh
+  .bioconductor-mcseadata-pre-unlink.sh: /usr/local/bin/.bioconductor-mcseadata-pre-unlink.sh

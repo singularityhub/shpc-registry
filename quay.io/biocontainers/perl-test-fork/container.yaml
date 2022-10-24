@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-fork
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-fork
+latest:
+  0.02--pl5321hdfd78af_1: sha256:a1b348f65b498d9d47867d915cac012ec28c185e6ab13ee889a5238de6393437
+tags:
+  0.02--pl5321hdfd78af_1: sha256:a1b348f65b498d9d47867d915cac012ec28c185e6ab13ee889a5238de6393437
+docker: quay.io/biocontainers/perl-test-fork

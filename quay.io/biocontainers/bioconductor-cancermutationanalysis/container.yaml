@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cancermutationanalysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cancermutationanalysis
+latest:
+  1.32.0--r40hd029910_1: sha256:10db27ea7aca75ecf85aaf408ec2678600de4f9255e52b7d1512609ef4356d85
+tags:
+  1.32.0--r40hd029910_1: sha256:10db27ea7aca75ecf85aaf408ec2678600de4f9255e52b7d1512609ef4356d85
+docker: quay.io/biocontainers/bioconductor-cancermutationanalysis

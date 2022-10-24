@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affixcan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affixcan
+latest:
+  1.8.0--r40hdfd78af_1: sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83
+tags:
+  1.8.0--r40hdfd78af_1: sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83
+docker: quay.io/biocontainers/bioconductor-affixcan

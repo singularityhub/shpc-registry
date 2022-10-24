@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicfiles
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicfiles
+latest:
+  1.30.0--r41hdfd78af_0: sha256:53a55fbfec93e6d687b51846a3e3192d480538be19a1a8b5eaf8ac8372c1f3b2
+tags:
+  1.30.0--r41hdfd78af_0: sha256:53a55fbfec93e6d687b51846a3e3192d480538be19a1a8b5eaf8ac8372c1f3b2
+docker: quay.io/biocontainers/bioconductor-genomicfiles

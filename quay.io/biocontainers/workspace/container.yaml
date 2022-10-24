@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/workspace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for workspace
+latest:
+  0.3.1--py27_2: sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857
+tags:
+  0.3.1--py27_2: sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857
+docker: quay.io/biocontainers/workspace
+aliases:
+  ws: /usr/local/bin/ws

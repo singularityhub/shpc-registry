@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/taxonomy_ranks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taxonomy_ranks
+latest:
+  0.0.8--py_0: sha256:3c201ed7dcd4967231596cf293e82cd2d7123ce59591dbe316db1d9618e9c23b
+tags:
+  0.0.8--py_0: sha256:3c201ed7dcd4967231596cf293e82cd2d7123ce59591dbe316db1d9618e9c23b
+docker: quay.io/biocontainers/taxonomy_ranks
+aliases:
+  taxaranks: /usr/local/bin/taxaranks

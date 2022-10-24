@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-diffutr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-diffutr
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a1c0f0e250e4306116cd75d59cab9c3ecd2e20247485fa8eff8887c14811a4d7
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a1c0f0e250e4306116cd75d59cab9c3ecd2e20247485fa8eff8887c14811a4d7
+docker: quay.io/biocontainers/bioconductor-diffutr

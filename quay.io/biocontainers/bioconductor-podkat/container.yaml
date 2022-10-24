@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-podkat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-podkat
+latest:
+  1.8.0--r3.4.1_0: sha256:d64e79460dab4cc5ab216ccf4d122ebb04b0321549fc881458c216f5c2deb283
+tags:
+  1.8.0--r3.4.1_0: sha256:d64e79460dab4cc5ab216ccf4d122ebb04b0321549fc881458c216f5c2deb283
+docker: quay.io/biocontainers/bioconductor-podkat

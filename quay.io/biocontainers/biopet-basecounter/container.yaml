@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-basecounter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-basecounter
+latest:
+  0.1--hdfd78af_1: sha256:4bbc1921abc5da7569997673d9913e2363968d7f8add99c7bd18c01ad7527e2d
+tags:
+  0.1--hdfd78af_1: sha256:4bbc1921abc5da7569997673d9913e2363968d7f8add99c7bd18c01ad7527e2d
+docker: quay.io/biocontainers/biopet-basecounter
+aliases:
+  biopet-basecounter: /usr/local/bin/biopet-basecounter

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-seqplots
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-seqplots
+latest:
+  1.27.0--r40_0: sha256:bbb73d08187a27dc731d8a5b827da4d5efeff080ba14d01bc2c60b7deeda1755
+tags:
+  1.27.0--r40_0: sha256:bbb73d08187a27dc731d8a5b827da4d5efeff080ba14d01bc2c60b7deeda1755
+docker: quay.io/biocontainers/bioconductor-seqplots

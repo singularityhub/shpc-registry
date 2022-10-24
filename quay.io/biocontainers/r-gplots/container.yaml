@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gplots
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gplots
+latest:
+  2.17.0--r3.3.2_0: sha256:037d285d9377ea035319937779ecacba688e97f58e0f66e7075f861ea49a4607
+tags:
+  2.17.0--r3.3.2_0: sha256:037d285d9377ea035319937779ecacba688e97f58e0f66e7075f861ea49a4607
+docker: quay.io/biocontainers/r-gplots

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/realphy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for realphy
+latest:
+  1.13--hdfd78af_1: sha256:fcbcfd71a0f49ec4e122fb0b329fae5be85f44735a0596cdc033968d680f0503
+tags:
+  1.13--hdfd78af_1: sha256:fcbcfd71a0f49ec4e122fb0b329fae5be85f44735a0596cdc033968d680f0503
+docker: quay.io/biocontainers/realphy
+aliases:
+  Manual_May25_2020.pdf: /usr/local/bin/Manual_May25_2020.pdf
+  REALPHY_v113: /usr/local/bin/REALPHY_v113
+  RealPhy_v113.jar: /usr/local/bin/RealPhy_v113.jar
+  realphy: /usr/local/bin/realphy

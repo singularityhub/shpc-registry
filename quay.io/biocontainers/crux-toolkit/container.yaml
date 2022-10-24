@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crux-toolkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crux-toolkit
+latest:
+  4.1--h87f3376_0: sha256:0438c28b84c662a60bb8b11f057aefd2045e565928fddb86e639610072c266b0
+tags:
+  4.1--h87f3376_0: sha256:0438c28b84c662a60bb8b11f057aefd2045e565928fddb86e639610072c266b0
+docker: quay.io/biocontainers/crux-toolkit
+aliases:
+  crux: /usr/local/bin/crux

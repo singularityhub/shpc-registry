@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/colormap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for colormap
+latest:
+  0.9.8--py36_0: sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7
+tags:
+  0.9.8--py36_0: sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7
+docker: quay.io/biocontainers/colormap

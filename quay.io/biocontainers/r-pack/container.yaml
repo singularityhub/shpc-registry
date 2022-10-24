@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pack
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pack
+latest:
+  0.1_1--r3.3.2_0: sha256:37639996d4be434d72792273d10c9f55ea6127ff4e1bec46ea5a5f470e5827dd
+tags:
+  0.1_1--r3.3.2_0: sha256:37639996d4be434d72792273d10c9f55ea6127ff4e1bec46ea5a5f470e5827dd
+docker: quay.io/biocontainers/r-pack

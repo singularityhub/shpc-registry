@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/whatsgnu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for whatsgnu
+latest:
+  1.3--hdfd78af_0: sha256:23accaaaa41fc4610fe982e60af4eda7bcaaf9fb41f935f128e420b729254bd4
+tags:
+  1.3--hdfd78af_0: sha256:23accaaaa41fc4610fe982e60af4eda7bcaaf9fb41f935f128e420b729254bd4
+docker: quay.io/biocontainers/whatsgnu
+aliases:
+  Complete_Reference_selector.py: /usr/local/bin/Complete_Reference_selector.py
+  WhatsGNU_database_customizer.py: /usr/local/bin/WhatsGNU_database_customizer.py
+  WhatsGNU_get_GenBank_genomes.py: /usr/local/bin/WhatsGNU_get_GenBank_genomes.py
+  WhatsGNU_main.py: /usr/local/bin/WhatsGNU_main.py
+  WhatsGNU_plotter.py: /usr/local/bin/WhatsGNU_plotter.py

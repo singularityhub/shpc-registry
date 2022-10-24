@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-knitrbootstrap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-knitrbootstrap
+latest:
+  1.0.0--r3.2.2_0: sha256:edb5acf0612e002273bb9ac946a200ee7d65aa90bea51d43e34d92c4789ad473
+tags:
+  1.0.0--r3.2.2_0: sha256:edb5acf0612e002273bb9ac946a200ee7d65aa90bea51d43e34d92c4789ad473
+docker: quay.io/biocontainers/r-knitrbootstrap

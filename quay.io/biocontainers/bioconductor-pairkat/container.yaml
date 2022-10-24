@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pairkat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pairkat
+latest:
+  1.0.0--r41hdfd78af_0: sha256:bf9c91369c979729eb350ea84c5ccf2435587760b78929dd9f8926fb6b66df22
+tags:
+  1.0.0--r41hdfd78af_0: sha256:bf9c91369c979729eb350ea84c5ccf2435587760b78929dd9f8926fb6b66df22
+docker: quay.io/biocontainers/bioconductor-pairkat

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-timescape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-timescape
+latest:
+  1.8.0--r36_1: sha256:65a6f060825a5246701601e843848148a3dd34c54f5dda45f761f012b06e11c4
+tags:
+  1.8.0--r36_1: sha256:65a6f060825a5246701601e843848148a3dd34c54f5dda45f761f012b06e11c4
+docker: quay.io/biocontainers/bioconductor-timescape

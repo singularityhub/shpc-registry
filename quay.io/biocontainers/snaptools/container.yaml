@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/snaptools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snaptools
+latest:
+  1.4.8--pyh864c0ab_1: sha256:f0647a31ab0433d0e8cae9594eec275fba414868adfe6784c105958371619c01
+tags:
+  1.4.8--pyh864c0ab_1: sha256:f0647a31ab0433d0e8cae9594eec275fba414868adfe6784c105958371619c01
+docker: quay.io/biocontainers/snaptools
+aliases:
+  community: /usr/local/bin/community
+  snaptools: /usr/local/bin/snaptools

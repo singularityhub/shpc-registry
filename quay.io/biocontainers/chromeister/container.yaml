@@ -1,0 +1,64 @@
+url: https://biocontainers.pro/tools/chromeister
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chromeister
+latest:
+  1.5.a--hec16e2b_3: sha256:930f24d1571a55c3fe4a7b55b28aeb7e9eef565c69dd1042c0367beaf3d3156c
+tags:
+  1.5.a--hec16e2b_3: sha256:930f24d1571a55c3fe4a7b55b28aeb7e9eef565c69dd1042c0367beaf3d3156c
+docker: quay.io/biocontainers/chromeister
+aliases:
+  CHROMEISTER: /usr/local/bin/CHROMEISTER
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  allVsAll.sh: /usr/local/bin/allVsAll.sh
+  allVsAll_incremental.sh: /usr/local/bin/allVsAll_incremental.sh
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  compute_score-nogrid.R: /usr/local/bin/compute_score-nogrid.R
+  compute_score.R: /usr/local/bin/compute_score.R
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  detect_events.py: /usr/local/bin/detect_events.py
+  distro: /usr/local/bin/distro
+  ed2k-link: /usr/local/bin/ed2k-link
+  edonr256-hash: /usr/local/bin/edonr256-hash
+  edonr512-hash: /usr/local/bin/edonr512-hash
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
+  generate-one-score.sh: /usr/local/bin/generate-one-score.sh
+  gost12-256-hash: /usr/local/bin/gost12-256-hash
+  gost12-512-hash: /usr/local/bin/gost12-512-hash
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
+  has160-hash: /usr/local/bin/has160-hash
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  index_chromeister.sh: /usr/local/bin/index_chromeister.sh
+  index_chromeister_solo.sh: /usr/local/bin/index_chromeister_solo.sh
+  jasper: /usr/local/bin/jasper
+  jiv: /usr/local/bin/jiv
+  lame: /usr/local/bin/lame
+  magnet-link: /usr/local/bin/magnet-link
+  make-cluster.R: /usr/local/bin/make-cluster.R
+  make-mean.sh: /usr/local/bin/make-mean.sh
+  opencv_annotation: /usr/local/bin/opencv_annotation
+  opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
+  opencv_model_diagnostics: /usr/local/bin/opencv_model_diagnostics
+  opencv_version: /usr/local/bin/opencv_version
+  opencv_visualisation: /usr/local/bin/opencv_visualisation
+  opencv_waldboost_detector: /usr/local/bin/opencv_waldboost_detector
+  plot.R: /usr/local/bin/plot.R
+  plot_diags.R: /usr/local/bin/plot_diags.R
+  recompute_scores.sh: /usr/local/bin/recompute_scores.sh
+  rhash: /usr/local/bin/rhash
+  run_and_plot_chromeister.sh: /usr/local/bin/run_and_plot_chromeister.sh
+  setup_vars_opencv4.sh: /usr/local/bin/setup_vars_opencv4.sh
+  sfv-hash: /usr/local/bin/sfv-hash
+  tiger-hash: /usr/local/bin/tiger-hash
+  tth-hash: /usr/local/bin/tth-hash
+  unfiltered_plot.R: /usr/local/bin/unfiltered_plot.R
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  whirlpool-hash: /usr/local/bin/whirlpool-hash
+  x264: /usr/local/bin/x264
+  x265: /usr/local/bin/x265

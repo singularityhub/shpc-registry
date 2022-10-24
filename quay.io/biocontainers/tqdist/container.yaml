@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/tqdist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tqdist
+latest:
+  1.0.0--h1b792b2_3: sha256:63599fbbe7b8ebd356b624702dc92325e916dd38526154e3e0b93aa2176d9e4a
+tags:
+  1.0.0--h1b792b2_3: sha256:63599fbbe7b8ebd356b624702dc92325e916dd38526154e3e0b93aa2176d9e4a
+docker: quay.io/biocontainers/tqdist
+aliases:
+  all_pairs_quartet_dist: /usr/local/bin/all_pairs_quartet_dist
+  all_pairs_triplet_dist: /usr/local/bin/all_pairs_triplet_dist
+  pairs_quartet_dist: /usr/local/bin/pairs_quartet_dist
+  pairs_triplet_dist: /usr/local/bin/pairs_triplet_dist
+  quartet_dist: /usr/local/bin/quartet_dist
+  triplet_dist: /usr/local/bin/triplet_dist

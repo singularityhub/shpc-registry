@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-zinbwave
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-zinbwave
+latest:
+  1.8.0--r36_0: sha256:ebbc4508631522d30d100f76c18ef17990157dcfa4c68c592459478d2153d8d1
+tags:
+  1.8.0--r36_0: sha256:ebbc4508631522d30d100f76c18ef17990157dcfa4c68c592459478d2153d8d1
+docker: quay.io/biocontainers/bioconductor-zinbwave

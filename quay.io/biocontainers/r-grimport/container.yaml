@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-grimport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-grimport
+latest:
+  0.9_0--r3.3.1_0: sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1
+tags:
+  0.9_0--r3.3.1_0: sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1
+docker: quay.io/biocontainers/r-grimport

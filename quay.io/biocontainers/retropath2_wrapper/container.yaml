@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/retropath2_wrapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for retropath2_wrapper
+latest:
+  2.4.0: sha256:ea827ba5c0630cbf777450a4e5af79f6a8a333dec5e06a14a8b703a7eb5a336e
+tags:
+  2.4.0: sha256:ea827ba5c0630cbf777450a4e5af79f6a8a333dec5e06a14a8b703a7eb5a336e
+docker: quay.io/biocontainers/retropath2_wrapper
+aliases:
+  filetype: /usr/local/bin/filetype

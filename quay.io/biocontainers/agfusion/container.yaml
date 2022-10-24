@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/agfusion
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for agfusion
+latest:
+  1.252--pyh864c0ab_1: sha256:a0c1275129136c6e069363957db39d2e1f51d2bc56ab23731ff37b071a065b87
+tags:
+  1.252--pyh864c0ab_1: sha256:a0c1275129136c6e069363957db39d2e1f51d2bc56ab23731ff37b071a065b87
+docker: quay.io/biocontainers/agfusion
+aliases:
+  agfusion: /usr/local/bin/agfusion
+  epylint: /usr/local/bin/epylint
+  isort: /usr/local/bin/isort
+  nose2: /usr/local/bin/nose2
+  nose2-2.7: /usr/local/bin/nose2-2.7
+  nose2-3.6: /usr/local/bin/nose2-3.6
+  pyensembl: /usr/local/bin/pyensembl
+  pylint: /usr/local/bin/pylint
+  pyreverse: /usr/local/bin/pyreverse
+  symilar: /usr/local/bin/symilar

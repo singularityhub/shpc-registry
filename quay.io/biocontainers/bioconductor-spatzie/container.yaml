@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spatzie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatzie
+latest:
+  1.0.0--r41hdfd78af_0: sha256:2d2f9cb23fe013047c57fe798713509ac4e4190bb98c3ef6c3cd555f2c2b4062
+tags:
+  1.0.0--r41hdfd78af_0: sha256:2d2f9cb23fe013047c57fe798713509ac4e4190bb98c3ef6c3cd555f2c2b4062
+docker: quay.io/biocontainers/bioconductor-spatzie

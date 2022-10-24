@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomeinfodb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomeinfodb
+latest:
+  1.6.3--0: sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35
+tags:
+  1.6.3--0: sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35
+docker: quay.io/biocontainers/bioconductor-genomeinfodb

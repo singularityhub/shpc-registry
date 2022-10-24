@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-guilds
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-guilds
+latest:
+  1.3--r351h80f5a37_1: sha256:dec4040e20e58fd57fe48cf649c6e6983bb628b1f6893698494d06115ea50f99
+tags:
+  1.3--r351h80f5a37_1: sha256:dec4040e20e58fd57fe48cf649c6e6983bb628b1f6893698494d06115ea50f99
+docker: quay.io/biocontainers/r-guilds

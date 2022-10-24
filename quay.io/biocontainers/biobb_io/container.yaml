@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/biobb_io
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_io
+latest:
+  3.8.0--pyhdfd78af_0: sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94
+tags:
+  3.8.0--pyhdfd78af_0: sha256:13301b1a4eba44ac98b4752e23035c338a962a34bd4add7b56233543255e1b94
+docker: quay.io/biocontainers/biobb_io
+aliases:
+  alphafold: /usr/local/bin/alphafold
+  api_binding_site: /usr/local/bin/api_binding_site
+  canonical_fasta: /usr/local/bin/canonical_fasta
+  drugbank: /usr/local/bin/drugbank
+  ideal_sdf: /usr/local/bin/ideal_sdf
+  ligand: /usr/local/bin/ligand
+  memprotmd_sim: /usr/local/bin/memprotmd_sim
+  memprotmd_sim_list: /usr/local/bin/memprotmd_sim_list
+  memprotmd_sim_search: /usr/local/bin/memprotmd_sim_search
+  mmcif: /usr/local/bin/mmcif
+  pdb: /usr/local/bin/pdb
+  pdb_cluster_zip: /usr/local/bin/pdb_cluster_zip
+  pdb_variants: /usr/local/bin/pdb_variants
+  structure_info: /usr/local/bin/structure_info

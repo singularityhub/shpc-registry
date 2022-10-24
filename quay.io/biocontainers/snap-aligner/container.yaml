@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snap-aligner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snap-aligner
+latest:
+  2.0.1--hd03093a_1: sha256:47899129f7830517f018b20096f047e8940b828b38e3323d5890a3721ab4e8da
+tags:
+  2.0.1--hd03093a_1: sha256:47899129f7830517f018b20096f047e8940b828b38e3323d5890a3721ab4e8da
+docker: quay.io/biocontainers/snap-aligner
+aliases:
+  snap-aligner: /usr/local/bin/snap-aligner

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-extutils-manifest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-extutils-manifest
+latest:
+  1.73--pl5321hdfd78af_0: sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e
+tags:
+  1.73--pl5321hdfd78af_0: sha256:4eb641743b75ee50678a3d06a7533e58917d92c5605ee979021c36cd5bb3474e
+docker: quay.io/biocontainers/perl-extutils-manifest

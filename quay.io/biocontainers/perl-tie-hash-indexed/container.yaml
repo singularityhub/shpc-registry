@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tie-hash-indexed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tie-hash-indexed
+latest:
+  0.08--pl5321hec16e2b_1: sha256:e3161fc1de4906bd89f32bcdf6e83d4af41174a7649ca79ae10174de1019b242
+tags:
+  0.08--pl5321hec16e2b_1: sha256:e3161fc1de4906bd89f32bcdf6e83d4af41174a7649ca79ae10174de1019b242
+docker: quay.io/biocontainers/perl-tie-hash-indexed

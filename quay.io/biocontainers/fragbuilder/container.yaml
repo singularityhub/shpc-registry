@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fragbuilder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fragbuilder
+latest:
+  1.0.1--hdfd78af_1: sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390
+tags:
+  1.0.1--hdfd78af_1: sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390
+docker: quay.io/biocontainers/fragbuilder

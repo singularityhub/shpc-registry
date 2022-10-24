@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-glmsparsenet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-glmsparsenet
+latest:
+  1.8.0--r40hdfd78af_1: sha256:ee7d0efd8232b46685afd3607548df7c2c37e664a5eaf02cde394ec0e7917225
+tags:
+  1.8.0--r40hdfd78af_1: sha256:ee7d0efd8232b46685afd3607548df7c2c37e664a5eaf02cde394ec0e7917225
+docker: quay.io/biocontainers/bioconductor-glmsparsenet

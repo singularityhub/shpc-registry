@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mouse430a2cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mouse430a2cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:b250d611d0cfc740524083dfb3d33357bf3fa946473487ab795c010e184d2c8f
+tags:
+  2.18.0--r41hdfd78af_9: sha256:b250d611d0cfc740524083dfb3d33357bf3fa946473487ab795c010e184d2c8f
+docker: quay.io/biocontainers/bioconductor-mouse430a2cdf
+aliases:
+  .bioconductor-mouse430a2cdf-post-link.sh: /usr/local/bin/.bioconductor-mouse430a2cdf-post-link.sh
+  .bioconductor-mouse430a2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse430a2cdf-pre-unlink.sh

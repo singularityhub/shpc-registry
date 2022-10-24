@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-list
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-list
+latest:
+  0.004--pl5321hdfd78af_1: sha256:c7a98f1d9ae5fd1862d560606d50a328e98e0db8601908b556f0eed4c4fffac5
+tags:
+  0.004--pl5321hdfd78af_1: sha256:c7a98f1d9ae5fd1862d560606d50a328e98e0db8601908b556f0eed4c4fffac5
+docker: quay.io/biocontainers/perl-module-list

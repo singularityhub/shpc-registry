@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pepgenome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pepgenome
+latest:
+  1.1.beta--hdfd78af_1: sha256:48f3c98f473ca9131386aa6b6153ca928aa287cef8f79bd0bfa31f604512ec3d
+tags:
+  1.1.beta--hdfd78af_1: sha256:48f3c98f473ca9131386aa6b6153ca928aa287cef8f79bd0bfa31f604512ec3d
+docker: quay.io/biocontainers/pepgenome
+aliases:
+  pepgenome: /usr/local/bin/pepgenome

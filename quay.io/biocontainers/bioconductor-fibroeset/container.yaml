@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-fibroeset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fibroeset
+latest:
+  1.36.0--r41hdfd78af_1: sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7
+tags:
+  1.36.0--r41hdfd78af_1: sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7
+docker: quay.io/biocontainers/bioconductor-fibroeset
+aliases:
+  .bioconductor-fibroeset-post-link.sh: /usr/local/bin/.bioconductor-fibroeset-post-link.sh
+  .bioconductor-fibroeset-pre-unlink.sh: /usr/local/bin/.bioconductor-fibroeset-pre-unlink.sh

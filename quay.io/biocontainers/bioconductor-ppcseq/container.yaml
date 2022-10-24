@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ppcseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ppcseq
+latest:
+  1.2.0--r41hc247a5b_2: sha256:74db7d393db5d859e082d93f1ab8d4e9d6064aec959aaeb6d48fd1f9b15fe446
+tags:
+  1.2.0--r41hc247a5b_2: sha256:74db7d393db5d859e082d93f1ab8d4e9d6064aec959aaeb6d48fd1f9b15fe446
+docker: quay.io/biocontainers/bioconductor-ppcseq

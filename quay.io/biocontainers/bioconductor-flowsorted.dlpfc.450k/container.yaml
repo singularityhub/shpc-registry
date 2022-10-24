@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowsorted.dlpfc.450k
+latest:
+  1.30.0--r41hdfd78af_1: sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00
+tags:
+  1.30.0--r41hdfd78af_1: sha256:52726aa4074cc4d1b95ad77c2fabaaf4d7eccf37a2518d21b19276bac8e4af00
+docker: quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k
+aliases:
+  .bioconductor-flowsorted.dlpfc.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.dlpfc.450k-post-link.sh
+  .bioconductor-flowsorted.dlpfc.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.dlpfc.450k-pre-unlink.sh

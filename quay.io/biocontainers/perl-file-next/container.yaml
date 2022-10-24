@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-next
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-next
+latest:
+  1.18--pl5321hdfd78af_0: sha256:5227ea49ccb0246faed8628466dc392bf8138e63413bc729035f1e4feaac75ee
+tags:
+  1.18--pl5321hdfd78af_0: sha256:5227ea49ccb0246faed8628466dc392bf8138e63413bc729035f1e4feaac75ee
+docker: quay.io/biocontainers/perl-file-next

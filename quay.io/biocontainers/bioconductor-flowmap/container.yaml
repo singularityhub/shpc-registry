@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowmap
+latest:
+  1.32.0--r41hdfd78af_0: sha256:93d49acfa99288acee0a4b6753a21189d7f14afcc7c646e82781d9699c612ead
+tags:
+  1.32.0--r41hdfd78af_0: sha256:93d49acfa99288acee0a4b6753a21189d7f14afcc7c646e82781d9699c612ead
+docker: quay.io/biocontainers/bioconductor-flowmap

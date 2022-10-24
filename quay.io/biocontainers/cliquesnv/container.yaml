@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cliquesnv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cliquesnv
+latest:
+  2.0.3--hdfd78af_0: sha256:6e270a94e75832e7f75a763df51327b8eff1fd7753fbf67d7d10cee2bba27ab0
+tags:
+  2.0.3--hdfd78af_0: sha256:6e270a94e75832e7f75a763df51327b8eff1fd7753fbf67d7d10cee2bba27ab0
+docker: quay.io/biocontainers/cliquesnv
+aliases:
+  cliquesnv: /usr/local/bin/cliquesnv

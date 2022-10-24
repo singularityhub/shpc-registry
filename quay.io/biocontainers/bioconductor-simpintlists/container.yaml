@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-simpintlists
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-simpintlists
+latest:
+  1.30.0--r41hdfd78af_1: sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799
+tags:
+  1.30.0--r41hdfd78af_1: sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799
+docker: quay.io/biocontainers/bioconductor-simpintlists
+aliases:
+  .bioconductor-simpintlists-post-link.sh: /usr/local/bin/.bioconductor-simpintlists-post-link.sh
+  .bioconductor-simpintlists-pre-unlink.sh: /usr/local/bin/.bioconductor-simpintlists-pre-unlink.sh

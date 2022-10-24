@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/igvtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for igvtools
+latest:
+  2.5.3--hdfd78af_1: sha256:2541f3e3970fd3fd88a6590419b955145023bba39b369ccdada8b4b37168b8e9
+tags:
+  2.5.3--hdfd78af_1: sha256:2541f3e3970fd3fd88a6590419b955145023bba39b369ccdada8b4b37168b8e9
+docker: quay.io/biocontainers/igvtools
+aliases:
+  igvtools: /usr/local/bin/igvtools

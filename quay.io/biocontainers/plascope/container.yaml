@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/plascope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plascope
+latest:
+  1.3.1--hdfd78af_4: sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
+tags:
+  1.3.1--hdfd78af_4: sha256:83394fc0465c426bc4737c888e0f549682b70d1819a41c468f561b60a71b2943
+docker: quay.io/biocontainers/plascope
+aliases:
+  centrifuge: /usr/local/bin/centrifuge
+  centrifuge-BuildSharedSequence.pl: /usr/local/bin/centrifuge-BuildSharedSequence.pl
+  centrifuge-RemoveEmptySequence.pl: /usr/local/bin/centrifuge-RemoveEmptySequence.pl
+  centrifuge-RemoveN.pl: /usr/local/bin/centrifuge-RemoveN.pl
+  centrifuge-build: /usr/local/bin/centrifuge-build
+  centrifuge-build-bin: /usr/local/bin/centrifuge-build-bin
+  centrifuge-class: /usr/local/bin/centrifuge-class
+  centrifuge-compress.pl: /usr/local/bin/centrifuge-compress.pl
+  centrifuge-download: /usr/local/bin/centrifuge-download
+  centrifuge-inspect: /usr/local/bin/centrifuge-inspect
+  centrifuge-inspect-bin: /usr/local/bin/centrifuge-inspect-bin
+  centrifuge-kreport: /usr/local/bin/centrifuge-kreport
+  centrifuge-sort-nt.pl: /usr/local/bin/centrifuge-sort-nt.pl
+  centrifuge_evaluate.py: /usr/local/bin/centrifuge_evaluate.py
+  centrifuge_simulate_reads.py: /usr/local/bin/centrifuge_simulate_reads.py
+  plaScope.sh: /usr/local/bin/plaScope.sh

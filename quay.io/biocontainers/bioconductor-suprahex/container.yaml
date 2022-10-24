@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-suprahex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-suprahex
+latest:
+  1.32.0--r41hdfd78af_0: sha256:144cf3309edc7828bacb40d2258a90af6bdf1ff287321bb7cc59ad12334bab4b
+tags:
+  1.32.0--r41hdfd78af_0: sha256:144cf3309edc7828bacb40d2258a90af6bdf1ff287321bb7cc59ad12334bab4b
+docker: quay.io/biocontainers/bioconductor-suprahex

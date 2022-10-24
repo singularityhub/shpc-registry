@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-exactranktests
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-exactranktests
+latest:
+  0.8_29--r3.3.2_0: sha256:67d151e111692d77e8c69f6cb7cafe2b26c28e61d8b087cad060d1d6bd9bffc1
+tags:
+  0.8_29--r3.3.2_0: sha256:67d151e111692d77e8c69f6cb7cafe2b26c28e61d8b087cad060d1d6bd9bffc1
+docker: quay.io/biocontainers/r-exactranktests

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pram
+latest:
+  1.8.0--r41hdfd78af_0: sha256:7e0eb2f63d3927a39488157ce292c984f6aaeae5dbb74115ad0db4e85d9dfb77
+tags:
+  1.8.0--r41hdfd78af_0: sha256:7e0eb2f63d3927a39488157ce292c984f6aaeae5dbb74115ad0db4e85d9dfb77
+docker: quay.io/biocontainers/bioconductor-pram

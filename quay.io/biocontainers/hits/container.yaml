@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hits
+latest:
+  0.3.3--py37h8902056_1: sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80
+tags:
+  0.3.3--py37h8902056_1: sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80
+docker: quay.io/biocontainers/hits

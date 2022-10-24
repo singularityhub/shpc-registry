@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/hgvs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hgvs
+latest:
+  1.5.2--pyh5e36f6f_0: sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554
+tags:
+  1.5.2--pyh5e36f6f_0: sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554
+docker: quay.io/biocontainers/hgvs
+aliases:
+  hgvs-shell: /usr/local/bin/hgvs-shell
+  pyppeteer-install: /usr/local/bin/pyppeteer-install
+  seqrepo: /usr/local/bin/seqrepo
+  sqlformat: /usr/local/bin/sqlformat
+  yoyo: /usr/local/bin/yoyo
+  yoyo-migrate: /usr/local/bin/yoyo-migrate

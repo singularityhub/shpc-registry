@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pore-c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pore-c
+latest:
+  0.4.0--pyhdfd78af_0: sha256:9bc2957aef6e59d68f9e4a8b17ae6e1274ea5676b651f3ca11ab63c2e633e894
+tags:
+  0.4.0--pyhdfd78af_0: sha256:9bc2957aef6e59d68f9e4a8b17ae6e1274ea5676b651f3ca11ab63c2e633e894
+docker: quay.io/biocontainers/pore-c
+aliases:
+  intake: /usr/local/bin/intake
+  intake-server: /usr/local/bin/intake-server
+  pairtools: /usr/local/bin/pairtools
+  pbgzip: /usr/local/bin/pbgzip
+  pore_c: /usr/local/bin/pore_c

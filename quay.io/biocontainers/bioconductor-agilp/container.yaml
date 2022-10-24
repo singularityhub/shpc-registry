@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-agilp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-agilp
+latest:
+  3.8.0--r3.4.1_0: sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e
+tags:
+  3.8.0--r3.4.1_0: sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e
+docker: quay.io/biocontainers/bioconductor-agilp

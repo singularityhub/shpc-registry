@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/python-htsget
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-htsget
+latest:
+  0.2.5--pyh864c0ab_1: sha256:b926716de7fdb0f03c630a4fd2636bbf7652100681cd21efb41c5224ed0fa8b2
+tags:
+  0.2.5--pyh864c0ab_1: sha256:b926716de7fdb0f03c630a4fd2636bbf7652100681cd21efb41c5224ed0fa8b2
+docker: quay.io/biocontainers/python-htsget
+aliases:
+  htsget: /usr/local/bin/htsget

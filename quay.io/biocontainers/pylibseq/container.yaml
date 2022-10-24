@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pylibseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pylibseq
+latest:
+  0.2.3--py36h2ad2d48_3: sha256:89ae914031cb39902aea8de7d0706478e59996ae864613954c116d585cab8840
+tags:
+  0.2.3--py36h2ad2d48_3: sha256:89ae914031cb39902aea8de7d0706478e59996ae864613954c116d585cab8840
+docker: quay.io/biocontainers/pylibseq
+aliases:
+  msp: /usr/local/bin/msp
+  mspms: /usr/local/bin/mspms
+  tskit: /usr/local/bin/tskit

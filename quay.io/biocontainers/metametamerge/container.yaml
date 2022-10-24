@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metametamerge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metametamerge
+latest:
+  1.1--py_2: sha256:1cfa89b4c160fedcd9b961c19e3ca9980d1e01eea9164b29c9333f318e3bc266
+tags:
+  1.1--py_2: sha256:1cfa89b4c160fedcd9b961c19e3ca9980d1e01eea9164b29c9333f318e3bc266
+docker: quay.io/biocontainers/metametamerge
+aliases:
+  MetaMetaMerge.py: /usr/local/bin/MetaMetaMerge.py

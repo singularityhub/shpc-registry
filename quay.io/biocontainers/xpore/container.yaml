@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/xpore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xpore
+latest:
+  2.1--pyh5e36f6f_0: sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4
+tags:
+  2.1--pyh5e36f6f_0: sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4
+docker: quay.io/biocontainers/xpore
+aliases:
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  pyensembl: /usr/local/bin/pyensembl
+  xpore: /usr/local/bin/xpore
+  xpore-dataprep: /usr/local/bin/xpore-dataprep
+  xpore-diffmod: /usr/local/bin/xpore-diffmod

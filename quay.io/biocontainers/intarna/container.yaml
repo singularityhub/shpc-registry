@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/intarna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for intarna
+latest:
+  3.3.2--pl5321h7ff8a90_0: sha256:eb5a581eca80ab15ad27e6abd2dc60d20425b563acc101ca5049951630094fc3
+tags:
+  3.3.2--pl5321h7ff8a90_0: sha256:eb5a581eca80ab15ad27e6abd2dc60d20425b563acc101ca5049951630094fc3
+docker: quay.io/biocontainers/intarna
+aliases:
+  CopomuS.py: /usr/local/bin/CopomuS.py
+  IntaRNA: /usr/local/bin/IntaRNA
+  IntaRNA1: /usr/local/bin/IntaRNA1
+  IntaRNA2: /usr/local/bin/IntaRNA2
+  IntaRNA3: /usr/local/bin/IntaRNA3
+  IntaRNA_CSV_p-value.R: /usr/local/bin/IntaRNA_CSV_p-value.R
+  IntaRNA_plotRegions.R: /usr/local/bin/IntaRNA_plotRegions.R
+  IntaRNAduplex: /usr/local/bin/IntaRNAduplex
+  IntaRNAens: /usr/local/bin/IntaRNAens
+  IntaRNAexact: /usr/local/bin/IntaRNAexact
+  IntaRNAhelix: /usr/local/bin/IntaRNAhelix
+  IntaRNAsTar: /usr/local/bin/IntaRNAsTar
+  IntaRNAseed: /usr/local/bin/IntaRNAseed

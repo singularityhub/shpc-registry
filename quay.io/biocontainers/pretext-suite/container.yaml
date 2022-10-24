@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/pretext-suite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pretext-suite
+latest:
+  0.0.2--hdfd78af_1: sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
+tags:
+  0.0.2--hdfd78af_1: sha256:d08476ded98692b50f998effcef1d62c3e080cac340b47ca2482542b30123ad5
+docker: quay.io/biocontainers/pretext-suite
+aliases:
+  PretextGraph: /usr/local/bin/PretextGraph
+  PretextGraph.avx: /usr/local/bin/PretextGraph.avx
+  PretextGraph.avx2: /usr/local/bin/PretextGraph.avx2
+  PretextGraph.sse41: /usr/local/bin/PretextGraph.sse41
+  PretextGraph.sse42: /usr/local/bin/PretextGraph.sse42
+  PretextMap: /usr/local/bin/PretextMap
+  PretextMap.avx: /usr/local/bin/PretextMap.avx
+  PretextMap.avx2: /usr/local/bin/PretextMap.avx2
+  PretextMap.noext: /usr/local/bin/PretextMap.noext
+  PretextMap.sse41: /usr/local/bin/PretextMap.sse41
+  PretextMap.sse42: /usr/local/bin/PretextMap.sse42
+  PretextSnapshot: /usr/local/bin/PretextSnapshot
+  PretextSnapshot.avx: /usr/local/bin/PretextSnapshot.avx
+  PretextSnapshot.avx2: /usr/local/bin/PretextSnapshot.avx2
+  PretextSnapshot.sse41: /usr/local/bin/PretextSnapshot.sse41
+  PretextSnapshot.sse42: /usr/local/bin/PretextSnapshot.sse42

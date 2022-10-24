@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-crypt-rc4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-crypt-rc4
+latest:
+  2.02--pl5321hdfd78af_2: sha256:8fbdf3b40e011c6a1a1b544797d677990072c9cea362f0fbb37402d36cfb6acf
+tags:
+  2.02--pl5321hdfd78af_2: sha256:8fbdf3b40e011c6a1a1b544797d677990072c9cea362f0fbb37402d36cfb6acf
+docker: quay.io/biocontainers/perl-crypt-rc4

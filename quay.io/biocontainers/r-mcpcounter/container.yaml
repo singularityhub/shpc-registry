@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mcpcounter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mcpcounter
+latest:
+  1.1.0--r41hdfd78af_3: sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265
+tags:
+  1.1.0--r41hdfd78af_3: sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265
+docker: quay.io/biocontainers/r-mcpcounter

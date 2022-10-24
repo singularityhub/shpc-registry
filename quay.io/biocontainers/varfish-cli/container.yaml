@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/varfish-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for varfish-cli
+latest:
+  0.3.4--pyhdfd78af_0: sha256:52b0834ce60bab03cba6a9c2497cbf7a8b651b0c77e44de7b780cae76eb00918
+tags:
+  0.3.4--pyhdfd78af_0: sha256:52b0834ce60bab03cba6a9c2497cbf7a8b651b0c77e44de7b780cae76eb00918
+docker: quay.io/biocontainers/varfish-cli
+aliases:
+  varfish-cli: /usr/local/bin/varfish-cli

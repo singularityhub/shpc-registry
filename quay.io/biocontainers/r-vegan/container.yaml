@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-vegan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-vegan
+latest:
+  2.4-3: sha256:603f4e7947aab5386c37cac076036ccc652a17c787bd39ec8413ea3d8751217c
+tags:
+  2.4-3: sha256:603f4e7947aab5386c37cac076036ccc652a17c787bd39ec8413ea3d8751217c
+docker: quay.io/biocontainers/r-vegan

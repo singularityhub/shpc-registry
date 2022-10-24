@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/rnaredprint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rnaredprint
+latest:
+  0.3pre--py39h9f5acd7_3: sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c
+tags:
+  0.3pre--py39h9f5acd7_3: sha256:9978439c4f91c1fcc5f8cf26461eb0bed59aff5191cf062b0f01e55ab76eff3c
+docker: quay.io/biocontainers/rnaredprint
+aliases:
+  RNARedPrint: /usr/local/bin/RNARedPrint
+  RNARedPrintSampler.py: /usr/local/bin/RNARedPrintSampler.py
+  RNARedPrintStructure.py: /usr/local/bin/RNARedPrintStructure.py
+  calcprobs.py: /usr/local/bin/calcprobs.py
+  design-energyshift.py: /usr/local/bin/design-energyshift.py
+  design-multistate.py: /usr/local/bin/design-multistate.py

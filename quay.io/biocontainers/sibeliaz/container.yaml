@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/sibeliaz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sibeliaz
+latest:
+  1.2.5--h7bb7ee6_2: sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8
+tags:
+  1.2.5--h7bb7ee6_2: sha256:105863ec791c124d3ac9f6ac68ad9807d10a68c02dd62e45a8d6e3bc96e376b8
+docker: quay.io/biocontainers/sibeliaz
+aliases:
+  graphdump: /usr/local/bin/graphdump
+  maf2synteny: /usr/local/bin/maf2synteny
+  sibeliaz: /usr/local/bin/sibeliaz
+  sibeliaz-lcb: /usr/local/bin/sibeliaz-lcb
+  spoa: /usr/local/bin/spoa
+  twopaco: /usr/local/bin/twopaco

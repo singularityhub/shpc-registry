@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/vsclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vsclust
+latest:
+  0.91--r41hdfd78af_0: sha256:f1f251c5e4b3213d30aa2de1b96fbd4be924ed5696cd053f0e26c240015ce7cd
+tags:
+  0.91--r41hdfd78af_0: sha256:f1f251c5e4b3213d30aa2de1b96fbd4be924ed5696cd053f0e26c240015ce7cd
+docker: quay.io/biocontainers/vsclust
+aliases:
+  runVSClust.R: /usr/local/bin/runVSClust.R
+  run_vsclust_app.R: /usr/local/bin/run_vsclust_app.R

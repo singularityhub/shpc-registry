@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/grequests
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for grequests
+latest:
+  0.3.0--py36_1: sha256:8bf16f745d59efe408d4e06b02e609e466aee775770ecf84682db76a4a99fb46
+tags:
+  0.3.0--py36_1: sha256:8bf16f745d59efe408d4e06b02e609e466aee775770ecf84682db76a4a99fb46
+docker: quay.io/biocontainers/grequests

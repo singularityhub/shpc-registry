@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-types-standard
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-types-standard
+latest:
+  1.002001--pl526_1: sha256:d57fbeba19ecfd0c4bcfc19ef600fa4edb2d27cf8257f4e09d57046681fc63db
+tags:
+  1.002001--pl526_1: sha256:d57fbeba19ecfd0c4bcfc19ef600fa4edb2d27cf8257f4e09d57046681fc63db
+docker: quay.io/biocontainers/perl-types-standard

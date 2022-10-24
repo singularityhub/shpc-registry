@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/iptkl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for iptkl
+latest:
+  0.6.8--pyh5e36f6f_0: sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
+tags:
+  0.6.8--pyh5e36f6f_0: sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3
+docker: quay.io/biocontainers/iptkl
+aliases:
+  colorcet: /usr/local/bin/colorcet
+  compare_gos.py: /usr/local/bin/compare_gos.py
+  go_plot.py: /usr/local/bin/go_plot.py
+  holoviews: /usr/local/bin/holoviews
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  nglview: /usr/local/bin/nglview
+  panel: /usr/local/bin/panel
+  prt_terms.py: /usr/local/bin/prt_terms.py
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mircompdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mircompdata
+latest:
+  1.24.0--r41hdfd78af_1: sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c
+tags:
+  1.24.0--r41hdfd78af_1: sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c
+docker: quay.io/biocontainers/bioconductor-mircompdata
+aliases:
+  .bioconductor-mircompdata-post-link.sh: /usr/local/bin/.bioconductor-mircompdata-post-link.sh
+  .bioconductor-mircompdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mircompdata-pre-unlink.sh

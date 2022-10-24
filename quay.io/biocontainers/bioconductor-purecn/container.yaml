@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-purecn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-purecn
+latest:
+  2.0.2--r41hdfd78af_0: sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0
+tags:
+  2.0.2--r41hdfd78af_0: sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0
+docker: quay.io/biocontainers/bioconductor-purecn

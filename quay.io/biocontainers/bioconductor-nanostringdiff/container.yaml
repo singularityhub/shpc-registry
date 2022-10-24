@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-nanostringdiff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nanostringdiff
+latest:
+  1.24.0--r41hc247a5b_2: sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07
+tags:
+  1.24.0--r41hc247a5b_2: sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07
+docker: quay.io/biocontainers/bioconductor-nanostringdiff

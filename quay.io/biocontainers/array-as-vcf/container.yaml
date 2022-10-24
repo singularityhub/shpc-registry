@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/array-as-vcf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for array-as-vcf
+latest:
+  1.1.0--pyhdfd78af_0: sha256:8fd44cf7649dfd57a7ec6c5398e2a43bafef26e6d1526c4de190220aa0cd0d24
+tags:
+  1.1.0--pyhdfd78af_0: sha256:8fd44cf7649dfd57a7ec6c5398e2a43bafef26e6d1526c4de190220aa0cd0d24
+docker: quay.io/biocontainers/array-as-vcf
+aliases:
+  aav: /usr/local/bin/aav
+  array-as-vcf: /usr/local/bin/array-as-vcf

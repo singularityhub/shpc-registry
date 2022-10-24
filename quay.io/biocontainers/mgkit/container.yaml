@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/mgkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mgkit
+latest:
+  0.5.6--py36h91eb985_1: sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd
+tags:
+  0.5.6--py36h91eb985_1: sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd
+docker: quay.io/biocontainers/mgkit
+aliases:
+  add-gff-info: /usr/local/bin/add-gff-info
+  blast2gff: /usr/local/bin/blast2gff
+  download-ncbi-taxa.sh: /usr/local/bin/download-ncbi-taxa.sh
+  download-taxonomy.sh: /usr/local/bin/download-taxonomy.sh
+  download-uniprot-taxa.sh: /usr/local/bin/download-uniprot-taxa.sh
+  edit-gff: /usr/local/bin/edit-gff
+  extract-gff-info: /usr/local/bin/extract-gff-info
+  fasta-utils: /usr/local/bin/fasta-utils
+  fastq-utils: /usr/local/bin/fastq-utils
+  filter-gff: /usr/local/bin/filter-gff
+  get-gff-info: /usr/local/bin/get-gff-info
+  hmmer2gff: /usr/local/bin/hmmer2gff
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  json2gff: /usr/local/bin/json2gff
+  pnps-gen: /usr/local/bin/pnps-gen
+  sampling-utils: /usr/local/bin/sampling-utils
+  snp_parser: /usr/local/bin/snp_parser
+  sort-gff.sh: /usr/local/bin/sort-gff.sh
+  taxon-utils: /usr/local/bin/taxon-utils

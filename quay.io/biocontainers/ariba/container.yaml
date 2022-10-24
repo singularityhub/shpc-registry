@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/ariba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ariba
+latest:
+  2.5.1--py35_0: sha256:c82cedd434b7c43357f0cd90ee276992f864af8010504d8562baaf4e991d6644
+tags:
+  2.5.1--py35_0: sha256:c82cedd434b7c43357f0cd90ee276992f864af8010504d8562baaf4e991d6644
+docker: quay.io/biocontainers/ariba
+aliases:
+  ariba: /usr/local/bin/ariba
+  bwa-spades: /usr/local/bin/bwa-spades
+  corrector: /usr/local/bin/corrector
+  dipspades: /usr/local/bin/dipspades
+  dipspades.py: /usr/local/bin/dipspades.py
+  hammer: /usr/local/bin/hammer
+  ionhammer: /usr/local/bin/ionhammer
+  scaffold_correction: /usr/local/bin/scaffold_correction
+  spades: /usr/local/bin/spades

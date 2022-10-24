@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-smvar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-smvar
+latest:
+  1.3.3--r3.4.1_0: sha256:d725bcc6738cacb42b2575b538680f87715b42f79e3d56bdcafb9d0df62120d4
+tags:
+  1.3.3--r3.4.1_0: sha256:d725bcc6738cacb42b2575b538680f87715b42f79e3d56bdcafb9d0df62120d4
+docker: quay.io/biocontainers/r-smvar

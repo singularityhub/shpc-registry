@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-recoup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-recoup
+latest:
+  1.8.0--r341_0: sha256:5ac4584687b00a3c4044ecd3bb0b35eea80704ab594d199ea70fe6775c9e06e8
+tags:
+  1.8.0--r341_0: sha256:5ac4584687b00a3c4044ecd3bb0b35eea80704ab594d199ea70fe6775c9e06e8
+docker: quay.io/biocontainers/bioconductor-recoup

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/riassigner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for riassigner
+latest:
+  0.3.3--pyhdfd78af_0: sha256:a4b56c866a9df417109b67788662226b2d1a58343891f542175f8592ed207cdc
+tags:
+  0.3.3--pyhdfd78af_0: sha256:a4b56c866a9df417109b67788662226b2d1a58343891f542175f8592ed207cdc
+docker: quay.io/biocontainers/riassigner
+aliases:
+  pint-convert: /usr/local/bin/pint-convert

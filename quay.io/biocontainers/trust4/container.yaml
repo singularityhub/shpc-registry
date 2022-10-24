@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/trust4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for trust4
+latest:
+  1.0.7--h5b5514e_0: sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e
+tags:
+  1.0.7--h5b5514e_0: sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e
+docker: quay.io/biocontainers/trust4
+aliases:
+  BuildDatabaseFa.pl: /usr/local/bin/BuildDatabaseFa.pl
+  BuildImgtAnnot.pl: /usr/local/bin/BuildImgtAnnot.pl
+  annotator: /usr/local/bin/annotator
+  bam-extractor: /usr/local/bin/bam-extractor
+  fastq-extractor: /usr/local/bin/fastq-extractor
+  run-trust4: /usr/local/bin/run-trust4
+  trust-airr.pl: /usr/local/bin/trust-airr.pl
+  trust-barcoderep.pl: /usr/local/bin/trust-barcoderep.pl
+  trust-simplerep.pl: /usr/local/bin/trust-simplerep.pl
+  trust-smartseq.pl: /usr/local/bin/trust-smartseq.pl
+  trust4: /usr/local/bin/trust4

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mintmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mintmap
+latest:
+  1.0--hdfd78af_3: sha256:91fb1c91082ba9f9c65feb45fed1262af6fc254ef359f68341967c9e34452340
+tags:
+  1.0--hdfd78af_3: sha256:91fb1c91082ba9f9c65feb45fed1262af6fc254ef359f68341967c9e34452340
+docker: quay.io/biocontainers/mintmap
+aliases:
+  MINTmap.pl: /usr/local/bin/MINTmap.pl

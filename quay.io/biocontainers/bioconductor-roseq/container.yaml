@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-roseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-roseq
+latest:
+  1.6.0--r41hdfd78af_0: sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429
+tags:
+  1.6.0--r41hdfd78af_0: sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429
+docker: quay.io/biocontainers/bioconductor-roseq

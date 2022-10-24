@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-autotuner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-autotuner
+latest:
+  1.7.0--r41hdfd78af_0: sha256:0551af0d384f419054f648a5dd177cb940c382bcd0b70a29973bd8fcd8613147
+tags:
+  1.7.0--r41hdfd78af_0: sha256:0551af0d384f419054f648a5dd177cb940c382bcd0b70a29973bd8fcd8613147
+docker: quay.io/biocontainers/bioconductor-autotuner

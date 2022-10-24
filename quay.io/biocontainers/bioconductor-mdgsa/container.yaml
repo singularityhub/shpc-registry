@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mdgsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mdgsa
+latest:
+  1.8.0--r3.4.1_0: sha256:a7190ffaf2458b7d681715edbad731f3457e50d68d0e0c5857b3efae6d13cfe3
+tags:
+  1.8.0--r3.4.1_0: sha256:a7190ffaf2458b7d681715edbad731f3457e50d68d0e0c5857b3efae6d13cfe3
+docker: quay.io/biocontainers/bioconductor-mdgsa

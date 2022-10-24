@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-methrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-methrix
+latest:
+  1.8.0--r41hdfd78af_0: sha256:fe0186fc627ad64684cce4ebfcc216fde01d606a4222b4c7b67cb2e65fe79b16
+tags:
+  1.8.0--r41hdfd78af_0: sha256:fe0186fc627ad64684cce4ebfcc216fde01d606a4222b4c7b67cb2e65fe79b16
+docker: quay.io/biocontainers/bioconductor-methrix

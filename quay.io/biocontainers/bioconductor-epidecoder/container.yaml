@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epidecoder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epidecoder
+latest:
+  1.2.0--r41hdfd78af_0: sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d
+tags:
+  1.2.0--r41hdfd78af_0: sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d
+docker: quay.io/biocontainers/bioconductor-epidecoder

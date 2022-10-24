@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/galaxy-workflow-executor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-workflow-executor
+latest:
+  0.2.6--pyh5e36f6f_0: sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744
+tags:
+  0.2.6--pyh5e36f6f_0: sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744
+docker: quay.io/biocontainers/galaxy-workflow-executor
+aliases:
+  generate_params_from_workflow.py: /usr/local/bin/generate_params_from_workflow.py
+  run_galaxy_workflow.py: /usr/local/bin/run_galaxy_workflow.py

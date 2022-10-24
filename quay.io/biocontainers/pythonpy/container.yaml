@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pythonpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pythonpy
+latest:
+  0.4.2--py_1: sha256:3d74305dbb8b105bcb3bb40d6e70821e32534816efd1e43e50f3fc36b4780a1d
+tags:
+  0.4.2--py_1: sha256:3d74305dbb8b105bcb3bb40d6e70821e32534816efd1e43e50f3fc36b4780a1d
+docker: quay.io/biocontainers/pythonpy
+aliases:
+  py: /usr/local/bin/py
+  py2: /usr/local/bin/py2
+  py2.7: /usr/local/bin/py2.7
+  pycompleter: /usr/local/bin/pycompleter
+  pycompleter2: /usr/local/bin/pycompleter2
+  pycompleter2.7: /usr/local/bin/pycompleter2.7

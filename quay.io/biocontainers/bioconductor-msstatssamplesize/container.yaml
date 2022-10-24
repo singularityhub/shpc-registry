@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msstatssamplesize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msstatssamplesize
+latest:
+  1.8.0--r41hdfd78af_0: sha256:4fc5f3aed9346756928bb91171687ec0f87f7783a779a88b19d0f147787b9479
+tags:
+  1.8.0--r41hdfd78af_0: sha256:4fc5f3aed9346756928bb91171687ec0f87f7783a779a88b19d0f147787b9479
+docker: quay.io/biocontainers/bioconductor-msstatssamplesize

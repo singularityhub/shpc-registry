@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/coral
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for coral
+latest:
+  1.0.0--hf5e1fbb_1: sha256:21f0a77f4cefaac6002804bf27eb2f610179964ed8fdc8506901489066316ad6
+tags:
+  1.0.0--hf5e1fbb_1: sha256:21f0a77f4cefaac6002804bf27eb2f610179964ed8fdc8506901489066316ad6
+docker: quay.io/biocontainers/coral
+aliases:
+  coral: /usr/local/bin/coral

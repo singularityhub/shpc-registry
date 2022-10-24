@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/readucks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for readucks
+latest:
+  0.0.3--py_0: sha256:744fc875dcdb97e0d0b5f4d75fd05fd4301853616600a19108a1293db86271da
+tags:
+  0.0.3--py_0: sha256:744fc875dcdb97e0d0b5f4d75fd05fd4301853616600a19108a1293db86271da
+docker: quay.io/biocontainers/readucks
+aliases:
+  readucks: /usr/local/bin/readucks

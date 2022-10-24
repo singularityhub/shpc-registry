@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-perturbatr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-perturbatr
+latest:
+  1.8.0--r40_0: sha256:eb481898e92faed624e93cb0c34733bb6fdf85f3d5ad84d3f303ee8f8c62a266
+tags:
+  1.8.0--r40_0: sha256:eb481898e92faed624e93cb0c34733bb6fdf85f3d5ad84d3f303ee8f8c62a266
+docker: quay.io/biocontainers/bioconductor-perturbatr

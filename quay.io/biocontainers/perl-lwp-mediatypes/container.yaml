@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-lwp-mediatypes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-lwp-mediatypes
+latest:
+  6.04--pl5321hdfd78af_1: sha256:64862675402cea11d809649d41d253a7a95826ff5f2b89f9c416fc00f94de406
+tags:
+  6.04--pl5321hdfd78af_1: sha256:64862675402cea11d809649d41d253a7a95826ff5f2b89f9c416fc00f94de406
+docker: quay.io/biocontainers/perl-lwp-mediatypes

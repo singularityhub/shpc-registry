@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-charm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-charm
+latest:
+  2.28.0--r351_0: sha256:1c960cefdd53be1cbb48d20563e187f01aabe0b587d2845b71270c993cbaf37c
+tags:
+  2.28.0--r351_0: sha256:1c960cefdd53be1cbb48d20563e187f01aabe0b587d2845b71270c993cbaf37c
+docker: quay.io/biocontainers/bioconductor-charm

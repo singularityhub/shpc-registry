@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pymummer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pymummer
+latest:
+  0.9.0--py35_0: sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e
+tags:
+  0.9.0--py35_0: sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e
+docker: quay.io/biocontainers/pymummer

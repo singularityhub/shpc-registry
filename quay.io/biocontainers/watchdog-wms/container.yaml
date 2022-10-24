@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/watchdog-wms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for watchdog-wms
+latest:
+  2.0.8--hdfd78af_0: sha256:39b3361ceef1c98c9c837ff3405111f7b2d59f81a7f37e9bc084aaa4b2574590
+tags:
+  2.0.8--hdfd78af_0: sha256:39b3361ceef1c98c9c837ff3405111f7b2d59f81a7f37e9bc084aaa4b2574590
+docker: quay.io/biocontainers/watchdog-wms
+aliases:
+  watchdog-cmd: /usr/local/bin/watchdog-cmd
+  watchdog-configureExamples: /usr/local/bin/watchdog-configureExamples
+  watchdog-createNewModule: /usr/local/bin/watchdog-createNewModule
+  watchdog-dependencyTest: /usr/local/bin/watchdog-dependencyTest
+  watchdog-docuTemplateExtractor: /usr/local/bin/watchdog-docuTemplateExtractor
+  watchdog-downloadModuleMaker: /usr/local/bin/watchdog-downloadModuleMaker
+  watchdog-formatCondaYaml: /usr/local/bin/watchdog-formatCondaYaml
+  watchdog-gui: /usr/local/bin/watchdog-gui
+  watchdog-installCondaYaml: /usr/local/bin/watchdog-installCondaYaml
+  watchdog-moduleTest: /usr/local/bin/watchdog-moduleTest
+  watchdog-moduleValidator: /usr/local/bin/watchdog-moduleValidator
+  watchdog-refBookGenerator: /usr/local/bin/watchdog-refBookGenerator
+  watchdog-reportGenerator: /usr/local/bin/watchdog-reportGenerator
+  watchdog-workflowValidator: /usr/local/bin/watchdog-workflowValidator

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-crisprvariants
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-crisprvariants
+latest:
+  1.8.0--r351_0: sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87
+tags:
+  1.8.0--r351_0: sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87
+docker: quay.io/biocontainers/bioconductor-crisprvariants

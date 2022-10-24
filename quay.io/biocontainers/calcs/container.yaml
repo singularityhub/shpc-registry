@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/calcs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for calcs
+latest:
+  0.0.0.9999--pyh5e36f6f_0: sha256:c03b38833f42366f38b5418b7f481db434a51fda31def9e21a9065bc0cfc90fc
+tags:
+  0.0.0.9999--pyh5e36f6f_0: sha256:c03b38833f42366f38b5418b7f481db434a51fda31def9e21a9065bc0cfc90fc
+docker: quay.io/biocontainers/calcs
+aliases:
+  calcs: /usr/local/bin/calcs

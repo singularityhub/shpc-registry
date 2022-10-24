@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/ssake
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ssake
+latest:
+  4.0--hdfd78af_5: sha256:50821451b1749bbd6fcdb888e1655874f7d1b778253958f5444c7f410ac42e99
+tags:
+  4.0--hdfd78af_5: sha256:50821451b1749bbd6fcdb888e1655874f7d1b778253958f5444c7f410ac42e99
+docker: quay.io/biocontainers/ssake
+aliases:
+  SSAKE: /usr/local/bin/SSAKE
+  TQS.py: /usr/local/bin/TQS.py
+  TQSexport.py: /usr/local/bin/TQSexport.py
+  TQSfastq.pl: /usr/local/bin/TQSfastq.pl
+  TQSfastq.py: /usr/local/bin/TQSfastq.py
+  analyzePositionSSAKE.pl: /usr/local/bin/analyzePositionSSAKE.pl
+  getStats.pl: /usr/local/bin/getStats.pl
+  makeFastaFileFromScaffolds.pl: /usr/local/bin/makeFastaFileFromScaffolds.pl
+  makePairedOutput.pl: /usr/local/bin/makePairedOutput.pl
+  makePairedOutput2EQUALfiles.pl: /usr/local/bin/makePairedOutput2EQUALfiles.pl
+  makePairedOutput2UNEQUALfiles.pl: /usr/local/bin/makePairedOutput2UNEQUALfiles.pl
+  nLength.pl: /usr/local/bin/nLength.pl
+  qseq2fasta.pl: /usr/local/bin/qseq2fasta.pl
+  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl
+  splitInput.pl: /usr/local/bin/splitInput.pl

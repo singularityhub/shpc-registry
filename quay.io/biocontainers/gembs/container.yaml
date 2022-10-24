@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/gembs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gembs
+latest:
+  3.5.5_IHEC--py310h125d12e_5: sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299
+tags:
+  3.5.5_IHEC--py310h125d12e_5: sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299
+docker: quay.io/biocontainers/gembs
+aliases:
+  bs_call: /usr/local/bin/bs_call
+  dbSNP_idx: /usr/local/bin/dbSNP_idx
+  gem-indexer: /usr/local/bin/gem-indexer
+  gem-mapper: /usr/local/bin/gem-mapper
+  gem-retriever: /usr/local/bin/gem-retriever
+  gemBS: /usr/local/bin/gemBS

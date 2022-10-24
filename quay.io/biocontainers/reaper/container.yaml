@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/reaper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for reaper
+latest:
+  16.098--hed695b0_3: sha256:3e3d06f406ea8de6182f20f2b9e217872174657488fdbc079167fe669d068d80
+tags:
+  16.098--hed695b0_3: sha256:3e3d06f406ea8de6182f20f2b9e217872174657488fdbc079167fe669d068d80
+docker: quay.io/biocontainers/reaper
+aliases:
+  minion: /usr/local/bin/minion
+  reaper: /usr/local/bin/reaper
+  swan: /usr/local/bin/swan
+  tally: /usr/local/bin/tally

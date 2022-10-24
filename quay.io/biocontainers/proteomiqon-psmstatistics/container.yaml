@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/proteomiqon-psmstatistics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteomiqon-psmstatistics
+latest:
+  0.0.8--hdfd78af_0: sha256:7e99eecf3b2a813b1061ff50d2ebcdf4883fd92c5db430e4a7bc18dae25cea1c
+tags:
+  0.0.8--hdfd78af_0: sha256:7e99eecf3b2a813b1061ff50d2ebcdf4883fd92c5db430e4a7bc18dae25cea1c
+docker: quay.io/biocontainers/proteomiqon-psmstatistics
+aliases:
+  proteomiqon-psmstatistics: /usr/local/bin/proteomiqon-psmstatistics

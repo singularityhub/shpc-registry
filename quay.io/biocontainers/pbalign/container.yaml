@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/pbalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbalign
+latest:
+  0.3.2--py_1: sha256:6e8d293a71ce8cb39567f167cd979191f8c456df6b723355fc55ccd8d9016f6e
+tags:
+  0.3.2--py_1: sha256:6e8d293a71ce8cb39567f167cd979191f8c456df6b723355fc55ccd8d9016f6e
+docker: quay.io/biocontainers/pbalign
+aliases:
+  .blasr-post-link.sh: /usr/local/bin/.blasr-post-link.sh
+  .blasr_libcpp-post-link.sh: /usr/local/bin/.blasr_libcpp-post-link.sh
+  .open: /usr/local/bin/.open
+  .pbalign-post-link.sh: /usr/local/bin/.pbalign-post-link.sh
+  .pbbam-post-link.sh: /usr/local/bin/.pbbam-post-link.sh
+  .pbcommand-post-link.sh: /usr/local/bin/.pbcommand-post-link.sh
+  .pbcopper-post-link.sh: /usr/local/bin/.pbcopper-post-link.sh
+  .pbcore-post-link.sh: /usr/local/bin/.pbcore-post-link.sh
+  bam2sam: /usr/local/bin/bam2sam
+  blasr: /usr/local/bin/blasr
+  createChemistryHeader.py: /usr/local/bin/createChemistryHeader.py
+  extractUnmappedSubreads.py: /usr/local/bin/extractUnmappedSubreads.py
+  loadChemistry.py: /usr/local/bin/loadChemistry.py
+  maskAlignedReads.py: /usr/local/bin/maskAlignedReads.py
+  pbalign: /usr/local/bin/pbalign
+  pbbamify: /usr/local/bin/pbbamify
+  pbindex: /usr/local/bin/pbindex
+  pbindexdump: /usr/local/bin/pbindexdump
+  pbmerge: /usr/local/bin/pbmerge
+  pbservice: /usr/local/bin/pbservice
+  sawriter: /usr/local/bin/sawriter

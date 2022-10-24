@@ -1,6 +1,6 @@
-url: https://biocontainers.pro/tools/2pg_cartesian
+url: https://biocontainers.pro/tools/abpoa
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for 2pg_cartesian
+description: shpc-registry automated BioContainers addition for abpoa
 latest:
   1.4.1--h7132678_1: sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d
 tags:

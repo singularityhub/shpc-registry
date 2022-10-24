@@ -1,0 +1,68 @@
+url: https://biocontainers.pro/tools/nucleosome_prediction
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nucleosome_prediction
+latest:
+  3.0--pl5321h87f3376_4: sha256:0de354adab40e17cfeae3640000f6586044b42dee38be84183e6aab998c408d9
+tags:
+  3.0--pl5321h87f3376_4: sha256:0de354adab40e17cfeae3640000f6586044b42dee38be84183e6aab998c408d9
+docker: quay.io/biocontainers/nucleosome_prediction
+aliases:
+  add_column.pl: /usr/local/bin/add_column.pl
+  add_column.pl.bak: /usr/local/bin/add_column.pl.bak
+  bind.pl: /usr/local/bin/bind.pl
+  bind.pl.bak: /usr/local/bin/bind.pl.bak
+  body.pl: /usr/local/bin/body.pl
+  body.pl.bak: /usr/local/bin/body.pl.bak
+  cut.pl: /usr/local/bin/cut.pl
+  cut.pl.bak: /usr/local/bin/cut.pl.bak
+  fasta2stab.pl: /usr/local/bin/fasta2stab.pl
+  fasta2stab.pl.bak: /usr/local/bin/fasta2stab.pl.bak
+  filter.pl: /usr/local/bin/filter.pl
+  filter.pl.bak: /usr/local/bin/filter.pl.bak
+  format_number.pl: /usr/local/bin/format_number.pl
+  format_number.pl.bak: /usr/local/bin/format_number.pl.bak
+  format_xml.pl: /usr/local/bin/format_xml.pl
+  format_xml.pl.bak: /usr/local/bin/format_xml.pl.bak
+  genie_helpers.pl: /usr/local/bin/genie_helpers.pl
+  genie_helpers.pl.bak: /usr/local/bin/genie_helpers.pl.bak
+  gxw2consensus.pl: /usr/local/bin/gxw2consensus.pl
+  gxw2consensus.pl.bak: /usr/local/bin/gxw2consensus.pl.bak
+  gxw2stats.pl: /usr/local/bin/gxw2stats.pl
+  gxw2stats.pl.bak: /usr/local/bin/gxw2stats.pl.bak
+  join.pl: /usr/local/bin/join.pl
+  join.pl.bak: /usr/local/bin/join.pl.bak
+  libattrib.pl: /usr/local/bin/libattrib.pl
+  libattrib.pl.bak: /usr/local/bin/libattrib.pl.bak
+  libfile.pl: /usr/local/bin/libfile.pl
+  libfile.pl.bak: /usr/local/bin/libfile.pl.bak
+  liblist.pl: /usr/local/bin/liblist.pl
+  liblist.pl.bak: /usr/local/bin/liblist.pl.bak
+  libset.pl: /usr/local/bin/libset.pl
+  libset.pl.bak: /usr/local/bin/libset.pl.bak
+  libstats.pl: /usr/local/bin/libstats.pl
+  libstats.pl.bak: /usr/local/bin/libstats.pl.bak
+  libtable.pl: /usr/local/bin/libtable.pl
+  libtable.pl.bak: /usr/local/bin/libtable.pl.bak
+  lin.pl: /usr/local/bin/lin.pl
+  lin.pl.bak: /usr/local/bin/lin.pl.bak
+  load_args.pl: /usr/local/bin/load_args.pl
+  load_args.pl.bak: /usr/local/bin/load_args.pl.bak
+  ltqnorm.pl: /usr/local/bin/ltqnorm.pl
+  ltqnorm.pl.bak: /usr/local/bin/ltqnorm.pl.bak
+  make_gnuplot_graph.pl: /usr/local/bin/make_gnuplot_graph.pl
+  make_gnuplot_graph.pl.bak: /usr/local/bin/make_gnuplot_graph.pl.bak
+  map_learn_static: /usr/local/bin/map_learn_static
+  modify_column.pl: /usr/local/bin/modify_column.pl
+  modify_column.pl.bak: /usr/local/bin/modify_column.pl.bak
+  nucleosome_prediction.pl: /usr/local/bin/nucleosome_prediction.pl
+  nucleosome_prediction.pl.bak: /usr/local/bin/nucleosome_prediction.pl.bak
+  sequence_helpers.pl: /usr/local/bin/sequence_helpers.pl
+  sequence_helpers.pl.bak: /usr/local/bin/sequence_helpers.pl.bak
+  stab2fasta.pl: /usr/local/bin/stab2fasta.pl
+  stab2fasta.pl.bak: /usr/local/bin/stab2fasta.pl.bak
+  tab2feature_gxt.pl: /usr/local/bin/tab2feature_gxt.pl
+  tab2feature_gxt.pl.bak: /usr/local/bin/tab2feature_gxt.pl.bak
+  to_upper_case.pl: /usr/local/bin/to_upper_case.pl
+  to_upper_case.pl.bak: /usr/local/bin/to_upper_case.pl.bak
+  transpose.pl: /usr/local/bin/transpose.pl
+  transpose.pl.bak: /usr/local/bin/transpose.pl.bak
