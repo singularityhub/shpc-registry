@@ -1,6 +1,7 @@
 name: 'Update Containers'
 
 on:
+  pull_request: []
   schedule:
     # Now daily for a smaller subset of containers
     - cron: '0 17 * * *'
