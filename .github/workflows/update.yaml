@@ -2,8 +2,8 @@ name: 'Update Containers'
 
 on:
   schedule:
-    # Once a month
-    - cron: '0 0 1 * *'
+    # Now daily for a smaller subset of containers
+    - cron: '0 17 * * *'
 
 jobs:
   auto-scan:
@@ -26,9 +26,23 @@ jobs:
           # Remove default remote registry and add PWD
           shpc config remove registry https://github.com/singularityhub/shpc-registry
           shpc config add registry $(pwd)
-          for name in $(shpc show); do
-              shpc update ${name}
-          done
+          shpc show > listing.txt
+
+      # Run a specific letter matched to a day of the month A==1, Z==26
+      - name: Calendar Updater
+        uses: vsoch/split-list-action@main
+        with:
+          ids_file: listing.txt
+          outfile: shpc-show-subset.txt
+
+          # One letter assigned to each day
+          calendar_split: true
+
+      - name: Run Update on Subset
+        run: |
+            for entry in $(cat ./shpc-show-subset.txt); do
+                shpc update ${entry}
+            done
 
       - name: Checkout Update branch
         env:
