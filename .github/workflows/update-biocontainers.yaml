@@ -1,0 +1,65 @@
+name: 'Update Containers'
+
+on:
+  schedule:
+    # Run monthly
+    - cron: '0 0 1 * *'
+
+jobs:
+  auto-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+
+      - name: Install Dependencies
+        run: pip install git+https://github.com/singularityhub/singularity-hpc@main
+          
+      - name: Update Biocontainers
+        run: |
+          git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
+          python .github/scripts/update_biocontainers.py ---cache /tmp/cache
+
+      - name: Checkout Update branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_AGAINST: "main"
+        run: |
+          printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+          export BRANCH_FROM="update/biocontainers-$(date '+%Y-%m-%d')"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
+          if [[ -z ${BRANCH_EXISTS} ]]; then
+              printf "Branch does not exist in remote.\n"
+          else
+              printf "Branch already exists in remote.\n"
+              exit 1
+          fi
+          git branch
+          git checkout -b "${BRANCH_FROM}" || git checkout "${BRANCH_FROM}"
+          git branch
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git add ./*
+          git status
+          if git diff-index --quiet HEAD --; then
+             export OPEN_PULL_REQUEST=0
+             printf "No changes\n"
+          else
+             export OPEN_PULL_REQUEST=1
+             printf "Changes\n"
+             git commit -a -m "Automated deployment to update containers $(date '+%Y-%m-%d')"
+             git push origin "${BRANCH_FROM}"
+          fi
+          echo "OPEN_PULL_REQUEST=${OPEN_PULL_REQUEST}" >> $GITHUB_ENV
+          echo "PULL_REQUEST_FROM_BRANCH=${BRANCH_FROM}" >> $GITHUB_ENV
+          echo "PULL_REQUEST_TITLE=[bot] ${BRANCH_FROM}" >> $GITHUB_ENV
+          echo "PULL_REQUEST_BODY=Update container modules pull request." >> $GITHUB_ENV
+      - name: Open Pull Request
+        uses: vsoch/pull-request-action@1.0.16
+        if: ${{ env.OPEN_PULL_REQUEST == '1' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST_BRANCH: "main"
