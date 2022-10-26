@@ -15,13 +15,8 @@ jobs:
         with:
           fetch-depth: '0'
 
-      - name: Create conda environment
-        run: conda create --quiet -c conda-forge --name shpc spython
-
       - name: Install shpc
         run: |
-          export PATH="/usr/share/miniconda/bin:$PATH"
-          source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
           
           # Remove default remote registry and add PWD
