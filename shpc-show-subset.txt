@@ -1,0 +1,9 @@
+ghcr.io/autamus/zlib
+ghcr.io/autamus/fastqc
+quay.io/biocontainers/gatk4
+singularityhub/singularity-deploy
+ghcr.io/autamus/migrate
+ghcr.io/autamus/bowtie2
+ghcr.io/autamus/tau
+ghcr.io/autamus/openjdk
+quay.io/biocontainers/diamond
