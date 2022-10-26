@@ -69,7 +69,7 @@ def main():
     container["aliases"] = aliases
     print(f"Writing with aliases to {container_yaml}")
     shpc.utils.write_yaml(container, container_yaml)
-    print(f"::set-output name=container_yaml::{container_yaml}")
+    print(f"container_yaml={container_yaml} >> $GITHUB_OUTPUT")
 
 
 if __name__ == "__main__":

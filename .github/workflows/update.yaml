@@ -1,7 +1,6 @@
 name: 'Update Containers'
 
 on:
-  pull_request: []
   schedule:
     # Now daily for a smaller subset of containers
     - cron: '0 17 * * *'
@@ -39,6 +38,7 @@ jobs:
             for entry in $(cat ./shpc-show-subset.txt); do
                 shpc update ${entry}
             done
+            rm listing.txt
 
       - name: Checkout Update branch
         env:
