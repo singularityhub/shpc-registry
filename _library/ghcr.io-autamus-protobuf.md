@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/protobuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/protobuf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/protobuf/container.yaml"
-updated_at: "2022-10-17 09:56:55.885425"
+updated_at: "2022-10-26 02:48:24.515203"
 latest: "3.19.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/protobuf"
 aliases:
@@ -108,7 +108,7 @@ $ singularity inspect -d <container>
 
 
 #### protoc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/protoc
 $ podman run --it --rm --entrypoint /opt/view/bin/protoc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -117,7 +117,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/protoc   -v ${PWD} -w ${PWD} <
 
 
 #### protoc-3.15.8.0
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/protoc-3.15.8.0
 $ podman run --it --rm --entrypoint /opt/view/bin/protoc-3.15.8.0   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -138,7 +138,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

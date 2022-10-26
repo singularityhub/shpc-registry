@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bart/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bart/container.yaml"
-updated_at: "2022-10-17 09:56:53.760891"
+updated_at: "2022-10-26 02:47:43.798101"
 latest: "0.7.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bart"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### bart
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bart
 $ podman run --it --rm --entrypoint /opt/view/bin/bart   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bart   -v ${PWD} -w ${PWD} <co
 
 
 #### bartview
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bartview
 $ podman run --it --rm --entrypoint /opt/view/bin/bartview   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

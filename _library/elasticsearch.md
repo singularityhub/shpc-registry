@@ -4,7 +4,7 @@ name:  "elasticsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/elasticsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/elasticsearch/container.yaml"
-updated_at: "2022-10-17 09:57:56.034633"
+updated_at: "2022-10-26 02:48:36.309720"
 latest: "8.4.2"
 container_url: "https://hub.docker.com/_/elasticsearch"
 aliases:
@@ -139,7 +139,7 @@ $ singularity inspect -d <container>
 
 
 #### elasticsearch
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -148,7 +148,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch  
 
 
 #### elasticsearch-certgen
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-certgen
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-certgen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -157,7 +157,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-c
 
 
 #### elasticsearch-certutil
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-certutil
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -166,7 +166,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-c
 
 
 #### elasticsearch-cli
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-cli
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -175,7 +175,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-c
 
 
 #### elasticsearch-croneval
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-croneval
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-croneval   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-c
 
 
 #### elasticsearch-env
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-env
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-env   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -193,7 +193,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-e
 
 
 #### elasticsearch-env-from-file
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-env-from-file
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-env-from-file   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -202,7 +202,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-e
 
 
 #### elasticsearch-keystore
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-keystore
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-keystore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-k
 
 
 #### elasticsearch-migrate
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-migrate
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-migrate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -220,7 +220,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-m
 
 
 #### elasticsearch-node
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-node
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-node   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -229,7 +229,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-n
 
 
 #### elasticsearch-plugin
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-plugin
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -238,7 +238,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-p
 
 
 #### elasticsearch-saml-metadata
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-saml-metadata
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-saml-metadata   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -247,7 +247,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-s
 
 
 #### elasticsearch-setup-passwords
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-setup-passwords
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-setup-passwords   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -256,7 +256,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-s
 
 
 #### elasticsearch-shard
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-shard
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-shard   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -265,7 +265,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-s
 
 
 #### elasticsearch-sql-cli
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-sql-cli
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-sql-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -274,7 +274,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-s
 
 
 #### elasticsearch-sql-cli-7.12.0.jar
-       
+
 ```bash
 $ singularity exec <container> java jar /usr/share/elasticsearch/bin/elasticsearch-sql-cli-7.12.0.jar
 $ podman run --it --rm --entrypoint java   -v ${PWD} -w ${PWD} <container> -c "jar /usr/share/elasticsearch/bin/elasticsearch-sql-cli-7.12.0.jar $@"
@@ -283,7 +283,7 @@ $ docker run --it --rm --entrypoint java   -v ${PWD} -w ${PWD} <container> -c "j
 
 
 #### elasticsearch-syskeygen
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-syskeygen
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-syskeygen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -292,7 +292,7 @@ $ docker run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-s
 
 
 #### elasticsearch-users
-       
+
 ```bash
 $ singularity exec <container> /usr/share/elasticsearch/bin/elasticsearch-users
 $ podman run --it --rm --entrypoint /usr/share/elasticsearch/bin/elasticsearch-users   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -313,7 +313,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

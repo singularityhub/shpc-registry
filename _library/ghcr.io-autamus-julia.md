@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/julia/container.yaml"
-updated_at: "2022-10-17 09:56:20.573820"
+updated_at: "2022-10-26 02:47:46.020753"
 latest: "1.7.0.rc.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/julia"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### julia
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/julia
 $ podman run --it --rm --entrypoint /opt/view/bin/julia   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

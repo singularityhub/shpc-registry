@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mrbayes/container.yaml"
-updated_at: "2022-10-17 09:57:32.462752"
+updated_at: "2022-10-26 02:46:53.993004"
 latest: "3.2.7--h5465cc4_4"
 container_url: "https://quay.io/repository/biocontainers/mrbayes"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### mb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mb
 $ podman run --it --rm --entrypoint /usr/local/bin/mb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

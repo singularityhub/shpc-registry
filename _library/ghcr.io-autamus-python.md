@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/python/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/python/container.yaml"
-updated_at: "2022-10-17 09:55:35.447567"
+updated_at: "2022-10-26 02:48:12.361828"
 latest: "3.10.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/python"
 aliases:
@@ -112,7 +112,7 @@ $ singularity inspect -d <container>
 
 
 #### pydoc3
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pydoc3
 $ podman run --it --rm --entrypoint /opt/view/bin/pydoc3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pydoc3   -v ${PWD} -w ${PWD} <
 
 
 #### pydoc3.8
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pydoc3.8
 $ podman run --it --rm --entrypoint /opt/view/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pydoc3.8   -v ${PWD} -w ${PWD}
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python
 $ podman run --it --rm --entrypoint /opt/view/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -139,7 +139,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python   -v ${PWD} -w ${PWD} <
 
 
 #### python-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python-config
 $ podman run --it --rm --entrypoint /opt/view/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -148,7 +148,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python-config   -v ${PWD} -w $
 
 
 #### python3
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python3
 $ podman run --it --rm --entrypoint /opt/view/bin/python3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -157,7 +157,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python3   -v ${PWD} -w ${PWD} 
 
 
 #### python3-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python3-config
 $ podman run --it --rm --entrypoint /opt/view/bin/python3-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -166,7 +166,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python3-config   -v ${PWD} -w 
 
 
 #### python3.8
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python3.8
 $ podman run --it --rm --entrypoint /opt/view/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -175,7 +175,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python3.8   -v ${PWD} -w ${PWD
 
 
 #### python3.8-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python3.8-config
 $ podman run --it --rm --entrypoint /opt/view/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/python3.8-config   -v ${PWD} -
 
 
 #### python3.8-gdb.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/python3.8-gdb.py
 $ podman run --it --rm --entrypoint /opt/view/bin/python3.8-gdb.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -205,7 +205,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

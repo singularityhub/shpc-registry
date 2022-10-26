@@ -4,7 +4,7 @@ name:  "rabbitmq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rabbitmq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rabbitmq/container.yaml"
-updated_at: "2022-10-17 09:57:43.006608"
+updated_at: "2022-10-26 02:47:08.701484"
 latest: "3.11"
 container_url: "https://hub.docker.com/r/_/rabbitmq"
 aliases:
@@ -123,7 +123,7 @@ $ singularity inspect -d <container>
 
 
 #### rabbitmq-defaults
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-defaults
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-defaults   -v ${
 
 
 #### rabbitmq-diagnostics
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-diagnostics
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-diagnostics   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-diagnostics   -v
 
 
 #### rabbitmq-env
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-env
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-env   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-env   -v ${PWD} 
 
 
 #### rabbitmq-plugins
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-plugins
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-plugins   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -159,7 +159,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-plugins   -v ${P
 
 
 #### rabbitmq-queues
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-queues
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-queues   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -168,7 +168,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-queues   -v ${PW
 
 
 #### rabbitmq-server
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-server
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -177,7 +177,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-server   -v ${PW
 
 
 #### rabbitmq-upgrade
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmq-upgrade
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -186,7 +186,7 @@ $ docker run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmq-upgrade   -v ${P
 
 
 #### rabbitmqctl
-       
+
 ```bash
 $ singularity exec <container> /opt/rabbitmq/sbin/rabbitmqctl
 $ podman run --it --rm --entrypoint /opt/rabbitmq/sbin/rabbitmqctl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -207,7 +207,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

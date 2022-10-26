@@ -4,7 +4,7 @@ name:  "poldracklab/mriqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/poldracklab/mriqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/poldracklab/mriqc/container.yaml"
-updated_at: "2022-10-17 09:57:41.955590"
+updated_at: "2022-10-26 02:48:39.301397"
 latest: "0.16.1"
 container_url: "https://hub.docker.com/r/poldracklab/mriqc"
 aliases:
@@ -99,7 +99,7 @@ $ singularity inspect -d <container>
 
 
 #### mriqc
-       
+
 ```bash
 $ singularity exec <container> /usr/local/miniconda/bin/mriqc
 $ podman run --it --rm --entrypoint /usr/local/miniconda/bin/mriqc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

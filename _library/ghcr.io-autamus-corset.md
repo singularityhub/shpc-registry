@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/corset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/corset/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/corset/container.yaml"
-updated_at: "2022-10-17 09:56:11.138593"
+updated_at: "2022-10-26 02:47:16.018898"
 latest: "1.09"
 container_url: "https://github.com/orgs/autamus/packages/container/package/corset"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### corset
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/corset
 $ podman run --it --rm --entrypoint /opt/view/bin/corset   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -110,7 +110,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/corset   -v ${PWD} -w ${PWD} <
 
 
 #### corset_fasta_ID_changer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/corset_fasta_ID_changer
 $ podman run --it --rm --entrypoint /opt/view/bin/corset_fasta_ID_changer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

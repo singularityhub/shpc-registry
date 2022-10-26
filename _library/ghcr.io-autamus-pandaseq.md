@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pandaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/pandaseq/container.yaml"
-updated_at: "2022-10-17 09:56:18.893729"
+updated_at: "2022-10-26 02:47:33.667446"
 latest: "2.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pandaseq"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### pandaseq
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pandaseq
 $ podman run --it --rm --entrypoint /opt/view/bin/pandaseq   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pandaseq   -v ${PWD} -w ${PWD}
 
 
 #### pandaseq-checkid
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pandaseq-checkid
 $ podman run --it --rm --entrypoint /opt/view/bin/pandaseq-checkid   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pandaseq-checkid   -v ${PWD} -
 
 
 #### pandaseq-diff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pandaseq-diff
 $ podman run --it --rm --entrypoint /opt/view/bin/pandaseq-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pandaseq-diff   -v ${PWD} -w $
 
 
 #### pandaseq-hang
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pandaseq-hang
 $ podman run --it --rm --entrypoint /opt/view/bin/pandaseq-hang   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pandaseq-hang   -v ${PWD} -w $
 
 
 #### pandaxs
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pandaxs
 $ podman run --it --rm --entrypoint /opt/view/bin/pandaxs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

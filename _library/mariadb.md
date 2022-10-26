@@ -4,7 +4,7 @@ name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2022-10-17 09:57:56.579169"
+updated_at: "2022-10-26 02:47:05.227697"
 latest: "10.10-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:
@@ -147,7 +147,7 @@ $ singularity inspect -d <container>
 
 
 #### mariabackup
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariabackup
 $ podman run --it --rm --entrypoint /usr/bin/mariabackup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -156,7 +156,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariabackup   -v ${PWD} -w ${PWD} <
 
 
 #### mariadb
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb
 $ podman run --it --rm --entrypoint /usr/bin/mariadb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -165,7 +165,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb   -v ${PWD} -w ${PWD} <cont
 
 
 #### mariadb-access
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-access
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-access   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -174,7 +174,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-access   -v ${PWD} -w ${PWD
 
 
 #### mariadb-admin
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-admin
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-admin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -183,7 +183,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-admin   -v ${PWD} -w ${PWD}
 
 
 #### mariadb-analyze
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-analyze
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-analyze   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -192,7 +192,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-analyze   -v ${PWD} -w ${PW
 
 
 #### mariadb-backup
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-backup
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-backup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -201,7 +201,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-backup   -v ${PWD} -w ${PWD
 
 
 #### mariadb-binlog
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-binlog
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-binlog   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -210,7 +210,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-binlog   -v ${PWD} -w ${PWD
 
 
 #### mariadb-check
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-check
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-check   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -219,7 +219,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-check   -v ${PWD} -w ${PWD}
 
 
 #### mariadb-conv
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-conv
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-conv   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -228,7 +228,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-conv   -v ${PWD} -w ${PWD} 
 
 
 #### mariadb-convert-table-format
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-convert-table-format
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-convert-table-format   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -237,7 +237,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-convert-table-format   -v $
 
 
 #### mariadb-dump
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-dump
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -246,7 +246,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-dump   -v ${PWD} -w ${PWD} 
 
 
 #### mariadb-dumpslow
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-dumpslow
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-dumpslow   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -255,7 +255,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-dumpslow   -v ${PWD} -w ${P
 
 
 #### mariadb-find-rows
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-find-rows
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-find-rows   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -264,7 +264,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-find-rows   -v ${PWD} -w ${
 
 
 #### mariadb-fix-extensions
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-fix-extensions
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-fix-extensions   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -273,7 +273,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-fix-extensions   -v ${PWD} 
 
 
 #### mariadb-hotcopy
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-hotcopy
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-hotcopy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -282,7 +282,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-hotcopy   -v ${PWD} -w ${PW
 
 
 #### mariadb-import
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-import
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-import   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -291,7 +291,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-import   -v ${PWD} -w ${PWD
 
 
 #### mariadb-install-db
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-install-db
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-install-db   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -300,7 +300,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-install-db   -v ${PWD} -w $
 
 
 #### mariadb-optimize
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-optimize
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-optimize   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -309,7 +309,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-optimize   -v ${PWD} -w ${P
 
 
 #### mariadb-plugin
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-plugin
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -318,7 +318,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-plugin   -v ${PWD} -w ${PWD
 
 
 #### mariadb-repair
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-repair
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-repair   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -327,7 +327,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-repair   -v ${PWD} -w ${PWD
 
 
 #### mariadb-report
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-report
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-report   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -336,7 +336,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-report   -v ${PWD} -w ${PWD
 
 
 #### mariadb-secure-installation
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-secure-installation
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-secure-installation   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -345,7 +345,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-secure-installation   -v ${
 
 
 #### mariadb-service-convert
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-service-convert
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-service-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -354,7 +354,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-service-convert   -v ${PWD}
 
 
 #### mariadb-setpermission
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-setpermission
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-setpermission   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -363,7 +363,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-setpermission   -v ${PWD} -
 
 
 #### mariadb-show
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-show
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-show   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -372,7 +372,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-show   -v ${PWD} -w ${PWD} 
 
 
 #### mariadb-slap
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-slap
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-slap   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -381,7 +381,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-slap   -v ${PWD} -w ${PWD} 
 
 
 #### mariadb-tzinfo-to-sql
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-tzinfo-to-sql
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-tzinfo-to-sql   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -390,7 +390,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-tzinfo-to-sql   -v ${PWD} -
 
 
 #### mariadb-upgrade
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-upgrade
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -399,7 +399,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-upgrade   -v ${PWD} -w ${PW
 
 
 #### mariadb-waitpid
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadb-waitpid
 $ podman run --it --rm --entrypoint /usr/bin/mariadb-waitpid   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -408,7 +408,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadb-waitpid   -v ${PWD} -w ${PW
 
 
 #### mariadbcheck
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadbcheck
 $ podman run --it --rm --entrypoint /usr/bin/mariadbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -417,7 +417,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadbcheck   -v ${PWD} -w ${PWD} 
 
 
 #### mariadbd-multi
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadbd-multi
 $ podman run --it --rm --entrypoint /usr/bin/mariadbd-multi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -426,7 +426,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadbd-multi   -v ${PWD} -w ${PWD
 
 
 #### mariadbd-safe
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadbd-safe
 $ podman run --it --rm --entrypoint /usr/bin/mariadbd-safe   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -435,7 +435,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mariadbd-safe   -v ${PWD} -w ${PWD}
 
 
 #### mariadbd-safe-helper
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mariadbd-safe-helper
 $ podman run --it --rm --entrypoint /usr/bin/mariadbd-safe-helper   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -456,7 +456,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

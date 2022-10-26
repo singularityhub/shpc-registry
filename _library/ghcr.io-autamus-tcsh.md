@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/tcsh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tcsh/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/tcsh/container.yaml"
-updated_at: "2022-10-17 09:55:47.201818"
+updated_at: "2022-10-26 02:47:24.293718"
 latest: "6.24.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tcsh"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### tcsh
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tcsh
 $ podman run --it --rm --entrypoint /opt/view/bin/tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

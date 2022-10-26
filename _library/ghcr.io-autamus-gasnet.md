@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gasnet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gasnet/container.yaml"
-updated_at: "2022-10-17 09:55:49.360752"
+updated_at: "2022-10-26 02:48:19.248446"
 latest: "2022.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gasnet"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### gasnet_trace
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gasnet_trace
 $ podman run --it --rm --entrypoint /opt/view/bin/gasnet_trace   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gasnet_trace   -v ${PWD} -w ${
 
 
 #### gasnet_trace.pl
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gasnet_trace.pl
 $ podman run --it --rm --entrypoint /opt/view/bin/gasnet_trace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

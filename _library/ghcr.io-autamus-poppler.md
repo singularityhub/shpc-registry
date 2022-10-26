@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/poppler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/poppler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/poppler/container.yaml"
-updated_at: "2022-10-17 09:55:57.745302"
+updated_at: "2022-10-26 02:47:21.234740"
 latest: "21.11.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/poppler"
 aliases:
@@ -116,7 +116,7 @@ $ singularity inspect -d <container>
 
 
 #### pdfattach
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfattach
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfattach   -v ${PWD} -w ${PWD
 
 
 #### pdfdetach
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfdetach
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfdetach   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -134,7 +134,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfdetach   -v ${PWD} -w ${PWD
 
 
 #### pdffonts
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdffonts
 $ podman run --it --rm --entrypoint /opt/view/bin/pdffonts   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdffonts   -v ${PWD} -w ${PWD}
 
 
 #### pdfimages
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfimages
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfimages   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfimages   -v ${PWD} -w ${PWD
 
 
 #### pdfinfo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfinfo
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfinfo   -v ${PWD} -w ${PWD} 
 
 
 #### pdfseparate
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfseparate
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfseparate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfseparate   -v ${PWD} -w ${P
 
 
 #### pdftohtml
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdftohtml
 $ podman run --it --rm --entrypoint /opt/view/bin/pdftohtml   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdftohtml   -v ${PWD} -w ${PWD
 
 
 #### pdftops
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdftops
 $ podman run --it --rm --entrypoint /opt/view/bin/pdftops   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -188,7 +188,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdftops   -v ${PWD} -w ${PWD} 
 
 
 #### pdftotext
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdftotext
 $ podman run --it --rm --entrypoint /opt/view/bin/pdftotext   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -197,7 +197,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdftotext   -v ${PWD} -w ${PWD
 
 
 #### pdfunite
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pdfunite
 $ podman run --it --rm --entrypoint /opt/view/bin/pdfunite   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -206,7 +206,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/pdfunite   -v ${PWD} -w ${PWD}
 
 
 #### png-fix-itxt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/png-fix-itxt
 $ podman run --it --rm --entrypoint /opt/view/bin/png-fix-itxt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -215,7 +215,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/png-fix-itxt   -v ${PWD} -w ${
 
 
 #### pngfix
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pngfix
 $ podman run --it --rm --entrypoint /opt/view/bin/pngfix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -236,7 +236,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

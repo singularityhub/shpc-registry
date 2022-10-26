@@ -4,7 +4,7 @@ name:  "bids/aa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/aa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/aa/container.yaml"
-updated_at: "2022-10-17 09:58:11.770317"
+updated_at: "2022-10-26 02:48:45.430686"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/aa"
 
@@ -119,7 +119,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

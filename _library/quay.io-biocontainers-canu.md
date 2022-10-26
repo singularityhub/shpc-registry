@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canu/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/canu/container.yaml"
-updated_at: "2022-10-17 09:57:22.601887"
+updated_at: "2022-10-26 02:46:58.272768"
 latest: "2.2--ha47f30e_0"
 container_url: "https://quay.io/repository/biocontainers/canu"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### canu
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/canu
 $ podman run --it --rm --entrypoint /usr/local/bin/canu   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

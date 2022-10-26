@@ -4,7 +4,7 @@ name:  "redis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/redis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/redis/container.yaml"
-updated_at: "2022-10-17 09:57:10.246271"
+updated_at: "2022-10-26 02:47:08.271954"
 latest: "7-alpine3.16"
 container_url: "https://hub.docker.com/r/_/redis"
 aliases:
@@ -117,7 +117,7 @@ $ singularity inspect -d <container>
 
 
 #### redis-benchmark
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-benchmark
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-benchmark   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -126,7 +126,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/redis-benchmark   -v ${PWD} -
 
 
 #### redis-check-aof
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-check-aof
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-check-aof   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/redis-check-aof   -v ${PWD} -
 
 
 #### redis-check-rdb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-check-rdb
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-check-rdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -144,7 +144,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/redis-check-rdb   -v ${PWD} -
 
 
 #### redis-cli
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-cli
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -153,7 +153,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/redis-cli   -v ${PWD} -w ${PW
 
 
 #### redis-sentinel
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-sentinel
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-sentinel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -162,7 +162,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/redis-sentinel   -v ${PWD} -w
 
 
 #### redis-server
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/redis-server
 $ podman run --it --rm --entrypoint /usr/local/bin/redis-server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -183,7 +183,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

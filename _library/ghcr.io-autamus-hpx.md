@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hpx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hpx/container.yaml"
-updated_at: "2022-10-17 09:56:43.771772"
+updated_at: "2022-10-26 02:47:36.328047"
 latest: "1.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpx"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### hpxcxx
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpxcxx
 $ podman run --it --rm --entrypoint /opt/view/bin/hpxcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hpxcxx   -v ${PWD} -w ${PWD} <
 
 
 #### hpxrun.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpxrun.py
 $ podman run --it --rm --entrypoint /opt/view/bin/hpxrun.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "rocker/rstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/rstudio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
-updated_at: "2022-10-17 09:57:59.270514"
+updated_at: "2022-10-26 02:47:06.087167"
 latest: "latest-daily"
 container_url: "https://hub.docker.com/r/rocker/rstudio"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### R
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/R
 $ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <cont
 
 
 #### Rscript
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/Rscript
 $ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD}
 
 
 #### rocker-rstudio-run
-       
+
 ```bash
 $ singularity exec <container> /bin/bash
 $ podman run --it --rm --entrypoint /bin/bash   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /bin/bash   -v ${PWD} -w ${PWD} <container> 
 
 
 #### rserver
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/rstudio-server/bin/rserver
 $ podman run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rserver   -v ${P
 
 
 #### rserver-pam
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/rstudio-server/bin/rserver-pam
 $ podman run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rserver-pam   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rserver-pam   -v
 
 
 #### rsession
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/rstudio-server/bin/rsession
 $ podman run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rsession   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -160,7 +160,7 @@ $ docker run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rsession   -v ${
 
 
 #### rstudio-server
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/rstudio-server/bin/rstudio-server
 $ podman run --it --rm --entrypoint /usr/lib/rstudio-server/bin/rstudio-server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

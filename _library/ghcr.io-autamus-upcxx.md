@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/upcxx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/upcxx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/upcxx/container.yaml"
-updated_at: "2022-10-17 09:56:17.789709"
+updated_at: "2022-10-26 02:48:14.953967"
 latest: "2021.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/upcxx"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### upcxx
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/upcxx
 $ podman run --it --rm --entrypoint /opt/view/bin/upcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/upcxx   -v ${PWD} -w ${PWD} <c
 
 
 #### upcxx-meta
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/upcxx-meta
 $ podman run --it --rm --entrypoint /opt/view/bin/upcxx-meta   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/upcxx-meta   -v ${PWD} -w ${PW
 
 
 #### upcxx-run
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/upcxx-run
 $ podman run --it --rm --entrypoint /opt/view/bin/upcxx-run   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/upcxx-run   -v ${PWD} -w ${PWD
 
 
 #### upcxx.sh
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/upcxx.sh
 $ podman run --it --rm --entrypoint /opt/view/bin/upcxx.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

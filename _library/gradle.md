@@ -4,7 +4,7 @@ name:  "gradle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/gradle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/gradle/container.yaml"
-updated_at: "2022-10-17 09:58:04.104371"
+updated_at: "2022-10-26 02:48:31.087809"
 latest: "7-jdk18"
 container_url: "https://hub.docker.com/_/gradle"
 aliases:
@@ -114,7 +114,7 @@ $ singularity inspect -d <container>
 
 
 #### gradle
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/gradle
 $ podman run --it --rm --entrypoint /usr/bin/gradle   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

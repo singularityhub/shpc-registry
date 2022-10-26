@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abacat/container.yaml"
-updated_at: "2022-10-17 09:57:19.418258"
+updated_at: "2022-10-26 02:46:57.417868"
 latest: "0.0.4a--py_0"
 container_url: "quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_2"
 aliases:
@@ -107,7 +107,7 @@ $ singularity inspect -d <container>
 
 
 #### annotate.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/annotate.py
 $ podman run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -116,7 +116,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${
 
 
 #### fastANI
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fastANI
 $ podman run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD}
 
 
 #### phenotyping.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/phenotyping.py
 $ podman run --it --rm --entrypoint /usr/local/bin/phenotyping.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -134,7 +134,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phenotyping.py   -v ${PWD} -w
 
 
 #### pip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/pip
 $ podman run --it --rm --entrypoint /usr/local/bin/pip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pip   -v ${PWD} -w ${PWD} <co
 
 
 #### prodigal
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/prodigal
 $ podman run --it --rm --entrypoint /usr/local/bin/prodigal   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/prodigal   -v ${PWD} -w ${PWD
 
 
 #### prodigal.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/prodigal.py
 $ podman run --it --rm --entrypoint /usr/local/bin/prodigal.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/prodigal.py   -v ${PWD} -w ${
 
 
 #### prokka.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/prokka.py
 $ podman run --it --rm --entrypoint /usr/local/bin/prokka.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/prokka.py   -v ${PWD} -w ${PW
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python
 $ podman run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} 
 
 
 #### python3
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python3
 $ podman run --it --rm --entrypoint /usr/local/bin/python3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -200,7 +200,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

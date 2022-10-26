@@ -4,7 +4,7 @@ name:  "mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mysql/container.yaml"
-updated_at: "2022-10-17 09:57:57.665607"
+updated_at: "2022-10-26 02:48:41.024845"
 latest: "8.0.28"
 container_url: "https://hub.docker.com/r/_/mysql"
 aliases:
@@ -121,7 +121,7 @@ $ singularity inspect -d <container>
 
 
 #### mysql
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql
 $ podman run --it --rm --entrypoint /usr/bin/mysql   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql   -v ${PWD} -w ${PWD} <contai
 
 
 #### mysql_config_editor
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql_config_editor
 $ podman run --it --rm --entrypoint /usr/bin/mysql_config_editor   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -139,7 +139,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql_config_editor   -v ${PWD} -w 
 
 
 #### mysql_secure_installation
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql_secure_installation
 $ podman run --it --rm --entrypoint /usr/bin/mysql_secure_installation   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -148,7 +148,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql_secure_installation   -v ${PW
 
 
 #### mysql_ssl_rsa_setup
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql_ssl_rsa_setup
 $ podman run --it --rm --entrypoint /usr/bin/mysql_ssl_rsa_setup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -157,7 +157,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql_ssl_rsa_setup   -v ${PWD} -w 
 
 
 #### mysql_tzinfo_to_sql
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql_tzinfo_to_sql
 $ podman run --it --rm --entrypoint /usr/bin/mysql_tzinfo_to_sql   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -166,7 +166,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql_tzinfo_to_sql   -v ${PWD} -w 
 
 
 #### mysql_upgrade
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysql_upgrade
 $ podman run --it --rm --entrypoint /usr/bin/mysql_upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -175,7 +175,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysql_upgrade   -v ${PWD} -w ${PWD}
 
 
 #### mysqladmin
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqladmin
 $ podman run --it --rm --entrypoint /usr/bin/mysqladmin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqladmin   -v ${PWD} -w ${PWD} <c
 
 
 #### mysqlbinlog
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlbinlog
 $ podman run --it --rm --entrypoint /usr/bin/mysqlbinlog   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -193,7 +193,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqlbinlog   -v ${PWD} -w ${PWD} <
 
 
 #### mysqlcheck
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlcheck
 $ podman run --it --rm --entrypoint /usr/bin/mysqlcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -202,7 +202,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqlcheck   -v ${PWD} -w ${PWD} <c
 
 
 #### mysqld_multi
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqld_multi
 $ podman run --it --rm --entrypoint /usr/bin/mysqld_multi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqld_multi   -v ${PWD} -w ${PWD} 
 
 
 #### mysqld_safe
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqld_safe
 $ podman run --it --rm --entrypoint /usr/bin/mysqld_safe   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -220,7 +220,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqld_safe   -v ${PWD} -w ${PWD} <
 
 
 #### mysqldump
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqldump
 $ podman run --it --rm --entrypoint /usr/bin/mysqldump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -229,7 +229,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqldump   -v ${PWD} -w ${PWD} <co
 
 
 #### mysqldumpslow
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqldumpslow
 $ podman run --it --rm --entrypoint /usr/bin/mysqldumpslow   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -238,7 +238,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqldumpslow   -v ${PWD} -w ${PWD}
 
 
 #### mysqlimport
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlimport
 $ podman run --it --rm --entrypoint /usr/bin/mysqlimport   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -247,7 +247,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqlimport   -v ${PWD} -w ${PWD} <
 
 
 #### mysqlpump
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlpump
 $ podman run --it --rm --entrypoint /usr/bin/mysqlpump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -256,7 +256,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqlpump   -v ${PWD} -w ${PWD} <co
 
 
 #### mysqlshow
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlshow
 $ podman run --it --rm --entrypoint /usr/bin/mysqlshow   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -265,7 +265,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mysqlshow   -v ${PWD} -w ${PWD} <co
 
 
 #### mysqlslap
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mysqlslap
 $ podman run --it --rm --entrypoint /usr/bin/mysqlslap   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -286,7 +286,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

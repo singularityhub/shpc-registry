@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/velvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velvet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
-updated_at: "2022-10-17 09:57:30.335933"
+updated_at: "2022-10-26 02:46:57.843517"
 latest: "1.2.10--h7132678_5"
 container_url: "https://quay.io/repository/biocontainers/velvet"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### velvetg
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/velvetg
 $ podman run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD}
 
 
 #### velveth
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/velveth
 $ podman run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

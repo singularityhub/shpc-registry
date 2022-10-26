@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/xz/container.yaml"
-updated_at: "2022-10-17 09:55:48.282075"
+updated_at: "2022-10-26 02:47:49.573483"
 latest: "5.2.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xz"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### xz
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xz
 $ podman run --it --rm --entrypoint /opt/view/bin/xz   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xz   -v ${PWD} -w ${PWD} <cont
 
 
 #### xzcat
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzcat
 $ podman run --it --rm --entrypoint /opt/view/bin/xzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzcat   -v ${PWD} -w ${PWD} <c
 
 
 #### xzcmp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzcmp
 $ podman run --it --rm --entrypoint /opt/view/bin/xzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzcmp   -v ${PWD} -w ${PWD} <c
 
 
 #### xzdec
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzdec
 $ podman run --it --rm --entrypoint /opt/view/bin/xzdec   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzdec   -v ${PWD} -w ${PWD} <c
 
 
 #### xzdiff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzdiff
 $ podman run --it --rm --entrypoint /opt/view/bin/xzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzdiff   -v ${PWD} -w ${PWD} <
 
 
 #### xzegrep
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzegrep
 $ podman run --it --rm --entrypoint /opt/view/bin/xzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzegrep   -v ${PWD} -w ${PWD} 
 
 
 #### xzfgrep
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzfgrep
 $ podman run --it --rm --entrypoint /opt/view/bin/xzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzfgrep   -v ${PWD} -w ${PWD} 
 
 
 #### xzgrep
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzgrep
 $ podman run --it --rm --entrypoint /opt/view/bin/xzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzgrep   -v ${PWD} -w ${PWD} <
 
 
 #### xzless
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzless
 $ podman run --it --rm --entrypoint /opt/view/bin/xzless   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xzless   -v ${PWD} -w ${PWD} <
 
 
 #### xzmore
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xzmore
 $ podman run --it --rm --entrypoint /opt/view/bin/xzmore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

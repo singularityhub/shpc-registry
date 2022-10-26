@@ -4,7 +4,7 @@ name:  "biocontainers/tpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tpp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tpp/container.yaml"
-updated_at: "2022-10-17 09:57:52.249426"
+updated_at: "2022-10-26 02:48:34.133779"
 latest: "v5.2_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tpp"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### config_data
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/config_data
 $ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${
 
 
 #### json_xs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/json_xs
 $ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD}
 
 
 #### lwp-download
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/lwp-download
 $ podman run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w $
 
 
 #### lwp-dump
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/lwp-dump
 $ podman run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD
 
 
 #### lwp-mirror
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/lwp-mirror
 $ podman run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${P
 
 
 #### lwp-request
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/lwp-request
 $ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

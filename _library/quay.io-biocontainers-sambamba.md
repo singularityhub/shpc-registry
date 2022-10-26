@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sambamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sambamba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sambamba/container.yaml"
-updated_at: "2022-10-17 09:57:31.950817"
+updated_at: "2022-10-26 02:46:54.854465"
 latest: "0.8.2--h98b6b92_2"
 container_url: "https://quay.io/repository/biocontainers/sambamba"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### sambamba
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sambamba
 $ podman run --it --rm --entrypoint /usr/local/bin/sambamba   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

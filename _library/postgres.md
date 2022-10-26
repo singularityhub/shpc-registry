@@ -4,7 +4,7 @@ name:  "postgres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/postgres/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/postgres/container.yaml"
-updated_at: "2022-10-17 09:57:07.027459"
+updated_at: "2022-10-26 02:48:56.142747"
 latest: "15beta4"
 container_url: "https://hub.docker.com/r/_/postgres"
 aliases:
@@ -146,7 +146,7 @@ $ singularity inspect -d <container>
 
 
 #### clusterdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/clusterdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/clusterdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -155,7 +155,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/clusterdb   -v ${
 
 
 #### createdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/createdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/createdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -164,7 +164,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/createdb   -v ${P
 
 
 #### createuser
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/createuser
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/createuser   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -173,7 +173,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/createuser   -v $
 
 
 #### dropdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/dropdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/dropdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -182,7 +182,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/dropdb   -v ${PWD
 
 
 #### dropuser
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/dropuser
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/dropuser   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -191,7 +191,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/dropuser   -v ${P
 
 
 #### initdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/initdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/initdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -200,7 +200,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/initdb   -v ${PWD
 
 
 #### oid2name
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/oid2name
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/oid2name   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -209,7 +209,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/oid2name   -v ${P
 
 
 #### pg_archivecleanup
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_archivecleanup
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_archivecleanup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -218,7 +218,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_archivecleanup
 
 
 #### pg_basebackup
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_basebackup
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_basebackup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -227,7 +227,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_basebackup   -
 
 
 #### pg_checksums
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_checksums
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_checksums   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -236,7 +236,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_checksums   -v
 
 
 #### pg_config
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_config
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -245,7 +245,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_config   -v ${
 
 
 #### pg_controldata
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_controldata
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_controldata   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -254,7 +254,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_controldata   
 
 
 #### pg_ctl
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_ctl
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_ctl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -263,7 +263,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_ctl   -v ${PWD
 
 
 #### pg_dump
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_dump
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -272,7 +272,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_dump   -v ${PW
 
 
 #### pg_dumpall
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_dumpall
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_dumpall   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -281,7 +281,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_dumpall   -v $
 
 
 #### pg_isready
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_isready
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_isready   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -290,7 +290,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_isready   -v $
 
 
 #### pg_receivewal
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_receivewal
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_receivewal   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -299,7 +299,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_receivewal   -
 
 
 #### pg_recvlogical
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_recvlogical
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_recvlogical   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -308,7 +308,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_recvlogical   
 
 
 #### pg_resetwal
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_resetwal
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_resetwal   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -317,7 +317,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_resetwal   -v 
 
 
 #### pg_restore
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_restore
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_restore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -326,7 +326,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_restore   -v $
 
 
 #### pg_rewind
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_rewind
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_rewind   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -335,7 +335,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_rewind   -v ${
 
 
 #### pg_standby
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_standby
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_standby   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -344,7 +344,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_standby   -v $
 
 
 #### pg_test_fsync
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_test_fsync
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_test_fsync   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -353,7 +353,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_test_fsync   -
 
 
 #### pg_test_timing
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_test_timing
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_test_timing   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -362,7 +362,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_test_timing   
 
 
 #### pg_upgrade
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_upgrade
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -371,7 +371,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_upgrade   -v $
 
 
 #### pg_verifybackup
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_verifybackup
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -380,7 +380,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_verifybackup  
 
 
 #### pg_waldump
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pg_waldump
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_waldump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -389,7 +389,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pg_waldump   -v $
 
 
 #### pgbench
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/pgbench
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pgbench   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -398,7 +398,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/pgbench   -v ${PW
 
 
 #### postgres
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/postgres
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/postgres   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -407,7 +407,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/postgres   -v ${P
 
 
 #### postmaster
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/postmaster
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/postmaster   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -416,7 +416,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/postmaster   -v $
 
 
 #### psql
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/psql
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/psql   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -425,7 +425,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/psql   -v ${PWD} 
 
 
 #### reindexdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/reindexdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/reindexdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -434,7 +434,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/reindexdb   -v ${
 
 
 #### vacuumdb
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/vacuumdb
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/vacuumdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -443,7 +443,7 @@ $ docker run --it --rm --entrypoint /usr/lib/postgresql/13/bin/vacuumdb   -v ${P
 
 
 #### vacuumlo
-       
+
 ```bash
 $ singularity exec <container> /usr/lib/postgresql/13/bin/vacuumlo
 $ podman run --it --rm --entrypoint /usr/lib/postgresql/13/bin/vacuumlo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -464,7 +464,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

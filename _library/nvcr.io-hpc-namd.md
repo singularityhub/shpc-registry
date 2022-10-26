@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/namd/container.yaml"
-updated_at: "2022-10-17 09:57:49.480267"
+updated_at: "2022-10-26 02:48:51.054865"
 latest: "3.0-alpha11"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### charmrun
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/charmrun
 $ podman run --it --rm --entrypoint /usr/local/bin/charmrun   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/charmrun   -v ${PWD} -w ${PWD
 
 
 #### flipbinpdb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/flipbinpdb
 $ podman run --it --rm --entrypoint /usr/local/bin/flipbinpdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flipbinpdb   -v ${PWD} -w ${P
 
 
 #### flipdcd
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/flipdcd
 $ podman run --it --rm --entrypoint /usr/local/bin/flipdcd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flipdcd   -v ${PWD} -w ${PWD}
 
 
 #### namd3
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/namd3
 $ podman run --it --rm --entrypoint /usr/local/bin/namd3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/namd3   -v ${PWD} -w ${PWD} <
 
 
 #### psfgen
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/psfgen
 $ podman run --it --rm --entrypoint /usr/local/bin/psfgen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psfgen   -v ${PWD} -w ${PWD} 
 
 
 #### sortreplicas
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sortreplicas
 $ podman run --it --rm --entrypoint /usr/local/bin/sortreplicas   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sortreplicas   -v ${PWD} -w $
 
 
 #### vmd
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vmd
 $ podman run --it --rm --entrypoint /usr/local/bin/vmd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

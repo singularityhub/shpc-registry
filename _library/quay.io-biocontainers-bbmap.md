@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bbmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bbmap/container.yaml"
-updated_at: "2022-10-17 09:57:18.354898"
+updated_at: "2022-10-26 02:46:47.477518"
 latest: "38.96--h5c4e2a8_0"
 container_url: "https://quay.io/repository/biocontainers/bbmap"
 aliases:
@@ -301,7 +301,7 @@ $ singularity inspect -d <container>
 
 
 #### a_sample_mt.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/a_sample_mt.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -310,7 +310,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w
 
 
 #### addadapters.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/addadapters.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -319,7 +319,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w
 
 
 #### addssu.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/addssu.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -328,7 +328,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PW
 
 
 #### adjusthomopolymers.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -337,7 +337,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${
 
 
 #### alltoall.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/alltoall.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -346,7 +346,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${
 
 
 #### analyzeaccession.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/analyzeaccession.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -355,7 +355,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PW
 
 
 #### analyzegenes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/analyzegenes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -364,7 +364,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -
 
 
 #### analyzesketchresults.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/analyzesketchresults.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -373,7 +373,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v 
 
 
 #### applyvariants.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/applyvariants.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -382,7 +382,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} 
 
 
 #### bbcms.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbcms.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbcms.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -391,7 +391,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbcms.sh   -v ${PWD} -w ${PWD
 
 
 #### bbcountunique.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbcountunique.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbcountunique.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -400,7 +400,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbcountunique.sh   -v ${PWD} 
 
 
 #### bbduk.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbduk.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbduk.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -409,7 +409,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbduk.sh   -v ${PWD} -w ${PWD
 
 
 #### bbest.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbest.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbest.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -418,7 +418,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbest.sh   -v ${PWD} -w ${PWD
 
 
 #### bbfakereads.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbfakereads.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbfakereads.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -427,7 +427,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbfakereads.sh   -v ${PWD} -w
 
 
 #### bbmap.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbmap.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbmap.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -436,7 +436,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbmap.sh   -v ${PWD} -w ${PWD
 
 
 #### bbmapskimmer.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbmapskimmer.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbmapskimmer.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -445,7 +445,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbmapskimmer.sh   -v ${PWD} -
 
 
 #### bbmask.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbmask.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbmask.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -454,7 +454,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbmask.sh   -v ${PWD} -w ${PW
 
 
 #### bbmerge-auto.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbmerge-auto.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbmerge-auto.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -463,7 +463,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbmerge-auto.sh   -v ${PWD} -
 
 
 #### bbmerge.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbmerge.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbmerge.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -472,7 +472,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbmerge.sh   -v ${PWD} -w ${P
 
 
 #### bbnorm.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbnorm.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbnorm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -481,7 +481,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbnorm.sh   -v ${PWD} -w ${PW
 
 
 #### bbrealign.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbrealign.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbrealign.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -490,7 +490,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbrealign.sh   -v ${PWD} -w $
 
 
 #### bbrename.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbrename.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbrename.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -499,7 +499,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbrename.sh   -v ${PWD} -w ${
 
 
 #### bbsketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbsketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbsketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -508,7 +508,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbsketch.sh   -v ${PWD} -w ${
 
 
 #### bbsplit.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbsplit.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbsplit.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -517,7 +517,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbsplit.sh   -v ${PWD} -w ${P
 
 
 #### bbsplitpairs.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbsplitpairs.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbsplitpairs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -526,7 +526,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbsplitpairs.sh   -v ${PWD} -
 
 
 #### bbstats.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbstats.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbstats.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -535,7 +535,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbstats.sh   -v ${PWD} -w ${P
 
 
 #### bbversion.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbversion.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbversion.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -544,7 +544,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbversion.sh   -v ${PWD} -w $
 
 
 #### bbwrap.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bbwrap.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bbwrap.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -553,7 +553,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bbwrap.sh   -v ${PWD} -w ${PW
 
 
 #### bloomfilter.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bloomfilter.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/bloomfilter.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -562,7 +562,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bloomfilter.sh   -v ${PWD} -w
 
 
 #### build_env_setup.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/build_env_setup.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -571,7 +571,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD
 
 
 #### calcmem.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/calcmem.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/calcmem.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -580,7 +580,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/calcmem.sh   -v ${PWD} -w ${P
 
 
 #### calctruequality.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/calctruequality.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/calctruequality.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -589,7 +589,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/calctruequality.sh   -v ${PWD
 
 
 #### callgenes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/callgenes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/callgenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -598,7 +598,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/callgenes.sh   -v ${PWD} -w $
 
 
 #### callpeaks.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/callpeaks.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/callpeaks.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -607,7 +607,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/callpeaks.sh   -v ${PWD} -w $
 
 
 #### callvariants.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/callvariants.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/callvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -616,7 +616,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/callvariants.sh   -v ${PWD} -
 
 
 #### callvariants2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/callvariants2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/callvariants2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -625,7 +625,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/callvariants2.sh   -v ${PWD} 
 
 
 #### clumpify.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/clumpify.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/clumpify.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -634,7 +634,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clumpify.sh   -v ${PWD} -w ${
 
 
 #### commonkmers.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/commonkmers.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/commonkmers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -643,7 +643,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/commonkmers.sh   -v ${PWD} -w
 
 
 #### comparegff.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/comparegff.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/comparegff.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -652,7 +652,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/comparegff.sh   -v ${PWD} -w 
 
 
 #### comparesketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/comparesketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/comparesketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -661,7 +661,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/comparesketch.sh   -v ${PWD} 
 
 
 #### comparessu.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/comparessu.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -670,7 +670,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w 
 
 
 #### comparevcf.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/comparevcf.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/comparevcf.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -679,7 +679,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/comparevcf.sh   -v ${PWD} -w 
 
 
 #### conda_build.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/conda_build.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -688,7 +688,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 
 
 #### consect.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/consect.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/consect.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -697,7 +697,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/consect.sh   -v ${PWD} -w ${P
 
 
 #### consensus.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/consensus.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/consensus.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -706,7 +706,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/consensus.sh   -v ${PWD} -w $
 
 
 #### countbarcodes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/countbarcodes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/countbarcodes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -715,7 +715,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/countbarcodes.sh   -v ${PWD} 
 
 
 #### countgc.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/countgc.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/countgc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -724,7 +724,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/countgc.sh   -v ${PWD} -w ${P
 
 
 #### countsharedlines.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/countsharedlines.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/countsharedlines.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -733,7 +733,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/countsharedlines.sh   -v ${PW
 
 
 #### crossblock.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/crossblock.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/crossblock.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -742,7 +742,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/crossblock.sh   -v ${PWD} -w 
 
 
 #### crosscontaminate.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/crosscontaminate.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/crosscontaminate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -751,7 +751,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/crosscontaminate.sh   -v ${PW
 
 
 #### cutgff.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/cutgff.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/cutgff.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -760,7 +760,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cutgff.sh   -v ${PWD} -w ${PW
 
 
 #### cutprimers.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/cutprimers.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/cutprimers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -769,7 +769,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cutprimers.sh   -v ${PWD} -w 
 
 
 #### decontaminate.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/decontaminate.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/decontaminate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -778,7 +778,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/decontaminate.sh   -v ${PWD} 
 
 
 #### dedupe.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/dedupe.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/dedupe.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -787,7 +787,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dedupe.sh   -v ${PWD} -w ${PW
 
 
 #### dedupe2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/dedupe2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/dedupe2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -796,7 +796,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dedupe2.sh   -v ${PWD} -w ${P
 
 
 #### dedupebymapping.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/dedupebymapping.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/dedupebymapping.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -805,7 +805,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dedupebymapping.sh   -v ${PWD
 
 
 #### demuxbyname.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/demuxbyname.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/demuxbyname.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -814,7 +814,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/demuxbyname.sh   -v ${PWD} -w
 
 
 #### diskbench.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/diskbench.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/diskbench.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -823,7 +823,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/diskbench.sh   -v ${PWD} -w $
 
 
 #### estherfilter.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/estherfilter.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/estherfilter.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -832,7 +832,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/estherfilter.sh   -v ${PWD} -
 
 
 #### explodetree.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/explodetree.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/explodetree.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -841,7 +841,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/explodetree.sh   -v ${PWD} -w
 
 
 #### fetchproks.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fetchproks.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/fetchproks.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -850,7 +850,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fetchproks.sh   -v ${PWD} -w 
 
 
 #### filterassemblysummary.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterassemblysummary.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterassemblysummary.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -859,7 +859,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterassemblysummary.sh   -v
 
 
 #### filterbarcodes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbarcodes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbarcodes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -868,7 +868,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbarcodes.sh   -v ${PWD}
 
 
 #### filterbycoverage.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbycoverage.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbycoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -877,7 +877,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbycoverage.sh   -v ${PW
 
 
 #### filterbyname.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbyname.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbyname.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -886,7 +886,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbyname.sh   -v ${PWD} -
 
 
 #### filterbysequence.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbysequence.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbysequence.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -895,7 +895,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbysequence.sh   -v ${PW
 
 
 #### filterbytaxa.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbytaxa.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbytaxa.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -904,7 +904,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbytaxa.sh   -v ${PWD} -
 
 
 #### filterbytile.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterbytile.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterbytile.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -913,7 +913,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterbytile.sh   -v ${PWD} -
 
 
 #### filterlines.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterlines.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterlines.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -922,7 +922,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterlines.sh   -v ${PWD} -w
 
 
 #### filterqc.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filterqc.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filterqc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -931,7 +931,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterqc.sh   -v ${PWD} -w ${
 
 
 #### filtersam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filtersam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filtersam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -940,7 +940,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filtersam.sh   -v ${PWD} -w $
 
 
 #### filtersilva.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filtersilva.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -949,7 +949,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w
 
 
 #### filtersubs.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filtersubs.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filtersubs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -958,7 +958,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filtersubs.sh   -v ${PWD} -w 
 
 
 #### filtervcf.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/filtervcf.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/filtervcf.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -967,7 +967,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filtervcf.sh   -v ${PWD} -w $
 
 
 #### fixgaps.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fixgaps.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/fixgaps.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -976,7 +976,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fixgaps.sh   -v ${PWD} -w ${P
 
 
 #### fungalrelease.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fungalrelease.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/fungalrelease.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -985,7 +985,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fungalrelease.sh   -v ${PWD} 
 
 
 #### fuse.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fuse.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/fuse.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -994,7 +994,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fuse.sh   -v ${PWD} -w ${PWD}
 
 
 #### gbff2gff.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gbff2gff.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/gbff2gff.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1003,7 +1003,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gbff2gff.sh   -v ${PWD} -w ${
 
 
 #### getreads.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/getreads.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/getreads.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1012,7 +1012,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/getreads.sh   -v ${PWD} -w ${
 
 
 #### gi2ancestors.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gi2ancestors.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/gi2ancestors.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1021,7 +1021,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gi2ancestors.sh   -v ${PWD} -
 
 
 #### gi2taxid.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gi2taxid.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/gi2taxid.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1030,7 +1030,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gi2taxid.sh   -v ${PWD} -w ${
 
 
 #### gitable.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gitable.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/gitable.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1039,7 +1039,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gitable.sh   -v ${PWD} -w ${P
 
 
 #### grademerge.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/grademerge.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/grademerge.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1048,7 +1048,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/grademerge.sh   -v ${PWD} -w 
 
 
 #### gradesam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gradesam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/gradesam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1057,7 +1057,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gradesam.sh   -v ${PWD} -w ${
 
 
 #### icecreamfinder.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/icecreamfinder.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/icecreamfinder.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1066,7 +1066,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/icecreamfinder.sh   -v ${PWD}
 
 
 #### icecreamgrader.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/icecreamgrader.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/icecreamgrader.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1075,7 +1075,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/icecreamgrader.sh   -v ${PWD}
 
 
 #### icecreammaker.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/icecreammaker.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/icecreammaker.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1084,7 +1084,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/icecreammaker.sh   -v ${PWD} 
 
 
 #### idmatrix.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/idmatrix.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/idmatrix.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1093,7 +1093,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idmatrix.sh   -v ${PWD} -w ${
 
 
 #### idtree.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/idtree.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/idtree.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1102,7 +1102,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idtree.sh   -v ${PWD} -w ${PW
 
 
 #### invertkey.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/invertkey.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/invertkey.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1111,7 +1111,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/invertkey.sh   -v ${PWD} -w $
 
 
 #### kapastats.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kapastats.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kapastats.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1120,7 +1120,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kapastats.sh   -v ${PWD} -w $
 
 
 #### kcompress.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kcompress.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kcompress.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1129,7 +1129,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kcompress.sh   -v ${PWD} -w $
 
 
 #### keepbestcopy.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/keepbestcopy.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/keepbestcopy.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1138,7 +1138,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/keepbestcopy.sh   -v ${PWD} -
 
 
 #### khist.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/khist.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/khist.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1147,7 +1147,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/khist.sh   -v ${PWD} -w ${PWD
 
 
 #### kmercountexact.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmercountexact.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmercountexact.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1156,7 +1156,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmercountexact.sh   -v ${PWD}
 
 
 #### kmercountmulti.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmercountmulti.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmercountmulti.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1165,7 +1165,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmercountmulti.sh   -v ${PWD}
 
 
 #### kmercoverage.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmercoverage.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmercoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1174,7 +1174,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmercoverage.sh   -v ${PWD} -
 
 
 #### kmerfilterset.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmerfilterset.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmerfilterset.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1183,7 +1183,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmerfilterset.sh   -v ${PWD} 
 
 
 #### kmerlimit.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmerlimit.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmerlimit.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1192,7 +1192,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmerlimit.sh   -v ${PWD} -w $
 
 
 #### kmerlimit2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmerlimit2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmerlimit2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1201,7 +1201,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmerlimit2.sh   -v ${PWD} -w 
 
 
 #### kmerposition.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmerposition.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1210,7 +1210,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -
 
 
 #### kmutate.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmutate.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1219,7 +1219,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${P
 
 
 #### lilypad.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/lilypad.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/lilypad.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1228,7 +1228,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lilypad.sh   -v ${PWD} -w ${P
 
 
 #### loadreads.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/loadreads.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/loadreads.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1237,7 +1237,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/loadreads.sh   -v ${PWD} -w $
 
 
 #### loglog.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/loglog.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/loglog.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1246,7 +1246,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/loglog.sh   -v ${PWD} -w ${PW
 
 
 #### makechimeras.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/makechimeras.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/makechimeras.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1255,7 +1255,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/makechimeras.sh   -v ${PWD} -
 
 
 #### makecontaminatedgenomes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/makecontaminatedgenomes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/makecontaminatedgenomes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1264,7 +1264,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/makecontaminatedgenomes.sh   
 
 
 #### makepolymers.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/makepolymers.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/makepolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1273,7 +1273,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/makepolymers.sh   -v ${PWD} -
 
 
 #### mapPacBio.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mapPacBio.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mapPacBio.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1282,7 +1282,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mapPacBio.sh   -v ${PWD} -w $
 
 
 #### matrixtocolumns.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/matrixtocolumns.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/matrixtocolumns.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1291,7 +1291,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/matrixtocolumns.sh   -v ${PWD
 
 
 #### mergeOTUs.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergeOTUs.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergeOTUs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1300,7 +1300,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergeOTUs.sh   -v ${PWD} -w $
 
 
 #### mergebarcodes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergebarcodes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergebarcodes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1309,7 +1309,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergebarcodes.sh   -v ${PWD} 
 
 
 #### mergepgm.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergepgm.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergepgm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1318,7 +1318,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergepgm.sh   -v ${PWD} -w ${
 
 
 #### mergeribo.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergeribo.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergeribo.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1327,7 +1327,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergeribo.sh   -v ${PWD} -w $
 
 
 #### mergesam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergesam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergesam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1336,7 +1336,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergesam.sh   -v ${PWD} -w ${
 
 
 #### mergesketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergesketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergesketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1345,7 +1345,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergesketch.sh   -v ${PWD} -w
 
 
 #### mergesorted.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mergesorted.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mergesorted.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1354,7 +1354,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergesorted.sh   -v ${PWD} -w
 
 
 #### msa.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/msa.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/msa.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1363,7 +1363,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/msa.sh   -v ${PWD} -w ${PWD} 
 
 
 #### mutate.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mutate.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/mutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1372,7 +1372,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mutate.sh   -v ${PWD} -w ${PW
 
 
 #### muxbyname.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/muxbyname.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/muxbyname.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1381,7 +1381,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/muxbyname.sh   -v ${PWD} -w $
 
 
 #### partition.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/partition.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/partition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1390,7 +1390,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/partition.sh   -v ${PWD} -w $
 
 
 #### phylip2fasta.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/phylip2fasta.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/phylip2fasta.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1399,7 +1399,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phylip2fasta.sh   -v ${PWD} -
 
 
 #### pileup.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/pileup.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/pileup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1408,7 +1408,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pileup.sh   -v ${PWD} -w ${PW
 
 
 #### plotflowcell.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plotflowcell.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/plotflowcell.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1417,7 +1417,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plotflowcell.sh   -v ${PWD} -
 
 
 #### plotgc.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plotgc.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/plotgc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1426,7 +1426,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plotgc.sh   -v ${PWD} -w ${PW
 
 
 #### postfilter.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/postfilter.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/postfilter.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1435,7 +1435,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/postfilter.sh   -v ${PWD} -w 
 
 
 #### printtime.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/printtime.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/printtime.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1444,7 +1444,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/printtime.sh   -v ${PWD} -w $
 
 
 #### processfrag.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/processfrag.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/processfrag.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1453,7 +1453,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/processfrag.sh   -v ${PWD} -w
 
 
 #### processhi-c.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/processhi-c.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/processhi-c.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1462,7 +1462,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/processhi-c.sh   -v ${PWD} -w
 
 
 #### processspeed.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/processspeed.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/processspeed.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1471,7 +1471,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/processspeed.sh   -v ${PWD} -
 
 
 #### randomgenome.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/randomgenome.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/randomgenome.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1480,7 +1480,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/randomgenome.sh   -v ${PWD} -
 
 
 #### randomreads.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/randomreads.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/randomreads.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1489,7 +1489,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/randomreads.sh   -v ${PWD} -w
 
 
 #### readlength.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/readlength.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/readlength.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1498,7 +1498,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/readlength.sh   -v ${PWD} -w 
 
 
 #### readqc.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/readqc.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/readqc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1507,7 +1507,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/readqc.sh   -v ${PWD} -w ${PW
 
 
 #### reducesilva.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/reducesilva.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/reducesilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1516,7 +1516,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/reducesilva.sh   -v ${PWD} -w
 
 
 #### reformat.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/reformat.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/reformat.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1525,7 +1525,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/reformat.sh   -v ${PWD} -w ${
 
 
 #### reformatpb.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/reformatpb.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1534,7 +1534,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w 
 
 
 #### removebadbarcodes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removebadbarcodes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removebadbarcodes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1543,7 +1543,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removebadbarcodes.sh   -v ${P
 
 
 #### removecatdogmousehuman.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removecatdogmousehuman.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removecatdogmousehuman.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1552,7 +1552,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removecatdogmousehuman.sh   -
 
 
 #### removehuman.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removehuman.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removehuman.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1561,7 +1561,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removehuman.sh   -v ${PWD} -w
 
 
 #### removehuman2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removehuman2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removehuman2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1570,7 +1570,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removehuman2.sh   -v ${PWD} -
 
 
 #### removemicrobes.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removemicrobes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removemicrobes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1579,7 +1579,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removemicrobes.sh   -v ${PWD}
 
 
 #### removesmartbell.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/removesmartbell.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/removesmartbell.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1588,7 +1588,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/removesmartbell.sh   -v ${PWD
 
 
 #### rename.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rename.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/rename.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1597,7 +1597,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rename.sh   -v ${PWD} -w ${PW
 
 
 #### renameimg.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/renameimg.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/renameimg.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1606,7 +1606,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/renameimg.sh   -v ${PWD} -w $
 
 
 #### repair.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/repair.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/repair.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1615,7 +1615,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/repair.sh   -v ${PWD} -w ${PW
 
 
 #### replaceheaders.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/replaceheaders.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/replaceheaders.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1624,7 +1624,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/replaceheaders.sh   -v ${PWD}
 
 
 #### representative.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/representative.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/representative.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1633,7 +1633,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/representative.sh   -v ${PWD}
 
 
 #### rqcfilter.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rqcfilter.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/rqcfilter.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1642,7 +1642,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rqcfilter.sh   -v ${PWD} -w $
 
 
 #### rqcfilter2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rqcfilter2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/rqcfilter2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1651,7 +1651,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rqcfilter2.sh   -v ${PWD} -w 
 
 
 #### runhmm.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/runhmm.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1660,7 +1660,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PW
 
 
 #### samtoroc.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/samtoroc.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/samtoroc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1669,7 +1669,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/samtoroc.sh   -v ${PWD} -w ${
 
 
 #### seal.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/seal.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/seal.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1678,7 +1678,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seal.sh   -v ${PWD} -w ${PWD}
 
 
 #### sendsketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sendsketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sendsketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1687,7 +1687,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sendsketch.sh   -v ${PWD} -w 
 
 
 #### shred.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/shred.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/shred.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1696,7 +1696,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shred.sh   -v ${PWD} -w ${PWD
 
 
 #### shrinkaccession.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/shrinkaccession.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/shrinkaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1705,7 +1705,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shrinkaccession.sh   -v ${PWD
 
 
 #### shuffle.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/shuffle.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/shuffle.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1714,7 +1714,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shuffle.sh   -v ${PWD} -w ${P
 
 
 #### shuffle2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/shuffle2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/shuffle2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1723,7 +1723,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shuffle2.sh   -v ${PWD} -w ${
 
 
 #### sketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1732,7 +1732,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sketch.sh   -v ${PWD} -w ${PW
 
 
 #### sketchblacklist.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sketchblacklist.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sketchblacklist.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1741,7 +1741,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sketchblacklist.sh   -v ${PWD
 
 
 #### sketchblacklist2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sketchblacklist2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1750,7 +1750,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PW
 
 
 #### sortbyname.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sortbyname.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sortbyname.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1759,7 +1759,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sortbyname.sh   -v ${PWD} -w 
 
 
 #### splitbytaxa.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitbytaxa.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitbytaxa.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1768,7 +1768,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitbytaxa.sh   -v ${PWD} -w
 
 
 #### splitnextera.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitnextera.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitnextera.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1777,7 +1777,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitnextera.sh   -v ${PWD} -
 
 
 #### splitribo.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitribo.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitribo.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1786,7 +1786,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitribo.sh   -v ${PWD} -w $
 
 
 #### splitsam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitsam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitsam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1795,7 +1795,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitsam.sh   -v ${PWD} -w ${
 
 
 #### splitsam4way.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitsam4way.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitsam4way.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1804,7 +1804,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitsam4way.sh   -v ${PWD} -
 
 
 #### splitsam6way.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/splitsam6way.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/splitsam6way.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1813,7 +1813,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitsam6way.sh   -v ${PWD} -
 
 
 #### stats.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/stats.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/stats.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1822,7 +1822,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/stats.sh   -v ${PWD} -w ${PWD
 
 
 #### statswrapper.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/statswrapper.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/statswrapper.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1831,7 +1831,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/statswrapper.sh   -v ${PWD} -
 
 
 #### streamsam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/streamsam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/streamsam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1840,7 +1840,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/streamsam.sh   -v ${PWD} -w $
 
 
 #### subsketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/subsketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/subsketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1849,7 +1849,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/subsketch.sh   -v ${PWD} -w $
 
 
 #### summarizecontam.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizecontam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizecontam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1858,7 +1858,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizecontam.sh   -v ${PWD
 
 
 #### summarizecoverage.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizecoverage.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1867,7 +1867,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${P
 
 
 #### summarizecrossblock.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizecrossblock.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizecrossblock.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1876,7 +1876,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizecrossblock.sh   -v $
 
 
 #### summarizemerge.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizemerge.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizemerge.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1885,7 +1885,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizemerge.sh   -v ${PWD}
 
 
 #### summarizequast.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizequast.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizequast.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1894,7 +1894,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizequast.sh   -v ${PWD}
 
 
 #### summarizescafstats.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizescafstats.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizescafstats.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1903,7 +1903,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizescafstats.sh   -v ${
 
 
 #### summarizeseal.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizeseal.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizeseal.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1912,7 +1912,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizeseal.sh   -v ${PWD} 
 
 
 #### summarizesketch.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/summarizesketch.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/summarizesketch.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1921,7 +1921,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarizesketch.sh   -v ${PWD
 
 
 #### synthmda.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/synthmda.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/synthmda.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1930,7 +1930,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/synthmda.sh   -v ${PWD} -w ${
 
 
 #### tadpipe.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tadpipe.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/tadpipe.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1939,7 +1939,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tadpipe.sh   -v ${PWD} -w ${P
 
 
 #### tadpole.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tadpole.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/tadpole.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1948,7 +1948,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tadpole.sh   -v ${PWD} -w ${P
 
 
 #### tadwrapper.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tadwrapper.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/tadwrapper.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1957,7 +1957,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tadwrapper.sh   -v ${PWD} -w 
 
 
 #### taxonomy.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/taxonomy.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/taxonomy.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1966,7 +1966,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxonomy.sh   -v ${PWD} -w ${
 
 
 #### taxserver.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/taxserver.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/taxserver.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1975,7 +1975,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxserver.sh   -v ${PWD} -w $
 
 
 #### taxsize.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/taxsize.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/taxsize.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1984,7 +1984,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxsize.sh   -v ${PWD} -w ${P
 
 
 #### taxtree.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/taxtree.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/taxtree.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -1993,7 +1993,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxtree.sh   -v ${PWD} -w ${P
 
 
 #### testfilesystem.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/testfilesystem.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/testfilesystem.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2002,7 +2002,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testfilesystem.sh   -v ${PWD}
 
 
 #### testformat.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/testformat.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/testformat.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2011,7 +2011,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testformat.sh   -v ${PWD} -w 
 
 
 #### testformat2.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/testformat2.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/testformat2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2020,7 +2020,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testformat2.sh   -v ${PWD} -w
 
 
 #### tetramerfreq.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tetramerfreq.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/tetramerfreq.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2029,7 +2029,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tetramerfreq.sh   -v ${PWD} -
 
 
 #### textfile.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/textfile.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/textfile.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2038,7 +2038,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/textfile.sh   -v ${PWD} -w ${
 
 
 #### translate6frames.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/translate6frames.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/translate6frames.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2047,7 +2047,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/translate6frames.sh   -v ${PW
 
 
 #### unicode2ascii.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/unicode2ascii.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/unicode2ascii.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2056,7 +2056,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unicode2ascii.sh   -v ${PWD} 
 
 
 #### unzip.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/unzip.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/unzip.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2065,7 +2065,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unzip.sh   -v ${PWD} -w ${PWD
 
 
 #### vcf2gff.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vcf2gff.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf2gff.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2074,7 +2074,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf2gff.sh   -v ${PWD} -w ${P
 
 
 #### webcheck.sh
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/webcheck.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/webcheck.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -2095,7 +2095,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/intel-hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/intel-hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/pawsey/intel-hpc-python/container.yaml"
-updated_at: "2022-10-17 09:57:36.683395"
+updated_at: "2022-10-26 02:47:02.613079"
 latest: "2022.03"
 container_url: "https://quay.io/repository/pawsey/intel-hpc-python"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /opt/conda/bin/python
 $ podman run --it --rm --entrypoint /opt/conda/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/conda/bin/python   -v ${PWD} -w ${PWD} 
 
 
 #### python3
-       
+
 ```bash
 $ singularity exec <container> /opt/conda/bin/python3
 $ podman run --it --rm --entrypoint /opt/conda/bin/python3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

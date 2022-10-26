@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vawk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vawk/container.yaml"
-updated_at: "2022-10-17 09:57:29.808902"
+updated_at: "2022-10-26 02:46:48.357080"
 latest: "0.0.2--py_4"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
@@ -99,7 +99,7 @@ $ singularity inspect -d <container>
 
 
 #### vawk
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vawk
 $ podman run --it --rm --entrypoint /usr/local/bin/vawk   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

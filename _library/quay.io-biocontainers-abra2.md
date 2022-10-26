@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2022-10-17 09:57:27.675869"
+updated_at: "2022-10-26 02:46:46.989280"
 latest: "2.24--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/2pg_cartesian"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### abra2
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abra2
 $ podman run --it --rm --entrypoint /usr/local/bin/abra2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abra2   -v ${PWD} -w ${PWD} <
 
 
 #### aserver
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/aserver
 $ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD}
 
 
 #### autopoint
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/autopoint
 $ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PW
 
 
 #### hb-ot-shape-closure
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-ot-shape-closure
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PW
 
 
 #### hb-shape
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-shape
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD
 
 
 #### hb-subset
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-subset
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -159,7 +159,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PW
 
 
 #### hb-view
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-view
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-view   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -180,7 +180,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

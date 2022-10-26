@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rempi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rempi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/rempi/container.yaml"
-updated_at: "2022-10-17 09:56:58.545978"
+updated_at: "2022-10-26 02:48:04.132283"
 latest: "1.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rempi"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### rempi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rempi
 $ podman run --it --rm --entrypoint /opt/view/bin/rempi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rempi   -v ${PWD} -w ${PWD} <c
 
 
 #### rempi_record
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rempi_record
 $ podman run --it --rm --entrypoint /opt/view/bin/rempi_record   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rempi_record   -v ${PWD} -w ${
 
 
 #### rempi_replay
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rempi_replay
 $ podman run --it --rm --entrypoint /opt/view/bin/rempi_replay   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rempi_replay   -v ${PWD} -w ${
 
 
 #### reset
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/reset
 $ podman run --it --rm --entrypoint /opt/view/bin/reset   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

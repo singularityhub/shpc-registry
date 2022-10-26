@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cctools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cctools/container.yaml"
-updated_at: "2022-10-17 09:56:31.407926"
+updated_at: "2022-10-26 02:48:08.946879"
 latest: "7.2.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cctools"
 aliases:
@@ -126,7 +126,7 @@ $ singularity inspect -d <container>
 
 
 #### c_rehash
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/c_rehash
 $ podman run --it --rm --entrypoint /opt/view/bin/c_rehash   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/c_rehash   -v ${PWD} -w ${PWD}
 
 
 #### captoinfo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/captoinfo
 $ podman run --it --rm --entrypoint /opt/view/bin/captoinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -144,7 +144,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/captoinfo   -v ${PWD} -w ${PWD
 
 
 #### catalog_query
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/catalog_query
 $ podman run --it --rm --entrypoint /opt/view/bin/catalog_query   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -153,7 +153,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/catalog_query   -v ${PWD} -w $
 
 
 #### catalog_server
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/catalog_server
 $ podman run --it --rm --entrypoint /opt/view/bin/catalog_server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -162,7 +162,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/catalog_server   -v ${PWD} -w 
 
 
 #### catalog_update
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/catalog_update
 $ podman run --it --rm --entrypoint /opt/view/bin/catalog_update   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/catalog_update   -v ${PWD} -w 
 
 
 #### ccache-swig
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/ccache-swig
 $ podman run --it --rm --entrypoint /opt/view/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -180,7 +180,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/ccache-swig   -v ${PWD} -w ${P
 
 
 #### cctools_gpu_autodetect
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cctools_gpu_autodetect
 $ podman run --it --rm --entrypoint /opt/view/bin/cctools_gpu_autodetect   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -189,7 +189,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cctools_gpu_autodetect   -v ${
 
 
 #### chirp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -198,7 +198,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp   -v ${PWD} -w ${PWD} <c
 
 
 #### chirp_audit_cluster
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_audit_cluster
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_audit_cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -207,7 +207,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_audit_cluster   -v ${PWD
 
 
 #### chirp_benchmark
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_benchmark
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_benchmark   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -216,7 +216,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_benchmark   -v ${PWD} -w
 
 
 #### chirp_distribute
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_distribute
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_distribute   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -225,7 +225,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_distribute   -v ${PWD} -
 
 
 #### chirp_fuse
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_fuse
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_fuse   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -234,7 +234,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_fuse   -v ${PWD} -w ${PW
 
 
 #### chirp_get
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_get
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_get   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -243,7 +243,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_get   -v ${PWD} -w ${PWD
 
 
 #### chirp_put
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_put
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_put   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -252,7 +252,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_put   -v ${PWD} -w ${PWD
 
 
 #### chirp_server
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_server
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -261,7 +261,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_server   -v ${PWD} -w ${
 
 
 #### chirp_server_hdfs
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_server_hdfs
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_server_hdfs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -270,7 +270,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_server_hdfs   -v ${PWD} 
 
 
 #### chirp_status
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_status
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_status   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -279,7 +279,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_status   -v ${PWD} -w ${
 
 
 #### chirp_stream_files
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chirp_stream_files
 $ podman run --it --rm --entrypoint /opt/view/bin/chirp_stream_files   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -288,7 +288,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chirp_stream_files   -v ${PWD}
 
 
 #### chroot_package_run
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/chroot_package_run
 $ podman run --it --rm --entrypoint /opt/view/bin/chroot_package_run   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -297,7 +297,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/chroot_package_run   -v ${PWD}
 
 
 #### clear
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/clear
 $ podman run --it --rm --entrypoint /opt/view/bin/clear   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -306,7 +306,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/clear   -v ${PWD} -w ${PWD} <c
 
 
 #### condor_submit_makeflow
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/condor_submit_makeflow
 $ podman run --it --rm --entrypoint /opt/view/bin/condor_submit_makeflow   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -315,7 +315,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/condor_submit_makeflow   -v ${
 
 
 #### condor_submit_workers
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/condor_submit_workers
 $ podman run --it --rm --entrypoint /opt/view/bin/condor_submit_workers   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -324,7 +324,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/condor_submit_workers   -v ${P
 
 
 #### confuga_adm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/confuga_adm
 $ podman run --it --rm --entrypoint /opt/view/bin/confuga_adm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -333,7 +333,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/confuga_adm   -v ${PWD} -w ${P
 
 
 #### corelist
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/corelist
 $ podman run --it --rm --entrypoint /opt/view/bin/corelist   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -342,7 +342,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/corelist   -v ${PWD} -w ${PWD}
 
 
 #### cpan
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cpan
 $ podman run --it --rm --entrypoint /opt/view/bin/cpan   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -351,7 +351,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cpan   -v ${PWD} -w ${PWD} <co
 
 
 #### cpanm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cpanm
 $ podman run --it --rm --entrypoint /opt/view/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -372,7 +372,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

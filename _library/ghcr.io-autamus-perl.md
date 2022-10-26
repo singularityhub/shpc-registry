@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/perl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/perl/container.yaml"
-updated_at: "2022-10-17 09:55:48.810798"
+updated_at: "2022-10-26 02:48:14.529187"
 latest: "5.35.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/perl"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### perl
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/perl
 $ podman run --it --rm --entrypoint /opt/view/bin/perl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/perl   -v ${PWD} -w ${PWD} <co
 
 
 #### perlbug
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/perlbug
 $ podman run --it --rm --entrypoint /opt/view/bin/perlbug   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/perlbug   -v ${PWD} -w ${PWD} 
 
 
 #### perldoc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/perldoc
 $ podman run --it --rm --entrypoint /opt/view/bin/perldoc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/perldoc   -v ${PWD} -w ${PWD} 
 
 
 #### perlivp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/perlivp
 $ podman run --it --rm --entrypoint /opt/view/bin/perlivp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/perlivp   -v ${PWD} -w ${PWD} 
 
 
 #### perlthanks
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/perlthanks
 $ podman run --it --rm --entrypoint /opt/view/bin/perlthanks   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -162,7 +162,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

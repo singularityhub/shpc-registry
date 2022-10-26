@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/grass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/grass/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/grass/container.yaml"
-updated_at: "2022-10-17 09:56:27.138385"
+updated_at: "2022-10-26 02:47:11.689242"
 latest: "7.8.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/grass"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### grass78
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/grass78
 $ podman run --it --rm --entrypoint /opt/view/bin/grass78   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

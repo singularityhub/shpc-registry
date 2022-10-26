@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/unixodbc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/unixodbc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/unixodbc/container.yaml"
-updated_at: "2022-10-17 09:56:56.936024"
+updated_at: "2022-10-26 02:47:25.639773"
 latest: "2.3.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/unixodbc"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### odbc_config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/odbc_config
 $ podman run --it --rm --entrypoint /opt/view/bin/odbc_config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -110,7 +110,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/odbc_config   -v ${PWD} -w ${P
 
 
 #### odbcinst
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/odbcinst
 $ podman run --it --rm --entrypoint /opt/view/bin/odbcinst   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

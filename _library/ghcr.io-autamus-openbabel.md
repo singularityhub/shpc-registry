@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/openbabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openbabel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/openbabel/container.yaml"
-updated_at: "2022-10-17 09:55:56.703504"
+updated_at: "2022-10-26 02:47:43.341886"
 latest: "3.1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openbabel"
 aliases:
@@ -118,7 +118,7 @@ $ singularity inspect -d <container>
 
 
 #### obabel
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obabel
 $ podman run --it --rm --entrypoint /opt/view/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obabel   -v ${PWD} -w ${PWD} <
 
 
 #### obconformer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obconformer
 $ podman run --it --rm --entrypoint /opt/view/bin/obconformer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obconformer   -v ${PWD} -w ${P
 
 
 #### obdistgen
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obdistgen
 $ podman run --it --rm --entrypoint /opt/view/bin/obdistgen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obdistgen   -v ${PWD} -w ${PWD
 
 
 #### obenergy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obenergy
 $ podman run --it --rm --entrypoint /opt/view/bin/obenergy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obenergy   -v ${PWD} -w ${PWD}
 
 
 #### obfit
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obfit
 $ podman run --it --rm --entrypoint /opt/view/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obfit   -v ${PWD} -w ${PWD} <c
 
 
 #### obfitall
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obfitall
 $ podman run --it --rm --entrypoint /opt/view/bin/obfitall   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obfitall   -v ${PWD} -w ${PWD}
 
 
 #### obgen
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obgen
 $ podman run --it --rm --entrypoint /opt/view/bin/obgen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obgen   -v ${PWD} -w ${PWD} <c
 
 
 #### obgrep
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obgrep
 $ podman run --it --rm --entrypoint /opt/view/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obgrep   -v ${PWD} -w ${PWD} <
 
 
 #### obminimize
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obminimize
 $ podman run --it --rm --entrypoint /opt/view/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obminimize   -v ${PWD} -w ${PW
 
 
 #### obmm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obmm
 $ podman run --it --rm --entrypoint /opt/view/bin/obmm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obmm   -v ${PWD} -w ${PWD} <co
 
 
 #### obprobe
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obprobe
 $ podman run --it --rm --entrypoint /opt/view/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obprobe   -v ${PWD} -w ${PWD} 
 
 
 #### obprop
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obprop
 $ podman run --it --rm --entrypoint /opt/view/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obprop   -v ${PWD} -w ${PWD} <
 
 
 #### obrms
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obrms
 $ podman run --it --rm --entrypoint /opt/view/bin/obrms   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obrms   -v ${PWD} -w ${PWD} <c
 
 
 #### obrotamer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obrotamer
 $ podman run --it --rm --entrypoint /opt/view/bin/obrotamer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obrotamer   -v ${PWD} -w ${PWD
 
 
 #### obrotate
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obrotate
 $ podman run --it --rm --entrypoint /opt/view/bin/obrotate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obrotate   -v ${PWD} -w ${PWD}
 
 
 #### obspectrophore
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obspectrophore
 $ podman run --it --rm --entrypoint /opt/view/bin/obspectrophore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -262,7 +262,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obspectrophore   -v ${PWD} -w 
 
 
 #### obsym
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obsym
 $ podman run --it --rm --entrypoint /opt/view/bin/obsym   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -271,7 +271,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obsym   -v ${PWD} -w ${PWD} <c
 
 
 #### obtautomer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obtautomer
 $ podman run --it --rm --entrypoint /opt/view/bin/obtautomer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -280,7 +280,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/obtautomer   -v ${PWD} -w ${PW
 
 
 #### obthermo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/obthermo
 $ podman run --it --rm --entrypoint /opt/view/bin/obthermo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -301,7 +301,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

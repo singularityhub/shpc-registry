@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/geos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/geos/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/geos/container.yaml"
-updated_at: "2022-10-17 09:56:03.526923"
+updated_at: "2022-10-26 02:48:27.155368"
 latest: "3.9.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/geos"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### geos-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/geos-config
 $ podman run --it --rm --entrypoint /opt/view/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

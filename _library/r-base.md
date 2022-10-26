@@ -4,7 +4,7 @@ name:  "r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/r-base/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/r-base/container.yaml"
-updated_at: "2022-10-17 09:57:09.182605"
+updated_at: "2022-10-26 02:48:41.887037"
 latest: "4.2.1"
 container_url: "https://hub.docker.com/_/r-base"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### R
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/R
 $ podman run --it --rm --entrypoint /usr/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /usr/bin/R   -v ${PWD} -w ${PWD} <container>
 
 
 #### Rscript
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/Rscript
 $ podman run --it --rm --entrypoint /usr/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

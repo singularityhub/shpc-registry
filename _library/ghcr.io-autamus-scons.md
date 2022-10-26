@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/scons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scons/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/scons/container.yaml"
-updated_at: "2022-10-17 09:55:29.444240"
+updated_at: "2022-10-26 02:47:21.675719"
 latest: "3.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scons"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### scons
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons
 $ podman run --it --rm --entrypoint /opt/view/bin/scons   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons   -v ${PWD} -w ${PWD} <c
 
 
 #### scons-3.1.2
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-3.1.2
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-3.1.2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-3.1.2   -v ${PWD} -w ${P
 
 
 #### scons-3.1.2.bat
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-3.1.2.bat
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-3.1.2.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-3.1.2.bat   -v ${PWD} -w
 
 
 #### scons-configure-cache
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-configure-cache
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-configure-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-configure-cache   -v ${P
 
 
 #### scons-configure-cache-3.1.2
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-configure-cache-3.1.2
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-configure-cache-3.1.2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-configure-cache-3.1.2   
 
 
 #### scons-time
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-time
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-time   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-time   -v ${PWD} -w ${PW
 
 
 #### scons-time-3.1.2
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons-time-3.1.2
 $ podman run --it --rm --entrypoint /opt/view/bin/scons-time-3.1.2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons-time-3.1.2   -v ${PWD} -
 
 
 #### scons.bat
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scons.bat
 $ podman run --it --rm --entrypoint /opt/view/bin/scons.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scons.bat   -v ${PWD} -w ${PWD
 
 
 #### sconsign
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/sconsign
 $ podman run --it --rm --entrypoint /opt/view/bin/sconsign   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/sconsign   -v ${PWD} -w ${PWD}
 
 
 #### sconsign-3.1.2
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/sconsign-3.1.2
 $ podman run --it --rm --entrypoint /opt/view/bin/sconsign-3.1.2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

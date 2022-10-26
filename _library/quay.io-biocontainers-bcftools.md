@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools/container.yaml"
-updated_at: "2022-10-17 09:57:15.615153"
+updated_at: "2022-10-26 02:46:51.798173"
 latest: "1.15--haf5b3da_0"
 container_url: "https://quay.io/repository/biocontainers/bcftools"
 aliases:
@@ -114,7 +114,7 @@ $ singularity inspect -d <container>
 
 
 #### bcftools
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bcftools
 $ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD
 
 
 #### bgzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bgzip
 $ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <
 
 
 #### color-chrs.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/color-chrs.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w 
 
 
 #### gff2gff.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gff2gff.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${P
 
 
 #### guess-ploidy.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/guess-ploidy.py
 $ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -159,7 +159,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -
 
 
 #### htsfile
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -168,7 +168,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 
 
 #### libdeflate-gunzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/libdeflate-gunzip
 $ podman run --it --rm --entrypoint /usr/local/bin/libdeflate-gunzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -177,7 +177,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/libdeflate-gunzip   -v ${PWD}
 
 
 #### libdeflate-gzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/libdeflate-gzip
 $ podman run --it --rm --entrypoint /usr/local/bin/libdeflate-gzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -186,7 +186,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/libdeflate-gzip   -v ${PWD} -
 
 
 #### plot-roh.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plot-roh.py
 $ podman run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -195,7 +195,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${
 
 
 #### plot-vcfstats
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plot-vcfstats
 $ podman run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -204,7 +204,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w 
 
 
 #### run-roh.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/run-roh.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -213,7 +213,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${P
 
 
 #### tabix
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tabix
 $ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -222,7 +222,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <
 
 
 #### vcfutils.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vcfutils.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -243,7 +243,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

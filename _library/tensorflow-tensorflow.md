@@ -4,7 +4,7 @@ name:  "tensorflow/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/tensorflow/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/tensorflow/tensorflow/container.yaml"
-updated_at: "2022-10-17 09:58:02.486546"
+updated_at: "2022-10-26 02:47:09.133834"
 latest: "2.10.0rc3"
 container_url: "https://hub.docker.com/r/tensorflow/tensorflow"
 aliases:
@@ -121,7 +121,7 @@ $ singularity inspect -d <container>
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python
 $ podman run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

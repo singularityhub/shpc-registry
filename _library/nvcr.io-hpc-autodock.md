@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/autodock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/autodock/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/autodock/container.yaml"
-updated_at: "2022-10-17 09:57:47.296915"
+updated_at: "2022-10-26 02:48:51.898033"
 latest: "2020.06"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:autodock"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### autodock
-       
+
 ```bash
 $ singularity exec <container> /opt/AutoDock-GPU/bin/autodock_gpu_128wi
 $ podman run --it --rm --entrypoint /opt/AutoDock-GPU/bin/autodock_gpu_128wi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

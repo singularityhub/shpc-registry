@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/adios"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/adios/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/adios/container.yaml"
-updated_at: "2022-10-17 09:56:05.693696"
+updated_at: "2022-10-26 02:47:59.669523"
 latest: "1.13.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/adios"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### adios_config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_config
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios_config   -v ${PWD} -w ${
 
 
 #### adios_lint
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_lint
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_lint   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios_lint   -v ${PWD} -w ${PW
 
 
 #### adios_list_methods
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_list_methods
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_list_methods   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios_list_methods   -v ${PWD}
 
 
 #### adios_list_methods_nompi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_list_methods_nompi
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_list_methods_nompi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios_list_methods_nompi   -v 
 
 
 #### adios_list_methods_readonly
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_list_methods_readonly
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_list_methods_readonly   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios_list_methods_readonly   
 
 
 #### adios_list_methods_readonly_nompi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios_list_methods_readonly_nompi
 $ podman run --it --rm --entrypoint /opt/view/bin/adios_list_methods_readonly_nompi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

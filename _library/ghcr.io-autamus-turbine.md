@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/turbine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/turbine/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/turbine/container.yaml"
-updated_at: "2022-10-17 09:55:59.309630"
+updated_at: "2022-10-26 02:47:25.187517"
 latest: "1.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/turbine"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### turbine
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/turbine
 $ podman run --it --rm --entrypoint /opt/view/bin/turbine   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/turbine   -v ${PWD} -w ${PWD} 
 
 
 #### turbine-pilot
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/turbine-pilot
 $ podman run --it --rm --entrypoint /opt/view/bin/turbine-pilot   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/turbine-pilot   -v ${PWD} -w $
 
 
 #### turbine-read-doubles
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/turbine-read-doubles
 $ podman run --it --rm --entrypoint /opt/view/bin/turbine-read-doubles   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/turbine-read-doubles   -v ${PW
 
 
 #### turbine-write-doubles
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/turbine-write-doubles
 $ podman run --it --rm --entrypoint /opt/view/bin/turbine-write-doubles   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

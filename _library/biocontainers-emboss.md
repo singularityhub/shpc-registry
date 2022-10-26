@@ -4,7 +4,7 @@ name:  "biocontainers/emboss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/emboss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/emboss/container.yaml"
-updated_at: "2022-10-17 09:57:54.385431"
+updated_at: "2022-10-26 02:48:32.425291"
 latest: "v6.6.0dfsg-7b1-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/emboss"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### embossdata
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/embossdata
 $ podman run --it --rm --entrypoint /usr/bin/embossdata   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /usr/bin/embossdata   -v ${PWD} -w ${PWD} <c
 
 
 #### embossupdate
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/embossupdate
 $ podman run --it --rm --entrypoint /usr/bin/embossupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /usr/bin/embossupdate   -v ${PWD} -w ${PWD} 
 
 
 #### embossversion
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/embossversion
 $ podman run --it --rm --entrypoint /usr/bin/embossversion   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /usr/bin/embossversion   -v ${PWD} -w ${PWD}
 
 
 #### emma
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/emma
 $ podman run --it --rm --entrypoint /usr/bin/emma   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /usr/bin/emma   -v ${PWD} -w ${PWD} <contain
 
 
 #### emowse
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/emouse
 $ podman run --it --rm --entrypoint /usr/bin/emouse   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /usr/bin/emouse   -v ${PWD} -w ${PWD} <conta
 
 
 #### em_pscan
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/em_pscan
 $ podman run --it --rm --entrypoint /usr/bin/em_pscan   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -159,7 +159,7 @@ $ docker run --it --rm --entrypoint /usr/bin/em_pscan   -v ${PWD} -w ${PWD} <con
 
 
 #### em_cons
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/em_cons
 $ podman run --it --rm --entrypoint /usr/bin/em_cons   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -180,7 +180,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

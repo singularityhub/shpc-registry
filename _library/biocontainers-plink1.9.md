@@ -4,7 +4,7 @@ name:  "biocontainers/plink1.9"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/plink1.9/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/plink1.9/container.yaml"
-updated_at: "2022-10-17 09:57:52.794935"
+updated_at: "2022-10-26 02:48:32.861724"
 latest: "v1.90b6.6-181012-1-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/plink1.9"
 aliases:
@@ -99,7 +99,7 @@ $ singularity inspect -d <container>
 
 
 #### plink
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/plink1.9
 $ podman run --it --rm --entrypoint /usr/bin/plink1.9   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

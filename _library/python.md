@@ -4,7 +4,7 @@ name:  "python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/python/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/python/container.yaml"
-updated_at: "2022-10-17 09:55:26.730266"
+updated_at: "2022-10-26 02:48:41.459854"
 latest: "3.11-rc"
 container_url: "https://hub.docker.com/_/python"
 aliases:
@@ -111,7 +111,7 @@ $ singularity inspect -d <container>
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python
 $ podman run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

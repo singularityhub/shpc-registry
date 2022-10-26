@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/eagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/eagle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/eagle/container.yaml"
-updated_at: "2022-10-17 09:56:25.500104"
+updated_at: "2022-10-26 02:47:54.840537"
 latest: "1.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/eagle"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### eagle
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/eagle
 $ podman run --it --rm --entrypoint /opt/view/bin/eagle   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/eagle   -v ${PWD} -w ${PWD} <c
 
 
 #### eagle-nm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/eagle-nm
 $ podman run --it --rm --entrypoint /opt/view/bin/eagle-nm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/eagle-nm   -v ${PWD} -w ${PWD}
 
 
 #### eagle-rc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/eagle-rc
 $ podman run --it --rm --entrypoint /opt/view/bin/eagle-rc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

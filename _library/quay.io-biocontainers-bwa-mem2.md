@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-mem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem2/container.yaml"
-updated_at: "2022-10-17 09:57:11.318005"
+updated_at: "2022-10-26 02:46:54.423391"
 latest: "2.2.1--hd03093a_2"
 container_url: "https://quay.io/repository/biocontainers/bwa-mem2"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### bwa-mem2
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bwa-mem2
 $ podman run --it --rm --entrypoint /usr/local/bin/bwa-mem2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

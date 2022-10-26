@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/raxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/raxml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/raxml/container.yaml"
-updated_at: "2022-10-17 09:55:54.594027"
+updated_at: "2022-10-26 02:47:45.579495"
 latest: "8.2.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/raxml"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### raxmlHPC
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raxmlHPC   -v ${PWD} -w ${PWD}
 
 
 #### raxmlHPC-AVX
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC-AVX
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC-AVX   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raxmlHPC-AVX   -v ${PWD} -w ${
 
 
 #### raxmlHPC-MPI
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC-MPI
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI   -v ${PWD} -w ${
 
 
 #### raxmlHPC-MPI-AVX
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC-MPI-AVX
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI-AVX   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI-AVX   -v ${PWD} -
 
 
 #### raxmlHPC-MPI-SSE3
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC-MPI-SSE3
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raxmlHPC-MPI-SSE3   -v ${PWD} 
 
 
 #### raxmlHPC-SSE3
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raxmlHPC-SSE3
 $ podman run --it --rm --entrypoint /opt/view/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/picard/container.yaml"
-updated_at: "2022-10-17 09:57:53.327124"
+updated_at: "2022-10-26 02:48:33.711039"
 latest: "2.3.0"
 container_url: "https://hub.docker.com/r/biocontainers/picard"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### picard
-       
+
 ```bash
 $ singularity exec <container> java -jar /opt/conda/bin/picard.jar
 $ podman run --it --rm --entrypoint java   -v ${PWD} -w ${PWD} <container> -c "-jar /opt/conda/bin/picard.jar $@"
@@ -123,7 +123,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

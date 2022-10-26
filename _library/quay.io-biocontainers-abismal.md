@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abismal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abismal/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abismal/container.yaml"
-updated_at: "2022-10-17 09:57:33.527075"
+updated_at: "2022-10-26 02:46:53.107975"
 latest: "1.0.0--h9a82719_0"
 container_url: "https://biocontainers.pro/tools/abismal"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### abismal
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abismal
 $ podman run --it --rm --entrypoint /usr/local/bin/abismal   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abismal   -v ${PWD} -w ${PWD}
 
 
 #### abismalidx
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abismalidx
 $ podman run --it --rm --entrypoint /usr/local/bin/abismalidx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abismalidx   -v ${PWD} -w ${P
 
 
 #### simreads
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/simreads
 $ podman run --it --rm --entrypoint /usr/local/bin/simreads   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -129,7 +129,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/simreads   -v ${PWD} -w ${PWD
 
 
 #### env-execute
-       
+
 ```bash
 $ singularity exec <container> /usr/local/env-execute
 $ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "kibana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/kibana/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/kibana/container.yaml"
-updated_at: "2022-10-17 09:58:01.413235"
+updated_at: "2022-10-26 02:48:39.733001"
 latest: "8.4.2"
 container_url: "https://hub.docker.com/_/kibana"
 aliases:
@@ -123,7 +123,7 @@ $ singularity inspect -d <container>
 
 
 #### kibana
-       
+
 ```bash
 $ singularity exec <container> /usr/share/kibana/bin/kibana
 $ podman run --it --rm --entrypoint /usr/share/kibana/bin/kibana   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /usr/share/kibana/bin/kibana   -v ${PWD} -w 
 
 
 #### kibana-encryption-keys
-       
+
 ```bash
 $ singularity exec <container> /usr/share/kibana/bin/kibana-encryption-keys
 $ podman run --it --rm --entrypoint /usr/share/kibana/bin/kibana-encryption-keys   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /usr/share/kibana/bin/kibana-encryption-keys
 
 
 #### kibana-keystore
-       
+
 ```bash
 $ singularity exec <container> /usr/share/kibana/bin/kibana-keystore
 $ podman run --it --rm --entrypoint /usr/share/kibana/bin/kibana-keystore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /usr/share/kibana/bin/kibana-keystore   -v $
 
 
 #### kibana-plugin
-       
+
 ```bash
 $ singularity exec <container> /usr/share/kibana/bin/kibana-plugin
 $ podman run --it --rm --entrypoint /usr/share/kibana/bin/kibana-plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

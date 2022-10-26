@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/valgrind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/valgrind/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/valgrind/container.yaml"
-updated_at: "2022-10-17 09:56:01.409326"
+updated_at: "2022-10-26 02:48:11.932358"
 latest: "3.17.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/valgrind"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### valgrind
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/valgrind
 $ podman run --it --rm --entrypoint /opt/view/bin/valgrind   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/valgrind   -v ${PWD} -w ${PWD}
 
 
 #### valgrind-di-server
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/valgrind-di-server
 $ podman run --it --rm --entrypoint /opt/view/bin/valgrind-di-server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/valgrind-di-server   -v ${PWD}
 
 
 #### valgrind-listener
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/valgrind-listener
 $ podman run --it --rm --entrypoint /opt/view/bin/valgrind-listener   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "mongo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mongo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mongo/container.yaml"
-updated_at: "2022-10-17 09:57:10.783053"
+updated_at: "2022-10-26 02:48:42.764200"
 latest: "6.0"
 container_url: "https://hub.docker.com/r/_/mongo"
 aliases:
@@ -124,7 +124,7 @@ $ singularity inspect -d <container>
 
 
 #### mongo
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongo
 $ podman run --it --rm --entrypoint /usr/bin/mongo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongo   -v ${PWD} -w ${PWD} <contai
 
 
 #### mongod
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongod
 $ podman run --it --rm --entrypoint /usr/bin/mongod   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongod   -v ${PWD} -w ${PWD} <conta
 
 
 #### mongodump
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongodump
 $ podman run --it --rm --entrypoint /usr/bin/mongodump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongodump   -v ${PWD} -w ${PWD} <co
 
 
 #### mongoexport
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongoexport
 $ podman run --it --rm --entrypoint /usr/bin/mongoexport   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -160,7 +160,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongoexport   -v ${PWD} -w ${PWD} <
 
 
 #### mongofiles
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongofiles
 $ podman run --it --rm --entrypoint /usr/bin/mongofiles   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -169,7 +169,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongofiles   -v ${PWD} -w ${PWD} <c
 
 
 #### mongoimport
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongoimport
 $ podman run --it --rm --entrypoint /usr/bin/mongoimport   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -178,7 +178,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongoimport   -v ${PWD} -w ${PWD} <
 
 
 #### mongos
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongos
 $ podman run --it --rm --entrypoint /usr/bin/mongos   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -187,7 +187,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongos   -v ${PWD} -w ${PWD} <conta
 
 
 #### mongostat
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongostat
 $ podman run --it --rm --entrypoint /usr/bin/mongostat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -196,7 +196,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongostat   -v ${PWD} -w ${PWD} <co
 
 
 #### mongostore
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongorestore
 $ podman run --it --rm --entrypoint /usr/bin/mongorestore   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -205,7 +205,7 @@ $ docker run --it --rm --entrypoint /usr/bin/mongorestore   -v ${PWD} -w ${PWD} 
 
 
 #### mongotop
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/mongotop
 $ podman run --it --rm --entrypoint /usr/bin/mongotop   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

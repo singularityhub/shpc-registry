@@ -4,7 +4,7 @@ name:  "php"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/php/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/php/container.yaml"
-updated_at: "2022-10-17 09:55:25.113747"
+updated_at: "2022-10-26 02:48:38.040619"
 latest: "8-alpine3.16"
 container_url: "https://hub.docker.com/_/php"
 aliases:
@@ -122,7 +122,7 @@ $ singularity inspect -d <container>
 
 
 #### php
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/php
 $ podman run --it --rm --entrypoint /usr/local/bin/php   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/php   -v ${PWD} -w ${PWD} <co
 
 
 #### php-cgi
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/php-cgi
 $ podman run --it --rm --entrypoint /usr/local/bin/php-cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/php-cgi   -v ${PWD} -w ${PWD}
 
 
 #### php-config
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/php-config
 $ podman run --it --rm --entrypoint /usr/local/bin/php-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/php-config   -v ${PWD} -w ${P
 
 
 #### phpdbg
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/phpdbg
 $ podman run --it --rm --entrypoint /usr/local/bin/phpdbg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -158,7 +158,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phpdbg   -v ${PWD} -w ${PWD} 
 
 
 #### phpize
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/phpize
 $ podman run --it --rm --entrypoint /usr/local/bin/phpize   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

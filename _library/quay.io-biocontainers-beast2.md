@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2022-10-17 09:57:11.863091"
+updated_at: "2022-10-26 02:46:44.763658"
 latest: "2.6.3--hf1b8bbb_0"
 container_url: "https://quay.io/repository/biocontainers/beast2"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### beast
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/beast
 $ podman run --it --rm --entrypoint /usr/local/bin/beast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/beast   -v ${PWD} -w ${PWD} <
 
 
 #### beauti
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/beauti
 $ podman run --it --rm --entrypoint /usr/local/bin/beauti   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/beauti   -v ${PWD} -w ${PWD} 
 
 
 #### densitree
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/densitree
 $ podman run --it --rm --entrypoint /usr/local/bin/densitree   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -129,7 +129,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/densitree   -v ${PWD} -w ${PW
 
 
 #### treeannotator
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/treeannotator
 $ podman run --it --rm --entrypoint /usr/local/bin/treeannotator   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

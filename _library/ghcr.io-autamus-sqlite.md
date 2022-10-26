@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/sqlite/container.yaml"
-updated_at: "2022-10-17 09:55:56.180281"
+updated_at: "2022-10-26 02:48:16.672008"
 latest: "3.39.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/sqlite"
 aliases:
@@ -107,7 +107,7 @@ $ singularity inspect -d <container>
 
 
 #### sqlite3
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/sqlite3
 $ podman run --it --rm --entrypoint /opt/view/bin/sqlite3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -128,7 +128,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

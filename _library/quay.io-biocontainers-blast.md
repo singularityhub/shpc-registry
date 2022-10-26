@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2022-10-17 09:57:31.415040"
+updated_at: "2022-10-26 02:46:52.235718"
 latest: "2.13.0--hf3cf87c_0"
 container_url: "https://quay.io/repository/biocontainers/blast"
 aliases:
@@ -120,7 +120,7 @@ $ singularity inspect -d <container>
 
 
 #### blast_formatter
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blast_formatter
 $ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -129,7 +129,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -
 
 
 #### blastdb_aliastool
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastdb_aliastool
 $ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -138,7 +138,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD}
 
 
 #### blastdbcheck
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastdbcheck
 $ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -147,7 +147,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w $
 
 
 #### blastdbcmd
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastdbcmd
 $ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -156,7 +156,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${P
 
 
 #### blastn
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastn
 $ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -165,7 +165,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} 
 
 
 #### blastp
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastp
 $ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -174,7 +174,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} 
 
 
 #### blastx
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blastx
 $ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -183,7 +183,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} 
 
 
 #### cleanup-blastdb-volumes.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/cleanup-blastdb-volumes.py
 $ podman run --it --rm --entrypoint /usr/local/bin/cleanup-blastdb-volumes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -192,7 +192,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cleanup-blastdb-volumes.py   
 
 
 #### convert2blastmask
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/convert2blastmask
 $ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -201,7 +201,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD}
 
 
 #### deltablast
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/deltablast
 $ podman run --it --rm --entrypoint /usr/local/bin/deltablast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -210,7 +210,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/deltablast   -v ${PWD} -w ${P
 
 
 #### eblast
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/eblast
 $ podman run --it --rm --entrypoint /usr/local/bin/eblast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -219,7 +219,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/eblast   -v ${PWD} -w ${PWD} 
 
 
 #### makeblastdb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/makeblastdb
 $ podman run --it --rm --entrypoint /usr/local/bin/makeblastdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -228,7 +228,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/makeblastdb   -v ${PWD} -w ${
 
 
 #### psiblast
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/psiblast
 $ podman run --it --rm --entrypoint /usr/local/bin/psiblast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -237,7 +237,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psiblast   -v ${PWD} -w ${PWD
 
 
 #### rpsblast
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rpsblast
 $ podman run --it --rm --entrypoint /usr/local/bin/rpsblast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -246,7 +246,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rpsblast   -v ${PWD} -w ${PWD
 
 
 #### rpstblastn
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rpstblastn
 $ podman run --it --rm --entrypoint /usr/local/bin/rpstblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -255,7 +255,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rpstblastn   -v ${PWD} -w ${P
 
 
 #### tblastn
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tblastn
 $ podman run --it --rm --entrypoint /usr/local/bin/tblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -264,7 +264,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tblastn   -v ${PWD} -w ${PWD}
 
 
 #### tblastx
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tblastx
 $ podman run --it --rm --entrypoint /usr/local/bin/tblastx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -273,7 +273,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tblastx   -v ${PWD} -w ${PWD}
 
 
 #### update_blastdb.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/update_blastdb.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/update_blastdb.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -294,7 +294,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

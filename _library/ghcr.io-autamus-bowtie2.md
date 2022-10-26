@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bowtie2/container.yaml"
-updated_at: "2022-10-17 09:56:08.903271"
+updated_at: "2022-10-26 02:48:21.878188"
 latest: "2.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bowtie2"
 aliases:
@@ -108,7 +108,7 @@ $ singularity inspect -d <container>
 
 
 #### bowtie2
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -117,7 +117,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2   -v ${PWD} -w ${PWD} 
 
 
 #### bowtie2-align-l
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-align-l
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -126,7 +126,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-align-l   -v ${PWD} -w
 
 
 #### bowtie2-align-s
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-align-s
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-align-s   -v ${PWD} -w
 
 
 #### bowtie2-build
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-build
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -144,7 +144,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-build   -v ${PWD} -w $
 
 
 #### bowtie2-build-l
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-build-l
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -153,7 +153,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-build-l   -v ${PWD} -w
 
 
 #### bowtie2-build-s
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-build-s
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -162,7 +162,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-build-s   -v ${PWD} -w
 
 
 #### bowtie2-inspect
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-inspect
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-inspect   -v ${PWD} -w
 
 
 #### bowtie2-inspect-l
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-inspect-l
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -180,7 +180,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bowtie2-inspect-l   -v ${PWD} 
 
 
 #### bowtie2-inspect-s
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bowtie2-inspect-s
 $ podman run --it --rm --entrypoint /opt/view/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -201,7 +201,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

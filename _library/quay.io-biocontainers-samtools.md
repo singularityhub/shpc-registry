@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2022-10-17 09:57:20.998216"
+updated_at: "2022-10-26 02:46:50.084304"
 latest: "1.15--h3843a85_0"
 container_url: "https://quay.io/repository/biocontainers/samtools"
 aliases:
@@ -130,7 +130,7 @@ $ singularity inspect -d <container>
 
 
 #### ace2sam
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/ace2sam
 $ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -139,7 +139,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD}
 
 
 #### bgzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bgzip
 $ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -148,7 +148,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <
 
 
 #### blast2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/blast2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -157,7 +157,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w $
 
 
 #### bowtie2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bowtie2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -166,7 +166,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w 
 
 
 #### export2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/export2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -175,7 +175,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w 
 
 
 #### fasta-sanitize.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD}
 
 
 #### htsfile
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -193,7 +193,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 
 
 #### interpolate_sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/interpolate_sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -202,7 +202,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD
 
 
 #### libdeflate-gunzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/libdeflate-gunzip
 $ podman run --it --rm --entrypoint /usr/local/bin/libdeflate-gunzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/libdeflate-gunzip   -v ${PWD}
 
 
 #### libdeflate-gzip
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/libdeflate-gzip
 $ podman run --it --rm --entrypoint /usr/local/bin/libdeflate-gzip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -220,7 +220,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/libdeflate-gzip   -v ${PWD} -
 
 
 #### maq2sam-long
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/maq2sam-long
 $ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -229,7 +229,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w $
 
 
 #### maq2sam-short
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/maq2sam-short
 $ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -238,7 +238,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w 
 
 
 #### md5fa
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/md5fa
 $ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -247,7 +247,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <
 
 
 #### md5sum-lite
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/md5sum-lite
 $ podman run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -256,7 +256,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${
 
 
 #### novo2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/novo2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/novo2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -265,7 +265,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/novo2sam.pl   -v ${PWD} -w ${
 
 
 #### plot-ampliconstats
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plot-ampliconstats
 $ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -274,7 +274,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD
 
 
 #### plot-bamstats
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/plot-bamstats
 $ podman run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -283,7 +283,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w 
 
 
 #### psl2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/psl2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/psl2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -292,7 +292,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psl2sam.pl   -v ${PWD} -w ${P
 
 
 #### sam2vcf.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sam2vcf.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2vcf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -301,7 +301,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sam2vcf.pl   -v ${PWD} -w ${P
 
 
 #### samtools
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/samtools
 $ podman run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -310,7 +310,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD
 
 
 #### samtools.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/samtools.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/samtools.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -319,7 +319,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/samtools.pl   -v ${PWD} -w ${
 
 
 #### seq_cache_populate.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/seq_cache_populate.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/seq_cache_populate.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -328,7 +328,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seq_cache_populate.pl   -v ${
 
 
 #### soap2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/soap2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/soap2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -337,7 +337,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/soap2sam.pl   -v ${PWD} -w ${
 
 
 #### tabix
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/tabix
 $ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -346,7 +346,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <
 
 
 #### wgsim
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/wgsim
 $ podman run --it --rm --entrypoint /usr/local/bin/wgsim   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -355,7 +355,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wgsim   -v ${PWD} -w ${PWD} <
 
 
 #### wgsim_eval.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/wgsim_eval.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -364,7 +364,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w 
 
 
 #### zoom2sam.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/zoom2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/zoom2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -385,7 +385,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

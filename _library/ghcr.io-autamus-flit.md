@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/flit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/flit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/flit/container.yaml"
-updated_at: "2022-10-17 09:56:51.662869"
+updated_at: "2022-10-26 02:48:00.107861"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/flit"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### flit
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/flit
 $ podman run --it --rm --entrypoint /opt/view/bin/flit   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

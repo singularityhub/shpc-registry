@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/papi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/papi/container.yaml"
-updated_at: "2022-10-17 09:55:54.084130"
+updated_at: "2022-10-26 02:47:52.669137"
 latest: "6.0.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/papi"
 aliases:
@@ -113,7 +113,7 @@ $ singularity inspect -d <container>
 
 
 #### papi_avail
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_avail
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_avail   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_avail   -v ${PWD} -w ${PW
 
 
 #### papi_clockres
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_clockres
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_clockres   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_clockres   -v ${PWD} -w $
 
 
 #### papi_command_line
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_command_line
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_command_line   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_command_line   -v ${PWD} 
 
 
 #### papi_component_avail
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_component_avail
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_component_avail   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_component_avail   -v ${PW
 
 
 #### papi_cost
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_cost
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_cost   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -158,7 +158,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_cost   -v ${PWD} -w ${PWD
 
 
 #### papi_decode
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_decode
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_decode   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -167,7 +167,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_decode   -v ${PWD} -w ${P
 
 
 #### papi_error_codes
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_error_codes
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_error_codes   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -176,7 +176,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_error_codes   -v ${PWD} -
 
 
 #### papi_event_chooser
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_event_chooser
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_event_chooser   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -185,7 +185,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_event_chooser   -v ${PWD}
 
 
 #### papi_hl_output_writer.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_hl_output_writer.py
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_hl_output_writer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -194,7 +194,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_hl_output_writer.py   -v 
 
 
 #### papi_mem_info
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_mem_info
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_mem_info   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -203,7 +203,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_mem_info   -v ${PWD} -w $
 
 
 #### papi_multiplex_cost
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_multiplex_cost
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_multiplex_cost   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -212,7 +212,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_multiplex_cost   -v ${PWD
 
 
 #### papi_native_avail
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_native_avail
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_native_avail   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -221,7 +221,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_native_avail   -v ${PWD} 
 
 
 #### papi_version
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_version
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_version   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -230,7 +230,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/papi_version   -v ${PWD} -w ${
 
 
 #### papi_xml_event_info
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/papi_xml_event_info
 $ podman run --it --rm --entrypoint /opt/view/bin/papi_xml_event_info   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -251,7 +251,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

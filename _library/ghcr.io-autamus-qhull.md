@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/qhull/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/qhull/container.yaml"
-updated_at: "2022-10-17 09:56:47.933988"
+updated_at: "2022-10-26 02:47:56.167787"
 latest: "2020.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/qhull"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### qconvex
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/qconvex
 $ podman run --it --rm --entrypoint /opt/view/bin/qconvex   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/qconvex   -v ${PWD} -w ${PWD} 
 
 
 #### qdelaunay
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/qdelaunay
 $ podman run --it --rm --entrypoint /opt/view/bin/qdelaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/qdelaunay   -v ${PWD} -w ${PWD
 
 
 #### qhalf
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/qhalf
 $ podman run --it --rm --entrypoint /opt/view/bin/qhalf   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/qhalf   -v ${PWD} -w ${PWD} <c
 
 
 #### qhull
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/qhull
 $ podman run --it --rm --entrypoint /opt/view/bin/qhull   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/qhull   -v ${PWD} -w ${PWD} <c
 
 
 #### qvoronoi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/qvoronoi
 $ podman run --it --rm --entrypoint /opt/view/bin/qvoronoi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/qvoronoi   -v ${PWD} -w ${PWD}
 
 
 #### rbox
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rbox
 $ podman run --it --rm --entrypoint /opt/view/bin/rbox   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/beast2/container.yaml"
-updated_at: "2022-10-17 09:55:29.966333"
+updated_at: "2022-10-26 02:47:17.328706"
 latest: "2.6.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/beast2"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### beast
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/beast
 $ podman run --it --rm --entrypoint /opt/view/bin/beast   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/beast   -v ${PWD} -w ${PWD} <c
 
 
 #### beasti
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/beasti
 $ podman run --it --rm --entrypoint /opt/view/bin/beasti   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/beasti   -v ${PWD} -w ${PWD} <
 
 
 #### beauti
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/beauti
 $ podman run --it --rm --entrypoint /opt/view/bin/beauti   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/beauti   -v ${PWD} -w ${PWD} <
 
 
 #### densitree
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/densitree
 $ podman run --it --rm --entrypoint /opt/view/bin/densitree   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/densitree   -v ${PWD} -w ${PWD
 
 
 #### treeannotator
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/treeannotator
 $ podman run --it --rm --entrypoint /opt/view/bin/treeannotator   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

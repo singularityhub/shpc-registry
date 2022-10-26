@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/scr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/scr/container.yaml"
-updated_at: "2022-10-17 09:56:16.102120"
+updated_at: "2022-10-26 02:48:20.551884"
 latest: "3.0.rc.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scr"
 aliases:
@@ -136,7 +136,7 @@ $ singularity inspect -d <container>
 
 
 #### scancel
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scancel
 $ podman run --it --rm --entrypoint /opt/view/bin/scancel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scancel   -v ${PWD} -w ${PWD} 
 
 
 #### scontrol
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scontrol
 $ podman run --it --rm --entrypoint /opt/view/bin/scontrol   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scontrol   -v ${PWD} -w ${PWD}
 
 
 #### scp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scp
 $ podman run --it --rm --entrypoint /opt/view/bin/scp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scp   -v ${PWD} -w ${PWD} <con
 
 
 #### scr_check_node
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_check_node
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_check_node   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_check_node   -v ${PWD} -w 
 
 
 #### scr_ckpt_interval.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_ckpt_interval.py
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_ckpt_interval.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_ckpt_interval.py   -v ${PW
 
 
 #### scr_copy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_copy
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_copy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_copy   -v ${PWD} -w ${PWD}
 
 
 #### scr_crc32
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_crc32
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_crc32   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_crc32   -v ${PWD} -w ${PWD
 
 
 #### scr_env
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_env
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_env   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_env   -v ${PWD} -w ${PWD} 
 
 
 #### scr_flush_file
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_flush_file
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_flush_file   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_flush_file   -v ${PWD} -w 
 
 
 #### scr_get_jobstep_id
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_get_jobstep_id
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_get_jobstep_id   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_get_jobstep_id   -v ${PWD}
 
 
 #### scr_glob_hosts
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_glob_hosts
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_glob_hosts   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_glob_hosts   -v ${PWD} -w 
 
 
 #### scr_halt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_halt
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_halt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_halt   -v ${PWD} -w ${PWD}
 
 
 #### scr_halt_cntl
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_halt_cntl
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_halt_cntl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_halt_cntl   -v ${PWD} -w $
 
 
 #### scr_index
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_index
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_index   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -262,7 +262,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_index   -v ${PWD} -w ${PWD
 
 
 #### scr_inspect
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_inspect
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -271,7 +271,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_inspect   -v ${PWD} -w ${P
 
 
 #### scr_kill_jobstep
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_kill_jobstep
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_kill_jobstep   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -280,7 +280,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_kill_jobstep   -v ${PWD} -
 
 
 #### scr_list_dir
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_list_dir
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_list_dir   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -289,7 +289,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_list_dir   -v ${PWD} -w ${
 
 
 #### scr_list_down_nodes
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_list_down_nodes
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_list_down_nodes   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -298,7 +298,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_list_down_nodes   -v ${PWD
 
 
 #### scr_log_event
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_log_event
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_log_event   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -307,7 +307,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_log_event   -v ${PWD} -w $
 
 
 #### scr_log_transfer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_log_transfer
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_log_transfer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -316,7 +316,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_log_transfer   -v ${PWD} -
 
 
 #### scr_nodes_file
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_nodes_file
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_nodes_file   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -325,7 +325,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_nodes_file   -v ${PWD} -w 
 
 
 #### scr_postrun
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_postrun
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_postrun   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -334,7 +334,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_postrun   -v ${PWD} -w ${P
 
 
 #### scr_prefix
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_prefix
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_prefix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -343,7 +343,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_prefix   -v ${PWD} -w ${PW
 
 
 #### scr_prerun
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_prerun
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_prerun   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -352,7 +352,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_prerun   -v ${PWD} -w ${PW
 
 
 #### scr_print
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_print
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_print   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -361,7 +361,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_print   -v ${PWD} -w ${PWD
 
 
 #### scr_rebuild_partner
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_rebuild_partner
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_rebuild_partner   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -370,7 +370,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_rebuild_partner   -v ${PWD
 
 
 #### scr_rebuild_rs
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_rebuild_rs
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_rebuild_rs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -379,7 +379,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_rebuild_rs   -v ${PWD} -w 
 
 
 #### scr_rebuild_xor
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_rebuild_xor
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_rebuild_xor   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -388,7 +388,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_rebuild_xor   -v ${PWD} -w
 
 
 #### scr_retries_halt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_retries_halt
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_retries_halt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -397,7 +397,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_retries_halt   -v ${PWD} -
 
 
 #### scr_run
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_run
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_run   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -406,7 +406,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_run   -v ${PWD} -w ${PWD} 
 
 
 #### scr_scavenge
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_scavenge
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_scavenge   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -415,7 +415,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_scavenge   -v ${PWD} -w ${
 
 
 #### scr_srun
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_srun
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_srun   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -424,7 +424,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_srun   -v ${PWD} -w ${PWD}
 
 
 #### scr_test_datemanip
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_test_datemanip
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_test_datemanip   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -433,7 +433,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_test_datemanip   -v ${PWD}
 
 
 #### scr_test_runtime
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_test_runtime
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_test_runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -442,7 +442,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_test_runtime   -v ${PWD} -
 
 
 #### scr_watchdog
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scr_watchdog
 $ podman run --it --rm --entrypoint /opt/view/bin/scr_watchdog   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -451,7 +451,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scr_watchdog   -v ${PWD} -w ${
 
 
 #### scrlog.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scrlog.py
 $ podman run --it --rm --entrypoint /opt/view/bin/scrlog.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -460,7 +460,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/scrlog.py   -v ${PWD} -w ${PWD
 
 
 #### scrontab
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/scrontab
 $ podman run --it --rm --entrypoint /opt/view/bin/scrontab   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -481,7 +481,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

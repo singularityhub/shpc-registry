@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/diamond/container.yaml"
-updated_at: "2022-10-17 09:57:17.757520"
+updated_at: "2022-10-26 02:46:52.675719"
 latest: "2.0.14--hdcc8f71_0"
 container_url: "https://quay.io/repository/biocontainers/diamond"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### diamond
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/diamond
 $ podman run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/conduit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/conduit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/conduit/container.yaml"
-updated_at: "2022-10-17 09:56:20.023982"
+updated_at: "2022-10-26 02:48:14.101034"
 latest: "0.7.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/conduit"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### conduit_blueprint_verify
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_blueprint_verify
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_blueprint_verify   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_blueprint_verify   -v 
 
 
 #### conduit_relay_entangle.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_relay_entangle.py
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_relay_entangle.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_relay_entangle.py   -v
 
 
 #### conduit_relay_io_convert
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_relay_io_convert
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_relay_io_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_relay_io_convert   -v 
 
 
 #### conduit_relay_io_ls
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_relay_io_ls
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_relay_io_ls   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_relay_io_ls   -v ${PWD
 
 
 #### conduit_relay_node_viewer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_relay_node_viewer
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_relay_node_viewer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_relay_node_viewer   -v
 
 
 #### conduit_staging
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_staging
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_staging   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -160,7 +160,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/conduit_staging   -v ${PWD} -w
 
 
 #### conduit_staging.sh
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/conduit_staging.sh
 $ podman run --it --rm --entrypoint /opt/view/bin/conduit_staging.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

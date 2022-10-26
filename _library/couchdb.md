@@ -4,7 +4,7 @@ name:  "couchdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/couchdb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/couchdb/container.yaml"
-updated_at: "2022-10-17 09:57:58.200706"
+updated_at: "2022-10-26 02:48:38.463606"
 latest: "3.2.1"
 container_url: "https://hub.docker.com/_/couchdb"
 aliases:
@@ -110,7 +110,7 @@ $ singularity inspect -d <container>
 
 
 #### couchdb
-       
+
 ```bash
 $ singularity exec <container> /opt/couchdb/bin/couchdb
 $ podman run --it --rm --entrypoint /opt/couchdb/bin/couchdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -119,7 +119,7 @@ $ docker run --it --rm --entrypoint /opt/couchdb/bin/couchdb   -v ${PWD} -w ${PW
 
 
 #### couchdb.cmd
-       
+
 ```bash
 $ singularity exec <container> /opt/couchdb/bin/couchdb.cmd
 $ podman run --it --rm --entrypoint /opt/couchdb/bin/couchdb.cmd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -128,7 +128,7 @@ $ docker run --it --rm --entrypoint /opt/couchdb/bin/couchdb.cmd   -v ${PWD} -w 
 
 
 #### couchjs
-       
+
 ```bash
 $ singularity exec <container> /opt/couchdb/bin/couchjs
 $ podman run --it --rm --entrypoint /opt/couchdb/bin/couchjs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -137,7 +137,7 @@ $ docker run --it --rm --entrypoint /opt/couchdb/bin/couchjs   -v ${PWD} -w ${PW
 
 
 #### remsh
-       
+
 ```bash
 $ singularity exec <container> /opt/couchdb/bin/remsh
 $ podman run --it --rm --entrypoint /opt/couchdb/bin/remsh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -158,7 +158,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

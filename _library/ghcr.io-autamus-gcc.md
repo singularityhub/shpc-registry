@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gcc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
-updated_at: "2022-10-17 09:55:40.745661"
+updated_at: "2022-10-26 02:47:48.268197"
 latest: "12.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gcc"
 aliases:
@@ -116,7 +116,7 @@ $ singularity inspect -d <container>
 
 
 #### c++
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/c++
 $ podman run --it --rm --entrypoint /opt/view/bin/c++   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/c++   -v ${PWD} -w ${PWD} <con
 
 
 #### cpp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cpp
 $ podman run --it --rm --entrypoint /opt/view/bin/cpp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -134,7 +134,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cpp   -v ${PWD} -w ${PWD} <con
 
 
 #### g++
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/g++
 $ podman run --it --rm --entrypoint /opt/view/bin/g++   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/g++   -v ${PWD} -w ${PWD} <con
 
 
 #### gcc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcc
 $ podman run --it --rm --entrypoint /opt/view/bin/gcc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcc   -v ${PWD} -w ${PWD} <con
 
 
 #### gcc-ar
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcc-ar
 $ podman run --it --rm --entrypoint /opt/view/bin/gcc-ar   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcc-ar   -v ${PWD} -w ${PWD} <
 
 
 #### gcc-nm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcc-nm
 $ podman run --it --rm --entrypoint /opt/view/bin/gcc-nm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcc-nm   -v ${PWD} -w ${PWD} <
 
 
 #### gcc-ranlib
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcc-ranlib
 $ podman run --it --rm --entrypoint /opt/view/bin/gcc-ranlib   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcc-ranlib   -v ${PWD} -w ${PW
 
 
 #### gcov
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcov
 $ podman run --it --rm --entrypoint /opt/view/bin/gcov   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -188,7 +188,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcov   -v ${PWD} -w ${PWD} <co
 
 
 #### gcov-dump
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcov-dump
 $ podman run --it --rm --entrypoint /opt/view/bin/gcov-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -197,7 +197,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcov-dump   -v ${PWD} -w ${PWD
 
 
 #### gcov-tool
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gcov-tool
 $ podman run --it --rm --entrypoint /opt/view/bin/gcov-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -206,7 +206,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gcov-tool   -v ${PWD} -w ${PWD
 
 
 #### gfortran
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gfortran
 $ podman run --it --rm --entrypoint /opt/view/bin/gfortran   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -215,7 +215,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gfortran   -v ${PWD} -w ${PWD}
 
 
 #### zstd
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/zstd
 $ podman run --it --rm --entrypoint /opt/view/bin/zstd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -236,7 +236,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

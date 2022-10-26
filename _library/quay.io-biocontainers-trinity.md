@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trinity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinity/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trinity/container.yaml"
-updated_at: "2022-10-17 09:57:16.700626"
+updated_at: "2022-10-26 02:46:46.542544"
 latest: "2.13.2--hea94271_3"
 container_url: "https://quay.io/repository/biocontainers/trinity"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### Trinity
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/Trinity
 $ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD}
 
 
 #### trinity
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/Trinity
 $ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

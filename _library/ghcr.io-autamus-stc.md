@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/stc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/stc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/stc/container.yaml"
-updated_at: "2022-10-17 09:56:31.936248"
+updated_at: "2022-10-26 02:47:51.344857"
 latest: "0.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/stc"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### stc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/stc
 $ podman run --it --rm --entrypoint /opt/view/bin/stc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -110,7 +110,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/stc   -v ${PWD} -w ${PWD} <con
 
 
 #### swift-t
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/swift-t
 $ podman run --it --rm --entrypoint /opt/view/bin/swift-t   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

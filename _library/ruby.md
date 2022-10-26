@@ -4,7 +4,7 @@ name:  "ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ruby/container.yaml"
-updated_at: "2022-10-17 09:58:01.947914"
+updated_at: "2022-10-26 02:48:40.590778"
 latest: "3-alpine3.16"
 container_url: "https://hub.docker.com/_/ruby"
 aliases:
@@ -125,7 +125,7 @@ $ singularity inspect -d <container>
 
 
 #### bundle
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bundle
 $ podman run --it --rm --entrypoint /usr/local/bin/bundle   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -134,7 +134,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bundle   -v ${PWD} -w ${PWD} 
 
 
 #### bundler
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bundler
 $ podman run --it --rm --entrypoint /usr/local/bin/bundler   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bundler   -v ${PWD} -w ${PWD}
 
 
 #### erb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/erb
 $ podman run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <co
 
 
 #### gem
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gem
 $ podman run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <co
 
 
 #### irb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/irb
 $ podman run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <co
 
 
 #### racc
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/racc
 $ podman run --it --rm --entrypoint /usr/local/bin/racc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/racc   -v ${PWD} -w ${PWD} <c
 
 
 #### rake
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rake
 $ podman run --it --rm --entrypoint /usr/local/bin/rake   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -188,7 +188,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rake   -v ${PWD} -w ${PWD} <c
 
 
 #### rbs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rbs
 $ podman run --it --rm --entrypoint /usr/local/bin/rbs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -197,7 +197,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rbs   -v ${PWD} -w ${PWD} <co
 
 
 #### rdoc
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rdoc
 $ podman run --it --rm --entrypoint /usr/local/bin/rdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -206,7 +206,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rdoc   -v ${PWD} -w ${PWD} <c
 
 
 #### ri
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/ri
 $ podman run --it --rm --entrypoint /usr/local/bin/ri   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -215,7 +215,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ri   -v ${PWD} -w ${PWD} <con
 
 
 #### ruby
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/ruby
 $ podman run --it --rm --entrypoint /usr/local/bin/ruby   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -224,7 +224,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ruby   -v ${PWD} -w ${PWD} <c
 
 
 #### typeprof
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/typeprof
 $ podman run --it --rm --entrypoint /usr/local/bin/typeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -245,7 +245,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

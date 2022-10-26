@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/legion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/legion/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/legion/container.yaml"
-updated_at: "2022-10-17 09:56:21.115762"
+updated_at: "2022-10-26 02:48:02.824904"
 latest: "21.03.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/legion"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### legion_prof.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/legion_prof.py
 $ podman run --it --rm --entrypoint /opt/view/bin/legion_prof.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/legion_prof.py   -v ${PWD} -w 
 
 
 #### legion_serializer.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/legion_serializer.py
 $ podman run --it --rm --entrypoint /opt/view/bin/legion_serializer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/legion_serializer.py   -v ${PW
 
 
 #### legion_spy.py
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/legion_spy.py
 $ podman run --it --rm --entrypoint /opt/view/bin/legion_spy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

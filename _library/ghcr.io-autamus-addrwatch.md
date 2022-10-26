@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/addrwatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/addrwatch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/addrwatch/container.yaml"
-updated_at: "2022-10-17 09:56:05.151346"
+updated_at: "2022-10-26 02:47:11.257075"
 latest: "1.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/addrwatch"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### addrwatch
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/addrwatch
 $ podman run --it --rm --entrypoint /opt/view/bin/addrwatch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/addrwatch   -v ${PWD} -w ${PWD
 
 
 #### addrwatch_stdout
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/addrwatch_stdout
 $ podman run --it --rm --entrypoint /opt/view/bin/addrwatch_stdout   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/addrwatch_stdout   -v ${PWD} -
 
 
 #### addrwatch_syslog
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/addrwatch_syslog
 $ podman run --it --rm --entrypoint /opt/view/bin/addrwatch_syslog   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

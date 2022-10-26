@@ -4,7 +4,7 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2022-10-17 09:57:59.816660"
+updated_at: "2022-10-26 02:47:06.958013"
 latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### rocker-shiny-run
-       
+
 ```bash
 $ singularity exec <container> /bin/bash
 $ podman run --it --rm --entrypoint /bin/bash   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -109,7 +109,7 @@ $ docker run --it --rm --entrypoint /bin/bash   -v ${PWD} -w ${PWD} <container> 
 
 
 #### shiny-server
-       
+
 ```bash
 $ singularity exec <container> /opt/shiny-server
 $ podman run --it --rm --entrypoint /opt/shiny-server   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

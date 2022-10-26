@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/dakota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/dakota/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/dakota/container.yaml"
-updated_at: "2022-10-17 09:56:50.081796"
+updated_at: "2022-10-26 02:47:57.515397"
 latest: "6.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/dakota"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### dakota
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/dakota
 $ podman run --it --rm --entrypoint /opt/view/bin/dakota   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/dakota   -v ${PWD} -w ${PWD} <
 
 
 #### dakota_library_mode
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/dakota_library_mode
 $ podman run --it --rm --entrypoint /opt/view/bin/dakota_library_mode   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/dakota_library_mode   -v ${PWD
 
 
 #### dakota_library_split
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/dakota_library_split
 $ podman run --it --rm --entrypoint /opt/view/bin/dakota_library_split   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/dakota_library_split   -v ${PW
 
 
 #### dakota_order_input
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/dakota_order_input
 $ podman run --it --rm --entrypoint /opt/view/bin/dakota_order_input   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/dakota_order_input   -v ${PWD}
 
 
 #### dakota_restart_util
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/dakota_restart_util
 $ podman run --it --rm --entrypoint /opt/view/bin/dakota_restart_util   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

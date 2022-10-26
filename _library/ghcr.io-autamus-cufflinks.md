@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cufflinks/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cufflinks/container.yaml"
-updated_at: "2022-10-17 09:55:59.828416"
+updated_at: "2022-10-26 02:47:32.299710"
 latest: "2.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cufflinks"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### cuffcompare
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cuffcompare
 $ podman run --it --rm --entrypoint /opt/view/bin/cuffcompare   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cuffcompare   -v ${PWD} -w ${P
 
 
 #### cuffdiff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cuffdiff
 $ podman run --it --rm --entrypoint /opt/view/bin/cuffdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cuffdiff   -v ${PWD} -w ${PWD}
 
 
 #### cufflinks
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cufflinks
 $ podman run --it --rm --entrypoint /opt/view/bin/cufflinks   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -132,7 +132,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cufflinks   -v ${PWD} -w ${PWD
 
 
 #### cuffmerge
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cuffmerge
 $ podman run --it --rm --entrypoint /opt/view/bin/cuffmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cuffmerge   -v ${PWD} -w ${PWD
 
 
 #### cuffnorm
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cuffnorm
 $ podman run --it --rm --entrypoint /opt/view/bin/cuffnorm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cuffnorm   -v ${PWD} -w ${PWD}
 
 
 #### cuffquant
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cuffquant
 $ podman run --it --rm --entrypoint /opt/view/bin/cuffquant   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -171,7 +171,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

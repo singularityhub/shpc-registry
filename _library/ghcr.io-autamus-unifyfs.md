@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/unifyfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/unifyfs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/unifyfs/container.yaml"
-updated_at: "2022-10-17 09:56:10.582603"
+updated_at: "2022-10-26 02:47:35.424781"
 latest: "0.9.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/unifyfs"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### unifyfs
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/unifyfs
 $ podman run --it --rm --entrypoint /opt/view/bin/unifyfs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/unifyfs   -v ${PWD} -w ${PWD} 
 
 
 #### unifyfs-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/unifyfs-config
 $ podman run --it --rm --entrypoint /opt/view/bin/unifyfs-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/unifyfs-config   -v ${PWD} -w 
 
 
 #### unifyfsd
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/unifyfsd
 $ podman run --it --rm --entrypoint /opt/view/bin/unifyfsd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -141,7 +141,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/clingo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/clingo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/clingo/container.yaml"
-updated_at: "2022-10-17 09:56:30.329812"
+updated_at: "2022-10-26 02:47:41.977123"
 latest: "5.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/clingo"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### clingo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/clingo
 $ podman run --it --rm --entrypoint /opt/view/bin/clingo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/clingo   -v ${PWD} -w ${PWD} <
 
 
 #### gringo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gringo
 $ podman run --it --rm --entrypoint /opt/view/bin/gringo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

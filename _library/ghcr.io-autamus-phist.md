@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/phist/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/phist/container.yaml"
-updated_at: "2022-10-17 09:55:30.496612"
+updated_at: "2022-10-26 02:48:09.381311"
 latest: "1.9.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/phist"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### phist_Danasazi_krylov_schur
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Danasazi_krylov_schur
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Danasazi_krylov_schur   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Danasazi_krylov_schur   
 
 
 #### phist_Danasazi_lobpcg
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Danasazi_lobpcg
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Danasazi_lobpcg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Danasazi_lobpcg   -v ${P
 
 
 #### phist_Dbelos_bgmres
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dbelos_bgmres
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dbelos_bgmres   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dbelos_bgmres   -v ${PWD
 
 
 #### phist_Dbelos_bpcg
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dbelos_bpcg
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dbelos_bpcg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dbelos_bpcg   -v ${PWD} 
 
 
 #### phist_Dblockedbicgstab
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dblockedbicgstab
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dblockedbicgstab   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dblockedbicgstab   -v ${
 
 
 #### phist_Dblockedgmres
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dblockedgmres
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dblockedgmres   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dblockedgmres   -v ${PWD
 
 
 #### phist_Dblockedpcg
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dblockedpcg
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dblockedpcg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dblockedpcg   -v ${PWD} 
 
 
 #### phist_Dsimple_lanczos
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dsimple_lanczos
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dsimple_lanczos   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dsimple_lanczos   -v ${P
 
 
 #### phist_Dsubspacejada
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_Dsubspacejada
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_Dsubspacejada   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/phist_Dsubspacejada   -v ${PWD
 
 
 #### phist_carp_cg
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/phist_carp_cg
 $ podman run --it --rm --entrypoint /opt/view/bin/phist_carp_cg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

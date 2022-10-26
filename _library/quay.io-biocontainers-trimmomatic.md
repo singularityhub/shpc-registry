@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimmomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimmomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trimmomatic/container.yaml"
-updated_at: "2022-10-17 09:57:25.428266"
+updated_at: "2022-10-26 02:46:44.318999"
 latest: "0.39--hdfd78af_2"
 container_url: "https://quay.io/repository/biocontainers/trimmomatic"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### trimmomatic
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/trimmomatic
 $ podman run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

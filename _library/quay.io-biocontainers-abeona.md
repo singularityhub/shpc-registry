@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abeona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abeona/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abeona/container.yaml"
-updated_at: "2022-10-17 09:57:28.208507"
+updated_at: "2022-10-26 02:47:01.288712"
 latest: "0.45.0--py36_0"
 container_url: "https://biocontainers.pro/tools/abeona"
 aliases:
@@ -107,7 +107,7 @@ $ singularity inspect -d <container>
 
 
 #### abeona
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abeona
 $ podman run --it --rm --entrypoint /usr/local/bin/abeona   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -116,7 +116,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abeona   -v ${PWD} -w ${PWD} 
 
 
 #### b2sum
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/b2sum
 $ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <
 
 
 #### bwa
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bwa
 $ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -134,7 +134,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <co
 
 
 #### cortexpy
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/cortexpy
 $ podman run --it --rm --entrypoint /usr/local/bin/cortexpy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cortexpy   -v ${PWD} -w ${PWD
 
 
 #### factor
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/factor
 $ podman run --it --rm --entrypoint /usr/local/bin/factor   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/factor   -v ${PWD} -w ${PWD} 
 
 
 #### kallisto
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kallisto
 $ podman run --it --rm --entrypoint /usr/local/bin/kallisto   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kallisto   -v ${PWD} -w ${PWD
 
 
 #### nextflow
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/nextflow
 $ podman run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD
 
 
 #### python
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python
 $ podman run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python   -v ${PWD} -w ${PWD} 
 
 
 #### python3
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/python3
 $ podman run --it --rm --entrypoint /usr/local/bin/python3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -200,7 +200,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

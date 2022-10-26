@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mafft/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mafft/container.yaml"
-updated_at: "2022-10-17 09:57:02.234421"
+updated_at: "2022-10-26 02:48:17.106277"
 latest: "7.481"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mafft"
 aliases:
@@ -112,7 +112,7 @@ $ singularity inspect -d <container>
 
 
 #### mafft
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft   -v ${PWD} -w ${PWD} <c
 
 
 #### mafft-distance
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-distance
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-distance   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-distance   -v ${PWD} -w 
 
 
 #### mafft-einsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-einsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -139,7 +139,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-einsi   -v ${PWD} -w ${P
 
 
 #### mafft-fftns
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-fftns
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -148,7 +148,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-fftns   -v ${PWD} -w ${P
 
 
 #### mafft-fftnsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-fftnsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -157,7 +157,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-fftnsi   -v ${PWD} -w ${
 
 
 #### mafft-ginsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-ginsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-ginsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -166,7 +166,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-ginsi   -v ${PWD} -w ${P
 
 
 #### mafft-linsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-linsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-linsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -175,7 +175,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-linsi   -v ${PWD} -w ${P
 
 
 #### mafft-nwns
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-nwns
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-nwns   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -184,7 +184,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-nwns   -v ${PWD} -w ${PW
 
 
 #### mafft-nwnsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-nwnsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-nwnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -193,7 +193,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-nwnsi   -v ${PWD} -w ${P
 
 
 #### mafft-profile
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-profile
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-profile   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -202,7 +202,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-profile   -v ${PWD} -w $
 
 
 #### mafft-qinsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-qinsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-qinsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -211,7 +211,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mafft-qinsi   -v ${PWD} -w ${P
 
 
 #### mafft-xinsi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mafft-xinsi
 $ podman run --it --rm --entrypoint /opt/view/bin/mafft-xinsi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -232,7 +232,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

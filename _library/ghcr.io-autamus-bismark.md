@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bismark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bismark/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bismark/container.yaml"
-updated_at: "2022-10-17 09:56:22.219105"
+updated_at: "2022-10-26 02:48:00.988377"
 latest: "0.23.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bismark"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### bismark
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bismark   -v ${PWD} -w ${PWD} 
 
 
 #### bismark_genome_preparation
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark_genome_preparation
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark_genome_preparation   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bismark_genome_preparation   -
 
 
 #### bismark_methylation_extractor
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark_methylation_extractor
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark_methylation_extractor   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bismark_methylation_extractor 
 
 
 #### bismark2bedGraph
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark2bedGraph
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark2bedGraph   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bismark2bedGraph   -v ${PWD} -
 
 
 #### bismark2report
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark2report
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark2report   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/bismark2report   -v ${PWD} -w 
 
 
 #### bismark2summary
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/bismark2summary
 $ podman run --it --rm --entrypoint /opt/view/bin/bismark2summary   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

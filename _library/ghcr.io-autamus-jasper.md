@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/jasper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/jasper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/jasper/container.yaml"
-updated_at: "2022-10-17 09:56:42.176488"
+updated_at: "2022-10-26 02:47:57.954121"
 latest: "20210822.2247"
 container_url: "https://github.com/orgs/autamus/packages/container/package/jasper"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### jasper
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/jasper
 $ podman run --it --rm --entrypoint /opt/view/bin/jasper   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/jasper   -v ${PWD} -w ${PWD} <
 
 
 #### jpegtran
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/jpegtran
 $ podman run --it --rm --entrypoint /opt/view/bin/jpegtran   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

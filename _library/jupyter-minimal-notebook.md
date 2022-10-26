@@ -4,7 +4,7 @@ name:  "jupyter/minimal-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/minimal-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/minimal-notebook/container.yaml"
-updated_at: "2022-10-17 09:57:40.374863"
+updated_at: "2022-10-26 02:46:42.548135"
 latest: "2022-09-30"
 container_url: "https://hub.docker.com/r/jupyter/minimal-notebook"
 aliases:
@@ -112,7 +112,7 @@ $ singularity inspect -d <container>
 
 
 #### run-notebook
-       
+
 ```bash
 $ singularity exec <container> jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0
 $ podman run --it --rm --entrypoint    -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ninja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ninja/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/ninja/container.yaml"
-updated_at: "2022-10-17 09:55:57.217970"
+updated_at: "2022-10-26 02:47:38.926436"
 latest: "1.10.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ninja"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### ninja
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/ninja
 $ podman run --it --rm --entrypoint /opt/view/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -110,7 +110,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/ninja   -v ${PWD} -w ${PWD} <c
 
 
 #### ninja-build
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/ninja-build
 $ podman run --it --rm --entrypoint /opt/view/bin/ninja-build   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

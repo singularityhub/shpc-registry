@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hpctoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpctoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hpctoolkit/container.yaml"
-updated_at: "2022-10-17 09:55:35.969545"
+updated_at: "2022-10-26 02:48:28.483467"
 latest: "2021.10.15"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpctoolkit"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### hello
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hello
 $ podman run --it --rm --entrypoint /opt/view/bin/hello   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hello   -v ${PWD} -w ${PWD} <c
 
 
 #### hpclink
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpclink
 $ podman run --it --rm --entrypoint /opt/view/bin/hpclink   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hpclink   -v ${PWD} -w ${PWD} 
 
 
 #### hpcprof
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpcprof
 $ podman run --it --rm --entrypoint /opt/view/bin/hpcprof   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hpcprof   -v ${PWD} -w ${PWD} 
 
 
 #### hpcrun
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpcrun
 $ podman run --it --rm --entrypoint /opt/view/bin/hpcrun   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hpcrun   -v ${PWD} -w ${PWD} <
 
 
 #### hpcstruct
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpcstruct
 $ podman run --it --rm --entrypoint /opt/view/bin/hpcstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hpcstruct   -v ${PWD} -w ${PWD
 
 
 #### hpcviewer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hpcviewer
 $ podman run --it --rm --entrypoint /opt/view/bin/hpcviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

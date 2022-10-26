@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/graphviz/container.yaml"
-updated_at: "2022-10-17 09:55:32.697395"
+updated_at: "2022-10-26 02:47:14.297806"
 latest: "2.49.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/graphviz"
 aliases:
@@ -118,7 +118,7 @@ $ singularity inspect -d <container>
 
 
 #### gc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gc
 $ podman run --it --rm --entrypoint /opt/view/bin/gc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gc   -v ${PWD} -w ${PWD} <cont
 
 
 #### gml2gv
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gml2gv
 $ podman run --it --rm --entrypoint /opt/view/bin/gml2gv   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gml2gv   -v ${PWD} -w ${PWD} <
 
 
 #### graphml2gv
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/graphml2gv
 $ podman run --it --rm --entrypoint /opt/view/bin/graphml2gv   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/graphml2gv   -v ${PWD} -w ${PW
 
 
 #### gv2gml
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gv2gml
 $ podman run --it --rm --entrypoint /opt/view/bin/gv2gml   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gv2gml   -v ${PWD} -w ${PWD} <
 
 
 #### gv2gxl
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gv2gxl
 $ podman run --it --rm --entrypoint /opt/view/bin/gv2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gv2gxl   -v ${PWD} -w ${PWD} <
 
 
 #### gvcolor
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvcolor
 $ podman run --it --rm --entrypoint /opt/view/bin/gvcolor   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvcolor   -v ${PWD} -w ${PWD} 
 
 
 #### gvgen
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvgen
 $ podman run --it --rm --entrypoint /opt/view/bin/gvgen   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvgen   -v ${PWD} -w ${PWD} <c
 
 
 #### gvmap
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvmap
 $ podman run --it --rm --entrypoint /opt/view/bin/gvmap   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvmap   -v ${PWD} -w ${PWD} <c
 
 
 #### gvmap.sh
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvmap.sh
 $ podman run --it --rm --entrypoint /opt/view/bin/gvmap.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvmap.sh   -v ${PWD} -w ${PWD}
 
 
 #### gvpack
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvpack
 $ podman run --it --rm --entrypoint /opt/view/bin/gvpack   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvpack   -v ${PWD} -w ${PWD} <
 
 
 #### gvpr
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gvpr
 $ podman run --it --rm --entrypoint /opt/view/bin/gvpr   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gvpr   -v ${PWD} -w ${PWD} <co
 
 
 #### gxl2dot
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gxl2dot
 $ podman run --it --rm --entrypoint /opt/view/bin/gxl2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/gxl2dot   -v ${PWD} -w ${PWD} 
 
 
 #### gxl2gv
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/gxl2gv
 $ podman run --it --rm --entrypoint /opt/view/bin/gxl2gv   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -247,7 +247,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

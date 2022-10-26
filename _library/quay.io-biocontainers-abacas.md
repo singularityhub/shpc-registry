@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abacas/container.yaml"
-updated_at: "2022-10-17 09:57:19.952454"
+updated_at: "2022-10-26 02:46:49.229325"
 latest: "1.3.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/abacas"
 aliases:
@@ -118,7 +118,7 @@ $ singularity inspect -d <container>
 
 
 #### abacas.1.3.1.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abacas.1.3.1.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/abacas.1.3.1.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abacas.1.3.1.pl   -v ${PWD} -
 
 
 #### abacas.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abacas.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/abacas.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abacas.pl   -v ${PWD} -w ${PW
 
 
 #### combineMUMs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/combineMUMs
 $ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${
 
 
 #### delta-filter
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/delta-filter
 $ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w $
 
 
 #### dnadiff
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/dnadiff
 $ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD}
 
 
 #### enc2xs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/enc2xs
 $ podman run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} 
 
 
 #### exact-tandems
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/exact-tandems
 $ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w 
 
 
 #### mapview
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mapview
 $ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD}
 
 
 #### mgaps
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mgaps
 $ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <
 
 
 #### mummer
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mummer
 $ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} 
 
 
 #### mummerplot
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/mummerplot
 $ podman run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${P
 
 
 #### nucmer
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/nucmer
 $ podman run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} 
 
 
 #### repeat-match
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/repeat-match
 $ podman run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w $
 
 
 #### run-mummer1
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/run-mummer1
 $ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${
 
 
 #### run-mummer3
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/run-mummer3
 $ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${
 
 
 #### show-aligns
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/show-aligns
 $ podman run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -262,7 +262,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${
 
 
 #### show-coords
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/show-coords
 $ podman run --it --rm --entrypoint /usr/local/bin/show-coords   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -271,7 +271,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/show-coords   -v ${PWD} -w ${
 
 
 #### show-diff
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/show-diff
 $ podman run --it --rm --entrypoint /usr/local/bin/show-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -280,7 +280,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/show-diff   -v ${PWD} -w ${PW
 
 
 #### show-snps
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/show-snps
 $ podman run --it --rm --entrypoint /usr/local/bin/show-snps   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -289,7 +289,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/show-snps   -v ${PWD} -w ${PW
 
 
 #### show-tiling
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/show-tiling
 $ podman run --it --rm --entrypoint /usr/local/bin/show-tiling   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -310,7 +310,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

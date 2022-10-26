@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hdf5/container.yaml"
-updated_at: "2022-10-17 09:55:39.169401"
+updated_at: "2022-10-26 02:47:26.967263"
 latest: "1.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hdf5"
 aliases:
@@ -118,7 +118,7 @@ $ singularity inspect -d <container>
 
 
 #### h5clear
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5clear
 $ podman run --it --rm --entrypoint /opt/view/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5clear   -v ${PWD} -w ${PWD} 
 
 
 #### h5copy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5copy
 $ podman run --it --rm --entrypoint /opt/view/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5copy   -v ${PWD} -w ${PWD} <
 
 
 #### h5debug
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5debug
 $ podman run --it --rm --entrypoint /opt/view/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5debug   -v ${PWD} -w ${PWD} 
 
 
 #### h5diff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5diff
 $ podman run --it --rm --entrypoint /opt/view/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5diff   -v ${PWD} -w ${PWD} <
 
 
 #### h5dump
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5dump
 $ podman run --it --rm --entrypoint /opt/view/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5dump   -v ${PWD} -w ${PWD} <
 
 
 #### h5format_convert
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5format_convert
 $ podman run --it --rm --entrypoint /opt/view/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5format_convert   -v ${PWD} -
 
 
 #### h5import
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5import
 $ podman run --it --rm --entrypoint /opt/view/bin/h5import   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5import   -v ${PWD} -w ${PWD}
 
 
 #### h5jam
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5jam
 $ podman run --it --rm --entrypoint /opt/view/bin/h5jam   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5jam   -v ${PWD} -w ${PWD} <c
 
 
 #### h5ls
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5ls
 $ podman run --it --rm --entrypoint /opt/view/bin/h5ls   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5ls   -v ${PWD} -w ${PWD} <co
 
 
 #### h5mkgrp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5mkgrp
 $ podman run --it --rm --entrypoint /opt/view/bin/h5mkgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5mkgrp   -v ${PWD} -w ${PWD} 
 
 
 #### h5pcc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5pcc
 $ podman run --it --rm --entrypoint /opt/view/bin/h5pcc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5pcc   -v ${PWD} -w ${PWD} <c
 
 
 #### h5perf
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5perf
 $ podman run --it --rm --entrypoint /opt/view/bin/h5perf   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5perf   -v ${PWD} -w ${PWD} <
 
 
 #### h5perf_serial
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5perf_serial
 $ podman run --it --rm --entrypoint /opt/view/bin/h5perf_serial   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5perf_serial   -v ${PWD} -w $
 
 
 #### h5redeploy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5redeploy
 $ podman run --it --rm --entrypoint /opt/view/bin/h5redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5redeploy   -v ${PWD} -w ${PW
 
 
 #### h5repack
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5repack
 $ podman run --it --rm --entrypoint /opt/view/bin/h5repack   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5repack   -v ${PWD} -w ${PWD}
 
 
 #### h5repart
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5repart
 $ podman run --it --rm --entrypoint /opt/view/bin/h5repart   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -262,7 +262,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5repart   -v ${PWD} -w ${PWD}
 
 
 #### h5stat
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5stat
 $ podman run --it --rm --entrypoint /opt/view/bin/h5stat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -271,7 +271,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/h5stat   -v ${PWD} -w ${PWD} <
 
 
 #### h5unjam
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/h5unjam
 $ podman run --it --rm --entrypoint /opt/view/bin/h5unjam   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -292,7 +292,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

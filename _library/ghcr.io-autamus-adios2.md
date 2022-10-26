@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/adios2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/adios2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/adios2/container.yaml"
-updated_at: "2022-10-17 09:55:36.521551"
+updated_at: "2022-10-26 02:48:01.890038"
 latest: "2.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/adios2"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### adios2-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios2-config
 $ podman run --it --rm --entrypoint /opt/view/bin/adios2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios2-config   -v ${PWD} -w $
 
 
 #### adios2_deactivate_bp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios2_deactivate_bp
 $ podman run --it --rm --entrypoint /opt/view/bin/adios2_deactivate_bp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios2_deactivate_bp   -v ${PW
 
 
 #### adios2_iotest
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios2_iotest
 $ podman run --it --rm --entrypoint /opt/view/bin/adios2_iotest   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios2_iotest   -v ${PWD} -w $
 
 
 #### adios2_reorganize
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios2_reorganize
 $ podman run --it --rm --entrypoint /opt/view/bin/adios2_reorganize   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/adios2_reorganize   -v ${PWD} 
 
 
 #### adios2_reorganize_mpi
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/adios2_reorganize_mpi
 $ podman run --it --rm --entrypoint /opt/view/bin/adios2_reorganize_mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

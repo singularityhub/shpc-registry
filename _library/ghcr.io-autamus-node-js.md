@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/node-js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/node-js/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/node-js/container.yaml"
-updated_at: "2022-10-17 09:56:27.666338"
+updated_at: "2022-10-26 02:47:56.620902"
 latest: "15.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/node-js"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### node
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/node
 $ podman run --it --rm --entrypoint /opt/view/bin/node   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

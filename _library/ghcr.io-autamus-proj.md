@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/proj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/proj/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/proj/container.yaml"
-updated_at: "2022-10-17 09:56:21.670763"
+updated_at: "2022-10-26 02:47:27.864229"
 latest: "8.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/proj"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### proj
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/proj
 $ podman run --it --rm --entrypoint /opt/view/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/proj   -v ${PWD} -w ${PWD} <co
 
 
 #### projinfo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/projinfo
 $ podman run --it --rm --entrypoint /opt/view/bin/projinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/projinfo   -v ${PWD} -w ${PWD}
 
 
 #### projsync
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/projsync
 $ podman run --it --rm --entrypoint /opt/view/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

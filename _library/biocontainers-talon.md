@@ -4,7 +4,7 @@ name:  "biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/talon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/talon/container.yaml"
-updated_at: "2022-10-17 09:57:54.944635"
+updated_at: "2022-10-26 02:48:31.985604"
 latest: "v5.0_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/talon"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### talon
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon
 $ podman run --it --rm --entrypoint /usr/local/bin/talon   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon   -v ${PWD} -w ${PWD} <
 
 
 #### talon_create_GTF
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_create_GTF
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_create_GTF   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_create_GTF   -v ${PWD} 
 
 
 #### talon_fetch_reads
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_fetch_reads
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_fetch_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_fetch_reads   -v ${PWD}
 
 
 #### talon_filter_transcripts
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_filter_transcripts
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_filter_transcripts   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_filter_transcripts   -v
 
 
 #### talon_generate_report
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_generate_report
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_generate_report   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_generate_report   -v ${
 
 
 #### talon_initialize_database
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_initialize_database
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_initialize_database   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_initialize_database   -
 
 
 #### talon_get_sjs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_get_sjs
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_get_sjs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_get_sjs   -v ${PWD} -w 
 
 
 #### talon_label_reads
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_label_reads
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_label_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_label_reads   -v ${PWD}
 
 
 #### talon_reformat_gtf
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_reformat_gtf
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_reformat_gtf   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_reformat_gtf   -v ${PWD
 
 
 #### talon_summarize
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_summarize
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_summarize   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_summarize   -v ${PWD} -
 
 
 #### talon_abundance
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/talon_abundance
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_abundance   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -220,7 +220,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

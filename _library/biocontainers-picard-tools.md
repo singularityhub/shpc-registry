@@ -4,7 +4,7 @@ name:  "biocontainers/picard-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/picard-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/picard-tools/container.yaml"
-updated_at: "2022-10-17 09:57:53.858550"
+updated_at: "2022-10-26 02:48:31.537796"
 latest: "v2.18.25dfsg-2-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/picard-tools/tags"
 
@@ -119,7 +119,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

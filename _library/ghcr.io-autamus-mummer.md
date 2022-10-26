@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mummer/container.yaml"
-updated_at: "2022-10-17 09:56:09.455776"
+updated_at: "2022-10-26 02:48:20.998516"
 latest: "3.23"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mummer"
 aliases:
@@ -101,7 +101,7 @@ $ singularity inspect -d <container>
 
 
 #### mummer
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mummer
 $ podman run --it --rm --entrypoint /opt/view/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -110,7 +110,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/mummer   -v ${PWD} -w ${PWD} <
 
 
 #### mummerplot
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/mummerplot
 $ podman run --it --rm --entrypoint /opt/view/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

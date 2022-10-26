@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/git"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/git/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/git/container.yaml"
-updated_at: "2022-10-17 09:55:50.432799"
+updated_at: "2022-10-26 02:47:51.781166"
 latest: "latest"
 container_url: "https://github.com/orgs/autamus/packages/container/package/git"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### git
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git
 $ podman run --it --rm --entrypoint /opt/view/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/git   -v ${PWD} -w ${PWD} <con
 
 
 #### git-cvsserver
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git-cvsserver
 $ podman run --it --rm --entrypoint /opt/view/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/git-cvsserver   -v ${PWD} -w $
 
 
 #### git-receive-pack
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git-receive-pack
 $ podman run --it --rm --entrypoint /opt/view/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/git-receive-pack   -v ${PWD} -
 
 
 #### git-shell
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git-shell
 $ podman run --it --rm --entrypoint /opt/view/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/git-shell   -v ${PWD} -w ${PWD
 
 
 #### git-upload-archive
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git-upload-archive
 $ podman run --it --rm --entrypoint /opt/view/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/git-upload-archive   -v ${PWD}
 
 
 #### git-upload-pack
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/git-upload-pack
 $ podman run --it --rm --entrypoint /opt/view/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

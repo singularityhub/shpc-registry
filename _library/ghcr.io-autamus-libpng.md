@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libpng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libpng/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/libpng/container.yaml"
-updated_at: "2022-10-17 09:56:29.782262"
+updated_at: "2022-10-26 02:47:49.132291"
 latest: "1.6.37"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libpng"
 aliases:
@@ -103,7 +103,7 @@ $ singularity inspect -d <container>
 
 
 #### libpng-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/libpng-config
 $ podman run --it --rm --entrypoint /opt/view/bin/libpng-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -112,7 +112,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/libpng-config   -v ${PWD} -w $
 
 
 #### libpng16-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/libpng16-config
 $ podman run --it --rm --entrypoint /opt/view/bin/libpng16-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -121,7 +121,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/libpng16-config   -v ${PWD} -w
 
 
 #### png-fix-itxt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/png-fix-itxt
 $ podman run --it --rm --entrypoint /opt/view/bin/png-fix-itxt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/png-fix-itxt   -v ${PWD} -w ${
 
 
 #### pngfix
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/pngfix
 $ podman run --it --rm --entrypoint /opt/view/bin/pngfix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia-hpcvis/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-updated_at: "2022-10-17 09:57:43.548316"
+updated_at: "2022-10-26 02:48:53.162366"
 latest: "egl-5.6.0rc3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags"
 aliases:
@@ -104,7 +104,7 @@ $ singularity inspect -d <container>
 
 
 #### pvdataserver
-       
+
 ```bash
 $ singularity exec <container> /opt/paraview/bin/pvdataserver
 $ podman run --it --rm --entrypoint /opt/paraview/bin/pvdataserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -113,7 +113,7 @@ $ docker run --it --rm --entrypoint /opt/paraview/bin/pvdataserver   -v ${PWD} -
 
 
 #### pvrenderserver
-       
+
 ```bash
 $ singularity exec <container> /opt/paraview/bin/pvrenderserver
 $ podman run --it --rm --entrypoint /opt/paraview/bin/pvrenderserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/paraview/bin/pvrenderserver   -v ${PWD}
 
 
 #### pvbatch
-       
+
 ```bash
 $ singularity exec <container> /opt/paraview/bin/pvbatch
 $ podman run --it --rm --entrypoint /opt/paraview/bin/pvbatch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/paraview/bin/pvbatch   -v ${PWD} -w ${P
 
 
 #### pypython
-       
+
 ```bash
 $ singularity exec <container> /opt/paraview/bin/pvpython
 $ podman run --it --rm --entrypoint /opt/paraview/bin/pvpython   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/paraview/bin/pvpython   -v ${PWD} -w ${
 
 
 #### pvserver
-       
+
 ```bash
 $ singularity exec <container> /opt/paraview/bin/pvserver
 $ podman run --it --rm --entrypoint /opt/paraview/bin/pvserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

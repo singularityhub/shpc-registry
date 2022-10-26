@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xrootd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xrootd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/xrootd/container.yaml"
-updated_at: "2022-10-17 09:56:07.832318"
+updated_at: "2022-10-26 02:48:01.429559"
 latest: "5.3.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xrootd"
 aliases:
@@ -115,7 +115,7 @@ $ singularity inspect -d <container>
 
 
 #### xrdacctest
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdacctest
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdacctest   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdacctest   -v ${PWD} -w ${PW
 
 
 #### xrdadler32
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdadler32
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdadler32   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdadler32   -v ${PWD} -w ${PW
 
 
 #### xrdcopy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdcopy
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdcopy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdcopy   -v ${PWD} -w ${PWD} 
 
 
 #### xrdcp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdcp
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdcp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdcp   -v ${PWD} -w ${PWD} <c
 
 
 #### xrdfs
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdfs
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdfs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -160,7 +160,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdfs   -v ${PWD} -w ${PWD} <c
 
 
 #### xrdgsiproxy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdgsiproxy
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdgsiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -169,7 +169,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdgsiproxy   -v ${PWD} -w ${P
 
 
 #### xrdgsitest
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdgsitest
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdgsitest   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -178,7 +178,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdgsitest   -v ${PWD} -w ${PW
 
 
 #### xrdmapc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdmapc
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdmapc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -187,7 +187,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdmapc   -v ${PWD} -w ${PWD} 
 
 
 #### xrdpfc_print
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdpfc_print
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdpfc_print   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -196,7 +196,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdpfc_print   -v ${PWD} -w ${
 
 
 #### xrdpinls
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdpinls
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdpinls   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -205,7 +205,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdpinls   -v ${PWD} -w ${PWD}
 
 
 #### xrdpwdadmin
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdpwdadmin
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdpwdadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -214,7 +214,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdpwdadmin   -v ${PWD} -w ${P
 
 
 #### xrdsssadmin
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrdsssadmin
 $ podman run --it --rm --entrypoint /opt/view/bin/xrdsssadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -223,7 +223,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrdsssadmin   -v ${PWD} -w ${P
 
 
 #### xrootd
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrootd
 $ podman run --it --rm --entrypoint /opt/view/bin/xrootd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -232,7 +232,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/xrootd   -v ${PWD} -w ${PWD} <
 
 
 #### xrootd-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/xrootd-config
 $ podman run --it --rm --entrypoint /opt/view/bin/xrootd-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

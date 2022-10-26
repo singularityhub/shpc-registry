@@ -4,7 +4,7 @@ name:  "biocontainers/tabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/tabix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/tabix/container.yaml"
-updated_at: "2022-10-17 09:57:51.704359"
+updated_at: "2022-10-26 02:48:33.287862"
 latest: "v1.9-11-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/tabix"
 aliases:
@@ -99,7 +99,7 @@ $ singularity inspect -d <container>
 
 
 #### tabix
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/tabix
 $ podman run --it --rm --entrypoint /usr/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

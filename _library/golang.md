@@ -4,7 +4,7 @@ name:  "golang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/golang/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/golang/container.yaml"
-updated_at: "2022-10-17 09:57:09.734202"
+updated_at: "2022-10-26 02:48:50.196103"
 latest: "1.19"
 container_url: "https://hub.docker.com/r/_/golang"
 aliases:
@@ -116,7 +116,7 @@ $ singularity inspect -d <container>
 
 
 #### go
-       
+
 ```bash
 $ singularity exec <container> /usr/local/go/bin/go
 $ podman run --it --rm --entrypoint /usr/local/go/bin/go   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -125,7 +125,7 @@ $ docker run --it --rm --entrypoint /usr/local/go/bin/go   -v ${PWD} -w ${PWD} <
 
 
 #### gofmt
-       
+
 ```bash
 $ singularity exec <container> /usr/local/go/bin/gofmt
 $ podman run --it --rm --entrypoint /usr/local/go/bin/gofmt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -146,7 +146,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

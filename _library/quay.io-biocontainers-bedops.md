@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedops/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bedops/container.yaml"
-updated_at: "2022-10-17 09:57:30.872906"
+updated_at: "2022-10-26 02:46:51.360337"
 latest: "2.4.23--0"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
@@ -136,7 +136,7 @@ $ singularity inspect -d <container>
 
 
 #### bam2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed   -v ${PWD} -w ${PWD}
 
 
 #### bam2bed_gnuParallel
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel   -v ${PW
 
 
 #### bam2bed_sge
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2bed_sge
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_sge   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_sge   -v ${PWD} -w ${
 
 
 #### bam2bed_slurm
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2bed_slurm
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_slurm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_slurm   -v ${PWD} -w 
 
 
 #### bam2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2starch   -v ${PWD} -w ${P
 
 
 #### bam2starch_gnuParallel
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2starch_gnuParallel
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2starch_gnuParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2starch_gnuParallel   -v $
 
 
 #### bam2starch_sge
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2starch_sge
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2starch_sge   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2starch_sge   -v ${PWD} -w
 
 
 #### bam2starch_slurm
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bam2starch_slurm
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2starch_slurm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2starch_slurm   -v ${PWD} 
 
 
 #### bedextract
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bedextract
 $ podman run --it --rm --entrypoint /usr/local/bin/bedextract   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedextract   -v ${PWD} -w ${P
 
 
 #### bedmap
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bedmap
 $ podman run --it --rm --entrypoint /usr/local/bin/bedmap   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedmap   -v ${PWD} -w ${PWD} 
 
 
 #### bedops
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bedops
 $ podman run --it --rm --entrypoint /usr/local/bin/bedops   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedops   -v ${PWD} -w ${PWD} 
 
 
 #### closest-features
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/closest-features
 $ podman run --it --rm --entrypoint /usr/local/bin/closest-features   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/closest-features   -v ${PWD} 
 
 
 #### conda
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/conda
 $ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <
 
 
 #### convert2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/convert2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/convert2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -262,7 +262,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert2bed   -v ${PWD} -w ${
 
 
 #### deactivate
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/deactivate
 $ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -271,7 +271,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${P
 
 
 #### gff2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gff2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/gff2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -280,7 +280,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gff2bed   -v ${PWD} -w ${PWD}
 
 
 #### gff2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gff2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/gff2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -289,7 +289,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gff2starch   -v ${PWD} -w ${P
 
 
 #### gtf2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gtf2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/gtf2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -298,7 +298,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gtf2bed   -v ${PWD} -w ${PWD}
 
 
 #### gtf2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gtf2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/gtf2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -307,7 +307,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gtf2starch   -v ${PWD} -w ${P
 
 
 #### gvf2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gvf2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/gvf2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -316,7 +316,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gvf2bed   -v ${PWD} -w ${PWD}
 
 
 #### gvf2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gvf2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/gvf2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -325,7 +325,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gvf2starch   -v ${PWD} -w ${P
 
 
 #### psl2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/psl2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/psl2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -334,7 +334,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psl2bed   -v ${PWD} -w ${PWD}
 
 
 #### psl2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/psl2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/psl2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -343,7 +343,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psl2starch   -v ${PWD} -w ${P
 
 
 #### rmsk2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rmsk2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/rmsk2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -352,7 +352,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmsk2bed   -v ${PWD} -w ${PWD
 
 
 #### rmsk2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rmsk2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/rmsk2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -361,7 +361,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmsk2starch   -v ${PWD} -w ${
 
 
 #### sam2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sam2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -370,7 +370,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sam2bed   -v ${PWD} -w ${PWD}
 
 
 #### sam2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sam2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -379,7 +379,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sam2starch   -v ${PWD} -w ${P
 
 
 #### sort-bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/sort-bed
 $ podman run --it --rm --entrypoint /usr/local/bin/sort-bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -388,7 +388,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sort-bed   -v ${PWD} -w ${PWD
 
 
 #### starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/starch
 $ podman run --it --rm --entrypoint /usr/local/bin/starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -397,7 +397,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/starch   -v ${PWD} -w ${PWD} 
 
 
 #### starchcat
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/starchcat
 $ podman run --it --rm --entrypoint /usr/local/bin/starchcat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -406,7 +406,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/starchcat   -v ${PWD} -w ${PW
 
 
 #### starchcluster_gnuParallel
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/starchcluster_gnuParallel
 $ podman run --it --rm --entrypoint /usr/local/bin/starchcluster_gnuParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -415,7 +415,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/starchcluster_gnuParallel   -
 
 
 #### starchcluster_sge
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/starchcluster_sge
 $ podman run --it --rm --entrypoint /usr/local/bin/starchcluster_sge   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -424,7 +424,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/starchcluster_sge   -v ${PWD}
 
 
 #### starchcluster_slurm
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/starchcluster_slurm
 $ podman run --it --rm --entrypoint /usr/local/bin/starchcluster_slurm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -433,7 +433,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/starchcluster_slurm   -v ${PW
 
 
 #### unstarch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/unstarch
 $ podman run --it --rm --entrypoint /usr/local/bin/unstarch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -442,7 +442,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unstarch   -v ${PWD} -w ${PWD
 
 
 #### vcf2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vcf2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -451,7 +451,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf2bed   -v ${PWD} -w ${PWD}
 
 
 #### vcf2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/vcf2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -460,7 +460,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf2starch   -v ${PWD} -w ${P
 
 
 #### wig2bed
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/wig2bed
 $ podman run --it --rm --entrypoint /usr/local/bin/wig2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -469,7 +469,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wig2bed   -v ${PWD} -w ${PWD}
 
 
 #### wig2starch
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/wig2starch
 $ podman run --it --rm --entrypoint /usr/local/bin/wig2starch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -490,7 +490,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hmmer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hmmer/container.yaml"
-updated_at: "2022-10-17 09:55:31.597959"
+updated_at: "2022-10-26 02:47:12.120082"
 latest: "3.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hmmer"
 aliases:
@@ -113,7 +113,7 @@ $ singularity inspect -d <container>
 
 
 #### hmmalign
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmalign
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmalign   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmalign   -v ${PWD} -w ${PWD}
 
 
 #### hmmbuild
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmbuild
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmbuild   -v ${PWD} -w ${PWD}
 
 
 #### hmmconvert
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmconvert
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmconvert   -v ${PWD} -w ${PW
 
 
 #### hmmemit
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmemit
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmemit   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmemit   -v ${PWD} -w ${PWD} 
 
 
 #### hmmfetch
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmfetch
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmfetch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -158,7 +158,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmfetch   -v ${PWD} -w ${PWD}
 
 
 #### hmmlogo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmlogo
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmlogo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -167,7 +167,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmlogo   -v ${PWD} -w ${PWD} 
 
 
 #### hmmpgmd
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmpgmd
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmpgmd   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -176,7 +176,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmpgmd   -v ${PWD} -w ${PWD} 
 
 
 #### hmmpgmd_shard
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmpgmd_shard
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmpgmd_shard   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -185,7 +185,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmpgmd_shard   -v ${PWD} -w $
 
 
 #### hmmpress
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmpress
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmpress   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -194,7 +194,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmpress   -v ${PWD} -w ${PWD}
 
 
 #### hmmscan
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmscan
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmscan   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -203,7 +203,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmscan   -v ${PWD} -w ${PWD} 
 
 
 #### hmmsearch
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmsearch
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -212,7 +212,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmsearch   -v ${PWD} -w ${PWD
 
 
 #### hmmsim
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmsim
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmsim   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -221,7 +221,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/hmmsim   -v ${PWD} -w ${PWD} <
 
 
 #### hmmstat
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/hmmstat
 $ podman run --it --rm --entrypoint /opt/view/bin/hmmstat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -242,7 +242,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

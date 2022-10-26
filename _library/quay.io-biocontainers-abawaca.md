@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abawaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abawaca/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abawaca/container.yaml"
-updated_at: "2022-10-17 09:57:29.281946"
+updated_at: "2022-10-26 02:47:01.729301"
 latest: "1.00--h7d875b9_3"
 container_url: "https://biocontainers.pro/tools/abawaca"
 aliases:
@@ -102,7 +102,7 @@ $ singularity inspect -d <container>
 
 
 #### nuke
-       
+
 ```bash
 $ singularity exec <container> /bin/nuke
 $ podman run --it --rm --entrypoint /bin/nuke   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -111,7 +111,7 @@ $ docker run --it --rm --entrypoint /bin/nuke   -v ${PWD} -w ${PWD} <container> 
 
 
 #### resume
-       
+
 ```bash
 $ singularity exec <container> /bin/resume
 $ podman run --it --rm --entrypoint /bin/resume   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -120,7 +120,7 @@ $ docker run --it --rm --entrypoint /bin/resume   -v ${PWD} -w ${PWD} <container
 
 
 #### abawaca
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/abawaca
 $ podman run --it --rm --entrypoint /usr/local/bin/abawaca   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -129,7 +129,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abawaca   -v ${PWD} -w ${PWD}
 
 
 #### env-execute
-       
+
 ```bash
 $ singularity exec <container> /usr/local/env-execute
 $ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -150,7 +150,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

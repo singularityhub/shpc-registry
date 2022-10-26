@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/octave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/octave/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/octave/container.yaml"
-updated_at: "2022-10-17 09:56:38.923790"
+updated_at: "2022-10-26 02:48:06.770159"
 latest: "7.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/octave"
 aliases:
@@ -108,7 +108,7 @@ $ singularity inspect -d <container>
 
 
 #### octave
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave
 $ podman run --it --rm --entrypoint /opt/view/bin/octave   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -117,7 +117,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/octave   -v ${PWD} -w ${PWD} <
 
 
 #### octave-6.2.0
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave-6.2.0
 $ podman run --it --rm --entrypoint /opt/view/bin/octave-6.2.0   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -126,7 +126,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/octave-6.2.0   -v ${PWD} -w ${
 
 
 #### octave-cli
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave-cli
 $ podman run --it --rm --entrypoint /opt/view/bin/octave-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/octave-cli   -v ${PWD} -w ${PW
 
 
 #### octave-cli-6.2.0
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave-cli-6.2.0
 $ podman run --it --rm --entrypoint /opt/view/bin/octave-cli-6.2.0   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -144,7 +144,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/octave-cli-6.2.0   -v ${PWD} -
 
 
 #### octave-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave-config
 $ podman run --it --rm --entrypoint /opt/view/bin/octave-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -153,7 +153,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/octave-config   -v ${PWD} -w $
 
 
 #### octave-config-6.2.0
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/octave-config-6.2.0
 $ podman run --it --rm --entrypoint /opt/view/bin/octave-config-6.2.0   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -174,7 +174,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

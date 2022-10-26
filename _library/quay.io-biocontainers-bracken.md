@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bracken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bracken/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bracken/container.yaml"
-updated_at: "2022-10-17 09:57:17.233394"
+updated_at: "2022-10-26 02:46:55.710065"
 latest: "2.6.2--py39hc16433a_0"
 container_url: "https://quay.io/repository/biocontainers/bracken"
 aliases:
@@ -106,7 +106,7 @@ $ singularity inspect -d <container>
 
 
 #### bracken
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bracken
 $ podman run --it --rm --entrypoint /usr/local/bin/bracken   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -115,7 +115,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bracken   -v ${PWD} -w ${PWD}
 
 
 #### bracken-build
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/bracken-build
 $ podman run --it --rm --entrypoint /usr/local/bin/bracken-build   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -124,7 +124,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bracken-build   -v ${PWD} -w 
 
 
 #### combine_bracken_outputs.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/combine_bracken_outputs.py
 $ podman run --it --rm --entrypoint /usr/local/bin/combine_bracken_outputs.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -133,7 +133,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/combine_bracken_outputs.py   
 
 
 #### est_abundance.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/est_abundance.py
 $ podman run --it --rm --entrypoint /usr/local/bin/est_abundance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -142,7 +142,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/est_abundance.py   -v ${PWD} 
 
 
 #### generate_kmer_distribution.py
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/generate_kmer_distribution.py
 $ podman run --it --rm --entrypoint /usr/local/bin/generate_kmer_distribution.py   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -151,7 +151,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/generate_kmer_distribution.py
 
 
 #### kmer2read_distr
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/kmer2read_distr
 $ podman run --it --rm --entrypoint /usr/local/bin/kmer2read_distr   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

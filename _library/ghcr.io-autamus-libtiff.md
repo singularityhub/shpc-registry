@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libtiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libtiff/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/libtiff/container.yaml"
-updated_at: "2022-10-17 09:56:52.190684"
+updated_at: "2022-10-26 02:47:44.239178"
 latest: "4.4.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libtiff"
 aliases:
@@ -118,7 +118,7 @@ $ singularity inspect -d <container>
 
 
 #### fax2tiff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/fax2tiff
 $ podman run --it --rm --entrypoint /opt/view/bin/fax2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -127,7 +127,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/fax2tiff   -v ${PWD} -w ${PWD}
 
 
 #### ppm2tiff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/ppm2tiff
 $ podman run --it --rm --entrypoint /opt/view/bin/ppm2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -136,7 +136,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/ppm2tiff   -v ${PWD} -w ${PWD}
 
 
 #### raw2tiff
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/raw2tiff
 $ podman run --it --rm --entrypoint /opt/view/bin/raw2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -145,7 +145,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/raw2tiff   -v ${PWD} -w ${PWD}
 
 
 #### tiff2bw
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiff2bw
 $ podman run --it --rm --entrypoint /opt/view/bin/tiff2bw   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -154,7 +154,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiff2bw   -v ${PWD} -w ${PWD} 
 
 
 #### tiff2pdf
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiff2pdf
 $ podman run --it --rm --entrypoint /opt/view/bin/tiff2pdf   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -163,7 +163,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiff2pdf   -v ${PWD} -w ${PWD}
 
 
 #### tiff2ps
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiff2ps
 $ podman run --it --rm --entrypoint /opt/view/bin/tiff2ps   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -172,7 +172,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiff2ps   -v ${PWD} -w ${PWD} 
 
 
 #### tiff2rgba
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiff2rgba
 $ podman run --it --rm --entrypoint /opt/view/bin/tiff2rgba   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -181,7 +181,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiff2rgba   -v ${PWD} -w ${PWD
 
 
 #### tiffcmp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffcmp
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -190,7 +190,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffcmp   -v ${PWD} -w ${PWD} 
 
 
 #### tiffcp
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffcp
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffcp   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -199,7 +199,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffcp   -v ${PWD} -w ${PWD} <
 
 
 #### tiffcrop
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffcrop
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffcrop   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -208,7 +208,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffcrop   -v ${PWD} -w ${PWD}
 
 
 #### tiffdither
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffdither
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffdither   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -217,7 +217,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffdither   -v ${PWD} -w ${PW
 
 
 #### tiffdump
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffdump
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffdump   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -226,7 +226,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffdump   -v ${PWD} -w ${PWD}
 
 
 #### tiffinfo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffinfo
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -235,7 +235,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffinfo   -v ${PWD} -w ${PWD}
 
 
 #### tiffmedian
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffmedian
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffmedian   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -244,7 +244,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffmedian   -v ${PWD} -w ${PW
 
 
 #### tiffset
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffset
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffset   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -253,7 +253,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/tiffset   -v ${PWD} -w ${PWD} 
 
 
 #### tiffsplit
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/tiffsplit
 $ podman run --it --rm --entrypoint /opt/view/bin/tiffsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -274,7 +274,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

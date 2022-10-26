@@ -4,7 +4,7 @@ name:  "node"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/node/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/node/container.yaml"
-updated_at: "2022-10-17 09:57:51.151041"
+updated_at: "2022-10-26 02:48:37.186765"
 latest: "18.10"
 container_url: "https://hub.docker.com/r/_/node"
 aliases:
@@ -134,7 +134,7 @@ $ singularity inspect -d <container>
 
 
 #### node
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/node
 $ podman run --it --rm --entrypoint /usr/local/bin/node   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -143,7 +143,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/node   -v ${PWD} -w ${PWD} <c
 
 
 #### nodejs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/nodejs
 $ podman run --it --rm --entrypoint /usr/local/bin/nodejs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -152,7 +152,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nodejs   -v ${PWD} -w ${PWD} 
 
 
 #### npm
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/npm
 $ podman run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -161,7 +161,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <co
 
 
 #### npx
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/npx
 $ podman run --it --rm --entrypoint /usr/local/bin/npx   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -170,7 +170,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/npx   -v ${PWD} -w ${PWD} <co
 
 
 #### yarn
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/yarn
 $ podman run --it --rm --entrypoint /usr/local/bin/yarn   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -179,7 +179,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/yarn   -v ${PWD} -w ${PWD} <c
 
 
 #### yarnpkg
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/yarnpkg
 $ podman run --it --rm --entrypoint /usr/local/bin/yarnpkg   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -200,7 +200,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/picard/container.yaml"
-updated_at: "2022-10-17 09:55:31.027817"
+updated_at: "2022-10-26 02:48:00.545372"
 latest: "2.26.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/picard"
 aliases:
@@ -109,7 +109,7 @@ $ singularity inspect -d <container>
 
 
 #### picard
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/picard
 $ podman run --it --rm --entrypoint /opt/view/bin/picard   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -118,7 +118,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/picard   -v ${PWD} -w ${PWD} <
 
 
 #### picard.jar
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/java -jar /opt/view/bin/picard.jar
 $ podman run --it --rm --entrypoint /opt/view/bin/java   -v ${PWD} -w ${PWD} <container> -c "-jar /opt/view/bin/picard.jar $@"
@@ -139,7 +139,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

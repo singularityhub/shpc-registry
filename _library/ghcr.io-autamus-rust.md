@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rust/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/rust/container.yaml"
-updated_at: "2022-10-17 09:56:41.107784"
+updated_at: "2022-10-26 02:47:13.417831"
 latest: "1.54.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rust"
 aliases:
@@ -113,7 +113,7 @@ $ singularity inspect -d <container>
 
 
 #### cargo
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cargo
 $ podman run --it --rm --entrypoint /opt/view/bin/cargo   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -122,7 +122,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cargo   -v ${PWD} -w ${PWD} <c
 
 
 #### cargo-clippy
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cargo-clippy
 $ podman run --it --rm --entrypoint /opt/view/bin/cargo-clippy   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -131,7 +131,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cargo-clippy   -v ${PWD} -w ${
 
 
 #### cargo-fmt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/cargo-fmt
 $ podman run --it --rm --entrypoint /opt/view/bin/cargo-fmt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -140,7 +140,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/cargo-fmt   -v ${PWD} -w ${PWD
 
 
 #### clippy-driver
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/clippy-driver
 $ podman run --it --rm --entrypoint /opt/view/bin/clippy-driver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/clippy-driver   -v ${PWD} -w $
 
 
 #### rust
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rust
 $ podman run --it --rm --entrypoint /opt/view/bin/rust   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -158,7 +158,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rust   -v ${PWD} -w ${PWD} <co
 
 
 #### rust-gdb
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rust-gdb
 $ podman run --it --rm --entrypoint /opt/view/bin/rust-gdb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -167,7 +167,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rust-gdb   -v ${PWD} -w ${PWD}
 
 
 #### rust-gdbgui
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rust-gdbgui
 $ podman run --it --rm --entrypoint /opt/view/bin/rust-gdbgui   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -176,7 +176,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rust-gdbgui   -v ${PWD} -w ${P
 
 
 #### rust-lldb
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rust-lldb
 $ podman run --it --rm --entrypoint /opt/view/bin/rust-lldb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -185,7 +185,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rust-lldb   -v ${PWD} -w ${PWD
 
 
 #### rustc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rustc
 $ podman run --it --rm --entrypoint /opt/view/bin/rustc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -194,7 +194,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rustc   -v ${PWD} -w ${PWD} <c
 
 
 #### rustdoc
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rustdoc
 $ podman run --it --rm --entrypoint /opt/view/bin/rustdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -203,7 +203,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/rustdoc   -v ${PWD} -w ${PWD} 
 
 
 #### rustfmt
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/rustfmt
 $ podman run --it --rm --entrypoint /opt/view/bin/rustfmt   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -224,7 +224,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

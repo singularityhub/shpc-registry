@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/curl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/curl/container.yaml"
-updated_at: "2022-10-17 09:55:28.326098"
+updated_at: "2022-10-26 02:47:26.527750"
 latest: "7.80.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/curl"
 aliases:
@@ -105,7 +105,7 @@ $ singularity inspect -d <container>
 
 
 #### c_rehash
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/c_rehash
 $ podman run --it --rm --entrypoint /opt/view/bin/c_rehash   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -114,7 +114,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/c_rehash   -v ${PWD} -w ${PWD}
 
 
 #### curl
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/curl
 $ podman run --it --rm --entrypoint /opt/view/bin/curl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -123,7 +123,7 @@ $ docker run --it --rm --entrypoint /opt/view/bin/curl   -v ${PWD} -w ${PWD} <co
 
 
 #### curl-config
-       
+
 ```bash
 $ singularity exec <container> /opt/view/bin/curl-config
 $ podman run --it --rm --entrypoint /opt/view/bin/curl-config   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -144,7 +144,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

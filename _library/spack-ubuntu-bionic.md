@@ -4,7 +4,7 @@ name:  "spack/ubuntu-bionic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/spack/ubuntu-bionic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/spack/ubuntu-bionic/container.yaml"
-updated_at: "2022-10-17 09:57:42.484466"
+updated_at: "2022-10-26 02:48:35.853801"
 latest: "v0.18.1"
 container_url: "https://hub.docker.com/r/spack/ubuntu-bionic"
 aliases:
@@ -110,7 +110,7 @@ $ singularity inspect -d <container>
 
 
 #### sbang
-       
+
 ```bash
 $ singularity exec <container> /opt/spack/bin/sbang
 $ podman run --it --rm --entrypoint /opt/spack/bin/sbang   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -119,7 +119,7 @@ $ docker run --it --rm --entrypoint /opt/spack/bin/sbang   -v ${PWD} -w ${PWD} <
 
 
 #### spack
-       
+
 ```bash
 $ singularity exec <container> /opt/spack/bin/spack
 $ podman run --it --rm --entrypoint /opt/spack/bin/spack   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -128,7 +128,7 @@ $ docker run --it --rm --entrypoint /opt/spack/bin/spack   -v ${PWD} -w ${PWD} <
 
 
 #### spack-python
-       
+
 ```bash
 $ singularity exec <container> /opt/spack/bin/spack-python
 $ podman run --it --rm --entrypoint /opt/spack/bin/spack-python   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -149,7 +149,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

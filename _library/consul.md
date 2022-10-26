@@ -4,7 +4,7 @@ name:  "consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/consul/container.yaml"
-updated_at: "2022-10-17 09:55:26.172893"
+updated_at: "2022-10-26 02:48:40.161432"
 latest: "1.13"
 container_url: "https://hub.docker.com/_/consul"
 aliases:
@@ -114,7 +114,7 @@ $ singularity inspect -d <container>
 
 
 #### consul
-       
+
 ```bash
 $ singularity exec <container> /bin/consul
 $ podman run --it --rm --entrypoint /bin/consul   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -135,7 +135,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

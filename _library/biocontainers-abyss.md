@@ -4,7 +4,7 @@ name:  "biocontainers/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/abyss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/abyss/container.yaml"
-updated_at: "2022-10-17 09:57:55.480840"
+updated_at: "2022-10-26 02:48:34.557660"
 latest: "v2.1.5-7-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/abyss"
 aliases:
@@ -100,7 +100,7 @@ $ singularity inspect -d <container>
 
 
 #### abyss-fixmate
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/abyss-fixmate
 $ podman run --it --rm --entrypoint /usr/bin/abyss-fixmate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -109,7 +109,7 @@ $ docker run --it --rm --entrypoint /usr/bin/abyss-fixmate   -v ${PWD} -w ${PWD}
 
 
 #### abyss-pe
-       
+
 ```bash
 $ singularity exec <container> /usr/bin/abyss-pe
 $ podman run --it --rm --entrypoint /usr/bin/abyss-pe   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -130,7 +130,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:

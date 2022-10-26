@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/a5-miseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/a5-miseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/a5-miseq/container.yaml"
-updated_at: "2022-10-17 09:57:12.944304"
+updated_at: "2022-10-26 02:46:58.707124"
 latest: "20160825--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/a5-miseq"
 aliases:
@@ -128,7 +128,7 @@ $ singularity inspect -d <container>
 
 
 #### a5_pipeline.pl
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/a5_pipeline.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/a5_pipeline.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -137,7 +137,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/a5_pipeline.pl   -v ${PWD} -w
 
 
 #### aserver
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/aserver
 $ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -146,7 +146,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD}
 
 
 #### autopoint
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/autopoint
 $ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -155,7 +155,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PW
 
 
 #### fc-cache
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-cache
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -164,7 +164,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-cache   -v ${PWD} -w ${PWD
 
 
 #### fc-cat
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-cat
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-cat   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -173,7 +173,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-cat   -v ${PWD} -w ${PWD} 
 
 
 #### fc-conflist
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-conflist
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-conflist   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -182,7 +182,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-conflist   -v ${PWD} -w ${
 
 
 #### fc-list
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-list
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-list   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -191,7 +191,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-list   -v ${PWD} -w ${PWD}
 
 
 #### fc-match
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-match
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-match   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -200,7 +200,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-match   -v ${PWD} -w ${PWD
 
 
 #### fc-pattern
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-pattern
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-pattern   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -209,7 +209,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-pattern   -v ${PWD} -w ${P
 
 
 #### fc-query
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-query
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-query   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -218,7 +218,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-query   -v ${PWD} -w ${PWD
 
 
 #### fc-scan
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-scan
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-scan   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -227,7 +227,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-scan   -v ${PWD} -w ${PWD}
 
 
 #### fc-validate
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/fc-validate
 $ podman run --it --rm --entrypoint /usr/local/bin/fc-validate   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -236,7 +236,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fc-validate   -v ${PWD} -w ${
 
 
 #### gapplication
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gapplication
 $ podman run --it --rm --entrypoint /usr/local/bin/gapplication   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -245,7 +245,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gapplication   -v ${PWD} -w $
 
 
 #### genbrk
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/genbrk
 $ podman run --it --rm --entrypoint /usr/local/bin/genbrk   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -254,7 +254,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/genbrk   -v ${PWD} -w ${PWD} 
 
 
 #### gencfu
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gencfu
 $ podman run --it --rm --entrypoint /usr/local/bin/gencfu   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -263,7 +263,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gencfu   -v ${PWD} -w ${PWD} 
 
 
 #### gencnval
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gencnval
 $ podman run --it --rm --entrypoint /usr/local/bin/gencnval   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -272,7 +272,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gencnval   -v ${PWD} -w ${PWD
 
 
 #### gendict
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/gendict
 $ podman run --it --rm --entrypoint /usr/local/bin/gendict   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -281,7 +281,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gendict   -v ${PWD} -w ${PWD}
 
 
 #### genrb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/genrb
 $ podman run --it --rm --entrypoint /usr/local/bin/genrb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -290,7 +290,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/genrb   -v ${PWD} -w ${PWD} <
 
 
 #### h2ph
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/h2ph
 $ podman run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -299,7 +299,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <c
 
 
 #### h2xs
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/h2xs
 $ podman run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -308,7 +308,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <c
 
 
 #### hb-ot-shape-closure
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-ot-shape-closure
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -317,7 +317,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PW
 
 
 #### hb-shape
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-shape
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -326,7 +326,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD
 
 
 #### hb-subset
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-subset
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -335,7 +335,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PW
 
 
 #### hb-view
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/hb-view
 $ podman run --it --rm --entrypoint /usr/local/bin/hb-view   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -344,7 +344,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hb-view   -v ${PWD} -w ${PWD}
 
 
 #### pack200
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/pack200
 $ podman run --it --rm --entrypoint /usr/local/bin/pack200   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -353,7 +353,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pack200   -v ${PWD} -w ${PWD}
 
 
 #### pal2rgb
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/pal2rgb
 $ podman run --it --rm --entrypoint /usr/local/bin/pal2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -362,7 +362,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pal2rgb   -v ${PWD} -w ${PWD}
 
 
 #### pl2pm
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/pl2pm
 $ podman run --it --rm --entrypoint /usr/local/bin/pl2pm   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -371,7 +371,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pl2pm   -v ${PWD} -w ${PWD} <
 
 
 #### rmic
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rmic
 $ podman run --it --rm --entrypoint /usr/local/bin/rmic   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -380,7 +380,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmic   -v ${PWD} -w ${PWD} <c
 
 
 #### rmid
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rmid
 $ podman run --it --rm --entrypoint /usr/local/bin/rmid   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -389,7 +389,7 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmid   -v ${PWD} -w ${PWD} <c
 
 
 #### rmiregistry
-       
+
 ```bash
 $ singularity exec <container> /usr/local/bin/rmiregistry
 $ podman run --it --rm --entrypoint /usr/local/bin/rmiregistry   -v ${PWD} -w ${PWD} <container> -c " $@"
@@ -410,7 +410,7 @@ inspect aliases. For anycommands above, you can export:
  - PODMAN_COMMAND_OPTS: to define custom options for the command
 
 <br>
-  
+
 ### Install
 
 You can install shpc locally (for yourself or your user base) as follows:
