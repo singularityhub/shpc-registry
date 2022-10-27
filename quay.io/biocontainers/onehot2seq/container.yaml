@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/onehot2seq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for onehot2seq
+latest:
+  0.0.2--pyh086e186_1: sha256:ee62549e1e1cbb1a5480e4830e222a5631de43deafd5d1c75acd261a1b2f75fb
+tags:
+  0.0.2--pyh086e186_1: sha256:ee62549e1e1cbb1a5480e4830e222a5631de43deafd5d1c75acd261a1b2f75fb
+docker: quay.io/biocontainers/onehot2seq
+aliases:
+  onehot2seq: /usr/local/bin/onehot2seq

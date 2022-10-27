@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioframe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioframe
+latest:
+  0.3.3--pyhdfd78af_0: sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab
+tags:
+  0.3.3--pyhdfd78af_0: sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab
+docker: quay.io/biocontainers/bioframe

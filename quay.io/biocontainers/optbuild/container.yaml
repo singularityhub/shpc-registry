@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/optbuild
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for optbuild
+latest:
+  0.2.1--pyh864c0ab_1: sha256:eb927db8472bed66ad18475be0e7bf6393b36ae24c4f961ba809952084329edd
+tags:
+  0.2.1--pyh864c0ab_1: sha256:eb927db8472bed66ad18475be0e7bf6393b36ae24c4f961ba809952084329edd
+docker: quay.io/biocontainers/optbuild

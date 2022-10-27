@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-linnorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-linnorm
+latest:
+  2.8.0--r36he1b5a44_1: sha256:8dbbbfb37496f8f8b225aae4f84b9507e82bae8c5a3154d3cc56f15dd349d2b2
+tags:
+  2.8.0--r36he1b5a44_1: sha256:8dbbbfb37496f8f8b225aae4f84b9507e82bae8c5a3154d3cc56f15dd349d2b2
+docker: quay.io/biocontainers/bioconductor-linnorm

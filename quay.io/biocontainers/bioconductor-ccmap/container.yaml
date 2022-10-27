@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ccmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ccmap
+latest:
+  1.8.0--r351_0: sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3
+tags:
+  1.8.0--r351_0: sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3
+docker: quay.io/biocontainers/bioconductor-ccmap
+aliases:
+  .bioconductor-ccdata-post-link.sh: /usr/local/bin/.bioconductor-ccdata-post-link.sh
+  .bioconductor-ccdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh

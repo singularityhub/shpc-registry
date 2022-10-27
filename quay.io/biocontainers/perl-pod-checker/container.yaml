@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pod-checker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pod-checker
+latest:
+  1.60--pl5321hdfd78af_3: sha256:e6e3fd51283d64cf410be354c5ee3767636b4d4cec03fa382f478912b4753bfa
+tags:
+  1.60--pl5321hdfd78af_3: sha256:e6e3fd51283d64cf410be354c5ee3767636b4d4cec03fa382f478912b4753bfa
+docker: quay.io/biocontainers/perl-pod-checker

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mirfix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirfix
+latest:
+  2.1.0--hdfd78af_0: sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55
+tags:
+  2.1.0--hdfd78af_0: sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55
+docker: quay.io/biocontainers/mirfix
+aliases:
+  MIRfix.py: /usr/local/bin/MIRfix.py
+  dialign2-2: /usr/local/bin/dialign2-2
+  runMIRfix.sh: /usr/local/bin/runMIRfix.sh
+  testMIRfix.sh: /usr/local/bin/testMIRfix.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hireadsprocessor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hireadsprocessor
+latest:
+  1.30.0--r41hdfd78af_0: sha256:896e4f21221266cb818cebb86c10cc4bd2751938f005a165b935e39efadf2e0c
+tags:
+  1.30.0--r41hdfd78af_0: sha256:896e4f21221266cb818cebb86c10cc4bd2751938f005a165b935e39efadf2e0c
+docker: quay.io/biocontainers/bioconductor-hireadsprocessor

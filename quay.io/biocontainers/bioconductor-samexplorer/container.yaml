@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-samexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-samexplorer
+latest:
+  1.8.0--r36_1: sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3
+tags:
+  1.8.0--r36_1: sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3
+docker: quay.io/biocontainers/bioconductor-samexplorer
+aliases:
+  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh
+  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh

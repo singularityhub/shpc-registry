@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-scpred
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-scpred
+latest:
+  v1.9.0--hdfd78af_2: sha256:27e1fdcc4442241e7814e2257b03c41c09b7463938a8a056f2558d5a46e60afa
+tags:
+  v1.9.0--hdfd78af_2: sha256:27e1fdcc4442241e7814e2257b03c41c09b7463938a8a056f2558d5a46e60afa
+docker: quay.io/biocontainers/r-scpred

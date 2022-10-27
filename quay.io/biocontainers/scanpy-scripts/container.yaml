@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/scanpy-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scanpy-scripts
+latest:
+  1.1.2--pypyhdfd78af_1: sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
+tags:
+  1.1.2--pypyhdfd78af_1: sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
+docker: quay.io/biocontainers/scanpy-scripts
+aliases:
+  loompy: /usr/local/bin/loompy
+  scanpy-cli: /usr/local/bin/scanpy-cli
+  scanpy-filter-cells: /usr/local/bin/scanpy-filter-cells
+  scanpy-filter-genes: /usr/local/bin/scanpy-filter-genes
+  scanpy-find-cluster: /usr/local/bin/scanpy-find-cluster
+  scanpy-find-markers: /usr/local/bin/scanpy-find-markers
+  scanpy-find-variable-genes: /usr/local/bin/scanpy-find-variable-genes
+  scanpy-integrate: /usr/local/bin/scanpy-integrate
+  scanpy-multiplet: /usr/local/bin/scanpy-multiplet
+  scanpy-neighbors: /usr/local/bin/scanpy-neighbors
+  scanpy-normalise-data: /usr/local/bin/scanpy-normalise-data
+  scanpy-read-10x: /usr/local/bin/scanpy-read-10x
+  scanpy-regress: /usr/local/bin/scanpy-regress
+  scanpy-run-pca: /usr/local/bin/scanpy-run-pca
+  scanpy-run-tsne: /usr/local/bin/scanpy-run-tsne
+  scanpy-run-umap: /usr/local/bin/scanpy-run-umap
+  scanpy-scale-data: /usr/local/bin/scanpy-scale-data
+  scanpy-scripts-tests.bats: /usr/local/bin/scanpy-scripts-tests.bats

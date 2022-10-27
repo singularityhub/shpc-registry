@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioconductor-madseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-madseq
+latest:
+  1.6.1--r351_0: sha256:bdf83bc6a59390a6597cf711bcc28cb1e3889d49d995dabd4e11cd82372db511
+tags:
+  1.6.1--r351_0: sha256:bdf83bc6a59390a6597cf711bcc28cb1e3889d49d995dabd4e11cd82372db511
+docker: quay.io/biocontainers/bioconductor-madseq
+aliases:
+  jags: /usr/local/bin/jags

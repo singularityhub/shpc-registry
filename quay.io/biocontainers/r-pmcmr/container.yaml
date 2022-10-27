@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-pmcmr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-pmcmr
+latest:
+  4.1--r3.2.2_0: sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562
+tags:
+  4.1--r3.2.2_0: sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562
+docker: quay.io/biocontainers/r-pmcmr

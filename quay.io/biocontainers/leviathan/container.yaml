@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/leviathan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for leviathan
+latest:
+  1.0.2--h9f5acd7_2: sha256:8202932299e05c944ad3033ef0131c0b2c17d54dc4316986c9363a324e1e680b
+tags:
+  1.0.2--h9f5acd7_2: sha256:8202932299e05c944ad3033ef0131c0b2c17d54dc4316986c9363a324e1e680b
+docker: quay.io/biocontainers/leviathan
+aliases:
+  LEVIATHAN: /usr/local/bin/LEVIATHAN
+  LRez: /usr/local/bin/LRez

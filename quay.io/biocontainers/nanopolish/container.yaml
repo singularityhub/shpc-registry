@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/nanopolish
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanopolish
+latest:
+  0.9.2--py35_ncurses5.9_4: sha256:7ebca1ed0119f110c84c02de5910f874d9345bb4087c6b0763c2102e09607310
+tags:
+  0.9.2--py35_ncurses5.9_4: sha256:7ebca1ed0119f110c84c02de5910f874d9345bb4087c6b0763c2102e09607310
+docker: quay.io/biocontainers/nanopolish
+aliases:
+  gost-hash: /usr/local/bin/gost-hash
+  nanopolish: /usr/local/bin/nanopolish
+  nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
+  nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fastqcleaner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fastqcleaner
+latest:
+  1.8.0--r40h399db7b_1: sha256:2996ffdae5f9c2c339e9c35694a00cbabb9e656f1967c706b922772b740ade4e
+tags:
+  1.8.0--r40h399db7b_1: sha256:2996ffdae5f9c2c339e9c35694a00cbabb9e656f1967c706b922772b740ade4e
+docker: quay.io/biocontainers/bioconductor-fastqcleaner

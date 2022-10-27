@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test2-plugin-nowarnings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test2-plugin-nowarnings
+latest:
+  0.09--pl5321hdfd78af_0: sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a
+tags:
+  0.09--pl5321hdfd78af_0: sha256:9a00ab82e9e99f12720eabcd78220ab2f288c1ec6ed45d0f0199c560744a2b0a
+docker: quay.io/biocontainers/perl-test2-plugin-nowarnings

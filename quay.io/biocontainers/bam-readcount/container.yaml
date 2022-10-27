@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bam-readcount
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bam-readcount
+latest:
+  0.8--py36pl526h94a8ba4_4: sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8
+tags:
+  0.8--py36pl526h94a8ba4_4: sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8
+docker: quay.io/biocontainers/bam-readcount
+aliases:
+  bam-readcount: /usr/local/bin/bam-readcount

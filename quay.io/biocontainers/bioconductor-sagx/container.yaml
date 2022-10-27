@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sagx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sagx
+latest:
+  1.64.0--r40hd029910_1: sha256:af6d7ac3ee7e13dff28ea93a2e12d69120c876a9d2eb756447265f6257d7d189
+tags:
+  1.64.0--r40hd029910_1: sha256:af6d7ac3ee7e13dff28ea93a2e12d69120c876a9d2eb756447265f6257d7d189
+docker: quay.io/biocontainers/bioconductor-sagx

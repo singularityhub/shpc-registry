@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/samap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samap
+latest:
+  1.0.7--pyhdfd78af_0: sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5
+tags:
+  1.0.7--pyhdfd78af_0: sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5
+docker: quay.io/biocontainers/samap
+aliases:
+  scalar: /usr/local/bin/scalar

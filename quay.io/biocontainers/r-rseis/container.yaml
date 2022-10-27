@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rseis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rseis
+latest:
+  3.5_2--r3.2.2_0: sha256:5f0ecb0e77b541c6adbf20fb79bfc20267cf3414e05f0923733e7d80e10bafa5
+tags:
+  3.5_2--r3.2.2_0: sha256:5f0ecb0e77b541c6adbf20fb79bfc20267cf3414e05f0923733e7d80e10bafa5
+docker: quay.io/biocontainers/r-rseis

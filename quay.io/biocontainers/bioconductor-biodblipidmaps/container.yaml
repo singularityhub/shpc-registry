@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biodblipidmaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biodblipidmaps
+latest:
+  1.0.1--r41hdfd78af_0: sha256:6513bc9a259df9cd54b8e28545d8183b39f4236ca2eee3718eb824903947c027
+tags:
+  1.0.1--r41hdfd78af_0: sha256:6513bc9a259df9cd54b8e28545d8183b39f4236ca2eee3718eb824903947c027
+docker: quay.io/biocontainers/bioconductor-biodblipidmaps

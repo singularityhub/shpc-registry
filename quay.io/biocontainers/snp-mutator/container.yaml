@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snp-mutator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snp-mutator
+latest:
+  1.2.0--pyh24bf2e0_0: sha256:feb43598e794c1723b3869f1719070bc6b8fc23df44574772123eaba8e7849cd
+tags:
+  1.2.0--pyh24bf2e0_0: sha256:feb43598e794c1723b3869f1719070bc6b8fc23df44574772123eaba8e7849cd
+docker: quay.io/biocontainers/snp-mutator
+aliases:
+  snpmutator: /usr/local/bin/snpmutator

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ipc-sharelite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ipc-sharelite
+latest:
+  0.17--pl5321h9f5acd7_3: sha256:a878f002e5333e1f8cbbf01a86c7732f94026bf5d26a9faa89a333a6ca1c2c09
+tags:
+  0.17--pl5321h9f5acd7_3: sha256:a878f002e5333e1f8cbbf01a86c7732f94026bf5d26a9faa89a333a6ca1c2c09
+docker: quay.io/biocontainers/perl-ipc-sharelite

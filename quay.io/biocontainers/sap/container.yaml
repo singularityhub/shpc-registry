@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sap
+latest:
+  1.1.3--hec16e2b_2: sha256:611827a2bec2d4e11f2c6b81a2aae89fc0f6241eb9614f8c00d9fdc5aa9031d2
+tags:
+  1.1.3--hec16e2b_2: sha256:611827a2bec2d4e11f2c6b81a2aae89fc0f6241eb9614f8c00d9fdc5aa9031d2
+docker: quay.io/biocontainers/sap
+aliases:
+  sap: /usr/local/bin/sap

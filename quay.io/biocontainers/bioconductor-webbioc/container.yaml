@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-webbioc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-webbioc
+latest:
+  1.66.0--r41hdfd78af_0: sha256:bb5b14f4311149a50dfe6fddcd18951aada34cf62d52e14b21b27dff45690401
+tags:
+  1.66.0--r41hdfd78af_0: sha256:bb5b14f4311149a50dfe6fddcd18951aada34cf62d52e14b21b27dff45690401
+docker: quay.io/biocontainers/bioconductor-webbioc

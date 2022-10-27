@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/soda-gallery
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for soda-gallery
+latest:
+  1.0.1--pyh5e36f6f_0: sha256:112fe8dd6561f8c44348c1af142db19f624fdcd2dcea6d216abd7e6f73518230
+tags:
+  1.0.1--pyh5e36f6f_0: sha256:112fe8dd6561f8c44348c1af142db19f624fdcd2dcea6d216abd7e6f73518230
+docker: quay.io/biocontainers/soda-gallery
+aliases:
+  dumppdf.py: /usr/local/bin/dumppdf.py
+  pdf2txt.py: /usr/local/bin/pdf2txt.py
+  soda: /usr/local/bin/soda

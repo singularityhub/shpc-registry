@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-params-util
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-params-util
+latest:
+  1.102--pl5321h9f5acd7_1: sha256:5c0b1b5ffef6961eb22ef45eba2c40af55082329325f51910e56ec8b7f2dc67b
+tags:
+  1.102--pl5321h9f5acd7_1: sha256:5c0b1b5ffef6961eb22ef45eba2c40af55082329325f51910e56ec8b7f2dc67b
+docker: quay.io/biocontainers/perl-params-util

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-r0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-r0
+latest:
+  1.2_6--r41h3121a25_0: sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65
+tags:
+  1.2_6--r41h3121a25_0: sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65
+docker: quay.io/biocontainers/r-r0

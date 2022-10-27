@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-polyfit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-polyfit
+latest:
+  1.22.0--r40_0: sha256:a30e076d65f1c36a4da762e20cb7c959176058c85eba99d7aea0e1f087fcef96
+tags:
+  1.22.0--r40_0: sha256:a30e076d65f1c36a4da762e20cb7c959176058c85eba99d7aea0e1f087fcef96
+docker: quay.io/biocontainers/bioconductor-polyfit

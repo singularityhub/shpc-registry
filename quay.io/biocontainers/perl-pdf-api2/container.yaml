@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pdf-api2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pdf-api2
+latest:
+  2.043--pl5321hdfd78af_0: sha256:b07d3c0687c462b899a519425cf95ed7c022f7085ab5dd393d3cc4948e6759af
+tags:
+  2.043--pl5321hdfd78af_0: sha256:b07d3c0687c462b899a519425cf95ed7c022f7085ab5dd393d3cc4948e6759af
+docker: quay.io/biocontainers/perl-pdf-api2

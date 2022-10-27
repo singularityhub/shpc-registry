@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-birte
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-birte
+latest:
+  1.18.0--r351h60f5b57_0: sha256:7bb932c986f9506346105700e3cc3407e700e015433938e28729164ea672d1ed
+tags:
+  1.18.0--r351h60f5b57_0: sha256:7bb932c986f9506346105700e3cc3407e700e015433938e28729164ea672d1ed
+docker: quay.io/biocontainers/bioconductor-birte

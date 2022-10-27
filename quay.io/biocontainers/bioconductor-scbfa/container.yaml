@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scbfa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scbfa
+latest:
+  1.8.0--r41hdfd78af_0: sha256:609374ff73f9118ab6fdc27b303173af4574394ad6bccf1dca5f9c9509d1c9d0
+tags:
+  1.8.0--r41hdfd78af_0: sha256:609374ff73f9118ab6fdc27b303173af4574394ad6bccf1dca5f9c9509d1c9d0
+docker: quay.io/biocontainers/bioconductor-scbfa

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/read-it-and-keep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for read-it-and-keep
+latest:
+  0.3.0--h5b5514e_0: sha256:124bf5498e453a898d5754c57d494c0adc9351d1b8652a00b84f8954ef807a3d
+tags:
+  0.3.0--h5b5514e_0: sha256:124bf5498e453a898d5754c57d494c0adc9351d1b8652a00b84f8954ef807a3d
+docker: quay.io/biocontainers/read-it-and-keep
+aliases:
+  readItAndKeep: /usr/local/bin/readItAndKeep

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-ag.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ag.db
+latest:
+  3.2.3--r41hdfd78af_8: sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da
+tags:
+  3.2.3--r41hdfd78af_8: sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da
+docker: quay.io/biocontainers/bioconductor-ag.db
+aliases:
+  .bioconductor-ag.db-post-link.sh: /usr/local/bin/.bioconductor-ag.db-post-link.sh
+  .bioconductor-ag.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ag.db-pre-unlink.sh
+  .bioconductor-org.at.tair.db-post-link.sh: /usr/local/bin/.bioconductor-org.at.tair.db-post-link.sh
+  .bioconductor-org.at.tair.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh

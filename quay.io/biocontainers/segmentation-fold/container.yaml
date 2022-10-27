@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/segmentation-fold
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for segmentation-fold
+latest:
+  1.7.0--py27hc30c61c_4: sha256:91b7e28d5b67c44d7246e462e282835dd16a47d723fcf35dcabb94ec455bdf79
+tags:
+  1.7.0--py27hc30c61c_4: sha256:91b7e28d5b67c44d7246e462e282835dd16a47d723fcf35dcabb94ec455bdf79
+docker: quay.io/biocontainers/segmentation-fold
+aliases:
+  segmentation-fold: /usr/local/bin/segmentation-fold
+  segmentation-fold-utils: /usr/local/bin/segmentation-fold-utils

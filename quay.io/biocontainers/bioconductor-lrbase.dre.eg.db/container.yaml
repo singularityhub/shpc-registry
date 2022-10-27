@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lrbase.dre.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lrbase.dre.eg.db
+latest:
+  2.0.0--r41hdfd78af_0: sha256:6aff6f15372d6f8a0906f6f292572dba75c4757eea99c890009891b043cc2104
+tags:
+  2.0.0--r41hdfd78af_0: sha256:6aff6f15372d6f8a0906f6f292572dba75c4757eea99c890009891b043cc2104
+docker: quay.io/biocontainers/bioconductor-lrbase.dre.eg.db
+aliases:
+  .bioconductor-lrbase.dre.eg.db-post-link.sh: /usr/local/bin/.bioconductor-lrbase.dre.eg.db-post-link.sh
+  .bioconductor-lrbase.dre.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.dre.eg.db-pre-unlink.sh

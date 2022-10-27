@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/zpca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for zpca
+latest:
+  0.8.3.post1--pyh5e36f6f_0: sha256:15ec36ef4aa7fab944b5ef421782fb499d92fdf0e36f175a56828c4ed66d8cfd
+tags:
+  0.8.3.post1--pyh5e36f6f_0: sha256:15ec36ef4aa7fab944b5ef421782fb499d92fdf0e36f175a56828c4ed66d8cfd
+docker: quay.io/biocontainers/zpca
+aliases:
+  zpca-counts: /usr/local/bin/zpca-counts
+  zpca-tpm: /usr/local/bin/zpca-tpm

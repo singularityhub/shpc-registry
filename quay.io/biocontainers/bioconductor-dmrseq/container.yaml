@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dmrseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dmrseq
+latest:
+  1.8.0--r40_0: sha256:239ca0791cd4ce9d5f8b0493844c910c9f5df5ffefdd9b9034851747da1acf82
+tags:
+  1.8.0--r40_0: sha256:239ca0791cd4ce9d5f8b0493844c910c9f5df5ffefdd9b9034851747da1acf82
+docker: quay.io/biocontainers/bioconductor-dmrseq

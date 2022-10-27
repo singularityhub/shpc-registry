@@ -14,10 +14,11 @@ jobs:
         with:
           fetch-depth: '0'
 
-      - name: Install shpc
-        run: |
-          pip install git+https://github.com/singularityhub/singularity-hpc@main
-          
+      - name: Install Dependencies
+        run: pip install git+https://github.com/singularityhub/singularity-hpc@main
+
+      - name: Shpc Listing
+        run: |          
           # Remove default remote registry and add PWD
           shpc config remove registry https://github.com/singularityhub/shpc-registry
           shpc config add registry $(pwd)

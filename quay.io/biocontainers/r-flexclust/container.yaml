@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-flexclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-flexclust
+latest:
+  1.3_4--r3.3.2_0: sha256:7d3af70158de17b3a246a0f2c73a3296af8e9a28807b4c8d62c8173e927fdd9d
+tags:
+  1.3_4--r3.3.2_0: sha256:7d3af70158de17b3a246a0f2c73a3296af8e9a28807b4c8d62c8173e927fdd9d
+docker: quay.io/biocontainers/r-flexclust

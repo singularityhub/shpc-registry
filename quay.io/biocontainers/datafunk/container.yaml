@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/datafunk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for datafunk
+latest:
+  0.1.0--pyh5e36f6f_0: sha256:fc13778c22203fdb0af4a2ac62b9e1b2a2e1f83ff6b84ed84ed3f6565563dc4c
+tags:
+  0.1.0--pyh5e36f6f_0: sha256:fc13778c22203fdb0af4a2ac62b9e1b2a2e1f83ff6b84ed84ed3f6565563dc4c
+docker: quay.io/biocontainers/datafunk
+aliases:
+  cchardetect: /usr/local/bin/cchardetect
+  datafunk: /usr/local/bin/datafunk
+  datapackage: /usr/local/bin/datapackage
+  jsonpointer: /usr/local/bin/jsonpointer
+  tableschema: /usr/local/bin/tableschema
+  tabulator: /usr/local/bin/tabulator

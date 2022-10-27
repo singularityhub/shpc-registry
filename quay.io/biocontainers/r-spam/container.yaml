@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-spam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-spam
+latest:
+  1.4_0--r3.3.2_0: sha256:f6b49c74d46eb8ccb1d1319e9ecc755ae06512cb33ebddf490df1cf059f2fa89
+tags:
+  1.4_0--r3.3.2_0: sha256:f6b49c74d46eb8ccb1d1319e9ecc755ae06512cb33ebddf490df1cf059f2fa89
+docker: quay.io/biocontainers/r-spam

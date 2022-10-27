@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rexposome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rexposome
+latest:
+  1.8.0--r36_0: sha256:1e066678d985a144c21471365066505781f4caebf8a3372b6d1d80b1ab43cad1
+tags:
+  1.8.0--r36_0: sha256:1e066678d985a144c21471365066505781f4caebf8a3372b6d1d80b1ab43cad1
+docker: quay.io/biocontainers/bioconductor-rexposome

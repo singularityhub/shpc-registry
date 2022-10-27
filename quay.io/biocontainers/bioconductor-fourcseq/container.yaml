@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fourcseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fourcseq
+latest:
+  1.4.0--r3.3.1_1: sha256:c8c5386080fc7e971bbe7f305620890aff49239e6c85c200f7756bd76e842d7d
+tags:
+  1.4.0--r3.3.1_1: sha256:c8c5386080fc7e971bbe7f305620890aff49239e6c85c200f7756bd76e842d7d
+docker: quay.io/biocontainers/bioconductor-fourcseq

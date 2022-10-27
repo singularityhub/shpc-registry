@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xgboost
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xgboost
+latest:
+  0.6a2--py27_0: sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e
+tags:
+  0.6a2--py27_0: sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e
+docker: quay.io/biocontainers/xgboost

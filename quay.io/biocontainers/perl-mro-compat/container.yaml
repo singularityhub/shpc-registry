@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mro-compat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mro-compat
+latest:
+  0.15--pl5321hdfd78af_0: sha256:f6a80686a4f076e32fca85ee01699f9dc76dab3597f564f50c31b9ddda1faf02
+tags:
+  0.15--pl5321hdfd78af_0: sha256:f6a80686a4f076e32fca85ee01699f9dc76dab3597f564f50c31b9ddda1faf02
+docker: quay.io/biocontainers/perl-mro-compat

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/panacota
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for panacota
+latest:
+  1.3.1--pyhdfd78af_0: sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27
+tags:
+  1.3.1--pyhdfd78af_0: sha256:548c7236b039aac9e655b04cead23962566f77b2f2da1d21726334f4b457ad27
+docker: quay.io/biocontainers/panacota
+aliases:
+  PanACoTA: /usr/local/bin/PanACoTA
+  fastme: /usr/local/bin/fastme
+  gimme_taxa.py: /usr/local/bin/gimme_taxa.py
+  iqtree2: /usr/local/bin/iqtree2
+  ncbi-genome-download: /usr/local/bin/ncbi-genome-download
+  ngd: /usr/local/bin/ngd
+  quicktree: /usr/local/bin/quicktree
+  run_panacota.py: /usr/local/bin/run_panacota.py
+  tbl2asn-test: /usr/local/bin/tbl2asn-test

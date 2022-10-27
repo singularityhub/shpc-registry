@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-amplican
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-amplican
+latest:
+  1.8.0--r36he1b5a44_0: sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f
+tags:
+  1.8.0--r36he1b5a44_0: sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f
+docker: quay.io/biocontainers/bioconductor-amplican

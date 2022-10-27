@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-biocancer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocancer
+latest:
+  1.22.0--r41hdfd78af_0: sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913
+tags:
+  1.22.0--r41hdfd78af_0: sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913
+docker: quay.io/biocontainers/bioconductor-biocancer
+aliases:
+  .bioconductor-org.bt.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh
+  .bioconductor-org.bt.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh

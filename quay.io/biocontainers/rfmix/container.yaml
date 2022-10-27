@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rfmix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rfmix
+latest:
+  2.03.r0.9505bfa--h87f3376_3: sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005
+tags:
+  2.03.r0.9505bfa--h87f3376_3: sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005
+docker: quay.io/biocontainers/rfmix
+aliases:
+  rfmix: /usr/local/bin/rfmix
+  simulate: /usr/local/bin/simulate

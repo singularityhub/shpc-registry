@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/megan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for megan
+latest:
+  6.21.7--h9ee0642_0: sha256:537fb81ee0151a2299ca82649e00f92a8e44f1f6bb3f85a26e9b2e902dbc91b7
+tags:
+  6.21.7--h9ee0642_0: sha256:537fb81ee0151a2299ca82649e00f92a8e44f1f6bb3f85a26e9b2e902dbc91b7
+docker: quay.io/biocontainers/megan
+aliases:
+  MEGAN: /usr/local/bin/MEGAN
+  aadder-build: /usr/local/bin/aadder-build
+  aadder-run: /usr/local/bin/aadder-run
+  blast2lca: /usr/local/bin/blast2lca
+  blast2rma: /usr/local/bin/blast2rma
+  compute-comparison: /usr/local/bin/compute-comparison
+  daa-meganizer: /usr/local/bin/daa-meganizer
+  daa2info: /usr/local/bin/daa2info
+  daa2rma: /usr/local/bin/daa2rma
+  extract-biome: /usr/local/bin/extract-biome
+  gc-assembler: /usr/local/bin/gc-assembler
+  maf2daa: /usr/local/bin/maf2daa
+  megan-server: /usr/local/bin/megan-server
+  read-extractor: /usr/local/bin/read-extractor
+  reanalyzer: /usr/local/bin/reanalyzer
+  references-annotator: /usr/local/bin/references-annotator
+  rma2info: /usr/local/bin/rma2info
+  sam2rma: /usr/local/bin/sam2rma
+  sort-last-maf: /usr/local/bin/sort-last-maf

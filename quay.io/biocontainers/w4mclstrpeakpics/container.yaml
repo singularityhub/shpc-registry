@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/w4mclstrpeakpics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for w4mclstrpeakpics
+latest:
+  0.98.1--r351_1: sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a
+tags:
+  0.98.1--r351_1: sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a
+docker: quay.io/biocontainers/w4mclstrpeakpics

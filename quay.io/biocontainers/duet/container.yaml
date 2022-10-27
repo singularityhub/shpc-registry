@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/duet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for duet
+latest:
+  0.5--pyhdfd78af_0: sha256:ea0c1b422b8a9d812bc429e77ed8c45724e1a13fd51f981eaf1224be4e583920
+tags:
+  0.5--pyhdfd78af_0: sha256:ea0c1b422b8a9d812bc429e77ed8c45724e1a13fd51f981eaf1224be4e583920
+docker: quay.io/biocontainers/duet
+aliases:
+  clair3.py: /usr/local/bin/clair3.py
+  cuteSV: /usr/local/bin/cuteSV
+  duet: /usr/local/bin/duet
+  libclair3.c: /usr/local/bin/libclair3.c
+  libclair3.cpython-36m-x86_64-linux-gnu.so: /usr/local/bin/libclair3.cpython-36m-x86_64-linux-gnu.so
+  libclair3.o: /usr/local/bin/libclair3.o
+  libclair3.so: /usr/local/bin/libclair3.so
+  libpypy3-c.so.debug: /usr/local/bin/libpypy3-c.so.debug
+  longphase: /usr/local/bin/longphase
+  ngmlr: /usr/local/bin/ngmlr
+  pypy: /usr/local/bin/pypy
+  pypy3: /usr/local/bin/pypy3
+  pypy3.6: /usr/local/bin/pypy3.6
+  run_clair3.sh: /usr/local/bin/run_clair3.sh
+  svim: /usr/local/bin/svim

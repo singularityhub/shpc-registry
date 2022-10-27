@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-qiimer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-qiimer
+latest:
+  0.9.4--r3.4.1_0: sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722
+tags:
+  0.9.4--r3.4.1_0: sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722
+docker: quay.io/biocontainers/r-qiimer

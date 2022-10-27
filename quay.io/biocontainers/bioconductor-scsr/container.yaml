@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scsr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scsr
+latest:
+  1.23.0--r40_0: sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18
+tags:
+  1.23.0--r40_0: sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18
+docker: quay.io/biocontainers/bioconductor-scsr

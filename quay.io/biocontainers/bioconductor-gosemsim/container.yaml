@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gosemsim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gosemsim
+latest:
+  2.8.0--r351hf484d3e_0: sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d
+tags:
+  2.8.0--r351hf484d3e_0: sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d
+docker: quay.io/biocontainers/bioconductor-gosemsim

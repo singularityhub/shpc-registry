@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/ragtag
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ragtag
+latest:
+  2.1.0--pyhb7b1952_0: sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580
+tags:
+  2.1.0--pyhb7b1952_0: sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580
+docker: quay.io/biocontainers/ragtag
+aliases:
+  ragtag.py: /usr/local/bin/ragtag.py
+  ragtag_agp2fa.py: /usr/local/bin/ragtag_agp2fa.py
+  ragtag_agpcheck.py: /usr/local/bin/ragtag_agpcheck.py
+  ragtag_asmstats.py: /usr/local/bin/ragtag_asmstats.py
+  ragtag_break_query.py: /usr/local/bin/ragtag_break_query.py
+  ragtag_correct.py: /usr/local/bin/ragtag_correct.py
+  ragtag_create_links.py: /usr/local/bin/ragtag_create_links.py
+  ragtag_delta2paf.py: /usr/local/bin/ragtag_delta2paf.py
+  ragtag_merge.py: /usr/local/bin/ragtag_merge.py
+  ragtag_paf2delta.py: /usr/local/bin/ragtag_paf2delta.py
+  ragtag_patch.py: /usr/local/bin/ragtag_patch.py
+  ragtag_rename.py: /usr/local/bin/ragtag_rename.py
+  ragtag_scaffold.py: /usr/local/bin/ragtag_scaffold.py
+  ragtag_splitasm.py: /usr/local/bin/ragtag_splitasm.py
+  ragtag_stats.py: /usr/local/bin/ragtag_stats.py
+  ragtag_update_gff.py: /usr/local/bin/ragtag_update_gff.py
+  setup.py: /usr/local/bin/setup.py

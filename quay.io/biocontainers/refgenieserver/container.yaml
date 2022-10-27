@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/refgenieserver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for refgenieserver
+latest:
+  0.6.0--py_0: sha256:8de5845748fbf02c28ee49f5f8e4aa85335a9b504162637e9f4a97cdb133aaaa
+tags:
+  0.6.0--py_0: sha256:8de5845748fbf02c28ee49f5f8e4aa85335a9b504162637e9f4a97cdb133aaaa
+docker: quay.io/biocontainers/refgenieserver
+aliases:
+  dotenv: /usr/local/bin/dotenv
+  refgenieserver: /usr/local/bin/refgenieserver
+  uvicorn: /usr/local/bin/uvicorn
+  watchgod: /usr/local/bin/watchgod

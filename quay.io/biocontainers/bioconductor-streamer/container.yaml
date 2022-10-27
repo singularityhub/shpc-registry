@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-streamer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-streamer
+latest:
+  1.40.0--r41hc0cfd56_2: sha256:acb2801c86ce7a05513b7acd766bc8f96f85b26178579da76d322a40fdc78eaa
+tags:
+  1.40.0--r41hc0cfd56_2: sha256:acb2801c86ce7a05513b7acd766bc8f96f85b26178579da76d322a40fdc78eaa
+docker: quay.io/biocontainers/bioconductor-streamer

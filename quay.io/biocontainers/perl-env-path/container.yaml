@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-env-path
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-env-path
+latest:
+  0.19--pl5321hdfd78af_3: sha256:59a2ccb0dab71fe396ab3ed3e50a1b8123fac6eb81e9b7f50df05b8472790418
+tags:
+  0.19--pl5321hdfd78af_3: sha256:59a2ccb0dab71fe396ab3ed3e50a1b8123fac6eb81e9b7f50df05b8472790418
+docker: quay.io/biocontainers/perl-env-path
+aliases:
+  envpath: /usr/local/bin/envpath

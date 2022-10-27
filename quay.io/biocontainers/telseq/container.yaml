@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/telseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for telseq
+latest:
+  0.0.2--ha7703dc_5: sha256:9a8b8628f4e1d8d80ab890b49764269d70a32de89eead7e8cd517055133d07f0
+tags:
+  0.0.2--ha7703dc_5: sha256:9a8b8628f4e1d8d80ab890b49764269d70a32de89eead7e8cd517055133d07f0
+docker: quay.io/biocontainers/telseq
+aliases:
+  telseq: /usr/local/bin/telseq

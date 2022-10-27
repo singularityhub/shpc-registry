@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pypeflow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pypeflow
+latest:
+  2.2.0--py27_0: sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15
+tags:
+  2.2.0--py27_0: sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15
+docker: quay.io/biocontainers/pypeflow
+aliases:
+  heartbeat-wrapper: /usr/local/bin/heartbeat-wrapper
+  pwatcher-main: /usr/local/bin/pwatcher-main
+  pwatcher-pypeflow-example: /usr/local/bin/pwatcher-pypeflow-example

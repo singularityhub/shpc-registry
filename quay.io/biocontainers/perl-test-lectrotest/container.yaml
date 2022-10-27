@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-lectrotest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-lectrotest
+latest:
+  0.5001--pl5321hdfd78af_1: sha256:333e1f2c749e361288c2837766a17d343b07497de1ce12335fefdd8b98dae8dd
+tags:
+  0.5001--pl5321hdfd78af_1: sha256:333e1f2c749e361288c2837766a17d343b07497de1ce12335fefdd8b98dae8dd
+docker: quay.io/biocontainers/perl-test-lectrotest

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snostrip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snostrip
+latest:
+  2.0.2--pl5321h87f3376_4: sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb
+tags:
+  2.0.2--pl5321h87f3376_4: sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb
+docker: quay.io/biocontainers/snostrip
+aliases:
+  snoStrip.pl: /usr/local/bin/snoStrip.pl

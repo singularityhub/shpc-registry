@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-oligoclasses
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-oligoclasses
+latest:
+  1.56.0--r41hdfd78af_0: sha256:4234faac6dde4903be27ee1bb645853a12bb8a9bcbb22c54c077c1eaa3c98c5a
+tags:
+  1.56.0--r41hdfd78af_0: sha256:4234faac6dde4903be27ee1bb645853a12bb8a9bcbb22c54c077c1eaa3c98c5a
+docker: quay.io/biocontainers/bioconductor-oligoclasses

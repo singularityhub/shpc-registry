@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genomescope2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomescope2
+latest:
+  2.0--py310r41hdfd78af_5: sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5
+tags:
+  2.0--py310r41hdfd78af_5: sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5
+docker: quay.io/biocontainers/genomescope2
+aliases:
+  genomescope2: /usr/local/bin/genomescope2

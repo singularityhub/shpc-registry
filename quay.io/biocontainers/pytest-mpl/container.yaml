@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pytest-mpl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pytest-mpl
+latest:
+  0.5--py36_0: sha256:6864f9f472963c65d07e255834ffa61c1ab1cd4ddb12c5957a69cac81ce316f3
+tags:
+  0.5--py36_0: sha256:6864f9f472963c65d07e255834ffa61c1ab1cd4ddb12c5957a69cac81ce316f3
+docker: quay.io/biocontainers/pytest-mpl

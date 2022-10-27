@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cliquems
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cliquems
+latest:
+  1.8.0--r41hc247a5b_2: sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68
+tags:
+  1.8.0--r41hc247a5b_2: sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68
+docker: quay.io/biocontainers/bioconductor-cliquems

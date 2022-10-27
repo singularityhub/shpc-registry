@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/lsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lsc
+latest:
+  2.0--2: sha256:df78b2f0f3eaa400f7e7e7faa43de902f2995894c110b318cef0d38f8da248ab
+tags:
+  2.0--2: sha256:df78b2f0f3eaa400f7e7e7faa43de902f2995894c110b318cef0d38f8da248ab
+docker: quay.io/biocontainers/lsc
+aliases:
+  AlignmentBasics.py: /usr/local/bin/AlignmentBasics.py
+  CorrectFromMapBasics.py: /usr/local/bin/CorrectFromMapBasics.py
+  FileBasics.py: /usr/local/bin/FileBasics.py
+  NavToMapBasics.py: /usr/local/bin/NavToMapBasics.py
+  SamToNavBasics.py: /usr/local/bin/SamToNavBasics.py
+  SequenceBasics.py: /usr/local/bin/SequenceBasics.py
+  SequenceCompressionBasics.py: /usr/local/bin/SequenceCompressionBasics.py
+  explode_fasta.pl: /usr/local/bin/explode_fasta.pl
+  fasta_to_tsv.pl: /usr/local/bin/fasta_to_tsv.pl
+  fastq_to_tsv.pl: /usr/local/bin/fastq_to_tsv.pl
+  filter_corrected_reads.py: /usr/local/bin/filter_corrected_reads.py
+  runLSC.py: /usr/local/bin/runLSC.py

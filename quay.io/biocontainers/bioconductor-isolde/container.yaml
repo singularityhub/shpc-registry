@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-isolde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-isolde
+latest:
+  1.8.0--r341h470a237_0: sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2
+tags:
+  1.8.0--r341h470a237_0: sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2
+docker: quay.io/biocontainers/bioconductor-isolde

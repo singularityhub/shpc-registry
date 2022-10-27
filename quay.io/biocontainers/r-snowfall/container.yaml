@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-snowfall
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-snowfall
+latest:
+  1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
+tags:
+  1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
+docker: quay.io/biocontainers/r-snowfall

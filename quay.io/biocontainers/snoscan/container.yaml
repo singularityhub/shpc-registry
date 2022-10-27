@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/snoscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snoscan
+latest:
+  1.0--pl5321hec16e2b_3: sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999
+tags:
+  1.0--pl5321hec16e2b_3: sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999
+docker: quay.io/biocontainers/snoscan
+aliases:
+  fasta2gsi.pl: /usr/local/bin/fasta2gsi.pl
+  genbank2gsi.pl: /usr/local/bin/genbank2gsi.pl
+  genpept2gsi.pl: /usr/local/bin/genpept2gsi.pl
+  pir2gsi.pl: /usr/local/bin/pir2gsi.pl
+  snoscan: /usr/local/bin/snoscan
+  snoscanA: /usr/local/bin/snoscanA
+  snoscanH: /usr/local/bin/snoscanH
+  snoscanY: /usr/local/bin/snoscanY
+  sort-snos: /usr/local/bin/sort-snos
+  sort-snos.pl: /usr/local/bin/sort-snos.pl
+  swiss2gsi.pl: /usr/local/bin/swiss2gsi.pl

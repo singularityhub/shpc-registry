@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/snakemake-minimal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snakemake-minimal
+latest:
+  5.9.1--py_0: sha256:46611f4b19c9f6e11d9a159af8ded402e59d78d24f2dac6fec24210fde8c602c
+tags:
+  5.9.1--py_0: sha256:46611f4b19c9f6e11d9a159af8ded402e59d78d24f2dac6fec24210fde8c602c
+docker: quay.io/biocontainers/snakemake-minimal

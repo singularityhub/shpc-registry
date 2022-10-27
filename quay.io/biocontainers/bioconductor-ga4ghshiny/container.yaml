@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ga4ghshiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ga4ghshiny
+latest:
+  1.8.0--r36_0: sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664
+tags:
+  1.8.0--r36_0: sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664
+docker: quay.io/biocontainers/bioconductor-ga4ghshiny

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-acme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-acme
+latest:
+  2.50.0--r41hc0cfd56_2: sha256:4fd50d3647cc843691a64ea2b22d9f2436907dc3bf5473fad2be8664cd8df3b1
+tags:
+  2.50.0--r41hc0cfd56_2: sha256:4fd50d3647cc843691a64ea2b22d9f2436907dc3bf5473fad2be8664cd8df3b1
+docker: quay.io/biocontainers/bioconductor-acme

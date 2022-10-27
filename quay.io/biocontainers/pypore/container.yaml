@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pypore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pypore
+latest:
+  0.0.6.dev20180702231556--py27h4329609_5: sha256:a03c1d65cded0397ea740dca1a142e2d8d6a8f4e9a06b849ef6944600f4f3a82
+tags:
+  0.0.6.dev20180702231556--py27h4329609_5: sha256:a03c1d65cded0397ea740dca1a142e2d8d6a8f4e9a06b849ef6944600f4f3a82
+docker: quay.io/biocontainers/pypore
+aliases:
+  filterfiles.py: /usr/local/bin/filterfiles.py
+  pypore_batch_csv.py: /usr/local/bin/pypore_batch_csv.py

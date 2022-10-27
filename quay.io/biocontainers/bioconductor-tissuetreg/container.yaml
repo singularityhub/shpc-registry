@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tissuetreg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tissuetreg
+latest:
+  1.9.0--r40_0: sha256:081fa4ca20a6b746ec4c5ec7d0af5769aa814d6be35746496b92f44f7a3f26e6
+tags:
+  1.9.0--r40_0: sha256:081fa4ca20a6b746ec4c5ec7d0af5769aa814d6be35746496b92f44f7a3f26e6
+docker: quay.io/biocontainers/bioconductor-tissuetreg
+aliases:
+  .bioconductor-tissuetreg-post-link.sh: /usr/local/bin/.bioconductor-tissuetreg-post-link.sh
+  .bioconductor-tissuetreg-pre-unlink.sh: /usr/local/bin/.bioconductor-tissuetreg-pre-unlink.sh

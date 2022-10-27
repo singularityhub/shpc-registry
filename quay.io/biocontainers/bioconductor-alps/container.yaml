@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-alps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-alps
+latest:
+  1.5.0--r41hdfd78af_0: sha256:d2bb2f0128128e46b1a1bce7216772695431c5d837c98aa06e92ac963854902e
+tags:
+  1.5.0--r41hdfd78af_0: sha256:d2bb2f0128128e46b1a1bce7216772695431c5d837c98aa06e92ac963854902e
+docker: quay.io/biocontainers/bioconductor-alps

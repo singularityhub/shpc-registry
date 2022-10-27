@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-affycoretools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affycoretools
+latest:
+  1.66.0--r41hdfd78af_0: sha256:52a251ae058f236be6c33d0e6a1b2c638820e24e344bfd895d42b1d1d55a0554
+tags:
+  1.66.0--r41hdfd78af_0: sha256:52a251ae058f236be6c33d0e6a1b2c638820e24e344bfd895d42b1d1d55a0554
+docker: quay.io/biocontainers/bioconductor-affycoretools
+aliases:
+  .bioconductor-pfam.db-post-link.sh: /usr/local/bin/.bioconductor-pfam.db-post-link.sh
+  .bioconductor-pfam.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh

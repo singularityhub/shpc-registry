@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spotsegmentation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spotsegmentation
+latest:
+  1.61.0--r40_0: sha256:2b867d82e749b64996b498f9d52c434eaa3aa66b211a5d13945b78ad37fd0c75
+tags:
+  1.61.0--r40_0: sha256:2b867d82e749b64996b498f9d52c434eaa3aa66b211a5d13945b78ad37fd0c75
+docker: quay.io/biocontainers/bioconductor-spotsegmentation

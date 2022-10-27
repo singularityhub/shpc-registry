@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ga4ghclient
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ga4ghclient
+latest:
+  1.8.0--r36_1: sha256:d22f5f2d10b074c7fd4f95c4642e8264678ec2743d20809caf96bf695f50cd53
+tags:
+  1.8.0--r36_1: sha256:d22f5f2d10b074c7fd4f95c4642e8264678ec2743d20809caf96bf695f50cd53
+docker: quay.io/biocontainers/bioconductor-ga4ghclient

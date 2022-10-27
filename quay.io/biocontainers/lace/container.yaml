@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/lace
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lace
+latest:
+  1.14.1--pyh5e36f6f_0: sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d
+tags:
+  1.14.1--pyh5e36f6f_0: sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d
+docker: quay.io/biocontainers/lace
+aliases:
+  BuildSuperTranscript: /usr/local/bin/BuildSuperTranscript
+  Lace: /usr/local/bin/Lace
+  Lace_Checker: /usr/local/bin/Lace_Checker
+  Mobius: /usr/local/bin/Mobius
+  Mobius-as: /usr/local/bin/Mobius-as
+  STViewer: /usr/local/bin/STViewer

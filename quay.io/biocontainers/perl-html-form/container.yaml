@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-form
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-form
+latest:
+  6.07--pl5321hdfd78af_0: sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6
+tags:
+  6.07--pl5321hdfd78af_0: sha256:42ba65ff056cf6c06ab2e8e9279720bab382cf775cb462d304e47a3baf4799c6
+docker: quay.io/biocontainers/perl-html-form

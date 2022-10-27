@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/traitar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for traitar
+latest:
+  1.1.2--py_0: sha256:29c81fb7cd4c8573b41f5742ba385a7a1f8cb5a8be6277207dcf02451aaf4e9d
+tags:
+  1.1.2--py_0: sha256:29c81fb7cd4c8573b41f5742ba385a7a1f8cb5a8be6277207dcf02451aaf4e9d
+docker: quay.io/biocontainers/traitar
+aliases:
+  domtblout2gene_generic.py: /usr/local/bin/domtblout2gene_generic.py
+  heatmap.py: /usr/local/bin/heatmap.py
+  hmm2gff.py: /usr/local/bin/hmm2gff.py
+  hmmer2filtered_best.py: /usr/local/bin/hmmer2filtered_best.py
+  merge_preds.py: /usr/local/bin/merge_preds.py
+  predict.py: /usr/local/bin/predict.py
+  traitar: /usr/local/bin/traitar

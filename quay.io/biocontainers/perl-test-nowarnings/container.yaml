@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-nowarnings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-nowarnings
+latest:
+  1.06--pl5321hdfd78af_0: sha256:61f52fd4e4f12bce4c1359f2e96381a1ea28cfdb40fe7da289e4a77f88b5071f
+tags:
+  1.06--pl5321hdfd78af_0: sha256:61f52fd4e4f12bce4c1359f2e96381a1ea28cfdb40fe7da289e4a77f88b5071f
+docker: quay.io/biocontainers/perl-test-nowarnings

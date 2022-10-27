@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cobra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cobra
+latest:
+  0.4.0b6--py35_0: sha256:5f16c88186911111b9674164f82267860b5b80ac67a466c48d7f14141be5bf7c
+tags:
+  0.4.0b6--py35_0: sha256:5f16c88186911111b9674164f82267860b5b80ac67a466c48d7f14141be5bf7c
+docker: quay.io/biocontainers/cobra

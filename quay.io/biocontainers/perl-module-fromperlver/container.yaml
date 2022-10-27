@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-fromperlver
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-fromperlver
+latest:
+  0.008002--pl5321hdfd78af_2: sha256:27c1150b2b4439d9eb618d22ad77dae0702b27886a0416f45b5ecf28f18bd6aa
+tags:
+  0.008002--pl5321hdfd78af_2: sha256:27c1150b2b4439d9eb618d22ad77dae0702b27886a0416f45b5ecf28f18bd6aa
+docker: quay.io/biocontainers/perl-module-fromperlver

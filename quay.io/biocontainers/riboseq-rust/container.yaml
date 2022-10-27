@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/riboseq-rust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for riboseq-rust
+latest:
+  1.2--1: sha256:3a9e734199068aac1756ce7764f3787a47f3e0a9d46e157621c05013914b98ba
+tags:
+  1.2--1: sha256:3a9e734199068aac1756ce7764f3787a47f3e0a9d46e157621c05013914b98ba
+docker: quay.io/biocontainers/riboseq-rust
+aliases:
+  rust_amino: /usr/local/bin/rust_amino
+  rust_amino.bak: /usr/local/bin/rust_amino.bak
+  rust_codon: /usr/local/bin/rust_codon
+  rust_codon.bak: /usr/local/bin/rust_codon.bak
+  rust_dipeptide: /usr/local/bin/rust_dipeptide
+  rust_dipeptide.bak: /usr/local/bin/rust_dipeptide.bak
+  rust_nucleotide: /usr/local/bin/rust_nucleotide
+  rust_nucleotide.bak: /usr/local/bin/rust_nucleotide.bak
+  rust_plot_transcript: /usr/local/bin/rust_plot_transcript
+  rust_plot_transcript.bak: /usr/local/bin/rust_plot_transcript.bak
+  rust_predict_profiles: /usr/local/bin/rust_predict_profiles
+  rust_predict_profiles.bak: /usr/local/bin/rust_predict_profiles.bak
+  rust_synergy: /usr/local/bin/rust_synergy
+  rust_synergy.bak: /usr/local/bin/rust_synergy.bak
+  rust_tripeptide: /usr/local/bin/rust_tripeptide
+  rust_tripeptide.bak: /usr/local/bin/rust_tripeptide.bak

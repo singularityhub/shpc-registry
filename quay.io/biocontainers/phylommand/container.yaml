@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/phylommand
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for phylommand
+latest:
+  1.1.0--h8961cb6_3: sha256:e96949291bfb6618b7770866ef2b7f55714dc16435ec67343e5061173e255d92
+tags:
+  1.1.0--h8961cb6_3: sha256:e96949291bfb6618b7770866ef2b7f55714dc16435ec67343e5061173e255d92
+docker: quay.io/biocontainers/phylommand
+aliases:
+  contree: /usr/local/bin/contree
+  pairalign: /usr/local/bin/pairalign
+  treeator: /usr/local/bin/treeator
+  treebender: /usr/local/bin/treebender

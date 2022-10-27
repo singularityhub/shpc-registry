@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-email-date-format
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-email-date-format
+latest:
+  1.005--pl5321hdfd78af_3: sha256:5d50d9690afeb25c5948555868498ee258f84b62c2fae8dd195d139b3b71eb3c
+tags:
+  1.005--pl5321hdfd78af_3: sha256:5d50d9690afeb25c5948555868498ee258f84b62c2fae8dd195d139b3b71eb3c
+docker: quay.io/biocontainers/perl-email-date-format

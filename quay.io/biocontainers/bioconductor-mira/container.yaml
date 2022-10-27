@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mira
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mira
+latest:
+  1.8.0--r36_0: sha256:3908027b96638d7e76d4b6af82a23375770cf808274ffc4ad8a94f5645b63601
+tags:
+  1.8.0--r36_0: sha256:3908027b96638d7e76d4b6af82a23375770cf808274ffc4ad8a94f5645b63601
+docker: quay.io/biocontainers/bioconductor-mira

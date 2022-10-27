@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bamr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamr
+latest:
+  0.2.0--pyhdfd78af_0: sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135
+tags:
+  0.2.0--pyhdfd78af_0: sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135
+docker: quay.io/biocontainers/bamr

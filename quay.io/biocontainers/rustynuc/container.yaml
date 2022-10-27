@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rustynuc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rustynuc
+latest:
+  0.3.1--h7132678_0: sha256:d3f73cb0fc0d06af1d1629af56019bd83770a7483d879e66457dcbf253b2a8fe
+tags:
+  0.3.1--h7132678_0: sha256:d3f73cb0fc0d06af1d1629af56019bd83770a7483d879e66457dcbf253b2a8fe
+docker: quay.io/biocontainers/rustynuc
+aliases:
+  rustynuc: /usr/local/bin/rustynuc

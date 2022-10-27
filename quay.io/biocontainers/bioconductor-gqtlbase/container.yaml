@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gqtlbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gqtlbase
+latest:
+  1.20.0--r40_0: sha256:77f765c44fb773481238c703db1c78fc1679eaa124787bacab969b9f13974aad
+tags:
+  1.20.0--r40_0: sha256:77f765c44fb773481238c703db1c78fc1679eaa124787bacab969b9f13974aad
+docker: quay.io/biocontainers/bioconductor-gqtlbase

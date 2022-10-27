@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rcellminerdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcellminerdata
+latest:
+  2.8.0--r36_0: sha256:b450625c32b6ccc87dda0b59dee38288798da501351a6b5803e080ab41588540
+tags:
+  2.8.0--r36_0: sha256:b450625c32b6ccc87dda0b59dee38288798da501351a6b5803e080ab41588540
+docker: quay.io/biocontainers/bioconductor-rcellminerdata
+aliases:
+  .bioconductor-rcellminerdata-post-link.sh: /usr/local/bin/.bioconductor-rcellminerdata-post-link.sh
+  .bioconductor-rcellminerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh

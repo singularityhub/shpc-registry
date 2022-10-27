@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/yanagiba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yanagiba
+latest:
+  1.0.0--py_2: sha256:ac4e9d40b7e6cb9445db223551c76b684ab7d4802bc31aa008aaeb165d7d4c98
+tags:
+  1.0.0--py_2: sha256:ac4e9d40b7e6cb9445db223551c76b684ab7d4802bc31aa008aaeb165d7d4c98
+docker: quay.io/biocontainers/yanagiba
+aliases:
+  yanagiba: /usr/local/bin/yanagiba

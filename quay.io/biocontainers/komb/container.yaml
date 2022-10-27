@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/komb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for komb
+latest:
+  1.0--py37h595c7a6_5: sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b
+tags:
+  1.0--py37h595c7a6_5: sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b
+docker: quay.io/biocontainers/komb
+aliases:
+  Bifrost: /usr/local/bin/Bifrost
+  abyss-db-csv: /usr/local/bin/abyss-db-csv
+  komb: /usr/local/bin/komb

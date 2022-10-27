@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-unicode-normalize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-unicode-normalize
+latest:
+  1.26--pl5321h9f5acd7_3: sha256:3c5ef4cf0560f1b2b868e4ca0747ee2f400e7599033e3905fd1f22edaa39529a
+tags:
+  1.26--pl5321h9f5acd7_3: sha256:3c5ef4cf0560f1b2b868e4ca0747ee2f400e7599033e3905fd1f22edaa39529a
+docker: quay.io/biocontainers/perl-unicode-normalize

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dks
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dks
+latest:
+  1.40.0--r41hdfd78af_0: sha256:7b41b7fc6128ae3b1f5e472664397dfa7318997c07bf9786ee45cc02da6114af
+tags:
+  1.40.0--r41hdfd78af_0: sha256:7b41b7fc6128ae3b1f5e472664397dfa7318997c07bf9786ee45cc02da6114af
+docker: quay.io/biocontainers/bioconductor-dks

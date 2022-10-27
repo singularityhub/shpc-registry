@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/genometools-genometools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genometools-genometools
+latest:
+  1.6.2--py38h5e2dfeb_3: sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87
+tags:
+  1.6.2--py38h5e2dfeb_3: sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87
+docker: quay.io/biocontainers/genometools-genometools
+aliases:
+  genometools-config: /usr/local/bin/genometools-config
+  gt: /usr/local/bin/gt

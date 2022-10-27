@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/kipoiseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kipoiseq
+latest:
+  0.7.1--pyhdfd78af_0: sha256:c7c9dae084bcf122042c7fbde81a71f88f5f325c84d65e3b137e410f2aa1d23c
+tags:
+  0.7.1--pyhdfd78af_0: sha256:c7c9dae084bcf122042c7fbde81a71f88f5f325c84d65e3b137e410f2aa1d23c
+docker: quay.io/biocontainers/kipoiseq
+aliases:
+  cookiecutter: /usr/local/bin/cookiecutter
+  kipoi: /usr/local/bin/kipoi

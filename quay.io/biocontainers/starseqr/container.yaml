@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/starseqr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for starseqr
+latest:
+  0.6.7--py39h5371cbf_4: sha256:765b1e3c60a4bd37466be25cbdb4b3f4fcf1a9c5e83f068d3035afdf65095e9c
+tags:
+  0.6.7--py39h5371cbf_4: sha256:765b1e3c60a4bd37466be25cbdb4b3f4fcf1a9c5e83f068d3035afdf65095e9c
+docker: quay.io/biocontainers/starseqr
+aliases:
+  gffread: /usr/local/bin/gffread
+  starseqr.py: /usr/local/bin/starseqr.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-starank
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-starank
+latest:
+  1.36.0--r41hdfd78af_0: sha256:31117fc2eb77b02bd5d4b252ff68fd3e764c414adaa78d63d8380a31b271a40c
+tags:
+  1.36.0--r41hdfd78af_0: sha256:31117fc2eb77b02bd5d4b252ff68fd3e764c414adaa78d63d8380a31b271a40c
+docker: quay.io/biocontainers/bioconductor-starank

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/archer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for archer
+latest:
+  0.1.1--he881be0_0: sha256:c0492839a938f5581c79409cf339c781dfb112f32b438eb89b17a5860d0c810a
+tags:
+  0.1.1--he881be0_0: sha256:c0492839a938f5581c79409cf339c781dfb112f32b438eb89b17a5860d0c810a
+docker: quay.io/biocontainers/archer
+aliases:
+  archer: /usr/local/bin/archer

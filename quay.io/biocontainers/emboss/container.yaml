@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/emboss
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emboss
+latest:
+  6.6.0--haa49230_5: sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab
+tags:
+  6.6.0--haa49230_5: sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab
+docker: quay.io/biocontainers/emboss

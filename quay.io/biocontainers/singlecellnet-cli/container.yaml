@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/singlecellnet-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for singlecellnet-cli
+latest:
+  0.0.1--hdfd78af_0: sha256:d594924ce6e57609a27febb0b0f43d9049e74a8d959fdc4cfe9340808e88180f
+tags:
+  0.0.1--hdfd78af_0: sha256:d594924ce6e57609a27febb0b0f43d9049e74a8d959fdc4cfe9340808e88180f
+docker: quay.io/biocontainers/singlecellnet-cli
+aliases:
+  bats: /usr/local/bin/bats
+  scn-post-install-tests.bats: /usr/local/bin/scn-post-install-tests.bats
+  scn-post-install-tests.sh: /usr/local/bin/scn-post-install-tests.sh
+  scn-predict.R: /usr/local/bin/scn-predict.R
+  scn-train-model.R: /usr/local/bin/scn-train-model.R

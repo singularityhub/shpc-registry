@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-imcdatasets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-imcdatasets
+latest:
+  1.2.0--r41hdfd78af_1: sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33
+tags:
+  1.2.0--r41hdfd78af_1: sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33
+docker: quay.io/biocontainers/bioconductor-imcdatasets
+aliases:
+  .bioconductor-imcdatasets-post-link.sh: /usr/local/bin/.bioconductor-imcdatasets-post-link.sh
+  .bioconductor-imcdatasets-pre-unlink.sh: /usr/local/bin/.bioconductor-imcdatasets-pre-unlink.sh

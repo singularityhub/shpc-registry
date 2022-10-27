@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/pb-falcon-phase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pb-falcon-phase
+latest:
+  0.1.0--h5aa19ff_3: sha256:639f2048ffd44ef1abeeb360d2601c0a707fb592e3a2d4911e3b5270fc82dc3d
+tags:
+  0.1.0--h5aa19ff_3: sha256:639f2048ffd44ef1abeeb360d2601c0a707fb592e3a2d4911e3b5270fc82dc3d
+docker: quay.io/biocontainers/pb-falcon-phase
+aliases:
+  FALCON_headerConverter.pl: /usr/local/bin/FALCON_headerConverter.pl
+  falcon-phase: /usr/local/bin/falcon-phase
+  fc_primary_contig_index.pl: /usr/local/bin/fc_primary_contig_index.pl
+  fc_scrub_names.pl: /usr/local/bin/fc_scrub_names.pl

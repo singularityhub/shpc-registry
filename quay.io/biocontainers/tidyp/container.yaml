@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tidyp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tidyp
+latest:
+  1.04--hec16e2b_4: sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71
+tags:
+  1.04--hec16e2b_4: sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71
+docker: quay.io/biocontainers/tidyp

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gmd
+latest:
+  0.3.3--r3.3.1_1: sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6
+tags:
+  0.3.3--r3.3.1_1: sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6
+docker: quay.io/biocontainers/r-gmd

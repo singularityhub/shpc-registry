@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/slimfastq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for slimfastq
+latest:
+  2.04--h87f3376_2: sha256:6948357675511a0e48eb20262b37bb3a230843833734de09f183c85563302aef
+tags:
+  2.04--h87f3376_2: sha256:6948357675511a0e48eb20262b37bb3a230843833734de09f183c85563302aef
+docker: quay.io/biocontainers/slimfastq
+aliases:
+  slimfastq: /usr/local/bin/slimfastq
+  slimfastq.multi: /usr/local/bin/slimfastq.multi

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bcbio-variation-recall
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcbio-variation-recall
+latest:
+  0.2.6--hdfd78af_1: sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2
+tags:
+  0.2.6--hdfd78af_1: sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2
+docker: quay.io/biocontainers/bcbio-variation-recall
+aliases:
+  bcbio-variation-recall: /usr/local/bin/bcbio-variation-recall

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fgwas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fgwas
+latest:
+  0.3.6--heafd8fd_5: sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb
+tags:
+  0.3.6--heafd8fd_5: sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb
+docker: quay.io/biocontainers/fgwas
+aliases:
+  fgwas: /usr/local/bin/fgwas

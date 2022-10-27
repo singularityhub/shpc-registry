@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-yri1kgv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-yri1kgv
+latest:
+  0.32.0--r40hdfd78af_1: sha256:6cdd9f9dc18520e2a1f3bec9a9a4def69315792e364423ae6d8cd00f5a82f5f9
+tags:
+  0.32.0--r40hdfd78af_1: sha256:6cdd9f9dc18520e2a1f3bec9a9a4def69315792e364423ae6d8cd00f5a82f5f9
+docker: quay.io/biocontainers/bioconductor-yri1kgv
+aliases:
+  .bioconductor-yri1kgv-post-link.sh: /usr/local/bin/.bioconductor-yri1kgv-post-link.sh
+  .bioconductor-yri1kgv-pre-unlink.sh: /usr/local/bin/.bioconductor-yri1kgv-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/geodl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for geodl
+latest:
+  1.0b5.1--py_1: sha256:b9e06fb8125b41c091135a16b40893eba0567cf5507216606a250e91b850704d
+tags:
+  1.0b5.1--py_1: sha256:b9e06fb8125b41c091135a16b40893eba0567cf5507216606a250e91b850704d
+docker: quay.io/biocontainers/geodl
+aliases:
+  geoDL: /usr/local/bin/geoDL

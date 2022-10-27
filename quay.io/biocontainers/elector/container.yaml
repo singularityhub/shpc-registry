@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/elector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for elector
+latest:
+  1.0.4--py36h4aaaa08_3: sha256:b4894ff41be1b3e1f94cdac9e67f25a3289427d1b03765306dcb9920c7d24f72
+tags:
+  1.0.4--py36h4aaaa08_3: sha256:b4894ff41be1b3e1f94cdac9e67f25a3289427d1b03765306dcb9920c7d24f72
+docker: quay.io/biocontainers/elector
+aliases:
+  Donatello: /usr/local/bin/Donatello
+  elector: /usr/local/bin/elector
+  fq2fa: /usr/local/bin/fq2fa
+  masterSplitter: /usr/local/bin/masterSplitter
+  poa: /usr/local/bin/poa

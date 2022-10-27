@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-m3drop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-m3drop
+latest:
+  1.8.1--r351_0: sha256:d974fdec729ceb9547ed8a4960b29a128428ab449ede7f498cec6427be81003c
+tags:
+  1.8.1--r351_0: sha256:d974fdec729ceb9547ed8a4960b29a128428ab449ede7f498cec6427be81003c
+docker: quay.io/biocontainers/bioconductor-m3drop

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-googlevis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-googlevis
+latest:
+  0.5.10--r3.2.2_1: sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421
+tags:
+  0.5.10--r3.2.2_1: sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421
+docker: quay.io/biocontainers/r-googlevis

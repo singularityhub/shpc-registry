@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hmftools-amber
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hmftools-amber
+latest:
+  3.9--hdfd78af_1: sha256:2735782fa475aed6f552b466dcd7ca4f03e7431e4555f1369d67d088b04d0247
+tags:
+  3.9--hdfd78af_1: sha256:2735782fa475aed6f552b466dcd7ca4f03e7431e4555f1369d67d088b04d0247
+docker: quay.io/biocontainers/hmftools-amber
+aliases:
+  AMBER: /usr/local/bin/AMBER

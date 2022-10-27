@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/pash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pash
+latest:
+  3.0.6.2--0: sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94
+tags:
+  3.0.6.2--0: sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94
+docker: quay.io/biocontainers/pash
+aliases:
+  buildFastaIndex.rb: /usr/local/bin/buildFastaIndex.rb
+  convertFastaQualToFastQ.rb: /usr/local/bin/convertFastaQualToFastQ.rb
+  extractChromLengths.rb: /usr/local/bin/extractChromLengths.rb
+  getRCChrom.rb: /usr/local/bin/getRCChrom.rb
+  keyFreq: /usr/local/bin/keyFreq
+  makeIgnoreList: /usr/local/bin/makeIgnoreList
+  pash-3.0lx: /usr/local/bin/pash-3.0lx
+  pash2SAM: /usr/local/bin/pash2SAM
+  pash3.0.rb: /usr/local/bin/pash3.0.rb
+  pashToLff.rb: /usr/local/bin/pashToLff.rb
+  pprof: /usr/local/bin/pprof
+  splitFastq.rb: /usr/local/bin/splitFastq.rb

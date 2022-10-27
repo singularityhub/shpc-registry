@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/galaxy_sequence_utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy_sequence_utils
+latest:
+  1.1.5--py_0: sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510
+tags:
+  1.1.5--py_0: sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510
+docker: quay.io/biocontainers/galaxy_sequence_utils
+aliases:
+  gx-fastq-combiner: /usr/local/bin/gx-fastq-combiner
+  gx-fastq-filter: /usr/local/bin/gx-fastq-filter
+  gx-fastq-groomer: /usr/local/bin/gx-fastq-groomer
+  gx-fastq-manipulation: /usr/local/bin/gx-fastq-manipulation
+  gx-fastq-masker-by-quality: /usr/local/bin/gx-fastq-masker-by-quality
+  gx-fastq-paired-end-deinterlacer: /usr/local/bin/gx-fastq-paired-end-deinterlacer
+  gx-fastq-paired-end-interlacer: /usr/local/bin/gx-fastq-paired-end-interlacer
+  gx-fastq-paired-end-joiner: /usr/local/bin/gx-fastq-paired-end-joiner
+  gx-fastq-paired-end-splitter: /usr/local/bin/gx-fastq-paired-end-splitter
+  gx-fastq-stats: /usr/local/bin/gx-fastq-stats
+  gx-fastq-to-fasta: /usr/local/bin/gx-fastq-to-fasta
+  gx-fastq-to-tabular: /usr/local/bin/gx-fastq-to-tabular
+  gx-fastq-trimmer: /usr/local/bin/gx-fastq-trimmer
+  gx-fastq-trimmer-by-quality: /usr/local/bin/gx-fastq-trimmer-by-quality

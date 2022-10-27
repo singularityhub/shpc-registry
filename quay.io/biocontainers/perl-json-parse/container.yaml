@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-json-parse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-json-parse
+latest:
+  0.62--pl5321h9f5acd7_1: sha256:8562e88fa7afe8c3380586c52352d86292bcf99b9cd15f01eaf915f749da0950
+tags:
+  0.62--pl5321h9f5acd7_1: sha256:8562e88fa7afe8c3380586c52352d86292bcf99b9cd15f01eaf915f749da0950
+docker: quay.io/biocontainers/perl-json-parse
+aliases:
+  validjson: /usr/local/bin/validjson

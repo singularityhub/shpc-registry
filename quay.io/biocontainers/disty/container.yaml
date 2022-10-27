@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/disty
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for disty
+latest:
+  0.1.0--hd03093a_5: sha256:db726204cfcd37a5789ea55421acfbe5c5b9ce2ecf4f53114fccf28d5973ce12
+tags:
+  0.1.0--hd03093a_5: sha256:db726204cfcd37a5789ea55421acfbe5c5b9ce2ecf4f53114fccf28d5973ce12
+docker: quay.io/biocontainers/disty
+aliases:
+  disty: /usr/local/bin/disty

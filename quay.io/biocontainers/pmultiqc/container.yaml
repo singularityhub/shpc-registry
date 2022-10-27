@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pmultiqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pmultiqc
+latest:
+  0.0.9--pyhdfd78af_0: sha256:5a090cd18ad36694211f29ff1102d887b5404596ae3009e39a8b8cec8b4bde4a
+tags:
+  0.0.9--pyhdfd78af_0: sha256:5a090cd18ad36694211f29ff1102d887b5404596ae3009e39a8b8cec8b4bde4a
+docker: quay.io/biocontainers/pmultiqc
+aliases:
+  parse_sdrf: /usr/local/bin/parse_sdrf

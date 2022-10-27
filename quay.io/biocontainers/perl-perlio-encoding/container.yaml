@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-perlio-encoding
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-perlio-encoding
+latest:
+  0.18--pl5321hdfd78af_2: sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff
+tags:
+  0.18--pl5321hdfd78af_2: sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff
+docker: quay.io/biocontainers/perl-perlio-encoding

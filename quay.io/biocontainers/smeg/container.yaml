@@ -1,0 +1,59 @@
+url: https://biocontainers.pro/tools/smeg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smeg
+latest:
+  1.1.5--hdfd78af_2: sha256:2f2816f927148d80e167186119c387272cbb1201aa48e5a4847a6039d74088f1
+tags:
+  1.1.5--hdfd78af_2: sha256:2f2816f927148d80e167186119c387272cbb1201aa48e5a4847a6039d74088f1
+docker: quay.io/biocontainers/smeg
+aliases:
+  Mauve: /usr/local/bin/Mauve
+  MauveCM: /usr/local/bin/MauveCM
+  addUnalignedIntervals: /usr/local/bin/addUnalignedIntervals
+  alignmentProjector: /usr/local/bin/alignmentProjector
+  backbone_global_to_local: /usr/local/bin/backbone_global_to_local
+  bbAnalyze: /usr/local/bin/bbAnalyze
+  bbFilter: /usr/local/bin/bbFilter
+  coordinateTranslate: /usr/local/bin/coordinateTranslate
+  createBackboneMFA: /usr/local/bin/createBackboneMFA
+  create_pan_genome: /usr/local/bin/create_pan_genome
+  create_pan_genome_plots.R: /usr/local/bin/create_pan_genome_plots.R
+  envpath: /usr/local/bin/envpath
+  extractBCITrees: /usr/local/bin/extractBCITrees
+  extract_proteome_from_gff: /usr/local/bin/extract_proteome_from_gff
+  getAlignmentWindows: /usr/local/bin/getAlignmentWindows
+  getOrthologList: /usr/local/bin/getOrthologList
+  iterative_cdhit: /usr/local/bin/iterative_cdhit
+  makeBadgerMatrix: /usr/local/bin/makeBadgerMatrix
+  mauveAligner: /usr/local/bin/mauveAligner
+  mauveStatic: /usr/local/bin/mauveStatic
+  mauveToXMFA: /usr/local/bin/mauveToXMFA
+  mfa2xmfa: /usr/local/bin/mfa2xmfa
+  pan_genome_assembly_statistics: /usr/local/bin/pan_genome_assembly_statistics
+  pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
+  pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
+  pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
+  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
+  progressiveMauve: /usr/local/bin/progressiveMauve
+  progressiveMauveStatic: /usr/local/bin/progressiveMauveStatic
+  projectAndStrip: /usr/local/bin/projectAndStrip
+  prokka-make_tarball: /usr/local/bin/prokka-make_tarball
+  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  query_pan_genome: /usr/local/bin/query_pan_genome
+  randomGeneSample: /usr/local/bin/randomGeneSample
+  repeatoire: /usr/local/bin/repeatoire
+  roary: /usr/local/bin/roary
+  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
+  scoreAlignment: /usr/local/bin/scoreAlignment
+  smeg: /usr/local/bin/smeg
+  stripGapColumns: /usr/local/bin/stripGapColumns
+  stripSubsetLCBs: /usr/local/bin/stripSubsetLCBs
+  toGrimmFormat: /usr/local/bin/toGrimmFormat
+  toMultiFastA: /usr/local/bin/toMultiFastA
+  toRawSequence: /usr/local/bin/toRawSequence
+  transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
+  uniqueMerCount: /usr/local/bin/uniqueMerCount
+  uniquifyTrees: /usr/local/bin/uniquifyTrees
+  xmfa2maf: /usr/local/bin/xmfa2maf

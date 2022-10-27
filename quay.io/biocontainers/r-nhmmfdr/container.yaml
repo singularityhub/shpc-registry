@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nhmmfdr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nhmmfdr
+latest:
+  1.0.6--r3.3.1_0: sha256:1c8dccbc33908312857b8b6b5d01813869bf9e738b43edf01e2dcf33c5f8197e
+tags:
+  1.0.6--r3.3.1_0: sha256:1c8dccbc33908312857b8b6b5d01813869bf9e738b43edf01e2dcf33c5f8197e
+docker: quay.io/biocontainers/r-nhmmfdr

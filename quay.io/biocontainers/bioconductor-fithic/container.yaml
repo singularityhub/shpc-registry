@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fithic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fithic
+latest:
+  1.8.0--r351hf484d3e_0: sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1
+tags:
+  1.8.0--r351hf484d3e_0: sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1
+docker: quay.io/biocontainers/bioconductor-fithic

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnamodr.ml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnamodr.ml
+latest:
+  1.8.0--r41hdfd78af_0: sha256:78db489427ef7312a4f0aa84181ce884b4d19caff814d2e912999c9e6472b20a
+tags:
+  1.8.0--r41hdfd78af_0: sha256:78db489427ef7312a4f0aa84181ce884b4d19caff814d2e912999c9e6472b20a
+docker: quay.io/biocontainers/bioconductor-rnamodr.ml

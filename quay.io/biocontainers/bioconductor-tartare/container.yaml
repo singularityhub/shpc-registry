@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-tartare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tartare
+latest:
+  1.8.0--r41hdfd78af_1: sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822
+tags:
+  1.8.0--r41hdfd78af_1: sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822
+docker: quay.io/biocontainers/bioconductor-tartare
+aliases:
+  .bioconductor-tartare-post-link.sh: /usr/local/bin/.bioconductor-tartare-post-link.sh
+  .bioconductor-tartare-pre-unlink.sh: /usr/local/bin/.bioconductor-tartare-pre-unlink.sh

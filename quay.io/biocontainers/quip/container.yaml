@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/quip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quip
+latest:
+  1.1.8--h5bf99c6_1: sha256:436b89302f0fdf85caae06fd03a844b515022595155773e43aacaf7d85dcf14d
+tags:
+  1.1.8--h5bf99c6_1: sha256:436b89302f0fdf85caae06fd03a844b515022595155773e43aacaf7d85dcf14d
+docker: quay.io/biocontainers/quip
+aliases:
+  bammd5: /usr/local/bin/bammd5
+  fastqmd5: /usr/local/bin/fastqmd5
+  quip: /usr/local/bin/quip
+  quipcat: /usr/local/bin/quipcat
+  unquip: /usr/local/bin/unquip

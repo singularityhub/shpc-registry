@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/primedrpa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for primedrpa
+latest:
+  1.0.3--pyhdfd78af_0: sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a
+tags:
+  1.0.3--pyhdfd78af_0: sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a
+docker: quay.io/biocontainers/primedrpa
+aliases:
+  PrimedRPA: /usr/local/bin/PrimedRPA

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ncigraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ncigraph
+latest:
+  1.42.0--r41hdfd78af_0: sha256:d88d8769677d521b1319af45186515bee1140c46853ee8e092935eda8afaba18
+tags:
+  1.42.0--r41hdfd78af_0: sha256:d88d8769677d521b1319af45186515bee1140c46853ee8e092935eda8afaba18
+docker: quay.io/biocontainers/bioconductor-ncigraph

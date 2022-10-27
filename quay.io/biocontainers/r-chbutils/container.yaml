@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-chbutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-chbutils
+latest:
+  0.1_2017_10_26--r41hdfd78af_4: sha256:23dfec9157de0a36e5586f4e4565c2a4735685148c4e833cf3d8adbb3f39dbcc
+tags:
+  0.1_2017_10_26--r41hdfd78af_4: sha256:23dfec9157de0a36e5586f4e4565c2a4735685148c4e833cf3d8adbb3f39dbcc
+docker: quay.io/biocontainers/r-chbutils

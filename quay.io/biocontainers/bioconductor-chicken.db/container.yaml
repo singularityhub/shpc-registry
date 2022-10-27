@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-chicken.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chicken.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:c840d58d94e0fbef77f5473beba5b0bd8221402d4b0f32526d5c754d5af6611c
+tags:
+  3.2.3--r41hdfd78af_7: sha256:c840d58d94e0fbef77f5473beba5b0bd8221402d4b0f32526d5c754d5af6611c
+docker: quay.io/biocontainers/bioconductor-chicken.db
+aliases:
+  .bioconductor-chicken.db-post-link.sh: /usr/local/bin/.bioconductor-chicken.db-post-link.sh
+  .bioconductor-chicken.db-pre-unlink.sh: /usr/local/bin/.bioconductor-chicken.db-pre-unlink.sh
+  .bioconductor-org.gg.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.gg.eg.db-post-link.sh
+  .bioconductor-org.gg.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.gg.eg.db-pre-unlink.sh

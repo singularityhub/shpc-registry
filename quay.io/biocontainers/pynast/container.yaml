@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pynast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pynast
+latest:
+  1.2.2--py_2: sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9
+tags:
+  1.2.2--py_2: sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9
+docker: quay.io/biocontainers/pynast
+aliases:
+  pynast: /usr/local/bin/pynast

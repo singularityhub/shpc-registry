@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bioawk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioawk
+latest:
+  1.0--h7132678_7: sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b
+tags:
+  1.0--h7132678_7: sha256:0eff4c13f667526eaad90302737c5b7c01d63b3b876e81b4cd7723af5c5a118b
+docker: quay.io/biocontainers/bioawk
+aliases:
+  bioawk: /usr/local/bin/bioawk

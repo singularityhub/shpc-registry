@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/maskrc-svg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for maskrc-svg
+latest:
+  0.5--1: sha256:f14601960406602426bd2a66183e8cdb8a25552c43a7f55349af6b51479c2b00
+tags:
+  0.5--1: sha256:f14601960406602426bd2a66183e8cdb8a25552c43a7f55349af6b51479c2b00
+docker: quay.io/biocontainers/maskrc-svg
+aliases:
+  maskrc-svg.py: /usr/local/bin/maskrc-svg.py

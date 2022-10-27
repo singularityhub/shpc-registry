@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/melt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for melt
+latest:
+  1.0.3--pyh864c0ab_4: sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96
+tags:
+  1.0.3--pyh864c0ab_4: sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96
+docker: quay.io/biocontainers/melt
+aliases:
+  Tm: /usr/local/bin/Tm

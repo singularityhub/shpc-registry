@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-statistics-frequency
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-statistics-frequency
+latest:
+  0.04--pl5321hdfd78af_3: sha256:e9a151b970d6420541c4d6833b96706350f824a9bf95e3b93b2592763bf66174
+tags:
+  0.04--pl5321hdfd78af_3: sha256:e9a151b970d6420541c4d6833b96706350f824a9bf95e3b93b2592763bf66174
+docker: quay.io/biocontainers/perl-statistics-frequency

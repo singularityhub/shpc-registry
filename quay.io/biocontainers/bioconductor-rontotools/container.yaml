@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rontotools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rontotools
+latest:
+  2.8.0--r351_0: sha256:15a4e4d916d4198cf1c58bac518637dea2356192bb62dbf758741f4cbcaddbdb
+tags:
+  2.8.0--r351_0: sha256:15a4e4d916d4198cf1c58bac518637dea2356192bb62dbf758741f4cbcaddbdb
+docker: quay.io/biocontainers/bioconductor-rontotools

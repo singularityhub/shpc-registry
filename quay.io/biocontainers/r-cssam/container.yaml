@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-cssam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-cssam
+latest:
+  1.4--r41h9f5acd7_2: sha256:6ff08b7ca96f736267a5e21b4c459183531bf7a264f593c6719b20f1fff4fcbf
+tags:
+  1.4--r41h9f5acd7_2: sha256:6ff08b7ca96f736267a5e21b4c459183531bf7a264f593c6719b20f1fff4fcbf
+docker: quay.io/biocontainers/r-cssam

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-r453plus1toolbox
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-r453plus1toolbox
+latest:
+  1.44.0--r41hc0cfd56_2: sha256:c5a8f6d1e71182c2862f977fd5a65f0d8cba6c8d780ae961334990b29a022f4b
+tags:
+  1.44.0--r41hc0cfd56_2: sha256:c5a8f6d1e71182c2862f977fd5a65f0d8cba6c8d780ae961334990b29a022f4b
+docker: quay.io/biocontainers/bioconductor-r453plus1toolbox

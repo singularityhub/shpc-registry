@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowsom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowsom
+latest:
+  2.2.0--r41hc0cfd56_2: sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf
+tags:
+  2.2.0--r41hc0cfd56_2: sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf
+docker: quay.io/biocontainers/bioconductor-flowsom

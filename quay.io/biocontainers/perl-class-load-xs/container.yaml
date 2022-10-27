@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-load-xs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-load-xs
+latest:
+  0.10--pl5321h9f5acd7_6: sha256:71b61dcbe48672699d50b0bc67b16d0aa2fa2df64fff5bd8e63ed321049ade02
+tags:
+  0.10--pl5321h9f5acd7_6: sha256:71b61dcbe48672699d50b0bc67b16d0aa2fa2df64fff5bd8e63ed321049ade02
+docker: quay.io/biocontainers/perl-class-load-xs

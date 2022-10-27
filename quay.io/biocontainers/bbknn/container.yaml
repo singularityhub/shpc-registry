@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bbknn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bbknn
+latest:
+  1.5.1--py36h91eb985_2: sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9
+tags:
+  1.5.1--py36h91eb985_2: sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9
+docker: quay.io/biocontainers/bbknn

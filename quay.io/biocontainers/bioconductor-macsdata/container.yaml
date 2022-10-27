@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-macsdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-macsdata
+latest:
+  1.2.0--r41hdfd78af_1: sha256:8d246380d29382da93d960731c03f2fb8148a5fd09f683161c962a9560faad60
+tags:
+  1.2.0--r41hdfd78af_1: sha256:8d246380d29382da93d960731c03f2fb8148a5fd09f683161c962a9560faad60
+docker: quay.io/biocontainers/bioconductor-macsdata
+aliases:
+  .bioconductor-macsdata-post-link.sh: /usr/local/bin/.bioconductor-macsdata-post-link.sh
+  .bioconductor-macsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-macsdata-pre-unlink.sh

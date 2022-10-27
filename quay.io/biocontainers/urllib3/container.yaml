@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/urllib3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for urllib3
+latest:
+  1.25.9: sha256:49ecc42d6e77856516990e16aff5240a29dab4b5927cf0d61eae655dbb86da70
+tags:
+  1.25.9: sha256:49ecc42d6e77856516990e16aff5240a29dab4b5927cf0d61eae655dbb86da70
+docker: quay.io/biocontainers/urllib3

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/isaac4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isaac4
+latest:
+  04.18.11.09--h07bff40_0: sha256:2ceb7f80eaa0068b5390a5802e1f261c27575a84251b94b65d8722ceef5f3844
+tags:
+  04.18.11.09--h07bff40_0: sha256:2ceb7f80eaa0068b5390a5802e1f261c27575a84251b94b65d8722ceef5f3844
+docker: quay.io/biocontainers/isaac4
+aliases:
+  isaac-align: /usr/local/bin/isaac-align
+  isaac-merge-references: /usr/local/bin/isaac-merge-references
+  isaac-pack-reference: /usr/local/bin/isaac-pack-reference
+  isaac-reorder-reference: /usr/local/bin/isaac-reorder-reference
+  isaac-sort-reference: /usr/local/bin/isaac-sort-reference
+  isaac-unpack-reference: /usr/local/bin/isaac-unpack-reference

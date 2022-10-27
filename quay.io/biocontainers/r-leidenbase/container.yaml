@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-leidenbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-leidenbase
+latest:
+  0.1.3--r41h1aed7a7_2: sha256:43657706238343db9e63c8e1f93281e483ac596397e1053d76667a1390a37d7b
+tags:
+  0.1.3--r41h1aed7a7_2: sha256:43657706238343db9e63c8e1f93281e483ac596397e1053d76667a1390a37d7b
+docker: quay.io/biocontainers/r-leidenbase

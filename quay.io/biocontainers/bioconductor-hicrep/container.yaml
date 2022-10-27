@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hicrep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hicrep
+latest:
+  1.8.0--r36_1: sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244
+tags:
+  1.8.0--r36_1: sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244
+docker: quay.io/biocontainers/bioconductor-hicrep

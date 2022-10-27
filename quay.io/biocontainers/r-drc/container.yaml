@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-drc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-drc
+latest:
+  3.0_1--r3.4.1_0: sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378
+tags:
+  3.0_1--r3.4.1_0: sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378
+docker: quay.io/biocontainers/r-drc

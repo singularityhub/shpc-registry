@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-r4rna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-r4rna
+latest:
+  1.8.0--r351_0: sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d
+tags:
+  1.8.0--r351_0: sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d
+docker: quay.io/biocontainers/bioconductor-r4rna

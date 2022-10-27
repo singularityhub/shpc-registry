@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mmpalatemirna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mmpalatemirna
+latest:
+  1.37.0--r40_0: sha256:7eb07695862c38f956934344d94074a5903b580834e67e464ef76cf7b5221609
+tags:
+  1.37.0--r40_0: sha256:7eb07695862c38f956934344d94074a5903b580834e67e464ef76cf7b5221609
+docker: quay.io/biocontainers/bioconductor-mmpalatemirna

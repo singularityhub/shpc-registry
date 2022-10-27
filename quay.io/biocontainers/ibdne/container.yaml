@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ibdne
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ibdne
+latest:
+  04Sep15.e78--hdfd78af_3: sha256:e6e061f0957777272293444a6cf690733b88ec3d694afd87c0ff3b1c032b065a
+tags:
+  04Sep15.e78--hdfd78af_3: sha256:e6e061f0957777272293444a6cf690733b88ec3d694afd87c0ff3b1c032b065a
+docker: quay.io/biocontainers/ibdne
+aliases:
+  ibdne: /usr/local/bin/ibdne

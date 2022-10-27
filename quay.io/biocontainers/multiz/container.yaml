@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/multiz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multiz
+latest:
+  11.2--hec16e2b_3: sha256:abc1b8e9323a83320bf967f869ad2c15cbcd14c0242e7952d866de3c949e8b69
+tags:
+  11.2--hec16e2b_3: sha256:abc1b8e9323a83320bf967f869ad2c15cbcd14c0242e7952d866de3c949e8b69
+docker: quay.io/biocontainers/multiz
+aliases:
+  all_bz: /usr/local/bin/all_bz
+  blastzWrapper: /usr/local/bin/blastzWrapper
+  get_covered: /usr/local/bin/get_covered
+  get_standard_headers: /usr/local/bin/get_standard_headers
+  lav2maf: /usr/local/bin/lav2maf
+  maf2fasta: /usr/local/bin/maf2fasta
+  maf2lav: /usr/local/bin/maf2lav
+  mafFind: /usr/local/bin/mafFind
+  maf_checkThread: /usr/local/bin/maf_checkThread
+  maf_order: /usr/local/bin/maf_order
+  maf_project: /usr/local/bin/maf_project
+  maf_sort: /usr/local/bin/maf_sort
+  multic: /usr/local/bin/multic
+  multiz: /usr/local/bin/multiz
+  pair2tb: /usr/local/bin/pair2tb
+  roast: /usr/local/bin/roast
+  single_cov2: /usr/local/bin/single_cov2
+  tba: /usr/local/bin/tba

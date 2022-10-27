@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-multidataset
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multidataset
+latest:
+  1.8.0--r351_0: sha256:9e7a1a3f18ca19de945c9c4e29e790ffd1b8f4a8fa4a862fc69544a96ef7702d
+tags:
+  1.8.0--r351_0: sha256:9e7a1a3f18ca19de945c9c4e29e790ffd1b8f4a8fa4a862fc69544a96ef7702d
+docker: quay.io/biocontainers/bioconductor-multidataset

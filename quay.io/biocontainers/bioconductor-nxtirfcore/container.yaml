@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-nxtirfcore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-nxtirfcore
+latest:
+  1.0.0--r41hc247a5b_2: sha256:6be7184ed850e5620b02aec271d5f81e627ecc41e08227178f9d7e064ea8ac11
+tags:
+  1.0.0--r41hc247a5b_2: sha256:6be7184ed850e5620b02aec271d5f81e627ecc41e08227178f9d7e064ea8ac11
+docker: quay.io/biocontainers/bioconductor-nxtirfcore
+aliases:
+  .bioconductor-nxtirfdata-post-link.sh: /usr/local/bin/.bioconductor-nxtirfdata-post-link.sh
+  .bioconductor-nxtirfdata-pre-unlink.sh: /usr/local/bin/.bioconductor-nxtirfdata-pre-unlink.sh

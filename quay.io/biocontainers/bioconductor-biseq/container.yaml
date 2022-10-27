@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biseq
+latest:
+  1.34.0--r41hdfd78af_0: sha256:a014ec0df02513d84afadfe16f7f3b54a0754d648ce28b3705a38e752c290ac7
+tags:
+  1.34.0--r41hdfd78af_0: sha256:a014ec0df02513d84afadfe16f7f3b54a0754d648ce28b3705a38e752c290ac7
+docker: quay.io/biocontainers/bioconductor-biseq

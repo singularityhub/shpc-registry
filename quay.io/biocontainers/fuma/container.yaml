@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/fuma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fuma
+latest:
+  4.0.0--pyhb7b1952_0: sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2
+tags:
+  4.0.0--pyhb7b1952_0: sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2
+docker: quay.io/biocontainers/fuma
+aliases:
+  chimerascan-exclude-transcriptome-events: /usr/local/bin/chimerascan-exclude-transcriptome-events
+  chimerascan-relative-bedpe-to-CG: /usr/local/bin/chimerascan-relative-bedpe-to-CG
+  defuse-clusters-to-CG: /usr/local/bin/defuse-clusters-to-CG
+  fuma: /usr/local/bin/fuma
+  fuma-gencode-gtf-to-bed: /usr/local/bin/fuma-gencode-gtf-to-bed
+  fuma-list-to-boolean-list: /usr/local/bin/fuma-list-to-boolean-list
+  fusioncatcher-to-CG: /usr/local/bin/fusioncatcher-to-CG

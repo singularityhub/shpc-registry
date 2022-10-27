@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-file-copy-link
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-copy-link
+latest:
+  0.140--pl5321hec16e2b_4: sha256:50976d5eeefdff467850f2c771b42dbab3e432d1a9692362db78beb021660366
+tags:
+  0.140--pl5321hec16e2b_4: sha256:50976d5eeefdff467850f2c771b42dbab3e432d1a9692362db78beb021660366
+docker: quay.io/biocontainers/perl-file-copy-link
+aliases:
+  copylink: /usr/local/bin/copylink

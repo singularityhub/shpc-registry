@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geecc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geecc
+latest:
+  1.21.0--r40h5f743cb_0: sha256:f3dcb4e00ac86dd582fb663db14d68ac3fc5e147273f29f633071dd6cdf5107c
+tags:
+  1.21.0--r40h5f743cb_0: sha256:f3dcb4e00ac86dd582fb663db14d68ac3fc5e147273f29f633071dd6cdf5107c
+docker: quay.io/biocontainers/bioconductor-geecc

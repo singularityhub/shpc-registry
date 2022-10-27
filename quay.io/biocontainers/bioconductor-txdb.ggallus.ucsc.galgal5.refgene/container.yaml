@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal5.refgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal5.refgene
+latest:
+  3.4.6--r36_1: sha256:bbce7922f8292b47752a884030edec27232969798bbf725d6a8e17acef70d051
+tags:
+  3.4.6--r36_1: sha256:bbce7922f8292b47752a884030edec27232969798bbf725d6a8e17acef70d051
+docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene
+aliases:
+  .bioconductor-txdb.ggallus.ucsc.galgal5.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal5.refgene-post-link.sh
+  .bioconductor-txdb.ggallus.ucsc.galgal5.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal5.refgene-pre-unlink.sh

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/chanjo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chanjo
+latest:
+  3.3.0--py27_0: sha256:ae30f610dc903635749d6a5b864b8d79774b27625ed21261d019dc0b6a7baa44
+tags:
+  3.3.0--py27_0: sha256:ae30f610dc903635749d6a5b864b8d79774b27625ed21261d019dc0b6a7baa44
+docker: quay.io/biocontainers/chanjo
+aliases:
+  chanjo: /usr/local/bin/chanjo
+  varfilter.py: /usr/local/bin/varfilter.py

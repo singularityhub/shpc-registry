@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gdtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gdtools
+latest:
+  0.1.4--r3.3.1_0: sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36
+tags:
+  0.1.4--r3.3.1_0: sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36
+docker: quay.io/biocontainers/r-gdtools

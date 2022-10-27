@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/matam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for matam
+latest:
+  1.6.0--hd03093a_3: sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367
+tags:
+  1.6.0--hd03093a_3: sha256:4b67c13e4fb04747c427b8fd42f44cf886f9f8e0ed87a715b79ed3c40476e367
+docker: quay.io/biocontainers/matam
+aliases:
+  AbundanceStats: /usr/local/bin/AbundanceStats
+  AlignmentTools: /usr/local/bin/AlignmentTools
+  Clustering: /usr/local/bin/Clustering
+  FrameBot: /usr/local/bin/FrameBot
+  KmerFilter: /usr/local/bin/KmerFilter
+  ProbeMatch: /usr/local/bin/ProbeMatch
+  ReadSeq: /usr/local/bin/ReadSeq
+  SeqFilters: /usr/local/bin/SeqFilters
+  SequenceMatch: /usr/local/bin/SequenceMatch
+  classifier: /usr/local/bin/classifier
+  hmmgs: /usr/local/bin/hmmgs
+  index_default_ssu_rrna_db.py: /usr/local/bin/index_default_ssu_rrna_db.py
+  indexdb_rna: /usr/local/bin/indexdb_rna
+  matam_assembly.py: /usr/local/bin/matam_assembly.py
+  matam_compare_samples.py: /usr/local/bin/matam_compare_samples.py
+  matam_db_preprocessing.py: /usr/local/bin/matam_db_preprocessing.py
+  merge-paired-reads.sh: /usr/local/bin/merge-paired-reads.sh
+  sga: /usr/local/bin/sga
+  sga-astat.py: /usr/local/bin/sga-astat.py
+  sga-bam2de.pl: /usr/local/bin/sga-bam2de.pl
+  sga-mergeDriver.pl: /usr/local/bin/sga-mergeDriver.pl
+  sortmerna: /usr/local/bin/sortmerna
+  unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh

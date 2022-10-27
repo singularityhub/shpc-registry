@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/snpeff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snpeff
+latest:
+  5.1d--hdfd78af_0: sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410
+tags:
+  5.1d--hdfd78af_0: sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410
+docker: quay.io/biocontainers/snpeff

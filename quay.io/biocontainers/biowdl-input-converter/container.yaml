@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biowdl-input-converter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biowdl-input-converter
+latest:
+  0.3.0--pyhdfd78af_0: sha256:6f17c6d97665e9bfc9ca46d5c9e6a77dda161f00cd89a5b78363f30e3758fdb6
+tags:
+  0.3.0--pyhdfd78af_0: sha256:6f17c6d97665e9bfc9ca46d5c9e6a77dda161f00cd89a5b78363f30e3758fdb6
+docker: quay.io/biocontainers/biowdl-input-converter
+aliases:
+  biowdl-input-converter: /usr/local/bin/biowdl-input-converter

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/mapsembler2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mapsembler2
+latest:
+  2.2.4--2: sha256:6c00d13dec280c7250f2c6d44753a075f843a583a1681fc3af10813a6ef8f6a8
+tags:
+  2.2.4--2: sha256:6c00d13dec280c7250f2c6d44753a075f843a583a1681fc3af10813a6ef8f6a8
+docker: quay.io/biocontainers/mapsembler2
+aliases:
+  kissreads: /usr/local/bin/kissreads
+  kissreads_graph: /usr/local/bin/kissreads_graph
+  mapsembler2_extend: /usr/local/bin/mapsembler2_extend
+  mapsembler2_extremities: /usr/local/bin/mapsembler2_extremities
+  run_mapsembler2_pipeline.sh: /usr/local/bin/run_mapsembler2_pipeline.sh

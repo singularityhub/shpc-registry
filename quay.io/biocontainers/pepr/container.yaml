@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pepr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pepr
+latest:
+  1.1.24--pyh864c0ab_3: sha256:20f5dc14f6c63f2ccbbc3326920a14f8208f7383e2fe060d9956a9b1ed5b5955
+tags:
+  1.1.24--pyh864c0ab_3: sha256:20f5dc14f6c63f2ccbbc3326920a14f8208f7383e2fe060d9956a9b1ed5b5955
+docker: quay.io/biocontainers/pepr
+aliases:
+  PePr: /usr/local/bin/PePr
+  PePr-postprocess: /usr/local/bin/PePr-postprocess
+  PePr-preprocess: /usr/local/bin/PePr-preprocess

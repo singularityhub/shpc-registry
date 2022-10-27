@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/entrez-direct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for entrez-direct
+latest:
+  7.70--pl526_2: sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494
+tags:
+  7.70--pl526_2: sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494
+docker: quay.io/biocontainers/entrez-direct
+aliases:
+  asp-ls.bak: /usr/local/bin/asp-ls.bak
+  edirect.pl.bak: /usr/local/bin/edirect.pl.bak
+  edirutil.bak: /usr/local/bin/edirutil.bak
+  erase-pubmed: /usr/local/bin/erase-pubmed
+  ftp-cp.bak: /usr/local/bin/ftp-cp.bak
+  ftp-ls.bak: /usr/local/bin/ftp-ls.bak
+  gbf2xml.bak: /usr/local/bin/gbf2xml.bak
+  get-stash-uids: /usr/local/bin/get-stash-uids
+  invert-pubmed: /usr/local/bin/invert-pubmed
+  log-pubmed: /usr/local/bin/log-pubmed
+  master-pubmed: /usr/local/bin/master-pubmed
+  merge-pubmed: /usr/local/bin/merge-pubmed
+  nquire.bak: /usr/local/bin/nquire.bak
+  prepare-stash: /usr/local/bin/prepare-stash
+  promote-pubmed: /usr/local/bin/promote-pubmed
+  refresh-versioned: /usr/local/bin/refresh-versioned
+  repack-pubmed: /usr/local/bin/repack-pubmed
+  run-ncbi-converter.bak: /usr/local/bin/run-ncbi-converter.bak
+  setup-deps.pl.bak: /usr/local/bin/setup-deps.pl.bak
+  setup.sh.orig: /usr/local/bin/setup.sh.orig
+  stash-pubmed: /usr/local/bin/stash-pubmed

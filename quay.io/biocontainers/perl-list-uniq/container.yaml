@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-list-uniq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-list-uniq
+latest:
+  0.23--pl5321hdfd78af_0: sha256:2e97ecc4f2aa8e3d81de6acd5de6b1f44ec32deaa519d26613d477af61fec2d3
+tags:
+  0.23--pl5321hdfd78af_0: sha256:2e97ecc4f2aa8e3d81de6acd5de6b1f44ec32deaa519d26613d477af61fec2d3
+docker: quay.io/biocontainers/perl-list-uniq

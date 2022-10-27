@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-tools-run-alignment-clustalw
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-tools-run-alignment-clustalw
+latest:
+  1.7.4--pl5321hdfd78af_3: sha256:ec8a2dc2d3a33a7fe9d8f75bae834dc3457a18b63ad298721caa1147928ff96f
+tags:
+  1.7.4--pl5321hdfd78af_3: sha256:ec8a2dc2d3a33a7fe9d8f75bae834dc3457a18b63ad298721caa1147928ff96f
+docker: quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw

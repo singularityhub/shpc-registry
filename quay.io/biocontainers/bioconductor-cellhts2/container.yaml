@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellhts2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellhts2
+latest:
+  2.56.0--r41hdfd78af_0: sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180
+tags:
+  2.56.0--r41hdfd78af_0: sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180
+docker: quay.io/biocontainers/bioconductor-cellhts2

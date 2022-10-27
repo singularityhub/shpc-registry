@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/vcflatten
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcflatten
+latest:
+  0.5.2--hdfd78af_4: sha256:0da6ab911e2ab34de8b6da9b6410aae0b9ff90e692fe0c400d879d81cf420c1c
+tags:
+  0.5.2--hdfd78af_4: sha256:0da6ab911e2ab34de8b6da9b6410aae0b9ff90e692fe0c400d879d81cf420c1c
+docker: quay.io/biocontainers/vcflatten
+aliases:
+  vcflatten: /usr/local/bin/vcflatten

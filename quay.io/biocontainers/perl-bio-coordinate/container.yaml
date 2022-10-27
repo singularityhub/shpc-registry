@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-coordinate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-coordinate
+latest:
+  1.007001--pl5321hdfd78af_3: sha256:073dc36ed204698c3c57fa74479b443cfe7226c697e2eea27bf3e8811016e7ae
+tags:
+  1.007001--pl5321hdfd78af_3: sha256:073dc36ed204698c3c57fa74479b443cfe7226c697e2eea27bf3e8811016e7ae
+docker: quay.io/biocontainers/perl-bio-coordinate

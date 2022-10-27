@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/py2neo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for py2neo
+latest:
+  3.1.2--py35_0: sha256:a48f712d98162536f8827600da2ac215bc672393c3f74460d7429100d6b71016
+tags:
+  3.1.2--py35_0: sha256:a48f712d98162536f8827600da2ac215bc672393c3f74460d7429100d6b71016
+docker: quay.io/biocontainers/py2neo
+aliases:
+  geoff: /usr/local/bin/geoff
+  neokit: /usr/local/bin/neokit
+  py2neo: /usr/local/bin/py2neo

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-b-debug
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-b-debug
+latest:
+  1.26--pl5321hdfd78af_1: sha256:b9022f39050521a2fe0b36b25ef8c6894f077d0fb90f4c91b69ab590781251c3
+tags:
+  1.26--pl5321hdfd78af_1: sha256:b9022f39050521a2fe0b36b25ef8c6894f077d0fb90f4c91b69ab590781251c3
+docker: quay.io/biocontainers/perl-b-debug

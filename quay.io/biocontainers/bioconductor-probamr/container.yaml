@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-probamr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-probamr
+latest:
+  1.8.0--r3.4.1_0: sha256:e3ac265afe0d3654124bd524712787150bde4eb561efedd7f6fcc41adf396d74
+tags:
+  1.8.0--r3.4.1_0: sha256:e3ac265afe0d3654124bd524712787150bde4eb561efedd7f6fcc41adf396d74
+docker: quay.io/biocontainers/bioconductor-probamr

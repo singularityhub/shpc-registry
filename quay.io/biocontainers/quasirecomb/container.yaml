@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/quasirecomb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quasirecomb
+latest:
+  1.2--hdfd78af_1: sha256:e8f465bf0a0a7ef9376dfd3e928b0af462e88dc19f409323aae30041857306e3
+tags:
+  1.2--hdfd78af_1: sha256:e8f465bf0a0a7ef9376dfd3e928b0af462e88dc19f409323aae30041857306e3
+docker: quay.io/biocontainers/quasirecomb
+aliases:
+  quasirecomb: /usr/local/bin/quasirecomb

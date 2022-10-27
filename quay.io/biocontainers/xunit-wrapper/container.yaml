@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xunit-wrapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xunit-wrapper
+latest:
+  0.12--pyh864c0ab_2: sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd
+tags:
+  0.12--pyh864c0ab_2: sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd
+docker: quay.io/biocontainers/xunit-wrapper

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-socket-ssl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-socket-ssl
+latest:
+  2.074--pl5321hdfd78af_0: sha256:d8d7feffbca41d8de689561d87769e8f1bb0e10a4e6ea2f7ec7bb5e5cbdc5414
+tags:
+  2.074--pl5321hdfd78af_0: sha256:d8d7feffbca41d8de689561d87769e8f1bb0e10a4e6ea2f7ec7bb5e5cbdc5414
+docker: quay.io/biocontainers/perl-io-socket-ssl

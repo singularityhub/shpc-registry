@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnainteract
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnainteract
+latest:
+  1.42.0--r41hdfd78af_0: sha256:28858910aea421e6b7a2618ee6aa91c3882223bb84a6acd91dd83c69d9f75532
+tags:
+  1.42.0--r41hdfd78af_0: sha256:28858910aea421e6b7a2618ee6aa91c3882223bb84a6acd91dd83c69d9f75532
+docker: quay.io/biocontainers/bioconductor-rnainteract

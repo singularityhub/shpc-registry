@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pegasusio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pegasusio
+latest:
+  0.5.0--py39h38f01e4_0: sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8
+tags:
+  0.5.0--py39h38f01e4_0: sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8
+docker: quay.io/biocontainers/pegasusio
+aliases:
+  pegasusio: /usr/local/bin/pegasusio

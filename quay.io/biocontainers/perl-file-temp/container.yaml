@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-temp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-temp
+latest:
+  0.2304--pl526_2: sha256:17434289fb770acf66b8a4a53b3df9433b1cf0c1ddfb452966d165cd8842e9f8
+tags:
+  0.2304--pl526_2: sha256:17434289fb770acf66b8a4a53b3df9433b1cf0c1ddfb452966d165cd8842e9f8
+docker: quay.io/biocontainers/perl-file-temp

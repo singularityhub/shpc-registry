@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgin
+latest:
+  1.8.0--r40h5f743cb_0: sha256:ffdd6b669c3a713a936121871f322da5a6101115fa5b0fbdfb36fc893c1000f0
+tags:
+  1.8.0--r40h5f743cb_0: sha256:ffdd6b669c3a713a936121871f322da5a6101115fa5b0fbdfb36fc893c1000f0
+docker: quay.io/biocontainers/bioconductor-rgin

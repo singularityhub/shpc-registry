@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bcbio-gff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcbio-gff
+latest:
+  0.6.9--pyh5e36f6f_0: sha256:c8296c3a94f5085f942747bb46de5a7f568af8502ec7a11665746afa906a76e4
+tags:
+  0.6.9--pyh5e36f6f_0: sha256:c8296c3a94f5085f942747bb46de5a7f568af8502ec7a11665746afa906a76e4
+docker: quay.io/biocontainers/bcbio-gff

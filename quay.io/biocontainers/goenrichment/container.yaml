@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/goenrichment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for goenrichment
+latest:
+  2.0.1--hdfd78af_2: sha256:7645b3847e306962e924119d2571a6c4bab27742b4c71a9a3dd1f689c196a83a
+tags:
+  2.0.1--hdfd78af_2: sha256:7645b3847e306962e924119d2571a6c4bab27742b4c71a9a3dd1f689c196a83a
+docker: quay.io/biocontainers/goenrichment
+aliases:
+  goenrichment: /usr/local/bin/goenrichment

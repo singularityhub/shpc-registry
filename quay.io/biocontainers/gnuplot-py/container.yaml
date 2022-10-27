@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gnuplot-py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gnuplot-py
+latest:
+  1.8--py27h24bf2e0_1: sha256:12adbe3193b363781e5ff308059dcca81d1bf85e5121dce131a5162e86cc0e4e
+tags:
+  1.8--py27h24bf2e0_1: sha256:12adbe3193b363781e5ff308059dcca81d1bf85e5121dce131a5162e86cc0e4e
+docker: quay.io/biocontainers/gnuplot-py

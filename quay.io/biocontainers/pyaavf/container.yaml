@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyaavf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyaavf
+latest:
+  0.1.0--pyh864c0ab_1: sha256:a68f75672d1849099961297846fcf0b414cf42f8c7ab08855f09b96052cbb13a
+tags:
+  0.1.0--pyh864c0ab_1: sha256:a68f75672d1849099961297846fcf0b414cf42f8c7ab08855f09b96052cbb13a
+docker: quay.io/biocontainers/pyaavf

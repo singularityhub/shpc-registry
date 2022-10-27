@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-icetea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-icetea
+latest:
+  1.8.0--r40hdfd78af_1: sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41
+tags:
+  1.8.0--r40hdfd78af_1: sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41
+docker: quay.io/biocontainers/bioconductor-icetea
+aliases:
+  .bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene-post-link.sh
+  .bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene-pre-unlink.sh

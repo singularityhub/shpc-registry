@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jass_preprocessing
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jass_preprocessing
+latest:
+  2.2--pyhdfd78af_0: sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da
+tags:
+  2.2--pyhdfd78af_0: sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da
+docker: quay.io/biocontainers/jass_preprocessing
+aliases:
+  jass_preprocessing: /usr/local/bin/jass_preprocessing

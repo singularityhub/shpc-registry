@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/grep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for grep
+latest:
+  3.4--hcb20899_2: sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc
+tags:
+  3.4--hcb20899_2: sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc
+docker: quay.io/biocontainers/grep

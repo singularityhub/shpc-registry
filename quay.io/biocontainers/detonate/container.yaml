@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/detonate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for detonate
+latest:
+  1.11--hae1ec2f_3: sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f
+tags:
+  1.11--hae1ec2f_3: sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f
+docker: quay.io/biocontainers/detonate
+aliases:
+  ref-eval: /usr/local/bin/ref-eval
+  ref-eval-estimate-true-assembly: /usr/local/bin/ref-eval-estimate-true-assembly
+  rsem-build-read-index: /usr/local/bin/rsem-build-read-index
+  rsem-eval-calculate-score: /usr/local/bin/rsem-eval-calculate-score
+  rsem-eval-estimate-transcript-length-distribution: /usr/local/bin/rsem-eval-estimate-transcript-length-distribution
+  rsem-eval-run-em: /usr/local/bin/rsem-eval-run-em
+  rsem-extract-reference-transcripts: /usr/local/bin/rsem-extract-reference-transcripts
+  rsem-parse-alignments: /usr/local/bin/rsem-parse-alignments
+  rsem-plot-model: /usr/local/bin/rsem-plot-model
+  rsem-preref: /usr/local/bin/rsem-preref
+  rsem-sam-validator: /usr/local/bin/rsem-sam-validator
+  rsem-scan-for-paired-end-reads: /usr/local/bin/rsem-scan-for-paired-end-reads
+  rsem-simulate-reads: /usr/local/bin/rsem-simulate-reads
+  rsem-synthesis-reference-transcripts: /usr/local/bin/rsem-synthesis-reference-transcripts
+  rsem_perl_utils.pm: /usr/local/bin/rsem_perl_utils.pm
+  varfilter.py: /usr/local/bin/varfilter.py

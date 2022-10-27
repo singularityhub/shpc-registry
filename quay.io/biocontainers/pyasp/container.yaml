@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyasp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyasp
+latest:
+  1.4.3--py35_1: sha256:ebebfc901da3ca0d934f3461763346c44a32a16c1edeafe5bf67caa57cdf8081
+tags:
+  1.4.3--py35_1: sha256:ebebfc901da3ca0d934f3461763346c44a32a16c1edeafe5bf67caa57cdf8081
+docker: quay.io/biocontainers/pyasp

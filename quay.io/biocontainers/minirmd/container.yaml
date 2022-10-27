@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/minirmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minirmd
+latest:
+  1.1--hd03093a_2: sha256:874389f8e3335703781c6cb976b2bb1d9937ef6b9b22959b9efef0bb17dbb6a5
+tags:
+  1.1--hd03093a_2: sha256:874389f8e3335703781c6cb976b2bb1d9937ef6b9b22959b9efef0bb17dbb6a5
+docker: quay.io/biocontainers/minirmd
+aliases:
+  minirmd: /usr/local/bin/minirmd

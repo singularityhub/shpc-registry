@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/galaxy-data
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-data
+latest:
+  22.1.1--pyhdfd78af_0: sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7
+tags:
+  22.1.1--pyhdfd78af_0: sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7
+docker: quay.io/biocontainers/galaxy-data
+aliases:
+  bagit_profile.py: /usr/local/bin/bagit_profile.py
+  bdbag: /usr/local/bin/bdbag
+  bdbag-utils: /usr/local/bin/bdbag-utils
+  galaxy-build-objects: /usr/local/bin/galaxy-build-objects
+  galaxy-manage-db: /usr/local/bin/galaxy-manage-db
+  gx-fastq-combiner: /usr/local/bin/gx-fastq-combiner
+  gx-fastq-filter: /usr/local/bin/gx-fastq-filter
+  gx-fastq-groomer: /usr/local/bin/gx-fastq-groomer
+  gx-fastq-manipulation: /usr/local/bin/gx-fastq-manipulation
+  gx-fastq-masker-by-quality: /usr/local/bin/gx-fastq-masker-by-quality
+  gx-fastq-paired-end-deinterlacer: /usr/local/bin/gx-fastq-paired-end-deinterlacer
+  gx-fastq-paired-end-interlacer: /usr/local/bin/gx-fastq-paired-end-interlacer
+  gx-fastq-paired-end-joiner: /usr/local/bin/gx-fastq-paired-end-joiner
+  gx-fastq-paired-end-splitter: /usr/local/bin/gx-fastq-paired-end-splitter
+  gx-fastq-stats: /usr/local/bin/gx-fastq-stats
+  gx-fastq-to-fasta: /usr/local/bin/gx-fastq-to-fasta
+  gx-fastq-to-tabular: /usr/local/bin/gx-fastq-to-tabular
+  gx-fastq-trimmer: /usr/local/bin/gx-fastq-trimmer
+  gx-fastq-trimmer-by-quality: /usr/local/bin/gx-fastq-trimmer-by-quality
+  migrate: /usr/local/bin/migrate
+  migrate-repository: /usr/local/bin/migrate-repository
+  sqlformat: /usr/local/bin/sqlformat

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-cellmapperdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellmapperdata
+latest:
+  1.8.0--r351_0: sha256:d4b477e1338975df01c607d8e2689011173094a13c146cb6b1741549c67d3036
+tags:
+  1.8.0--r351_0: sha256:d4b477e1338975df01c607d8e2689011173094a13c146cb6b1741549c67d3036
+docker: quay.io/biocontainers/bioconductor-cellmapperdata
+aliases:
+  .bioconductor-cellmapperdata-post-link.sh: /usr/local/bin/.bioconductor-cellmapperdata-post-link.sh
+  .bioconductor-cellmapperdata-pre-unlink.sh: /usr/local/bin/.bioconductor-cellmapperdata-pre-unlink.sh

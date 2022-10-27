@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cluster-picker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cluster-picker
+latest:
+  1.2.3--1: sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28
+tags:
+  1.2.3--1: sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28
+docker: quay.io/biocontainers/cluster-picker
+aliases:
+  cluster-picker: /usr/local/bin/cluster-picker

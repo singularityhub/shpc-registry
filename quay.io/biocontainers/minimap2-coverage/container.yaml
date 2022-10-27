@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/minimap2-coverage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for minimap2-coverage
+latest:
+  1.2.0c--h7132678_1: sha256:7d1b30706d8c3d12c97fda057cf7278cca18cad4548f62a12150c2f4e9cedd73
+tags:
+  1.2.0c--h7132678_1: sha256:7d1b30706d8c3d12c97fda057cf7278cca18cad4548f62a12150c2f4e9cedd73
+docker: quay.io/biocontainers/minimap2-coverage
+aliases:
+  minimap2-coverage: /usr/local/bin/minimap2-coverage

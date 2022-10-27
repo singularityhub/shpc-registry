@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rscudo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rscudo
+latest:
+  1.8.0--r41hdfd78af_0: sha256:2d45e50a4e99b4be80e0cc82f82a5c62ae5424c1c55c0ffd756b953a12fc218f
+tags:
+  1.8.0--r41hdfd78af_0: sha256:2d45e50a4e99b4be80e0cc82f82a5c62ae5424c1c55c0ffd756b953a12fc218f
+docker: quay.io/biocontainers/bioconductor-rscudo

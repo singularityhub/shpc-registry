@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hguqiagenv3.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hguqiagenv3.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:422c5a35078412598846c1a18fd46394ee2f86bc9b476d4ee9cc6145fb8c3236
+tags:
+  3.2.3--r41hdfd78af_9: sha256:422c5a35078412598846c1a18fd46394ee2f86bc9b476d4ee9cc6145fb8c3236
+docker: quay.io/biocontainers/bioconductor-hguqiagenv3.db
+aliases:
+  .bioconductor-hguqiagenv3.db-post-link.sh: /usr/local/bin/.bioconductor-hguqiagenv3.db-post-link.sh
+  .bioconductor-hguqiagenv3.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hguqiagenv3.db-pre-unlink.sh

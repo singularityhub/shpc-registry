@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-human660quadv1acrlmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-human660quadv1acrlmm
+latest:
+  1.0.3--r41hdfd78af_9: sha256:235c3baf6ac80d9434800137b51d94d29762dfd91c5b110a4c1ef40a5a77a892
+tags:
+  1.0.3--r41hdfd78af_9: sha256:235c3baf6ac80d9434800137b51d94d29762dfd91c5b110a4c1ef40a5a77a892
+docker: quay.io/biocontainers/bioconductor-human660quadv1acrlmm
+aliases:
+  .bioconductor-human660quadv1acrlmm-post-link.sh: /usr/local/bin/.bioconductor-human660quadv1acrlmm-post-link.sh
+  .bioconductor-human660quadv1acrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-human660quadv1acrlmm-pre-unlink.sh

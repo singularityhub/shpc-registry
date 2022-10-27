@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hclust2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hclust2
+latest:
+  1.0.0--pyh864c0ab_1: sha256:4310891c57eef9a6641aa3e5303be7d332de2072f3b6dbd8d45e12889b4a339c
+tags:
+  1.0.0--pyh864c0ab_1: sha256:4310891c57eef9a6641aa3e5303be7d332de2072f3b6dbd8d45e12889b4a339c
+docker: quay.io/biocontainers/hclust2
+aliases:
+  hclust2.py: /usr/local/bin/hclust2.py

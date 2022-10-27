@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/btrim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for btrim
+latest:
+  1.0.1--h9f5acd7_4: sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa
+tags:
+  1.0.1--h9f5acd7_4: sha256:97287a335ce891434e0dc38cc940c3f33f6365f1a6a1bc6c909b503a4b58b9fa
+docker: quay.io/biocontainers/btrim
+aliases:
+  btrim: /usr/local/bin/btrim

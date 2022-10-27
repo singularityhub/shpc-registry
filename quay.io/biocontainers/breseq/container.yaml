@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/breseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for breseq
+latest:
+  0.37.1--h5b5514e_0: sha256:a6200568daae92ababf6a575aba17899f2d0b355edf233a8c1644fdc81d07eb0
+tags:
+  0.37.1--h5b5514e_0: sha256:a6200568daae92ababf6a575aba17899f2d0b355edf233a8c1644fdc81d07eb0
+docker: quay.io/biocontainers/breseq
+aliases:
+  breseq: /usr/local/bin/breseq
+  gdtools: /usr/local/bin/gdtools

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lusstr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lusstr
+latest:
+  0.5--pyhdfd78af_0: sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712
+tags:
+  0.5--pyhdfd78af_0: sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712
+docker: quay.io/biocontainers/lusstr
+aliases:
+  lusstr: /usr/local/bin/lusstr

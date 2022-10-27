@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bayespeak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bayespeak
+latest:
+  1.39.0--r40h037d062_0: sha256:3de5944af9efbe21b37d7062406a19ebfe884d90bf87c6c3c79eab32b4f4c586
+tags:
+  1.39.0--r40h037d062_0: sha256:3de5944af9efbe21b37d7062406a19ebfe884d90bf87c6c3c79eab32b4f4c586
+docker: quay.io/biocontainers/bioconductor-bayespeak

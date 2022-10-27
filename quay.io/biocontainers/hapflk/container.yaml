@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hapflk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hapflk
+latest:
+  1.3.0--py27h4329609_5: sha256:8dcc8a62a19f5af501360c5c3988a15abcceca9e48e19f4ea65b62ed0793a771
+tags:
+  1.3.0--py27h4329609_5: sha256:8dcc8a62a19f5af501360c5c3988a15abcceca9e48e19f4ea65b62ed0793a771
+docker: quay.io/biocontainers/hapflk
+aliases:
+  hapflk: /usr/local/bin/hapflk

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-stag
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-stag
+latest:
+  0.14--pl5321hdfd78af_2: sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928
+tags:
+  0.14--pl5321hdfd78af_2: sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928
+docker: quay.io/biocontainers/perl-data-stag

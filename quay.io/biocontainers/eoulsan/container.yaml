@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/eoulsan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eoulsan
+latest:
+  2.5--hdfd78af_0: sha256:9d786e1e838e87fa124b13ee7d47d22701c15c09d02b8f0904e9b0e8e2e34a71
+tags:
+  2.5--hdfd78af_0: sha256:9d786e1e838e87fa124b13ee7d47d22701c15c09d02b8f0904e9b0e8e2e34a71
+docker: quay.io/biocontainers/eoulsan
+aliases:
+  eoulsan.sh: /usr/local/bin/eoulsan.sh

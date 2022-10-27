@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/mpa-server
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mpa-server
+latest:
+  3.4--hdfd78af_3: sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
+tags:
+  3.4--hdfd78af_3: sha256:6d8f4119434b8222961e1dba4109b66b634c77708e2c31e17810b6a90ad0b338
+docker: quay.io/biocontainers/mpa-server
+aliases:
+  cpp: /usr/local/bin/cpp
+  lz4_decompress: /usr/local/bin/lz4_decompress
+  mpa-server: /usr/local/bin/mpa-server
+  mysql.server: /usr/local/bin/mysql.server
+  mysql_client_test: /usr/local/bin/mysql_client_test
+  mysql_client_test_embedded: /usr/local/bin/mysql_client_test_embedded
+  mysql_config_editor: /usr/local/bin/mysql_config_editor
+  mysql_embedded: /usr/local/bin/mysql_embedded
+  mysql_install_db: /usr/local/bin/mysql_install_db
+  mysql_plugin: /usr/local/bin/mysql_plugin
+  mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysqlpump: /usr/local/bin/mysqlpump
+  mysqltest: /usr/local/bin/mysqltest
+  mysqltest_embedded: /usr/local/bin/mysqltest_embedded
+  mysqlxtest: /usr/local/bin/mysqlxtest
+  replace: /usr/local/bin/replace
+  resolve_stack_dump: /usr/local/bin/resolve_stack_dump
+  resolveip: /usr/local/bin/resolveip
+  zlib_decompress: /usr/local/bin/zlib_decompress

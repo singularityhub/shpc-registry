@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cbaf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cbaf
+latest:
+  1.8.0--r36_0: sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74
+tags:
+  1.8.0--r36_0: sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74
+docker: quay.io/biocontainers/bioconductor-cbaf

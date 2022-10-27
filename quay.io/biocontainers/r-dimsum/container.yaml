@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-dimsum
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dimsum
+latest:
+  1.2.9--r41hdfd78af_0: sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e
+tags:
+  1.2.9--r41hdfd78af_0: sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e
+docker: quay.io/biocontainers/r-dimsum
+aliases:
+  DiMSum: /usr/local/bin/DiMSum
+  DiMSum.R: /usr/local/bin/DiMSum.R
+  DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz: /usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz

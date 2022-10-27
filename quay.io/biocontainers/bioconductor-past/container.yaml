@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-past
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-past
+latest:
+  1.8.0--r41hdfd78af_0: sha256:034278a81015a15a67ec9bf15e2f0e60da0a064edb0aff2ba8cb0e36731ee184
+tags:
+  1.8.0--r41hdfd78af_0: sha256:034278a81015a15a67ec9bf15e2f0e60da0a064edb0aff2ba8cb0e36731ee184
+docker: quay.io/biocontainers/bioconductor-past

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pyfiglet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyfiglet
+latest:
+  0.7.5--py35_0: sha256:5e113fe754d8145a0f6163be62482a557ea31cf49fb08deef432fa28db884bde
+tags:
+  0.7.5--py35_0: sha256:5e113fe754d8145a0f6163be62482a557ea31cf49fb08deef432fa28db884bde
+docker: quay.io/biocontainers/pyfiglet
+aliases:
+  pyfiglet: /usr/local/bin/pyfiglet

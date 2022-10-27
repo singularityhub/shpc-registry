@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bionetcomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bionetcomp
+latest:
+  1.1--pyhfa5458b_0: sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab
+tags:
+  1.1--pyhfa5458b_0: sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab
+docker: quay.io/biocontainers/bionetcomp
+aliases:
+  bionetcomp: /usr/local/bin/bionetcomp
+  gseapy: /usr/local/bin/gseapy

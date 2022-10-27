@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/pifcosm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pifcosm
+latest:
+  0.1.1--hdfd78af_0: sha256:0cb75571e7af84689706b1118a262fc937a9ebe0ad381a0e4dae9c53f706b388
+tags:
+  0.1.1--hdfd78af_0: sha256:0cb75571e7af84689706b1118a262fc937a9ebe0ad381a0e4dae9c53f706b388
+docker: quay.io/biocontainers/pifcosm
+aliases:
+  Gblocks: /usr/local/bin/Gblocks
+  PifCoSm.pl: /usr/local/bin/PifCoSm.pl
+  RogueNaRok: /usr/local/bin/RogueNaRok
+  RogueNaRok-parallel: /usr/local/bin/RogueNaRok-parallel
+  contree: /usr/local/bin/contree
+  pairalign: /usr/local/bin/pairalign
+  rnr-lsi: /usr/local/bin/rnr-lsi
+  rnr-mast: /usr/local/bin/rnr-mast
+  rnr-prune: /usr/local/bin/rnr-prune
+  rnr-tii: /usr/local/bin/rnr-tii
+  treeator: /usr/local/bin/treeator
+  treebender: /usr/local/bin/treebender

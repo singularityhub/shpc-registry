@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kronos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kronos
+latest:
+  2.3.0--py_1: sha256:32208e8937d7bcbfe3dc4e21735757a438ba007ff68e79650caedc5d76f054af
+tags:
+  2.3.0--py_1: sha256:32208e8937d7bcbfe3dc4e21735757a438ba007ff68e79650caedc5d76f054af
+docker: quay.io/biocontainers/kronos
+aliases:
+  kronos: /usr/local/bin/kronos

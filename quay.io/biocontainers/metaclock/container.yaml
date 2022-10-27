@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/metaclock
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaclock
+latest:
+  1.0.0--pyhdfd78af_0: sha256:3328e51bc1908151a0716e74ec59054b29d118b2b39151ff5aa6f738a56cfb47
+tags:
+  1.0.0--pyhdfd78af_0: sha256:3328e51bc1908151a0716e74ec59054b29d118b2b39151ff5aa6f738a56cfb47
+docker: quay.io/biocontainers/metaclock
+aliases:
+  bo6_screen.py: /usr/local/bin/bo6_screen.py
+  breadth_depth.py: /usr/local/bin/breadth_depth.py
+  consensus.py: /usr/local/bin/consensus.py
+  consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
+  filter.py: /usr/local/bin/filter.py
+  mapDamage: /usr/local/bin/mapDamage
+  metaclock_combiner: /usr/local/bin/metaclock_combiner
+  metaclock_mac: /usr/local/bin/metaclock_mac
+  metaclock_mac_template_configs: /usr/local/bin/metaclock_mac_template_configs
+  metaclock_tailor: /usr/local/bin/metaclock_tailor
+  metaclock_visualizer: /usr/local/bin/metaclock_visualizer
+  poly.py: /usr/local/bin/poly.py
+  polymut.py: /usr/local/bin/polymut.py
+  prokka-make_tarball: /usr/local/bin/prokka-make_tarball

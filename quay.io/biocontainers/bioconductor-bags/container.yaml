@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-bags
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bags
+latest:
+  2.34.0--r41hc0cfd56_2: sha256:e19834e60b160acce84abf426a9144ee909129a362e5ef856ca556fb86417ca1
+tags:
+  2.34.0--r41hc0cfd56_2: sha256:e19834e60b160acce84abf426a9144ee909129a362e5ef856ca556fb86417ca1
+docker: quay.io/biocontainers/bioconductor-bags
+aliases:
+  .bioconductor-breastcancervdx-post-link.sh: /usr/local/bin/.bioconductor-breastcancervdx-post-link.sh
+  .bioconductor-breastcancervdx-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancervdx-pre-unlink.sh

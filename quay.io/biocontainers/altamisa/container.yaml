@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/altamisa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for altamisa
+latest:
+  0.2.9--pyhdfd78af_0: sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08
+tags:
+  0.2.9--pyhdfd78af_0: sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08
+docker: quay.io/biocontainers/altamisa
+aliases:
+  isatab2dot: /usr/local/bin/isatab2dot
+  isatab2isatab: /usr/local/bin/isatab2isatab
+  isatab_validate: /usr/local/bin/isatab_validate

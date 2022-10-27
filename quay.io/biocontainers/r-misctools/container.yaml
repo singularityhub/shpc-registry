@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-misctools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-misctools
+latest:
+  0.6_22--r3.3.1_0: sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004
+tags:
+  0.6_22--r3.3.1_0: sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004
+docker: quay.io/biocontainers/r-misctools

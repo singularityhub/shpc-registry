@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-misha
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-misha
+latest:
+  4.1.0--r41h87f3376_3: sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27
+tags:
+  4.1.0--r41h87f3376_3: sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27
+docker: quay.io/biocontainers/r-misha

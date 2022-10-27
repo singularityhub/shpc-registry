@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-snpediar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-snpediar
+latest:
+  1.8.0--r351_0: sha256:ce2227d687c01576789838b40782a86288397ae84c6af49abf2f1629dff16211
+tags:
+  1.8.0--r351_0: sha256:ce2227d687c01576789838b40782a86288397ae84c6af49abf2f1629dff16211
+docker: quay.io/biocontainers/bioconductor-snpediar

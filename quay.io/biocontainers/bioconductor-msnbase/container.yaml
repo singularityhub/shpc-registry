@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msnbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msnbase
+latest:
+  2.8.3--r351hf484d3e_0: sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3
+tags:
+  2.8.3--r351hf484d3e_0: sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3
+docker: quay.io/biocontainers/bioconductor-msnbase

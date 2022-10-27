@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/autometa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for autometa
+latest:
+  2.1.0--pyh5e36f6f_0: sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4
+tags:
+  2.1.0--pyh5e36f6f_0: sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4
+docker: quay.io/biocontainers/autometa
+aliases:
+  .autometa-post-link.sh: /usr/local/bin/.autometa-post-link.sh
+  autometa: /usr/local/bin/autometa
+  autometa-bedtools-genomecov: /usr/local/bin/autometa-bedtools-genomecov
+  autometa-benchmark: /usr/local/bin/autometa-benchmark
+  autometa-binning: /usr/local/bin/autometa-binning
+  autometa-binning-ldm: /usr/local/bin/autometa-binning-ldm
+  autometa-binning-ldm-loginfo: /usr/local/bin/autometa-binning-ldm-loginfo
+  autometa-binning-summary: /usr/local/bin/autometa-binning-summary
+  autometa-config: /usr/local/bin/autometa-config
+  autometa-coverage: /usr/local/bin/autometa-coverage
+  autometa-download-dataset: /usr/local/bin/autometa-download-dataset
+  autometa-hmmsearch-filter: /usr/local/bin/autometa-hmmsearch-filter
+  autometa-kmers: /usr/local/bin/autometa-kmers
+  autometa-length-filter: /usr/local/bin/autometa-length-filter
+  autometa-markers: /usr/local/bin/autometa-markers
+  autometa-orfs: /usr/local/bin/autometa-orfs
+  autometa-taxonomy: /usr/local/bin/autometa-taxonomy
+  autometa-taxonomy-lca: /usr/local/bin/autometa-taxonomy-lca
+  autometa-taxonomy-majority-vote: /usr/local/bin/autometa-taxonomy-majority-vote
+  autometa-unclustered-recruitment: /usr/local/bin/autometa-unclustered-recruitment
+  autometa-update-databases: /usr/local/bin/autometa-update-databases
+  gdown: /usr/local/bin/gdown

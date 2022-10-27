@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mitools
+latest:
+  2.3--r3.3.1_0: sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce
+tags:
+  2.3--r3.3.1_0: sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce
+docker: quay.io/biocontainers/r-mitools

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-epigenomix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-epigenomix
+latest:
+  1.34.0--r41hdfd78af_0: sha256:1c0e6b7e8b8c097f1007489dcebb1ad92583a74b3aeef115c110451e120edbac
+tags:
+  1.34.0--r41hdfd78af_0: sha256:1c0e6b7e8b8c097f1007489dcebb1ad92583a74b3aeef115c110451e120edbac
+docker: quay.io/biocontainers/bioconductor-epigenomix

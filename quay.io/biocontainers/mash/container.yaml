@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mash
+latest:
+  2.3--hd3113c8_4: sha256:c49edb7dac7626d3a022e2685cfe89f8b0e43b955990578f1b2ee3b6b1a0694c
+tags:
+  2.3--hd3113c8_4: sha256:c49edb7dac7626d3a022e2685cfe89f8b0e43b955990578f1b2ee3b6b1a0694c
+docker: quay.io/biocontainers/mash

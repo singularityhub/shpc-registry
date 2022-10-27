@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-types-path-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-types-path-tiny
+latest:
+  0.012--pl526_2: sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1
+tags:
+  0.012--pl526_2: sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1
+docker: quay.io/biocontainers/perl-moosex-types-path-tiny

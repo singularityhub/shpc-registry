@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-redseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-redseq
+latest:
+  1.40.0--r41hdfd78af_0: sha256:97d99101a820ab31890b3f8ff95a4ecf994029007ede7c9e7cc95cbe01887511
+tags:
+  1.40.0--r41hdfd78af_0: sha256:97d99101a820ab31890b3f8ff95a4ecf994029007ede7c9e7cc95cbe01887511
+docker: quay.io/biocontainers/bioconductor-redseq
+aliases:
+  .bioconductor-bsgenome.celegans.ucsc.ce2-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.celegans.ucsc.ce2-post-link.sh
+  .bioconductor-bsgenome.celegans.ucsc.ce2-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.celegans.ucsc.ce2-pre-unlink.sh

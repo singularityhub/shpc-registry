@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/editdistance
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for editdistance
+latest:
+  0.4--py35_0: sha256:e56b5eac4e31f43c6f9b7b5fa076a990258bde1657c2e49f43479ec4e122d69f
+tags:
+  0.4--py35_0: sha256:e56b5eac4e31f43c6f9b7b5fa076a990258bde1657c2e49f43479ec4e122d69f
+docker: quay.io/biocontainers/editdistance

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nastiseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nastiseq
+latest:
+  1.0--r40h9ee0642_4: sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
+tags:
+  1.0--r40h9ee0642_4: sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
+docker: quay.io/biocontainers/r-nastiseq

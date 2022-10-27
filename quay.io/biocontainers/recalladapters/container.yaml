@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/recalladapters
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for recalladapters
+latest:
+  9.0.0--h9ee0642_1: sha256:6122fa4a531ff40bdb47bd58a8f20e20fcda3e077cceb1b60d3a4bccf6ae7232
+tags:
+  9.0.0--h9ee0642_1: sha256:6122fa4a531ff40bdb47bd58a8f20e20fcda3e077cceb1b60d3a4bccf6ae7232
+docker: quay.io/biocontainers/recalladapters
+aliases:
+  .recalladapters-post-link.sh: /usr/local/bin/.recalladapters-post-link.sh
+  recalladapters: /usr/local/bin/recalladapters

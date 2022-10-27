@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-number-range
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-number-range
+latest:
+  0.12--pl5321hdfd78af_2: sha256:c6eef0f370b5e622e1be1a157a02a8f1758156a850746b78d3a3600737b37388
+tags:
+  0.12--pl5321hdfd78af_2: sha256:c6eef0f370b5e622e1be1a157a02a8f1758156a850746b78d3a3600737b37388
+docker: quay.io/biocontainers/perl-number-range

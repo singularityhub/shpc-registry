@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-raceid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-raceid
+latest:
+  0.2.3: sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004
+tags:
+  0.2.3: sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004
+docker: quay.io/biocontainers/r-raceid

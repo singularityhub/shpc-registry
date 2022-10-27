@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pytest-workflow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pytest-workflow
+latest:
+  1.2.0--py_0: sha256:52948aab76284ccfbae6b35b9f5027f977e6f40093e37e1f07b8d838b80d2d2c
+tags:
+  1.2.0--py_0: sha256:52948aab76284ccfbae6b35b9f5027f977e6f40093e37e1f07b8d838b80d2d2c
+docker: quay.io/biocontainers/pytest-workflow

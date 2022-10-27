@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-profileplyr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-profileplyr
+latest:
+  1.8.0--r41hdfd78af_0: sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d
+tags:
+  1.8.0--r41hdfd78af_0: sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d
+docker: quay.io/biocontainers/bioconductor-profileplyr
+aliases:
+  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh

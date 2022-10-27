@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gse103322
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gse103322
+latest:
+  1.0.0--r41hdfd78af_1: sha256:54f3a7bfab79571ae2b86a422ce3bf7144f1561bffc59bb971137842693b861e
+tags:
+  1.0.0--r41hdfd78af_1: sha256:54f3a7bfab79571ae2b86a422ce3bf7144f1561bffc59bb971137842693b861e
+docker: quay.io/biocontainers/bioconductor-gse103322
+aliases:
+  .bioconductor-gse103322-post-link.sh: /usr/local/bin/.bioconductor-gse103322-post-link.sh
+  .bioconductor-gse103322-pre-unlink.sh: /usr/local/bin/.bioconductor-gse103322-pre-unlink.sh

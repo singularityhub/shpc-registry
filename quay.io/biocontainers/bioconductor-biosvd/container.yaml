@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biosvd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biosvd
+latest:
+  2.23.0--r40_0: sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3
+tags:
+  2.23.0--r40_0: sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3
+docker: quay.io/biocontainers/bioconductor-biosvd

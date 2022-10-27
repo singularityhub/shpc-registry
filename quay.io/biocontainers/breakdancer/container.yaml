@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/breakdancer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for breakdancer
+latest:
+  1.4.5--hc755212_9: sha256:11c7010c5cba03987fbd796928bc9472417462a3c46c0cbf876cbb43cf6fb013
+tags:
+  1.4.5--hc755212_9: sha256:11c7010c5cba03987fbd796928bc9472417462a3c46c0cbf876cbb43cf6fb013
+docker: quay.io/biocontainers/breakdancer
+aliases:
+  bam2cfg.pl: /usr/local/bin/bam2cfg.pl
+  breakdancer-max: /usr/local/bin/breakdancer-max

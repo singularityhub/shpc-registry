@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scikit-bio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scikit-bio
+latest:
+  0.4.2--np112py35_0: sha256:b374dc7700762fa375847657559b2899baf65f105ce31bf76765c5dfd2c95191
+tags:
+  0.4.2--np112py35_0: sha256:b374dc7700762fa375847657559b2899baf65f105ce31bf76765c5dfd2c95191
+docker: quay.io/biocontainers/scikit-bio
+aliases:
+  nosetests-3.5: /usr/local/bin/nosetests-3.5

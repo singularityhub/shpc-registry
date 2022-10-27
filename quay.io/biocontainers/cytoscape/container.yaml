@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cytoscape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cytoscape
+latest:
+  3.9.1--hadc2ddb_0: sha256:080341a76cb6855437cd126b260c5d9443dbc1bdc7f453793b21fd344212b312
+tags:
+  3.9.1--hadc2ddb_0: sha256:080341a76cb6855437cd126b260c5d9443dbc1bdc7f453793b21fd344212b312
+docker: quay.io/biocontainers/cytoscape

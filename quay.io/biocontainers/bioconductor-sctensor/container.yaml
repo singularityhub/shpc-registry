@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sctensor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sctensor
+latest:
+  2.4.0--r41hdfd78af_0: sha256:06d4aefe8a438a720f27c9311176d797ef9143ababcc9ec49635e9c3ca835d7b
+tags:
+  2.4.0--r41hdfd78af_0: sha256:06d4aefe8a438a720f27c9311176d797ef9143ababcc9ec49635e9c3ca835d7b
+docker: quay.io/biocontainers/bioconductor-sctensor

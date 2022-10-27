@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-mailund-newick
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-mailund-newick
+latest:
+  1.3--py27_1: sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7
+tags:
+  1.3--py27_1: sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7
+docker: quay.io/biocontainers/python-mailund-newick

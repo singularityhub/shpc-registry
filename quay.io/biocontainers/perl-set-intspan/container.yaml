@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-set-intspan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-set-intspan
+latest:
+  1.19--pl5321hdfd78af_2: sha256:f118d80aa58fbdbc9bfce89df5cf664d87dad31d294341a90b3c222eda907401
+tags:
+  1.19--pl5321hdfd78af_2: sha256:f118d80aa58fbdbc9bfce89df5cf664d87dad31d294341a90b3c222eda907401
+docker: quay.io/biocontainers/perl-set-intspan

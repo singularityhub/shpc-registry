@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/krocus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for krocus
+latest:
+  1.0.3--pyhdfd78af_0: sha256:371eaf87e858e068419e9a2983d7fa9954dc4d6b72dbdc31f8ea62ba8f0fa735
+tags:
+  1.0.3--pyhdfd78af_0: sha256:371eaf87e858e068419e9a2983d7fa9954dc4d6b72dbdc31f8ea62ba8f0fa735
+docker: quay.io/biocontainers/krocus
+aliases:
+  krocus: /usr/local/bin/krocus
+  krocus_database_downloader: /usr/local/bin/krocus_database_downloader

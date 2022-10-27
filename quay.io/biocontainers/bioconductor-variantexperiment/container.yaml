@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-variantexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-variantexperiment
+latest:
+  1.8.0--r41hdfd78af_0: sha256:a598f71ae9cabedcf89a48fb4ed6b6162d60124b1ceb99ba9c9bb3c9adc174e6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:a598f71ae9cabedcf89a48fb4ed6b6162d60124b1ceb99ba9c9bb3c9adc174e6
+docker: quay.io/biocontainers/bioconductor-variantexperiment

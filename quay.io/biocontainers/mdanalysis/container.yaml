@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/mdanalysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mdanalysis
+latest:
+  1.0.0: sha256:ff844b013c1118ddc6930b6e9f87107d5e0ca0025c3a710ae9826e9d5b169453
+tags:
+  1.0.0: sha256:ff844b013c1118ddc6930b6e9f87107d5e0ca0025c3a710ae9826e9d5b169453
+docker: quay.io/biocontainers/mdanalysis
+aliases:
+  gsd: /usr/local/bin/gsd
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-diffcorr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-diffcorr
+latest:
+  0.4.2--r41h3342da4_0: sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f
+tags:
+  0.4.2--r41h3342da4_0: sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f
+docker: quay.io/biocontainers/r-diffcorr

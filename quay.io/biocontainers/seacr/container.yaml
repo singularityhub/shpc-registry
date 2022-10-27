@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/seacr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seacr
+latest:
+  1.3--hdfd78af_2: sha256:13d8be6125d96261a246c583948746cb5faf04703db5921944fc8e890dc92450
+tags:
+  1.3--hdfd78af_2: sha256:13d8be6125d96261a246c583948746cb5faf04703db5921944fc8e890dc92450
+docker: quay.io/biocontainers/seacr
+aliases:
+  SEACR_1.3.R: /usr/local/bin/SEACR_1.3.R
+  SEACR_1.3.sh: /usr/local/bin/SEACR_1.3.sh

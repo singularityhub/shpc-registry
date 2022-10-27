@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bakdrive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bakdrive
+latest:
+  1.0.4--hdfd78af_0: sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736
+tags:
+  1.0.4--hdfd78af_0: sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736
+docker: quay.io/biocontainers/bakdrive
+aliases:
+  bakdrive: /usr/local/bin/bakdrive
+  httpx: /usr/local/bin/httpx

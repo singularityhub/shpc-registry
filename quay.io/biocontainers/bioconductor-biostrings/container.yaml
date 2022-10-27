@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biostrings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biostrings
+latest:
+  2.62.0--r41hc0cfd56_2: sha256:38a4ef4ef521d979079946abc64b32a68ae0ffced7c4174cfc6c8df2a7026473
+tags:
+  2.62.0--r41hc0cfd56_2: sha256:38a4ef4ef521d979079946abc64b32a68ae0ffced7c4174cfc6c8df2a7026473
+docker: quay.io/biocontainers/bioconductor-biostrings

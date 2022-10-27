@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/gfapy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gfapy
+latest:
+  1.2.3--pyhdfd78af_0: sha256:4eec0a3d4611798776781b6cb9168e8b67c7eb63fe234b54b801b5bad14a82a2
+tags:
+  1.2.3--pyhdfd78af_0: sha256:4eec0a3d4611798776781b6cb9168e8b67c7eb63fe234b54b801b5bad14a82a2
+docker: quay.io/biocontainers/gfapy
+aliases:
+  gfapy-convert: /usr/local/bin/gfapy-convert
+  gfapy-mergelinear: /usr/local/bin/gfapy-mergelinear
+  gfapy-renumber: /usr/local/bin/gfapy-renumber
+  gfapy-validate: /usr/local/bin/gfapy-validate

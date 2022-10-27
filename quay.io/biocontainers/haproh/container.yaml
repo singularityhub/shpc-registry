@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/haproh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for haproh
+latest:
+  0.60--py39hbf8eff0_0: sha256:f59dc5082b18cc53e74e0ea15082e33996216861f89596b7ccb2d287bea4bcce
+tags:
+  0.60--py39hbf8eff0_0: sha256:f59dc5082b18cc53e74e0ea15082e33996216861f89596b7ccb2d287bea4bcce
+docker: quay.io/biocontainers/haproh
+aliases:
+  hapConX: /usr/local/bin/hapConX
+  hapCon_ROH: /usr/local/bin/hapCon_ROH

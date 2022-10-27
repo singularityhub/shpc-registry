@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cat
+latest:
+  5.2.3--hdfd78af_1: sha256:b3992ecb211f6d2ab5d87cb6d19941ce9e5040fbb9551d0afe46d5e54c4cd971
+tags:
+  5.2.3--hdfd78af_1: sha256:b3992ecb211f6d2ab5d87cb6d19941ce9e5040fbb9551d0afe46d5e54c4cd971
+docker: quay.io/biocontainers/cat
+aliases:
+  CAT: /usr/local/bin/CAT

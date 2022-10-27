@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/secimtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for secimtools
+latest:
+  22.3.23--pyhdfd78af_0: sha256:c830e3fecf15b47d501dd2d2edfc74baa9594ff6913f45f715b400aabd6ca742
+tags:
+  22.3.23--pyhdfd78af_0: sha256:c830e3fecf15b47d501dd2d2edfc74baa9594ff6913f45f715b400aabd6ca742
+docker: quay.io/biocontainers/secimtools
+aliases:
+  add_group_rank.py: /usr/local/bin/add_group_rank.py
+  anova_fixed.py: /usr/local/bin/anova_fixed.py
+  bland_altman_plot.py: /usr/local/bin/bland_altman_plot.py
+  blank_feature_filtering_flags.py: /usr/local/bin/blank_feature_filtering_flags.py
+  coefficient_variation_flags.py: /usr/local/bin/coefficient_variation_flags.py
+  compare_flags.py: /usr/local/bin/compare_flags.py
+  compound_identification.py: /usr/local/bin/compound_identification.py
+  data_normalization_and_rescaling.py: /usr/local/bin/data_normalization_and_rescaling.py
+  distribution_features.py: /usr/local/bin/distribution_features.py
+  distribution_samples.py: /usr/local/bin/distribution_samples.py
+  hierarchical_clustering_heatmap.py: /usr/local/bin/hierarchical_clustering_heatmap.py
+  imputation.py: /usr/local/bin/imputation.py
+  kruskal_wallis.py: /usr/local/bin/kruskal_wallis.py
+  lasso_enet_var_select.py: /usr/local/bin/lasso_enet_var_select.py
+  linear_discriminant_analysis.py: /usr/local/bin/linear_discriminant_analysis.py
+  log_and_glog_transformation.py: /usr/local/bin/log_and_glog_transformation.py
+  magnitude_difference_flags.py: /usr/local/bin/magnitude_difference_flags.py
+  mahalanobis_distance.py: /usr/local/bin/mahalanobis_distance.py
+  merge_flags.py: /usr/local/bin/merge_flags.py
+  meta_analysis.py: /usr/local/bin/meta_analysis.py
+  modify_design_file.py: /usr/local/bin/modify_design_file.py
+  modulated_modularity_clustering.py: /usr/local/bin/modulated_modularity_clustering.py
+  multiple_testing_adjustment.py: /usr/local/bin/multiple_testing_adjustment.py
+  mzrt_match.py: /usr/local/bin/mzrt_match.py
+  partial_least_squares.py: /usr/local/bin/partial_least_squares.py
+  principal_component_analysis.py: /usr/local/bin/principal_component_analysis.py
+  random_forest.py: /usr/local/bin/random_forest.py
+  remove_selected_features_samples.py: /usr/local/bin/remove_selected_features_samples.py
+  remove_user_specified_row_col.py: /usr/local/bin/remove_user_specified_row_col.py
+  retention_time_flags.py: /usr/local/bin/retention_time_flags.py
+  run_order_regression.py: /usr/local/bin/run_order_regression.py
+  scatter_plot_2D.py: /usr/local/bin/scatter_plot_2D.py
+  scatter_plot_3D.py: /usr/local/bin/scatter_plot_3D.py
+  standardized_euclidean_distance.py: /usr/local/bin/standardized_euclidean_distance.py
+  subset_data.py: /usr/local/bin/subset_data.py
+  summarize_flags.py: /usr/local/bin/summarize_flags.py
+  svm_classifier.py: /usr/local/bin/svm_classifier.py
+  threshold_based_flags.py: /usr/local/bin/threshold_based_flags.py
+  ttest.py: /usr/local/bin/ttest.py
+  ttest_perm.py: /usr/local/bin/ttest_perm.py
+  ttest_single_group.py: /usr/local/bin/ttest_single_group.py
+  upset_plot.py: /usr/local/bin/upset_plot.py

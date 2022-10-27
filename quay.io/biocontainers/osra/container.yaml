@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/osra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for osra
+latest:
+  2.1.0--0: sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8
+tags:
+  2.1.0--0: sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8
+docker: quay.io/biocontainers/osra
+aliases:
+  GraphicsMagick++-config: /usr/local/bin/GraphicsMagick++-config
+  GraphicsMagick-config: /usr/local/bin/GraphicsMagick-config
+  GraphicsMagickWand-config: /usr/local/bin/GraphicsMagickWand-config
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  font2c: /usr/local/bin/font2c
+  gm: /usr/local/bin/gm
+  gocr: /usr/local/bin/gocr
+  gocr.tcl: /usr/local/bin/gocr.tcl
+  mkbitmap: /usr/local/bin/mkbitmap
+  ocrad: /usr/local/bin/ocrad
+  osra: /usr/local/bin/osra
+  potrace: /usr/local/bin/potrace
+  printimage: /usr/local/bin/printimage
+  printsplitimage: /usr/local/bin/printsplitimage
+  printtiff: /usr/local/bin/printtiff
+  splitimage2pdf: /usr/local/bin/splitimage2pdf
+  tesseract: /usr/local/bin/tesseract
+  wftopfa: /usr/local/bin/wftopfa
+  xtractprotos: /usr/local/bin/xtractprotos

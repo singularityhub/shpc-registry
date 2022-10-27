@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pylca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pylca
+latest:
+  1.0.0--py_0: sha256:7131d203694e37e690a46dbc368566c32e4ac380959a19d580bff8448604aa06
+tags:
+  1.0.0--py_0: sha256:7131d203694e37e690a46dbc368566c32e4ac380959a19d580bff8448604aa06
+docker: quay.io/biocontainers/pylca

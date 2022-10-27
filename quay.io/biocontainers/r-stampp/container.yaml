@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-stampp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-stampp
+latest:
+  1.5.1--r40h6115d3f_5: sha256:59bb9b56482eebfc1125d2325b341f43a33247534d5b01f8eabf87f65fb27da4
+tags:
+  1.5.1--r40h6115d3f_5: sha256:59bb9b56482eebfc1125d2325b341f43a33247534d5b01f8eabf87f65fb27da4
+docker: quay.io/biocontainers/r-stampp

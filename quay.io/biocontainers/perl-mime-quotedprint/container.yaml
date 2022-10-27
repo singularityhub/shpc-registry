@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-mime-quotedprint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-mime-quotedprint
+latest:
+  3.13--pl5321hdfd78af_2: sha256:59ad81d4674dc37eaaac8e884bb6da891fe81978162fc9d47941d2878374c806
+tags:
+  3.13--pl5321hdfd78af_2: sha256:59ad81d4674dc37eaaac8e884bb6da891fe81978162fc9d47941d2878374c806
+docker: quay.io/biocontainers/perl-mime-quotedprint

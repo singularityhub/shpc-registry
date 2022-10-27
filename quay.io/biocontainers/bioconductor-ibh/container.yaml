@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ibh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ibh
+latest:
+  1.42.0--r41hdfd78af_0: sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc
+tags:
+  1.42.0--r41hdfd78af_0: sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc
+docker: quay.io/biocontainers/bioconductor-ibh
+aliases:
+  .bioconductor-simpintlists-post-link.sh: /usr/local/bin/.bioconductor-simpintlists-post-link.sh
+  .bioconductor-simpintlists-pre-unlink.sh: /usr/local/bin/.bioconductor-simpintlists-pre-unlink.sh

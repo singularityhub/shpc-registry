@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pgx-pipe-helper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pgx-pipe-helper
+latest:
+  0.0.4--pyh864c0ab_1: sha256:d6bdbd06025cf91b5ff8776c1a9010a3d924a3bbc9f25887a0c863c615b8e82b
+tags:
+  0.0.4--pyh864c0ab_1: sha256:d6bdbd06025cf91b5ff8776c1a9010a3d924a3bbc9f25887a0c863c615b8e82b
+docker: quay.io/biocontainers/pgx-pipe-helper
+aliases:
+  complete_locus: /usr/local/bin/complete_locus
+  locus2bed: /usr/local/bin/locus2bed
+  validate_locus: /usr/local/bin/validate_locus

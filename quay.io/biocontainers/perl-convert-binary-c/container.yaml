@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-convert-binary-c
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-convert-binary-c
+latest:
+  0.84--pl5321h9f5acd7_1: sha256:e6e39cf20f8d688220197cfc3d3e584a9002c0ac4ad89b7493e0d67cc0f7ccd2
+tags:
+  0.84--pl5321h9f5acd7_1: sha256:e6e39cf20f8d688220197cfc3d3e584a9002c0ac4ad89b7493e0d67cc0f7ccd2
+docker: quay.io/biocontainers/perl-convert-binary-c

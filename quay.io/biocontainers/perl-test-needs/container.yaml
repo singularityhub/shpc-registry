@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-needs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-needs
+latest:
+  0.002009--pl5321hdfd78af_0: sha256:9ce0b60399798f1cc57970a30b080698f782ccaf2a9cd632d9050817b8dd7421
+tags:
+  0.002009--pl5321hdfd78af_0: sha256:9ce0b60399798f1cc57970a30b080698f782ccaf2a9cd632d9050817b8dd7421
+docker: quay.io/biocontainers/perl-test-needs

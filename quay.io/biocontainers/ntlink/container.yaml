@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/ntlink
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ntlink
+latest:
+  1.3.4--py39h6935b12_0: sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea
+tags:
+  1.3.4--py39h6935b12_0: sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea
+docker: quay.io/biocontainers/ntlink
+aliases:
+  abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  indexlr: /usr/local/bin/indexlr
+  irqtop: /usr/local/bin/irqtop
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar
+  lsirq: /usr/local/bin/lsirq
+  nsenter: /usr/local/bin/nsenter
+  ntLink: /usr/local/bin/ntLink
+  ntLink_rounds: /usr/local/bin/ntLink_rounds
+  prlimit: /usr/local/bin/prlimit

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rnaseqmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rnaseqmap
+latest:
+  2.46.0--r40h037d062_0: sha256:b0737453dcf99d3bf682de7385f1e1c8db00aefbfc291787dc1671c64aefddc7
+tags:
+  2.46.0--r40h037d062_0: sha256:b0737453dcf99d3bf682de7385f1e1c8db00aefbfc291787dc1671c64aefddc7
+docker: quay.io/biocontainers/bioconductor-rnaseqmap

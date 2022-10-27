@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-plotgrouper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-plotgrouper
+latest:
+  1.8.0--r40hdfd78af_1: sha256:8deff548cec9b68298a6fe70b72c8d69dad2b6c7491daf6204c023eb1709617c
+tags:
+  1.8.0--r40hdfd78af_1: sha256:8deff548cec9b68298a6fe70b72c8d69dad2b6c7491daf6204c023eb1709617c
+docker: quay.io/biocontainers/bioconductor-plotgrouper

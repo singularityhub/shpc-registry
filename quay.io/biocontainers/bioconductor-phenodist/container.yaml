@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phenodist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phenodist
+latest:
+  1.27.0--r351_0: sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4
+tags:
+  1.27.0--r351_0: sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4
+docker: quay.io/biocontainers/bioconductor-phenodist

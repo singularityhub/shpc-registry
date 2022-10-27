@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ipc-cmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ipc-cmd
+latest:
+  1.04--pl5321hdfd78af_0: sha256:75862d2e22e8e8b645fc62c73e7375c96e3abbaf893902ba4b7ebda8db067bf9
+tags:
+  1.04--pl5321hdfd78af_0: sha256:75862d2e22e8e8b645fc62c73e7375c96e3abbaf893902ba4b7ebda8db067bf9
+docker: quay.io/biocontainers/perl-ipc-cmd

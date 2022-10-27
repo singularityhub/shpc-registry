@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mirbaseconverter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirbaseconverter
+latest:
+  1.8.0--r36_1: sha256:156a194e76cc38a258fe798040efa8898413a4ab3380951f26d0e3d40f376739
+tags:
+  1.8.0--r36_1: sha256:156a194e76cc38a258fe798040efa8898413a4ab3380951f26d0e3d40f376739
+docker: quay.io/biocontainers/bioconductor-mirbaseconverter

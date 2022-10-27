@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metacherchant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metacherchant
+latest:
+  0.1.0--hdfd78af_2: sha256:406d5e2840f2f2575546af922637f13db3da78811e24275b40ef81648f6673b5
+tags:
+  0.1.0--hdfd78af_2: sha256:406d5e2840f2f2575546af922637f13db3da78811e24275b40ef81648f6673b5
+docker: quay.io/biocontainers/metacherchant
+aliases:
+  metacherchant.sh: /usr/local/bin/metacherchant.sh

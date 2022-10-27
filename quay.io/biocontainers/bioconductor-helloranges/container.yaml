@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-helloranges
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-helloranges
+latest:
+  1.8.0--r351_0: sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4
+tags:
+  1.8.0--r351_0: sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4
+docker: quay.io/biocontainers/bioconductor-helloranges

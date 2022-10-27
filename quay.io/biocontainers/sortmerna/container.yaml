@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sortmerna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sortmerna
+latest:
+  4.3.6--h9ee0642_0: sha256:e35dc8312efb4255dafc0b06197838785a50c364d2baa64b9adcad65f8feb57c
+tags:
+  4.3.6--h9ee0642_0: sha256:e35dc8312efb4255dafc0b06197838785a50c364d2baa64b9adcad65f8feb57c
+docker: quay.io/biocontainers/sortmerna
+aliases:
+  sortmerna: /usr/local/bin/sortmerna

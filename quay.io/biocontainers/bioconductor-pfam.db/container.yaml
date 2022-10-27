@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pfam.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pfam.db
+latest:
+  3.8.2--r36_1: sha256:be2ba30b7307531062c70e611d4c57822f27913dc8bbd00b4875bff18e93c3a7
+tags:
+  3.8.2--r36_1: sha256:be2ba30b7307531062c70e611d4c57822f27913dc8bbd00b4875bff18e93c3a7
+docker: quay.io/biocontainers/bioconductor-pfam.db
+aliases:
+  .bioconductor-pfam.db-post-link.sh: /usr/local/bin/.bioconductor-pfam.db-post-link.sh
+  .bioconductor-pfam.db-pre-unlink.sh: /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh

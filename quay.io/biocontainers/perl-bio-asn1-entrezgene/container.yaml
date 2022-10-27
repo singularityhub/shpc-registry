@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-asn1-entrezgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-asn1-entrezgene
+latest:
+  1.73--pl5321hdfd78af_3: sha256:175f133ff788fc21d37c4d077a60c30b7db83af250af1883eee3bb0a5e4b0243
+tags:
+  1.73--pl5321hdfd78af_3: sha256:175f133ff788fc21d37c4d077a60c30b7db83af250af1883eee3bb0a5e4b0243
+docker: quay.io/biocontainers/perl-bio-asn1-entrezgene

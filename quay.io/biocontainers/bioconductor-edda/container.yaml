@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-edda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-edda
+latest:
+  1.26.0--r40h5f743cb_0: sha256:cfc9d80de213818a3377ca639167d67b46998cebcbfc32e45c7df580250308f5
+tags:
+  1.26.0--r40h5f743cb_0: sha256:cfc9d80de213818a3377ca639167d67b46998cebcbfc32e45c7df580250308f5
+docker: quay.io/biocontainers/bioconductor-edda

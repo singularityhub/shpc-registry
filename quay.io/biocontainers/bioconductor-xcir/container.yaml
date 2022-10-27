@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xcir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xcir
+latest:
+  1.7.0--r41hdfd78af_0: sha256:d54c856402b161f3cd15a5d24b8512f2d9950a48e25c00f7d795d14423cf52a8
+tags:
+  1.7.0--r41hdfd78af_0: sha256:d54c856402b161f3cd15a5d24b8512f2d9950a48e25c00f7d795d14423cf52a8
+docker: quay.io/biocontainers/bioconductor-xcir

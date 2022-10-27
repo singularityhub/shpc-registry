@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mosbi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mosbi
+latest:
+  1.0.3--r41hc247a5b_1: sha256:61b4684a4cd64bad5db71e78cdf0da3219eac2ec12ce812fb0bc45b1973a78f8
+tags:
+  1.0.3--r41hc247a5b_1: sha256:61b4684a4cd64bad5db71e78cdf0da3219eac2ec12ce812fb0bc45b1973a78f8
+docker: quay.io/biocontainers/bioconductor-mosbi

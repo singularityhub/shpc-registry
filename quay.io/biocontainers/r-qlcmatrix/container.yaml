@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-qlcmatrix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-qlcmatrix
+latest:
+  0.9.5--r3.3.1_0: sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b
+tags:
+  0.9.5--r3.3.1_0: sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b
+docker: quay.io/biocontainers/r-qlcmatrix

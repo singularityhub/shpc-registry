@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gsar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gsar
+latest:
+  1.28.0--r41hdfd78af_0: sha256:d4abdf74d9216462a903abf1ecc4822dc18b0dadcfc5a917f198c31a5a1d2feb
+tags:
+  1.28.0--r41hdfd78af_0: sha256:d4abdf74d9216462a903abf1ecc4822dc18b0dadcfc5a917f198c31a5a1d2feb
+docker: quay.io/biocontainers/bioconductor-gsar

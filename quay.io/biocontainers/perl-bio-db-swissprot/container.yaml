@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-db-swissprot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-db-swissprot
+latest:
+  1.7.4--pl5321hdfd78af_0: sha256:de0f6e13bd9f194fdee9fa22dc27cbe6b67b92007bf9638bd12bc537fa426299
+tags:
+  1.7.4--pl5321hdfd78af_0: sha256:de0f6e13bd9f194fdee9fa22dc27cbe6b67b92007bf9638bd12bc537fa426299
+docker: quay.io/biocontainers/perl-bio-db-swissprot

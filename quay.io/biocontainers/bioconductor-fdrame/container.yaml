@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fdrame
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fdrame
+latest:
+  1.66.0--r41hc0cfd56_2: sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80
+tags:
+  1.66.0--r41hc0cfd56_2: sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80
+docker: quay.io/biocontainers/bioconductor-fdrame

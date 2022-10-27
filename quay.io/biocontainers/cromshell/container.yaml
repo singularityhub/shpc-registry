@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/cromshell
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cromshell
+latest:
+  0.5.2--hdfd78af_0: sha256:c399ad57321b0564b48fb06beed6e2dc7736032d50d623baefe1e83f8ee14300
+tags:
+  0.5.2--hdfd78af_0: sha256:c399ad57321b0564b48fb06beed6e2dc7736032d50d623baefe1e83f8ee14300
+docker: quay.io/biocontainers/cromshell
+aliases:
+  cromshell: /usr/local/bin/cromshell
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  womtool: /usr/local/bin/womtool

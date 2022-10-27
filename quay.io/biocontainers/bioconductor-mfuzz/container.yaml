@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mfuzz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mfuzz
+latest:
+  2.54.0--r41hdfd78af_0: sha256:da2dc92176c554afefc934b7fe77c224ab4508d8334987a08b42bbbaeaaa9ff1
+tags:
+  2.54.0--r41hdfd78af_0: sha256:da2dc92176c554afefc934b7fe77c224ab4508d8334987a08b42bbbaeaaa9ff1
+docker: quay.io/biocontainers/bioconductor-mfuzz

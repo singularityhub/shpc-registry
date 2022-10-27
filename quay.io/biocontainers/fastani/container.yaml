@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fastani
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastani
+latest:
+  1.33--h0fdf51a_1: sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe
+tags:
+  1.33--h0fdf51a_1: sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe
+docker: quay.io/biocontainers/fastani

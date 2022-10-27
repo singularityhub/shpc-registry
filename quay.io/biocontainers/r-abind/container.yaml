@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-abind
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-abind
+latest:
+  1.4.3--r3.3.2_0: sha256:bd1861ff53e4b7d25b085cf8a1803bda1a26b9bbf4ee05fad6e3eacb95906d87
+tags:
+  1.4.3--r3.3.2_0: sha256:bd1861ff53e4b7d25b085cf8a1803bda1a26b9bbf4ee05fad6e3eacb95906d87
+docker: quay.io/biocontainers/r-abind

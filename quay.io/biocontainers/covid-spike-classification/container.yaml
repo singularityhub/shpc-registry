@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/covid-spike-classification
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for covid-spike-classification
+latest:
+  0.6.4--pyhdfd78af_0: sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da
+tags:
+  0.6.4--pyhdfd78af_0: sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da
+docker: quay.io/biocontainers/covid-spike-classification
+aliases:
+  covid-spike-classification: /usr/local/bin/covid-spike-classification
+  tracy: /usr/local/bin/tracy

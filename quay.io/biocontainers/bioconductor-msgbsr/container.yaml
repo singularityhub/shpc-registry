@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msgbsr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msgbsr
+latest:
+  1.8.0--r36_1: sha256:8f30b00b31b4d310358c900640845a175b0bbe4885ef71dd497998157af9ae27
+tags:
+  1.8.0--r36_1: sha256:8f30b00b31b4d310358c900640845a175b0bbe4885ef71dd497998157af9ae27
+docker: quay.io/biocontainers/bioconductor-msgbsr

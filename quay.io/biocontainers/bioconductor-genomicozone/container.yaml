@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicozone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicozone
+latest:
+  1.8.0--r41hdfd78af_0: sha256:cbb3518068e749c9ddb8ff6fa798174240ff548e69fe40e68d3aa7cfd64c3fd6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:cbb3518068e749c9ddb8ff6fa798174240ff548e69fe40e68d3aa7cfd64c3fd6
+docker: quay.io/biocontainers/bioconductor-genomicozone

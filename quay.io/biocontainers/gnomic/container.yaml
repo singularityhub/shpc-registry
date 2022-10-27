@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gnomic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gnomic
+latest:
+  1.0.1--pyh864c0ab_1: sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408
+tags:
+  1.0.1--pyh864c0ab_1: sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408
+docker: quay.io/biocontainers/gnomic
+aliases:
+  grako: /usr/local/bin/grako

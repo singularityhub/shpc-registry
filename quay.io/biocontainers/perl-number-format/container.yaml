@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-number-format
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-number-format
+latest:
+  1.75--pl5321hdfd78af_4: sha256:f86dfc2b54f72d472125da5249c534bd708c84727ff463a7dedc1770179290a2
+tags:
+  1.75--pl5321hdfd78af_4: sha256:f86dfc2b54f72d472125da5249c534bd708c84727ff463a7dedc1770179290a2
+docker: quay.io/biocontainers/perl-number-format

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyx
+latest:
+  0.14.1--py36_1: sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0
+tags:
+  0.14.1--py36_1: sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0
+docker: quay.io/biocontainers/pyx

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cramtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cramtools
+latest:
+  3.0.b127--hdfd78af_3: sha256:2f2f49d7754e883f3053a9996575a5e1e895d0a3aa4e91d493a441d64a066b94
+tags:
+  3.0.b127--hdfd78af_3: sha256:2f2f49d7754e883f3053a9996575a5e1e895d0a3aa4e91d493a441d64a066b94
+docker: quay.io/biocontainers/cramtools
+aliases:
+  cramtools: /usr/local/bin/cramtools

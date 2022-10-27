@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/plant_tribes_gene_family_aligner
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plant_tribes_gene_family_aligner
+latest:
+  1.0.4--hdfd78af_1: sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
+tags:
+  1.0.4--hdfd78af_1: sha256:b58eec981f9a05caff325842baadeb0aa164ec53ab0c7facecde085fb45b4313
+docker: quay.io/biocontainers/plant_tribes_gene_family_aligner
+aliases:
+  GeneFamilyAligner: /usr/local/bin/GeneFamilyAligner
+  README.txt: /usr/local/bin/README.txt
+  fakealigner: /usr/local/bin/fakealigner
+  faketree: /usr/local/bin/faketree
+  fasttreeMP: /usr/local/bin/fasttreeMP
+  hmmeralign: /usr/local/bin/hmmeralign
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  opal.jar: /usr/local/bin/opal.jar
+  padaligner: /usr/local/bin/padaligner
+  randtree: /usr/local/bin/randtree
+  raxml: /usr/local/bin/raxml
+  raxmlp: /usr/local/bin/raxmlp
+  run_pasta.py: /usr/local/bin/run_pasta.py
+  run_pasta_gui.py: /usr/local/bin/run_pasta_gui.py
+  run_seqtools.py: /usr/local/bin/run_seqtools.py

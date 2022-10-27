@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kcalign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kcalign
+latest:
+  1.0.2--py_0: sha256:b1a49ecffa20b85267456b048e3baf616868b808839bc87e7f030732353da17c
+tags:
+  1.0.2--py_0: sha256:b1a49ecffa20b85267456b048e3baf616868b808839bc87e7f030732353da17c
+docker: quay.io/biocontainers/kcalign
+aliases:
+  kalign: /usr/local/bin/kalign
+  kc-align: /usr/local/bin/kc-align
+  timescorealn: /usr/local/bin/timescorealn

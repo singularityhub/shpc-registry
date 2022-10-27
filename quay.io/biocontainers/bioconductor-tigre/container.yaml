@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tigre
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tigre
+latest:
+  1.48.0--r41hc0cfd56_2: sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb
+tags:
+  1.48.0--r41hc0cfd56_2: sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb
+docker: quay.io/biocontainers/bioconductor-tigre

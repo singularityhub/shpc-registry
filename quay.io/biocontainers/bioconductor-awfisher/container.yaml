@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-awfisher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-awfisher
+latest:
+  1.8.0--r41hc247a5b_2: sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4
+tags:
+  1.8.0--r41hc247a5b_2: sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4
+docker: quay.io/biocontainers/bioconductor-awfisher

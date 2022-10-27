@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopet-scatterregions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet-scatterregions
+latest:
+  0.2--hdfd78af_1: sha256:a4b50f0a876464cdff85ab25e621c54b05145bd87323450fd9b9d9a7dbdcfa18
+tags:
+  0.2--hdfd78af_1: sha256:a4b50f0a876464cdff85ab25e621c54b05145bd87323450fd9b9d9a7dbdcfa18
+docker: quay.io/biocontainers/biopet-scatterregions
+aliases:
+  biopet-scatterregions: /usr/local/bin/biopet-scatterregions

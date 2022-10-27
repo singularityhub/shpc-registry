@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioservices
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioservices
+latest:
+  1.7.9--pyh3252c3a_0: sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58
+tags:
+  1.7.9--pyh3252c3a_0: sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58
+docker: quay.io/biocontainers/bioservices

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-abbrev
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-abbrev
+latest:
+  1.02--pl5321hdfd78af_1: sha256:b787d03e5ff1fc80d96fcbbbd82b05ab7166d3bf963e91948032f36f5181ef36
+tags:
+  1.02--pl5321hdfd78af_1: sha256:b787d03e5ff1fc80d96fcbbbd82b05ab7166d3bf963e91948032f36f5181ef36
+docker: quay.io/biocontainers/perl-text-abbrev

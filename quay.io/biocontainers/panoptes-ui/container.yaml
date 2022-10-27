@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/panoptes-ui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for panoptes-ui
+latest:
+  0.2.0--pyh3252c3a_0: sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112
+tags:
+  0.2.0--pyh3252c3a_0: sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112
+docker: quay.io/biocontainers/panoptes-ui
+aliases:
+  panoptes: /usr/local/bin/panoptes

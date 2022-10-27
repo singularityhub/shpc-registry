@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ipac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ipac
+latest:
+  1.38.0--r41hdfd78af_0: sha256:75c06f0dfd8a2286fac2180a514ddb55a1ee69bc8450ed5d798579b9f185c853
+tags:
+  1.38.0--r41hdfd78af_0: sha256:75c06f0dfd8a2286fac2180a514ddb55a1ee69bc8450ed5d798579b9f185c853
+docker: quay.io/biocontainers/bioconductor-ipac

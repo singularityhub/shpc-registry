@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/augur
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for augur
+latest:
+  9.0.0--py_1: sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b
+tags:
+  9.0.0--py_1: sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b
+docker: quay.io/biocontainers/augur
+aliases:
+  augur: /usr/local/bin/augur
+  dsdp5: /usr/local/bin/dsdp5
+  treetime: /usr/local/bin/treetime
+  vcftools: /usr/local/bin/vcftools

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/metaclassifier
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaclassifier
+latest:
+  v1.0.1--py_0: sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99
+tags:
+  v1.0.1--py_0: sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99
+docker: quay.io/biocontainers/metaclassifier
+aliases:
+  classify_reads: /usr/local/bin/classify_reads
+  metaclassifier: /usr/local/bin/metaclassifier
+  pear: /usr/local/bin/pear
+  pearRM: /usr/local/bin/pearRM
+  process_reads: /usr/local/bin/process_reads

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/behst
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for behst
+latest:
+  3.8--0: sha256:791db8320ead98944298ed1ee8b91be17b916f0819b26356fcddc786b077a367
+tags:
+  3.8--0: sha256:791db8320ead98944298ed1ee8b91be17b916f0819b26356fcddc786b077a367
+docker: quay.io/biocontainers/behst
+aliases:
+  behst: /usr/local/bin/behst
+  behst-download-data: /usr/local/bin/behst-download-data
+  behst-download-data.sh: /usr/local/bin/behst-download-data.sh
+  behst.orig: /usr/local/bin/behst.orig
+  behst.py: /usr/local/bin/behst.py
+  chromRegionLength.r: /usr/local/bin/chromRegionLength.r
+  dataframeSumAllValues.r: /usr/local/bin/dataframeSumAllValues.r
+  difference_from_first_TSS_script_mordor.r: /usr/local/bin/difference_from_first_TSS_script_mordor.r
+  difference_from_first_TSS_script_mordor_chrom_wide.r: /usr/local/bin/difference_from_first_TSS_script_mordor_chrom_wide.r
+  download_behst_data.sh: /usr/local/bin/download_behst_data.sh
+  gProfilerCall.r: /usr/local/bin/gProfilerCall.r
+  gene_annotation_parser.py: /usr/local/bin/gene_annotation_parser.py
+  gene_annotation_parser_load_pickled_files.py: /usr/local/bin/gene_annotation_parser_load_pickled_files.py
+  hiC_parser.py: /usr/local/bin/hiC_parser.py
+  hiC_parser_load_pickle_file.py: /usr/local/bin/hiC_parser_load_pickle_file.py
+  list_of_files: /usr/local/bin/list_of_files
+  plot_heatmaps.r: /usr/local/bin/plot_heatmaps.r
+  project.sh: /usr/local/bin/project.sh
+  project.sh.orig: /usr/local/bin/project.sh.orig
+  pvaluesPlotGenerator.r: /usr/local/bin/pvaluesPlotGenerator.r
+  retrieveMinRowCol.r: /usr/local/bin/retrieveMinRowCol.r
+  script_all_heatmaps.sh: /usr/local/bin/script_all_heatmaps.sh
+  script_multi_project_run.sh: /usr/local/bin/script_multi_project_run.sh
+  script_multi_project_run_WITHOUT_LOOP.sh: /usr/local/bin/script_multi_project_run_WITHOUT_LOOP.sh
+  script_multi_project_run_input_parameters.sh: /usr/local/bin/script_multi_project_run_input_parameters.sh
+  temp_test.sh: /usr/local/bin/temp_test.sh

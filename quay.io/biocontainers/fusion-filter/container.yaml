@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/fusion-filter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fusion-filter
+latest:
+  0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
+tags:
+  0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
+docker: quay.io/biocontainers/fusion-filter
+aliases:
+  .fusion-filter-post-link.sh: /usr/local/bin/.fusion-filter-post-link.sh
+  blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
+  blast_check_pair.pl: /usr/local/bin/blast_check_pair.pl
+  blast_filter.pl: /usr/local/bin/blast_filter.pl
+  blast_outfmt6_replace_trans_id_w_gene_symbol.pl: /usr/local/bin/blast_outfmt6_replace_trans_id_w_gene_symbol.pl
+  build_chr_gene_alignment_index.pl: /usr/local/bin/build_chr_gene_alignment_index.pl
+  build_fusion_annot_db_index.pl: /usr/local/bin/build_fusion_annot_db_index.pl
+  build_prot_info_db.pl: /usr/local/bin/build_prot_info_db.pl
+  gencode_extract_relevant_gtf_exons.pl: /usr/local/bin/gencode_extract_relevant_gtf_exons.pl
+  gtf_file_to_feature_seqs.pl: /usr/local/bin/gtf_file_to_feature_seqs.pl
+  gtf_to_exon_gene_records.pl: /usr/local/bin/gtf_to_exon_gene_records.pl
+  gtf_to_gene_spans.pl: /usr/local/bin/gtf_to_gene_spans.pl
+  index_blast_pairs.pl: /usr/local/bin/index_blast_pairs.pl
+  index_blast_pairs.remove_gene_pair.pl: /usr/local/bin/index_blast_pairs.remove_gene_pair.pl
+  index_blast_pairs.remove_overlapping_genes.pl: /usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl
+  index_cdna_seqs.pl: /usr/local/bin/index_cdna_seqs.pl
+  index_pfam_domain_info.pl: /usr/local/bin/index_pfam_domain_info.pl
+  isoform_blast_gene_chr_conversion.pl: /usr/local/bin/isoform_blast_gene_chr_conversion.pl
+  isoform_blast_mapping_indexer.pl: /usr/local/bin/isoform_blast_mapping_indexer.pl
+  just_blast_test.pl: /usr/local/bin/just_blast_test.pl
+  make_super_locus.pl: /usr/local/bin/make_super_locus.pl
+  prep_genome_lib.pl: /usr/local/bin/prep_genome_lib.pl
+  promiscuity_filter.pl: /usr/local/bin/promiscuity_filter.pl
+  remove_long_intron_readthru_transcripts.pl: /usr/local/bin/remove_long_intron_readthru_transcripts.pl

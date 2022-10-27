@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/manorm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for manorm
+latest:
+  1.3.0--py_0: sha256:a45a917f4fe2d059b6b1869d0bd95d707f9e117aafae34f220ff174cc6d23844
+tags:
+  1.3.0--py_0: sha256:a45a917f4fe2d059b6b1869d0bd95d707f9e117aafae34f220ff174cc6d23844
+docker: quay.io/biocontainers/manorm
+aliases:
+  manorm: /usr/local/bin/manorm

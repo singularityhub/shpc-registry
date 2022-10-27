@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tapseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tapseq
+latest:
+  1.6.0--r41hdfd78af_0: sha256:5f374ab1b5ac15bd5762d8009f8b728bbeb07c8c9494513110152f722ff2c8c9
+tags:
+  1.6.0--r41hdfd78af_0: sha256:5f374ab1b5ac15bd5762d8009f8b728bbeb07c8c9494513110152f722ff2c8c9
+docker: quay.io/biocontainers/bioconductor-tapseq

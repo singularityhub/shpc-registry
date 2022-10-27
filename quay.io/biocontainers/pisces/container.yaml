@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pisces
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pisces
+latest:
+  5.2.9.122--0: sha256:0b9d31da5df60ad8d75accd80b66664a8ce08e9c2a470baddbc003e7fac1c498
+tags:
+  5.2.9.122--0: sha256:0b9d31da5df60ad8d75accd80b66664a8ce08e9c2a470baddbc003e7fac1c498
+docker: quay.io/biocontainers/pisces
+aliases:
+  pisces: /usr/local/bin/pisces
+  pisces_vqr: /usr/local/bin/pisces_vqr

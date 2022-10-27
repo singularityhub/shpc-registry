@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/r-fastbaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-fastbaps
+latest:
+  1.0.8--r41h5b5514e_0: sha256:b176709caf67de23183855d1bf4087376ff83812225ade3c3eba287c6893b033
+tags:
+  1.0.8--r41h5b5514e_0: sha256:b176709caf67de23183855d1bf4087376ff83812225ade3c3eba287c6893b033
+docker: quay.io/biocontainers/r-fastbaps
+aliases:
+  run_fastbaps: /usr/local/bin/run_fastbaps

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/spine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spine
+latest:
+  0.3.2--pl5321hdfd78af_2: sha256:29aef6f767385b946063d1da67f11042c20f8c5f6cce88d307ac4d934cd09478
+tags:
+  0.3.2--pl5321hdfd78af_2: sha256:29aef6f767385b946063d1da67f11042c20f8c5f6cce88d307ac4d934cd09478
+docker: quay.io/biocontainers/spine
+aliases:
+  nucmer_backbone.pl: /usr/local/bin/nucmer_backbone.pl
+  nucmer_multi.pl: /usr/local/bin/nucmer_multi.pl
+  spine.pl: /usr/local/bin/spine.pl

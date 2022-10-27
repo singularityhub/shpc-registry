@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/ant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ant
+latest:
+  1.9.6--1: sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81
+tags:
+  1.9.6--1: sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81
+docker: quay.io/biocontainers/ant
+aliases:
+  ant: /usr/local/bin/ant
+  ant.bat: /usr/local/bin/ant.bat
+  ant.cmd: /usr/local/bin/ant.cmd
+  antRun: /usr/local/bin/antRun
+  antRun.bat: /usr/local/bin/antRun.bat
+  antRun.pl: /usr/local/bin/antRun.pl
+  antenv.cmd: /usr/local/bin/antenv.cmd
+  complete-ant-cmd.pl: /usr/local/bin/complete-ant-cmd.pl
+  envset.cmd: /usr/local/bin/envset.cmd
+  lcp.bat: /usr/local/bin/lcp.bat
+  runant.pl: /usr/local/bin/runant.pl
+  runant.py: /usr/local/bin/runant.py
+  runrc.cmd: /usr/local/bin/runrc.cmd

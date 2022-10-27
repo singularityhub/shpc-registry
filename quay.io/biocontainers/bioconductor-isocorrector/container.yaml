@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-isocorrector
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-isocorrector
+latest:
+  1.8.0--r40hdfd78af_1: sha256:cda629db51a26d99ea103063b26a5c4164beb48e21c987229cb5c5b57b5079dc
+tags:
+  1.8.0--r40hdfd78af_1: sha256:cda629db51a26d99ea103063b26a5c4164beb48e21c987229cb5c5b57b5079dc
+docker: quay.io/biocontainers/bioconductor-isocorrector

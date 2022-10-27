@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/transabyss
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for transabyss
+latest:
+  2.0.1--pyh864c0ab_7: sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7
+tags:
+  2.0.1--pyh864c0ab_7: sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7
+docker: quay.io/biocontainers/transabyss
+aliases:
+  abyss-db-csv: /usr/local/bin/abyss-db-csv
+  skip_psl_self.awk: /usr/local/bin/skip_psl_self.awk
+  skip_psl_self_ss.awk: /usr/local/bin/skip_psl_self_ss.awk
+  strip_sam_qual.awk: /usr/local/bin/strip_sam_qual.awk
+  strip_sam_seq_qual.awk: /usr/local/bin/strip_sam_seq_qual.awk
+  strip_sam_seq_qual_noself.awk: /usr/local/bin/strip_sam_seq_qual_noself.awk
+  transabyss: /usr/local/bin/transabyss
+  transabyss-merge: /usr/local/bin/transabyss-merge

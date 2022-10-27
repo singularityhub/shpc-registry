@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/taco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for taco
+latest:
+  v0.7.0--py27_0: sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820
+tags:
+  v0.7.0--py27_0: sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820
+docker: quay.io/biocontainers/taco
+aliases:
+  pyi-archive_viewer: /usr/local/bin/pyi-archive_viewer
+  pyi-bindepend: /usr/local/bin/pyi-bindepend
+  pyi-grab_version: /usr/local/bin/pyi-grab_version
+  pyi-makespec: /usr/local/bin/pyi-makespec
+  pyi-set_version: /usr/local/bin/pyi-set_version
+  pyinstaller: /usr/local/bin/pyinstaller
+  taco_refcomp: /usr/local/bin/taco_refcomp
+  taco_run: /usr/local/bin/taco_run

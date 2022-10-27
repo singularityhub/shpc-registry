@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/liquorice
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for liquorice
+latest:
+  0.5.5--pyhdfd78af_1: sha256:4e2a6292eb7c95b57e2cf4842956e91128067f943d29e93cd7c778153c5f636e
+tags:
+  0.5.5--pyhdfd78af_1: sha256:4e2a6292eb7c95b57e2cf4842956e91128067f943d29e93cd7c778153c5f636e
+docker: quay.io/biocontainers/liquorice
+aliases:
+  LIQUORICE: /usr/local/bin/LIQUORICE
+  LIQUORICE_summary: /usr/local/bin/LIQUORICE_summary

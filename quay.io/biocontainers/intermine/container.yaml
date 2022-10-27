@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/intermine
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for intermine
+latest:
+  1.13.0--pyh5e36f6f_0: sha256:dbe2dcbf1dd3dceb285a7b6db13acc7db15dbc2fb88fae0c8a89c5934452d599
+tags:
+  1.13.0--pyh5e36f6f_0: sha256:dbe2dcbf1dd3dceb285a7b6db13acc7db15dbc2fb88fae0c8a89c5934452d599
+docker: quay.io/biocontainers/intermine

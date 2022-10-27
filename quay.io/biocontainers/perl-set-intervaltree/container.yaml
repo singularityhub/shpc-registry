@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-set-intervaltree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-set-intervaltree
+latest:
+  0.12--pl5321h87f3376_2: sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2
+tags:
+  0.12--pl5321h87f3376_2: sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2
+docker: quay.io/biocontainers/perl-set-intervaltree

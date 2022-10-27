@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-xenopus.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xenopus.db0
+latest:
+  3.8.2--r36_1: sha256:9f8841c32eaedabe3730a3b994a0c7efdaf6a50ad9f928d5312cd59fdad70e43
+tags:
+  3.8.2--r36_1: sha256:9f8841c32eaedabe3730a3b994a0c7efdaf6a50ad9f928d5312cd59fdad70e43
+docker: quay.io/biocontainers/bioconductor-xenopus.db0
+aliases:
+  .bioconductor-xenopus.db0-post-link.sh: /usr/local/bin/.bioconductor-xenopus.db0-post-link.sh
+  .bioconductor-xenopus.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-xenopus.db0-pre-unlink.sh

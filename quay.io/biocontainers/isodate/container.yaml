@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/isodate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isodate
+latest:
+  0.5.4--py36_0: sha256:5d9c7bbabc860af94fc0b2ccb9739e8840467db3a6208a7e1846bcd37ebbf299
+tags:
+  0.5.4--py36_0: sha256:5d9c7bbabc860af94fc0b2ccb9739e8840467db3a6208a7e1846bcd37ebbf299
+docker: quay.io/biocontainers/isodate

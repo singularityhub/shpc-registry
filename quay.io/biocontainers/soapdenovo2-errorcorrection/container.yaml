@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/soapdenovo2-errorcorrection
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for soapdenovo2-errorcorrection
+latest:
+  2.0--h7ff8a90_5: sha256:3f43af7f78c29789ad244fd4ff84a8e283f6533dbc4207b5fe78b8b3f37442af
+tags:
+  2.0--h7ff8a90_5: sha256:3f43af7f78c29789ad244fd4ff84a8e283f6533dbc4207b5fe78b8b3f37442af
+docker: quay.io/biocontainers/soapdenovo2-errorcorrection
+aliases:
+  ErrorCorrection: /usr/local/bin/ErrorCorrection

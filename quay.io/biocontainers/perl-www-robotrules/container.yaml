@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-www-robotrules
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-www-robotrules
+latest:
+  6.02--pl5321hdfd78af_4: sha256:635b851560507252001e793895ac261d23a937554ec4cf36d1cae47b4594fbd3
+tags:
+  6.02--pl5321hdfd78af_4: sha256:635b851560507252001e793895ac261d23a937554ec4cf36d1cae47b4594fbd3
+docker: quay.io/biocontainers/perl-www-robotrules

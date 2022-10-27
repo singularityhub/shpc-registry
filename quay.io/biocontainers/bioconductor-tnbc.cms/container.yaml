@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tnbc.cms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tnbc.cms
+latest:
+  1.8.0--r41hdfd78af_0: sha256:e17d9ca9973a0a6252d703fedf4d830fa52319ba1866375ac1916ad86d901ea5
+tags:
+  1.8.0--r41hdfd78af_0: sha256:e17d9ca9973a0a6252d703fedf4d830fa52319ba1866375ac1916ad86d901ea5
+docker: quay.io/biocontainers/bioconductor-tnbc.cms

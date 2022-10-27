@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/slamdunk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for slamdunk
+latest:
+  0.4.3--py_0: sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
+tags:
+  0.4.3--py_0: sha256:07dd7a65298100e41df542b9efeb6ac825f399c2e45d0b5e579ad55cfdf296c4
+docker: quay.io/biocontainers/slamdunk
+aliases:
+  addr2line: /usr/local/bin/addr2line
+  alleyoop: /usr/local/bin/alleyoop
+  ar: /usr/local/bin/ar
+  as: /usr/local/bin/as
+  c++filt: /usr/local/bin/c++filt
+  dwp: /usr/local/bin/dwp
+  elfedit: /usr/local/bin/elfedit
+  gold: /usr/local/bin/gold
+  gprof: /usr/local/bin/gprof
+  ld: /usr/local/bin/ld
+  ld.bfd: /usr/local/bin/ld.bfd
+  ld.gold: /usr/local/bin/ld.gold
+  ngm: /usr/local/bin/ngm
+  ngm-core: /usr/local/bin/ngm-core
+  ngm-core-debug: /usr/local/bin/ngm-core-debug
+  ngm-debug: /usr/local/bin/ngm-debug
+  ngm-log: /usr/local/bin/ngm-log
+  ngm-utils: /usr/local/bin/ngm-utils
+  ngm-utils-debug: /usr/local/bin/ngm-utils-debug
+  nm: /usr/local/bin/nm
+  objcopy: /usr/local/bin/objcopy
+  objdump: /usr/local/bin/objdump
+  oclTool: /usr/local/bin/oclTool
+  ranlib: /usr/local/bin/ranlib
+  readelf: /usr/local/bin/readelf
+  size: /usr/local/bin/size
+  slamdunk: /usr/local/bin/slamdunk
+  splash: /usr/local/bin/splash
+  strings: /usr/local/bin/strings
+  strip: /usr/local/bin/strip
+  varscan: /usr/local/bin/varscan

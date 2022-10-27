@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qusage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qusage
+latest:
+  2.28.0--r41hdfd78af_0: sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3
+tags:
+  2.28.0--r41hdfd78af_0: sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3
+docker: quay.io/biocontainers/bioconductor-qusage

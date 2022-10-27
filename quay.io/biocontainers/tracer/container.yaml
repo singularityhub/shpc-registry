@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tracer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tracer
+latest:
+  1.7.2--hdfd78af_0: sha256:cc65fca22c40815bf11d20e1cf53fb62965b7a9705514e790a6a142648254f35
+tags:
+  1.7.2--hdfd78af_0: sha256:cc65fca22c40815bf11d20e1cf53fb62965b7a9705514e790a6a142648254f35
+docker: quay.io/biocontainers/tracer
+aliases:
+  tracer: /usr/local/bin/tracer

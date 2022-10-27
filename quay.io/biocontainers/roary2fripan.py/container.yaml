@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/roary2fripan.py
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for roary2fripan.py
+latest:
+  0.1--hdfd78af_2: sha256:6b2167e300074cd32f8a1f0ed58adeaa059af958575224a36c9fd83b0e790aeb
+tags:
+  0.1--hdfd78af_2: sha256:6b2167e300074cd32f8a1f0ed58adeaa059af958575224a36c9fd83b0e790aeb
+docker: quay.io/biocontainers/roary2fripan.py
+aliases:
+  roary2fripan.py: /usr/local/bin/roary2fripan.py

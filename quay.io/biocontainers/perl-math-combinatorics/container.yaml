@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-combinatorics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-combinatorics
+latest:
+  0.09--pl5321hdfd78af_2: sha256:6acef3c44aac42adaab67764e4255f7f9c7632d441c7bc53b1811ae79caf1191
+tags:
+  0.09--pl5321hdfd78af_2: sha256:6acef3c44aac42adaab67764e4255f7f9c7632d441c7bc53b1811ae79caf1191
+docker: quay.io/biocontainers/perl-math-combinatorics

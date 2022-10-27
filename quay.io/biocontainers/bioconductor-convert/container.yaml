@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-convert
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-convert
+latest:
+  1.70.0--r41hdfd78af_0: sha256:9eeb0b510b0f8c994feb75d9b2c37a7df19aed4a3fdd274cc567593c51197a53
+tags:
+  1.70.0--r41hdfd78af_0: sha256:9eeb0b510b0f8c994feb75d9b2c37a7df19aed4a3fdd274cc567593c51197a53
+docker: quay.io/biocontainers/bioconductor-convert

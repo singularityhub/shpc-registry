@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pydownsampler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pydownsampler
+latest:
+  1.0--py_0: sha256:9cdc7691bed5e28a1dbc4a2baa9bf4bb6d4f13b43392e97655db50314ddb90e9
+tags:
+  1.0--py_0: sha256:9cdc7691bed5e28a1dbc4a2baa9bf4bb6d4f13b43392e97655db50314ddb90e9
+docker: quay.io/biocontainers/pydownsampler
+aliases:
+  pydownsampler: /usr/local/bin/pydownsampler

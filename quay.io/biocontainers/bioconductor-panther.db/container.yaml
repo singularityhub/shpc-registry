@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-panther.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-panther.db
+latest:
+  1.0.5--r36_0: sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f
+tags:
+  1.0.5--r36_0: sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f
+docker: quay.io/biocontainers/bioconductor-panther.db
+aliases:
+  .bioconductor-panther.db-post-link.sh: /usr/local/bin/.bioconductor-panther.db-post-link.sh
+  .bioconductor-panther.db-pre-unlink.sh: /usr/local/bin/.bioconductor-panther.db-pre-unlink.sh

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clove
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clove
+latest:
+  0.17--hdfd78af_2: sha256:6e44fe93b8364c5c0fe808922ceaef7cb181ddca2a31204ac5b484e126a5dc6f
+tags:
+  0.17--hdfd78af_2: sha256:6e44fe93b8364c5c0fe808922ceaef7cb181ddca2a31204ac5b484e126a5dc6f
+docker: quay.io/biocontainers/clove
+aliases:
+  clove: /usr/local/bin/clove

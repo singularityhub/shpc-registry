@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/lefse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lefse
+latest:
+  1.1.2--pyhdfd78af_0: sha256:6d7acc8bae889c9dd32295783ef17e5c8b75d00a27012283ad95af3dcae7bc27
+tags:
+  1.1.2--pyhdfd78af_0: sha256:6d7acc8bae889c9dd32295783ef17e5c8b75d00a27012283ad95af3dcae7bc27
+docker: quay.io/biocontainers/lefse
+aliases:
+  lefse2circlader.py: /usr/local/bin/lefse2circlader.py
+  lefse_format_input.py: /usr/local/bin/lefse_format_input.py
+  lefse_plot_cladogram.py: /usr/local/bin/lefse_plot_cladogram.py
+  lefse_plot_features.py: /usr/local/bin/lefse_plot_features.py
+  lefse_plot_res.py: /usr/local/bin/lefse_plot_res.py
+  lefse_run.py: /usr/local/bin/lefse_run.py
+  qiime2lefse.py: /usr/local/bin/qiime2lefse.py

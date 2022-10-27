@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/pirs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pirs
+latest:
+  2.0.2--h466657f_6: sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
+tags:
+  2.0.2--h466657f_6: sha256:159052ca3d7861da9e9c6f93f3d4c506afcf22a53d2bf3209430ea0dbf56a216
+docker: quay.io/biocontainers/pirs
+aliases:
+  2bwt-builder: /usr/local/bin/2bwt-builder
+  AUTHORS: /usr/local/bin/AUTHORS
+  COPYING: /usr/local/bin/COPYING
+  NEWS: /usr/local/bin/NEWS
+  alignment_stator: /usr/local/bin/alignment_stator
+  baseCalling_Matrix_analyzer: /usr/local/bin/baseCalling_Matrix_analyzer
+  baseCalling_Matrix_calculator: /usr/local/bin/baseCalling_Matrix_calculator
+  baseCalling_Matrix_merger: /usr/local/bin/baseCalling_Matrix_merger
+  gc_coverage_bias: /usr/local/bin/gc_coverage_bias
+  gc_coverage_bias_plot: /usr/local/bin/gc_coverage_bias_plot
+  indelstat_sam_bam: /usr/local/bin/indelstat_sam_bam
+  pirs: /usr/local/bin/pirs
+  soap: /usr/local/bin/soap
+  soap.coverage: /usr/local/bin/soap.coverage

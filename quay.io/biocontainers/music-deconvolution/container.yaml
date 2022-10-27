@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/music-deconvolution
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for music-deconvolution
+latest:
+  0.1.1--r351_0: sha256:b56c20e835049df83ecb21e599b611d6d835cfc7e1afa0771fa99403eda36576
+tags:
+  0.1.1--r351_0: sha256:b56c20e835049df83ecb21e599b611d6d835cfc7e1afa0771fa99403eda36576
+docker: quay.io/biocontainers/music-deconvolution

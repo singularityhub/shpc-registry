@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-crypt-openssl-guess
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-crypt-openssl-guess
+latest:
+  0.15--pl5321hdfd78af_0: sha256:4026d30d907419b7f52552991d8d5bebc0b1d31022282580f7e0eb23bdb8ac9f
+tags:
+  0.15--pl5321hdfd78af_0: sha256:4026d30d907419b7f52552991d8d5bebc0b1d31022282580f7e0eb23bdb8ac9f
+docker: quay.io/biocontainers/perl-crypt-openssl-guess

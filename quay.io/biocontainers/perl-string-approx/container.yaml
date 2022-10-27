@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-string-approx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-string-approx
+latest:
+  3.27--pl5321hec16e2b_3: sha256:252a2c8c4b99365d0e85e3a0fd9a34d67c56834418d85c1bd638afe88c82c05b
+tags:
+  3.27--pl5321hec16e2b_3: sha256:252a2c8c4b99365d0e85e3a0fd9a34d67c56834418d85c1bd638afe88c82c05b
+docker: quay.io/biocontainers/perl-string-approx

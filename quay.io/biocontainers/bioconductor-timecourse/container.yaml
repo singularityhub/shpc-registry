@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-timecourse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-timecourse
+latest:
+  1.66.0--r41hdfd78af_0: sha256:ce32d2d93957fbdca9b4283c6e35084c88afe3416b201ba5c61fe1955a1d0de5
+tags:
+  1.66.0--r41hdfd78af_0: sha256:ce32d2d93957fbdca9b4283c6e35084c88afe3416b201ba5c61fe1955a1d0de5
+docker: quay.io/biocontainers/bioconductor-timecourse

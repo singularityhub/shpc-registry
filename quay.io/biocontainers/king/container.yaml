@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/king
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for king
+latest:
+  2.2.7--hd03093a_0: sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa
+tags:
+  2.2.7--hd03093a_0: sha256:a858ae9560c407057952bc18e4b5bfd7401022dbe275f66836bbc0e9eec677fa
+docker: quay.io/biocontainers/king
+aliases:
+  king: /usr/local/bin/king

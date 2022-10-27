@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/leviosam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for leviosam
+latest:
+  5.2.1--h9f5acd7_1: sha256:f9ce2891e676628c9c99c59abb272f644a5a337d1ff11dfa6a76702ccd0b2310
+tags:
+  5.2.1--h9f5acd7_1: sha256:f9ce2891e676628c9c99c59abb272f644a5a337d1ff11dfa6a76702ccd0b2310
+docker: quay.io/biocontainers/leviosam
+aliases:
+  leviosam: /usr/local/bin/leviosam

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-arraytv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-arraytv
+latest:
+  1.25.0--r40_0: sha256:c48421abc324102777f48dade28e06e4f98a31002d4e9e8e66d740f2418598e5
+tags:
+  1.25.0--r40_0: sha256:c48421abc324102777f48dade28e06e4f98a31002d4e9e8e66d740f2418598e5
+docker: quay.io/biocontainers/bioconductor-arraytv

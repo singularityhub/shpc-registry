@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-std-fast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-std-fast
+latest:
+  0.0.8--pl5321hdfd78af_2: sha256:7b80c2189685c44726ccbcdec9c434e91370e7a46b947e1d37f84f3c3f05d9f5
+tags:
+  0.0.8--pl5321hdfd78af_2: sha256:7b80c2189685c44726ccbcdec9c434e91370e7a46b947e1d37f84f3c3f05d9f5
+docker: quay.io/biocontainers/perl-class-std-fast

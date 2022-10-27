@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-biclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-biclust
+latest:
+  1.2.0--r3.4.1_0: sha256:d42998c72201856cdaf937dcde82abb50b83035e59e160721f4aaf2f618a4b8d
+tags:
+  1.2.0--r3.4.1_0: sha256:d42998c72201856cdaf937dcde82abb50b83035e59e160721f4aaf2f618a4b8d
+docker: quay.io/biocontainers/r-biclust

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ragene10stv1probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ragene10stv1probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:c763f928350c4dc7dbf2a5cc99828fc151ae79dc71e020ea2e159174680fd1c9
+tags:
+  2.18.0--r41hdfd78af_9: sha256:c763f928350c4dc7dbf2a5cc99828fc151ae79dc71e020ea2e159174680fd1c9
+docker: quay.io/biocontainers/bioconductor-ragene10stv1probe
+aliases:
+  .bioconductor-ragene10stv1probe-post-link.sh: /usr/local/bin/.bioconductor-ragene10stv1probe-post-link.sh
+  .bioconductor-ragene10stv1probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene10stv1probe-pre-unlink.sh

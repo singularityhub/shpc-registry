@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scaden
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scaden
+latest:
+  1.1.2--pyhdfd78af_0: sha256:ef5e03a102cc047853b1e08ea8cfc88fdb73cf6fc7adf4df7a96b2ae23bb6de5
+tags:
+  1.1.2--pyhdfd78af_0: sha256:ef5e03a102cc047853b1e08ea8cfc88fdb73cf6fc7adf4df7a96b2ae23bb6de5
+docker: quay.io/biocontainers/scaden
+aliases:
+  scaden: /usr/local/bin/scaden

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/contrafold
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for contrafold
+latest:
+  2.02--h9f5acd7_1: sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea
+tags:
+  2.02--h9f5acd7_1: sha256:5bcefef7adfe3c3517f092bfa9ca4fcab9e3fc099dba56e35bac24d1975c2eea
+docker: quay.io/biocontainers/contrafold
+aliases:
+  contrafold: /usr/local/bin/contrafold
+  score_prediction: /usr/local/bin/score_prediction

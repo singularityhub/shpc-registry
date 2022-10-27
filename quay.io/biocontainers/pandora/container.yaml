@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pandora
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pandora
+latest:
+  0.9.1--h9f5acd7_1: sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6
+tags:
+  0.9.1--h9f5acd7_1: sha256:8af0e266701249c65ceb9607684c61b7595c1ad2d5e848eebe1437fc39e5e2f6
+docker: quay.io/biocontainers/pandora
+aliases:
+  pandora: /usr/local/bin/pandora

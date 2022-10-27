@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-screpertoire
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-screpertoire
+latest:
+  1.4.0--r41hdfd78af_0: sha256:cea0fd8c6f3618cbfc24cd1d3f6971dbf51b59e32ea8c716728e3f5f4372a4dd
+tags:
+  1.4.0--r41hdfd78af_0: sha256:cea0fd8c6f3618cbfc24cd1d3f6971dbf51b59e32ea8c716728e3f5f4372a4dd
+docker: quay.io/biocontainers/bioconductor-screpertoire

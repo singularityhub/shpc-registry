@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/proteomiqon-proteininference
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteomiqon-proteininference
+latest:
+  0.0.7--hdfd78af_1: sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04
+tags:
+  0.0.7--hdfd78af_1: sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04
+docker: quay.io/biocontainers/proteomiqon-proteininference
+aliases:
+  proteomiqon-proteininference: /usr/local/bin/proteomiqon-proteininference

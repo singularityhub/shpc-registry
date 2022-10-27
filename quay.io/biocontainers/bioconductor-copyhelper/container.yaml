@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-copyhelper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-copyhelper
+latest:
+  1.26.0--r41hdfd78af_1: sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a
+tags:
+  1.26.0--r41hdfd78af_1: sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a
+docker: quay.io/biocontainers/bioconductor-copyhelper
+aliases:
+  .bioconductor-copyhelper-post-link.sh: /usr/local/bin/.bioconductor-copyhelper-post-link.sh
+  .bioconductor-copyhelper-pre-unlink.sh: /usr/local/bin/.bioconductor-copyhelper-pre-unlink.sh

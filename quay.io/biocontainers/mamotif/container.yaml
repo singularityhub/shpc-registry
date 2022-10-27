@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mamotif
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mamotif
+latest:
+  1.1.0--py_0: sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d
+tags:
+  1.1.0--py_0: sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d
+docker: quay.io/biocontainers/mamotif
+aliases:
+  mamotif: /usr/local/bin/mamotif
+  manorm: /usr/local/bin/manorm
+  motifscan: /usr/local/bin/motifscan

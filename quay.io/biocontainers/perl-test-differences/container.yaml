@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-differences
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-differences
+latest:
+  0.67--pl526_0: sha256:3b83f3203f4ca155ec4b6ab242e11ad9b9f73b2e372f26909243ec8371d04d81
+tags:
+  0.67--pl526_0: sha256:3b83f3203f4ca155ec4b6ab242e11ad9b9f73b2e372f26909243ec8371d04d81
+docker: quay.io/biocontainers/perl-test-differences

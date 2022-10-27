@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/digestiflow-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for digestiflow-cli
+latest:
+  0.5.8--h1f4ba0c_3: sha256:ef54a57a006785c13f8c45a5fa0851ef22dd4a01d051182fde086c2a4e51af59
+tags:
+  0.5.8--h1f4ba0c_3: sha256:ef54a57a006785c13f8c45a5fa0851ef22dd4a01d051182fde086c2a4e51af59
+docker: quay.io/biocontainers/digestiflow-cli
+aliases:
+  digestiflow-cli: /usr/local/bin/digestiflow-cli

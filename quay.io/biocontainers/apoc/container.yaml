@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/apoc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for apoc
+latest:
+  1b16--hb48dae3_4: sha256:6b3f95c0e85853011293032cee4f5a2d1f42e6dd46481a2fd59ad7f585e5a2a7
+tags:
+  1b16--hb48dae3_4: sha256:6b3f95c0e85853011293032cee4f5a2d1f42e6dd46481a2fd59ad7f585e5a2a7
+docker: quay.io/biocontainers/apoc
+aliases:
+  apoc: /usr/local/bin/apoc

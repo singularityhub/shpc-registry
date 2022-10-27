@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-tee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-tee
+latest:
+  0.07--pl5321hdfd78af_2: sha256:8f5a447808415d57e35307e5709696a26a35e2172efbe01396725e4228c1ab68
+tags:
+  0.07--pl5321hdfd78af_2: sha256:8f5a447808415d57e35307e5709696a26a35e2172efbe01396725e4228c1ab68
+docker: quay.io/biocontainers/perl-file-tee

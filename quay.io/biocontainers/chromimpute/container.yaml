@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/chromimpute
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chromimpute
+latest:
+  1.0.3--ha8f3691_1: sha256:e0cc9c33d4fb73ef569fe48c62f37a5495bfe3e7ae02204a279392160e1e90e8
+tags:
+  1.0.3--ha8f3691_1: sha256:e0cc9c33d4fb73ef569fe48c62f37a5495bfe3e7ae02204a279392160e1e90e8
+docker: quay.io/biocontainers/chromimpute
+aliases:
+  ChromImpute: /usr/local/bin/ChromImpute

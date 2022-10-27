@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-facsdorit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-facsdorit
+latest:
+  1.30.0--r40_0: sha256:8ed4501070c5b4797bbe47454e880be6c9ea6539117550d7d2d096be7ca27fc9
+tags:
+  1.30.0--r40_0: sha256:8ed4501070c5b4797bbe47454e880be6c9ea6539117550d7d2d096be7ca27fc9
+docker: quay.io/biocontainers/bioconductor-facsdorit
+aliases:
+  .bioconductor-facsdorit-post-link.sh: /usr/local/bin/.bioconductor-facsdorit-post-link.sh
+  .bioconductor-facsdorit-pre-unlink.sh: /usr/local/bin/.bioconductor-facsdorit-pre-unlink.sh

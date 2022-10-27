@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/graph_embed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for graph_embed
+latest:
+  2.4--py_0: sha256:c97303dcfe3f0c8caaa8ee7b119370b606062ae6304186983100e78fbd919dc9
+tags:
+  2.4--py_0: sha256:c97303dcfe3f0c8caaa8ee7b119370b606062ae6304186983100e78fbd919dc9
+docker: quay.io/biocontainers/graph_embed
+aliases:
+  graphembed: /usr/local/bin/graphembed

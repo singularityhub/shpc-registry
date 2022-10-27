@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/socru
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for socru
+latest:
+  2.2.4--py_1: sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8
+tags:
+  2.2.4--py_1: sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8
+docker: quay.io/biocontainers/socru
+aliases:
+  socru: /usr/local/bin/socru
+  socru_create: /usr/local/bin/socru_create
+  socru_rebuild_profile: /usr/local/bin/socru_rebuild_profile
+  socru_shrink_database: /usr/local/bin/socru_shrink_database
+  socru_species: /usr/local/bin/socru_species
+  socru_update_profile: /usr/local/bin/socru_update_profile

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/blobtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for blobtools
+latest:
+  1.1.1--py_1: sha256:0803c20d87fd54c2c5b03f2d7e7ae15c119dacfc3368379ff7a5f48264cff755
+tags:
+  1.1.1--py_1: sha256:0803c20d87fd54c2c5b03f2d7e7ae15c119dacfc3368379ff7a5f48264cff755
+docker: quay.io/biocontainers/blobtools
+aliases:
+  blobtools: /usr/local/bin/blobtools
+  blobtools-build_nodesdb: /usr/local/bin/blobtools-build_nodesdb

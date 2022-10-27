@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/clinod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clinod
+latest:
+  1.3--hdfd78af_4: sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
+tags:
+  1.3--hdfd78af_4: sha256:d9acb2d2b6a77ffde77c594589d96bb90e35beafed1459865fb1cba0fdaa563e
+docker: quay.io/biocontainers/clinod
+aliases:
+  analyze: /usr/local/bin/analyze
+  batchman: /usr/local/bin/batchman
+  bison: /usr/local/bin/bison
+  clinod: /usr/local/bin/clinod
+  convert2snns: /usr/local/bin/convert2snns
+  feedback-gennet: /usr/local/bin/feedback-gennet
+  ff_bignet: /usr/local/bin/ff_bignet
+  flex: /usr/local/bin/flex
+  flex++: /usr/local/bin/flex++
+  isnns: /usr/local/bin/isnns
+  linknets: /usr/local/bin/linknets
+  m4: /usr/local/bin/m4
+  mkhead: /usr/local/bin/mkhead
+  mkout: /usr/local/bin/mkout
+  mkpat: /usr/local/bin/mkpat
+  netlearn: /usr/local/bin/netlearn
+  netperf: /usr/local/bin/netperf
+  pat_sel: /usr/local/bin/pat_sel
+  pat_sel_simple: /usr/local/bin/pat_sel_simple
+  snns: /usr/local/bin/snns
+  snns2c: /usr/local/bin/snns2c
+  snnsbat: /usr/local/bin/snnsbat
+  td_bignet: /usr/local/bin/td_bignet
+  xgui: /usr/local/bin/xgui
+  yacc: /usr/local/bin/yacc

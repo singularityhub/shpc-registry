@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gdk-pixbuf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gdk-pixbuf
+latest:
+  2.32.2--1: sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5
+tags:
+  2.32.2--1: sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5
+docker: quay.io/biocontainers/gdk-pixbuf

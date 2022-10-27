@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/svjedi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svjedi
+latest:
+  1.1.6--hdfd78af_1: sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301
+tags:
+  1.1.6--hdfd78af_1: sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301
+docker: quay.io/biocontainers/svjedi
+aliases:
+  svjedi.py: /usr/local/bin/svjedi.py

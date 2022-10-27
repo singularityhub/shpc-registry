@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tbsignatureprofiler
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tbsignatureprofiler
+latest:
+  1.6.0--r41hdfd78af_0: sha256:fe4e2a987e315f46c1c4892a11fb3bd7f147d69a3c90f340ab67115756a0d5f2
+tags:
+  1.6.0--r41hdfd78af_0: sha256:fe4e2a987e315f46c1c4892a11fb3bd7f147d69a3c90f340ab67115756a0d5f2
+docker: quay.io/biocontainers/bioconductor-tbsignatureprofiler

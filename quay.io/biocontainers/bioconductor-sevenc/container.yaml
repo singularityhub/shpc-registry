@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sevenc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sevenc
+latest:
+  1.8.0--r40_0: sha256:3970e42abf311ab66b80220517070e8e33cb7453cddc940d0bc2ad2bde88d242
+tags:
+  1.8.0--r40_0: sha256:3970e42abf311ab66b80220517070e8e33cb7453cddc940d0bc2ad2bde88d242
+docker: quay.io/biocontainers/bioconductor-sevenc

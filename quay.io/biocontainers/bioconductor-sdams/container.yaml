@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sdams
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sdams
+latest:
+  1.8.0--r40_0: sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce
+tags:
+  1.8.0--r40_0: sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce
+docker: quay.io/biocontainers/bioconductor-sdams

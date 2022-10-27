@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/hiddendomains
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hiddendomains
+latest:
+  3.1--pl5321r41hdfd78af_3: sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c
+tags:
+  3.1--pl5321r41hdfd78af_3: sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c
+docker: quay.io/biocontainers/hiddendomains
+aliases:
+  binReads.pl: /usr/local/bin/binReads.pl
+  centersToGEM.pl: /usr/local/bin/centersToGEM.pl
+  domainsMergeToBed.pl: /usr/local/bin/domainsMergeToBed.pl
+  domainsToBed.pl: /usr/local/bin/domainsToBed.pl
+  hiddenDomains: /usr/local/bin/hiddenDomains
+  hiddenDomains.R: /usr/local/bin/hiddenDomains.R
+  peakCenters: /usr/local/bin/peakCenters
+  run_hiddenDomains.R: /usr/local/bin/run_hiddenDomains.R
+  run_hiddenDomains_no_control.R: /usr/local/bin/run_hiddenDomains_no_control.R

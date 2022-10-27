@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-monocle3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-monocle3
+latest:
+  1.0.0--r41h9f5acd7_2: sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e
+tags:
+  1.0.0--r41h9f5acd7_2: sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e
+docker: quay.io/biocontainers/r-monocle3

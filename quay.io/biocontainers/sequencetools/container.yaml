@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sequencetools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sequencetools
+latest:
+  1.5.2--hec16e2b_1: sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f
+tags:
+  1.5.2--hec16e2b_1: sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f
+docker: quay.io/biocontainers/sequencetools
+aliases:
+  genoStats: /usr/local/bin/genoStats
+  pileupCaller: /usr/local/bin/pileupCaller
+  vcf2eigenstrat: /usr/local/bin/vcf2eigenstrat

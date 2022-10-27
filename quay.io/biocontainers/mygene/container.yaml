@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mygene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mygene
+latest:
+  3.2.2--pyh5e36f6f_0: sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666
+tags:
+  3.2.2--pyh5e36f6f_0: sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666
+docker: quay.io/biocontainers/mygene

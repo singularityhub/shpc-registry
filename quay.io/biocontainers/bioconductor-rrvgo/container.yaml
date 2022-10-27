@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rrvgo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rrvgo
+latest:
+  1.6.0--r41hdfd78af_0: sha256:ce506aa0bb51320cea491d407e70a79c650e5e6dcf0111470051f81d44b9b164
+tags:
+  1.6.0--r41hdfd78af_0: sha256:ce506aa0bb51320cea491d407e70a79c650e5e6dcf0111470051f81d44b9b164
+docker: quay.io/biocontainers/bioconductor-rrvgo

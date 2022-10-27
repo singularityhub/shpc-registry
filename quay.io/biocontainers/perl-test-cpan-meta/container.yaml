@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-cpan-meta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-cpan-meta
+latest:
+  0.25--pl5321hdfd78af_3: sha256:f6b99e61d272babea7a9de06f376816de7732e907eb8758744f8a09ddded8eed
+tags:
+  0.25--pl5321hdfd78af_3: sha256:f6b99e61d272babea7a9de06f376816de7732e907eb8758744f8a09ddded8eed
+docker: quay.io/biocontainers/perl-test-cpan-meta

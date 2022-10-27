@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/starcode
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for starcode
+latest:
+  1.4--hec16e2b_2: sha256:130c9c6d1dd73e5b7e28c79c7ef798ce3beab3603679767c8d31e0eb36825aac
+tags:
+  1.4--hec16e2b_2: sha256:130c9c6d1dd73e5b7e28c79c7ef798ce3beab3603679767c8d31e0eb36825aac
+docker: quay.io/biocontainers/starcode
+aliases:
+  starcode: /usr/local/bin/starcode

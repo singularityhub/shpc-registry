@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-breastcancermainz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-breastcancermainz
+latest:
+  1.32.0--r41hdfd78af_1: sha256:b5f87a526ca64699540f01b8906513f80d22faec934385a4836df227aa56340d
+tags:
+  1.32.0--r41hdfd78af_1: sha256:b5f87a526ca64699540f01b8906513f80d22faec934385a4836df227aa56340d
+docker: quay.io/biocontainers/bioconductor-breastcancermainz
+aliases:
+  .bioconductor-breastcancermainz-post-link.sh: /usr/local/bin/.bioconductor-breastcancermainz-post-link.sh
+  .bioconductor-breastcancermainz-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancermainz-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-isva
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-isva
+latest:
+  1.9--r41h3342da4_4: sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04
+tags:
+  1.9--r41h3342da4_4: sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04
+docker: quay.io/biocontainers/r-isva

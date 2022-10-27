@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/ngseqbasic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngseqbasic
+latest:
+  2.0.1--pl5.22.0.1_1: sha256:727bb15c8bc37d98c87046a6eeda207a86c0d5fe574cbc54c51e345710402331
+tags:
+  2.0.1--pl5.22.0.1_1: sha256:727bb15c8bc37d98c87046a6eeda207a86c0d5fe574cbc54c51e345710402331
+docker: quay.io/biocontainers/ngseqbasic
+aliases:
+  NGseqBasic: /usr/local/bin/NGseqBasic
+  bedClip: /usr/local/bin/bedClip
+  bedGraphPack: /usr/local/bin/bedGraphPack
+  msql2mysql: /usr/local/bin/msql2mysql
+  mysql_convert_table_format: /usr/local/bin/mysql_convert_table_format
+  mysql_find_rows: /usr/local/bin/mysql_find_rows
+  mysql_fix_extensions: /usr/local/bin/mysql_fix_extensions
+  mysql_setpermission: /usr/local/bin/mysql_setpermission
+  mysql_waitpid: /usr/local/bin/mysql_waitpid
+  mysql_zap: /usr/local/bin/mysql_zap
+  mysqlaccess: /usr/local/bin/mysqlaccess
+  mysqlaccess.conf: /usr/local/bin/mysqlaccess.conf
+  mysqlbug: /usr/local/bin/mysqlbug
+  mysqlhotcopy: /usr/local/bin/mysqlhotcopy
+  testEnvironment: /usr/local/bin/testEnvironment

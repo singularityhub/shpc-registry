@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-types-serialiser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-types-serialiser
+latest:
+  1.01--pl5321hdfd78af_0: sha256:098332012427beceb7995c8a405558f94018448027b33d2725b37cb283999bc0
+tags:
+  1.01--pl5321hdfd78af_0: sha256:098332012427beceb7995c8a405558f94018448027b33d2725b37cb283999bc0
+docker: quay.io/biocontainers/perl-types-serialiser

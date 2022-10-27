@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ruby-dna-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ruby-dna-tools
+latest:
+  1.0--hdfd78af_3: sha256:ee7f4ce825a97980497193855ad35871b2cc24968540b276bc4126c9d6aa829d
+tags:
+  1.0--hdfd78af_3: sha256:ee7f4ce825a97980497193855ad35871b2cc24968540b276bc4126c9d6aa829d
+docker: quay.io/biocontainers/ruby-dna-tools

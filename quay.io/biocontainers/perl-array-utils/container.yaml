@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-array-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-array-utils
+latest:
+  0.5--pl5321hdfd78af_3: sha256:22c7eb7a928467b3069b224756ed9cfe3c01cf01cb5c8521f8ef1d811825c9a8
+tags:
+  0.5--pl5321hdfd78af_3: sha256:22c7eb7a928467b3069b224756ed9cfe3c01cf01cb5c8521f8ef1d811825c9a8
+docker: quay.io/biocontainers/perl-array-utils

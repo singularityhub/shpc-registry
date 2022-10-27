@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biskit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biskit
+latest:
+  2.5.1--py_0: sha256:7b46cb7bb49d185cb0f95c7fe67fe57111b6446e3f18656653faf3ab16645db6
+tags:
+  2.5.1--py_0: sha256:7b46cb7bb49d185cb0f95c7fe67fe57111b6446e3f18656653faf3ab16645db6
+docker: quay.io/biocontainers/biskit
+aliases:
+  bis.py: /usr/local/bin/bis.py

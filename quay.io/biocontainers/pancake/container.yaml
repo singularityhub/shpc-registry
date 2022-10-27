@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pancake
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pancake
+latest:
+  1.1.2--py_2: sha256:8b9a9dc96da6c978637c4bde352416d52f84986fdd28f47971d4d5f440707421
+tags:
+  1.1.2--py_2: sha256:8b9a9dc96da6c978637c4bde352416d52f84986fdd28f47971d4d5f440707421
+docker: quay.io/biocontainers/pancake
+aliases:
+  pancake: /usr/local/bin/pancake

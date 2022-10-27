@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gem
+latest:
+  1.8.0--r351_0: sha256:f04340f70500905d5c67fa4b8c7d8434b9130d65fc7e0d0d9fdaa3de0b796c02
+tags:
+  1.8.0--r351_0: sha256:f04340f70500905d5c67fa4b8c7d8434b9130d65fc7e0d0d9fdaa3de0b796c02
+docker: quay.io/biocontainers/bioconductor-gem

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/compare-reads
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for compare-reads
+latest:
+  0.0.1--py27h14c3975_0: sha256:fdca58249bb54791640360e11932cafb17db0c7389ebd7ccddf203141d80da5d
+tags:
+  0.0.1--py27h14c3975_0: sha256:fdca58249bb54791640360e11932cafb17db0c7389ebd7ccddf203141d80da5d
+docker: quay.io/biocontainers/compare-reads

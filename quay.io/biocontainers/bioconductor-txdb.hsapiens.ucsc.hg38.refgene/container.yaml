@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.refgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.refgene
+latest:
+  3.13.0--r41hdfd78af_2: sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b
+tags:
+  3.13.0--r41hdfd78af_2: sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b
+docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene
+aliases:
+  .bioconductor-txdb.hsapiens.ucsc.hg38.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.refgene-post-link.sh
+  .bioconductor-txdb.hsapiens.ucsc.hg38.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.refgene-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/requests-cache
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for requests-cache
+latest:
+  0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
+tags:
+  0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
+docker: quay.io/biocontainers/requests-cache

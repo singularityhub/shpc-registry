@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-lmdme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lmdme
+latest:
+  1.36.0--r41hdfd78af_0: sha256:2afb0a43e3df24fc288a48c24ba49a212c04b043c221990a789777b89a65fc00
+tags:
+  1.36.0--r41hdfd78af_0: sha256:2afb0a43e3df24fc288a48c24ba49a212c04b043c221990a789777b89a65fc00
+docker: quay.io/biocontainers/bioconductor-lmdme
+aliases:
+  .bioconductor-stemhypoxia-post-link.sh: /usr/local/bin/.bioconductor-stemhypoxia-post-link.sh
+  .bioconductor-stemhypoxia-pre-unlink.sh: /usr/local/bin/.bioconductor-stemhypoxia-pre-unlink.sh

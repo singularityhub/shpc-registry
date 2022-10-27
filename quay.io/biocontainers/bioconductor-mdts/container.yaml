@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mdts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mdts
+latest:
+  1.8.0--r40_0: sha256:5b6278963b1b6fee4eeee3031afed194879b5e759d6bd5f945da388c76f6f750
+tags:
+  1.8.0--r40_0: sha256:5b6278963b1b6fee4eeee3031afed194879b5e759d6bd5f945da388c76f6f750
+docker: quay.io/biocontainers/bioconductor-mdts

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/hitea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hitea
+latest:
+  0.1.5--hdfd78af_1: sha256:da9a6e7d5dd48da1d698ffae243a1a24f5088a7fe37260291c381790f25f06d6
+tags:
+  0.1.5--hdfd78af_1: sha256:da9a6e7d5dd48da1d698ffae243a1a24f5088a7fe37260291c381790f25f06d6
+docker: quay.io/biocontainers/hitea
+aliases:
+  hitea: /usr/local/bin/hitea
+  pairtools: /usr/local/bin/pairtools
+  pbgzip: /usr/local/bin/pbgzip

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-blockmodeling
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-blockmodeling
+latest:
+  0.1.8--r3.3.1_1: sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c
+tags:
+  0.1.8--r3.3.1_1: sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c
+docker: quay.io/biocontainers/r-blockmodeling

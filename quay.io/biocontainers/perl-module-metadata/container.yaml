@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-metadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-metadata
+latest:
+  1.000037--pl5321hdfd78af_0: sha256:2b0d35995c9351369b6cb6dab351fc071c89c6ce4472a77b69c792a15500f990
+tags:
+  1.000037--pl5321hdfd78af_0: sha256:2b0d35995c9351369b6cb6dab351fc071c89c6ce4472a77b69c792a15500f990
+docker: quay.io/biocontainers/perl-module-metadata

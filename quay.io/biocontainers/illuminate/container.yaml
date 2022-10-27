@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/illuminate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for illuminate
+latest:
+  0.6.3--py35_0: sha256:a004c9285f5d0d817bf51f79d6ea435eb0f634e5d66b8f02b7ffb7ed02d4b9ea
+tags:
+  0.6.3--py35_0: sha256:a004c9285f5d0d817bf51f79d6ea435eb0f634e5d66b8f02b7ffb7ed02d4b9ea
+docker: quay.io/biocontainers/illuminate
+aliases:
+  illuminate: /usr/local/bin/illuminate

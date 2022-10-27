@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/bumbershoot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bumbershoot
+latest:
+  3_0_21142_0e4f4a4--h7d875b9_0: sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
+tags:
+  3_0_21142_0e4f4a4--h7d875b9_0: sha256:06ddd345f823d00f2ea26d3fe6a65588df7263040aa2d7380e8d8c49a7b3428e
+docker: quay.io/biocontainers/bumbershoot
+aliases:
+  adjustScanRankerScoreByGroup: /usr/local/bin/adjustScanRankerScoreByGroup
+  blosum62.fas: /usr/local/bin/blosum62.fas
+  directag: /usr/local/bin/directag
+  gene2protein.db3: /usr/local/bin/gene2protein.db3
+  idpAssemble: /usr/local/bin/idpAssemble
+  idpQonvert: /usr/local/bin/idpQonvert
+  idpQuery: /usr/local/bin/idpQuery
+  libIdpSqlExtensions.so: /usr/local/bin/libIdpSqlExtensions.so
+  myrimatch: /usr/local/bin/myrimatch
+  pepitome: /usr/local/bin/pepitome
+  quameter: /usr/local/bin/quameter
+  tagrecon: /usr/local/bin/tagrecon
+  unimod.xml: /usr/local/bin/unimod.xml

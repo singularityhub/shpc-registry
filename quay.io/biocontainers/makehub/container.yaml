@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/makehub
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for makehub
+latest:
+  1.0.5--1: sha256:bacc7df7a0af178ce0f37d361f72dd7388b689246d53e35384f0405601f63081
+tags:
+  1.0.5--1: sha256:bacc7df7a0af178ce0f37d361f72dd7388b689246d53e35384f0405601f63081
+docker: quay.io/biocontainers/makehub
+aliases:
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
+  autoRun.pathInfo: /usr/local/bin/autoRun.pathInfo
+  compileSpliceCands: /usr/local/bin/compileSpliceCands
+  computeFlankingRegion.pl: /usr/local/bin/computeFlankingRegion.pl
+  espoca: /usr/local/bin/espoca
+  eval_multi_gtf.pl: /usr/local/bin/eval_multi_gtf.pl
+  filterGenesIn.pl: /usr/local/bin/filterGenesIn.pl
+  findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
+  genePredCheck: /usr/local/bin/genePredCheck
+  genePredToBigGenePred: /usr/local/bin/genePredToBigGenePred
+  getAnnoFastaFromJoingenes.py: /usr/local/bin/getAnnoFastaFromJoingenes.py
+  getLinesMatching.pl: /usr/local/bin/getLinesMatching.pl
+  gtf2aa.pl: /usr/local/bin/gtf2aa.pl
+  gth2gtf.pl: /usr/local/bin/gth2gtf.pl
+  hgGcPercent: /usr/local/bin/hgGcPercent
+  intron2exex.pl: /usr/local/bin/intron2exex.pl
+  ixIxx: /usr/local/bin/ixIxx
+  make_hub.py: /usr/local/bin/make_hub.py
+  ratewig.pl: /usr/local/bin/ratewig.pl
+  setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
+  utrrnaseq: /usr/local/bin/utrrnaseq
+  webserver-results.body: /usr/local/bin/webserver-results.body

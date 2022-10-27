@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/metatree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metatree
+latest:
+  0.0.1--py_0: sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d
+tags:
+  0.0.1--py_0: sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d
+docker: quay.io/biocontainers/metatree
+aliases:
+  genometreetk: /usr/local/bin/genometreetk
+  metatree: /usr/local/bin/metatree
+  phylorank: /usr/local/bin/phylorank

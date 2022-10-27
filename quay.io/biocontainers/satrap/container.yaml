@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/satrap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for satrap
+latest:
+  0.2--h9f5acd7_4: sha256:7a8fedacbd66ec9ea029931f76ac926c95ae3b0168088daec30808fde0b8219e
+tags:
+  0.2--h9f5acd7_4: sha256:7a8fedacbd66ec9ea029931f76ac926c95ae3b0168088daec30808fde0b8219e
+docker: quay.io/biocontainers/satrap
+aliases:
+  2csfastq_1csfastq: /usr/local/bin/2csfastq_1csfastq
+  cs2bs_assembly: /usr/local/bin/cs2bs_assembly
+  csfasta_to_fastq: /usr/local/bin/csfasta_to_fastq
+  fasta_remove: /usr/local/bin/fasta_remove
+  pass: /usr/local/bin/pass
+  rename_fastq_tag: /usr/local/bin/rename_fastq_tag
+  satrap: /usr/local/bin/satrap

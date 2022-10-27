@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/genmod
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genmod
+latest:
+  3.7.4--pyh5e36f6f_0: sha256:6be47a76892f05bcc2754a9c3d25ecda406e2a3b3ac6b4b7fd58ca14402d8ec9
+tags:
+  3.7.4--pyh5e36f6f_0: sha256:6be47a76892f05bcc2754a9c3d25ecda406e2a3b3ac6b4b7fd58ca14402d8ec9
+docker: quay.io/biocontainers/genmod
+aliases:
+  genmod: /usr/local/bin/genmod
+  ped_parser: /usr/local/bin/ped_parser

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/deepvariant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deepvariant
+latest:
+  1.4.0--py36hf3e76ba_0: sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3
+tags:
+  1.4.0--py36hf3e76ba_0: sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3
+docker: quay.io/biocontainers/deepvariant
+aliases:
+  .deepvariant-post-link.sh: /usr/local/bin/.deepvariant-post-link.sh
+  .deepvariant-pre-unlink.sh: /usr/local/bin/.deepvariant-pre-unlink.sh
+  dv_call_variants.py: /usr/local/bin/dv_call_variants.py
+  dv_make_examples.py: /usr/local/bin/dv_make_examples.py
+  dv_postprocess_variants.py: /usr/local/bin/dv_postprocess_variants.py

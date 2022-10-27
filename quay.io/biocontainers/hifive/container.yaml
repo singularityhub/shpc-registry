@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hifive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hifive
+latest:
+  1.5.7--py27h20e14e4_4: sha256:82318eb1c9364828ce4e187f2f442edbfeaa7e2d8e6ca9a4eef94208094ad0e4
+tags:
+  1.5.7--py27h20e14e4_4: sha256:82318eb1c9364828ce4e187f2f442edbfeaa7e2d8e6ca9a4eef94208094ad0e4
+docker: quay.io/biocontainers/hifive
+aliases:
+  fetch_mrh_data: /usr/local/bin/fetch_mrh_data
+  hifive: /usr/local/bin/hifive

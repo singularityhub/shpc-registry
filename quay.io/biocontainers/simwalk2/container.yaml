@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/simwalk2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simwalk2
+latest:
+  2.91--hb2e0dee_4: sha256:ebf2afe6ca3fca8d4827a9542d6711ab1b748fb90958c7b11f7531f0a295571b
+tags:
+  2.91--hb2e0dee_4: sha256:ebf2afe6ca3fca8d4827a9542d6711ab1b748fb90958c7b11f7531f0a295571b
+docker: quay.io/biocontainers/simwalk2
+aliases:
+  simwalk2: /usr/local/bin/simwalk2

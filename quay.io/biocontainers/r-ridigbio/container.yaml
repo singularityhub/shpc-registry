@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ridigbio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ridigbio
+latest:
+  0.3.5--r351h6115d3f_3: sha256:553a06111d87a9441a18b9a14c9ec0e4bf2833c85e3a42ae9418097efd2a5855
+tags:
+  0.3.5--r351h6115d3f_3: sha256:553a06111d87a9441a18b9a14c9ec0e4bf2833c85e3a42ae9418097efd2a5855
+docker: quay.io/biocontainers/r-ridigbio

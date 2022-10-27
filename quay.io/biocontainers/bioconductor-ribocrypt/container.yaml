@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ribocrypt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ribocrypt
+latest:
+  1.0.0--r41hdfd78af_0: sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2
+tags:
+  1.0.0--r41hdfd78af_0: sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2
+docker: quay.io/biocontainers/bioconductor-ribocrypt

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gaia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gaia
+latest:
+  2.38.0--r41hdfd78af_0: sha256:21a82a3eb2d857c5dc5ded298dad60f9bc67cfa1de81bc16875120642f1d4f00
+tags:
+  2.38.0--r41hdfd78af_0: sha256:21a82a3eb2d857c5dc5ded298dad60f9bc67cfa1de81bc16875120642f1d4f00
+docker: quay.io/biocontainers/bioconductor-gaia

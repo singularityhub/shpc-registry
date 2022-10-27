@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-encodexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-encodexplorer
+latest:
+  2.8.0--r351_0: sha256:d4ebcec176683724d7c29d8ca10488f837b09cf65ce1658b03e13b334a7d1875
+tags:
+  2.8.0--r351_0: sha256:d4ebcec176683724d7c29d8ca10488f837b09cf65ce1658b03e13b334a7d1875
+docker: quay.io/biocontainers/bioconductor-encodexplorer

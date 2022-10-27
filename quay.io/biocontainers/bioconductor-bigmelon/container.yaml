@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bigmelon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bigmelon
+latest:
+  1.8.0--r351_0: sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f
+tags:
+  1.8.0--r351_0: sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f
+docker: quay.io/biocontainers/bioconductor-bigmelon

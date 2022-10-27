@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/skewer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for skewer
+latest:
+  0.2.2--hc9558a2_3: sha256:7aa88909b49729c20a3711c59751cc119582d35d67c9b0efde3f727e98d85cc6
+tags:
+  0.2.2--hc9558a2_3: sha256:7aa88909b49729c20a3711c59751cc119582d35d67c9b0efde3f727e98d85cc6
+docker: quay.io/biocontainers/skewer
+aliases:
+  skewer: /usr/local/bin/skewer

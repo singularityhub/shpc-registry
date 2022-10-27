@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/circos-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for circos-tools
+latest:
+  0.23--hdfd78af_3: sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
+tags:
+  0.23--hdfd78af_3: sha256:d3b4ceafff92761cd3a3fc5425c48bd6815fdb553fd795cb12fb84841d5b7fb9
+docker: quay.io/biocontainers/circos-tools
+aliases:
+  binlinks: /usr/local/bin/binlinks
+  bundlelinks: /usr/local/bin/bundlelinks
+  calcdatarange: /usr/local/bin/calcdatarange
+  clustal2link: /usr/local/bin/clustal2link
+  colorinterpolate: /usr/local/bin/colorinterpolate
+  convertlinks: /usr/local/bin/convertlinks
+  filterlinks: /usr/local/bin/filterlinks
+  make-conf: /usr/local/bin/make-conf
+  make-table: /usr/local/bin/make-table
+  orderchr: /usr/local/bin/orderchr
+  parse-category: /usr/local/bin/parse-category
+  parse-table: /usr/local/bin/parse-table
+  randomdata: /usr/local/bin/randomdata
+  randomlinks: /usr/local/bin/randomlinks
+  resample: /usr/local/bin/resample

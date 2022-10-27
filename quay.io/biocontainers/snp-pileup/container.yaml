@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/snp-pileup
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snp-pileup
+latest:
+  v0.5.14--h3cba802_0: sha256:6f12af3a6e7ed99bf43de20dc2c26e03e438e3ed30068faecae766dcf7ce37a2
+tags:
+  v0.5.14--h3cba802_0: sha256:6f12af3a6e7ed99bf43de20dc2c26e03e438e3ed30068faecae766dcf7ce37a2
+docker: quay.io/biocontainers/snp-pileup
+aliases:
+  snp-pileup: /usr/local/bin/snp-pileup

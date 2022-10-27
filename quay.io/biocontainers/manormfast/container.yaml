@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/manormfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for manormfast
+latest:
+  0.1.2--py36_1: sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1
+tags:
+  0.1.2--py36_1: sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1
+docker: quay.io/biocontainers/manormfast
+aliases:
+  MAnormFast: /usr/local/bin/MAnormFast

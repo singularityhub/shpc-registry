@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/hopla
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hopla
+latest:
+  1.2.0--hdfd78af_0: sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c
+tags:
+  1.2.0--hdfd78af_0: sha256:b51562cc5c7e42534544ce20eee9a5dc862e8882d498fe9e957de258344fe60c
+docker: quay.io/biocontainers/hopla
+aliases:
+  hapmapConverter: /usr/local/bin/hapmapConverter
+  hopla: /usr/local/bin/hopla
+  merlin: /usr/local/bin/merlin
+  merlin-offline: /usr/local/bin/merlin-offline
+  merlin-regress: /usr/local/bin/merlin-regress
+  minx: /usr/local/bin/minx
+  minx-offline: /usr/local/bin/minx-offline
+  pedmerge: /usr/local/bin/pedmerge
+  pedstats: /usr/local/bin/pedstats
+  pedwipe: /usr/local/bin/pedwipe

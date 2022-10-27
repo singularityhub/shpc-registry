@@ -1,0 +1,61 @@
+url: https://biocontainers.pro/tools/fasta3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fasta3
+latest:
+  36.3.8h--hec16e2b_0: sha256:74d827176d102207aadbc3d22a32df8e4b9842a8880c578cdeca77ff9ec3d213
+tags:
+  36.3.8h--hec16e2b_0: sha256:74d827176d102207aadbc3d22a32df8e4b9842a8880c578cdeca77ff9ec3d213
+docker: quay.io/biocontainers/fasta3
+aliases:
+  ann_exons_all.pl: /usr/local/bin/ann_exons_all.pl
+  ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
+  ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
+  ann_exons_up_sql.pl: /usr/local/bin/ann_exons_up_sql.pl
+  ann_exons_up_sql_www.pl: /usr/local/bin/ann_exons_up_sql_www.pl
+  ann_exons_up_www.pl: /usr/local/bin/ann_exons_up_www.pl
+  ann_feats2ipr.pl: /usr/local/bin/ann_feats2ipr.pl
+  ann_feats2ipr_e.pl: /usr/local/bin/ann_feats2ipr_e.pl
+  ann_feats_up_sql.pl: /usr/local/bin/ann_feats_up_sql.pl
+  ann_feats_up_www2.pl: /usr/local/bin/ann_feats_up_www2.pl
+  ann_ipr_www.pl: /usr/local/bin/ann_ipr_www.pl
+  ann_pdb_cath.pl: /usr/local/bin/ann_pdb_cath.pl
+  ann_pdb_vast.pl: /usr/local/bin/ann_pdb_vast.pl
+  ann_pfam30_tmptbl.pl: /usr/local/bin/ann_pfam30_tmptbl.pl
+  ann_pfam_sql.pl: /usr/local/bin/ann_pfam_sql.pl
+  ann_pfam_www.pl: /usr/local/bin/ann_pfam_www.pl
+  ann_upfeats_pfam_www_e.pl: /usr/local/bin/ann_upfeats_pfam_www_e.pl
+  annot_blast_btop2.pl: /usr/local/bin/annot_blast_btop2.pl
+  color_defs.pl: /usr/local/bin/color_defs.pl
+  exp_up_ensg.pl: /usr/local/bin/exp_up_ensg.pl
+  expand_links.pl: /usr/local/bin/expand_links.pl
+  expand_refseq_isoforms.pl: /usr/local/bin/expand_refseq_isoforms.pl
+  expand_uniref50.pl: /usr/local/bin/expand_uniref50.pl
+  expand_up_isoforms.pl: /usr/local/bin/expand_up_isoforms.pl
+  fasta36: /usr/local/bin/fasta36
+  fastf36: /usr/local/bin/fastf36
+  fastm36: /usr/local/bin/fastm36
+  fasts36: /usr/local/bin/fasts36
+  fastx36: /usr/local/bin/fastx36
+  fasty36: /usr/local/bin/fasty36
+  ggsearch36: /usr/local/bin/ggsearch36
+  glsearch36: /usr/local/bin/glsearch36
+  lalign36: /usr/local/bin/lalign36
+  lav2plt.pl: /usr/local/bin/lav2plt.pl
+  lavplt_ps.pl: /usr/local/bin/lavplt_ps.pl
+  lavplt_svg.pl: /usr/local/bin/lavplt_svg.pl
+  links2sql.pl: /usr/local/bin/links2sql.pl
+  m8_btop_msa.pl: /usr/local/bin/m8_btop_msa.pl
+  m9B_btop_msa.pl: /usr/local/bin/m9B_btop_msa.pl
+  map_db: /usr/local/bin/map_db
+  merge_blast_btab.pl: /usr/local/bin/merge_blast_btab.pl
+  merge_fasta_btab.pl: /usr/local/bin/merge_fasta_btab.pl
+  parse_m9.pl: /usr/local/bin/parse_m9.pl
+  res2R.pl: /usr/local/bin/res2R.pl
+  shuffle_embed.pl: /usr/local/bin/shuffle_embed.pl
+  ssearch36: /usr/local/bin/ssearch36
+  summ_domain_ident.pl: /usr/local/bin/summ_domain_ident.pl
+  tfastf36: /usr/local/bin/tfastf36
+  tfastm36: /usr/local/bin/tfastm36
+  tfasts36: /usr/local/bin/tfasts36
+  tfastx36: /usr/local/bin/tfastx36
+  tfasty36: /usr/local/bin/tfasty36

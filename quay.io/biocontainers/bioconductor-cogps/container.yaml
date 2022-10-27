@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cogps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cogps
+latest:
+  1.38.0--r41hdfd78af_0: sha256:26b887ecc8fff72c0035efdb6e21e1757886e701783c330d9b4428cb9b3bcea7
+tags:
+  1.38.0--r41hdfd78af_0: sha256:26b887ecc8fff72c0035efdb6e21e1757886e701783c330d9b4428cb9b3bcea7
+docker: quay.io/biocontainers/bioconductor-cogps

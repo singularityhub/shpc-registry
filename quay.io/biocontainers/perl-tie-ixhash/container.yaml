@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tie-ixhash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tie-ixhash
+latest:
+  1.23--pl5321hdfd78af_3: sha256:c243a755dacae015e9483e007a8df1b45030a4519161356329f7a35ae4bb21ac
+tags:
+  1.23--pl5321hdfd78af_3: sha256:c243a755dacae015e9483e007a8df1b45030a4519161356329f7a35ae4bb21ac
+docker: quay.io/biocontainers/perl-tie-ixhash

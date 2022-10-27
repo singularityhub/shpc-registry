@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fastphylo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastphylo
+latest:
+  1.0.3--h648b6df_5: sha256:6e9756acdd3d68fdc034a4fe7dece58dc23c8c78d41fb1661c11aa794a33a130
+tags:
+  1.0.3--h648b6df_5: sha256:6e9756acdd3d68fdc034a4fe7dece58dc23c8c78d41fb1661c11aa794a33a130
+docker: quay.io/biocontainers/fastphylo
+aliases:
+  fastdist: /usr/local/bin/fastdist
+  fastprot: /usr/local/bin/fastprot
+  fastprot_mpi: /usr/local/bin/fastprot_mpi
+  fnj: /usr/local/bin/fnj

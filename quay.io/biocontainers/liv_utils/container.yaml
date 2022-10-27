@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/liv_utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for liv_utils
+latest:
+  0.0.1--pyhdfd78af_0: sha256:69a9523849752659e6b87d129efc44cd805354e3c379437a8cb24b6586d31326
+tags:
+  0.0.1--pyhdfd78af_0: sha256:69a9523849752659e6b87d129efc44cd805354e3c379437a8cb24b6586d31326
+docker: quay.io/biocontainers/liv_utils

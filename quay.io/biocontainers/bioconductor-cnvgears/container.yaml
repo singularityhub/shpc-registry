@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnvgears
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnvgears
+latest:
+  1.2.0--r41hdfd78af_0: sha256:7e4b667a3b0b324994ebeed87d95b6066a43a2e440644eedc59b3fba92c6da87
+tags:
+  1.2.0--r41hdfd78af_0: sha256:7e4b667a3b0b324994ebeed87d95b6066a43a2e440644eedc59b3fba92c6da87
+docker: quay.io/biocontainers/bioconductor-cnvgears

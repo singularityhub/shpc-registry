@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/galaxy-ie-helpers
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-ie-helpers
+latest:
+  0.2.5--pyh864c0ab_1: sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f
+tags:
+  0.2.5--pyh864c0ab_1: sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f
+docker: quay.io/biocontainers/galaxy-ie-helpers
+aliases:
+  get: /usr/local/bin/get
+  get_user_history: /usr/local/bin/get_user_history
+  put: /usr/local/bin/put

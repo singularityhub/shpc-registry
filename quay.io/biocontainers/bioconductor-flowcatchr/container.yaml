@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowcatchr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowcatchr
+latest:
+  1.28.0--r41hdfd78af_0: sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f
+tags:
+  1.28.0--r41hdfd78af_0: sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f
+docker: quay.io/biocontainers/bioconductor-flowcatchr

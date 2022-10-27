@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/tesseract
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tesseract
+latest:
+  3.04.01--1: sha256:8d66e16006825133fa6fdedf0a907f897d38e4749eec3572f30d2c3dda448ef6
+tags:
+  3.04.01--1: sha256:8d66e16006825133fa6fdedf0a907f897d38e4749eec3572f30d2c3dda448ef6
+docker: quay.io/biocontainers/tesseract
+aliases:
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  printimage: /usr/local/bin/printimage
+  printsplitimage: /usr/local/bin/printsplitimage
+  printtiff: /usr/local/bin/printtiff
+  splitimage2pdf: /usr/local/bin/splitimage2pdf
+  tesseract: /usr/local/bin/tesseract
+  xtractprotos: /usr/local/bin/xtractprotos

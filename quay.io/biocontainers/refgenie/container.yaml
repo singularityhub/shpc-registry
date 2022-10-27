@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/refgenie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for refgenie
+latest:
+  0.9.3--py_0: sha256:2738ae3a3dd8e3163c4c9e39349e1eb26954639c05de55b8d4df8dde5a2df78d
+tags:
+  0.9.3--py_0: sha256:2738ae3a3dd8e3163c4c9e39349e1eb26954639c05de55b8d4df8dde5a2df78d
+docker: quay.io/biocontainers/refgenie
+aliases:
+  import_igenome: /usr/local/bin/import_igenome
+  refgenie: /usr/local/bin/refgenie

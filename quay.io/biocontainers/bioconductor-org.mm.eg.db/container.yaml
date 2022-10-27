@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-org.mm.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-org.mm.eg.db
+latest:
+  3.8.2--r36_1: sha256:dd951dc2ad7503df713ccc446839d902f347b81b91388115782276887111f075
+tags:
+  3.8.2--r36_1: sha256:dd951dc2ad7503df713ccc446839d902f347b81b91388115782276887111f075
+docker: quay.io/biocontainers/bioconductor-org.mm.eg.db

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bellerophon
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bellerophon
+latest:
+  1.0--pyh5e36f6f_0: sha256:58b74bc5eb82f6ce13badfd3170b985306acd55dcf119214cdeaf0c03d83dfb0
+tags:
+  1.0--pyh5e36f6f_0: sha256:58b74bc5eb82f6ce13badfd3170b985306acd55dcf119214cdeaf0c03d83dfb0
+docker: quay.io/biocontainers/bellerophon
+aliases:
+  bellerophon: /usr/local/bin/bellerophon

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/hicexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hicexplorer
+latest:
+  2.2beta--py36_0: sha256:bacc2db9b335a33d14c1de11d2b0c67b44b4d31d3a6532894595d96c9dbd6815
+tags:
+  2.2beta--py36_0: sha256:bacc2db9b335a33d14c1de11d2b0c67b44b4d31d3a6532894595d96c9dbd6815
+docker: quay.io/biocontainers/hicexplorer
+aliases:
+  dask-mpi: /usr/local/bin/dask-mpi
+  dask-remote: /usr/local/bin/dask-remote
+  dask-submit: /usr/local/bin/dask-submit
+  findRestSite: /usr/local/bin/findRestSite
+  hicAdjustMatrix: /usr/local/bin/hicAdjustMatrix
+  hicAggregateContacts: /usr/local/bin/hicAggregateContacts
+  hicAverageRegions: /usr/local/bin/hicAverageRegions
+  hicBuildMatrix: /usr/local/bin/hicBuildMatrix
+  hicCompareMatrices: /usr/local/bin/hicCompareMatrices
+  hicConvertFormat: /usr/local/bin/hicConvertFormat
+  hicCorrectMatrix: /usr/local/bin/hicCorrectMatrix
+  hicCorrelate: /usr/local/bin/hicCorrelate
+  hicExport: /usr/local/bin/hicExport
+  hicFindEnrichedContacts: /usr/local/bin/hicFindEnrichedContacts
+  hicFindTADs: /usr/local/bin/hicFindTADs
+  hicInfo: /usr/local/bin/hicInfo
+  hicMergeMatrixBins: /usr/local/bin/hicMergeMatrixBins
+  hicNormalize: /usr/local/bin/hicNormalize
+  hicPCA: /usr/local/bin/hicPCA
+  hicPlotAverageRegions: /usr/local/bin/hicPlotAverageRegions
+  hicPlotDistVsCounts: /usr/local/bin/hicPlotDistVsCounts
+  hicPlotMatrix: /usr/local/bin/hicPlotMatrix
+  hicPlotTADs: /usr/local/bin/hicPlotTADs
+  hicPlotViewpoint: /usr/local/bin/hicPlotViewpoint
+  hicQC: /usr/local/bin/hicQC
+  hicSumMatrices: /usr/local/bin/hicSumMatrices
+  hicTransform: /usr/local/bin/hicTransform
+  hicexplorer: /usr/local/bin/hicexplorer
+  make_tracks_file: /usr/local/bin/make_tracks_file
+  pgt: /usr/local/bin/pgt
+  pyGenomeTracks: /usr/local/bin/pyGenomeTracks

@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/gemini
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gemini
+latest:
+  0.30.2--py27h6a6cfb3_5: sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396
+tags:
+  0.30.2--py27h6a6cfb3_5: sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396
+docker: quay.io/biocontainers/gemini
+aliases:
+  bottle.py: /usr/local/bin/bottle.py
+  dask-mpi: /usr/local/bin/dask-mpi
+  dask-remote: /usr/local/bin/dask-remote
+  dask-submit: /usr/local/bin/dask-submit
+  gemini: /usr/local/bin/gemini
+  grabix: /usr/local/bin/grabix
+  ipcluster: /usr/local/bin/ipcluster
+  ipcontroller: /usr/local/bin/ipcontroller
+  ipengine: /usr/local/bin/ipengine

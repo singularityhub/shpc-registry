@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/doit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for doit
+latest:
+  0.29.0--py27_0: sha256:059b2d00052bb6b732894de31449273a2a879141c82cbe4019d95ef899759ed9
+tags:
+  0.29.0--py27_0: sha256:059b2d00052bb6b732894de31449273a2a879141c82cbe4019d95ef899759ed9
+docker: quay.io/biocontainers/doit
+aliases:
+  doit: /usr/local/bin/doit
+  smtpd.pyc: /usr/local/bin/smtpd.pyc

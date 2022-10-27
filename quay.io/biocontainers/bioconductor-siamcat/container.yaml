@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-siamcat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-siamcat
+latest:
+  1.8.0--r40_0: sha256:217fb5c5a48a6fd7a85d5af00f25e9921eeb6679ec2cf34fbc83c48b3690b3b9
+tags:
+  1.8.0--r40_0: sha256:217fb5c5a48a6fd7a85d5af00f25e9921eeb6679ec2cf34fbc83c48b3690b3b9
+docker: quay.io/biocontainers/bioconductor-siamcat

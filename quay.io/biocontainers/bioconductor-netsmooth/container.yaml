@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netsmooth
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netsmooth
+latest:
+  1.8.0--r40_0: sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416
+tags:
+  1.8.0--r40_0: sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416
+docker: quay.io/biocontainers/bioconductor-netsmooth

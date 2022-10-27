@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/callstate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for callstate
+latest:
+  0.0.2--h0fde405_1: sha256:e4168dca88de1b5c0c2ad0dbb1a42e0b797ce2f5bb8690fc99b47d4a6c53d0d5
+tags:
+  0.0.2--h0fde405_1: sha256:e4168dca88de1b5c0c2ad0dbb1a42e0b797ce2f5bb8690fc99b47d4a6c53d0d5
+docker: quay.io/biocontainers/callstate
+aliases:
+  callstate: /usr/local/bin/callstate

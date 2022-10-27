@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/xmlstarlet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xmlstarlet
+latest:
+  1.6.1: sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d
+tags:
+  1.6.1: sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d
+docker: quay.io/biocontainers/xmlstarlet
+aliases:
+  xml: /usr/local/bin/xml

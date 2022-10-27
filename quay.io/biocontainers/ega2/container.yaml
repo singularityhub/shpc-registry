@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ega2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ega2
+latest:
+  2.2.2--hdfd78af_1: sha256:9ab0ded6aa0c858fa5d02b12964c9f749925c6077c290f4a470aeac345b01c9f
+tags:
+  2.2.2--hdfd78af_1: sha256:9ab0ded6aa0c858fa5d02b12964c9f749925c6077c290f4a470aeac345b01c9f
+docker: quay.io/biocontainers/ega2
+aliases:
+  ega2: /usr/local/bin/ega2

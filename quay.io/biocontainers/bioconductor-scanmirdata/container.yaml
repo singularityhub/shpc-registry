@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-scanmirdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scanmirdata
+latest:
+  1.0.0--r41hdfd78af_1: sha256:5c94f71e4580aed50e3f58f8f2093d85567a83e377759776da6ac3455272bc43
+tags:
+  1.0.0--r41hdfd78af_1: sha256:5c94f71e4580aed50e3f58f8f2093d85567a83e377759776da6ac3455272bc43
+docker: quay.io/biocontainers/bioconductor-scanmirdata
+aliases:
+  .bioconductor-scanmirdata-post-link.sh: /usr/local/bin/.bioconductor-scanmirdata-post-link.sh
+  .bioconductor-scanmirdata-pre-unlink.sh: /usr/local/bin/.bioconductor-scanmirdata-pre-unlink.sh

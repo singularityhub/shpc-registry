@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-penalized
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-penalized
+latest:
+  0.9.47--r3.3.1_0: sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733
+tags:
+  0.9.47--r3.3.1_0: sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733
+docker: quay.io/biocontainers/r-penalized

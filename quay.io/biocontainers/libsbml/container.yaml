@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/libsbml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libsbml
+latest:
+  5.18.0--h3928612_7: sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470
+tags:
+  5.18.0--h3928612_7: sha256:139ac90b5392e887589cdf9c25bb7689bba06a86d2d230a4430d80e2f649d470
+docker: quay.io/biocontainers/libsbml

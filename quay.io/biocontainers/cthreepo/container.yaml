@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cthreepo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cthreepo
+latest:
+  0.1.2--pyh3252c3a_0: sha256:b792c69f21632a9fb396ca20e0ae45b191c0b3ba15d35855b7a42be127649b11
+tags:
+  0.1.2--pyh3252c3a_0: sha256:b792c69f21632a9fb396ca20e0ae45b191c0b3ba15d35855b7a42be127649b11
+docker: quay.io/biocontainers/cthreepo
+aliases:
+  cthreepo: /usr/local/bin/cthreepo

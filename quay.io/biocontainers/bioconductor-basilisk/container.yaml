@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-basilisk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-basilisk
+latest:
+  1.6.0--r41hdfd78af_0: sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d
+tags:
+  1.6.0--r41hdfd78af_0: sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d
+docker: quay.io/biocontainers/bioconductor-basilisk

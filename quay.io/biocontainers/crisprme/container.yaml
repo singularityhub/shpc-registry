@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/crisprme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crisprme
+latest:
+  1.6.8--hdfd78af_0: sha256:10b29b3dc7beee5957972f5221f83e5155bd07b3b11387366d3bc55b313a0adf
+tags:
+  1.6.8--hdfd78af_0: sha256:10b29b3dc7beee5957972f5221f83e5155bd07b3b11387366d3bc55b313a0adf
+docker: quay.io/biocontainers/crisprme
+aliases:
+  crispritz.py: /usr/local/bin/crispritz.py
+  crisprme.py: /usr/local/bin/crisprme.py
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  gunicorn: /usr/local/bin/gunicorn
+  renderer: /usr/local/bin/renderer

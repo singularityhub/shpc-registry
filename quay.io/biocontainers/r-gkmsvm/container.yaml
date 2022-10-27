@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gkmsvm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gkmsvm
+latest:
+  0.81.0--r41h87f3376_3: sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4
+tags:
+  0.81.0--r41h87f3376_3: sha256:76bb60f5402414c4c95086be4cdcac98a2c8f73fbec887c37368a109fd5f06b4
+docker: quay.io/biocontainers/r-gkmsvm

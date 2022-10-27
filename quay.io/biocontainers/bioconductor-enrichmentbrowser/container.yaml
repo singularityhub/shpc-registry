@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-enrichmentbrowser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-enrichmentbrowser
+latest:
+  2.24.0--r41hdfd78af_0: sha256:0b71a9e2208aac01902cd5bd1ee5e8f33aca194e6e9d2703bc8c54359c686471
+tags:
+  2.24.0--r41hdfd78af_0: sha256:0b71a9e2208aac01902cd5bd1ee5e8f33aca194e6e9d2703bc8c54359c686471
+docker: quay.io/biocontainers/bioconductor-enrichmentbrowser

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hardklor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hardklor
+latest:
+  2.3.2--h87f3376_2: sha256:fe507306b8bfcf84ec3531ac8150bf32cc295727570acd00594f2a1cbb1cb1eb
+tags:
+  2.3.2--h87f3376_2: sha256:fe507306b8bfcf84ec3531ac8150bf32cc295727570acd00594f2a1cbb1cb1eb
+docker: quay.io/biocontainers/hardklor
+aliases:
+  hardklor: /usr/local/bin/hardklor

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-coloc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-coloc
+latest:
+  5.1.0.1--r41h3121a25_0: sha256:b918debc1782cd40458208db7e6d7a86d3ed720c8f90c6feb44590abd76db137
+tags:
+  5.1.0.1--r41h3121a25_0: sha256:b918debc1782cd40458208db7e6d7a86d3ed720c8f90c6feb44590abd76db137
+docker: quay.io/biocontainers/r-coloc

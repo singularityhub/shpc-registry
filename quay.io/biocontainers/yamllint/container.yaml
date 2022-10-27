@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/yamllint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yamllint
+latest:
+  1.2.1--py36_0: sha256:b86f3ec95588ecdadb4fc864abcb030a0ca4fec7768d87c8aba353b2daf03746
+tags:
+  1.2.1--py36_0: sha256:b86f3ec95588ecdadb4fc864abcb030a0ca4fec7768d87c8aba353b2daf03746
+docker: quay.io/biocontainers/yamllint
+aliases:
+  yamllint: /usr/local/bin/yamllint

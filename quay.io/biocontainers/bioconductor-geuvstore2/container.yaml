@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-geuvstore2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geuvstore2
+latest:
+  1.18.0--r40_0: sha256:6cd5e01573012883e2742897f2b27a7cb4cf85874ffddbcf943e4a8ae5525a12
+tags:
+  1.18.0--r40_0: sha256:6cd5e01573012883e2742897f2b27a7cb4cf85874ffddbcf943e4a8ae5525a12
+docker: quay.io/biocontainers/bioconductor-geuvstore2
+aliases:
+  .bioconductor-geuvstore2-post-link.sh: /usr/local/bin/.bioconductor-geuvstore2-post-link.sh
+  .bioconductor-geuvstore2-pre-unlink.sh: /usr/local/bin/.bioconductor-geuvstore2-pre-unlink.sh

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-topdownrdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-topdownrdata
+latest:
+  1.8.0--r36_0: sha256:7dab7e93a911df1ad27df766318778f19ff4aebb41c078ae6e604191c22e4ee3
+tags:
+  1.8.0--r36_0: sha256:7dab7e93a911df1ad27df766318778f19ff4aebb41c078ae6e604191c22e4ee3
+docker: quay.io/biocontainers/bioconductor-topdownrdata
+aliases:
+  .bioconductor-topdownrdata-post-link.sh: /usr/local/bin/.bioconductor-topdownrdata-post-link.sh
+  .bioconductor-topdownrdata-pre-unlink.sh: /usr/local/bin/.bioconductor-topdownrdata-pre-unlink.sh

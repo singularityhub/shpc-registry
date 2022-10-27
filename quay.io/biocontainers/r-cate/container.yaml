@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-cate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-cate
+latest:
+  1.1.1--r41h3342da4_3: sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab
+tags:
+  1.1.1--r41h3342da4_3: sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab
+docker: quay.io/biocontainers/r-cate

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cgcloud-lib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgcloud-lib
+latest:
+  1.6.0--py_4: sha256:e1d7dadf1dc7c60836c39c5b1eeb60ddea1a2b4ac05850a7aa16f789889294c6
+tags:
+  1.6.0--py_4: sha256:e1d7dadf1dc7c60836c39c5b1eeb60ddea1a2b4ac05850a7aa16f789889294c6
+docker: quay.io/biocontainers/cgcloud-lib

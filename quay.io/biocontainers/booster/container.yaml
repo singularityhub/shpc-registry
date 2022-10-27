@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/booster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for booster
+latest:
+  0.1.2--hec16e2b_4: sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb
+tags:
+  0.1.2--hec16e2b_4: sha256:548ea4089fd808f6a5f9a62754914f03fcce65305195aa79dda765f64c48c6eb
+docker: quay.io/biocontainers/booster
+aliases:
+  booster: /usr/local/bin/booster

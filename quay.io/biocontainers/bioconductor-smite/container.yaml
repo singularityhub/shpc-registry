@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-smite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-smite
+latest:
+  1.8.0--r351_0: sha256:245491c41b810d33aed198a4705936f1703bebf5689aa6ee1371385d4e83c756
+tags:
+  1.8.0--r351_0: sha256:245491c41b810d33aed198a4705936f1703bebf5689aa6ee1371385d4e83c756
+docker: quay.io/biocontainers/bioconductor-smite
+aliases:
+  .bioconductor-genelendatabase-post-link.sh: /usr/local/bin/.bioconductor-genelendatabase-post-link.sh
+  .bioconductor-genelendatabase-pre-unlink.sh: /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh

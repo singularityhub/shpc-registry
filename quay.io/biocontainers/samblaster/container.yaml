@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/samblaster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samblaster
+latest:
+  0.1.26--h9f5acd7_2: sha256:60c9465e285cc975c65de5629e38979a1284e7fb9a9095d24a7ba33e365c2075
+tags:
+  0.1.26--h9f5acd7_2: sha256:60c9465e285cc975c65de5629e38979a1284e7fb9a9095d24a7ba33e365c2075
+docker: quay.io/biocontainers/samblaster
+aliases:
+  samblaster: /usr/local/bin/samblaster

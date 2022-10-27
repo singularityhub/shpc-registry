@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgu95e.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgu95e.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:a34771cde0780cf2c66b7ab98fabd92138be8d4ac9a18ab1e61da5a094355cf0
+tags:
+  3.2.3--r41hdfd78af_7: sha256:a34771cde0780cf2c66b7ab98fabd92138be8d4ac9a18ab1e61da5a094355cf0
+docker: quay.io/biocontainers/bioconductor-hgu95e.db
+aliases:
+  .bioconductor-hgu95e.db-post-link.sh: /usr/local/bin/.bioconductor-hgu95e.db-post-link.sh
+  .bioconductor-hgu95e.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95e.db-pre-unlink.sh

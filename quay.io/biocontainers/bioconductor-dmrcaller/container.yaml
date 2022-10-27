@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dmrcaller
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dmrcaller
+latest:
+  1.26.0--r41hc247a5b_2: sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7
+tags:
+  1.26.0--r41hc247a5b_2: sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7
+docker: quay.io/biocontainers/bioconductor-dmrcaller

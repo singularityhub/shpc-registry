@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-postscript
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-postscript
+latest:
+  0.06--pl5321hdfd78af_3: sha256:f584199fca64697c712b2f41fb7c25b02afa91d0b6b87daf42ef7aa84d6bd104
+tags:
+  0.06--pl5321hdfd78af_3: sha256:f584199fca64697c712b2f41fb7c25b02afa91d0b6b87daf42ef7aa84d6bd104
+docker: quay.io/biocontainers/perl-postscript

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/seedme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seedme
+latest:
+  1.2.4--py_2: sha256:48e334b879abf041a18c9f0277bdcb1cea686ff2678c0fca48cd8c6196ce2ca2
+tags:
+  1.2.4--py_2: sha256:48e334b879abf041a18c9f0277bdcb1cea686ff2678c0fca48cd8c6196ce2ca2
+docker: quay.io/biocontainers/seedme
+aliases:
+  seedme: /usr/local/bin/seedme
+  seedme.py: /usr/local/bin/seedme.py

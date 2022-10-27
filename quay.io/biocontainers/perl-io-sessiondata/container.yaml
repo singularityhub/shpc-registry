@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-sessiondata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-sessiondata
+latest:
+  1.03--pl5321hdfd78af_2: sha256:8cc00b25a1d25df8fcde138d299c5adc4de65365ee9be90a6257596d7deed402
+tags:
+  1.03--pl5321hdfd78af_2: sha256:8cc00b25a1d25df8fcde138d299c5adc4de65365ee9be90a6257596d7deed402
+docker: quay.io/biocontainers/perl-io-sessiondata

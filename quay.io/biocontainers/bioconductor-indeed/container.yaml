@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-indeed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-indeed
+latest:
+  2.8.0--r41hdfd78af_0: sha256:242069ddbf06ff7a476c69024e2b31103a3cb08aa6e57b83e92e96dc9bf6f7dd
+tags:
+  2.8.0--r41hdfd78af_0: sha256:242069ddbf06ff7a476c69024e2b31103a3cb08aa6e57b83e92e96dc9bf6f7dd
+docker: quay.io/biocontainers/bioconductor-indeed

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sctreeviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sctreeviz
+latest:
+  1.0.0--r41hdfd78af_0: sha256:d27334f3c5a3099ae21b70a222023eff52b7dc62ba0704241f90b905fb263a79
+tags:
+  1.0.0--r41hdfd78af_0: sha256:d27334f3c5a3099ae21b70a222023eff52b7dc62ba0704241f90b905fb263a79
+docker: quay.io/biocontainers/bioconductor-sctreeviz

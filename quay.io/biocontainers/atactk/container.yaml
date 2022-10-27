@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/atactk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for atactk
+latest:
+  0.1.9--pyh3252c3a_0: sha256:48487ce68e263e471ce4c97fbf3289242fd03b9d726d54c8c2866d62f2ee3a4f
+tags:
+  0.1.9--pyh3252c3a_0: sha256:48487ce68e263e471ce4c97fbf3289242fd03b9d726d54c8c2866d62f2ee3a4f
+docker: quay.io/biocontainers/atactk
+aliases:
+  make_cut_matrix: /usr/local/bin/make_cut_matrix
+  make_midpoint_matrix: /usr/local/bin/make_midpoint_matrix
+  measure_features: /usr/local/bin/measure_features
+  measure_signal: /usr/local/bin/measure_signal
+  plot_aggregate_cut_matrix.R: /usr/local/bin/plot_aggregate_cut_matrix.R
+  plot_aggregate_midpoint_matrix.R: /usr/local/bin/plot_aggregate_midpoint_matrix.R
+  plot_signal.R: /usr/local/bin/plot_signal.R
+  trim_adapters: /usr/local/bin/trim_adapters

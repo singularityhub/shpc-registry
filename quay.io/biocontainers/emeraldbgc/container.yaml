@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/emeraldbgc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emeraldbgc
+latest:
+  0.2.4.1--pyhdfd78af_0: sha256:2c6e6bfe79a69b9d4b5daf2507f4060c919dd7b63c9c2126c908cb85fe0d04bb
+tags:
+  0.2.4.1--pyhdfd78af_0: sha256:2c6e6bfe79a69b9d4b5daf2507f4060c919dd7b63c9c2126c908cb85fe0d04bb
+docker: quay.io/biocontainers/emeraldbgc
+aliases:
+  emerald_build_gb: /usr/local/bin/emerald_build_gb
+  emeraldbgc: /usr/local/bin/emeraldbgc
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard

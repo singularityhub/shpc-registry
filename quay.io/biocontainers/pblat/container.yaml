@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pblat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pblat
+latest:
+  2.5--h0e0aaa8_2: sha256:07898573fc6ed4747ee08443d2268b9f2adc7a38aaf3bf61ac67be64289d5ec5
+tags:
+  2.5--h0e0aaa8_2: sha256:07898573fc6ed4747ee08443d2268b9f2adc7a38aaf3bf61ac67be64289d5ec5
+docker: quay.io/biocontainers/pblat
+aliases:
+  pblat: /usr/local/bin/pblat

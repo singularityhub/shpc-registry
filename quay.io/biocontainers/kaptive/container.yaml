@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/kaptive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kaptive
+latest:
+  0.7.3--py_0: sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62
+tags:
+  0.7.3--py_0: sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62
+docker: quay.io/biocontainers/kaptive
+aliases:
+  .kaptive-post-link.sh: /usr/local/bin/.kaptive-post-link.sh
+  kaptive.py: /usr/local/bin/kaptive.py

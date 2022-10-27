@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rmagpie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rmagpie
+latest:
+  1.50.0--r41hdfd78af_0: sha256:f86e8e25483f89ba04854c1b9983ebcaf7c4d9f986d34e1357ea80fc2de84f98
+tags:
+  1.50.0--r41hdfd78af_0: sha256:f86e8e25483f89ba04854c1b9983ebcaf7c4d9f986d34e1357ea80fc2de84f98
+docker: quay.io/biocontainers/bioconductor-rmagpie

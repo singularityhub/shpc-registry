@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau9.refgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau9.refgene
+latest:
+  3.10.0--r41hdfd78af_6: sha256:841ce7eb3058b58be45948921b6df93aaef36c80bb516051c40b3a7a85d257da
+tags:
+  3.10.0--r41hdfd78af_6: sha256:841ce7eb3058b58be45948921b6df93aaef36c80bb516051c40b3a7a85d257da
+docker: quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau9.refgene
+aliases:
+  .bioconductor-txdb.btaurus.ucsc.bostau9.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau9.refgene-post-link.sh
+  .bioconductor-txdb.btaurus.ucsc.bostau9.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau9.refgene-pre-unlink.sh

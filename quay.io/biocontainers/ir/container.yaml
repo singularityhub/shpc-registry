@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ir
+latest:
+  2.8.0--hec16e2b_4: sha256:a705547b48500cdfa7f6926c11e4139e405a3b7f458ddae8768a43254a92e3b8
+tags:
+  2.8.0--hec16e2b_4: sha256:a705547b48500cdfa7f6926c11e4139e405a3b7f458ddae8768a43254a92e3b8
+docker: quay.io/biocontainers/ir
+aliases:
+  ir: /usr/local/bin/ir

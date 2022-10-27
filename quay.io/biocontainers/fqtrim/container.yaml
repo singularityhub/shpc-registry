@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fqtrim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fqtrim
+latest:
+  0.9.7--hd03093a_4: sha256:f53b6dbd2e9c794473fa891f72ca03f7d50c3f1fb5ef556bd4eda1b6c6a53fa7
+tags:
+  0.9.7--hd03093a_4: sha256:f53b6dbd2e9c794473fa891f72ca03f7d50c3f1fb5ef556bd4eda1b6c6a53fa7
+docker: quay.io/biocontainers/fqtrim
+aliases:
+  fqtrim: /usr/local/bin/fqtrim
+  gtest: /usr/local/bin/gtest
+  threads: /usr/local/bin/threads

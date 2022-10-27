@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-uncompress-gunzip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-uncompress-gunzip
+latest:
+  2.064--pl5321hdfd78af_2: sha256:5bd6902df11352d2c6f789549fb164c2e3e45aad6e7aa3d880dd245fc5bd2da4
+tags:
+  2.064--pl5321hdfd78af_2: sha256:5bd6902df11352d2c6f789549fb164c2e3e45aad6e7aa3d880dd245fc5bd2da4
+docker: quay.io/biocontainers/perl-io-uncompress-gunzip

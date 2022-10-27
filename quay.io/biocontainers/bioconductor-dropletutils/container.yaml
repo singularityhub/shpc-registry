@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dropletutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dropletutils
+latest:
+  1.8.0--r40h5f743cb_0: sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f
+tags:
+  1.8.0--r40h5f743cb_0: sha256:f25ef5a8370d609e09b8d09ada5006ae9283580e0ce8d124531777874b6eb77f
+docker: quay.io/biocontainers/bioconductor-dropletutils

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/popscle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for popscle
+latest:
+  0.1beta--h985387c_1: sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8
+tags:
+  0.1beta--h985387c_1: sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8
+docker: quay.io/biocontainers/popscle
+aliases:
+  popscle: /usr/local/bin/popscle

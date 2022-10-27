@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-tools-run-alignment-tcoffee
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-tools-run-alignment-tcoffee
+latest:
+  1.7.4--pl5321hdfd78af_4: sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c
+tags:
+  1.7.4--pl5321hdfd78af_4: sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c
+docker: quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee

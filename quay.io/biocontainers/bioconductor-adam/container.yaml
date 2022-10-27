@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-adam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-adam
+latest:
+  1.8.0--r41h399db7b_0: sha256:1e7125c4492d7327120b7195b6c99d99ff93d48733ede9f23d758ca745064a9b
+tags:
+  1.8.0--r41h399db7b_0: sha256:1e7125c4492d7327120b7195b6c99d99ff93d48733ede9f23d758ca745064a9b
+docker: quay.io/biocontainers/bioconductor-adam

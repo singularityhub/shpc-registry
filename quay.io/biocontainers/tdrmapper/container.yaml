@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tdrmapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tdrmapper
+latest:
+  1.1--hdfd78af_5: sha256:63d40fc465e3c2aa37677ddedc0ada4e9fbae29b1893ab652d55fc403f519733
+tags:
+  1.1--hdfd78af_5: sha256:63d40fc465e3c2aa37677ddedc0ada4e9fbae29b1893ab652d55fc403f519733
+docker: quay.io/biocontainers/tdrmapper
+aliases:
+  TdrMappingScripts.pl: /usr/local/bin/TdrMappingScripts.pl

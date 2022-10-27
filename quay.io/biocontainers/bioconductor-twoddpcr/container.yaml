@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-twoddpcr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-twoddpcr
+latest:
+  1.8.0--r36_1: sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8
+tags:
+  1.8.0--r36_1: sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8
+docker: quay.io/biocontainers/bioconductor-twoddpcr

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/faststructure
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for faststructure
+latest:
+  1.0--py27h6b1b274_5: sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda
+tags:
+  1.0--py27h6b1b274_5: sha256:47cfb5483e5a7682dbaaf8f945bb905b1aa1f35fddf2de8ea55b46acc214deda
+docker: quay.io/biocontainers/faststructure
+aliases:
+  chooseK.py: /usr/local/bin/chooseK.py
+  distruct.py: /usr/local/bin/distruct.py
+  structure.py: /usr/local/bin/structure.py

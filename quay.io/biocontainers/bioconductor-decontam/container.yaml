@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-decontam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-decontam
+latest:
+  1.8.0--r40_0: sha256:76a9c99e76c9f0e1febc42e6906514c2fc47c3718889b0a5aa2e7b50aec531e7
+tags:
+  1.8.0--r40_0: sha256:76a9c99e76c9f0e1febc42e6906514c2fc47c3718889b0a5aa2e7b50aec531e7
+docker: quay.io/biocontainers/bioconductor-decontam

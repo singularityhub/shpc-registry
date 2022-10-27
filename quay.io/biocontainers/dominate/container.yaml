@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/dominate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dominate
+latest:
+  2.1.16--py36_0: sha256:7db440e90ee2085da8b14a42fcc606c09d7153964b5673a2e1ad781809012277
+tags:
+  2.1.16--py36_0: sha256:7db440e90ee2085da8b14a42fcc606c09d7153964b5673a2e1ad781809012277
+docker: quay.io/biocontainers/dominate

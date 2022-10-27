@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sift4g
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sift4g
+latest:
+  2.0.0--h87f3376_4: sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d
+tags:
+  2.0.0--h87f3376_4: sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d
+docker: quay.io/biocontainers/sift4g
+aliases:
+  sift4g: /usr/local/bin/sift4g

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/metacache
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metacache
+latest:
+  2.2.3--hd03093a_1: sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba
+tags:
+  2.2.3--hd03093a_1: sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba
+docker: quay.io/biocontainers/metacache
+aliases:
+  download-ncbi-genomes: /usr/local/bin/download-ncbi-genomes
+  download-ncbi-taxmaps: /usr/local/bin/download-ncbi-taxmaps
+  download-ncbi-taxonomy: /usr/local/bin/download-ncbi-taxonomy
+  metacache: /usr/local/bin/metacache
+  metacache-build-refseq: /usr/local/bin/metacache-build-refseq
+  metacache-db-info: /usr/local/bin/metacache-db-info
+  metacache-partition-genomes: /usr/local/bin/metacache-partition-genomes
+  summarize-results: /usr/local/bin/summarize-results

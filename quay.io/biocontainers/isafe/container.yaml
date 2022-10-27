@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/isafe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for isafe
+latest:
+  1.1.1--pyh5e36f6f_0: sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498
+tags:
+  1.1.1--pyh5e36f6f_0: sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498
+docker: quay.io/biocontainers/isafe
+aliases:
+  isafe: /usr/local/bin/isafe

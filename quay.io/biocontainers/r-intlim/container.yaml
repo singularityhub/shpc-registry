@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-intlim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-intlim
+latest:
+  v.1.1.0--r40_1: sha256:46955b4ac9f7868fa6532ba4af8af05d2b63102b2ae2be48f2835fd7bd7ff831
+tags:
+  v.1.1.0--r40_1: sha256:46955b4ac9f7868fa6532ba4af8af05d2b63102b2ae2be48f2835fd7bd7ff831
+docker: quay.io/biocontainers/r-intlim

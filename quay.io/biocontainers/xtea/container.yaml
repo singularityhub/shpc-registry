@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/xtea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xtea
+latest:
+  0.1.9--hdfd78af_0: sha256:0855c844a4e6298aacbbdef1d538507c33ab1683215b22b2b20aa0077af9bd42
+tags:
+  0.1.9--hdfd78af_0: sha256:0855c844a4e6298aacbbdef1d538507c33ab1683215b22b2b20aa0077af9bd42
+docker: quay.io/biocontainers/xtea
+aliases:
+  wtdbg-cns: /usr/local/bin/wtdbg-cns
+  wtdbg2: /usr/local/bin/wtdbg2
+  wtpoa-cns: /usr/local/bin/wtpoa-cns
+  xtea: /usr/local/bin/xtea
+  xtea_hg19: /usr/local/bin/xtea_hg19
+  xtea_long: /usr/local/bin/xtea_long

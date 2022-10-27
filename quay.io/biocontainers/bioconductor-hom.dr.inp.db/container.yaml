@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hom.dr.inp.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hom.dr.inp.db
+latest:
+  3.1.3--r40hdfd78af_2: sha256:b17f2e9bff1f3bfd2b4c7222cd1361fb973eee2160b43baead5941777a205c25
+tags:
+  3.1.3--r40hdfd78af_2: sha256:b17f2e9bff1f3bfd2b4c7222cd1361fb973eee2160b43baead5941777a205c25
+docker: quay.io/biocontainers/bioconductor-hom.dr.inp.db
+aliases:
+  .bioconductor-hom.dr.inp.db-post-link.sh: /usr/local/bin/.bioconductor-hom.dr.inp.db-post-link.sh
+  .bioconductor-hom.dr.inp.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hom.dr.inp.db-pre-unlink.sh

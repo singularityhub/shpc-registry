@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/proteinortho
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proteinortho
+latest:
+  6.1.1--hedee03e_0: sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc
+tags:
+  6.1.1--hedee03e_0: sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc
+docker: quay.io/biocontainers/proteinortho
+aliases:
+  proteinortho: /usr/local/bin/proteinortho
+  proteinortho2html.pl: /usr/local/bin/proteinortho2html.pl
+  proteinortho2tree.pl: /usr/local/bin/proteinortho2tree.pl
+  proteinortho2xml.pl: /usr/local/bin/proteinortho2xml.pl
+  proteinortho6.pl: /usr/local/bin/proteinortho6.pl
+  proteinortho_cleanupblastgraph: /usr/local/bin/proteinortho_cleanupblastgraph
+  proteinortho_clustering: /usr/local/bin/proteinortho_clustering
+  proteinortho_compareProteinorthoGraphs.pl: /usr/local/bin/proteinortho_compareProteinorthoGraphs.pl
+  proteinortho_do_mcl.pl: /usr/local/bin/proteinortho_do_mcl.pl
+  proteinortho_extract_from_graph.pl: /usr/local/bin/proteinortho_extract_from_graph.pl
+  proteinortho_ffadj_mcs.py: /usr/local/bin/proteinortho_ffadj_mcs.py
+  proteinortho_formatUsearch.pl: /usr/local/bin/proteinortho_formatUsearch.pl
+  proteinortho_grab_proteins.pl: /usr/local/bin/proteinortho_grab_proteins.pl
+  proteinortho_graphMinusRemovegraph: /usr/local/bin/proteinortho_graphMinusRemovegraph
+  proteinortho_history.pl: /usr/local/bin/proteinortho_history.pl
+  proteinortho_singletons.pl: /usr/local/bin/proteinortho_singletons.pl
+  proteinortho_summary.pl: /usr/local/bin/proteinortho_summary.pl
+  proteinortho_treeBuilderCore: /usr/local/bin/proteinortho_treeBuilderCore

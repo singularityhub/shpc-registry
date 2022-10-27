@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/asqcan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for asqcan
+latest:
+  0.2--py_2: sha256:d610b3b88acf999b7d60b8ab802c422e7bdd3566bf79ab1810009c3a90905086
+tags:
+  0.2--py_2: sha256:d610b3b88acf999b7d60b8ab802c422e7bdd3566bf79ab1810009c3a90905086
+docker: quay.io/biocontainers/asqcan
+aliases:
+  asqcan: /usr/local/bin/asqcan
+  blobtools: /usr/local/bin/blobtools
+  blobtools-build_nodesdb: /usr/local/bin/blobtools-build_nodesdb

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/shiptv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shiptv
+latest:
+  0.4.1--pyh5e36f6f_0: sha256:65a52f30f9565e58f530267806c332d5226a6a2bd93560e3b7ee422b643809ca
+tags:
+  0.4.1--pyh5e36f6f_0: sha256:65a52f30f9565e58f530267806c332d5226a6a2bd93560e3b7ee422b643809ca
+docker: quay.io/biocontainers/shiptv
+aliases:
+  shiptv: /usr/local/bin/shiptv

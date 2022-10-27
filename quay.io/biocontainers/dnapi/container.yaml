@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dnapi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnapi
+latest:
+  1.1--pyh864c0ab_4: sha256:8d5ba6fc7128a0938d5242ff8f0a43b43aeba30be3687689310e3ecc56699c95
+tags:
+  1.1--pyh864c0ab_4: sha256:8d5ba6fc7128a0938d5242ff8f0a43b43aeba30be3687689310e3ecc56699c95
+docker: quay.io/biocontainers/dnapi
+aliases:
+  dnapi.py: /usr/local/bin/dnapi.py
+  qual_offset.py: /usr/local/bin/qual_offset.py
+  qual_trim.py: /usr/local/bin/qual_trim.py
+  to_fasta.py: /usr/local/bin/to_fasta.py

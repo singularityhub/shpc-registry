@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/snpsplit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snpsplit
+latest:
+  0.5.0--hdfd78af_0: sha256:3048b17836565d5ec65effd9c36eecaf4aec36a5dfd885f177fa6681685979a9
+tags:
+  0.5.0--hdfd78af_0: sha256:3048b17836565d5ec65effd9c36eecaf4aec36a5dfd885f177fa6681685979a9
+docker: quay.io/biocontainers/snpsplit
+aliases:
+  SNPsplit: /usr/local/bin/SNPsplit
+  SNPsplit_genome_preparation: /usr/local/bin/SNPsplit_genome_preparation
+  tag2sort: /usr/local/bin/tag2sort

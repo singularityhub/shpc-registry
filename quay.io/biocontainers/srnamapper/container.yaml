@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/srnamapper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for srnamapper
+latest:
+  1.0.8--h7132678_1: sha256:836601646e94f18acb5dbac65d67252cdb3a50469ef4ad96d0126d0cf7ce7c88
+tags:
+  1.0.8--h7132678_1: sha256:836601646e94f18acb5dbac65d67252cdb3a50469ef4ad96d0126d0cf7ce7c88
+docker: quay.io/biocontainers/srnamapper
+aliases:
+  srnaMapper: /usr/local/bin/srnaMapper

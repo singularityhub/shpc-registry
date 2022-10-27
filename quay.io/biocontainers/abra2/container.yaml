@@ -1,6 +1,6 @@
-url: https://biocontainers.pro/tools/2pg_cartesian
+url: https://biocontainers.pro/tools/abra2
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for 2pg_cartesian
+description: shpc-registry automated BioContainers addition for abra2
 latest:
   2.24--h9f5acd7_1: sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2
 tags:

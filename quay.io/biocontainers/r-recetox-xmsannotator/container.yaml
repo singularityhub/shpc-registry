@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-recetox-xmsannotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-recetox-xmsannotator
+latest:
+  0.9.0--r41hdfd78af_0: sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7
+tags:
+  0.9.0--r41hdfd78af_0: sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7
+docker: quay.io/biocontainers/r-recetox-xmsannotator

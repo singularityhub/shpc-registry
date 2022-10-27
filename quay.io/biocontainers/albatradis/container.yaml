@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/albatradis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for albatradis
+latest:
+  1.0.4--py36h91eb985_3: sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76
+tags:
+  1.0.4--py36h91eb985_3: sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76
+docker: quay.io/biocontainers/albatradis
+aliases:
+  add_tradis_tags: /usr/local/bin/add_tradis_tags
+  albatradis: /usr/local/bin/albatradis
+  albatradis-annotation: /usr/local/bin/albatradis-annotation
+  albatradis-artemis_project: /usr/local/bin/albatradis-artemis_project
+  albatradis-gene_reports: /usr/local/bin/albatradis-gene_reports
+  albatradis-presence_absence: /usr/local/bin/albatradis-presence_absence
+  albatradis-scatterplot: /usr/local/bin/albatradis-scatterplot
+  bacteria_tradis: /usr/local/bin/bacteria_tradis
+  basqcol: /usr/local/bin/basqcol
+  check_tradis_tags: /usr/local/bin/check_tradis_tags
+  combine_tradis_plots: /usr/local/bin/combine_tradis_plots
+  fetchseq: /usr/local/bin/fetchseq
+  filter_tradis_tags: /usr/local/bin/filter_tradis_tags
+  mixreads: /usr/local/bin/mixreads
+  readstats: /usr/local/bin/readstats
+  remove_tradis_tags: /usr/local/bin/remove_tradis_tags
+  simqual: /usr/local/bin/simqual
+  simread: /usr/local/bin/simread
+  smalt: /usr/local/bin/smalt
+  splitmates: /usr/local/bin/splitmates
+  splitreads: /usr/local/bin/splitreads
+  tradis_comparison.R: /usr/local/bin/tradis_comparison.R
+  tradis_essentiality.R: /usr/local/bin/tradis_essentiality.R
+  tradis_gene_insert_sites: /usr/local/bin/tradis_gene_insert_sites
+  tradis_merge_plots: /usr/local/bin/tradis_merge_plots
+  tradis_plot: /usr/local/bin/tradis_plot
+  trunkreads: /usr/local/bin/trunkreads

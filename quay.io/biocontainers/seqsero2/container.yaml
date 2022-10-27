@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/seqsero2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seqsero2
+latest:
+  1.2.1--py_0: sha256:69e0fda6524256d3208d0a8d0e873667782b634e57f05ac38548271b851538aa
+tags:
+  1.2.1--py_0: sha256:69e0fda6524256d3208d0a8d0e873667782b634e57f05ac38548271b851538aa
+docker: quay.io/biocontainers/seqsero2
+aliases:
+  Initial_Conditions.py: /usr/local/bin/Initial_Conditions.py
+  SalmID.py: /usr/local/bin/SalmID.py
+  SeqSero2_package.py: /usr/local/bin/SeqSero2_package.py
+  SeqSero2_update_kmer_database.py: /usr/local/bin/SeqSero2_update_kmer_database.py
+  abi-dump.2.10.9: /usr/local/bin/abi-dump.2.10.9
+  align-cache.2.10.9: /usr/local/bin/align-cache.2.10.9
+  align-info.2.10.9: /usr/local/bin/align-info.2.10.9
+  bam-load.2.10.9: /usr/local/bin/bam-load.2.10.9
+  cache-mgr.2.10.9: /usr/local/bin/cache-mgr.2.10.9
+  cg-load.2.10.9: /usr/local/bin/cg-load.2.10.9
+  deinterleave_fastq.sh: /usr/local/bin/deinterleave_fastq.sh
+  fasterq-dump-orig.2.10.9: /usr/local/bin/fasterq-dump-orig.2.10.9
+  fasterq-dump.2.10.9: /usr/local/bin/fasterq-dump.2.10.9
+  fastq-dump-orig.2.10.9: /usr/local/bin/fastq-dump-orig.2.10.9
+  fastq-dump.2.10.9: /usr/local/bin/fastq-dump.2.10.9
+  illumina-dump.2.10.9: /usr/local/bin/illumina-dump.2.10.9
+  kar.2.10.9: /usr/local/bin/kar.2.10.9
+  kdbmeta.2.10.9: /usr/local/bin/kdbmeta.2.10.9
+  kget.2.10.9: /usr/local/bin/kget.2.10.9
+  latf-load.2.10.9: /usr/local/bin/latf-load.2.10.9
+  md5cp.2.10.9: /usr/local/bin/md5cp.2.10.9
+  prefetch-orig.2.10.9: /usr/local/bin/prefetch-orig.2.10.9
+  prefetch.2.10.9: /usr/local/bin/prefetch.2.10.9
+  rcexplain.2.10.9: /usr/local/bin/rcexplain.2.10.9
+  read-filter-redact.2.10.9: /usr/local/bin/read-filter-redact.2.10.9
+  sam-dump-orig.2.10.9: /usr/local/bin/sam-dump-orig.2.10.9
+  sam-dump.2.10.9: /usr/local/bin/sam-dump.2.10.9
+  sff-dump.2.10.9: /usr/local/bin/sff-dump.2.10.9
+  sra-pileup-orig.2.10.9: /usr/local/bin/sra-pileup-orig.2.10.9
+  sra-pileup.2.10.9: /usr/local/bin/sra-pileup.2.10.9
+  sra-sort-cg.2.10.9: /usr/local/bin/sra-sort-cg.2.10.9
+  sra-sort.2.10.9: /usr/local/bin/sra-sort.2.10.9
+  sra-stat.2.10.9: /usr/local/bin/sra-stat.2.10.9
+  srapath-orig.2.10.9: /usr/local/bin/srapath-orig.2.10.9
+  srapath.2.10.9: /usr/local/bin/srapath.2.10.9
+  sratools.2.10.9: /usr/local/bin/sratools.2.10.9
+  test-sra.2.10.9: /usr/local/bin/test-sra.2.10.9
+  vdb-config.2.10.9: /usr/local/bin/vdb-config.2.10.9
+  vdb-copy.2.10.9: /usr/local/bin/vdb-copy.2.10.9
+  vdb-decrypt.2.10.9: /usr/local/bin/vdb-decrypt.2.10.9
+  vdb-diff.2.10.9: /usr/local/bin/vdb-diff.2.10.9
+  vdb-dump-orig.2.10.9: /usr/local/bin/vdb-dump-orig.2.10.9
+  vdb-dump.2.10.9: /usr/local/bin/vdb-dump.2.10.9
+  vdb-encrypt.2.10.9: /usr/local/bin/vdb-encrypt.2.10.9
+  vdb-lock.2.10.9: /usr/local/bin/vdb-lock.2.10.9
+  vdb-passwd.2.10.9: /usr/local/bin/vdb-passwd.2.10.9
+  vdb-unlock.2.10.9: /usr/local/bin/vdb-unlock.2.10.9
+  vdb-validate.2.10.9: /usr/local/bin/vdb-validate.2.10.9

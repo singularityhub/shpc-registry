@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tradeseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tradeseq
+latest:
+  1.8.0--r41hdfd78af_0: sha256:8871e88317ce06c163f0b8debefc59300e812b66113e52bd9d9125bc05b6b7e6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:8871e88317ce06c163f0b8debefc59300e812b66113e52bd9d9125bc05b6b7e6
+docker: quay.io/biocontainers/bioconductor-tradeseq

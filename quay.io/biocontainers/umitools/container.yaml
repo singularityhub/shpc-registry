@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/umitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for umitools
+latest:
+  0.3.4--py_2: sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417
+tags:
+  0.3.4--py_2: sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417
+docker: quay.io/biocontainers/umitools
+aliases:
+  umi_mark_duplicates: /usr/local/bin/umi_mark_duplicates
+  umi_reformat_fastq: /usr/local/bin/umi_reformat_fastq
+  umi_reformat_sra_fastq: /usr/local/bin/umi_reformat_sra_fastq
+  umi_simulator: /usr/local/bin/umi_simulator
+  umitools: /usr/local/bin/umitools

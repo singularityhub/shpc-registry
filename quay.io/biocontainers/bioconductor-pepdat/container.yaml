@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pepdat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pepdat
+latest:
+  1.8.0--r40_0: sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb
+tags:
+  1.8.0--r40_0: sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb
+docker: quay.io/biocontainers/bioconductor-pepdat
+aliases:
+  .bioconductor-pepdat-post-link.sh: /usr/local/bin/.bioconductor-pepdat-post-link.sh
+  .bioconductor-pepdat-pre-unlink.sh: /usr/local/bin/.bioconductor-pepdat-pre-unlink.sh

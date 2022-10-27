@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gsalightning
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gsalightning
+latest:
+  1.8.0--r341_0: sha256:45e4ee7d38e318cbf614514c1adbd807f3b06f41722615a9c749ca8aa91c21aa
+tags:
+  1.8.0--r341_0: sha256:45e4ee7d38e318cbf614514c1adbd807f3b06f41722615a9c749ca8aa91c21aa
+docker: quay.io/biocontainers/bioconductor-gsalightning

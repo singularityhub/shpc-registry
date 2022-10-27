@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-scalar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-scalar
+latest:
+  2.111--pl5321hdfd78af_2: sha256:c0b7eeab71de6389f920d2f144ea1b298e0222c156004d12ef7a8955380479b7
+tags:
+  2.111--pl5321hdfd78af_2: sha256:c0b7eeab71de6389f920d2f144ea1b298e0222c156004d12ef7a8955380479b7
+docker: quay.io/biocontainers/perl-io-scalar

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-agprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-agprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e
+tags:
+  2.18.0--r41hdfd78af_9: sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e
+docker: quay.io/biocontainers/bioconductor-agprobe
+aliases:
+  .bioconductor-agprobe-post-link.sh: /usr/local/bin/.bioconductor-agprobe-post-link.sh
+  .bioconductor-agprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-agprobe-pre-unlink.sh

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flowq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowq
+latest:
+  1.40.0--r351_0: sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964
+tags:
+  1.40.0--r351_0: sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964
+docker: quay.io/biocontainers/bioconductor-flowq
+aliases:
+  -pkg-config: /usr/local/bin/-pkg-config
+  x86_64-unknown-linux-gnu-pkg-config: /usr/local/bin/x86_64-unknown-linux-gnu-pkg-config

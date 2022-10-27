@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/perl-ms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ms
+latest:
+  0.207002--pl5321hdfd78af_0: sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59
+tags:
+  0.207002--pl5321hdfd78af_0: sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59
+docker: quay.io/biocontainers/perl-ms
+aliases:
+  bgzip.pl: /usr/local/bin/bgzip.pl
+  cv2storable.pl: /usr/local/bin/cv2storable.pl
+  index_mzml: /usr/local/bin/index_mzml
+  index_pepxml: /usr/local/bin/index_pepxml
+  unimod2storable.pl: /usr/local/bin/unimod2storable.pl

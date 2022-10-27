@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gvcf2coverage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gvcf2coverage
+latest:
+  0.1--h8a6b41c_5: sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887
+tags:
+  0.1--h8a6b41c_5: sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887
+docker: quay.io/biocontainers/gvcf2coverage
+aliases:
+  gvcf2coverage: /usr/local/bin/gvcf2coverage

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bs-seeker2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bs-seeker2
+latest:
+  2.1.7--hdfd78af_1: sha256:5b4e6e2c7f482d93afb2e18ede213f08c0da97a414e6d0d691c03996772b60ef
+tags:
+  2.1.7--hdfd78af_1: sha256:5b4e6e2c7f482d93afb2e18ede213f08c0da97a414e6d0d691c03996772b60ef
+docker: quay.io/biocontainers/bs-seeker2
+aliases:
+  AUTHORS: /usr/local/bin/AUTHORS
+  Antisense.py: /usr/local/bin/Antisense.py
+  FilterReads.py: /usr/local/bin/FilterReads.py
+  RELEASE_NOTES: /usr/local/bin/RELEASE_NOTES
+  bs_seeker2-align.py: /usr/local/bin/bs_seeker2-align.py
+  bs_seeker2-build.py: /usr/local/bin/bs_seeker2-build.py
+  bs_seeker2-call_methylation.py: /usr/local/bin/bs_seeker2-call_methylation.py

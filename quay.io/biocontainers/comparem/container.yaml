@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/comparem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for comparem
+latest:
+  0.1.2--py_0: sha256:1e894198e459ba02389858dad08918e052a97887082ccbdf0c2a4d703595e46c
+tags:
+  0.1.2--py_0: sha256:1e894198e459ba02389858dad08918e052a97887082ccbdf0c2a4d703595e46c
+docker: quay.io/biocontainers/comparem
+aliases:
+  comparem: /usr/local/bin/comparem

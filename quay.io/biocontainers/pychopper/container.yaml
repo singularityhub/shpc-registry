@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pychopper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pychopper
+latest:
+  2.5.0--py_0: sha256:d0a9dcd71a609d2d979647af5c36ce33fe63ceb09674266029d7f1b67d994b96
+tags:
+  2.5.0--py_0: sha256:d0a9dcd71a609d2d979647af5c36ce33fe63ceb09674266029d7f1b67d994b96
+docker: quay.io/biocontainers/pychopper
+aliases:
+  cdna_classifier.py: /usr/local/bin/cdna_classifier.py

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-derfinderplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-derfinderplot
+latest:
+  1.27.1--r41hdfd78af_0: sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde
+tags:
+  1.27.1--r41hdfd78af_0: sha256:718f141dc7b23f6e1fca5620b0557bf2d7bd736f2bddf85e5a65c250322f5bde
+docker: quay.io/biocontainers/bioconductor-derfinderplot

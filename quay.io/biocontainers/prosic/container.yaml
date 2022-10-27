@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prosic
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prosic
+latest:
+  2.1.2--hc7800f0_1: sha256:6c4b941f61905dd7215149a3baf091eee27933cb00a2792a78d71ebc812d30ad
+tags:
+  2.1.2--hc7800f0_1: sha256:6c4b941f61905dd7215149a3baf091eee27933cb00a2792a78d71ebc812d30ad
+docker: quay.io/biocontainers/prosic
+aliases:
+  prosic: /usr/local/bin/prosic

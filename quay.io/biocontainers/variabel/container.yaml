@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/variabel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for variabel
+latest:
+  1.0.0--hdfd78af_0: sha256:f0a7bded8d9eb27c251d8dd4d06785c5d4e2558f083b24fd55156d7d7d55e661
+tags:
+  1.0.0--hdfd78af_0: sha256:f0a7bded8d9eb27c251d8dd4d06785c5d4e2558f083b24fd55156d7d7d55e661
+docker: quay.io/biocontainers/variabel
+aliases:
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  variabel: /usr/local/bin/variabel

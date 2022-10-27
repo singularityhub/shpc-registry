@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-slalom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-slalom
+latest:
+  1.8.0--r36he1b5a44_0: sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727
+tags:
+  1.8.0--r36he1b5a44_0: sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727
+docker: quay.io/biocontainers/bioconductor-slalom

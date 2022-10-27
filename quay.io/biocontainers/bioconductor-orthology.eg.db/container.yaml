@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-orthology.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-orthology.eg.db
+latest:
+  3.14.0--r41hdfd78af_1: sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed
+tags:
+  3.14.0--r41hdfd78af_1: sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed
+docker: quay.io/biocontainers/bioconductor-orthology.eg.db
+aliases:
+  .bioconductor-orthology.eg.db-post-link.sh: /usr/local/bin/.bioconductor-orthology.eg.db-post-link.sh
+  .bioconductor-orthology.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-orthology.eg.db-pre-unlink.sh

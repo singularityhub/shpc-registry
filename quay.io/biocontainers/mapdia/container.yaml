@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mapdia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mapdia
+latest:
+  3.1.0--h87f3376_3: sha256:5dd2e76310560a97ac9bffb2d9b9392fd3db34e39a004e87b1639da5d2ed47b7
+tags:
+  3.1.0--h87f3376_3: sha256:5dd2e76310560a97ac9bffb2d9b9392fd3db34e39a004e87b1639da5d2ed47b7
+docker: quay.io/biocontainers/mapdia
+aliases:
+  mapDIA: /usr/local/bin/mapDIA

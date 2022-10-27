@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/genewalk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genewalk
+latest:
+  1.5.3--pyh5e36f6f_0: sha256:fe6cc3d5a6ba40d01ff10a54ba06fcf3ec3a689299e922ab9bfe3fcdd8183acf
+tags:
+  1.5.3--pyh5e36f6f_0: sha256:fe6cc3d5a6ba40d01ff10a54ba06fcf3ec3a689299e922ab9bfe3fcdd8183acf
+docker: quay.io/biocontainers/genewalk
+aliases:
+  compare_gos.py: /usr/local/bin/compare_gos.py
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  genewalk: /usr/local/bin/genewalk
+  go_plot.py: /usr/local/bin/go_plot.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
+  prt_terms.py: /usr/local/bin/prt_terms.py
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py

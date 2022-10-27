@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-pcpheno
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcpheno
+latest:
+  1.50.0--r40_0: sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833
+tags:
+  1.50.0--r40_0: sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833
+docker: quay.io/biocontainers/bioconductor-pcpheno
+aliases:
+  .bioconductor-ppidata-post-link.sh: /usr/local/bin/.bioconductor-ppidata-post-link.sh
+  .bioconductor-ppidata-pre-unlink.sh: /usr/local/bin/.bioconductor-ppidata-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-inter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-inter
+latest:
+  1.09--pl5321hdfd78af_1: sha256:a7eade56eba41fb3e29cac04014de8ceea2e2622362851469a18f62a87cdfa5a
+tags:
+  1.09--pl5321hdfd78af_1: sha256:a7eade56eba41fb3e29cac04014de8ceea2e2622362851469a18f62a87cdfa5a
+docker: quay.io/biocontainers/perl-test-inter

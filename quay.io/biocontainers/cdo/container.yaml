@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/cdo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cdo
+latest:
+  2.0.0: sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca
+tags:
+  2.0.0: sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca
+docker: quay.io/biocontainers/cdo
+aliases:
+  bufr_compare: /usr/local/bin/bufr_compare
+  bufr_compare_dir: /usr/local/bin/bufr_compare_dir
+  bufr_copy: /usr/local/bin/bufr_copy
+  bufr_count: /usr/local/bin/bufr_count
+  bufr_dump: /usr/local/bin/bufr_dump
+  bufr_filter: /usr/local/bin/bufr_filter
+  bufr_get: /usr/local/bin/bufr_get
+  bufr_index_build: /usr/local/bin/bufr_index_build
+  bufr_ls: /usr/local/bin/bufr_ls
+  bufr_set: /usr/local/bin/bufr_set
+  cdo: /usr/local/bin/cdo
+  codes_bufr_filter: /usr/local/bin/codes_bufr_filter
+  codes_count: /usr/local/bin/codes_count
+  codes_info: /usr/local/bin/codes_info
+  codes_parser: /usr/local/bin/codes_parser
+  codes_split_file: /usr/local/bin/codes_split_file
+  grib2ppm: /usr/local/bin/grib2ppm
+  grib_compare: /usr/local/bin/grib_compare
+  grib_copy: /usr/local/bin/grib_copy
+  grib_count: /usr/local/bin/grib_count
+  grib_dump: /usr/local/bin/grib_dump
+  grib_filter: /usr/local/bin/grib_filter
+  grib_get: /usr/local/bin/grib_get
+  grib_get_data: /usr/local/bin/grib_get_data
+  grib_histogram: /usr/local/bin/grib_histogram
+  grib_index_build: /usr/local/bin/grib_index_build
+  grib_ls: /usr/local/bin/grib_ls
+  grib_merge: /usr/local/bin/grib_merge
+  grib_set: /usr/local/bin/grib_set
+  grib_to_netcdf: /usr/local/bin/grib_to_netcdf
+  gts_compare: /usr/local/bin/gts_compare
+  gts_copy: /usr/local/bin/gts_copy
+  gts_count: /usr/local/bin/gts_count
+  gts_dump: /usr/local/bin/gts_dump
+  gts_filter: /usr/local/bin/gts_filter
+  gts_get: /usr/local/bin/gts_get
+  gts_ls: /usr/local/bin/gts_ls
+  imgcmp: /usr/local/bin/imgcmp
+  imginfo: /usr/local/bin/imginfo
+  jasper: /usr/local/bin/jasper
+  jiv: /usr/local/bin/jiv
+  metar_compare: /usr/local/bin/metar_compare
+  metar_copy: /usr/local/bin/metar_copy
+  metar_dump: /usr/local/bin/metar_dump
+  metar_filter: /usr/local/bin/metar_filter
+  metar_get: /usr/local/bin/metar_get
+  metar_ls: /usr/local/bin/metar_ls
+  tigge_check: /usr/local/bin/tigge_check

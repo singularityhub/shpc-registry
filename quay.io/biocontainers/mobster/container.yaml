@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mobster
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mobster
+latest:
+  0.2.4.1--1: sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c
+tags:
+  0.2.4.1--1: sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c
+docker: quay.io/biocontainers/mobster
+aliases:
+  MosaikAligner: /usr/local/bin/MosaikAligner
+  MosaikBuild: /usr/local/bin/MosaikBuild
+  MosaikJump: /usr/local/bin/MosaikJump
+  MosaikText: /usr/local/bin/MosaikText
+  mobster: /usr/local/bin/mobster
+  mobster-to-vcf: /usr/local/bin/mobster-to-vcf

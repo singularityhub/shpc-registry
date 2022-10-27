@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/capcruncher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for capcruncher
+latest:
+  0.2.3--pyhdfd78af_0: sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0
+tags:
+  0.2.3--pyhdfd78af_0: sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0
+docker: quay.io/biocontainers/capcruncher
+aliases:
+  capcruncher: /usr/local/bin/capcruncher
+  fetchChromSizes: /usr/local/bin/fetchChromSizes
+  ice: /usr/local/bin/ice
+  rich-click: /usr/local/bin/rich-click
+  trim_galore: /usr/local/bin/trim_galore

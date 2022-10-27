@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/lightning
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lightning
+latest:
+  0.2.dev0--py36_0: sha256:37b1cab09b1561e6839b19d0215f5fa827d899ce6fddaaa8bbff6c23e0f69cac
+tags:
+  0.2.dev0--py36_0: sha256:37b1cab09b1561e6839b19d0215f5fa827d899ce6fddaaa8bbff6c23e0f69cac
+docker: quay.io/biocontainers/lightning
+aliases:
+  lightning_predict: /usr/local/bin/lightning_predict
+  lightning_train: /usr/local/bin/lightning_train

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-crimage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-crimage
+latest:
+  1.42.0--r41hdfd78af_0: sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc
+tags:
+  1.42.0--r41hdfd78af_0: sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc
+docker: quay.io/biocontainers/bioconductor-crimage

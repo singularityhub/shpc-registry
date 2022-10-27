@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tmixclust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tmixclust
+latest:
+  1.8.0--r36_0: sha256:718b979c60d0001155b3921c2703a32cbc7b85c1e133caa82995581591738994
+tags:
+  1.8.0--r36_0: sha256:718b979c60d0001155b3921c2703a32cbc7b85c1e133caa82995581591738994
+docker: quay.io/biocontainers/bioconductor-tmixclust

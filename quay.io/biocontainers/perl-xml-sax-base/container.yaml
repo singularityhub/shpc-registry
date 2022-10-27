@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-sax-base
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-sax-base
+latest:
+  1.09--pl5321hdfd78af_1: sha256:b27c4f30002301f05bab18bd30be62e4cee88dbfb15be5b9da8db96ff063c218
+tags:
+  1.09--pl5321hdfd78af_1: sha256:b27c4f30002301f05bab18bd30be62e4cee88dbfb15be5b9da8db96ff063c218
+docker: quay.io/biocontainers/perl-xml-sax-base

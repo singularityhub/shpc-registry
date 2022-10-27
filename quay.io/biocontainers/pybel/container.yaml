@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pybel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pybel
+latest:
+  0.9.3--py27_1: sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1
+tags:
+  0.9.3--py27_1: sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1
+docker: quay.io/biocontainers/pybel
+aliases:
+  geoff: /usr/local/bin/geoff
+  neokit: /usr/local/bin/neokit
+  p2n: /usr/local/bin/p2n
+  py2neo: /usr/local/bin/py2neo
+  pybel: /usr/local/bin/pybel
+  pyfiglet: /usr/local/bin/pyfiglet

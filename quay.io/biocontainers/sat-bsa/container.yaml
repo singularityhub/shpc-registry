@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/sat-bsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sat-bsa
+latest:
+  1.12--hdfd78af_1: sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
+tags:
+  1.12--hdfd78af_1: sha256:5c03c4e1e3a1969fcaa81392c991f61ed3a4b3145afd8cbed5885f881aeac757
+docker: quay.io/biocontainers/sat-bsa
+aliases:
+  1_1_select_reads_name_from_bam.pl: /usr/local/bin/1_1_select_reads_name_from_bam.pl
+  1_2_pick_up_reads.pl: /usr/local/bin/1_2_pick_up_reads.pl
+  1_3_fa_size.pl: /usr/local/bin/1_3_fa_size.pl
+  3_1_filter_mapQ_for_sam.pl: /usr/local/bin/3_1_filter_mapQ_for_sam.pl
+  4_1_fa_size.pl: /usr/local/bin/4_1_fa_size.pl
+  4_1_promoter_transcription_region.pl: /usr/local/bin/4_1_promoter_transcription_region.pl
+  4_2_select_pileup.pl: /usr/local/bin/4_2_select_pileup.pl
+  4_3_mut_count_pileup.pl: /usr/local/bin/4_3_mut_count_pileup.pl
+  4_4_Fisher.R: /usr/local/bin/4_4_Fisher.R
+  4_5_select_mut_pileup.pl: /usr/local/bin/4_5_select_mut_pileup.pl
+  4_6_match_pileup.pl: /usr/local/bin/4_6_match_pileup.pl
+  4_7_result.pl: /usr/local/bin/4_7_result.pl
+  5_1_make_script.pl: /usr/local/bin/5_1_make_script.pl
+  5_2_make_format.pl: /usr/local/bin/5_2_make_format.pl
+  5_make_graph.R: /usr/local/bin/5_make_graph.R
+  Sat-BSA: /usr/local/bin/Sat-BSA
+  make_Local_de_novo_assembly.pl: /usr/local/bin/make_Local_de_novo_assembly.pl
+  make_Local_reads_selection.pl: /usr/local/bin/make_Local_reads_selection.pl
+  make_Long_reads_alignment.pl: /usr/local/bin/make_Long_reads_alignment.pl
+  make_SVs_detection.pl: /usr/local/bin/make_SVs_detection.pl

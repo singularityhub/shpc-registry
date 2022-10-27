@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bcbio_monitor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bcbio_monitor
+latest:
+  1.0.6--py_4: sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c
+tags:
+  1.0.6--py_4: sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c
+docker: quay.io/biocontainers/bcbio_monitor
+aliases:
+  bcbio_monitor: /usr/local/bin/bcbio_monitor

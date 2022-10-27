@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tweedeseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tweedeseq
+latest:
+  1.40.0--r41hc0cfd56_2: sha256:9aa59a4cdef737f593ece0e64dda88b085be1fc76c3a044e07bbb813e33b09ac
+tags:
+  1.40.0--r41hc0cfd56_2: sha256:9aa59a4cdef737f593ece0e64dda88b085be1fc76c3a044e07bbb813e33b09ac
+docker: quay.io/biocontainers/bioconductor-tweedeseq

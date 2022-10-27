@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/schavott
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for schavott
+latest:
+  0.5.0--pyh145b6a8_2: sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494
+tags:
+  0.5.0--pyh145b6a8_2: sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494
+docker: quay.io/biocontainers/schavott
+aliases:
+  pyfasta: /usr/local/bin/pyfasta
+  schavott: /usr/local/bin/schavott
+  watchmedo: /usr/local/bin/watchmedo

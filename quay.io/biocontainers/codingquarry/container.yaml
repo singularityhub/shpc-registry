@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/codingquarry
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for codingquarry
+latest:
+  2.0--py38h4a32c8e_6: sha256:4efe1b30b34d49ab74fe0791b3f3fd8b596928ace09bd517e82fb59a541ff8fa
+tags:
+  2.0--py38h4a32c8e_6: sha256:4efe1b30b34d49ab74fe0791b3f3fd8b596928ace09bd517e82fb59a541ff8fa
+docker: quay.io/biocontainers/codingquarry
+aliases:
+  CodingQuarry: /usr/local/bin/CodingQuarry
+  CufflinksGTF_to_CodingQuarryGFF3.py: /usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py
+  run_CQ-PM_mine.sh: /usr/local/bin/run_CQ-PM_mine.sh
+  run_CQ-PM_stranded.sh: /usr/local/bin/run_CQ-PM_stranded.sh
+  run_CQ-PM_unstranded.sh: /usr/local/bin/run_CQ-PM_unstranded.sh

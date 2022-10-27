@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mockinbird
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mockinbird
+latest:
+  1.0.0a1--py36h91eb985_5: sha256:821878ebe957b835a3d475c5004c1b0d74b3bedb566736f2190074dd712ed0da
+tags:
+  1.0.0a1--py36h91eb985_5: sha256:821878ebe957b835a3d475c5004c1b0d74b3bedb566736f2190074dd712ed0da
+docker: quay.io/biocontainers/mockinbird
+aliases:
+  XXmotif: /usr/local/bin/XXmotif
+  mb-adapter-clipper: /usr/local/bin/mb-adapter-clipper
+  mb-annotate-table: /usr/local/bin/mb-annotate-table
+  mb-bam-postprocess: /usr/local/bin/mb-bam-postprocess
+  mb-bsfinder: /usr/local/bin/mb-bsfinder
+  mb-calculate-posterior: /usr/local/bin/mb-calculate-posterior
+  mb-cap-occupancy: /usr/local/bin/mb-cap-occupancy
+  mb-create-bam-statistics: /usr/local/bin/mb-create-bam-statistics
+  mb-extract-sites: /usr/local/bin/mb-extract-sites
+  mb-filter-sites: /usr/local/bin/mb-filter-sites
+  mb-generate-negative-set: /usr/local/bin/mb-generate-negative-set
+  mb-learn-mock: /usr/local/bin/mb-learn-mock
+  mb-mockinbird2table: /usr/local/bin/mb-mockinbird2table
+  mb-naive-bsfinder: /usr/local/bin/mb-naive-bsfinder
+  mb-normalize: /usr/local/bin/mb-normalize
+  mb-pileup2sites: /usr/local/bin/mb-pileup2sites
+  mb-plot-heatmap: /usr/local/bin/mb-plot-heatmap
+  mb-plot-heatmap-small: /usr/local/bin/mb-plot-heatmap-small
+  mb-plot-kmer-enrichment: /usr/local/bin/mb-plot-kmer-enrichment
+  mb-plot-kmer-logodds: /usr/local/bin/mb-plot-kmer-logodds
+  mb-plot-metagene: /usr/local/bin/mb-plot-metagene
+  mb-plot-metagene-nobs: /usr/local/bin/mb-plot-metagene-nobs
+  mb-plot-transition-frequencies: /usr/local/bin/mb-plot-transition-frequencies
+  mb-postprocess: /usr/local/bin/mb-postprocess
+  mb-preprocess: /usr/local/bin/mb-preprocess
+  mb-remove-duplicates: /usr/local/bin/mb-remove-duplicates
+  mb-site-merger: /usr/local/bin/mb-site-merger
+  mb-softclip-analyzer: /usr/local/bin/mb-softclip-analyzer
+  mb-table2fasta: /usr/local/bin/mb-table2fasta
+  mb-upgrade-table: /usr/local/bin/mb-upgrade-table
+  mb-xxmotif: /usr/local/bin/mb-xxmotif
+  mockinbird: /usr/local/bin/mockinbird

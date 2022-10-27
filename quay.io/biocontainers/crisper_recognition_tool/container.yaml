@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crisper_recognition_tool
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for crisper_recognition_tool
+latest:
+  1.2--hdfd78af_2: sha256:3b4f19754a0fb044db956c9874bac0891f2f36be5fb8a32e963e893086f638e6
+tags:
+  1.2--hdfd78af_2: sha256:3b4f19754a0fb044db956c9874bac0891f2f36be5fb8a32e963e893086f638e6
+docker: quay.io/biocontainers/crisper_recognition_tool
+aliases:
+  crt: /usr/local/bin/crt

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/deap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deap
+latest:
+  1.0.2--pyh864c0ab_2: sha256:c2caa647860ebc79acb8351c2adf407aec9c8108b792b2c9b41b25e68985dc6e
+tags:
+  1.0.2--pyh864c0ab_2: sha256:c2caa647860ebc79acb8351c2adf407aec9c8108b792b2c9b41b25e68985dc6e
+docker: quay.io/biocontainers/deap

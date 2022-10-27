@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-bedr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-bedr
+latest:
+  1.0.4--r351h6115d3f_1: sha256:1fa66362f6cb4495162369f7ebbd8458fb5b20ca59cd0c7eb231ab80ba47e2c4
+tags:
+  1.0.4--r351h6115d3f_1: sha256:1fa66362f6cb4495162369f7ebbd8458fb5b20ca59cd0c7eb231ab80ba47e2c4
+docker: quay.io/biocontainers/r-bedr

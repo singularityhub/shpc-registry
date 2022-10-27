@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gvcfgenotyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gvcfgenotyper
+latest:
+  2019.02.26--h468198e_2: sha256:bfaf411ececc4f25e50939ba22c9cf4a2d12f1e612356333903af1694268c8ae
+tags:
+  2019.02.26--h468198e_2: sha256:bfaf411ececc4f25e50939ba22c9cf4a2d12f1e612356333903af1694268c8ae
+docker: quay.io/biocontainers/gvcfgenotyper
+aliases:
+  gvcfgenotyper: /usr/local/bin/gvcfgenotyper

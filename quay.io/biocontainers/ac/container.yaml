@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ac
+latest:
+  1.1--h87f3376_2: sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9
+tags:
+  1.1--h87f3376_2: sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9
+docker: quay.io/biocontainers/ac
+aliases:
+  AC: /usr/local/bin/AC

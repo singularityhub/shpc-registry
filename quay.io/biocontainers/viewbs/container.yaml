@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/viewbs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for viewbs
+latest:
+  0.1.9--pl5262h779adbc_0: sha256:e6c2ad6c0ad34f6d913df526279f77179af4bb9b38813647558b45dce7105558
+tags:
+  0.1.9--pl5262h779adbc_0: sha256:e6c2ad6c0ad34f6d913df526279f77179af4bb9b38813647558b45dce7105558
+docker: quay.io/biocontainers/viewbs
+aliases:
+  ViewBS: /usr/local/bin/ViewBS
+  brat2bismark.pl: /usr/local/bin/brat2bismark.pl
+  bsseeker2bismark.pl: /usr/local/bin/bsseeker2bismark.pl
+  demo-getopt-long-subcommand: /usr/local/bin/demo-getopt-long-subcommand
+  gff2tab.pl: /usr/local/bin/gff2tab.pl
+  mer_fig.R: /usr/local/bin/mer_fig.R

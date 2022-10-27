@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bs_call
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bs_call
+latest:
+  2.02--h7c6eca5_6: sha256:f79a73c5da0181343c500784f89b0c3120a1aaba97decdf4bc18bdf0b87e7fc2
+tags:
+  2.02--h7c6eca5_6: sha256:f79a73c5da0181343c500784f89b0c3120a1aaba97decdf4bc18bdf0b87e7fc2
+docker: quay.io/biocontainers/bs_call
+aliases:
+  bs_call: /usr/local/bin/bs_call
+  dbSNP_idx: /usr/local/bin/dbSNP_idx

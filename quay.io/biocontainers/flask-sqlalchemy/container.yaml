@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flask-sqlalchemy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flask-sqlalchemy
+latest:
+  2.1--py35_0: sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27
+tags:
+  2.1--py35_0: sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27
+docker: quay.io/biocontainers/flask-sqlalchemy

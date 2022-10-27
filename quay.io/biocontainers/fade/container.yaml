@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fade
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fade
+latest:
+  0.6.0--h9ee0642_0: sha256:4d5e940b1d98beaed6a0a1cd65fb5d14f8481a52435e8a0cfd799989dd46cab8
+tags:
+  0.6.0--h9ee0642_0: sha256:4d5e940b1d98beaed6a0a1cd65fb5d14f8481a52435e8a0cfd799989dd46cab8
+docker: quay.io/biocontainers/fade
+aliases:
+  fade: /usr/local/bin/fade

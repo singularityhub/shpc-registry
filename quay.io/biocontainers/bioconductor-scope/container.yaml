@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scope
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scope
+latest:
+  1.6.0--r41hdfd78af_0: sha256:c9d481b2cdf07962e53df2e07a7ed0e0d22f72bb68565e3986d2da7ca42c11d8
+tags:
+  1.6.0--r41hdfd78af_0: sha256:c9d481b2cdf07962e53df2e07a7ed0e0d22f72bb68565e3986d2da7ca42c11d8
+docker: quay.io/biocontainers/bioconductor-scope

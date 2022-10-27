@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/levenshtein
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for levenshtein
+latest:
+  0.20.1: sha256:a08df2561880cc84b1a668d59228f14f67eba1bfe98da46725e4e6002a040635
+tags:
+  0.20.1: sha256:a08df2561880cc84b1a668d59228f14f67eba1bfe98da46725e4e6002a040635
+docker: quay.io/biocontainers/levenshtein

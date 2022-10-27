@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/epydoc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for epydoc
+latest:
+  3.0.1--py27_1: sha256:1afde8312a49cafca07ef99a156e3b6e18d995c70ca29589722230558e2d6dc7
+tags:
+  3.0.1--py27_1: sha256:1afde8312a49cafca07ef99a156e3b6e18d995c70ca29589722230558e2d6dc7
+docker: quay.io/biocontainers/epydoc
+aliases:
+  apirst2html.py: /usr/local/bin/apirst2html.py
+  epydoc: /usr/local/bin/epydoc
+  epydocgui: /usr/local/bin/epydocgui

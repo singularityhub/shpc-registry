@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/msaconverter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for msaconverter
+latest:
+  0.0.2--pyhdfd78af_0: sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1
+tags:
+  0.0.2--pyhdfd78af_0: sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1
+docker: quay.io/biocontainers/msaconverter
+aliases:
+  msaconverter: /usr/local/bin/msaconverter

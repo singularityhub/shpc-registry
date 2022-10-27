@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/srprism
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for srprism
+latest:
+  2.4.24--h96824bc_3: sha256:9d7ea3b9088ef3edf397328aafcfe7098094874d08d062333d45a735aa83955d
+tags:
+  2.4.24--h96824bc_3: sha256:9d7ea3b9088ef3edf397328aafcfe7098094874d08d062333d45a735aa83955d
+docker: quay.io/biocontainers/srprism
+aliases:
+  srprism: /usr/local/bin/srprism

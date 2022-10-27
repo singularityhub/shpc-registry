@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/igor_vdj
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for igor_vdj
+latest:
+  1.4.0--he1b5a44_0: sha256:8d53c165970f45a4840dc9e154b83a4f23d85b279c66af11ce37a47b8f450c63
+tags:
+  1.4.0--he1b5a44_0: sha256:8d53c165970f45a4840dc9e154b83a4f23d85b279c66af11ce37a47b8f450c63
+docker: quay.io/biocontainers/igor_vdj
+aliases:
+  igor: /usr/local/bin/igor
+  igor-compute_pgen: /usr/local/bin/igor-compute_pgen

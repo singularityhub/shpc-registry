@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fastafunk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastafunk
+latest:
+  0.1.2--pyh5e36f6f_0: sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82
+tags:
+  0.1.2--pyh5e36f6f_0: sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82
+docker: quay.io/biocontainers/fastafunk
+aliases:
+  fastafunk: /usr/local/bin/fastafunk

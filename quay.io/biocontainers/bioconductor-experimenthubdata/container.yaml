@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-experimenthubdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-experimenthubdata
+latest:
+  1.8.0--r351_0: sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924
+tags:
+  1.8.0--r351_0: sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924
+docker: quay.io/biocontainers/bioconductor-experimenthubdata

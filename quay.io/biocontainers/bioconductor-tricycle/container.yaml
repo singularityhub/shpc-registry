@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tricycle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tricycle
+latest:
+  1.2.0--r41hdfd78af_0: sha256:d9c1dfbd26233cac9a36d1465e4deda7e1f0f4542130347cb74cc2a469d4b336
+tags:
+  1.2.0--r41hdfd78af_0: sha256:d9c1dfbd26233cac9a36d1465e4deda7e1f0f4542130347cb74cc2a469d4b336
+docker: quay.io/biocontainers/bioconductor-tricycle

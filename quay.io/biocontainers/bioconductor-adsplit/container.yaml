@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-adsplit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-adsplit
+latest:
+  1.64.0--r41hc247a5b_2: sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9
+tags:
+  1.64.0--r41hc247a5b_2: sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9
+docker: quay.io/biocontainers/bioconductor-adsplit

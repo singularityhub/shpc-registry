@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/hotspot3d
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hotspot3d
+latest:
+  1.8.2--pl5321hdfd78af_3: sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588
+tags:
+  1.8.2--pl5321hdfd78af_3: sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588
+docker: quay.io/biocontainers/hotspot3d
+aliases:
+  hotspot3d: /usr/local/bin/hotspot3d

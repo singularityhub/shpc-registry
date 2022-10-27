@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/libarbdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for libarbdb
+latest:
+  6.0.6--haa8b8d8_8: sha256:53c522440f64bb2a9388ca2712f683e30b9b9d6885743aafdbcf656d9f0bfc9c
+tags:
+  6.0.6--haa8b8d8_8: sha256:53c522440f64bb2a9388ca2712f683e30b9b9d6885743aafdbcf656d9f0bfc9c
+docker: quay.io/biocontainers/libarbdb

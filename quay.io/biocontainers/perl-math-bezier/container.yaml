@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-bezier
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-bezier
+latest:
+  0.01--pl5321hdfd78af_2: sha256:0429374efa8eb604da6331d7b80181bf5d30f5050d7bb9c83efc137dc8af0edd
+tags:
+  0.01--pl5321hdfd78af_2: sha256:0429374efa8eb604da6331d7b80181bf5d30f5050d7bb9c83efc137dc8af0edd
+docker: quay.io/biocontainers/perl-math-bezier

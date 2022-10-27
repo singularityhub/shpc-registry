@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-motifrg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-motifrg
+latest:
+  1.31.0--r40_0: sha256:bc369c1d03fabac87731b8c644e469e9cdf192d00dd44fb27bf08c0ba69b9ae9
+tags:
+  1.31.0--r40_0: sha256:bc369c1d03fabac87731b8c644e469e9cdf192d00dd44fb27bf08c0ba69b9ae9
+docker: quay.io/biocontainers/bioconductor-motifrg

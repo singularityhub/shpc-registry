@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/qcat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qcat
+latest:
+  1.1.0--pyh864c0ab_1: sha256:dff9547c38e0c9bb33730a7510167a5e64e60301916e473d8b41a5da6f33393f
+tags:
+  1.1.0--pyh864c0ab_1: sha256:dff9547c38e0c9bb33730a7510167a5e64e60301916e473d8b41a5da6f33393f
+docker: quay.io/biocontainers/qcat
+aliases:
+  qcat: /usr/local/bin/qcat
+  qcat-eval: /usr/local/bin/qcat-eval
+  qcat-eval-truth: /usr/local/bin/qcat-eval-truth
+  qcat-roc: /usr/local/bin/qcat-roc

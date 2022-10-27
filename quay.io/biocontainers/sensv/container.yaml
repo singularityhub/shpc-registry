@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/sensv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sensv
+latest:
+  v1.0.1--h8b12597_0: sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b
+tags:
+  v1.0.1--h8b12597_0: sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b
+docker: quay.io/biocontainers/sensv
+aliases:
+  SURVIVOR: /usr/local/bin/SURVIVOR
+  config.ini: /usr/local/bin/config.ini
+  grabix: /usr/local/bin/grabix
+  libpypy3-c.so.debug: /usr/local/bin/libpypy3-c.so.debug
+  pypy3: /usr/local/bin/pypy3
+  sensv: /usr/local/bin/sensv

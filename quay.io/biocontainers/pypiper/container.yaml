@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pypiper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pypiper
+latest:
+  0.8--py_0: sha256:96db8c2c88b5a875fe9fff8dec0bbc8c1c9561f4db76a9fdae2f9ebddb49e871
+tags:
+  0.8--py_0: sha256:96db8c2c88b5a875fe9fff8dec0bbc8c1c9561f4db76a9fdae2f9ebddb49e871
+docker: quay.io/biocontainers/pypiper

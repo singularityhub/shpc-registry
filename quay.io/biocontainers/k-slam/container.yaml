@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/k-slam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for k-slam
+latest:
+  1.0--1: sha256:7f97cc6eafa0a675a7ec9097d10d642600de4a52735f0d9cbfb4372d3dd09a72
+tags:
+  1.0--1: sha256:7f97cc6eafa0a675a7ec9097d10d642600de4a52735f0d9cbfb4372d3dd09a72
+docker: quay.io/biocontainers/k-slam
+aliases:
+  SLAM: /usr/local/bin/SLAM
+  install_slam.sh: /usr/local/bin/install_slam.sh

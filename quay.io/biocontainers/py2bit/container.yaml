@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/py2bit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for py2bit
+latest:
+  0.3.0--py38hbff2b2d_6: sha256:1a862eb1ecd5913bd7b4834f327f18bb26ab9b0f6e20d8141a3c77ee01c58296
+tags:
+  0.3.0--py38hbff2b2d_6: sha256:1a862eb1ecd5913bd7b4834f327f18bb26ab9b0f6e20d8141a3c77ee01c58296
+docker: quay.io/biocontainers/py2bit

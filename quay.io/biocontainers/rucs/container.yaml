@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rucs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rucs
+latest:
+  1.0.2--hdfd78af_1: sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426
+tags:
+  1.0.2--hdfd78af_1: sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426
+docker: quay.io/biocontainers/rucs
+aliases:
+  .rucs-post-link.sh: /usr/local/bin/.rucs-post-link.sh
+  install_db.sh: /usr/local/bin/install_db.sh
+  rucs: /usr/local/bin/rucs

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/extract_fullseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for extract_fullseq
+latest:
+  3.101--3: sha256:9c4fb0f1c50aaf454e68b619cfea21b5fae8afca0e38d2e64c77380f5af8221c
+tags:
+  3.101--3: sha256:9c4fb0f1c50aaf454e68b619cfea21b5fae8afca0e38d2e64c77380f5af8221c
+docker: quay.io/biocontainers/extract_fullseq
+aliases:
+  extract_fullseq: /usr/local/bin/extract_fullseq

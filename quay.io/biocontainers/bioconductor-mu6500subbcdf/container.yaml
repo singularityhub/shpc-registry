@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mu6500subbcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mu6500subbcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:3f5476175e0580f07b7e16d04be5ca73357f116e00377ba905319b8926739eb8
+tags:
+  2.18.0--r41hdfd78af_9: sha256:3f5476175e0580f07b7e16d04be5ca73357f116e00377ba905319b8926739eb8
+docker: quay.io/biocontainers/bioconductor-mu6500subbcdf
+aliases:
+  .bioconductor-mu6500subbcdf-post-link.sh: /usr/local/bin/.bioconductor-mu6500subbcdf-post-link.sh
+  .bioconductor-mu6500subbcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mu6500subbcdf-pre-unlink.sh

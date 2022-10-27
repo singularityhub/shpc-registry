@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/proovframe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for proovframe
+latest:
+  0.9.7--hdfd78af_0: sha256:87b2dcafe6bd7be8780ed127afec1b4f2d4a9f929abc48d12136d1e23729dae6
+tags:
+  0.9.7--hdfd78af_0: sha256:87b2dcafe6bd7be8780ed127afec1b4f2d4a9f929abc48d12136d1e23729dae6
+docker: quay.io/biocontainers/proovframe
+aliases:
+  proovframe: /usr/local/bin/proovframe
+  proovframe-fix: /usr/local/bin/proovframe-fix
+  proovframe-map: /usr/local/bin/proovframe-map
+  proovframe-prf: /usr/local/bin/proovframe-prf

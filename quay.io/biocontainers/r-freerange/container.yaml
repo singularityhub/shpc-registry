@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-freerange
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-freerange
+latest:
+  0.2.8--r36_0: sha256:4ee52607f3886a4b45f60820f270aa8c21d44304bad4ff0ec94283b87f36320c
+tags:
+  0.2.8--r36_0: sha256:4ee52607f3886a4b45f60820f270aa8c21d44304bad4ff0ec94283b87f36320c
+docker: quay.io/biocontainers/r-freerange

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fabia
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fabia
+latest:
+  2.40.0--r41hc0cfd56_2: sha256:44b7c08f1dedd7567d6353bd0865a882d5470b490a431d0f03db116a9d7c14fa
+tags:
+  2.40.0--r41hc0cfd56_2: sha256:44b7c08f1dedd7567d6353bd0865a882d5470b490a431d0f03db116a9d7c14fa
+docker: quay.io/biocontainers/bioconductor-fabia

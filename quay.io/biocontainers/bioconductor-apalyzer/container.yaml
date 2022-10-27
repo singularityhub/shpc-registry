@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-apalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-apalyzer
+latest:
+  1.8.0--r41hdfd78af_0: sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3
+tags:
+  1.8.0--r41hdfd78af_0: sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3
+docker: quay.io/biocontainers/bioconductor-apalyzer

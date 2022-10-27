@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-digest-crc32
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-digest-crc32
+latest:
+  0.01--pl5321hdfd78af_3: sha256:f62e38c6306650d03685ea25590c593e7b2744940411b033930d16490a113412
+tags:
+  0.01--pl5321hdfd78af_3: sha256:f62e38c6306650d03685ea25590c593e7b2744940411b033930d16490a113412
+docker: quay.io/biocontainers/perl-digest-crc32

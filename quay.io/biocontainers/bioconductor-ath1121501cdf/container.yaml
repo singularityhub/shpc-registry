@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ath1121501cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ath1121501cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:138038adff8d35cf898230b5ef0dd92416bc06d8e00b541725abc93a4d8297ed
+tags:
+  2.18.0--r41hdfd78af_9: sha256:138038adff8d35cf898230b5ef0dd92416bc06d8e00b541725abc93a4d8297ed
+docker: quay.io/biocontainers/bioconductor-ath1121501cdf
+aliases:
+  .bioconductor-ath1121501cdf-post-link.sh: /usr/local/bin/.bioconductor-ath1121501cdf-post-link.sh
+  .bioconductor-ath1121501cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ath1121501cdf-pre-unlink.sh

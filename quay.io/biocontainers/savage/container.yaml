@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/savage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for savage
+latest:
+  0.4.2--py27h16ec135_2: sha256:49c7fda8572f906a5bfe94e9972e670b61f780f6c4965d980036d3ff0d6ad4a4
+tags:
+  0.4.2--py27h16ec135_2: sha256:49c7fda8572f906a5bfe94e9972e670b61f780f6c4965d980036d3ff0d6ad4a4
+docker: quay.io/biocontainers/savage
+aliases:
+  rust-overlaps: /usr/local/bin/rust-overlaps
+  savage: /usr/local/bin/savage

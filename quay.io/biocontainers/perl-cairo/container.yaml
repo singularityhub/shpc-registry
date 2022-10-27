@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-cairo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-cairo
+latest:
+  1.109--pl5321h80db5c4_1: sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b
+tags:
+  1.109--pl5321h80db5c4_1: sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b
+docker: quay.io/biocontainers/perl-cairo

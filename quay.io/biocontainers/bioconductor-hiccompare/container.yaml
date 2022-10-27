@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hiccompare
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hiccompare
+latest:
+  1.8.0--r36_0: sha256:6c993acbfa82672650843918e120e023a9f5ce2037dd58dd8ce09848da92541e
+tags:
+  1.8.0--r36_0: sha256:6c993acbfa82672650843918e120e023a9f5ce2037dd58dd8ce09848da92541e
+docker: quay.io/biocontainers/bioconductor-hiccompare

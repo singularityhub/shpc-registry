@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dta
+latest:
+  2.40.0--r41hdfd78af_0: sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5
+tags:
+  2.40.0--r41hdfd78af_0: sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5
+docker: quay.io/biocontainers/bioconductor-dta

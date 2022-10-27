@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sigfeature
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sigfeature
+latest:
+  1.8.0--r40hdfd78af_1: sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a
+tags:
+  1.8.0--r40hdfd78af_1: sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a
+docker: quay.io/biocontainers/bioconductor-sigfeature

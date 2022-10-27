@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-popgenreport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-popgenreport
+latest:
+  3.0.4--r41h3342da4_4: sha256:f9931bf9452eb94439b2ed98649226112ba5dddc4fe5f2ffe54b1b8848149a16
+tags:
+  3.0.4--r41h3342da4_4: sha256:f9931bf9452eb94439b2ed98649226112ba5dddc4fe5f2ffe54b1b8848149a16
+docker: quay.io/biocontainers/r-popgenreport

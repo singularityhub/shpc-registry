@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/pipits
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pipits
+latest:
+  2.8--pyhdfd78af_0: sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178
+tags:
+  2.8--pyhdfd78af_0: sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178
+docker: quay.io/biocontainers/pipits
+aliases:
+  AbundanceStats: /usr/local/bin/AbundanceStats
+  AlignmentTools: /usr/local/bin/AlignmentTools
+  Clustering: /usr/local/bin/Clustering
+  FrameBot: /usr/local/bin/FrameBot
+  ITSx: /usr/local/bin/ITSx
+  KmerFilter: /usr/local/bin/KmerFilter
+  ProbeMatch: /usr/local/bin/ProbeMatch
+  ReadSeq: /usr/local/bin/ReadSeq
+  SeqFilters: /usr/local/bin/SeqFilters
+  SequenceMatch: /usr/local/bin/SequenceMatch
+  classifier: /usr/local/bin/classifier
+  fasta_clipping_histogram.pl: /usr/local/bin/fasta_clipping_histogram.pl
+  fasta_formatter: /usr/local/bin/fasta_formatter
+  fasta_nucleotide_changer: /usr/local/bin/fasta_nucleotide_changer
+  fastq_masker: /usr/local/bin/fastq_masker
+  fastq_quality_boxplot_graph.sh: /usr/local/bin/fastq_quality_boxplot_graph.sh
+  fastq_quality_converter: /usr/local/bin/fastq_quality_converter
+  fastq_quality_filter: /usr/local/bin/fastq_quality_filter
+  fastq_quality_trimmer: /usr/local/bin/fastq_quality_trimmer
+  fastq_to_fasta: /usr/local/bin/fastq_to_fasta
+  fastx_artifacts_filter: /usr/local/bin/fastx_artifacts_filter
+  fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
+  fastx_clipper: /usr/local/bin/fastx_clipper
+  fastx_collapser: /usr/local/bin/fastx_collapser
+  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_quality_stats: /usr/local/bin/fastx_quality_stats
+  fastx_renamer: /usr/local/bin/fastx_renamer
+  fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement
+  fastx_trimmer: /usr/local/bin/fastx_trimmer
+  fastx_uncollapser: /usr/local/bin/fastx_uncollapser
+  hmmgs: /usr/local/bin/hmmgs
+  pipits_funguild.py: /usr/local/bin/pipits_funguild.py
+  pipits_funits: /usr/local/bin/pipits_funits
+  pipits_getsamplelistfromfasta: /usr/local/bin/pipits_getsamplelistfromfasta
+  pipits_phylotype_biom: /usr/local/bin/pipits_phylotype_biom
+  pipits_process: /usr/local/bin/pipits_process
+  pipits_reformatAssignedTaxonomy: /usr/local/bin/pipits_reformatAssignedTaxonomy
+  pipits_rereplicate: /usr/local/bin/pipits_rereplicate
+  pipits_retrain_rdp: /usr/local/bin/pipits_retrain_rdp
+  pipits_uc2otutable: /usr/local/bin/pipits_uc2otutable
+  pispino_createreadpairslist: /usr/local/bin/pispino_createreadpairslist
+  pispino_seqprep: /usr/local/bin/pispino_seqprep

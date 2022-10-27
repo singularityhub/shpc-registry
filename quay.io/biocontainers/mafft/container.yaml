@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mafft
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mafft
+latest:
+  7.508--hec16e2b_0: sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d
+tags:
+  7.508--hec16e2b_0: sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d
+docker: quay.io/biocontainers/mafft

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-riceprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-riceprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:5697f8dc2de7255b858ecba6dd0a81f547a30523f07a02a25231352b86c958b9
+tags:
+  2.18.0--r41hdfd78af_9: sha256:5697f8dc2de7255b858ecba6dd0a81f547a30523f07a02a25231352b86c958b9
+docker: quay.io/biocontainers/bioconductor-riceprobe
+aliases:
+  .bioconductor-riceprobe-post-link.sh: /usr/local/bin/.bioconductor-riceprobe-post-link.sh
+  .bioconductor-riceprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-riceprobe-pre-unlink.sh

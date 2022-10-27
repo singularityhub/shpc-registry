@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cnvgsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cnvgsa
+latest:
+  1.38.0--r41hdfd78af_0: sha256:6c72e0d34bfdaa3b5e7d72707fdac4968c65040e3f331a8ddf8a6e7b406b76ce
+tags:
+  1.38.0--r41hdfd78af_0: sha256:6c72e0d34bfdaa3b5e7d72707fdac4968c65040e3f331a8ddf8a6e7b406b76ce
+docker: quay.io/biocontainers/bioconductor-cnvgsa

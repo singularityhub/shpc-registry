@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/ngsutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ngsutils
+latest:
+  0.5.9--py27h9801fc8_5: sha256:82275edba78ee60556af60995bd56767cb4b54c3cd95d2cb4673362ca94b3376
+tags:
+  0.5.9--py27h9801fc8_5: sha256:82275edba78ee60556af60995bd56767cb4b54c3cd95d2cb4673362ca94b3376
+docker: quay.io/biocontainers/ngsutils
+aliases:
+  bamutils: /usr/local/bin/bamutils
+  bedutils: /usr/local/bin/bedutils
+  fastqutils: /usr/local/bin/fastqutils
+  gtfutils: /usr/local/bin/gtfutils
+  ngsutils: /usr/local/bin/ngsutils
+  swalign: /usr/local/bin/swalign

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-splitstackshape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-splitstackshape
+latest:
+  1.4.2--r3.3.1_0: sha256:17cc0be3bcdcd9f6862b9379bef5626dce6367e8cdcfe207db18f00b4c6c6ec1
+tags:
+  1.4.2--r3.3.1_0: sha256:17cc0be3bcdcd9f6862b9379bef5626dce6367e8cdcfe207db18f00b4c6c6ec1
+docker: quay.io/biocontainers/r-splitstackshape

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/kipoi_veff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kipoi_veff
+latest:
+  0.3.1--pyh145b6a8_1: sha256:5692353c0b9068f8dc3c755b95ca02e0206474b3d80657706a6ce6a71b402cb7
+tags:
+  0.3.1--pyh145b6a8_1: sha256:5692353c0b9068f8dc3c755b95ca02e0206474b3d80657706a6ce6a71b402cb7
+docker: quay.io/biocontainers/kipoi_veff
+aliases:
+  cookiecutter: /usr/local/bin/cookiecutter
+  ddls: /usr/local/bin/ddls
+  kipoi: /usr/local/bin/kipoi
+  slugify: /usr/local/bin/slugify

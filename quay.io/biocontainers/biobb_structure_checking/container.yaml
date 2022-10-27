@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biobb_structure_checking
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_structure_checking
+latest:
+  3.9.9--pyhb7b1952_0: sha256:1ea11949cc3fb30df2250d45048da16decf1e66214fd8ff57f4dedecf952ab5f
+tags:
+  3.9.9--pyhb7b1952_0: sha256:1ea11949cc3fb30df2250d45048da16decf1e66214fd8ff57f4dedecf952ab5f
+docker: quay.io/biocontainers/biobb_structure_checking
+aliases:
+  check_structure: /usr/local/bin/check_structure

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-affylmgui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-affylmgui
+latest:
+  1.68.0--r41hdfd78af_0: sha256:0e6e91168cbbe9258397f9e7f951c831083528fee8ca1e30b167be63a9a6ee85
+tags:
+  1.68.0--r41hdfd78af_0: sha256:0e6e91168cbbe9258397f9e7f951c831083528fee8ca1e30b167be63a9a6ee85
+docker: quay.io/biocontainers/bioconductor-affylmgui

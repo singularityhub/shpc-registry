@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fcsparser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fcsparser
+latest:
+  0.2.4--pyhfa5458b_0: sha256:b9e29ff0c5012f673b91ab81e54776b590658f9bf3fa694538ff22f9753e0ab9
+tags:
+  0.2.4--pyhfa5458b_0: sha256:b9e29ff0c5012f673b91ab81e54776b590658f9bf3fa694538ff22f9753e0ab9
+docker: quay.io/biocontainers/fcsparser

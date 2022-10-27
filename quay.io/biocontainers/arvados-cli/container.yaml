@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/arvados-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for arvados-cli
+latest:
+  0.1.20151207150126--0: sha256:315131a08c4bc95c66037870104f03e7ce7810ac2c561ad589d55bd00d737fb4
+tags:
+  0.1.20151207150126--0: sha256:315131a08c4bc95c66037870104f03e7ce7810ac2c561ad589d55bd00d737fb4
+docker: quay.io/biocontainers/arvados-cli
+aliases:
+  arv: /usr/local/bin/arv
+  arv-crunch-job: /usr/local/bin/arv-crunch-job
+  arv-run-pipeline-instance: /usr/local/bin/arv-run-pipeline-instance
+  arv-tag: /usr/local/bin/arv-tag
+  google-api: /usr/local/bin/google-api
+  launchy: /usr/local/bin/launchy

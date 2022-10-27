@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jannovar-cli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jannovar-cli
+latest:
+  0.36--hdfd78af_0: sha256:c3915b81caae3214aae6d105108c17c16010145974e0910cbf6983eeaeac8112
+tags:
+  0.36--hdfd78af_0: sha256:c3915b81caae3214aae6d105108c17c16010145974e0910cbf6983eeaeac8112
+docker: quay.io/biocontainers/jannovar-cli
+aliases:
+  jannovar: /usr/local/bin/jannovar

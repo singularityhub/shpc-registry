@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-prot2d
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-prot2d
+latest:
+  1.20.0--r351_0: sha256:b1f34a0dcf2d4852eb4cc0be88639b7c73e0cf0080537a9ba33853c1237ba18e
+tags:
+  1.20.0--r351_0: sha256:b1f34a0dcf2d4852eb4cc0be88639b7c73e0cf0080537a9ba33853c1237ba18e
+docker: quay.io/biocontainers/bioconductor-prot2d

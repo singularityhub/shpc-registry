@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kounta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kounta
+latest:
+  0.2.3--hdfd78af_2: sha256:63bd0f7c77852fe136a34be2e9ce175bd68ade251c4f1db28c97d31fba911f8d
+tags:
+  0.2.3--hdfd78af_2: sha256:63bd0f7c77852fe136a34be2e9ce175bd68ade251c4f1db28c97d31fba911f8d
+docker: quay.io/biocontainers/kounta
+aliases:
+  kounta: /usr/local/bin/kounta

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-gfacs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-gfacs
+latest:
+  1.1.1--hdfd78af_1: sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a
+tags:
+  1.1.1--hdfd78af_1: sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a
+docker: quay.io/biocontainers/perl-gfacs
+aliases:
+  gFACs.pl: /usr/local/bin/gFACs.pl

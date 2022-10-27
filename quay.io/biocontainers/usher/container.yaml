@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/usher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for usher
+latest:
+  0.5.6--h99b1ad8_1: sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99
+tags:
+  0.5.6--h99b1ad8_1: sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99
+docker: quay.io/biocontainers/usher
+aliases:
+  faToVcf: /usr/local/bin/faToVcf
+  fido2-assert: /usr/local/bin/fido2-assert
+  fido2-cred: /usr/local/bin/fido2-cred
+  fido2-token: /usr/local/bin/fido2-token
+  matOptimize: /usr/local/bin/matOptimize
+  matUtils: /usr/local/bin/matUtils
+  ripples: /usr/local/bin/ripples
+  scp: /usr/local/bin/scp
+  sftp: /usr/local/bin/sftp
+  ssh: /usr/local/bin/ssh
+  ssh-add: /usr/local/bin/ssh-add
+  ssh-agent: /usr/local/bin/ssh-agent
+  ssh-keygen: /usr/local/bin/ssh-keygen
+  ssh-keyscan: /usr/local/bin/ssh-keyscan
+  sshd: /usr/local/bin/sshd
+  usher: /usr/local/bin/usher

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-variancepartition
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-variancepartition
+latest:
+  1.8.1--r3.4.1_0: sha256:21a528b07a13d6e0a9f59f967bac45eac9adfcdbfa55c63723f091b0fedd0ef4
+tags:
+  1.8.1--r3.4.1_0: sha256:21a528b07a13d6e0a9f59f967bac45eac9adfcdbfa55c63723f091b0fedd0ef4
+docker: quay.io/biocontainers/bioconductor-variancepartition

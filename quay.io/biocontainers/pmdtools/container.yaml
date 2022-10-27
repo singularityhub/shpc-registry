@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/pmdtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pmdtools
+latest:
+  0.60--hdfd78af_5: sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa
+tags:
+  0.60--hdfd78af_5: sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa
+docker: quay.io/biocontainers/pmdtools
+aliases:
+  plotPMD: /usr/local/bin/plotPMD
+  pmdtools: /usr/local/bin/pmdtools

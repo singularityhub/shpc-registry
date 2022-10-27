@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bridgedbr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bridgedbr
+latest:
+  2.4.0--r41hdfd78af_0: sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9
+tags:
+  2.4.0--r41hdfd78af_0: sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9
+docker: quay.io/biocontainers/bioconductor-bridgedbr

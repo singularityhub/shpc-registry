@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/genonets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genonets
+latest:
+  2.0--pyh5e36f6f_0: sha256:5d61d0ce26ae2c923bf7bc7ecd0950dd55080cee4ca058faeb4340d9bb44f32e
+tags:
+  2.0--pyh5e36f6f_0: sha256:5d61d0ce26ae2c923bf7bc7ecd0950dd55080cee4ca058faeb4340d9bb44f32e
+docker: quay.io/biocontainers/genonets

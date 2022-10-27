@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-clstutils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-clstutils
+latest:
+  1.42.0--r41hdfd78af_0: sha256:693918aa9d99325949cd11d0048d678ef3a2cea81a86ef87914b4a0eb156b81f
+tags:
+  1.42.0--r41hdfd78af_0: sha256:693918aa9d99325949cd11d0048d678ef3a2cea81a86ef87914b4a0eb156b81f
+docker: quay.io/biocontainers/bioconductor-clstutils

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pcatools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pcatools
+latest:
+  2.6.0--r41hc247a5b_2: sha256:ecc5a61ff97f7cf1ae1807a5d1530c04b4ed91d1e2863a6d85063ba4a24c4734
+tags:
+  2.6.0--r41hc247a5b_2: sha256:ecc5a61ff97f7cf1ae1807a5d1530c04b4ed91d1e2863a6d85063ba4a24c4734
+docker: quay.io/biocontainers/bioconductor-pcatools

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biocneighbors
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biocneighbors
+latest:
+  1.8.2--r40h399db7b_0: sha256:d3e81972b2b3d74b4c292e52d535bd08a40a48f61eb3ff64391ec50d79a6a265
+tags:
+  1.8.2--r40h399db7b_0: sha256:d3e81972b2b3d74b4c292e52d535bd08a40a48f61eb3ff64391ec50d79a6a265
+docker: quay.io/biocontainers/bioconductor-biocneighbors

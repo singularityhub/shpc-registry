@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-io-prompt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-io-prompt
+latest:
+  0.997004--pl5321hdfd78af_3: sha256:3bddc3f1ff0b848d876616db4cabb4f493a84e7c53effdc354e2cfa5250bc618
+tags:
+  0.997004--pl5321hdfd78af_3: sha256:3bddc3f1ff0b848d876616db4cabb4f493a84e7c53effdc354e2cfa5250bc618
+docker: quay.io/biocontainers/perl-io-prompt

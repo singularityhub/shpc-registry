@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-breakpointr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-breakpointr
+latest:
+  1.8.0--r40hdfd78af_1: sha256:50dcd0f9f3e2b19ba7db3c28190b443828878e2ecfc191767d4a5a67dc16d296
+tags:
+  1.8.0--r40hdfd78af_1: sha256:50dcd0f9f3e2b19ba7db3c28190b443828878e2ecfc191767d4a5a67dc16d296
+docker: quay.io/biocontainers/bioconductor-breakpointr
+aliases:
+  .bioconductor-breakpointrdata-post-link.sh: /usr/local/bin/.bioconductor-breakpointrdata-post-link.sh
+  .bioconductor-breakpointrdata-pre-unlink.sh: /usr/local/bin/.bioconductor-breakpointrdata-pre-unlink.sh

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pyfba
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyfba
+latest:
+  2.62--py39h8c4442e_2: sha256:4b3eaf5f92231aacb9cb5a9f2e6dc78f6836edc9bac0a014efb23482c7ab3a7f
+tags:
+  2.62--py39h8c4442e_2: sha256:4b3eaf5f92231aacb9cb5a9f2e6dc78f6836edc9bac0a014efb23482c7ab3a7f
+docker: quay.io/biocontainers/pyfba
+aliases:
+  black-primer: /usr/local/bin/black-primer
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  pyfba: /usr/local/bin/pyfba
+  send2trash: /usr/local/bin/send2trash

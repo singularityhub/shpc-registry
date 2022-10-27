@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/wham
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wham
+latest:
+  1.8.0.1.2017.05.03--h8b12597_1: sha256:75692dde972a675794d3e570d38798acb7f6965deda2ce1d54ed228159394063
+tags:
+  1.8.0.1.2017.05.03--h8b12597_1: sha256:75692dde972a675794d3e570d38798acb7f6965deda2ce1d54ed228159394063
+docker: quay.io/biocontainers/wham
+aliases:
+  wham: /usr/local/bin/wham
+  whamg: /usr/local/bin/whamg

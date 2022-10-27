@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/exomiser-rest-prioritiser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for exomiser-rest-prioritiser
+latest:
+  12.1.0--hdfd78af_2: sha256:852466477c415c7875e867ce9057162d6581eca7d69597d0dfa9f864657d93af
+tags:
+  12.1.0--hdfd78af_2: sha256:852466477c415c7875e867ce9057162d6581eca7d69597d0dfa9f864657d93af
+docker: quay.io/biocontainers/exomiser-rest-prioritiser
+aliases:
+  exomiser-rest-prioritiser: /usr/local/bin/exomiser-rest-prioritiser

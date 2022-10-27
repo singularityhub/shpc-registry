@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/tin-score-calculation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tin-score-calculation
+latest:
+  0.6.3--pyh5e36f6f_0: sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
+tags:
+  0.6.3--pyh5e36f6f_0: sha256:fd3473790607c10792b8ca45185a67a0fb1754260ae0dbfe0b8dd759b9f564f6
+docker: quay.io/biocontainers/tin-score-calculation
+aliases:
+  FPKM-UQ.py: /usr/local/bin/FPKM-UQ.py
+  FPKM_count.py: /usr/local/bin/FPKM_count.py
+  RNA_fragment_size.py: /usr/local/bin/RNA_fragment_size.py
+  RPKM_saturation.py: /usr/local/bin/RPKM_saturation.py
+  bam2fq.py: /usr/local/bin/bam2fq.py
+  bam2wig.py: /usr/local/bin/bam2wig.py
+  bam_stat.py: /usr/local/bin/bam_stat.py
+  calculate-tin.py: /usr/local/bin/calculate-tin.py
+  clipping_profile.py: /usr/local/bin/clipping_profile.py
+  deletion_profile.py: /usr/local/bin/deletion_profile.py
+  divide_bam.py: /usr/local/bin/divide_bam.py
+  geneBody_coverage.py: /usr/local/bin/geneBody_coverage.py
+  geneBody_coverage2.py: /usr/local/bin/geneBody_coverage2.py
+  infer_experiment.py: /usr/local/bin/infer_experiment.py
+  inner_distance.py: /usr/local/bin/inner_distance.py
+  insertion_profile.py: /usr/local/bin/insertion_profile.py
+  junction_annotation.py: /usr/local/bin/junction_annotation.py
+  junction_saturation.py: /usr/local/bin/junction_saturation.py
+  merge-tin.py: /usr/local/bin/merge-tin.py
+  mismatch_profile.py: /usr/local/bin/mismatch_profile.py
+  normalize_bigwig.py: /usr/local/bin/normalize_bigwig.py
+  overlay_bigwig.py: /usr/local/bin/overlay_bigwig.py
+  plot-tin.py: /usr/local/bin/plot-tin.py
+  read_GC.py: /usr/local/bin/read_GC.py
+  read_NVC.py: /usr/local/bin/read_NVC.py
+  read_distribution.py: /usr/local/bin/read_distribution.py
+  read_duplication.py: /usr/local/bin/read_duplication.py
+  read_hexamer.py: /usr/local/bin/read_hexamer.py
+  read_quality.py: /usr/local/bin/read_quality.py
+  split_bam.py: /usr/local/bin/split_bam.py
+  split_paired_bam.py: /usr/local/bin/split_paired_bam.py
+  summarize-tin.py: /usr/local/bin/summarize-tin.py
+  tin.py: /usr/local/bin/tin.py

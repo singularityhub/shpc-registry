@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-tabs-wrap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-tabs-wrap
+latest:
+  2021.0814--pl5321hdfd78af_0: sha256:598bc68a64d9c658a051eab9f15cd979b6e4f99c5ecb45fb0a7af824844058f3
+tags:
+  2021.0814--pl5321hdfd78af_0: sha256:598bc68a64d9c658a051eab9f15cd979b6e4f99c5ecb45fb0a7af824844058f3
+docker: quay.io/biocontainers/perl-text-tabs-wrap

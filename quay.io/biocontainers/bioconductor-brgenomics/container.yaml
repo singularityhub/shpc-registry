@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-brgenomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-brgenomics
+latest:
+  1.6.0--r41hdfd78af_0: sha256:b3282478f40a5d2f6676edd7bee5cd02f4400962b78f1f3b82db1bde6d328bfe
+tags:
+  1.6.0--r41hdfd78af_0: sha256:b3282478f40a5d2f6676edd7bee5cd02f4400962b78f1f3b82db1bde6d328bfe
+docker: quay.io/biocontainers/bioconductor-brgenomics

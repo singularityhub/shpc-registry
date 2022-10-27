@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-aneufinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-aneufinder
+latest:
+  1.22.0--r41hc247a5b_2: sha256:445691d858fc40e5acb07da40172cb4d8c3f0e3da1951d57a9e6654bff659df8
+tags:
+  1.22.0--r41hc247a5b_2: sha256:445691d858fc40e5acb07da40172cb4d8c3f0e3da1951d57a9e6654bff659df8
+docker: quay.io/biocontainers/bioconductor-aneufinder
+aliases:
+  .bioconductor-aneufinderdata-post-link.sh: /usr/local/bin/.bioconductor-aneufinderdata-post-link.sh
+  .bioconductor-aneufinderdata-pre-unlink.sh: /usr/local/bin/.bioconductor-aneufinderdata-pre-unlink.sh

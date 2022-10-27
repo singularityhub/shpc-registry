@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-getdee2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-getdee2
+latest:
+  1.4.0--r41hdfd78af_0: sha256:0841799d0e9366d5b18a1f29ddabffa855507af52b7781df31fc07fc30b4ef94
+tags:
+  1.4.0--r41hdfd78af_0: sha256:0841799d0e9366d5b18a1f29ddabffa855507af52b7781df31fc07fc30b4ef94
+docker: quay.io/biocontainers/bioconductor-getdee2

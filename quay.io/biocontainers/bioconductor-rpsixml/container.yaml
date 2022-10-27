@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rpsixml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rpsixml
+latest:
+  2.36.0--r41hdfd78af_0: sha256:f9f0703fcceedf6b4c521a5a7cdf66b68a602a91d3b9717c5106e60486f62593
+tags:
+  2.36.0--r41hdfd78af_0: sha256:f9f0703fcceedf6b4c521a5a7cdf66b68a602a91d3b9717c5106e60486f62593
+docker: quay.io/biocontainers/bioconductor-rpsixml

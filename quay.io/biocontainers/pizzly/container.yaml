@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pizzly
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pizzly
+latest:
+  0.37.3--h470a237_3: sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631
+tags:
+  0.37.3--h470a237_3: sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631
+docker: quay.io/biocontainers/pizzly
+aliases:
+  pizzly: /usr/local/bin/pizzly
+  pizzly_flatten_json.py: /usr/local/bin/pizzly_flatten_json.py
+  pizzly_flatten_json.py.bak: /usr/local/bin/pizzly_flatten_json.py.bak
+  pizzly_get_fragment_length.py: /usr/local/bin/pizzly_get_fragment_length.py
+  pizzly_get_fragment_length.py.bak: /usr/local/bin/pizzly_get_fragment_length.py.bak

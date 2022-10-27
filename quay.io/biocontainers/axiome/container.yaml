@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/axiome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for axiome
+latest:
+  2.0.4--py_3: sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4
+tags:
+  2.0.4--py_3: sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4
+docker: quay.io/biocontainers/axiome
+aliases:
+  axiome: /usr/local/bin/axiome

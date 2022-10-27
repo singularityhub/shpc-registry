@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dligand2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dligand2
+latest:
+  0.1.0--h9f5acd7_2: sha256:dba2c50c7bc8e1a143921ac2c675c486f9c2b8a6b205058e584cf89dff1dfd28
+tags:
+  0.1.0--h9f5acd7_2: sha256:dba2c50c7bc8e1a143921ac2c675c486f9c2b8a6b205058e584cf89dff1dfd28
+docker: quay.io/biocontainers/dligand2
+aliases:
+  dligand2: /usr/local/bin/dligand2

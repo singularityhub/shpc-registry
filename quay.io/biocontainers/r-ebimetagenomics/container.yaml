@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ebimetagenomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ebimetagenomics
+latest:
+  0.6--r351h6115d3f_1: sha256:f1ca4a1488545067fd8c72ad0d8d7054e967a045f98490720910d72c3adbdc0b
+tags:
+  0.6--r351h6115d3f_1: sha256:f1ca4a1488545067fd8c72ad0d8d7054e967a045f98490720910d72c3adbdc0b
+docker: quay.io/biocontainers/r-ebimetagenomics

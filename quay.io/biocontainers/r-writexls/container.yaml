@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-writexls
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-writexls
+latest:
+  4.0.0--r3.2.2_0: sha256:c62012adaaf79c8ffb7320d3e755e2b472b4c2fa1c12851db82d98a37b4ca24f
+tags:
+  4.0.0--r3.2.2_0: sha256:c62012adaaf79c8ffb7320d3e755e2b472b4c2fa1c12851db82d98a37b4ca24f
+docker: quay.io/biocontainers/r-writexls

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/gnali
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gnali
+latest:
+  1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
+tags:
+  1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
+docker: quay.io/biocontainers/gnali
+aliases:
+  .ensembl-vep-post-link.sh: /usr/local/bin/.ensembl-vep-post-link.sh
+  .gnali-post-link.sh: /usr/local/bin/.gnali-post-link.sh
+  bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
+  filter_vep: /usr/local/bin/filter_vep
+  gnali: /usr/local/bin/gnali
+  gnali_get_data: /usr/local/bin/gnali_get_data
+  haplo: /usr/local/bin/haplo
+  ibd2sdi: /usr/local/bin/ibd2sdi
+  index_bigwigset.pl: /usr/local/bin/index_bigwigset.pl
+  mysql.server: /usr/local/bin/mysql.server
+  mysql_config_editor: /usr/local/bin/mysql_config_editor
+  mysql_migrate_keyring: /usr/local/bin/mysql_migrate_keyring
+  mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysqlpump: /usr/local/bin/mysqlpump
+  variant_recoder: /usr/local/bin/variant_recoder
+  vep: /usr/local/bin/vep
+  vep_convert_cache: /usr/local/bin/vep_convert_cache
+  vep_install: /usr/local/bin/vep_install
+  wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
+  zlib_decompress: /usr/local/bin/zlib_decompress

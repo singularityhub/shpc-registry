@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-subcellbarcode
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-subcellbarcode
+latest:
+  1.8.0--r41hdfd78af_0: sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129
+tags:
+  1.8.0--r41hdfd78af_0: sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129
+docker: quay.io/biocontainers/bioconductor-subcellbarcode

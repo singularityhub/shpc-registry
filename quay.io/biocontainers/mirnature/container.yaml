@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/mirnature
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirnature
+latest:
+  1.0--pl5262r35hdfd78af_5: sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae
+tags:
+  1.0--pl5262r35hdfd78af_5: sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae
+docker: quay.io/biocontainers/mirnature
+aliases:
+  MIRfix.py: /usr/local/bin/MIRfix.py
+  dialign2-2: /usr/local/bin/dialign2-2
+  evaluate_conserved_str.py: /usr/local/bin/evaluate_conserved_str.py
+  miRNAnchor.pl: /usr/local/bin/miRNAnchor.pl
+  miRNAture: /usr/local/bin/miRNAture
+  miRNAture.pl: /usr/local/bin/miRNAture.pl
+  runMIRfix.sh: /usr/local/bin/runMIRfix.sh
+  testMIRfix.sh: /usr/local/bin/testMIRfix.sh

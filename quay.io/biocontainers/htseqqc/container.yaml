@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/htseqqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for htseqqc
+latest:
+  v1.0--pyh5bfb8f1_0: sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831
+tags:
+  v1.0--pyh5bfb8f1_0: sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831
+docker: quay.io/biocontainers/htseqqc
+aliases:
+  Filter_Pair.py: /usr/local/bin/Filter_Pair.py
+  Filter_Single.py: /usr/local/bin/Filter_Single.py
+  StatisticPair.py: /usr/local/bin/StatisticPair.py
+  StatisticSingle.py: /usr/local/bin/StatisticSingle.py
+  common_functions.py: /usr/local/bin/common_functions.py
+  filter.py: /usr/local/bin/filter.py

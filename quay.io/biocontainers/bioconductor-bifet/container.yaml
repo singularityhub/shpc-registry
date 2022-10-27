@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bifet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bifet
+latest:
+  1.8.0--r40_0: sha256:38ad24534184b4dbb754f6346cfe897c488d0fceda58987f8d04f0539ea7304f
+tags:
+  1.8.0--r40_0: sha256:38ad24534184b4dbb754f6346cfe897c488d0fceda58987f8d04f0539ea7304f
+docker: quay.io/biocontainers/bioconductor-bifet

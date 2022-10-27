@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-silva128.1mgdb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-silva128.1mgdb
+latest:
+  1.00.0--r40hdfd78af_6: sha256:93572907e9d9336ad29513f3f6ad2e76bcb4ceafb1e7e5257990c0220d51b631
+tags:
+  1.00.0--r40hdfd78af_6: sha256:93572907e9d9336ad29513f3f6ad2e76bcb4ceafb1e7e5257990c0220d51b631
+docker: quay.io/biocontainers/bioconductor-silva128.1mgdb
+aliases:
+  .bioconductor-silva128.1mgdb-post-link.sh: /usr/local/bin/.bioconductor-silva128.1mgdb-post-link.sh
+  .bioconductor-silva128.1mgdb-pre-unlink.sh: /usr/local/bin/.bioconductor-silva128.1mgdb-pre-unlink.sh

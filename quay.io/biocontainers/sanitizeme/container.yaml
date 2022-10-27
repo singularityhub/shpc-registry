@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/sanitizeme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sanitizeme
+latest:
+  1.1--hdfd78af_2: sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
+tags:
+  1.1--hdfd78af_2: sha256:aa169029eeb18586aaa780b43b6d1ab1f46e5e3f4614fe807338c859b7b6439c
+docker: quay.io/biocontainers/sanitizeme
+aliases:
+  SanitizeMePaired_CLI.py: /usr/local/bin/SanitizeMePaired_CLI.py
+  SanitizeMePaired_GUI.py: /usr/local/bin/SanitizeMePaired_GUI.py
+  SanitizeMe_CLI.py: /usr/local/bin/SanitizeMe_CLI.py
+  SanitizeMe_GUI.py: /usr/local/bin/SanitizeMe_GUI.py
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.1: /usr/local/bin/wxrc-3.1

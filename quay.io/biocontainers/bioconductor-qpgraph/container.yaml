@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qpgraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qpgraph
+latest:
+  2.28.2--r41hc0cfd56_0: sha256:18fb1092f84b0cc109752555579b89973af1b33dbf16edb5aec874cc85b1da9e
+tags:
+  2.28.2--r41hc0cfd56_0: sha256:18fb1092f84b0cc109752555579b89973af1b33dbf16edb5aec874cc85b1da9e
+docker: quay.io/biocontainers/bioconductor-qpgraph

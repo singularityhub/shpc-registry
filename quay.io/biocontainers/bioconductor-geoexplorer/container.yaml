@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geoexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geoexplorer
+latest:
+  1.0.0--r41hdfd78af_0: sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d
+tags:
+  1.0.0--r41hdfd78af_0: sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d
+docker: quay.io/biocontainers/bioconductor-geoexplorer

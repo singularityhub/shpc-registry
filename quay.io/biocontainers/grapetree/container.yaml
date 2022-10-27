@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/grapetree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for grapetree
+latest:
+  2.1--pyh3252c3a_0: sha256:fa040abbeb646bb2576536ccaec8b88683509c4e45842f81b954e27ac91e4a83
+tags:
+  2.1--pyh3252c3a_0: sha256:fa040abbeb646bb2576536ccaec8b88683509c4e45842f81b954e27ac91e4a83
+docker: quay.io/biocontainers/grapetree
+aliases:
+  grapetree: /usr/local/bin/grapetree

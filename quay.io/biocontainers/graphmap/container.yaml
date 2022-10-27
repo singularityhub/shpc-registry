@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/graphmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for graphmap
+latest:
+  0.6.3--hd03093a_2: sha256:bd4913f93a27e40bb2fca04497eb34518f68363d5e3863bce8674630dd179f0f
+tags:
+  0.6.3--hd03093a_2: sha256:bd4913f93a27e40bb2fca04497eb34518f68363d5e3863bce8674630dd179f0f
+docker: quay.io/biocontainers/graphmap
+aliases:
+  graphmap2: /usr/local/bin/graphmap2

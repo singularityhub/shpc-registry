@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/tobias
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tobias
+latest:
+  0.9.0--py36hc1659b7_0: sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df
+tags:
+  0.9.0--py36hc1659b7_0: sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df
+docker: quay.io/biocontainers/tobias
+aliases:
+  TOBIAS: /usr/local/bin/TOBIAS
+  filter_important_factors.py: /usr/local/bin/filter_important_factors.py
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  svist4get: /usr/local/bin/svist4get
+  svist4get_copier: /usr/local/bin/svist4get_copier

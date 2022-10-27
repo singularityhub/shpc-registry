@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/figaro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for figaro
+latest:
+  1.1.2--hdfd78af_0: sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24
+tags:
+  1.1.2--hdfd78af_0: sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24
+docker: quay.io/biocontainers/figaro
+aliases:
+  figaro.py: /usr/local/bin/figaro.py

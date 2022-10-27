@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-reactomecontentservice4r
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-reactomecontentservice4r
+latest:
+  1.2.0--r41hdfd78af_0: sha256:fa9bbc9646a8572c089b73f9aca9427c552f2ccf568035df9a00e22d0b77fe88
+tags:
+  1.2.0--r41hdfd78af_0: sha256:fa9bbc9646a8572c089b73f9aca9427c552f2ccf568035df9a00e22d0b77fe88
+docker: quay.io/biocontainers/bioconductor-reactomecontentservice4r

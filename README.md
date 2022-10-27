@@ -26,6 +26,36 @@ First of all, there is an automated way of getting most of the `container.yaml` 
 6. Hit the green "Run workflow" button, wait and marvel at the magic :sparkles: happening. The GitHub Action will automatically open a pull request with most of the `container.yaml` filled in for you. You can check the branch out, edit it further – in particular refine the list aliases.
 
 
+### BioContainers
+
+We have a [script](.github/scripts/update_biocontainers.py) that will generate (non existing) modules for BioContainers,
+and it is run once a week! It works by way of using an updated cache at [https://github.com/singularityhub/shpc-registry-cache]
+generated directly from Biocontainers, which not only captures aliases for a latest tag, but also derives the accumulated
+counts across all 8K+ containers. With these counts we can generate aliases as follows:
+
+- Start with the loaded global counts, counts.json
+- Subset to those in a container, the alias counts
+- Rank ordering from least to greatest (lower frequency is a more unique commands we are interested in) 
+- Including any counts with a frequency <= 10 (this accounts for containers with many unique aliases) `--min-count-inclusion`
+- Above that threshold, including the next N `--additional-count-inclusion` (less unique but possibly important or interesting)
+- Use these to generate a new container.yaml for the file (if it does not exist yet!)
+
+To run the above, you'll need the cache cloned locally, and singularity-hpc installed
+
+```bash
+$ pip install git+https://github.com/singularityhub/singularity-hpc@main
+$ git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
+```
+
+And then to run the script (this shows the defaults)
+
+```bash
+$ python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25
+```
+
+from the root. Since this added over 8K containers to the registry, we needed a new strategy for running the updater TBA!
+
+
 ### Expected content
 
 Refer to the documentation for a list of the [`container.yaml` fields](https://singularity-hpc.readthedocs.io/en/latest/getting_started/developer-guide.html#registry-yaml-fields), especially the _required_ ones.

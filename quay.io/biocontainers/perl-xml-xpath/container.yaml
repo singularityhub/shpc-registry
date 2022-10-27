@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-xpath
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-xpath
+latest:
+  1.47--pl5321hdfd78af_0: sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92
+tags:
+  1.47--pl5321hdfd78af_0: sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92
+docker: quay.io/biocontainers/perl-xml-xpath

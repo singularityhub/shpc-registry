@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-codon-tables
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-codon-tables
+latest:
+  0.1.11--pyh5e36f6f_0: sha256:413e17ef9ed15a4404d0eb961524e43a5ea71b61f7fcd61b790c9c6900ac30cb
+tags:
+  0.1.11--pyh5e36f6f_0: sha256:413e17ef9ed15a4404d0eb961524e43a5ea71b61f7fcd61b790c9c6900ac30cb
+docker: quay.io/biocontainers/python-codon-tables

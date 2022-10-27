@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scbn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scbn
+latest:
+  1.8.0--r40hdfd78af_1: sha256:9040066586c7db50bb765db2ecf63f2028a13a95d7587c06ee61acd0db15629b
+tags:
+  1.8.0--r40hdfd78af_1: sha256:9040066586c7db50bb765db2ecf63f2028a13a95d7587c06ee61acd0db15629b
+docker: quay.io/biocontainers/bioconductor-scbn

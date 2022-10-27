@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/baitfisher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for baitfisher
+latest:
+  1.0--h9f5acd7_4: sha256:2df41913a7c8553153e0343bc96f32a5bf47ee90215c5275fb82d4d57a1be6e2
+tags:
+  1.0--h9f5acd7_4: sha256:2df41913a7c8553153e0343bc96f32a5bf47ee90215c5275fb82d4d57a1be6e2
+docker: quay.io/biocontainers/baitfisher
+aliases:
+  BaitFilter: /usr/local/bin/BaitFilter
+  BaitFisher: /usr/local/bin/BaitFisher

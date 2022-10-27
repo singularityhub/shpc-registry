@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/chunked-scatter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chunked-scatter
+latest:
+  1.0.0--py_0: sha256:b9741c7731ca3ebac592eaf4ca3fc09efc2f484e6ec0b8f5decf436dcb2c156c
+tags:
+  1.0.0--py_0: sha256:b9741c7731ca3ebac592eaf4ca3fc09efc2f484e6ec0b8f5decf436dcb2c156c
+docker: quay.io/biocontainers/chunked-scatter
+aliases:
+  chunked-scatter: /usr/local/bin/chunked-scatter
+  scatter-regions: /usr/local/bin/scatter-regions

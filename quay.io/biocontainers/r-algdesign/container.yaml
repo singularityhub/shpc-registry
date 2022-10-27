@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-algdesign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-algdesign
+latest:
+  1.1_7.3--r3.3.2_0: sha256:af8fc7a9abd0f7e5364a43474ad0ff5c2f77c60e2bd91ca5a203d985da411525
+tags:
+  1.1_7.3--r3.3.2_0: sha256:af8fc7a9abd0f7e5364a43474ad0ff5c2f77c60e2bd91ca5a203d985da411525
+docker: quay.io/biocontainers/r-algdesign

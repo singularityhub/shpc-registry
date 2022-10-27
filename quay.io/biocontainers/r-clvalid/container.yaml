@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-clvalid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-clvalid
+latest:
+  0.6_6--r36h6115d3f_1: sha256:f1143dbfb08f1b7056e5203ddb04609756442baf834164364744fe480527502e
+tags:
+  0.6_6--r36h6115d3f_1: sha256:f1143dbfb08f1b7056e5203ddb04609756442baf834164364744fe480527502e
+docker: quay.io/biocontainers/r-clvalid

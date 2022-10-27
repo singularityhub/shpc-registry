@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-obogaf-parser
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-obogaf-parser
+latest:
+  1.373--pl5321hdfd78af_2: sha256:52c40a40d214bbc6590b6031829be469141bbf52c73953d81a01e3afe059f279
+tags:
+  1.373--pl5321hdfd78af_2: sha256:52c40a40d214bbc6590b6031829be469141bbf52c73953d81a01e3afe059f279
+docker: quay.io/biocontainers/perl-obogaf-parser

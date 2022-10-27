@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ggrasp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ggrasp
+latest:
+  1.0--r351h6115d3f_2: sha256:c57e3c13363f255fa16d067436aa655b85cb2fa0a74376b9900c0ca4eb175210
+tags:
+  1.0--r351h6115d3f_2: sha256:c57e3c13363f255fa16d067436aa655b85cb2fa0a74376b9900c0ca4eb175210
+docker: quay.io/biocontainers/r-ggrasp

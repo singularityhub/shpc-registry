@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dialign2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dialign2
+latest:
+  2.2.1--h9f5acd7_5: sha256:a0676b93416e999a0495c04109031bf693443b1b6cbb66e17c4c1b8ebd1597a7
+tags:
+  2.2.1--h9f5acd7_5: sha256:a0676b93416e999a0495c04109031bf693443b1b6cbb66e17c4c1b8ebd1597a7
+docker: quay.io/biocontainers/dialign2
+aliases:
+  dialign2-2: /usr/local/bin/dialign2-2

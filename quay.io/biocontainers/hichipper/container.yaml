@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hichipper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hichipper
+latest:
+  0.7.7--py_1: sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249
+tags:
+  0.7.7--py_1: sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249
+docker: quay.io/biocontainers/hichipper
+aliases:
+  hichipper: /usr/local/bin/hichipper
+  macs2: /usr/local/bin/macs2

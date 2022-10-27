@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/yapc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yapc
+latest:
+  0.1--py_0: sha256:a54aa26b953a9773f40cb8663606c732f77e1eaffe16e718f6f01d3621ded196
+tags:
+  0.1--py_0: sha256:a54aa26b953a9773f40cb8663606c732f77e1eaffe16e718f6f01d3621ded196
+docker: quay.io/biocontainers/yapc
+aliases:
+  idr: /usr/local/bin/idr
+  yapc: /usr/local/bin/yapc

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/cassis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cassis
+latest:
+  0.0.20120106--hdfd78af_1: sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb
+tags:
+  0.0.20120106--hdfd78af_1: sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb
+docker: quay.io/biocontainers/cassis
+aliases:
+  cassis: /usr/local/bin/cassis
+  lastz: /usr/local/bin/lastz
+  lastz_32: /usr/local/bin/lastz_32
+  lastz_D: /usr/local/bin/lastz_D

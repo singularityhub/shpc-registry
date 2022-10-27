@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/shark
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shark
+latest:
+  1.2.0--hd03093a_2: sha256:74328f24292a91afd091a19a0d1cb3e9582ee5f7e98bc2997606f81bb64493af
+tags:
+  1.2.0--hd03093a_2: sha256:74328f24292a91afd091a19a0d1cb3e9582ee5f7e98bc2997606f81bb64493af
+docker: quay.io/biocontainers/shark
+aliases:
+  shark: /usr/local/bin/shark

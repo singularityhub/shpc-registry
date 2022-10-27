@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ggcyto
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ggcyto
+latest:
+  1.8.2--r351_0: sha256:eeb19f86d21dfddf29982993f3346c89883a325e5e5c923a29c75230ecbfe64b
+tags:
+  1.8.2--r351_0: sha256:eeb19f86d21dfddf29982993f3346c89883a325e5e5c923a29c75230ecbfe64b
+docker: quay.io/biocontainers/bioconductor-ggcyto

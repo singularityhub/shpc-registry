@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dnabarcodecompatibility
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dnabarcodecompatibility
+latest:
+  1.8.0--r41hdfd78af_0: sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a
+tags:
+  1.8.0--r41hdfd78af_0: sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a
+docker: quay.io/biocontainers/bioconductor-dnabarcodecompatibility

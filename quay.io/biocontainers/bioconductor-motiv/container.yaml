@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-motiv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-motiv
+latest:
+  1.43.0--r40h5f743cb_0: sha256:8834cb31835c40df9eb8ed9d9b5819f7b83f9f153d8ca95af363a9250f152e79
+tags:
+  1.43.0--r40h5f743cb_0: sha256:8834cb31835c40df9eb8ed9d9b5819f7b83f9f153d8ca95af363a9250f152e79
+docker: quay.io/biocontainers/bioconductor-motiv

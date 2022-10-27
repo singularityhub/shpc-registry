@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/regional
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for regional
+latest:
+  1.1.2--pyh864c0ab_1: sha256:4abc0cddb46e39197371bfd5edd865103d1f38a90a8aa399bd34b5ca98d2ca6e
+tags:
+  1.1.2--pyh864c0ab_1: sha256:4abc0cddb46e39197371bfd5edd865103d1f38a90a8aa399bd34b5ca98d2ca6e
+docker: quay.io/biocontainers/regional

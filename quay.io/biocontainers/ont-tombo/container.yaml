@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/ont-tombo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ont-tombo
+latest:
+  1.5--py27r36hb3f55d8_2: sha256:889d31cba456da799a30fcaa8846b1a26f16aec7a362b8b4250e47aa5759b7fc
+tags:
+  1.5--py27r36hb3f55d8_2: sha256:889d31cba456da799a30fcaa8846b1a26f16aec7a362b8b4250e47aa5759b7fc
+docker: quay.io/biocontainers/ont-tombo
+aliases:
+  tombo: /usr/local/bin/tombo

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pickgene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pickgene
+latest:
+  1.66.0--r41hdfd78af_0: sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c
+tags:
+  1.66.0--r41hdfd78af_0: sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c
+docker: quay.io/biocontainers/bioconductor-pickgene

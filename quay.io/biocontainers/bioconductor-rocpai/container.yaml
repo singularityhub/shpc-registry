@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rocpai
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rocpai
+latest:
+  1.6.0--r41hdfd78af_0: sha256:bf8d1dc125126feff57d61c043f17ba7094315ffa931387ea7f27d0447cafcf6
+tags:
+  1.6.0--r41hdfd78af_0: sha256:bf8d1dc125126feff57d61c043f17ba7094315ffa931387ea7f27d0447cafcf6
+docker: quay.io/biocontainers/bioconductor-rocpai
+aliases:
+  .bioconductor-fission-post-link.sh: /usr/local/bin/.bioconductor-fission-post-link.sh
+  .bioconductor-fission-pre-unlink.sh: /usr/local/bin/.bioconductor-fission-pre-unlink.sh

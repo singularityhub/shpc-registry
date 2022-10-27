@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/ghmm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ghmm
+latest:
+  0.9--py27pl5321he3645e8_2: sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c
+tags:
+  0.9--py27pl5321he3645e8_2: sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c
+docker: quay.io/biocontainers/ghmm
+aliases:
+  ghmm-config: /usr/local/bin/ghmm-config
+  probdist: /usr/local/bin/probdist
+  scluster: /usr/local/bin/scluster
+  smix_hmm: /usr/local/bin/smix_hmm

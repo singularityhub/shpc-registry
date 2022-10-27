@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-isomirs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-isomirs
+latest:
+  1.8.0--r341_0: sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487
+tags:
+  1.8.0--r341_0: sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487
+docker: quay.io/biocontainers/bioconductor-isomirs
+aliases:
+  .bioconductor-targetscan.hs.eg.db-post-link.sh: /usr/local/bin/.bioconductor-targetscan.hs.eg.db-post-link.sh
+  .bioconductor-targetscan.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-targetscan.hs.eg.db-pre-unlink.sh

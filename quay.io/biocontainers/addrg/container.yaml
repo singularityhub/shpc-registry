@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/addrg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for addrg
+latest:
+  0.2.1--h8a6b41c_9: sha256:1c3fce8b7e81082864ca592d53913dabc7339f99e8f727698aa656b0ce7a70c7
+tags:
+  0.2.1--h8a6b41c_9: sha256:1c3fce8b7e81082864ca592d53913dabc7339f99e8f727698aa656b0ce7a70c7
+docker: quay.io/biocontainers/addrg
+aliases:
+  addrg: /usr/local/bin/addrg

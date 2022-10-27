@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-healthyflowdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-healthyflowdata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:7e4ecea8b9d6f3fdc698405a9f6913cc243019b3040f8daa335ee9611c8e2e37
+tags:
+  1.32.0--r41hdfd78af_1: sha256:7e4ecea8b9d6f3fdc698405a9f6913cc243019b3040f8daa335ee9611c8e2e37
+docker: quay.io/biocontainers/bioconductor-healthyflowdata
+aliases:
+  .bioconductor-healthyflowdata-post-link.sh: /usr/local/bin/.bioconductor-healthyflowdata-post-link.sh
+  .bioconductor-healthyflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-healthyflowdata-pre-unlink.sh

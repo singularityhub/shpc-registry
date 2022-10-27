@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-test3probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-test3probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:80bab38daecbf9ac460feff49d99598c13b9f9ca12c6d727de13becdd97d90e0
+tags:
+  2.18.0--r41hdfd78af_9: sha256:80bab38daecbf9ac460feff49d99598c13b9f9ca12c6d727de13becdd97d90e0
+docker: quay.io/biocontainers/bioconductor-test3probe
+aliases:
+  .bioconductor-test3probe-post-link.sh: /usr/local/bin/.bioconductor-test3probe-post-link.sh
+  .bioconductor-test3probe-pre-unlink.sh: /usr/local/bin/.bioconductor-test3probe-pre-unlink.sh

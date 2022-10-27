@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/mirdeep-p2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mirdeep-p2
+latest:
+  1.1.4--hdfd78af_0: sha256:61db8c968c34a9cff16dde1f477ec9a5b44288be5894663166b33abde370672e
+tags:
+  1.1.4--hdfd78af_0: sha256:61db8c968c34a9cff16dde1f477ec9a5b44288be5894663166b33abde370672e
+docker: quay.io/biocontainers/mirdeep-p2
+aliases:
+  afetch: /usr/local/bin/afetch
+  alistat: /usr/local/bin/alistat
+  compalign: /usr/local/bin/compalign
+  compstruct: /usr/local/bin/compstruct
+  miRDP2-v1.1.4_pipeline.bash: /usr/local/bin/miRDP2-v1.1.4_pipeline.bash
+  randfold: /usr/local/bin/randfold
+  revcomp: /usr/local/bin/revcomp
+  seqsplit: /usr/local/bin/seqsplit
+  seqstat: /usr/local/bin/seqstat
+  sfetch: /usr/local/bin/sfetch
+  shuffle: /usr/local/bin/shuffle
+  sindex: /usr/local/bin/sindex
+  sreformat: /usr/local/bin/sreformat
+  weight: /usr/local/bin/weight

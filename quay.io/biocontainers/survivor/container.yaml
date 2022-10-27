@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/survivor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for survivor
+latest:
+  1.0.7--hd03093a_2: sha256:3ffd3f36743cb173a0938e5b13622508e4a358c039a4560bc4526e381e2c72b8
+tags:
+  1.0.7--hd03093a_2: sha256:3ffd3f36743cb173a0938e5b13622508e4a358c039a4560bc4526e381e2c72b8
+docker: quay.io/biocontainers/survivor
+aliases:
+  SURVIVOR: /usr/local/bin/SURVIVOR

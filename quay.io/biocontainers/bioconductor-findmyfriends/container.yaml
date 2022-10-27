@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-findmyfriends
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-findmyfriends
+latest:
+  1.8.0--r3.4.1_0: sha256:41821e76a87cb3f8e34a1af676478aa8f10ea0a43773d1db72bda4b927b2a6a5
+tags:
+  1.8.0--r3.4.1_0: sha256:41821e76a87cb3f8e34a1af676478aa8f10ea0a43773d1db72bda4b927b2a6a5
+docker: quay.io/biocontainers/bioconductor-findmyfriends

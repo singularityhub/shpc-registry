@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sort-key
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sort-key
+latest:
+  1.33--pl5321hec16e2b_3: sha256:f4eec39b1c818c2945d16b92aa6b79075c8b9f945442bdb3f15875589abfba08
+tags:
+  1.33--pl5321hec16e2b_3: sha256:f4eec39b1c818c2945d16b92aa6b79075c8b9f945442bdb3f15875589abfba08
+docker: quay.io/biocontainers/perl-sort-key

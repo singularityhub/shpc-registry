@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-informeasure
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-informeasure
+latest:
+  1.4.0--r41hdfd78af_0: sha256:9f2dcaf2c6bb83c2f03d92cf4b0c242f88baca0f4e0d7e13b3db9851a837ee75
+tags:
+  1.4.0--r41hdfd78af_0: sha256:9f2dcaf2c6bb83c2f03d92cf4b0c242f88baca0f4e0d7e13b3db9851a837ee75
+docker: quay.io/biocontainers/bioconductor-informeasure

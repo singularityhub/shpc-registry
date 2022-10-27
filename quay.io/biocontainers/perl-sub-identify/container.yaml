@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-identify
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-identify
+latest:
+  0.14--pl5321hec16e2b_2: sha256:392bd7daeeb43ee238d3a206baca5a68a2e7000e3ce92c3b8b092c5a3ecc6af6
+tags:
+  0.14--pl5321hec16e2b_2: sha256:392bd7daeeb43ee238d3a206baca5a68a2e7000e3ce92c3b8b092c5a3ecc6af6
+docker: quay.io/biocontainers/perl-sub-identify

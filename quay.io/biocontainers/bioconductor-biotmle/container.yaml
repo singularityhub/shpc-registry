@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biotmle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biotmle
+latest:
+  1.8.0--r36_1: sha256:3d73ea744ca639248304c775e645fca645aed72aada7159f76cd981def0000cd
+tags:
+  1.8.0--r36_1: sha256:3d73ea744ca639248304c775e645fca645aed72aada7159f76cd981def0000cd
+docker: quay.io/biocontainers/bioconductor-biotmle

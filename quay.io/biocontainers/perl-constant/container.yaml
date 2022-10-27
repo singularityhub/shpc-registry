@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-constant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-constant
+latest:
+  1.33--pl5321hdfd78af_2: sha256:3eed86e6c3cae24f0349aace9ccb9ecc4726f4071c5771e4bab20ea6cfa10968
+tags:
+  1.33--pl5321hdfd78af_2: sha256:3eed86e6c3cae24f0349aace9ccb9ecc4726f4071c5771e4bab20ea6cfa10968
+docker: quay.io/biocontainers/perl-constant

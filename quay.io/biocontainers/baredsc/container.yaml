@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/baredsc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for baredsc
+latest:
+  1.1.1--pyhdfd78af_0: sha256:1b8791cad29c68a421c6fe8ef0df24ba02bd14d871c8e8e2e0576814bc91894e
+tags:
+  1.1.1--pyhdfd78af_0: sha256:1b8791cad29c68a421c6fe8ef0df24ba02bd14d871c8e8e2e0576814bc91894e
+docker: quay.io/biocontainers/baredsc
+aliases:
+  baredSC_1d: /usr/local/bin/baredSC_1d
+  baredSC_2d: /usr/local/bin/baredSC_2d
+  combineMultipleModels_1d: /usr/local/bin/combineMultipleModels_1d
+  combineMultipleModels_2d: /usr/local/bin/combineMultipleModels_2d
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo

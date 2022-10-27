@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gpls
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gpls
+latest:
+  1.66.0--r41hdfd78af_0: sha256:6b08bcf5d21e61147468eccbd5f1a44dcf56bd26109327bcbc81450cd74e1495
+tags:
+  1.66.0--r41hdfd78af_0: sha256:6b08bcf5d21e61147468eccbd5f1a44dcf56bd26109327bcbc81450cd74e1495
+docker: quay.io/biocontainers/bioconductor-gpls

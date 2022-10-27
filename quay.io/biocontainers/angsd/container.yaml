@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/angsd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for angsd
+latest:
+  0.939--h470d46e_1: sha256:969d28663c9479680380e8ced285063d51eb7056f0db8b2ed3ebed66497297d3
+tags:
+  0.939--h470d46e_1: sha256:969d28663c9479680380e8ced285063d51eb7056f0db8b2ed3ebed66497297d3
+docker: quay.io/biocontainers/angsd
+aliases:
+  NGSadmix: /usr/local/bin/NGSadmix
+  angsd: /usr/local/bin/angsd
+  contamination: /usr/local/bin/contamination
+  contamination2: /usr/local/bin/contamination2
+  haploToPlink: /usr/local/bin/haploToPlink
+  ibs: /usr/local/bin/ibs
+  msHOT2glf: /usr/local/bin/msHOT2glf
+  msToGlf: /usr/local/bin/msToGlf
+  ngsPSMC: /usr/local/bin/ngsPSMC
+  printIcounts: /usr/local/bin/printIcounts
+  realSFS: /usr/local/bin/realSFS
+  scounts: /usr/local/bin/scounts
+  smartCount: /usr/local/bin/smartCount
+  splitgl: /usr/local/bin/splitgl
+  supersim: /usr/local/bin/supersim
+  thetaStat: /usr/local/bin/thetaStat

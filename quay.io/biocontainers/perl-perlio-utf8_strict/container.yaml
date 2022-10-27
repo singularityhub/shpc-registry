@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-perlio-utf8_strict
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-perlio-utf8_strict
+latest:
+  0.009--pl5321h9f5acd7_1: sha256:17765cbebf8cfeaa26466c992c73779c1627cb83d0a21dac44f563177f2687c2
+tags:
+  0.009--pl5321h9f5acd7_1: sha256:17765cbebf8cfeaa26466c992c73779c1627cb83d0a21dac44f563177f2687c2
+docker: quay.io/biocontainers/perl-perlio-utf8_strict

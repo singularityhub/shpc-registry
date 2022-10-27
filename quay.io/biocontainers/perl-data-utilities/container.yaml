@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-data-utilities
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-data-utilities
+latest:
+  0.04--pl5321hdfd78af_2: sha256:7dac0e310414ca5f9ff02b1ff44362406e0e08768889c7c0f1e1535d577397fa
+tags:
+  0.04--pl5321hdfd78af_2: sha256:7dac0e310414ca5f9ff02b1ff44362406e0e08768889c7c0f1e1535d577397fa
+docker: quay.io/biocontainers/perl-data-utilities

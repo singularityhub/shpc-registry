@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mathstats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mathstats
+latest:
+  0.2.6.5--pyh864c0ab_1: sha256:cb25c82de37170dc306bf50aac99154147e45a1d60409f3e0546e5453ef78f36
+tags:
+  0.2.6.5--pyh864c0ab_1: sha256:cb25c82de37170dc306bf50aac99154147e45a1d60409f3e0546e5453ef78f36
+docker: quay.io/biocontainers/mathstats

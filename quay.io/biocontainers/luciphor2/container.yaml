@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/luciphor2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for luciphor2
+latest:
+  2020_04_03--hdfd78af_1: sha256:90b0ae24bcc4911b05b8994f1d8fd050ed11fdc8b84c0bdfe6e7af8a1e07cce9
+tags:
+  2020_04_03--hdfd78af_1: sha256:90b0ae24bcc4911b05b8994f1d8fd050ed11fdc8b84c0bdfe6e7af8a1e07cce9
+docker: quay.io/biocontainers/luciphor2
+aliases:
+  luciphor2: /usr/local/bin/luciphor2

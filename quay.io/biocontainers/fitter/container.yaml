@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fitter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fitter
+latest:
+  1.4.1--pyh5e36f6f_0: sha256:ea8db8cd35781dbfe8b2405b84bbb98a6f1665e6a5672ea5ae51d0614d223cdf
+tags:
+  1.4.1--pyh5e36f6f_0: sha256:ea8db8cd35781dbfe8b2405b84bbb98a6f1665e6a5672ea5ae51d0614d223cdf
+docker: quay.io/biocontainers/fitter
+aliases:
+  fitter: /usr/local/bin/fitter

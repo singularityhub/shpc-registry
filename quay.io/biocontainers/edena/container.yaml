@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/edena
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for edena
+latest:
+  3.131028--h9f5acd7_4: sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064
+tags:
+  3.131028--h9f5acd7_4: sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064
+docker: quay.io/biocontainers/edena
+aliases:
+  edena: /usr/local/bin/edena

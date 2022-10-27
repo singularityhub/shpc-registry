@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/strobemap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strobemap
+latest:
+  0.0.2--hd03093a_1: sha256:7eaf99a234386aa26f04a51d2ca660907c4eec60834917c4a15734cb838eb78a
+tags:
+  0.0.2--hd03093a_1: sha256:7eaf99a234386aa26f04a51d2ca660907c4eec60834917c4a15734cb838eb78a
+docker: quay.io/biocontainers/strobemap
+aliases:
+  StrobeMap: /usr/local/bin/StrobeMap

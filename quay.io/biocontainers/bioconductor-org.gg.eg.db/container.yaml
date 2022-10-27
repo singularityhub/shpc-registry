@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-org.gg.eg.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-org.gg.eg.db
+latest:
+  3.8.2--r36_1: sha256:f13ddebb0c58a67c8d7bbed05c5b464c0e397530e728639f43f0bf96503f7849
+tags:
+  3.8.2--r36_1: sha256:f13ddebb0c58a67c8d7bbed05c5b464c0e397530e728639f43f0bf96503f7849
+docker: quay.io/biocontainers/bioconductor-org.gg.eg.db
+aliases:
+  .bioconductor-org.gg.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.gg.eg.db-post-link.sh
+  .bioconductor-org.gg.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.gg.eg.db-pre-unlink.sh

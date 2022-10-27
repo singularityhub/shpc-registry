@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rhesus.db0
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rhesus.db0
+latest:
+  3.8.2--r36_1: sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703
+tags:
+  3.8.2--r36_1: sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703
+docker: quay.io/biocontainers/bioconductor-rhesus.db0
+aliases:
+  .bioconductor-rhesus.db0-post-link.sh: /usr/local/bin/.bioconductor-rhesus.db0-post-link.sh
+  .bioconductor-rhesus.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-rhesus.db0-pre-unlink.sh

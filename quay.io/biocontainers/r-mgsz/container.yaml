@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mgsz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mgsz
+latest:
+  1.0--r41h3342da4_3: sha256:df522f7f0118450a295375678fb14748b3a53ab27de6a791b02065d08b79fff0
+tags:
+  1.0--r41h3342da4_3: sha256:df522f7f0118450a295375678fb14748b3a53ab27de6a791b02065d08b79fff0
+docker: quay.io/biocontainers/r-mgsz

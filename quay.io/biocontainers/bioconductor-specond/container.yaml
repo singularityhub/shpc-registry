@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-specond
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-specond
+latest:
+  1.48.0--r41hdfd78af_0: sha256:0b35b0393b278522b72d6fcf1ef032092fc122648205041fd0c92e9fc41a4185
+tags:
+  1.48.0--r41hdfd78af_0: sha256:0b35b0393b278522b72d6fcf1ef032092fc122648205041fd0c92e9fc41a4185
+docker: quay.io/biocontainers/bioconductor-specond

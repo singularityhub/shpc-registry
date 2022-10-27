@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gefast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gefast
+latest:
+  2.0.1--h9f5acd7_1: sha256:cb17e28f40249c0092129cbfea891eebfc450b4a9f6392c654fab19cd154bce1
+tags:
+  2.0.1--h9f5acd7_1: sha256:cb17e28f40249c0092129cbfea891eebfc450b4a9f6392c654fab19cd154bce1
+docker: quay.io/biocontainers/gefast
+aliases:
+  GeFaST: /usr/local/bin/GeFaST

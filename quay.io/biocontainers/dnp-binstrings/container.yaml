@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dnp-binstrings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnp-binstrings
+latest:
+  1.0--hf1761c0_3: sha256:6639e192eb293a40e7b38d18900a3e41d5900003231e5b02ef34db5b384fbfaa
+tags:
+  1.0--hf1761c0_3: sha256:6639e192eb293a40e7b38d18900a3e41d5900003231e5b02ef34db5b384fbfaa
+docker: quay.io/biocontainers/dnp-binstrings
+aliases:
+  dnp-binstrings: /usr/local/bin/dnp-binstrings

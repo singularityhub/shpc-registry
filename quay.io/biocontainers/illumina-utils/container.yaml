@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/illumina-utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for illumina-utils
+latest:
+  2.9--py_0: sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6
+tags:
+  2.9--py_0: sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6
+docker: quay.io/biocontainers/illumina-utils
+aliases:
+  iu-compute-qual-dicts-from-fastq: /usr/local/bin/iu-compute-qual-dicts-from-fastq
+  iu-deinterleave-fastq: /usr/local/bin/iu-deinterleave-fastq
+  iu-demultiplex: /usr/local/bin/iu-demultiplex
+  iu-fasta-to-fastq: /usr/local/bin/iu-fasta-to-fastq
+  iu-fastq-to-fasta: /usr/local/bin/iu-fastq-to-fasta
+  iu-filter-merged-reads: /usr/local/bin/iu-filter-merged-reads
+  iu-filter-quality-bokulich: /usr/local/bin/iu-filter-quality-bokulich
+  iu-filter-quality-minoche: /usr/local/bin/iu-filter-quality-minoche
+  iu-gen-configs: /usr/local/bin/iu-gen-configs
+  iu-gen-matching-fastq-files: /usr/local/bin/iu-gen-matching-fastq-files
+  iu-interleave-fastq: /usr/local/bin/iu-interleave-fastq
+  iu-merge-pairs: /usr/local/bin/iu-merge-pairs
+  iu-remove-ids-from-fastq: /usr/local/bin/iu-remove-ids-from-fastq
+  iu-subsample-fastq: /usr/local/bin/iu-subsample-fastq
+  iu-trim-V6-primers: /usr/local/bin/iu-trim-V6-primers
+  iu-trim-fastq: /usr/local/bin/iu-trim-fastq
+  iu-visualize-mismatch-distribution: /usr/local/bin/iu-visualize-mismatch-distribution
+  iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
+  iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts

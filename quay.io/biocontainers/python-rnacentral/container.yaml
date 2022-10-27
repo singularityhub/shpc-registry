@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/python-rnacentral
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-rnacentral
+latest:
+  1.0.0--0: sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e
+tags:
+  1.0.0--0: sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e
+docker: quay.io/biocontainers/python-rnacentral
+aliases:
+  rnacentral.py: /usr/local/bin/rnacentral.py

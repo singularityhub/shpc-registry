@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/teloclip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for teloclip
+latest:
+  0.0.3--py_1: sha256:b378ec42281cb2140c313b5e8e1c061d3caa7f99921fa0fc82edbb59141558df
+tags:
+  0.0.3--py_1: sha256:b378ec42281cb2140c313b5e8e1c061d3caa7f99921fa0fc82edbb59141558df
+docker: quay.io/biocontainers/teloclip
+aliases:
+  teloclip: /usr/local/bin/teloclip
+  teloclip-extract: /usr/local/bin/teloclip-extract

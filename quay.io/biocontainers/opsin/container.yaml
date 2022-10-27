@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/opsin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opsin
+latest:
+  2.4.0--hdfd78af_3: sha256:83f10e7a81277b979c1ffec59ee42bf09c21b267795eaafbf2d98aed6ead585d
+tags:
+  2.4.0--hdfd78af_3: sha256:83f10e7a81277b979c1ffec59ee42bf09c21b267795eaafbf2d98aed6ead585d
+docker: quay.io/biocontainers/opsin
+aliases:
+  opsin: /usr/local/bin/opsin

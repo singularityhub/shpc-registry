@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-bus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-bus
+latest:
+  1.50.0--r41hc247a5b_2: sha256:5f33581b8184a90fc5b2e5ed9674d8d24d40d55196fece5282a071bd9a1ced04
+tags:
+  1.50.0--r41hc247a5b_2: sha256:5f33581b8184a90fc5b2e5ed9674d8d24d40d55196fece5282a071bd9a1ced04
+docker: quay.io/biocontainers/bioconductor-bus

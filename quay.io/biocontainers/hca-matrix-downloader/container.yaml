@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/hca-matrix-downloader
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hca-matrix-downloader
+latest:
+  0.0.4--py_0: sha256:d2dee94b3e230ada2369aca50d18492407ca30e67bdc468689aa78bbd63bd024
+tags:
+  0.0.4--py_0: sha256:d2dee94b3e230ada2369aca50d18492407ca30e67bdc468689aa78bbd63bd024
+docker: quay.io/biocontainers/hca-matrix-downloader
+aliases:
+  hca-matrix-downloader: /usr/local/bin/hca-matrix-downloader
+  hca-mtx-to-10x: /usr/local/bin/hca-mtx-to-10x

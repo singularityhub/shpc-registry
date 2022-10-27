@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/jupyterngsplugin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jupyterngsplugin
+latest:
+  0.0.13a3--py_0: sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
+tags:
+  0.0.13a3--py_0: sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f
+docker: quay.io/biocontainers/jupyterngsplugin
+aliases:
+  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config

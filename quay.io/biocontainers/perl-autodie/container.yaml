@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-autodie
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-autodie
+latest:
+  2.34--pl5321hdfd78af_0: sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a
+tags:
+  2.34--pl5321hdfd78af_0: sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a
+docker: quay.io/biocontainers/perl-autodie

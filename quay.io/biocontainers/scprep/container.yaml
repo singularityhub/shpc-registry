@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scprep
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scprep
+latest:
+  1.2.1--pyhdfd78af_0: sha256:961df1e2457d29eb2134989ed43a43e7f4f5338fd17e9a28660473453dd4f2ad
+tags:
+  1.2.1--pyhdfd78af_0: sha256:961df1e2457d29eb2134989ed43a43e7f4f5338fd17e9a28660473453dd4f2ad
+docker: quay.io/biocontainers/scprep

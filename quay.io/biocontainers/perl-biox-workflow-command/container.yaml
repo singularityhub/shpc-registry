@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/perl-biox-workflow-command
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-biox-workflow-command
+latest:
+  2.4.1--pl526_1: sha256:63a0b470270b26a3cf34ebe381d861c37b6eddb025a1f3812fb673f5ed86b14c
+tags:
+  2.4.1--pl526_1: sha256:63a0b470270b26a3cf34ebe381d861c37b6eddb025a1f3812fb673f5ed86b14c
+docker: quay.io/biocontainers/perl-biox-workflow-command
+aliases:
+  biosails-biox-render.py: /usr/local/bin/biosails-biox-render.py
+  biox: /usr/local/bin/biox
+  biox-workflow.pl: /usr/local/bin/biox-workflow.pl
+  mustache.pl: /usr/local/bin/mustache.pl

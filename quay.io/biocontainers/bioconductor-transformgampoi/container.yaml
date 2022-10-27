@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-transformgampoi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-transformgampoi
+latest:
+  1.0.0--r41hdfd78af_0: sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6
+tags:
+  1.0.0--r41hdfd78af_0: sha256:d53aabb903c7d2b4b3acd74998ec3c31fd31fab0ead5c7b854d94db029dcb0e6
+docker: quay.io/biocontainers/bioconductor-transformgampoi

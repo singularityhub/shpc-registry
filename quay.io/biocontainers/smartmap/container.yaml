@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/smartmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for smartmap
+latest:
+  1.0.0--hd03093a_2: sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201
+tags:
+  1.0.0--hd03093a_2: sha256:0b02eb2278c16528f05dea773b489bb7ba9b72becf42db11e437e44e8e68a201
+docker: quay.io/biocontainers/smartmap
+aliases:
+  SmartMap: /usr/local/bin/SmartMap
+  SmartMapPrep: /usr/local/bin/SmartMapPrep
+  SmartMapRNAPrep: /usr/local/bin/SmartMapRNAPrep
+  extract_exons.py: /usr/local/bin/extract_exons.py
+  extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
+  hisat2: /usr/local/bin/hisat2
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  hisat2-inspect: /usr/local/bin/hisat2-inspect
+  hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
+  hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
+  hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
+  hisat2_extract_snps_haplotypes_UCSC.py: /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
+  hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
+  hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py

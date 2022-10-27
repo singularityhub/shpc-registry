@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ciso8601
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ciso8601
+latest:
+  1.0.5--py35_0: sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435
+tags:
+  1.0.5--py35_0: sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435
+docker: quay.io/biocontainers/ciso8601

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sevenbridges-python
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sevenbridges-python
+latest:
+  0.7.2--py27_1: sha256:985613f362fc5c97e0e9c392410eeef20c7bf1845984919199d43e381ff0969f
+tags:
+  0.7.2--py27_1: sha256:985613f362fc5c97e0e9c392410eeef20c7bf1845984919199d43e381ff0969f
+docker: quay.io/biocontainers/sevenbridges-python

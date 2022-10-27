@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fella
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fella
+latest:
+  1.8.0--r40_0: sha256:48a8c63695c681241de55632576467c462709479633a4aff45e580d8c54e56cc
+tags:
+  1.8.0--r40_0: sha256:48a8c63695c681241de55632576467c462709479633a4aff45e580d8c54e56cc
+docker: quay.io/biocontainers/bioconductor-fella

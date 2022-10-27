@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-topgo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-topgo
+latest:
+  2.46.0--r41hdfd78af_0: sha256:1c706236f1c80add883366c6ec0892170db69fc5c3287f90263e3907307aeefa
+tags:
+  2.46.0--r41hdfd78af_0: sha256:1c706236f1c80add883366c6ec0892170db69fc5c3287f90263e3907307aeefa
+docker: quay.io/biocontainers/bioconductor-topgo

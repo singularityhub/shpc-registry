@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-platecore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-platecore
+latest:
+  1.40.1--r351_0: sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9
+tags:
+  1.40.1--r351_0: sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9
+docker: quay.io/biocontainers/bioconductor-platecore

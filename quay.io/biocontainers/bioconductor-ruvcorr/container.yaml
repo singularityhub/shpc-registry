@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ruvcorr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ruvcorr
+latest:
+  1.26.0--r41hdfd78af_0: sha256:5f086031f5a59afd9bec21fe56428c0448e792cf05f17f80a516add6deab8055
+tags:
+  1.26.0--r41hdfd78af_0: sha256:5f086031f5a59afd9bec21fe56428c0448e792cf05f17f80a516add6deab8055
+docker: quay.io/biocontainers/bioconductor-ruvcorr
+aliases:
+  .bioconductor-bladderbatch-post-link.sh: /usr/local/bin/.bioconductor-bladderbatch-post-link.sh
+  .bioconductor-bladderbatch-pre-unlink.sh: /usr/local/bin/.bioconductor-bladderbatch-pre-unlink.sh

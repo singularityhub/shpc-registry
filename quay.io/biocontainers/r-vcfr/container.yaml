@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-vcfr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-vcfr
+latest:
+  1.8.0--r36h0357c0b_3: sha256:6cf26aa9e1d437c3ea90a436ef281bef96d51184011ec3edd87e0f0f2a9851fa
+tags:
+  1.8.0--r36h0357c0b_3: sha256:6cf26aa9e1d437c3ea90a436ef281bef96d51184011ec3edd87e0f0f2a9851fa
+docker: quay.io/biocontainers/r-vcfr

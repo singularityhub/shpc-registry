@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-poplarcdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-poplarcdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:8cced2db2c3a1426938de65f5dd7733605b2afaeb953e07a6eff4858e1c2e930
+tags:
+  2.18.0--r41hdfd78af_9: sha256:8cced2db2c3a1426938de65f5dd7733605b2afaeb953e07a6eff4858e1c2e930
+docker: quay.io/biocontainers/bioconductor-poplarcdf
+aliases:
+  .bioconductor-poplarcdf-post-link.sh: /usr/local/bin/.bioconductor-poplarcdf-post-link.sh
+  .bioconductor-poplarcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-poplarcdf-pre-unlink.sh

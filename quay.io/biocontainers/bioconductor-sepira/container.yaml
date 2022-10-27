@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sepira
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sepira
+latest:
+  1.8.0--r40_0: sha256:53b17ad50e4e99920bb8ae10b2de3bdb3199c3499a95388dc4736dee946651d9
+tags:
+  1.8.0--r40_0: sha256:53b17ad50e4e99920bb8ae10b2de3bdb3199c3499a95388dc4736dee946651d9
+docker: quay.io/biocontainers/bioconductor-sepira

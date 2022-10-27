@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/eigenstratdatabasetools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for eigenstratdatabasetools
+latest:
+  1.1.0--hdfd78af_0: sha256:4368f3a69bf34122c3c21d5911d488e7273dd66bc7b16b09a06ab8572e69d9cb
+tags:
+  1.1.0--hdfd78af_0: sha256:4368f3a69bf34122c3c21d5911d488e7273dd66bc7b16b09a06ab8572e69d9cb
+docker: quay.io/biocontainers/eigenstratdatabasetools
+aliases:
+  eigenstrat_database_tools: /usr/local/bin/eigenstrat_database_tools
+  eigenstrat_rename_snps: /usr/local/bin/eigenstrat_rename_snps
+  eigenstrat_snp_coverage: /usr/local/bin/eigenstrat_snp_coverage

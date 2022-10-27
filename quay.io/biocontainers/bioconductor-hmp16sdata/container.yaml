@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hmp16sdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hmp16sdata
+latest:
+  1.8.0--r40_0: sha256:35c1f1f7dbbc47de0bce3833c214731b1433b26632b9d989878f04788b88241a
+tags:
+  1.8.0--r40_0: sha256:35c1f1f7dbbc47de0bce3833c214731b1433b26632b9d989878f04788b88241a
+docker: quay.io/biocontainers/bioconductor-hmp16sdata
+aliases:
+  .bioconductor-hmp16sdata-post-link.sh: /usr/local/bin/.bioconductor-hmp16sdata-post-link.sh
+  .bioconductor-hmp16sdata-pre-unlink.sh: /usr/local/bin/.bioconductor-hmp16sdata-pre-unlink.sh

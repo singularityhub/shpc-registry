@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netboost
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netboost
+latest:
+  2.0.0--r41h399db7b_0: sha256:e5f51a64a3c2001b98a4a6c35c7597016e4c430b585c09c43dc34e52961343f2
+tags:
+  2.0.0--r41h399db7b_0: sha256:e5f51a64a3c2001b98a4a6c35c7597016e4c430b585c09c43dc34e52961343f2
+docker: quay.io/biocontainers/bioconductor-netboost

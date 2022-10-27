@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/meta-sparse
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for meta-sparse
+latest:
+  0.1.2--py27h24bf2e0_2: sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d
+tags:
+  0.1.2--py27h24bf2e0_2: sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d
+docker: quay.io/biocontainers/meta-sparse
+aliases:
+  capnpc-cython: /usr/local/bin/capnpc-cython
+  sparse: /usr/local/bin/sparse

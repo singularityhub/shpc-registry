@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dnp-mapping
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnp-mapping
+latest:
+  1.0--h9f5acd7_1: sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f
+tags:
+  1.0--h9f5acd7_1: sha256:61d02254f14045902e6fbfac0f75bab2ef5d6b0dd03de924be9a204de708364f
+docker: quay.io/biocontainers/dnp-mapping
+aliases:
+  dnp-mapping: /usr/local/bin/dnp-mapping

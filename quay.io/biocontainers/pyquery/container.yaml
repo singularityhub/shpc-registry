@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pyquery
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyquery
+latest:
+  1.2.9--py27_0: sha256:8006a99d8b1d8b84f90367f556906b55593ca55e5feb4889ee116284d251f76b
+tags:
+  1.2.9--py27_0: sha256:8006a99d8b1d8b84f90367f556906b55593ca55e5feb4889ee116284d251f76b
+docker: quay.io/biocontainers/pyquery

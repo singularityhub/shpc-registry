@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-meebodata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-meebodata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:83862cc70b8d3dc3eca4e8c57d3ce7f793a8be3bc686e2821cdaf9844fdb0081
+tags:
+  1.32.0--r41hdfd78af_1: sha256:83862cc70b8d3dc3eca4e8c57d3ce7f793a8be3bc686e2821cdaf9844fdb0081
+docker: quay.io/biocontainers/bioconductor-meebodata
+aliases:
+  .bioconductor-meebodata-post-link.sh: /usr/local/bin/.bioconductor-meebodata-post-link.sh
+  .bioconductor-meebodata-pre-unlink.sh: /usr/local/bin/.bioconductor-meebodata-pre-unlink.sh

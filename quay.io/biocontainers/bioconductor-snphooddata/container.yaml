@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-snphooddata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-snphooddata
+latest:
+  1.24.0--r41hdfd78af_1: sha256:ac1cba10c3b5d2e5bc9346328850b20563044726d7572730cb8764616fe1b9dc
+tags:
+  1.24.0--r41hdfd78af_1: sha256:ac1cba10c3b5d2e5bc9346328850b20563044726d7572730cb8764616fe1b9dc
+docker: quay.io/biocontainers/bioconductor-snphooddata
+aliases:
+  .bioconductor-snphooddata-post-link.sh: /usr/local/bin/.bioconductor-snphooddata-post-link.sh
+  .bioconductor-snphooddata-pre-unlink.sh: /usr/local/bin/.bioconductor-snphooddata-pre-unlink.sh

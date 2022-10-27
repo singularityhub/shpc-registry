@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biom-format
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biom-format
+latest:
+  2.1.7--py27_0: sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c
+tags:
+  2.1.7--py27_0: sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c
+docker: quay.io/biocontainers/biom-format

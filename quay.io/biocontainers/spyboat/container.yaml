@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/spyboat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spyboat
+latest:
+  0.1.1: sha256:7c4c33c199618678a3341dbbf93dce5b68d536ee510abe29e5be97bd37ca63d7
+tags:
+  0.1.1: sha256:7c4c33c199618678a3341dbbf93dce5b68d536ee510abe29e5be97bd37ca63d7
+docker: quay.io/biocontainers/spyboat
+aliases:
+  pyboat: /usr/local/bin/pyboat

@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/datma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for datma
+latest:
+  2.0--hdfd78af_0: sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
+tags:
+  2.0--hdfd78af_0: sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
+docker: quay.io/biocontainers/datma
+aliases:
+  .checkm-genome-post-link.sh: /usr/local/bin/.checkm-genome-post-link.sh
+  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
+  assembly_annotation_tool.py: /usr/local/bin/assembly_annotation_tool.py
+  assembly_annotation_tool_seq.py: /usr/local/bin/assembly_annotation_tool_seq.py
+  binning: /usr/local/bin/binning
+  binning_tool.py: /usr/local/bin/binning_tool.py
+  checkm: /usr/local/bin/checkm
+  clame: /usr/local/bin/clame
+  datma.py: /usr/local/bin/datma.py
+  datma_seq.py: /usr/local/bin/datma_seq.py
+  exportTools.sh: /usr/local/bin/exportTools.sh
+  filterQuality.py: /usr/local/bin/filterQuality.py
+  finalReport.py: /usr/local/bin/finalReport.py
+  finalReport2.py: /usr/local/bin/finalReport2.py
+  flash2: /usr/local/bin/flash2
+  genFm9: /usr/local/bin/genFm9
+  general.py: /usr/local/bin/general.py
+  kaiju: /usr/local/bin/kaiju
+  kaiju-addTaxonNames: /usr/local/bin/kaiju-addTaxonNames
+  kaiju-convertMAR.py: /usr/local/bin/kaiju-convertMAR.py
+  kaiju-convertNR: /usr/local/bin/kaiju-convertNR
+  kaiju-excluded-accessions.txt: /usr/local/bin/kaiju-excluded-accessions.txt
+  kaiju-gbk2faa.pl: /usr/local/bin/kaiju-gbk2faa.pl
+  kaiju-makedb: /usr/local/bin/kaiju-makedb
+  kaiju-mergeOutputs: /usr/local/bin/kaiju-mergeOutputs
+  kaiju-mkbwt: /usr/local/bin/kaiju-mkbwt
+  kaiju-mkfmi: /usr/local/bin/kaiju-mkfmi
+  kaiju-multi: /usr/local/bin/kaiju-multi
+  kaiju-taxonlistEuk.tsv: /usr/local/bin/kaiju-taxonlistEuk.tsv
+  kaiju2krona: /usr/local/bin/kaiju2krona
+  kaiju2table: /usr/local/bin/kaiju2table
+  kaijup: /usr/local/bin/kaijup
+  kaijux: /usr/local/bin/kaijux
+  map_genFm9.py: /usr/local/bin/map_genFm9.py
+  mapping: /usr/local/bin/mapping
+  mergeNotCombined: /usr/local/bin/mergeNotCombined
+  merge_tool.py: /usr/local/bin/merge_tool.py
+  rapifilt: /usr/local/bin/rapifilt
+  rdp_classifier: /usr/local/bin/rdp_classifier
+  removal_tool.py: /usr/local/bin/removal_tool.py
+  runDATMA.sh: /usr/local/bin/runDATMA.sh
+  selectFasta: /usr/local/bin/selectFasta

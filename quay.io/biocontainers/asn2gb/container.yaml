@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/asn2gb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for asn2gb
+latest:
+  18.2--h9ee0642_3: sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663
+tags:
+  18.2--h9ee0642_3: sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663
+docker: quay.io/biocontainers/asn2gb
+aliases:
+  asn2gb: /usr/local/bin/asn2gb

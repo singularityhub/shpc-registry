@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/downpore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for downpore
+latest:
+  0.3.4--he881be0_1: sha256:3f39bab60fae4af1d180dc6a55fe114f665099e30456d3c66d6b223e509a5194
+tags:
+  0.3.4--he881be0_1: sha256:3f39bab60fae4af1d180dc6a55fe114f665099e30456d3c66d6b223e509a5194
+docker: quay.io/biocontainers/downpore
+aliases:
+  downpore: /usr/local/bin/downpore

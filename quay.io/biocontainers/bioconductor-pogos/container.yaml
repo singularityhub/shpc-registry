@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pogos
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pogos
+latest:
+  1.8.0--r40_0: sha256:56fb6bfded1c2477df4fc85bd7a8200dad6b724145f89098ff97e36d7596fdf2
+tags:
+  1.8.0--r40_0: sha256:56fb6bfded1c2477df4fc85bd7a8200dad6b724145f89098ff97e36d7596fdf2
+docker: quay.io/biocontainers/bioconductor-pogos

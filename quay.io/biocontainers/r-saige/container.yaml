@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/r-saige
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-saige
+latest:
+  0.45.0--r41h723e9af_4: sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117
+tags:
+  0.45.0--r41h723e9af_4: sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117
+docker: quay.io/biocontainers/r-saige
+aliases:
+  bgenix: /usr/local/bin/bgenix
+  cat-bgen: /usr/local/bin/cat-bgen
+  createSparseGRM.R: /usr/local/bin/createSparseGRM.R
+  edit-bgen: /usr/local/bin/edit-bgen
+  extractNglmm.R: /usr/local/bin/extractNglmm.R
+  sav: /usr/local/bin/sav
+  step1_fitNULLGLMM.R: /usr/local/bin/step1_fitNULLGLMM.R
+  step2_SPAtests.R: /usr/local/bin/step2_SPAtests.R

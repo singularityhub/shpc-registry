@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cogaps
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cogaps
+latest:
+  3.8.0--r40h5f743cb_0: sha256:4af7df9c6e35c82751d7f6e5b69710ed5d03a73cf3db439717fb513f7f40b759
+tags:
+  3.8.0--r40h5f743cb_0: sha256:4af7df9c6e35c82751d7f6e5b69710ed5d03a73cf3db439717fb513f7f40b759
+docker: quay.io/biocontainers/bioconductor-cogaps

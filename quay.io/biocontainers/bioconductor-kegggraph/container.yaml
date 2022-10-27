@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-kegggraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-kegggraph
+latest:
+  1.54.0--r41hdfd78af_0: sha256:cbde28c73b7093f7c4b5f3377f58f118af9d296cfd2692e4b7aa77826afb97ed
+tags:
+  1.54.0--r41hdfd78af_0: sha256:cbde28c73b7093f7c4b5f3377f58f118af9d296cfd2692e4b7aa77826afb97ed
+docker: quay.io/biocontainers/bioconductor-kegggraph

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-regionreport
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-regionreport
+latest:
+  1.27.1--r41hdfd78af_0: sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a
+tags:
+  1.27.1--r41hdfd78af_0: sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a
+docker: quay.io/biocontainers/bioconductor-regionreport

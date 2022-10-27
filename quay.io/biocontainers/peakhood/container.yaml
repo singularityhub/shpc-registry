@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/peakhood
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for peakhood
+latest:
+  0.3--pyhdfd78af_0: sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535
+tags:
+  0.3--pyhdfd78af_0: sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535
+docker: quay.io/biocontainers/peakhood
+aliases:
+  bed_generate_unique_ids.py: /usr/local/bin/bed_generate_unique_ids.py
+  gtf_add_transcript_biotype_info.py: /usr/local/bin/gtf_add_transcript_biotype_info.py
+  peakhood: /usr/local/bin/peakhood

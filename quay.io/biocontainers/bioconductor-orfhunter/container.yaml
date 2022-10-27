@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-orfhunter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-orfhunter
+latest:
+  1.2.0--r41hc247a5b_2: sha256:cb6de33915c389a042224f5e8116f22c7b5c4d9f64639fed693077437070c49e
+tags:
+  1.2.0--r41hc247a5b_2: sha256:cb6de33915c389a042224f5e8116f22c7b5c4d9f64639fed693077437070c49e
+docker: quay.io/biocontainers/bioconductor-orfhunter

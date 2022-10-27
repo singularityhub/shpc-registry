@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rgccacmd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rgccacmd
+latest:
+  3.0.2--r41h9ee0642_0: sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38
+tags:
+  3.0.2--r41h9ee0642_0: sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38
+docker: quay.io/biocontainers/rgccacmd

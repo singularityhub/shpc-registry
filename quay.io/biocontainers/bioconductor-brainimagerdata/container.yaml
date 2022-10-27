@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-brainimagerdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-brainimagerdata
+latest:
+  1.8.0--r40hdfd78af_1: sha256:f2127099c9617964f635628cc143764d57aac19a459f3ac174f2bfc58c91e7dc
+tags:
+  1.8.0--r40hdfd78af_1: sha256:f2127099c9617964f635628cc143764d57aac19a459f3ac174f2bfc58c91e7dc
+docker: quay.io/biocontainers/bioconductor-brainimagerdata
+aliases:
+  .bioconductor-brainimagerdata-post-link.sh: /usr/local/bin/.bioconductor-brainimagerdata-post-link.sh
+  .bioconductor-brainimagerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-brainimagerdata-pre-unlink.sh

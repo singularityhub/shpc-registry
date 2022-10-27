@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mgu74av2probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mgu74av2probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:fa73de50ff25fef5c2c9b7867e359b68542f366a9c63be995d11e5e158f664cb
+tags:
+  2.18.0--r41hdfd78af_9: sha256:fa73de50ff25fef5c2c9b7867e359b68542f366a9c63be995d11e5e158f664cb
+docker: quay.io/biocontainers/bioconductor-mgu74av2probe
+aliases:
+  .bioconductor-mgu74av2probe-post-link.sh: /usr/local/bin/.bioconductor-mgu74av2probe-post-link.sh
+  .bioconductor-mgu74av2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-mgu74av2probe-pre-unlink.sh

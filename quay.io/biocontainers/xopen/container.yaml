@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/xopen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for xopen
+latest:
+  0.7.3--py_0: sha256:f55e110c751adf0f3aae0905d0ed7a85caf4ef5bff01e718e02c41037c0b1274
+tags:
+  0.7.3--py_0: sha256:f55e110c751adf0f3aae0905d0ed7a85caf4ef5bff01e718e02c41037c0b1274
+docker: quay.io/biocontainers/xopen

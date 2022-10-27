@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/biobb_structure_utils
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biobb_structure_utils
+latest:
+  3.8.0--pyhdfd78af_0: sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e
+tags:
+  3.8.0--pyhdfd78af_0: sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e
+docker: quay.io/biocontainers/biobb_structure_utils
+aliases:
+  cat_pdb: /usr/local/bin/cat_pdb
+  check_structure: /usr/local/bin/check_structure
+  closest_residues: /usr/local/bin/closest_residues
+  extract_atoms: /usr/local/bin/extract_atoms
+  extract_chain: /usr/local/bin/extract_chain
+  extract_heteroatoms: /usr/local/bin/extract_heteroatoms
+  extract_model: /usr/local/bin/extract_model
+  extract_molecule: /usr/local/bin/extract_molecule
+  extract_residues: /usr/local/bin/extract_residues
+  remove_ligand: /usr/local/bin/remove_ligand
+  remove_molecules: /usr/local/bin/remove_molecules
+  remove_pdb_water: /usr/local/bin/remove_pdb_water
+  renumber_structure: /usr/local/bin/renumber_structure
+  sort_gro_residues: /usr/local/bin/sort_gro_residues
+  str_check_add_hydrogens: /usr/local/bin/str_check_add_hydrogens
+  structure_check: /usr/local/bin/structure_check

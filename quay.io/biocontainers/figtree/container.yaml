@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/figtree
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for figtree
+latest:
+  1.4.4--hdfd78af_1: sha256:f1c9736ebe836e37ff69078499926a6fb10df43959acf6eb4275e21b9216352e
+tags:
+  1.4.4--hdfd78af_1: sha256:f1c9736ebe836e37ff69078499926a6fb10df43959acf6eb4275e21b9216352e
+docker: quay.io/biocontainers/figtree
+aliases:
+  figtree: /usr/local/bin/figtree

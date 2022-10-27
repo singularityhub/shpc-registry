@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/vulcan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vulcan
+latest:
+  1.0.3--hdfd78af_0: sha256:fea76d01a46b9509866afe9a813236bab50d6e8014c6b44d7c1cedadd47d0011
+tags:
+  1.0.3--hdfd78af_0: sha256:fea76d01a46b9509866afe9a813236bab50d6e8014c6b44d7c1cedadd47d0011
+docker: quay.io/biocontainers/vulcan
+aliases:
+  ngmlr: /usr/local/bin/ngmlr
+  vulcan: /usr/local/bin/vulcan

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/triform2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for triform2
+latest:
+  0.0.5--py27r341h24bf2e0_1: sha256:4f6b9a3028b0f7b606c98159c27de48e0d97f76e7fd433f905826598ed39af0f
+tags:
+  0.0.5--py27r341h24bf2e0_1: sha256:4f6b9a3028b0f7b606c98159c27de48e0d97f76e7fd433f905826598ed39af0f
+docker: quay.io/biocontainers/triform2
+aliases:
+  triform2: /usr/local/bin/triform2

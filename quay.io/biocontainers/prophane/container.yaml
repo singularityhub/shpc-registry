@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/prophane
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prophane
+latest:
+  6.2.6--hdfd78af_0: sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99
+tags:
+  6.2.6--hdfd78af_0: sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99
+docker: quay.io/biocontainers/prophane
+aliases:
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mamba: /usr/local/bin/mamba
+  mergesolv: /usr/local/bin/mergesolv
+  prophane: /usr/local/bin/prophane
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv

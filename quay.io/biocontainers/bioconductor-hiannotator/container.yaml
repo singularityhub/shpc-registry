@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-hiannotator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hiannotator
+latest:
+  1.28.0--r41hdfd78af_0: sha256:ec60f4d82844e94ceed38a36e2bd747f1a16d2fb97c56cb4b8fc4e147aa88efe
+tags:
+  1.28.0--r41hdfd78af_0: sha256:ec60f4d82844e94ceed38a36e2bd747f1a16d2fb97c56cb4b8fc4e147aa88efe
+docker: quay.io/biocontainers/bioconductor-hiannotator

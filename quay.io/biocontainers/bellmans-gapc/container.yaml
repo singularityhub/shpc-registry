@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bellmans-gapc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bellmans-gapc
+latest:
+  2022.07.04--h16d3260_0: sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b
+tags:
+  2022.07.04--h16d3260_0: sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b
+docker: quay.io/biocontainers/bellmans-gapc
+aliases:
+  gapc: /usr/local/bin/gapc

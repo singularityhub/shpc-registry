@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/wub
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wub
+latest:
+  0.5.1--pyh3252c3a_0: sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25
+tags:
+  0.5.1--pyh3252c3a_0: sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25
+docker: quay.io/biocontainers/wub
+aliases:
+  _template_script.py: /usr/local/bin/_template_script.py
+  add_errors.py: /usr/local/bin/add_errors.py
+  annotate_length.py: /usr/local/bin/annotate_length.py
+  bam_accuracy.py: /usr/local/bin/bam_accuracy.py
+  bam_alignment_length.py: /usr/local/bin/bam_alignment_length.py
+  bam_alignment_qc.py: /usr/local/bin/bam_alignment_qc.py
+  bam_alignments_compare.py: /usr/local/bin/bam_alignments_compare.py
+  bam_count_reads.py: /usr/local/bin/bam_count_reads.py
+  bam_cov.py: /usr/local/bin/bam_cov.py
+  bam_fill_unaligned.py: /usr/local/bin/bam_fill_unaligned.py
+  bam_frag_coverage.py: /usr/local/bin/bam_frag_coverage.py
+  bam_gc_vs_qual.py: /usr/local/bin/bam_gc_vs_qual.py
+  bam_multi_qc.py: /usr/local/bin/bam_multi_qc.py
+  bam_ref_base_coverage.py: /usr/local/bin/bam_ref_base_coverage.py
+  bam_ref_tab.py: /usr/local/bin/bam_ref_tab.py
+  bam_score_filter.py: /usr/local/bin/bam_score_filter.py
+  bam_soft_clips_tab.py: /usr/local/bin/bam_soft_clips_tab.py
+  bias_explorer.py: /usr/local/bin/bias_explorer.py
+  calculate_coverage.py: /usr/local/bin/calculate_coverage.py
+  compare_genomes_dnadiff.py: /usr/local/bin/compare_genomes_dnadiff.py
+  compare_genomes_lastal.py: /usr/local/bin/compare_genomes_lastal.py
+  convert_alphabet.py: /usr/local/bin/convert_alphabet.py
+  correlate_counts.py: /usr/local/bin/correlate_counts.py
+  fasta_to_mock_fastq.py: /usr/local/bin/fasta_to_mock_fastq.py
+  fastq_qual_tab.py: /usr/local/bin/fastq_qual_tab.py
+  fastq_time_slice.py: /usr/local/bin/fastq_time_slice.py
+  fastq_time_tab.py: /usr/local/bin/fastq_time_tab.py
+  fastx_ends_tab.py: /usr/local/bin/fastx_ends_tab.py
+  fastx_grep.py: /usr/local/bin/fastx_grep.py
+  fastx_length_tab.py: /usr/local/bin/fastx_length_tab.py
+  length_normalise_counts.py: /usr/local/bin/length_normalise_counts.py
+  merge_tsvs.py: /usr/local/bin/merge_tsvs.py
+  multi_length_hist.py: /usr/local/bin/multi_length_hist.py
+  pickle_cat.py: /usr/local/bin/pickle_cat.py
+  plot_counts_correlation.py: /usr/local/bin/plot_counts_correlation.py
+  plot_gffcmp_stats.py: /usr/local/bin/plot_gffcmp_stats.py
+  plot_qualities.py: /usr/local/bin/plot_qualities.py
+  plot_sequence_properties.py: /usr/local/bin/plot_sequence_properties.py
+  reads_across_time.py: /usr/local/bin/reads_across_time.py
+  reads_stats.py: /usr/local/bin/reads_stats.py
+  reverse_fastq.py: /usr/local/bin/reverse_fastq.py
+  sequence_filter.py: /usr/local/bin/sequence_filter.py
+  sequence_subtract.py: /usr/local/bin/sequence_subtract.py
+  simulate_errors.py: /usr/local/bin/simulate_errors.py
+  simulate_genome.py: /usr/local/bin/simulate_genome.py
+  simulate_sequences.py: /usr/local/bin/simulate_sequences.py
+  simulate_sequencing_simple.py: /usr/local/bin/simulate_sequencing_simple.py
+  split_fastx.py: /usr/local/bin/split_fastx.py

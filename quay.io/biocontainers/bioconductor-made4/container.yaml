@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-made4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-made4
+latest:
+  1.68.0--r41hdfd78af_0: sha256:25211e7238c48cb27d01bb748bf94fb5c9e888d29df183d376acbe7c6271961d
+tags:
+  1.68.0--r41hdfd78af_0: sha256:25211e7238c48cb27d01bb748bf94fb5c9e888d29df183d376acbe7c6271961d
+docker: quay.io/biocontainers/bioconductor-made4

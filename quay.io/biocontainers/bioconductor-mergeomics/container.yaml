@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mergeomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mergeomics
+latest:
+  1.8.0--r341_0: sha256:99e0fd7e78a931c30c4d6ef73c8e19ef4dc18777a26c75b19e09051ce3c781bc
+tags:
+  1.8.0--r341_0: sha256:99e0fd7e78a931c30c4d6ef73c8e19ef4dc18777a26c75b19e09051ce3c781bc
+docker: quay.io/biocontainers/bioconductor-mergeomics

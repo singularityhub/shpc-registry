@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dnabarcodes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dnabarcodes
+latest:
+  1.8.0--r3.4.1_0: sha256:7676bc361d846ccfdd8f8aaec5da009c468a6f1409b6be6bb0b78f1c5861213d
+tags:
+  1.8.0--r3.4.1_0: sha256:7676bc361d846ccfdd8f8aaec5da009c468a6f1409b6be6bb0b78f1c5861213d
+docker: quay.io/biocontainers/bioconductor-dnabarcodes

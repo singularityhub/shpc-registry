@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mmgenome
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mmgenome
+latest:
+  0.7.1--r41h9ee0642_4: sha256:08e92346b5afeff424d8df33965e840ee553546dd85f57d91fa48bfdd236875e
+tags:
+  0.7.1--r41h9ee0642_4: sha256:08e92346b5afeff424d8df33965e840ee553546dd85f57d91fa48bfdd236875e
+docker: quay.io/biocontainers/r-mmgenome

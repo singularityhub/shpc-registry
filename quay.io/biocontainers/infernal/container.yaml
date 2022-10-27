@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/infernal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for infernal
+latest:
+  1.1.4--pl5321hec16e2b_1: sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb
+tags:
+  1.1.4--pl5321hec16e2b_1: sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb
+docker: quay.io/biocontainers/infernal

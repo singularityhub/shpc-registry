@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-adductdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-adductdata
+latest:
+  1.8.0--r41hdfd78af_0: sha256:0d2cae4c422e50a69db28d99bda2edf5ae9b112cc6260500c70d83361b770a60
+tags:
+  1.8.0--r41hdfd78af_0: sha256:0d2cae4c422e50a69db28d99bda2edf5ae9b112cc6260500c70d83361b770a60
+docker: quay.io/biocontainers/bioconductor-adductdata
+aliases:
+  .bioconductor-adductdata-post-link.sh: /usr/local/bin/.bioconductor-adductdata-post-link.sh
+  .bioconductor-adductdata-pre-unlink.sh: /usr/local/bin/.bioconductor-adductdata-pre-unlink.sh

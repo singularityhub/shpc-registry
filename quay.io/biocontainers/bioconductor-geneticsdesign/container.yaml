@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-geneticsdesign
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-geneticsdesign
+latest:
+  1.55.0--r40_0: sha256:cad057321bd5b5ad6a8e67615f0606eaabcd92856d6c64d1a394bad84c91bb20
+tags:
+  1.55.0--r40_0: sha256:cad057321bd5b5ad6a8e67615f0606eaabcd92856d6c64d1a394bad84c91bb20
+docker: quay.io/biocontainers/bioconductor-geneticsdesign

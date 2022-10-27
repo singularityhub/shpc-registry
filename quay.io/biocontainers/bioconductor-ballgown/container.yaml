@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ballgown
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ballgown
+latest:
+  2.8.4--r3.4.1_0: sha256:0498ae6a1f11ec6ab7c2a06e02c4e787c2cff9e690a45e123b5926dd017b90e7
+tags:
+  2.8.4--r3.4.1_0: sha256:0498ae6a1f11ec6ab7c2a06e02c4e787c2cff9e690a45e123b5926dd017b90e7
+docker: quay.io/biocontainers/bioconductor-ballgown

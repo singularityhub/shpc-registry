@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-html-formatter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-html-formatter
+latest:
+  2.16--pl526_0: sha256:1a970878708fb8cfd34b94d6cfa429a12f51e5c9072d6106eff151f1ebbb0311
+tags:
+  2.16--pl526_0: sha256:1a970878708fb8cfd34b94d6cfa429a12f51e5c9072d6106eff151f1ebbb0311
+docker: quay.io/biocontainers/perl-html-formatter

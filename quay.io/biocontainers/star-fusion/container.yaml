@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/star-fusion
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for star-fusion
+latest:
+  1.9.1--hdfd78af_1: sha256:5384117b0b85919e8c91b526509d797a5561290a1deaab8e60745db25c99f2c0
+tags:
+  1.9.1--hdfd78af_1: sha256:5384117b0b85919e8c91b526509d797a5561290a1deaab8e60745db25c99f2c0
+docker: quay.io/biocontainers/star-fusion
+aliases:
+  PtR: /usr/local/bin/PtR
+  STAR-Fusion: /usr/local/bin/STAR-Fusion
+  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
+  contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  create_datauri: /usr/local/bin/create_datauri
+  create_report: /usr/local/bin/create_report
+  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
+  prep_genome_lib.pl: /usr/local/bin/prep_genome_lib.pl
+  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
+  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  seqtk-trinity: /usr/local/bin/seqtk-trinity
+  sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl

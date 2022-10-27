@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cytolib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cytolib
+latest:
+  2.6.2--r41hc247a5b_1: sha256:114a7cd157a77272b8c1d9d14f3aa07b99ef62c566b2b8c52253d1010e547ca9
+tags:
+  2.6.2--r41hc247a5b_1: sha256:114a7cd157a77272b8c1d9d14f3aa07b99ef62c566b2b8c52253d1010e547ca9
+docker: quay.io/biocontainers/bioconductor-cytolib

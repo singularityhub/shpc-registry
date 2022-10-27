@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/primedlamp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for primedlamp
+latest:
+  1.0.1--py_0: sha256:5f9c38a1d98d15e707bfdb54ff4c66ec04d16c62dbd1a7a599378cd20bce19e1
+tags:
+  1.0.1--py_0: sha256:5f9c38a1d98d15e707bfdb54ff4c66ec04d16c62dbd1a7a599378cd20bce19e1
+docker: quay.io/biocontainers/primedlamp
+aliases:
+  PrimedLAMP: /usr/local/bin/PrimedLAMP
+  PrimedLAMP_Amplicon_Success: /usr/local/bin/PrimedLAMP_Amplicon_Success
+  PrimedLAMP_Cross_Reactivity_Update: /usr/local/bin/PrimedLAMP_Cross_Reactivity_Update
+  PrimedLAMP_Custom: /usr/local/bin/PrimedLAMP_Custom
+  PrimedLAMP_Inclusivity_Update: /usr/local/bin/PrimedLAMP_Inclusivity_Update
+  PrimedLAMP_Tm_Update: /usr/local/bin/PrimedLAMP_Tm_Update

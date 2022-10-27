@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-neuca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-neuca
+latest:
+  1.0.0--r41hdfd78af_0: sha256:fd53727db491e6b4f3384d913becc5e33209a69bd28c20fbbd8eee3ae4ed4881
+tags:
+  1.0.0--r41hdfd78af_0: sha256:fd53727db491e6b4f3384d913becc5e33209a69bd28c20fbbd8eee3ae4ed4881
+docker: quay.io/biocontainers/bioconductor-neuca

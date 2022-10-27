@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/lorma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lorma
+latest:
+  0.4--2: sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de
+tags:
+  0.4--2: sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de
+docker: quay.io/biocontainers/lorma
+aliases:
+  LoRMA: /usr/local/bin/LoRMA
+  lordec-build-SR-graph: /usr/local/bin/lordec-build-SR-graph
+  lordec-correct: /usr/local/bin/lordec-correct
+  lordec-stat: /usr/local/bin/lordec-stat
+  lordec-trim: /usr/local/bin/lordec-trim
+  lordec-trim-split: /usr/local/bin/lordec-trim-split
+  lorma.sh: /usr/local/bin/lorma.sh

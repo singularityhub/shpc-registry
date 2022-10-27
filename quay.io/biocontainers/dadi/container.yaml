@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/dadi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dadi
+latest:
+  2.0.5--py37hc1659b7_0: sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf
+tags:
+  2.0.5--py37hc1659b7_0: sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf
+docker: quay.io/biocontainers/dadi

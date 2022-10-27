@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/plant_tribes_kaks_analysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plant_tribes_kaks_analysis
+latest:
+  1.0.4--hdfd78af_1: sha256:644e8c54ed6bbafbdafa431725f3f39367571405b6f98d7c602a9e1874ca7334
+tags:
+  1.0.4--hdfd78af_1: sha256:644e8c54ed6bbafbdafa431725f3f39367571405b6f98d7c602a9e1874ca7334
+docker: quay.io/biocontainers/plant_tribes_kaks_analysis
+aliases:
+  EMMIX: /usr/local/bin/EMMIX
+  KaKsAnalysis: /usr/local/bin/KaKsAnalysis
+  bioruby: /usr/local/bin/bioruby
+  br_biofetch.rb: /usr/local/bin/br_biofetch.rb
+  br_bioflat.rb: /usr/local/bin/br_bioflat.rb
+  br_biogetseq.rb: /usr/local/bin/br_biogetseq.rb
+  br_pmfetch.rb: /usr/local/bin/br_pmfetch.rb
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  crb-blast: /usr/local/bin/crb-blast
+  racc: /usr/local/bin/racc
+  racc2y: /usr/local/bin/racc2y
+  y2racc: /usr/local/bin/y2racc

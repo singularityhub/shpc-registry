@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/seaborn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seaborn
+latest:
+  0.7.1: sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067
+tags:
+  0.7.1: sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067
+docker: quay.io/biocontainers/seaborn

@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/strainge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strainge
+latest:
+  1.3.3--py39hcaef8bb_0: sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d
+tags:
+  1.3.3--py39hcaef8bb_0: sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d
+docker: quay.io/biocontainers/strainge
+aliases:
+  kmercoverage: /usr/local/bin/kmercoverage
+  kmerseq: /usr/local/bin/kmerseq
+  kmersimilarity: /usr/local/bin/kmersimilarity
+  kmerspectrum: /usr/local/bin/kmerspectrum
+  kmertree: /usr/local/bin/kmertree
+  pankmer: /usr/local/bin/pankmer
+  refseq-download: /usr/local/bin/refseq-download
+  refseq-extract: /usr/local/bin/refseq-extract
+  strainge: /usr/local/bin/strainge
+  straingr: /usr/local/bin/straingr
+  straingst: /usr/local/bin/straingst
+  treepath: /usr/local/bin/treepath

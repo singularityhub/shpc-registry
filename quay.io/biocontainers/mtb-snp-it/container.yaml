@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mtb-snp-it
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mtb-snp-it
+latest:
+  1.1--pyh864c0ab_1: sha256:189a543689b0f6129e43950f4c156994b32e3c7d207f29cf622c595ff370e190
+tags:
+  1.1--pyh864c0ab_1: sha256:189a543689b0f6129e43950f4c156994b32e3c7d207f29cf622c595ff370e190
+docker: quay.io/biocontainers/mtb-snp-it
+aliases:
+  snpit-run.py: /usr/local/bin/snpit-run.py

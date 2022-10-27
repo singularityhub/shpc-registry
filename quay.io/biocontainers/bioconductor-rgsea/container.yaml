@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rgsea
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rgsea
+latest:
+  1.28.0--r41hdfd78af_0: sha256:cc78820ace565665f92baa7ef969716b4f98158ae7ebb3c4e474ac35ad5dc70b
+tags:
+  1.28.0--r41hdfd78af_0: sha256:cc78820ace565665f92baa7ef969716b4f98158ae7ebb3c4e474ac35ad5dc70b
+docker: quay.io/biocontainers/bioconductor-rgsea

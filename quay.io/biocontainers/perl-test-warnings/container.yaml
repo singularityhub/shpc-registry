@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-warnings
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-warnings
+latest:
+  0.031--pl5321hdfd78af_0: sha256:dc04e3b4bef7e6229ea31f587ab1237f8899aaa207f61ce18751946cf0d0a222
+tags:
+  0.031--pl5321hdfd78af_0: sha256:dc04e3b4bef7e6229ea31f587ab1237f8899aaa207f61ce18751946cf0d0a222
+docker: quay.io/biocontainers/perl-test-warnings

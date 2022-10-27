@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rbm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rbm
+latest:
+  1.8.0--r3.3.2_0: sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71
+tags:
+  1.8.0--r3.3.2_0: sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71
+docker: quay.io/biocontainers/bioconductor-rbm

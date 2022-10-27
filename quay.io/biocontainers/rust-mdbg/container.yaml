@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rust-mdbg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rust-mdbg
+latest:
+  1.0.1--h9f5acd7_1: sha256:c14f965f418e980000d177f861600eb13b5d91cd96466fc1f79f6c5955035b91
+tags:
+  1.0.1--h9f5acd7_1: sha256:c14f965f418e980000d177f861600eb13b5d91cd96466fc1f79f6c5955035b91
+docker: quay.io/biocontainers/rust-mdbg
+aliases:
+  rust-mdbg: /usr/local/bin/rust-mdbg
+  to_basespace: /usr/local/bin/to_basespace

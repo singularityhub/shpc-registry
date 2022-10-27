@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rapidr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rapidr
+latest:
+  0.1.1--r41h3121a25_7: sha256:fa874f319efedb270427fae1188208601ecd5730d5ba7ecf9336b587336a6a7b
+tags:
+  0.1.1--r41h3121a25_7: sha256:fa874f319efedb270427fae1188208601ecd5730d5ba7ecf9336b587336a6a7b
+docker: quay.io/biocontainers/r-rapidr

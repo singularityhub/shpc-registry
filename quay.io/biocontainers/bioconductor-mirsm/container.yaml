@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mirsm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirsm
+latest:
+  1.8.3--r40h68001a8_0: sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3
+tags:
+  1.8.3--r40h68001a8_0: sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3
+docker: quay.io/biocontainers/bioconductor-mirsm

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pileometh
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pileometh
+latest:
+  0.1.13--1: sha256:0ab9b66219ea88cd8ed68f75c0a1db93e6037902216f0e4e21312454ac71457f
+tags:
+  0.1.13--1: sha256:0ab9b66219ea88cd8ed68f75c0a1db93e6037902216f0e4e21312454ac71457f
+docker: quay.io/biocontainers/pileometh
+aliases:
+  PileOMeth: /usr/local/bin/PileOMeth

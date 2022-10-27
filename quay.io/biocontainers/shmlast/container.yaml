@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/shmlast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shmlast
+latest:
+  1.6--py_0: sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
+tags:
+  1.6--py_0: sha256:cbc0b26dfc96d0db33d54091c8357b23e02ec8b4db20881efe2b930d99b1a7d1
+docker: quay.io/biocontainers/shmlast
+aliases:
+  doit: /usr/local/bin/doit
+  fastq-interleave: /usr/local/bin/fastq-interleave
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
+  last-split8: /usr/local/bin/last-split8
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
+  lastal8: /usr/local/bin/lastal8
+  lastdb: /usr/local/bin/lastdb
+  lastdb8: /usr/local/bin/lastdb8
+  maf-convert: /usr/local/bin/maf-convert
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
+  ope: /usr/local/bin/ope
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
+  perl5.30.3: /usr/local/bin/perl5.30.3
+  shmlast: /usr/local/bin/shmlast

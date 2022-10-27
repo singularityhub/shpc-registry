@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-annotationdbi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-annotationdbi
+latest:
+  1.56.2--r41hdfd78af_0: sha256:f4754894b7675f9cc3de91ec2a27681c5cabb25190e225b63d78d2202eb771a2
+tags:
+  1.56.2--r41hdfd78af_0: sha256:f4754894b7675f9cc3de91ec2a27681c5cabb25190e225b63d78d2202eb771a2
+docker: quay.io/biocontainers/bioconductor-annotationdbi

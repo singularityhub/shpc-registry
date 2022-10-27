@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/busco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for busco
+latest:
+  4.1.2--py37r40_0: sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1
+tags:
+  4.1.2--py37r40_0: sha256:2a1a14f4584c43dd172b1b3501b533ebb7e21b039c69c9ee02b8425abf462ea1
+docker: quay.io/biocontainers/busco
+aliases:
+  .busco-post-link.sh: /usr/local/bin/.busco-post-link.sh
+  busco: /usr/local/bin/busco
+  busco_configurator.py: /usr/local/bin/busco_configurator.py
+  find: /usr/local/bin/find
+  generate_plot.py: /usr/local/bin/generate_plot.py
+  locate: /usr/local/bin/locate
+  run-sepp.sh: /usr/local/bin/run-sepp.sh
+  run_abundance.py: /usr/local/bin/run_abundance.py
+  run_sepp.py: /usr/local/bin/run_sepp.py
+  run_tipp.py: /usr/local/bin/run_tipp.py
+  run_tipp_tool.py: /usr/local/bin/run_tipp_tool.py
+  run_upp.py: /usr/local/bin/run_upp.py
+  seppJsonMerger.jar: /usr/local/bin/seppJsonMerger.jar
+  split_sequences.py: /usr/local/bin/split_sequences.py
+  updatedb: /usr/local/bin/updatedb
+  xargs: /usr/local/bin/xargs

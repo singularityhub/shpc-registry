@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-bio-das
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-bio-das
+latest:
+  1.17--pl5321hdfd78af_1: sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d
+tags:
+  1.17--pl5321hdfd78af_1: sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d
+docker: quay.io/biocontainers/perl-bio-das

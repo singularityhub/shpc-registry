@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcy3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcy3
+latest:
+  2.8.0--r40_0: sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812
+tags:
+  2.8.0--r40_0: sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812
+docker: quay.io/biocontainers/bioconductor-rcy3

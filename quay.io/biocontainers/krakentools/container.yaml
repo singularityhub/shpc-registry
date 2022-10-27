@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/krakentools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for krakentools
+latest:
+  1.2--pyh5e36f6f_0: sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2
+tags:
+  1.2--pyh5e36f6f_0: sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2
+docker: quay.io/biocontainers/krakentools
+aliases:
+  alpha_diversity.py: /usr/local/bin/alpha_diversity.py
+  beta_diversity.py: /usr/local/bin/beta_diversity.py
+  combine_kreports.py: /usr/local/bin/combine_kreports.py
+  combine_mpa.py: /usr/local/bin/combine_mpa.py
+  extract_kraken_reads.py: /usr/local/bin/extract_kraken_reads.py
+  filter_bracken.out.py: /usr/local/bin/filter_bracken.out.py
+  fix_unmapped.py: /usr/local/bin/fix_unmapped.py
+  kreport2krona.py: /usr/local/bin/kreport2krona.py
+  kreport2mpa.py: /usr/local/bin/kreport2mpa.py
+  make_kreport.py: /usr/local/bin/make_kreport.py
+  make_ktaxonomy.py: /usr/local/bin/make_ktaxonomy.py

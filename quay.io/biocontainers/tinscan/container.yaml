@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/tinscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tinscan
+latest:
+  0.2.0--py_2: sha256:22b7708f3e7286097236c7e9204bc84493b4d06e350bf9551732b776648acec1
+tags:
+  0.2.0--py_2: sha256:22b7708f3e7286097236c7e9204bc84493b4d06e350bf9551732b776648acec1
+docker: quay.io/biocontainers/tinscan
+aliases:
+  tinscan-align: /usr/local/bin/tinscan-align
+  tinscan-find: /usr/local/bin/tinscan-find
+  tinscan-prep: /usr/local/bin/tinscan-prep

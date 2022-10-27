@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/nanocomp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanocomp
+latest:
+  1.9.2--py_1: sha256:a89340a72ef720c08a6360d00eda2b59f2a2e59c5f8e701fe3fa81077a8124f5
+tags:
+  1.9.2--py_1: sha256:a89340a72ef720c08a6360d00eda2b59f2a2e59c5f8e701fe3fa81077a8124f5
+docker: quay.io/biocontainers/nanocomp
+aliases:
+  NanoComp: /usr/local/bin/NanoComp
+  NanoPlot: /usr/local/bin/NanoPlot
+  orca-server: /usr/local/bin/orca-server
+  pauvre: /usr/local/bin/pauvre

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/oases
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for oases
+latest:
+  0.2.09--h470a237_1: sha256:e8317fa87375bb07cca81447fc9160322e1f3b14f9aef5511500e60cdf009af2
+tags:
+  0.2.09--h470a237_1: sha256:e8317fa87375bb07cca81447fc9160322e1f3b14f9aef5511500e60cdf009af2
+docker: quay.io/biocontainers/oases
+aliases:
+  oases: /usr/local/bin/oases
+  oases_pipeline.py: /usr/local/bin/oases_pipeline.py

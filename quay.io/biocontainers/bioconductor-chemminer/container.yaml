@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chemminer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chemminer
+latest:
+  3.46.0--r41hc247a5b_2: sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1
+tags:
+  3.46.0--r41hc247a5b_2: sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1
+docker: quay.io/biocontainers/bioconductor-chemminer

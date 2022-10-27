@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-swathxtend
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-swathxtend
+latest:
+  2.8.0--r36_0: sha256:0264896db1620649ebf1054612b21c64eed956d6cf3edc0e36688eddd2918c28
+tags:
+  2.8.0--r36_0: sha256:0264896db1620649ebf1054612b21c64eed956d6cf3edc0e36688eddd2918c28
+docker: quay.io/biocontainers/bioconductor-swathxtend

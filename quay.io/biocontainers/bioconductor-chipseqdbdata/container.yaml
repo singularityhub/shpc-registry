@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chipseqdbdata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chipseqdbdata
+latest:
+  1.8.0--r41hdfd78af_0: sha256:1798d36de69a42f2c3225255bad93d5421dedc908baf21d844deab8599e188ea
+tags:
+  1.8.0--r41hdfd78af_0: sha256:1798d36de69a42f2c3225255bad93d5421dedc908baf21d844deab8599e188ea
+docker: quay.io/biocontainers/bioconductor-chipseqdbdata
+aliases:
+  .bioconductor-chipseqdbdata-post-link.sh: /usr/local/bin/.bioconductor-chipseqdbdata-post-link.sh
+  .bioconductor-chipseqdbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-chipseqdbdata-pre-unlink.sh

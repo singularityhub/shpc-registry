@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/flextaxd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flextaxd
+latest:
+  0.4.3--pyhdfd78af_0: sha256:4865515478ee12bdd28c346208539e1cb372a2bc260aca8ed03a3d79b9336ca0
+tags:
+  0.4.3--pyhdfd78af_0: sha256:4865515478ee12bdd28c346208539e1cb372a2bc260aca8ed03a3d79b9336ca0
+docker: quay.io/biocontainers/flextaxd
+aliases:
+  flextaxd: /usr/local/bin/flextaxd
+  flextaxd-create: /usr/local/bin/flextaxd-create

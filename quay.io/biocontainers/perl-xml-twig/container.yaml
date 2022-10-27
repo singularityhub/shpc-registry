@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-twig
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-twig
+latest:
+  3.52--pl526_2: sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb
+tags:
+  3.52--pl526_2: sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb
+docker: quay.io/biocontainers/perl-xml-twig

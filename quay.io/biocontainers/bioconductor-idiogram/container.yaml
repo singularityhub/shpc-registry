@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-idiogram
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-idiogram
+latest:
+  1.70.0--r41hdfd78af_0: sha256:318c07f4e2551224b9c54646a45c61680a2cdf15480efdc59e4f7134e7d66a16
+tags:
+  1.70.0--r41hdfd78af_0: sha256:318c07f4e2551224b9c54646a45c61680a2cdf15480efdc59e4f7134e7d66a16
+docker: quay.io/biocontainers/bioconductor-idiogram

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-beadarrayusecases
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-beadarrayusecases
+latest:
+  1.32.0--r41hdfd78af_1: sha256:8f00c7527366e6417cf9d932b6a03cc9bc920106416320d2358bf824cce9aead
+tags:
+  1.32.0--r41hdfd78af_1: sha256:8f00c7527366e6417cf9d932b6a03cc9bc920106416320d2358bf824cce9aead
+docker: quay.io/biocontainers/bioconductor-beadarrayusecases
+aliases:
+  .bioconductor-beadarrayusecases-post-link.sh: /usr/local/bin/.bioconductor-beadarrayusecases-post-link.sh
+  .bioconductor-beadarrayusecases-pre-unlink.sh: /usr/local/bin/.bioconductor-beadarrayusecases-pre-unlink.sh

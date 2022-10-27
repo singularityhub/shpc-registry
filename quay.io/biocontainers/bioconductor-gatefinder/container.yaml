@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-gatefinder
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gatefinder
+latest:
+  1.8.0--r40_0: sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777
+tags:
+  1.8.0--r40_0: sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777
+docker: quay.io/biocontainers/bioconductor-gatefinder

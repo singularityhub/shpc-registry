@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-seamless
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-seamless
+latest:
+  0.1.0--r41h3121a25_1: sha256:3b80315470029dee11b16c3171bff233ad9825e3aa03b193aea016fdefbce1ae
+tags:
+  0.1.0--r41h3121a25_1: sha256:3b80315470029dee11b16c3171bff233ad9825e3aa03b193aea016fdefbce1ae
+docker: quay.io/biocontainers/r-seamless

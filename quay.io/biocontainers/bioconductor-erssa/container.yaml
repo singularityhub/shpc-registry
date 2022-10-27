@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-erssa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-erssa
+latest:
+  1.8.0--r40hdfd78af_1: sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c
+tags:
+  1.8.0--r40hdfd78af_1: sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c
+docker: quay.io/biocontainers/bioconductor-erssa

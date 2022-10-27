@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nucamino
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nucamino
+latest:
+  0.1.3--h9ee0642_2: sha256:daa0f35e8474307c5353cbd4b4c976b075150f0c1c0a5d8cf9544d8c3f3ce246
+tags:
+  0.1.3--h9ee0642_2: sha256:daa0f35e8474307c5353cbd4b4c976b075150f0c1c0a5d8cf9544d8c3f3ce246
+docker: quay.io/biocontainers/nucamino
+aliases:
+  nucamino: /usr/local/bin/nucamino

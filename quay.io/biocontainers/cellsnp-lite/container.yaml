@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cellsnp-lite
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cellsnp-lite
+latest:
+  1.2.2--hb0d9459_3: sha256:9ad1b80f44fc8394cac6fbecaa0780d43a28fe329833785b495d1133d2736f73
+tags:
+  1.2.2--hb0d9459_3: sha256:9ad1b80f44fc8394cac6fbecaa0780d43a28fe329833785b495d1133d2736f73
+docker: quay.io/biocontainers/cellsnp-lite
+aliases:
+  cellsnp-lite: /usr/local/bin/cellsnp-lite

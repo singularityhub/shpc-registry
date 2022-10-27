@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-desubs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-desubs
+latest:
+  1.8.1--r351_1: sha256:21ea4c0cc09f7b33b149d2ff2627a63513a7618c6b75ac74ddb4be29337c8d4d
+tags:
+  1.8.1--r351_1: sha256:21ea4c0cc09f7b33b149d2ff2627a63513a7618c6b75ac74ddb4be29337c8d4d
+docker: quay.io/biocontainers/bioconductor-desubs

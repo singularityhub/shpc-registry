@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-humantranscriptomecompendium
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-humantranscriptomecompendium
+latest:
+  1.8.0--r41hdfd78af_0: sha256:a910dfb4b51ae42c2dd932cffae1edf08fcba38964b96d5e58ace19d6351c8d6
+tags:
+  1.8.0--r41hdfd78af_0: sha256:a910dfb4b51ae42c2dd932cffae1edf08fcba38964b96d5e58ace19d6351c8d6
+docker: quay.io/biocontainers/bioconductor-humantranscriptomecompendium

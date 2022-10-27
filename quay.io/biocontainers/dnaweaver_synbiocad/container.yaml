@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/dnaweaver_synbiocad
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dnaweaver_synbiocad
+latest:
+  1.0.2--pyhdfd78af_0: sha256:24c6e54a301fc0b9b1beec429b1b7e98e539c82c43dcc2d23949146340a98f62
+tags:
+  1.0.2--pyhdfd78af_0: sha256:24c6e54a301fc0b9b1beec429b1b7e98e539c82c43dcc2d23949146340a98f62
+docker: quay.io/biocontainers/dnaweaver_synbiocad
+aliases:
+  dnachisel: /usr/local/bin/dnachisel
+  weasyprint: /usr/local/bin/weasyprint

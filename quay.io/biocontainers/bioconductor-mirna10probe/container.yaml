@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mirna10probe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirna10probe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:f1ae66478cf6313fd4570f556ca99ab5f773c433a068fc88428671e2546bbbc0
+tags:
+  2.18.0--r41hdfd78af_9: sha256:f1ae66478cf6313fd4570f556ca99ab5f773c433a068fc88428671e2546bbbc0
+docker: quay.io/biocontainers/bioconductor-mirna10probe
+aliases:
+  .bioconductor-mirna10probe-post-link.sh: /usr/local/bin/.bioconductor-mirna10probe-post-link.sh
+  .bioconductor-mirna10probe-pre-unlink.sh: /usr/local/bin/.bioconductor-mirna10probe-pre-unlink.sh

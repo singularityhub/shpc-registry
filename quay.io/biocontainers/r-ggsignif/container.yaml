@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ggsignif
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ggsignif
+latest:
+  0.4.0--r3.4.1_0: sha256:adbe6be11be5ab459a0334e5ffdf1e20ba7f27caddf43825b80f01762ac24dbd
+tags:
+  0.4.0--r3.4.1_0: sha256:adbe6be11be5ab459a0334e5ffdf1e20ba7f27caddf43825b80f01762ac24dbd
+docker: quay.io/biocontainers/r-ggsignif

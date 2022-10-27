@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pbkdf2-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pbkdf2-tiny
+latest:
+  0.005--pl5321hdfd78af_2: sha256:b06425ed8af526f9dc5265b69ad5337c41ebfb1f53377386f1ebae38f5e32959
+tags:
+  0.005--pl5321hdfd78af_2: sha256:b06425ed8af526f9dc5265b69ad5337c41ebfb1f53377386f1ebae38f5e32959
+docker: quay.io/biocontainers/perl-pbkdf2-tiny

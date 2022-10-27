@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/galaxy-upload
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for galaxy-upload
+latest:
+  1.0.0--pyhdfd78af_0: sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2
+tags:
+  1.0.0--pyhdfd78af_0: sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2
+docker: quay.io/biocontainers/galaxy-upload
+aliases:
+  galaxy-history-search: /usr/local/bin/galaxy-history-search
+  galaxy-upload: /usr/local/bin/galaxy-upload

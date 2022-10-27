@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-triplex
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-triplex
+latest:
+  1.34.0--r41hc0cfd56_2: sha256:4707a4abd583efb9de5100cec5b617208e82d7695d5ddba7cd1d5ae146a5d067
+tags:
+  1.34.0--r41hc0cfd56_2: sha256:4707a4abd583efb9de5100cec5b617208e82d7695d5ddba7cd1d5ae146a5d067
+docker: quay.io/biocontainers/bioconductor-triplex

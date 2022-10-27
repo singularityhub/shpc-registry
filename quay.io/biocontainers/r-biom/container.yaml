@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-biom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-biom
+latest:
+  0.3.12--r3.2.2_0: sha256:30dfb9c241562990e0bece6ed3b11323b576865991dd492dc95eaccab1292755
+tags:
+  0.3.12--r3.2.2_0: sha256:30dfb9c241562990e0bece6ed3b11323b576865991dd492dc95eaccab1292755
+docker: quay.io/biocontainers/r-biom

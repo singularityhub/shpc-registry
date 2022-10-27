@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-targetdecoy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-targetdecoy
+latest:
+  1.0.0--r41hdfd78af_0: sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4
+tags:
+  1.0.0--r41hdfd78af_0: sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4
+docker: quay.io/biocontainers/bioconductor-targetdecoy

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-raex10sttranscriptcluster.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-raex10sttranscriptcluster.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:58a7efdd0233247b1f52f5caea33b4d8b1a0f35382f12057fa75f55d44ec2a07
+tags:
+  8.8.0--r41hdfd78af_1: sha256:58a7efdd0233247b1f52f5caea33b4d8b1a0f35382f12057fa75f55d44ec2a07
+docker: quay.io/biocontainers/bioconductor-raex10sttranscriptcluster.db
+aliases:
+  .bioconductor-raex10sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-raex10sttranscriptcluster.db-post-link.sh
+  .bioconductor-raex10sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-raex10sttranscriptcluster.db-pre-unlink.sh

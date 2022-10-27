@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/jq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for jq
+latest:
+  1.5--4: sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe
+tags:
+  1.5--4: sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe
+docker: quay.io/biocontainers/jq
+aliases:
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/dehomopolymerate
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dehomopolymerate
+latest:
+  0.4.0--h7132678_2: sha256:d2a18c0fb9f6891121952ac40ff09eb8f098b18fb79a51264911467442c8731a
+tags:
+  0.4.0--h7132678_2: sha256:d2a18c0fb9f6891121952ac40ff09eb8f098b18fb79a51264911467442c8731a
+docker: quay.io/biocontainers/dehomopolymerate
+aliases:
+  dehomopolymerate: /usr/local/bin/dehomopolymerate

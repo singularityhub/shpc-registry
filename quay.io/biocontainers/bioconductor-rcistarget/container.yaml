@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcistarget
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcistarget
+latest:
+  1.8.0--r40_0: sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f
+tags:
+  1.8.0--r40_0: sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f
+docker: quay.io/biocontainers/bioconductor-rcistarget

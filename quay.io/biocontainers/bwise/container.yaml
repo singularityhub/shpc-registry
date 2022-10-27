@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bwise
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bwise
+latest:
+  1.0.0--h5b5514e_2: sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311
+tags:
+  1.0.0--h5b5514e_2: sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311
+docker: quay.io/biocontainers/bwise
+aliases:
+  bcalm: /usr/local/bin/bcalm
+  bgreat: /usr/local/bin/bgreat
+  btrim: /usr/local/bin/btrim
+  bwise: /usr/local/bin/bwise

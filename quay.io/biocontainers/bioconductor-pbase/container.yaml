@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pbase
+latest:
+  0.26.0--r36he1b5a44_0: sha256:1f7d12aea9287f438b9d2250517712aadc4c8394465f89913faa434a862a3854
+tags:
+  0.26.0--r36he1b5a44_0: sha256:1f7d12aea9287f438b9d2250517712aadc4c8394465f89913faa434a862a3854
+docker: quay.io/biocontainers/bioconductor-pbase

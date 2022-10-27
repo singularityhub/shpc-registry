@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/varscan
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for varscan
+latest:
+  2.4.4--hdfd78af_1: sha256:36ec549e913e531d0233702160e8fdc46236ff3e2df61e95cad5a7ca58f69796
+tags:
+  2.4.4--hdfd78af_1: sha256:36ec549e913e531d0233702160e8fdc46236ff3e2df61e95cad5a7ca58f69796
+docker: quay.io/biocontainers/varscan
+aliases:
+  varscan: /usr/local/bin/varscan

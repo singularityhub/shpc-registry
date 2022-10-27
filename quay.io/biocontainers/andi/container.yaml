@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/andi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for andi
+latest:
+  0.13--hcde4609_3: sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428
+tags:
+  0.13--hcde4609_3: sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428
+docker: quay.io/biocontainers/andi
+aliases:
+  andi: /usr/local/bin/andi

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stoatydive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stoatydive
+latest:
+  1.1.1--pyh5e36f6f_0: sha256:2e6a174b1d40c76d91b16beb617b5d854711d1b9b7dc88f2ec9f47dfaa8298e6
+tags:
+  1.1.1--pyh5e36f6f_0: sha256:2e6a174b1d40c76d91b16beb617b5d854711d1b9b7dc88f2ec9f47dfaa8298e6
+docker: quay.io/biocontainers/stoatydive
+aliases:
+  StoatyDive.py: /usr/local/bin/StoatyDive.py

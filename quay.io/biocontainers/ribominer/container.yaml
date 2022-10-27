@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/ribominer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ribominer
+latest:
+  0.2.3.2--pyh5e36f6f_0: sha256:d65f86c1e331bc90c9e07987fd0087230795fa54625a0be9e2a1c35a46391fe2
+tags:
+  0.2.3.2--pyh5e36f6f_0: sha256:d65f86c1e331bc90c9e07987fd0087230795fa54625a0be9e2a1c35a46391fe2
+docker: quay.io/biocontainers/ribominer
+aliases:
+  CoverageOfEachTrans: /usr/local/bin/CoverageOfEachTrans
+  EnrichmentAnalysis: /usr/local/bin/EnrichmentAnalysis
+  EnrichmentAnalysisForSingleTrans: /usr/local/bin/EnrichmentAnalysisForSingleTrans
+  ExtractSequenceCenteredOnAPosition: /usr/local/bin/ExtractSequenceCenteredOnAPosition
+  GCContent: /usr/local/bin/GCContent
+  GTFupdate: /usr/local/bin/GTFupdate
+  GetProteinCodingSequence: /usr/local/bin/GetProteinCodingSequence
+  GetUTRSequences: /usr/local/bin/GetUTRSequences
+  LengthDistribution: /usr/local/bin/LengthDistribution
+  MergeSampleDensitys: /usr/local/bin/MergeSampleDensitys
+  MetageneAnalysis: /usr/local/bin/MetageneAnalysis
+  MetageneAnalysisForTheWholeRegions: /usr/local/bin/MetageneAnalysisForTheWholeRegions
+  ModifyHTseq: /usr/local/bin/ModifyHTseq
+  ORFcount: /usr/local/bin/ORFcount
+  OutputTranscriptInfo: /usr/local/bin/OutputTranscriptInfo
+  PausingScore: /usr/local/bin/PausingScore
+  Periodicity: /usr/local/bin/Periodicity
+  PlotEnrichmentRatio: /usr/local/bin/PlotEnrichmentRatio
+  PlotGCContent: /usr/local/bin/PlotGCContent
+  PlotHydropathyCharge: /usr/local/bin/PlotHydropathyCharge
+  PlotMetageneAnalysis: /usr/local/bin/PlotMetageneAnalysis
+  PlotMetageneAnalysisForTheWholeRegions: /usr/local/bin/PlotMetageneAnalysisForTheWholeRegions
+  PlotPolarity: /usr/local/bin/PlotPolarity
+  PlotRiboDensityAroundTriAAMotifs: /usr/local/bin/PlotRiboDensityAroundTriAAMotifs
+  PlotRiboDensityAtEachKindAAOrCodon: /usr/local/bin/PlotRiboDensityAtEachKindAAOrCodon
+  PlotTransCoverage: /usr/local/bin/PlotTransCoverage
+  PolarityCalculation: /usr/local/bin/PolarityCalculation
+  ProcessPausingScore: /usr/local/bin/ProcessPausingScore
+  RPFdist: /usr/local/bin/RPFdist
+  ReadsLengthOfSpecificRegions: /usr/local/bin/ReadsLengthOfSpecificRegions
+  RiboCode: /usr/local/bin/RiboCode
+  RiboCode_onestep: /usr/local/bin/RiboCode_onestep
+  RiboDensityAroundTripleteAAMotifs: /usr/local/bin/RiboDensityAroundTripleteAAMotifs
+  RiboDensityAtEachKindAAOrCodon: /usr/local/bin/RiboDensityAtEachKindAAOrCodon
+  RiboDensityAtEachPosition: /usr/local/bin/RiboDensityAtEachPosition
+  RiboDensityForSpecificRegion: /usr/local/bin/RiboDensityForSpecificRegion
+  RiboDensityOfDiffFrames: /usr/local/bin/RiboDensityOfDiffFrames
+  StatisticReadsOnDNAsContam: /usr/local/bin/StatisticReadsOnDNAsContam
+  cAI: /usr/local/bin/cAI
+  cAIPlot: /usr/local/bin/cAIPlot
+  enrichmentMeanDensity: /usr/local/bin/enrichmentMeanDensity
+  hydropathyCharge: /usr/local/bin/hydropathyCharge
+  metaplots: /usr/local/bin/metaplots
+  plot_orf_density: /usr/local/bin/plot_orf_density
+  prepare_transcripts: /usr/local/bin/prepare_transcripts
+  pyfasta: /usr/local/bin/pyfasta
+  pysamstats: /usr/local/bin/pysamstats
+  tAI: /usr/local/bin/tAI
+  tAIPlot: /usr/local/bin/tAIPlot

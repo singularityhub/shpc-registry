@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/deploid
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for deploid
+latest:
+  v0.5--h1341992_1: sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439
+tags:
+  v0.5--h1341992_1: sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439
+docker: quay.io/biocontainers/deploid
+aliases:
+  dEploid: /usr/local/bin/dEploid
+  dEploid_dbg: /usr/local/bin/dEploid_dbg

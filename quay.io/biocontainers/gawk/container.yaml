@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gawk
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gawk
+latest:
+  5.1.0: sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa
+tags:
+  5.1.0: sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa
+docker: quay.io/biocontainers/gawk

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cellscape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cellscape
+latest:
+  1.8.0--r36_1: sha256:b629ef9c8b5b054ce6d836beb78f0b28ceeabbdec66956e9d457ad540fc1bd92
+tags:
+  1.8.0--r36_1: sha256:b629ef9c8b5b054ce6d836beb78f0b28ceeabbdec66956e9d457ad540fc1bd92
+docker: quay.io/biocontainers/bioconductor-cellscape

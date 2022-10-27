@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rhdf5lib
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rhdf5lib
+latest:
+  1.8.0--r36h516909a_0: sha256:3f58b7631c8ec182f001a272e64d0ba8c10bd437bf68fc3c540fad2b92ce5431
+tags:
+  1.8.0--r36h516909a_0: sha256:3f58b7631c8ec182f001a272e64d0ba8c10bd437bf68fc3c540fad2b92ce5431
+docker: quay.io/biocontainers/bioconductor-rhdf5lib

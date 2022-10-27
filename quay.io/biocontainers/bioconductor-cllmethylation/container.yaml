@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-cllmethylation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cllmethylation
+latest:
+  1.8.0--r40_0: sha256:46bd2a01d2ebe2ccefecf50adf4d5ef1788ac3da5d2205b21519fe4aca2e21dc
+tags:
+  1.8.0--r40_0: sha256:46bd2a01d2ebe2ccefecf50adf4d5ef1788ac3da5d2205b21519fe4aca2e21dc
+docker: quay.io/biocontainers/bioconductor-cllmethylation
+aliases:
+  .bioconductor-cllmethylation-post-link.sh: /usr/local/bin/.bioconductor-cllmethylation-post-link.sh
+  .bioconductor-cllmethylation-pre-unlink.sh: /usr/local/bin/.bioconductor-cllmethylation-pre-unlink.sh

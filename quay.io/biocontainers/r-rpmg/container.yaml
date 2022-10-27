@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rpmg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rpmg
+latest:
+  2.2_1--r3.2.2_0: sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71
+tags:
+  2.2_1--r3.2.2_0: sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71
+docker: quay.io/biocontainers/r-rpmg

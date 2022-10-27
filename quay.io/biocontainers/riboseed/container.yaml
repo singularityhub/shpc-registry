@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/riboseed
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for riboseed
+latest:
+  0.4.90--py_0: sha256:fa2228d3f952cb968f6a09de4ce144055037b9cbf4834bce17861eadcaa045ec
+tags:
+  0.4.90--py_0: sha256:fa2228d3f952cb968f6a09de4ce144055037b9cbf4834bce17861eadcaa045ec
+docker: quay.io/biocontainers/riboseed
+aliases:
+  bwa-spades: /usr/local/bin/bwa-spades
+  corrector: /usr/local/bin/corrector
+  dipspades: /usr/local/bin/dipspades
+  dipspades.py: /usr/local/bin/dipspades.py
+  hammer: /usr/local/bin/hammer
+  ionhammer: /usr/local/bin/ionhammer
+  ribo: /usr/local/bin/ribo
+  scaffold_correction: /usr/local/bin/scaffold_correction
+  seedRand.py: /usr/local/bin/seedRand.py
+  spades: /usr/local/bin/spades

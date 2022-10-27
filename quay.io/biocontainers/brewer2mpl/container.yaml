@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/brewer2mpl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for brewer2mpl
+latest:
+  1.4.1--py35_0: sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d
+tags:
+  1.4.1--py35_0: sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d
+docker: quay.io/biocontainers/brewer2mpl

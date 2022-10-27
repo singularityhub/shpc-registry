@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-enmix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-enmix
+latest:
+  1.30.0--r41hdfd78af_0: sha256:a4a353f88686e3347a2a3c215a15c8ab7d1f404798e8acb437157dd247d7d61f
+tags:
+  1.30.0--r41hdfd78af_0: sha256:a4a353f88686e3347a2a3c215a15c8ab7d1f404798e8acb437157dd247d7d61f
+docker: quay.io/biocontainers/bioconductor-enmix

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/extract-codon-alignment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for extract-codon-alignment
+latest:
+  0.0.1--py_0: sha256:b7c2568a3db0e603987d01f0b5d1e1bb2474cbb409767d9cca51963bc5caa3cc
+tags:
+  0.0.1--py_0: sha256:b7c2568a3db0e603987d01f0b5d1e1bb2474cbb409767d9cca51963bc5caa3cc
+docker: quay.io/biocontainers/extract-codon-alignment
+aliases:
+  extract_codon_alignment: /usr/local/bin/extract_codon_alignment

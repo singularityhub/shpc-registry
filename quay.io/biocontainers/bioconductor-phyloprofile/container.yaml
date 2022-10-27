@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phyloprofile
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phyloprofile
+latest:
+  1.8.0--r41hdfd78af_0: sha256:ab3db1e4722d975de4a85b301e2601aa5584dd0579efc1cdacc443d6feb7f4c0
+tags:
+  1.8.0--r41hdfd78af_0: sha256:ab3db1e4722d975de4a85b301e2601aa5584dd0579efc1cdacc443d6feb7f4c0
+docker: quay.io/biocontainers/bioconductor-phyloprofile

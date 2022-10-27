@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gmodels
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gmodels
+latest:
+  2.16.2--r3.3.2_0: sha256:5f3ac90632e865d4e98fce57ee21af152dcbbee8d27eca0d57beb1cd9226e25f
+tags:
+  2.16.2--r3.3.2_0: sha256:5f3ac90632e865d4e98fce57ee21af152dcbbee8d27eca0d57beb1cd9226e25f
+docker: quay.io/biocontainers/r-gmodels

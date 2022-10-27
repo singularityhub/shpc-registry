@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-coexnet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-coexnet
+latest:
+  1.9.0--r40_0: sha256:b8af8d50b7595802ef99d604cc6cf386291a0187ed61f9e45b26748af81cc1c7
+tags:
+  1.9.0--r40_0: sha256:b8af8d50b7595802ef99d604cc6cf386291a0187ed61f9e45b26748af81cc1c7
+docker: quay.io/biocontainers/bioconductor-coexnet

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ledpred
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ledpred
+latest:
+  1.28.0--r41hdfd78af_0: sha256:e281bd5747c43cad35127502852d92e6f1ba9ad9423cc0ccd912c71bd95749c0
+tags:
+  1.28.0--r41hdfd78af_0: sha256:e281bd5747c43cad35127502852d92e6f1ba9ad9423cc0ccd912c71bd95749c0
+docker: quay.io/biocontainers/bioconductor-ledpred

@@ -1,0 +1,54 @@
+url: https://biocontainers.pro/tools/mgltools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mgltools
+latest:
+  1.5.7--h9ee0642_1: sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
+tags:
+  1.5.7--h9ee0642_1: sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105
+docker: quay.io/biocontainers/mgltools
+aliases:
+  adt: /usr/local/bin/adt
+  archosv: /usr/local/bin/archosv
+  babel: /usr/local/bin/babel
+  evol: /usr/local/bin/evol
+  ipcluster: /usr/local/bin/ipcluster
+  ipcluster2: /usr/local/bin/ipcluster2
+  ipcontroller: /usr/local/bin/ipcontroller
+  ipcontroller2: /usr/local/bin/ipcontroller2
+  ipengine: /usr/local/bin/ipengine
+  ipengine2: /usr/local/bin/ipengine2
+  mglbabel: /usr/local/bin/mglbabel
+  mglenv.csh: /usr/local/bin/mglenv.csh
+  mglenv.sh: /usr/local/bin/mglenv.sh
+  mglobabel: /usr/local/bin/mglobabel
+  mglobchiral: /usr/local/bin/mglobchiral
+  mglobconformer: /usr/local/bin/mglobconformer
+  mglobenergy: /usr/local/bin/mglobenergy
+  mglobfit: /usr/local/bin/mglobfit
+  mglobgen: /usr/local/bin/mglobgen
+  mglobgrep: /usr/local/bin/mglobgrep
+  mglobminimize: /usr/local/bin/mglobminimize
+  mglobprobe: /usr/local/bin/mglobprobe
+  mglobprop: /usr/local/bin/mglobprop
+  mglobrms: /usr/local/bin/mglobrms
+  mglobrotamer: /usr/local/bin/mglobrotamer
+  mglobrotate: /usr/local/bin/mglobrotate
+  mglobspectrophore: /usr/local/bin/mglobspectrophore
+  mglroundtrip: /usr/local/bin/mglroundtrip
+  obchiral: /usr/local/bin/obchiral
+  pip2: /usr/local/bin/pip2
+  pip2.7: /usr/local/bin/pip2.7
+  pmv: /usr/local/bin/pmv
+  prepare_ligand4.py: /usr/local/bin/prepare_ligand4.py
+  prepare_receptor4.py: /usr/local/bin/prepare_receptor4.py
+  prody: /usr/local/bin/prody
+  pythonsh: /usr/local/bin/pythonsh
+  raccoon: /usr/local/bin/raccoon
+  radical-utils-fix-headers.pl: /usr/local/bin/radical-utils-fix-headers.pl
+  radical-utils-mongodb.py: /usr/local/bin/radical-utils-mongodb.py
+  radical-utils-pylint.sh: /usr/local/bin/radical-utils-pylint.sh
+  radical-utils-version: /usr/local/bin/radical-utils-version
+  runAdt: /usr/local/bin/runAdt
+  sagapython-version: /usr/local/bin/sagapython-version
+  tester: /usr/local/bin/tester
+  vision: /usr/local/bin/vision

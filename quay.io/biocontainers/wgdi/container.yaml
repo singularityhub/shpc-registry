@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/wgdi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wgdi
+latest:
+  0.6.1--pyhdfd78af_0: sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf
+tags:
+  0.6.1--pyhdfd78af_0: sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf
+docker: quay.io/biocontainers/wgdi
+aliases:
+  divvier: /usr/local/bin/divvier
+  iqtree2: /usr/local/bin/iqtree2
+  pal2nal.pl: /usr/local/bin/pal2nal.pl
+  wgdi: /usr/local/bin/wgdi

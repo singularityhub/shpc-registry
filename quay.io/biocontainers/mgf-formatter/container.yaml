@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mgf-formatter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mgf-formatter
+latest:
+  1.0.0--hdfd78af_3: sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34
+tags:
+  1.0.0--hdfd78af_3: sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34
+docker: quay.io/biocontainers/mgf-formatter
+aliases:
+  mgf-formatter: /usr/local/bin/mgf-formatter

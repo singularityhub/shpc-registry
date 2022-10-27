@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tclap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tclap
+latest:
+  1.2.1--h470a237_1: sha256:a70df844302ac4c91f90cedd6bd0f3115a021705dbebf744b888b4144f837dea
+tags:
+  1.2.1--h470a237_1: sha256:a70df844302ac4c91f90cedd6bd0f3115a021705dbebf744b888b4144f837dea
+docker: quay.io/biocontainers/tclap

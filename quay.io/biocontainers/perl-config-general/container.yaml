@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-config-general
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-config-general
+latest:
+  2.65--pl5321hdfd78af_0: sha256:0b8a6b447affccc92bb34cebb3c22e62d35bbb97dc54740b115d8a8e31df0d17
+tags:
+  2.65--pl5321hdfd78af_0: sha256:0b8a6b447affccc92bb34cebb3c22e62d35bbb97dc54740b115d8a8e31df0d17
+docker: quay.io/biocontainers/perl-config-general

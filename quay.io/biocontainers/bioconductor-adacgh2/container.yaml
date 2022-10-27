@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-adacgh2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-adacgh2
+latest:
+  2.34.0--r41hc0cfd56_2: sha256:367178eca470c1bcafbb75d7b03d7c22f2a5b8c07bb460aaa331c810af0891b3
+tags:
+  2.34.0--r41hc0cfd56_2: sha256:367178eca470c1bcafbb75d7b03d7c22f2a5b8c07bb460aaa331c810af0891b3
+docker: quay.io/biocontainers/bioconductor-adacgh2

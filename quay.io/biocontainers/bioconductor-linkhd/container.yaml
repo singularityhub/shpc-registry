@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-linkhd
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-linkhd
+latest:
+  1.8.0--r41hdfd78af_0: sha256:eaf0cd0ebf812345bda474b880cdaba019462b8455c86b0a61ffdfe712ab105a
+tags:
+  1.8.0--r41hdfd78af_0: sha256:eaf0cd0ebf812345bda474b880cdaba019462b8455c86b0a61ffdfe712ab105a
+docker: quay.io/biocontainers/bioconductor-linkhd

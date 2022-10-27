@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/yaha
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for yaha
+latest:
+  0.1.83--h87f3376_4: sha256:49e7f5b262016a0a9c40883a520cfc49060ba5309228600fa99716088edeedd4
+tags:
+  0.1.83--h87f3376_4: sha256:49e7f5b262016a0a9c40883a520cfc49060ba5309228600fa99716088edeedd4
+docker: quay.io/biocontainers/yaha
+aliases:
+  yaha: /usr/local/bin/yaha

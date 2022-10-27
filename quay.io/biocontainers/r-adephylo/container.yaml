@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-adephylo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-adephylo
+latest:
+  1.1_11--r351h96ca727_3: sha256:e4f3954a792ce0cf17909a1818dd443f95c0b519377eb80b4ab1aed01a63e7ea
+tags:
+  1.1_11--r351h96ca727_3: sha256:e4f3954a792ce0cf17909a1818dd443f95c0b519377eb80b4ab1aed01a63e7ea
+docker: quay.io/biocontainers/r-adephylo

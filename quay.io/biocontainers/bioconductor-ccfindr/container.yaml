@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ccfindr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ccfindr
+latest:
+  1.8.0--r40h5f743cb_0: sha256:d073f895818d84225ac8b44392d728ebc910d066a9baf22d57f5faef239a8035
+tags:
+  1.8.0--r40h5f743cb_0: sha256:d073f895818d84225ac8b44392d728ebc910d066a9baf22d57f5faef239a8035
+docker: quay.io/biocontainers/bioconductor-ccfindr

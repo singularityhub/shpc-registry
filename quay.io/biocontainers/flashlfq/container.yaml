@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/flashlfq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flashlfq
+latest:
+  1.2.4--hdfd78af_0: sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714
+tags:
+  1.2.4--hdfd78af_0: sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714
+docker: quay.io/biocontainers/flashlfq
+aliases:
+  FlashLFQ: /usr/local/bin/FlashLFQ

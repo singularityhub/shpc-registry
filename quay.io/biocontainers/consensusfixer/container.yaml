@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/consensusfixer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for consensusfixer
+latest:
+  0.4--hdfd78af_3: sha256:5af29c71683ccbbca191e08b50e49450be5716f2820a32adc052f72f0c1a044e
+tags:
+  0.4--hdfd78af_3: sha256:5af29c71683ccbbca191e08b50e49450be5716f2820a32adc052f72f0c1a044e
+docker: quay.io/biocontainers/consensusfixer
+aliases:
+  ConsensusFixer: /usr/local/bin/ConsensusFixer

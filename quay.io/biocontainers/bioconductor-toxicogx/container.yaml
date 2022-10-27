@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-toxicogx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-toxicogx
+latest:
+  1.4.0--r41hdfd78af_0: sha256:5f6559c9440b94724333799267a664af69dec234ac8db4535d67db427c958f40
+tags:
+  1.4.0--r41hdfd78af_0: sha256:5f6559c9440b94724333799267a664af69dec234ac8db4535d67db427c958f40
+docker: quay.io/biocontainers/bioconductor-toxicogx

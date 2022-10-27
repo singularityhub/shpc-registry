@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/irida-sistr-results
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for irida-sistr-results
+latest:
+  0.6.0--py_1: sha256:1a4ab2f36aa3b449803acca2d50aea9040b15332fc987b4197ef22faaca6fa20
+tags:
+  0.6.0--py_1: sha256:1a4ab2f36aa3b449803acca2d50aea9040b15332fc987b4197ef22faaca6fa20
+docker: quay.io/biocontainers/irida-sistr-results
+aliases:
+  irida-sistr-results: /usr/local/bin/irida-sistr-results

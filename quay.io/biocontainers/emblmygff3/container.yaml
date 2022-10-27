@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/emblmygff3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emblmygff3
+latest:
+  2.1--py_0: sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020
+tags:
+  2.1--py_0: sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020
+docker: quay.io/biocontainers/emblmygff3
+aliases:
+  EMBLmyGFF3: /usr/local/bin/EMBLmyGFF3
+  EMBLmyGFF3-augustus-example: /usr/local/bin/EMBLmyGFF3-augustus-example
+  EMBLmyGFF3-maker-example: /usr/local/bin/EMBLmyGFF3-maker-example
+  EMBLmyGFF3-prokka-example: /usr/local/bin/EMBLmyGFF3-prokka-example

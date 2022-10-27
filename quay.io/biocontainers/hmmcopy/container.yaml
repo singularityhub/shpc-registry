@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/hmmcopy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hmmcopy
+latest:
+  0.1.1--h5b5514e_8: sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a
+tags:
+  0.1.1--h5b5514e_8: sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a
+docker: quay.io/biocontainers/hmmcopy
+aliases:
+  bigWigInfo: /usr/local/bin/bigWigInfo
+  bigWigSummary: /usr/local/bin/bigWigSummary
+  bigWigToWig: /usr/local/bin/bigWigToWig
+  fastaToRead: /usr/local/bin/fastaToRead
+  gcCounter: /usr/local/bin/gcCounter
+  generateMap.pl: /usr/local/bin/generateMap.pl
+  mapCounter: /usr/local/bin/mapCounter
+  readCounter: /usr/local/bin/readCounter
+  readToMap.pl: /usr/local/bin/readToMap.pl
+  renameChr.pl: /usr/local/bin/renameChr.pl
+  segToGc: /usr/local/bin/segToGc
+  segToMap: /usr/local/bin/segToMap

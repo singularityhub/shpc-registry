@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/renet2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for renet2
+latest:
+  1.2--py_0: sha256:17278bcdf513dfad2523d58233f66ea3cd9b3df7563444aaaf4321c4ca0926c5
+tags:
+  1.2--py_0: sha256:17278bcdf513dfad2523d58233f66ea3cd9b3df7563444aaaf4321c4ca0926c5
+docker: quay.io/biocontainers/renet2
+aliases:
+  renet2: /usr/local/bin/renet2

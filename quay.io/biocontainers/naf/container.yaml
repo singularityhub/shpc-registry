@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/naf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for naf
+latest:
+  1.3.0--hec16e2b_2: sha256:80fc33cd777cd2d54eea4e5fcf5742603c35b5b1443418b7e751e45b543ac436
+tags:
+  1.3.0--hec16e2b_2: sha256:80fc33cd777cd2d54eea4e5fcf5742603c35b5b1443418b7e751e45b543ac436
+docker: quay.io/biocontainers/naf
+aliases:
+  ennaf: /usr/local/bin/ennaf
+  unnaf: /usr/local/bin/unnaf

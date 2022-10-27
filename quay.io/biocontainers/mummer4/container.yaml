@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mummer4
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mummer4
+latest:
+  4.0.0rc1--pl5321h87f3376_3: sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1
+tags:
+  4.0.0rc1--pl5321h87f3376_3: sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1
+docker: quay.io/biocontainers/mummer4

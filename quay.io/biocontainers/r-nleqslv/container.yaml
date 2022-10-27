@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nleqslv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nleqslv
+latest:
+  3.2--r3.3.1_0: sha256:740be1a0dc7d3d37ac07e0cf9eb2aa127cfb99c7638c0105eafe6330e6d0b578
+tags:
+  3.2--r3.3.1_0: sha256:740be1a0dc7d3d37ac07e0cf9eb2aa127cfb99c7638c0105eafe6330e6d0b578
+docker: quay.io/biocontainers/r-nleqslv

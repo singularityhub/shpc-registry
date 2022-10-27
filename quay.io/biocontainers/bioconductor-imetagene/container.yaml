@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-imetagene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-imetagene
+latest:
+  1.18.0--r40_0: sha256:7281ec0f3b20e10c6932bd3701f6f5dfb998d554a96e5f626781eef2e8405c64
+tags:
+  1.18.0--r40_0: sha256:7281ec0f3b20e10c6932bd3701f6f5dfb998d554a96e5f626781eef2e8405c64
+docker: quay.io/biocontainers/bioconductor-imetagene
+aliases:
+  .bioconductor-ensdb.hsapiens.v86-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
+  .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh

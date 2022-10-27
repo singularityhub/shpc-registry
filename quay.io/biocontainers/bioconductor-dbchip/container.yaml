@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-dbchip
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dbchip
+latest:
+  1.32.0--r40_0: sha256:14c080cf2d760ab686c1fd6f4f2104b958a8f81da9fe190fb65f35f015645921
+tags:
+  1.32.0--r40_0: sha256:14c080cf2d760ab686c1fd6f4f2104b958a8f81da9fe190fb65f35f015645921
+docker: quay.io/biocontainers/bioconductor-dbchip

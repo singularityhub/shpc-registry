@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/metapop
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metapop
+latest:
+  1.0.2--hdfd78af_1: sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c
+tags:
+  1.0.2--hdfd78af_1: sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c
+docker: quay.io/biocontainers/metapop
+aliases:
+  MetaPop.R: /usr/local/bin/MetaPop.R
+  MetaPop_Call_SNPs.R: /usr/local/bin/MetaPop_Call_SNPs.R
+  MetaPop_Codon_Bias_Separate.R: /usr/local/bin/MetaPop_Codon_Bias_Separate.R
+  MetaPop_Codon_Bias_Viz.R: /usr/local/bin/MetaPop_Codon_Bias_Viz.R
+  MetaPop_Macrodiversity.R: /usr/local/bin/MetaPop_Macrodiversity.R
+  MetaPop_Microdiversity.R: /usr/local/bin/MetaPop_Microdiversity.R
+  MetaPop_Microdiversity_Visualizations.R: /usr/local/bin/MetaPop_Microdiversity_Visualizations.R
+  MetaPop_Mine_Reads.R: /usr/local/bin/MetaPop_Mine_Reads.R
+  MetaPop_Preprocess.R: /usr/local/bin/MetaPop_Preprocess.R
+  MetaPop_Preprocessing_Summaries.R: /usr/local/bin/MetaPop_Preprocessing_Summaries.R

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-multitaper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-multitaper
+latest:
+  1.0.11--r3.3.2_0: sha256:f2ea1bf676b4cf6a7bf23d3c6a8a9bd353e9de7b62f7a5156d3ddbdb923ca945
+tags:
+  1.0.11--r3.3.2_0: sha256:f2ea1bf676b4cf6a7bf23d3c6a8a9bd353e9de7b62f7a5156d3ddbdb923ca945
+docker: quay.io/biocontainers/r-multitaper

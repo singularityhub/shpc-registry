@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-massir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-massir
+latest:
+  1.30.0--r41hdfd78af_0: sha256:d132c1f741d7ba3da557af179447c4f8c48630e9a70b59a9873784ec351e66e0
+tags:
+  1.30.0--r41hdfd78af_0: sha256:d132c1f741d7ba3da557af179447c4f8c48630e9a70b59a9873784ec351e66e0
+docker: quay.io/biocontainers/bioconductor-massir

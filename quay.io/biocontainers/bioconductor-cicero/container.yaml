@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cicero
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cicero
+latest:
+  1.8.1--r40hdfd78af_0: sha256:ce70a9b8950cb4754ad7cd583e303697b421695de5e4aca8d0cccbdc1d288875
+tags:
+  1.8.1--r40hdfd78af_0: sha256:ce70a9b8950cb4754ad7cd583e303697b421695de5e4aca8d0cccbdc1d288875
+docker: quay.io/biocontainers/bioconductor-cicero

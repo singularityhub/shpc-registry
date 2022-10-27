@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/encode-blacklist
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for encode-blacklist
+latest:
+  2.0--ha7703dc_3: sha256:adc639d3f09c500df9b82edf3f7f1f7ec636d84c7259036757a5625334323a45
+tags:
+  2.0--ha7703dc_3: sha256:adc639d3f09c500df9b82edf3f7f1f7ec636d84c7259036757a5625334323a45
+docker: quay.io/biocontainers/encode-blacklist
+aliases:
+  Blacklist: /usr/local/bin/Blacklist

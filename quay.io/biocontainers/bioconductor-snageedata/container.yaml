@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-snageedata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-snageedata
+latest:
+  1.30.0--r41hdfd78af_1: sha256:ab28c4063f36abe0c92b7e6f9f5bd48a908092bbd21453cc45b34de6af66b4d8
+tags:
+  1.30.0--r41hdfd78af_1: sha256:ab28c4063f36abe0c92b7e6f9f5bd48a908092bbd21453cc45b34de6af66b4d8
+docker: quay.io/biocontainers/bioconductor-snageedata
+aliases:
+  .bioconductor-snageedata-post-link.sh: /usr/local/bin/.bioconductor-snageedata-post-link.sh
+  .bioconductor-snageedata-pre-unlink.sh: /usr/local/bin/.bioconductor-snageedata-pre-unlink.sh

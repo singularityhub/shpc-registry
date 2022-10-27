@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/spectacle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spectacle
+latest:
+  1.4--hdfd78af_3: sha256:750e2b5ac2ee79839134296d7fa1d673318a75468f4e4faf5afb186fe3d90405
+tags:
+  1.4--hdfd78af_3: sha256:750e2b5ac2ee79839134296d7fa1d673318a75468f4e4faf5afb186fe3d90405
+docker: quay.io/biocontainers/spectacle
+aliases:
+  Spectacle.sh: /usr/local/bin/Spectacle.sh
+  Spectacle_python.py: /usr/local/bin/Spectacle_python.py
+  download_spectacle_data.sh: /usr/local/bin/download_spectacle_data.sh

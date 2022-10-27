@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/chira
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chira
+latest:
+  1.4.3--hdfd78af_2: sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
+tags:
+  1.4.3--hdfd78af_2: sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd
+docker: quay.io/biocontainers/chira
+aliases:
+  CopomuS.py: /usr/local/bin/CopomuS.py
+  IntaRNA: /usr/local/bin/IntaRNA
+  IntaRNA1: /usr/local/bin/IntaRNA1
+  IntaRNA2: /usr/local/bin/IntaRNA2
+  IntaRNA3: /usr/local/bin/IntaRNA3
+  IntaRNA_CSV_p-value.R: /usr/local/bin/IntaRNA_CSV_p-value.R
+  IntaRNA_plotRegions.R: /usr/local/bin/IntaRNA_plotRegions.R
+  IntaRNAduplex: /usr/local/bin/IntaRNAduplex
+  IntaRNAens: /usr/local/bin/IntaRNAens
+  IntaRNAexact: /usr/local/bin/IntaRNAexact
+  IntaRNAhelix: /usr/local/bin/IntaRNAhelix
+  IntaRNAsTar: /usr/local/bin/IntaRNAsTar
+  IntaRNAseed: /usr/local/bin/IntaRNAseed
+  blockbuster.x: /usr/local/bin/blockbuster.x
+  chira_collapse.py: /usr/local/bin/chira_collapse.py
+  chira_extract.py: /usr/local/bin/chira_extract.py
+  chira_map.py: /usr/local/bin/chira_map.py
+  chira_merge.py: /usr/local/bin/chira_merge.py
+  chira_quantify.py: /usr/local/bin/chira_quantify.py
+  chira_utilities.py: /usr/local/bin/chira_utilities.py
+  clan_annotate: /usr/local/bin/clan_annotate
+  clan_index: /usr/local/bin/clan_index
+  clan_output: /usr/local/bin/clan_output
+  clan_search: /usr/local/bin/clan_search

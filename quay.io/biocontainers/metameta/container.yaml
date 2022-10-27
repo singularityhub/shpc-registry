@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metameta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metameta
+latest:
+  1.2.0--hdfd78af_4: sha256:3a4adf2fc791c07556eb5da0aeae44761293ac0f2d730ffecb178a6a03bfc60a
+tags:
+  1.2.0--hdfd78af_4: sha256:3a4adf2fc791c07556eb5da0aeae44761293ac0f2d730ffecb178a6a03bfc60a
+docker: quay.io/biocontainers/metameta
+aliases:
+  metameta: /usr/local/bin/metameta

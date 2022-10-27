@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/musicc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for musicc
+latest:
+  1.0.4--py_0: sha256:c07da06d20cf9efc3c7687c7d7b791e94c184159dd26afb6cbc4152b04ea58e2
+tags:
+  1.0.4--py_0: sha256:c07da06d20cf9efc3c7687c7d7b791e94c184159dd26afb6cbc4152b04ea58e2
+docker: quay.io/biocontainers/musicc
+aliases:
+  run_musicc.py: /usr/local/bin/run_musicc.py
+  test_musicc.py: /usr/local/bin/test_musicc.py

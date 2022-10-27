@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/cansam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cansam
+latest:
+  21d64bb--h7ff8a90_5: sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940
+tags:
+  21d64bb--h7ff8a90_5: sha256:246cc80e1455e0681994be5e15b285f58350fd78774b6ad952cb3c0ab800a940
+docker: quay.io/biocontainers/cansam
+aliases:
+  samcat: /usr/local/bin/samcat
+  samcount: /usr/local/bin/samcount
+  samgroupbyname: /usr/local/bin/samgroupbyname
+  samhead: /usr/local/bin/samhead
+  samsort: /usr/local/bin/samsort
+  samsplit: /usr/local/bin/samsplit

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-multiassayexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multiassayexperiment
+latest:
+  1.8.1--r351_0: sha256:b6bcc94f7cc0a6480605fc7c738b5b91701a7ec16c8b9b54535a1c5113339560
+tags:
+  1.8.1--r351_0: sha256:b6bcc94f7cc0a6480605fc7c738b5b91701a7ec16c8b9b54535a1c5113339560
+docker: quay.io/biocontainers/bioconductor-multiassayexperiment

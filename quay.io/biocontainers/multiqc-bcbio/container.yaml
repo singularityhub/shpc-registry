@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/multiqc-bcbio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for multiqc-bcbio
+latest:
+  0.2.9--pyh3252c3a_0: sha256:b531c82f3e4d9a3853710ab8b4cbd04cd60ba9bc4e72ac447f733fc57637815c
+tags:
+  0.2.9--pyh3252c3a_0: sha256:b531c82f3e4d9a3853710ab8b4cbd04cd60ba9bc4e72ac447f733fc57637815c
+docker: quay.io/biocontainers/multiqc-bcbio

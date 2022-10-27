@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/graphanalyzer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for graphanalyzer
+latest:
+  1.5.1--hdfd78af_0: sha256:afc55571e6efb598671119a911fd45459b9def0af688c5e1b045464e2a8c2e4b
+tags:
+  1.5.1--hdfd78af_0: sha256:afc55571e6efb598671119a911fd45459b9def0af688c5e1b045464e2a8c2e4b
+docker: quay.io/biocontainers/graphanalyzer
+aliases:
+  colorcet: /usr/local/bin/colorcet
+  graphanalyzer.py: /usr/local/bin/graphanalyzer.py
+  holoviews: /usr/local/bin/holoviews
+  panel: /usr/local/bin/panel

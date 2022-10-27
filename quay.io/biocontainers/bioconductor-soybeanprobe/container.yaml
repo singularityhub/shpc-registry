@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-soybeanprobe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-soybeanprobe
+latest:
+  2.18.0--r41hdfd78af_9: sha256:7359ed7d23d87323de396b142cedc67a4536be4626246e92ede1c4f2115e9737
+tags:
+  2.18.0--r41hdfd78af_9: sha256:7359ed7d23d87323de396b142cedc67a4536be4626246e92ede1c4f2115e9737
+docker: quay.io/biocontainers/bioconductor-soybeanprobe
+aliases:
+  .bioconductor-soybeanprobe-post-link.sh: /usr/local/bin/.bioconductor-soybeanprobe-post-link.sh
+  .bioconductor-soybeanprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-soybeanprobe-pre-unlink.sh

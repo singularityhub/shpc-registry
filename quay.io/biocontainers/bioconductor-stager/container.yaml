@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-stager
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-stager
+latest:
+  1.8.0--r36_0: sha256:251c9ca6df39a1358991a76b5144a3070076c6a07d6e58a67c02232551b5efde
+tags:
+  1.8.0--r36_0: sha256:251c9ca6df39a1358991a76b5144a3070076c6a07d6e58a67c02232551b5efde
+docker: quay.io/biocontainers/bioconductor-stager

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ggmsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ggmsa
+latest:
+  1.0.2--r41h3121a25_1: sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f
+tags:
+  1.0.2--r41h3121a25_1: sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f
+docker: quay.io/biocontainers/r-ggmsa

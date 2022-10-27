@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-normr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-normr
+latest:
+  1.8.0--r351hf484d3e_0: sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373
+tags:
+  1.8.0--r351hf484d3e_0: sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373
+docker: quay.io/biocontainers/bioconductor-normr

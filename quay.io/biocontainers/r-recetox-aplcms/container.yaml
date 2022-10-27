@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-recetox-aplcms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-recetox-aplcms
+latest:
+  0.9.4--r41hdfd78af_0: sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e
+tags:
+  0.9.4--r41hdfd78af_0: sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e
+docker: quay.io/biocontainers/r-recetox-aplcms
+aliases:
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub

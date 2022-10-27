@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sampei
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sampei
+latest:
+  0.0.9--py_0: sha256:6f251497845abd94b1da93aca8e918f485f367618f4d68502a134dd833003aa3
+tags:
+  0.0.9--py_0: sha256:6f251497845abd94b1da93aca8e918f485f367618f4d68502a134dd833003aa3
+docker: quay.io/biocontainers/sampei
+aliases:
+  sampei: /usr/local/bin/sampei

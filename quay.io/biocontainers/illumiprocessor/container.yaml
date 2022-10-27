@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/illumiprocessor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for illumiprocessor
+latest:
+  2.10--py_0: sha256:f7979a71865516fc7782b32947106b8dcd4ca526cc569d3e64e17be6fec245ba
+tags:
+  2.10--py_0: sha256:f7979a71865516fc7782b32947106b8dcd4ca526cc569d3e64e17be6fec245ba
+docker: quay.io/biocontainers/illumiprocessor
+aliases:
+  illumiprocessor: /usr/local/bin/illumiprocessor

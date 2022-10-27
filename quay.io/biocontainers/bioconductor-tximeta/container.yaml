@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tximeta
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tximeta
+latest:
+  1.8.4--r40hdfd78af_0: sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0
+tags:
+  1.8.4--r40hdfd78af_0: sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0
+docker: quay.io/biocontainers/bioconductor-tximeta

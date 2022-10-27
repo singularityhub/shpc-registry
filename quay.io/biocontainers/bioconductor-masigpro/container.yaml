@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-masigpro
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-masigpro
+latest:
+  1.66.0--r41hdfd78af_0: sha256:9738ec5a2e05558a63af3e845d2b0acdcfbe863cb06edcb45383a631e1ed2eae
+tags:
+  1.66.0--r41hdfd78af_0: sha256:9738ec5a2e05558a63af3e845d2b0acdcfbe863cb06edcb45383a631e1ed2eae
+docker: quay.io/biocontainers/bioconductor-masigpro

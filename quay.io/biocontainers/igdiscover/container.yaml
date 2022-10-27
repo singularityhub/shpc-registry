@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/igdiscover
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for igdiscover
+latest:
+  0.9--py36_1: sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4
+tags:
+  0.9--py36_1: sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4
+docker: quay.io/biocontainers/igdiscover
+aliases:
+  edit_imgt_file.pl: /usr/local/bin/edit_imgt_file.pl
+  igblastn: /usr/local/bin/igblastn
+  igblastp: /usr/local/bin/igblastp
+  igdiscover: /usr/local/bin/igdiscover
+  pear: /usr/local/bin/pear
+  pearRM: /usr/local/bin/pearRM
+  sqt: /usr/local/bin/sqt

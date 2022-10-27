@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/freebayes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for freebayes
+latest:
+  1.3.3--py36hc088bd4_0: sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7
+tags:
+  1.3.3--py36hc088bd4_0: sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7
+docker: quay.io/biocontainers/freebayes

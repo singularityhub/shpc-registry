@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/pyslim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyslim
+latest:
+  0.401--py_0: sha256:76360eb6593cdd6ec9067abc5e0e6cf20b9dcaf6fa8c851a096c29d8deccca8f
+tags:
+  0.401--py_0: sha256:76360eb6593cdd6ec9067abc5e0e6cf20b9dcaf6fa8c851a096c29d8deccca8f
+docker: quay.io/biocontainers/pyslim
+aliases:
+  kastore: /usr/local/bin/kastore
+  msp: /usr/local/bin/msp
+  mspms: /usr/local/bin/mspms
+  tskit: /usr/local/bin/tskit

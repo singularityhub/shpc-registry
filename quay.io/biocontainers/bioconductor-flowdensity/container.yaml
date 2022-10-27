@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowdensity
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowdensity
+latest:
+  1.6.0--r3.3.2_0: sha256:c768a35bc18cd010a55d28284153632eeaed324512d81a5032020a6eccfc6986
+tags:
+  1.6.0--r3.3.2_0: sha256:c768a35bc18cd010a55d28284153632eeaed324512d81a5032020a6eccfc6986
+docker: quay.io/biocontainers/bioconductor-flowdensity

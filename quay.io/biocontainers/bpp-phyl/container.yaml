@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bpp-phyl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bpp-phyl
+latest:
+  2.4.1--h9f5acd7_3: sha256:e28a23d9256af333b44c8b5a972b0b6360a915b5b241b48f28f32b6fa4e3ff62
+tags:
+  2.4.1--h9f5acd7_3: sha256:e28a23d9256af333b44c8b5a972b0b6360a915b5b241b48f28f32b6fa4e3ff62
+docker: quay.io/biocontainers/bpp-phyl

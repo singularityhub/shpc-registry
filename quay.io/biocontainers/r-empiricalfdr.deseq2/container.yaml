@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-empiricalfdr.deseq2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-empiricalfdr.deseq2
+latest:
+  1.0.3--r41h3121a25_8: sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc
+tags:
+  1.0.3--r41h3121a25_8: sha256:fceeedc1f2d94f63e5f1a9a12a03ed0ca5c3e3875c25060716b8d2b61dd9fadc
+docker: quay.io/biocontainers/r-empiricalfdr.deseq2

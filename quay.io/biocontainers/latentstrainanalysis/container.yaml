@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/latentstrainanalysis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for latentstrainanalysis
+latest:
+  0.0.1--hdfd78af_3: sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
+tags:
+  0.0.1--hdfd78af_3: sha256:c7ff1f84c134f0adc2751980cf13c83f2f58386155f0c612a4b1afc8ec3137ea
+docker: quay.io/biocontainers/latentstrainanalysis
+aliases:
+  HashCounting.sh: /usr/local/bin/HashCounting.sh
+  KmerSVDClustering.sh: /usr/local/bin/KmerSVDClustering.sh
+  ReadPartitioning.sh: /usr/local/bin/ReadPartitioning.sh
+  pyro4-check-config: /usr/local/bin/pyro4-check-config
+  pyro4-flameserver: /usr/local/bin/pyro4-flameserver
+  pyro4-httpgateway: /usr/local/bin/pyro4-httpgateway
+  pyro4-ns: /usr/local/bin/pyro4-ns
+  pyro4-nsc: /usr/local/bin/pyro4-nsc
+  pyro4-test-echoserver: /usr/local/bin/pyro4-test-echoserver

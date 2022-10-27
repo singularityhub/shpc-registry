@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ping
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ping
+latest:
+  2.38.0--r41hc0cfd56_2: sha256:e775289ed6871fa41a2cb690d0a37a6ee1caaf17a537d5bc3c0cf2aab62e4a2a
+tags:
+  2.38.0--r41hc0cfd56_2: sha256:e775289ed6871fa41a2cb690d0a37a6ee1caaf17a537d5bc3c0cf2aab62e4a2a
+docker: quay.io/biocontainers/bioconductor-ping

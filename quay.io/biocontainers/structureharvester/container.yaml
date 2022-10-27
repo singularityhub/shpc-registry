@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/structureharvester
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for structureharvester
+latest:
+  0.6.94--hdfd78af_3: sha256:673409a2d4fc28a187b8e8ff726f4ab5f324a48ac8285e3feb4ce280001983a1
+tags:
+  0.6.94--hdfd78af_3: sha256:673409a2d4fc28a187b8e8ff726f4ab5f324a48ac8285e3feb4ce280001983a1
+docker: quay.io/biocontainers/structureharvester
+aliases:
+  harvesterCore.py: /usr/local/bin/harvesterCore.py
+  structureHarvester.py: /usr/local/bin/structureHarvester.py

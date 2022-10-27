@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-object-insideout
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-object-insideout
+latest:
+  4.05--pl5321hdfd78af_1: sha256:c06240db5d6dbf093cd5c664a6d54f16302c435d8c76b861f717e84bf27c0c4e
+tags:
+  4.05--pl5321hdfd78af_1: sha256:c06240db5d6dbf093cd5c664a6d54f16302c435d8c76b861f717e84bf27c0c4e
+docker: quay.io/biocontainers/perl-object-insideout

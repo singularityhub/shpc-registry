@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-icens
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-icens
+latest:
+  1.66.0--r41hdfd78af_0: sha256:2229bbad90473854767686694d3bb49f3e2dd24c6e58dc8f506b1f298512b68c
+tags:
+  1.66.0--r41hdfd78af_0: sha256:2229bbad90473854767686694d3bb49f3e2dd24c6e58dc8f506b1f298512b68c
+docker: quay.io/biocontainers/bioconductor-icens

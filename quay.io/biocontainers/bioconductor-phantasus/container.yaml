@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phantasus
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phantasus
+latest:
+  1.8.0--r40_0: sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157
+tags:
+  1.8.0--r40_0: sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157
+docker: quay.io/biocontainers/bioconductor-phantasus

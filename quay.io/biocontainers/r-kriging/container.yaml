@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-kriging
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-kriging
+latest:
+  1.1--r3.3.2_0: sha256:fb224e27d1e997e47db137dd4d392598fb90a93fc6ab307d9943ba88774392bb
+tags:
+  1.1--r3.3.2_0: sha256:fb224e27d1e997e47db137dd4d392598fb90a93fc6ab307d9943ba88774392bb
+docker: quay.io/biocontainers/r-kriging

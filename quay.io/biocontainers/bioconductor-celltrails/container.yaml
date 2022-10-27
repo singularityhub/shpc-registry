@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-celltrails
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-celltrails
+latest:
+  1.8.0--r40hdfd78af_1: sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254
+tags:
+  1.8.0--r40hdfd78af_1: sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254
+docker: quay.io/biocontainers/bioconductor-celltrails

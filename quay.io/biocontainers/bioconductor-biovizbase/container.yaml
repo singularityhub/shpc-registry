@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biovizbase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biovizbase
+latest:
+  1.42.0--r41hc0cfd56_2: sha256:6b594d9993080c90a7caf8a1d0c95ab56ed0dde405d8b166da363a9036de5a52
+tags:
+  1.42.0--r41hc0cfd56_2: sha256:6b594d9993080c90a7caf8a1d0c95ab56ed0dde405d8b166da363a9036de5a52
+docker: quay.io/biocontainers/bioconductor-biovizbase

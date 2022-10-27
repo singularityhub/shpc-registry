@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata
+latest:
+  1.8.0--r36_0: sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5
+tags:
+  1.8.0--r36_0: sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5
+docker: quay.io/biocontainers/bioconductor-harmonizedtcgadata
+aliases:
+  .bioconductor-harmonizedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh
+  .bioconductor-harmonizedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh

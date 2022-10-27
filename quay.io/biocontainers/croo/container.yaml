@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/croo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for croo
+latest:
+  0.6.0--pyhdfd78af_0: sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee
+tags:
+  0.6.0--pyhdfd78af_0: sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee
+docker: quay.io/biocontainers/croo
+aliases:
+  autouri: /usr/local/bin/autouri
+  aws: /usr/local/bin/aws
+  aws.cmd: /usr/local/bin/aws.cmd
+  aws_bash_completer: /usr/local/bin/aws_bash_completer
+  aws_completer: /usr/local/bin/aws_completer
+  aws_zsh_completer.sh: /usr/local/bin/aws_zsh_completer.sh
+  caper: /usr/local/bin/caper
+  create_instance.sh: /usr/local/bin/create_instance.sh
+  croo: /usr/local/bin/croo
+  miniwdl: /usr/local/bin/miniwdl
+  pygtail: /usr/local/bin/pygtail
+  pyhocon: /usr/local/bin/pyhocon
+  run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
+  run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
+  wsdump.py: /usr/local/bin/wsdump.py

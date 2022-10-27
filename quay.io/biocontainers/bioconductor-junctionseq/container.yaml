@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-junctionseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-junctionseq
+latest:
+  1.8.0--r3.4.1_0: sha256:04106cbd134485b3c4e6d454b392f0b0a8a1942cb816e60acecadd634d5dffb3
+tags:
+  1.8.0--r3.4.1_0: sha256:04106cbd134485b3c4e6d454b392f0b0a8a1942cb816e60acecadd634d5dffb3
+docker: quay.io/biocontainers/bioconductor-junctionseq

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-synmut
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-synmut
+latest:
+  1.8.0--r41hdfd78af_0: sha256:379d55f88d0f53925b07ccfc075ef03fd3b3c03ead317e576db61f313c97756c
+tags:
+  1.8.0--r41hdfd78af_0: sha256:379d55f88d0f53925b07ccfc075ef03fd3b3c03ead317e576db61f313c97756c
+docker: quay.io/biocontainers/bioconductor-synmut

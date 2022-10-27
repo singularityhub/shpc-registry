@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-chimphumanbraindata
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chimphumanbraindata
+latest:
+  1.32.0--r41hdfd78af_1: sha256:dc94d743d7dc00051d265e8a854e96b49ca494af216c3213408017ecce1e283e
+tags:
+  1.32.0--r41hdfd78af_1: sha256:dc94d743d7dc00051d265e8a854e96b49ca494af216c3213408017ecce1e283e
+docker: quay.io/biocontainers/bioconductor-chimphumanbraindata
+aliases:
+  .bioconductor-chimphumanbraindata-post-link.sh: /usr/local/bin/.bioconductor-chimphumanbraindata-post-link.sh
+  .bioconductor-chimphumanbraindata-pre-unlink.sh: /usr/local/bin/.bioconductor-chimphumanbraindata-pre-unlink.sh

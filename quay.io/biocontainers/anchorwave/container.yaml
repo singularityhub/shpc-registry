@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/anchorwave
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for anchorwave
+latest:
+  1.0.1--hd03093a_1: sha256:e3dadaa9e1be9595a12bca26ec63781261af6f2cb17b3658c55694d392308a1c
+tags:
+  1.0.1--hd03093a_1: sha256:e3dadaa9e1be9595a12bca26ec63781261af6f2cb17b3658c55694d392308a1c
+docker: quay.io/biocontainers/anchorwave
+aliases:
+  anchorwave: /usr/local/bin/anchorwave
+  anchorwave_avx2: /usr/local/bin/anchorwave_avx2
+  anchorwave_avx512: /usr/local/bin/anchorwave_avx512
+  anchorwave_sse2: /usr/local/bin/anchorwave_sse2
+  anchorwave_sse4.1: /usr/local/bin/anchorwave_sse4.1
+  bulk-counts: /usr/local/bin/bulk-counts
+  configure: /usr/local/bin/configure
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  sc-counts: /usr/local/bin/sc-counts
+  trindex: /usr/local/bin/trindex
+  velocity-counts: /usr/local/bin/velocity-counts

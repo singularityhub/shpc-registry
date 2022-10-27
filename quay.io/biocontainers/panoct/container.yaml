@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/panoct
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for panoct
+latest:
+  3.23--pl526_1: sha256:5e69b3242f2ee4ef28d1ae3ea3e437e3a9e0ff392ecc4f2388cb161e96073803
+tags:
+  3.23--pl526_1: sha256:5e69b3242f2ee4ef28d1ae3ea3e437e3a9e0ff392ecc4f2388cb161e96073803
+docker: quay.io/biocontainers/panoct
+aliases:
+  gene_order.pl: /usr/local/bin/gene_order.pl
+  panoct.pl: /usr/local/bin/panoct.pl
+  paralog_matchtable.pl: /usr/local/bin/paralog_matchtable.pl

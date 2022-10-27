@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-spatialde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-spatialde
+latest:
+  1.0.0--r41hdfd78af_0: sha256:fa4cd8e16d4ba92acbfed959cf3ee9676971ccbc2f0ce901b821e76aae9b008e
+tags:
+  1.0.0--r41hdfd78af_0: sha256:fa4cd8e16d4ba92acbfed959cf3ee9676971ccbc2f0ce901b821e76aae9b008e
+docker: quay.io/biocontainers/bioconductor-spatialde

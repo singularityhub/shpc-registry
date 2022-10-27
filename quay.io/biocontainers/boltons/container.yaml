@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/boltons
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for boltons
+latest:
+  16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
+tags:
+  16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
+docker: quay.io/biocontainers/boltons

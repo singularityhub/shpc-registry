@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/arcas-hla
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for arcas-hla
+latest:
+  0.5.0--hdfd78af_0: sha256:85af348c01828a4f10da7f658b999e442413650c4fc3df5c07bb714c8d22868c
+tags:
+  0.5.0--hdfd78af_0: sha256:85af348c01828a4f10da7f658b999e442413650c4fc3df5c07bb714c8d22868c
+docker: quay.io/biocontainers/arcas-hla
+aliases:
+  arcasHLA: /usr/local/bin/arcasHLA
+  git-lfs: /usr/local/bin/git-lfs
+  kallisto: /usr/local/bin/kallisto

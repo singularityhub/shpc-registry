@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-u133aaofav2cdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-u133aaofav2cdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:4febb3cdc81750411c1b230864066905c194c37798b9c70c8bd4f70105d8e108
+tags:
+  2.18.0--r41hdfd78af_9: sha256:4febb3cdc81750411c1b230864066905c194c37798b9c70c8bd4f70105d8e108
+docker: quay.io/biocontainers/bioconductor-u133aaofav2cdf
+aliases:
+  .bioconductor-u133aaofav2cdf-post-link.sh: /usr/local/bin/.bioconductor-u133aaofav2cdf-post-link.sh
+  .bioconductor-u133aaofav2cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-u133aaofav2cdf-pre-unlink.sh

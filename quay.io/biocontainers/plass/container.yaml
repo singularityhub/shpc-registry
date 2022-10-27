@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/plass
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plass
+latest:
+  4.687d7--pl5321hf1761c0_3: sha256:81ff206e4cabdcb4512b9cb5950e9f79ffb8dd038cdfc15d03e2249e80b4f62f
+tags:
+  4.687d7--pl5321hf1761c0_3: sha256:81ff206e4cabdcb4512b9cb5950e9f79ffb8dd038cdfc15d03e2249e80b4f62f
+docker: quay.io/biocontainers/plass
+aliases:
+  plass: /usr/local/bin/plass

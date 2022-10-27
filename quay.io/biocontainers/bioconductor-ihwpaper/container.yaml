@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-ihwpaper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ihwpaper
+latest:
+  1.22.0--r41hc247a5b_3: sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de
+tags:
+  1.22.0--r41hc247a5b_3: sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de
+docker: quay.io/biocontainers/bioconductor-ihwpaper
+aliases:
+  .bioconductor-ihwpaper-post-link.sh: /usr/local/bin/.bioconductor-ihwpaper-post-link.sh
+  .bioconductor-ihwpaper-pre-unlink.sh: /usr/local/bin/.bioconductor-ihwpaper-pre-unlink.sh

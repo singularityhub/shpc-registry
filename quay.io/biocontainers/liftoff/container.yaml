@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/liftoff
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for liftoff
+latest:
+  1.6.3--pyhdfd78af_0: sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894
+tags:
+  1.6.3--pyhdfd78af_0: sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894
+docker: quay.io/biocontainers/liftoff
+aliases:
+  liftoff: /usr/local/bin/liftoff

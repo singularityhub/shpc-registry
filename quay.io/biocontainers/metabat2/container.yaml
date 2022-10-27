@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/metabat2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metabat2
+latest:
+  2.15--h986a166_1: sha256:a2feaebcef454d3053e56545da9d81fc4e25a42ec58c8d801b0a2ce57bc76051
+tags:
+  2.15--h986a166_1: sha256:a2feaebcef454d3053e56545da9d81fc4e25a42ec58c8d801b0a2ce57bc76051
+docker: quay.io/biocontainers/metabat2
+aliases:
+  aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl
+  aggregateContigOverlapsByBin.pl: /usr/local/bin/aggregateContigOverlapsByBin.pl
+  contigOverlaps: /usr/local/bin/contigOverlaps
+  jgi_summarize_bam_contig_depths: /usr/local/bin/jgi_summarize_bam_contig_depths
+  merge_depths.pl: /usr/local/bin/merge_depths.pl
+  metabat: /usr/local/bin/metabat
+  metabat1: /usr/local/bin/metabat1
+  metabat2: /usr/local/bin/metabat2
+  runMetaBat.sh: /usr/local/bin/runMetaBat.sh

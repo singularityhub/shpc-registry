@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cryptogenotyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cryptogenotyper
+latest:
+  1.0--py_3: sha256:3aab47f844f2cc9b5772c5e3abde0200d4acb6a7a6f284a499361b31e45848eb
+tags:
+  1.0--py_3: sha256:3aab47f844f2cc9b5772c5e3abde0200d4acb6a7a6f284a499361b31e45848eb
+docker: quay.io/biocontainers/cryptogenotyper
+aliases:
+  cryptogenotyper: /usr/local/bin/cryptogenotyper

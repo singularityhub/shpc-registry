@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/emirge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emirge
+latest:
+  0.61.1--py27h30f897e_7: sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45
+tags:
+  0.61.1--py27h30f897e_7: sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45
+docker: quay.io/biocontainers/emirge
+aliases:
+  emirge.py: /usr/local/bin/emirge.py
+  emirge_amplicon.py: /usr/local/bin/emirge_amplicon.py
+  emirge_makedb.py: /usr/local/bin/emirge_makedb.py
+  emirge_rename_fasta.py: /usr/local/bin/emirge_rename_fasta.py

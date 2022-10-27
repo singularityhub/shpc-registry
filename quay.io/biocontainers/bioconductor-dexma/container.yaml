@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-dexma
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-dexma
+latest:
+  1.2.0--r41hdfd78af_0: sha256:a3cb64910b447c4a44e058f7b7b36311268e366b97cc08b9f1af00a68c2fe41c
+tags:
+  1.2.0--r41hdfd78af_0: sha256:a3cb64910b447c4a44e058f7b7b36311268e366b97cc08b9f1af00a68c2fe41c
+docker: quay.io/biocontainers/bioconductor-dexma
+aliases:
+  .bioconductor-dexmadata-post-link.sh: /usr/local/bin/.bioconductor-dexmadata-post-link.sh
+  .bioconductor-dexmadata-pre-unlink.sh: /usr/local/bin/.bioconductor-dexmadata-pre-unlink.sh

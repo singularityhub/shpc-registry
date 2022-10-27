@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/bali-phy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bali-phy
+latest:
+  3.6.0--py310h3bbb02d_1: sha256:87d43ccaa71af03a88788fccb73043a2df062e6f2fa27c6aa47c68b7e5b30a36
+tags:
+  3.6.0--py310h3bbb02d_1: sha256:87d43ccaa71af03a88788fccb73043a2df062e6f2fa27c6aa47c68b7e5b30a36
+docker: quay.io/biocontainers/bali-phy
+aliases:
+  alignment-cat: /usr/local/bin/alignment-cat
+  alignment-chop-internal: /usr/local/bin/alignment-chop-internal
+  alignment-compare: /usr/local/bin/alignment-compare
+  alignment-consensus: /usr/local/bin/alignment-consensus
+  alignment-convert: /usr/local/bin/alignment-convert
+  alignment-distances: /usr/local/bin/alignment-distances
+  alignment-draw: /usr/local/bin/alignment-draw
+  alignment-find: /usr/local/bin/alignment-find
+  alignment-find-conserved: /usr/local/bin/alignment-find-conserved
+  alignment-gild: /usr/local/bin/alignment-gild
+  alignment-identity: /usr/local/bin/alignment-identity
+  alignment-indices: /usr/local/bin/alignment-indices
+  alignment-info: /usr/local/bin/alignment-info
+  alignment-max: /usr/local/bin/alignment-max
+  alignment-smc: /usr/local/bin/alignment-smc
+  alignment-thin: /usr/local/bin/alignment-thin
+  alignment-translate: /usr/local/bin/alignment-translate
+  alignments-diff: /usr/local/bin/alignments-diff
+  bali-phy: /usr/local/bin/bali-phy
+  bali-phy-pkg: /usr/local/bin/bali-phy-pkg
+  bali-subsample: /usr/local/bin/bali-subsample
+  bp-analyze: /usr/local/bin/bp-analyze
+  cut-range: /usr/local/bin/cut-range
+  draw-graph: /usr/local/bin/draw-graph
+  draw-tree: /usr/local/bin/draw-tree
+  extract-ancestors: /usr/local/bin/extract-ancestors
+  joint-indels: /usr/local/bin/joint-indels
+  joint-parsimony: /usr/local/bin/joint-parsimony
+  mctree-mean-lengths: /usr/local/bin/mctree-mean-lengths
+  model_P: /usr/local/bin/model_P
+  partitions-supported: /usr/local/bin/partitions-supported
+  path-graph: /usr/local/bin/path-graph
+  pickout: /usr/local/bin/pickout
+  statreport: /usr/local/bin/statreport
+  stats-cat: /usr/local/bin/stats-cat
+  stats-merge: /usr/local/bin/stats-merge
+  stats-select: /usr/local/bin/stats-select
+  summarize-ancestors: /usr/local/bin/summarize-ancestors
+  tree-mean-lengths: /usr/local/bin/tree-mean-lengths
+  tree-partitions: /usr/local/bin/tree-partitions
+  tree-reroot: /usr/local/bin/tree-reroot
+  tree-tool: /usr/local/bin/tree-tool
+  trees-bootstrap: /usr/local/bin/trees-bootstrap
+  trees-consensus: /usr/local/bin/trees-consensus
+  trees-distances: /usr/local/bin/trees-distances
+  trees-pair-distances: /usr/local/bin/trees-pair-distances
+  trees-to-SRQ: /usr/local/bin/trees-to-SRQ

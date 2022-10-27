@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/footprint
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for footprint
+latest:
+  1.0.1--pl5321r41hdfd78af_0: sha256:66c60ff9de79de2b8de434b1621d6b7513a302549b1be607c41b83bee39d1ac4
+tags:
+  1.0.1--pl5321r41hdfd78af_0: sha256:66c60ff9de79de2b8de434b1621d6b7513a302549b1be607c41b83bee39d1ac4
+docker: quay.io/biocontainers/footprint
+aliases:
+  find_footprints.sh: /usr/local/bin/find_footprints.sh

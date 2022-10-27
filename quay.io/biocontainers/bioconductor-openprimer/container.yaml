@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-openprimer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-openprimer
+latest:
+  1.8.0--r36_0: sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9
+tags:
+  1.8.0--r36_0: sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9
+docker: quay.io/biocontainers/bioconductor-openprimer

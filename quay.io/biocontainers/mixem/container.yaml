@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mixem
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mixem
+latest:
+  0.1.4--pyh5e36f6f_0: sha256:251de830594e02ca704ccddabfe08d1c40ef69196f3aac07c9217831f480a5bb
+tags:
+  0.1.4--pyh5e36f6f_0: sha256:251de830594e02ca704ccddabfe08d1c40ef69196f3aac07c9217831f480a5bb
+docker: quay.io/biocontainers/mixem

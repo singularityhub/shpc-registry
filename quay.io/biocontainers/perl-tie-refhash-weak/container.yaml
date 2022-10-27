@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tie-refhash-weak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tie-refhash-weak
+latest:
+  0.09--pl526_2: sha256:8f6d6b109fe34ec5e26d90c2081af3d13818c2b79b4076d74ec4d90d61055a5a
+tags:
+  0.09--pl526_2: sha256:8f6d6b109fe34ec5e26d90c2081af3d13818c2b79b4076d74ec4d90d61055a5a
+docker: quay.io/biocontainers/perl-tie-refhash-weak

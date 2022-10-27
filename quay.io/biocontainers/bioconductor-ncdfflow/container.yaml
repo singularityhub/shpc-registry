@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ncdfflow
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ncdfflow
+latest:
+  2.40.0--r41hc247a5b_2: sha256:35cfb1c68c05d707316e8c88cf3a3bbbaaa8dd37a8914abea34f8cbc2ebafcae
+tags:
+  2.40.0--r41hc247a5b_2: sha256:35cfb1c68c05d707316e8c88cf3a3bbbaaa8dd37a8914abea34f8cbc2ebafcae
+docker: quay.io/biocontainers/bioconductor-ncdfflow

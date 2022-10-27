@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-rawrr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rawrr
+latest:
+  1.2.0--r41hdfd78af_0: sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2
+tags:
+  1.2.0--r41hdfd78af_0: sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2
+docker: quay.io/biocontainers/bioconductor-rawrr
+aliases:
+  aprofutil: /usr/local/bin/aprofutil
+  mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog

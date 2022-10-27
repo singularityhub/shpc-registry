@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/parent-map
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for parent-map
+latest:
+  1.1.2--py_0: sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84
+tags:
+  1.1.2--py_0: sha256:2879f44f51fac2ad7d88c393bb8be879e14ad9611af8da8c736605c96006de84
+docker: quay.io/biocontainers/parent-map
+aliases:
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.0: /usr/local/bin/wxrc-3.0

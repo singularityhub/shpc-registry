@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-capture-tiny
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-capture-tiny
+latest:
+  0.48--pl5321hdfd78af_2: sha256:018895162d1a7233a27606c3c38a70ad6931b636d4578db31dd2084d0213541a
+tags:
+  0.48--pl5321hdfd78af_2: sha256:018895162d1a7233a27606c3c38a70ad6931b636d4578db31dd2084d0213541a
+docker: quay.io/biocontainers/perl-capture-tiny

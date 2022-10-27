@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/seq-gen
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seq-gen
+latest:
+  1.3.4--hec16e2b_5: sha256:0eb70dcc3eec532514832056071ba3d9ec250807ef9268e2ceebc91d71d85e39
+tags:
+  1.3.4--hec16e2b_5: sha256:0eb70dcc3eec532514832056071ba3d9ec250807ef9268e2ceebc91d71d85e39
+docker: quay.io/biocontainers/seq-gen
+aliases:
+  seq-gen: /usr/local/bin/seq-gen

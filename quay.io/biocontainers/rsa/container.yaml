@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rsa
+latest:
+  3.1.4--py36_0: sha256:3cfab80bfeea545fa6ed094d1bc45fe48f2a54ca15d60f822bac5c49bd3c6896
+tags:
+  3.1.4--py36_0: sha256:3cfab80bfeea545fa6ed094d1bc45fe48f2a54ca15d60f822bac5c49bd3c6896
+docker: quay.io/biocontainers/rsa

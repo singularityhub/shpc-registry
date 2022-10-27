@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sccaller
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sccaller
+latest:
+  2.0.0--hdfd78af_1: sha256:f2e42730853593e86470cf77f3f8ee2fd5c231f6e30d3f2e07aac89bf78c6a95
+tags:
+  2.0.0--hdfd78af_1: sha256:f2e42730853593e86470cf77f3f8ee2fd5c231f6e30d3f2e07aac89bf78c6a95
+docker: quay.io/biocontainers/sccaller
+aliases:
+  sccaller: /usr/local/bin/sccaller

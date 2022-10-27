@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/testfixtures
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for testfixtures
+latest:
+  4.8.0--py35_0: sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a
+tags:
+  4.8.0--py35_0: sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a
+docker: quay.io/biocontainers/testfixtures

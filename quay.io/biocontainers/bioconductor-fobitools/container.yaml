@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-fobitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-fobitools
+latest:
+  1.2.0--r41hdfd78af_0: sha256:780f29e27ec8fff00a25bd22b045fa8bd73bed4386b5f02bf36992d4cf5b1946
+tags:
+  1.2.0--r41hdfd78af_0: sha256:780f29e27ec8fff00a25bd22b045fa8bd73bed4386b5f02bf36992d4cf5b1946
+docker: quay.io/biocontainers/bioconductor-fobitools

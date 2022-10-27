@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pretextgraph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pretextgraph
+latest:
+  0.0.6--h9f5acd7_1: sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341
+tags:
+  0.0.6--h9f5acd7_1: sha256:fa545efff60514e4798807c3d262ddb41e59a748b101905a7661bb22542b3341
+docker: quay.io/biocontainers/pretextgraph
+aliases:
+  PretextGraph: /usr/local/bin/PretextGraph
+  PretextGraph.avx: /usr/local/bin/PretextGraph.avx
+  PretextGraph.avx2: /usr/local/bin/PretextGraph.avx2
+  PretextGraph.sse41: /usr/local/bin/PretextGraph.sse41
+  PretextGraph.sse42: /usr/local/bin/PretextGraph.sse42

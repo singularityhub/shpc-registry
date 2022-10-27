@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pcst-fast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pcst-fast
+latest:
+  1.0.8--py36h2ad2d48_1: sha256:a7573139b4c0938f808d4ede1fc153d6ba49ebf0f11a13f0380e4716c5f10eab
+tags:
+  1.0.8--py36h2ad2d48_1: sha256:a7573139b4c0938f808d4ede1fc153d6ba49ebf0f11a13f0380e4716c5f10eab
+docker: quay.io/biocontainers/pcst-fast
+aliases:
+  pybind11-config: /usr/local/bin/pybind11-config

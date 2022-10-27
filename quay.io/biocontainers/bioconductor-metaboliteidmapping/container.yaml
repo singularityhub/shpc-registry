@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-metaboliteidmapping
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metaboliteidmapping
+latest:
+  1.0.0--r41hdfd78af_2: sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235
+tags:
+  1.0.0--r41hdfd78af_2: sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235
+docker: quay.io/biocontainers/bioconductor-metaboliteidmapping
+aliases:
+  .bioconductor-metaboliteidmapping-post-link.sh: /usr/local/bin/.bioconductor-metaboliteidmapping-post-link.sh
+  .bioconductor-metaboliteidmapping-pre-unlink.sh: /usr/local/bin/.bioconductor-metaboliteidmapping-pre-unlink.sh

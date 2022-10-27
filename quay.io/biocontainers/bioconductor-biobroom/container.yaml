@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-biobroom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-biobroom
+latest:
+  1.26.0--r41hdfd78af_0: sha256:aad711b2d8b9b9896b32959ce792ff8312a1f266d607390fbdfb6cbb1616588e
+tags:
+  1.26.0--r41hdfd78af_0: sha256:aad711b2d8b9b9896b32959ce792ff8312a1f266d607390fbdfb6cbb1616588e
+docker: quay.io/biocontainers/bioconductor-biobroom

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mousechrloc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mousechrloc
+latest:
+  2.1.6--r41hdfd78af_9: sha256:f99f36c3b100f1ff2d67cc8809a78ca9cc890ba7350cb2f85264755e3ff5fff3
+tags:
+  2.1.6--r41hdfd78af_9: sha256:f99f36c3b100f1ff2d67cc8809a78ca9cc890ba7350cb2f85264755e3ff5fff3
+docker: quay.io/biocontainers/bioconductor-mousechrloc
+aliases:
+  .bioconductor-mousechrloc-post-link.sh: /usr/local/bin/.bioconductor-mousechrloc-post-link.sh
+  .bioconductor-mousechrloc-pre-unlink.sh: /usr/local/bin/.bioconductor-mousechrloc-pre-unlink.sh

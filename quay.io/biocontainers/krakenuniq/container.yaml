@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/krakenuniq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for krakenuniq
+latest:
+  1.0.1a--pl5321h19e8d03_1: sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e
+tags:
+  1.0.1a--pl5321h19e8d03_1: sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e
+docker: quay.io/biocontainers/krakenuniq
+aliases:
+  build_taxdb: /usr/local/bin/build_taxdb
+  krakenuniq: /usr/local/bin/krakenuniq
+  krakenuniq-build: /usr/local/bin/krakenuniq-build
+  krakenuniq-download: /usr/local/bin/krakenuniq-download
+  krakenuniq-extract-reads: /usr/local/bin/krakenuniq-extract-reads
+  krakenuniq-filter: /usr/local/bin/krakenuniq-filter
+  krakenuniq-mpa-report: /usr/local/bin/krakenuniq-mpa-report
+  krakenuniq-report: /usr/local/bin/krakenuniq-report
+  krakenuniq-translate: /usr/local/bin/krakenuniq-translate
+  read_merger.pl: /usr/local/bin/read_merger.pl

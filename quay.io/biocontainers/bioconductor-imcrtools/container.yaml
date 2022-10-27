@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-imcrtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-imcrtools
+latest:
+  1.0.0--r41hdfd78af_0: sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5
+tags:
+  1.0.0--r41hdfd78af_0: sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5
+docker: quay.io/biocontainers/bioconductor-imcrtools

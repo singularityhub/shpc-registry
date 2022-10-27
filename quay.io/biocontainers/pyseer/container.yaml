@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pyseer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pyseer
+latest:
+  1.3.9--pyh5e36f6f_0: sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e
+tags:
+  1.3.9--pyh5e36f6f_0: sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e
+docker: quay.io/biocontainers/pyseer
+aliases:
+  annotate_hits_pyseer: /usr/local/bin/annotate_hits_pyseer
+  enet_predict_pyseer: /usr/local/bin/enet_predict_pyseer
+  phandango_mapper: /usr/local/bin/phandango_mapper
+  pyseer: /usr/local/bin/pyseer
+  scree_plot_pyseer: /usr/local/bin/scree_plot_pyseer
+  similarity_pyseer: /usr/local/bin/similarity_pyseer
+  square_mash: /usr/local/bin/square_mash

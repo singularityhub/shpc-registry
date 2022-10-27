@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/anarci
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for anarci
+latest:
+  2021.02.04--pyhdfd78af_0: sha256:29e152bd530401e15666dc187e6c56452e5702d817c56b15283304ffda8457ff
+tags:
+  2021.02.04--pyhdfd78af_0: sha256:29e152bd530401e15666dc187e6c56452e5702d817c56b15283304ffda8457ff
+docker: quay.io/biocontainers/anarci
+aliases:
+  ANARCI: /usr/local/bin/ANARCI

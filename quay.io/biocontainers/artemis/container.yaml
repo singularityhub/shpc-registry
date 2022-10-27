@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/artemis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for artemis
+latest:
+  18.2.0--hdfd78af_0: sha256:32631ed5f8614920c5e8c0402a0d25ecc5f951aef599264d5a26a01226dc231e
+tags:
+  18.2.0--hdfd78af_0: sha256:32631ed5f8614920c5e8c0402a0d25ecc5f951aef599264d5a26a01226dc231e
+docker: quay.io/biocontainers/artemis
+aliases:
+  act: /usr/local/bin/act
+  art: /usr/local/bin/art
+  bamview: /usr/local/bin/bamview
+  dnaplotter: /usr/local/bin/dnaplotter
+  writedb_entry: /usr/local/bin/writedb_entry

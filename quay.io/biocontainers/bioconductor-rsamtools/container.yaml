@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rsamtools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rsamtools
+latest:
+  2.8.0--r41h399db7b_0: sha256:f1a30562969e0e5c44438411b893f1dd2d55896f54429dd38e6ba5d48542d486
+tags:
+  2.8.0--r41h399db7b_0: sha256:f1a30562969e0e5c44438411b893f1dd2d55896f54429dd38e6ba5d48542d486
+docker: quay.io/biocontainers/bioconductor-rsamtools

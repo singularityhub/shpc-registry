@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/simbac
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for simbac
+latest:
+  0.1a--h5e66344_3: sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b
+tags:
+  0.1a--h5e66344_3: sha256:b8974e0721471901c6e3fc5c15469e98196c33ef7fa55e885abd6b65d5800f2b
+docker: quay.io/biocontainers/simbac
+aliases:
+  SimBac: /usr/local/bin/SimBac

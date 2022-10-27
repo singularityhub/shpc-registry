@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-osat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-osat
+latest:
+  1.42.0--r41hdfd78af_0: sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a
+tags:
+  1.42.0--r41hdfd78af_0: sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a
+docker: quay.io/biocontainers/bioconductor-osat

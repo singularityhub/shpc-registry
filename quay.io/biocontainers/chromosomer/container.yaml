@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/chromosomer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for chromosomer
+latest:
+  0.1.4a--py_2: sha256:a306f94fe33dfd5361d5c1a1bf22ca606fe644c77243c23191d4bbf72af389a4
+tags:
+  0.1.4a--py_2: sha256:a306f94fe33dfd5361d5c1a1bf22ca606fe644c77243c23191d4bbf72af389a4
+docker: quay.io/biocontainers/chromosomer
+aliases:
+  bioformats: /usr/local/bin/bioformats
+  chromosomer: /usr/local/bin/chromosomer

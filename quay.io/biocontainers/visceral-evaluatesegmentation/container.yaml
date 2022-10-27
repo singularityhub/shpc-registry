@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/visceral-evaluatesegmentation
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for visceral-evaluatesegmentation
+latest:
+  2015.07.03--hc9558a2_1: sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32
+tags:
+  2015.07.03--hc9558a2_1: sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32
+docker: quay.io/biocontainers/visceral-evaluatesegmentation
+aliases:
+  EvaluateSegmentation: /usr/local/bin/EvaluateSegmentation
+  itkTestDriver: /usr/local/bin/itkTestDriver

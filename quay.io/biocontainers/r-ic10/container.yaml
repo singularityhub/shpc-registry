@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ic10
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ic10
+latest:
+  1.5--r41h3121a25_4: sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f
+tags:
+  1.5--r41h3121a25_4: sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f
+docker: quay.io/biocontainers/r-ic10

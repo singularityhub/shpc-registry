@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nanosplit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanosplit
+latest:
+  0.1.4--py36_0: sha256:de0bbc59f18f3fd1d724e6c092c407a8b0a1e051c09c5fffead2b90ddd525781
+tags:
+  0.1.4--py36_0: sha256:de0bbc59f18f3fd1d724e6c092c407a8b0a1e051c09c5fffead2b90ddd525781
+docker: quay.io/biocontainers/nanosplit
+aliases:
+  NanoSplit: /usr/local/bin/NanoSplit

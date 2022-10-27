@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/akt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for akt
+latest:
+  0.3.3--h5b5514e_2: sha256:595a159fdd57877a53d54764fdbd37c7ccd22491346f81792d81e3a560441a93
+tags:
+  0.3.3--h5b5514e_2: sha256:595a159fdd57877a53d54764fdbd37c7ccd22491346f81792d81e3a560441a93
+docker: quay.io/biocontainers/akt
+aliases:
+  akt: /usr/local/bin/akt

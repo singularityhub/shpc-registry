@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-biglm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-biglm
+latest:
+  0.9_1--r3.3.1_0: sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b
+tags:
+  0.9_1--r3.3.1_0: sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b
+docker: quay.io/biocontainers/r-biglm

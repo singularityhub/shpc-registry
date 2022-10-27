@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fusepy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fusepy
+latest:
+  2.0.4--py36_0: sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f
+tags:
+  2.0.4--py36_0: sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f
+docker: quay.io/biocontainers/fusepy

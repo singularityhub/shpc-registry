@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/bohra
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bohra
+latest:
+  1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
+tags:
+  1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
+docker: quay.io/biocontainers/bohra
+aliases:
+  abritamr: /usr/local/bin/abritamr
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  bohra: /usr/local/bin/bohra
+  create_pan_genome: /usr/local/bin/create_pan_genome
+  create_pan_genome_plots.R: /usr/local/bin/create_pan_genome_plots.R
+  croco-0.6-config: /usr/local/bin/croco-0.6-config
+  csslint-0.6: /usr/local/bin/csslint-0.6
+  dna_mutation: /usr/local/bin/dna_mutation
+  extract_proteome_from_gff: /usr/local/bin/extract_proteome_from_gff
+  fasta2parts: /usr/local/bin/fasta2parts
+  fasta_check: /usr/local/bin/fasta_check
+  gff_check: /usr/local/bin/gff_check
+  iterative_cdhit: /usr/local/bin/iterative_cdhit
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  pan_genome_assembly_statistics: /usr/local/bin/pan_genome_assembly_statistics
+  pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
+  pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
+  pan_genome_reorder_spreadsheet: /usr/local/bin/pan_genome_reorder_spreadsheet
+  parallel_all_against_all_blastp: /usr/local/bin/parallel_all_against_all_blastp
+  protein_alignment_from_nucleotides: /usr/local/bin/protein_alignment_from_nucleotides
+  query_pan_genome: /usr/local/bin/query_pan_genome
+  roary: /usr/local/bin/roary
+  roary-create_pan_genome_plots.R: /usr/local/bin/roary-create_pan_genome_plots.R
+  roary-pan_genome_reorder_spreadsheet: /usr/local/bin/roary-pan_genome_reorder_spreadsheet
+  roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
+  roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
+  shovill: /usr/local/bin/shovill
+  snp-dists: /usr/local/bin/snp-dists
+  transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
+  x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config

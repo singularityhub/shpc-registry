@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/treeswift
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for treeswift
+latest:
+  1.1.6--py_0: sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204
+tags:
+  1.1.6--py_0: sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204
+docker: quay.io/biocontainers/treeswift

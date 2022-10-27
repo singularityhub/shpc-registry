@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/check-sort-order
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for check-sort-order
+latest:
+  0.0.7--h9ee0642_1: sha256:c39347e2d1de01877d13eb4d6bd7d589869fe8b54ec664927fc7cb08ef0b340d
+tags:
+  0.0.7--h9ee0642_1: sha256:c39347e2d1de01877d13eb4d6bd7d589869fe8b54ec664927fc7cb08ef0b340d
+docker: quay.io/biocontainers/check-sort-order
+aliases:
+  check-sort-order: /usr/local/bin/check-sort-order

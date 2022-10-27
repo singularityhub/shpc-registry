@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/stress-ng
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for stress-ng
+latest:
+  0.12.04: sha256:88a031810226041116cf47aa6ed03bd47ee49f7ad448a294dbcab09f3e88f8f6
+tags:
+  0.12.04: sha256:88a031810226041116cf47aa6ed03bd47ee49f7ad448a294dbcab09f3e88f8f6
+docker: quay.io/biocontainers/stress-ng
+aliases:
+  stress-ng: /usr/local/bin/stress-ng

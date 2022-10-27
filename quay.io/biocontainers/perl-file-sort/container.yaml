@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-sort
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-sort
+latest:
+  1.01--pl5321hdfd78af_3: sha256:978751b05de71221810d4a8a2407338ccb74e98975f658295af757c4677b9583
+tags:
+  1.01--pl5321hdfd78af_3: sha256:978751b05de71221810d4a8a2407338ccb74e98975f658295af757c4677b9583
+docker: quay.io/biocontainers/perl-file-sort

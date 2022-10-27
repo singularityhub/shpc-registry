@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tabview
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tabview
+latest:
+  1.4.3--pyh4bbf42b_0: sha256:245d79e814e96d50cf32b0e60478bd66286b343417edf98023955916e3ee1a0f
+tags:
+  1.4.3--pyh4bbf42b_0: sha256:245d79e814e96d50cf32b0e60478bd66286b343417edf98023955916e3ee1a0f
+docker: quay.io/biocontainers/tabview
+aliases:
+  tabview: /usr/local/bin/tabview

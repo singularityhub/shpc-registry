@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-proper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-proper
+latest:
+  1.8.0--r3.3.2_0: sha256:9e8950a8327f2062a7bc3916b5945ea57cb1831ef41fd5bbbded0e80318a28e0
+tags:
+  1.8.0--r3.3.2_0: sha256:9e8950a8327f2062a7bc3916b5945ea57cb1831ef41fd5bbbded0e80318a28e0
+docker: quay.io/biocontainers/bioconductor-proper

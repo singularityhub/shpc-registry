@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fwdpy11
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fwdpy11
+latest:
+  0.6.3--py36h7d13203_0: sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e
+tags:
+  0.6.3--py36h7d13203_0: sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e
+docker: quay.io/biocontainers/fwdpy11
+aliases:
+  tskit: /usr/local/bin/tskit

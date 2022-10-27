@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-miasim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-miasim
+latest:
+  1.0.0--r41hdfd78af_0: sha256:81851e2e601e89d43957d634afb11774eb000940c19099e91d9a8bb6908004d3
+tags:
+  1.0.0--r41hdfd78af_0: sha256:81851e2e601e89d43957d634afb11774eb000940c19099e91d9a8bb6908004d3
+docker: quay.io/biocontainers/bioconductor-miasim

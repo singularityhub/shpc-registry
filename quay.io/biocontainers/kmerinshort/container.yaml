@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/kmerinshort
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kmerinshort
+latest:
+  1.0.1--0: sha256:056e3de6174c48a7b342c8f91541896c39d2e30a64e62d62e51ae43227c36278
+tags:
+  1.0.1--0: sha256:056e3de6174c48a7b342c8f91541896c39d2e30a64e62d62e51ae43227c36278
+docker: quay.io/biocontainers/kmerinshort
+aliases:
+  KmerInShort: /usr/local/bin/KmerInShort

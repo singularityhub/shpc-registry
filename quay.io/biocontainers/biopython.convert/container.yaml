@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/biopython.convert
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopython.convert
+latest:
+  1.3.3--pyh5e36f6f_0: sha256:1c0839b261a624e4b030bcadcbc70566d36188057eb317471d351fc150c01dc0
+tags:
+  1.3.3--pyh5e36f6f_0: sha256:1c0839b261a624e4b030bcadcbc70566d36188057eb317471d351fc150c01dc0
+docker: quay.io/biocontainers/biopython.convert
+aliases:
+  biopython.convert: /usr/local/bin/biopython.convert

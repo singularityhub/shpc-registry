@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-rmarkdown
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-rmarkdown
+latest:
+  0.9.5--0: sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a
+tags:
+  0.9.5--0: sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a
+docker: quay.io/biocontainers/r-rmarkdown

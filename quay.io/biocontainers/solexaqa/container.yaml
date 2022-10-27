@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/solexaqa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for solexaqa
+latest:
+  3.1.7.1--h36ad0af_3: sha256:88488a2fb8fec3bff0bfa2570abb52c303a849d63e56863ba2f6c1ad05a08c8c
+tags:
+  3.1.7.1--h36ad0af_3: sha256:88488a2fb8fec3bff0bfa2570abb52c303a849d63e56863ba2f6c1ad05a08c8c
+docker: quay.io/biocontainers/solexaqa
+aliases:
+  SolexaQA++: /usr/local/bin/SolexaQA++

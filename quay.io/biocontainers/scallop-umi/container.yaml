@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/scallop-umi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scallop-umi
+latest:
+  1.1.0--hbce0939_0: sha256:18c63a8e99bb356484a5b3b3718454fb4fc6bb4bc5981a71f64b411e6b19c29a
+tags:
+  1.1.0--hbce0939_0: sha256:18c63a8e99bb356484a5b3b3718454fb4fc6bb4bc5981a71f64b411e6b19c29a
+docker: quay.io/biocontainers/scallop-umi
+aliases:
+  scallop-umi: /usr/local/bin/scallop-umi

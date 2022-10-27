@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-multiomicsviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-multiomicsviz
+latest:
+  1.8.0--r36_1: sha256:0187f2b40ea82316f4188dc6902fcc6994095caad8c0277c817cb662d33a764b
+tags:
+  1.8.0--r36_1: sha256:0187f2b40ea82316f4188dc6902fcc6994095caad8c0277c817cb662d33a764b
+docker: quay.io/biocontainers/bioconductor-multiomicsviz

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/ceas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ceas
+latest:
+  1.0.2--py_2: sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c
+tags:
+  1.0.2--py_2: sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c
+docker: quay.io/biocontainers/ceas
+aliases:
+  build_genomeBG: /usr/local/bin/build_genomeBG
+  ceas: /usr/local/bin/ceas
+  gca: /usr/local/bin/gca
+  sitepro: /usr/local/bin/sitepro

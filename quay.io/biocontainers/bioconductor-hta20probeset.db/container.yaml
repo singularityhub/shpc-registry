@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hta20probeset.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hta20probeset.db
+latest:
+  8.8.0--r41hdfd78af_1: sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43
+tags:
+  8.8.0--r41hdfd78af_1: sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43
+docker: quay.io/biocontainers/bioconductor-hta20probeset.db
+aliases:
+  .bioconductor-hta20probeset.db-post-link.sh: /usr/local/bin/.bioconductor-hta20probeset.db-post-link.sh
+  .bioconductor-hta20probeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hta20probeset.db-pre-unlink.sh

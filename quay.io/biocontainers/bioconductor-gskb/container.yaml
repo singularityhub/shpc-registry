@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-gskb
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-gskb
+latest:
+  1.22.0--r40hdfd78af_1: sha256:5e7b28f92265b17ed5ac3f59cdcd8266258bf9cc4035124b6b33147ab6185832
+tags:
+  1.22.0--r40hdfd78af_1: sha256:5e7b28f92265b17ed5ac3f59cdcd8266258bf9cc4035124b6b33147ab6185832
+docker: quay.io/biocontainers/bioconductor-gskb
+aliases:
+  .bioconductor-gskb-post-link.sh: /usr/local/bin/.bioconductor-gskb-post-link.sh
+  .bioconductor-gskb-pre-unlink.sh: /usr/local/bin/.bioconductor-gskb-pre-unlink.sh

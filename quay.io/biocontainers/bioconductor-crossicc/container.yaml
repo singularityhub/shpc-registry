@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-crossicc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-crossicc
+latest:
+  1.2.0--r40_0: sha256:1653ca481f62e81a766ba5c6c60dd6c8040eb2b359c16908168ba2a4dd517944
+tags:
+  1.2.0--r40_0: sha256:1653ca481f62e81a766ba5c6c60dd6c8040eb2b359c16908168ba2a4dd517944
+docker: quay.io/biocontainers/bioconductor-crossicc

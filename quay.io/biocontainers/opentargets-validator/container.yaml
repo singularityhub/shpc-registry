@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/opentargets-validator
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opentargets-validator
+latest:
+  0.8.0--pyhdfd78af_0: sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1
+tags:
+  0.8.0--pyhdfd78af_0: sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1
+docker: quay.io/biocontainers/opentargets-validator
+aliases:
+  opentargets_validator: /usr/local/bin/opentargets_validator

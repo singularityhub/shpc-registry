@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rna-seqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rna-seqc
+latest:
+  2.3.5--h335d4e2_3: sha256:0b135dad0c88d19a477a85d4f7765bbff19d6aa99eb1b316ab2132debebc68f8
+tags:
+  2.3.5--h335d4e2_3: sha256:0b135dad0c88d19a477a85d4f7765bbff19d6aa99eb1b316ab2132debebc68f8
+docker: quay.io/biocontainers/rna-seqc
+aliases:
+  rnaseqc: /usr/local/bin/rnaseqc

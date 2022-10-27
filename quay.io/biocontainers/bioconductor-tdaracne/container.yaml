@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tdaracne
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tdaracne
+latest:
+  1.44.0--r41hdfd78af_0: sha256:049a8c4f40963b3699e08d7a841d883ec370eaaada4076df1d307580e3cd9ebb
+tags:
+  1.44.0--r41hdfd78af_0: sha256:049a8c4f40963b3699e08d7a841d883ec370eaaada4076df1d307580e3cd9ebb
+docker: quay.io/biocontainers/bioconductor-tdaracne

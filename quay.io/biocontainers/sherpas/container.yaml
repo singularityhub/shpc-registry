@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sherpas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sherpas
+latest:
+  1.0.2--h2df963e_2: sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b
+tags:
+  1.0.2--h2df963e_2: sha256:33063490cbf9298117682f7960e9c98d39313fd5eedd3af74c953b72c838d83b
+docker: quay.io/biocontainers/sherpas
+aliases:
+  SHERPAS: /usr/local/bin/SHERPAS

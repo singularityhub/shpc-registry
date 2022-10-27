@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/clever-toolkit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clever-toolkit
+latest:
+  2.4--py35_boost1.64_0: sha256:b3da30bff97f2aeb05623fe91be9b360b2209d08e8f47e776164292422e852df
+tags:
+  2.4--py35_boost1.64_0: sha256:b3da30bff97f2aeb05623fe91be9b360b2209d08e8f47e776164292422e852df
+docker: quay.io/biocontainers/clever-toolkit
+aliases:
+  add-score-tags-to-bam: /usr/local/bin/add-score-tags-to-bam
+  bam-to-alignment-priors: /usr/local/bin/bam-to-alignment-priors
+  bam2fastq: /usr/local/bin/bam2fastq
+  clever: /usr/local/bin/clever
+  clever-core: /usr/local/bin/clever-core
+  ctk-version: /usr/local/bin/ctk-version
+  evaluate-sv-predictions: /usr/local/bin/evaluate-sv-predictions
+  extract-bad-reads: /usr/local/bin/extract-bad-reads
+  filter-bam: /usr/local/bin/filter-bam
+  filter-variations: /usr/local/bin/filter-variations
+  genotyper: /usr/local/bin/genotyper
+  insert-length-histogram: /usr/local/bin/insert-length-histogram
+  laser: /usr/local/bin/laser
+  laser-core: /usr/local/bin/laser-core
+  laser-recalibrate: /usr/local/bin/laser-recalibrate
+  mateclever: /usr/local/bin/mateclever
+  mateclever-compute-rois: /usr/local/bin/mateclever-compute-rois
+  merge-putative-variations: /usr/local/bin/merge-putative-variations
+  merge-to-vcf: /usr/local/bin/merge-to-vcf
+  multiline-to-xa: /usr/local/bin/multiline-to-xa
+  plot-insert-size-distribution: /usr/local/bin/plot-insert-size-distribution
+  postprocess-predictions: /usr/local/bin/postprocess-predictions
+  precompute-distributions: /usr/local/bin/precompute-distributions
+  read-group-stats: /usr/local/bin/read-group-stats
+  remove-redundant-variations: /usr/local/bin/remove-redundant-variations
+  split-priors-by-chromosome: /usr/local/bin/split-priors-by-chromosome
+  split-reads: /usr/local/bin/split-reads
+  vcf-to-deletionlist: /usr/local/bin/vcf-to-deletionlist

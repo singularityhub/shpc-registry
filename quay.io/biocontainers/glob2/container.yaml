@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/glob2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for glob2
+latest:
+  0.4.1--py35_0: sha256:289cba62b182cda0392bec447e2efdf59d0dcedc607235a7e0b88be6950c792c
+tags:
+  0.4.1--py35_0: sha256:289cba62b182cda0392bec447e2efdf59d0dcedc607235a7e0b88be6950c792c
+docker: quay.io/biocontainers/glob2

@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/scoary
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scoary
+latest:
+  1.6.9--py36_0: sha256:57460ce504717a6217c9bd58ccc6dd55457a904298f6a9fb535018096af01d5c
+tags:
+  1.6.9--py36_0: sha256:57460ce504717a6217c9bd58ccc6dd55457a904298f6a9fb535018096af01d5c
+docker: quay.io/biocontainers/scoary
+aliases:
+  scoary: /usr/local/bin/scoary
+  scoary_GUI: /usr/local/bin/scoary_GUI

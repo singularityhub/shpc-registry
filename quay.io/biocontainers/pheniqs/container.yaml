@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pheniqs
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pheniqs
+latest:
+  2.1.0--py27h8478def_5: sha256:e17b2cb267e6b74950c8832a001ca1864c38afa9d15ca5004e64480a5b0afa1d
+tags:
+  2.1.0--py27h8478def_5: sha256:e17b2cb267e6b74950c8832a001ca1864c38afa9d15ca5004e64480a5b0afa1d
+docker: quay.io/biocontainers/pheniqs
+aliases:
+  pheniqs: /usr/local/bin/pheniqs

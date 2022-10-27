@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-globaloptions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-globaloptions
+latest:
+  0.0.8--r3.2.2_0: sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96
+tags:
+  0.0.8--r3.2.2_0: sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96
+docker: quay.io/biocontainers/r-globaloptions

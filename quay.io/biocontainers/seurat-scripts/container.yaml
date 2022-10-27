@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/seurat-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for seurat-scripts
+latest:
+  4.0.0--hdfd78af_0: sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
+tags:
+  4.0.0--hdfd78af_0: sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
+docker: quay.io/biocontainers/seurat-scripts
+aliases:
+  r-seurat-scripts-post-install-tests.bats: /usr/local/bin/r-seurat-scripts-post-install-tests.bats
+  r-seurat-scripts-post-install-tests.sh: /usr/local/bin/r-seurat-scripts-post-install-tests.sh
+  seurat-classify-against-reference.R: /usr/local/bin/seurat-classify-against-reference.R
+  seurat-convert.R: /usr/local/bin/seurat-convert.R
+  seurat-dim-plot.R: /usr/local/bin/seurat-dim-plot.R
+  seurat-export-cellbrowser.R: /usr/local/bin/seurat-export-cellbrowser.R
+  seurat-filter-cells.R: /usr/local/bin/seurat-filter-cells.R
+  seurat-find-clusters.R: /usr/local/bin/seurat-find-clusters.R
+  seurat-find-conserved-markers.R: /usr/local/bin/seurat-find-conserved-markers.R
+  seurat-find-markers.R: /usr/local/bin/seurat-find-markers.R
+  seurat-find-neighbours.R: /usr/local/bin/seurat-find-neighbours.R
+  seurat-find-variable-genes.R: /usr/local/bin/seurat-find-variable-genes.R
+  seurat-get-random-genes.R: /usr/local/bin/seurat-get-random-genes.R
+  seurat-hover-locator.R: /usr/local/bin/seurat-hover-locator.R
+  seurat-integration.R: /usr/local/bin/seurat-integration.R
+  seurat-map-query.R: /usr/local/bin/seurat-map-query.R
+  seurat-normalise-data.R: /usr/local/bin/seurat-normalise-data.R
+  seurat-plot.R: /usr/local/bin/seurat-plot.R
+  seurat-read-10x.R: /usr/local/bin/seurat-read-10x.R
+  seurat-read.R: /usr/local/bin/seurat-read.R
+  seurat-run-pca.R: /usr/local/bin/seurat-run-pca.R
+  seurat-run-tsne.R: /usr/local/bin/seurat-run-tsne.R
+  seurat-run-umap.R: /usr/local/bin/seurat-run-umap.R
+  seurat-scale-data.R: /usr/local/bin/seurat-scale-data.R
+  seurat-select-integration-features.R: /usr/local/bin/seurat-select-integration-features.R
+  seurat-split-object.R: /usr/local/bin/seurat-split-object.R

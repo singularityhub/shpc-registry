@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-font-afm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-font-afm
+latest:
+  1.20--pl5321hdfd78af_3: sha256:ff2b82eed57370cd115125679162d356e4749e8a76f5a3b42e61c8b4542b50cf
+tags:
+  1.20--pl5321hdfd78af_3: sha256:ff2b82eed57370cd115125679162d356e4749e8a76f5a3b42e61c8b4542b50cf
+docker: quay.io/biocontainers/perl-font-afm

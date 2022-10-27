@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-nabor
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-nabor
+latest:
+  0.5.0--r40_5: sha256:cba322334f7d061df5b2edc6e70a84b12415cfb10b3d83b20393948b836be666
+tags:
+  0.5.0--r40_5: sha256:cba322334f7d061df5b2edc6e70a84b12415cfb10b3d83b20393948b836be666
+docker: quay.io/biocontainers/r-nabor

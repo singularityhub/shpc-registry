@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-memoize
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-memoize
+latest:
+  1.09--pl5321hdfd78af_0: sha256:80fec2d65b667d04617c96d528d3a42af536496b47efc24d23b988c5d99a88c7
+tags:
+  1.09--pl5321hdfd78af_0: sha256:80fec2d65b667d04617c96d528d3a42af536496b47efc24d23b988c5d99a88c7
+docker: quay.io/biocontainers/perl-memoize

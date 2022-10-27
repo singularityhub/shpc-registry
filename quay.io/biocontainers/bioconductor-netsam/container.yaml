@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-netsam
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-netsam
+latest:
+  1.34.0--r41hdfd78af_0: sha256:56746614c800153552f45a65e56ec40298c95d0ea2d6a62cc6886f55169720cf
+tags:
+  1.34.0--r41hdfd78af_0: sha256:56746614c800153552f45a65e56ec40298c95d0ea2d6a62cc6886f55169720cf
+docker: quay.io/biocontainers/bioconductor-netsam

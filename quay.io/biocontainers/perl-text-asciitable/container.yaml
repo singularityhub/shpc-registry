@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-text-asciitable
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-text-asciitable
+latest:
+  0.22--pl5321hdfd78af_3: sha256:a2f3855817a466ce968679c363b44fa239c77e709f712887c6e3b11c18dba661
+tags:
+  0.22--pl5321hdfd78af_3: sha256:a2f3855817a466ce968679c363b44fa239c77e709f712887c6e3b11c18dba661
+docker: quay.io/biocontainers/perl-text-asciitable

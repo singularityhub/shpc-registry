@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-phosr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-phosr
+latest:
+  1.4.0--r41hdfd78af_0: sha256:0f26621d084b3057bdf71a41148dbf00752304fa9d26dfd2b07585cf5294cdf4
+tags:
+  1.4.0--r41hdfd78af_0: sha256:0f26621d084b3057bdf71a41148dbf00752304fa9d26dfd2b07585cf5294cdf4
+docker: quay.io/biocontainers/bioconductor-phosr

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mgfm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mgfm
+latest:
+  1.28.0--r41hdfd78af_0: sha256:4814e0d8fcafe9f37bf104c10dadd1652e8da07ad8d628ea0641c01429906503
+tags:
+  1.28.0--r41hdfd78af_0: sha256:4814e0d8fcafe9f37bf104c10dadd1652e8da07ad8d628ea0641c01429906503
+docker: quay.io/biocontainers/bioconductor-mgfm

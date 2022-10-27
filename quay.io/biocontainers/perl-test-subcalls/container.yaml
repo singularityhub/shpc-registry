@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-subcalls
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-subcalls
+latest:
+  1.10--pl5321hdfd78af_3: sha256:f833b50075a6ea8415fae33651ed02fde9d5b5cea639e8d85c7ef2dde19046dd
+tags:
+  1.10--pl5321hdfd78af_3: sha256:f833b50075a6ea8415fae33651ed02fde9d5b5cea639e8d85c7ef2dde19046dd
+docker: quay.io/biocontainers/perl-test-subcalls

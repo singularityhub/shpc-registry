@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bufet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bufet
+latest:
+  1.0--py27h470a237_0: sha256:94f7939a273bc688d28fd0257890e2fbf1b90b703df9682de9e18b29b82c08d0
+tags:
+  1.0--py27h470a237_0: sha256:94f7939a273bc688d28fd0257890e2fbf1b90b703df9682de9e18b29b82c08d0
+docker: quay.io/biocontainers/bufet
+aliases:
+  bufet.bin: /usr/local/bin/bufet.bin
+  bufet.py: /usr/local/bin/bufet.py

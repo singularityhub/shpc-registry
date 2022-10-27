@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pal2nal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pal2nal
+latest:
+  14.1--pl5321hdfd78af_3: sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209
+tags:
+  14.1--pl5321hdfd78af_3: sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209
+docker: quay.io/biocontainers/pal2nal
+aliases:
+  pal2nal.pl: /usr/local/bin/pal2nal.pl

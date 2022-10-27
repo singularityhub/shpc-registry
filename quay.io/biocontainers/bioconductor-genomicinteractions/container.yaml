@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-genomicinteractions
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-genomicinteractions
+latest:
+  1.28.0--r41hdfd78af_0: sha256:e3c4c0754ecc47d2b6815efd2fbcb80eef51eddd5eae63e39e6cd9f7036ea47b
+tags:
+  1.28.0--r41hdfd78af_0: sha256:e3c4c0754ecc47d2b6815efd2fbcb80eef51eddd5eae63e39e6cd9f7036ea47b
+docker: quay.io/biocontainers/bioconductor-genomicinteractions

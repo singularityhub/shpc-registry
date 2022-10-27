@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-chimeraviz
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-chimeraviz
+latest:
+  1.8.0--r351_0: sha256:d4e0112c0f4bd3af8946561cd9dbaaa0c9a565ac88812bca7608509a3fefc7c4
+tags:
+  1.8.0--r351_0: sha256:d4e0112c0f4bd3af8946561cd9dbaaa0c9a565ac88812bca7608509a3fefc7c4
+docker: quay.io/biocontainers/bioconductor-chimeraviz

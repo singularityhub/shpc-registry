@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/svmlight
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svmlight
+latest:
+  6.02--hec16e2b_4: sha256:d7131f4d49cbef87a5655498cd83f4606bcb2646871b413635de1b8f7914aa37
+tags:
+  6.02--hec16e2b_4: sha256:d7131f4d49cbef87a5655498cd83f4606bcb2646871b413635de1b8f7914aa37
+docker: quay.io/biocontainers/svmlight
+aliases:
+  svm_classify: /usr/local/bin/svm_classify
+  svm_learn: /usr/local/bin/svm_learn

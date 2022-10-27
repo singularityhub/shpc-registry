@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rcsl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rcsl
+latest:
+  1.2.0--r41hdfd78af_0: sha256:4513105f81dc3a9dc59b09654380e6049304c821642cda7d92248e6caefa17fc
+tags:
+  1.2.0--r41hdfd78af_0: sha256:4513105f81dc3a9dc59b09654380e6049304c821642cda7d92248e6caefa17fc
+docker: quay.io/biocontainers/bioconductor-rcsl

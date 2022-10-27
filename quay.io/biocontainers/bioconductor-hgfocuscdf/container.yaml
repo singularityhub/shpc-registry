@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-hgfocuscdf
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-hgfocuscdf
+latest:
+  2.18.0--r41hdfd78af_9: sha256:3d739305f69203437bd59fae897fd396403ab6b1a069709c691cfccc46cb708f
+tags:
+  2.18.0--r41hdfd78af_9: sha256:3d739305f69203437bd59fae897fd396403ab6b1a069709c691cfccc46cb708f
+docker: quay.io/biocontainers/bioconductor-hgfocuscdf
+aliases:
+  .bioconductor-hgfocuscdf-post-link.sh: /usr/local/bin/.bioconductor-hgfocuscdf-post-link.sh
+  .bioconductor-hgfocuscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hgfocuscdf-pre-unlink.sh

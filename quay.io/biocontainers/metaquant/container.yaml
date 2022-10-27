@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/metaquant
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaquant
+latest:
+  0.1.2--py_1: sha256:dd422c77cc00a9d2a8094699e8e062cb0a7aa5bbbffd69d1aebed8bc90b71451
+tags:
+  0.1.2--py_1: sha256:dd422c77cc00a9d2a8094699e8e062cb0a7aa5bbbffd69d1aebed8bc90b71451
+docker: quay.io/biocontainers/metaquant
+aliases:
+  metaquant: /usr/local/bin/metaquant

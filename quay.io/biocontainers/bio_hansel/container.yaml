@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bio_hansel
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bio_hansel
+latest:
+  2.6.1--py_0: sha256:f571335fbbd53a527424e6540049d4243c19e42302e84b5670ee96f769e9ba53
+tags:
+  2.6.1--py_0: sha256:f571335fbbd53a527424e6540049d4243c19e42302e84b5670ee96f769e9ba53
+docker: quay.io/biocontainers/bio_hansel
+aliases:
+  biohansel: /usr/local/bin/biohansel
+  hansel: /usr/local/bin/hansel

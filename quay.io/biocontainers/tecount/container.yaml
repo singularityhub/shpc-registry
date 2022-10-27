@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tecount
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tecount
+latest:
+  1.0.1--pyhdfd78af_0: sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a
+tags:
+  1.0.1--pyhdfd78af_0: sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a
+docker: quay.io/biocontainers/tecount
+aliases:
+  TEcount: /usr/local/bin/TEcount

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-cosmosr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cosmosr
+latest:
+  1.2.0--r41hdfd78af_0: sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0
+tags:
+  1.2.0--r41hdfd78af_0: sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0
+docker: quay.io/biocontainers/bioconductor-cosmosr
+aliases:
+  .bioconductor-bcellviper-post-link.sh: /usr/local/bin/.bioconductor-bcellviper-post-link.sh
+  .bioconductor-bcellviper-pre-unlink.sh: /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh
+  .bioconductor-dorothea-post-link.sh: /usr/local/bin/.bioconductor-dorothea-post-link.sh
+  .bioconductor-dorothea-pre-unlink.sh: /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh

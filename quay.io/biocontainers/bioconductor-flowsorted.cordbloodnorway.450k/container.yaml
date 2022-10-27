@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450k
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodnorway.450k
+latest:
+  1.8.0--r351_0: sha256:8a2f126ebe128eaee70e3b48d42a36e1507593bc5832774883d0ef1654ae143f
+tags:
+  1.8.0--r351_0: sha256:8a2f126ebe128eaee70e3b48d42a36e1507593bc5832774883d0ef1654ae143f
+docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k
+aliases:
+  .bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh
+  .bioconductor-flowsorted.cordbloodnorway.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodnorway.450k-pre-unlink.sh

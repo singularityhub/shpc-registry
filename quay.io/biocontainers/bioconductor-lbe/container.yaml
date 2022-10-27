@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-lbe
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-lbe
+latest:
+  1.62.0--r41hdfd78af_0: sha256:c89c3283594306dbc33bd2a58443c60fdb3b192e91b092f2bd3c3b53fc2109ed
+tags:
+  1.62.0--r41hdfd78af_0: sha256:c89c3283594306dbc33bd2a58443c60fdb3b192e91b092f2bd3c3b53fc2109ed
+docker: quay.io/biocontainers/bioconductor-lbe

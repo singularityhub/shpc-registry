@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mcagui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mcagui
+latest:
+  1.37.0--r40hdfd78af_1: sha256:8617ee15addcd4e213c5922a65dfb7625a6b87b00e5f87070f345b4f59975e63
+tags:
+  1.37.0--r40hdfd78af_1: sha256:8617ee15addcd4e213c5922a65dfb7625a6b87b00e5f87070f345b4f59975e63
+docker: quay.io/biocontainers/bioconductor-mcagui

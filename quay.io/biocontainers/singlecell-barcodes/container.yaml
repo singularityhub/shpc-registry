@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/singlecell-barcodes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for singlecell-barcodes
+latest:
+  0.2--hdfd78af_3: sha256:9d4c02a1269dde0d71797edf36af90ef02d9bd63587f1a5323274ac43c21ffd9
+tags:
+  0.2--hdfd78af_3: sha256:9d4c02a1269dde0d71797edf36af90ef02d9bd63587f1a5323274ac43c21ffd9
+docker: quay.io/biocontainers/singlecell-barcodes

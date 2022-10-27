@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/ete2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ete2
+latest:
+  2.3.10--py_4: sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0
+tags:
+  2.3.10--py_4: sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0
+docker: quay.io/biocontainers/ete2
+aliases:
+  ete: /usr/local/bin/ete
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay

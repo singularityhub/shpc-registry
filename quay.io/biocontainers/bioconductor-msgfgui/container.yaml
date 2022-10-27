@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-msgfgui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-msgfgui
+latest:
+  1.28.0--r41hdfd78af_0: sha256:619aa79bbf372b3d2beccf0abea343816707a9899d3b4982b93160a958c422fb
+tags:
+  1.28.0--r41hdfd78af_0: sha256:619aa79bbf372b3d2beccf0abea343816707a9899d3b4982b93160a958c422fb
+docker: quay.io/biocontainers/bioconductor-msgfgui

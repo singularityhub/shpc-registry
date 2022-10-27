@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-decipher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-decipher
+latest:
+  2.8.1--r351h470a237_0: sha256:2158f3d20a989197c7471540dd28598576eae1bc5bf87b3d06a180e97b9c71b0
+tags:
+  2.8.1--r351h470a237_0: sha256:2158f3d20a989197c7471540dd28598576eae1bc5bf87b3d06a180e97b9c71b0
+docker: quay.io/biocontainers/bioconductor-decipher

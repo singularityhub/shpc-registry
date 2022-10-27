@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/aquila_stlfr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for aquila_stlfr
+latest:
+  1.2.9--py_0: sha256:4c761deb2bb351fc8214778d87cee91a4c0003899d4b30ae11a3befe458a044e
+tags:
+  1.2.9--py_0: sha256:4c761deb2bb351fc8214778d87cee91a4c0003899d4b30ae11a3befe458a044e
+docker: quay.io/biocontainers/aquila_stlfr
+aliases:
+  Aquila_stLFR_assembly_based_variants_call: /usr/local/bin/Aquila_stLFR_assembly_based_variants_call
+  Aquila_stLFR_clean: /usr/local/bin/Aquila_stLFR_clean
+  Aquila_stLFR_fastq_preprocess: /usr/local/bin/Aquila_stLFR_fastq_preprocess
+  Aquila_stLFR_phasing_all_variants: /usr/local/bin/Aquila_stLFR_phasing_all_variants
+  Aquila_stLFR_step1: /usr/local/bin/Aquila_stLFR_step1
+  Aquila_stLFR_step2: /usr/local/bin/Aquila_stLFR_step2
+  Aquila_step0_sortbam_hybrid: /usr/local/bin/Aquila_step0_sortbam_hybrid
+  Aquila_step1_hybrid: /usr/local/bin/Aquila_step1_hybrid

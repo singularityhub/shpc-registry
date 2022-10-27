@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tabix
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tabix
+latest:
+  1.11--hdfd78af_0: sha256:106e72ca3c7ca98c12b3971ba3d2699f4ec63673976f6037a38ebf1d46727515
+tags:
+  1.11--hdfd78af_0: sha256:106e72ca3c7ca98c12b3971ba3d2699f4ec63673976f6037a38ebf1d46727515
+docker: quay.io/biocontainers/tabix

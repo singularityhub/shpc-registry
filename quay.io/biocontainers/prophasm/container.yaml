@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/prophasm
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prophasm
+latest:
+  0.1.1--hd03093a_2: sha256:96c523622d565b62749dba9c97e3e371d423e3905cb35075bac332d6196bc1cf
+tags:
+  0.1.1--hd03093a_2: sha256:96c523622d565b62749dba9c97e3e371d423e3905cb35075bac332d6196bc1cf
+docker: quay.io/biocontainers/prophasm
+aliases:
+  prophasm: /usr/local/bin/prophasm

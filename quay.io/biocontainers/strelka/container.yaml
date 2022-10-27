@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/strelka
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strelka
+latest:
+  2.9.7--0: sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3
+tags:
+  2.9.7--0: sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3
+docker: quay.io/biocontainers/strelka
+aliases:
+  configureStrelkaGermlineWorkflow.py: /usr/local/bin/configureStrelkaGermlineWorkflow.py
+  configureStrelkaSomaticWorkflow.py: /usr/local/bin/configureStrelkaSomaticWorkflow.py
+  runStrelkaGermlineWorkflowDemo.bash: /usr/local/bin/runStrelkaGermlineWorkflowDemo.bash
+  runStrelkaSomaticWorkflowDemo.bash: /usr/local/bin/runStrelkaSomaticWorkflowDemo.bash

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-microrna
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-microrna
+latest:
+  1.52.0--r41hc247a5b_2: sha256:d196c507e23c7465156333dc220b9c4ce6fba3128c6b5b0f6e6ed291125c9bb8
+tags:
+  1.52.0--r41hc247a5b_2: sha256:d196c507e23c7465156333dc220b9c4ce6fba3128c6b5b0f6e6ed291125c9bb8
+docker: quay.io/biocontainers/bioconductor-microrna

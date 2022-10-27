@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/bioconductor-mguatlas5k.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mguatlas5k.db
+latest:
+  3.2.3--r41hdfd78af_9: sha256:83747689c8ebeb20945ec4b617ff2c85adc70702ec9ef3ba04d25130f209e3ef
+tags:
+  3.2.3--r41hdfd78af_9: sha256:83747689c8ebeb20945ec4b617ff2c85adc70702ec9ef3ba04d25130f209e3ef
+docker: quay.io/biocontainers/bioconductor-mguatlas5k.db
+aliases:
+  .bioconductor-mguatlas5k.db-post-link.sh: /usr/local/bin/.bioconductor-mguatlas5k.db-post-link.sh
+  .bioconductor-mguatlas5k.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mguatlas5k.db-pre-unlink.sh

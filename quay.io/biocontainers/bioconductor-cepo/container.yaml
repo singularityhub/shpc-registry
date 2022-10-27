@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-cepo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-cepo
+latest:
+  1.0.0--r41hdfd78af_0: sha256:7dd78404848a525171bf6096cba013414497708793b021ea7ffd15c8c3644ca4
+tags:
+  1.0.0--r41hdfd78af_0: sha256:7dd78404848a525171bf6096cba013414497708793b021ea7ffd15c8c3644ca4
+docker: quay.io/biocontainers/bioconductor-cepo

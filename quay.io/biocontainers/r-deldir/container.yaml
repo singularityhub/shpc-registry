@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-deldir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-deldir
+latest:
+  0.1_12--r3.3.1_1: sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e
+tags:
+  0.1_12--r3.3.1_1: sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e
+docker: quay.io/biocontainers/r-deldir

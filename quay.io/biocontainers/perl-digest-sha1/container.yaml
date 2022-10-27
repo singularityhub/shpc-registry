@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-digest-sha1
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-digest-sha1
+latest:
+  2.13--pl5321h9f5acd7_3: sha256:f42bc242a9225e70c5c087891512f40a305b65822a1cf8185817d3d910efe678
+tags:
+  2.13--pl5321h9f5acd7_3: sha256:f42bc242a9225e70c5c087891512f40a305b65822a1cf8185817d3d910efe678
+docker: quay.io/biocontainers/perl-digest-sha1

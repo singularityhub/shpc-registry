@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bamaddrg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bamaddrg
+latest:
+  9baba65f88228e55639689a3cea38dd150e6284f--h4dc6686_2: sha256:a0f416c2cb10a266a05814a39cf040e0322a2162f32269eec041964b0e535472
+tags:
+  9baba65f88228e55639689a3cea38dd150e6284f--h4dc6686_2: sha256:a0f416c2cb10a266a05814a39cf040e0322a2162f32269eec041964b0e535472
+docker: quay.io/biocontainers/bamaddrg
+aliases:
+  bamaddrg: /usr/local/bin/bamaddrg

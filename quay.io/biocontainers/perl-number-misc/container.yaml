@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-number-misc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-number-misc
+latest:
+  1.2--pl5321hdfd78af_2: sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c
+tags:
+  1.2--pl5321hdfd78af_2: sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c
+docker: quay.io/biocontainers/perl-number-misc

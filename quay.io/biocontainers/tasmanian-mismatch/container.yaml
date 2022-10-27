@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/tasmanian-mismatch
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tasmanian-mismatch
+latest:
+  1.0.7--pyhdfd78af_0: sha256:381faa1b3f7ce4b09296412b2018f5ffa7f941015f0d42659d31a5dedec25bdd
+tags:
+  1.0.7--pyhdfd78af_0: sha256:381faa1b3f7ce4b09296412b2018f5ffa7f941015f0d42659d31a5dedec25bdd
+docker: quay.io/biocontainers/tasmanian-mismatch
+aliases:
+  run_intersections: /usr/local/bin/run_intersections
+  run_tasmanian: /usr/local/bin/run_tasmanian

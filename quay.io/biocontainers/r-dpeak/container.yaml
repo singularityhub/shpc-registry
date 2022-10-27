@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-dpeak
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-dpeak
+latest:
+  2.0.1--r41h9f5acd7_6: sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64
+tags:
+  2.0.1--r41h9f5acd7_6: sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64
+docker: quay.io/biocontainers/r-dpeak

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-robustrankaggreg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-robustrankaggreg
+latest:
+  1.1--r3.2.2_0: sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba
+tags:
+  1.1--r3.2.2_0: sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba
+docker: quay.io/biocontainers/r-robustrankaggreg

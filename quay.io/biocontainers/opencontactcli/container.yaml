@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/opencontactcli
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opencontactcli
+latest:
+  1.1--py36h5f405dc_6: sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c
+tags:
+  1.1--py36h5f405dc_6: sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c
+docker: quay.io/biocontainers/opencontactcli
+aliases:
+  OpenContactCLI: /usr/local/bin/OpenContactCLI
+  contact.cpython-36m-x86_64-linux-gnu.so: /usr/local/bin/contact.cpython-36m-x86_64-linux-gnu.so
+  contact.so: /usr/local/bin/contact.so
+  contactgui.f: /usr/local/bin/contactgui.f
+  ctresc03.pdb: /usr/local/bin/ctresc03.pdb
+  ctresc03n.pdb: /usr/local/bin/ctresc03n.pdb
+  inputgui.f: /usr/local/bin/inputgui.f
+  it.cpython-36m-x86_64-linux-gnu.so: /usr/local/bin/it.cpython-36m-x86_64-linux-gnu.so
+  it.so: /usr/local/bin/it.so
+  ljresid: /usr/local/bin/ljresid
+  ljresidn: /usr/local/bin/ljresidn
+  main_cli.py: /usr/local/bin/main_cli.py
+  ntresc03.pdb: /usr/local/bin/ntresc03.pdb
+  ntresc03n.pdb: /usr/local/bin/ntresc03n.pdb
+  residc03.pdb: /usr/local/bin/residc03.pdb
+  residc03n.pdb: /usr/local/bin/residc03n.pdb

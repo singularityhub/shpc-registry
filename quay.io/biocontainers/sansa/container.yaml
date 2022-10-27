@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sansa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sansa
+latest:
+  0.0.8--h2e9000e_4: sha256:97631d721171c37c444d137a28c4f0f518c1a6cf91da62de40101093ce4c260a
+tags:
+  0.0.8--h2e9000e_4: sha256:97631d721171c37c444d137a28c4f0f518c1a6cf91da62de40101093ce4c260a
+docker: quay.io/biocontainers/sansa
+aliases:
+  sansa: /usr/local/bin/sansa

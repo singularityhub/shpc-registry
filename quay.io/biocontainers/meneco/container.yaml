@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/meneco
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for meneco
+latest:
+  1.5.2--py36_0: sha256:d546b7def276ffca37733ab6513afe246d4c15767906788b221a7d624d5f0db0
+tags:
+  1.5.2--py36_0: sha256:d546b7def276ffca37733ab6513afe246d4c15767906788b221a7d624d5f0db0
+docker: quay.io/biocontainers/meneco
+aliases:
+  meneco.py: /usr/local/bin/meneco.py

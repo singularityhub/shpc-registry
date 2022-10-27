@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-xde
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-xde
+latest:
+  2.40.0--r41hc247a5b_2: sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490
+tags:
+  2.40.0--r41hc247a5b_2: sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490
+docker: quay.io/biocontainers/bioconductor-xde
