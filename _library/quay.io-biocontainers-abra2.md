@@ -4,9 +4,9 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2022-10-26 02:46:46.989280"
+updated_at: "2022-10-27 00:27:49.659135"
 latest: "2.24--h9f5acd7_1"
-container_url: "https://biocontainers.pro/tools/2pg_cartesian"
+container_url: "https://biocontainers.pro/tools/abra2"
 aliases:
  - "abra2"
  - "aserver"
@@ -17,12 +17,12 @@ aliases:
  - "hb-view"
 versions:
  - "2.24--h9f5acd7_1"
-description: "shpc-registry automated BioContainers addition for 2pg_cartesian"
-config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for 2pg_cartesian", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "aserver": "/usr/local/bin/aserver", "autopoint": "/usr/local/bin/autopoint", "hb-ot-shape-closure": "/usr/local/bin/hb-ot-shape-closure", "hb-shape": "/usr/local/bin/hb-shape", "hb-subset": "/usr/local/bin/hb-subset", "hb-view": "/usr/local/bin/hb-view"}}
+description: "shpc-registry automated BioContainers addition for abra2"
+config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "aserver": "/usr/local/bin/aserver", "autopoint": "/usr/local/bin/autopoint", "hb-ot-shape-closure": "/usr/local/bin/hb-ot-shape-closure", "hb-shape": "/usr/local/bin/hb-shape", "hb-subset": "/usr/local/bin/hb-subset", "hb-view": "/usr/local/bin/hb-view"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abra2.
-shpc-registry automated BioContainers addition for 2pg_cartesian
+shpc-registry automated BioContainers addition for abra2
 After [installing shpc](#install) you will want to install this container module:
 
 

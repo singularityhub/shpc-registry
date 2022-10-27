@@ -1,0 +1,214 @@
+---
+layout: container
+name:  "quay.io/biocontainers/hiddendomains"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiddendomains/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hiddendomains/container.yaml"
+updated_at: "2022-10-27 00:32:47.974212"
+latest: "3.1--pl5321r41hdfd78af_3"
+container_url: "https://biocontainers.pro/tools/hiddendomains"
+aliases:
+ - "binReads.pl"
+ - "centersToGEM.pl"
+ - "domainsMergeToBed.pl"
+ - "domainsToBed.pl"
+ - "hiddenDomains"
+ - "hiddenDomains.R"
+ - "peakCenters"
+ - "run_hiddenDomains.R"
+ - "run_hiddenDomains_no_control.R"
+versions:
+ - "3.1--pl5321r41hdfd78af_3"
+description: "shpc-registry automated BioContainers addition for hiddendomains"
+config: {"url": "https://biocontainers.pro/tools/hiddendomains", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hiddendomains", "latest": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "tags": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "docker": "quay.io/biocontainers/hiddendomains", "aliases": {"binReads.pl": "/usr/local/bin/binReads.pl", "centersToGEM.pl": "/usr/local/bin/centersToGEM.pl", "domainsMergeToBed.pl": "/usr/local/bin/domainsMergeToBed.pl", "domainsToBed.pl": "/usr/local/bin/domainsToBed.pl", "hiddenDomains": "/usr/local/bin/hiddenDomains", "hiddenDomains.R": "/usr/local/bin/hiddenDomains.R", "peakCenters": "/usr/local/bin/peakCenters", "run_hiddenDomains.R": "/usr/local/bin/run_hiddenDomains.R", "run_hiddenDomains_no_control.R": "/usr/local/bin/run_hiddenDomains_no_control.R"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/hiddendomains.
+shpc-registry automated BioContainers addition for hiddendomains
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/hiddendomains
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/hiddendomains:3.1--pl5321r41hdfd78af_3
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/hiddendomains/3.1--pl5321r41hdfd78af_3
+$ module help quay.io/biocontainers/hiddendomains/3.1--pl5321r41hdfd78af_3
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### hiddendomains-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### hiddendomains-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### hiddendomains-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### hiddendomains-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### hiddendomains-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### hiddendomains-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### binReads.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/binReads.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/binReads.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/binReads.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### centersToGEM.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/centersToGEM.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/centersToGEM.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/centersToGEM.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### domainsMergeToBed.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/domainsMergeToBed.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/domainsMergeToBed.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/domainsMergeToBed.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### domainsToBed.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/domainsToBed.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/domainsToBed.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/domainsToBed.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hiddenDomains
+
+```bash
+$ singularity exec <container> /usr/local/bin/hiddenDomains
+$ podman run --it --rm --entrypoint /usr/local/bin/hiddenDomains   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hiddenDomains   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hiddenDomains.R
+
+```bash
+$ singularity exec <container> /usr/local/bin/hiddenDomains.R
+$ podman run --it --rm --entrypoint /usr/local/bin/hiddenDomains.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hiddenDomains.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### peakCenters
+
+```bash
+$ singularity exec <container> /usr/local/bin/peakCenters
+$ podman run --it --rm --entrypoint /usr/local/bin/peakCenters   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/peakCenters   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_hiddenDomains.R
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_hiddenDomains.R
+$ podman run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_hiddenDomains_no_control.R
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_hiddenDomains_no_control.R
+$ podman run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains_no_control.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains_no_control.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

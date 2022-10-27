@@ -1,0 +1,133 @@
+---
+layout: container
+name:  "quay.io/biocontainers/bioconductor-deseq"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deseq/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deseq/container.yaml"
+updated_at: "2022-10-27 00:22:13.094800"
+latest: "1.39.0--r40h037d062_0"
+container_url: "https://biocontainers.pro/tools/bioconductor-deseq"
+
+versions:
+ - "1.39.0--r40h037d062_0"
+description: "shpc-registry automated BioContainers addition for bioconductor-deseq"
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deseq", "latest": {"1.39.0--r40h037d062_0": "sha256:fcca90e35074eafa94c166e0fb5edc4d27ceb1a3e0277241f12d45ef1b8d563e"}, "tags": {"1.39.0--r40h037d062_0": "sha256:fcca90e35074eafa94c166e0fb5edc4d27ceb1a3e0277241f12d45ef1b8d563e"}, "docker": "quay.io/biocontainers/bioconductor-deseq"}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deseq.
+shpc-registry automated BioContainers addition for bioconductor-deseq
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/bioconductor-deseq
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/bioconductor-deseq:1.39.0--r40h037d062_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/bioconductor-deseq/1.39.0--r40h037d062_0
+$ module help quay.io/biocontainers/bioconductor-deseq/1.39.0--r40h037d062_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### bioconductor-deseq-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### bioconductor-deseq-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### bioconductor-deseq-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### bioconductor-deseq-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### bioconductor-deseq-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### bioconductor-deseq-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+
+#### bioconductor-deseq
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

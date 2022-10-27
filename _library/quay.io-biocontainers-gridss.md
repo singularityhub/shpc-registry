@@ -1,0 +1,404 @@
+---
+layout: container
+name:  "quay.io/biocontainers/gridss"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gridss/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gridss/container.yaml"
+updated_at: "2022-10-27 00:56:15.819504"
+latest: "2.9.4--0"
+container_url: "https://biocontainers.pro/tools/gridss"
+aliases:
+ - "AllocateEvidence"
+ - "AnnotateInexactHomology"
+ - "AnnotateInexactHomologyBedpe"
+ - "AnnotateReferenceCoverage"
+ - "AnnotateUntemplatedSequence"
+ - "AnnotateVariants"
+ - "AssembleBreakends"
+ - "CallVariants"
+ - "CollectCigarMetrics"
+ - "CollectFragmentGCMetrics"
+ - "CollectGridssMetrics"
+ - "CollectGridssMetricsAndExtractFullReads"
+ - "CollectGridssMetricsAndExtractSVReads"
+ - "CollectIdsvMetrics"
+ - "CollectMapqMetrics"
+ - "CollectStructuralVariantReadMetrics"
+ - "CollectTagMetrics"
+ - "ComputeSamTags"
+ - "ExtractFullReads"
+ - "ExtractSVReads"
+ - "GeneratePonBedpe"
+ - "IdentifyVariants"
+ - "IndexedExtractFullReads"
+ - "ReportThresholdCoverage"
+ - "SoftClipsToSplitReads"
+ - "gridss"
+ - "gridss_annotate_insertions_repeatmaster"
+ - "gridss_somatic_filter"
+versions:
+ - "2.9.4--0"
+description: "shpc-registry automated BioContainers addition for gridss"
+config: {"url": "https://biocontainers.pro/tools/gridss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gridss", "latest": {"2.9.4--0": "sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd"}, "tags": {"2.9.4--0": "sha256:2261cbcf0559d820ce5b726b6ba439647fd768055d1c85fd4910dbdf23984dfd"}, "docker": "quay.io/biocontainers/gridss", "aliases": {"AllocateEvidence": "/usr/local/bin/AllocateEvidence", "AnnotateInexactHomology": "/usr/local/bin/AnnotateInexactHomology", "AnnotateInexactHomologyBedpe": "/usr/local/bin/AnnotateInexactHomologyBedpe", "AnnotateReferenceCoverage": "/usr/local/bin/AnnotateReferenceCoverage", "AnnotateUntemplatedSequence": "/usr/local/bin/AnnotateUntemplatedSequence", "AnnotateVariants": "/usr/local/bin/AnnotateVariants", "AssembleBreakends": "/usr/local/bin/AssembleBreakends", "CallVariants": "/usr/local/bin/CallVariants", "CollectCigarMetrics": "/usr/local/bin/CollectCigarMetrics", "CollectFragmentGCMetrics": "/usr/local/bin/CollectFragmentGCMetrics", "CollectGridssMetrics": "/usr/local/bin/CollectGridssMetrics", "CollectGridssMetricsAndExtractFullReads": "/usr/local/bin/CollectGridssMetricsAndExtractFullReads", "CollectGridssMetricsAndExtractSVReads": "/usr/local/bin/CollectGridssMetricsAndExtractSVReads", "CollectIdsvMetrics": "/usr/local/bin/CollectIdsvMetrics", "CollectMapqMetrics": "/usr/local/bin/CollectMapqMetrics", "CollectStructuralVariantReadMetrics": "/usr/local/bin/CollectStructuralVariantReadMetrics", "CollectTagMetrics": "/usr/local/bin/CollectTagMetrics", "ComputeSamTags": "/usr/local/bin/ComputeSamTags", "ExtractFullReads": "/usr/local/bin/ExtractFullReads", "ExtractSVReads": "/usr/local/bin/ExtractSVReads", "GeneratePonBedpe": "/usr/local/bin/GeneratePonBedpe", "IdentifyVariants": "/usr/local/bin/IdentifyVariants", "IndexedExtractFullReads": "/usr/local/bin/IndexedExtractFullReads", "ReportThresholdCoverage": "/usr/local/bin/ReportThresholdCoverage", "SoftClipsToSplitReads": "/usr/local/bin/SoftClipsToSplitReads", "gridss": "/usr/local/bin/gridss", "gridss_annotate_insertions_repeatmaster": "/usr/local/bin/gridss_annotate_insertions_repeatmaster", "gridss_somatic_filter": "/usr/local/bin/gridss_somatic_filter"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/gridss.
+shpc-registry automated BioContainers addition for gridss
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/gridss
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/gridss:2.9.4--0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/gridss/2.9.4--0
+$ module help quay.io/biocontainers/gridss/2.9.4--0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### gridss-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### gridss-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### gridss-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### gridss-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### gridss-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### gridss-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### AllocateEvidence
+
+```bash
+$ singularity exec <container> /usr/local/bin/AllocateEvidence
+$ podman run --it --rm --entrypoint /usr/local/bin/AllocateEvidence   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AllocateEvidence   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnnotateInexactHomology
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnnotateInexactHomology
+$ podman run --it --rm --entrypoint /usr/local/bin/AnnotateInexactHomology   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnnotateInexactHomology   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnnotateInexactHomologyBedpe
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnnotateInexactHomologyBedpe
+$ podman run --it --rm --entrypoint /usr/local/bin/AnnotateInexactHomologyBedpe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnnotateInexactHomologyBedpe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnnotateReferenceCoverage
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnnotateReferenceCoverage
+$ podman run --it --rm --entrypoint /usr/local/bin/AnnotateReferenceCoverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnnotateReferenceCoverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnnotateUntemplatedSequence
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnnotateUntemplatedSequence
+$ podman run --it --rm --entrypoint /usr/local/bin/AnnotateUntemplatedSequence   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnnotateUntemplatedSequence   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnnotateVariants
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnnotateVariants
+$ podman run --it --rm --entrypoint /usr/local/bin/AnnotateVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnnotateVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AssembleBreakends
+
+```bash
+$ singularity exec <container> /usr/local/bin/AssembleBreakends
+$ podman run --it --rm --entrypoint /usr/local/bin/AssembleBreakends   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AssembleBreakends   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CallVariants
+
+```bash
+$ singularity exec <container> /usr/local/bin/CallVariants
+$ podman run --it --rm --entrypoint /usr/local/bin/CallVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CallVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectCigarMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectCigarMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectCigarMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectCigarMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectFragmentGCMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectFragmentGCMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectFragmentGCMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectFragmentGCMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectGridssMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectGridssMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectGridssMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectGridssMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectGridssMetricsAndExtractFullReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectGridssMetricsAndExtractFullReads
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectGridssMetricsAndExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectGridssMetricsAndExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectGridssMetricsAndExtractSVReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectGridssMetricsAndExtractSVReads
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectGridssMetricsAndExtractSVReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectGridssMetricsAndExtractSVReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectIdsvMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectIdsvMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectIdsvMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectIdsvMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectMapqMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectMapqMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectMapqMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectMapqMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectStructuralVariantReadMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectStructuralVariantReadMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectStructuralVariantReadMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectStructuralVariantReadMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CollectTagMetrics
+
+```bash
+$ singularity exec <container> /usr/local/bin/CollectTagMetrics
+$ podman run --it --rm --entrypoint /usr/local/bin/CollectTagMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CollectTagMetrics   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ComputeSamTags
+
+```bash
+$ singularity exec <container> /usr/local/bin/ComputeSamTags
+$ podman run --it --rm --entrypoint /usr/local/bin/ComputeSamTags   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ComputeSamTags   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ExtractFullReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/ExtractFullReads
+$ podman run --it --rm --entrypoint /usr/local/bin/ExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ExtractSVReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/ExtractSVReads
+$ podman run --it --rm --entrypoint /usr/local/bin/ExtractSVReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ExtractSVReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### GeneratePonBedpe
+
+```bash
+$ singularity exec <container> /usr/local/bin/GeneratePonBedpe
+$ podman run --it --rm --entrypoint /usr/local/bin/GeneratePonBedpe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/GeneratePonBedpe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### IdentifyVariants
+
+```bash
+$ singularity exec <container> /usr/local/bin/IdentifyVariants
+$ podman run --it --rm --entrypoint /usr/local/bin/IdentifyVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/IdentifyVariants   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### IndexedExtractFullReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/IndexedExtractFullReads
+$ podman run --it --rm --entrypoint /usr/local/bin/IndexedExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/IndexedExtractFullReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ReportThresholdCoverage
+
+```bash
+$ singularity exec <container> /usr/local/bin/ReportThresholdCoverage
+$ podman run --it --rm --entrypoint /usr/local/bin/ReportThresholdCoverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ReportThresholdCoverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SoftClipsToSplitReads
+
+```bash
+$ singularity exec <container> /usr/local/bin/SoftClipsToSplitReads
+$ podman run --it --rm --entrypoint /usr/local/bin/SoftClipsToSplitReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SoftClipsToSplitReads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gridss
+
+```bash
+$ singularity exec <container> /usr/local/bin/gridss
+$ podman run --it --rm --entrypoint /usr/local/bin/gridss   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gridss   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gridss_annotate_insertions_repeatmaster
+
+```bash
+$ singularity exec <container> /usr/local/bin/gridss_annotate_insertions_repeatmaster
+$ podman run --it --rm --entrypoint /usr/local/bin/gridss_annotate_insertions_repeatmaster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gridss_annotate_insertions_repeatmaster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gridss_somatic_filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/gridss_somatic_filter
+$ podman run --it --rm --entrypoint /usr/local/bin/gridss_somatic_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gridss_somatic_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

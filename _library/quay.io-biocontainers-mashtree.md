@@ -1,0 +1,204 @@
+---
+layout: container
+name:  "quay.io/biocontainers/mashtree"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashtree/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mashtree/container.yaml"
+updated_at: "2022-10-27 00:29:03.713145"
+latest: "1.2.0--pl5321hec16e2b_1"
+container_url: "https://biocontainers.pro/tools/mashtree"
+aliases:
+ - "mashtree"
+ - "mashtree_bootstrap.pl"
+ - "mashtree_cluster.pl"
+ - "mashtree_init.pl"
+ - "mashtree_jackknife.pl"
+ - "mashtree_wrapper_deprecated.pl"
+ - "min_abundance_finder.pl"
+ - "quicktree"
+versions:
+ - "1.2.0--pl5321hec16e2b_1"
+description: "shpc-registry automated BioContainers addition for mashtree"
+config: {"url": "https://biocontainers.pro/tools/mashtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashtree", "latest": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "tags": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "docker": "quay.io/biocontainers/mashtree", "aliases": {"mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "quicktree": "/usr/local/bin/quicktree"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/mashtree.
+shpc-registry automated BioContainers addition for mashtree
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/mashtree
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/mashtree:1.2.0--pl5321hec16e2b_1
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/mashtree/1.2.0--pl5321hec16e2b_1
+$ module help quay.io/biocontainers/mashtree/1.2.0--pl5321hec16e2b_1
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### mashtree-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### mashtree-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### mashtree-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### mashtree-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### mashtree-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### mashtree-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### mashtree
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mashtree_bootstrap.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree_bootstrap.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree_bootstrap.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree_bootstrap.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mashtree_cluster.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree_cluster.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree_cluster.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree_cluster.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mashtree_init.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree_init.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree_init.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree_init.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mashtree_jackknife.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree_jackknife.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree_jackknife.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree_jackknife.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mashtree_wrapper_deprecated.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mashtree_wrapper_deprecated.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/mashtree_wrapper_deprecated.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mashtree_wrapper_deprecated.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### min_abundance_finder.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/min_abundance_finder.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/min_abundance_finder.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/min_abundance_finder.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quicktree
+
+```bash
+$ singularity exec <container> /usr/local/bin/quicktree
+$ podman run --it --rm --entrypoint /usr/local/bin/quicktree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quicktree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

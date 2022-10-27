@@ -1,0 +1,164 @@
+---
+layout: container
+name:  "quay.io/biocontainers/ceas"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ceas/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ceas/container.yaml"
+updated_at: "2022-10-27 00:29:01.168032"
+latest: "1.0.2--py_2"
+container_url: "https://biocontainers.pro/tools/ceas"
+aliases:
+ - "build_genomeBG"
+ - "ceas"
+ - "gca"
+ - "sitepro"
+versions:
+ - "1.0.2--py_2"
+description: "shpc-registry automated BioContainers addition for ceas"
+config: {"url": "https://biocontainers.pro/tools/ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ceas", "latest": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "tags": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "docker": "quay.io/biocontainers/ceas", "aliases": {"build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/ceas.
+shpc-registry automated BioContainers addition for ceas
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/ceas
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/ceas:1.0.2--py_2
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/ceas/1.0.2--py_2
+$ module help quay.io/biocontainers/ceas/1.0.2--py_2
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### ceas-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### ceas-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### ceas-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### ceas-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### ceas-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### ceas-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### build_genomeBG
+
+```bash
+$ singularity exec <container> /usr/local/bin/build_genomeBG
+$ podman run --it --rm --entrypoint /usr/local/bin/build_genomeBG   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/build_genomeBG   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ceas
+
+```bash
+$ singularity exec <container> /usr/local/bin/ceas
+$ podman run --it --rm --entrypoint /usr/local/bin/ceas   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ceas   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gca
+
+```bash
+$ singularity exec <container> /usr/local/bin/gca
+$ podman run --it --rm --entrypoint /usr/local/bin/gca   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gca   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sitepro
+
+```bash
+$ singularity exec <container> /usr/local/bin/sitepro
+$ podman run --it --rm --entrypoint /usr/local/bin/sitepro   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sitepro   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

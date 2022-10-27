@@ -1,0 +1,214 @@
+---
+layout: container
+name:  "quay.io/biocontainers/bctools"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bctools/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bctools/container.yaml"
+updated_at: "2022-10-27 01:09:49.893994"
+latest: "0.2.2--2"
+container_url: "https://biocontainers.pro/tools/bctools"
+aliases:
+ - "convert_bc_to_binary_RY.py"
+ - "coords2clnt.py"
+ - "datamash"
+ - "extract_aln_ends.py"
+ - "extract_bcs.py"
+ - "merge_pcr_duplicates.py"
+ - "remove_tail.py"
+ - "rm_spurious_events.pl"
+ - "rm_spurious_events.py"
+versions:
+ - "0.2.2--2"
+description: "shpc-registry automated BioContainers addition for bctools"
+config: {"url": "https://biocontainers.pro/tools/bctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bctools", "latest": {"0.2.2--2": "sha256:bcb2c89ff57e304a17cc1191417a7c89dded0c392fff4bbfeed04ffe40eddc79"}, "tags": {"0.2.2--2": "sha256:bcb2c89ff57e304a17cc1191417a7c89dded0c392fff4bbfeed04ffe40eddc79"}, "docker": "quay.io/biocontainers/bctools", "aliases": {"convert_bc_to_binary_RY.py": "/usr/local/bin/convert_bc_to_binary_RY.py", "coords2clnt.py": "/usr/local/bin/coords2clnt.py", "datamash": "/usr/local/bin/datamash", "extract_aln_ends.py": "/usr/local/bin/extract_aln_ends.py", "extract_bcs.py": "/usr/local/bin/extract_bcs.py", "merge_pcr_duplicates.py": "/usr/local/bin/merge_pcr_duplicates.py", "remove_tail.py": "/usr/local/bin/remove_tail.py", "rm_spurious_events.pl": "/usr/local/bin/rm_spurious_events.pl", "rm_spurious_events.py": "/usr/local/bin/rm_spurious_events.py"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/bctools.
+shpc-registry automated BioContainers addition for bctools
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/bctools
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/bctools:0.2.2--2
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/bctools/0.2.2--2
+$ module help quay.io/biocontainers/bctools/0.2.2--2
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### bctools-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### bctools-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### bctools-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### bctools-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### bctools-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### bctools-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### convert_bc_to_binary_RY.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert_bc_to_binary_RY.py
+$ podman run --it --rm --entrypoint /usr/local/bin/convert_bc_to_binary_RY.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert_bc_to_binary_RY.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coords2clnt.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/coords2clnt.py
+$ podman run --it --rm --entrypoint /usr/local/bin/coords2clnt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coords2clnt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### datamash
+
+```bash
+$ singularity exec <container> /usr/local/bin/datamash
+$ podman run --it --rm --entrypoint /usr/local/bin/datamash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/datamash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extract_aln_ends.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/extract_aln_ends.py
+$ podman run --it --rm --entrypoint /usr/local/bin/extract_aln_ends.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extract_aln_ends.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extract_bcs.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/extract_bcs.py
+$ podman run --it --rm --entrypoint /usr/local/bin/extract_bcs.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extract_bcs.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### merge_pcr_duplicates.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/merge_pcr_duplicates.py
+$ podman run --it --rm --entrypoint /usr/local/bin/merge_pcr_duplicates.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merge_pcr_duplicates.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### remove_tail.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/remove_tail.py
+$ podman run --it --rm --entrypoint /usr/local/bin/remove_tail.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/remove_tail.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rm_spurious_events.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/rm_spurious_events.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/rm_spurious_events.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rm_spurious_events.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rm_spurious_events.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rm_spurious_events.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rm_spurious_events.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rm_spurious_events.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

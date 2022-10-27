@@ -4,7 +4,7 @@ name:  "biocontainers/picard-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/picard-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/picard-tools/container.yaml"
-updated_at: "2022-10-26 02:48:31.537796"
+updated_at: "2022-10-27 01:17:39.505305"
 latest: "v2.18.25dfsg-2-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/picard-tools/tags"
 

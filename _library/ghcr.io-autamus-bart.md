@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bart/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/bart/container.yaml"
-updated_at: "2022-10-26 02:47:43.798101"
+updated_at: "2022-10-27 01:16:51.221454"
 latest: "0.7.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bart"
 aliases:

@@ -1,0 +1,174 @@
+---
+layout: container
+name:  "quay.io/biocontainers/unicycler"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unicycler/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/unicycler/container.yaml"
+updated_at: "2022-10-27 00:41:06.183810"
+latest: "0.5.0--py39h2add14b_2"
+container_url: "https://biocontainers.pro/tools/unicycler"
+aliases:
+ - "coronaspades.py"
+ - "metaplasmidspades.py"
+ - "metaviralspades.py"
+ - "rnaviralspades.py"
+ - "unicycler"
+versions:
+ - "0.5.0--py39h2add14b_2"
+description: "shpc-registry automated BioContainers addition for unicycler"
+config: {"url": "https://biocontainers.pro/tools/unicycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unicycler", "latest": {"0.5.0--py39h2add14b_2": "sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da"}, "tags": {"0.5.0--py39h2add14b_2": "sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da"}, "docker": "quay.io/biocontainers/unicycler", "aliases": {"coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "unicycler": "/usr/local/bin/unicycler"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/unicycler.
+shpc-registry automated BioContainers addition for unicycler
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/unicycler
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/unicycler:0.5.0--py39h2add14b_2
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/unicycler/0.5.0--py39h2add14b_2
+$ module help quay.io/biocontainers/unicycler/0.5.0--py39h2add14b_2
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### unicycler-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### unicycler-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### unicycler-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### unicycler-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### unicycler-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### unicycler-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### coronaspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/coronaspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/coronaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coronaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metaplasmidspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaplasmidspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/metaplasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaplasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metaviralspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaviralspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/metaviralspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaviralspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rnaviralspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rnaviralspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rnaviralspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rnaviralspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unicycler
+
+```bash
+$ singularity exec <container> /usr/local/bin/unicycler
+$ podman run --it --rm --entrypoint /usr/local/bin/unicycler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unicycler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

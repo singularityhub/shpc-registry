@@ -4,7 +4,7 @@ name:  "biocontainers/emboss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/biocontainers/emboss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/biocontainers/emboss/container.yaml"
-updated_at: "2022-10-26 02:48:32.425291"
+updated_at: "2022-10-27 01:17:40.393118"
 latest: "v6.6.0dfsg-7b1-deb_cv1"
 container_url: "https://hub.docker.com/r/biocontainers/emboss"
 aliases:

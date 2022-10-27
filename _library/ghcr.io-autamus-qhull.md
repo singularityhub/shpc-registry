@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/qhull/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/qhull/container.yaml"
-updated_at: "2022-10-26 02:47:56.167787"
+updated_at: "2022-10-27 01:17:03.547092"
 latest: "2020.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/qhull"
 aliases:

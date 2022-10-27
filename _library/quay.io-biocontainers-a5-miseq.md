@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/a5-miseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/a5-miseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/a5-miseq/container.yaml"
-updated_at: "2022-10-26 02:46:58.707124"
+updated_at: "2022-10-27 01:06:45.951762"
 latest: "20160825--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/a5-miseq"
 aliases:

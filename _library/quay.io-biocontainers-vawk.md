@@ -4,19 +4,20 @@ name:  "quay.io/biocontainers/vawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vawk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vawk/container.yaml"
-updated_at: "2022-10-26 02:46:48.357080"
+updated_at: "2022-10-27 00:31:24.167932"
 latest: "0.0.2--py_4"
-container_url: "https://singularity-hpc.readthedocs.io"
+container_url: "https://biocontainers.pro/tools/vawk"
 aliases:
+ - "gawk-4.2.1"
  - "vawk"
 versions:
  - "0.0.2--py_4"
-description: "A custom container to do X."
-config: {"url": "https://singularity-hpc.readthedocs.io", "maintainer": "Dinosaur", "description": "A custom container to do X.", "latest": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "tags": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "docker": "quay.io/biocontainers/vawk", "aliases": {"vawk": "/usr/local/bin/vawk"}}
+description: "shpc-registry automated BioContainers addition for vawk"
+config: {"url": "https://biocontainers.pro/tools/vawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vawk", "latest": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "tags": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "docker": "quay.io/biocontainers/vawk", "aliases": {"gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "vawk": "/usr/local/bin/vawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vawk.
-A custom container to do X.
+shpc-registry automated BioContainers addition for vawk
 After [installing shpc](#install) you will want to install this container module:
 
 
@@ -95,6 +96,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### gawk-4.2.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-4.2.1
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-4.2.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-4.2.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

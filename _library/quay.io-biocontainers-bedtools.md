@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bedtools/container.yaml"
-updated_at: "2022-10-26 02:46:59.991937"
+updated_at: "2022-10-27 01:08:33.325797"
 latest: "2.30.0--h468198e_3"
 container_url: "https://quay.io/repository/biocontainers/bedtools"
 aliases:

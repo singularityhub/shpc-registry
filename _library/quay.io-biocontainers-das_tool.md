@@ -1,0 +1,184 @@
+---
+layout: container
+name:  "quay.io/biocontainers/das_tool"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/das_tool/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/das_tool/container.yaml"
+updated_at: "2022-10-27 01:13:18.648318"
+latest: "1.1.5--r41hdfd78af_0"
+container_url: "https://biocontainers.pro/tools/das_tool"
+aliases:
+ - ".das_tool-post-link.sh"
+ - "Contigs2Bin_to_Fasta.sh"
+ - "DAS_Tool"
+ - "Fasta_to_Contig2Bin.sh"
+ - "pullseq"
+ - "seqdiff"
+versions:
+ - "1.1.5--r41hdfd78af_0"
+description: "shpc-registry automated BioContainers addition for das_tool"
+config: {"url": "https://biocontainers.pro/tools/das_tool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for das_tool", "latest": {"1.1.5--r41hdfd78af_0": "sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab"}, "tags": {"1.1.5--r41hdfd78af_0": "sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab"}, "docker": "quay.io/biocontainers/das_tool", "aliases": {".das_tool-post-link.sh": "/usr/local/bin/.das_tool-post-link.sh", "Contigs2Bin_to_Fasta.sh": "/usr/local/bin/Contigs2Bin_to_Fasta.sh", "DAS_Tool": "/usr/local/bin/DAS_Tool", "Fasta_to_Contig2Bin.sh": "/usr/local/bin/Fasta_to_Contig2Bin.sh", "pullseq": "/usr/local/bin/pullseq", "seqdiff": "/usr/local/bin/seqdiff"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/das_tool.
+shpc-registry automated BioContainers addition for das_tool
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/das_tool
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/das_tool:1.1.5--r41hdfd78af_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/das_tool/1.1.5--r41hdfd78af_0
+$ module help quay.io/biocontainers/das_tool/1.1.5--r41hdfd78af_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### das_tool-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### das_tool-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### das_tool-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### das_tool-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### das_tool-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### das_tool-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### .das_tool-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.das_tool-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.das_tool-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.das_tool-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Contigs2Bin_to_Fasta.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/Contigs2Bin_to_Fasta.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/Contigs2Bin_to_Fasta.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Contigs2Bin_to_Fasta.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DAS_Tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/DAS_Tool
+$ podman run --it --rm --entrypoint /usr/local/bin/DAS_Tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DAS_Tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Fasta_to_Contig2Bin.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/Fasta_to_Contig2Bin.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/Fasta_to_Contig2Bin.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Fasta_to_Contig2Bin.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pullseq
+
+```bash
+$ singularity exec <container> /usr/local/bin/pullseq
+$ podman run --it --rm --entrypoint /usr/local/bin/pullseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pullseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seqdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/seqdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

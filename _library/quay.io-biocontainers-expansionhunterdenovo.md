@@ -1,0 +1,294 @@
+---
+layout: container
+name:  "quay.io/biocontainers/expansionhunterdenovo"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
+updated_at: "2022-10-27 00:46:56.184608"
+latest: "0.9.0--h2369a32_5"
+container_url: "https://biocontainers.pro/tools/expansionhunterdenovo"
+aliases:
+ - "ExpansionHunterDenovo"
+ - "ccmake"
+ - "cmake"
+ - "cpack"
+ - "ctest"
+ - "ed2k-link"
+ - "edonr256-hash"
+ - "edonr512-hash"
+ - "gost12-256-hash"
+ - "gost12-512-hash"
+ - "has160-hash"
+ - "magnet-link"
+ - "rhash"
+ - "sfv-hash"
+ - "tiger-hash"
+ - "tth-hash"
+ - "whirlpool-hash"
+versions:
+ - "0.9.0--h2369a32_5"
+description: "shpc-registry automated BioContainers addition for expansionhunterdenovo"
+config: {"url": "https://biocontainers.pro/tools/expansionhunterdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunterdenovo", "latest": {"0.9.0--h2369a32_5": "sha256:3a9c318138bb85cdf0fa115c074ca45fe1d9f81e687df6bfd36e795ad6f7d664"}, "tags": {"0.9.0--h2369a32_5": "sha256:3a9c318138bb85cdf0fa115c074ca45fe1d9f81e687df6bfd36e795ad6f7d664"}, "docker": "quay.io/biocontainers/expansionhunterdenovo", "aliases": {"ExpansionHunterDenovo": "/usr/local/bin/ExpansionHunterDenovo", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/expansionhunterdenovo.
+shpc-registry automated BioContainers addition for expansionhunterdenovo
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/expansionhunterdenovo
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/expansionhunterdenovo:0.9.0--h2369a32_5
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/expansionhunterdenovo/0.9.0--h2369a32_5
+$ module help quay.io/biocontainers/expansionhunterdenovo/0.9.0--h2369a32_5
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### expansionhunterdenovo-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### expansionhunterdenovo-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### expansionhunterdenovo-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### expansionhunterdenovo-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### expansionhunterdenovo-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### expansionhunterdenovo-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### ExpansionHunterDenovo
+
+```bash
+$ singularity exec <container> /usr/local/bin/ExpansionHunterDenovo
+$ podman run --it --rm --entrypoint /usr/local/bin/ExpansionHunterDenovo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ExpansionHunterDenovo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccmake
+$ podman run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmake
+$ podman run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpack
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpack
+$ podman run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ctest
+
+```bash
+$ singularity exec <container> /usr/local/bin/ctest
+$ podman run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ed2k-link
+
+```bash
+$ singularity exec <container> /usr/local/bin/ed2k-link
+$ podman run --it --rm --entrypoint /usr/local/bin/ed2k-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ed2k-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### edonr256-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/edonr256-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/edonr256-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edonr256-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### edonr512-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/edonr512-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/edonr512-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edonr512-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gost12-256-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/gost12-256-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/gost12-256-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gost12-256-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gost12-512-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/gost12-512-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/gost12-512-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gost12-512-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### has160-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/has160-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/has160-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/has160-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### magnet-link
+
+```bash
+$ singularity exec <container> /usr/local/bin/magnet-link
+$ podman run --it --rm --entrypoint /usr/local/bin/magnet-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/magnet-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rhash
+
+```bash
+$ singularity exec <container> /usr/local/bin/rhash
+$ podman run --it --rm --entrypoint /usr/local/bin/rhash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rhash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sfv-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/sfv-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/sfv-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sfv-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tiger-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/tiger-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/tiger-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tiger-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tth-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/tth-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/tth-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tth-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### whirlpool-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/whirlpool-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/whirlpool-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/whirlpool-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

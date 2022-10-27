@@ -4,19 +4,19 @@ name:  "quay.io/biocontainers/abpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abpoa/container.yaml"
-updated_at: "2022-10-26 02:46:50.929160"
+updated_at: "2022-10-27 00:39:54.341750"
 latest: "1.4.1--h7132678_1"
-container_url: "https://biocontainers.pro/tools/2pg_cartesian"
+container_url: "https://biocontainers.pro/tools/abpoa"
 aliases:
  - "abpoa"
 versions:
  - "1.4.1--h7132678_1"
-description: "shpc-registry automated BioContainers addition for 2pg_cartesian"
-config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for 2pg_cartesian", "latest": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "tags": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "docker": "quay.io/biocontainers/abpoa", "aliases": {"abpoa": "/usr/local/bin/abpoa"}}
+description: "shpc-registry automated BioContainers addition for abpoa"
+config: {"url": "https://biocontainers.pro/tools/abpoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abpoa", "latest": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "tags": {"1.4.1--h7132678_1": "sha256:5648a89bda11703b9419176b17ae7858465dfe9261444a15a7fb65d5a895945d"}, "docker": "quay.io/biocontainers/abpoa", "aliases": {"abpoa": "/usr/local/bin/abpoa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abpoa.
-shpc-registry automated BioContainers addition for 2pg_cartesian
+shpc-registry automated BioContainers addition for abpoa
 After [installing shpc](#install) you will want to install this container module:
 
 

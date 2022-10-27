@@ -1,0 +1,334 @@
+---
+layout: container
+name:  "quay.io/biocontainers/entrez-direct"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/entrez-direct/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/entrez-direct/container.yaml"
+updated_at: "2022-10-27 00:23:48.655650"
+latest: "7.70--pl526_2"
+container_url: "https://biocontainers.pro/tools/entrez-direct"
+aliases:
+ - "asp-ls.bak"
+ - "edirect.pl.bak"
+ - "edirutil.bak"
+ - "erase-pubmed"
+ - "ftp-cp.bak"
+ - "ftp-ls.bak"
+ - "gbf2xml.bak"
+ - "get-stash-uids"
+ - "invert-pubmed"
+ - "log-pubmed"
+ - "master-pubmed"
+ - "merge-pubmed"
+ - "nquire.bak"
+ - "prepare-stash"
+ - "promote-pubmed"
+ - "refresh-versioned"
+ - "repack-pubmed"
+ - "run-ncbi-converter.bak"
+ - "setup-deps.pl.bak"
+ - "setup.sh.orig"
+ - "stash-pubmed"
+versions:
+ - "7.70--pl526_2"
+description: "shpc-registry automated BioContainers addition for entrez-direct"
+config: {"url": "https://biocontainers.pro/tools/entrez-direct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for entrez-direct", "latest": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "tags": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "docker": "quay.io/biocontainers/entrez-direct", "aliases": {"asp-ls.bak": "/usr/local/bin/asp-ls.bak", "edirect.pl.bak": "/usr/local/bin/edirect.pl.bak", "edirutil.bak": "/usr/local/bin/edirutil.bak", "erase-pubmed": "/usr/local/bin/erase-pubmed", "ftp-cp.bak": "/usr/local/bin/ftp-cp.bak", "ftp-ls.bak": "/usr/local/bin/ftp-ls.bak", "gbf2xml.bak": "/usr/local/bin/gbf2xml.bak", "get-stash-uids": "/usr/local/bin/get-stash-uids", "invert-pubmed": "/usr/local/bin/invert-pubmed", "log-pubmed": "/usr/local/bin/log-pubmed", "master-pubmed": "/usr/local/bin/master-pubmed", "merge-pubmed": "/usr/local/bin/merge-pubmed", "nquire.bak": "/usr/local/bin/nquire.bak", "prepare-stash": "/usr/local/bin/prepare-stash", "promote-pubmed": "/usr/local/bin/promote-pubmed", "refresh-versioned": "/usr/local/bin/refresh-versioned", "repack-pubmed": "/usr/local/bin/repack-pubmed", "run-ncbi-converter.bak": "/usr/local/bin/run-ncbi-converter.bak", "setup-deps.pl.bak": "/usr/local/bin/setup-deps.pl.bak", "setup.sh.orig": "/usr/local/bin/setup.sh.orig", "stash-pubmed": "/usr/local/bin/stash-pubmed"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/entrez-direct.
+shpc-registry automated BioContainers addition for entrez-direct
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/entrez-direct
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/entrez-direct:7.70--pl526_2
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/entrez-direct/7.70--pl526_2
+$ module help quay.io/biocontainers/entrez-direct/7.70--pl526_2
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### entrez-direct-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### entrez-direct-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### entrez-direct-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### entrez-direct-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### entrez-direct-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### entrez-direct-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### asp-ls.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### edirect.pl.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/edirect.pl.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/edirect.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edirect.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### edirutil.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/edirutil.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/edirutil.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edirutil.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### erase-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/erase-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/erase-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/erase-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ftp-cp.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/ftp-cp.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/ftp-cp.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ftp-cp.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ftp-ls.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/ftp-ls.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/ftp-ls.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ftp-ls.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gbf2xml.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/gbf2xml.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/gbf2xml.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gbf2xml.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### get-stash-uids
+
+```bash
+$ singularity exec <container> /usr/local/bin/get-stash-uids
+$ podman run --it --rm --entrypoint /usr/local/bin/get-stash-uids   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/get-stash-uids   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invert-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/invert-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/invert-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invert-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### log-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/log-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/log-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/log-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### master-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/master-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/master-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/master-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### merge-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/merge-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/merge-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merge-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nquire.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/nquire.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/nquire.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nquire.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prepare-stash
+
+```bash
+$ singularity exec <container> /usr/local/bin/prepare-stash
+$ podman run --it --rm --entrypoint /usr/local/bin/prepare-stash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prepare-stash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### promote-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/promote-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/promote-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/promote-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### refresh-versioned
+
+```bash
+$ singularity exec <container> /usr/local/bin/refresh-versioned
+$ podman run --it --rm --entrypoint /usr/local/bin/refresh-versioned   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/refresh-versioned   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### repack-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/repack-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/repack-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/repack-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-ncbi-converter.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-ncbi-converter.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/run-ncbi-converter.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-ncbi-converter.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### setup-deps.pl.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/setup-deps.pl.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/setup-deps.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/setup-deps.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### setup.sh.orig
+
+```bash
+$ singularity exec <container> /usr/local/bin/setup.sh.orig
+$ podman run --it --rm --entrypoint /usr/local/bin/setup.sh.orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/setup.sh.orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stash-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/stash-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/stash-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stash-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

@@ -1,0 +1,224 @@
+---
+layout: container
+name:  "quay.io/biocontainers/krakenuniq"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenuniq/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/krakenuniq/container.yaml"
+updated_at: "2022-10-27 00:41:05.758703"
+latest: "1.0.1a--pl5321h19e8d03_1"
+container_url: "https://biocontainers.pro/tools/krakenuniq"
+aliases:
+ - "build_taxdb"
+ - "krakenuniq"
+ - "krakenuniq-build"
+ - "krakenuniq-download"
+ - "krakenuniq-extract-reads"
+ - "krakenuniq-filter"
+ - "krakenuniq-mpa-report"
+ - "krakenuniq-report"
+ - "krakenuniq-translate"
+ - "read_merger.pl"
+versions:
+ - "1.0.1a--pl5321h19e8d03_1"
+description: "shpc-registry automated BioContainers addition for krakenuniq"
+config: {"url": "https://biocontainers.pro/tools/krakenuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenuniq", "latest": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e"}, "tags": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e"}, "docker": "quay.io/biocontainers/krakenuniq", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenuniq": "/usr/local/bin/krakenuniq", "krakenuniq-build": "/usr/local/bin/krakenuniq-build", "krakenuniq-download": "/usr/local/bin/krakenuniq-download", "krakenuniq-extract-reads": "/usr/local/bin/krakenuniq-extract-reads", "krakenuniq-filter": "/usr/local/bin/krakenuniq-filter", "krakenuniq-mpa-report": "/usr/local/bin/krakenuniq-mpa-report", "krakenuniq-report": "/usr/local/bin/krakenuniq-report", "krakenuniq-translate": "/usr/local/bin/krakenuniq-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/krakenuniq.
+shpc-registry automated BioContainers addition for krakenuniq
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/krakenuniq
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/krakenuniq:1.0.1a--pl5321h19e8d03_1
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/krakenuniq/1.0.1a--pl5321h19e8d03_1
+$ module help quay.io/biocontainers/krakenuniq/1.0.1a--pl5321h19e8d03_1
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### krakenuniq-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### krakenuniq-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### krakenuniq-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### krakenuniq-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### krakenuniq-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### krakenuniq-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### build_taxdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/build_taxdb
+$ podman run --it --rm --entrypoint /usr/local/bin/build_taxdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/build_taxdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-build
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-download
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-download
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-extract-reads
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-extract-reads
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-extract-reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-extract-reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-mpa-report
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-mpa-report
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-mpa-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-mpa-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-report
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-report
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### krakenuniq-translate
+
+```bash
+$ singularity exec <container> /usr/local/bin/krakenuniq-translate
+$ podman run --it --rm --entrypoint /usr/local/bin/krakenuniq-translate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/krakenuniq-translate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### read_merger.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/read_merger.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/read_merger.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/read_merger.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

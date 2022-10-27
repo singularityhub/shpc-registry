@@ -1,0 +1,154 @@
+---
+layout: container
+name:  "quay.io/biocontainers/r-dimsum"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dimsum/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-dimsum/container.yaml"
+updated_at: "2022-10-27 01:05:08.416159"
+latest: "1.2.9--r41hdfd78af_0"
+container_url: "https://biocontainers.pro/tools/r-dimsum"
+aliases:
+ - "DiMSum"
+ - "DiMSum.R"
+ - "DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz"
+versions:
+ - "1.2.9--r41hdfd78af_0"
+description: "shpc-registry automated BioContainers addition for r-dimsum"
+config: {"url": "https://biocontainers.pro/tools/r-dimsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dimsum", "latest": {"1.2.9--r41hdfd78af_0": "sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e"}, "tags": {"1.2.9--r41hdfd78af_0": "sha256:93b3f9f4310f3c370e5bfd09963575f6b8728c94342e3d6a4d0e1ea7d2d0f78e"}, "docker": "quay.io/biocontainers/r-dimsum", "aliases": {"DiMSum": "/usr/local/bin/DiMSum", "DiMSum.R": "/usr/local/bin/DiMSum.R", "DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz": "/usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/r-dimsum.
+shpc-registry automated BioContainers addition for r-dimsum
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/r-dimsum
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/r-dimsum:1.2.9--r41hdfd78af_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/r-dimsum/1.2.9--r41hdfd78af_0
+$ module help quay.io/biocontainers/r-dimsum/1.2.9--r41hdfd78af_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### r-dimsum-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### r-dimsum-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### r-dimsum-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### r-dimsum-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### r-dimsum-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### r-dimsum-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### DiMSum
+
+```bash
+$ singularity exec <container> /usr/local/bin/DiMSum
+$ podman run --it --rm --entrypoint /usr/local/bin/DiMSum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DiMSum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DiMSum.R
+
+```bash
+$ singularity exec <container> /usr/local/bin/DiMSum.R
+$ podman run --it --rm --entrypoint /usr/local/bin/DiMSum.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DiMSum.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz
+
+```bash
+$ singularity exec <container> /usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz
+$ podman run --it --rm --entrypoint /usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

@@ -1,0 +1,544 @@
+---
+layout: container
+name:  "quay.io/biocontainers/secimtools"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secimtools/container.yaml"
+config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/secimtools/container.yaml"
+updated_at: "2022-10-27 00:53:37.760105"
+latest: "22.3.23--pyhdfd78af_0"
+container_url: "https://biocontainers.pro/tools/secimtools"
+aliases:
+ - "add_group_rank.py"
+ - "anova_fixed.py"
+ - "bland_altman_plot.py"
+ - "blank_feature_filtering_flags.py"
+ - "coefficient_variation_flags.py"
+ - "compare_flags.py"
+ - "compound_identification.py"
+ - "data_normalization_and_rescaling.py"
+ - "distribution_features.py"
+ - "distribution_samples.py"
+ - "hierarchical_clustering_heatmap.py"
+ - "imputation.py"
+ - "kruskal_wallis.py"
+ - "lasso_enet_var_select.py"
+ - "linear_discriminant_analysis.py"
+ - "log_and_glog_transformation.py"
+ - "magnitude_difference_flags.py"
+ - "mahalanobis_distance.py"
+ - "merge_flags.py"
+ - "meta_analysis.py"
+ - "modify_design_file.py"
+ - "modulated_modularity_clustering.py"
+ - "multiple_testing_adjustment.py"
+ - "mzrt_match.py"
+ - "partial_least_squares.py"
+ - "principal_component_analysis.py"
+ - "random_forest.py"
+ - "remove_selected_features_samples.py"
+ - "remove_user_specified_row_col.py"
+ - "retention_time_flags.py"
+ - "run_order_regression.py"
+ - "scatter_plot_2D.py"
+ - "scatter_plot_3D.py"
+ - "standardized_euclidean_distance.py"
+ - "subset_data.py"
+ - "summarize_flags.py"
+ - "svm_classifier.py"
+ - "threshold_based_flags.py"
+ - "ttest.py"
+ - "ttest_perm.py"
+ - "ttest_single_group.py"
+ - "upset_plot.py"
+versions:
+ - "22.3.23--pyhdfd78af_0"
+description: "shpc-registry automated BioContainers addition for secimtools"
+config: {"url": "https://biocontainers.pro/tools/secimtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for secimtools", "latest": {"22.3.23--pyhdfd78af_0": "sha256:c830e3fecf15b47d501dd2d2edfc74baa9594ff6913f45f715b400aabd6ca742"}, "tags": {"22.3.23--pyhdfd78af_0": "sha256:c830e3fecf15b47d501dd2d2edfc74baa9594ff6913f45f715b400aabd6ca742"}, "docker": "quay.io/biocontainers/secimtools", "aliases": {"add_group_rank.py": "/usr/local/bin/add_group_rank.py", "anova_fixed.py": "/usr/local/bin/anova_fixed.py", "bland_altman_plot.py": "/usr/local/bin/bland_altman_plot.py", "blank_feature_filtering_flags.py": "/usr/local/bin/blank_feature_filtering_flags.py", "coefficient_variation_flags.py": "/usr/local/bin/coefficient_variation_flags.py", "compare_flags.py": "/usr/local/bin/compare_flags.py", "compound_identification.py": "/usr/local/bin/compound_identification.py", "data_normalization_and_rescaling.py": "/usr/local/bin/data_normalization_and_rescaling.py", "distribution_features.py": "/usr/local/bin/distribution_features.py", "distribution_samples.py": "/usr/local/bin/distribution_samples.py", "hierarchical_clustering_heatmap.py": "/usr/local/bin/hierarchical_clustering_heatmap.py", "imputation.py": "/usr/local/bin/imputation.py", "kruskal_wallis.py": "/usr/local/bin/kruskal_wallis.py", "lasso_enet_var_select.py": "/usr/local/bin/lasso_enet_var_select.py", "linear_discriminant_analysis.py": "/usr/local/bin/linear_discriminant_analysis.py", "log_and_glog_transformation.py": "/usr/local/bin/log_and_glog_transformation.py", "magnitude_difference_flags.py": "/usr/local/bin/magnitude_difference_flags.py", "mahalanobis_distance.py": "/usr/local/bin/mahalanobis_distance.py", "merge_flags.py": "/usr/local/bin/merge_flags.py", "meta_analysis.py": "/usr/local/bin/meta_analysis.py", "modify_design_file.py": "/usr/local/bin/modify_design_file.py", "modulated_modularity_clustering.py": "/usr/local/bin/modulated_modularity_clustering.py", "multiple_testing_adjustment.py": "/usr/local/bin/multiple_testing_adjustment.py", "mzrt_match.py": "/usr/local/bin/mzrt_match.py", "partial_least_squares.py": "/usr/local/bin/partial_least_squares.py", "principal_component_analysis.py": "/usr/local/bin/principal_component_analysis.py", "random_forest.py": "/usr/local/bin/random_forest.py", "remove_selected_features_samples.py": "/usr/local/bin/remove_selected_features_samples.py", "remove_user_specified_row_col.py": "/usr/local/bin/remove_user_specified_row_col.py", "retention_time_flags.py": "/usr/local/bin/retention_time_flags.py", "run_order_regression.py": "/usr/local/bin/run_order_regression.py", "scatter_plot_2D.py": "/usr/local/bin/scatter_plot_2D.py", "scatter_plot_3D.py": "/usr/local/bin/scatter_plot_3D.py", "standardized_euclidean_distance.py": "/usr/local/bin/standardized_euclidean_distance.py", "subset_data.py": "/usr/local/bin/subset_data.py", "summarize_flags.py": "/usr/local/bin/summarize_flags.py", "svm_classifier.py": "/usr/local/bin/svm_classifier.py", "threshold_based_flags.py": "/usr/local/bin/threshold_based_flags.py", "ttest.py": "/usr/local/bin/ttest.py", "ttest_perm.py": "/usr/local/bin/ttest_perm.py", "ttest_single_group.py": "/usr/local/bin/ttest_single_group.py", "upset_plot.py": "/usr/local/bin/upset_plot.py"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/secimtools.
+shpc-registry automated BioContainers addition for secimtools
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/secimtools
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/secimtools:22.3.23--pyhdfd78af_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/secimtools/22.3.23--pyhdfd78af_0
+$ module help quay.io/biocontainers/secimtools/22.3.23--pyhdfd78af_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### secimtools-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### secimtools-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### secimtools-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### secimtools-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### secimtools-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### secimtools-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### add_group_rank.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/add_group_rank.py
+$ podman run --it --rm --entrypoint /usr/local/bin/add_group_rank.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/add_group_rank.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### anova_fixed.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/anova_fixed.py
+$ podman run --it --rm --entrypoint /usr/local/bin/anova_fixed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/anova_fixed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bland_altman_plot.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bland_altman_plot.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bland_altman_plot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bland_altman_plot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blank_feature_filtering_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/blank_feature_filtering_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/blank_feature_filtering_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blank_feature_filtering_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coefficient_variation_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/coefficient_variation_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/coefficient_variation_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coefficient_variation_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compare_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/compare_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/compare_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compare_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compound_identification.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/compound_identification.py
+$ podman run --it --rm --entrypoint /usr/local/bin/compound_identification.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compound_identification.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### data_normalization_and_rescaling.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/data_normalization_and_rescaling.py
+$ podman run --it --rm --entrypoint /usr/local/bin/data_normalization_and_rescaling.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/data_normalization_and_rescaling.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### distribution_features.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/distribution_features.py
+$ podman run --it --rm --entrypoint /usr/local/bin/distribution_features.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/distribution_features.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### distribution_samples.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/distribution_samples.py
+$ podman run --it --rm --entrypoint /usr/local/bin/distribution_samples.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/distribution_samples.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hierarchical_clustering_heatmap.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hierarchical_clustering_heatmap.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hierarchical_clustering_heatmap.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hierarchical_clustering_heatmap.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### imputation.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/imputation.py
+$ podman run --it --rm --entrypoint /usr/local/bin/imputation.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/imputation.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kruskal_wallis.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/kruskal_wallis.py
+$ podman run --it --rm --entrypoint /usr/local/bin/kruskal_wallis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kruskal_wallis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lasso_enet_var_select.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/lasso_enet_var_select.py
+$ podman run --it --rm --entrypoint /usr/local/bin/lasso_enet_var_select.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lasso_enet_var_select.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linear_discriminant_analysis.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/linear_discriminant_analysis.py
+$ podman run --it --rm --entrypoint /usr/local/bin/linear_discriminant_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linear_discriminant_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### log_and_glog_transformation.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/log_and_glog_transformation.py
+$ podman run --it --rm --entrypoint /usr/local/bin/log_and_glog_transformation.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/log_and_glog_transformation.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### magnitude_difference_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/magnitude_difference_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/magnitude_difference_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/magnitude_difference_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mahalanobis_distance.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/mahalanobis_distance.py
+$ podman run --it --rm --entrypoint /usr/local/bin/mahalanobis_distance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mahalanobis_distance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### merge_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/merge_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/merge_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merge_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### meta_analysis.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/meta_analysis.py
+$ podman run --it --rm --entrypoint /usr/local/bin/meta_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/meta_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### modify_design_file.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/modify_design_file.py
+$ podman run --it --rm --entrypoint /usr/local/bin/modify_design_file.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/modify_design_file.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### modulated_modularity_clustering.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/modulated_modularity_clustering.py
+$ podman run --it --rm --entrypoint /usr/local/bin/modulated_modularity_clustering.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/modulated_modularity_clustering.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### multiple_testing_adjustment.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/multiple_testing_adjustment.py
+$ podman run --it --rm --entrypoint /usr/local/bin/multiple_testing_adjustment.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multiple_testing_adjustment.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mzrt_match.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/mzrt_match.py
+$ podman run --it --rm --entrypoint /usr/local/bin/mzrt_match.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mzrt_match.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### partial_least_squares.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/partial_least_squares.py
+$ podman run --it --rm --entrypoint /usr/local/bin/partial_least_squares.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/partial_least_squares.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### principal_component_analysis.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/principal_component_analysis.py
+$ podman run --it --rm --entrypoint /usr/local/bin/principal_component_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/principal_component_analysis.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### random_forest.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/random_forest.py
+$ podman run --it --rm --entrypoint /usr/local/bin/random_forest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/random_forest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### remove_selected_features_samples.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/remove_selected_features_samples.py
+$ podman run --it --rm --entrypoint /usr/local/bin/remove_selected_features_samples.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/remove_selected_features_samples.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### remove_user_specified_row_col.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/remove_user_specified_row_col.py
+$ podman run --it --rm --entrypoint /usr/local/bin/remove_user_specified_row_col.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/remove_user_specified_row_col.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### retention_time_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/retention_time_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/retention_time_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/retention_time_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_order_regression.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_order_regression.py
+$ podman run --it --rm --entrypoint /usr/local/bin/run_order_regression.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_order_regression.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scatter_plot_2D.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/scatter_plot_2D.py
+$ podman run --it --rm --entrypoint /usr/local/bin/scatter_plot_2D.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scatter_plot_2D.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scatter_plot_3D.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/scatter_plot_3D.py
+$ podman run --it --rm --entrypoint /usr/local/bin/scatter_plot_3D.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scatter_plot_3D.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### standardized_euclidean_distance.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/standardized_euclidean_distance.py
+$ podman run --it --rm --entrypoint /usr/local/bin/standardized_euclidean_distance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/standardized_euclidean_distance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### subset_data.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/subset_data.py
+$ podman run --it --rm --entrypoint /usr/local/bin/subset_data.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/subset_data.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### summarize_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/summarize_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/summarize_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/summarize_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### svm_classifier.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/svm_classifier.py
+$ podman run --it --rm --entrypoint /usr/local/bin/svm_classifier.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm_classifier.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### threshold_based_flags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/threshold_based_flags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/threshold_based_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/threshold_based_flags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttest.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttest.py
+$ podman run --it --rm --entrypoint /usr/local/bin/ttest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttest_perm.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttest_perm.py
+$ podman run --it --rm --entrypoint /usr/local/bin/ttest_perm.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttest_perm.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttest_single_group.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttest_single_group.py
+$ podman run --it --rm --entrypoint /usr/local/bin/ttest_single_group.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttest_single_group.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### upset_plot.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/upset_plot.py
+$ podman run --it --rm --entrypoint /usr/local/bin/upset_plot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/upset_plot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)
