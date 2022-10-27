@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-ruvnormalizedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ruvnormalizedata
 latest:
-  1.9.0--r40_0: sha256:4b15987c70b5671eeadabaf0c3ebd13791d861887572b665502f4bf6d6ee4455
+  1.14.0--r41hdfd78af_1: sha256:5bbb3805bd6f68b86814eebc9c93a8dbb924a1aa6bd179aa521ae0662a1a0405
 tags:
   1.9.0--r40_0: sha256:4b15987c70b5671eeadabaf0c3ebd13791d861887572b665502f4bf6d6ee4455
+  1.14.0--r41hdfd78af_1: sha256:5bbb3805bd6f68b86814eebc9c93a8dbb924a1aa6bd179aa521ae0662a1a0405
+  1.12.0--r41hdfd78af_0: sha256:33ac9c2eb64ffa6bda4316088c420deaa442a523bddcf1bed099c590ace5940b
+  1.10.0--r40hdfd78af_2: sha256:ac61c3c2208f6f95737b17e8817aed786036deac5d715f97a13dabc7db1548a5
 docker: quay.io/biocontainers/bioconductor-ruvnormalizedata
 aliases:
   .bioconductor-ruvnormalizedata-post-link.sh: /usr/local/bin/.bioconductor-ruvnormalizedata-post-link.sh

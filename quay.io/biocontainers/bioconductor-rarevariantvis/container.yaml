@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-rarevariantvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rarevariantvis
 latest:
-  2.8.0--r351_0: sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd
+  2.22.0--r41hdfd78af_0: sha256:5c55fb17d4de01d0971ab57c93e990886dc45e458c3ab1a72a2f50b807b1d9f6
 tags:
   2.8.0--r351_0: sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd
+  2.22.0--r41hdfd78af_0: sha256:5c55fb17d4de01d0971ab57c93e990886dc45e458c3ab1a72a2f50b807b1d9f6
+  2.20.0--r41hdfd78af_0: sha256:5ec4aa17d33e9cb5b14e053d4681484f4c0b5fb6f94de57f0d2477829f133791
+  2.18.0--r40hdfd78af_1: sha256:fa545df8692c4cfd46cb9d597a51130886661aef3995d1c62e2eff80be087af3
+  2.16.0--r40_0: sha256:76d619efa5759cf6876f3e4888a33866301c3154d321c151cf178499f3a732d0
+  2.14.0--r36_0: sha256:51c6a4194d84ff8bc7957e8809bb22301774c9371c01f8f07a72aa749a8d1499
 docker: quay.io/biocontainers/bioconductor-rarevariantvis
 aliases:
   .bioconductor-phastcons100way.ucsc.hg19-post-link.sh: /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh

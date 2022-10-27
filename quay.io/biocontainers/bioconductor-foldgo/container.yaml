@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-foldgo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-foldgo
 latest:
-  1.8.0--r40hdfd78af_1: sha256:9e7166bf7b4886d85667c9c4b7d13e59150bdb42475290b903d1437780f4bbae
+  1.12.0--r41hdfd78af_0: sha256:37036bd38397f87f38e0fe1241302938adaa97e8070a282ceda67ab0945baddc
 tags:
   1.8.0--r40hdfd78af_1: sha256:9e7166bf7b4886d85667c9c4b7d13e59150bdb42475290b903d1437780f4bbae
+  1.12.0--r41hdfd78af_0: sha256:37036bd38397f87f38e0fe1241302938adaa97e8070a282ceda67ab0945baddc
+  1.10.0--r41hdfd78af_0: sha256:20717cfbd1faa7dd9fe69a2635a8ce24d03f1e3a7d02c03baa0eca9093167cae
 docker: quay.io/biocontainers/bioconductor-foldgo

@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-methtargetedngs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methtargetedngs
 latest:
-  1.8.0--r3.3.2_0: sha256:1b51119ff9e92934849bda7f27dd9c83b0a122b877d0adf27f697cc5af1220fa
+  1.26.0--r41hdfd78af_0: sha256:7a3757b513208b2a5f8af3be18b27539108b3c497e45ce692a0676500c49536e
 tags:
   1.8.0--r3.3.2_0: sha256:1b51119ff9e92934849bda7f27dd9c83b0a122b877d0adf27f697cc5af1220fa
+  1.26.0--r41hdfd78af_0: sha256:7a3757b513208b2a5f8af3be18b27539108b3c497e45ce692a0676500c49536e
+  1.24.0--r41hdfd78af_0: sha256:a07db7469f973e3f1a5b87a9985779b8550706a0c6a0685f141d85678dade6f9
+  1.22.0--r40hdfd78af_1: sha256:96468dcb3124ed945fe9288da663688723e7a141f980b6ecc35f85f8e442aad4
+  1.20.0--r40_0: sha256:4eda8d35a6f82e4bb39785a27c3ad85e1961077050f5972f655476ea5ccf0014
+  1.18.0--r36_0: sha256:8b86869dfb1cf20ee63c248aaa338e71a4cc6bd555dc4d588a55961e7e1a7cb5
 docker: quay.io/biocontainers/bioconductor-methtargetedngs

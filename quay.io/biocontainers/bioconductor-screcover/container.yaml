@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-screcover
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-screcover
 latest:
-  1.8.0--r41hdfd78af_0: sha256:a9c4cbbb53c78b7bbfc8f06f0aeb9de38091e2ea814242b9b7566e55bed507c4
+  1.10.0--r41hdfd78af_0: sha256:a17a99c8dfce4c3167606bd0234d332748a3fcc5c54353f805c8e5ab682cd828
 tags:
   1.8.0--r41hdfd78af_0: sha256:a9c4cbbb53c78b7bbfc8f06f0aeb9de38091e2ea814242b9b7566e55bed507c4
+  1.10.0--r41hdfd78af_0: sha256:a17a99c8dfce4c3167606bd0234d332748a3fcc5c54353f805c8e5ab682cd828
 docker: quay.io/biocontainers/bioconductor-screcover

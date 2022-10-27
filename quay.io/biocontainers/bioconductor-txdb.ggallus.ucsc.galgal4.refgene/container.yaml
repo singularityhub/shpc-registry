@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal4.refg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 latest:
-  3.4.6--r36_1: sha256:b1f1065325b8609c1112ff514d0c5a20f0b323a5ff364ae344f6626eaa05e973
+  3.12.0--r41hdfd78af_4: sha256:71d436cdf25474d0eeb12282bdf7459ad384d4fc89d0a3888e3186b3cd841f81
 tags:
   3.4.6--r36_1: sha256:b1f1065325b8609c1112ff514d0c5a20f0b323a5ff364ae344f6626eaa05e973
+  3.12.0--r41hdfd78af_4: sha256:71d436cdf25474d0eeb12282bdf7459ad384d4fc89d0a3888e3186b3cd841f81
+  3.11.0--r40_0: sha256:06543ad6b9bcead2dd1a1d68897caccd213de764abc975e0914ea38077417518
+  3.10.0--r36_0: sha256:0a848111f2ab9f644e8fa96af2c00f42aff2f7ca48fe8a48da383e4d5d90cc64
 docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 aliases:
   .bioconductor-txdb.ggallus.ucsc.galgal4.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal4.refgene-post-link.sh

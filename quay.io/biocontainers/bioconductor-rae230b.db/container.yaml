@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rae230b.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rae230b.db
 latest:
-  3.2.3--r41hdfd78af_7: sha256:cc082450c9a01dd02db4e77477bb792410a0f2cf04d63c716a36e3f3d4439e28
+  3.13.0--r41hdfd78af_1: sha256:3bdbe77d2f012c986b6974debdf8cc5fb6ba846a1adf82f6da22d1ac653d4deb
 tags:
   3.2.3--r41hdfd78af_7: sha256:cc082450c9a01dd02db4e77477bb792410a0f2cf04d63c716a36e3f3d4439e28
+  3.13.0--r41hdfd78af_1: sha256:3bdbe77d2f012c986b6974debdf8cc5fb6ba846a1adf82f6da22d1ac653d4deb
 docker: quay.io/biocontainers/bioconductor-rae230b.db
 aliases:
   .bioconductor-rae230b.db-post-link.sh: /usr/local/bin/.bioconductor-rae230b.db-post-link.sh

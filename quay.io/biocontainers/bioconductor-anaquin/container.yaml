@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-anaquin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anaquin
 latest:
-  2.8.0--r36_1: sha256:57550207f799f7397ff32702849b647b4fcf243258c5ac207e17b9139804af4e
+  2.18.0--r41hdfd78af_0: sha256:d6df2ad1e024106ac60d00614db66eec1c7d4c02a82770eb1ce92b6e7394a3d5
 tags:
   2.8.0--r36_1: sha256:57550207f799f7397ff32702849b647b4fcf243258c5ac207e17b9139804af4e
+  2.18.0--r41hdfd78af_0: sha256:d6df2ad1e024106ac60d00614db66eec1c7d4c02a82770eb1ce92b6e7394a3d5
+  2.16.0--r41hdfd78af_0: sha256:ec4a88cfceb04bf78d4fb22c144fc093d8fde4d79cbb89dde203a1589eb17520
+  2.14.0--r40hdfd78af_1: sha256:92dbf3358d5a1ab7c96314ecee6b2228d5fe1b0b56bca9c5a51812dbbd8e8a87
+  2.12.0--r40_0: sha256:2c659f6ac36fd0f4c92972ba3dbccb5828751a3661dd55ea6107c23a98503e04
+  2.10.0--r36_0: sha256:e497d185c653bbda534e63393a80e3e2955e88e6a521ffec732aa4e7fc051624
 docker: quay.io/biocontainers/bioconductor-anaquin

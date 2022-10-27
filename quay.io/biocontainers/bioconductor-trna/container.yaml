@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-trna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trna
 latest:
-  1.8.0--r40hdfd78af_1: sha256:26e16a7d74888fc0036e7bc22560d1c5e752b5335b55c4a04364d2c5ba02e9c8
+  1.12.0--r41hdfd78af_0: sha256:9e58abf2f25a875c1220616c317191801a450aa6ba5d865aeef32e27a98b9857
 tags:
   1.8.0--r40hdfd78af_1: sha256:26e16a7d74888fc0036e7bc22560d1c5e752b5335b55c4a04364d2c5ba02e9c8
+  1.12.0--r41hdfd78af_0: sha256:9e58abf2f25a875c1220616c317191801a450aa6ba5d865aeef32e27a98b9857
+  1.10.0--r41hdfd78af_0: sha256:2b39b6895dd5c7ee40d6e6b34842840b0cdfa7aff2f5d27bc840b3b861ffd292
 docker: quay.io/biocontainers/bioconductor-trna
