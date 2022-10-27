@@ -10,3 +10,28 @@ aliases:
   ngs_te_mapper2: /usr/local/bin/ngs_te_mapper2
   queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
   queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  CA.pm: /usr/local/bin/CA.pm
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  README: /usr/local/bin/README
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

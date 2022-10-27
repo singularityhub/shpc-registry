@@ -33,3 +33,4 @@ aliases:
   words: /usr/local/bin/words
   wordsStat: /usr/local/bin/wordsStat
   workflow.sh: /usr/local/bin/workflow.sh
+  env-execute: /usr/local/env-execute

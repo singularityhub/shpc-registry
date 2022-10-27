@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/survivor
 aliases:
   SURVIVOR: /usr/local/bin/SURVIVOR
+  env-execute: /usr/local/env-execute

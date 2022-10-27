@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/transit
 aliases:
   tpp: /usr/local/bin/tpp
   transit: /usr/local/bin/transit
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.7: /usr/local/bin/f2py3.7
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

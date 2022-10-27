@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vardict
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vardict
+latest:
+  2019.06.04--pl526_0: sha256:7ce6a6f58f45f3e62f7308675813e95eb215fc30852041f6e90c9dbf7d5f4bac
+tags:
+  2019.06.04--pl526_0: sha256:7ce6a6f58f45f3e62f7308675813e95eb215fc30852041f6e90c9dbf7d5f4bac
+docker: quay.io/biocontainers/vardict

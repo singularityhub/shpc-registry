@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/proot
 aliases:
   proot: /usr/local/bin/proot
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

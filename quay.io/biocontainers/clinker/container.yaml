@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/clinker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clinker
+latest:
+  1.32--hdfd78af_2: sha256:9d04b168a684388faf9e666a721269eb2aee71979f51a09a5b0b31de56ecbbfe
+tags:
+  1.32--hdfd78af_2: sha256:9d04b168a684388faf9e666a721269eb2aee71979f51a09a5b0b31de56ecbbfe
+docker: quay.io/biocontainers/clinker

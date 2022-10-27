@@ -10,3 +10,28 @@ aliases:
   cover: /usr/local/bin/cover
   cpancover: /usr/local/bin/cpancover
   gcov2perl: /usr/local/bin/gcov2perl
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  imgsize: /usr/local/bin/imgsize
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep

@@ -6,3 +6,29 @@ latest:
 tags:
   1.28.0--r40hdfd78af_1: sha256:ccc535cd45b08fcbe6597e1cd9f0aefc820b953fc0c5e19bcb91691c5e038407
 docker: quay.io/biocontainers/bioconductor-rdavidwebservice
+aliases:
+  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace

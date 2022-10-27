@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pulchra
 aliases:
   pulchra: /usr/local/bin/pulchra
+  env-execute: /usr/local/env-execute

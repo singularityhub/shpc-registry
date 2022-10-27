@@ -6,3 +6,29 @@ latest:
 tags:
   0.6.9--py_0: sha256:76436ac95bc757f6f06c64831e42e9187a6c3a2416d9465e732e3e730745bf1e
 docker: quay.io/biocontainers/anndata
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

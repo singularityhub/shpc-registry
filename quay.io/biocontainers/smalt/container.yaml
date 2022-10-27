@@ -17,3 +17,6 @@ aliases:
   splitmates: /usr/local/bin/splitmates
   splitreads: /usr/local/bin/splitreads
   trunkreads: /usr/local/bin/trunkreads
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

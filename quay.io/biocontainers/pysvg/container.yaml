@@ -6,3 +6,29 @@ latest:
 tags:
   0.2.2--py27_0: sha256:b44376ed8aca3c51136278e1025e97d439a41e440124ef9d0c5cb422971b3f48
 docker: quay.io/biocontainers/pysvg
+aliases:
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep

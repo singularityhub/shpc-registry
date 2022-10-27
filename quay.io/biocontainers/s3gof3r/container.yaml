@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/s3gof3r
 aliases:
   gof3r: /usr/local/bin/gof3r
+  env-execute: /usr/local/env-execute

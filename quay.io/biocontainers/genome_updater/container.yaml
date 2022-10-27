@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/genome_updater
 aliases:
   genome_updater.sh: /usr/local/bin/genome_updater.sh
+  '[': /usr/local/bin/[
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  bc: /usr/local/bin/bc
+  c_rehash: /usr/local/bin/c_rehash
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  corelist: /usr/local/bin/corelist
+  cp: /usr/local/bin/cp
+  cpan: /usr/local/bin/cpan
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dc: /usr/local/bin/dc

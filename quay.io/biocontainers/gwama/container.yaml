@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gwama
 aliases:
   GWAMA: /usr/local/bin/GWAMA
+  env-execute: /usr/local/env-execute

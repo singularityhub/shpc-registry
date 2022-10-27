@@ -15,3 +15,28 @@ aliases:
   guess_baits.py: /usr/local/bin/guess_baits.py
   reference2targets.py: /usr/local/bin/reference2targets.py
   skg_convert.py: /usr/local/bin/skg_convert.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

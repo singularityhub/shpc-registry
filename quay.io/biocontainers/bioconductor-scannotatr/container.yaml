@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scannotatr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scannotatr
+latest:
+  1.0.0--r41hdfd78af_0: sha256:b841f43b16cb98d525845f0a56ca5008ca0d8c54fe87036cae50f4a187ab8ffe
+tags:
+  1.0.0--r41hdfd78af_0: sha256:b841f43b16cb98d525845f0a56ca5008ca0d8c54fe87036cae50f4a187ab8ffe
+docker: quay.io/biocontainers/bioconductor-scannotatr

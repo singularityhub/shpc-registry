@@ -11,3 +11,28 @@ aliases:
   gc_skew: /usr/local/bin/gc_skew
   iRep: /usr/local/bin/iRep
   iRep_filter.py: /usr/local/bin/iRep_filter.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  designer: /usr/local/bin/designer
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  envsubst: /usr/local/bin/envsubst

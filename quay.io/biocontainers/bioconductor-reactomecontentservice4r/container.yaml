@@ -6,3 +6,29 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:fa9bbc9646a8572c089b73f9aca9427c552f2ccf568035df9a00e22d0b77fe88
 docker: quay.io/biocontainers/bioconductor-reactomecontentservice4r
+aliases:
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gefast
 aliases:
   GeFaST: /usr/local/bin/GeFaST
+  env-execute: /usr/local/env-execute

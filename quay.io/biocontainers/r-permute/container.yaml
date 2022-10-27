@@ -6,3 +6,29 @@ latest:
 tags:
   0.8_4--r3.3.2_0: sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8
 docker: quay.io/biocontainers/r-permute
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication

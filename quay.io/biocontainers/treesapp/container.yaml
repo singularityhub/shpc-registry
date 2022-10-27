@@ -10,3 +10,28 @@ aliases:
   epa-ng: /usr/local/bin/epa-ng
   samsum: /usr/local/bin/samsum
   treesapp: /usr/local/bin/treesapp
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  alimask: /usr/local/bin/alimask
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo

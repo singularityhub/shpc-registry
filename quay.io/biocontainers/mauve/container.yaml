@@ -37,3 +37,28 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
+  appletviewer: /usr/local/bin/appletviewer
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  derb: /usr/local/bin/derb
+  extcheck: /usr/local/bin/extcheck
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk

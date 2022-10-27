@@ -6,3 +6,29 @@ latest:
 tags:
   0.2.0--py_1: sha256:44da8743b9bda07e31789dfd1cb4d971f62c1d55cfaa822c0ab0dee962bfdf80
 docker: quay.io/biocontainers/fastdtw
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  ncurses5-config: /usr/local/bin/ncurses5-config

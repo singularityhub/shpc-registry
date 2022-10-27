@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/lumpy-sv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for lumpy-sv
+latest:
+  0.3.1--hdfd78af_3: sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3
+tags:
+  0.3.1--hdfd78af_3: sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3
+docker: quay.io/biocontainers/lumpy-sv

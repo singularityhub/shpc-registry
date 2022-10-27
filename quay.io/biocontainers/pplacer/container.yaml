@@ -6,3 +6,8 @@ latest:
 tags:
   1.1.alpha19--h9ee0642_2: sha256:5ff394bb7863b160346f7ecc528ffe3b932250000d3f364d7a8caae1a724ae04
 docker: quay.io/biocontainers/pplacer
+aliases:
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
+  rppr: /usr/local/bin/rppr
+  env-execute: /usr/local/env-execute

@@ -6,3 +6,25 @@ latest:
 tags:
   0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
 docker: quay.io/biocontainers/bucketcache
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  idle: /usr/local/bin/idle
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  python: /usr/local/bin/python
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  smtpd.py: /usr/local/bin/smtpd.py
+  sqlite3: /usr/local/bin/sqlite3
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wheel: /usr/local/bin/wheel
+  wish8.5: /usr/local/bin/wish8.5

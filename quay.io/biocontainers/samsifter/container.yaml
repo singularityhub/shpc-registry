@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/samsifter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for samsifter
+latest:
+  1.0.0--py35h3978dc7_3: sha256:a04156bee0343841b85488d91ba5461b14214a5ad17c92086541523b7315e925
+tags:
+  1.0.0--py35h3978dc7_3: sha256:a04156bee0343841b85488d91ba5461b14214a5ad17c92086541523b7315e925
+docker: quay.io/biocontainers/samsifter

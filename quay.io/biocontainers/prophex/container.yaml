@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/prophex
 aliases:
   prophex: /usr/local/bin/prophex
+  env-execute: /usr/local/env-execute

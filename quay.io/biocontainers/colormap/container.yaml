@@ -6,3 +6,29 @@ latest:
 tags:
   0.9.8--py36_0: sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7
 docker: quay.io/biocontainers/colormap
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  browse: /usr/local/bin/browse
+  c_rehash: /usr/local/bin/c_rehash
+  cjpeg: /usr/local/bin/cjpeg
+  conda: /usr/local/bin/conda
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  designer: /usr/local/bin/designer
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  easydev_buildPackage: /usr/local/bin/easydev_buildPackage

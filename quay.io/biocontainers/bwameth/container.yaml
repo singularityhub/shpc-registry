@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/bwameth
 aliases:
   bwameth.py: /usr/local/bin/bwameth.py
   toolshed: /usr/local/bin/toolshed
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  ace2sam: /usr/local/bin/ace2sam
+  activate: /usr/local/bin/activate
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  idle3: /usr/local/bin/idle3
+  idle3.5: /usr/local/bin/idle3.5
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff

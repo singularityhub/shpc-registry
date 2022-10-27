@@ -1,52 +1,35 @@
-# change this to a URL to describe your container, or to get help
-url: https://singularity-hpc.readthedocs.io
-
-# change this to your GitHub alias (or another contact or name)
-maintainer: vsoch
-
-# A description to describe your container
-description: Efficient and scalable boolean and other set operations for genomic data.
+url: https://biocontainers.pro/tools/bedops
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bedops
 latest:
-  2.4.23--0: sha256:fd8d19a1eee1702ceb9e16a224974143c4e99a62c3c39e05e67d1827b0046ff7
+  2.4.41--h9f5acd7_0: sha256:74852791f3dea1ae1fa2326949d2ed2667e6e2c05f90da571a81405d46638a2c
 tags:
   2.4.23--0: sha256:fd8d19a1eee1702ceb9e16a224974143c4e99a62c3c39e05e67d1827b0046ff7
+  2.4.41--h9f5acd7_0: sha256:74852791f3dea1ae1fa2326949d2ed2667e6e2c05f90da571a81405d46638a2c
 docker: quay.io/biocontainers/bedops
 aliases:
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
   bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
   bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
   bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128
+  bam2bed_sge-megarow: /usr/local/bin/bam2bed_sge-megarow
+  bam2bed_sge-typical: /usr/local/bin/bam2bed_sge-typical
   bam2bed_slurm: /usr/local/bin/bam2bed_slurm
+  bam2bed_slurm-float128: /usr/local/bin/bam2bed_slurm-float128
+  bam2bed_slurm-megarow: /usr/local/bin/bam2bed_slurm-megarow
+  bam2bed_slurm-typical: /usr/local/bin/bam2bed_slurm-typical
   bam2starch: /usr/local/bin/bam2starch
+  bam2starch-float128: /usr/local/bin/bam2starch-float128
+  bam2starch-megarow: /usr/local/bin/bam2starch-megarow
+  bam2starch-typical: /usr/local/bin/bam2starch-typical
   bam2starch_gnuParallel: /usr/local/bin/bam2starch_gnuParallel
-  bam2starch_sge: /usr/local/bin/bam2starch_sge
-  bam2starch_slurm: /usr/local/bin/bam2starch_slurm
-  bedextract: /usr/local/bin/bedextract
-  bedmap: /usr/local/bin/bedmap
-  bedops: /usr/local/bin/bedops
-  closest-features: /usr/local/bin/closest-features
-  conda: /usr/local/bin/conda
-  convert2bed: /usr/local/bin/convert2bed
-  deactivate: /usr/local/bin/deactivate
-  gff2bed: /usr/local/bin/gff2bed
-  gff2starch: /usr/local/bin/gff2starch
-  gtf2bed: /usr/local/bin/gtf2bed
-  gtf2starch: /usr/local/bin/gtf2starch
-  gvf2bed: /usr/local/bin/gvf2bed
-  gvf2starch: /usr/local/bin/gvf2starch
-  psl2bed: /usr/local/bin/psl2bed
-  psl2starch: /usr/local/bin/psl2starch
-  rmsk2bed: /usr/local/bin/rmsk2bed
-  rmsk2starch: /usr/local/bin/rmsk2starch
-  sam2bed: /usr/local/bin/sam2bed
-  sam2starch: /usr/local/bin/sam2starch
-  sort-bed: /usr/local/bin/sort-bed
-  starch: /usr/local/bin/starch
-  starchcat: /usr/local/bin/starchcat
-  starchcluster_gnuParallel: /usr/local/bin/starchcluster_gnuParallel
-  starchcluster_sge: /usr/local/bin/starchcluster_sge
-  starchcluster_slurm: /usr/local/bin/starchcluster_slurm
-  unstarch: /usr/local/bin/unstarch
-  vcf2bed: /usr/local/bin/vcf2bed
-  vcf2starch: /usr/local/bin/vcf2starch
-  wig2bed: /usr/local/bin/wig2bed
-  wig2starch: /usr/local/bin/wig2starch

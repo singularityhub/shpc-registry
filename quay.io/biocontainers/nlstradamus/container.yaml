@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/nlstradamus
 aliases:
   NLStradamus: /usr/local/bin/NLStradamus
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

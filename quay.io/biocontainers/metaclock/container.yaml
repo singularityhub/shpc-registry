@@ -21,3 +21,28 @@ aliases:
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
   prokka-make_tarball: /usr/local/bin/prokka-make_tarball
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bamToBed: /usr/local/bin/bamToBed

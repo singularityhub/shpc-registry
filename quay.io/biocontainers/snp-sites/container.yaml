@@ -6,3 +6,6 @@ latest:
 tags:
   2.5.1--h7132678_2: sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826
 docker: quay.io/biocontainers/snp-sites
+aliases:
+  snp-sites: /usr/local/bin/snp-sites
+  env-execute: /usr/local/env-execute

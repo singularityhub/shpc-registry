@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/nanocompore
 aliases:
   bedparse: /usr/local/bin/bedparse
   nanocompore: /usr/local/bin/nanocompore
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.7: /usr/local/bin/f2py3.7
+  faidx: /usr/local/bin/faidx
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jpegtran: /usr/local/bin/jpegtran
+  jpgicc: /usr/local/bin/jpgicc
+  libdeflate-gunzip: /usr/local/bin/libdeflate-gunzip
+  libdeflate-gzip: /usr/local/bin/libdeflate-gzip
+  libpng-config: /usr/local/bin/libpng-config
+  libpng16-config: /usr/local/bin/libpng16-config

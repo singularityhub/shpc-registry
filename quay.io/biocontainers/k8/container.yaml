@@ -6,3 +6,6 @@ latest:
 tags:
   0.2.5--hd03093a_2: sha256:a38324382ff30253f5765d7012f49447c79e7887188e2f37c5167206620074c9
 docker: quay.io/biocontainers/k8
+aliases:
+  k8: /usr/local/bin/k8
+  env-execute: /usr/local/env-execute

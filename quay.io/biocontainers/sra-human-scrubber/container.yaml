@@ -7,9 +7,33 @@ tags:
   2.0.0--hdfd78af_0: sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef
 docker: quay.io/biocontainers/sra-human-scrubber
 aliases:
-  .sra-human-scrubber-post-link.sh: /usr/local/bin/.sra-human-scrubber-post-link.sh
   aligns_to: /usr/local/bin/aligns_to
   cut_spots_fastq.py: /usr/local/bin/cut_spots_fastq.py
   fastq_to_fasta.py: /usr/local/bin/fastq_to_fasta.py
   init_db.sh: /usr/local/bin/init_db.sh
   scrub.sh: /usr/local/bin/scrub.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  idle3: /usr/local/bin/idle3

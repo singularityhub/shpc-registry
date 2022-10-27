@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/idr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for idr
+latest:
+  2.0.4.2--py310h79ef01b_7: sha256:da07c884c7b8debefb1422a91c63a45647a029dd8e7b0674578d36bc5f03f5f9
+tags:
+  2.0.4.2--py310h79ef01b_7: sha256:da07c884c7b8debefb1422a91c63a45647a029dd8e7b0674578d36bc5f03f5f9
+docker: quay.io/biocontainers/idr

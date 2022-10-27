@@ -6,3 +6,29 @@ latest:
 tags:
   0.2.2--1: sha256:2a8561f49795442fd2e5ee44cefb0cf7a801b6dbedbd281222a80a54bb146605
 docker: quay.io/biocontainers/r-purrr
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  envsubst: /usr/local/bin/envsubst
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query

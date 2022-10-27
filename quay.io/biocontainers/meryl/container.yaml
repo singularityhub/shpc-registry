@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/meryl
 aliases:
   sequence: /usr/local/bin/sequence
+  meryl: /usr/local/bin/meryl
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup

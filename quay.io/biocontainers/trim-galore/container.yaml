@@ -6,3 +6,29 @@ latest:
 tags:
   0.6.7--hdfd78af_0: sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608
 docker: quay.io/biocontainers/trim-galore
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cutadapt: /usr/local/bin/cutadapt
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  envsubst: /usr/local/bin/envsubst
+  fastqc: /usr/local/bin/fastqc
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list

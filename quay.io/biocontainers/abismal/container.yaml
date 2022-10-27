@@ -1,10 +1,11 @@
 url: https://biocontainers.pro/tools/abismal
 maintainer: '@vsoch'
-description: Abismal tool
+description: shpc-registry automated BioContainers addition for abismal
 latest:
-  1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
+  3.1.1--hd03093a_0: sha256:ba2852ae4d7adc88ca99f8d25ab7df9a74bf397138867dfd88ecd6130ab5998d
 tags:
   1.0.0--h9a82719_0: sha256:45ff3ad0e61a923871ea933a326d24c0e57c41655e79477be67a07d74bd4cd3a
+  3.1.1--hd03093a_0: sha256:ba2852ae4d7adc88ca99f8d25ab7df9a74bf397138867dfd88ecd6130ab5998d
 docker: quay.io/biocontainers/abismal
 aliases:
   abismal: /usr/local/bin/abismal

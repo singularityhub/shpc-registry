@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/count_constant_sites
 aliases:
   count_constant_sites: /usr/local/bin/count_constant_sites
+  env-execute: /usr/local/env-execute

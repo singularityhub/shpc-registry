@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/tinysink
 aliases:
   tinysink: /usr/local/bin/tinysink
+  c_rehash: /usr/local/bin/c_rehash
+  iconv: /usr/local/bin/iconv
+  lz4: /usr/local/bin/lz4
+  lz4c: /usr/local/bin/lz4c
+  lz4cat: /usr/local/bin/lz4cat
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  openssl: /usr/local/bin/openssl
+  rsync: /usr/local/bin/rsync
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  unlz4: /usr/local/bin/unlz4
+  unlzma: /usr/local/bin/unlzma
+  unxz: /usr/local/bin/unxz
+  unzstd: /usr/local/bin/unzstd
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum

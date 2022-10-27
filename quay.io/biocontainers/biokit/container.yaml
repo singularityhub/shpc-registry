@@ -6,3 +6,29 @@ latest:
 tags:
   0.5.0--pyh5e36f6f_0: sha256:c38bd3f209e4a4214df467c42c651bcecdb14afde1b51335c50fc40287527a36
 docker: quay.io/biocontainers/biokit
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  browse: /usr/local/bin/browse
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  easydev_buildPackage: /usr/local/bin/easydev_buildPackage
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb

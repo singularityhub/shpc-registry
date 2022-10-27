@@ -18,3 +18,28 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  coverage: /usr/local/bin/coverage
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  py.test: /usr/local/bin/py.test
+  pydoc: /usr/local/bin/pydoc
+  pydoc3: /usr/local/bin/pydoc3
+  pytest: /usr/local/bin/pytest
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
+  python3-config: /usr/local/bin/python3-config
+  pyvenv: /usr/local/bin/pyvenv
+  sqlite3: /usr/local/bin/sqlite3
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  unxz: /usr/local/bin/unxz
+  wheel: /usr/local/bin/wheel
+  wish8.5: /usr/local/bin/wish8.5
+  xz: /usr/local/bin/xz

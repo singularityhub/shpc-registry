@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/emmtyper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for emmtyper
+latest:
+  0.2.0--py_0: sha256:cb3c20b3c27e542f59bc5a936e07314a35b93f220c58ded8ffae20430de62bd5
+tags:
+  0.2.0--py_0: sha256:cb3c20b3c27e542f59bc5a936e07314a35b93f220c58ded8ffae20430de62bd5
+docker: quay.io/biocontainers/emmtyper

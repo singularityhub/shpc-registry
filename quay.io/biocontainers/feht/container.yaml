@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/feht
 aliases:
   feht: /usr/local/bin/feht
+  env-execute: /usr/local/env-execute

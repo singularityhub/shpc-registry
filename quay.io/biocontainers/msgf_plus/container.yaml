@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/msgf_plus
 aliases:
   msgf_plus: /usr/local/bin/msgf_plus
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  appletviewer: /usr/local/bin/appletviewer
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  clhsdb: /usr/local/bin/clhsdb
+  extcheck: /usr/local/bin/extcheck
+  hsdb: /usr/local/bin/hsdb
+  idle3: /usr/local/bin/idle3
+  idle3.10: /usr/local/bin/idle3.10
+  idlj: /usr/local/bin/idlj
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

@@ -7,5 +7,29 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:2d9263ce73b9452818da9870ca405e604852bf461a81cad3c8eab212c7816ec2
 docker: quay.io/biocontainers/bioconductor-iyer517
 aliases:
-  .bioconductor-iyer517-post-link.sh: /usr/local/bin/.bioconductor-iyer517-post-link.sh
   .bioconductor-iyer517-pre-unlink.sh: /usr/local/bin/.bioconductor-iyer517-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config

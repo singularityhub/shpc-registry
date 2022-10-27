@@ -6,3 +6,29 @@ latest:
 tags:
   0.33--pl5321hdfd78af_2: sha256:f3ee1ad731f367a47282851c1842b2e27dd552748199782d7ef16c2e379660b0
 docker: quay.io/biocontainers/perl-gd-svg
+aliases:
+  annotate: /usr/local/bin/annotate
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  cjpeg: /usr/local/bin/cjpeg
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cwebp: /usr/local/bin/cwebp
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  dwebp: /usr/local/bin/dwebp
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gd2copypal: /usr/local/bin/gd2copypal

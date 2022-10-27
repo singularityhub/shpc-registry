@@ -6,3 +6,29 @@ latest:
 tags:
   0.2.4--pyhdfd78af_0: sha256:8706b763774c94d70390b21cd02df65a8c375bf3ca3a1cd4d27efe6ff31377a9
 docker: quay.io/biocontainers/seqiolib
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter

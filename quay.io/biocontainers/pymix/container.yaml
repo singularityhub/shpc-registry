@@ -40,3 +40,28 @@ aliases:
   uic-qt4: /usr/local/bin/uic-qt4
   xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
   xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccache-swig: /usr/local/bin/ccache-swig
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  envsubst: /usr/local/bin/envsubst
+  f2py: /usr/local/bin/f2py
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication

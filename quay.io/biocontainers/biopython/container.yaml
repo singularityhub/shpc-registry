@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biopython
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopython
+latest:
+  1.70--np112py36_1: sha256:1196016b05927094af161ccf2cd8371aafc2e3a8daa51c51ff023f5eb45a820f
+tags:
+  1.70--np112py36_1: sha256:1196016b05927094af161ccf2cd8371aafc2e3a8daa51c51ff023f5eb45a820f
+docker: quay.io/biocontainers/biopython

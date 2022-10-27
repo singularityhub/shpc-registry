@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/dig2
 aliases:
   dig2: /usr/local/bin/dig2
+  env-execute: /usr/local/env-execute

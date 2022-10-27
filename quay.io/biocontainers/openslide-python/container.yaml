@@ -10,3 +10,28 @@ aliases:
   openslide-quickhash1sum: /usr/local/bin/openslide-quickhash1sum
   openslide-show-properties: /usr/local/bin/openslide-show-properties
   openslide-write-png: /usr/local/bin/openslide-write-png
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  activate: /usr/local/bin/activate
+  autoheader.bak: /usr/local/bin/autoheader.bak
+  autom4te.bak: /usr/local/bin/autom4te.bak
+  automake.bak: /usr/local/bin/automake.bak
+  autopoint: /usr/local/bin/autopoint
+  autoreconf.bak: /usr/local/bin/autoreconf.bak
+  autoscan.bak: /usr/local/bin/autoscan.bak
+  autoupdate.bak: /usr/local/bin/autoupdate.bak
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  envsubst: /usr/local/bin/envsubst
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache

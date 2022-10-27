@@ -7,7 +7,31 @@ tags:
   1.0.4--hdfd78af_2: sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948
 docker: quay.io/biocontainers/mtbseq
 aliases:
-  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   MTBseq: /usr/local/bin/MTBseq
   gatk3: /usr/local/bin/gatk3
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  appletviewer: /usr/local/bin/appletviewer
+  autopoint: /usr/local/bin/autopoint
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash

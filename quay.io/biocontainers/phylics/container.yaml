@@ -6,3 +6,29 @@ latest:
 tags:
   1.0.7--pyhdfd78af_0: sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc
 docker: quay.io/biocontainers/phylics
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.8: /usr/local/bin/f2py3.8
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  gif2h5: /usr/local/bin/gif2h5
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

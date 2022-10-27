@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/seqstats
 aliases:
   seqstats: /usr/local/bin/seqstats
+  env-execute: /usr/local/env-execute

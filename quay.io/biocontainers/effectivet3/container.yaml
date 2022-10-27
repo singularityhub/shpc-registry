@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/effectivet3
 aliases:
   effectivet3: /usr/local/bin/effectivet3
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  appletviewer: /usr/local/bin/appletviewer
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  extcheck: /usr/local/bin/extcheck
+  idle3: /usr/local/bin/idle3
+  idle3.5: /usr/local/bin/idle3.5
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javah: /usr/local/bin/javah
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb

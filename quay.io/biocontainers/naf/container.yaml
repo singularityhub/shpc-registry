@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/naf
 aliases:
   ennaf: /usr/local/bin/ennaf
   unnaf: /usr/local/bin/unnaf
+  env-execute: /usr/local/env-execute

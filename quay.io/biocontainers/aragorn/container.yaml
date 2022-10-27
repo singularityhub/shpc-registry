@@ -6,3 +6,6 @@ latest:
 tags:
   1.2.41--hec16e2b_0: sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4
 docker: quay.io/biocontainers/aragorn
+aliases:
+  aragorn: /usr/local/bin/aragorn
+  env-execute: /usr/local/env-execute

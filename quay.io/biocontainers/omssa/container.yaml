@@ -10,3 +10,4 @@ aliases:
   omssa2pepXML: /usr/local/bin/omssa2pepXML
   omssacl: /usr/local/bin/omssacl
   omssamerge: /usr/local/bin/omssamerge
+  env-execute: /usr/local/env-execute

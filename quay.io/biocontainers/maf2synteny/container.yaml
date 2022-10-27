@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/maf2synteny
 aliases:
   maf2synteny: /usr/local/bin/maf2synteny
+  env-execute: /usr/local/env-execute

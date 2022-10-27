@@ -16,3 +16,4 @@ aliases:
   hmmindex2: /usr/local/bin/hmmindex2
   hmmpfam2: /usr/local/bin/hmmpfam2
   hmmsearch2: /usr/local/bin/hmmsearch2
+  env-execute: /usr/local/env-execute

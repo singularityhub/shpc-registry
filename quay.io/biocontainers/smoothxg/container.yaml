@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/smoothxg
 aliases:
   smoothxg: /usr/local/bin/smoothxg
+  lz4: /usr/local/bin/lz4
+  lz4c: /usr/local/bin/lz4c
+  lz4cat: /usr/local/bin/lz4cat
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  unlz4: /usr/local/bin/unlz4
+  unlzma: /usr/local/bin/unlzma
+  unxz: /usr/local/bin/unxz
+  unzstd: /usr/local/bin/unzstd
+  xz: /usr/local/bin/xz
+  xzcat: /usr/local/bin/xzcat
+  xzcmp: /usr/local/bin/xzcmp
+  xzdec: /usr/local/bin/xzdec
+  xzdiff: /usr/local/bin/xzdiff
+  xzegrep: /usr/local/bin/xzegrep
+  xzfgrep: /usr/local/bin/xzfgrep

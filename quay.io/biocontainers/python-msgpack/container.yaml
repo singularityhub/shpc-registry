@@ -6,3 +6,29 @@ latest:
 tags:
   0.6.1--py36h2ad2d48_5: sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24
 docker: quay.io/biocontainers/python-msgpack
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pip3: /usr/local/bin/pip3

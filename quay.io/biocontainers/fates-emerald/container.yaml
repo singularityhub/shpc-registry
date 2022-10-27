@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fates-emerald
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fates-emerald
+latest:
+  2.0.1: sha256:7e0ecb484cee940a96ac10cd59f94591aa46e944596f02022de6ffdc40aeb2ba
+tags:
+  2.0.1: sha256:7e0ecb484cee940a96ac10cd59f94591aa46e944596f02022de6ffdc40aeb2ba
+docker: quay.io/biocontainers/fates-emerald

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/soapdenovo2-prepare
 aliases:
   finalFusion: /usr/local/bin/finalFusion
+  env-execute: /usr/local/env-execute

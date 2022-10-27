@@ -235,3 +235,28 @@ aliases:
   utg2fasta: /usr/local/bin/utg2fasta
   utgcnsfix: /usr/local/bin/utgcnsfix
   vennPolishes: /usr/local/bin/vennPolishes
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Catrack: /usr/local/bin/Catrack
+  Consensus: /usr/local/bin/Consensus
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DAssembler: /usr/local/bin/DAssembler
+  DB2fasta: /usr/local/bin/DB2fasta
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm
+  DBshow: /usr/local/bin/DBshow
+  DBsplit: /usr/local/bin/DBsplit
+  DBstats: /usr/local/bin/DBstats
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  LAcat: /usr/local/bin/LAcat
+  LAcheck: /usr/local/bin/LAcheck
+  LAmerge: /usr/local/bin/LAmerge
+  LAshow: /usr/local/bin/LAshow
+  LAsort: /usr/local/bin/LAsort
+  LAsplit: /usr/local/bin/LAsplit
+  Makefile: /usr/local/bin/Makefile

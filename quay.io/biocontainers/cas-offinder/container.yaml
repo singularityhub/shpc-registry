@@ -102,3 +102,28 @@ aliases:
   verify-uselistorder: /usr/local/bin/verify-uselistorder
   whirlpool-hash: /usr/local/bin/whirlpool-hash
   yaml2obj: /usr/local/bin/yaml2obj
+  activate: /usr/local/bin/activate
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict

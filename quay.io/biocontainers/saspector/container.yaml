@@ -17,3 +17,28 @@ aliases:
   sourmash: /usr/local/bin/sourmash
   summary.py: /usr/local/bin/summary.py
   tandem_repeats.py: /usr/local/bin/tandem_repeats.py
+  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  barrnap: /usr/local/bin/barrnap
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd

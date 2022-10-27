@@ -12,3 +12,4 @@ aliases:
   PretextSnapshot.avx2: /usr/local/bin/PretextSnapshot.avx2
   PretextSnapshot.sse41: /usr/local/bin/PretextSnapshot.sse41
   PretextSnapshot.sse42: /usr/local/bin/PretextSnapshot.sse42
+  env-execute: /usr/local/env-execute

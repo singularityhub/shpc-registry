@@ -22,3 +22,28 @@ aliases:
   run_discoSnp++_ML.sh: /usr/local/bin/run_discoSnp++_ML.sh
   run_discoSnpRad.sh: /usr/local/bin/run_discoSnpRad.sh
   short_read_connector.sh: /usr/local/bin/short_read_connector.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  h5cc: /usr/local/bin/h5cc
+  idle3: /usr/local/bin/idle3

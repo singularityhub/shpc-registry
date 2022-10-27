@@ -11,3 +11,4 @@ aliases:
   coatran_expgrowth: /usr/local/bin/coatran_expgrowth
   coatran_inftime: /usr/local/bin/coatran_inftime
   coatran_transtree: /usr/local/bin/coatran_transtree
+  env-execute: /usr/local/env-execute

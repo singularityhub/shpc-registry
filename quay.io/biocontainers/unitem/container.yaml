@@ -18,3 +18,28 @@ aliases:
   runMetaBat.sh: /usr/local/bin/runMetaBat.sh
   run_MaxBin.pl: /usr/local/bin/run_MaxBin.pl
   unitem: /usr/local/bin/unitem
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  Makefile: /usr/local/bin/Makefile
+  Makefile.am: /usr/local/bin/Makefile.am
+  Makefile.in: /usr/local/bin/Makefile.in
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  autoheader.bak: /usr/local/bin/autoheader.bak
+  autom4te.bak: /usr/local/bin/autom4te.bak
+  automake.bak: /usr/local/bin/automake.bak
+  autopoint: /usr/local/bin/autopoint
+  autoreconf.bak: /usr/local/bin/autoreconf.bak
+  autoscan.bak: /usr/local/bin/autoscan.bak
+  autoupdate.bak: /usr/local/bin/autoupdate.bak
+  bazel-scan.py: /usr/local/bin/bazel-scan.py
+  bgzip: /usr/local/bin/bgzip
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s

@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/gfatools
 aliases:
   gfatools: /usr/local/bin/gfatools
   paf2gfa: /usr/local/bin/paf2gfa
+  env-execute: /usr/local/env-execute

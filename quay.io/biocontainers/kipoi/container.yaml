@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/kipoi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kipoi
+latest:
+  0.8.6--pyh5e36f6f_0: sha256:fb7358545a3d34bfd9eb01b0087b34085d1a8eb4e7f28a66089fd7bac45cba57
+tags:
+  0.8.6--pyh5e36f6f_0: sha256:fb7358545a3d34bfd9eb01b0087b34085d1a8eb4e7f28a66089fd7bac45cba57
+docker: quay.io/biocontainers/kipoi

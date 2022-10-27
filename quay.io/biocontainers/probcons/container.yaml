@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/probcons
 aliases:
   probcons: /usr/local/bin/probcons
+  compare: /usr/local/bin/compare

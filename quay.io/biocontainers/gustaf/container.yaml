@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/gustaf
 aliases:
   gustaf: /usr/local/bin/gustaf
   gustaf_mate_joining: /usr/local/bin/gustaf_mate_joining
+  env-execute: /usr/local/env-execute

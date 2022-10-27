@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/cgat-apps
 aliases:
   cgat: /usr/local/bin/cgat
   docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  '[': /usr/local/bin/[
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  annotateBed: /usr/local/bin/annotateBed
+  b2sum: /usr/local/bin/b2sum
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBam: /usr/local/bin/bedToBam
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip
+  bq: /usr/local/bin/bq
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2

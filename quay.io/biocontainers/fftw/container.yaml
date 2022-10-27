@@ -6,3 +6,11 @@ latest:
 tags:
   3.3.4--0: sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf
 docker: quay.io/biocontainers/fftw
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

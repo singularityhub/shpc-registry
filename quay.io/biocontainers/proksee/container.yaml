@@ -7,7 +7,6 @@ tags:
   1.0.0a4--pyhdfd78af_0: sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce
 docker: quay.io/biocontainers/proksee
 aliases:
-  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
   .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   icarus.py: /usr/local/bin/icarus.py
   metaquast: /usr/local/bin/metaquast
@@ -20,3 +19,28 @@ aliases:
   quast-lg.py: /usr/local/bin/quast-lg.py
   quast.py: /usr/local/bin/quast.py
   skesa: /usr/local/bin/skesa
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  blst2tkns: /usr/local/bin/blst2tkns

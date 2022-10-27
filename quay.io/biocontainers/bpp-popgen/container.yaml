@@ -6,3 +6,5 @@ latest:
 tags:
   2.4.1--h9f5acd7_3: sha256:e0d077bbd4951f9f27a4460d613e3229f06dd2b089d856a01bd325f6ac607fe6
 docker: quay.io/biocontainers/bpp-popgen
+aliases:
+  env-execute: /usr/local/env-execute

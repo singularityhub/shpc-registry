@@ -1,7 +1,7 @@
 docker: quay.io/biocontainers/velvet
-url: https://quay.io/repository/biocontainers/velvet
-maintainer: '@audreystott'
-description: Short read de novo assembler using de Bruijn graphs
+url: https://biocontainers.pro/tools/velvet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for velvet
 latest:
   1.2.10--h7132678_5: sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7
 tags:

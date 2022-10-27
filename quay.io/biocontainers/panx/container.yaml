@@ -13,3 +13,28 @@ aliases:
   panX.py: /usr/local/bin/panX.py
   temporal_signal.py: /usr/local/bin/temporal_signal.py
   timetree_inference.py: /usr/local/bin/timetree_inference.py
+  2to3: /usr/local/bin/2to3
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  c2ph: /usr/local/bin/c2ph
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  conda: /usr/local/bin/conda
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

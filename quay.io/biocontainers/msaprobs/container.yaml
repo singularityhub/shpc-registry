@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/msaprobs
 aliases:
   msaprobs: /usr/local/bin/msaprobs
+  env-execute: /usr/local/env-execute

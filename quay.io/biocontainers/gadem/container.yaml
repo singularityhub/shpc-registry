@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gadem
 aliases:
   gadem: /usr/local/bin/gadem
+  env-execute: /usr/local/env-execute

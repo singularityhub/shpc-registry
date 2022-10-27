@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/calitas
 aliases:
   calitas: /usr/local/bin/calitas
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  appletviewer: /usr/local/bin/appletviewer
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  idlj: /usr/local/bin/idlj
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jdeprscan: /usr/local/bin/jdeprscan
+  jdeps: /usr/local/bin/jdeps
+  jhsdb: /usr/local/bin/jhsdb

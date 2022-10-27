@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/crux-toolkit
 aliases:
   crux: /usr/local/bin/crux
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/renano
 aliases:
   renano: /usr/local/bin/renano
+  env-execute: /usr/local/env-execute

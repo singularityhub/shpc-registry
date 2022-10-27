@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/nxtrim
 aliases:
   nxtrim: /usr/local/bin/nxtrim
+  env-execute: /usr/local/env-execute

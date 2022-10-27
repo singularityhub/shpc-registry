@@ -10,3 +10,4 @@ aliases:
   mea: /usr/local/bin/mea
   mea_eval: /usr/local/bin/mea_eval
   mea_mix: /usr/local/bin/mea_mix
+  env-execute: /usr/local/env-execute

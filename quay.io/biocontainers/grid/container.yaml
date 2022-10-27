@@ -11,3 +11,28 @@ aliases:
   mosdepth: /usr/local/bin/mosdepth
   pathoscope: /usr/local/bin/pathoscope
   update_database: /usr/local/bin/update_database
+  2to3: /usr/local/bin/2to3
+  CA.pm: /usr/local/bin/CA.pm
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  autopoint: /usr/local/bin/autopoint
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamtools: /usr/local/bin/bamtools
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  between-two-genes: /usr/local/bin/between-two-genes

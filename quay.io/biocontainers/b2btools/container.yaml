@@ -6,3 +6,29 @@ latest:
 tags:
   3.0.5--pyhdfd78af_0: sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15
 docker: quay.io/biocontainers/b2btools
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  cwebp: /usr/local/bin/cwebp
+  djpeg: /usr/local/bin/djpeg
+  dwebp: /usr/local/bin/dwebp
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3

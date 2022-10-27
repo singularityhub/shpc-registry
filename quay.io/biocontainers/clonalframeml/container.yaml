@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/clonalframeml
 aliases:
   ClonalFrameML: /usr/local/bin/ClonalFrameML
+  env-execute: /usr/local/env-execute

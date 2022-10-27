@@ -1,10 +1,9 @@
 docker: quay.io/biocontainers/mrbayes
-url: https://quay.io/repository/biocontainers/mrbayes
-maintainer: '@sarahbeecroft'
-description: A program for Bayesian inference and model choice across a wide range
-  of phylogenetic and evolutionary models
+url: https://biocontainers.pro/tools/mrbayes
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mrbayes
 latest:
-  3.2.7--h5465cc4_4: sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1
+  3.2.7a--hcee41ef_0: sha256:bf64e9bd6a35d0b7e132a7766b89a8787ee1fb4cb269cc97f62fd3ab78b2e422
 tags:
   3.2.6--0: sha256:a81b94e4659014c25c5840b01f1f5ba5b635d2ce061134e2911f55f974c49b3f
   3.2.7a--hcee41ef_0: sha256:bf64e9bd6a35d0b7e132a7766b89a8787ee1fb4cb269cc97f62fd3ab78b2e422
@@ -12,3 +11,29 @@ tags:
   3.2.7--h5465cc4_4: sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1
 aliases:
   mb: /usr/local/bin/mb
+  mb-mpi: /usr/local/bin/mb-mpi
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  aserver: /usr/local/bin/aserver
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  gif2rgb: /usr/local/bin/gif2rgb

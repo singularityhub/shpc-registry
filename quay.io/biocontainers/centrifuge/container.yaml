@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/centrifuge
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for centrifuge
+latest:
+  1.0.4_beta--h9a82719_6: sha256:e3ce6d3d83a1df5327ee27b66d4c9eedb05b7bcd2eae8f78a7f7b9c1e8672c1c
+tags:
+  1.0.4_beta--h9a82719_6: sha256:e3ce6d3d83a1df5327ee27b66d4c9eedb05b7bcd2eae8f78a7f7b9c1e8672c1c
+docker: quay.io/biocontainers/centrifuge

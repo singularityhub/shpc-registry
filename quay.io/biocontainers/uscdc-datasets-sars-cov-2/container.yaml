@@ -7,7 +7,6 @@ tags:
   0.7.2--hdfd78af_0: sha256:591373018d2f29f0292e063bcd0bec02a5f0249041b3cf93a1ed809ec250c6f7
 docker: quay.io/biocontainers/uscdc-datasets-sars-cov-2
 aliases:
-  .uscdc-datasets-sars-cov-2-post-link.sh: /usr/local/bin/.uscdc-datasets-sars-cov-2-post-link.sh
   GenFSGopher.pl: /usr/local/bin/GenFSGopher.pl
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
   abi-load.2: /usr/local/bin/abi-load.2
@@ -70,3 +69,28 @@ aliases:
   vdb-passwd.2.11.0: /usr/local/bin/vdb-passwd.2.11.0
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
+  README: /usr/local/bin/README
+  '[': /usr/local/bin/[
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  abi-load: /usr/local/bin/abi-load
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-cache: /usr/local/bin/align-cache
+  align-cache.2: /usr/local/bin/align-cache.2
+  align-columns: /usr/local/bin/align-columns
+  align-info: /usr/local/bin/align-info
+  align-info.2: /usr/local/bin/align-info.2
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  b2sum: /usr/local/bin/b2sum
+  bam-load: /usr/local/bin/bam-load
+  bam-load.2: /usr/local/bin/bam-load.2
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc

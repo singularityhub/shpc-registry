@@ -6,3 +6,29 @@ latest:
 tags:
   0.03--pl5321hdfd78af_2: sha256:031407d0b3bac9dc268b3f76f0b8eba37c04035ee604fec8a360d4d420bd775d
 docker: quay.io/biocontainers/perl-moosex-app-role-log4perl
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
+  libnetcfg: /usr/local/bin/libnetcfg
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pl2pm: /usr/local/bin/pl2pm
+  pod2html: /usr/local/bin/pod2html

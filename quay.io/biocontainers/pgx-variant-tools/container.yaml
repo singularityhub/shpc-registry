@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pgx-variant-tools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pgx-variant-tools
+latest:
+  0.0.5--py_0: sha256:766784f9551afdc7a2414e273467a9e89d90d2e59a26c83c1cc56337ea45da70
+tags:
+  0.0.5--py_0: sha256:766784f9551afdc7a2414e273467a9e89d90d2e59a26c83c1cc56337ea45da70
+docker: quay.io/biocontainers/pgx-variant-tools

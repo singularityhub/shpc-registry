@@ -44,3 +44,28 @@ aliases:
   rnaclustScores2Dist.pl: /usr/local/bin/rnaclustScores2Dist.pl
   rnasoup_consMFE.pl: /usr/local/bin/rnasoup_consMFE.pl
   sparse: /usr/local/bin/sparse
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  Kinfold: /usr/local/bin/Kinfold
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
+  RNAfold: /usr/local/bin/RNAfold
+  RNAforester: /usr/local/bin/RNAforester
+  RNAheat: /usr/local/bin/RNAheat
+  RNAinverse: /usr/local/bin/RNAinverse
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApaln: /usr/local/bin/RNApaln
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNApdist: /usr/local/bin/RNApdist
+  RNAplex: /usr/local/bin/RNAplex
+  RNAplfold: /usr/local/bin/RNAplfold
+  RNAplot: /usr/local/bin/RNAplot
+  RNApvmin: /usr/local/bin/RNApvmin

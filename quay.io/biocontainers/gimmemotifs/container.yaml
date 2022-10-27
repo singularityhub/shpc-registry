@@ -7,7 +7,6 @@ tags:
   0.15.3--py38hc37a69a_0: sha256:499f887e239bee3ed4d0cf87d0ae4a49fe5c90457dcfdf462c3e88db43b08636
 docker: quay.io/biocontainers/gimmemotifs
 aliases:
-  .trawler-post-link.sh: /usr/local/bin/.trawler-post-link.sh
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl
   HomerConfig.pm: /usr/local/bin/HomerConfig.pm
   HomerSVGLogo.pm: /usr/local/bin/HomerSVGLogo.pm
@@ -196,3 +195,28 @@ aliases:
   trawler: /usr/local/bin/trawler
   weeder2: /usr/local/bin/weeder2
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  ahost: /usr/local/bin/ahost
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  beeml2meme: /usr/local/bin/beeml2meme
+  bgzip: /usr/local/bin/bgzip
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2

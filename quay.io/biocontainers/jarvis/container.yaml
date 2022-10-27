@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/jarvis
 aliases:
   JARVIS: /usr/local/bin/JARVIS
+  env-execute: /usr/local/env-execute

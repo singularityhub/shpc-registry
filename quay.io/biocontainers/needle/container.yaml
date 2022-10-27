@@ -6,3 +6,17 @@ latest:
 tags:
   1.0.1--h19e8d03_1: sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f
 docker: quay.io/biocontainers/needle
+aliases:
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  needle: /usr/local/bin/needle
+  env-execute: /usr/local/env-execute

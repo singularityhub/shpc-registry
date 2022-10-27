@@ -70,3 +70,28 @@ aliases:
   triangulateGA: /usr/local/bin/triangulateGA
   triangulateParallel: /usr/local/bin/triangulateParallel
   triangulateTimings: /usr/local/bin/triangulateTimings
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acyclic: /usr/local/bin/acyclic
+  annotateBed: /usr/local/bin/annotateBed
+  autopoint: /usr/local/bin/autopoint
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcomps: /usr/local/bin/bcomps
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover

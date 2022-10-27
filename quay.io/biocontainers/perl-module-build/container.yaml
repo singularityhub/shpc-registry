@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-build
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-build
+latest:
+  0.4231--pl5321hdfd78af_0: sha256:4bd4ae4cbc7f4d9f020f911f907da169b8bd44fdad0aace9be5a100ff3dc4d4a
+tags:
+  0.4231--pl5321hdfd78af_0: sha256:4bd4ae4cbc7f4d9f020f911f907da169b8bd44fdad0aace9be5a100ff3dc4d4a
+docker: quay.io/biocontainers/perl-module-build

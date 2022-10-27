@@ -6,3 +6,29 @@ latest:
 tags:
   2.8.0--0: sha256:6e15c94d5329670cf4676464a4cf33b50ce04df9536e60a1c6cc1dc28e5a7f0d
 docker: quay.io/biocontainers/bioconductor-gagedata
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication
+  gdbus: /usr/local/bin/gdbus
+  gdbus-codegen: /usr/local/bin/gdbus-codegen
+  gio-querymodules: /usr/local/bin/gio-querymodules
+  glib-compile-resources: /usr/local/bin/glib-compile-resources
+  glib-compile-schemas: /usr/local/bin/glib-compile-schemas
+  glib-genmarshal: /usr/local/bin/glib-genmarshal
+  glib-gettextize: /usr/local/bin/glib-gettextize

@@ -11,3 +11,28 @@ aliases:
   gawk-5.0.1: /usr/local/bin/gawk-5.0.1
   itero: /usr/local/bin/itero
   spades-dipspades-core: /usr/local/bin/spades-dipspades-core
+  2to3: /usr/local/bin/2to3
+  ace2sam: /usr/local/bin/ace2sam
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  annotateBed: /usr/local/bin/annotateBed
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2

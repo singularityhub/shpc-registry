@@ -6,3 +6,29 @@ latest:
 tags:
   0.1.6--pyh3252c3a_0: sha256:584dd5abce8674ef0816ba11e42f1e8be015bdcea0402a54e37a471907e7dca7
 docker: quay.io/biocontainers/arboreto
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  bokeh: /usr/local/bin/bokeh
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jpegtran: /usr/local/bin/jpegtran
+  jpgicc: /usr/local/bin/jpgicc
+  libpng-config: /usr/local/bin/libpng-config

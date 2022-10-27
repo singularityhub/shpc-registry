@@ -11,3 +11,7 @@ aliases:
   fastspar_bootstrap: /usr/local/bin/fastspar_bootstrap
   fastspar_pvalues: /usr/local/bin/fastspar_pvalues
   fastspar_reduce: /usr/local/bin/fastspar_reduce
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  env-execute: /usr/local/env-execute

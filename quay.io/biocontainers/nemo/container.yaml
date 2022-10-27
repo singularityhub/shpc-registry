@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/nemo
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nemo
+latest:
+  2.3.51--h1c77041_2: sha256:f31653d21d25f5a27443e4ab5ae4870f64ba47422e1f50f369850ad96d12ca99
+tags:
+  2.3.51--h1c77041_2: sha256:f31653d21d25f5a27443e4ab5ae4870f64ba47422e1f50f369850ad96d12ca99
+docker: quay.io/biocontainers/nemo

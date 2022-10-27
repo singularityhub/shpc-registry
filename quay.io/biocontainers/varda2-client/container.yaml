@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/varda2-client
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for varda2-client
+latest:
+  0.9--py_0: sha256:087e2d0b7ce34df47a6292bf1a7556c81cca2f7b53371d88119c2b1e2d45f519
+tags:
+  0.9--py_0: sha256:087e2d0b7ce34df47a6292bf1a7556c81cca2f7b53371d88119c2b1e2d45f519
+docker: quay.io/biocontainers/varda2-client

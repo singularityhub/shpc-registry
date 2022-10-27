@@ -47,3 +47,4 @@ aliases:
   stringiphy: /usr/local/bin/stringiphy
   treeGen: /usr/local/bin/treeGen
   tree_doctor: /usr/local/bin/tree_doctor
+  env-execute: /usr/local/env-execute

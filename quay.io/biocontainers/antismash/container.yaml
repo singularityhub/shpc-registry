@@ -7,7 +7,6 @@ tags:
   6.1.1--pyhdfd78af_0: sha256:35d78e95a7e87b67210c4fe25e77ea4452d88e3b6234a39fe0602e83baefab82
 docker: quay.io/biocontainers/antismash
 aliases:
-  .antismash-post-link.sh: /usr/local/bin/.antismash-post-link.sh
   antismash: /usr/local/bin/antismash
   download-antismash-databases: /usr/local/bin/download-antismash-databases
   hmmalign2: /usr/local/bin/hmmalign2
@@ -24,3 +23,28 @@ aliases:
   less2scss: /usr/local/bin/less2scss
   pyscss: /usr/local/bin/pyscss
   xsltproc_lite: /usr/local/bin/xsltproc_lite
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  alimask: /usr/local/bin/alimask
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py

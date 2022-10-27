@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/flash2
 aliases:
   flash2: /usr/local/bin/flash2
+  env-execute: /usr/local/env-execute

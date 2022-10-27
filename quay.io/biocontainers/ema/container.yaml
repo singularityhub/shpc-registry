@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/ema
 aliases:
   ema: /usr/local/bin/ema
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

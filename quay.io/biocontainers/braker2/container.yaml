@@ -7,7 +7,6 @@ tags:
   2.1.6--hdfd78af_5: sha256:2bf5974e82d2fc5cc241e72a8496a6ab582ad1450ad5abe6e465a4a1e3633642
 docker: quay.io/biocontainers/braker2
 aliases:
-  .braker2-post-link.sh: /usr/local/bin/.braker2-post-link.sh
   GeMoMa: /usr/local/bin/GeMoMa
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
   PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt
@@ -89,3 +88,28 @@ aliases:
   spspaln.pl: /usr/local/bin/spspaln.pl
   startAlign.pl: /usr/local/bin/startAlign.pl
   tsebra.py: /usr/local/bin/tsebra.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  CA.pm: /usr/local/bin/CA.pm
+  README: /usr/local/bin/README
+  README.autoAug: /usr/local/bin/README.autoAug
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  augustus: /usr/local/bin/augustus
+  augustus2browser.pl: /usr/local/bin/augustus2browser.pl
+  augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
+  autoAug.pl: /usr/local/bin/autoAug.pl
+  autoAugPred.pl: /usr/local/bin/autoAugPred.pl
+  autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk

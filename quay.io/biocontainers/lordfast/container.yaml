@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/lordfast
 aliases:
   lordfast: /usr/local/bin/lordfast
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

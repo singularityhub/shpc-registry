@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-perlio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-perlio
+latest:
+  1.09--pl5321hdfd78af_2: sha256:ee501962f237c5257b38644e96cdb028a964830d585ef2632ad0aaddcda2a299
+tags:
+  1.09--pl5321hdfd78af_2: sha256:ee501962f237c5257b38644e96cdb028a964830d585ef2632ad0aaddcda2a299
+docker: quay.io/biocontainers/perl-perlio

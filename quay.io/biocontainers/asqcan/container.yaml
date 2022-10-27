@@ -10,3 +10,28 @@ aliases:
   asqcan: /usr/local/bin/asqcan
   blobtools: /usr/local/bin/blobtools
   blobtools-build_nodesdb: /usr/local/bin/blobtools-build_nodesdb
+  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  README: /usr/local/bin/README
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  barrnap: /usr/local/bin/barrnap
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps

@@ -127,3 +127,28 @@ aliases:
   wigchoose.pl: /usr/local/bin/wigchoose.pl
   writeResultsPage.pl: /usr/local/bin/writeResultsPage.pl
   yaml2gff.1.4.pl: /usr/local/bin/yaml2gff.1.4.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  augustus: /usr/local/bin/augustus
+  bam2hints: /usr/local/bin/bam2hints
+  bamtools: /usr/local/bin/bamtools
+  bgzip: /usr/local/bin/bgzip
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  cmpfillin: /usr/local/bin/cmpfillin
+  compile_et: /usr/local/bin/compile_et

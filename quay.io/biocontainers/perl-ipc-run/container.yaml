@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-ipc-run
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-ipc-run
+latest:
+  20200505.0--pl5321hdfd78af_0: sha256:6c6e6fb061f995933b527f98afb56b0d8aa10cc0d517aa4cb554d49d2cc29958
+tags:
+  20200505.0--pl5321hdfd78af_0: sha256:6c6e6fb061f995933b527f98afb56b0d8aa10cc0d517aa4cb554d49d2cc29958
+docker: quay.io/biocontainers/perl-ipc-run

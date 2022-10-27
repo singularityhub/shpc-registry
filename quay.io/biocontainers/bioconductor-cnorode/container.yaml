@@ -6,3 +6,29 @@ latest:
 tags:
   1.36.0--r41hc0cfd56_2: sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805
 docker: quay.io/biocontainers/bioconductor-cnorode
+aliases:
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo

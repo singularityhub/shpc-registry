@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/deepbinner
 aliases:
   deepbinner: /usr/local/bin/deepbinner
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acountry: /usr/local/bin/acountry
+  activate: /usr/local/bin/activate
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen

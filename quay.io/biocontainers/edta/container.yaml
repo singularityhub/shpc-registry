@@ -80,7 +80,31 @@ aliases:
   rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
   rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
   rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
-  rmblastn: /usr/local/bin/rmblastn
   trfMask: /usr/local/bin/trfMask
   viewMSA.pl: /usr/local/bin/viewMSA.pl
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  FET.pl: /usr/local/bin/FET.pl
+  README: /usr/local/bin/README
+  '[': /usr/local/bin/[
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  between-two-genes: /usr/local/bin/between-two-genes

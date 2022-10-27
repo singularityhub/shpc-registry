@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/dnp-fourier
 aliases:
   dnp-fourier: /usr/local/bin/dnp-fourier
+  env-execute: /usr/local/env-execute

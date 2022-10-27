@@ -25,3 +25,28 @@ aliases:
   split_magetab.pl: /usr/local/bin/split_magetab.pl
   validate_magetab.pl: /usr/local/bin/validate_magetab.pl
   validjson: /usr/local/bin/validjson
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  clusterdb: /usr/local/bin/clusterdb
+  compile_et: /usr/local/bin/compile_et
+  config_data: /usr/local/bin/config_data
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  createdb: /usr/local/bin/createdb
+  createuser: /usr/local/bin/createuser
+  cwebp: /usr/local/bin/cwebp
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof

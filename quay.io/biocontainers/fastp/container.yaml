@@ -1,7 +1,7 @@
 docker: quay.io/biocontainers/fastp
-url: https://quay.io/repository/biocontainers/fastp
-maintainer: '@marcodelapierre'
-description: An ultra-fast all-in-one FASTQ preprocessor.
+url: https://biocontainers.pro/tools/fastp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastp
 latest:
   0.23.2--h5f740d0_3: sha256:2489fe56260bde05bdf72a8ead4892033b9a05dc4525affb909405bea7839d1b
 tags:

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/spring
 aliases:
   spring: /usr/local/bin/spring
+  env-execute: /usr/local/env-execute

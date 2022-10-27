@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fastutils
 aliases:
   fastutils: /usr/local/bin/fastutils
+  env-execute: /usr/local/env-execute

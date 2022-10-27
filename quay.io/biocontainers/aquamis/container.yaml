@@ -7,7 +7,6 @@ tags:
   1.3.7--hdfd78af_0: sha256:f40422049c5ebde54311e8e75d4ac931ecf07bcd218cf8c7abffe21aaf8d151e
 docker: quay.io/biocontainers/aquamis
 aliases:
-  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
   .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   aquamis: /usr/local/bin/aquamis
   aquamis_setup.sh: /usr/local/bin/aquamis_setup.sh
@@ -49,3 +48,28 @@ aliases:
   taxonkit: /usr/local/bin/taxonkit
   write_QC_report.Rmd: /usr/local/bin/write_QC_report.Rmd
   write_report.Rmd: /usr/local/bin/write_report.Rmd
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  CA.pm: /usr/local/bin/CA.pm
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adig: /usr/local/bin/adig
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  ahost: /usr/local/bin/ahost
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  annotate: /usr/local/bin/annotate

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/genrich
 aliases:
   Genrich: /usr/local/bin/Genrich
+  env-execute: /usr/local/env-execute

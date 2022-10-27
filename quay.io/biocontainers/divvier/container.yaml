@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/divvier
 aliases:
   divvier: /usr/local/bin/divvier
+  env-execute: /usr/local/env-execute

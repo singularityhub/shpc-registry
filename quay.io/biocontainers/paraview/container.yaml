@@ -55,3 +55,28 @@ aliases:
   trial: /usr/local/bin/trial
   twist: /usr/local/bin/twist
   twistd: /usr/local/bin/twistd
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  cjpeg: /usr/local/bin/cjpeg
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  freetype-config: /usr/local/bin/freetype-config
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5dump: /usr/local/bin/h5dump
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy

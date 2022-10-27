@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/smafa
 aliases:
   smafa: /usr/local/bin/smafa
+  env-execute: /usr/local/env-execute

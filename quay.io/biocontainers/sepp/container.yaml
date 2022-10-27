@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sepp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sepp
+latest:
+  v4.5.0--py37_0: sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707
+tags:
+  v4.5.0--py37_0: sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707
+docker: quay.io/biocontainers/sepp

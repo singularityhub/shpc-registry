@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/appspam
 aliases:
   appspam: /usr/local/bin/appspam
+  env-execute: /usr/local/env-execute

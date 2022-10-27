@@ -7,8 +7,32 @@ tags:
   1.3.0--hdfd78af_2: sha256:afc460a9bdbc6dcd00ee37e40f2b6d4f35ac87e2d8e6b93a3353d6e5fa658c66
 docker: quay.io/biocontainers/kofamscan
 aliases:
-  .kofamscan-post-link.sh: /usr/local/bin/.kofamscan-post-link.sh
   exec_annotation: /usr/local/bin/exec_annotation
   racc: /usr/local/bin/racc
   racc2y: /usr/local/bin/racc2y
   y2racc: /usr/local/bin/y2racc
+  alimask: /usr/local/bin/alimask
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  easel: /usr/local/bin/easel
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
+  env_parallel.sh: /usr/local/bin/env_parallel.sh
+  env_parallel.tcsh: /usr/local/bin/env_parallel.tcsh
+  env_parallel.zsh: /usr/local/bin/env_parallel.zsh
+  erb: /usr/local/bin/erb
+  esl-afetch: /usr/local/bin/esl-afetch

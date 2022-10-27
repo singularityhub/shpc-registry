@@ -7,7 +7,6 @@ tags:
   1.4.1a--py27h3dcb392_1: sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d
 docker: quay.io/biocontainers/phenix
 aliases:
-  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   filter_vcf.py: /usr/local/bin/filter_vcf.py
   gatk-register: /usr/local/bin/gatk-register
@@ -17,3 +16,28 @@ aliases:
   vcf2distancematrix.py: /usr/local/bin/vcf2distancematrix.py
   vcf2fasta.py: /usr/local/bin/vcf2fasta.py
   vcf2json.py: /usr/local/bin/vcf2json.py
+  2to3: /usr/local/bin/2to3
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  appletviewer: /usr/local/bin/appletviewer
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp

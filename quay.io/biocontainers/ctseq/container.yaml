@@ -71,3 +71,28 @@ aliases:
   run_type_CP.sh: /usr/local/bin/run_type_CP.sh
   test_data.fastq: /usr/local/bin/test_data.fastq
   umi_tools: /usr/local/bin/umi_tools
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  R: /usr/local/bin/R
+  README.md: /usr/local/bin/README.md
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  autopoint: /usr/local/bin/autopoint
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep

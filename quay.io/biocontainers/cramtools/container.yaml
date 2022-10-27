@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/cramtools
 aliases:
   cramtools: /usr/local/bin/cramtools
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  cairo-trace: /usr/local/bin/cairo-trace
+  cjpeg: /usr/local/bin/cjpeg
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  envsubst: /usr/local/bin/envsubst
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb

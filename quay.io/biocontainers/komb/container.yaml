@@ -10,3 +10,28 @@ aliases:
   Bifrost: /usr/local/bin/Bifrost
   abyss-db-csv: /usr/local/bin/abyss-db-csv
   komb: /usr/local/bin/komb
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths
+  Overlap: /usr/local/bin/Overlap
+  ParseAligns: /usr/local/bin/ParseAligns
+  PathConsensus: /usr/local/bin/PathConsensus
+  PathOverlap: /usr/local/bin/PathOverlap
+  PopBubbles: /usr/local/bin/PopBubbles
+  SimpleGraph: /usr/local/bin/SimpleGraph
+  abyss-align: /usr/local/bin/abyss-align
+  abyss-bloom: /usr/local/bin/abyss-bloom
+  abyss-bloom-dbg: /usr/local/bin/abyss-bloom-dbg
+  abyss-bloom-dist.mk: /usr/local/bin/abyss-bloom-dist.mk
+  abyss-bloom-dist.mk.Makefile: /usr/local/bin/abyss-bloom-dist.mk.Makefile
+  abyss-bowtie: /usr/local/bin/abyss-bowtie
+  abyss-bowtie2: /usr/local/bin/abyss-bowtie2

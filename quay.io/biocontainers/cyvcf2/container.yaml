@@ -6,3 +6,29 @@ latest:
 tags:
   0.8.4--py36h355e19c_4: sha256:7cc6998325d3776a7d7dd0f0a50bcb46505ac71c6953b1e4efb45fb51fb13d60
 docker: quay.io/biocontainers/cyvcf2
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  coloredlogs: /usr/local/bin/coloredlogs
+  conda: /usr/local/bin/conda
+  cyvcf2: /usr/local/bin/cyvcf2
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle3: /usr/local/bin/idle3

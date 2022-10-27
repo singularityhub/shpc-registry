@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/probconsrna
 aliases:
   probconsRNA: /usr/local/bin/probconsRNA
+  env-execute: /usr/local/env-execute

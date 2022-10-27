@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/bioprov
 aliases:
   bioprov: /usr/local/bin/bioprov
   coveralls: /usr/local/bin/coveralls
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  coverage: /usr/local/bin/coverage
+  csv2rdf: /usr/local/bin/csv2rdf
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  derb: /usr/local/bin/derb
+  diffimg: /usr/local/bin/diffimg
+  dijkstra: /usr/local/bin/dijkstra
+  djpeg: /usr/local/bin/djpeg

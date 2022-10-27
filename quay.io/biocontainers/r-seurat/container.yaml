@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-seurat
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-seurat
+latest:
+  3.0.2--r36h0357c0b_1: sha256:eb1985787e3f7839a0727c680bcd383e68c8ed8da26e04a53ec0ab05a1d17720
+tags:
+  3.0.2--r36h0357c0b_1: sha256:eb1985787e3f7839a0727c680bcd383e68c8ed8da26e04a53ec0ab05a1d17720
+docker: quay.io/biocontainers/r-seurat

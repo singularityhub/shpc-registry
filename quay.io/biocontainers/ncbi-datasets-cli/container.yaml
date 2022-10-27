@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/ncbi-datasets-cli
 aliases:
   dataformat: /usr/local/bin/dataformat
   datasets: /usr/local/bin/datasets
+  env-execute: /usr/local/env-execute

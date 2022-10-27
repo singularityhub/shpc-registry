@@ -6,3 +6,29 @@ latest:
 tags:
   1.1--py36_0: sha256:4c861e9bf3ba68b231c732f7b3b407796725321e5cd81d1a867a281bece828af
 docker: quay.io/biocontainers/pytest-mock
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  openssl: /usr/local/bin/openssl
+  pbr: /usr/local/bin/pbr
+  pip: /usr/local/bin/pip
+  py.test: /usr/local/bin/py.test
+  pydoc: /usr/local/bin/pydoc
+  pydoc3: /usr/local/bin/pydoc3
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  pytest: /usr/local/bin/pytest
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
+  python3-config: /usr/local/bin/python3-config
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m

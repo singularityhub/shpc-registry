@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/baitfisher
 aliases:
   BaitFilter: /usr/local/bin/BaitFilter
   BaitFisher: /usr/local/bin/BaitFisher
+  env-execute: /usr/local/env-execute

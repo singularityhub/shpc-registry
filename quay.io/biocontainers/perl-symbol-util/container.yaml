@@ -6,3 +6,29 @@ latest:
 tags:
   0.0203--pl5321h9ee0642_2: sha256:ba9824bda696449ada446fbf1c69385676216e300d7ffed33fd9084563f818c0
 docker: quay.io/biocontainers/perl-symbol-util
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pl2pm: /usr/local/bin/pl2pm
+  pod2html: /usr/local/bin/pod2html
+  pod2man: /usr/local/bin/pod2man
+  pod2text: /usr/local/bin/pod2text
+  pod2usage: /usr/local/bin/pod2usage
+  podchecker: /usr/local/bin/podchecker
+  prove: /usr/local/bin/prove
+  ptar: /usr/local/bin/ptar

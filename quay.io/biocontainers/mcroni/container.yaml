@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/mcroni
 aliases:
   _gdlib-config: /usr/local/bin/_gdlib-config
   mcroni: /usr/local/bin/mcroni
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  README: /usr/local/bin/README
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic
+  _backtranambig: /usr/local/bin/_backtranambig
+  _backtranseq: /usr/local/bin/_backtranseq
+  _banana: /usr/local/bin/_banana
+  _bdftogd: /usr/local/bin/_bdftogd
+  _biosed: /usr/local/bin/_biosed
+  _btwisted: /usr/local/bin/_btwisted
+  _cai: /usr/local/bin/_cai
+  _chaos: /usr/local/bin/_chaos
+  _charge: /usr/local/bin/_charge
+  _checktrans: /usr/local/bin/_checktrans
+  _chips: /usr/local/bin/_chips
+  _cirdna: /usr/local/bin/_cirdna
+  _codcmp: /usr/local/bin/_codcmp
+  _codcopy: /usr/local/bin/_codcopy

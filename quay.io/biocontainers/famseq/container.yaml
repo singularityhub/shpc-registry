@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/famseq
 aliases:
   FamSeq: /usr/local/bin/FamSeq
+  env-execute: /usr/local/env-execute

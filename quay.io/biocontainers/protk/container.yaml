@@ -7,7 +7,6 @@ tags:
   1.4.4a--hc9114bc_1: sha256:65c0f11b15958eb5a9334b94d977f771f729db02b2322feff2e2988f02350c37
 docker: quay.io/biocontainers/protk
 aliases:
-  .d: /usr/local/bin/.d
   ASAPRatioPeptideParser: /usr/local/bin/ASAPRatioPeptideParser
   ASAPRatioProteinRatioParser: /usr/local/bin/ASAPRatioProteinRatioParser
   ASAPRatioPvalueParser: /usr/local/bin/ASAPRatioPvalueParser
@@ -108,3 +107,28 @@ aliases:
   uniprot_mapper.rb: /usr/local/bin/uniprot_mapper.rb
   updatepaths.pl: /usr/local/bin/updatepaths.pl
   xinteract: /usr/local/bin/xinteract
+  activate: /usr/local/bin/activate
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c2ph: /usr/local/bin/c2ph
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  erb: /usr/local/bin/erb

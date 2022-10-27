@@ -6,3 +6,29 @@ latest:
 tags:
   1.20.1: sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881
 docker: quay.io/biocontainers/wget
+aliases:
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  envsubst: /usr/local/bin/envsubst
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  idn2: /usr/local/bin/idn2
+  msgattrib: /usr/local/bin/msgattrib
+  msgcat: /usr/local/bin/msgcat
+  msgcmp: /usr/local/bin/msgcmp
+  msgcomm: /usr/local/bin/msgcomm
+  msgconv: /usr/local/bin/msgconv
+  msgen: /usr/local/bin/msgen
+  msgexec: /usr/local/bin/msgexec
+  msgfilter: /usr/local/bin/msgfilter
+  msgfmt: /usr/local/bin/msgfmt
+  msggrep: /usr/local/bin/msggrep
+  msginit: /usr/local/bin/msginit
+  msgmerge: /usr/local/bin/msgmerge
+  msgunfmt: /usr/local/bin/msgunfmt
+  msguniq: /usr/local/bin/msguniq
+  ngettext: /usr/local/bin/ngettext
+  openssl: /usr/local/bin/openssl
+  recode-sr-latin: /usr/local/bin/recode-sr-latin
+  wget: /usr/local/bin/wget

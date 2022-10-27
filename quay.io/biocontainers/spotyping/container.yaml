@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/spotyping
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for spotyping
+latest:
+  2.1--hdfd78af_4: sha256:350bf84f5e39e6e0e529c084738c2a7a25150aae07ec7e416814bbc0f4ee6ec6
+tags:
+  2.1--hdfd78af_4: sha256:350bf84f5e39e6e0e529c084738c2a7a25150aae07ec7e416814bbc0f4ee6ec6
+docker: quay.io/biocontainers/spotyping

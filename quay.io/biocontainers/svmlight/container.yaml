@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/svmlight
 aliases:
   svm_classify: /usr/local/bin/svm_classify
   svm_learn: /usr/local/bin/svm_learn
+  env-execute: /usr/local/env-execute

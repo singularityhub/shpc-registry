@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-sharedir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-sharedir
+latest:
+  1.118--pl5321hdfd78af_0: sha256:23bf0db30b54285180a4b77fecb2ce9180d6e24f247d0d15dafc4316482e3ea3
+tags:
+  1.118--pl5321hdfd78af_0: sha256:23bf0db30b54285180a4b77fecb2ce9180d6e24f247d0d15dafc4316482e3ea3
+docker: quay.io/biocontainers/perl-file-sharedir

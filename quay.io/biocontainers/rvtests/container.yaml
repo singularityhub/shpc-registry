@@ -28,3 +28,6 @@ aliases:
   vcfSummary: /usr/local/bin/vcfSummary
   vcfSummaryLite: /usr/local/bin/vcfSummaryLite
   vcfVariantSummaryLite: /usr/local/bin/vcfVariantSummaryLite
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

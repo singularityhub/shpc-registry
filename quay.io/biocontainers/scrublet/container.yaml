@@ -6,3 +6,29 @@ latest:
 tags:
   0.2.3--pyh5e36f6f_1: sha256:2a4a79a2c72725db6560f3c9c823fd1128dd81b811816405cb3b752f83fe3421
 docker: quay.io/biocontainers/scrublet
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aec: /usr/local/bin/aec
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cbrunsli: /usr/local/bin/cbrunsli
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  dbrunsli: /usr/local/bin/dbrunsli
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install

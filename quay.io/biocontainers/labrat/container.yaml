@@ -12,3 +12,28 @@ aliases:
   LABRAT_dm6annotation.py: /usr/local/bin/LABRAT_dm6annotation.py
   LABRAT_rn6annotation.py: /usr/local/bin/LABRAT_rn6annotation.py
   LABRATsc.py: /usr/local/bin/LABRATsc.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu

@@ -8,14 +8,10 @@ tags:
 docker: quay.io/biocontainers/opencontactcli
 aliases:
   OpenContactCLI: /usr/local/bin/OpenContactCLI
-  contact.cpython-36m-x86_64-linux-gnu.so: /usr/local/bin/contact.cpython-36m-x86_64-linux-gnu.so
-  contact.so: /usr/local/bin/contact.so
   contactgui.f: /usr/local/bin/contactgui.f
   ctresc03.pdb: /usr/local/bin/ctresc03.pdb
   ctresc03n.pdb: /usr/local/bin/ctresc03n.pdb
   inputgui.f: /usr/local/bin/inputgui.f
-  it.cpython-36m-x86_64-linux-gnu.so: /usr/local/bin/it.cpython-36m-x86_64-linux-gnu.so
-  it.so: /usr/local/bin/it.so
   ljresid: /usr/local/bin/ljresid
   ljresidn: /usr/local/bin/ljresidn
   main_cli.py: /usr/local/bin/main_cli.py
@@ -23,3 +19,28 @@ aliases:
   ntresc03n.pdb: /usr/local/bin/ntresc03n.pdb
   residc03.pdb: /usr/local/bin/residc03.pdb
   residc03n.pdb: /usr/local/bin/residc03n.pdb
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.6: /usr/local/bin/f2py3.6
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config

@@ -15,3 +15,28 @@ aliases:
   pmxligand_hybrid: /usr/local/bin/pmxligand_hybrid
   pmxmerge_ff: /usr/local/bin/pmxmerge_ff
   pmxmutate: /usr/local/bin/pmxmutate
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  brotli: /usr/local/bin/brotli
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  djpeg: /usr/local/bin/djpeg
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.7: /usr/local/bin/f2py3.7
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fonttools: /usr/local/bin/fonttools
+  freetype-config: /usr/local/bin/freetype-config
+  futurize: /usr/local/bin/futurize
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7
+  infocmp: /usr/local/bin/infocmp

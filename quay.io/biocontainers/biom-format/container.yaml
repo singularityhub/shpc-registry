@@ -6,3 +6,29 @@ latest:
 tags:
   2.1.7--py27_0: sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c
 docker: quay.io/biocontainers/biom-format
+aliases:
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  biom: /usr/local/bin/biom
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  conv-template: /usr/local/bin/conv-template
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  from-template: /usr/local/bin/from-template
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5dump: /usr/local/bin/h5dump
+  h5fc: /usr/local/bin/h5fc
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5import: /usr/local/bin/h5import

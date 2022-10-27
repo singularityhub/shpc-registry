@@ -17,3 +17,28 @@ aliases:
   runMetaphyler.pl: /usr/local/bin/runMetaphyler.pl
   simuReads: /usr/local/bin/simuReads
   taxprof: /usr/local/bin/taxprof
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  impala: /usr/local/bin/impala
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  makemat: /usr/local/bin/makemat
+  megablast: /usr/local/bin/megablast
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp

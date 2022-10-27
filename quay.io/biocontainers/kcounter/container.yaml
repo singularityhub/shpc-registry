@@ -6,3 +6,29 @@ latest:
 tags:
   0.1.1--py37h8902056_1: sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de
 docker: quay.io/biocontainers/kcounter
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pip3: /usr/local/bin/pip3

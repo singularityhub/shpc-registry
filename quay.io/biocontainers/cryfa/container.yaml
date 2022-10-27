@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/cryfa
 aliases:
   cryfa: /usr/local/bin/cryfa
   keygen: /usr/local/bin/keygen
+  env-execute: /usr/local/env-execute

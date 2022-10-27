@@ -20,3 +20,28 @@ aliases:
   pyhocon: /usr/local/bin/pyhocon
   run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
   run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  coloredlogs: /usr/local/bin/coloredlogs
+  easy_install: /usr/local/bin/easy_install
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle3: /usr/local/bin/idle3
+  idle3.8: /usr/local/bin/idle3.8
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jp.py: /usr/local/bin/jp.py
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo

@@ -17,3 +17,28 @@ aliases:
   raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
   run_gubbins.py: /usr/local/bin/run_gubbins.py
   ska: /usr/local/bin/ska
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cwebp: /usr/local/bin/cwebp
+  dendropy-format: /usr/local/bin/dendropy-format
+  djpeg: /usr/local/bin/djpeg

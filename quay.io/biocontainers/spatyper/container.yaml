@@ -7,8 +7,32 @@ tags:
   0.3.3--pyhdfd78af_3: sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82
 docker: quay.io/biocontainers/spatyper
 aliases:
-  .spatyper-post-link.sh: /usr/local/bin/.spatyper-post-link.sh
   download-spatypes.sh: /usr/local/bin/download-spatypes.sh
   spaTyper: /usr/local/bin/spaTyper
   sparepeats.fasta: /usr/local/bin/sparepeats.fasta
   spatypes.txt: /usr/local/bin/spatypes.txt
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  envsubst: /usr/local/bin/envsubst
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  idn2: /usr/local/bin/idn2
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo

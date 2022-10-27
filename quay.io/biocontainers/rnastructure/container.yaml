@@ -73,3 +73,4 @@ aliases:
   stochastic: /usr/local/bin/stochastic
   stochastic-smp: /usr/local/bin/stochastic-smp
   validate: /usr/local/bin/validate
+  env-execute: /usr/local/env-execute

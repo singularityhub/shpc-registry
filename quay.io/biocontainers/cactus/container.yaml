@@ -163,3 +163,28 @@ aliases:
   toil-cwl-runner: /usr/local/bin/toil-cwl-runner
   toil-wdl-runner: /usr/local/bin/toil-wdl-runner
   wsdump.py: /usr/local/bin/wsdump.py
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  asadmin: /usr/local/bin/asadmin
+  avro: /usr/local/bin/avro
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  bundle_image: /usr/local/bin/bundle_image
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  cq: /usr/local/bin/cq
+  csv2rdf: /usr/local/bin/csv2rdf
+  cwltool: /usr/local/bin/cwltool
+  cwutil: /usr/local/bin/cwutil
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  deactivate: /usr/local/bin/deactivate
+  doesitcache: /usr/local/bin/doesitcache
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load
+  easy_install: /usr/local/bin/easy_install
+  elbadmin: /usr/local/bin/elbadmin

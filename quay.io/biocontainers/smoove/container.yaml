@@ -16,7 +16,6 @@ aliases:
   lumpy: /usr/local/bin/lumpy
   lumpy_filter: /usr/local/bin/lumpy_filter
   lumpyexpress: /usr/local/bin/lumpyexpress
-  lumpyexpress.config: /usr/local/bin/lumpyexpress.config
   mosdepth: /usr/local/bin/mosdepth
   samblaster: /usr/local/bin/samblaster
   smoove: /usr/local/bin/smoove
@@ -29,3 +28,28 @@ aliases:
   vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
   vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
   vcf_paste.py: /usr/local/bin/vcf_paste.py
+  2to3: /usr/local/bin/2to3
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  awk: /usr/local/bin/awk
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cal: /usr/local/bin/cal
+  captoinfo: /usr/local/bin/captoinfo
+  chmem: /usr/local/bin/chmem

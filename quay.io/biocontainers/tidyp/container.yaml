@@ -6,3 +6,6 @@ latest:
 tags:
   1.04--hec16e2b_4: sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71
 docker: quay.io/biocontainers/tidyp
+aliases:
+  tidyp: /usr/local/bin/tidyp
+  env-execute: /usr/local/env-execute

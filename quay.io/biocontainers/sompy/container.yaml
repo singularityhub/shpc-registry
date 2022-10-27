@@ -6,3 +6,29 @@ latest:
 tags:
   0.1.1--pyh24bf2e0_1: sha256:f7d7819c225379354f0e62384f8161f5b61cbc215161c929efed8a8d2ff8a71e
 docker: quay.io/biocontainers/sompy
+aliases:
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  designer: /usr/local/bin/designer
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  envsubst: /usr/local/bin/envsubst

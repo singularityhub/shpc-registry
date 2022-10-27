@@ -76,3 +76,28 @@ aliases:
   rnazWindow_gq.pl: /usr/local/bin/rnazWindow_gq.pl
   sparse: /usr/local/bin/sparse
   stats2plot.pl: /usr/local/bin/stats2plot.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  CA.pm: /usr/local/bin/CA.pm
+  Kinfold: /usr/local/bin/Kinfold
+  README: /usr/local/bin/README
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
+  RNAfold: /usr/local/bin/RNAfold
+  RNAforester: /usr/local/bin/RNAforester
+  RNAheat: /usr/local/bin/RNAheat
+  RNAinverse: /usr/local/bin/RNAinverse
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApaln: /usr/local/bin/RNApaln
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNApdist: /usr/local/bin/RNApdist

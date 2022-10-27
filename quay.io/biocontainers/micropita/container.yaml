@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/micropita
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for micropita
+latest:
+  1.1.0--1: sha256:d77cdd9a2b9967242c4fd1494e9dd1d7b9032622c9dccc26cacbde073b428a9a
+tags:
+  1.1.0--1: sha256:d77cdd9a2b9967242c4fd1494e9dd1d7b9032622c9dccc26cacbde073b428a9a
+docker: quay.io/biocontainers/micropita

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gbmunge
 aliases:
   gbmunge: /usr/local/bin/gbmunge
+  env-execute: /usr/local/env-execute

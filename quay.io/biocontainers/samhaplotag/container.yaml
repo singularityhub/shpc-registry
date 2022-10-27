@@ -10,3 +10,4 @@ aliases:
   10xSpoof: /usr/local/bin/10xSpoof
   16BaseBCGen: /usr/local/bin/16BaseBCGen
   SamHaplotag: /usr/local/bin/SamHaplotag
+  env-execute: /usr/local/env-execute

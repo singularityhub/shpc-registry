@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/scoary
 aliases:
   scoary: /usr/local/bin/scoary
   scoary_GUI: /usr/local/bin/scoary_GUI
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  assistant: /usr/local/bin/assistant
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  designer: /usr/local/bin/designer
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  ete3: /usr/local/bin/ete3
+  f2py: /usr/local/bin/f2py
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  gapplication: /usr/local/bin/gapplication
+  gdbus: /usr/local/bin/gdbus

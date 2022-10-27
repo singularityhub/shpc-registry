@@ -12,3 +12,28 @@ aliases:
   quorum_create_database: /usr/local/bin/quorum_create_database
   quorum_error_correct_reads: /usr/local/bin/quorum_error_correct_reads
   split_mate_pairs: /usr/local/bin/split_mate_pairs
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  jellyfish: /usr/local/bin/jellyfish
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pl2pm: /usr/local/bin/pl2pm
+  pod2html: /usr/local/bin/pod2html
+  pod2man: /usr/local/bin/pod2man
+  pod2text: /usr/local/bin/pod2text
+  pod2usage: /usr/local/bin/pod2usage
+  podchecker: /usr/local/bin/podchecker
+  prove: /usr/local/bin/prove
+  ptar: /usr/local/bin/ptar

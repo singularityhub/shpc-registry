@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/shapeshifter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shapeshifter
+latest:
+  1.1.1--pyh5ca1d4c_1: sha256:84adc73683f6de0f41e811bf0b3befea05b51f26ad91dbf05c7e3ea9cbe14893
+tags:
+  1.1.1--pyh5ca1d4c_1: sha256:84adc73683f6de0f41e811bf0b3befea05b51f26ad91dbf05c7e3ea9cbe14893
+docker: quay.io/biocontainers/shapeshifter

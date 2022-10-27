@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/miranda
 aliases:
   miranda: /usr/local/bin/miranda
+  env-execute: /usr/local/env-execute

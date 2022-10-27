@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui
+latest:
+  1.8.0--r351_0: sha256:b4572cfc65fb7d4b04d7c2f2687467f16b22f11dd670acdfc500c546dbf06f90
+tags:
+  1.8.0--r351_0: sha256:b4572cfc65fb7d4b04d7c2f2687467f16b22f11dd670acdfc500c546dbf06f90
+docker: quay.io/biocontainers/bioconductor-tcgabiolinksgui

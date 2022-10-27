@@ -18,3 +18,28 @@ aliases:
   prt_terms.py: /usr/local/bin/prt_terms.py
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bundle_image: /usr/local/bin/bundle_image
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  cq: /usr/local/bin/cq
+  cwebp: /usr/local/bin/cwebp

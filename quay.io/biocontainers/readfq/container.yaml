@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/readfq
 aliases:
   readfq: /usr/local/bin/readfq
+  env-execute: /usr/local/env-execute

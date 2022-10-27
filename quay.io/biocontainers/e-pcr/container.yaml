@@ -11,3 +11,6 @@ aliases:
   fahash: /usr/local/bin/fahash
   famap: /usr/local/bin/famap
   re-PCR: /usr/local/bin/re-PCR
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

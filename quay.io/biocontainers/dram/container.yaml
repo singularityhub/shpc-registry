@@ -7,7 +7,31 @@ tags:
   1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
 docker: quay.io/biocontainers/dram
 aliases:
-  .dram-post-link.sh: /usr/local/bin/.dram-post-link.sh
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py
   DRAM-v.py: /usr/local/bin/DRAM-v.py
   DRAM.py: /usr/local/bin/DRAM.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  annotateBed: /usr/local/bin/annotateBed
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  barrnap: /usr/local/bin/barrnap
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

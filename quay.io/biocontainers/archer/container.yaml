@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/archer
 aliases:
   archer: /usr/local/bin/archer
+  env-execute: /usr/local/env-execute

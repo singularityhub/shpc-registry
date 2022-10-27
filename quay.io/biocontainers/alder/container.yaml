@@ -8,3 +8,8 @@ tags:
 docker: quay.io/biocontainers/alder
 aliases:
   alder: /usr/local/bin/alder
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  env-execute: /usr/local/env-execute

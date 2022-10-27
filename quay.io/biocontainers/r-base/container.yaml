@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-base
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-base
+latest:
+  4.2.1: sha256:6721ee8bfba2b2d326c709dc8096555304746e2cb706c28af69fbc7ea5bb3d79
+tags:
+  4.2.1: sha256:6721ee8bfba2b2d326c709dc8096555304746e2cb706c28af69fbc7ea5bb3d79
+docker: quay.io/biocontainers/r-base

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/plantcv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for plantcv
+latest:
+  3.8.0--py_0: sha256:0bded2c50939b7c1aa20b6be37e0b671c4e54bed406d976f3668311eb970ae26
+tags:
+  3.8.0--py_0: sha256:0bded2c50939b7c1aa20b6be37e0b671c4e54bed406d976f3668311eb970ae26
+docker: quay.io/biocontainers/plantcv

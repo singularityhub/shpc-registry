@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bayescan
 aliases:
   bayescan2: /usr/local/bin/bayescan2
+  env-execute: /usr/local/env-execute

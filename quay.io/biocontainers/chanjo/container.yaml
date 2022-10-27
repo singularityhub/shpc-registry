@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/chanjo
 aliases:
   chanjo: /usr/local/bin/chanjo
   varfilter.py: /usr/local/bin/varfilter.py
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  ace2sam: /usr/local/bin/ace2sam
+  activate: /usr/local/bin/activate
+  bcftools: /usr/local/bin/bcftools
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  ncurses5-config: /usr/local/bin/ncurses5-config

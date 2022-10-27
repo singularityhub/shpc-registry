@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/stark
 aliases:
   stark: /usr/local/bin/stark
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/starcode
 aliases:
   starcode: /usr/local/bin/starcode
+  env-execute: /usr/local/env-execute

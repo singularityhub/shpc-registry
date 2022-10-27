@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pbsim2
 aliases:
   pbsim: /usr/local/bin/pbsim
+  env-execute: /usr/local/env-execute

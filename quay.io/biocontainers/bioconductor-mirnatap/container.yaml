@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mirnatap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mirnatap
+latest:
+  1.28.0--r41hdfd78af_0: sha256:070e11125a851ef06357f8dbf37c15ccde3b50b640452104233129a11f232b68
+tags:
+  1.28.0--r41hdfd78af_0: sha256:070e11125a851ef06357f8dbf37c15ccde3b50b640452104233129a11f232b68
+docker: quay.io/biocontainers/bioconductor-mirnatap

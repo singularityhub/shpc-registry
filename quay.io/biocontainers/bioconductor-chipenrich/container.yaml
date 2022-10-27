@@ -7,9 +7,31 @@ tags:
   2.8.0--r36_1: sha256:d088e500242b19e18854a58de16092b9244596318478b3aa54f8bd7a0e2506b2
 docker: quay.io/biocontainers/bioconductor-chipenrich
 aliases:
-  .bioconductor-chipenrich.data-post-link.sh: /usr/local/bin/.bioconductor-chipenrich.data-post-link.sh
   .bioconductor-chipenrich.data-pre-unlink.sh: /usr/local/bin/.bioconductor-chipenrich.data-pre-unlink.sh
-  .bioconductor-org.dm.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.dm.eg.db-post-link.sh
   .bioconductor-org.dm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.dm.eg.db-pre-unlink.sh
-  .bioconductor-org.dr.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.dr.eg.db-post-link.sh
   .bioconductor-org.dr.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.dr.eg.db-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
+  .bioconductor-org.mm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.mm.eg.db-pre-unlink.sh
+  .bioconductor-org.rn.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.rn.eg.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear

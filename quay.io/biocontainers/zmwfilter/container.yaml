@@ -7,5 +7,5 @@ tags:
   1.0.0--h9ee0642_1: sha256:3356d3b21e4fc7e41d4a92feb570900a9013c5e3c717e1fc35a480db5f95926c
 docker: quay.io/biocontainers/zmwfilter
 aliases:
-  .zmwfilter-post-link.sh: /usr/local/bin/.zmwfilter-post-link.sh
   zmwfilter: /usr/local/bin/zmwfilter
+  env-execute: /usr/local/env-execute

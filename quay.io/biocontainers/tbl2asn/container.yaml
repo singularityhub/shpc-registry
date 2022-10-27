@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/tbl2asn
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for tbl2asn
+latest:
+  25.8--0: sha256:ba475b277cc11c6e355d36490ddaa32a6a06fb35bd813c815e790ad54111e5b6
+tags:
+  25.8--0: sha256:ba475b277cc11c6e355d36490ddaa32a6a06fb35bd813c815e790ad54111e5b6
+docker: quay.io/biocontainers/tbl2asn

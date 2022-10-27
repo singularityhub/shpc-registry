@@ -6,3 +6,29 @@ latest:
 tags:
   2.7.20180809223002--py_0: sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6
 docker: quay.io/biocontainers/schema-salad
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  avro: /usr/local/bin/avro
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  csv2rdf: /usr/local/bin/csv2rdf
+  deactivate: /usr/local/bin/deactivate
+  doesitcache: /usr/local/bin/doesitcache
+  easy_install: /usr/local/bin/easy_install
+  futurize: /usr/local/bin/futurize

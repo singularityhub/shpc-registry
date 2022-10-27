@@ -10,3 +10,6 @@ aliases:
   art_454: /usr/local/bin/art_454
   art_SOLiD: /usr/local/bin/art_SOLiD
   art_illumina: /usr/local/bin/art_illumina
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

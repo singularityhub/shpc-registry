@@ -7,117 +7,35 @@ tags:
   1.3.5--0: sha256:566d31231678ce9abf9ff870e6d575d7b9178f3d6221b5ba55ba72a48a1d3e27
 docker: quay.io/biocontainers/mosca
 aliases:
-  BaseCommon.dll: /usr/local/bin/BaseCommon.dll
-  BaseDataAccess.dll: /usr/local/bin/BaseDataAccess.dll
-  BaseDataAccess.dll.config: /usr/local/bin/BaseDataAccess.dll.config
-  BaseError.dll: /usr/local/bin/BaseError.dll
-  BaseLib.dll: /usr/local/bin/BaseLib.dll
-  BaseLibS.dll: /usr/local/bin/BaseLibS.dll
-  BaseTof.dll: /usr/local/bin/BaseTof.dll
   CHANGELOG.md: /usr/local/bin/CHANGELOG.md
-  Clearcore2.Compression.dll: /usr/local/bin/Clearcore2.Compression.dll
-  Clearcore2.Data.Acquisition.Client.dll: /usr/local/bin/Clearcore2.Data.Acquisition.Client.dll
-  Clearcore2.Data.Acquisition.Contracts.dll: /usr/local/bin/Clearcore2.Data.Acquisition.Contracts.dll
-  Clearcore2.Data.AnalystDataProvider.dll: /usr/local/bin/Clearcore2.Data.AnalystDataProvider.dll
-  Clearcore2.Data.Client.dll: /usr/local/bin/Clearcore2.Data.Client.dll
-  Clearcore2.Data.Common.dll: /usr/local/bin/Clearcore2.Data.Common.dll
-  Clearcore2.Data.CommonInterfaces.dll: /usr/local/bin/Clearcore2.Data.CommonInterfaces.dll
-  Clearcore2.Data.Contracts.dll: /usr/local/bin/Clearcore2.Data.Contracts.dll
-  Clearcore2.Data.Core.dll: /usr/local/bin/Clearcore2.Data.Core.dll
-  Clearcore2.Data.Wiff2.dll: /usr/local/bin/Clearcore2.Data.Wiff2.dll
-  Clearcore2.Data.WiffReader.dll: /usr/local/bin/Clearcore2.Data.WiffReader.dll
-  Clearcore2.Data.dll: /usr/local/bin/Clearcore2.Data.dll
-  Clearcore2.DataService.dll: /usr/local/bin/Clearcore2.DataService.dll
-  Clearcore2.Devices.Types.dll: /usr/local/bin/Clearcore2.Devices.Types.dll
-  Clearcore2.Domain.Acquisition.Methods.MassSpec.dll: /usr/local/bin/Clearcore2.Domain.Acquisition.Methods.MassSpec.dll
-  Clearcore2.Domain.Acquisition.dll: /usr/local/bin/Clearcore2.Domain.Acquisition.dll
-  Clearcore2.Infrastructure.dll: /usr/local/bin/Clearcore2.Infrastructure.dll
-  Clearcore2.InternalRawXYProcessing.dll: /usr/local/bin/Clearcore2.InternalRawXYProcessing.dll
-  Clearcore2.Muni.dll: /usr/local/bin/Clearcore2.Muni.dll
-  Clearcore2.RawXYProcessing.dll: /usr/local/bin/Clearcore2.RawXYProcessing.dll
-  Clearcore2.StructuredStorage.dll: /usr/local/bin/Clearcore2.StructuredStorage.dll
-  Clearcore2.UserLog.Types.dll: /usr/local/bin/Clearcore2.UserLog.Types.dll
-  Clearcore2.Utility.dll: /usr/local/bin/Clearcore2.Utility.dll
-  Clearcore2.XmlHelpers.dll: /usr/local/bin/Clearcore2.XmlHelpers.dll
-  CommandLine.dll: /usr/local/bin/CommandLine.dll
   Contents.xsd: /usr/local/bin/Contents.xsd
   DefaultMassCal.xsd: /usr/local/bin/DefaultMassCal.xsd
   Devices.xsd: /usr/local/bin/Devices.xsd
-  DiffieHellman.dll: /usr/local/bin/DiffieHellman.dll
   KEGGCharter_prokaryotic_maps.txt: /usr/local/bin/KEGGCharter_prokaryotic_maps.txt
   MSActualDefs.xsd: /usr/local/bin/MSActualDefs.xsd
-  MSNumpress.dll: /usr/local/bin/MSNumpress.dll
   MSScan_XSpecific.xsd: /usr/local/bin/MSScan_XSpecific.xsd
   MSTS.xsd: /usr/local/bin/MSTS.xsd
   MSTS_XSpecific.xsd: /usr/local/bin/MSTS_XSpecific.xsd
-  MassSpecDataReader.dll: /usr/local/bin/MassSpecDataReader.dll
   MaxQuantCmd.exe: /usr/local/bin/MaxQuantCmd.exe
   MaxQuantGui.exe: /usr/local/bin/MaxQuantGui.exe
-  MaxQuantGui.exe.config: /usr/local/bin/MaxQuantGui.exe.config
-  MaxQuantLib.dll: /usr/local/bin/MaxQuantLib.dll
-  MaxQuantLibS.dll: /usr/local/bin/MaxQuantLibS.dll
-  MaxQuantPLib.dll: /usr/local/bin/MaxQuantPLib.dll
-  MaxQuantPLibS.dll: /usr/local/bin/MaxQuantPLibS.dll
-  MaxQuantRenderWpf.dll: /usr/local/bin/MaxQuantRenderWpf.dll
   MaxQuantServer.exe: /usr/local/bin/MaxQuantServer.exe
   MaxQuantTask.exe: /usr/local/bin/MaxQuantTask.exe
   MqparConverter.exe: /usr/local/bin/MqparConverter.exe
-  MsLib.dll: /usr/local/bin/MsLib.dll
   MsLibTask.exe: /usr/local/bin/MsLibTask.exe
-  NumPluginBase.dll: /usr/local/bin/NumPluginBase.dll
-  NumPluginBase2.dll: /usr/local/bin/NumPluginBase2.dll
-  NumPluginSvm.dll: /usr/local/bin/NumPluginSvm.dll
   NumPluginXgboost.exe: /usr/local/bin/NumPluginXgboost.exe
-  Org.Mentalis.Security.dll: /usr/local/bin/Org.Mentalis.Security.dll
-  PluginRawAgilent.dll: /usr/local/bin/PluginRawAgilent.dll
-  PluginRawBruker2.dll: /usr/local/bin/PluginRawBruker2.dll
-  PluginRawBruker2.dll.config: /usr/local/bin/PluginRawBruker2.dll.config
-  PluginRawBrukerTdf.dll: /usr/local/bin/PluginRawBrukerTdf.dll
-  PluginRawBrukerTdf.dll.config: /usr/local/bin/PluginRawBrukerTdf.dll.config
-  PluginRawMzMl.dll: /usr/local/bin/PluginRawMzMl.dll
-  PluginRawMzXml.dll: /usr/local/bin/PluginRawMzXml.dll
-  PluginRawSciex.dll: /usr/local/bin/PluginRawSciex.dll
-  PluginRawThermo2.dll: /usr/local/bin/PluginRawThermo2.dll
-  SQLite.Interop.dll: /usr/local/bin/SQLite.Interop.dll
-  SVG.dll: /usr/local/bin/SVG.dll
-  Sciex.Clearcore.FMan.dll: /usr/local/bin/Sciex.Clearcore.FMan.dll
   Sciex.Data.Processing.DLL: /usr/local/bin/Sciex.Data.Processing.DLL
-  Sciex.Data.SimpleTypes.dll: /usr/local/bin/Sciex.Data.SimpleTypes.dll
-  Sciex.Data.XYData.dll: /usr/local/bin/Sciex.Data.XYData.dll
-  Sciex.FMan.dll: /usr/local/bin/Sciex.FMan.dll
-  Sciex.Wiff.dll: /usr/local/bin/Sciex.Wiff.dll
-  SciexToolKit.dll: /usr/local/bin/SciexToolKit.dll
-  System.Data.SQLite.dll: /usr/local/bin/System.Data.SQLite.dll
-  Tamir.SharpSSH.dll: /usr/local/bin/Tamir.SharpSSH.dll
-  TeamCity.ServiceMessages.dll: /usr/local/bin/TeamCity.ServiceMessages.dll
-  TensorFlowSharp.dll: /usr/local/bin/TensorFlowSharp.dll
-  ThermoFisher.CommonCore.BackgroundSubtraction.dll: /usr/local/bin/ThermoFisher.CommonCore.BackgroundSubtraction.dll
-  ThermoFisher.CommonCore.Data.dll: /usr/local/bin/ThermoFisher.CommonCore.Data.dll
-  ThermoFisher.CommonCore.MassPrecisionEstimator.dll: /usr/local/bin/ThermoFisher.CommonCore.MassPrecisionEstimator.dll
-  ThermoFisher.CommonCore.RawFileReader.dll: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.dll
-  Utils.dll: /usr/local/bin/Utils.dll
-  UtilsWf.dll: /usr/local/bin/UtilsWf.dll
-  UtilsWpf.dll: /usr/local/bin/UtilsWpf.dll
-  XGBoost.dll: /usr/local/bin/XGBoost.dll
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
-  agtsampleinforw.dll: /usr/local/bin/agtsampleinforw.dll
   apr-1-config: /usr/local/bin/apr-1-config
   apriconv: /usr/local/bin/apriconv
   apu-1-config: /usr/local/bin/apu-1-config
-  baf2sql_c.dll: /usr/local/bin/baf2sql_c.dll
   breadth_depth.py: /usr/local/bin/breadth_depth.py
   consensus.py: /usr/local/bin/consensus.py
   consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
   csc-dim: /usr/local/bin/csc-dim
   extract_markers.py: /usr/local/bin/extract_markers.py
   indexdb_rna: /usr/local/bin/indexdb_rna
-  itextsharp.dll: /usr/local/bin/itextsharp.dll
   kegg_charter.py: /usr/local/bin/kegg_charter.py
   kegg_pathway_map.py: /usr/local/bin/kegg_pathway_map.py
-  libSQLite.Interop.so: /usr/local/bin/libSQLite.Interop.so
-  libbaf2sql_c.so: /usr/local/bin/libbaf2sql_c.so
-  libtensorflow.dll: /usr/local/bin/libtensorflow.dll
-  libtimsdata.so: /usr/local/bin/libtimsdata.so
   maxquant: /usr/local/bin/maxquant
   merge-paired-reads.sh: /usr/local/bin/merge-paired-reads.sh
   merge_metaphlan_tables.py: /usr/local/bin/merge_metaphlan_tables.py
@@ -136,7 +54,6 @@ aliases:
   plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
-  protobuf-net.dll: /usr/local/bin/protobuf-net.dll
   protobuf-net.xml: /usr/local/bin/protobuf-net.xml
   read_fastx.py: /usr/local/bin/read_fastx.py
   recognizer.py: /usr/local/bin/recognizer.py
@@ -157,8 +74,31 @@ aliases:
   svnserve: /usr/local/bin/svnserve
   svnsync: /usr/local/bin/svnsync
   svnversion: /usr/local/bin/svnversion
-  timsdata.dll: /usr/local/bin/timsdata.dll
   uniprot_support.py: /usr/local/bin/uniprot_support.py
   unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh
   upimapi.py: /usr/local/bin/upimapi.py
-  zlib.net.dll: /usr/local/bin/zlib.net.dll
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  CA.pm: /usr/local/bin/CA.pm
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  Makefile: /usr/local/bin/Makefile
+  Makefile.am: /usr/local/bin/Makefile.am
+  Makefile.in: /usr/local/bin/Makefile.in
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic

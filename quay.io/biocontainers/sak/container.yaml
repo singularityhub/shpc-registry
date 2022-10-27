@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sak
 aliases:
   sak: /usr/local/bin/sak
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/spectral_hk
 aliases:
   spectral_hk: /usr/local/bin/spectral_hk
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -6,3 +6,29 @@ latest:
 tags:
   3.1.1--py36h4aaaa08_2: sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80
 docker: quay.io/biocontainers/chia-rep
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.6: /usr/local/bin/f2py3.6
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  kinit: /usr/local/bin/kinit
+  klist: /usr/local/bin/klist
+  kpasswd: /usr/local/bin/kpasswd

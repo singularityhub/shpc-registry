@@ -7,7 +7,6 @@ tags:
   3.3--hdfd78af_0: sha256:8d5b520f69780225da248defded72ea2199c8e244ce04669eb953faa0a45c9e2
 docker: quay.io/biocontainers/dfam
 aliases:
-  .dfam-post-link.sh: /usr/local/bin/.dfam-post-link.sh
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
   ProcessRepeats: /usr/local/bin/ProcessRepeats
@@ -29,3 +28,28 @@ aliases:
   rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
   trfMask: /usr/local/bin/trfMask
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  CA.pm: /usr/local/bin/CA.pm
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  autopoint: /usr/local/bin/autopoint
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blast_report: /usr/local/bin/blast_report
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp

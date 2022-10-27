@@ -119,3 +119,28 @@ aliases:
   validate_fasta.py: /usr/local/bin/validate_fasta.py
   validate_feature_boundaries_on_molecules.py: /usr/local/bin/validate_feature_boundaries_on_molecules.py
   write_fasta_from_gff.py: /usr/local/bin/write_fasta_from_gff.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FET.pl: /usr/local/bin/FET.pl
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  barrnap: /usr/local/bin/barrnap
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

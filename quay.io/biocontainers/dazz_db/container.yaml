@@ -15,3 +15,15 @@ aliases:
   arrow2DB: /usr/local/bin/arrow2DB
   quiva2DB: /usr/local/bin/quiva2DB
   rangen: /usr/local/bin/rangen
+  Catrack: /usr/local/bin/Catrack
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DB2fasta: /usr/local/bin/DB2fasta
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm
+  DBshow: /usr/local/bin/DBshow
+  DBsplit: /usr/local/bin/DBsplit
+  DBstats: /usr/local/bin/DBstats
+  fasta2DAM: /usr/local/bin/fasta2DAM
+  fasta2DB: /usr/local/bin/fasta2DB
+  simulator: /usr/local/bin/simulator
+  env-execute: /usr/local/env-execute

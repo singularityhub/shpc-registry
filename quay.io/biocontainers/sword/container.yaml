@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sword
 aliases:
   sword: /usr/local/bin/sword
+  env-execute: /usr/local/env-execute

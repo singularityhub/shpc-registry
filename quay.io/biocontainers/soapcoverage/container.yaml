@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/soapcoverage
 aliases:
   soap.coverage: /usr/local/bin/soap.coverage
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

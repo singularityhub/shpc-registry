@@ -31,8 +31,6 @@ aliases:
   fitch: /usr/local/bin/fitch
   gendist: /usr/local/bin/gendist
   kitsch: /usr/local/bin/kitsch
-  libdrawgram.so: /usr/local/bin/libdrawgram.so
-  libdrawtree.so: /usr/local/bin/libdrawtree.so
   mix: /usr/local/bin/mix
   move: /usr/local/bin/move
   neighbor: /usr/local/bin/neighbor
@@ -48,3 +46,28 @@ aliases:
   retree: /usr/local/bin/retree
   seqboot: /usr/local/bin/seqboot
   treedist: /usr/local/bin/treedist
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  activate: /usr/local/bin/activate
+  appletviewer: /usr/local/bin/appletviewer
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  extcheck: /usr/local/bin/extcheck
+  factor: /usr/local/bin/factor
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7

@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/ls-gkm
 aliases:
   gkmpredict: /usr/local/bin/gkmpredict
   gkmtrain: /usr/local/bin/gkmtrain
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

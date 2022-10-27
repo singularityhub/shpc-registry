@@ -9,3 +9,7 @@ docker: quay.io/biocontainers/pullseq
 aliases:
   pullseq: /usr/local/bin/pullseq
   seqdiff: /usr/local/bin/seqdiff
+  pcre-config: /usr/local/bin/pcre-config
+  pcregrep: /usr/local/bin/pcregrep
+  pcretest: /usr/local/bin/pcretest
+  env-execute: /usr/local/env-execute

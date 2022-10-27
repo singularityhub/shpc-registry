@@ -10,3 +10,28 @@ aliases:
   aprofutil: /usr/local/bin/aprofutil
   moff_all.py: /usr/local/bin/moff_all.py
   mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  crlupdate: /usr/local/bin/crlupdate
+  csc: /usr/local/bin/csc
+  csharp: /usr/local/bin/csharp
+  csi: /usr/local/bin/csi
+  derb: /usr/local/bin/derb
+  disco: /usr/local/bin/disco
+  djpeg: /usr/local/bin/djpeg
+  dmcs: /usr/local/bin/dmcs
+  dtd2rng: /usr/local/bin/dtd2rng
+  dtd2xsd: /usr/local/bin/dtd2xsd

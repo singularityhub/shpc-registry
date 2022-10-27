@@ -7,7 +7,6 @@ tags:
   1.13.4--py35_0: sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb
 docker: quay.io/biocontainers/viral-ngs
 aliases:
-  .viral-ngs-post-link.sh: /usr/local/bin/.viral-ngs-post-link.sh
   Trinity-test: /usr/local/bin/Trinity-test
   assembly.py: /usr/local/bin/assembly.py
   bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0
@@ -58,3 +57,28 @@ aliases:
   taxon_filter.py: /usr/local/bin/taxon_filter.py
   variant_caller: /usr/local/bin/variant_caller
   vphaser2: /usr/local/bin/vphaser2
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  Trinity: /usr/local/bin/Trinity
+  ace2sam: /usr/local/bin/ace2sam
+  activate: /usr/local/bin/activate
+  appletviewer: /usr/local/bin/appletviewer
+  asadmin: /usr/local/bin/asadmin
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bamtools: /usr/local/bin/bamtools
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bundle_image: /usr/local/bin/bundle_image

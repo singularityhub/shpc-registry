@@ -6,3 +6,11 @@ latest:
 tags:
   3.4--hcb20899_2: sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc
 docker: quay.io/biocontainers/grep
+aliases:
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  pcre-config: /usr/local/bin/pcre-config
+  pcregrep: /usr/local/bin/pcregrep
+  pcretest: /usr/local/bin/pcretest
+  env-execute: /usr/local/env-execute

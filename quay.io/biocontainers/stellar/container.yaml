@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/stellar
 aliases:
   stellar: /usr/local/bin/stellar
+  env-execute: /usr/local/env-execute

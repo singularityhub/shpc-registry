@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fastq-multx
 aliases:
   fastq-multx: /usr/local/bin/fastq-multx
+  env-execute: /usr/local/env-execute

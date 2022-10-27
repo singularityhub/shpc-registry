@@ -10,3 +10,4 @@ aliases:
   agp_to_fasta: /usr/local/bin/agp_to_fasta
   juicer: /usr/local/bin/juicer
   yahs: /usr/local/bin/yahs
+  env-execute: /usr/local/env-execute

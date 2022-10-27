@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/nanoplexer
 aliases:
   nanoplexer: /usr/local/bin/nanoplexer
+  env-execute: /usr/local/env-execute

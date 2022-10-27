@@ -6,3 +6,29 @@ latest:
 tags:
   1.0--h7132678_5: sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c
 docker: quay.io/biocontainers/wgsim
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pl2pm: /usr/local/bin/pl2pm
+  pod2html: /usr/local/bin/pod2html
+  pod2man: /usr/local/bin/pod2man
+  pod2text: /usr/local/bin/pod2text
+  pod2usage: /usr/local/bin/pod2usage
+  podchecker: /usr/local/bin/podchecker
+  prove: /usr/local/bin/prove
+  ptar: /usr/local/bin/ptar
+  ptardiff: /usr/local/bin/ptardiff

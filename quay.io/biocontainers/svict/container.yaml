@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/svict
 aliases:
   svict: /usr/local/bin/svict
+  env-execute: /usr/local/env-execute

@@ -232,3 +232,28 @@ aliases:
   updateLibSizes: /usr/local/bin/updateLibSizes
   vecfix: /usr/local/bin/vecfix
   verify-layout: /usr/local/bin/verify-layout
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  c2ph: /usr/local/bin/c2ph
+  c_rehash: /usr/local/bin/c_rehash
+  combineMUMs: /usr/local/bin/combineMUMs
+  conda: /usr/local/bin/conda
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  deactivate: /usr/local/bin/deactivate
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  exact-tandems: /usr/local/bin/exact-tandems
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  idle3: /usr/local/bin/idle3
+  idle3.5: /usr/local/bin/idle3.5

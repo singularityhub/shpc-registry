@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/shapeit
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for shapeit
+latest:
+  2.r837--h09b0a5c_1: sha256:dbf015f1ad8fbbc54652ae26270f079bf787a780ae7dee9da49ac7538422abe5
+tags:
+  2.r837--h09b0a5c_1: sha256:dbf015f1ad8fbbc54652ae26270f079bf787a780ae7dee9da49ac7538422abe5
+docker: quay.io/biocontainers/shapeit

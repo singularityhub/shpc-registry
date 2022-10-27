@@ -13,3 +13,4 @@ aliases:
   mtsv-collapse: /usr/local/bin/mtsv-collapse
   mtsv-collapse-old: /usr/local/bin/mtsv-collapse-old
   mtsv-readprep: /usr/local/bin/mtsv-readprep
+  env-execute: /usr/local/env-execute

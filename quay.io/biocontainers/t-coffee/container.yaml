@@ -7,7 +7,6 @@ tags:
   13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
 docker: quay.io/biocontainers/t-coffee
 aliases:
-  .t-coffee-post-link.sh: /usr/local/bin/.t-coffee-post-link.sh
   DrawGram.jar: /usr/local/bin/DrawGram.jar
   DrawTree.jar: /usr/local/bin/DrawTree.jar
   README.txt: /usr/local/bin/README.txt
@@ -48,8 +47,6 @@ aliases:
   hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
   kalign: /usr/local/bin/kalign
   kitsch: /usr/local/bin/kitsch
-  libdrawgram.so: /usr/local/bin/libdrawgram.so
-  libdrawtree.so: /usr/local/bin/libdrawtree.so
   make_pscores.pl: /usr/local/bin/make_pscores.pl
   mix: /usr/local/bin/mix
   move: /usr/local/bin/move
@@ -83,3 +80,28 @@ aliases:
   sfold: /usr/local/bin/sfold
   strain_ml: /usr/local/bin/strain_ml
   treedist: /usr/local/bin/treedist
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  Kinfold: /usr/local/bin/Kinfold
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
+  RNAfold: /usr/local/bin/RNAfold
+  RNAforester: /usr/local/bin/RNAforester
+  RNAheat: /usr/local/bin/RNAheat
+  RNAinverse: /usr/local/bin/RNAinverse
+  RNApaln: /usr/local/bin/RNApaln
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNApdist: /usr/local/bin/RNApdist
+  RNAplex: /usr/local/bin/RNAplex
+  RNAplfold: /usr/local/bin/RNAplfold
+  RNAplot: /usr/local/bin/RNAplot
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAsubopt: /usr/local/bin/RNAsubopt

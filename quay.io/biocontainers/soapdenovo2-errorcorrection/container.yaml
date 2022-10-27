@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/soapdenovo2-errorcorrection
 aliases:
   ErrorCorrection: /usr/local/bin/ErrorCorrection
+  env-execute: /usr/local/env-execute

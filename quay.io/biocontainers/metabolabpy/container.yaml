@@ -14,3 +14,28 @@ aliases:
   pyside_tool.py: /usr/local/bin/pyside_tool.py
   shiboken2: /usr/local/bin/shiboken2
   shiboken_tool.py: /usr/local/bin/shiboken_tool.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  brotli: /usr/local/bin/brotli
+  c_rehash: /usr/local/bin/c_rehash
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo
+  certutil: /usr/local/bin/certutil
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  derb: /usr/local/bin/derb
+  designer: /usr/local/bin/designer
+  djpeg: /usr/local/bin/djpeg

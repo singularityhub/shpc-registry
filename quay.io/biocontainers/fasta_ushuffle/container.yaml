@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/fasta_ushuffle
 aliases:
   fasta_ushuffle: /usr/local/bin/fasta_ushuffle
   ushuffle: /usr/local/bin/ushuffle
+  env-execute: /usr/local/env-execute

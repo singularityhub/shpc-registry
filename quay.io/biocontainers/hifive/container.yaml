@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/hifive
 aliases:
   fetch_mrh_data: /usr/local/bin/fetch_mrh_data
   hifive: /usr/local/bin/hifive
+  2to3: /usr/local/bin/2to3
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  ahost: /usr/local/bin/ahost
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize

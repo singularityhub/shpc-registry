@@ -6,3 +6,29 @@ latest:
 tags:
   0.3.9--np113py35_0: sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534
 docker: quay.io/biocontainers/pybigwig
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  gss-client: /usr/local/bin/gss-client
+  idle3: /usr/local/bin/idle3
+  idle3.5: /usr/local/bin/idle3.5
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  kinit: /usr/local/bin/kinit
+  klist: /usr/local/bin/klist
+  kpasswd: /usr/local/bin/kpasswd
+  krb5-config: /usr/local/bin/krb5-config

@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/bioepic
 aliases:
   epic: /usr/local/bin/epic
   epic-effective: /usr/local/bin/epic-effective
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  c_rehash: /usr/local/bin/c_rehash
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  conda: /usr/local/bin/conda
+  coverageBed: /usr/local/bin/coverageBed
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  expandCols: /usr/local/bin/expandCols
+  f2py: /usr/local/bin/f2py
+  faidx: /usr/local/bin/faidx
+  fastaFromBed: /usr/local/bin/fastaFromBed

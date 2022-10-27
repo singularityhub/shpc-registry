@@ -53,3 +53,28 @@ aliases:
   sepMPSfusion: /usr/local/bin/sepMPSfusion
   sepdRangerfusion: /usr/local/bin/sepdRangerfusion
   swap_dRanger_and_MPS_matched: /usr/local/bin/swap_dRanger_and_MPS_matched
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  python: /usr/local/bin/python
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7

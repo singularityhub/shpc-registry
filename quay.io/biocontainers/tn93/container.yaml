@@ -16,3 +16,4 @@ aliases:
   seqdiff: /usr/local/bin/seqdiff
   tn93: /usr/local/bin/tn93
   tn93-cluster: /usr/local/bin/tn93-cluster
+  env-execute: /usr/local/env-execute

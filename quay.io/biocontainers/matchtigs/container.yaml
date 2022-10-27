@@ -20,3 +20,28 @@ aliases:
   rustc: /usr/local/bin/rustc
   rustdoc: /usr/local/bin/rustdoc
   rustfmt: /usr/local/bin/rustfmt
+  x86_64-conda-linux-gnu-addr2line: /usr/local/bin/x86_64-conda-linux-gnu-addr2line
+  x86_64-conda-linux-gnu-ar: /usr/local/bin/x86_64-conda-linux-gnu-ar
+  x86_64-conda-linux-gnu-as: /usr/local/bin/x86_64-conda-linux-gnu-as
+  x86_64-conda-linux-gnu-c++filt: /usr/local/bin/x86_64-conda-linux-gnu-c++filt
+  x86_64-conda-linux-gnu-c89: /usr/local/bin/x86_64-conda-linux-gnu-c89
+  x86_64-conda-linux-gnu-c99: /usr/local/bin/x86_64-conda-linux-gnu-c99
+  x86_64-conda-linux-gnu-cc: /usr/local/bin/x86_64-conda-linux-gnu-cc
+  x86_64-conda-linux-gnu-cpp: /usr/local/bin/x86_64-conda-linux-gnu-cpp
+  x86_64-conda-linux-gnu-dwp: /usr/local/bin/x86_64-conda-linux-gnu-dwp
+  x86_64-conda-linux-gnu-elfedit: /usr/local/bin/x86_64-conda-linux-gnu-elfedit
+  x86_64-conda-linux-gnu-gcc: /usr/local/bin/x86_64-conda-linux-gnu-gcc
+  x86_64-conda-linux-gnu-gcc-ar: /usr/local/bin/x86_64-conda-linux-gnu-gcc-ar
+  x86_64-conda-linux-gnu-gcc-nm: /usr/local/bin/x86_64-conda-linux-gnu-gcc-nm
+  x86_64-conda-linux-gnu-gcc-ranlib: /usr/local/bin/x86_64-conda-linux-gnu-gcc-ranlib
+  x86_64-conda-linux-gnu-gcov: /usr/local/bin/x86_64-conda-linux-gnu-gcov
+  x86_64-conda-linux-gnu-gcov-dump: /usr/local/bin/x86_64-conda-linux-gnu-gcov-dump
+  x86_64-conda-linux-gnu-gcov-tool: /usr/local/bin/x86_64-conda-linux-gnu-gcov-tool
+  x86_64-conda-linux-gnu-gprof: /usr/local/bin/x86_64-conda-linux-gnu-gprof
+  x86_64-conda-linux-gnu-ld: /usr/local/bin/x86_64-conda-linux-gnu-ld
+  x86_64-conda-linux-gnu-ld.bfd: /usr/local/bin/x86_64-conda-linux-gnu-ld.bfd
+  x86_64-conda-linux-gnu-ld.gold: /usr/local/bin/x86_64-conda-linux-gnu-ld.gold
+  x86_64-conda-linux-gnu-nm: /usr/local/bin/x86_64-conda-linux-gnu-nm
+  x86_64-conda-linux-gnu-objcopy: /usr/local/bin/x86_64-conda-linux-gnu-objcopy
+  x86_64-conda-linux-gnu-objdump: /usr/local/bin/x86_64-conda-linux-gnu-objdump
+  x86_64-conda-linux-gnu-ranlib: /usr/local/bin/x86_64-conda-linux-gnu-ranlib

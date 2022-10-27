@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/cortex_con
 aliases:
   cortex_con_31: /usr/local/bin/cortex_con_31
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

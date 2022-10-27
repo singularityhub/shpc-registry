@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-singlecellexperiment
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-singlecellexperiment
+latest:
+  1.8.0--r36_0: sha256:169679d7a8ee83f8e832d6a8b1b63124bf09f7c22f1b8b10846d67d0513a2bfc
+tags:
+  1.8.0--r36_0: sha256:169679d7a8ee83f8e832d6a8b1b63124bf09f7c22f1b8b10846d67d0513a2bfc
+docker: quay.io/biocontainers/bioconductor-singlecellexperiment

@@ -12,3 +12,4 @@ aliases:
   glistquery: /usr/local/bin/glistquery
   gmer_caller: /usr/local/bin/gmer_caller
   gmer_counter: /usr/local/bin/gmer_counter
+  env-execute: /usr/local/env-execute

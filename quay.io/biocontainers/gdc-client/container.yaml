@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/gdc-client
 aliases:
   gdc-client: /usr/local/bin/gdc-client
   ndg_httpclient: /usr/local/bin/ndg_httpclient
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idle3: /usr/local/bin/idle3
+  idle3.7: /usr/local/bin/idle3.7
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jsonschema: /usr/local/bin/jsonschema
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep

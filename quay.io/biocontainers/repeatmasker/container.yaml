@@ -7,8 +7,29 @@ tags:
   4.1.2.p1--pl5321hdfd78af_1: sha256:c1e8e28e521e04cd0477e78771aa31f4e3e208204dfc986aeb7ce97d2b007c22
 docker: quay.io/biocontainers/repeatmasker
 aliases:
-  RM2Bed.py: /usr/local/bin/RM2Bed.py
-  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
-  buildSummary.pl: /usr/local/bin/buildSummary.pl
   maskFile.pl: /usr/local/bin/maskFile.pl
-  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  README: /usr/local/bin/README
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blast_report: /usr/local/bin/blast_report
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  blastdbcheck: /usr/local/bin/blastdbcheck

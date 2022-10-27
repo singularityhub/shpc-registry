@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/read-it-and-keep
 aliases:
   readItAndKeep: /usr/local/bin/readItAndKeep
+  env-execute: /usr/local/env-execute

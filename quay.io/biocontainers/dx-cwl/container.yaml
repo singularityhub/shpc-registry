@@ -28,3 +28,28 @@ aliases:
   dx-print-bash-vars: /usr/local/bin/dx-print-bash-vars
   dx-upload-all-outputs: /usr/local/bin/dx-upload-all-outputs
   xattr: /usr/local/bin/xattr
+  2to3: /usr/local/bin/2to3
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  bagit.py: /usr/local/bin/bagit.py
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  coloredlogs: /usr/local/bin/coloredlogs
+  csv2rdf: /usr/local/bin/csv2rdf
+  cwltool: /usr/local/bin/cwltool
+  derb: /usr/local/bin/derb
+  doesitcache: /usr/local/bin/doesitcache
+  easy_install: /usr/local/bin/easy_install
+  futurize: /usr/local/bin/futurize
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  humanfriendly: /usr/local/bin/humanfriendly
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp

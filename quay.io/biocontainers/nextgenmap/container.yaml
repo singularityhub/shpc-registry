@@ -31,3 +31,24 @@ aliases:
   readelf: /usr/local/bin/readelf
   size: /usr/local/bin/size
   strings: /usr/local/bin/strings
+  ar: /usr/local/bin/ar
+  ranlib: /usr/local/bin/ranlib
+  strip: /usr/local/bin/strip
+  x86_64-conda_cos6-linux-gnu-addr2line: /usr/local/bin/x86_64-conda_cos6-linux-gnu-addr2line
+  x86_64-conda_cos6-linux-gnu-ar: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ar
+  x86_64-conda_cos6-linux-gnu-as: /usr/local/bin/x86_64-conda_cos6-linux-gnu-as
+  x86_64-conda_cos6-linux-gnu-c++filt: /usr/local/bin/x86_64-conda_cos6-linux-gnu-c++filt
+  x86_64-conda_cos6-linux-gnu-dwp: /usr/local/bin/x86_64-conda_cos6-linux-gnu-dwp
+  x86_64-conda_cos6-linux-gnu-elfedit: /usr/local/bin/x86_64-conda_cos6-linux-gnu-elfedit
+  x86_64-conda_cos6-linux-gnu-gprof: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gprof
+  x86_64-conda_cos6-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld
+  x86_64-conda_cos6-linux-gnu-ld.bfd: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld.bfd
+  x86_64-conda_cos6-linux-gnu-ld.gold: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld.gold
+  x86_64-conda_cos6-linux-gnu-nm: /usr/local/bin/x86_64-conda_cos6-linux-gnu-nm
+  x86_64-conda_cos6-linux-gnu-objcopy: /usr/local/bin/x86_64-conda_cos6-linux-gnu-objcopy
+  x86_64-conda_cos6-linux-gnu-objdump: /usr/local/bin/x86_64-conda_cos6-linux-gnu-objdump
+  x86_64-conda_cos6-linux-gnu-ranlib: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ranlib
+  x86_64-conda_cos6-linux-gnu-readelf: /usr/local/bin/x86_64-conda_cos6-linux-gnu-readelf
+  x86_64-conda_cos6-linux-gnu-size: /usr/local/bin/x86_64-conda_cos6-linux-gnu-size
+  x86_64-conda_cos6-linux-gnu-strings: /usr/local/bin/x86_64-conda_cos6-linux-gnu-strings
+  x86_64-conda_cos6-linux-gnu-strip: /usr/local/bin/x86_64-conda_cos6-linux-gnu-strip

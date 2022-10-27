@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-std
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-std
+latest:
+  0.013--pl5321hdfd78af_2: sha256:9489a4e329e793cfffaa2008f76b3fb087a9ce10259552855783d9e541705bc1
+tags:
+  0.013--pl5321hdfd78af_2: sha256:9489a4e329e793cfffaa2008f76b3fb087a9ce10259552855783d9e541705bc1
+docker: quay.io/biocontainers/perl-class-std

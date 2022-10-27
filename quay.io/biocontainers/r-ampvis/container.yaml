@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-ampvis
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-ampvis
+latest:
+  1.27.0--r41h9ee0642_4: sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4
+tags:
+  1.27.0--r41h9ee0642_4: sha256:1973dfdc21e256b0bcff8db72d413e083384f3dd3aa17771409a9f9ffa567dd4
+docker: quay.io/biocontainers/r-ampvis

@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/bioexcel_seqqc
 aliases:
   bxcl_seqqc: /usr/local/bin/bxcl_seqqc
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cutadapt: /usr/local/bin/cutadapt
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  fastqc: /usr/local/bin/fastqc
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate

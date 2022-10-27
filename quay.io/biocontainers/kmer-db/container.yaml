@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/kmer-db
 aliases:
   kmer-db: /usr/local/bin/kmer-db
+  env-execute: /usr/local/env-execute

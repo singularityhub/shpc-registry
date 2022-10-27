@@ -6,3 +6,29 @@ latest:
 tags:
   5.0.1--py36_1: sha256:cd80b3cbd6a025f61da39d2f58373f3687d72dcdb6ae6774d255aefa31e5d38f
 docker: quay.io/biocontainers/pygresql
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  clusterdb: /usr/local/bin/clusterdb
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  createdb: /usr/local/bin/createdb
+  createuser: /usr/local/bin/createuser
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  dropdb: /usr/local/bin/dropdb
+  dropuser: /usr/local/bin/dropuser
+  easy_install: /usr/local/bin/easy_install
+  ecpg: /usr/local/bin/ecpg
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  gss-client: /usr/local/bin/gss-client
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config

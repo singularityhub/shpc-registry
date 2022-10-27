@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/phylocsfpp
 aliases:
   phylocsf++: /usr/local/bin/phylocsf++
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  keyctl: /usr/local/bin/keyctl
+  kinit: /usr/local/bin/kinit
+  klist: /usr/local/bin/klist
+  kpasswd: /usr/local/bin/kpasswd
+  krb5-config: /usr/local/bin/krb5-config
+  ksu: /usr/local/bin/ksu
+  kswitch: /usr/local/bin/kswitch

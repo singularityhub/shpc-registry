@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/prinseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for prinseq
+latest:
+  0.20.4--hdfd78af_5: sha256:6f1dbc20fdbdbfc1062c78568d265871eb07e43d33ddc56e33efa9389cad6450
+tags:
+  0.20.4--hdfd78af_5: sha256:6f1dbc20fdbdbfc1062c78568d265871eb07e43d33ddc56e33efa9389cad6450
+docker: quay.io/biocontainers/prinseq

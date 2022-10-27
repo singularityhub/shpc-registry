@@ -29,3 +29,28 @@ aliases:
   split_fasta.py: /usr/local/bin/split_fasta.py
   tease_maker_apart.py: /usr/local/bin/tease_maker_apart.py
   trim_long_introns.py: /usr/local/bin/trim_long_introns.py
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  black: /usr/local/bin/black
+  blackd: /usr/local/bin/blackd
+  bundle_image: /usr/local/bin/bundle_image
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

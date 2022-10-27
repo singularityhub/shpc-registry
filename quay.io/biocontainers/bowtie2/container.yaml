@@ -1,16 +1,19 @@
 docker: quay.io/biocontainers/bowtie2
-url: https://quay.io/repository/biocontainers/bowtie2
-maintainer: '@marcodelapierre'
-description: Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing
-  reads to long reference sequences.
+url: https://biocontainers.pro/tools/bowtie2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bowtie2
 latest:
-  2.4.5--py36hd4290be_0: sha256:7c547046fcb6f742789a741ef52289f174edb75d46db6d835d654e673cd2dafc
+  2.3.4.3--py37he860b03_1: sha256:7c2c2c521a8ae3374aea511da2553f69c74330b9d7c30d2b5eee5c54449da47a
 tags:
   2.3.5.1--py37he513fc3_0: sha256:361034b738118d023b5ed35b070458864f23bf63de09017ac30d08ff48a815b0
   2.4.4--py36hd4290be_0: sha256:323054e2dd75372c36ad789bbf5666b0b90c5405bd243f81a426d0895ed46497
   2.4.4--py39hbb4e92a_0: sha256:8295d4e8d7e665e9309cb8311a6aac6d4cc721b30e7e13135c18cd4016baad36
   2.4.5--py36hd4290be_0: sha256:7c547046fcb6f742789a741ef52289f174edb75d46db6d835d654e673cd2dafc
+  2.3.4.3--py37he860b03_1: sha256:7c2c2c521a8ae3374aea511da2553f69c74330b9d7c30d2b5eee5c54449da47a
 aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  activate: /usr/local/bin/activate
   bowtie2: /usr/local/bin/bowtie2
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
@@ -20,3 +23,16 @@ aliases:
   bowtie2-inspect: /usr/local/bin/bowtie2-inspect
   bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
   bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo

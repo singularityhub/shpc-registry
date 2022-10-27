@@ -7,8 +7,32 @@ tags:
   1.0.2--1: sha256:147e94ea6a711dbf28ceb9d197f3de4e767fc64ad51daa3358400c90e510b8fd
 docker: quay.io/biocontainers/mmvc
 aliases:
-  .julia-post-link.sh: /usr/local/bin/.julia-post-link.sh
   .julia-pre-unlink.sh: /usr/local/bin/.julia-pre-unlink.sh
   julia: /usr/local/bin/julia
   julia-debug: /usr/local/bin/julia-debug
   mmvc: /usr/local/bin/mmvc
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  cmpfillin: /usr/local/bin/cmpfillin
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  gss-client: /usr/local/bin/gss-client
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  kinit: /usr/local/bin/kinit
+  klist: /usr/local/bin/klist
+  kpasswd: /usr/local/bin/kpasswd
+  krb5-config: /usr/local/bin/krb5-config
+  ksu: /usr/local/bin/ksu
+  kswitch: /usr/local/bin/kswitch
+  ktutil: /usr/local/bin/ktutil

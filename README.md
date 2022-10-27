@@ -44,6 +44,7 @@ To run the above, you'll need the cache cloned locally, and singularity-hpc inst
 
 ```bash
 $ pip install git+https://github.com/singularityhub/singularity-hpc@main
+$ pip install requests pipelib beautifulsoup4
 $ git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
 ```
 

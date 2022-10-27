@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/ancestry_hmm-s
 aliases:
   ahmm-s: /usr/local/bin/ahmm-s
+  env-execute: /usr/local/env-execute

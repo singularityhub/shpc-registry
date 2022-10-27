@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/mdust
 aliases:
   mdust: /usr/local/bin/mdust
+  env-execute: /usr/local/env-execute

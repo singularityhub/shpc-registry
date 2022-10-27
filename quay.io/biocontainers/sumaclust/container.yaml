@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sumaclust
 aliases:
   sumaclust: /usr/local/bin/sumaclust
+  env-execute: /usr/local/env-execute

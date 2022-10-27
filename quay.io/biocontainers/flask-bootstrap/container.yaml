@@ -6,3 +6,29 @@ latest:
 tags:
   3.3.5.7--py36_0: sha256:da3175c019a334a61e28080c996388930aead26cd43443f3ff476f0618fdf7f4
 docker: quay.io/biocontainers/flask-bootstrap
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  flask: /usr/local/bin/flask
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  pydoc3: /usr/local/bin/pydoc3
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
+  python3-config: /usr/local/bin/python3-config
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv: /usr/local/bin/pyvenv

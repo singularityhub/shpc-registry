@@ -11,3 +11,28 @@ aliases:
   graphlan_annotate.py: /usr/local/bin/graphlan_annotate.py
   graphlan_lib.py: /usr/local/bin/graphlan_lib.py
   pyphlan.py: /usr/local/bin/pyphlan.py
+  2to3: /usr/local/bin/2to3
+  __init__.py: /usr/local/bin/__init__.py
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  libpng-config: /usr/local/bin/libpng-config
+  libpng16-config: /usr/local/bin/libpng16-config
+  makeconv: /usr/local/bin/makeconv
+  ncurses6-config: /usr/local/bin/ncurses6-config

@@ -12,3 +12,4 @@ aliases:
   mccortex31: /usr/local/bin/mccortex31
   mccortex63: /usr/local/bin/mccortex63
   mccortex95: /usr/local/bin/mccortex95
+  env-execute: /usr/local/env-execute

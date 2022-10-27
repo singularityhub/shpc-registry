@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-reshape
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-reshape
+latest:
+  0.8.6--r3.3.2_0: sha256:303088784fef688cd5f2976f99b76aa96f430a7bd9ff072f665148ced288070f
+tags:
+  0.8.6--r3.3.2_0: sha256:303088784fef688cd5f2976f99b76aa96f430a7bd9ff072f665148ced288070f
+docker: quay.io/biocontainers/r-reshape

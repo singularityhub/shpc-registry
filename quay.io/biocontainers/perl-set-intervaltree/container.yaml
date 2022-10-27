@@ -6,3 +6,29 @@ latest:
 tags:
   0.12--pl5321h87f3376_2: sha256:41c9272dbc20defd7a1137ccb901981174e7093bf5aabc07cc8c34d7f3c7f6d2
 docker: quay.io/biocontainers/perl-set-intervaltree
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks
+  piconv: /usr/local/bin/piconv
+  pl2pm: /usr/local/bin/pl2pm
+  pod2html: /usr/local/bin/pod2html
+  pod2man: /usr/local/bin/pod2man
+  pod2text: /usr/local/bin/pod2text
+  pod2usage: /usr/local/bin/pod2usage
+  podchecker: /usr/local/bin/podchecker
+  prove: /usr/local/bin/prove
+  ptar: /usr/local/bin/ptar
+  ptardiff: /usr/local/bin/ptardiff

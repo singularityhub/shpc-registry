@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/prefersim
 aliases:
   PReFerSim: /usr/local/bin/PReFerSim
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  env-execute: /usr/local/env-execute

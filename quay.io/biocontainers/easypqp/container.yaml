@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/easypqp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for easypqp
+latest:
+  0.1.9--py_0: sha256:efcf721422625e00ac551c33a533fec687a0cd4e52bb93aa5648f255b5b26b23
+tags:
+  0.1.9--py_0: sha256:efcf721422625e00ac551c33a533fec687a0cd4e52bb93aa5648f255b5b26b23
+docker: quay.io/biocontainers/easypqp

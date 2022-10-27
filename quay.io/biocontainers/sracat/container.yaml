@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sracat
 aliases:
   sracat: /usr/local/bin/sracat
+  env-execute: /usr/local/env-execute

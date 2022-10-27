@@ -15,7 +15,6 @@ aliases:
   c++filt: /usr/local/bin/c++filt
   cc: /usr/local/bin/cc
   cpp: /usr/local/bin/cpp
-  ct-ng.config: /usr/local/bin/ct-ng.config
   dwp: /usr/local/bin/dwp
   elfedit: /usr/local/bin/elfedit
   f95: /usr/local/bin/f95
@@ -51,3 +50,28 @@ aliases:
   structConnect: /usr/local/bin/structConnect
   treekin: /usr/local/bin/treekin
   tts: /usr/local/bin/tts
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  Kinfold: /usr/local/bin/Kinfold
+  R: /usr/local/bin/R
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAdos: /usr/local/bin/RNAdos
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
+  RNAfold: /usr/local/bin/RNAfold
+  RNAforester: /usr/local/bin/RNAforester
+  RNAheat: /usr/local/bin/RNAheat
+  RNAinverse: /usr/local/bin/RNAinverse
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApaln: /usr/local/bin/RNApaln
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNApdist: /usr/local/bin/RNApdist

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fast5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fast5
+latest:
+  0.6.5--hdfd78af_3: sha256:68bbc9070a988e0790f79ff869985052c5f77f0e6f7e073c88458bfe2498383f
+tags:
+  0.6.5--hdfd78af_3: sha256:68bbc9070a988e0790f79ff869985052c5f77f0e6f7e073c88458bfe2498383f
+docker: quay.io/biocontainers/fast5

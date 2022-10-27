@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/python-goenrichment
 aliases:
   goenrich: /usr/local/bin/goenrich
   goenrich_createdb: /usr/local/bin/goenrich_createdb
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  djpeg: /usr/local/bin/djpeg
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jpegtran: /usr/local/bin/jpegtran
+  jpgicc: /usr/local/bin/jpgicc
+  libdeflate-gunzip: /usr/local/bin/libdeflate-gunzip
+  libdeflate-gzip: /usr/local/bin/libdeflate-gzip
+  libpng-config: /usr/local/bin/libpng-config
+  libpng16-config: /usr/local/bin/libpng16-config
+  linkicc: /usr/local/bin/linkicc
+  lz4: /usr/local/bin/lz4

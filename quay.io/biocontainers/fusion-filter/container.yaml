@@ -7,7 +7,6 @@ tags:
   0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
 docker: quay.io/biocontainers/fusion-filter
 aliases:
-  .fusion-filter-post-link.sh: /usr/local/bin/.fusion-filter-post-link.sh
   blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
   blast_check_pair.pl: /usr/local/bin/blast_check_pair.pl
   blast_filter.pl: /usr/local/bin/blast_filter.pl
@@ -31,3 +30,28 @@ aliases:
   prep_genome_lib.pl: /usr/local/bin/prep_genome_lib.pl
   promiscuity_filter.pl: /usr/local/bin/promiscuity_filter.pl
   remove_long_intron_readthru_transcripts.pl: /usr/local/bin/remove_long_intron_readthru_transcripts.pl
+  2to3: /usr/local/bin/2to3
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  atoiindex: /usr/local/bin/atoiindex
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blast_report: /usr/local/bin/blast_report
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp

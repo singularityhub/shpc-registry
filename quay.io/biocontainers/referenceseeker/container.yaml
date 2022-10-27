@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/referenceseeker
 aliases:
   referenceseeker: /usr/local/bin/referenceseeker
   referenceseeker_db: /usr/local/bin/referenceseeker_db
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotate: /usr/local/bin/annotate
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  combineMUMs: /usr/local/bin/combineMUMs
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  delta-filter: /usr/local/bin/delta-filter

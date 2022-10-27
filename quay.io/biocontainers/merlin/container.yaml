@@ -16,3 +16,4 @@ aliases:
   pedmerge: /usr/local/bin/pedmerge
   pedstats: /usr/local/bin/pedstats
   pedwipe: /usr/local/bin/pedwipe
+  env-execute: /usr/local/env-execute

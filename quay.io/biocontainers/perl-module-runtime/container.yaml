@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-runtime
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-runtime
+latest:
+  0.016--pl5321hdfd78af_2: sha256:3c37f2f8c8c7375b014692652ebeecc9c41088de033d9c4d662cf3472ee7ff69
+tags:
+  0.016--pl5321hdfd78af_2: sha256:3c37f2f8c8c7375b014692652ebeecc9c41088de033d9c4d662cf3472ee7ff69
+docker: quay.io/biocontainers/perl-module-runtime

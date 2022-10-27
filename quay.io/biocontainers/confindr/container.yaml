@@ -11,3 +11,28 @@ aliases:
   confindr.py: /usr/local/bin/confindr.py
   confindr_create_db: /usr/local/bin/confindr_create_db
   confindr_database_setup: /usr/local/bin/confindr_database_setup
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adig: /usr/local/bin/adig
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  ahost: /usr/local/bin/ahost
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  bbcms.sh: /usr/local/bin/bbcms.sh
+  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
+  bbduk.sh: /usr/local/bin/bbduk.sh
+  bbest.sh: /usr/local/bin/bbest.sh
+  bbfakereads.sh: /usr/local/bin/bbfakereads.sh
+  bbmap.sh: /usr/local/bin/bbmap.sh
+  bbmapskimmer.sh: /usr/local/bin/bbmapskimmer.sh
+  bbmask.sh: /usr/local/bin/bbmask.sh

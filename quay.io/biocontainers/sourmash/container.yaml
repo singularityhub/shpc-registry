@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/sourmash
 aliases:
   sourmash: /usr/local/bin/sourmash
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
+  abundance-dist.py: /usr/local/bin/abundance-dist.py
+  activate: /usr/local/bin/activate
+  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  count-median.py: /usr/local/bin/count-median.py
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb

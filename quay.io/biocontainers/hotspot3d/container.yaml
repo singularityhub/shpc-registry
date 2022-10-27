@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/hotspot3d
 aliases:
   hotspot3d: /usr/local/bin/hotspot3d
+  c_rehash: /usr/local/bin/c_rehash
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  json_xs: /usr/local/bin/json_xs
+  libnetcfg: /usr/local/bin/libnetcfg
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  moose-outdated: /usr/local/bin/moose-outdated
+  openssl: /usr/local/bin/openssl
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc
+  perlivp: /usr/local/bin/perlivp
+  perlthanks: /usr/local/bin/perlthanks

@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/gecco
 aliases:
   gecco: /usr/local/bin/gecco
   pyrodigal: /usr/local/bin/pyrodigal
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  cmark: /usr/local/bin/cmark
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.10: /usr/local/bin/f2py3.10
+  futurize: /usr/local/bin/futurize
+  idle3: /usr/local/bin/idle3
+  idle3.10: /usr/local/bin/idle3.10
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

@@ -32,3 +32,28 @@ aliases:
   arb_replace: /usr/local/bin/arb_replace
   arb_rnacma: /usr/local/bin/arb_rnacma
   arb_treegen: /usr/local/bin/arb_treegen
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  envsubst: /usr/local/bin/envsubst
+  gapplication: /usr/local/bin/gapplication
+  gdbus: /usr/local/bin/gdbus
+  gdbus-codegen: /usr/local/bin/gdbus-codegen
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  gio: /usr/local/bin/gio
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  gio-querymodules: /usr/local/bin/gio-querymodules
+  glib-compile-resources: /usr/local/bin/glib-compile-resources
+  glib-compile-schemas: /usr/local/bin/glib-compile-schemas
+  glib-genmarshal: /usr/local/bin/glib-genmarshal
+  glib-gettextize: /usr/local/bin/glib-gettextize
+  glib-mkenums: /usr/local/bin/glib-mkenums
+  gobject-query: /usr/local/bin/gobject-query
+  gresource: /usr/local/bin/gresource
+  gsettings: /usr/local/bin/gsettings
+  gtester: /usr/local/bin/gtester
+  gtester-report: /usr/local/bin/gtester-report
+  iconv: /usr/local/bin/iconv

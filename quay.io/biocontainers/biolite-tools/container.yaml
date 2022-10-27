@@ -18,3 +18,4 @@ aliases:
   bl-pileup-stats: /usr/local/bin/bl-pileup-stats
   bl-randomize: /usr/local/bin/bl-randomize
   bl-threshold: /usr/local/bin/bl-threshold
+  env-execute: /usr/local/env-execute

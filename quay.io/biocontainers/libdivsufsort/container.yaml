@@ -6,3 +6,5 @@ latest:
 tags:
   2.0.2--hec16e2b_6: sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c
 docker: quay.io/biocontainers/libdivsufsort
+aliases:
+  env-execute: /usr/local/env-execute

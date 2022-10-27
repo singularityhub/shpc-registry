@@ -7,5 +7,5 @@ tags:
   2.7.0--h9ee0642_0: sha256:4c252a1f1f9227e4dee96cbc2422ef82e4f921fac9c3ec9986ea357d4de74e57
 docker: quay.io/biocontainers/nextclade
 aliases:
-  .nextclade-post-link.sh: /usr/local/bin/.nextclade-post-link.sh
   nextclade: /usr/local/bin/nextclade
+  env-execute: /usr/local/env-execute

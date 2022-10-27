@@ -17,3 +17,4 @@ aliases:
   scheck: /usr/local/bin/scheck
   stk2ct: /usr/local/bin/stk2ct
   weedamb: /usr/local/bin/weedamb
+  env-execute: /usr/local/env-execute

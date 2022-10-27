@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/express
 aliases:
   express: /usr/local/bin/express
+  env-execute: /usr/local/env-execute

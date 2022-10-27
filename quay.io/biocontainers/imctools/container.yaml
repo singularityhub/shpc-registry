@@ -6,3 +6,29 @@ latest:
 tags:
   1.0.8--pyh864c0ab_0: sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f
 docker: quay.io/biocontainers/imctools
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aec: /usr/local/bin/aec
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cbrunsli: /usr/local/bin/cbrunsli
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  dbrunsli: /usr/local/bin/dbrunsli
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install

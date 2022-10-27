@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/ghm
 aliases:
   ghm: /usr/local/bin/ghm
+  env-execute: /usr/local/env-execute

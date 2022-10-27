@@ -6,3 +6,29 @@ latest:
 tags:
   0.09--0: sha256:7fcf15ef48990cfc94fa1902a1a71fcb3acda73d10a5c0afb4cfe423b68742fc
 docker: quay.io/biocontainers/perl-hpc-runner-scheduler
+aliases:
+  activate: /usr/local/bin/activate
+  c2ph: /usr/local/bin/c2ph
+  conda: /usr/local/bin/conda
+  config_data: /usr/local/bin/config_data
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  imgsize: /usr/local/bin/imgsize

@@ -6,3 +6,7 @@ latest:
 tags:
   1.17.0--0: sha256:c815800e7c93c164a2e7dc46793b011e03083873c505809adfe11382ca7e88b0
 docker: quay.io/biocontainers/vnl
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/dadaist2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for dadaist2
+latest:
+  1.2.5--hdfd78af_0: sha256:8b77ca72ed269a2b7db38b2d47ba1d76c4789a3a3952bd409af3554533a15c23
+tags:
+  1.2.5--hdfd78af_0: sha256:8b77ca72ed269a2b7db38b2d47ba1d76c4789a3a3952bd409af3554533a15c23
+docker: quay.io/biocontainers/dadaist2

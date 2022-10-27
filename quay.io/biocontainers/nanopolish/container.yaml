@@ -11,3 +11,28 @@ aliases:
   nanopolish: /usr/local/bin/nanopolish
   nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
   nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c2ph: /usr/local/bin/c2ph
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  ccmake: /usr/local/bin/ccmake
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cmake: /usr/local/bin/cmake
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  corelist: /usr/local/bin/corelist

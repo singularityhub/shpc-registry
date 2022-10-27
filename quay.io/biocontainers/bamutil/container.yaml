@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bamutil
 aliases:
   bam: /usr/local/bin/bam
+  env-execute: /usr/local/env-execute

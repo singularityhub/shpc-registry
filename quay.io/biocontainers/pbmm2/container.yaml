@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pbmm2
 aliases:
   pbmm2: /usr/local/bin/pbmm2
+  env-execute: /usr/local/env-execute

@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/ideas
 aliases:
   ideas: /usr/local/bin/ideas
   prepMat: /usr/local/bin/prepMat
+  env-execute: /usr/local/env-execute

@@ -19,3 +19,28 @@ aliases:
   pashToLff.rb: /usr/local/bin/pashToLff.rb
   pprof: /usr/local/bin/pprof
   splitFastq.rb: /usr/local/bin/splitFastq.rb
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  envsubst: /usr/local/bin/envsubst
+  erb: /usr/local/bin/erb
+  gapplication: /usr/local/bin/gapplication
+  gdbus: /usr/local/bin/gdbus
+  gdbus-codegen: /usr/local/bin/gdbus-codegen
+  gem: /usr/local/bin/gem
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  gio: /usr/local/bin/gio
+  gio-querymodules: /usr/local/bin/gio-querymodules
+  glib-compile-resources: /usr/local/bin/glib-compile-resources
+  glib-compile-schemas: /usr/local/bin/glib-compile-schemas
+  glib-genmarshal: /usr/local/bin/glib-genmarshal
+  glib-gettextize: /usr/local/bin/glib-gettextize
+  glib-mkenums: /usr/local/bin/glib-mkenums
+  gobject-query: /usr/local/bin/gobject-query
+  gresource: /usr/local/bin/gresource

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ms
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ms
+latest:
+  2014_03_04--0: sha256:ed853a2155cda24ff7e1862c9fec41c267fa7a52002beddb3af1faca439f2557
+tags:
+  2014_03_04--0: sha256:ed853a2155cda24ff7e1862c9fec41c267fa7a52002beddb3af1faca439f2557
+docker: quay.io/biocontainers/ms

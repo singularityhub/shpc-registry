@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/dsk
 aliases:
   dsk: /usr/local/bin/dsk
   dsk2ascii: /usr/local/bin/dsk2ascii
+  h5cc: /usr/local/bin/h5cc
+  env-execute: /usr/local/env-execute

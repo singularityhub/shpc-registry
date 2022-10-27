@@ -40,3 +40,28 @@ aliases:
   virtualenv: /usr/local/bin/virtualenv
   workflow-install: /usr/local/bin/workflow-install
   workflow-to-tools: /usr/local/bin/workflow-to-tools
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  activate: /usr/local/bin/activate
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bundle_image: /usr/local/bin/bundle_image
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  coloredlogs: /usr/local/bin/coloredlogs
+  conda: /usr/local/bin/conda
+  conda-env: /usr/local/bin/conda-env

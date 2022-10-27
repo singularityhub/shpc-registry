@@ -12,3 +12,28 @@ aliases:
   dash-generate-components: /usr/local/bin/dash-generate-components
   gunicorn: /usr/local/bin/gunicorn
   renderer: /usr/local/bin/renderer
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  annotateBed: /usr/local/bin/annotateBed
+  autopoint: /usr/local/bin/autopoint
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128
+  bam2bed_sge-megarow: /usr/local/bin/bam2bed_sge-megarow
+  bam2bed_sge-typical: /usr/local/bin/bam2bed_sge-typical
+  bam2bed_slurm: /usr/local/bin/bam2bed_slurm
+  bam2bed_slurm-float128: /usr/local/bin/bam2bed_slurm-float128
+  bam2bed_slurm-megarow: /usr/local/bin/bam2bed_slurm-megarow
+  bam2bed_slurm-typical: /usr/local/bin/bam2bed_slurm-typical
+  bam2starch: /usr/local/bin/bam2starch

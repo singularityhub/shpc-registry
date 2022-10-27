@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-proteininference
 aliases:
   proteomiqon-proteininference: /usr/local/bin/proteomiqon-proteininference
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  derb: /usr/local/bin/derb
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  icu-config: /usr/local/bin/icu-config
+  icuexportdata: /usr/local/bin/icuexportdata
+  icuinfo: /usr/local/bin/icuinfo
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  keyctl: /usr/local/bin/keyctl

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/kalign2
 aliases:
   kalign: /usr/local/bin/kalign
+  env-execute: /usr/local/env-execute

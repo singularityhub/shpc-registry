@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/fastindep
 aliases:
   fastindep: /usr/local/bin/fastindep
   fastindep-symmetry: /usr/local/bin/fastindep-symmetry
+  env-execute: /usr/local/env-execute

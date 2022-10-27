@@ -34,3 +34,28 @@ aliases:
   type_constellations.py: /usr/local/bin/type_constellations.py
   usher: /usr/local/bin/usher
   usher.smk: /usr/local/bin/usher.smk
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cbc: /usr/local/bin/cbc
+  clear: /usr/local/bin/clear
+  clp: /usr/local/bin/clp
+  compile_et: /usr/local/bin/compile_et
+  derb: /usr/local/bin/derb
+  einsi: /usr/local/bin/einsi
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.8: /usr/local/bin/f2py3.8

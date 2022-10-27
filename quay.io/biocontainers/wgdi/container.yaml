@@ -11,3 +11,28 @@ aliases:
   iqtree2: /usr/local/bin/iqtree2
   pal2nal.pl: /usr/local/bin/pal2nal.pl
   wgdi: /usr/local/bin/wgdi
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chi2: /usr/local/bin/chi2
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  codeml: /usr/local/bin/codeml
+  corelist: /usr/local/bin/corelist

@@ -8,3 +8,26 @@ tags:
 docker: quay.io/biocontainers/longshot
 aliases:
   longshot: /usr/local/bin/longshot
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore
+  unlzma: /usr/local/bin/unlzma
+  unxz: /usr/local/bin/unxz
+  xz: /usr/local/bin/xz
+  xzcat: /usr/local/bin/xzcat
+  xzcmp: /usr/local/bin/xzcmp
+  xzdec: /usr/local/bin/xzdec
+  xzdiff: /usr/local/bin/xzdiff
+  xzegrep: /usr/local/bin/xzegrep
+  xzfgrep: /usr/local/bin/xzfgrep
+  xzgrep: /usr/local/bin/xzgrep
+  xzless: /usr/local/bin/xzless
+  xzmore: /usr/local/bin/xzmore

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/predicthaplo
 aliases:
   predicthaplo: /usr/local/bin/predicthaplo
+  env-execute: /usr/local/env-execute

@@ -51,3 +51,28 @@ aliases:
   tmp.py: /usr/local/bin/tmp.py
   trafoXML_visualize.py: /usr/local/bin/trafoXML_visualize.py
   tsv2spectrast.py: /usr/local/bin/tsv2spectrast.py
+  2to3: /usr/local/bin/2to3
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  cmpfillin: /usr/local/bin/cmpfillin
+  derb: /usr/local/bin/derb
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  glpsol: /usr/local/bin/glpsol
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram

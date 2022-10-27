@@ -26,3 +26,28 @@ aliases:
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
   zlib_decompress: /usr/local/bin/zlib_decompress
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  appletviewer: /usr/local/bin/appletviewer
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  clhsdb: /usr/local/bin/clhsdb
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  easy_install: /usr/local/bin/easy_install
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  extcheck: /usr/local/bin/extcheck
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  hsdb: /usr/local/bin/hsdb
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  idlj: /usr/local/bin/idlj
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  innochecksum: /usr/local/bin/innochecksum
+  instmodsh: /usr/local/bin/instmodsh
+  jar: /usr/local/bin/jar

@@ -6,3 +6,29 @@ latest:
 tags:
   0.8.7--pyh4c3bd37_0: sha256:cacf523bd8aef663ea3b8eac00196c21d28bae9b9f3b5eab2aead6efa4e13d3e
 docker: quay.io/biocontainers/cooler
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  bam2pairs: /usr/local/bin/bam2pairs
+  bgzip: /usr/local/bin/bgzip
+  bokeh: /usr/local/bin/bokeh
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  compile_et: /usr/local/bin/compile_et
+  cooler: /usr/local/bin/cooler
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config

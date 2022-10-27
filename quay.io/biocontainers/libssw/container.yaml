@@ -12,3 +12,28 @@ aliases:
   ssw.jar: /usr/local/bin/ssw.jar
   ssw_lib.py: /usr/local/bin/ssw_lib.py
   ssw_test: /usr/local/bin/ssw_test
+  2to3: /usr/local/bin/2to3
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jdeprscan: /usr/local/bin/jdeprscan
+  jdeps: /usr/local/bin/jdeps
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jinfo: /usr/local/bin/jinfo
+  jjs: /usr/local/bin/jjs
+  jlink: /usr/local/bin/jlink

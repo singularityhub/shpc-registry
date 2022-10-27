@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/ococo
 aliases:
   ococo: /usr/local/bin/ococo
+  env-execute: /usr/local/env-execute

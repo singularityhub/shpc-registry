@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-symbol
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-symbol
+latest:
+  1.07--pl526_1: sha256:0bc5b09d8e5be404aa105c0b83b0637200c1465a17747223933d2924c0cfdeba
+tags:
+  1.07--pl526_1: sha256:0bc5b09d8e5be404aa105c0b83b0637200c1465a17747223933d2924c0cfdeba
+docker: quay.io/biocontainers/perl-symbol

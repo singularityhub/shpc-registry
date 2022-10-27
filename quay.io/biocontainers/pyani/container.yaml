@@ -10,3 +10,28 @@ aliases:
   average_nucleotide_identity.py: /usr/local/bin/average_nucleotide_identity.py
   delta_filter_wrapper.py: /usr/local/bin/delta_filter_wrapper.py
   genbank_get_genomes_by_taxon.py: /usr/local/bin/genbank_get_genomes_by_taxon.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bl2seq: /usr/local/bin/bl2seq
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastpgp: /usr/local/bin/blastpgp
+  blastx: /usr/local/bin/blastx
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover

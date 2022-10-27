@@ -7,9 +7,33 @@ tags:
   v1.0--0: sha256:9a83df64687dcbd1b03a23882503669b0620ee63f8febe734eeb56d7ddf23210
 docker: quay.io/biocontainers/merqury
 aliases:
-  .merqury-post-link.sh: /usr/local/bin/.merqury-post-link.sh
   igvtools: /usr/local/bin/igvtools
   merqury.sh: /usr/local/bin/merqury.sh
   meryl-import: /usr/local/bin/meryl-import
   meryl-lookup: /usr/local/bin/meryl-lookup
   sequence: /usr/local/bin/sequence
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

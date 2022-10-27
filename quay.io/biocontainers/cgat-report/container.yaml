@@ -14,3 +14,28 @@ aliases:
   cgatreport-quickstart: /usr/local/bin/cgatreport-quickstart
   cgatreport-serve: /usr/local/bin/cgatreport-serve
   cgatreport-test: /usr/local/bin/cgatreport-test
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  bokeh: /usr/local/bin/bokeh
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.8: /usr/local/bin/f2py3.8
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  futurize: /usr/local/bin/futurize
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo

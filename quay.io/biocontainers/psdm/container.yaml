@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/psdm
 aliases:
   psdm: /usr/local/bin/psdm
+  env-execute: /usr/local/env-execute

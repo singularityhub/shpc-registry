@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/apoc
 aliases:
   apoc: /usr/local/bin/apoc
+  env-execute: /usr/local/env-execute

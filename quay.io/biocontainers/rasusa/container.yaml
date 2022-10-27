@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/rasusa
 aliases:
   rasusa: /usr/local/bin/rasusa
+  env-execute: /usr/local/env-execute

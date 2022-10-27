@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scvi
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scvi
+latest:
+  0.6.8--py_0: sha256:93532e03964892cfe0b24edec7a288ed026578e68bfa67a3415e13b6acbd920f
+tags:
+  0.6.8--py_0: sha256:93532e03964892cfe0b24edec7a288ed026578e68bfa67a3415e13b6acbd920f
+docker: quay.io/biocontainers/scvi

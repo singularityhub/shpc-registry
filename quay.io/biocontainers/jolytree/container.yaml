@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/jolytree
 aliases:
   JolyTree.sh: /usr/local/bin/JolyTree.sh
   REQ: /usr/local/bin/REQ
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  cairo-trace: /usr/local/bin/cairo-trace
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  cjpeg: /usr/local/bin/cjpeg
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  envsubst: /usr/local/bin/envsubst
+  fastme: /usr/local/bin/fastme
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config

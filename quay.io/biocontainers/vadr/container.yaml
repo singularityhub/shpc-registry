@@ -7,7 +7,6 @@ tags:
   1.5--pl5321hdfd78af_0: sha256:14ee275e78389dff447f210d2e270475a409c05233e339a231b1804357d8b048
 docker: quay.io/biocontainers/vadr
 aliases:
-  .vadr-post-link.sh: /usr/local/bin/.vadr-post-link.sh
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
   ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
   ann_exons_up_sql.pl: /usr/local/bin/ann_exons_up_sql.pl
@@ -72,3 +71,28 @@ aliases:
   vadr-map-model-coords.pl: /usr/local/bin/vadr-map-model-coords.pl
   vadr-map-two-complete-models.pl: /usr/local/bin/vadr-map-two-complete-models.pl
   vadr-run.sh: /usr/local/bin/vadr-run.sh
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  blst2tkns: /usr/local/bin/blst2tkns
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

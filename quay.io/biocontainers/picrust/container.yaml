@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/picrust
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for picrust
+latest:
+  1.1.4--pyh5ca1d4c_1: sha256:1ea5a82f6ef6a3d194d86310cbe884c4b57abaa200af4c11d306684d911cc9fa
+tags:
+  1.1.4--pyh5ca1d4c_1: sha256:1ea5a82f6ef6a3d194d86310cbe884c4b57abaa200af4c11d306684d911cc9fa
+docker: quay.io/biocontainers/picrust

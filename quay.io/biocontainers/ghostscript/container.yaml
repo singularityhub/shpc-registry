@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/ghostscript
 aliases:
   font2c: /usr/local/bin/font2c
   wftopfa: /usr/local/bin/wftopfa
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500
+  gslj: /usr/local/bin/gslj
+  gslp: /usr/local/bin/gslp
+  gsnd: /usr/local/bin/gsnd
+  lprsetup.sh: /usr/local/bin/lprsetup.sh
+  pdf2dsc: /usr/local/bin/pdf2dsc
+  pdf2ps: /usr/local/bin/pdf2ps
+  pf2afm: /usr/local/bin/pf2afm
+  pfbtopfa: /usr/local/bin/pfbtopfa
+  pphs: /usr/local/bin/pphs
+  printafm: /usr/local/bin/printafm
+  ps2ascii: /usr/local/bin/ps2ascii
+  ps2epsi: /usr/local/bin/ps2epsi
+  ps2pdf: /usr/local/bin/ps2pdf
+  ps2pdf12: /usr/local/bin/ps2pdf12
+  ps2pdf13: /usr/local/bin/ps2pdf13
+  ps2pdf14: /usr/local/bin/ps2pdf14

@@ -6,3 +6,29 @@ latest:
 tags:
   0.7--py_0: sha256:c14e016cffe8a62755484f60a474b220ea07f8aa0ddd195ec67d6a8a0fba463c
 docker: quay.io/biocontainers/neatms
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  djpeg: /usr/local/bin/djpeg
+  easy_install: /usr/local/bin/easy_install
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3
+  f2py3.6: /usr/local/bin/f2py3.6
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  freetype-config: /usr/local/bin/freetype-config
+  freeze_graph: /usr/local/bin/freeze_graph
+  gif2h5: /usr/local/bin/gif2h5
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

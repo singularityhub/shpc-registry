@@ -14,7 +14,9 @@ jobs:
         fetch-depth: '0'
 
     - name: Install Dependencies
-      run: pip install git+https://github.com/singularityhub/singularity-hpc@main
+      run: |
+        pip install git+https://github.com/singularityhub/singularity-hpc@main
+        pip install requests pipelib beautifulsoup4
 
     - name: Update Biocontainers
       run: |

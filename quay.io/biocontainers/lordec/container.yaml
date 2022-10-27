@@ -15,3 +15,28 @@ aliases:
   lordec-trim: /usr/local/bin/lordec-trim
   lordec-trim-split: /usr/local/bin/lordec-trim-split
   lordec_sge_slurm_wrapper.sh: /usr/local/bin/lordec_sge_slurm_wrapper.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  dbgh5: /usr/local/bin/dbgh5
+  derb: /usr/local/bin/derb
+  f2py: /usr/local/bin/f2py
+  f2py3: /usr/local/bin/f2py3

@@ -13,3 +13,28 @@ aliases:
   ucx_info: /usr/local/bin/ucx_info
   ucx_perftest: /usr/local/bin/ucx_perftest
   ucx_read_profile: /usr/local/bin/ucx_read_profile
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths
+  Overlap: /usr/local/bin/Overlap
+  ParseAligns: /usr/local/bin/ParseAligns
+  PathConsensus: /usr/local/bin/PathConsensus
+  PathOverlap: /usr/local/bin/PathOverlap
+  PopBubbles: /usr/local/bin/PopBubbles
+  README: /usr/local/bin/README
+  SimpleGraph: /usr/local/bin/SimpleGraph
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace

@@ -6,3 +6,29 @@ latest:
 tags:
   0.0.3--py_2: sha256:e563b45f6b8f5f91196a207ed67db0208674f5ee462310c4bb88def0710e7c7e
 docker: quay.io/biocontainers/pybamparser
+aliases:
+  2to3: /usr/local/bin/2to3
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  python: /usr/local/bin/python
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  reset: /usr/local/bin/reset
+  smtpd.py: /usr/local/bin/smtpd.py
+  sqlite3: /usr/local/bin/sqlite3
+  sqlite3_analyzer: /usr/local/bin/sqlite3_analyzer
+  tabs: /usr/local/bin/tabs
+  tclsh: /usr/local/bin/tclsh

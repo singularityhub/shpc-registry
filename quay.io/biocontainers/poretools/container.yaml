@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/poretools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for poretools
+latest:
+  0.6.1a1--py_8: sha256:3c89ebbb05e8885ad5886437bf4771e0a1c4204a260528742f497e3c9fcb8bc3
+tags:
+  0.6.1a1--py_8: sha256:3c89ebbb05e8885ad5886437bf4771e0a1c4204a260528742f497e3c9fcb8bc3
+docker: quay.io/biocontainers/poretools

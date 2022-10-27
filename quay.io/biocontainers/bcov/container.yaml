@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/bcov
 aliases:
   bcov: /usr/local/bin/bcov
+  glpsol: /usr/local/bin/glpsol
+  env-execute: /usr/local/env-execute

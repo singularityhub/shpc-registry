@@ -14,27 +14,14 @@ aliases:
   Plot_COG.R: /usr/local/bin/Plot_COG.R
   Plot_COG_Abundance.R: /usr/local/bin/Plot_COG_Abundance.R
   Plot_MashHeatmap.R: /usr/local/bin/Plot_MashHeatmap.R
-  alignGFA: /usr/local/bin/alignGFA
-  canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
-  canu.defaults: /usr/local/bin/canu.defaults
   circlator: /usr/local/bin/circlator
   contig_break_finder: /usr/local/bin/contig_break_finder
   contig_cleaner: /usr/local/bin/contig_cleaner
   contig_overlap_trimmer: /usr/local/bin/contig_overlap_trimmer
   coreprocess.pl: /usr/local/bin/coreprocess.pl
-  correctOverlaps: /usr/local/bin/correctOverlaps
-  dumpBlob: /usr/local/bin/dumpBlob
-  edalign: /usr/local/bin/edalign
-  errorEstimate: /usr/local/bin/errorEstimate
-  falconsense: /usr/local/bin/falconsense
   fastme: /usr/local/bin/fastme
-  filterCorrectionLayouts: /usr/local/bin/filterCorrectionLayouts
-  filterCorrectionOverlaps: /usr/local/bin/filterCorrectionOverlaps
-  findErrors: /usr/local/bin/findErrors
-  findErrors-Dump: /usr/local/bin/findErrors-Dump
   fmplot.py: /usr/local/bin/fmplot.py
-  generateCorrectionLayouts: /usr/local/bin/generateCorrectionLayouts
   genome_LenFilter_stats.pl: /usr/local/bin/genome_LenFilter_stats.pl
   get_ANImatrix.pl: /usr/local/bin/get_ANImatrix.pl
   get_Mash_Matrix.pl: /usr/local/bin/get_Mash_Matrix.pl
@@ -44,30 +31,13 @@ aliases:
   get_flag_relative_abundances_table.pl: /usr/local/bin/get_flag_relative_abundances_table.pl
   get_genes_table.pl: /usr/local/bin/get_genes_table.pl
   gubbins: /usr/local/bin/gubbins
-  loadCorrectedReads: /usr/local/bin/loadCorrectedReads
-  loadErates: /usr/local/bin/loadErates
-  loadTrimmedReads: /usr/local/bin/loadTrimmedReads
   mergeRanges: /usr/local/bin/mergeRanges
-  mhapConvert: /usr/local/bin/mhapConvert
-  mmapConvert: /usr/local/bin/mmapConvert
   modeltest-ng: /usr/local/bin/modeltest-ng
   orthofinder: /usr/local/bin/orthofinder
-  ovStoreBucketizer: /usr/local/bin/ovStoreBucketizer
-  ovStoreBuild: /usr/local/bin/ovStoreBuild
-  ovStoreConfig: /usr/local/bin/ovStoreConfig
-  ovStoreDump: /usr/local/bin/ovStoreDump
-  ovStoreIndexer: /usr/local/bin/ovStoreIndexer
-  ovStoreSorter: /usr/local/bin/ovStoreSorter
-  ovStoreStats: /usr/local/bin/ovStoreStats
   overlapAlign: /usr/local/bin/overlapAlign
-  overlapConvert: /usr/local/bin/overlapConvert
-  overlapImport: /usr/local/bin/overlapImport
-  overlapInCorePartition: /usr/local/bin/overlapInCorePartition
-  overlapPair: /usr/local/bin/overlapPair
   pacbio_post_process: /usr/local/bin/pacbio_post_process
   pgcgap: /usr/local/bin/pgcgap
   plot_3Dpie.R: /usr/local/bin/plot_3Dpie.R
-  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
   raxml-ng: /usr/local/bin/raxml-ng
   raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
@@ -75,18 +45,8 @@ aliases:
   scoary: /usr/local/bin/scoary
   scoary_GUI: /usr/local/bin/scoary_GUI
   sickle: /usr/local/bin/sickle
-  splitHaplotype: /usr/local/bin/splitHaplotype
-  splitReads: /usr/local/bin/splitReads
-  sqStoreCreate: /usr/local/bin/sqStoreCreate
-  sqStoreDumpFASTQ: /usr/local/bin/sqStoreDumpFASTQ
-  sqStoreDumpMetaData: /usr/local/bin/sqStoreDumpMetaData
-  tgStoreCompress: /usr/local/bin/tgStoreCompress
-  tgStoreDump: /usr/local/bin/tgStoreDump
   tgStoreFilter: /usr/local/bin/tgStoreFilter
-  tgStoreLoad: /usr/local/bin/tgStoreLoad
-  tgTigDisplay: /usr/local/bin/tgTigDisplay
   triangle2list.pl: /usr/local/bin/triangle2list.pl
-  trimReads: /usr/local/bin/trimReads
   unicycler: /usr/local/bin/unicycler
   unicycler_align: /usr/local/bin/unicycler_align
   unicycler_check: /usr/local/bin/unicycler_check
@@ -94,3 +54,28 @@ aliases:
   unicycler_scrub: /usr/local/bin/unicycler_scrub
   vcf2scoary: /usr/local/bin/vcf2scoary
   wtdbgConvert: /usr/local/bin/wtdbgConvert
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths
+  Overlap: /usr/local/bin/Overlap
+  ParseAligns: /usr/local/bin/ParseAligns
+  PathConsensus: /usr/local/bin/PathConsensus
+  PathOverlap: /usr/local/bin/PathOverlap
+  PopBubbles: /usr/local/bin/PopBubbles
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl

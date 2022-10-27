@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pstools
 aliases:
   pstools: /usr/local/bin/pstools
+  env-execute: /usr/local/env-execute

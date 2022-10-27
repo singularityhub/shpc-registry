@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/ecoprimers
 aliases:
   ecoPrimers: /usr/local/bin/ecoPrimers
+  env-execute: /usr/local/env-execute

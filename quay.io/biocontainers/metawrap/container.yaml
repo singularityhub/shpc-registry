@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/metawrap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metawrap
+latest:
+  1.2--hdfd78af_2: sha256:b767a2ec6928618496fa7dc78fe84265ae7029cf28f2a82093694f55f2f35e85
+tags:
+  1.2--hdfd78af_2: sha256:b767a2ec6928618496fa7dc78fe84265ae7029cf28f2a82093694f55f2f35e85
+docker: quay.io/biocontainers/metawrap

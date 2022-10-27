@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-phytools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-phytools
+latest:
+  0.6_99--r40h6115d3f_1: sha256:26932ea0465125e7e60ffcd6b62a93e06dc8ccca65592e5b992610a212220089
+tags:
+  0.6_99--r40h6115d3f_1: sha256:26932ea0465125e7e60ffcd6b62a93e06dc8ccca65592e5b992610a212220089
+docker: quay.io/biocontainers/r-phytools

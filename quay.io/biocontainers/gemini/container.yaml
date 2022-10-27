@@ -16,3 +16,28 @@ aliases:
   ipcluster: /usr/local/bin/ipcluster
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
+  2to3: /usr/local/bin/2to3
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  ahost: /usr/local/bin/ahost
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  annotateBed: /usr/local/bin/annotateBed
+  autopoint: /usr/local/bin/autopoint
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
+  bed_build_windows.py: /usr/local/bin/bed_build_windows.py
+  bed_complement.py: /usr/local/bin/bed_complement.py
+  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py
+  bed_count_overlapping.py: /usr/local/bin/bed_count_overlapping.py
+  bed_coverage.py: /usr/local/bin/bed_coverage.py
+  bed_coverage_by_interval.py: /usr/local/bin/bed_coverage_by_interval.py
+  bed_diff_basewise_summary.py: /usr/local/bin/bed_diff_basewise_summary.py

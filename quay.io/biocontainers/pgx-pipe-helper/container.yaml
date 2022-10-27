@@ -10,3 +10,28 @@ aliases:
   complete_locus: /usr/local/bin/complete_locus
   locus2bed: /usr/local/bin/locus2bed
   validate_locus: /usr/local/bin/validate_locus
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acyclic: /usr/local/bin/acyclic
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm
+  derb: /usr/local/bin/derb
+  dijkstra: /usr/local/bin/dijkstra
+  djpeg: /usr/local/bin/djpeg
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl
+  dot_builtins: /usr/local/bin/dot_builtins
+  easy_install: /usr/local/bin/easy_install
+  edgepaint: /usr/local/bin/edgepaint
+  envsubst: /usr/local/bin/envsubst
+  f2py: /usr/local/bin/f2py

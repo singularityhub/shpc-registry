@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/refseq_masher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for refseq_masher
+latest:
+  0.1.2--py_0: sha256:cc8793c3f4414ae3fa644f9a958fce2af706d2f6c8c21b42bb6c3cd3748d445f
+tags:
+  0.1.2--py_0: sha256:cc8793c3f4414ae3fa644f9a958fce2af706d2f6c8c21b42bb6c3cd3748d445f
+docker: quay.io/biocontainers/refseq_masher

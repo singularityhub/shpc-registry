@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-metagene
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-metagene
+latest:
+  2.26.0--r41hdfd78af_0: sha256:c74f3b98575de052ba35b77bf3b9738e06a9b5b8b0a9eb834a3738ff20e84ead
+tags:
+  2.26.0--r41hdfd78af_0: sha256:c74f3b98575de052ba35b77bf3b9738e06a9b5b8b0a9eb834a3738ff20e84ead
+docker: quay.io/biocontainers/bioconductor-metagene

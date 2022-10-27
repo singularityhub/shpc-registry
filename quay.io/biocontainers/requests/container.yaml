@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/requests
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for requests
+latest:
+  2.26.0: sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad
+tags:
+  2.26.0: sha256:5fa79b2bf1205e22e487d59fef2a0d9f5ae21fe2723e223cca62ab3a65bf5aad
+docker: quay.io/biocontainers/requests

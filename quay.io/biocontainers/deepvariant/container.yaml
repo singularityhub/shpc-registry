@@ -7,8 +7,32 @@ tags:
   1.4.0--py36hf3e76ba_0: sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3
 docker: quay.io/biocontainers/deepvariant
 aliases:
-  .deepvariant-post-link.sh: /usr/local/bin/.deepvariant-post-link.sh
   .deepvariant-pre-unlink.sh: /usr/local/bin/.deepvariant-pre-unlink.sh
   dv_call_variants.py: /usr/local/bin/dv_call_variants.py
   dv_make_examples.py: /usr/local/bin/dv_make_examples.py
   dv_postprocess_variants.py: /usr/local/bin/dv_postprocess_variants.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  appletviewer: /usr/local/bin/appletviewer
+  bgzip: /usr/local/bin/bgzip
+  bq: /usr/local/bin/bq
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clear: /usr/local/bin/clear
+  clhsdb: /usr/local/bin/clhsdb
+  compile_et: /usr/local/bin/compile_et

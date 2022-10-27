@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/remurna
 aliases:
   remuRNA: /usr/local/bin/remuRNA
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

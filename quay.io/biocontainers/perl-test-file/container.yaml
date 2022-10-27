@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-test-file
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-test-file
+latest:
+  1.992--pl5321hdfd78af_0: sha256:aaaf6ef4e1247ca8df429135a8fbacd68e623c8330d60b5379aa0dfc88b3283d
+tags:
+  1.992--pl5321hdfd78af_0: sha256:aaaf6ef4e1247ca8df429135a8fbacd68e623c8330d60b5379aa0dfc88b3283d
+docker: quay.io/biocontainers/perl-test-file

@@ -6,3 +6,29 @@ latest:
 tags:
   0.0.5--py27heb79e2c_1: sha256:30feae8c72bd92813d1a6a2515a96c8a1d1b83d1d28c226c2f306de0f53b5063
 docker: quay.io/biocontainers/kerneltree
+aliases:
+  2to3: /usr/local/bin/2to3
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  python: /usr/local/bin/python
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  reset: /usr/local/bin/reset
+  smtpd.py: /usr/local/bin/smtpd.py
+  sqlite3: /usr/local/bin/sqlite3
+  sqlite3_analyzer: /usr/local/bin/sqlite3_analyzer
+  tabs: /usr/local/bin/tabs
+  tclsh: /usr/local/bin/tclsh

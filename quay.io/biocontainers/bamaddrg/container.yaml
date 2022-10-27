@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bamaddrg
 aliases:
   bamaddrg: /usr/local/bin/bamaddrg
+  env-execute: /usr/local/env-execute

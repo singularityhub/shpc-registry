@@ -7,7 +7,6 @@ tags:
   2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
 docker: quay.io/biocontainers/magpurify
 aliases:
-  .magpurify-post-link.sh: /usr/local/bin/.magpurify-post-link.sh
   coverm: /usr/local/bin/coverm
   last-split8: /usr/local/bin/last-split8
   lastal8: /usr/local/bin/lastal8
@@ -16,3 +15,28 @@ aliases:
   magpurify: /usr/local/bin/magpurify
   remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
   starcode: /usr/local/bin/starcode
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  README: /usr/local/bin/README
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bt-context.txt: /usr/local/bin/bt-context.txt
+  bt-link: /usr/local/bin/bt-link

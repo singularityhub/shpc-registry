@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/roary
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for roary
+latest:
+  3.9.1--pl5.22.0_0: sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d
+tags:
+  3.9.1--pl5.22.0_0: sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d
+docker: quay.io/biocontainers/roary

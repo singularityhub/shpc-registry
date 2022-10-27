@@ -11,3 +11,28 @@ aliases:
   phyml-mpi: /usr/local/bin/phyml-mpi
   phyrex: /usr/local/bin/phyrex
   phytime: /usr/local/bin/phytime
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  mpiCC: /usr/local/bin/mpiCC
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpifort: /usr/local/bin/mpifort
+  mpirun: /usr/local/bin/mpirun
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  ompi_info: /usr/local/bin/ompi_info
+  opal_wrapper: /usr/local/bin/opal_wrapper
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcc: /usr/local/bin/oshcc
+  oshcxx: /usr/local/bin/oshcxx
+  oshfort: /usr/local/bin/oshfort

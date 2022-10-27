@@ -18,3 +18,6 @@ aliases:
   randomFQ: /usr/local/bin/randomFQ
   sam-stats: /usr/local/bin/sam-stats
   varcall: /usr/local/bin/varcall
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist

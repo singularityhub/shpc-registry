@@ -58,3 +58,28 @@ aliases:
   rhea-binning.R: /usr/local/bin/rhea-binning.R
   rhea-normalize.R: /usr/local/bin/rhea-normalize.R
   seqfu: /usr/local/bin/seqfu
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  R: /usr/local/bin/R
+  README.md: /usr/local/bin/README.md
+  Rscript: /usr/local/bin/Rscript
+  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adig: /usr/local/bin/adig
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  aserver: /usr/local/bin/aserver

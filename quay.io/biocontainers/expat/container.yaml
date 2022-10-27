@@ -6,3 +6,8 @@ latest:
 tags:
   2.1.0--0: sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f
 docker: quay.io/biocontainers/expat
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  xmlwf: /usr/local/bin/xmlwf

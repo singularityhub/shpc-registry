@@ -6,3 +6,29 @@ latest:
 tags:
   0.1.15--py36_0: sha256:d67e0097073d911513c0d3e966a07c206c581fac94e9a43687bb1462c6903dc5
 docker: quay.io/biocontainers/sphinx-argparse
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pybabel: /usr/local/bin/pybabel
+  pydoc: /usr/local/bin/pydoc
+  pydoc3: /usr/local/bin/pydoc3
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  pygmentize: /usr/local/bin/pygmentize
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
+  python3-config: /usr/local/bin/python3-config
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config

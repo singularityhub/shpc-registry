@@ -7,7 +7,6 @@ tags:
   0.0.3.0--py_0: sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14
 docker: quay.io/biocontainers/cmsip
 aliases:
-  .moabs-post-link.sh: /usr/local/bin/.moabs-post-link.sh
   LiBis: /usr/local/bin/LiBis
   bamsort.sh: /usr/local/bin/bamsort.sh
   bbf: /usr/local/bin/bbf
@@ -16,8 +15,6 @@ aliases:
   bsmap: /usr/local/bin/bsmap
   cmsip: /usr/local/bin/cmsip
   fetchChromSizes: /usr/local/bin/fetchChromSizes
-  lut_pdiffCI.dat: /usr/local/bin/lut_pdiffCI.dat
-  lut_pdiffInRegion.dat: /usr/local/bin/lut_pdiffInRegion.dat
   mcall: /usr/local/bin/mcall
   mcomp: /usr/local/bin/mcomp
   moabs: /usr/local/bin/moabs
@@ -29,3 +26,28 @@ aliases:
   template_for_cfg: /usr/local/bin/template_for_cfg
   template_for_qsub: /usr/local/bin/template_for_qsub
   trim_galore: /usr/local/bin/trim_galore
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover

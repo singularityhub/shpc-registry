@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/opentargets
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for opentargets
+latest:
+  3.1.16--pyh864c0ab_1: sha256:6fcc27a9c5c1996bc6bcf7054ad7946201fc9b4ff41c629b8a7b35c8d702183d
+tags:
+  3.1.16--pyh864c0ab_1: sha256:6fcc27a9c5c1996bc6bcf7054ad7946201fc9b4ff41c629b8a7b35c8d702183d
+docker: quay.io/biocontainers/opentargets

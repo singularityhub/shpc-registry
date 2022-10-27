@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gappa
 aliases:
   gappa: /usr/local/bin/gappa
+  env-execute: /usr/local/env-execute

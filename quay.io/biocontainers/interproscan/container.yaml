@@ -7,7 +7,6 @@ tags:
   5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
 docker: quay.io/biocontainers/interproscan
 aliases:
-  .interproscan-post-link.sh: /usr/local/bin/.interproscan-post-link.sh
   2ft: /usr/local/bin/2ft
   6ft: /usr/local/bin/6ft
   _gdlib-config: /usr/local/bin/_gdlib-config
@@ -56,3 +55,28 @@ aliases:
   sfld_preprocess.py: /usr/local/bin/sfld_preprocess.py
   sort_fasta.pl: /usr/local/bin/sort_fasta.pl
   split_profile_file.pl: /usr/local/bin/split_profile_file.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic
+  _backtranambig: /usr/local/bin/_backtranambig
+  _backtranseq: /usr/local/bin/_backtranseq
+  _banana: /usr/local/bin/_banana
+  _bdftogd: /usr/local/bin/_bdftogd
+  _biosed: /usr/local/bin/_biosed
+  _btwisted: /usr/local/bin/_btwisted
+  _cai: /usr/local/bin/_cai
+  _chaos: /usr/local/bin/_chaos
+  _charge: /usr/local/bin/_charge
+  _checktrans: /usr/local/bin/_checktrans
+  _chips: /usr/local/bin/_chips
+  _cirdna: /usr/local/bin/_cirdna

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/nanospring
 aliases:
   NanoSpring: /usr/local/bin/NanoSpring
+  env-execute: /usr/local/env-execute

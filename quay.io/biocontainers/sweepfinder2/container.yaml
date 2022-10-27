@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sweepfinder2
 aliases:
   SweepFinder2: /usr/local/bin/SweepFinder2
+  env-execute: /usr/local/env-execute

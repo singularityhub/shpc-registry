@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/booster
 aliases:
   booster: /usr/local/bin/booster
+  env-execute: /usr/local/env-execute

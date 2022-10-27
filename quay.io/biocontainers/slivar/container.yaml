@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/slivar
 aliases:
   pslivar: /usr/local/bin/pslivar
   slivar: /usr/local/bin/slivar
+  env-execute: /usr/local/env-execute

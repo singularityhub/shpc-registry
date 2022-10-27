@@ -22,3 +22,28 @@ aliases:
   unitigger: /usr/local/bin/unitigger
   widen_overlaps: /usr/local/bin/widen_overlaps
   zoom: /usr/local/bin/zoom
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  dijkstra: /usr/local/bin/dijkstra
+  djpeg: /usr/local/bin/djpeg
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl
+  dot_builtins: /usr/local/bin/dot_builtins
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  edgepaint: /usr/local/bin/edgepaint
+  erb: /usr/local/bin/erb
+  fax2ps: /usr/local/bin/fax2ps

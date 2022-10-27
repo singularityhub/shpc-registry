@@ -6,3 +6,29 @@ latest:
 tags:
   1.3.3--py36hc088bd4_0: sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7
 docker: quay.io/biocontainers/freebayes
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  bamleftalign: /usr/local/bin/bamleftalign
+  bgzip: /usr/local/bin/bgzip
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  corelist: /usr/local/bin/corelist
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  cpan: /usr/local/bin/cpan
+  curl-config: /usr/local/bin/curl-config
+  easy_install: /usr/local/bin/easy_install
+  enc2xs: /usr/local/bin/enc2xs

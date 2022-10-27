@@ -11,3 +11,4 @@ aliases:
   Corrector_HA: /usr/local/bin/Corrector_HA
   KmerFreq_AR: /usr/local/bin/KmerFreq_AR
   KmerFreq_HA: /usr/local/bin/KmerFreq_HA
+  env-execute: /usr/local/env-execute

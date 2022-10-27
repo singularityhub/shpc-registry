@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/recontig
 aliases:
   recontig: /usr/local/bin/recontig
+  env-execute: /usr/local/env-execute

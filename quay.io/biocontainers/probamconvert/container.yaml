@@ -18,3 +18,28 @@ aliases:
   proBAM_mzid.py: /usr/local/bin/proBAM_mzid.py
   proBAM_pepxml.py: /usr/local/bin/proBAM_pepxml.py
   proBAM_proBED.py: /usr/local/bin/proBAM_proBED.py
+  2to3: /usr/local/bin/2to3
+  ace2sam: /usr/local/bin/ace2sam
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  browse: /usr/local/bin/browse
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect

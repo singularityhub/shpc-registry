@@ -6,3 +6,18 @@ latest:
 tags:
   2.2.26--h9ee0642_3: sha256:7a7330b429fcde740a79b4c0ba592cf0282090106c8d495f7a5414bd6002e065
 docker: quay.io/biocontainers/blast-legacy
+aliases:
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat
+  megablast: /usr/local/bin/megablast
+  rpsblast: /usr/local/bin/rpsblast
+  seedtop: /usr/local/bin/seedtop
+  env-execute: /usr/local/env-execute

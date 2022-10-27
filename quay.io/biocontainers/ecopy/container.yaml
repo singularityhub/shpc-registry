@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ecopy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ecopy
+latest:
+  0.1.2.2--py35h470a237_1: sha256:5cef6e66abafa61e09fbe3590259050d1cdd27fc7d7e6fa310fb5f5528e76d65
+tags:
+  0.1.2.2--py35h470a237_1: sha256:5cef6e66abafa61e09fbe3590259050d1cdd27fc7d7e6fa310fb5f5528e76d65
+docker: quay.io/biocontainers/ecopy

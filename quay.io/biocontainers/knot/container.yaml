@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/knot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for knot
+latest:
+  1.0.0--1: sha256:f680b35239cd806eb9c387ed6644088c5f4664a959b7c0fc4a2784822291fb19
+tags:
+  1.0.0--1: sha256:f680b35239cd806eb9c387ed6644088c5f4664a959b7c0fc4a2784822291fb19
+docker: quay.io/biocontainers/knot

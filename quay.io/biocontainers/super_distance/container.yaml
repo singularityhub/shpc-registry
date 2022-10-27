@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/super_distance
 aliases:
   super_distance: /usr/local/bin/super_distance
+  env-execute: /usr/local/env-execute

@@ -7,5 +7,29 @@ tags:
   1.8.1--r351_1: sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d
 docker: quay.io/biocontainers/bioconductor-starbiotrek
 aliases:
-  .bioconductor-mirnatap.db-post-link.sh: /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh
   .bioconductor-mirnatap.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh
+  .bioconductor-all-pre-unlink.sh: /usr/local/bin/.bioconductor-all-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear

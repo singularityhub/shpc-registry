@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/filtlong
 aliases:
   filtlong: /usr/local/bin/filtlong
+  env-execute: /usr/local/env-execute

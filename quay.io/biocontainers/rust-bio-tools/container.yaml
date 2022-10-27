@@ -8,3 +8,9 @@ tags:
 docker: quay.io/biocontainers/rust-bio-tools
 aliases:
   rbt: /usr/local/bin/rbt
+  c_rehash: /usr/local/bin/c_rehash
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  openssl: /usr/local/bin/openssl
+  starcode: /usr/local/bin/starcode

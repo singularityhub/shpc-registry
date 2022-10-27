@@ -6,3 +6,29 @@ latest:
 tags:
   0.7.1.post6--py35_2: sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1
 docker: quay.io/biocontainers/python-igraph
+aliases:
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  iconv: /usr/local/bin/iconv
+  idle3: /usr/local/bin/idle3
+  idle3.5: /usr/local/bin/idle3.5
+  igraph: /usr/local/bin/igraph
+  openssl: /usr/local/bin/openssl
+  pip: /usr/local/bin/pip
+  pydoc: /usr/local/bin/pydoc
+  pydoc3: /usr/local/bin/pydoc3
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python: /usr/local/bin/python
+  python3: /usr/local/bin/python3
+  python3-config: /usr/local/bin/python3-config
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config

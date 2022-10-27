@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bioawk
 aliases:
   bioawk: /usr/local/bin/bioawk
+  env-execute: /usr/local/env-execute

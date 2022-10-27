@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fred2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fred2
+latest:
+  2.0.7--py_0: sha256:4f9084258ce366afd8716eafca32fe2a3bdfc4b2ae8f369cf909e6caa2b9b5e6
+tags:
+  2.0.7--py_0: sha256:4f9084258ce366afd8716eafca32fe2a3bdfc4b2ae8f369cf909e6caa2b9b5e6
+docker: quay.io/biocontainers/fred2

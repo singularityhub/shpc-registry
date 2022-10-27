@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-copy-recursive
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-copy-recursive
+latest:
+  0.45--pl5321hec16e2b_2: sha256:79f98f3263ea0f188892dc2e6cacbfcb83bcc7b8ce2adda45fd8b0aa577b4840
+tags:
+  0.45--pl5321hec16e2b_2: sha256:79f98f3263ea0f188892dc2e6cacbfcb83bcc7b8ce2adda45fd8b0aa577b4840
+docker: quay.io/biocontainers/perl-file-copy-recursive

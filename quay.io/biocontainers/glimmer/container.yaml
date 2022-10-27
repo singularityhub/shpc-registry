@@ -28,3 +28,5 @@ aliases:
   uncovered: /usr/local/bin/uncovered
   upstream-coords.awk: /usr/local/bin/upstream-coords.awk
   window-acgt: /usr/local/bin/window-acgt
+  test: /usr/local/bin/test
+  env-execute: /usr/local/env-execute

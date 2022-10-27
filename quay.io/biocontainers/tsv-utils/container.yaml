@@ -19,3 +19,4 @@ aliases:
   tsv-split: /usr/local/bin/tsv-split
   tsv-summarize: /usr/local/bin/tsv-summarize
   tsv-uniq: /usr/local/bin/tsv-uniq
+  env-execute: /usr/local/env-execute

@@ -7,6 +7,30 @@ tags:
   2.1.1--pyhdfd78af_1: sha256:8a3f3b4416fb8c01f7c3c73cb05309c6b85d81a9028f8db8f9ef783e72c63bcb
 docker: quay.io/biocontainers/gtdbtk
 aliases:
-  .gtdbtk-post-link.sh: /usr/local/bin/.gtdbtk-post-link.sh
   download-db.sh: /usr/local/bin/download-db.sh
   gtdbtk: /usr/local/bin/gtdbtk
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  alimask: /usr/local/bin/alimask
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  dendropy-format: /usr/local/bin/dendropy-format
+  derb: /usr/local/bin/derb

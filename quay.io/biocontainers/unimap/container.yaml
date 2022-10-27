@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/unimap
 aliases:
   unimap: /usr/local/bin/unimap
+  env-execute: /usr/local/env-execute

@@ -31,3 +31,4 @@ aliases:
   td_bignet: /usr/local/bin/td_bignet
   xgui: /usr/local/bin/xgui
   yacc: /usr/local/bin/yacc
+  env-execute: /usr/local/env-execute

@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/rapsearch
 aliases:
   prerapsearch: /usr/local/bin/prerapsearch
   rapsearch: /usr/local/bin/rapsearch
+  env-execute: /usr/local/env-execute

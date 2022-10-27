@@ -10,3 +10,28 @@ aliases:
   kobas-annotate: /usr/local/bin/kobas-annotate
   kobas-identify: /usr/local/bin/kobas-identify
   kobas-run: /usr/local/bin/kobas-run
+  2to3: /usr/local/bin/2to3
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  autopoint: /usr/local/bin/autopoint
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bt-context.txt: /usr/local/bin/bt-context.txt
+  bt-link: /usr/local/bin/bt-link
+  bt-load: /usr/local/bin/bt-load
+  bt-save: /usr/local/bin/bt-save
+  bt-srch: /usr/local/bin/bt-srch
+  build.sh: /usr/local/bin/build.sh
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  bunzip2: /usr/local/bin/bunzip2

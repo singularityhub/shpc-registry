@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/vgan
 aliases:
   vgan: /usr/local/bin/vgan
+  env-execute: /usr/local/env-execute

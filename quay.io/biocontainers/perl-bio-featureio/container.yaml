@@ -6,3 +6,29 @@ latest:
 tags:
   1.6.905--pl5321hdfd78af_4: sha256:5dc777d265a7cdd276fa75b484bc1a5f27ab3731a7ea698fbb59262c5ba0b2de
 docker: quay.io/biocontainers/perl-bio-featureio
+aliases:
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
+  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
+  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
+  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl
+  bp_das_server.pl: /usr/local/bin/bp_das_server.pl
+  bp_dbsplit.pl: /usr/local/bin/bp_dbsplit.pl
+  bp_download_query_genbank.pl: /usr/local/bin/bp_download_query_genbank.pl
+  bp_extract_feature_seq.pl: /usr/local/bin/bp_extract_feature_seq.pl
+  bp_fast_load_gff.pl: /usr/local/bin/bp_fast_load_gff.pl
+  bp_fastam9_to_table.pl: /usr/local/bin/bp_fastam9_to_table.pl

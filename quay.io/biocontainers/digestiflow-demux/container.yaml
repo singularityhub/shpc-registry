@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/digestiflow-demux
 aliases:
   digestiflow-demux: /usr/local/bin/digestiflow-demux
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  cluster: /usr/local/bin/cluster
+  coloredlogs: /usr/local/bin/coloredlogs
+  compile_et: /usr/local/bin/compile_et
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  cxpm: /usr/local/bin/cxpm
+  derb: /usr/local/bin/derb
+  dijkstra: /usr/local/bin/dijkstra
+  djpeg: /usr/local/bin/djpeg
+  dot: /usr/local/bin/dot

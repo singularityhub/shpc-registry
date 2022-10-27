@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/gclib
 aliases:
   gtest: /usr/local/bin/gtest
   threads: /usr/local/bin/threads
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/edlib
 aliases:
   edlib-aligner: /usr/local/bin/edlib-aligner
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

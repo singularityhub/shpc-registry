@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/straitrazor
 aliases:
   str8rzr: /usr/local/bin/str8rzr
+  env-execute: /usr/local/env-execute

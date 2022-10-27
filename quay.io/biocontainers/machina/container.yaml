@@ -20,3 +20,28 @@ aliases:
   pmh_tr: /usr/local/bin/pmh_tr
   visualizeclonetree: /usr/local/bin/visualizeclonetree
   visualizemigrationgraph: /usr/local/bin/visualizemigrationgraph
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  cluster: /usr/local/bin/cluster
+  derb: /usr/local/bin/derb
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  glpsol: /usr/local/bin/glpsol
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  lz4: /usr/local/bin/lz4
+  lz4c: /usr/local/bin/lz4c

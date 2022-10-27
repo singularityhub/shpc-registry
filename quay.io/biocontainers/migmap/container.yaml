@@ -11,3 +11,28 @@ aliases:
   igblastn: /usr/local/bin/igblastn
   igblastp: /usr/local/bin/igblastp
   migmap: /usr/local/bin/migmap
+  appletviewer: /usr/local/bin/appletviewer
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  clhsdb: /usr/local/bin/clhsdb
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  extcheck: /usr/local/bin/extcheck
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  h2ph: /usr/local/bin/h2ph

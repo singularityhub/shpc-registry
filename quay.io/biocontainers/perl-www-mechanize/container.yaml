@@ -8,3 +8,28 @@ tags:
 docker: quay.io/biocontainers/perl-www-mechanize
 aliases:
   mech-dump: /usr/local/bin/mech-dump
+  activate: /usr/local/bin/activate
+  c_rehash: /usr/local/bin/c_rehash
+  conda: /usr/local/bin/conda
+  config_data: /usr/local/bin/config_data
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cpanm: /usr/local/bin/cpanm
+  deactivate: /usr/local/bin/deactivate
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  htmltree: /usr/local/bin/htmltree
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  openssl: /usr/local/bin/openssl
+  perl: /usr/local/bin/perl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  perlbug: /usr/local/bin/perlbug
+  perldoc: /usr/local/bin/perldoc

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pairsnp
 aliases:
   pairsnp: /usr/local/bin/pairsnp
+  env-execute: /usr/local/env-execute

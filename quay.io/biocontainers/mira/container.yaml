@@ -12,3 +12,6 @@ aliases:
   mirabait: /usr/local/bin/mirabait
   miraconvert: /usr/local/bin/miraconvert
   miramem: /usr/local/bin/miramem
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

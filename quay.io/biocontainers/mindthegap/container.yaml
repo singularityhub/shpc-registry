@@ -10,3 +10,4 @@ aliases:
   MindTheGap: /usr/local/bin/MindTheGap
   dbgh5: /usr/local/bin/dbgh5
   dbginfo: /usr/local/bin/dbginfo
+  env-execute: /usr/local/env-execute

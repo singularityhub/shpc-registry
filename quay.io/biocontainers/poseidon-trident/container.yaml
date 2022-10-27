@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/poseidon-trident
 aliases:
   trident: /usr/local/bin/trident
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/bloomfiltertrie
 aliases:
   bft: /usr/local/bin/bft
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  jeprof: /usr/local/bin/jeprof
+  env-execute: /usr/local/env-execute

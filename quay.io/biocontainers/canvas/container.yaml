@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/canvas
 aliases:
   Canvas: /usr/local/bin/Canvas
   EvaluateCNV: /usr/local/bin/EvaluateCNV
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

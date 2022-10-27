@@ -16,3 +16,28 @@ aliases:
   uint8_to_bed.py: /usr/local/bin/uint8_to_bed.py
   uint8_to_bed_parallel.py: /usr/local/bin/uint8_to_bed_parallel.py
   unify_bowtie.py: /usr/local/bin/unify_bowtie.py
+  2to3: /usr/local/bin/2to3
+  __init__.py: /usr/local/bin/__init__.py
+  bowtie: /usr/local/bin/bowtie
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  easy_install: /usr/local/bin/easy_install
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  f2py: /usr/local/bin/f2py
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  idle: /usr/local/bin/idle

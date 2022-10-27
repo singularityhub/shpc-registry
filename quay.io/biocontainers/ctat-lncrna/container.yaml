@@ -7,9 +7,7 @@ tags:
   1.0.1--2: sha256:eb23bce542adcd76944bd8ab170114ec5c87d59f63776f5e61b919a095a088af
 docker: quay.io/biocontainers/ctat-lncrna
 aliases:
-  .slncky-post-link.sh: /usr/local/bin/.slncky-post-link.sh
   alignTranscripts1.0: /usr/local/bin/alignTranscripts1.0
-  annotations.config: /usr/local/bin/annotations.config
   lastz: /usr/local/bin/lastz
   lastz_D: /usr/local/bin/lastz_D
   license.txt: /usr/local/bin/license.txt
@@ -18,3 +16,28 @@ aliases:
   makeWebsite: /usr/local/bin/makeWebsite
   slncky: /usr/local/bin/slncky
   slncky.v1.0: /usr/local/bin/slncky.v1.0
+  2to3: /usr/local/bin/2to3
+  README.md: /usr/local/bin/README.md
+  activate: /usr/local/bin/activate
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  conda: /usr/local/bin/conda
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  coverageBed: /usr/local/bin/coverageBed
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  expandCols: /usr/local/bin/expandCols
+  f2py: /usr/local/bin/f2py
+  fastaFromBed: /usr/local/bin/fastaFromBed

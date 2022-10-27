@@ -22,3 +22,28 @@ aliases:
   tgene: /usr/local/bin/tgene
   xstreme: /usr/local/bin/xstreme
   xstreme_html_to_tsv: /usr/local/bin/xstreme_html_to_tsv
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  aserver: /usr/local/bin/aserver
+  autopoint: /usr/local/bin/autopoint
+  beeml2meme: /usr/local/bin/beeml2meme
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  centrimo: /usr/local/bin/centrimo

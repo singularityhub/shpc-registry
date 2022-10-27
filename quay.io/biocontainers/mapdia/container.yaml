@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/mapdia
 aliases:
   mapDIA: /usr/local/bin/mapDIA
+  env-execute: /usr/local/env-execute

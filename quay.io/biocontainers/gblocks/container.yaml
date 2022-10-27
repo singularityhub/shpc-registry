@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gblocks
 aliases:
   Gblocks: /usr/local/bin/Gblocks
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/xtandem
 aliases:
   xtandem: /usr/local/bin/xtandem
+  xmlwf: /usr/local/bin/xmlwf
+  env-execute: /usr/local/env-execute

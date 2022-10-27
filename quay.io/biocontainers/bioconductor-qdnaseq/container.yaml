@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-qdnaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-qdnaseq
+latest:
+  1.8.0--0: sha256:8926eae5e345b21ffe765bc5fed8e544af3a7eff99482a0803175129b62dc851
+tags:
+  1.8.0--0: sha256:8926eae5e345b21ffe765bc5fed8e544af3a7eff99482a0803175129b62dc851
+docker: quay.io/biocontainers/bioconductor-qdnaseq

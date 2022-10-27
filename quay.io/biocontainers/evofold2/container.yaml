@@ -13,3 +13,4 @@ aliases:
   dfgTrain: /usr/local/bin/dfgTrain
   grammarTrain: /usr/local/bin/grammarTrain
   multinomial: /usr/local/bin/multinomial
+  env-execute: /usr/local/env-execute

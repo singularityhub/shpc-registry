@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sdm
 aliases:
   sdm: /usr/local/bin/sdm
+  env-execute: /usr/local/env-execute

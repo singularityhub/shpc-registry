@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/qgrs-cpp
 aliases:
   qgrs: /usr/local/bin/qgrs
+  env-execute: /usr/local/env-execute

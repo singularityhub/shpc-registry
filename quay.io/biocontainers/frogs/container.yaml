@@ -69,3 +69,28 @@ aliases:
   tree.py: /usr/local/bin/tree.py
   tree_tpl.html: /usr/local/bin/tree_tpl.html
   tsv_to_biom.py: /usr/local/bin/tsv_to_biom.py
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ReadSeq: /usr/local/bin/ReadSeq
+  appletviewer: /usr/local/bin/appletviewer
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  clhsdb: /usr/local/bin/clhsdb
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  extcheck: /usr/local/bin/extcheck
+  f2py: /usr/local/bin/f2py

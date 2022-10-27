@@ -6,3 +6,29 @@ latest:
 tags:
   1.9--hedc5323_0: sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf
 docker: quay.io/biocontainers/bcftools-gtc2vcf-plugin
+aliases:
+  activate: /usr/local/bin/activate
+  bcftools: /usr/local/bin/bcftools
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  deactivate: /usr/local/bin/deactivate
+  gss-client: /usr/local/bin/gss-client
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  infocmp: /usr/local/bin/infocmp

@@ -11,3 +11,4 @@ aliases:
   missing_regions: /usr/local/bin/missing_regions
   single_cov: /usr/local/bin/single_cov
   stats: /usr/local/bin/stats
+  env-execute: /usr/local/env-execute

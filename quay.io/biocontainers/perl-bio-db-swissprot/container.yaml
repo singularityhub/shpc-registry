@@ -6,3 +6,29 @@ latest:
 tags:
   1.7.4--pl5321hdfd78af_0: sha256:de0f6e13bd9f194fdee9fa22dc27cbe6b67b92007bf9638bd12bc537fa426299
 docker: quay.io/biocontainers/perl-bio-db-swissprot
+aliases:
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc
+  bp_genbank2gff3: /usr/local/bin/bp_genbank2gff3
+  bp_index: /usr/local/bin/bp_index
+  bp_local_taxonomydb_query: /usr/local/bin/bp_local_taxonomydb_query
+  bp_make_mrna_protein: /usr/local/bin/bp_make_mrna_protein
+  bp_mask_by_search: /usr/local/bin/bp_mask_by_search
+  bp_mrtrans: /usr/local/bin/bp_mrtrans
+  bp_mutate: /usr/local/bin/bp_mutate
+  bp_nexus2nh: /usr/local/bin/bp_nexus2nh
+  bp_nrdb: /usr/local/bin/bp_nrdb
+  bp_oligo_count: /usr/local/bin/bp_oligo_count
+  bp_process_gadfly: /usr/local/bin/bp_process_gadfly
+  bp_process_sgd: /usr/local/bin/bp_process_sgd
+  bp_revtrans-motif: /usr/local/bin/bp_revtrans-motif
+  bp_search2alnblocks: /usr/local/bin/bp_search2alnblocks
+  bp_search2gff: /usr/local/bin/bp_search2gff

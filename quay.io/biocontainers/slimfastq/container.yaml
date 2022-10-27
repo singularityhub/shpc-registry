@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/slimfastq
 aliases:
   slimfastq: /usr/local/bin/slimfastq
   slimfastq.multi: /usr/local/bin/slimfastq.multi
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/abpoa
 aliases:
   abpoa: /usr/local/bin/abpoa
+  env-execute: /usr/local/env-execute

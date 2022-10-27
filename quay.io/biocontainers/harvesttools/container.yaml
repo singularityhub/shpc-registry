@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/harvesttools
 aliases:
   harvesttools: /usr/local/bin/harvesttools
+  env-execute: /usr/local/env-execute

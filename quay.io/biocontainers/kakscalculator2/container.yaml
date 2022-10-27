@@ -10,3 +10,4 @@ aliases:
   AXTConvertor: /usr/local/bin/AXTConvertor
   ConPairs: /usr/local/bin/ConPairs
   KaKs_Calculator: /usr/local/bin/KaKs_Calculator
+  env-execute: /usr/local/env-execute

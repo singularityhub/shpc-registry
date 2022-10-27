@@ -12,3 +12,6 @@ aliases:
   heinz: /usr/local/bin/heinz
   lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
   lgf-gen: /usr/local/bin/lgf-gen
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  glpsol: /usr/local/bin/glpsol

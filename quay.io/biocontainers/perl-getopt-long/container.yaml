@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-getopt-long
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-getopt-long
+latest:
+  2.52--pl5321hdfd78af_0: sha256:0605150d30c518707fdb0ab8469583069a097ed459a8b10ac6aabd34ef36fab1
+tags:
+  2.52--pl5321hdfd78af_0: sha256:0605150d30c518707fdb0ab8469583069a097ed459a8b10ac6aabd34ef36fab1
+docker: quay.io/biocontainers/perl-getopt-long

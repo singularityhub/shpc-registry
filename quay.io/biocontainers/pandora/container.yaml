@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pandora
 aliases:
   pandora: /usr/local/bin/pandora
+  env-execute: /usr/local/env-execute

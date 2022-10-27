@@ -7,5 +7,29 @@ tags:
   3.1.3--r40hdfd78af_2: sha256:83cc18ef655aa75ace4eacd60f6a01711e3efe1cb6eb7397e8e1c3bc773cec09
 docker: quay.io/biocontainers/bioconductor-hom.rn.inp.db
 aliases:
-  .bioconductor-hom.rn.inp.db-post-link.sh: /usr/local/bin/.bioconductor-hom.rn.inp.db-post-link.sh
   .bioconductor-hom.rn.inp.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hom.rn.inp.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config

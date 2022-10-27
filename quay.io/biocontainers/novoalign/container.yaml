@@ -7,7 +7,6 @@ tags:
   4.03.04--h5b5514e_1: sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed
 docker: quay.io/biocontainers/novoalign
 aliases:
-  .novoalign-post-link.sh: /usr/local/bin/.novoalign-post-link.sh
   IONTorrent.R: /usr/local/bin/IONTorrent.R
   installpackages.R: /usr/local/bin/installpackages.R
   irqtop: /usr/local/bin/irqtop
@@ -32,3 +31,28 @@ aliases:
   prlimit: /usr/local/bin/prlimit
   qcalplot.R: /usr/local/bin/qcalplot.R
   rrbsreference: /usr/local/bin/rrbsreference
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cal: /usr/local/bin/cal
+  captoinfo: /usr/local/bin/captoinfo
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  clear: /usr/local/bin/clear
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt

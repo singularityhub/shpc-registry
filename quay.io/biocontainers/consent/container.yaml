@@ -14,3 +14,8 @@ aliases:
   CONSENT-polish: /usr/local/bin/CONSENT-polish
   CONSENT-polishing: /usr/local/bin/CONSENT-polishing
   CONSENT-reformatPAF: /usr/local/bin/CONSENT-reformatPAF
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  sdust: /usr/local/bin/sdust
+  env-execute: /usr/local/env-execute

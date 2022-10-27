@@ -10,3 +10,7 @@ aliases:
   adptSim: /usr/local/bin/adptSim
   deamSim: /usr/local/bin/deamSim
   fragSim: /usr/local/bin/fragSim
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  env-execute: /usr/local/env-execute

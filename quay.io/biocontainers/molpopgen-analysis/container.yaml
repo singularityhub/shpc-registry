@@ -7,7 +7,6 @@ tags:
   0.8.8--h7fd9d64_8: sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d
 docker: quay.io/biocontainers/molpopgen-analysis
 aliases:
-  .molpopgen-analysis-post-link.sh: /usr/local/bin/.molpopgen-analysis-post-link.sh
   Fexact: /usr/local/bin/Fexact
   HBKpermute: /usr/local/bin/HBKpermute
   MKtest: /usr/local/bin/MKtest
@@ -21,3 +20,28 @@ aliases:
   sharedPoly: /usr/local/bin/sharedPoly
   snntest: /usr/local/bin/snntest
   translateCoding: /usr/local/bin/translateCoding
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  bgzip: /usr/local/bin/bgzip
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load

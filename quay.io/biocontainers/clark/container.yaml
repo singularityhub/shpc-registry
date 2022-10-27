@@ -22,3 +22,6 @@ aliases:
   getTargetsDef: /usr/local/bin/getTargetsDef
   getfilesToTaxNodes: /usr/local/bin/getfilesToTaxNodes
   makeSummaryTables: /usr/local/bin/makeSummaryTables
+  iconv: /usr/local/bin/iconv
+  tar: /usr/local/bin/tar
+  env-execute: /usr/local/env-execute

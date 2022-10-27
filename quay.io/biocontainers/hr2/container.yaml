@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/hr2
 aliases:
   HR2.exe: /usr/local/bin/HR2.exe
+  env-execute: /usr/local/env-execute

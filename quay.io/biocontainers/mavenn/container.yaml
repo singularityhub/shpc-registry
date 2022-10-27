@@ -6,3 +6,29 @@ latest:
 tags:
   1.0.0--pyhdfd78af_0: sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a
 docker: quay.io/biocontainers/mavenn
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  brotli: /usr/local/bin/brotli
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo
+  certutil: /usr/local/bin/certutil
+  cjpeg: /usr/local/bin/cjpeg

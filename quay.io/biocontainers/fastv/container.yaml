@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fastv
 aliases:
   fastv: /usr/local/bin/fastv
+  env-execute: /usr/local/env-execute

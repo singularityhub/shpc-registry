@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/ghostz
 aliases:
   ghostz: /usr/local/bin/ghostz
+  env-execute: /usr/local/env-execute

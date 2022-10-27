@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/raxml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for raxml
+latest:
+  8.2.9--hec16e2b_5: sha256:f563217a34a3ae2f4766aa4650851ea91ac0178a906a66dc31223ed7f055518c
+tags:
+  8.2.9--hec16e2b_5: sha256:f563217a34a3ae2f4766aa4650851ea91ac0178a906a66dc31223ed7f055518c
+docker: quay.io/biocontainers/raxml

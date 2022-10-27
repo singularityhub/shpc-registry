@@ -9,3 +9,15 @@ docker: quay.io/biocontainers/lua
 aliases:
   lua: /usr/local/bin/lua
   luac: /usr/local/bin/luac
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  reset: /usr/local/bin/reset
+  tabs: /usr/local/bin/tabs
+  tic: /usr/local/bin/tic
+  toe: /usr/local/bin/toe
+  tput: /usr/local/bin/tput
+  tset: /usr/local/bin/tset

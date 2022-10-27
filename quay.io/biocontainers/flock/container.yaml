@@ -10,3 +10,6 @@ aliases:
   cent_adjust: /usr/local/bin/cent_adjust
   flock1: /usr/local/bin/flock1
   flock2: /usr/local/bin/flock2
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

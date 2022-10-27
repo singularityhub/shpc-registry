@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/xs-sim
 aliases:
   XS: /usr/local/bin/XS
+  env-execute: /usr/local/env-execute

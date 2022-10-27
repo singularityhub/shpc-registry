@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/braker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for braker
+latest:
+  1.9--pl5321hdfd78af_6: sha256:2fb42337ecccecabda76a9d28514fd150dd724adad99368f44e742fb57fa2370
+tags:
+  1.9--pl5321hdfd78af_6: sha256:2fb42337ecccecabda76a9d28514fd150dd724adad99368f44e742fb57fa2370
+docker: quay.io/biocontainers/braker

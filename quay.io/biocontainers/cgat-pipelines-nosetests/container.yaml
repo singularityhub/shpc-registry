@@ -7,7 +7,6 @@ tags:
   0.0.4--py35r3.3.1_0: sha256:5b816f208ec209bf87c5a42a5877bc5edb21169e24a54e5fda4cce9d1c87f564
 docker: quay.io/biocontainers/cgat-pipelines-nosetests
 aliases:
-  .python-drmaa-post-link.sh: /usr/local/bin/.python-drmaa-post-link.sh
   cgatreport-build: /usr/local/bin/cgatreport-build
   cgatreport-clean: /usr/local/bin/cgatreport-clean
   cgatreport-get: /usr/local/bin/cgatreport-get
@@ -53,3 +52,28 @@ aliases:
   replace: /usr/local/bin/replace
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
+  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
+  2to3: /usr/local/bin/2to3
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  activate: /usr/local/bin/activate
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  assistant: /usr/local/bin/assistant
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBam: /usr/local/bin/bedToBam
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bokeh: /usr/local/bin/bokeh
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  c_rehash: /usr/local/bin/c_rehash

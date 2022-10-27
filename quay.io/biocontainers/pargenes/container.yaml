@@ -10,3 +10,28 @@ aliases:
   pargenes-hpc-debug.py: /usr/local/bin/pargenes-hpc-debug.py
   pargenes-hpc.py: /usr/local/bin/pargenes-hpc.py
   pargenes.py: /usr/local/bin/pargenes.py
+  2to3: /usr/local/bin/2to3
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jdeprscan: /usr/local/bin/jdeprscan
+  jdeps: /usr/local/bin/jdeps
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jinfo: /usr/local/bin/jinfo
+  jjs: /usr/local/bin/jjs

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/yak
 aliases:
   yak: /usr/local/bin/yak
+  env-execute: /usr/local/env-execute

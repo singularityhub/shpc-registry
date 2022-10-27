@@ -7,9 +7,31 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436
 docker: quay.io/biocontainers/bioconductor-consensusde
 aliases:
-  .bioconductor-airway-post-link.sh: /usr/local/bin/.bioconductor-airway-post-link.sh
   .bioconductor-airway-pre-unlink.sh: /usr/local/bin/.bioconductor-airway-pre-unlink.sh
-  .bioconductor-ensdb.hsapiens.v86-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
   .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh
-  .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
   .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace

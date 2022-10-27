@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bloocoo
 aliases:
   Bloocoo: /usr/local/bin/Bloocoo
+  env-execute: /usr/local/env-execute

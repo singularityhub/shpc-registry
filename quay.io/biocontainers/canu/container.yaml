@@ -1,8 +1,7 @@
 docker: quay.io/biocontainers/canu
-url: https://quay.io/repository/biocontainers/canu
-maintainer: '@sarahbeecroft'
-description: Canu is a fork of the celera assembler designed for high-noise single-molecule
-  sequencing
+url: https://biocontainers.pro/tools/canu
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for canu
 latest:
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
 tags:
@@ -11,4 +10,74 @@ tags:
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
   2.1.1--h1b792b2_2: sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4
 aliases:
+  alignGFA: /usr/local/bin/alignGFA
   canu: /usr/local/bin/canu
+  canu-time: /usr/local/bin/canu-time
+  correctOverlaps: /usr/local/bin/correctOverlaps
+  draw-tig: /usr/local/bin/draw-tig
+  dumpBlob: /usr/local/bin/dumpBlob
+  edalign: /usr/local/bin/edalign
+  errorEstimate: /usr/local/bin/errorEstimate
+  falconsense: /usr/local/bin/falconsense
+  filterCorrectionLayouts: /usr/local/bin/filterCorrectionLayouts
+  filterCorrectionOverlaps: /usr/local/bin/filterCorrectionOverlaps
+  findErrors: /usr/local/bin/findErrors
+  findErrors-Dump: /usr/local/bin/findErrors-Dump
+  fixErrors: /usr/local/bin/fixErrors
+  generateCorrectionLayouts: /usr/local/bin/generateCorrectionLayouts
+  layoutReads: /usr/local/bin/layoutReads
+  loadCorrectedReads: /usr/local/bin/loadCorrectedReads
+  loadErates: /usr/local/bin/loadErates
+  loadTrimmedReads: /usr/local/bin/loadTrimmedReads
+  mergeRanges: /usr/local/bin/mergeRanges
+  mhapConvert: /usr/local/bin/mhapConvert
+  mmapConvert: /usr/local/bin/mmapConvert
+  ovStoreBucketizer: /usr/local/bin/ovStoreBucketizer
+  ovStoreBuild: /usr/local/bin/ovStoreBuild
+  ovStoreConfig: /usr/local/bin/ovStoreConfig
+  ovStoreDump: /usr/local/bin/ovStoreDump
+  ovStoreIndexer: /usr/local/bin/ovStoreIndexer
+  ovStoreSorter: /usr/local/bin/ovStoreSorter
+  ovStoreStats: /usr/local/bin/ovStoreStats
+  overlapAlign: /usr/local/bin/overlapAlign
+  overlapCheck: /usr/local/bin/overlapCheck
+  overlapConvert: /usr/local/bin/overlapConvert
+  overlapImport: /usr/local/bin/overlapImport
+  overlapInCorePartition: /usr/local/bin/overlapInCorePartition
+  overlapPair: /usr/local/bin/overlapPair
+  prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
+  splitHaplotype: /usr/local/bin/splitHaplotype
+  splitReads: /usr/local/bin/splitReads
+  sqStoreCreate: /usr/local/bin/sqStoreCreate
+  sqStoreDumpFASTQ: /usr/local/bin/sqStoreDumpFASTQ
+  sqStoreDumpMetaData: /usr/local/bin/sqStoreDumpMetaData
+  tgStoreCompress: /usr/local/bin/tgStoreCompress
+  tgStoreDump: /usr/local/bin/tgStoreDump
+  tgStoreLoad: /usr/local/bin/tgStoreLoad
+  tgTigDisplay: /usr/local/bin/tgTigDisplay
+  trimReads: /usr/local/bin/trimReads
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  annotate: /usr/local/bin/annotate
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bdftogd: /usr/local/bin/bdftogd
+  bogart: /usr/local/bin/bogart
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/vcfpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for vcfpy
+latest:
+  0.13.4--pyhdfd78af_0: sha256:bd650b279f85c24c8f3626893213f521159322b0209fc5029efa997f2ffac033
+tags:
+  0.13.4--pyhdfd78af_0: sha256:bd650b279f85c24c8f3626893213f521159322b0209fc5029efa997f2ffac033
+docker: quay.io/biocontainers/vcfpy

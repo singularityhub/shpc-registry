@@ -10,3 +10,28 @@ aliases:
   aprofutil: /usr/local/bin/aprofutil
   mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
   rawtools.sh: /usr/local/bin/rawtools.sh
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate
+  csc: /usr/local/bin/csc
+  csharp: /usr/local/bin/csharp
+  csi: /usr/local/bin/csi
+  disco: /usr/local/bin/disco
+  dmcs: /usr/local/bin/dmcs
+  dtd2rng: /usr/local/bin/dtd2rng
+  dtd2xsd: /usr/local/bin/dtd2xsd
+  gacutil: /usr/local/bin/gacutil
+  gacutil2: /usr/local/bin/gacutil2
+  genxs: /usr/local/bin/genxs
+  httpcfg: /usr/local/bin/httpcfg
+  ikdasm: /usr/local/bin/ikdasm
+  ilasm: /usr/local/bin/ilasm
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
+  installvst: /usr/local/bin/installvst

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-heap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-heap
+latest:
+  0.80--pl5321hdfd78af_1: sha256:d7f57cbc5cd88edae47776fce8a3182b680683c6bb14490f593ff0e23e890c21
+tags:
+  0.80--pl5321hdfd78af_1: sha256:d7f57cbc5cd88edae47776fce8a3182b680683c6bb14490f593ff0e23e890c21
+docker: quay.io/biocontainers/perl-heap

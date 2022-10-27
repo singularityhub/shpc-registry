@@ -7,7 +7,6 @@ tags:
   2.7.0--h8c3ec31_0: sha256:98d3114cae3818eb553c0452848661bc047b3864701a169418a3bc21dd475758
 docker: quay.io/biocontainers/cmip
 aliases:
-  .cmip-post-link.sh: /usr/local/bin/.cmip-post-link.sh
   avgEpsGrid: /usr/local/bin/avgEpsGrid
   canal: /usr/local/bin/canal
   cmip: /usr/local/bin/cmip
@@ -16,3 +15,4 @@ aliases:
   surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
   titration: /usr/local/bin/titration
   watden: /usr/local/bin/watden
+  env-execute: /usr/local/env-execute

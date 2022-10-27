@@ -7,7 +7,31 @@ tags:
   1.2.6--ha34dc8c_3: sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2
 docker: quay.io/biocontainers/mapseq
 aliases:
-  .mapseq-post-link.sh: /usr/local/bin/.mapseq-post-link.sh
   esh: /usr/local/bin/esh
   eutils-config: /usr/local/bin/eutils-config
   mapseq: /usr/local/bin/mapseq
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  k5srvutil: /usr/local/bin/k5srvutil
+  kadmin: /usr/local/bin/kadmin
+  kdestroy: /usr/local/bin/kdestroy
+  kinit: /usr/local/bin/kinit
+  klist: /usr/local/bin/klist
+  kpasswd: /usr/local/bin/kpasswd
+  krb5-config: /usr/local/bin/krb5-config
+  ksu: /usr/local/bin/ksu
+  kswitch: /usr/local/bin/kswitch

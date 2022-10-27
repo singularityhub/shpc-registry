@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/perl-bio-eutilities
 aliases:
   bp_einfo: /usr/local/bin/bp_einfo
   bp_genbank_ref_extractor: /usr/local/bin/bp_genbank_ref_extractor
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
+  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
+  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
+  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl
+  bp_das_server.pl: /usr/local/bin/bp_das_server.pl
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_dbsplit.pl: /usr/local/bin/bp_dbsplit.pl
+  bp_download_query_genbank.pl: /usr/local/bin/bp_download_query_genbank.pl
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_extract_feature_seq.pl: /usr/local/bin/bp_extract_feature_seq.pl
+  bp_fast_load_gff.pl: /usr/local/bin/bp_fast_load_gff.pl
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fastam9_to_table.pl: /usr/local/bin/bp_fastam9_to_table.pl
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_fetch.pl: /usr/local/bin/bp_fetch.pl
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_filter_search.pl: /usr/local/bin/bp_filter_search.pl

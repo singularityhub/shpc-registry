@@ -13,3 +13,28 @@ aliases:
   PrimedLAMP_Custom: /usr/local/bin/PrimedLAMP_Custom
   PrimedLAMP_Inclusivity_Update: /usr/local/bin/PrimedLAMP_Inclusivity_Update
   PrimedLAMP_Tm_Update: /usr/local/bin/PrimedLAMP_Tm_Update
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  README: /usr/local/bin/README
+  ace2sam: /usr/local/bin/ace2sam
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bt-context.txt: /usr/local/bin/bt-context.txt
+  bt-link: /usr/local/bin/bt-link
+  bt-load: /usr/local/bin/bt-load
+  bt-save: /usr/local/bin/bt-save
+  bt-srch: /usr/local/bin/bt-srch
+  bunzip2: /usr/local/bin/bunzip2

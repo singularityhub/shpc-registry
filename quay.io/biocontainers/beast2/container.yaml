@@ -1,17 +1,45 @@
 docker: quay.io/biocontainers/beast2
-url: https://quay.io/repository/biocontainers/beast2
-maintainer: '@marcodelapierre'
-description: BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis
-  of molecular sequences.
+url: https://biocontainers.pro/tools/beast2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for beast2
 latest:
   2.6.3--hf1b8bbb_0: sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d
 tags:
   2.6.3--hf1b8bbb_0: sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d
 aliases:
+  applauncher: /usr/local/bin/applauncher
   beast: /usr/local/bin/beast
   beauti: /usr/local/bin/beauti
   densitree: /usr/local/bin/densitree
+  loganalyser: /usr/local/bin/loganalyser
+  logcombiner: /usr/local/bin/logcombiner
+  packagemanager: /usr/local/bin/packagemanager
   treeannotator: /usr/local/bin/treeannotator
+  appletviewer: /usr/local/bin/appletviewer
+  derb: /usr/local/bin/derb
+  extcheck: /usr/local/bin/extcheck
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  iconv: /usr/local/bin/iconv
+  icu-config: /usr/local/bin/icu-config
+  icuinfo: /usr/local/bin/icuinfo
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
 env:
   DISPLAY: ''
 features:

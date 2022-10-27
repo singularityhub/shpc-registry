@@ -11,3 +11,28 @@ aliases:
   SigiCRF: /usr/local/bin/SigiCRF
   SigiHMM: /usr/local/bin/SigiHMM
   mSigiHMM: /usr/local/bin/mSigiHMM
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jdeprscan: /usr/local/bin/jdeprscan
+  jdeps: /usr/local/bin/jdeps
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jinfo: /usr/local/bin/jinfo
+  jjs: /usr/local/bin/jjs
+  jlink: /usr/local/bin/jlink
+  jmap: /usr/local/bin/jmap
+  jmod: /usr/local/bin/jmod
+  jps: /usr/local/bin/jps
+  jrunscript: /usr/local/bin/jrunscript
+  jshell: /usr/local/bin/jshell
+  jstack: /usr/local/bin/jstack
+  jstat: /usr/local/bin/jstat
+  jstatd: /usr/local/bin/jstatd

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/epa-ng
 aliases:
   epa-ng: /usr/local/bin/epa-ng
+  env-execute: /usr/local/env-execute

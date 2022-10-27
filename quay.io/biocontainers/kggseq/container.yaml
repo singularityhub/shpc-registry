@@ -7,6 +7,30 @@ tags:
   1.1--0: sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42
 docker: quay.io/biocontainers/kggseq
 aliases:
-  .kggseq-post-link.sh: /usr/local/bin/.kggseq-post-link.sh
   kggseq: /usr/local/bin/kggseq
   kggseq1.log: /usr/local/bin/kggseq1.log
+  aserver: /usr/local/bin/aserver
+  cjpeg: /usr/local/bin/cjpeg
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat
+  fc-conflist: /usr/local/bin/fc-conflist
+  fc-list: /usr/local/bin/fc-list
+  fc-match: /usr/local/bin/fc-match
+  fc-pattern: /usr/local/bin/fc-pattern
+  fc-query: /usr/local/bin/fc-query
+  fc-scan: /usr/local/bin/fc-scan
+  fc-validate: /usr/local/bin/fc-validate
+  freetype-config: /usr/local/bin/freetype-config
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  gifecho: /usr/local/bin/gifecho

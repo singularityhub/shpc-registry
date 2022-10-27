@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bifrost
 aliases:
   Bifrost: /usr/local/bin/Bifrost
+  env-execute: /usr/local/env-execute

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/hcluster_sg
 aliases:
   hcluster_sg: /usr/local/bin/hcluster_sg
+  env-execute: /usr/local/env-execute

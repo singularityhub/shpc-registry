@@ -7,7 +7,30 @@ tags:
   1.26.0--r41hdfd78af_0: sha256:19dead2ba50e3dc6fbbd19c56ba9c1a7651e3f91d559e4b5557fe760ae4695ef
 docker: quay.io/biocontainers/bioconductor-conumee
 aliases:
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh
   .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh
-  .bioconductor-illuminahumanmethylationepicmanifest-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh
   .bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19-pre-unlink.sh
+  .bioconductor-illuminahumanmethylation450kmanifest-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation450kmanifest-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear

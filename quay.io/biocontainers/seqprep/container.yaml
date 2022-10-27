@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/seqprep
 aliases:
   SeqPrep: /usr/local/bin/SeqPrep
+  env-execute: /usr/local/env-execute

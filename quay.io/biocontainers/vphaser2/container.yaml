@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/vphaser2
 aliases:
   variant_caller: /usr/local/bin/variant_caller
   vphaser2: /usr/local/bin/vphaser2
+  bamtools: /usr/local/bin/bamtools

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/unmerge
 aliases:
   unmerge: /usr/local/bin/unmerge
+  env-execute: /usr/local/env-execute

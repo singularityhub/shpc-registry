@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/abyss-k128
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for abyss-k128
+latest:
+  2.0.2--boost1.64_2: sha256:d9f6fbc0d0bfb1a90839b84a440758fa6dd83e150672eb99b5cab945980b15ab
+tags:
+  2.0.2--boost1.64_2: sha256:d9f6fbc0d0bfb1a90839b84a440758fa6dd83e150672eb99b5cab945980b15ab
+docker: quay.io/biocontainers/abyss-k128

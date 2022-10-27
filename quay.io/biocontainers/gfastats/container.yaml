@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/gfastats
 aliases:
   gfastats: /usr/local/bin/gfastats
+  env-execute: /usr/local/env-execute

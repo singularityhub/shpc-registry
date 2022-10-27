@@ -6,3 +6,7 @@ latest:
 tags:
   3.7--h470a237_1: sha256:bf9fc0fcc57d6c315e3b7c81b639243b3e29a4c5f87e7eb35c846fa6d7a7b0c4
 docker: quay.io/biocontainers/libmuscle
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

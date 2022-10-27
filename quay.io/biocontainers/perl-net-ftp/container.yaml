@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-net-ftp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-net-ftp
+latest:
+  2.79--pl5321hdfd78af_2: sha256:ce9edf7700ca258aa20df88c33802bef33b9d2356e2f05a14eea1dd192bc46ff
+tags:
+  2.79--pl5321hdfd78af_2: sha256:ce9edf7700ca258aa20df88c33802bef33b9d2356e2f05a14eea1dd192bc46ff
+docker: quay.io/biocontainers/perl-net-ftp

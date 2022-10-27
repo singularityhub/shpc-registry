@@ -9,3 +9,28 @@ docker: quay.io/biocontainers/fastq-dl
 aliases:
   executor: /usr/local/bin/executor
   fastq-dl: /usr/local/bin/fastq-dl
+  2to3: /usr/local/bin/2to3
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
+  abi-load: /usr/local/bin/abi-load
+  abi-load.2: /usr/local/bin/abi-load.2
+  abi-load.2.11.0: /usr/local/bin/abi-load.2.11.0
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-cache: /usr/local/bin/align-cache
+  align-cache.2: /usr/local/bin/align-cache.2
+  align-cache.2.11.0: /usr/local/bin/align-cache.2.11.0
+  align-info: /usr/local/bin/align-info
+  align-info.2: /usr/local/bin/align-info.2
+  align-info.2.11.0: /usr/local/bin/align-info.2.11.0
+  autopoint: /usr/local/bin/autopoint
+  bam-load: /usr/local/bin/bam-load
+  bam-load.2: /usr/local/bin/bam-load.2
+  bam-load.2.11.0: /usr/local/bin/bam-load.2.11.0
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

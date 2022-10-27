@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/snap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for snap
+latest:
+  2013_11_29--hec16e2b_4: sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936
+tags:
+  2013_11_29--hec16e2b_4: sha256:e57101f47222589a6f373b50829c08925f2c7d4dda6f64b8e15da8d5f9e6b936
+docker: quay.io/biocontainers/snap

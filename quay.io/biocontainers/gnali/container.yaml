@@ -7,8 +7,6 @@ tags:
   1.1.0--pyhdfd78af_0: sha256:5a2fd37dcdea95218667fa41b240c64da76cbdbbd54f5912c584b9d8ce483de9
 docker: quay.io/biocontainers/gnali
 aliases:
-  .ensembl-vep-post-link.sh: /usr/local/bin/.ensembl-vep-post-link.sh
-  .gnali-post-link.sh: /usr/local/bin/.gnali-post-link.sh
   bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
   filter_vep: /usr/local/bin/filter_vep
   gnali: /usr/local/bin/gnali
@@ -27,3 +25,28 @@ aliases:
   vep_install: /usr/local/bin/vep_install
   wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
   zlib_decompress: /usr/local/bin/zlib_decompress
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  2to3: /usr/local/bin/2to3
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  bgzip: /usr/local/bin/bgzip
+  binhex.pl: /usr/local/bin/binhex.pl
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl

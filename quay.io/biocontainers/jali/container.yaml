@@ -10,3 +10,6 @@ aliases:
   jali: /usr/local/bin/jali
   jscan: /usr/local/bin/jscan
   jsearch: /usr/local/bin/jsearch
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

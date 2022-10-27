@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/calib
 aliases:
   calib: /usr/local/bin/calib
   calib_cons: /usr/local/bin/calib_cons
+  env-execute: /usr/local/env-execute

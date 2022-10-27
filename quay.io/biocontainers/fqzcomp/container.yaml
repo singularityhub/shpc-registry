@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fqzcomp
 aliases:
   fqz_comp: /usr/local/bin/fqz_comp
+  env-execute: /usr/local/env-execute

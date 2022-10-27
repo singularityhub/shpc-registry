@@ -1,8 +1,7 @@
 docker: quay.io/biocontainers/bracken
-url: https://quay.io/repository/biocontainers/bracken
-maintainer: '@marcodelapierre'
-description: A highly accurate statistical method that computes the abundance of species
-  in DNA sequences from a metagenomics sample.
+url: https://biocontainers.pro/tools/bracken
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bracken
 latest:
   2.6.2--py39hc16433a_0: sha256:d9f1cf7dc3630e00bb4689532b94db774cdf0c0855ac5a9c8c85a8f4301bc237
 tags:
@@ -16,3 +15,31 @@ aliases:
   est_abundance.py: /usr/local/bin/est_abundance.py
   generate_kmer_distribution.py: /usr/local/bin/generate_kmer_distribution.py
   kmer2read_distr: /usr/local/bin/kmer2read_distr
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  blst2tkns: /usr/local/bin/blst2tkns
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp

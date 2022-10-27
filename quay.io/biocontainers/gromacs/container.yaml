@@ -111,3 +111,6 @@ aliases:
   trjorder: /usr/local/bin/trjorder
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
   xpm2ps: /usr/local/bin/xpm2ps
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

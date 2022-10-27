@@ -7,6 +7,30 @@ tags:
   1.0.2--hdfd78af_1: sha256:e31f96e22775f4f161a0a2879cc5c313a8f6fc4044211bb122347f881a920426
 docker: quay.io/biocontainers/rucs
 aliases:
-  .rucs-post-link.sh: /usr/local/bin/.rucs-post-link.sh
   install_db.sh: /usr/local/bin/install_db.sh
   rucs: /usr/local/bin/rucs
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  CA.pm: /usr/local/bin/CA.pm
+  README: /usr/local/bin/README
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bt-context.txt: /usr/local/bin/bt-context.txt

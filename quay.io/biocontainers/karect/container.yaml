@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/karect
 aliases:
   karect: /usr/local/bin/karect
+  env-execute: /usr/local/env-execute

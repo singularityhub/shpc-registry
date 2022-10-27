@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-reactomegsa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-reactomegsa
+latest:
+  1.8.0--r41hdfd78af_0: sha256:c31c9458e2973401ae72935862f215e9cc83e77d6a32e4db395a14db75038a2b
+tags:
+  1.8.0--r41hdfd78af_0: sha256:c31c9458e2973401ae72935862f215e9cc83e77d6a32e4db395a14db75038a2b
+docker: quay.io/biocontainers/bioconductor-reactomegsa

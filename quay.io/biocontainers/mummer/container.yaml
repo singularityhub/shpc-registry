@@ -1,14 +1,14 @@
 docker: quay.io/biocontainers/mummer
-url: https://quay.io/repository/biocontainers/mummer
-maintainer: '@sarahbeecroft'
-description: MUMmer is a system for rapidly aligning entire genomes in complete or
-  in draft form.
+url: https://biocontainers.pro/tools/mummer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mummer
 latest:
-  3.23--pl5321h87f3376_14: sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f
+  3.23--pl526_8: sha256:bf48bf40c8187c335e9aa04efbf4972cda6e676d79a9a7d22c2bc9a65471c86c
 tags:
   3.23--pl526_7: sha256:21462ca45429aaeebb0a298d5ae830aa7c299771166c762bea2b5bde20db43f8
   3.23--pl526he1b5a44_11: sha256:2a0b6a706b92f2507d033bef6d3e4fe6bca2104f44e870447b414cfa34e67c38
   3.23--pl5321h1b792b2_13: sha256:913c4cccaa59758830527f30e476d46d02253e98c5f4e481112d1f581696475f
   3.23--pl5321h87f3376_14: sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f
+  3.23--pl526_8: sha256:bf48bf40c8187c335e9aa04efbf4972cda6e676d79a9a7d22c2bc9a65471c86c
 aliases:
   mummer: /usr/local/bin/mummer

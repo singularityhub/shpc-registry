@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/circexplorer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for circexplorer
+latest:
+  1.1.9--py35_0: sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada
+tags:
+  1.1.9--py35_0: sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada
+docker: quay.io/biocontainers/circexplorer

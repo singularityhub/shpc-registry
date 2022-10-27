@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/snp-dists
 aliases:
   snp-dists: /usr/local/bin/snp-dists
+  env-execute: /usr/local/env-execute

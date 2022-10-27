@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/tedna
 aliases:
   tedna: /usr/local/bin/tedna
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

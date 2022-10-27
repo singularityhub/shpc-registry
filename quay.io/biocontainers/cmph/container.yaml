@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/cmph
 aliases:
   cmph: /usr/local/bin/cmph
+  env-execute: /usr/local/env-execute

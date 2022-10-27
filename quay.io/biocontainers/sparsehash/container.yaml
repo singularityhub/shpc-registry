@@ -6,3 +6,7 @@ latest:
 tags:
   2.0.3--0: sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812
 docker: quay.io/biocontainers/sparsehash
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -7,7 +7,30 @@ tags:
   1.8.0--r351_0: sha256:9a826041673dac9668d52d58dc6f7aa4e1b0c360959c204587b9d9c554e12283
 docker: quay.io/biocontainers/bioconductor-minfidataepic
 aliases:
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh
   .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh
-  .bioconductor-minfidataepic-post-link.sh: /usr/local/bin/.bioconductor-minfidataepic-post-link.sh
   .bioconductor-minfidataepic-pre-unlink.sh: /usr/local/bin/.bioconductor-minfidataepic-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et

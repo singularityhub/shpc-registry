@@ -12,3 +12,28 @@ aliases:
   post_proc.sh: /usr/local/bin/post_proc.sh
   prepare_gene_ref.sh: /usr/local/bin/prepare_gene_ref.sh
   xander_customized_hmmer_version_for_prepare_gene.sh: /usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh
+  2to3: /usr/local/bin/2to3
+  activate: /usr/local/bin/activate
+  alimask: /usr/local/bin/alimask
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  easy_install: /usr/local/bin/easy_install
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  hmmalign: /usr/local/bin/hmmalign
+  hmmbuild: /usr/local/bin/hmmbuild
+  hmmc2: /usr/local/bin/hmmc2
+  hmmconvert: /usr/local/bin/hmmconvert
+  hmmemit: /usr/local/bin/hmmemit
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
+  hmmfetch: /usr/local/bin/hmmfetch
+  hmmlogo: /usr/local/bin/hmmlogo
+  hmmpgmd: /usr/local/bin/hmmpgmd
+  hmmpress: /usr/local/bin/hmmpress
+  hmmscan: /usr/local/bin/hmmscan
+  hmmsearch: /usr/local/bin/hmmsearch
+  hmmsim: /usr/local/bin/hmmsim
+  hmmstat: /usr/local/bin/hmmstat
+  idle: /usr/local/bin/idle

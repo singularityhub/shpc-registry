@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/shark
 aliases:
   shark: /usr/local/bin/shark
+  env-execute: /usr/local/env-execute

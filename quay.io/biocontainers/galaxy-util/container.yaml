@@ -6,3 +6,29 @@ latest:
 tags:
   21.9.0--pyhdfd78af_0: sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c
 docker: quay.io/biocontainers/galaxy-util
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  cheetah: /usr/local/bin/cheetah
+  cheetah-analyze: /usr/local/bin/cheetah-analyze
+  cheetah-compile: /usr/local/bin/cheetah-compile
+  clear: /usr/local/bin/clear
+  futurize: /usr/local/bin/futurize
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  lzcat: /usr/local/bin/lzcat
+  lzcmp: /usr/local/bin/lzcmp
+  lzdiff: /usr/local/bin/lzdiff
+  lzegrep: /usr/local/bin/lzegrep
+  lzfgrep: /usr/local/bin/lzfgrep
+  lzgrep: /usr/local/bin/lzgrep
+  lzless: /usr/local/bin/lzless
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
+  lzmore: /usr/local/bin/lzmore

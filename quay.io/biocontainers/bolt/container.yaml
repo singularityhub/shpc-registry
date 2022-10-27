@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bolt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bolt
+latest:
+  0.3.0--h4a302ff_5: sha256:8cc764364680531c4a6519d35b2cef75d6931fa70392d9dcc692d3e56b23d831
+tags:
+  0.3.0--h4a302ff_5: sha256:8cc764364680531c4a6519d35b2cef75d6931fa70392d9dcc692d3e56b23d831
+docker: quay.io/biocontainers/bolt

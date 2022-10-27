@@ -7,13 +7,33 @@ tags:
   2.4.0--r41hdfd78af_0: sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df
 docker: quay.io/biocontainers/bioconductor-singlecelltk
 aliases:
-  .bioconductor-celldex-post-link.sh: /usr/local/bin/.bioconductor-celldex-post-link.sh
   .bioconductor-celldex-pre-unlink.sh: /usr/local/bin/.bioconductor-celldex-pre-unlink.sh
-  .bioconductor-gsvadata-post-link.sh: /usr/local/bin/.bioconductor-gsvadata-post-link.sh
   .bioconductor-gsvadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh
-  .bioconductor-hgu95a.db-post-link.sh: /usr/local/bin/.bioconductor-hgu95a.db-post-link.sh
   .bioconductor-hgu95a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh
-  .bioconductor-scrnaseq-post-link.sh: /usr/local/bin/.bioconductor-scrnaseq-post-link.sh
   .bioconductor-scrnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh
-  .bioconductor-tenxpbmcdata-post-link.sh: /usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh
   .bioconductor-tenxpbmcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh
+  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
+  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
+  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2

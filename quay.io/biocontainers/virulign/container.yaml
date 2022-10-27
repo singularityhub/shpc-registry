@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/virulign
 aliases:
   virulign: /usr/local/bin/virulign
+  env-execute: /usr/local/env-execute

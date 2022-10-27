@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-specio
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-specio
+latest:
+  0.48--pl5321hdfd78af_0: sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839
+tags:
+  0.48--pl5321hdfd78af_0: sha256:f741ba368c0e51daa4b29922c142d4cc119d03d148a861a12f47413a08e68839
+docker: quay.io/biocontainers/perl-specio

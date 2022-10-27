@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/sesimcmc
 aliases:
   SeSiMCMC: /usr/local/bin/SeSiMCMC
+  env-execute: /usr/local/env-execute

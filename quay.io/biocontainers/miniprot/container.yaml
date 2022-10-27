@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/miniprot
 aliases:
   miniprot: /usr/local/bin/miniprot
+  env-execute: /usr/local/env-execute

@@ -6,3 +6,17 @@ latest:
 tags:
   3.33.0: sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8
 docker: quay.io/biocontainers/sqlite
+aliases:
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap
+  ncurses6-config: /usr/local/bin/ncurses6-config
+  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  reset: /usr/local/bin/reset
+  sqlite3: /usr/local/bin/sqlite3
+  tabs: /usr/local/bin/tabs
+  tic: /usr/local/bin/tic
+  toe: /usr/local/bin/toe
+  tput: /usr/local/bin/tput
+  tset: /usr/local/bin/tset

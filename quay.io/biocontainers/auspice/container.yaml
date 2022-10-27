@@ -12,3 +12,17 @@ aliases:
   node: /usr/local/bin/node
   npm: /usr/local/bin/npm
   npx: /usr/local/bin/npx
+  c_rehash: /usr/local/bin/c_rehash
+  derb: /usr/local/bin/derb
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  icu-config: /usr/local/bin/icu-config
+  icuexportdata: /usr/local/bin/icuexportdata
+  icuinfo: /usr/local/bin/icuinfo
+  makeconv: /usr/local/bin/makeconv
+  openssl: /usr/local/bin/openssl
+  pkgdata: /usr/local/bin/pkgdata
+  env-execute: /usr/local/env-execute

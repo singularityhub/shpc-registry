@@ -17,7 +17,6 @@ aliases:
   bttcmp: /usr/local/bin/bttcmp
   canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
-  canu.defaults: /usr/local/bin/canu.defaults
   circlator: /usr/local/bin/circlator
   contig_break_finder: /usr/local/bin/contig_break_finder
   contig_cleaner: /usr/local/bin/contig_cleaner
@@ -97,3 +96,28 @@ aliases:
   unicycler_scrub: /usr/local/bin/unicycler_scrub
   vcf2scoary: /usr/local/bin/vcf2scoary
   wtdbgConvert: /usr/local/bin/wtdbgConvert
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths
+  Overlap: /usr/local/bin/Overlap
+  ParseAligns: /usr/local/bin/ParseAligns
+  PathConsensus: /usr/local/bin/PathConsensus
+  PathOverlap: /usr/local/bin/PathOverlap
+  PopBubbles: /usr/local/bin/PopBubbles
+  R: /usr/local/bin/R
+  README: /usr/local/bin/README
+  Rscript: /usr/local/bin/Rscript
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl

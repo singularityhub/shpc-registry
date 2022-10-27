@@ -20,3 +20,28 @@ aliases:
   centrifuge-inspect-bin: /usr/local/bin/centrifuge-inspect-bin
   centrifuge-kreport: /usr/local/bin/centrifuge-kreport
   centrifuge-sort-nt.pl: /usr/local/bin/centrifuge-sort-nt.pl
+  autopoint: /usr/local/bin/autopoint
+  c_rehash: /usr/local/bin/c_rehash
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  envsubst: /usr/local/bin/envsubst
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh
+  gettextize: /usr/local/bin/gettextize
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  iconv: /usr/local/bin/iconv
+  idn2: /usr/local/bin/idn2
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  msgattrib: /usr/local/bin/msgattrib
+  msgcat: /usr/local/bin/msgcat
+  msgcmp: /usr/local/bin/msgcmp
+  msgcomm: /usr/local/bin/msgcomm
+  msgconv: /usr/local/bin/msgconv
+  msgen: /usr/local/bin/msgen
+  msgexec: /usr/local/bin/msgexec
+  msgfilter: /usr/local/bin/msgfilter

@@ -33,3 +33,28 @@ aliases:
   tesseract: /usr/local/bin/tesseract
   wftopfa: /usr/local/bin/wftopfa
   xtractprotos: /usr/local/bin/xtractprotos
+  activate: /usr/local/bin/activate
+  annotate: /usr/local/bin/annotate
+  autopoint: /usr/local/bin/autopoint
+  babel: /usr/local/bin/babel
+  bdftogd: /usr/local/bin/bdftogd
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  conda: /usr/local/bin/conda
+  curl: /usr/local/bin/curl
+  curl-config: /usr/local/bin/curl-config
+  cwebp: /usr/local/bin/cwebp
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  djpeg: /usr/local/bin/djpeg
+  dvipdf: /usr/local/bin/dvipdf
+  dwebp: /usr/local/bin/dwebp
+  envsubst: /usr/local/bin/envsubst
+  eps2eps: /usr/local/bin/eps2eps
+  fax2ps: /usr/local/bin/fax2ps
+  fax2tiff: /usr/local/bin/fax2tiff
+  fc-cache: /usr/local/bin/fc-cache

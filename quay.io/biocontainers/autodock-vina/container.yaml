@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/autodock-vina
 aliases:
   vina: /usr/local/bin/vina
   vina_split: /usr/local/bin/vina_split
+  env-execute: /usr/local/env-execute

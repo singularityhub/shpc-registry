@@ -13,3 +13,4 @@ aliases:
   rnr-mast: /usr/local/bin/rnr-mast
   rnr-prune: /usr/local/bin/rnr-prune
   rnr-tii: /usr/local/bin/rnr-tii
+  env-execute: /usr/local/env-execute

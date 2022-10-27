@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fmlrc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fmlrc
+latest:
+  1.0.0--h9f5acd7_3: sha256:d25fa01b746efa08c7041461c8866aba3f242c4c522186886ad5dc680daed85a
+tags:
+  1.0.0--h9f5acd7_3: sha256:d25fa01b746efa08c7041461c8866aba3f242c4c522186886ad5dc680daed85a
+docker: quay.io/biocontainers/fmlrc

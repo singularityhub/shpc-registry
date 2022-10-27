@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/pblat
 aliases:
   pblat: /usr/local/bin/pblat
+  c_rehash: /usr/local/bin/c_rehash
+  openssl: /usr/local/bin/openssl
+  env-execute: /usr/local/env-execute

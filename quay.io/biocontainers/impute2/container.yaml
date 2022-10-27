@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/impute2
 aliases:
   impute2: /usr/local/bin/impute2
+  env-execute: /usr/local/env-execute

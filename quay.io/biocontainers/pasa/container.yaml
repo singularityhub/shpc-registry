@@ -7,7 +7,6 @@ tags:
   2.5.2--h87f3376_0: sha256:969eeabed1ceebf3be4d305442e0aa4b89c5f57896ce6fda939e65c7d22dea62
 docker: quay.io/biocontainers/pasa
 aliases:
-  .pasa-post-link.sh: /usr/local/bin/.pasa-post-link.sh
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
   TransDecoder.Predict: /usr/local/bin/TransDecoder.Predict
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
@@ -151,3 +150,28 @@ aliases:
   uuserver: /usr/local/bin/uuserver
   vcf_iit: /usr/local/bin/vcf_iit
   velocity-counts: /usr/local/bin/velocity-counts
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  ace2sam: /usr/local/bin/ace2sam
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blat: /usr/local/bin/blat
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace
+  captoinfo: /usr/local/bin/captoinfo

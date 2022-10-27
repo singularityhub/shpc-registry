@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fq
 aliases:
   fq: /usr/local/bin/fq
+  env-execute: /usr/local/env-execute

@@ -7,7 +7,6 @@ tags:
   0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
 docker: quay.io/biocontainers/rgt
 aliases:
-  .rgt-post-link.sh: /usr/local/bin/.rgt-post-link.sh
   bed2associated_genes.py: /usr/local/bin/bed2associated_genes.py
   bed2fasta.py: /usr/local/bin/bed2fasta.py
   bigWigMerge: /usr/local/bin/bigWigMerge
@@ -35,3 +34,28 @@ aliases:
   setupGenomicData.py: /usr/local/bin/setupGenomicData.py
   setupLogoData.py: /usr/local/bin/setupLogoData.py
   update_alias.py: /usr/local/bin/update_alias.py
+  2to3: /usr/local/bin/2to3
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  assistant: /usr/local/bin/assistant
+  autopoint: /usr/local/bin/autopoint
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  bigBedToBed: /usr/local/bin/bigBedToBed
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  canbusutil: /usr/local/bin/canbusutil
+  captoinfo: /usr/local/bin/captoinfo
+  cjpeg: /usr/local/bin/cjpeg
+  clear: /usr/local/bin/clear

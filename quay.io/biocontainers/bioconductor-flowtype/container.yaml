@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-flowtype
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-flowtype
+latest:
+  2.25.0--r40h5f743cb_0: sha256:520dc183d1b669f27041b5fbc91dd86a5ab6c23f2b47a0edf671b4316a543f76
+tags:
+  2.25.0--r40h5f743cb_0: sha256:520dc183d1b669f27041b5fbc91dd86a5ab6c23f2b47a0edf671b4316a543f76
+docker: quay.io/biocontainers/bioconductor-flowtype

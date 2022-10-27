@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/cyntenator
 aliases:
   cyntenator: /usr/local/bin/cyntenator
+  env-execute: /usr/local/env-execute

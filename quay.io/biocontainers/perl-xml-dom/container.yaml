@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-xml-dom
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-xml-dom
+latest:
+  1.46--pl5321hdfd78af_1: sha256:3709f932f032174073c4a866a1b0061b0699c0e30b9ff82e25ebd8663775e619
+tags:
+  1.46--pl5321hdfd78af_1: sha256:3709f932f032174073c4a866a1b0061b0699c0e30b9ff82e25ebd8663775e619
+docker: quay.io/biocontainers/perl-xml-dom

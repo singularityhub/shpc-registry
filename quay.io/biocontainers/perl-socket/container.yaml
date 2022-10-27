@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-socket
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-socket
+latest:
+  2.027--pl5321hec16e2b_3: sha256:6258d58b6164744d67b1afa7223265b24789a2295e612ee247cd575221ab6399
+tags:
+  2.027--pl5321hec16e2b_3: sha256:6258d58b6164744d67b1afa7223265b24789a2295e612ee247cd575221ab6399
+docker: quay.io/biocontainers/perl-socket

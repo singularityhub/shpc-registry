@@ -13,14 +13,11 @@ aliases:
   LTR_retriever: /usr/local/bin/LTR_retriever
   Linup: /usr/local/bin/Linup
   Ninja: /usr/local/bin/Ninja
-  RM2Bed.py: /usr/local/bin/RM2Bed.py
   Refiner: /usr/local/bin/Refiner
   RepeatClassifier: /usr/local/bin/RepeatClassifier
   RepeatModeler: /usr/local/bin/RepeatModeler
   RepeatScout: /usr/local/bin/RepeatScout
   alignAndCallConsensus.pl: /usr/local/bin/alignAndCallConsensus.pl
-  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
-  buildSummary.pl: /usr/local/bin/buildSummary.pl
   build_lmer_table: /usr/local/bin/build_lmer_table
   compare-out-to-gff.prl: /usr/local/bin/compare-out-to-gff.prl
   convert_MGEScan3.0.pl: /usr/local/bin/convert_MGEScan3.0.pl
@@ -39,4 +36,28 @@ aliases:
   nmerge: /usr/local/bin/nmerge
   nseg: /usr/local/bin/nseg
   viewMSA.pl: /usr/local/bin/viewMSA.pl
-  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  FET.pl: /usr/local/bin/FET.pl
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  README: /usr/local/bin/README
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  autopoint: /usr/local/bin/autopoint
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blast_report: /usr/local/bin/blast_report
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdb_convert: /usr/local/bin/blastdb_convert

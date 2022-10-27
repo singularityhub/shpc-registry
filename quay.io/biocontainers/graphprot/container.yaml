@@ -10,3 +10,28 @@ aliases:
   GraphProt.pl: /usr/local/bin/GraphProt.pl
   RNAshapes: /usr/local/bin/RNAshapes
   gawk-4.2.1: /usr/local/bin/gawk-4.2.1
+  2to3: /usr/local/bin/2to3
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  '[': /usr/local/bin/[
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep
+  bzip2: /usr/local/bin/bzip2
+  bzip2recover: /usr/local/bin/bzip2recover
+  bzless: /usr/local/bin/bzless
+  bzmore: /usr/local/bin/bzmore
+  c_rehash: /usr/local/bin/c_rehash
+  cairo-trace: /usr/local/bin/cairo-trace

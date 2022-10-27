@@ -6,3 +6,29 @@ latest:
 tags:
   1.1.0--h22e3c99_1: sha256:1f7d3b92b50ef5e2f7ec6330cdadf41e252e878b80657b15290e57cb54e86a82
 docker: quay.io/biocontainers/raxml-ng
+aliases:
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  mpiCC: /usr/local/bin/mpiCC
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpifort: /usr/local/bin/mpifort
+  mpirun: /usr/local/bin/mpirun
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  ompi_info: /usr/local/bin/ompi_info
+  opal_wrapper: /usr/local/bin/opal_wrapper
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcc: /usr/local/bin/oshcc
+  oshcxx: /usr/local/bin/oshcxx
+  oshfort: /usr/local/bin/oshfort

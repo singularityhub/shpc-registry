@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/vdjer
 aliases:
   vdjer: /usr/local/bin/vdjer
+  env-execute: /usr/local/env-execute
