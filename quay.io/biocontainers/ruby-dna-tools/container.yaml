@@ -17,18 +17,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   erb: /usr/local/bin/erb
   gdbm_dump: /usr/local/bin/gdbm_dump
-  gdbm_load: /usr/local/bin/gdbm_load
-  gdbmtool: /usr/local/bin/gdbmtool
-  gem: /usr/local/bin/gem
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  irb: /usr/local/bin/irb
-  jemalloc-config: /usr/local/bin/jemalloc-config
-  jemalloc.sh: /usr/local/bin/jemalloc.sh
-  jeprof: /usr/local/bin/jeprof
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep

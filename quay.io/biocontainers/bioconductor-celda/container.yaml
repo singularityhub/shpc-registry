@@ -7,8 +7,6 @@ tags:
   1.8.1--r41h399db7b_0: sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66
 docker: quay.io/biocontainers/bioconductor-celda
 aliases:
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   Magick++-config: /usr/local/bin/Magick++-config
@@ -19,16 +17,3 @@ aliases:
   acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
   adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep

@@ -38,18 +38,3 @@ aliases:
   coloredlogs: /usr/local/bin/coloredlogs
   csv2rdf: /usr/local/bin/csv2rdf
   cwltool: /usr/local/bin/cwltool
-  derb: /usr/local/bin/derb
-  doesitcache: /usr/local/bin/doesitcache
-  easy_install: /usr/local/bin/easy_install
-  futurize: /usr/local/bin/futurize
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  humanfriendly: /usr/local/bin/humanfriendly
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp

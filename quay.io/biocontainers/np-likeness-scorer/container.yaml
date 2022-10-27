@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/np-likeness-scorer
 aliases:
   np-likeness: /usr/local/bin/np-likeness
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   activate: /usr/local/bin/activate
@@ -19,17 +18,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   easy_install-3.5: /usr/local/bin/easy_install-3.5
   extcheck: /usr/local/bin/extcheck
-  idle3: /usr/local/bin/idle3
-  idle3.5: /usr/local/bin/idle3.5
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javah: /usr/local/bin/javah
-  javap: /usr/local/bin/javap
-  jcmd: /usr/local/bin/jcmd
-  jconsole: /usr/local/bin/jconsole
-  jdb: /usr/local/bin/jdb

@@ -40,18 +40,3 @@ aliases:
   atoiindex: /usr/local/bin/atoiindex
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdb_convert: /usr/local/bin/blastdb_convert
-  blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp

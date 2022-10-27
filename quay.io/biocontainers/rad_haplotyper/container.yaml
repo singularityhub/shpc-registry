@@ -35,7 +35,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   FET.pl: /usr/local/bin/FET.pl
-  '[': /usr/local/bin/[
   abba-baba: /usr/local/bin/abba-baba
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -43,17 +42,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  b2sum: /usr/local/bin/b2sum
-  bFst: /usr/local/bin/bFst
-  bam2bed: /usr/local/bin/bam2bed
-  bam2bed-float128: /usr/local/bin/bam2bed-float128
-  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
-  bam2bed-typical: /usr/local/bin/bam2bed-typical
-  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
-  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
-  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
-  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
-  bam2bed_sge: /usr/local/bin/bam2bed_sge

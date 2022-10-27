@@ -16,28 +16,13 @@ aliases:
   quicktree: /usr/local/bin/quicktree
   run_panacota.py: /usr/local/bin/run_panacota.py
   tbl2asn-test: /usr/local/bin/tbl2asn-test
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   CA.pm: /usr/local/bin/CA.pm
   FastTree: /usr/local/bin/FastTree
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
   FastTreeMP: /usr/local/bin/FastTreeMP
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
   acountry: /usr/local/bin/acountry
-  acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint

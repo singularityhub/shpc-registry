@@ -26,18 +26,3 @@ aliases:
   clear: /usr/local/bin/clear
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  freeze_graph: /usr/local/bin/freeze_graph
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
-  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
-  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
-  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
-  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
-  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
-  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc

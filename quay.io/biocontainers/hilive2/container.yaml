@@ -20,9 +20,3 @@ aliases:
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
   bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  lz4: /usr/local/bin/lz4
-  lz4c: /usr/local/bin/lz4c
-  lz4cat: /usr/local/bin/lz4cat
-  unlz4: /usr/local/bin/unlz4
-  env-execute: /usr/local/env-execute

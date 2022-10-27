@@ -38,18 +38,3 @@ aliases:
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
-  bedToBam: /usr/local/bin/bedToBam
-  bedToBigBed: /usr/local/bin/bedToBigBed
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  binhex.pl: /usr/local/bin/binhex.pl
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
-  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl

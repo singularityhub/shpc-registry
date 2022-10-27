@@ -24,18 +24,3 @@ aliases:
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  findrule: /usr/local/bin/findrule
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo

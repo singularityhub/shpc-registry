@@ -7,10 +7,6 @@ tags:
   1.26.0--r40hdfd78af_1: sha256:7e521dc05d2cb48816e7cfd8b18123ffba7244c53ccf53681f6a1bd64aa9bea3
 docker: quay.io/biocontainers/bioconductor-compgo
 aliases:
-  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   R: /usr/local/bin/R
@@ -21,15 +17,3 @@ aliases:
   aserver: /usr/local/bin/aserver
   autopoint: /usr/local/bin/autopoint
   bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99

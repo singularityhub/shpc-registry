@@ -17,18 +17,3 @@ aliases:
   instmodsh: /usr/local/bin/instmodsh
   json_pp: /usr/local/bin/json_pp
   libnetcfg: /usr/local/bin/libnetcfg
-  lwp-download: /usr/local/bin/lwp-download
-  lwp-dump: /usr/local/bin/lwp-dump
-  lwp-mirror: /usr/local/bin/lwp-mirror
-  lwp-request: /usr/local/bin/lwp-request
-  openssl: /usr/local/bin/openssl
-  perl: /usr/local/bin/perl
-  perl5.32.1: /usr/local/bin/perl5.32.1
-  perlbug: /usr/local/bin/perlbug
-  perldoc: /usr/local/bin/perldoc
-  perlivp: /usr/local/bin/perlivp
-  perlthanks: /usr/local/bin/perlthanks
-  piconv: /usr/local/bin/piconv
-  pl2pm: /usr/local/bin/pl2pm
-  pod2html: /usr/local/bin/pod2html
-  pod2man: /usr/local/bin/pod2man

@@ -20,18 +20,3 @@ aliases:
   autopoint: /usr/local/bin/autopoint
   autoreconf.bak: /usr/local/bin/autoreconf.bak
   autoscan.bak: /usr/local/bin/autoscan.bak
-  autoupdate.bak: /usr/local/bin/autoupdate.bak
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache

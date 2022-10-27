@@ -117,18 +117,3 @@ aliases:
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c2ph: /usr/local/bin/c2ph
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cpanm: /usr/local/bin/cpanm
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  erb: /usr/local/bin/erb

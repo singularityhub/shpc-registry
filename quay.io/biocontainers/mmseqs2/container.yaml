@@ -18,7 +18,3 @@ aliases:
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  gawk: /usr/local/bin/gawk
-  mmseqs: /usr/local/bin/mmseqs

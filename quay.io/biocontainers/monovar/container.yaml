@@ -18,18 +18,3 @@ aliases:
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  gss-client: /usr/local/bin/gss-client
-  idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp

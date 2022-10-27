@@ -18,18 +18,3 @@ aliases:
   corelist: /usr/local/bin/corelist
   cpan: /usr/local/bin/cpan
   cwebp: /usr/local/bin/cwebp
-  djpeg: /usr/local/bin/djpeg
-  dwebp: /usr/local/bin/dwebp
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fonttools: /usr/local/bin/fonttools
-  freetype-config: /usr/local/bin/freetype-config
-  futurize: /usr/local/bin/futurize
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild

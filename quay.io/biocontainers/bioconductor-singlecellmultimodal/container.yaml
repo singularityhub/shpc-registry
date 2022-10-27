@@ -7,9 +7,6 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:2461e862ee6aad6ef7584ece349f9c72f87e976fb954eb8c77cebd6c58be63c2
 docker: quay.io/biocontainers/bioconductor-singlecellmultimodal
 aliases:
-  .bioconductor-singlecellmultimodal-pre-unlink.sh: /usr/local/bin/.bioconductor-singlecellmultimodal-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
@@ -20,16 +17,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover

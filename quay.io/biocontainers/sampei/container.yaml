@@ -18,18 +18,3 @@ aliases:
   djpeg: /usr/local/bin/djpeg
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8

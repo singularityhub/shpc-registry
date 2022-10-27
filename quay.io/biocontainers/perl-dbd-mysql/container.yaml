@@ -18,18 +18,3 @@ aliases:
   encguess: /usr/local/bin/encguess
   h2ph: /usr/local/bin/h2ph
   h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  my_print_defaults: /usr/local/bin/my_print_defaults
-  mysql_config: /usr/local/bin/mysql_config
-  openssl: /usr/local/bin/openssl
-  perl: /usr/local/bin/perl
-  perl5.32.1: /usr/local/bin/perl5.32.1
-  perlbug: /usr/local/bin/perlbug
-  perldoc: /usr/local/bin/perldoc
-  perlivp: /usr/local/bin/perlivp
-  perlthanks: /usr/local/bin/perlthanks
-  perror: /usr/local/bin/perror
-  piconv: /usr/local/bin/piconv
-  pl2pm: /usr/local/bin/pl2pm

@@ -7,8 +7,6 @@ tags:
   3.4.6--r36_1: sha256:b1f1065325b8609c1112ff514d0c5a20f0b323a5ff364ae344f6626eaa05e973
 docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 aliases:
-  .bioconductor-txdb.ggallus.ucsc.galgal4.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.ggallus.ucsc.galgal4.refgene-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   autopoint: /usr/local/bin/autopoint
@@ -19,17 +17,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config

@@ -7,7 +7,6 @@ tags:
   1.2.2--r41hdfd78af_1: sha256:a9068e787b853d2a626c9cd4f46942a7bbfc69be387a05b967397985fd8d8efe
 docker: quay.io/biocontainers/bioconductor-bioimagedbs
 aliases:
-  .bioconductor-bioimagedbs-pre-unlink.sh: /usr/local/bin/.bioconductor-bioimagedbs-pre-unlink.sh
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
   SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
   asn1Coding: /usr/local/bin/asn1Coding
@@ -17,8 +16,6 @@ aliases:
   p11tool: /usr/local/bin/p11tool
   trust: /usr/local/bin/trust
   x265: /usr/local/bin/x265
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
@@ -29,16 +26,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  aomdec: /usr/local/bin/aomdec
-  aomenc: /usr/local/bin/aomenc
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep

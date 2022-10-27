@@ -14,7 +14,6 @@ aliases:
   lighter: /usr/local/bin/lighter
   nextflow.bak: /usr/local/bin/nextflow.bak
   onig-config: /usr/local/bin/onig-config
-  '[': /usr/local/bin/[
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -25,17 +24,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   alltoall.sh: /usr/local/bin/alltoall.sh
   analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
-  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  b2sum: /usr/local/bin/b2sum
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
-  bbduk.sh: /usr/local/bin/bbduk.sh
-  bbest.sh: /usr/local/bin/bbest.sh

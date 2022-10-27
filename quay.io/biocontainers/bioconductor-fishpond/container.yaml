@@ -7,7 +7,6 @@ tags:
   2.0.1--r41hc247a5b_1: sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c
 docker: quay.io/biocontainers/bioconductor-fishpond
 aliases:
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -18,17 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl

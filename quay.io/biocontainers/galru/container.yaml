@@ -17,7 +17,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   FET.pl: /usr/local/bin/FET.pl
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
@@ -25,17 +24,3 @@ aliases:
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
-  any2fasta: /usr/local/bin/any2fasta
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl

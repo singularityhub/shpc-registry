@@ -112,28 +112,13 @@ aliases:
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
   zff2genbank.pl: /usr/local/bin/zff2genbank.pl
   zff2gff3.pl: /usr/local/bin/zff2gff3.pl
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   ProcessRepeats: /usr/local/bin/ProcessRepeats
-  README: /usr/local/bin/README
-  README.autoAug: /usr/local/bin/README.autoAug
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
-  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  acountry: /usr/local/bin/acountry
-  acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  archive-pubmed: /usr/local/bin/archive-pubmed

@@ -13,23 +13,8 @@ aliases:
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
   ProcessRepeats: /usr/local/bin/ProcessRepeats
-  README: /usr/local/bin/README
   RM2Bed.py: /usr/local/bin/RM2Bed.py
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdb_convert: /usr/local/bin/blastdb_convert
-  blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck

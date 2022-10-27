@@ -27,18 +27,3 @@ aliases:
   f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
   gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump
-  h5fc: /usr/local/bin/h5fc
-  h5format_convert: /usr/local/bin/h5format_convert
-  h5import: /usr/local/bin/h5import
-  h5jam: /usr/local/bin/h5jam
-  h5ls: /usr/local/bin/h5ls
-  h5mkgrp: /usr/local/bin/h5mkgrp
-  h5perf_serial: /usr/local/bin/h5perf_serial

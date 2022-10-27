@@ -17,4 +17,3 @@ aliases:
   gsl-randist: /usr/local/bin/gsl-randist
   mash: /usr/local/bin/mash
   openssl: /usr/local/bin/openssl
-  env-execute: /usr/local/env-execute

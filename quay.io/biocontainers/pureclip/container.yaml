@@ -27,18 +27,3 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  beeml2meme: /usr/local/bin/beeml2meme
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  centrimo: /usr/local/bin/centrimo
-  ceqlogo: /usr/local/bin/ceqlogo
-  chen2meme: /usr/local/bin/chen2meme
-  clear: /usr/local/bin/clear
-  closestBed: /usr/local/bin/closestBed
-  clustalw2fasta: /usr/local/bin/clustalw2fasta
-  clustalw2phylip: /usr/local/bin/clustalw2phylip

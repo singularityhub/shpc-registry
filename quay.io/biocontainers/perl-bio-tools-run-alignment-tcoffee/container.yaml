@@ -7,7 +7,6 @@ tags:
   1.7.4--pl5321hdfd78af_4: sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c
 docker: quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee
 aliases:
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
@@ -18,17 +17,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   autopoint: /usr/local/bin/autopoint
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  binhex.pl: /usr/local/bin/binhex.pl
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
-  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
-  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
-  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
-  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
-  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
-  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
-  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl

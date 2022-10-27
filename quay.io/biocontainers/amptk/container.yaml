@@ -12,7 +12,6 @@ aliases:
   bold2utax.py: /usr/local/bin/bold2utax.py
   distro: /usr/local/bin/distro
   pyfastx: /usr/local/bin/pyfastx
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   FastTree: /usr/local/bin/FastTree
@@ -23,17 +22,3 @@ aliases:
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  biom: /usr/local/bin/biom
-  brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore

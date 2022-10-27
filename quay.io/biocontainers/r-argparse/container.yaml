@@ -7,7 +7,6 @@ tags:
   1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
 docker: quay.io/biocontainers/r-argparse
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   R: /usr/local/bin/R
@@ -18,17 +17,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  easy_install-3.6: /usr/local/bin/easy_install-3.6
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query

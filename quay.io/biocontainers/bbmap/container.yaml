@@ -24,18 +24,3 @@ aliases:
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
   applyvariants.sh: /usr/local/bin/applyvariants.sh
   aserver: /usr/local/bin/aserver
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
-  bbduk.sh: /usr/local/bin/bbduk.sh
-  bbest.sh: /usr/local/bin/bbest.sh
-  bbfakereads.sh: /usr/local/bin/bbfakereads.sh
-  bbmap.sh: /usr/local/bin/bbmap.sh
-  bbmapskimmer.sh: /usr/local/bin/bbmapskimmer.sh
-  bbmask.sh: /usr/local/bin/bbmask.sh
-  bbmerge-auto.sh: /usr/local/bin/bbmerge-auto.sh
-  bbmerge.sh: /usr/local/bin/bbmerge.sh
-  bbnorm.sh: /usr/local/bin/bbnorm.sh
-  bbrealign.sh: /usr/local/bin/bbrealign.sh
-  bbrename.sh: /usr/local/bin/bbrename.sh
-  bbsketch.sh: /usr/local/bin/bbsketch.sh
-  bbsplit.sh: /usr/local/bin/bbsplit.sh

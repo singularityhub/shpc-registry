@@ -17,18 +17,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jpegtran: /usr/local/bin/jpegtran
-  jpgicc: /usr/local/bin/jpgicc
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config
-  linkicc: /usr/local/bin/linkicc
-  lz4: /usr/local/bin/lz4
-  lz4c: /usr/local/bin/lz4c

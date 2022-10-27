@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/circminer
 aliases:
   circminer: /usr/local/bin/circminer
-  '[': /usr/local/bin/[
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
@@ -19,17 +18,3 @@ aliases:
   chgrp: /usr/local/bin/chgrp
   chmod: /usr/local/bin/chmod
   chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cksum: /usr/local/bin/cksum
-  comm: /usr/local/bin/comm
-  cp: /usr/local/bin/cp
-  csplit: /usr/local/bin/csplit
-  cut: /usr/local/bin/cut
-  date: /usr/local/bin/date
-  dd: /usr/local/bin/dd
-  df: /usr/local/bin/df
-  dir: /usr/local/bin/dir
-  dircolors: /usr/local/bin/dircolors
-  dirname: /usr/local/bin/dirname
-  du: /usr/local/bin/du
-  echo: /usr/local/bin/echo

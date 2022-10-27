@@ -7,9 +7,7 @@ tags:
   1.1.7--py_0: sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9
 docker: quay.io/biocontainers/nglview
 aliases:
-  .nglview-pre-unlink.sh: /usr/local/bin/.nglview-pre-unlink.sh
   nglview: /usr/local/bin/nglview
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -20,17 +18,3 @@ aliases:
   conv-template: /usr/local/bin/conv-template
   curve_keygen: /usr/local/bin/curve_keygen
   deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  from-template: /usr/local/bin/from-template
-  idle3: /usr/local/bin/idle3
-  idle3.6: /usr/local/bin/idle3.6
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
-  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension

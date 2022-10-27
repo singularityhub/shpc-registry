@@ -7,7 +7,6 @@ tags:
   3.6.0--r41hdfd78af_1: sha256:4f8496f23f44f0f04c0c976ee16f9860df9cfeee70288f305741f8e69f4e4c4c
 docker: quay.io/biocontainers/bioconductor-flowworkspacedata
 aliases:
-  .bioconductor-flowworkspacedata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowworkspacedata-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -18,18 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config

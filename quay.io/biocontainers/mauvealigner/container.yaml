@@ -45,18 +45,3 @@ aliases:
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
   bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  icu-config: /usr/local/bin/icu-config
-  icuexportdata: /usr/local/bin/icuexportdata
-  icuinfo: /usr/local/bin/icuinfo
-  lz4: /usr/local/bin/lz4
-  lz4c: /usr/local/bin/lz4c
-  lz4cat: /usr/local/bin/lz4cat
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp

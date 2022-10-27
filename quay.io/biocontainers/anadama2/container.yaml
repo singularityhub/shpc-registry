@@ -22,18 +22,3 @@ aliases:
   idle3.9: /usr/local/bin/idle3.9
   infocmp: /usr/local/bin/infocmp
   infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
-  jupyter-kernel: /usr/local/bin/jupyter-kernel
-  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
-  jupyter-migrate: /usr/local/bin/jupyter-migrate
-  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
-  jupyter-run: /usr/local/bin/jupyter-run
-  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
-  jupyter-trust: /usr/local/bin/jupyter-trust
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp

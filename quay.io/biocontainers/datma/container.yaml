@@ -7,7 +7,6 @@ tags:
   2.0--hdfd78af_0: sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089
 docker: quay.io/biocontainers/datma
 aliases:
-  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
   assembly_annotation_tool.py: /usr/local/bin/assembly_annotation_tool.py
   assembly_annotation_tool_seq.py: /usr/local/bin/assembly_annotation_tool_seq.py
   binning: /usr/local/bin/binning
@@ -48,10 +47,8 @@ aliases:
   removal_tool.py: /usr/local/bin/removal_tool.py
   runDATMA.sh: /usr/local/bin/runDATMA.sh
   selectFasta: /usr/local/bin/selectFasta
-  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -60,16 +57,3 @@ aliases:
   align-columns: /usr/local/bin/align-columns
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv

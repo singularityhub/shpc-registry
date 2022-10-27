@@ -7,10 +7,6 @@ tags:
   2.8.2--r40hdfd78af_0: sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3
 docker: quay.io/biocontainers/bioconductor-dmrcatedata
 aliases:
-  .bioconductor-dmrcatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-dmrcatedata-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19-pre-unlink.sh
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -21,15 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear

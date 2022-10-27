@@ -21,18 +21,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  db_archive: /usr/local/bin/db_archive
-  db_checkpoint: /usr/local/bin/db_checkpoint
-  db_deadlock: /usr/local/bin/db_deadlock

@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/nanosimh
 aliases:
   nanosimh_simulate: /usr/local/bin/nanosimh_simulate
   nanosimh_train: /usr/local/bin/nanosimh_train
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   R: /usr/local/bin/R
@@ -20,17 +19,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
-  f2py: /usr/local/bin/f2py
-  fastq-interleave: /usr/local/bin/fastq-interleave
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match

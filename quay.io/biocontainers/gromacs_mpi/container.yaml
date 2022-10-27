@@ -19,18 +19,3 @@ aliases:
   gencfu: /usr/local/bin/gencfu
   gencnval: /usr/local/bin/gencnval
   gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  hwloc-annotate: /usr/local/bin/hwloc-annotate
-  hwloc-bind: /usr/local/bin/hwloc-bind
-  hwloc-calc: /usr/local/bin/hwloc-calc
-  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
-  hwloc-diff: /usr/local/bin/hwloc-diff
-  hwloc-distrib: /usr/local/bin/hwloc-distrib
-  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
-  hwloc-info: /usr/local/bin/hwloc-info
-  hwloc-ls: /usr/local/bin/hwloc-ls
-  hwloc-patch: /usr/local/bin/hwloc-patch
-  hwloc-ps: /usr/local/bin/hwloc-ps
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo

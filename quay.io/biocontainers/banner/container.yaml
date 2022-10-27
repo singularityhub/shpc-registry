@@ -18,18 +18,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  conv-template: /usr/local/bin/conv-template
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  from-template: /usr/local/bin/from-template
-  idle3: /usr/local/bin/idle3
-  idle3.6: /usr/local/bin/idle3.6

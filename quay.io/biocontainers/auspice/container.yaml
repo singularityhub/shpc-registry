@@ -22,7 +22,3 @@ aliases:
   icu-config: /usr/local/bin/icu-config
   icuexportdata: /usr/local/bin/icuexportdata
   icuinfo: /usr/local/bin/icuinfo
-  makeconv: /usr/local/bin/makeconv
-  openssl: /usr/local/bin/openssl
-  pkgdata: /usr/local/bin/pkgdata
-  env-execute: /usr/local/env-execute

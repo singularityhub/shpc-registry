@@ -24,18 +24,3 @@ aliases:
   autom4te.bak: /usr/local/bin/autom4te.bak
   automake.bak: /usr/local/bin/automake.bak
   autopoint: /usr/local/bin/autopoint
-  autoreconf.bak: /usr/local/bin/autoreconf.bak
-  autoscan.bak: /usr/local/bin/autoscan.bak
-  autoupdate.bak: /usr/local/bin/autoupdate.bak
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2

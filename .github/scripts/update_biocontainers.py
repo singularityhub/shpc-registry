@@ -56,7 +56,7 @@ def get_parser():
     parser.add_argument(
         "--additional-count-inclusion",
         help="Author",
-        default=25,
+        default=10,
         type=int,
         dest="add_count",
     )
@@ -83,9 +83,14 @@ def include_path(path):
         ".dat",
         ".dn",
         ".d",
+        ".md",
     ]:
         if path.endswith(ending):
             return False
+    if os.path.basename(path).startswith("."):
+        return False
+    if "[" in path or "]" in path or "README" in path:
+        return False
     return True
 
 

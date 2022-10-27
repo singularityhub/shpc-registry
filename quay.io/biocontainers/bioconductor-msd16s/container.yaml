@@ -7,7 +7,6 @@ tags:
   1.8.0--r40_0: sha256:e305888101fdcbfb5b74fb5ccb664103a49f0f7adc7e65f570a36cdede20bab2
 docker: quay.io/biocontainers/bioconductor-msd16s
 aliases:
-  .bioconductor-msd16s-pre-unlink.sh: /usr/local/bin/.bioconductor-msd16s-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   R: /usr/local/bin/R
@@ -18,18 +17,3 @@ aliases:
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl

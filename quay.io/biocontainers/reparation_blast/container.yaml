@@ -52,18 +52,3 @@ aliases:
   activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcftools: /usr/local/bin/bcftools
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
-  binhex.pl: /usr/local/bin/binhex.pl
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

@@ -19,18 +19,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  cd-hit: /usr/local/bin/cd-hit
-  cd-hit-2d: /usr/local/bin/cd-hit-2d
-  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
-  cd-hit-454: /usr/local/bin/cd-hit-454
-  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl

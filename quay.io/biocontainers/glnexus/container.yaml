@@ -18,18 +18,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  envsubst: /usr/local/bin/envsubst
-  gapplication: /usr/local/bin/gapplication
-  gdbus: /usr/local/bin/gdbus
-  gdbus-codegen: /usr/local/bin/gdbus-codegen
-  gettext: /usr/local/bin/gettext
-  gettext.sh: /usr/local/bin/gettext.sh
-  gettextize: /usr/local/bin/gettextize
-  gio: /usr/local/bin/gio

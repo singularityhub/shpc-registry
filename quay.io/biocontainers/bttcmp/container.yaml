@@ -106,18 +106,3 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   FET.pl: /usr/local/bin/FET.pl
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
-  MergePaths: /usr/local/bin/MergePaths
-  Overlap: /usr/local/bin/Overlap
-  ParseAligns: /usr/local/bin/ParseAligns
-  PathConsensus: /usr/local/bin/PathConsensus
-  PathOverlap: /usr/local/bin/PathOverlap
-  PopBubbles: /usr/local/bin/PopBubbles
-  R: /usr/local/bin/R
-  README: /usr/local/bin/README
-  Rscript: /usr/local/bin/Rscript
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl

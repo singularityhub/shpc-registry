@@ -7,8 +7,6 @@ tags:
   1.0.3--r40h399db7b_1: sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c
 docker: quay.io/biocontainers/bioconductor-cytotree
 aliases:
-  .bioconductor-all-pre-unlink.sh: /usr/local/bin/.bioconductor-all-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   R: /usr/local/bin/R
@@ -19,16 +17,3 @@ aliases:
   autopoint: /usr/local/bin/autopoint
   bunzip2: /usr/local/bin/bunzip2
   bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg

@@ -7,7 +7,6 @@ tags:
   1.2.7--h8b12597_0: sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7
 docker: quay.io/biocontainers/dfast
 aliases:
-  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
   file_downloader.py: /usr/local/bin/file_downloader.py
@@ -23,18 +22,3 @@ aliases:
   barrnap: /usr/local/bin/barrnap
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  blast_formatter: /usr/local/bin/blast_formatter
-  blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdb_convert: /usr/local/bin/blastdb_convert
-  blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bunzip2: /usr/local/bin/bunzip2

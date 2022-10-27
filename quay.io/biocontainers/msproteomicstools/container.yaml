@@ -61,18 +61,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   f2py2: /usr/local/bin/f2py2
   f2py2.7: /usr/local/bin/f2py2.7
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  glpsol: /usr/local/bin/glpsol
-  gpmetis: /usr/local/bin/gpmetis
-  graphchk: /usr/local/bin/graphchk
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram

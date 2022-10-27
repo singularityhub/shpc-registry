@@ -7,7 +7,6 @@ tags:
   6.2--0: sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8
 docker: quay.io/biocontainers/anvio
 aliases:
-  00_README.txt: /usr/local/bin/00_README.txt
   anvi-analyze-synteny: /usr/local/bin/anvi-analyze-synteny
   anvi-cluster-contigs: /usr/local/bin/anvi-cluster-contigs
   anvi-compute-ani: /usr/local/bin/anvi-compute-ani
@@ -105,7 +104,6 @@ aliases:
   anvi-script-gen-scg-domain-classifier: /usr/local/bin/anvi-script-gen-scg-domain-classifier
   anvi-script-gen-short-reads: /usr/local/bin/anvi-script-gen-short-reads
   anvi-script-gen_stats_for_single_copy_genes.R: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.R
-  anvi-script-gen_stats_for_single_copy_genes.README: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README
   anvi-script-gen_stats_for_single_copy_genes.py: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.py
   anvi-script-gen_stats_for_single_copy_genes.sh: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.sh
   anvi-script-get-collection-info: /usr/local/bin/anvi-script-get-collection-info
@@ -185,24 +183,9 @@ aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
-  bl2seq: /usr/local/bin/bl2seq
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastall: /usr/local/bin/blastall
-  blastclust: /usr/local/bin/blastclust
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn

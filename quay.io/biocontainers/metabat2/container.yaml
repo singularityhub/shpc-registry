@@ -26,18 +26,3 @@ aliases:
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  curl-config: /usr/local/bin/curl-config
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  gss-client: /usr/local/bin/gss-client
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  htsfile: /usr/local/bin/htsfile

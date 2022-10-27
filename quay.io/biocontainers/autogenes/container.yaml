@@ -17,18 +17,3 @@ aliases:
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
   compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  djpeg: /usr/local/bin/djpeg
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  get_objgraph: /usr/local/bin/get_objgraph
-  gif2h5: /usr/local/bin/gif2h5
-  gss-client: /usr/local/bin/gss-client
-  h2load: /usr/local/bin/h2load
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc

@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/augustus
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
   PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt
-  README.autoAug: /usr/local/bin/README.autoAug
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl
   add_name_to_gff3.pl: /usr/local/bin/add_name_to_gff3.pl
@@ -137,18 +136,3 @@ aliases:
   bamtools: /usr/local/bin/bamtools
   bgzip: /usr/local/bin/bgzip
   bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  cmpfillin: /usr/local/bin/cmpfillin
-  compile_et: /usr/local/bin/compile_et

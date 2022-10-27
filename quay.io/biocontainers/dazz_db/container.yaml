@@ -25,5 +25,3 @@ aliases:
   DBstats: /usr/local/bin/DBstats
   fasta2DAM: /usr/local/bin/fasta2DAM
   fasta2DB: /usr/local/bin/fasta2DB
-  simulator: /usr/local/bin/simulator
-  env-execute: /usr/local/env-execute

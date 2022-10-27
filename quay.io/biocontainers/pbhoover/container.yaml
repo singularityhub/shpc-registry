@@ -7,7 +7,6 @@ tags:
   1.0.7--pyhdfd78af_5: sha256:8e2902231220a245a3225e850dc4313956f7e29de2d6e950b84603f5ba8c7764
 docker: quay.io/biocontainers/pbhoover
 aliases:
-  .open: /usr/local/bin/.open
   bash5tools.py: /usr/local/bin/bash5tools.py
   cmph5tools.py: /usr/local/bin/cmph5tools.py
   dataset.py: /usr/local/bin/dataset.py
@@ -22,18 +21,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump
-  h5fc: /usr/local/bin/h5fc
-  h5format_convert: /usr/local/bin/h5format_convert
-  h5import: /usr/local/bin/h5import
-  h5jam: /usr/local/bin/h5jam
-  h5ls: /usr/local/bin/h5ls
-  h5mkgrp: /usr/local/bin/h5mkgrp
-  h5perf_serial: /usr/local/bin/h5perf_serial
-  h5redeploy: /usr/local/bin/h5redeploy

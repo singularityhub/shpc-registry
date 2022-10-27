@@ -18,18 +18,3 @@ aliases:
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
   easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  exact-tandems: /usr/local/bin/exact-tandems
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  mapview: /usr/local/bin/mapview
-  mgaps: /usr/local/bin/mgaps
-  mummer: /usr/local/bin/mummer
-  mummerplot: /usr/local/bin/mummerplot

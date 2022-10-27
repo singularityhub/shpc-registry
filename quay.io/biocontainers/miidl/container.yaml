@@ -17,18 +17,3 @@ aliases:
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
   djpeg: /usr/local/bin/djpeg
   f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  idle3: /usr/local/bin/idle3
-  idle3.7: /usr/local/bin/idle3.7
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jpegtran: /usr/local/bin/jpegtran
-  jpgicc: /usr/local/bin/jpgicc
-  libdeflate-gunzip: /usr/local/bin/libdeflate-gunzip
-  libdeflate-gzip: /usr/local/bin/libdeflate-gzip
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config

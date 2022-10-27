@@ -7,7 +7,6 @@ tags:
   1.8.0--r36_1: sha256:56c15cec63e5d8214b83ee5dfc8880264752f66df1f96211e18ee88f08e30699
 docker: quay.io/biocontainers/bioconductor-scone
 aliases:
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   R: /usr/local/bin/R
@@ -18,17 +17,3 @@ aliases:
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

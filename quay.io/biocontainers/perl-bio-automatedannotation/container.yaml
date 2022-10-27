@@ -10,7 +10,6 @@ aliases:
   annotate_bacteria: /usr/local/bin/annotate_bacteria
   gene_name_occurances: /usr/local/bin/gene_name_occurances
   parse_genes_from_gffs: /usr/local/bin/parse_genes_from_gffs
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -21,17 +20,3 @@ aliases:
   archive-pubmed: /usr/local/bin/archive-pubmed
   asn2xml: /usr/local/bin/asn2xml
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  blst2tkns: /usr/local/bin/blst2tkns
-  bp_aacomp: /usr/local/bin/bp_aacomp
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
-  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
-  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl

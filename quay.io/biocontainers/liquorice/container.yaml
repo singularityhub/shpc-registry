@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/liquorice
 aliases:
   LIQUORICE: /usr/local/bin/LIQUORICE
   LIQUORICE_summary: /usr/local/bin/LIQUORICE_summary
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   acountry: /usr/local/bin/acountry
@@ -20,17 +19,3 @@ aliases:
   bamCompare: /usr/local/bin/bamCompare
   bamCoverage: /usr/local/bin/bamCoverage
   bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bigwigCompare: /usr/local/bin/bigwigCompare
-  bokeh: /usr/local/bin/bokeh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep

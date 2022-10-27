@@ -7,12 +7,6 @@ tags:
   1.34.0--r41hdfd78af_0: sha256:cb4165668a30a90d5a4cbb9a2d38d4cc4e527839b01259e754f70c06fd3361e2
 docker: quay.io/biocontainers/bioconductor-mineica
 aliases:
-  .bioconductor-lumihumanall.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh
-  .bioconductor-fdb.infiniummethylation.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-fdb.infiniummethylation.hg19-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -23,13 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo

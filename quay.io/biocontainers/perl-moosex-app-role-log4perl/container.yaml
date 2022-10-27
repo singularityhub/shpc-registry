@@ -17,18 +17,3 @@ aliases:
   encguess: /usr/local/bin/encguess
   h2ph: /usr/local/bin/h2ph
   h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  l4p-tmpl: /usr/local/bin/l4p-tmpl
-  libnetcfg: /usr/local/bin/libnetcfg
-  moose-outdated: /usr/local/bin/moose-outdated
-  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
-  perl: /usr/local/bin/perl
-  perl5.32.1: /usr/local/bin/perl5.32.1
-  perlbug: /usr/local/bin/perlbug
-  perldoc: /usr/local/bin/perldoc
-  perlivp: /usr/local/bin/perlivp
-  perlthanks: /usr/local/bin/perlthanks
-  piconv: /usr/local/bin/piconv
-  pl2pm: /usr/local/bin/pl2pm
-  pod2html: /usr/local/bin/pod2html

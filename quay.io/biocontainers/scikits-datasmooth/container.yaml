@@ -18,18 +18,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  glpsol: /usr/local/bin/glpsol
-  gpmetis: /usr/local/bin/gpmetis
-  graphchk: /usr/local/bin/graphchk
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat

@@ -21,18 +21,3 @@ aliases:
   jcmd: /usr/local/bin/jcmd
   jconsole: /usr/local/bin/jconsole
   jdb: /usr/local/bin/jdb
-  jdeprscan: /usr/local/bin/jdeprscan
-  jdeps: /usr/local/bin/jdeps
-  jhsdb: /usr/local/bin/jhsdb
-  jimage: /usr/local/bin/jimage
-  jinfo: /usr/local/bin/jinfo
-  jjs: /usr/local/bin/jjs
-  jlink: /usr/local/bin/jlink
-  jmap: /usr/local/bin/jmap
-  jmod: /usr/local/bin/jmod
-  jps: /usr/local/bin/jps
-  jrunscript: /usr/local/bin/jrunscript
-  jshell: /usr/local/bin/jshell
-  jstack: /usr/local/bin/jstack
-  jstat: /usr/local/bin/jstat
-  jstatd: /usr/local/bin/jstatd

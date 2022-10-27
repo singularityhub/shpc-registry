@@ -7,7 +7,6 @@ tags:
   0.6a2--py27_0: sha256:0fdaffb6d48e786c7bd32c35bdf32192f3c9169c1fdc5ce13b1f3a500276279e
 docker: quay.io/biocontainers/xgboost
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   activate: /usr/local/bin/activate
   c_rehash: /usr/local/bin/c_rehash
@@ -18,14 +17,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   idle: /usr/local/bin/idle
   openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2.7: /usr/local/bin/python2.7
-  smtpd.py: /usr/local/bin/smtpd.py
-  sqlite3: /usr/local/bin/sqlite3
-  tclsh8.5: /usr/local/bin/tclsh8.5
-  wheel: /usr/local/bin/wheel
-  wish8.5: /usr/local/bin/wish8.5

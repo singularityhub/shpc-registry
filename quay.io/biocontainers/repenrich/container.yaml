@@ -19,18 +19,3 @@ aliases:
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie: /usr/local/bin/bowtie
-  bowtie-align-l: /usr/local/bin/bowtie-align-l
-  bowtie-align-s: /usr/local/bin/bowtie-align-s
-  bowtie-build: /usr/local/bin/bowtie-build
-  bowtie-build-l: /usr/local/bin/bowtie-build-l
-  bowtie-build-s: /usr/local/bin/bowtie-build-s
-  bowtie-inspect: /usr/local/bin/bowtie-inspect
-  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
-  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

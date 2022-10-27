@@ -18,18 +18,3 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   any2fasta: /usr/local/bin/any2fasta
   bFst: /usr/local/bin/bFst
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bamleftalign: /usr/local/bin/bamleftalign
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bc: /usr/local/bin/bc
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bed2region: /usr/local/bin/bed2region
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip

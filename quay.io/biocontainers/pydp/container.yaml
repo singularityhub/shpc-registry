@@ -17,18 +17,3 @@ aliases:
   f2py2.7: /usr/local/bin/f2py2.7
   idle: /usr/local/bin/idle
   infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  numba: /usr/local/bin/numba
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pycc: /usr/local/bin/pycc
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
-  reset: /usr/local/bin/reset

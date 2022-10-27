@@ -19,18 +19,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
   infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7

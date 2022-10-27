@@ -19,18 +19,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   captoinfo: /usr/local/bin/captoinfo
   clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  idle3: /usr/local/bin/idle3
-  idle3.5: /usr/local/bin/idle3.5
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff

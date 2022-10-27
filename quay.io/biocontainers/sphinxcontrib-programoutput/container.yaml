@@ -7,7 +7,6 @@ tags:
   0.8--py36_0: sha256:45fb407ad81899a23e0da9c91972b2fc0a9f3cb042823fb6ca6d1739a9c91e39
 docker: quay.io/biocontainers/sphinxcontrib-programoutput
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -18,17 +17,3 @@ aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6
   idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pybabel: /usr/local/bin/pybabel
-  pydoc: /usr/local/bin/pydoc
-  pydoc3: /usr/local/bin/pydoc3
-  pydoc3.6: /usr/local/bin/pydoc3.6
-  pygmentize: /usr/local/bin/pygmentize
-  python: /usr/local/bin/python
-  python3: /usr/local/bin/python3
-  python3-config: /usr/local/bin/python3-config
-  python3.6: /usr/local/bin/python3.6
-  python3.6-config: /usr/local/bin/python3.6-config
-  python3.6m: /usr/local/bin/python3.6m
-  python3.6m-config: /usr/local/bin/python3.6m-config

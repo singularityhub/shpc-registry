@@ -20,18 +20,3 @@ aliases:
   idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
   infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jupyter: /usr/local/bin/jupyter
-  jupyter-kernel: /usr/local/bin/jupyter-kernel
-  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
-  jupyter-migrate: /usr/local/bin/jupyter-migrate
-  jupyter-run: /usr/local/bin/jupyter-run
-  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep

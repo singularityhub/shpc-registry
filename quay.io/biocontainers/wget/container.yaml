@@ -17,18 +17,3 @@ aliases:
   msgattrib: /usr/local/bin/msgattrib
   msgcat: /usr/local/bin/msgcat
   msgcmp: /usr/local/bin/msgcmp
-  msgcomm: /usr/local/bin/msgcomm
-  msgconv: /usr/local/bin/msgconv
-  msgen: /usr/local/bin/msgen
-  msgexec: /usr/local/bin/msgexec
-  msgfilter: /usr/local/bin/msgfilter
-  msgfmt: /usr/local/bin/msgfmt
-  msggrep: /usr/local/bin/msggrep
-  msginit: /usr/local/bin/msginit
-  msgmerge: /usr/local/bin/msgmerge
-  msgunfmt: /usr/local/bin/msgunfmt
-  msguniq: /usr/local/bin/msguniq
-  ngettext: /usr/local/bin/ngettext
-  openssl: /usr/local/bin/openssl
-  recode-sr-latin: /usr/local/bin/recode-sr-latin
-  wget: /usr/local/bin/wget

@@ -7,7 +7,6 @@ tags:
   1.7.8--py36h8c4c3a4_4: sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36
 docker: quay.io/biocontainers/pasta
 aliases:
-  README.txt: /usr/local/bin/README.txt
   fakealigner: /usr/local/bin/fakealigner
   faketree: /usr/local/bin/faketree
   fasttreeMP: /usr/local/bin/fasttreeMP
@@ -31,18 +30,3 @@ aliases:
   clustalw2: /usr/local/bin/clustalw2
   derb: /usr/local/bin/derb
   djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  fasttree: /usr/local/bin/fasttree
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-conflist: /usr/local/bin/fc-conflist
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk

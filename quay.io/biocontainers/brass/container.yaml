@@ -82,10 +82,8 @@ aliases:
   samsort: /usr/local/bin/samsort
   samsplit: /usr/local/bin/samsplit
   xml_to_bas.pl: /usr/local/bin/xml_to_bas.pl
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   activate: /usr/local/bin/activate
@@ -94,16 +92,3 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip
-  binhex.pl: /usr/local/bin/binhex.pl
-  blat: /usr/local/bin/blat

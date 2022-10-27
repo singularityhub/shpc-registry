@@ -48,18 +48,3 @@ aliases:
   gencnval: /usr/local/bin/gencnval
   gendict: /usr/local/bin/gendict
   genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo
-  lzmore: /usr/local/bin/lzmore
-  makeconv: /usr/local/bin/makeconv

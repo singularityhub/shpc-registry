@@ -19,18 +19,3 @@ aliases:
   cythonize: /usr/local/bin/cythonize
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  fastaq: /usr/local/bin/fastaq
-  idle3: /usr/local/bin/idle3
-  idle3.7: /usr/local/bin/idle3.7
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec

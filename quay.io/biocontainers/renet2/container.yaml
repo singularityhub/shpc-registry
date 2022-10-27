@@ -18,18 +18,3 @@ aliases:
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
   easy_install: /usr/local/bin/easy_install
-  erb: /usr/local/bin/erb
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  gdbm_dump: /usr/local/bin/gdbm_dump
-  gdbm_load: /usr/local/bin/gdbm_load
-  gdbmtool: /usr/local/bin/gdbmtool
-  gem: /usr/local/bin/gem
-  idle3: /usr/local/bin/idle3
-  idle3.7: /usr/local/bin/idle3.7
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  irb: /usr/local/bin/irb
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp

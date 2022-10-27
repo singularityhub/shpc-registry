@@ -18,18 +18,3 @@ aliases:
   Rscript: /usr/local/bin/Rscript
   aclocal.bak: /usr/local/bin/aclocal.bak
   acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  alimask: /usr/local/bin/alimask
-  autoheader.bak: /usr/local/bin/autoheader.bak
-  autom4te.bak: /usr/local/bin/autom4te.bak
-  automake.bak: /usr/local/bin/automake.bak
-  autopoint: /usr/local/bin/autopoint
-  autoreconf.bak: /usr/local/bin/autoreconf.bak
-  autoscan.bak: /usr/local/bin/autoscan.bak
-  autoupdate.bak: /usr/local/bin/autoupdate.bak
-  bazel-scan.py: /usr/local/bin/bazel-scan.py
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build

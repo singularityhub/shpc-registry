@@ -19,18 +19,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
   cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  easydev_buildPackage: /usr/local/bin/easydev_buildPackage
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict

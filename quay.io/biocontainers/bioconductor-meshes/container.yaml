@@ -7,9 +7,6 @@ tags:
   1.8.0--r351_0: sha256:4052fcdbf57a02a068208fc6bc09c5b44f4fe5e3c47986b785eb0907883ae2b9
 docker: quay.io/biocontainers/bioconductor-meshes
 aliases:
-  .bioconductor-mesh.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mesh.db-pre-unlink.sh
-  .bioconductor-do.db-pre-unlink.sh: /usr/local/bin/.bioconductor-do.db-pre-unlink.sh
-  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   activate: /usr/local/bin/activate
@@ -20,16 +17,3 @@ aliases:
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

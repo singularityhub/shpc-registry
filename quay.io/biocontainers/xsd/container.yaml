@@ -17,18 +17,3 @@ aliases:
   Redirect: /usr/local/bin/Redirect
   SAX2Count: /usr/local/bin/SAX2Count
   SAX2Print: /usr/local/bin/SAX2Print
-  SAXCount: /usr/local/bin/SAXCount
-  SAXPrint: /usr/local/bin/SAXPrint
-  SCMPrint: /usr/local/bin/SCMPrint
-  SEnumVal: /usr/local/bin/SEnumVal
-  StdInParse: /usr/local/bin/StdInParse
-  XInclude: /usr/local/bin/XInclude
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  makeconv: /usr/local/bin/makeconv

@@ -17,18 +17,3 @@ aliases:
   cwebp: /usr/local/bin/cwebp
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  djpeg: /usr/local/bin/djpeg
-  dwebp: /usr/local/bin/dwebp
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fonttools: /usr/local/bin/fonttools
-  freetype-config: /usr/local/bin/freetype-config
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix

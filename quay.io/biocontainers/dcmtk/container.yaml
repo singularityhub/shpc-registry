@@ -90,18 +90,3 @@ aliases:
   fax2tiff: /usr/local/bin/fax2tiff
   flac: /usr/local/bin/flac
   genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  gettext: /usr/local/bin/gettext
-  gettext.sh: /usr/local/bin/gettext.sh
-  gettextize: /usr/local/bin/gettextize
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  jpegtran: /usr/local/bin/jpegtran
-  libdeflate-gunzip: /usr/local/bin/libdeflate-gunzip
-  libdeflate-gzip: /usr/local/bin/libdeflate-gzip
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config

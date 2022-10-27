@@ -7,7 +7,6 @@ tags:
   0.3.3--py37h8902056_1: sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80
 docker: quay.io/biocontainers/hits
 aliases:
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   acountry: /usr/local/bin/acountry
@@ -18,17 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  curve_keygen: /usr/local/bin/curve_keygen

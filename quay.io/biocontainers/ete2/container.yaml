@@ -26,18 +26,3 @@ aliases:
   clear: /usr/local/bin/clear
   derb: /usr/local/bin/derb
   designer: /usr/local/bin/designer
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan

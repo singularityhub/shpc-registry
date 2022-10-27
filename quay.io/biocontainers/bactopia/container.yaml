@@ -39,8 +39,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   FET.pl: /usr/local/bin/FET.pl
-  README: /usr/local/bin/README
-  '[': /usr/local/bin/[
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -48,16 +46,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  b2sum: /usr/local/bin/b2sum
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bcftools: /usr/local/bin/bcftools
-  between-two-genes: /usr/local/bin/between-two-genes

@@ -20,7 +20,3 @@ aliases:
   sqlite3: /usr/local/bin/sqlite3
   tabs: /usr/local/bin/tabs
   tic: /usr/local/bin/tic
-  toe: /usr/local/bin/toe
-  tput: /usr/local/bin/tput
-  tset: /usr/local/bin/tset
-  env-execute: /usr/local/env-execute

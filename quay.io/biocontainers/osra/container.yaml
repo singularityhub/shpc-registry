@@ -43,18 +43,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  cwebp: /usr/local/bin/cwebp
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  dvipdf: /usr/local/bin/dvipdf
-  dwebp: /usr/local/bin/dwebp
-  envsubst: /usr/local/bin/envsubst
-  eps2eps: /usr/local/bin/eps2eps
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache

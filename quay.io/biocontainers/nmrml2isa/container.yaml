@@ -19,18 +19,3 @@ aliases:
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config

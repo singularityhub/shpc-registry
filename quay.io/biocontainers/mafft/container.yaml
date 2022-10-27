@@ -17,15 +17,3 @@ aliases:
   mafft-einsi: /usr/local/bin/mafft-einsi
   mafft-fftns: /usr/local/bin/mafft-fftns
   mafft-fftnsi: /usr/local/bin/mafft-fftnsi
-  mafft-ginsi: /usr/local/bin/mafft-ginsi
-  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
-  mafft-linsi: /usr/local/bin/mafft-linsi
-  mafft-nwns: /usr/local/bin/mafft-nwns
-  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
-  mafft-profile: /usr/local/bin/mafft-profile
-  mafft-qinsi: /usr/local/bin/mafft-qinsi
-  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
-  mafft-xinsi: /usr/local/bin/mafft-xinsi
-  nwns: /usr/local/bin/nwns
-  nwnsi: /usr/local/bin/nwnsi
-  env-execute: /usr/local/env-execute

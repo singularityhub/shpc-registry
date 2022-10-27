@@ -18,18 +18,3 @@ aliases:
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
   conda: /usr/local/bin/conda
-  convert2blastmask: /usr/local/bin/convert2blastmask
-  datatool: /usr/local/bin/datatool
-  deactivate: /usr/local/bin/deactivate
-  deltablast: /usr/local/bin/deltablast
-  derb: /usr/local/bin/derb
-  dustmasker: /usr/local/bin/dustmasker
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  gene_info_reader: /usr/local/bin/gene_info_reader
-  genrb: /usr/local/bin/genrb
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  legacy_blast.pl: /usr/local/bin/legacy_blast.pl

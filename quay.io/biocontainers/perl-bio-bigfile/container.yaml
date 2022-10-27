@@ -46,18 +46,3 @@ aliases:
   bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
   bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl
   bp_das_server.pl: /usr/local/bin/bp_das_server.pl
-  bp_dbsplit.pl: /usr/local/bin/bp_dbsplit.pl
-  bp_download_query_genbank.pl: /usr/local/bin/bp_download_query_genbank.pl
-  bp_extract_feature_seq.pl: /usr/local/bin/bp_extract_feature_seq.pl
-  bp_fast_load_gff.pl: /usr/local/bin/bp_fast_load_gff.pl
-  bp_fastam9_to_table.pl: /usr/local/bin/bp_fastam9_to_table.pl
-  bp_fetch.pl: /usr/local/bin/bp_fetch.pl
-  bp_filter_search.pl: /usr/local/bin/bp_filter_search.pl
-  bp_flanks.pl: /usr/local/bin/bp_flanks.pl
-  bp_gccalc.pl: /usr/local/bin/bp_gccalc.pl
-  bp_genbank2gff.pl: /usr/local/bin/bp_genbank2gff.pl
-  bp_genbank2gff3.pl: /usr/local/bin/bp_genbank2gff3.pl
-  bp_generate_histogram.pl: /usr/local/bin/bp_generate_histogram.pl
-  bp_heterogeneity_test.pl: /usr/local/bin/bp_heterogeneity_test.pl
-  bp_hivq.pl: /usr/local/bin/bp_hivq.pl
-  bp_hmmer_to_table.pl: /usr/local/bin/bp_hmmer_to_table.pl

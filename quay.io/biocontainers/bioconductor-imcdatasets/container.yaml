@@ -7,8 +7,6 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33
 docker: quay.io/biocontainers/bioconductor-imcdatasets
 aliases:
-  .bioconductor-imcdatasets-pre-unlink.sh: /usr/local/bin/.bioconductor-imcdatasets-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint
@@ -19,17 +17,3 @@ aliases:
   R: /usr/local/bin/R
   Redirect: /usr/local/bin/Redirect
   Rscript: /usr/local/bin/Rscript
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
-  SAXCount: /usr/local/bin/SAXCount
-  SAXPrint: /usr/local/bin/SAXPrint
-  SCMPrint: /usr/local/bin/SCMPrint
-  SEnumVal: /usr/local/bin/SEnumVal
-  StdInParse: /usr/local/bin/StdInParse
-  XInclude: /usr/local/bin/XInclude
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  applygeo: /usr/local/bin/applygeo
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2

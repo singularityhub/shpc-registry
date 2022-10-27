@@ -17,18 +17,3 @@ aliases:
   bowtie-build-s: /usr/local/bin/bowtie-build-s
   bowtie-inspect: /usr/local/bin/bowtie-inspect
   bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
-  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  idle3: /usr/local/bin/idle3
-  idle3.6: /usr/local/bin/idle3.6
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  instmodsh: /usr/local/bin/instmodsh

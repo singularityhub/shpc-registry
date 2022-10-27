@@ -7,12 +7,6 @@ tags:
   1.8.0--r36_0: sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257
 docker: quay.io/biocontainers/bioconductor-trena
 aliases:
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
-  .bioconductor-snplocs.hsapiens.dbsnp150.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp150.grch38-pre-unlink.sh
-  .bioconductor-bsgenome.hsapiens.ucsc.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg19-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   autopoint: /usr/local/bin/autopoint
@@ -23,15 +17,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

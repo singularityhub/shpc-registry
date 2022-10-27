@@ -29,18 +29,3 @@ aliases:
   addssu.sh: /usr/local/bin/addssu.sh
   adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  ahost: /usr/local/bin/ahost
-  alltoall.sh: /usr/local/bin/alltoall.sh
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
-  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  annotateBed: /usr/local/bin/annotateBed
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
-  bbduk.sh: /usr/local/bin/bbduk.sh
-  bbest.sh: /usr/local/bin/bbest.sh

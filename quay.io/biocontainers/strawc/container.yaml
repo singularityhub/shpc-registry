@@ -17,18 +17,3 @@ aliases:
   clear: /usr/local/bin/clear
   compile_et: /usr/local/bin/compile_et
   curl-config: /usr/local/bin/curl-config
-  gss-client: /usr/local/bin/gss-client
-  h2load: /usr/local/bin/h2load
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  k5srvutil: /usr/local/bin/k5srvutil
-  kadmin: /usr/local/bin/kadmin
-  kdestroy: /usr/local/bin/kdestroy
-  kinit: /usr/local/bin/kinit
-  klist: /usr/local/bin/klist
-  kpasswd: /usr/local/bin/kpasswd
-  krb5-config: /usr/local/bin/krb5-config
-  ksu: /usr/local/bin/ksu
-  kswitch: /usr/local/bin/kswitch

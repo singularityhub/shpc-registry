@@ -57,18 +57,3 @@ aliases:
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
   acyclic: /usr/local/bin/acyclic
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
-  annotate: /usr/local/bin/annotate
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh

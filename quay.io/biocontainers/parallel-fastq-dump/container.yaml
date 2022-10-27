@@ -61,18 +61,3 @@ aliases:
   align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
   align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  bam-load: /usr/local/bin/bam-load
-  bam-load.2: /usr/local/bin/bam-load.2
-  c_rehash: /usr/local/bin/c_rehash
-  cache-mgr: /usr/local/bin/cache-mgr
-  cache-mgr.2: /usr/local/bin/cache-mgr.2
-  captoinfo: /usr/local/bin/captoinfo
-  cg-load: /usr/local/bin/cg-load
-  cg-load.2: /usr/local/bin/cg-load.2
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cpanm: /usr/local/bin/cpanm
-  curl: /usr/local/bin/curl

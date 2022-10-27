@@ -48,18 +48,3 @@ aliases:
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
   c2ph: /usr/local/bin/c2ph
-  clustalw: /usr/local/bin/clustalw
-  cluster: /usr/local/bin/cluster
-  conda: /usr/local/bin/conda
-  convert2blastmask: /usr/local/bin/convert2blastmask
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  datatool: /usr/local/bin/datatool
-  deactivate: /usr/local/bin/deactivate
-  deltablast: /usr/local/bin/deltablast
-  derb: /usr/local/bin/derb
-  dustmasker: /usr/local/bin/dustmasker
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu

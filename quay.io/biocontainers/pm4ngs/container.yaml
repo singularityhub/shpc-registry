@@ -37,8 +37,6 @@ aliases:
   prov-compare: /usr/local/bin/prov-compare
   prov-convert: /usr/local/bin/prov-convert
   wsdump.py: /usr/local/bin/wsdump.py
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   acountry: /usr/local/bin/acountry
@@ -49,16 +47,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg

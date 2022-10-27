@@ -86,23 +86,8 @@ aliases:
   CA.pm: /usr/local/bin/CA.pm
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  adig: /usr/local/bin/adig
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  ahost: /usr/local/bin/ahost
-  align-cache: /usr/local/bin/align-cache
-  align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  appletviewer: /usr/local/bin/appletviewer
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asadmin: /usr/local/bin/asadmin
-  asp-cp: /usr/local/bin/asp-cp

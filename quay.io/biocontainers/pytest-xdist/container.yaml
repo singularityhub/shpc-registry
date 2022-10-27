@@ -7,7 +7,6 @@ tags:
   1.14--py36_0: sha256:6f77512ac6f205f1d2f568a405d7cdee0b1bb2c979572e10f92c6da2e50e8c40
 docker: quay.io/biocontainers/pytest-xdist
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -18,17 +17,3 @@ aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6
   idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  py.test: /usr/local/bin/py.test
-  pydoc: /usr/local/bin/pydoc
-  pydoc3: /usr/local/bin/pydoc3
-  pydoc3.6: /usr/local/bin/pydoc3.6
-  pytest: /usr/local/bin/pytest
-  python: /usr/local/bin/python
-  python3: /usr/local/bin/python3
-  python3-config: /usr/local/bin/python3-config
-  python3.6: /usr/local/bin/python3.6
-  python3.6-config: /usr/local/bin/python3.6-config
-  python3.6m: /usr/local/bin/python3.6m
-  python3.6m-config: /usr/local/bin/python3.6m-config

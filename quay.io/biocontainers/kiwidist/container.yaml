@@ -46,18 +46,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
   fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate
-  freetype-config: /usr/local/bin/freetype-config
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config

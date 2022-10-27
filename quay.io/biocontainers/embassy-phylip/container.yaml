@@ -97,18 +97,3 @@ aliases:
   _antigenic: /usr/local/bin/_antigenic
   _backtranambig: /usr/local/bin/_backtranambig
   _backtranseq: /usr/local/bin/_backtranseq
-  _banana: /usr/local/bin/_banana
-  _biosed: /usr/local/bin/_biosed
-  _btwisted: /usr/local/bin/_btwisted
-  _cai: /usr/local/bin/_cai
-  _chaos: /usr/local/bin/_chaos
-  _charge: /usr/local/bin/_charge
-  _checktrans: /usr/local/bin/_checktrans
-  _chips: /usr/local/bin/_chips
-  _cirdna: /usr/local/bin/_cirdna
-  _codcmp: /usr/local/bin/_codcmp
-  _codcopy: /usr/local/bin/_codcopy
-  _coderet: /usr/local/bin/_coderet
-  _compseq: /usr/local/bin/_compseq
-  _cons: /usr/local/bin/_cons
-  _cpgplot: /usr/local/bin/_cpgplot

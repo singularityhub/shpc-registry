@@ -20,18 +20,3 @@ aliases:
   certmgr: /usr/local/bin/certmgr
   chktrust: /usr/local/bin/chktrust
   crlupdate: /usr/local/bin/crlupdate
-  csc: /usr/local/bin/csc
-  csharp: /usr/local/bin/csharp
-  csi: /usr/local/bin/csi
-  disco: /usr/local/bin/disco
-  dmcs: /usr/local/bin/dmcs
-  dtd2rng: /usr/local/bin/dtd2rng
-  dtd2xsd: /usr/local/bin/dtd2xsd
-  gacutil: /usr/local/bin/gacutil
-  gacutil2: /usr/local/bin/gacutil2
-  genxs: /usr/local/bin/genxs
-  httpcfg: /usr/local/bin/httpcfg
-  ikdasm: /usr/local/bin/ikdasm
-  ilasm: /usr/local/bin/ilasm
-  illinkanalyzer: /usr/local/bin/illinkanalyzer
-  installvst: /usr/local/bin/installvst

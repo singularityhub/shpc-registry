@@ -7,10 +7,6 @@ tags:
   0.34.0--r41hdfd78af_1: sha256:4b8d46e1d738ebd8470b72ea25dc9fff33b5f9e95cb3b26e5dbeac478da89f36
 docker: quay.io/biocontainers/bioconductor-humanstemcell
 aliases:
-  .bioconductor-hgu133plus2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh
-  .bioconductor-humanstemcell-pre-unlink.sh: /usr/local/bin/.bioconductor-humanstemcell-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -21,16 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

@@ -20,7 +20,6 @@ aliases:
   nextflow.bak: /usr/local/bin/nextflow.bak
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  '[': /usr/local/bin/[
   appletviewer: /usr/local/bin/appletviewer
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
@@ -29,17 +28,3 @@ aliases:
   basenc: /usr/local/bin/basenc
   bwa: /usr/local/bin/bwa
   c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cat: /usr/local/bin/cat
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cksum: /usr/local/bin/cksum
-  clear: /usr/local/bin/clear
-  comm: /usr/local/bin/comm
-  compile_et: /usr/local/bin/compile_et
-  corelist: /usr/local/bin/corelist
-  cp: /usr/local/bin/cp
-  cpan: /usr/local/bin/cpan

@@ -18,18 +18,3 @@ aliases:
   RNAeval: /usr/local/bin/RNAeval
   RNAfold: /usr/local/bin/RNAfold
   RNAforester: /usr/local/bin/RNAforester
-  RNAheat: /usr/local/bin/RNAheat
-  RNAinverse: /usr/local/bin/RNAinverse
-  RNApaln: /usr/local/bin/RNApaln
-  RNApdist: /usr/local/bin/RNApdist
-  RNAplfold: /usr/local/bin/RNAplfold
-  RNAplot: /usr/local/bin/RNAplot
-  RNAsubopt: /usr/local/bin/RNAsubopt
-  RNAup: /usr/local/bin/RNAup
-  ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bgzip: /usr/local/bin/bgzip

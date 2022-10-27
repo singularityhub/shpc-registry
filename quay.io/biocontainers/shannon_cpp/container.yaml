@@ -12,7 +12,6 @@ aliases:
   shannon_cpp: /usr/local/bin/shannon_cpp
   syrupy.py: /usr/local/bin/syrupy.py
   2to3: /usr/local/bin/2to3
-  '[': /usr/local/bin/[
   autopoint: /usr/local/bin/autopoint
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
@@ -22,17 +21,3 @@ aliases:
   bunzip2: /usr/local/bin/bunzip2
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cat: /usr/local/bin/cat
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod

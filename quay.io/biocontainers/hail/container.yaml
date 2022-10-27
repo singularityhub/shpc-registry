@@ -46,18 +46,3 @@ aliases:
   bq: /usr/local/bin/bq
   c_rehash: /usr/local/bin/c_rehash
   captoinfo: /usr/local/bin/captoinfo
-  chardetect: /usr/local/bin/chardetect
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  clhsdb: /usr/local/bin/clhsdb
-  djpeg: /usr/local/bin/djpeg
-  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
-  easy_install: /usr/local/bin/easy_install
-  extcheck: /usr/local/bin/extcheck
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.6: /usr/local/bin/f2py3.6
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  gcloud: /usr/local/bin/gcloud

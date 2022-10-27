@@ -18,18 +18,3 @@ aliases:
   RNAalifold: /usr/local/bin/RNAalifold
   RNAcofold: /usr/local/bin/RNAcofold
   RNAdistance: /usr/local/bin/RNAdistance
-  RNAduplex: /usr/local/bin/RNAduplex
-  RNAeval: /usr/local/bin/RNAeval
-  RNAfold: /usr/local/bin/RNAfold
-  RNAforester: /usr/local/bin/RNAforester
-  RNAheat: /usr/local/bin/RNAheat
-  RNAinverse: /usr/local/bin/RNAinverse
-  RNApaln: /usr/local/bin/RNApaln
-  RNAparconv: /usr/local/bin/RNAparconv
-  RNApdist: /usr/local/bin/RNApdist
-  RNAplex: /usr/local/bin/RNAplex
-  RNAplfold: /usr/local/bin/RNAplfold
-  RNAplot: /usr/local/bin/RNAplot
-  RNApvmin: /usr/local/bin/RNApvmin
-  RNAsnoop: /usr/local/bin/RNAsnoop
-  RNAsubopt: /usr/local/bin/RNAsubopt

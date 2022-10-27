@@ -21,18 +21,3 @@ aliases:
   gettextize: /usr/local/bin/gettextize
   libpng-config: /usr/local/bin/libpng-config
   libpng16-config: /usr/local/bin/libpng16-config
-  msgattrib: /usr/local/bin/msgattrib
-  msgcat: /usr/local/bin/msgcat
-  msgcmp: /usr/local/bin/msgcmp
-  msgcomm: /usr/local/bin/msgcomm
-  msgconv: /usr/local/bin/msgconv
-  msgen: /usr/local/bin/msgen
-  msgexec: /usr/local/bin/msgexec
-  msgfilter: /usr/local/bin/msgfilter
-  msgfmt: /usr/local/bin/msgfmt
-  msggrep: /usr/local/bin/msggrep
-  msginit: /usr/local/bin/msginit
-  msgmerge: /usr/local/bin/msgmerge
-  msgunfmt: /usr/local/bin/msgunfmt
-  msguniq: /usr/local/bin/msguniq
-  ngettext: /usr/local/bin/ngettext

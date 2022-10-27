@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/r-sew
 aliases:
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
-  '[': /usr/local/bin/[
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -18,17 +17,3 @@ aliases:
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover

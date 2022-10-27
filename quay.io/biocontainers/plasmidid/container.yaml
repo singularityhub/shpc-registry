@@ -40,7 +40,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
@@ -48,17 +47,3 @@ aliases:
   acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
   adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  awk: /usr/local/bin/awk
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq

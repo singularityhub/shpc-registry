@@ -7,10 +7,6 @@ tags:
   1.2.0--r41hdfd78af_0: sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c
 docker: quay.io/biocontainers/bioconductor-multisight
 aliases:
-  .bioconductor-do.db-pre-unlink.sh: /usr/local/bin/.bioconductor-do.db-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
-  .bioconductor-reactome.db-pre-unlink.sh: /usr/local/bin/.bioconductor-reactome.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -21,14 +17,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg

@@ -17,18 +17,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  idlj: /usr/local/bin/idlj
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javap: /usr/local/bin/javap
-  jcmd: /usr/local/bin/jcmd
-  jconsole: /usr/local/bin/jconsole
-  jdb: /usr/local/bin/jdb

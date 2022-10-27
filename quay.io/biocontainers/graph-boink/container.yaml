@@ -97,18 +97,3 @@ aliases:
   clang: /usr/local/bin/clang
   clang++: /usr/local/bin/clang++
   clang-check: /usr/local/bin/clang-check
-  clang-format: /usr/local/bin/clang-format
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep

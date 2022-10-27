@@ -16,7 +16,6 @@ aliases:
   m2fmt_tier_hits.pl: /usr/local/bin/m2fmt_tier_hits.pl
   transposonPSI.pl: /usr/local/bin/transposonPSI.pl
   transposon_db_m2fmt_to_gff3.pl: /usr/local/bin/transposon_db_m2fmt_to_gff3.pl
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
@@ -27,17 +26,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  binhex.pl: /usr/local/bin/binhex.pl
-  bl2seq: /usr/local/bin/bl2seq
-  blastall: /usr/local/bin/blastall
-  blastclust: /usr/local/bin/blastclust
-  blastpgp: /usr/local/bin/blastpgp
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl

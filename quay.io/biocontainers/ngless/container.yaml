@@ -19,18 +19,3 @@ aliases:
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   bunzip2: /usr/local/bin/bunzip2
-  bwa: /usr/local/bin/bwa
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

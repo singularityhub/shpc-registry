@@ -86,18 +86,3 @@ aliases:
   cpan: /usr/local/bin/cpan
   enc2xs: /usr/local/bin/enc2xs
   encguess: /usr/local/bin/encguess
-  fq2fa: /usr/local/bin/fq2fa
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep

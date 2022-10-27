@@ -23,18 +23,3 @@ aliases:
   clear: /usr/local/bin/clear
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  djpeg: /usr/local/bin/djpeg
-  doesitcache: /usr/local/bin/doesitcache
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist

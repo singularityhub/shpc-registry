@@ -57,18 +57,3 @@ aliases:
   x86_64-conda_cos6-linux-gnu-as: /usr/local/bin/x86_64-conda_cos6-linux-gnu-as
   x86_64-conda_cos6-linux-gnu-c++filt: /usr/local/bin/x86_64-conda_cos6-linux-gnu-c++filt
   x86_64-conda_cos6-linux-gnu-cc: /usr/local/bin/x86_64-conda_cos6-linux-gnu-cc
-  x86_64-conda_cos6-linux-gnu-cpp: /usr/local/bin/x86_64-conda_cos6-linux-gnu-cpp
-  x86_64-conda_cos6-linux-gnu-dwp: /usr/local/bin/x86_64-conda_cos6-linux-gnu-dwp
-  x86_64-conda_cos6-linux-gnu-elfedit: /usr/local/bin/x86_64-conda_cos6-linux-gnu-elfedit
-  x86_64-conda_cos6-linux-gnu-gcc: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcc
-  x86_64-conda_cos6-linux-gnu-gcc-ar: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcc-ar
-  x86_64-conda_cos6-linux-gnu-gcc-nm: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcc-nm
-  x86_64-conda_cos6-linux-gnu-gcc-ranlib: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcc-ranlib
-  x86_64-conda_cos6-linux-gnu-gcov: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcov
-  x86_64-conda_cos6-linux-gnu-gcov-dump: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcov-dump
-  x86_64-conda_cos6-linux-gnu-gcov-tool: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gcov-tool
-  x86_64-conda_cos6-linux-gnu-gprof: /usr/local/bin/x86_64-conda_cos6-linux-gnu-gprof
-  x86_64-conda_cos6-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld
-  x86_64-conda_cos6-linux-gnu-ld.bfd: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld.bfd
-  x86_64-conda_cos6-linux-gnu-ld.gold: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ld.gold
-  x86_64-conda_cos6-linux-gnu-nm: /usr/local/bin/x86_64-conda_cos6-linux-gnu-nm

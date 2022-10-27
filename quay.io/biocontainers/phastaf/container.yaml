@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/phastaf
 aliases:
   phastaf: /usr/local/bin/phastaf
-  '[': /usr/local/bin/[
   annotateBed: /usr/local/bin/annotateBed
   any2fasta: /usr/local/bin/any2fasta
   b2sum: /usr/local/bin/b2sum
@@ -19,17 +18,3 @@ aliases:
   basename: /usr/local/bin/basename
   basenc: /usr/local/bin/basenc
   bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless

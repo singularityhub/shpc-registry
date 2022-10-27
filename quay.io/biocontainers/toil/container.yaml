@@ -14,7 +14,6 @@ aliases:
   toil: /usr/local/bin/toil
   toil-cwl-runner: /usr/local/bin/toil-cwl-runner
   wsdump: /usr/local/bin/wsdump
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
@@ -25,17 +24,3 @@ aliases:
   bagit.py: /usr/local/bin/bagit.py
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
-  black: /usr/local/bin/black
-  black-primer: /usr/local/bin/black-primer
-  blackd: /usr/local/bin/blackd
-  bundle_image: /usr/local/bin/bundle_image
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  cfadmin: /usr/local/bin/cfadmin
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  cluster: /usr/local/bin/cluster
-  coloredlogs: /usr/local/bin/coloredlogs

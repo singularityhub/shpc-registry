@@ -17,18 +17,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
   infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
-  reset: /usr/local/bin/reset
-  smtpd.py: /usr/local/bin/smtpd.py
-  sqlite3: /usr/local/bin/sqlite3

@@ -7,7 +7,6 @@ tags:
   0.4.2--hdfd78af_0: sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43
 docker: quay.io/biocontainers/dfast_qc
 aliases:
-  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
   dfast_qc: /usr/local/bin/dfast_qc
   dqc_admin_tools.py: /usr/local/bin/dqc_admin_tools.py
   dqc_initial_setup.sh: /usr/local/bin/dqc_initial_setup.sh
@@ -20,7 +19,6 @@ aliases:
   sip-wheel: /usr/local/bin/sip-wheel
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -29,17 +27,3 @@ aliases:
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
-  assistant: /usr/local/bin/assistant
-  attr: /usr/local/bin/attr
-  autopoint: /usr/local/bin/autopoint
-  balsam: /usr/local/bin/balsam
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx

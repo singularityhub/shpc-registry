@@ -115,18 +115,3 @@ aliases:
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
   bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo
-  lzmore: /usr/local/bin/lzmore

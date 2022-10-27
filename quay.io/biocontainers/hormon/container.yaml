@@ -10,7 +10,6 @@ aliases:
   HORmon: /usr/local/bin/HORmon
   monomer_inference: /usr/local/bin/monomer_inference
   stringdecomposer: /usr/local/bin/stringdecomposer
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   acyclic: /usr/local/bin/acyclic
@@ -21,17 +20,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   cairo-trace: /usr/local/bin/cairo-trace
   captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  clustalo: /usr/local/bin/clustalo
-  cluster: /usr/local/bin/cluster
-  cwebp: /usr/local/bin/cwebp
-  delaunay: /usr/local/bin/delaunay
-  derb: /usr/local/bin/derb
-  diffimg: /usr/local/bin/diffimg
-  dijkstra: /usr/local/bin/dijkstra
-  djpeg: /usr/local/bin/djpeg
-  dot: /usr/local/bin/dot
-  dot2gxl: /usr/local/bin/dot2gxl

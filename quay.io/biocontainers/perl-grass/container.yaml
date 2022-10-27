@@ -18,7 +18,6 @@ aliases:
   gcov2perl: /usr/local/bin/gcov2perl
   grass.pl: /usr/local/bin/grass.pl
   lneato: /usr/local/bin/lneato
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   activate: /usr/local/bin/activate
@@ -29,17 +28,3 @@ aliases:
   bcomps: /usr/local/bin/bcomps
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
-  binhex.pl: /usr/local/bin/binhex.pl
-  bmp2tiff: /usr/local/bin/bmp2tiff
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
-  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
-  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
-  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
-  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
-  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
-  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
-  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl
-  bp_das_server.pl: /usr/local/bin/bp_das_server.pl
-  bp_dbsplit.pl: /usr/local/bin/bp_dbsplit.pl
-  bp_download_query_genbank.pl: /usr/local/bin/bp_download_query_genbank.pl

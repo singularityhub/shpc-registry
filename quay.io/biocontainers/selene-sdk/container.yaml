@@ -18,18 +18,3 @@ aliases:
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
   compile_et: /usr/local/bin/compile_et
-  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
-  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  curl-config: /usr/local/bin/curl-config
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.7: /usr/local/bin/f2py3.7
-  faidx: /usr/local/bin/faidx
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  gif2h5: /usr/local/bin/gif2h5
-  gss-client: /usr/local/bin/gss-client
-  h2load: /usr/local/bin/h2load

@@ -7,10 +7,8 @@ tags:
   0.99.1--r41h9ee0642_5: sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd
 docker: quay.io/biocontainers/r-rblast
 aliases:
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   CA.pm: /usr/local/bin/CA.pm
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
@@ -19,16 +17,3 @@ aliases:
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bt-context.txt: /usr/local/bin/bt-context.txt
-  bt-link: /usr/local/bin/bt-link
-  bt-load: /usr/local/bin/bt-load

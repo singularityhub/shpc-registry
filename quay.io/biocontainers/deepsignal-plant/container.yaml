@@ -18,18 +18,3 @@ aliases:
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
-  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++

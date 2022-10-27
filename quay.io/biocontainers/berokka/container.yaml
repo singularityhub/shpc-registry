@@ -8,11 +8,9 @@ tags:
 docker: quay.io/biocontainers/berokka
 aliases:
   berokka: /usr/local/bin/berokka
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
@@ -20,16 +18,3 @@ aliases:
   acyclic: /usr/local/bin/acyclic
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd

@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/kounta
 aliases:
   kounta: /usr/local/bin/kounta
-  '[': /usr/local/bin/[
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
@@ -19,17 +18,3 @@ aliases:
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  cat: /usr/local/bin/cat
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cksum: /usr/local/bin/cksum
-  comm: /usr/local/bin/comm

@@ -17,18 +17,3 @@ aliases:
   g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
   g-ir-compiler: /usr/local/bin/g-ir-compiler
   g-ir-generate: /usr/local/bin/g-ir-generate
-  g-ir-inspect: /usr/local/bin/g-ir-inspect
-  g-ir-scanner: /usr/local/bin/g-ir-scanner
-  gapplication: /usr/local/bin/gapplication
-  gdbus: /usr/local/bin/gdbus
-  gdbus-codegen: /usr/local/bin/gdbus-codegen
-  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
-  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
-  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
-  gettext: /usr/local/bin/gettext
-  gettext.sh: /usr/local/bin/gettext.sh
-  gettextize: /usr/local/bin/gettextize
-  gio: /usr/local/bin/gio
-  gio-querymodules: /usr/local/bin/gio-querymodules
-  glib-compile-resources: /usr/local/bin/glib-compile-resources
-  glib-compile-schemas: /usr/local/bin/glib-compile-schemas

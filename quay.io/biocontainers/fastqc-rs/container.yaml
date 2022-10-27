@@ -18,13 +18,3 @@ aliases:
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
   bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  freetype-config: /usr/local/bin/freetype-config
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config
-  openssl: /usr/local/bin/openssl
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
-  xmlwf: /usr/local/bin/xmlwf
-  env-execute: /usr/local/env-execute

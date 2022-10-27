@@ -7,7 +7,6 @@ tags:
   2.3.0--hec16e2b_4: sha256:23c75961f1aa6960e280955628070b0f90984464fa25dda23d5a9e3d0b0425b5
 docker: quay.io/biocontainers/vmatch
 aliases:
-  .vmatch-pre-unlink.sh: /usr/local/bin/.vmatch-pre-unlink.sh
   Vmatchtrans.pl: /usr/local/bin/Vmatchtrans.pl
   chain2dim: /usr/local/bin/chain2dim
   cleanpp.sh: /usr/local/bin/cleanpp.sh
@@ -34,18 +33,3 @@ aliases:
   instmodsh: /usr/local/bin/instmodsh
   json_pp: /usr/local/bin/json_pp
   libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
-  perl5.32.1: /usr/local/bin/perl5.32.1
-  perlbug: /usr/local/bin/perlbug
-  perldoc: /usr/local/bin/perldoc
-  perlivp: /usr/local/bin/perlivp
-  perlthanks: /usr/local/bin/perlthanks
-  piconv: /usr/local/bin/piconv
-  pl2pm: /usr/local/bin/pl2pm
-  pod2html: /usr/local/bin/pod2html
-  pod2man: /usr/local/bin/pod2man
-  pod2text: /usr/local/bin/pod2text
-  pod2usage: /usr/local/bin/pod2usage
-  podchecker: /usr/local/bin/podchecker
-  prove: /usr/local/bin/prove
-  ptar: /usr/local/bin/ptar

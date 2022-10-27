@@ -19,18 +19,3 @@ aliases:
   cmark: /usr/local/bin/cmark
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  futurize: /usr/local/bin/futurize
-  glpsol: /usr/local/bin/glpsol
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  isympy: /usr/local/bin/isympy
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless

@@ -12,7 +12,6 @@ aliases:
   FastTree: /usr/local/bin/FastTree
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
   FastTreeMP: /usr/local/bin/FastTreeMP
-  README: /usr/local/bin/README
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
   addadapters.sh: /usr/local/bin/addadapters.sh
@@ -20,17 +19,3 @@ aliases:
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
-  bbduk.sh: /usr/local/bin/bbduk.sh
-  bbest.sh: /usr/local/bin/bbest.sh
-  bbfakereads.sh: /usr/local/bin/bbfakereads.sh

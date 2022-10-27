@@ -31,18 +31,3 @@ aliases:
   jpegtran: /usr/local/bin/jpegtran
   libpng-config: /usr/local/bin/libpng-config
   libpng16-config: /usr/local/bin/libpng16-config
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo
-  lzmore: /usr/local/bin/lzmore
-  pal2rgb: /usr/local/bin/pal2rgb
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
-  ppm2tiff: /usr/local/bin/ppm2tiff

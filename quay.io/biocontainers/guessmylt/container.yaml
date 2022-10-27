@@ -46,8 +46,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
-  README.autoAug: /usr/local/bin/README.autoAug
   Rscript: /usr/local/bin/Rscript
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
@@ -55,16 +53,3 @@ aliases:
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  augustus: /usr/local/bin/augustus
-  augustus2browser.pl: /usr/local/bin/augustus2browser.pl
-  augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
-  autoAug.pl: /usr/local/bin/autoAug.pl
-  autoAugPred.pl: /usr/local/bin/autoAugPred.pl
-  autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
-  autopoint: /usr/local/bin/autopoint
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

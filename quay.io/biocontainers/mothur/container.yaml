@@ -49,18 +49,3 @@ aliases:
   bam-load: /usr/local/bin/bam-load
   bam-load.2: /usr/local/bin/bam-load.2
   bl2seq: /usr/local/bin/bl2seq
-  blastall: /usr/local/bin/blastall
-  blastclust: /usr/local/bin/blastclust
-  blastpgp: /usr/local/bin/blastpgp
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash

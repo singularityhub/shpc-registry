@@ -10,7 +10,6 @@ aliases:
   cameo: /usr/local/bin/cameo
   grako: /usr/local/bin/grako
   httpx: /usr/local/bin/httpx
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   c_rehash: /usr/local/bin/c_rehash
@@ -21,17 +20,3 @@ aliases:
   cmark: /usr/local/bin/cmark
   curve_keygen: /usr/local/bin/curve_keygen
   djpeg: /usr/local/bin/djpeg
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  futurize: /usr/local/bin/futurize
-  glpsol: /usr/local/bin/glpsol
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3

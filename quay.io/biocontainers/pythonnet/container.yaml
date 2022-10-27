@@ -22,18 +22,3 @@ aliases:
   caspol: /usr/local/bin/caspol
   cccheck: /usr/local/bin/cccheck
   ccrewrite: /usr/local/bin/ccrewrite
-  cert-sync: /usr/local/bin/cert-sync
-  cert2spc: /usr/local/bin/cert2spc
-  certmgr: /usr/local/bin/certmgr
-  chktrust: /usr/local/bin/chktrust
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  crlupdate: /usr/local/bin/crlupdate
-  csharp: /usr/local/bin/csharp
-  deactivate: /usr/local/bin/deactivate
-  disco: /usr/local/bin/disco
-  dmcs: /usr/local/bin/dmcs
-  dtd2rng: /usr/local/bin/dtd2rng
-  dtd2xsd: /usr/local/bin/dtd2xsd
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst

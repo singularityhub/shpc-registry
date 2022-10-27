@@ -11,7 +11,6 @@ aliases:
   weasyprint: /usr/local/bin/weasyprint
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -20,17 +19,3 @@ aliases:
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  blst2tkns: /usr/local/bin/blst2tkns
-  brotli: /usr/local/bin/brotli
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat

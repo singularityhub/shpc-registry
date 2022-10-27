@@ -31,7 +31,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   CA.pm: /usr/local/bin/CA.pm
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -39,17 +38,3 @@ aliases:
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdb_convert: /usr/local/bin/blastdb_convert
-  blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp

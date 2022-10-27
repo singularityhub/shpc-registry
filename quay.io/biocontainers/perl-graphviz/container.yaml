@@ -7,7 +7,6 @@ tags:
   2.24--pl5321h4b32bfc_1: sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe
 docker: quay.io/biocontainers/perl-graphviz
 aliases:
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
   autopoint: /usr/local/bin/autopoint
@@ -18,17 +17,3 @@ aliases:
   circo: /usr/local/bin/circo
   cjpeg: /usr/local/bin/cjpeg
   cluster: /usr/local/bin/cluster
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cwebp: /usr/local/bin/cwebp
-  delaunay: /usr/local/bin/delaunay
-  derb: /usr/local/bin/derb
-  diffimg: /usr/local/bin/diffimg
-  dijkstra: /usr/local/bin/dijkstra
-  djpeg: /usr/local/bin/djpeg
-  dot: /usr/local/bin/dot
-  dot2gxl: /usr/local/bin/dot2gxl
-  dot_builtins: /usr/local/bin/dot_builtins
-  dwebp: /usr/local/bin/dwebp
-  edgepaint: /usr/local/bin/edgepaint
-  enc2xs: /usr/local/bin/enc2xs

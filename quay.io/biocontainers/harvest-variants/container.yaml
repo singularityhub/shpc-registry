@@ -69,18 +69,3 @@ aliases:
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
-  align-cache: /usr/local/bin/align-cache
-  align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bam-load: /usr/local/bin/bam-load
-  bam-load.2: /usr/local/bin/bam-load.2
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv

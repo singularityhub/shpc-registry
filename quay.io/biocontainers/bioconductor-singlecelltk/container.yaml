@@ -7,14 +7,6 @@ tags:
   2.4.0--r41hdfd78af_0: sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df
 docker: quay.io/biocontainers/bioconductor-singlecelltk
 aliases:
-  .bioconductor-celldex-pre-unlink.sh: /usr/local/bin/.bioconductor-celldex-pre-unlink.sh
-  .bioconductor-gsvadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh
-  .bioconductor-hgu95a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh
-  .bioconductor-scrnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh
-  .bioconductor-tenxpbmcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
@@ -25,15 +17,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2

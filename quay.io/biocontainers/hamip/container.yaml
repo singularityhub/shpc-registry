@@ -25,7 +25,6 @@ aliases:
   routines.pm: /usr/local/bin/routines.pm
   template_for_cfg: /usr/local/bin/template_for_cfg
   template_for_qsub: /usr/local/bin/template_for_qsub
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   R: /usr/local/bin/R
@@ -36,17 +35,3 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
   autopoint: /usr/local/bin/autopoint
-  awk: /usr/local/bin/awk
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

@@ -29,18 +29,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   captoinfo: /usr/local/bin/captoinfo
   cd-hit: /usr/local/bin/cd-hit
-  cd-hit-2d: /usr/local/bin/cd-hit-2d
-  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
-  cd-hit-454: /usr/local/bin/cd-hit-454
-  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
-  cd-hit-div: /usr/local/bin/cd-hit-div
-  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl
-  cd-hit-est: /usr/local/bin/cd-hit-est
-  cd-hit-est-2d: /usr/local/bin/cd-hit-est-2d
-  cd-hit-para.pl: /usr/local/bin/cd-hit-para.pl
-  clear: /usr/local/bin/clear
-  clstr2tree.pl: /usr/local/bin/clstr2tree.pl
-  clstr2txt.pl: /usr/local/bin/clstr2txt.pl
-  clstr2xml.pl: /usr/local/bin/clstr2xml.pl
-  clstr_cut.pl: /usr/local/bin/clstr_cut.pl
-  clstr_list.pl: /usr/local/bin/clstr_list.pl

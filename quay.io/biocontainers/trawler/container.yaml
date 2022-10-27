@@ -18,18 +18,3 @@ aliases:
   derb: /usr/local/bin/derb
   djpeg: /usr/local/bin/djpeg
   dvipdf: /usr/local/bin/dvipdf
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  envsubst: /usr/local/bin/envsubst
-  eps2eps: /usr/local/bin/eps2eps
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-conflist: /usr/local/bin/fc-conflist
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate

@@ -18,18 +18,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
-  esl-alimerge: /usr/local/bin/esl-alimerge
-  esl-alipid: /usr/local/bin/esl-alipid
-  esl-alirev: /usr/local/bin/esl-alirev

@@ -31,7 +31,6 @@ aliases:
   webserver-results.body: /usr/local/bin/webserver-results.body
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  README.autoAug: /usr/local/bin/README.autoAug
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
   augustus: /usr/local/bin/augustus
@@ -40,17 +39,3 @@ aliases:
   autoAug.pl: /usr/local/bin/autoAug.pl
   autoAugPred.pl: /usr/local/bin/autoAugPred.pl
   autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
-  bam2hints: /usr/local/bin/bam2hints
-  bam2wig: /usr/local/bin/bam2wig
-  bedToBigBed: /usr/local/bin/bedToBigBed
-  bedgraph2wig.pl: /usr/local/bin/bedgraph2wig.pl
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blat2gbrowse.pl: /usr/local/bin/blat2gbrowse.pl
-  blat2hints.pl: /usr/local/bin/blat2hints.pl
-  block2prfl.pl: /usr/local/bin/block2prfl.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

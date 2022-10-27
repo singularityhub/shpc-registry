@@ -17,7 +17,6 @@ aliases:
   slncky: /usr/local/bin/slncky
   slncky.v1.0: /usr/local/bin/slncky.v1.0
   2to3: /usr/local/bin/2to3
-  README.md: /usr/local/bin/README.md
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -27,17 +26,3 @@ aliases:
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed
-  complementBed: /usr/local/bin/complementBed
-  conda_build.sh: /usr/local/bin/conda_build.sh
-  coverageBed: /usr/local/bin/coverageBed
-  easy_install: /usr/local/bin/easy_install
-  expandCols: /usr/local/bin/expandCols
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  fastaFromBed: /usr/local/bin/fastaFromBed

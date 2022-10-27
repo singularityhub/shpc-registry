@@ -18,18 +18,3 @@ aliases:
   deactivate: /usr/local/bin/deactivate
   derb: /usr/local/bin/derb
   designer: /usr/local/bin/designer
-  djpeg: /usr/local/bin/djpeg
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate
-  freetype-config: /usr/local/bin/freetype-config
-  gapplication: /usr/local/bin/gapplication
-  gdbus: /usr/local/bin/gdbus

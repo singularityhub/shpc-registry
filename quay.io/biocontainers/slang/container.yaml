@@ -18,12 +18,3 @@ aliases:
   libpng-config: /usr/local/bin/libpng-config
   libpng16-config: /usr/local/bin/libpng16-config
   ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
-  reset: /usr/local/bin/reset
-  tabs: /usr/local/bin/tabs
-  tic: /usr/local/bin/tic
-  toe: /usr/local/bin/toe
-  tput: /usr/local/bin/tput
-  tset: /usr/local/bin/tset

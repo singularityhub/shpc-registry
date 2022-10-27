@@ -120,18 +120,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotateBed: /usr/local/bin/annotateBed
-  bam-load: /usr/local/bin/bam-load
-  bam-load.2: /usr/local/bin/bam-load.2
-  bam2bed: /usr/local/bin/bam2bed
-  bam2bed-float128: /usr/local/bin/bam2bed-float128
-  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
-  bam2bed-typical: /usr/local/bin/bam2bed-typical
-  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
-  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
-  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
-  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
-  bam2bed_sge: /usr/local/bin/bam2bed_sge
-  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128

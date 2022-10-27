@@ -12,7 +12,6 @@ aliases:
   scn-post-install-tests.sh: /usr/local/bin/scn-post-install-tests.sh
   scn-predict.R: /usr/local/bin/scn-predict.R
   scn-train-model.R: /usr/local/bin/scn-train-model.R
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   R: /usr/local/bin/R
@@ -23,17 +22,3 @@ aliases:
   autopoint: /usr/local/bin/autopoint
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg

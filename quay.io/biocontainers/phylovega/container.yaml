@@ -7,10 +7,8 @@ tags:
   0.3--py_0: sha256:5ce2084fc3dfcfff0d51961bdfe41d0295b7af57926834080bb8f3156105d7d8
 docker: quay.io/biocontainers/phylovega
 aliases:
-  .vega-pre-unlink.sh: /usr/local/bin/.vega-pre-unlink.sh
   jupyter-console: /usr/local/bin/jupyter-console
   phylovega: /usr/local/bin/phylovega
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   assistant: /usr/local/bin/assistant
@@ -21,17 +19,3 @@ aliases:
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch

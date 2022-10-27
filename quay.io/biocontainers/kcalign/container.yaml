@@ -20,18 +20,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
-  fftns: /usr/local/bin/fftns
-  fftnsi: /usr/local/bin/fftnsi
-  ginsi: /usr/local/bin/ginsi
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  linsi: /usr/local/bin/linsi
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless

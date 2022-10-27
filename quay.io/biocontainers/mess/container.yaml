@@ -18,18 +18,3 @@ aliases:
   clp: /usr/local/bin/clp
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
-  jupyter-migrate: /usr/local/bin/jupyter-migrate
-  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
-  jupyter-trust: /usr/local/bin/jupyter-trust
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep

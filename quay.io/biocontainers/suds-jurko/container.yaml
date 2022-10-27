@@ -7,7 +7,6 @@ tags:
   0.6--py36_1: sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44
 docker: quay.io/biocontainers/suds-jurko
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -18,17 +17,3 @@ aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6
   idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pydoc: /usr/local/bin/pydoc
-  pydoc3: /usr/local/bin/pydoc3
-  pydoc3.6: /usr/local/bin/pydoc3.6
-  python: /usr/local/bin/python
-  python3: /usr/local/bin/python3
-  python3-config: /usr/local/bin/python3-config
-  python3.6: /usr/local/bin/python3.6
-  python3.6-config: /usr/local/bin/python3.6-config
-  python3.6m: /usr/local/bin/python3.6m
-  python3.6m-config: /usr/local/bin/python3.6m-config
-  pyvenv: /usr/local/bin/pyvenv
-  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

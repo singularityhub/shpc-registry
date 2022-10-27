@@ -12,7 +12,6 @@ aliases:
   Pre_Alignment: /usr/local/bin/Pre_Alignment
   TransComb: /usr/local/bin/TransComb
   bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   ace2sam: /usr/local/bin/ace2sam
@@ -23,17 +22,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   conda: /usr/local/bin/conda
   curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  idle3: /usr/local/bin/idle3

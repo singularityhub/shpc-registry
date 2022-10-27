@@ -194,7 +194,6 @@ aliases:
   weeder2: /usr/local/bin/weeder2
   xsltproc_lite: /usr/local/bin/xsltproc_lite
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
@@ -205,17 +204,3 @@ aliases:
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  beeml2meme: /usr/local/bin/beeml2meme
-  bokeh: /usr/local/bin/bokeh
-  brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat

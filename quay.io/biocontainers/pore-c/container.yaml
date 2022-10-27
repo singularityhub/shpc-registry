@@ -14,7 +14,6 @@ aliases:
   pore_c: /usr/local/bin/pore_c
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  '[': /usr/local/bin/[
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -23,17 +22,3 @@ aliases:
   bam2pairs: /usr/local/bin/bam2pairs
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bokeh: /usr/local/bin/bokeh
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep

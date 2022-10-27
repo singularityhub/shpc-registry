@@ -17,18 +17,3 @@ aliases:
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
   corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cutadapt: /usr/local/bin/cutadapt
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  envsubst: /usr/local/bin/envsubst
-  fastqc: /usr/local/bin/fastqc
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-conflist: /usr/local/bin/fc-conflist
-  fc-list: /usr/local/bin/fc-list

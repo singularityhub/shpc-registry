@@ -23,7 +23,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   Kinfold: /usr/local/bin/Kinfold
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   RNALfold: /usr/local/bin/RNALfold
   RNAaliduplex: /usr/local/bin/RNAaliduplex
   RNAalifold: /usr/local/bin/RNAalifold
@@ -31,17 +30,3 @@ aliases:
   RNAdistance: /usr/local/bin/RNAdistance
   RNAduplex: /usr/local/bin/RNAduplex
   RNAeval: /usr/local/bin/RNAeval
-  RNAfold: /usr/local/bin/RNAfold
-  RNAforester: /usr/local/bin/RNAforester
-  RNAheat: /usr/local/bin/RNAheat
-  RNAinverse: /usr/local/bin/RNAinverse
-  RNApaln: /usr/local/bin/RNApaln
-  RNApdist: /usr/local/bin/RNApdist
-  RNAplfold: /usr/local/bin/RNAplfold
-  RNAplot: /usr/local/bin/RNAplot
-  RNAsubopt: /usr/local/bin/RNAsubopt
-  RNAup: /usr/local/bin/RNAup
-  Rscript: /usr/local/bin/Rscript
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig

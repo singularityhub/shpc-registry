@@ -50,19 +50,4 @@ aliases:
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  abba-baba: /usr/local/bin/abba-baba
-  abricate: /usr/local/bin/abricate
-  abricate-get_db: /usr/local/bin/abricate-get_db
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  any2fasta: /usr/local/bin/any2fasta
-  appletviewer: /usr/local/bin/appletviewer
-  aragorn: /usr/local/bin/aragorn

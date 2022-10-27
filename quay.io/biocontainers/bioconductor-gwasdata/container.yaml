@@ -7,7 +7,6 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:d9aa7c1d14ac16c40937b71ffe10bedb588df5fe7794e3b34707b074ea2423ba
 docker: quay.io/biocontainers/bioconductor-gwasdata
 aliases:
-  .bioconductor-gwasdata-pre-unlink.sh: /usr/local/bin/.bioconductor-gwasdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   R: /usr/local/bin/R
@@ -18,18 +17,3 @@ aliases:
   autopoint: /usr/local/bin/autopoint
   bunzip2: /usr/local/bin/bunzip2
   bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

@@ -54,18 +54,3 @@ aliases:
   clear: /usr/local/bin/clear
   corelist: /usr/local/bin/corelist
   cpan: /usr/local/bin/cpan
-  db_archive: /usr/local/bin/db_archive
-  db_checkpoint: /usr/local/bin/db_checkpoint
-  db_convert: /usr/local/bin/db_convert
-  db_deadlock: /usr/local/bin/db_deadlock
-  db_dump: /usr/local/bin/db_dump
-  db_hotbackup: /usr/local/bin/db_hotbackup
-  db_load: /usr/local/bin/db_load
-  db_log_verify: /usr/local/bin/db_log_verify
-  db_printlog: /usr/local/bin/db_printlog
-  db_recover: /usr/local/bin/db_recover
-  db_replicate: /usr/local/bin/db_replicate
-  db_stat: /usr/local/bin/db_stat
-  db_tuner: /usr/local/bin/db_tuner
-  db_upgrade: /usr/local/bin/db_upgrade
-  db_verify: /usr/local/bin/db_verify

@@ -66,18 +66,3 @@ aliases:
   bogart: /usr/local/bin/bogart
   c_rehash: /usr/local/bin/c_rehash
   cairo-trace: /usr/local/bin/cairo-trace
-  canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  certutil: /usr/local/bin/certutil
-  chrpath: /usr/local/bin/chrpath
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cwebp: /usr/local/bin/cwebp
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session

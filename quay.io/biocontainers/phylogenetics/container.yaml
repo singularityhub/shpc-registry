@@ -7,10 +7,8 @@ tags:
   0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
 docker: quay.io/biocontainers/phylogenetics
 aliases:
-  .vega3-pre-unlink.sh: /usr/local/bin/.vega3-pre-unlink.sh
   jupyter-console: /usr/local/bin/jupyter-console
   jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -21,17 +19,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
-  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  designer: /usr/local/bin/designer

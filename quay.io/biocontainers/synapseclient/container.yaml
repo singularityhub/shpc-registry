@@ -19,18 +19,3 @@ aliases:
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
   bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
-  dbus-uuidgen: /usr/local/bin/dbus-uuidgen

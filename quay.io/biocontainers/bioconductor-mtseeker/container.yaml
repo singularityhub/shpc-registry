@@ -7,11 +7,6 @@ tags:
   1.3.0--r36_0: sha256:0b9e1630f6b8f081b0e4bedc1f0904cfed878c86ea3cd5218d11f9f06c47a39f
 docker: quay.io/biocontainers/bioconductor-mtseeker
 aliases:
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .bioconductor-go.db-pre-unlink.sh: /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
-  .bioconductor-homo.sapiens-pre-unlink.sh: /usr/local/bin/.bioconductor-homo.sapiens-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg19.knowngene-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   autopoint: /usr/local/bin/autopoint
@@ -22,13 +17,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg

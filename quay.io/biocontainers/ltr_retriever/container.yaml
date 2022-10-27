@@ -23,23 +23,8 @@ aliases:
   DupMasker: /usr/local/bin/DupMasker
   FET.pl: /usr/local/bin/FET.pl
   ProcessRepeats: /usr/local/bin/ProcessRepeats
-  README: /usr/local/bin/README
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdb_convert: /usr/local/bin/blastdb_convert
-  blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd

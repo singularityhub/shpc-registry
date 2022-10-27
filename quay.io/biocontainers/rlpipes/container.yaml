@@ -70,7 +70,6 @@ aliases:
   vdb-passwd.2.11.0: /usr/local/bin/vdb-passwd.2.11.0
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   abi-dump: /usr/local/bin/abi-dump
@@ -81,17 +80,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   align-cache: /usr/local/bin/align-cache
-  align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
-  bam-load: /usr/local/bin/bam-load
-  bam-load.2: /usr/local/bin/bam-load.2
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep

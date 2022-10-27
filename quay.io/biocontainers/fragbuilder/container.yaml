@@ -17,18 +17,3 @@ aliases:
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
   bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  fc-cache: /usr/local/bin/fc-cache

@@ -7,7 +7,6 @@ tags:
   0.3.6--py_1: sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618
 docker: quay.io/biocontainers/pathogist
 aliases:
-  .julia-pre-unlink.sh: /usr/local/bin/.julia-pre-unlink.sh
   MentaLiST.jl: /usr/local/bin/MentaLiST.jl
   PATHOGIST: /usr/local/bin/PATHOGIST
   SpoTyping.py: /usr/local/bin/SpoTyping.py
@@ -66,18 +65,3 @@ aliases:
   autopoint: /usr/local/bin/autopoint
   bFst: /usr/local/bin/bFst
   bamleftalign: /usr/local/bin/bamleftalign
-  bed2region: /usr/local/bin/bed2region
-  bgzip: /usr/local/bin/bgzip
-  bgziptabix: /usr/local/bin/bgziptabix
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
-  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl

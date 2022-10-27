@@ -23,18 +23,3 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
-  MergePaths: /usr/local/bin/MergePaths
-  Overlap: /usr/local/bin/Overlap
-  ParseAligns: /usr/local/bin/ParseAligns
-  PathConsensus: /usr/local/bin/PathConsensus
-  PathOverlap: /usr/local/bin/PathOverlap
-  PopBubbles: /usr/local/bin/PopBubbles
-  README: /usr/local/bin/README
-  SimpleGraph: /usr/local/bin/SimpleGraph
-  _aaindexextract: /usr/local/bin/_aaindexextract
-  _abiview: /usr/local/bin/_abiview
-  _acdc: /usr/local/bin/_acdc
-  _acdpretty: /usr/local/bin/_acdpretty
-  _acdtable: /usr/local/bin/_acdtable
-  _acdtrace: /usr/local/bin/_acdtrace

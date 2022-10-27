@@ -11,7 +11,6 @@ aliases:
   time: /usr/local/bin/time
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  '[': /usr/local/bin/[
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
@@ -20,17 +19,3 @@ aliases:
   base64: /usr/local/bin/base64
   basename: /usr/local/bin/basename
   basenc: /usr/local/bin/basenc
-  bq: /usr/local/bin/bq
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cat: /usr/local/bin/cat
-  chardetect: /usr/local/bin/chardetect
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cksum: /usr/local/bin/cksum
-  clear: /usr/local/bin/clear
-  comm: /usr/local/bin/comm
-  cp: /usr/local/bin/cp

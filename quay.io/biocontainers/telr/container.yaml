@@ -25,18 +25,3 @@ aliases:
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  alimask: /usr/local/bin/alimask
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

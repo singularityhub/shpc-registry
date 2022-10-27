@@ -28,18 +28,3 @@ aliases:
   bagit.py: /usr/local/bin/bagit.py
   bcomps: /usr/local/bin/bcomps
   c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  cluster: /usr/local/bin/cluster
-  coloredlogs: /usr/local/bin/coloredlogs
-  compile_et: /usr/local/bin/compile_et
-  csv2rdf: /usr/local/bin/csv2rdf
-  curl-config: /usr/local/bin/curl-config
-  cwltool: /usr/local/bin/cwltool
-  cxpm: /usr/local/bin/cxpm
-  derb: /usr/local/bin/derb

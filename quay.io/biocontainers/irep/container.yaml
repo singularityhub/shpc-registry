@@ -21,18 +21,3 @@ aliases:
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
   conda: /usr/local/bin/conda
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
-  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  designer: /usr/local/bin/designer
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst

@@ -28,18 +28,3 @@ aliases:
   envsubst: /usr/local/bin/envsubst
   gapplication: /usr/local/bin/gapplication
   gdbus: /usr/local/bin/gdbus
-  gdbus-codegen: /usr/local/bin/gdbus-codegen
-  gettext: /usr/local/bin/gettext
-  gettext.sh: /usr/local/bin/gettext.sh
-  gettextize: /usr/local/bin/gettextize
-  gio: /usr/local/bin/gio
-  gio-querymodules: /usr/local/bin/gio-querymodules
-  glib-compile-resources: /usr/local/bin/glib-compile-resources
-  glib-compile-schemas: /usr/local/bin/glib-compile-schemas
-  glib-genmarshal: /usr/local/bin/glib-genmarshal
-  glib-gettextize: /usr/local/bin/glib-gettextize
-  glib-mkenums: /usr/local/bin/glib-mkenums
-  gobject-query: /usr/local/bin/gobject-query
-  gresource: /usr/local/bin/gresource
-  gsettings: /usr/local/bin/gsettings
-  gtester: /usr/local/bin/gtester

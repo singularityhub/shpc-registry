@@ -12,7 +12,6 @@ aliases:
   kraken2: /usr/local/bin/kraken2
   kraken2-build: /usr/local/bin/kraken2-build
   kraken2-inspect: /usr/local/bin/kraken2-inspect
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -23,17 +22,3 @@ aliases:
   asn2xml: /usr/local/bin/asn2xml
   autopoint: /usr/local/bin/autopoint
   between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  blst2tkns: /usr/local/bin/blst2tkns
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep

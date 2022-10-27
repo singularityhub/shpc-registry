@@ -7,7 +7,6 @@ tags:
   2020.02.29--py36pl526r36hc99cbb1_0: sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402
 docker: quay.io/biocontainers/rsat-core
 aliases:
-  .vmatch-pre-unlink.sh: /usr/local/bin/.vmatch-pre-unlink.sh
   Vmatchtrans.pl: /usr/local/bin/Vmatchtrans.pl
   bigWigToWig.pl: /usr/local/bin/bigWigToWig.pl
   chain2dim: /usr/local/bin/chain2dim
@@ -49,7 +48,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
@@ -57,17 +55,3 @@ aliases:
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd

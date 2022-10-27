@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/curesim
 aliases:
   curesim: /usr/local/bin/curesim
-  '[': /usr/local/bin/[
   aserver: /usr/local/bin/aserver
   autopoint: /usr/local/bin/autopoint
   b2sum: /usr/local/bin/b2sum
@@ -19,17 +18,3 @@ aliases:
   cairo-trace: /usr/local/bin/cairo-trace
   cat: /usr/local/bin/cat
   chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cjpeg: /usr/local/bin/cjpeg
-  cksum: /usr/local/bin/cksum
-  comm: /usr/local/bin/comm
-  cp: /usr/local/bin/cp
-  csplit: /usr/local/bin/csplit
-  cut: /usr/local/bin/cut
-  date: /usr/local/bin/date
-  dd: /usr/local/bin/dd
-  derb: /usr/local/bin/derb
-  df: /usr/local/bin/df

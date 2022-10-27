@@ -7,7 +7,6 @@ tags:
   v0.0.1--r36_0: sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76
 docker: quay.io/biocontainers/garnett-cli
 aliases:
-  .bioconductor-hsmmsinglecell-pre-unlink.sh: /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh
   garnett_check_markers.R: /usr/local/bin/garnett_check_markers.R
   garnett_classify_cells.R: /usr/local/bin/garnett_classify_cells.R
   garnett_cli_post_install_tests.bats: /usr/local/bin/garnett_cli_post_install_tests.bats
@@ -16,8 +15,6 @@ aliases:
   garnett_train_classifier.R: /usr/local/bin/garnett_train_classifier.R
   make_test_data.R: /usr/local/bin/make_test_data.R
   parse_expr_data.R: /usr/local/bin/parse_expr_data.R
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
-  .bioconductor-org.mm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.mm.eg.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   autopoint: /usr/local/bin/autopoint
@@ -28,16 +25,3 @@ aliases:
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

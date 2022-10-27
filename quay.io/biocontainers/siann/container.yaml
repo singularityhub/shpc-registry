@@ -19,18 +19,3 @@ aliases:
   bowtie2-inspect: /usr/local/bin/bowtie2-inspect
   bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
   bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  delta-filter: /usr/local/bin/delta-filter
-  dnadiff: /usr/local/bin/dnadiff
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  env_parallel: /usr/local/bin/env_parallel
-  env_parallel.ash: /usr/local/bin/env_parallel.ash
-  env_parallel.bash: /usr/local/bin/env_parallel.bash
-  env_parallel.csh: /usr/local/bin/env_parallel.csh

@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/gplas
 aliases:
   gplas.sh: /usr/local/bin/gplas.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   Magick++-config: /usr/local/bin/Magick++-config
@@ -19,17 +18,3 @@ aliases:
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  asadmin: /usr/local/bin/asadmin
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bundle_image: /usr/local/bin/bundle_image
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2

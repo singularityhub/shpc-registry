@@ -19,18 +19,3 @@ aliases:
   conda: /usr/local/bin/conda
   corelist: /usr/local/bin/corelist
   cpan: /usr/local/bin/cpan
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap

@@ -278,18 +278,3 @@ aliases:
   DBsplit: /usr/local/bin/DBsplit
   DBstats: /usr/local/bin/DBstats
   LAcat: /usr/local/bin/LAcat
-  LAcheck: /usr/local/bin/LAcheck
-  LAmerge: /usr/local/bin/LAmerge
-  LAshow: /usr/local/bin/LAshow
-  LAsort: /usr/local/bin/LAsort
-  LAsplit: /usr/local/bin/LAsplit
-  ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
-  bgzip: /usr/local/bin/bgzip
-  blasr: /usr/local/bin/blasr
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp

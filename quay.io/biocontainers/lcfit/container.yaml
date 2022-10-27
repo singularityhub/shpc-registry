@@ -17,18 +17,3 @@ aliases:
   deactivate: /usr/local/bin/deactivate
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
-  idle3: /usr/local/bin/idle3
-  idle3.6: /usr/local/bin/idle3.6
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma

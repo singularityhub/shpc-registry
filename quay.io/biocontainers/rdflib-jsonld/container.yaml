@@ -7,7 +7,6 @@ tags:
   0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
 docker: quay.io/biocontainers/rdflib-jsonld
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   activate: /usr/local/bin/activate
   c_rehash: /usr/local/bin/c_rehash
@@ -18,17 +17,3 @@ aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7
   idle: /usr/local/bin/idle
   openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2.7: /usr/local/bin/python2.7
-  rdf2dot: /usr/local/bin/rdf2dot
-  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
-  rdfpipe: /usr/local/bin/rdfpipe
-  rdfs2dot: /usr/local/bin/rdfs2dot
-  smtpd.py: /usr/local/bin/smtpd.py
-  sqlite3: /usr/local/bin/sqlite3
-  tclsh8.5: /usr/local/bin/tclsh8.5
-  wheel: /usr/local/bin/wheel

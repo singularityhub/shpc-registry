@@ -22,18 +22,3 @@ aliases:
   conda: /usr/local/bin/conda
   conda-env: /usr/local/bin/conda-env
   cph: /usr/local/bin/cph
-  deactivate: /usr/local/bin/deactivate
-  futurize: /usr/local/bin/futurize
-  galaxy-tool-test: /usr/local/bin/galaxy-tool-test
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma

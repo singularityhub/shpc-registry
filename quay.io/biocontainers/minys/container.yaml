@@ -22,7 +22,6 @@ aliases:
   minia: /usr/local/bin/minia
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -31,17 +30,3 @@ aliases:
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
-  bl2seq: /usr/local/bin/bl2seq
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastall: /usr/local/bin/blastall
-  blastclust: /usr/local/bin/blastclust
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastpgp: /usr/local/bin/blastpgp

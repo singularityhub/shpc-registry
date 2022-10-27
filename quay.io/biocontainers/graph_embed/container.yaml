@@ -18,18 +18,3 @@ aliases:
   cairo-trace: /usr/local/bin/cairo-trace
   canbusutil: /usr/local/bin/canbusutil
   captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  certutil: /usr/local/bin/certutil
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  cluster: /usr/local/bin/cluster
-  compile-et.pl: /usr/local/bin/compile-et.pl
-  cxpm: /usr/local/bin/cxpm
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool

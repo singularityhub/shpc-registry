@@ -20,18 +20,3 @@ aliases:
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   bamCompare: /usr/local/bin/bamCompare
-  bamCoverage: /usr/local/bin/bamCoverage
-  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bigwigCompare: /usr/local/bin/bigwigCompare
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep

@@ -7,7 +7,6 @@ tags:
   0.1.9--0: sha256:34f4133564860be6b6df7a6fc7b30829fe87391364ed11dddb62a3bfdbfcc022
 docker: quay.io/biocontainers/cell-types-analysis
 aliases:
-  .bioconductor-onassisjavalibs-pre-unlink.sh: /usr/local/bin/.bioconductor-onassisjavalibs-pre-unlink.sh
   bats: /usr/local/bin/bats
   build_cell_ontology_dict.R: /usr/local/bin/build_cell_ontology_dict.R
   cell_types_utils.R: /usr/local/bin/cell_types_utils.R
@@ -20,7 +19,6 @@ aliases:
   get_tool_pvals.R: /usr/local/bin/get_tool_pvals.R
   label_analysis_run_post_install_tests.bats: /usr/local/bin/label_analysis_run_post_install_tests.bats
   label_analysis_run_post_install_tests.sh: /usr/local/bin/label_analysis_run_post_install_tests.sh
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   acountry: /usr/local/bin/acountry
@@ -31,17 +29,3 @@ aliases:
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   bunzip2: /usr/local/bin/bunzip2
   bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear

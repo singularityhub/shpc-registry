@@ -21,18 +21,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   cairo-trace: /usr/local/bin/cairo-trace
   canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps
-  certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  cluster: /usr/local/bin/cluster
-  compare_gos.py: /usr/local/bin/compare_gos.py
-  compile_et: /usr/local/bin/compile_et
-  coverage: /usr/local/bin/coverage
-  cxpm: /usr/local/bin/cxpm
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch

@@ -18,7 +18,6 @@ aliases:
   ss-count.pl: /usr/local/bin/ss-count.pl
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
   acountry: /usr/local/bin/acountry
@@ -27,17 +26,3 @@ aliases:
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamtools: /usr/local/bin/bamtools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl

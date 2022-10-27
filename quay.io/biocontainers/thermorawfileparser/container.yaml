@@ -28,18 +28,3 @@ aliases:
   ccrewrite: /usr/local/bin/ccrewrite
   cert-sync: /usr/local/bin/cert-sync
   cert2spc: /usr/local/bin/cert2spc
-  certmgr: /usr/local/bin/certmgr
-  chktrust: /usr/local/bin/chktrust
-  conda_build.sh: /usr/local/bin/conda_build.sh
-  crlupdate: /usr/local/bin/crlupdate
-  csc: /usr/local/bin/csc
-  csc-dim: /usr/local/bin/csc-dim
-  csharp: /usr/local/bin/csharp
-  csi: /usr/local/bin/csi
-  disco: /usr/local/bin/disco
-  dmcs: /usr/local/bin/dmcs
-  dtd2rng: /usr/local/bin/dtd2rng
-  dtd2xsd: /usr/local/bin/dtd2xsd
-  envsubst: /usr/local/bin/envsubst
-  gacutil: /usr/local/bin/gacutil
-  gacutil2: /usr/local/bin/gacutil2

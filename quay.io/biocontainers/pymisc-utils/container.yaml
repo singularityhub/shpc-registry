@@ -47,7 +47,6 @@ aliases:
   test_gzip.py: /usr/local/bin/test_gzip.py
   utils.py: /usr/local/bin/utils.py
   validation_utils.py: /usr/local/bin/validation_utils.py
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   acyclic: /usr/local/bin/acyclic
@@ -58,17 +57,3 @@ aliases:
   bokeh: /usr/local/bin/bokeh
   brotli: /usr/local/bin/brotli
   bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  ccomps: /usr/local/bin/ccomps

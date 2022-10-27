@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/genomebaser
 aliases:
   GenomeBaser: /usr/local/bin/GenomeBaser
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   activate: /usr/local/bin/activate
   c_rehash: /usr/local/bin/c_rehash
@@ -19,17 +18,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   easy_install-2.7: /usr/local/bin/easy_install-2.7
   f2py: /usr/local/bin/f2py
-  freetype-config: /usr/local/bin/freetype-config
-  idle: /usr/local/bin/idle
-  jpegtran: /usr/local/bin/jpegtran
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  png-fix-itxt: /usr/local/bin/png-fix-itxt
-  pngfix: /usr/local/bin/pngfix
-  pydoc: /usr/local/bin/pydoc
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2.7: /usr/local/bin/python2.7

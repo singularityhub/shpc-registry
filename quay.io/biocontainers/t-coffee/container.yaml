@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/t-coffee
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar
   DrawTree.jar: /usr/local/bin/DrawTree.jar
-  README.txt: /usr/local/bin/README.txt
   TMalign: /usr/local/bin/TMalign
   TMscore: /usr/local/bin/TMscore
   bstats: /usr/local/bin/bstats
@@ -90,18 +89,3 @@ aliases:
   RNAaliduplex: /usr/local/bin/RNAaliduplex
   RNAalifold: /usr/local/bin/RNAalifold
   RNAcofold: /usr/local/bin/RNAcofold
-  RNAdistance: /usr/local/bin/RNAdistance
-  RNAduplex: /usr/local/bin/RNAduplex
-  RNAeval: /usr/local/bin/RNAeval
-  RNAfold: /usr/local/bin/RNAfold
-  RNAforester: /usr/local/bin/RNAforester
-  RNAheat: /usr/local/bin/RNAheat
-  RNAinverse: /usr/local/bin/RNAinverse
-  RNApaln: /usr/local/bin/RNApaln
-  RNAparconv: /usr/local/bin/RNAparconv
-  RNApdist: /usr/local/bin/RNApdist
-  RNAplex: /usr/local/bin/RNAplex
-  RNAplfold: /usr/local/bin/RNAplfold
-  RNAplot: /usr/local/bin/RNAplot
-  RNAsnoop: /usr/local/bin/RNAsnoop
-  RNAsubopt: /usr/local/bin/RNAsubopt

@@ -34,18 +34,3 @@ aliases:
   ame: /usr/local/bin/ame
   beeml2meme: /usr/local/bin/beeml2meme
   c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  centrimo: /usr/local/bin/centrimo
-  ceqlogo: /usr/local/bin/ceqlogo
-  chen2meme: /usr/local/bin/chen2meme
-  clear: /usr/local/bin/clear
-  clustalw2fasta: /usr/local/bin/clustalw2fasta
-  clustalw2phylip: /usr/local/bin/clustalw2phylip
-  compute-prior-dist: /usr/local/bin/compute-prior-dist
-  compute-uniform-priors: /usr/local/bin/compute-uniform-priors
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  cpanm: /usr/local/bin/cpanm
-  create-priors: /usr/local/bin/create-priors
-  dbilogstrip: /usr/local/bin/dbilogstrip
-  dbiprof: /usr/local/bin/dbiprof

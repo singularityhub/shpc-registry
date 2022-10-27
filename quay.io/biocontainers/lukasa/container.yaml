@@ -29,7 +29,6 @@ aliases:
   sortgrcd: /usr/local/bin/sortgrcd
   spaln: /usr/local/bin/spaln
   spspaln.pl: /usr/local/bin/spspaln.pl
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   ace2sam: /usr/local/bin/ace2sam
@@ -40,17 +39,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   autopoint: /usr/local/bin/autopoint
-  awk: /usr/local/bin/awk
-  bagit.py: /usr/local/bin/bagit.py
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  black: /usr/local/bin/black
-  blackd: /usr/local/bin/blackd
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

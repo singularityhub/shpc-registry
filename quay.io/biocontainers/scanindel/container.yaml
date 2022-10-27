@@ -20,18 +20,3 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
-  blat: /usr/local/bin/blat
-  bwa: /usr/local/bin/bwa
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed
-  complementBed: /usr/local/bin/complementBed
-  coverageBed: /usr/local/bin/coverageBed
-  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
-  easy_install: /usr/local/bin/easy_install
-  expandCols: /usr/local/bin/expandCols
-  f2py: /usr/local/bin/f2py
-  fastaFromBed: /usr/local/bin/fastaFromBed
-  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py

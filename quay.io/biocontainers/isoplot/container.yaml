@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/isoplot
 aliases:
   colorcet: /usr/local/bin/colorcet
   isoplot: /usr/local/bin/isoplot
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   bokeh: /usr/local/bin/bokeh
@@ -20,17 +19,3 @@ aliases:
   clear: /usr/local/bin/clear
   curve_keygen: /usr/local/bin/curve_keygen
   djpeg: /usr/local/bin/djpeg
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fonttools: /usr/local/bin/fonttools
-  freetype-config: /usr/local/bin/freetype-config
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython

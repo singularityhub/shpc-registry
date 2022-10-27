@@ -30,18 +30,3 @@ aliases:
   chardetect: /usr/local/bin/chardetect
   clear: /usr/local/bin/clear
   easy_install: /usr/local/bin/easy_install
-  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump

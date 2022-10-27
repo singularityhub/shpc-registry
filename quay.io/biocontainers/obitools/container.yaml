@@ -51,18 +51,3 @@ aliases:
   infotocap: /usr/local/bin/infotocap
   iptest: /usr/local/bin/iptest
   iptest2: /usr/local/bin/iptest2
-  ipython: /usr/local/bin/ipython
-  ipython2: /usr/local/bin/ipython2
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
-  pydoc: /usr/local/bin/pydoc
-  pygmentize: /usr/local/bin/pygmentize
-  python: /usr/local/bin/python
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
-  reset: /usr/local/bin/reset

@@ -7,7 +7,6 @@ tags:
   1.3.5--0: sha256:566d31231678ce9abf9ff870e6d575d7b9178f3d6221b5ba55ba72a48a1d3e27
 docker: quay.io/biocontainers/mosca
 aliases:
-  CHANGELOG.md: /usr/local/bin/CHANGELOG.md
   Contents.xsd: /usr/local/bin/Contents.xsd
   DefaultMassCal.xsd: /usr/local/bin/DefaultMassCal.xsd
   Devices.xsd: /usr/local/bin/Devices.xsd
@@ -77,10 +76,6 @@ aliases:
   uniprot_support.py: /usr/local/bin/uniprot_support.py
   unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh
   upimapi.py: /usr/local/bin/upimapi.py
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
-  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
-  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
@@ -91,14 +86,3 @@ aliases:
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  Makefile: /usr/local/bin/Makefile
-  Makefile.am: /usr/local/bin/Makefile.am
-  Makefile.in: /usr/local/bin/Makefile.in
-  R: /usr/local/bin/R
-  README: /usr/local/bin/README
-  Rscript: /usr/local/bin/Rscript
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  aclocal.bak: /usr/local/bin/aclocal.bak
-  acountry: /usr/local/bin/acountry
-  acyclic: /usr/local/bin/acyclic

@@ -18,18 +18,3 @@ aliases:
   clear: /usr/local/bin/clear
   conda: /usr/local/bin/conda
   csv2rdf: /usr/local/bin/csv2rdf
-  cwltool: /usr/local/bin/cwltool
-  deactivate: /usr/local/bin/deactivate
-  doesitcache: /usr/local/bin/doesitcache
-  easy_install: /usr/local/bin/easy_install
-  futurize: /usr/local/bin/futurize
-  idle3: /usr/local/bin/idle3
-  idle3.6: /usr/local/bin/idle3.6
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep

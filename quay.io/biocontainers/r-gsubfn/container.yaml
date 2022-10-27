@@ -7,7 +7,6 @@ tags:
   0.6_6--r3.3.2_0: sha256:06b4f129e4747e6a1f3accf271c4095748636a45e602258bc1c9d81e5362f329
 docker: quay.io/biocontainers/r-gsubfn
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   activate: /usr/local/bin/activate
@@ -18,17 +17,3 @@ aliases:
   clear: /usr/local/bin/clear
   conda: /usr/local/bin/conda
   curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate
-  freetype-config: /usr/local/bin/freetype-config
-  gapplication: /usr/local/bin/gapplication

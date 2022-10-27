@@ -7,7 +7,6 @@ tags:
   0.8.1--py_1: sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15
 docker: quay.io/biocontainers/pbcoretools
 aliases:
-  .open: /usr/local/bin/.open
   bamsieve: /usr/local/bin/bamsieve
   dataset: /usr/local/bin/dataset
   pbtools-gather: /usr/local/bin/pbtools-gather
@@ -22,18 +21,3 @@ aliases:
   bzcat: /usr/local/bin/bzcat
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py

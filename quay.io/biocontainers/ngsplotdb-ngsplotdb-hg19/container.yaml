@@ -7,7 +7,6 @@ tags:
   3.00--r3.4.1_0: sha256:f18d0e5ae45b8891217f8e479a85de8e98c530b9ac776d7620f589c6289e1637
 docker: quay.io/biocontainers/ngsplotdb-ngsplotdb-hg19
 aliases:
-  .ngsplotdb-ngsplotdb-hg19-pre-unlink.sh: /usr/local/bin/.ngsplotdb-ngsplotdb-hg19-pre-unlink.sh
   ExtractGName.R: /usr/local/bin/ExtractGName.R
   alt_reg_cufflinks: /usr/local/bin/alt_reg_cufflinks
   alter2bed.pl: /usr/local/bin/alter2bed.pl
@@ -34,7 +33,6 @@ aliases:
   time.tabix.2.r: /usr/local/bin/time.tabix.2.r
   time.tabix.extractOnly.r: /usr/local/bin/time.tabix.extractOnly.r
   time.tabix.r: /usr/local/bin/time.tabix.r
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
@@ -45,17 +43,3 @@ aliases:
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl

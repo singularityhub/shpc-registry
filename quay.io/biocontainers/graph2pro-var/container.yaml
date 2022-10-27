@@ -42,18 +42,3 @@ aliases:
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
   bowtie2-build: /usr/local/bin/bowtie2-build
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
-  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
-  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
-  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
-  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cd-hit: /usr/local/bin/cd-hit
-  cd-hit-2d: /usr/local/bin/cd-hit-2d
-  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
-  cd-hit-454: /usr/local/bin/cd-hit-454
-  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
-  cd-hit-div: /usr/local/bin/cd-hit-div
-  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl
-  cd-hit-est: /usr/local/bin/cd-hit-est
-  cd-hit-est-2d: /usr/local/bin/cd-hit-est-2d

@@ -21,18 +21,3 @@ aliases:
   dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
   dbus-daemon: /usr/local/bin/dbus-daemon
   dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
-  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
-  doesitcache: /usr/local/bin/doesitcache
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  gapplication: /usr/local/bin/gapplication
-  gdbus: /usr/local/bin/gdbus
-  gdbus-codegen: /usr/local/bin/gdbus-codegen

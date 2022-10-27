@@ -34,7 +34,6 @@ aliases:
   unbug_xarg.sh: /usr/local/bin/unbug_xarg.sh
   view_xargs.sh: /usr/local/bin/view_xargs.sh
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
@@ -44,17 +43,3 @@ aliases:
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter

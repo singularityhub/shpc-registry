@@ -14,7 +14,6 @@ aliases:
   bpipe-torque.sh: /usr/local/bin/bpipe-torque.sh
   bpipe-utils.sh: /usr/local/bin/bpipe-utils.sh
   groovy_script: /usr/local/bin/groovy_script
-  '[': /usr/local/bin/[
   aserver: /usr/local/bin/aserver
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
@@ -25,17 +24,3 @@ aliases:
   chcon: /usr/local/bin/chcon
   chgrp: /usr/local/bin/chgrp
   chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown
-  chroot: /usr/local/bin/chroot
-  cjpeg: /usr/local/bin/cjpeg
-  cksum: /usr/local/bin/cksum
-  comm: /usr/local/bin/comm
-  cp: /usr/local/bin/cp
-  csplit: /usr/local/bin/csplit
-  cut: /usr/local/bin/cut
-  date: /usr/local/bin/date
-  dd: /usr/local/bin/dd
-  derb: /usr/local/bin/derb
-  df: /usr/local/bin/df
-  dir: /usr/local/bin/dir
-  dircolors: /usr/local/bin/dircolors

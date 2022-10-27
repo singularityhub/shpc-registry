@@ -28,7 +28,6 @@ aliases:
   setup-deps.pl.bak: /usr/local/bin/setup-deps.pl.bak
   setup.sh.orig: /usr/local/bin/setup.sh.orig
   stash-pubmed: /usr/local/bin/stash-pubmed
-  README: /usr/local/bin/README
   activate: /usr/local/bin/activate
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
@@ -39,17 +38,3 @@ aliases:
   common.go: /usr/local/bin/common.go
   conda: /usr/local/bin/conda
   conda_build.sh: /usr/local/bin/conda_build.sh
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  download-pubmed: /usr/local/bin/download-pubmed
-  download-sequence: /usr/local/bin/download-sequence
-  eaddress: /usr/local/bin/eaddress
-  ecitmatch: /usr/local/bin/ecitmatch
-  econtact: /usr/local/bin/econtact
-  edirect.pl: /usr/local/bin/edirect.pl
-  edirutil: /usr/local/bin/edirutil
-  efetch: /usr/local/bin/efetch
-  efilter: /usr/local/bin/efilter
-  einfo: /usr/local/bin/einfo
-  elink: /usr/local/bin/elink

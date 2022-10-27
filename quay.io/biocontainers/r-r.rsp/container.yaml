@@ -7,7 +7,6 @@ tags:
   0.30.0--r3.3.1_0: sha256:2b4bcd1dcfec88acf3dc2ddc0682da1f3b06e2f9955155347ec8326c8053a405
 docker: quay.io/biocontainers/r-r.rsp
 aliases:
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   activate: /usr/local/bin/activate
@@ -18,17 +17,3 @@ aliases:
   conda: /usr/local/bin/conda
   curl: /usr/local/bin/curl
   curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match
-  fc-pattern: /usr/local/bin/fc-pattern
-  fc-query: /usr/local/bin/fc-query
-  fc-scan: /usr/local/bin/fc-scan
-  fc-validate: /usr/local/bin/fc-validate
-  freetype-config: /usr/local/bin/freetype-config
-  gapplication: /usr/local/bin/gapplication
-  gdbus: /usr/local/bin/gdbus
-  gdbus-codegen: /usr/local/bin/gdbus-codegen

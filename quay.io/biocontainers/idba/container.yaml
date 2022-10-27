@@ -23,18 +23,3 @@ aliases:
   conda: /usr/local/bin/conda
   deactivate: /usr/local/bin/deactivate
   fa2fq: /usr/local/bin/fa2fq
-  fa2fq.o: /usr/local/bin/fa2fq.o
-  filter_blat: /usr/local/bin/filter_blat
-  filter_blat.o: /usr/local/bin/filter_blat.o
-  filter_contigs: /usr/local/bin/filter_contigs
-  filter_contigs.o: /usr/local/bin/filter_contigs.o
-  filterfa: /usr/local/bin/filterfa
-  filterfa.o: /usr/local/bin/filterfa.o
-  fq2fa: /usr/local/bin/fq2fa
-  fq2fa.o: /usr/local/bin/fq2fa.o
-  idba: /usr/local/bin/idba
-  idba.o: /usr/local/bin/idba.o
-  idba_hybrid: /usr/local/bin/idba_hybrid
-  idba_hybrid.o: /usr/local/bin/idba_hybrid.o
-  idba_tran: /usr/local/bin/idba_tran
-  idba_tran.o: /usr/local/bin/idba_tran.o

@@ -18,18 +18,3 @@ aliases:
   cert2spc: /usr/local/bin/cert2spc
   certmgr: /usr/local/bin/certmgr
   chktrust: /usr/local/bin/chktrust
-  conda: /usr/local/bin/conda
-  crlupdate: /usr/local/bin/crlupdate
-  csharp: /usr/local/bin/csharp
-  deactivate: /usr/local/bin/deactivate
-  disco: /usr/local/bin/disco
-  dmcs: /usr/local/bin/dmcs
-  dtd2rng: /usr/local/bin/dtd2rng
-  dtd2xsd: /usr/local/bin/dtd2xsd
-  gacutil: /usr/local/bin/gacutil
-  gacutil2: /usr/local/bin/gacutil2
-  genxs: /usr/local/bin/genxs
-  httpcfg: /usr/local/bin/httpcfg
-  ikdasm: /usr/local/bin/ikdasm
-  ilasm: /usr/local/bin/ilasm
-  installvst: /usr/local/bin/installvst

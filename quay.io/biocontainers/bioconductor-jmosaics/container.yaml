@@ -17,18 +17,3 @@ aliases:
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
   clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list
-  fc-match: /usr/local/bin/fc-match

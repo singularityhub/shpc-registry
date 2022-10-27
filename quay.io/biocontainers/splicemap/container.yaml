@@ -32,18 +32,3 @@ aliases:
   bowtie-build-s: /usr/local/bin/bowtie-build-s
   bowtie-inspect: /usr/local/bin/bowtie-inspect
   bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
-  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear

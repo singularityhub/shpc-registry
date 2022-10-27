@@ -17,18 +17,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  glpsol: /usr/local/bin/glpsol
-  gpmetis: /usr/local/bin/gpmetis
-  graphchk: /usr/local/bin/graphchk
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  igraph: /usr/local/bin/igraph

@@ -16,7 +16,6 @@ aliases:
   bs_seeker2-call_methylation.py: /usr/local/bin/bs_seeker2-call_methylation.py
   2to3: /usr/local/bin/2to3
   LICENSE: /usr/local/bin/LICENSE
-  README.md: /usr/local/bin/README.md
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
@@ -25,17 +24,3 @@ aliases:
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
   bowtie2-build: /usr/local/bin/bowtie2-build
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
-  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
-  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
-  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
-  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover

@@ -18,18 +18,3 @@ aliases:
   clp: /usr/local/bin/clp
   idle3: /usr/local/bin/idle3
   idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
-  jupyter-migrate: /usr/local/bin/jupyter-migrate
-  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
-  jupyter-trust: /usr/local/bin/jupyter-trust
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma

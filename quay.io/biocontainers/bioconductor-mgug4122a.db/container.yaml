@@ -7,8 +7,6 @@ tags:
   3.2.3--r40_9: sha256:3ea47a8fb8fef01c581ba427c65bfa45b6fa041fe755abb9c9c7a57ed5f3ac17
 docker: quay.io/biocontainers/bioconductor-mgug4122a.db
 aliases:
-  .bioconductor-mgug4122a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mgug4122a.db-pre-unlink.sh
-  .bioconductor-org.mm.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.mm.eg.db-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   R: /usr/local/bin/R
@@ -19,17 +17,3 @@ aliases:
   bzcmp: /usr/local/bin/bzcmp
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et

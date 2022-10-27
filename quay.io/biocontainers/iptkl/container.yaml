@@ -17,7 +17,6 @@ aliases:
   prt_terms.py: /usr/local/bin/prt_terms.py
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
-  .widgetsnbextension-pre-unlink.sh: /usr/local/bin/.widgetsnbextension-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
@@ -28,17 +27,3 @@ aliases:
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
   Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
-  SAXCount: /usr/local/bin/SAXCount
-  SAXPrint: /usr/local/bin/SAXPrint
-  SCMPrint: /usr/local/bin/SCMPrint
-  SEnumVal: /usr/local/bin/SEnumVal
-  StdInParse: /usr/local/bin/StdInParse
-  XInclude: /usr/local/bin/XInclude
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bokeh: /usr/local/bin/bokeh
-  bunzip2: /usr/local/bin/bunzip2

@@ -7,9 +7,6 @@ tags:
   1.8.0--r351_0: sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b
 docker: quay.io/biocontainers/bioconductor-kegglincs
 aliases:
-  .bioconductor-hgu133a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh
-  .bioconductor-kodata-pre-unlink.sh: /usr/local/bin/.bioconductor-kodata-pre-unlink.sh
-  .bioconductor-org.hs.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.hs.eg.db-pre-unlink.sh
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript
   activate: /usr/local/bin/activate
@@ -20,17 +17,3 @@ aliases:
   bzdiff: /usr/local/bin/bzdiff
   bzegrep: /usr/local/bin/bzegrep
   bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  conda: /usr/local/bin/conda

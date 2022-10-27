@@ -7,7 +7,6 @@ tags:
   2.9.0--h2d02072_0: sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c
 docker: quay.io/biocontainers/rmblast
 aliases:
-  README: /usr/local/bin/README
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
@@ -18,17 +17,3 @@ aliases:
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdb_convert: /usr/local/bin/blastdb_convert
   blastdb_path: /usr/local/bin/blastdb_path
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bt-context.txt: /usr/local/bin/bt-context.txt
-  bt-link: /usr/local/bin/bt-link
-  bt-load: /usr/local/bin/bt-load
-  bt-save: /usr/local/bin/bt-save
-  bt-srch: /usr/local/bin/bt-srch
-  build.sh: /usr/local/bin/build.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat

@@ -17,18 +17,3 @@ aliases:
   esl-alirev: /usr/local/bin/esl-alirev
   esl-alistat: /usr/local/bin/esl-alistat
   esl-compalign: /usr/local/bin/esl-compalign
-  esl-compstruct: /usr/local/bin/esl-compstruct
-  esl-construct: /usr/local/bin/esl-construct
-  esl-histplot: /usr/local/bin/esl-histplot
-  esl-mask: /usr/local/bin/esl-mask
-  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
-  esl-reformat: /usr/local/bin/esl-reformat
-  esl-selectn: /usr/local/bin/esl-selectn
-  esl-seqrange: /usr/local/bin/esl-seqrange
-  esl-seqstat: /usr/local/bin/esl-seqstat
-  esl-sfetch: /usr/local/bin/esl-sfetch
-  esl-shuffle: /usr/local/bin/esl-shuffle
-  esl-ssdraw: /usr/local/bin/esl-ssdraw
-  esl-translate: /usr/local/bin/esl-translate
-  esl-weight: /usr/local/bin/esl-weight
-  env-execute: /usr/local/env-execute

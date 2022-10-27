@@ -25,7 +25,6 @@ aliases:
   replace: /usr/local/bin/replace
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   R: /usr/local/bin/R
@@ -36,17 +35,3 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
   bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
-  bedToBam: /usr/local/bin/bedToBam
-  bedToBigBed: /usr/local/bin/bedToBigBed
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace

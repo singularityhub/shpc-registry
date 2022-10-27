@@ -7,7 +7,6 @@ tags:
   0.2.4--hec16e2b_5: sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009
 docker: quay.io/biocontainers/mentalist
 aliases:
-  .julia-pre-unlink.sh: /usr/local/bin/.julia-pre-unlink.sh
   MentaLiST.jl: /usr/local/bin/MentaLiST.jl
   build_db_functions.jl: /usr/local/bin/build_db_functions.jl
   calling_functions.jl: /usr/local/bin/calling_functions.jl
@@ -26,18 +25,3 @@ aliases:
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom
   fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  funzip: /usr/local/bin/funzip
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  gif2h5: /usr/local/bin/gif2h5
-  gpmetis: /usr/local/bin/gpmetis
-  graphchk: /usr/local/bin/graphchk
-  gss-client: /usr/local/bin/gss-client
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy

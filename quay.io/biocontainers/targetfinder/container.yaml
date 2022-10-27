@@ -23,18 +23,3 @@ aliases:
   ann_feats_up_www2.pl: /usr/local/bin/ann_feats_up_www2.pl
   ann_ipr_www.pl: /usr/local/bin/ann_ipr_www.pl
   ann_pdb_cath.pl: /usr/local/bin/ann_pdb_cath.pl
-  ann_pdb_vast.pl: /usr/local/bin/ann_pdb_vast.pl
-  ann_pfam30_tmptbl.pl: /usr/local/bin/ann_pfam30_tmptbl.pl
-  ann_pfam_www.pl: /usr/local/bin/ann_pfam_www.pl
-  ann_upfeats_pfam_www_e.pl: /usr/local/bin/ann_upfeats_pfam_www_e.pl
-  annot_blast_btop2.pl: /usr/local/bin/annot_blast_btop2.pl
-  color_defs.pl: /usr/local/bin/color_defs.pl
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  exp_up_ensg.pl: /usr/local/bin/exp_up_ensg.pl
-  expand_links.pl: /usr/local/bin/expand_links.pl
-  expand_uniref50.pl: /usr/local/bin/expand_uniref50.pl
-  fasta36: /usr/local/bin/fasta36
-  fastf36: /usr/local/bin/fastf36

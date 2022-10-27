@@ -20,18 +20,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   gss-client: /usr/local/bin/gss-client
   idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  k5srvutil: /usr/local/bin/k5srvutil
-  kadmin: /usr/local/bin/kadmin
-  kdestroy: /usr/local/bin/kdestroy
-  kinit: /usr/local/bin/kinit
-  klist: /usr/local/bin/klist
-  kpasswd: /usr/local/bin/kpasswd
-  krb5-config: /usr/local/bin/krb5-config
-  ksu: /usr/local/bin/ksu
-  kswitch: /usr/local/bin/kswitch
-  ktutil: /usr/local/bin/ktutil
-  kvno: /usr/local/bin/kvno
-  lzcat: /usr/local/bin/lzcat

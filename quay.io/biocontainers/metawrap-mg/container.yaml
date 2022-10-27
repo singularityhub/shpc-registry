@@ -103,7 +103,6 @@ aliases:
   uniform_search_unit_test: /usr/local/bin/uniform_search_unit_test
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   FragGeneScan: /usr/local/bin/FragGeneScan
   Makefile: /usr/local/bin/Makefile
@@ -114,17 +113,3 @@ aliases:
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
-  aclocal.bak: /usr/local/bin/aclocal.bak
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aragorn: /usr/local/bin/aragorn
-  assistant: /usr/local/bin/assistant
-  autoheader.bak: /usr/local/bin/autoheader.bak
-  autom4te.bak: /usr/local/bin/autom4te.bak
-  automake.bak: /usr/local/bin/automake.bak
-  autopoint: /usr/local/bin/autopoint
-  autoreconf.bak: /usr/local/bin/autoreconf.bak
-  autoscan.bak: /usr/local/bin/autoscan.bak
-  autoupdate.bak: /usr/local/bin/autoupdate.bak

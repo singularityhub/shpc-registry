@@ -18,18 +18,3 @@ aliases:
   ccomps: /usr/local/bin/ccomps
   chardetect: /usr/local/bin/chardetect
   circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  cluster: /usr/local/bin/cluster
-  cxpm: /usr/local/bin/cxpm
-  derb: /usr/local/bin/derb
-  dijkstra: /usr/local/bin/dijkstra
-  djpeg: /usr/local/bin/djpeg
-  dot: /usr/local/bin/dot
-  dot2gxl: /usr/local/bin/dot2gxl
-  dot_builtins: /usr/local/bin/dot_builtins
-  easy_install: /usr/local/bin/easy_install
-  edgepaint: /usr/local/bin/edgepaint
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff

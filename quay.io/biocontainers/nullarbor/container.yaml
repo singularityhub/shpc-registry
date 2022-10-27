@@ -46,23 +46,8 @@ aliases:
   FET.pl: /usr/local/bin/FET.pl
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
-  README: /usr/local/bin/README
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   abba-baba: /usr/local/bin/abba-baba
   abricate: /usr/local/bin/abricate
   abricate-get_db: /usr/local/bin/abricate-get_db
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  any2fasta: /usr/local/bin/any2fasta
-  aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed

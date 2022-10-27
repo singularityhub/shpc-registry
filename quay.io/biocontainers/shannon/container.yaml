@@ -22,7 +22,6 @@ aliases:
   kmers_for_component.py: /usr/local/bin/kmers_for_component.py
   kmers_for_component_back.py: /usr/local/bin/kmers_for_component_back.py
   kp1mer_to_kmer.py: /usr/local/bin/kp1mer_to_kmer.py
-  manual.md: /usr/local/bin/manual.md
   mbgraph.py: /usr/local/bin/mbgraph.py
   merge_mate_pairs: /usr/local/bin/merge_mate_pairs
   multibridging.py: /usr/local/bin/multibridging.py
@@ -56,18 +55,3 @@ aliases:
   easy_install: /usr/local/bin/easy_install
   enc2xs: /usr/local/bin/enc2xs
   encguess: /usr/local/bin/encguess
-  env_parallel: /usr/local/bin/env_parallel
-  env_parallel.ash: /usr/local/bin/env_parallel.ash
-  env_parallel.bash: /usr/local/bin/env_parallel.bash
-  env_parallel.csh: /usr/local/bin/env_parallel.csh
-  env_parallel.dash: /usr/local/bin/env_parallel.dash
-  env_parallel.fish: /usr/local/bin/env_parallel.fish
-  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
-  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
-  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
-  env_parallel.sh: /usr/local/bin/env_parallel.sh
-  env_parallel.tcsh: /usr/local/bin/env_parallel.tcsh
-  env_parallel.zsh: /usr/local/bin/env_parallel.zsh
-  f2py: /usr/local/bin/f2py
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7

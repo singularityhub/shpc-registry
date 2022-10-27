@@ -135,18 +135,3 @@ aliases:
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
   FastTreeMP: /usr/local/bin/FastTreeMP
   MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
-  SAXCount: /usr/local/bin/SAXCount
-  SAXPrint: /usr/local/bin/SAXPrint
-  SCMPrint: /usr/local/bin/SCMPrint
-  SEnumVal: /usr/local/bin/SEnumVal
-  StdInParse: /usr/local/bin/StdInParse
-  XInclude: /usr/local/bin/XInclude
-  activate: /usr/local/bin/activate
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint

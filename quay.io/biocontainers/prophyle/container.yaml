@@ -28,18 +28,3 @@ aliases:
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   bunzip2: /usr/local/bin/bunzip2
   bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
-  certutil: /usr/local/bin/certutil
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear

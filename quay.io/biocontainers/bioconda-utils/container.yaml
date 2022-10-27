@@ -33,7 +33,6 @@ aliases:
   scalar: /usr/local/bin/scalar
   skopeo: /usr/local/bin/skopeo
   watchgod: /usr/local/bin/watchgod
-  .librsvg-pre-unlink.sh: /usr/local/bin/.librsvg-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   acountry: /usr/local/bin/acountry
@@ -44,17 +43,3 @@ aliases:
   annotate: /usr/local/bin/annotate
   autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bsdcat: /usr/local/bin/bsdcat
-  bsdcpio: /usr/local/bin/bsdcpio
-  bsdtar: /usr/local/bin/bsdtar
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless

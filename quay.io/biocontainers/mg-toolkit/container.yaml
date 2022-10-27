@@ -18,18 +18,3 @@ aliases:
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  jsonschema: /usr/local/bin/jsonschema
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp
-  lzdiff: /usr/local/bin/lzdiff
-  lzegrep: /usr/local/bin/lzegrep
-  lzfgrep: /usr/local/bin/lzfgrep
-  lzgrep: /usr/local/bin/lzgrep
-  lzless: /usr/local/bin/lzless
-  lzma: /usr/local/bin/lzma
-  lzmadec: /usr/local/bin/lzmadec
-  lzmainfo: /usr/local/bin/lzmainfo

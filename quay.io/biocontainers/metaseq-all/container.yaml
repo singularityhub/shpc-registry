@@ -21,18 +21,3 @@ aliases:
   align_print_template.py: /usr/local/bin/align_print_template.py
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
-  bedToBam: /usr/local/bin/bedToBam
-  bedToBigBed: /usr/local/bin/bedToBigBed
-  bedToIgv: /usr/local/bin/bedToIgv
-  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
-  bed_build_windows.py: /usr/local/bin/bed_build_windows.py
-  bed_complement.py: /usr/local/bin/bed_complement.py

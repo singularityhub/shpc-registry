@@ -18,11 +18,3 @@ aliases:
   bzip2: /usr/local/bin/bzip2
   bzip2recover: /usr/local/bin/bzip2recover
   bzless: /usr/local/bin/bzless
-  bzmore: /usr/local/bin/bzmore
-  c_rehash: /usr/local/bin/c_rehash
-  openssl: /usr/local/bin/openssl
-  zip: /usr/local/bin/zip
-  zipcmp: /usr/local/bin/zipcmp
-  zipmerge: /usr/local/bin/zipmerge
-  ziptool: /usr/local/bin/ziptool
-  env-execute: /usr/local/env-execute

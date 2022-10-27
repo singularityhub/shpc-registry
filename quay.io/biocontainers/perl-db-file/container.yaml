@@ -17,18 +17,3 @@ aliases:
   db_hotbackup: /usr/local/bin/db_hotbackup
   db_load: /usr/local/bin/db_load
   db_log_verify: /usr/local/bin/db_log_verify
-  db_printlog: /usr/local/bin/db_printlog
-  db_recover: /usr/local/bin/db_recover
-  db_replicate: /usr/local/bin/db_replicate
-  db_stat: /usr/local/bin/db_stat
-  db_tuner: /usr/local/bin/db_tuner
-  db_upgrade: /usr/local/bin/db_upgrade
-  db_verify: /usr/local/bin/db_verify
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl

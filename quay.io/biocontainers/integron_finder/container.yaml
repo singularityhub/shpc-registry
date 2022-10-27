@@ -20,18 +20,3 @@ aliases:
   cmbuild: /usr/local/bin/cmbuild
   cmcalibrate: /usr/local/bin/cmcalibrate
   cmconvert: /usr/local/bin/cmconvert
-  cmemit: /usr/local/bin/cmemit
-  cmfetch: /usr/local/bin/cmfetch
-  cmpress: /usr/local/bin/cmpress
-  cmscan: /usr/local/bin/cmscan
-  cmsearch: /usr/local/bin/cmsearch
-  cmstat: /usr/local/bin/cmstat
-  derb: /usr/local/bin/derb
-  easel: /usr/local/bin/easel
-  easy_install: /usr/local/bin/easy_install
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
-  esl-alimerge: /usr/local/bin/esl-alimerge
-  esl-alipid: /usr/local/bin/esl-alipid

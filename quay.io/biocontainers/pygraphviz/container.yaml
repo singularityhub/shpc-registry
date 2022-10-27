@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/pygraphviz
 aliases:
   dotty: /usr/local/bin/dotty
   lneato: /usr/local/bin/lneato
-  .openssl-libcrypto-fix: /usr/local/bin/.openssl-libcrypto-fix
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   activate: /usr/local/bin/activate
@@ -20,17 +19,3 @@ aliases:
   circo: /usr/local/bin/circo
   cjpeg: /usr/local/bin/cjpeg
   cluster: /usr/local/bin/cluster
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  dijkstra: /usr/local/bin/dijkstra
-  djpeg: /usr/local/bin/djpeg
-  dot: /usr/local/bin/dot
-  dot2gxl: /usr/local/bin/dot2gxl
-  dot_builtins: /usr/local/bin/dot_builtins
-  easy_install: /usr/local/bin/easy_install
-  easy_install-3.6: /usr/local/bin/easy_install-3.6
-  edgepaint: /usr/local/bin/edgepaint
-  fdp: /usr/local/bin/fdp
-  freetype-config: /usr/local/bin/freetype-config
-  gc: /usr/local/bin/gc
-  gml2gv: /usr/local/bin/gml2gv

@@ -7,7 +7,6 @@ tags:
   1.1.0--py36r41h2ad2d48_7: sha256:2216d30f270c5e8df9ff3e8d17f2581e5814e69ce1039033c46411093f67e7e4
 docker: quay.io/biocontainers/blockclust
 aliases:
-  .blockclust-pre-unlink.sh: /usr/local/bin/.blockclust-pre-unlink.sh
   EDeN: /usr/local/bin/EDeN
   blockclust: /usr/local/bin/blockclust
   blockclust.py: /usr/local/bin/blockclust.py
@@ -15,7 +14,6 @@ aliases:
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   R: /usr/local/bin/R
-  README: /usr/local/bin/README
   Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
@@ -23,17 +21,3 @@ aliases:
   ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  blst2tkns: /usr/local/bin/blst2tkns
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2

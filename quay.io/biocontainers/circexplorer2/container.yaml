@@ -49,18 +49,3 @@ aliases:
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
   bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bowtie: /usr/local/bin/bowtie
-  bowtie-align-l: /usr/local/bin/bowtie-align-l
-  bowtie-align-s: /usr/local/bin/bowtie-align-s
-  bowtie-build: /usr/local/bin/bowtie-build
-  bowtie-build-l: /usr/local/bin/bowtie-build-l
-  bowtie-build-s: /usr/local/bin/bowtie-build-s
-  bowtie-inspect: /usr/local/bin/bowtie-inspect
-  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
-  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s

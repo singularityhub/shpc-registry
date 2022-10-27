@@ -17,18 +17,3 @@ aliases:
   jarsigner: /usr/local/bin/jarsigner
   java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javah: /usr/local/bin/javah
-  javap: /usr/local/bin/javap
-  jcmd: /usr/local/bin/jcmd
-  jconsole: /usr/local/bin/jconsole
-  jdb: /usr/local/bin/jdb
-  jdeps: /usr/local/bin/jdeps
-  jhat: /usr/local/bin/jhat
-  jinfo: /usr/local/bin/jinfo
-  jjs: /usr/local/bin/jjs
-  jmap: /usr/local/bin/jmap
-  jps: /usr/local/bin/jps
-  jrunscript: /usr/local/bin/jrunscript
-  jsadebugd: /usr/local/bin/jsadebugd

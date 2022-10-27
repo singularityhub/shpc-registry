@@ -23,18 +23,3 @@ aliases:
   analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
   analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  aserver: /usr/local/bin/aserver
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bbcms.sh: /usr/local/bin/bbcms.sh
-  bbcountunique.sh: /usr/local/bin/bbcountunique.sh
-  bbduk.sh: /usr/local/bin/bbduk.sh
-  bbest.sh: /usr/local/bin/bbest.sh
-  bbfakereads.sh: /usr/local/bin/bbfakereads.sh
-  bbmap.sh: /usr/local/bin/bbmap.sh
-  bbmapskimmer.sh: /usr/local/bin/bbmapskimmer.sh
-  bbmask.sh: /usr/local/bin/bbmask.sh
-  bbmerge-auto.sh: /usr/local/bin/bbmerge-auto.sh

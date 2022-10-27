@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/hmftools-linx
 aliases:
   linx: /usr/local/bin/linx
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
-  .bioconductor-genomeinfodbdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomeinfodbdata-pre-unlink.sh
   2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   Magick++-config: /usr/local/bin/Magick++-config
@@ -20,17 +19,3 @@ aliases:
   acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
   annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover

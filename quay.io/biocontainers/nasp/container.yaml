@@ -28,18 +28,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   cairo-trace: /usr/local/bin/cairo-trace
   captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  delta-filter: /usr/local/bin/delta-filter
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  dnadiff: /usr/local/bin/dnadiff
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  envsubst: /usr/local/bin/envsubst
-  exact-tandems: /usr/local/bin/exact-tandems
-  export2sam.pl: /usr/local/bin/export2sam.pl

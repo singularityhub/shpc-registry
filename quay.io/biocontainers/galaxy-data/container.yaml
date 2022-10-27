@@ -39,18 +39,3 @@ aliases:
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
   axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bagit.py: /usr/local/bin/bagit.py
-  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
-  bed_build_windows.py: /usr/local/bin/bed_build_windows.py
-  bed_complement.py: /usr/local/bin/bed_complement.py
-  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py
-  bed_count_overlapping.py: /usr/local/bin/bed_count_overlapping.py
-  bed_coverage.py: /usr/local/bin/bed_coverage.py
-  bed_coverage_by_interval.py: /usr/local/bin/bed_coverage_by_interval.py
-  bed_diff_basewise_summary.py: /usr/local/bin/bed_diff_basewise_summary.py
-  bed_extend_to.py: /usr/local/bin/bed_extend_to.py
-  bed_intersect.py: /usr/local/bin/bed_intersect.py
-  bed_intersect_basewise.py: /usr/local/bin/bed_intersect_basewise.py
-  bed_merge_overlapping.py: /usr/local/bin/bed_merge_overlapping.py
-  bed_rand_intersect.py: /usr/local/bin/bed_rand_intersect.py

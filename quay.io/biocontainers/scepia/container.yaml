@@ -201,18 +201,3 @@ aliases:
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
   ame: /usr/local/bin/ame
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  beeml2meme: /usr/local/bin/beeml2meme
-  bgzip: /usr/local/bin/bgzip
-  brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2

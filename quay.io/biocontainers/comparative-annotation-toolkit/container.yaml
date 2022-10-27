@@ -48,7 +48,6 @@ aliases:
   transMapPslToGenePred: /usr/local/bin/transMapPslToGenePred
   webserver-results.body: /usr/local/bin/webserver-results.body
   2to3: /usr/local/bin/2to3
-  README.autoAug: /usr/local/bin/README.autoAug
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
@@ -58,17 +57,3 @@ aliases:
   augustus: /usr/local/bin/augustus
   augustus2browser.pl: /usr/local/bin/augustus2browser.pl
   augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
-  autoAug.pl: /usr/local/bin/autoAug.pl
-  autoAugPred.pl: /usr/local/bin/autoAugPred.pl
-  autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
-  autopoint: /usr/local/bin/autopoint
-  avro: /usr/local/bin/avro
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bam2hints: /usr/local/bin/bam2hints
-  bam2wig: /usr/local/bin/bam2wig
-  bamtools: /usr/local/bin/bamtools
-  bcftools: /usr/local/bin/bcftools
-  bedToBigBed: /usr/local/bin/bedToBigBed

@@ -30,18 +30,3 @@ aliases:
   gettext: /usr/local/bin/gettext
   gettext.sh: /usr/local/bin/gettext.sh
   gettextize: /usr/local/bin/gettextize
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  iconv: /usr/local/bin/iconv
-  idn2: /usr/local/bin/idn2
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  msgattrib: /usr/local/bin/msgattrib
-  msgcat: /usr/local/bin/msgcat
-  msgcmp: /usr/local/bin/msgcmp
-  msgcomm: /usr/local/bin/msgcomm
-  msgconv: /usr/local/bin/msgconv
-  msgen: /usr/local/bin/msgen
-  msgexec: /usr/local/bin/msgexec
-  msgfilter: /usr/local/bin/msgfilter

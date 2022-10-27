@@ -41,18 +41,3 @@ aliases:
   MCPB.py: /usr/local/bin/MCPB.py
   MMPBSA.py: /usr/local/bin/MMPBSA.py
   OptC4.py: /usr/local/bin/OptC4.py
-  PdbSearcher.py: /usr/local/bin/PdbSearcher.py
-  ProScrs.py: /usr/local/bin/ProScrs.py
-  PropPDB: /usr/local/bin/PropPDB
-  UnitCell: /usr/local/bin/UnitCell
-  XrayPrep: /usr/local/bin/XrayPrep
-  acountry: /usr/local/bin/acountry
-  add_pdb: /usr/local/bin/add_pdb
-  add_xray: /usr/local/bin/add_xray
-  addles: /usr/local/bin/addles
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  am1bcc: /usr/local/bin/am1bcc
-  amb2chm_par.py: /usr/local/bin/amb2chm_par.py
-  amb2chm_psf_crd.py: /usr/local/bin/amb2chm_psf_crd.py
-  amb2gro_top_gro.py: /usr/local/bin/amb2gro_top_gro.py

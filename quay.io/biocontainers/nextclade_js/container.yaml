@@ -20,8 +20,3 @@ aliases:
   icu-config: /usr/local/bin/icu-config
   icuinfo: /usr/local/bin/icuinfo
   makeconv: /usr/local/bin/makeconv
-  node: /usr/local/bin/node
-  npm: /usr/local/bin/npm
-  openssl: /usr/local/bin/openssl
-  pkgdata: /usr/local/bin/pkgdata
-  env-execute: /usr/local/env-execute

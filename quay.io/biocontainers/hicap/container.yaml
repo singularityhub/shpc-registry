@@ -10,7 +10,6 @@ aliases:
   hicap: /usr/local/bin/hicap
   2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  README: /usr/local/bin/README
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
@@ -19,17 +18,3 @@ aliases:
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bt-context.txt: /usr/local/bin/bt-context.txt
-  bt-link: /usr/local/bin/bt-link
-  bt-load: /usr/local/bin/bt-load
-  bt-save: /usr/local/bin/bt-save
-  bt-srch: /usr/local/bin/bt-srch
-  build.sh: /usr/local/bin/build.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

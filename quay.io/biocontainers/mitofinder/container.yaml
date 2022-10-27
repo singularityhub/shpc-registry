@@ -29,23 +29,8 @@ aliases:
   Makefile: /usr/local/bin/Makefile
   Makefile.am: /usr/local/bin/Makefile.am
   Makefile.in: /usr/local/bin/Makefile.in
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   aclocal.bak: /usr/local/bin/aclocal.bak
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
   ahost: /usr/local/bin/ahost
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  autoheader.bak: /usr/local/bin/autoheader.bak
-  autom4te.bak: /usr/local/bin/autom4te.bak
-  automake.bak: /usr/local/bin/automake.bak
-  autoreconf.bak: /usr/local/bin/autoreconf.bak
-  autoscan.bak: /usr/local/bin/autoscan.bak
-  autoupdate.bak: /usr/local/bin/autoupdate.bak
-  bazel-scan.py: /usr/local/bin/bazel-scan.py
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

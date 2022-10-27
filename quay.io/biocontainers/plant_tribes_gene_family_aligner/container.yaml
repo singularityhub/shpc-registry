@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/plant_tribes_gene_family_aligner
 aliases:
   GeneFamilyAligner: /usr/local/bin/GeneFamilyAligner
-  README.txt: /usr/local/bin/README.txt
   fakealigner: /usr/local/bin/fakealigner
   faketree: /usr/local/bin/faketree
   fasttreeMP: /usr/local/bin/fasttreeMP
@@ -32,18 +31,3 @@ aliases:
   dendropy-format: /usr/local/bin/dendropy-format
   easy_install: /usr/local/bin/easy_install
   einsi: /usr/local/bin/einsi
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  fasttree: /usr/local/bin/fasttree
-  fftns: /usr/local/bin/fftns
-  fftnsi: /usr/local/bin/fftnsi
-  ginsi: /usr/local/bin/ginsi
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  hmmalign: /usr/local/bin/hmmalign
-  hmmbuild: /usr/local/bin/hmmbuild
-  idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  instmodsh: /usr/local/bin/instmodsh
-  jaotc: /usr/local/bin/jaotc

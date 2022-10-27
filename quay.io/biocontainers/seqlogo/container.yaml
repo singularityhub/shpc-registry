@@ -17,18 +17,3 @@ aliases:
   eps2eps: /usr/local/bin/eps2eps
   f2py: /usr/local/bin/f2py
   f2py3: /usr/local/bin/f2py3
-  f2py3.8: /usr/local/bin/f2py3.8
-  gs: /usr/local/bin/gs
-  gsbj: /usr/local/bin/gsbj
-  gsdj: /usr/local/bin/gsdj
-  gsdj500: /usr/local/bin/gsdj500
-  gslj: /usr/local/bin/gslj
-  gslp: /usr/local/bin/gslp
-  gsnd: /usr/local/bin/gsnd
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lprsetup.sh: /usr/local/bin/lprsetup.sh
-  lzcat: /usr/local/bin/lzcat
-  lzcmp: /usr/local/bin/lzcmp

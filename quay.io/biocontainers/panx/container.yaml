@@ -23,18 +23,3 @@ aliases:
   c_rehash: /usr/local/bin/c_rehash
   captoinfo: /usr/local/bin/captoinfo
   cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  clm: /usr/local/bin/clm
-  clmformat: /usr/local/bin/clmformat
-  clxdo: /usr/local/bin/clxdo
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool

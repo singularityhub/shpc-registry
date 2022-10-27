@@ -37,18 +37,3 @@ aliases:
   f2py3: /usr/local/bin/f2py3
   f2py3.7: /usr/local/bin/f2py3.7
   fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  gmx: /usr/local/bin/gmx
-  hwloc-annotate: /usr/local/bin/hwloc-annotate
-  hwloc-bind: /usr/local/bin/hwloc-bind
-  hwloc-calc: /usr/local/bin/hwloc-calc
-  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
-  hwloc-diff: /usr/local/bin/hwloc-diff
-  hwloc-distrib: /usr/local/bin/hwloc-distrib

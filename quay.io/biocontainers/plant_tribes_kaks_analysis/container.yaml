@@ -21,7 +21,6 @@ aliases:
   racc2y: /usr/local/bin/racc2y
   y2racc: /usr/local/bin/y2racc
   CA.pm: /usr/local/bin/CA.pm
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -31,17 +30,3 @@ aliases:
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
   baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  bt-context.txt: /usr/local/bin/bt-context.txt
-  bt-link: /usr/local/bin/bt-link
-  bt-load: /usr/local/bin/bt-load
-  bt-save: /usr/local/bin/bt-save
-  bt-srch: /usr/local/bin/bt-srch

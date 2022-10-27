@@ -10,7 +10,6 @@ aliases:
   Gcluster.pl: /usr/local/bin/Gcluster.pl
   interested_gene_generation.pl: /usr/local/bin/interested_gene_generation.pl
   test.pl: /usr/local/bin/test.pl
-  README: /usr/local/bin/README
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   acountry: /usr/local/bin/acountry
   adig: /usr/local/bin/adig
@@ -21,17 +20,3 @@ aliases:
   archive-pubmed: /usr/local/bin/archive-pubmed
   asn2xml: /usr/local/bin/asn2xml
   autopoint: /usr/local/bin/autopoint
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  blst2tkns: /usr/local/bin/blst2tkns
-  bp_aacomp: /usr/local/bin/bp_aacomp
-  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
-  bp_biogetseq: /usr/local/bin/bp_biogetseq

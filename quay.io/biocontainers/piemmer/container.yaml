@@ -17,18 +17,3 @@ aliases:
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  djpeg: /usr/local/bin/djpeg
-  doesitcache: /usr/local/bin/doesitcache
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
-  f2py3.9: /usr/local/bin/f2py3.9
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  freetype-config: /usr/local/bin/freetype-config
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
