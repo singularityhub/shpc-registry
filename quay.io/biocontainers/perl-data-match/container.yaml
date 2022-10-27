@@ -7,13 +7,4 @@ tags:
   0.06--pl5321hdfd78af_1: sha256:69ff5b9b461502d4b38cb1b2238744422b67fc34f45acb7282a4a78728dd29b4
 docker: quay.io/biocontainers/perl-data-match
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   findrule: /usr/local/bin/findrule
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg

@@ -22,8 +22,8 @@ aliases:
   blastclust: /usr/local/bin/blastclust
   blastpgp: /usr/local/bin/blastpgp
   copymat: /usr/local/bin/copymat
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat

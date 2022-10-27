@@ -7,13 +7,5 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:11aba41abfea4cbcbd1451f0f4e74584b89e53101327dd5aa6f6e9106b928f98
 docker: quay.io/biocontainers/bioconductor-abseqr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

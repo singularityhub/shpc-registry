@@ -7,13 +7,6 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d
 docker: quay.io/biocontainers/bioconductor-reactomegsa.data
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  geos-config: /usr/local/bin/geos-config
+  geosop: /usr/local/bin/geosop
+  glpsol: /usr/local/bin/glpsol

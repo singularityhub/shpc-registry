@@ -7,13 +7,6 @@ tags:
   1.6.0--r341hfc679d8_0: sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7
 docker: quay.io/biocontainers/bioconductor-dsimer
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

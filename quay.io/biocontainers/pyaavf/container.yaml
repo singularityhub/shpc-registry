@@ -7,13 +7,8 @@ tags:
   0.1.0--pyh864c0ab_1: sha256:a68f75672d1849099961297846fcf0b414cf42f8c7ab08855f09b96052cbb13a
 docker: quay.io/biocontainers/pyaavf
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

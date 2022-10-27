@@ -7,13 +7,13 @@ tags:
   0.9.2--py35_0: sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152
 docker: quay.io/biocontainers/httplib2
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
+  tclsh8.5: /usr/local/bin/tclsh8.5

@@ -10,13 +10,3 @@ aliases:
   esh: /usr/local/bin/esh
   eutils-config: /usr/local/bin/eutils-config
   mapseq: /usr/local/bin/mapseq
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  gsl-config: /usr/local/bin/gsl-config

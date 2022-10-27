@@ -14,13 +14,13 @@ aliases:
   ss: /usr/local/bin/ss
   ssm: /usr/local/bin/ssm
   thrift: /usr/local/bin/thrift
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  f2py3.7: /usr/local/bin/f2py3.7
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  idle3.7: /usr/local/bin/idle3.7
+  jsonschema: /usr/local/bin/jsonschema
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jupyter-trust: /usr/local/bin/jupyter-trust

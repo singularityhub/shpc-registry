@@ -28,13 +28,13 @@ aliases:
   nextflow: /usr/local/bin/nextflow
   normandcorrectwrapper.sh: /usr/local/bin/normandcorrectwrapper.sh
   taxonlist.tsv: /usr/local/bin/taxonlist.tsv
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   addadapters.sh: /usr/local/bin/addadapters.sh
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
+  appletviewer: /usr/local/bin/appletviewer
+  assistant: /usr/local/bin/assistant
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename

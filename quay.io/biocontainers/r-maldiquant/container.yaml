@@ -7,13 +7,4 @@ tags:
   1.18--r341ha44fe06_0: sha256:bb119d31be7906085022628b2791b5f8fdc2c2ae4e58830969236f74a93c9266
 docker: quay.io/biocontainers/r-maldiquant
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config

@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/rapmap
 aliases:
   rapmap: /usr/local/bin/rapmap
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

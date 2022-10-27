@@ -11,13 +11,13 @@ aliases:
   kb: /usr/local/bin/kb
   loompy: /usr/local/bin/loompy
   shortuuid: /usr/local/bin/shortuuid
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  curve_keygen: /usr/local/bin/curve_keygen
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp

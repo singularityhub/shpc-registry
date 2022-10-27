@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/bedtk
 aliases:
   bedtk: /usr/local/bin/bedtk
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,4 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368
 docker: quay.io/biocontainers/bioconductor-curatedadiporna
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

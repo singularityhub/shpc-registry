@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mutscan
 aliases:
   mutscan: /usr/local/bin/mutscan
-  env-execute: /usr/local/env-execute

@@ -10,13 +10,13 @@ aliases:
   classify_fasta.py: /usr/local/bin/classify_fasta.py
   scapp: /usr/local/bin/scapp
   train.py: /usr/local/bin/train.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  bgzip: /usr/local/bin/bgzip

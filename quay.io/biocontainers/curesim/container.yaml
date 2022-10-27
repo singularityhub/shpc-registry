@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/curesim
 aliases:
   curesim: /usr/local/bin/curesim
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
   basename: /usr/local/bin/basename
   basenc: /usr/local/bin/basenc
-  cairo-trace: /usr/local/bin/cairo-trace
   cat: /usr/local/bin/cat
   chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod

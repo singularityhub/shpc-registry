@@ -15,13 +15,13 @@ aliases:
   pyssw.py: /usr/local/bin/pyssw.py
   ssw_wrap.py: /usr/local/bin/ssw_wrap.py
   tools.py: /usr/local/bin/tools.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   FragGeneScan: /usr/local/bin/FragGeneScan
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter

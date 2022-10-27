@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/downpore
 aliases:
   downpore: /usr/local/bin/downpore
-  env-execute: /usr/local/env-execute

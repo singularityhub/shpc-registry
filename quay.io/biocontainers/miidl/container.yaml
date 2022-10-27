@@ -7,13 +7,13 @@ tags:
   0.0.5--pyh5e36f6f_0: sha256:f7695d4ba7ae1d34002d626b3ce9c6ce9c519ce2fcbff289a24e2c480a47096f
 docker: quay.io/biocontainers/miidl
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  djpeg: /usr/local/bin/djpeg
-  f2py: /usr/local/bin/f2py
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  ninja: /usr/local/bin/ninja
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

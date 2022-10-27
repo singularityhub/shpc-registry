@@ -9,10 +9,4 @@ docker: quay.io/biocontainers/fmlrc2
 aliases:
   fmlrc2: /usr/local/bin/fmlrc2
   fmlrc2-convert: /usr/local/bin/fmlrc2-convert
-  c_rehash: /usr/local/bin/c_rehash
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
-  openssl: /usr/local/bin/openssl
   starcode: /usr/local/bin/starcode
-  env-execute: /usr/local/env-execute

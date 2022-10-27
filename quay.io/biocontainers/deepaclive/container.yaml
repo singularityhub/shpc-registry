@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/deepaclive
 aliases:
   deepac: /usr/local/bin/deepac
   deepac-live: /usr/local/bin/deepac-live
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aec: /usr/local/bin/aec
-  ahost: /usr/local/bin/ahost
   annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fermi-lite
 aliases:
   fml-asm: /usr/local/bin/fml-asm
-  env-execute: /usr/local/env-execute

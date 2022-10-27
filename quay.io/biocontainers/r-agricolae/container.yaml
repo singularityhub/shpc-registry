@@ -7,13 +7,6 @@ tags:
   1.2_4--r3.3.2_0: sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35
 docker: quay.io/biocontainers/r-agricolae
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

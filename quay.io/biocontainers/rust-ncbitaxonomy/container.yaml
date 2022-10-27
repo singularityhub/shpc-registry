@@ -10,13 +10,3 @@ aliases:
   taxonomy_filter_fastq: /usr/local/bin/taxonomy_filter_fastq
   taxonomy_filter_refseq: /usr/local/bin/taxonomy_filter_refseq
   taxonomy_util: /usr/local/bin/taxonomy_util
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  reset: /usr/local/bin/reset
-  sqlite3: /usr/local/bin/sqlite3
-  tabs: /usr/local/bin/tabs
-  tic: /usr/local/bin/tic

@@ -10,5 +10,3 @@ aliases:
   arcs: /usr/local/bin/arcs
   arcs-make: /usr/local/bin/arcs-make
   long-to-linked-pe: /usr/local/bin/long-to-linked-pe
-  make: /usr/local/bin/make
-  env-execute: /usr/local/env-execute

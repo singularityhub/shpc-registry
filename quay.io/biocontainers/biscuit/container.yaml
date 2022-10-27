@@ -11,13 +11,3 @@ aliases:
   biscuit: /usr/local/bin/biscuit
   build_biscuit_QC_assets.pl: /usr/local/bin/build_biscuit_QC_assets.pl
   build_biscuit_QC_assets.pl.bak: /usr/local/bin/build_biscuit_QC_assets.pl.bak
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  curl-config: /usr/local/bin/curl-config

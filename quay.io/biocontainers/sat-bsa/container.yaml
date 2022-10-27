@@ -27,13 +27,13 @@ aliases:
   make_Local_reads_selection.pl: /usr/local/bin/make_Local_reads_selection.pl
   make_Long_reads_alignment.pl: /usr/local/bin/make_Long_reads_alignment.pl
   make_SVs_detection.pl: /usr/local/bin/make_SVs_detection.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  gif2rgb: /usr/local/bin/gif2rgb

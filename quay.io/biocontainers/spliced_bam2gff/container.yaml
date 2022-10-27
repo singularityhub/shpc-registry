@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/spliced_bam2gff
 aliases:
   spliced_bam2gff: /usr/local/bin/spliced_bam2gff
-  env-execute: /usr/local/env-execute

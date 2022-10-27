@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/pbaa
 aliases:
   pbaa: /usr/local/bin/pbaa
-  env-execute: /usr/local/env-execute

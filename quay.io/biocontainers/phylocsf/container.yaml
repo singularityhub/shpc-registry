@@ -49,11 +49,3 @@ aliases:
   tal-AA.fa: /usr/local/bin/tal-AA.fa
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
-  x86_64-conda_cos6-linux-gnu-addr2line: /usr/local/bin/x86_64-conda_cos6-linux-gnu-addr2line
-  x86_64-conda_cos6-linux-gnu-ar: /usr/local/bin/x86_64-conda_cos6-linux-gnu-ar
-  x86_64-conda_cos6-linux-gnu-as: /usr/local/bin/x86_64-conda_cos6-linux-gnu-as
-  x86_64-conda_cos6-linux-gnu-c++filt: /usr/local/bin/x86_64-conda_cos6-linux-gnu-c++filt
-  x86_64-conda_cos6-linux-gnu-cc: /usr/local/bin/x86_64-conda_cos6-linux-gnu-cc

@@ -31,7 +31,6 @@ aliases:
   clan_index: /usr/local/bin/clan_index
   clan_output: /usr/local/bin/clan_output
   clan_search: /usr/local/bin/clan_search
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -41,3 +40,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

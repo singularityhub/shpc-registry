@@ -12,4 +12,3 @@ aliases:
   PretextGraph.avx2: /usr/local/bin/PretextGraph.avx2
   PretextGraph.sse41: /usr/local/bin/PretextGraph.sse41
   PretextGraph.sse42: /usr/local/bin/PretextGraph.sse42
-  env-execute: /usr/local/env-execute

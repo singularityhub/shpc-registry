@@ -7,13 +7,6 @@ tags:
   0.103005--pl5321hec16e2b_1: sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349
 docker: quay.io/biocontainers/perl-pod-elemental
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

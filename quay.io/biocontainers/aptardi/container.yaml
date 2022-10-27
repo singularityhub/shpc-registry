@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/aptardi
 aliases:
   aptardi: /usr/local/bin/aptardi
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  f2py3.7: /usr/local/bin/f2py3.7
+  gif2h5: /usr/local/bin/gif2h5
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

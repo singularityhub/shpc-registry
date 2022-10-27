@@ -8,13 +8,9 @@ tags:
 docker: quay.io/biocontainers/fastqsplitter
 aliases:
   fastqsplitter: /usr/local/bin/fastqsplitter
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
   igzip: /usr/local/bin/igzip
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz

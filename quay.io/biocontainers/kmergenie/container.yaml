@@ -39,13 +39,8 @@ aliases:
   wrapper.py: /usr/local/bin/wrapper.py
   zeta.r: /usr/local/bin/zeta.r
   zeta.r.bak: /usr/local/bin/zeta.r.bak
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

@@ -11,13 +11,13 @@ aliases:
   orc-memory: /usr/local/bin/orc-memory
   orc-scan: /usr/local/bin/orc-scan
   timezone-dump: /usr/local/bin/timezone-dump
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  f2py3.10: /usr/local/bin/f2py3.10
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin

@@ -9,6 +9,3 @@ docker: quay.io/biocontainers/wkhtmltopdf
 aliases:
   wkhtmltoimage: /usr/local/bin/wkhtmltoimage
   wkhtmltopdf: /usr/local/bin/wkhtmltopdf
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

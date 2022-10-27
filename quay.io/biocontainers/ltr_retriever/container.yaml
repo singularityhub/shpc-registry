@@ -26,5 +26,5 @@ aliases:
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition

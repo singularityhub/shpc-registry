@@ -16,7 +16,3 @@ aliases:
   fastq-sample: /usr/local/bin/fastq-sample
   fastq-sort: /usr/local/bin/fastq-sort
   fastq-uniq: /usr/local/bin/fastq-uniq
-  pcre-config: /usr/local/bin/pcre-config
-  pcregrep: /usr/local/bin/pcregrep
-  pcretest: /usr/local/bin/pcretest
-  env-execute: /usr/local/env-execute

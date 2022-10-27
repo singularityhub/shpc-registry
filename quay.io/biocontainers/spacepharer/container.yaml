@@ -8,13 +8,8 @@ tags:
 docker: quay.io/biocontainers/spacepharer
 aliases:
   spacepharer: /usr/local/bin/spacepharer
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  gawk: /usr/local/bin/gawk
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

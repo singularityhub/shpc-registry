@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/apt-probeset-summarize
 aliases:
   apt-probeset-summarize: /usr/local/bin/apt-probeset-summarize
-  env-execute: /usr/local/env-execute

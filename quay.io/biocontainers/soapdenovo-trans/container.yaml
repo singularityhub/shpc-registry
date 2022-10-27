@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/soapdenovo-trans
 aliases:
   SOAPdenovo-Trans-127mer: /usr/local/bin/SOAPdenovo-Trans-127mer
   SOAPdenovo-Trans-31mer: /usr/local/bin/SOAPdenovo-Trans-31mer
-  env-execute: /usr/local/env-execute

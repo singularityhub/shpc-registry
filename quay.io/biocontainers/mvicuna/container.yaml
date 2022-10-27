@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mvicuna
 aliases:
   mvicuna: /usr/local/bin/mvicuna
-  env-execute: /usr/local/env-execute

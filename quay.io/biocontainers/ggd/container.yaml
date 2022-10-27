@@ -22,13 +22,13 @@ aliases:
   patchelf: /usr/local/bin/patchelf
   pkginfo: /usr/local/bin/pkginfo
   rg: /usr/local/bin/rg
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  chardetect: /usr/local/bin/chardetect
+  coloredlogs: /usr/local/bin/coloredlogs

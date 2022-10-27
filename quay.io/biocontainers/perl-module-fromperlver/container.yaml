@@ -7,13 +7,4 @@ tags:
   0.008002--pl5321hdfd78af_2: sha256:27c1150b2b4439d9eb618d22ad77dae0702b27886a0416f45b5ecf28f18bd6aa
 docker: quay.io/biocontainers/perl-module-fromperlver
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl-reversion: /usr/local/bin/perl-reversion

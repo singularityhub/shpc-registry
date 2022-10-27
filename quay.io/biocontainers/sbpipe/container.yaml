@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/sbpipe
 aliases:
   sbpipe: /usr/local/bin/sbpipe
   sbpipe_move_datasets: /usr/local/bin/sbpipe_move_datasets
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  idle3.6: /usr/local/bin/idle3.6
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

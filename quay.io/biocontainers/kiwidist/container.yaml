@@ -36,13 +36,12 @@ aliases:
   uic-qt4: /usr/local/bin/uic-qt4
   xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
   xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  fc-cache: /usr/local/bin/fc-cache
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  sip: /usr/local/bin/sip
+  smtpd.py: /usr/local/bin/smtpd.py

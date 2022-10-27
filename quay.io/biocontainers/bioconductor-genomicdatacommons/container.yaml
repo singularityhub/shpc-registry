@@ -7,13 +7,4 @@ tags:
   1.8.0--r36_1: sha256:79917c059f5e3476fc05277e3e547e3c492f4abba408c19ee482c84f77d35948
 docker: quay.io/biocontainers/bioconductor-genomicdatacommons
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

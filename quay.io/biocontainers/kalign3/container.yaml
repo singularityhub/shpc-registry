@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/kalign3
 aliases:
   kalign: /usr/local/bin/kalign
   kchaos: /usr/local/bin/kchaos
-  env-execute: /usr/local/env-execute

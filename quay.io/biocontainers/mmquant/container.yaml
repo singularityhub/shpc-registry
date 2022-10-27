@@ -8,5 +8,3 @@ tags:
 docker: quay.io/biocontainers/mmquant
 aliases:
   mmquant: /usr/local/bin/mmquant
-  make: /usr/local/bin/make
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,13 @@ tags:
   0.2.4--pyhdfd78af_0: sha256:8706b763774c94d70390b21cd02df65a8c375bf3ca3a1cd4d27efe6ff31377a9
 docker: quay.io/biocontainers/seqiolib
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  gif2h5: /usr/local/bin/gif2h5
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

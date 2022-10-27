@@ -7,13 +7,4 @@ tags:
   2.0.0--r41h87f3376_4: sha256:39e936c5c61df4bdd277a6170ab303e07f9ad602a5c6d2c13ac7572b186db362
 docker: quay.io/biocontainers/r-motifbinner
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc

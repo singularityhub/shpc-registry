@@ -9,11 +9,11 @@ docker: quay.io/biocontainers/cytoscape
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  cairo-trace: /usr/local/bin/cairo-trace
-  cjpeg: /usr/local/bin/cjpeg
   cytoscape.sh: /usr/local/bin/cytoscape.sh
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

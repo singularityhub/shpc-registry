@@ -14,4 +14,3 @@ aliases:
   mason_simulator: /usr/local/bin/mason_simulator
   mason_splicing: /usr/local/bin/mason_splicing
   mason_variator: /usr/local/bin/mason_variator
-  env-execute: /usr/local/env-execute

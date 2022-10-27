@@ -7,13 +7,8 @@ tags:
   2.23.0--r40_0: sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3
 docker: quay.io/biocontainers/bioconductor-biosvd
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

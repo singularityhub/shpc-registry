@@ -29,13 +29,13 @@ aliases:
   vina: /usr/local/bin/vina
   vina_split: /usr/local/bin/vina_split
   vision: /usr/local/bin/vision
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
   idle: /usr/local/bin/idle
+  idle3.8: /usr/local/bin/idle3.8
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py
+  pilfile.py: /usr/local/bin/pilfile.py
+  pilfont.py: /usr/local/bin/pilfont.py
+  pilprint.py: /usr/local/bin/pilprint.py
+  pydoc3.8: /usr/local/bin/pydoc3.8

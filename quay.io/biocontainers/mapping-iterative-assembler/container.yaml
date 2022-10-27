@@ -10,4 +10,3 @@ aliases:
   ccheck: /usr/local/bin/ccheck
   ma: /usr/local/bin/ma
   mia: /usr/local/bin/mia
-  env-execute: /usr/local/env-execute

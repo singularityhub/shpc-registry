@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/kpal
 aliases:
   kpal: /usr/local/bin/kpal
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
   futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug

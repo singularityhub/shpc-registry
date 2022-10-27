@@ -9,4 +9,3 @@ tags:
 docker: quay.io/biocontainers/abawaca
 aliases:
   abawaca: /usr/local/bin/abawaca
-  env-execute: /usr/local/env-execute

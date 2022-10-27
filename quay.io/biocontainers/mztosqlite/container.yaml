@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/mztosqlite
 aliases:
   mz_to_sqlite: /usr/local/bin/mz_to_sqlite
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  cups-config: /usr/local/bin/cups-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.10: /usr/local/bin/idle3.10

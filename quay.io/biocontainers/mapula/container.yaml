@@ -11,13 +11,13 @@ aliases:
   font-awesome-to-png: /usr/local/bin/font-awesome-to-png
   icon-font-to-png: /usr/local/bin/icon-font-to-png
   mapula: /usr/local/bin/mapula
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bokeh: /usr/local/bin/bokeh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  markdown_py: /usr/local/bin/markdown_py
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

@@ -7,13 +7,13 @@ tags:
   0.8.0--py39hbf8eff0_0: sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733
 docker: quay.io/biocontainers/dnaio
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.9: /usr/local/bin/idle3.9
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

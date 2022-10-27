@@ -13,7 +13,6 @@ aliases:
   tepid-map-se: /usr/local/bin/tepid-map-se
   tepid-refine: /usr/local/bin/tepid-refine
   yaha: /usr/local/bin/yaha
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
@@ -23,3 +22,4 @@ aliases:
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

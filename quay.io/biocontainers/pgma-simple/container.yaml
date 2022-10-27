@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/pgma-simple
 aliases:
   pgma: /usr/local/bin/pgma
-  env-execute: /usr/local/env-execute

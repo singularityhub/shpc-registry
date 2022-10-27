@@ -57,13 +57,13 @@ aliases:
   taxon_filter.py: /usr/local/bin/taxon_filter.py
   variant_caller: /usr/local/bin/variant_caller
   vphaser2: /usr/local/bin/vphaser2
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   Trinity: /usr/local/bin/Trinity
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
   asadmin: /usr/local/bin/asadmin
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
+  bamtools: /usr/local/bin/bamtools
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip

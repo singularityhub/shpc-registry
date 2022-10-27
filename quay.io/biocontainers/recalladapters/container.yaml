@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/recalladapters
 aliases:
   recalladapters: /usr/local/bin/recalladapters
-  env-execute: /usr/local/env-execute

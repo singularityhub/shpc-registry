@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/dialign-tx
 aliases:
   dialign-tx: /usr/local/bin/dialign-tx
-  env-execute: /usr/local/env-execute

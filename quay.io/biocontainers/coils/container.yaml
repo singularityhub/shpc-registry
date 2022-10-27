@@ -10,4 +10,3 @@ aliases:
   coils-svr.pl: /usr/local/bin/coils-svr.pl
   coils-wrap.pl: /usr/local/bin/coils-wrap.pl
   ncoils: /usr/local/bin/ncoils
-  env-execute: /usr/local/env-execute

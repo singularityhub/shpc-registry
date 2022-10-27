@@ -7,13 +7,13 @@ tags:
   1.0.8--py_0: sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266
 docker: quay.io/biocontainers/oncopipe
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   acyclic: /usr/local/bin/acyclic
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
   ccomps: /usr/local/bin/ccomps
   chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot

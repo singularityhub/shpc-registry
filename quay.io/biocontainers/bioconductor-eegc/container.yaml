@@ -7,13 +7,5 @@ tags:
   1.8.1--r351_0: sha256:ad37d47986fa924558c8f9d74186e5908664984a7fdcb521dfa2f0c1feddad54
 docker: quay.io/biocontainers/bioconductor-eegc
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  udunits2: /usr/local/bin/udunits2
+  wget: /usr/local/bin/wget

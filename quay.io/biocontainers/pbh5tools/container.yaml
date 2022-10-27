@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/pbh5tools
 aliases:
   bash5tools.py: /usr/local/bin/bash5tools.py
   cmph5tools.py: /usr/local/bin/cmph5tools.py
-  2to3: /usr/local/bin/2to3
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

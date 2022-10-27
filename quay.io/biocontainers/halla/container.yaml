@@ -11,13 +11,13 @@ aliases:
   halladata: /usr/local/bin/halladata
   hallagram: /usr/local/bin/hallagram
   hallascatter: /usr/local/bin/hallascatter
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment

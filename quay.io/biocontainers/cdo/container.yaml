@@ -55,13 +55,13 @@ aliases:
   metar_get: /usr/local/bin/metar_get
   metar_ls: /usr/local/bin/metar_ls
   tigge_check: /usr/local/bin/tigge_check
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aec: /usr/local/bin/aec
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  cct: /usr/local/bin/cct
+  cs2cs: /usr/local/bin/cs2cs
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  geod: /usr/local/bin/geod
+  gie: /usr/local/bin/gie
+  gif2h5: /usr/local/bin/gif2h5

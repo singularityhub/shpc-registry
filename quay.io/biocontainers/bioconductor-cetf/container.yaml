@@ -7,13 +7,13 @@ tags:
   1.6.0--r41hc247a5b_2: sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31
 docker: quay.io/biocontainers/bioconductor-cetf
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   Cytoscape: /usr/local/bin/Cytoscape
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
+  cups-config: /usr/local/bin/cups-config
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  f2py3.10: /usr/local/bin/f2py3.10
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/sap
 aliases:
   sap: /usr/local/bin/sap
-  env-execute: /usr/local/env-execute

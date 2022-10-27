@@ -11,13 +11,6 @@ aliases:
   fc_consensus.exe: /usr/local/bin/fc_consensus.exe
   fc_rr_hctg_track.exe: /usr/local/bin/fc_rr_hctg_track.exe
   fc_rr_hctg_track2.exe: /usr/local/bin/fc_rr_hctg_track2.exe
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

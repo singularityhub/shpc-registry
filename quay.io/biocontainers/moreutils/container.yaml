@@ -21,6 +21,3 @@ aliases:
   vidir: /usr/local/bin/vidir
   vipe: /usr/local/bin/vipe
   zrun: /usr/local/bin/zrun
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

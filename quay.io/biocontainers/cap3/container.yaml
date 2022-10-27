@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/cap3
 aliases:
   cap3: /usr/local/bin/cap3
   formcon: /usr/local/bin/formcon
-  env-execute: /usr/local/env-execute

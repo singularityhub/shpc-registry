@@ -8,13 +8,6 @@ tags:
 docker: quay.io/biocontainers/tadtool
 aliases:
   tadtool: /usr/local/bin/tadtool
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize

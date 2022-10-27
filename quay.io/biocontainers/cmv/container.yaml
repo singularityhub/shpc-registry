@@ -15,13 +15,3 @@ aliases:
   HMMCV: /usr/local/bin/HMMCV
   HMMCtoCMC: /usr/local/bin/HMMCtoCMC
   HMMV: /usr/local/bin/HMMV
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  cairo-trace: /usr/local/bin/cairo-trace
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
-  envsubst: /usr/local/bin/envsubst
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-list: /usr/local/bin/fc-list

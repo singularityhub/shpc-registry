@@ -7,13 +7,7 @@ tags:
   0.08--pl5321hdfd78af_3: sha256:c618a872613cd6034e15cf84034f26b8401bcd363a2b4ef7b1d348f61cfec09b
 docker: quay.io/biocontainers/perl-digest-md5-file
 aliases:
-  c_rehash: /usr/local/bin/c_rehash
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request

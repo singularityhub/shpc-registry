@@ -7,13 +7,10 @@ tags:
   20151101.24.0--r41hdfd78af_1: sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def
 docker: quay.io/biocontainers/bioconductor-rtcga.clinical
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

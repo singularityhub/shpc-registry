@@ -7,13 +7,4 @@ tags:
   1.34.0--r41hc247a5b_2: sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6
 docker: quay.io/biocontainers/bioconductor-clipper
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

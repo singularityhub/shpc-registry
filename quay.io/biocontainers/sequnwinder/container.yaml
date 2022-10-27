@@ -15,7 +15,6 @@ aliases:
   streme: /usr/local/bin/streme
   streme_xml_to_html: /usr/local/bin/streme_xml_to_html
   tgene: /usr/local/bin/tgene
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   alphtype: /usr/local/bin/alphtype
@@ -23,5 +22,6 @@ aliases:
   ama-qvalues: /usr/local/bin/ama-qvalues
   ame: /usr/local/bin/ame
   beeml2meme: /usr/local/bin/beeml2meme
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme

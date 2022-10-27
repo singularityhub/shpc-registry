@@ -7,13 +7,4 @@ tags:
   1.8.0--r36_0: sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a
 docker: quay.io/biocontainers/bioconductor-vulcandata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

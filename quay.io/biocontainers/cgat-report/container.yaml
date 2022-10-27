@@ -14,13 +14,13 @@ aliases:
   cgatreport-quickstart: /usr/local/bin/cgatreport-quickstart
   cgatreport-serve: /usr/local/bin/cgatreport-serve
   cgatreport-test: /usr/local/bin/cgatreport-test
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   bokeh: /usr/local/bin/bokeh
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  idle3.8: /usr/local/bin/idle3.8
+  nosetests: /usr/local/bin/nosetests
+  pasteurize: /usr/local/bin/pasteurize
+  pybabel: /usr/local/bin/pybabel
+  pydoc3.8: /usr/local/bin/pydoc3.8

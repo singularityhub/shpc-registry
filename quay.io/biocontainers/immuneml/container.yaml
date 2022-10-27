@@ -12,13 +12,13 @@ aliases:
   immune-ml-quickstart: /usr/local/bin/immune-ml-quickstart
   pystache: /usr/local/bin/pystache
   pystache-test: /usr/local/bin/pystache-test
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  cwebp: /usr/local/bin/cwebp
+  cygdb: /usr/local/bin/cygdb

@@ -7,13 +7,13 @@ tags:
   0.3.9--np113py35_0: sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534
 docker: quay.io/biocontainers/pybigwig
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv: /usr/local/bin/pyvenv

@@ -21,13 +21,11 @@ aliases:
   reduce-kmers: /usr/local/bin/reduce-kmers
   reduce-qmers: /usr/local/bin/reduce-qmers
   trim: /usr/local/bin/trim
-  2to3: /usr/local/bin/2to3
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  idle: /usr/local/bin/idle
+  jellyfish: /usr/local/bin/jellyfish
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

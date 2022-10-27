@@ -11,13 +11,13 @@ aliases:
   mOTUconvert.py: /usr/local/bin/mOTUconvert.py
   mOTUlize.py: /usr/local/bin/mOTUlize.py
   mOTUpan.py: /usr/local/bin/mOTUpan.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   FET.pl: /usr/local/bin/FET.pl
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  cd-hit-div: /usr/local/bin/cd-hit-div
+  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl

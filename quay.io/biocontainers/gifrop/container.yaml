@@ -35,13 +35,13 @@ aliases:
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   submodule_test.R: /usr/local/bin/submodule_test.R
   transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
   FET.pl: /usr/local/bin/FET.pl
   FastTree: /usr/local/bin/FastTree
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
   FastTreeMP: /usr/local/bin/FastTreeMP
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
+  accn-at-a-time: /usr/local/bin/accn-at-a-time

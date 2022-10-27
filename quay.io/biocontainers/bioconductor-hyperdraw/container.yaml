@@ -7,13 +7,13 @@ tags:
   1.46.0--r41hcb05c77_1: sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45
 docker: quay.io/biocontainers/bioconductor-hyperdraw
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

@@ -18,13 +18,13 @@ aliases:
   arv-ws: /usr/local/bin/arv-ws
   arvados-cwl-runner: /usr/local/bin/arvados-cwl-runner
   cwl-runner: /usr/local/bin/cwl-runner
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bagit.py: /usr/local/bin/bagit.py
   bcomps: /usr/local/bin/bcomps
-  c_rehash: /usr/local/bin/c_rehash
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  coloredlogs: /usr/local/bin/coloredlogs
+  csv2rdf: /usr/local/bin/csv2rdf

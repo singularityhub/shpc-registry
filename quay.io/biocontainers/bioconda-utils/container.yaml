@@ -33,13 +33,13 @@ aliases:
   scalar: /usr/local/bin/scalar
   skopeo: /usr/local/bin/skopeo
   watchgod: /usr/local/bin/watchgod
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect

@@ -10,13 +10,13 @@ aliases:
   KEGGCharter_prokaryotic_maps.txt: /usr/local/bin/KEGGCharter_prokaryotic_maps.txt
   keggcharter.py: /usr/local/bin/keggcharter.py
   keggpathway_map.py: /usr/local/bin/keggpathway_map.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  certutil: /usr/local/bin/certutil
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  idle3.10: /usr/local/bin/idle3.10
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config

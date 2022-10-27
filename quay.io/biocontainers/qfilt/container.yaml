@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/qfilt
 aliases:
   qfilt: /usr/local/bin/qfilt
-  env-execute: /usr/local/env-execute

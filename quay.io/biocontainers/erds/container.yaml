@@ -8,13 +8,10 @@ tags:
 docker: quay.io/biocontainers/erds
 aliases:
   erds_pipeline: /usr/local/bin/erds_pipeline
-  activate: /usr/local/bin/activate
   bcftools: /usr/local/bin/bcftools
   c2ph: /usr/local/bin/c2ph
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct
+  samtools: /usr/local/bin/samtools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl

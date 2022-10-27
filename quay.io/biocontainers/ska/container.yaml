@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/ska
 aliases:
   ska: /usr/local/bin/ska
-  env-execute: /usr/local/env-execute

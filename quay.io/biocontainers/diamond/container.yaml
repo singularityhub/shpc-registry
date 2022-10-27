@@ -12,13 +12,4 @@ tags:
   0.9.36--h56fc30b_0: sha256:0f80076288d495263598b24d8684da078a86f359bd58e39958cb491abd817399
   0.8.36--h8b12597_4: sha256:13476bcb2a7077eae93db47fcc9f7f7662fdcb06193dc95139c7a6cf7c2de824
 aliases:
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
+  diamond: /usr/local/bin/diamond

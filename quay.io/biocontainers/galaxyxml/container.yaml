@@ -7,13 +7,12 @@ tags:
   0.4.9--pyh864c0ab_1: sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452
 docker: quay.io/biocontainers/galaxyxml
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
   futurize: /usr/local/bin/futurize
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
+  idle3.8: /usr/local/bin/idle3.8
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

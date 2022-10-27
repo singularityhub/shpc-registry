@@ -7,13 +7,4 @@ tags:
   1.8.0--r351_0: sha256:245491c41b810d33aed198a4705936f1703bebf5689aa6ee1371385d4e83c756
 docker: quay.io/biocontainers/bioconductor-smite
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

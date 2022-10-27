@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/age-metasv
 aliases:
   age_align: /usr/local/bin/age_align
-  env-execute: /usr/local/env-execute

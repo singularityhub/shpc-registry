@@ -11,7 +11,6 @@ aliases:
   graph_plot.py: /usr/local/bin/graph_plot.py
   swarm: /usr/local/bin/swarm
   thapbi_pict: /usr/local/bin/thapbi_pict
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   acyclic: /usr/local/bin/acyclic
   alimask: /usr/local/bin/alimask
@@ -20,4 +19,5 @@ aliases:
   aserver: /usr/local/bin/aserver
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
+  bcomps: /usr/local/bin/bcomps
+  between-two-genes: /usr/local/bin/between-two-genes

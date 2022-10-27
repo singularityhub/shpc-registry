@@ -25,4 +25,3 @@ aliases:
   fasten_straighten: /usr/local/bin/fasten_straighten
   fasten_trim: /usr/local/bin/fasten_trim
   fasten_validate: /usr/local/bin/fasten_validate
-  env-execute: /usr/local/env-execute

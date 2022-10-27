@@ -12,4 +12,3 @@ aliases:
   post_process.pl: /usr/local/bin/post_process.pl
   processFragOut.py: /usr/local/bin/processFragOut.py
   run_TransGeneScan.pl: /usr/local/bin/run_TransGeneScan.pl
-  env-execute: /usr/local/env-execute

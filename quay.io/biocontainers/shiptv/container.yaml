@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/shiptv
 aliases:
   shiptv: /usr/local/bin/shiptv
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
   cmark: /usr/local/bin/cmark
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  futurize: /usr/local/bin/futurize
+  idle3.9: /usr/local/bin/idle3.9
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  pygmentize: /usr/local/bin/pygmentize
+  python3.9: /usr/local/bin/python3.9

@@ -12,7 +12,6 @@ aliases:
   convert-readcount-file.py: /usr/local/bin/convert-readcount-file.py
   miR_PREFeR.py: /usr/local/bin/miR_PREFeR.py
   process-reads-fasta.py: /usr/local/bin/process-reads-fasta.py
-  2to3: /usr/local/bin/2to3
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
   Kinfold: /usr/local/bin/Kinfold
@@ -22,3 +21,4 @@ aliases:
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
   RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold

@@ -7,13 +7,5 @@ tags:
   1.23--pl526_0: sha256:591d8d06298473a5d39350613047ddb010a1ef9b858ce6940a7764c261c13e6c
 docker: quay.io/biocontainers/perl-file-which
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

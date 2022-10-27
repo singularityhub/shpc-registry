@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/phylogenetics
 aliases:
   jupyter-console: /usr/local/bin/jupyter-console
   jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  curve_keygen: /usr/local/bin/curve_keygen
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

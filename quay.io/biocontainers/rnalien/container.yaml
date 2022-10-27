@@ -76,7 +76,6 @@ aliases:
   rnazWindow_gq.pl: /usr/local/bin/rnazWindow_gq.pl
   sparse: /usr/local/bin/sparse
   stats2plot.pl: /usr/local/bin/stats2plot.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -86,3 +85,4 @@ aliases:
   RNALalifold: /usr/local/bin/RNALalifold
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex

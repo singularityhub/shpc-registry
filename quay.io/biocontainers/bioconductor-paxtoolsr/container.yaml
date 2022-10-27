@@ -7,13 +7,13 @@ tags:
   1.28.0--r41hdfd78af_0: sha256:7ea7ccf6cb10bc55356f01271fe6c3e08428ef3bc91fc51c22943d8609816ea2
 docker: quay.io/biocontainers/bioconductor-paxtoolsr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

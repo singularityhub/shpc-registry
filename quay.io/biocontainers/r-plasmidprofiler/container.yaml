@@ -7,13 +7,8 @@ tags:
   0.1.6--r3.3.1_3: sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1
 docker: quay.io/biocontainers/r-plasmidprofiler
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

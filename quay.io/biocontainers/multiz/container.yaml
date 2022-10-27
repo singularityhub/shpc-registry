@@ -25,4 +25,3 @@ aliases:
   roast: /usr/local/bin/roast
   single_cov2: /usr/local/bin/single_cov2
   tba: /usr/local/bin/tba
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,5 @@ tags:
   7.36--pl526_1: sha256:ae43774d344d3a58dd1b4b2e66b66a87db95ebb0e330e0a00b1d92e5c6a57059
 docker: quay.io/biocontainers/perl-extutils-makemaker
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

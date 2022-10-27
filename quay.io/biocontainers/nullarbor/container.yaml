@@ -41,7 +41,6 @@ aliases:
   shovill: /usr/local/bin/shovill
   snp-dists: /usr/local/bin/snp-dists
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   FET.pl: /usr/local/bin/FET.pl
   FastTree: /usr/local/bin/FastTree
@@ -51,3 +50,4 @@ aliases:
   abricate: /usr/local/bin/abricate
   abricate-get_db: /usr/local/bin/abricate-get_db
   accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace.pl: /usr/local/bin/ace.pl

@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/fsnviz
 aliases:
   crimson: /usr/local/bin/crimson
   fsnviz: /usr/local/bin/fsnviz
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   annotate: /usr/local/bin/annotate
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   circos: /usr/local/bin/circos
   circos.exe: /usr/local/bin/circos.exe
-  cjpeg: /usr/local/bin/cjpeg
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp

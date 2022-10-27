@@ -9,13 +9,10 @@ docker: quay.io/biocontainers/seedme
 aliases:
   seedme: /usr/local/bin/seedme
   seedme.py: /usr/local/bin/seedme.py
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  easy_install: /usr/local/bin/easy_install
-  gss-client: /usr/local/bin/gss-client
   idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

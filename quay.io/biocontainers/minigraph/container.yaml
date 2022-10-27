@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/minigraph
 aliases:
   minigraph: /usr/local/bin/minigraph
-  env-execute: /usr/local/env-execute

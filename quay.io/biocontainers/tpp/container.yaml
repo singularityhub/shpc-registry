@@ -72,13 +72,13 @@ aliases:
   translateDNA2AA-FASTA: /usr/local/bin/translateDNA2AA-FASTA
   updatepaths.pl: /usr/local/bin/updatepaths.pl
   xinteract: /usr/local/bin/xinteract
-  activate: /usr/local/bin/activate
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
+  c2ph: /usr/local/bin/c2ph
+  cpanm: /usr/local/bin/cpanm
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  perl-reversion: /usr/local/bin/perl-reversion
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

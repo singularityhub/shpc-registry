@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/neptune
 aliases:
   neptune: /usr/local/bin/neptune
   neptune-conda: /usr/local/bin/neptune-conda
-  2to3: /usr/local/bin/2to3
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
@@ -19,3 +18,4 @@ aliases:
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
   blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn

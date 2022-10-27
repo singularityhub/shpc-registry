@@ -11,13 +11,13 @@ aliases:
   iqtree2: /usr/local/bin/iqtree2
   pal2nal.pl: /usr/local/bin/pal2nal.pl
   wgdi: /usr/local/bin/wgdi
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
   baseml: /usr/local/bin/baseml
   basemlg: /usr/local/bin/basemlg
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  chi2: /usr/local/bin/chi2
+  codeml: /usr/local/bin/codeml
+  einsi: /usr/local/bin/einsi
+  evolver: /usr/local/bin/evolver

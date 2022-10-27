@@ -7,13 +7,10 @@ tags:
   1.1.0--py_2: sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf
 docker: quay.io/biocontainers/sonlib
 aliases:
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

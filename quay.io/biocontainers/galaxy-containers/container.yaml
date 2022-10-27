@@ -7,13 +7,13 @@ tags:
   21.9.0--pyhdfd78af_0: sha256:a43c77abb0238e8182ac9a0de92f365b76871f335bcdd46004888aa71222f520
 docker: quay.io/biocontainers/galaxy-containers
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
   cheetah: /usr/local/bin/cheetah
   cheetah-analyze: /usr/local/bin/cheetah-analyze
   cheetah-compile: /usr/local/bin/cheetah-compile
-  clear: /usr/local/bin/clear
   futurize: /usr/local/bin/futurize
+  idle3.9: /usr/local/bin/idle3.9
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9

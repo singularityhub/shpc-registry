@@ -9,13 +9,10 @@ docker: quay.io/biocontainers/genmod
 aliases:
   genmod: /usr/local/bin/genmod
   ped_parser: /usr/local/bin/ped_parser
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.9: /usr/local/bin/idle3.9
+  py.test: /usr/local/bin/py.test
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  pytest: /usr/local/bin/pytest
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

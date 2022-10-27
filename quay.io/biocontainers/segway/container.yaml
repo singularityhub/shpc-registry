@@ -61,13 +61,13 @@ aliases:
   triangulateGA: /usr/local/bin/triangulateGA
   triangulateParallel: /usr/local/bin/triangulateParallel
   triangulateTimings: /usr/local/bin/triangulateTimings
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

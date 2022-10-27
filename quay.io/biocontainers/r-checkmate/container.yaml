@@ -7,13 +7,6 @@ tags:
   1.8.2--r3.3.1_0: sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3
 docker: quay.io/biocontainers/r-checkmate
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

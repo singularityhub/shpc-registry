@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/genesplicer
 aliases:
   genesplicer: /usr/local/bin/genesplicer
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

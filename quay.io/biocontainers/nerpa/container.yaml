@@ -10,13 +10,13 @@ aliases:
   NRPsMatcher: /usr/local/bin/NRPsMatcher
   nerpa.py: /usr/local/bin/nerpa.py
   nerpa_init.py: /usr/local/bin/nerpa_init.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  cups-config: /usr/local/bin/cups-config
+  f2py3.7: /usr/local/bin/f2py3.7
+  fonttools: /usr/local/bin/fonttools
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix

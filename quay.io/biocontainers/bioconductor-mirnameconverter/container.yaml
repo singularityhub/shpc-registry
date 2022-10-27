@@ -7,13 +7,6 @@ tags:
   1.8.0--r341_0: sha256:5a346bdd5ef55e6dfc217f04014195e86038f28c63cb6fb033404b8990582d6d
 docker: quay.io/biocontainers/bioconductor-mirnameconverter
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

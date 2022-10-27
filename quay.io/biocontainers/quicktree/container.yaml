@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/quicktree
 aliases:
   quicktree: /usr/local/bin/quicktree
-  env-execute: /usr/local/env-execute

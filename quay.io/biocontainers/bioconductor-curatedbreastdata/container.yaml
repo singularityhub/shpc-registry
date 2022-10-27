@@ -7,13 +7,5 @@ tags:
   2.22.0--r41hdfd78af_1: sha256:a168390133760194b739602867e0f2ab4d66daf764d1a3f8784f207e45dea146
 docker: quay.io/biocontainers/bioconductor-curatedbreastdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

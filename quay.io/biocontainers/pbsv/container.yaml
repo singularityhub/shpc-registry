@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/pbsv
 aliases:
   pbsv: /usr/local/bin/pbsv
-  env-execute: /usr/local/env-execute

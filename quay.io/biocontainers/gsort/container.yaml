@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/gsort
 aliases:
   gsort: /usr/local/bin/gsort
-  env-execute: /usr/local/env-execute

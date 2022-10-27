@@ -7,13 +7,6 @@ tags:
   0.0.1--r41hdfd78af_0: sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994
 docker: quay.io/biocontainers/r-enchantr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

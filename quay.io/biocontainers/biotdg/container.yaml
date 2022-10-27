@@ -10,13 +10,13 @@ aliases:
   biotdg: /usr/local/bin/biotdg
   dwgsim: /usr/local/bin/dwgsim
   dwgsim_eval: /usr/local/bin/dwgsim_eval
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  coloredlogs: /usr/local/bin/coloredlogs
+  cyvcf2: /usr/local/bin/cyvcf2
+  f2py3.7: /usr/local/bin/f2py3.7
+  htsfile: /usr/local/bin/htsfile
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7

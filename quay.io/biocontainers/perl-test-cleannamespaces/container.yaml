@@ -7,13 +7,6 @@ tags:
   0.24--pl5321hdfd78af_1: sha256:37808eeb6cdc0144de6b34dcb1f0a73f7d55837541aa20686b19ac0c330caa15
 docker: quay.io/biocontainers/perl-test-cleannamespaces
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.32.1: /usr/local/bin/perl5.32.1

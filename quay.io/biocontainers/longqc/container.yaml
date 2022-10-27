@@ -20,13 +20,13 @@ aliases:
   lq_sequel.py: /usr/local/bin/lq_sequel.py
   lq_utils.py: /usr/local/bin/lq_utils.py
   minimap2-coverage: /usr/local/bin/minimap2-coverage
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy

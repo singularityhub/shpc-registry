@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/gffmunger
 aliases:
   gffmunger: /usr/local/bin/gffmunger
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  f2py3.7: /usr/local/bin/f2py3.7
+  faidx: /usr/local/bin/faidx
+  genometools-config: /usr/local/bin/genometools-config
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  gt: /usr/local/bin/gt
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script

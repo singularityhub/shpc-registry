@@ -7,13 +7,9 @@ tags:
   3.4.0--r40_9: sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

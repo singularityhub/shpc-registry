@@ -44,13 +44,13 @@ aliases:
   variant_annotation.py: /usr/local/bin/variant_annotation.py
   varscan: /usr/local/bin/varscan
   vcfsorter.pl: /usr/local/bin/vcfsorter.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamtools: /usr/local/bin/bamtools
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

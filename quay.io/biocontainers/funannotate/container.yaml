@@ -173,13 +173,13 @@ aliases:
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
   uuserver: /usr/local/bin/uuserver
   zff2gff3.pl: /usr/local/bin/zff2gff3.pl
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   PtR: /usr/local/bin/PtR
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   Trinity: /usr/local/bin/Trinity
   TrinityStats.pl: /usr/local/bin/TrinityStats.pl
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
+  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time

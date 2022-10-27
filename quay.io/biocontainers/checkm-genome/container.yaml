@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/checkm-genome
 aliases:
   checkm: /usr/local/bin/checkm
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alimask: /usr/local/bin/alimask
-  autopoint: /usr/local/bin/autopoint
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  cwebp: /usr/local/bin/cwebp
+  dendropy-format: /usr/local/bin/dendropy-format
+  dwebp: /usr/local/bin/dwebp
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap

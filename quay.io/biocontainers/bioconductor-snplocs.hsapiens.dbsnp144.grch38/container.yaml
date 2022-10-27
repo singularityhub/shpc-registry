@@ -7,13 +7,4 @@ tags:
   0.99.20--r40_9: sha256:9106029143869aa14120743663dfe36c5413cc9ef45e8e3f556feb21171422a8
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

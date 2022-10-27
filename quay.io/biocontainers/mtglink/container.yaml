@@ -39,13 +39,13 @@ aliases:
   stats_alignment.py: /usr/local/bin/stats_alignment.py
   test.py: /usr/local/bin/test.py
   vcf2gfa.py: /usr/local/bin/vcf2gfa.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  f2py3.10: /usr/local/bin/f2py3.10
+  get_objgraph: /usr/local/bin/get_objgraph
+  idle3.10: /usr/local/bin/idle3.10
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps

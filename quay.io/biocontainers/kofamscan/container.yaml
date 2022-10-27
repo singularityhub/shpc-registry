@@ -14,10 +14,10 @@ aliases:
   alimask: /usr/local/bin/alimask
   bundle: /usr/local/bin/bundle
   bundler: /usr/local/bin/bundler
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   easel: /usr/local/bin/easel
-  enc2xs: /usr/local/bin/enc2xs
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish

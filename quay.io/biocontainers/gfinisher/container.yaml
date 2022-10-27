@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/gfinisher
 aliases:
   gfinisher: /usr/local/bin/gfinisher
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-2.7: /usr/local/bin/easy_install-2.7
   extcheck: /usr/local/bin/extcheck
   idle: /usr/local/bin/idle
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac

@@ -10,7 +10,6 @@ aliases:
   mirtop: /usr/local/bin/mirtop
   seqcluster: /usr/local/bin/seqcluster
   seqcluster_install: /usr/local/bin/seqcluster_install
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -20,3 +19,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

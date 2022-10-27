@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/cadd-scripts
 aliases:
   cadd-install.sh: /usr/local/bin/cadd-install.sh
   cadd.sh: /usr/local/bin/cadd.sh
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd

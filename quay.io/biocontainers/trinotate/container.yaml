@@ -67,13 +67,13 @@ aliases:
   test_Sunburst.pl: /usr/local/bin/test_Sunburst.pl
   trinotate_report_summary.pl: /usr/local/bin/trinotate_report_summary.pl
   update_seq_n_annotation_fields.pl: /usr/local/bin/update_seq_n_annotation_fields.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   alimask: /usr/local/bin/alimask
-  autopoint: /usr/local/bin/autopoint
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
   blastdbcmd: /usr/local/bin/blastdbcmd
   blastdbcp: /usr/local/bin/blastdbcp
   blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx

@@ -63,4 +63,3 @@ aliases:
   tsp: /usr/local/bin/tsp
   warehouses: /usr/local/bin/warehouses
   word-square: /usr/local/bin/word-square
-  env-execute: /usr/local/env-execute

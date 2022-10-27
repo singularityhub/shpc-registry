@@ -7,13 +7,4 @@ tags:
   1.40.0--r41hc247a5b_2: sha256:46142d8ca140e062a1d311b99701ff93f6286173747be239069b6d69791eb26a
 docker: quay.io/biocontainers/bioconductor-predictionet
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

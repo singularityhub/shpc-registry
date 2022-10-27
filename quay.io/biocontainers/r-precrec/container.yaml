@@ -7,13 +7,5 @@ tags:
   0.9.1--r3.4.1_0: sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c
 docker: quay.io/biocontainers/r-precrec
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

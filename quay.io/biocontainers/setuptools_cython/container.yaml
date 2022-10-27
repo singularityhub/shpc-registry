@@ -7,13 +7,11 @@ tags:
   0.2.1--pyh864c0ab_4: sha256:cbd4eb379fdbdca98c2f5c48ac56ad5b6d9d135287b643aa74f97aa0a2e1a2fa
 docker: quay.io/biocontainers/setuptools_cython
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

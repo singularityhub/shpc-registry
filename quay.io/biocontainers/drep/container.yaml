@@ -10,13 +10,13 @@ aliases:
   ScaffoldLevel_dRep.py: /usr/local/bin/ScaffoldLevel_dRep.py
   dRep: /usr/local/bin/dRep
   parse_stb.py: /usr/local/bin/parse_stb.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   annotate: /usr/local/bin/annotate
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  combineMUMs: /usr/local/bin/combineMUMs
+  cwebp: /usr/local/bin/cwebp
+  delta-filter: /usr/local/bin/delta-filter

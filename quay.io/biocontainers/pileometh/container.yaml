@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/pileometh
 aliases:
   PileOMeth: /usr/local/bin/PileOMeth
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

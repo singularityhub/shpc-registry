@@ -13,13 +13,13 @@ aliases:
   isaac-reorder-reference: /usr/local/bin/isaac-reorder-reference
   isaac-sort-reference: /usr/local/bin/isaac-sort-reference
   isaac-unpack-reference: /usr/local/bin/isaac-unpack-reference
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   annotate: /usr/local/bin/annotate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bdftogd: /usr/local/bin/bdftogd
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
   canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

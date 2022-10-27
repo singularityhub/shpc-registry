@@ -20,13 +20,13 @@ aliases:
   surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
   titration: /usr/local/bin/titration
   watden: /usr/local/bin/watden
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.7: /usr/local/bin/f2py3.7
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp

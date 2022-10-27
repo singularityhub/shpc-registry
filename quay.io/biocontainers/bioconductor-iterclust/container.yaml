@@ -7,13 +7,6 @@ tags:
   1.8.0--r36_0: sha256:d334c5e27a58cb5d44464742251668fc2703ff6ea3fa2d235cc654d04d7cef71
 docker: quay.io/biocontainers/bioconductor-iterclust
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

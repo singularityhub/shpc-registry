@@ -11,13 +11,13 @@ aliases:
   dreamtools-layout: /usr/local/bin/dreamtools-layout
   dreamtools-scoring: /usr/local/bin/dreamtools-scoring
   synapse: /usr/local/bin/synapse
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
   browse: /usr/local/bin/browse
-  c_rehash: /usr/local/bin/c_rehash
-  cjpeg: /usr/local/bin/cjpeg
-  conda: /usr/local/bin/conda
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor

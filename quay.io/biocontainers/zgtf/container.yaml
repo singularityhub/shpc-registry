@@ -8,13 +8,10 @@ tags:
 docker: quay.io/biocontainers/zgtf
 aliases:
   gtf2bed12: /usr/local/bin/gtf2bed12
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  f2py3.9: /usr/local/bin/f2py3.9
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  htseq-qa: /usr/local/bin/htseq-qa
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

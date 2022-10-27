@@ -38,13 +38,7 @@ aliases:
   protpred-Gromacs-Test_load_population: /usr/local/bin/protpred-Gromacs-Test_load_population
   protpred-Gromacs-Test_random_number: /usr/local/bin/protpred-Gromacs-Test_random_number
   protpred-Gromacs-Test_rotation: /usr/local/bin/protpred-Gromacs-Test_rotation
-  derb: /usr/local/bin/derb
   fftw-wisdom: /usr/local/bin/fftw-wisdom
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom
   fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb

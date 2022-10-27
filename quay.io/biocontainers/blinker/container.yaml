@@ -7,13 +7,13 @@ tags:
   1.4--py35_0: sha256:94dcbb61ba49fad3bbf13a571062c618d3da66b460cb2b7d01a5cb62f9e82328
 docker: quay.io/biocontainers/blinker
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config

@@ -10,12 +10,12 @@ aliases:
   JolyTree.sh: /usr/local/bin/JolyTree.sh
   REQ: /usr/local/bin/REQ
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  cairo-trace: /usr/local/bin/cairo-trace
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc
   capnpc-c++: /usr/local/bin/capnpc-c++
   capnpc-capnp: /usr/local/bin/capnpc-capnp
-  cjpeg: /usr/local/bin/cjpeg
-  derb: /usr/local/bin/derb
+  fastme: /usr/local/bin/fastme
+  gawk: /usr/local/bin/gawk
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  jaotc: /usr/local/bin/jaotc

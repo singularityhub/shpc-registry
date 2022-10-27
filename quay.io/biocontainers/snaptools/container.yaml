@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/snaptools
 aliases:
   community: /usr/local/bin/community
   snaptools: /usr/local/bin/snaptools
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
@@ -19,3 +18,4 @@ aliases:
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

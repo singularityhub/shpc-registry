@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/irissv
 aliases:
   iris: /usr/local/bin/iris
   iris.jar: /usr/local/bin/iris.jar
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild

@@ -16,13 +16,13 @@ aliases:
   autoupdate.bak: /usr/local/bin/autoupdate.bak
   ifnames.bak: /usr/local/bin/ifnames.bak
   itsxpress: /usr/local/bin/itsxpress
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
-  adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  ahost: /usr/local/bin/ahost
+  alimask: /usr/local/bin/alimask
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh

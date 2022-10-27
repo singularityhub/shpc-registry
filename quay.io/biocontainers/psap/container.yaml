@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/psap
 aliases:
   psap: /usr/local/bin/psap
   versioneer: /usr/local/bin/versioneer
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   black: /usr/local/bin/black
   blackd: /usr/local/bin/blackd
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp

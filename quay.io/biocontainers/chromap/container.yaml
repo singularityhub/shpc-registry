@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/chromap
 aliases:
   chromap: /usr/local/bin/chromap
-  env-execute: /usr/local/env-execute

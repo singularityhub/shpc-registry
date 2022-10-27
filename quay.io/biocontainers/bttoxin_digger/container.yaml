@@ -72,7 +72,6 @@ aliases:
   unicycler_check: /usr/local/bin/unicycler_check
   unicycler_polish: /usr/local/bin/unicycler_polish
   unicycler_scrub: /usr/local/bin/unicycler_scrub
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -82,3 +81,4 @@ aliases:
   DAssembler: /usr/local/bin/DAssembler
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner

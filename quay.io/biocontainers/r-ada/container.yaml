@@ -7,13 +7,10 @@ tags:
   2.0_5--r3.3.1_0: sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f
 docker: quay.io/biocontainers/r-ada
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

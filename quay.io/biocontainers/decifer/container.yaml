@@ -15,13 +15,13 @@ aliases:
   lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
   lgf-gen: /usr/local/bin/lgf-gen
   mergestatetrees: /usr/local/bin/mergestatetrees
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  glpsol: /usr/local/bin/glpsol
+  idle3.10: /usr/local/bin/idle3.10
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc

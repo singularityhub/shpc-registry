@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mawk
 aliases:
   mawk: /usr/local/bin/mawk
-  env-execute: /usr/local/env-execute

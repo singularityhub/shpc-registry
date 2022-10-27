@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/ksw
 aliases:
   ksw: /usr/local/bin/ksw
-  env-execute: /usr/local/env-execute

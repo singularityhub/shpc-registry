@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/nanoblaster
 aliases:
   nanoblaster: /usr/local/bin/nanoblaster
-  env-execute: /usr/local/env-execute

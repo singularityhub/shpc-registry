@@ -18,4 +18,3 @@ aliases:
   slice_fasta_gff: /usr/local/bin/slice_fasta_gff
   slice_mercator_alignment: /usr/local/bin/slice_mercator_alignment
   translate: /usr/local/bin/translate
-  env-execute: /usr/local/env-execute

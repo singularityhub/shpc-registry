@@ -13,4 +13,3 @@ aliases:
   samhead: /usr/local/bin/samhead
   samsort: /usr/local/bin/samsort
   samsplit: /usr/local/bin/samsplit
-  env-execute: /usr/local/env-execute

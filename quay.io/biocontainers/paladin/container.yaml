@@ -8,13 +8,3 @@ tags:
 docker: quay.io/biocontainers/paladin
 aliases:
   paladin: /usr/local/bin/paladin
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
-  gss-client: /usr/local/bin/gss-client

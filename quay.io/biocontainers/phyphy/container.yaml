@@ -7,13 +7,13 @@ tags:
   0.4.3--py_0: sha256:e41eefe1fc8da85b610c6bcdff528adcb0c7b49e3a1ddf043332afc9d825b356
 docker: quay.io/biocontainers/phyphy
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
   canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
   certutil: /usr/local/bin/certutil
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

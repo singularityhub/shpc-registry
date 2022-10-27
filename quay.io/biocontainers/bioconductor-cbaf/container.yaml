@@ -7,13 +7,13 @@ tags:
   1.8.0--r36_0: sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74
 docker: quay.io/biocontainers/bioconductor-cbaf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   appletviewer: /usr/local/bin/appletviewer
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  extcheck: /usr/local/bin/extcheck
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc

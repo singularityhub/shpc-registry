@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/tidyp
 aliases:
   tidyp: /usr/local/bin/tidyp
-  env-execute: /usr/local/env-execute

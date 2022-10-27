@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/antarna
 aliases:
   antarna.py: /usr/local/bin/antarna.py
-  2to3: /usr/local/bin/2to3
   Kinfold: /usr/local/bin/Kinfold
   RNA2Dfold: /usr/local/bin/RNA2Dfold
   RNALalifold: /usr/local/bin/RNALalifold
@@ -18,3 +17,4 @@ aliases:
   RNAalifold: /usr/local/bin/RNAalifold
   RNAcofold: /usr/local/bin/RNAcofold
   RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex

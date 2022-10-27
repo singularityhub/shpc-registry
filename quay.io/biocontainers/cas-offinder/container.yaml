@@ -102,13 +102,7 @@ aliases:
   verify-uselistorder: /usr/local/bin/verify-uselistorder
   whirlpool-hash: /usr/local/bin/whirlpool-hash
   yaml2obj: /usr/local/bin/yaml2obj
-  activate: /usr/local/bin/activate
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
+  libtool: /usr/local/bin/libtool
+  libtoolize: /usr/local/bin/libtoolize
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

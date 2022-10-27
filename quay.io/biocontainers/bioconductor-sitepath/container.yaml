@@ -7,13 +7,4 @@ tags:
   1.8.0--r41h399db7b_0: sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6
 docker: quay.io/biocontainers/bioconductor-sitepath
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -10,13 +10,13 @@ aliases:
   babel: /usr/local/bin/babel
   obchiral: /usr/local/bin/obchiral
   strip-it: /usr/local/bin/strip-it
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  idle3.7: /usr/local/bin/idle3.7
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize

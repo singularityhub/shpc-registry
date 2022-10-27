@@ -7,13 +7,9 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58
 docker: quay.io/biocontainers/bioconductor-rnaseqr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

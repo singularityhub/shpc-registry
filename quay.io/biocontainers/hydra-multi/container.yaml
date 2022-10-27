@@ -25,7 +25,6 @@ aliases:
   make_hydra_config.py: /usr/local/bin/make_hydra_config.py
   mergeBreakpoints.py: /usr/local/bin/mergeBreakpoints.py
   pairDiscordants.py: /usr/local/bin/pairDiscordants.py
-  2to3: /usr/local/bin/2to3
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -35,3 +34,4 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed

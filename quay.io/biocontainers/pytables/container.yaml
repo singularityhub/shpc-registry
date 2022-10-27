@@ -7,13 +7,13 @@ tags:
   3.4.4: sha256:f8c5004faeba8a605082f00ca4e79a23b417ed470c0414f01381df9c08daa235
 docker: quay.io/biocontainers/pytables
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  conv-template: /usr/local/bin/conv-template
+  from-template: /usr/local/bin/from-template
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug

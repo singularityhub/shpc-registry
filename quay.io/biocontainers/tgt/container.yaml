@@ -11,13 +11,10 @@ aliases:
   tgt-extract-part.py: /usr/local/bin/tgt-extract-part.py
   tgt-print-tiernames.py: /usr/local/bin/tgt-print-tiernames.py
   tgt-shift-boundaries.py: /usr/local/bin/tgt-shift-boundaries.py
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
   idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

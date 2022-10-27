@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/isoseq3
 aliases:
   isoseq3: /usr/local/bin/isoseq3
-  env-execute: /usr/local/env-execute

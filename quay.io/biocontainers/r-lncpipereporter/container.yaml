@@ -7,13 +7,4 @@ tags:
   0.1.1--r41hec16e2b_5: sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268
 docker: quay.io/biocontainers/r-lncpipereporter
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc

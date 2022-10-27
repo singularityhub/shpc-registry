@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/blobtools
 aliases:
   blobtools: /usr/local/bin/blobtools
   blobtools-build_nodesdb: /usr/local/bin/blobtools-build_nodesdb
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

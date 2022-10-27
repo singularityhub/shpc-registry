@@ -26,4 +26,3 @@ aliases:
   transl: /usr/local/bin/transl
   cai: /usr/local/bin/cai
   gc: /usr/local/bin/gc
-  env-execute: /usr/local/env-execute

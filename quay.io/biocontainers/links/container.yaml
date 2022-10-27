@@ -12,13 +12,3 @@ aliases:
   LINKS-make-real: /usr/local/bin/LINKS-make-real
   LINKS.pl: /usr/local/bin/LINKS.pl
   LINKS_CPP: /usr/local/bin/LINKS_CPP
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  make: /usr/local/bin/make

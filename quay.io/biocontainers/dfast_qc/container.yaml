@@ -17,13 +17,13 @@ aliases:
   sip-module: /usr/local/bin/sip-module
   sip-sdist: /usr/local/bin/sip-sdist
   sip-wheel: /usr/local/bin/sip-wheel
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  assistant: /usr/local/bin/assistant
+  attr: /usr/local/bin/attr

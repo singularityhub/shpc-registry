@@ -11,13 +11,6 @@ aliases:
   checkFlowSOM.R: /usr/local/bin/checkFlowSOM.R
   checkFlowSet.R: /usr/local/bin/checkFlowSet.R
   checkFlowframe.R: /usr/local/bin/checkFlowframe.R
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/rmetl
 aliases:
   ngmlr: /usr/local/bin/ngmlr
   rMETL: /usr/local/bin/rMETL
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py

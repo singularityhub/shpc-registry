@@ -7,13 +7,8 @@ tags:
   0.0.1.2--pyh864c0ab_2: sha256:f7f0b8bb8a1ac053e4411b2679214fd8031f84c4d38ecd3c3fbeb2b8231f9325
 docker: quay.io/biocontainers/ga4ghmongo
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

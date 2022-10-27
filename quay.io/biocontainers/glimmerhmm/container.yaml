@@ -7,13 +7,6 @@ tags:
   3.0.4--pl5321h87f3376_5: sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281
 docker: quay.io/biocontainers/glimmerhmm
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   glimmerhmm: /usr/local/bin/glimmerhmm
   glimmhmm.pl: /usr/local/bin/glimmhmm.pl
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
+  trainGlimmerHMM: /usr/local/bin/trainGlimmerHMM

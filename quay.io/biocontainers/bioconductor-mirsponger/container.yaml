@@ -7,13 +7,4 @@ tags:
   1.20.1--r41hc247a5b_1: sha256:f8708faad531ebb77657c78a7aa02bc4b8ea9a9449370e633a9367b07972ce57
 docker: quay.io/biocontainers/bioconductor-mirsponger
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

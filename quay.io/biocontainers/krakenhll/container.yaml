@@ -17,13 +17,13 @@ aliases:
   krakenhll-report: /usr/local/bin/krakenhll-report
   krakenhll-translate: /usr/local/bin/krakenhll-translate
   read_merger.pl: /usr/local/bin/read_merger.pl
-  activate: /usr/local/bin/activate
   c2ph: /usr/local/bin/c2ph
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
+  jellyfish: /usr/local/bin/jellyfish
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

@@ -19,13 +19,13 @@ aliases:
   straingr: /usr/local/bin/straingr
   straingst: /usr/local/bin/straingst
   treepath: /usr/local/bin/treepath
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  cwebp: /usr/local/bin/cwebp
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  doesitcache: /usr/local/bin/doesitcache
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools

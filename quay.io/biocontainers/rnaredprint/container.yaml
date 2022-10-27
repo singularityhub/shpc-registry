@@ -13,7 +13,6 @@ aliases:
   calcprobs.py: /usr/local/bin/calcprobs.py
   design-energyshift.py: /usr/local/bin/design-energyshift.py
   design-multistate.py: /usr/local/bin/design-multistate.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -23,3 +22,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

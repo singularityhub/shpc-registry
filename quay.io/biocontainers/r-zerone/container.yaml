@@ -7,13 +7,4 @@ tags:
   1.0--r341h470a237_1: sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d
 docker: quay.io/biocontainers/r-zerone
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config

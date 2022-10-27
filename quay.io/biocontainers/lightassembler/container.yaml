@@ -10,4 +10,3 @@ aliases:
   LightAssembler: /usr/local/bin/LightAssembler
   libtool: /usr/local/bin/libtool
   libtoolize: /usr/local/bin/libtoolize
-  env-execute: /usr/local/env-execute

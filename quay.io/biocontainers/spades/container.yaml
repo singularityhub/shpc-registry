@@ -19,13 +19,13 @@ aliases:
   ionhammer: /usr/local/bin/ionhammer
   scaffold_correction: /usr/local/bin/scaffold_correction
   spades: /usr/local/bin/spades
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.5: /usr/local/bin/idle3.5
+  metaspades.py: /usr/local/bin/metaspades.py
+  plasmidspades.py: /usr/local/bin/plasmidspades.py
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

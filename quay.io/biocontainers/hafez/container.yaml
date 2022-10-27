@@ -34,13 +34,13 @@ aliases:
   hhsearch: /usr/local/bin/hhsearch
   hhsearch_omp: /usr/local/bin/hhsearch_omp
   mosdepth: /usr/local/bin/mosdepth
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
-  adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  amino-acid-composition: /usr/local/bin/amino-acid-composition

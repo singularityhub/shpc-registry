@@ -10,6 +10,3 @@ aliases:
   bamhash_checksum_bam: /usr/local/bin/bamhash_checksum_bam
   bamhash_checksum_fasta: /usr/local/bin/bamhash_checksum_fasta
   bamhash_checksum_fastq: /usr/local/bin/bamhash_checksum_fastq
-  c_rehash: /usr/local/bin/c_rehash
-  openssl: /usr/local/bin/openssl
-  env-execute: /usr/local/env-execute

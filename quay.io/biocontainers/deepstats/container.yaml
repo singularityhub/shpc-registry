@@ -10,13 +10,13 @@ aliases:
   dsCompareCurves: /usr/local/bin/dsCompareCurves
   dsComputeBEDDensity: /usr/local/bin/dsComputeBEDDensity
   dsComputeGCCoverage: /usr/local/bin/dsComputeGCCoverage
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  curve_keygen: /usr/local/bin/curve_keygen
+  idle3.9: /usr/local/bin/idle3.9
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython
+  ipython3: /usr/local/bin/ipython3
+  jsonschema: /usr/local/bin/jsonschema
+  jupyter: /usr/local/bin/jupyter
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension

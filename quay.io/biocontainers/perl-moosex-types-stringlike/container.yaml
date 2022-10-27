@@ -7,13 +7,8 @@ tags:
   0.003--pl526_0: sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e
 docker: quay.io/biocontainers/perl-moosex-types-stringlike
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

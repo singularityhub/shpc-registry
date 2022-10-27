@@ -112,7 +112,6 @@ aliases:
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
   zff2genbank.pl: /usr/local/bin/zff2genbank.pl
   zff2gff3.pl: /usr/local/bin/zff2gff3.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
@@ -122,3 +121,4 @@ aliases:
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl

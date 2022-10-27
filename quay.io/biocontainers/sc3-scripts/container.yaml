@@ -33,13 +33,8 @@ aliases:
   singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
   singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
   singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

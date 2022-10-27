@@ -45,13 +45,13 @@ aliases:
   vsubseqselect: /usr/local/bin/vsubseqselect
   wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
   zlib_decompress: /usr/local/bin/zlib_decompress
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   acyclic: /usr/local/bin/acyclic
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls

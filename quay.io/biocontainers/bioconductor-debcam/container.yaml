@@ -7,13 +7,13 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:b5752289c12c7db0920c9e2c1835eb24dcda0bb3604b0bcb7e49c0ef11b6f0bf
 docker: quay.io/biocontainers/bioconductor-debcam
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

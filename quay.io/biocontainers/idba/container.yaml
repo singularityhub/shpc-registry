@@ -17,9 +17,9 @@ aliases:
   Makefile.am: /usr/local/bin/Makefile.am
   Makefile.in: /usr/local/bin/Makefile.in
   aclocal.bak: /usr/local/bin/aclocal.bak
-  activate: /usr/local/bin/activate
   automake.bak: /usr/local/bin/automake.bak
   bazel-scan.py: /usr/local/bin/bazel-scan.py
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   fa2fq: /usr/local/bin/fa2fq
+  fa2fq.o: /usr/local/bin/fa2fq.o
+  filter_blat: /usr/local/bin/filter_blat
+  filter_blat.o: /usr/local/bin/filter_blat.o

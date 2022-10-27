@@ -22,13 +22,10 @@ aliases:
   qseq2fasta.pl: /usr/local/bin/qseq2fasta.pl
   qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl
   splitInput.pl: /usr/local/bin/splitInput.pl
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

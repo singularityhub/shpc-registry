@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/seq2hla
 aliases:
   seq2HLA: /usr/local/bin/seq2HLA
-  2to3: /usr/local/bin/2to3
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
   bowtie: /usr/local/bin/bowtie
   bowtie-align-l: /usr/local/bin/bowtie-align-l
   bowtie-align-s: /usr/local/bin/bowtie-align-s
   bowtie-build: /usr/local/bin/bowtie-build
   bowtie-build-l: /usr/local/bin/bowtie-build-l
   bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  c89: /usr/local/bin/c89

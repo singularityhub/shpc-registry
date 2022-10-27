@@ -7,13 +7,5 @@ tags:
   2.140640--pl526_1: sha256:7ca185053767bc5a8f11a7aa7e5c6a10596a1e03c995fc5ee928540d04c0b8c6
 docker: quay.io/biocontainers/perl-cpan-meta-validator
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

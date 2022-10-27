@@ -7,13 +7,7 @@ tags:
   1.0.5--h5cad929_9: sha256:aef9e161c577bb10478863a0b0c2b57c622f6befaef97858c22ea46a83f23e23
 docker: quay.io/biocontainers/libgab
 aliases:
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bamtools: /usr/local/bin/bamtools
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

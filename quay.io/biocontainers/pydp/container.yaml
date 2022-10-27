@@ -7,13 +7,13 @@ tags:
   0.2.4--py_0: sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f
 docker: quay.io/biocontainers/pydp
 aliases:
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
   f2py2: /usr/local/bin/f2py2
   f2py2.7: /usr/local/bin/f2py2.7
   idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config

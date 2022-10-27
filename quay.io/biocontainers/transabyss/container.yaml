@@ -15,8 +15,6 @@ aliases:
   strip_sam_seq_qual_noself.awk: /usr/local/bin/strip_sam_seq_qual_noself.awk
   transabyss: /usr/local/bin/transabyss
   transabyss-merge: /usr/local/bin/transabyss-merge
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
   AdjList: /usr/local/bin/AdjList
@@ -25,3 +23,5 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths

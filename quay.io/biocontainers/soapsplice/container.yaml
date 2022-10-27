@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/soapsplice
 aliases:
   2bwt-builder: /usr/local/bin/2bwt-builder
   soapsplice: /usr/local/bin/soapsplice
-  env-execute: /usr/local/env-execute

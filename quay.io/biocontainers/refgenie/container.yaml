@@ -9,13 +9,11 @@ docker: quay.io/biocontainers/refgenie
 aliases:
   import_igenome: /usr/local/bin/import_igenome
   refgenie: /usr/local/bin/refgenie
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
+  faidx: /usr/local/bin/faidx
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  tqdm: /usr/local/bin/tqdm

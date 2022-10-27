@@ -38,13 +38,13 @@ aliases:
   strings: /usr/local/bin/strings
   strip: /usr/local/bin/strip
   varscan: /usr/local/bin/varscan
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

@@ -7,13 +7,13 @@ tags:
   1.4.1--py_2: sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00
 docker: quay.io/biocontainers/ecmwfapi
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
+  idle3.6: /usr/local/bin/idle3.6
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv: /usr/local/bin/pyvenv

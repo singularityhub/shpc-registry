@@ -7,13 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:bd0899d0d3c2b0577231cc11551965a16bdd4ca87acc4dc50ae057140ecbcdb6
 docker: quay.io/biocontainers/bioconductor-mu19ksubb.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

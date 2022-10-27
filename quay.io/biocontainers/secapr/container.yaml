@@ -13,7 +13,6 @@ aliases:
   ucx_info: /usr/local/bin/ucx_info
   ucx_perftest: /usr/local/bin/ucx_perftest
   ucx_read_profile: /usr/local/bin/ucx_read_profile
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -23,3 +22,4 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs

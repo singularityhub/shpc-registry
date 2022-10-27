@@ -7,13 +7,6 @@ tags:
   1.32.0--r40h399db7b_1: sha256:ed620c129c22c8932a9300b841e98b9a2ddf6da82a3939e03cfd53c0d9a10385
 docker: quay.io/biocontainers/bioconductor-chimera
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

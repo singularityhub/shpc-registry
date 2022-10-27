@@ -24,13 +24,13 @@ aliases:
   splitmates: /usr/local/bin/splitmates
   splitreads: /usr/local/bin/splitreads
   trunkreads: /usr/local/bin/trunkreads
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
   blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn

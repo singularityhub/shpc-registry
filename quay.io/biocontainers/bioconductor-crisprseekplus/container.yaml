@@ -7,13 +7,4 @@ tags:
   1.8.0--r351_0: sha256:1f24c032c470e04446b591cad6c1fb8fbbb2386cb9f01e173721979f05d6c9ae
 docker: quay.io/biocontainers/bioconductor-crisprseekplus
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

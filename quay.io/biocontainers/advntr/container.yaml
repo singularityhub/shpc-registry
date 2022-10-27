@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/advntr
 aliases:
   adVNTR-Filtering: /usr/local/bin/adVNTR-Filtering
   advntr: /usr/local/bin/advntr
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  export2sam.pl: /usr/local/bin/export2sam.pl

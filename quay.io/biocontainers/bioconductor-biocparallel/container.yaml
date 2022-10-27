@@ -7,13 +7,7 @@ tags:
   1.6.6--r3.3.2_1: sha256:364c3578ee80bc268c22a276ab3e0144c18148dd8caad3aa07fab9baa098fa5d
 docker: quay.io/biocontainers/bioconductor-biocparallel
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

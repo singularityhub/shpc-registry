@@ -15,4 +15,3 @@ aliases:
   gthgetseq: /usr/local/bin/gthgetseq
   gthsplit: /usr/local/bin/gthsplit
   gthsplit2dim.sh: /usr/local/bin/gthsplit2dim.sh
-  env-execute: /usr/local/env-execute

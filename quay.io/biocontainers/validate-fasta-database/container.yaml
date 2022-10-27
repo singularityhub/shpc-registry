@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/validate-fasta-database
 aliases:
   validate-fasta-database: /usr/local/bin/validate-fasta-database
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

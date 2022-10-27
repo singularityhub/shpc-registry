@@ -11,9 +11,7 @@ tags:
   2.4.5--py36hd4290be_0: sha256:7c547046fcb6f742789a741ef52289f174edb75d46db6d835d654e673cd2dafc
   2.3.4.3--py37he860b03_1: sha256:7c2c2c521a8ae3374aea511da2553f69c74330b9d7c30d2b5eee5c54449da47a
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  activate: /usr/local/bin/activate
   bowtie2: /usr/local/bin/bowtie2
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
@@ -21,3 +19,5 @@ aliases:
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
   bowtie2-build-s: /usr/local/bin/bowtie2-build-s
   bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s

@@ -7,13 +7,4 @@ tags:
   1.8.1--r351_0: sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c
 docker: quay.io/biocontainers/bioconductor-mast
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

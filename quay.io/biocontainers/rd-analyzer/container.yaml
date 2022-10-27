@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/rd-analyzer
 aliases:
   RD-Analyzer-extended.py: /usr/local/bin/RD-Analyzer-extended.py
   RD-Analyzer.py: /usr/local/bin/RD-Analyzer.py
-  2to3: /usr/local/bin/2to3
   bcftools: /usr/local/bin/bcftools
   bwa: /usr/local/bin/bwa
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  samtools: /usr/local/bin/samtools

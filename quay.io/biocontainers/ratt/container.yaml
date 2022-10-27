@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/ratt
 aliases:
   ratt: /usr/local/bin/ratt
   combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   exact-tandems: /usr/local/bin/exact-tandems
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer
+  perl5.26.2: /usr/local/bin/perl5.26.2

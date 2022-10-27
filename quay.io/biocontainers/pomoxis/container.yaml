@@ -32,13 +32,13 @@ aliases:
   summary_from_stats: /usr/local/bin/summary_from_stats
   tag_bam: /usr/local/bin/tag_bam
   trim_alignments: /usr/local/bin/trim_alignments
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

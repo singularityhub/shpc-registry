@@ -8,13 +8,9 @@ tags:
 docker: quay.io/biocontainers/perl-dbd-mysql
 aliases:
   use-devel-checklib: /usr/local/bin/use-devel-checklib
-  c_rehash: /usr/local/bin/c_rehash
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

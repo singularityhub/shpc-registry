@@ -8,13 +8,5 @@ tags:
 docker: quay.io/biocontainers/fusion-report
 aliases:
   fusion_report: /usr/local/bin/fusion_report
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  f2py3.8: /usr/local/bin/f2py3.8
+  tqdm: /usr/local/bin/tqdm

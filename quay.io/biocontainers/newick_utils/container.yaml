@@ -25,13 +25,3 @@ aliases:
   nw_support: /usr/local/bin/nw_support
   nw_topology: /usr/local/bin/nw_topology
   nw_trim: /usr/local/bin/nw_trim
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  lzcat: /usr/local/bin/lzcat

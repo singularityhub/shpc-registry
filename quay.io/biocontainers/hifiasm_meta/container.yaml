@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/hifiasm_meta
 aliases:
   hifiasm_meta: /usr/local/bin/hifiasm_meta
-  env-execute: /usr/local/env-execute

@@ -13,13 +13,9 @@ aliases:
   btrim: /usr/local/bin/btrim
   ntcard: /usr/local/bin/ntcard
   nthll: /usr/local/bin/nthll
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   h5cc: /usr/local/bin/h5cc
-  idle3: /usr/local/bin/idle3
   idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

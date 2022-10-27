@@ -7,13 +7,6 @@ tags:
   2.8.0--0: sha256:6e15c94d5329670cf4676464a4cf33b50ce04df9536e60a1c6cc1dc28e5a7f0d
 docker: quay.io/biocontainers/bioconductor-gagedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

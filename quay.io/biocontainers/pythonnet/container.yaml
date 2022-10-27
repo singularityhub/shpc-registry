@@ -12,13 +12,13 @@ aliases:
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
   prj2make: /usr/local/bin/prj2make
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   caspol: /usr/local/bin/caspol
   cccheck: /usr/local/bin/cccheck
   ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate

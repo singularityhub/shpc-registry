@@ -7,13 +7,13 @@ tags:
   0.2.3--pyh5e36f6f_1: sha256:2a4a79a2c72725db6560f3c9c823fd1128dd81b811816405cb3b752f83fe3421
 docker: quay.io/biocontainers/scrublet
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
   aec: /usr/local/bin/aec
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  f2py3.8: /usr/local/bin/f2py3.8
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild

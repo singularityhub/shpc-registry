@@ -7,13 +7,10 @@ tags:
   0.9.4--r3.4.1_0: sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722
 docker: quay.io/biocontainers/r-qiimer
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

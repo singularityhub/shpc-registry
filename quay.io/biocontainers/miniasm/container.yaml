@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/miniasm
 aliases:
   miniasm: /usr/local/bin/miniasm
   minidot: /usr/local/bin/minidot
-  env-execute: /usr/local/env-execute

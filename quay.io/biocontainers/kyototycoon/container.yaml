@@ -32,4 +32,3 @@ aliases:
   ktutilmgr: /usr/local/bin/ktutilmgr
   ktutilserv: /usr/local/bin/ktutilserv
   ktutiltest: /usr/local/bin/ktutiltest
-  env-execute: /usr/local/env-execute

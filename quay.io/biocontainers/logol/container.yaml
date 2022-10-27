@@ -15,13 +15,13 @@ aliases:
   swipl: /usr/local/bin/swipl
   swipl-ld: /usr/local/bin/swipl-ld
   swipl-rc: /usr/local/bin/swipl-rc
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  erb: /usr/local/bin/erb
+  extcheck: /usr/local/bin/extcheck
+  gem: /usr/local/bin/gem
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  irb: /usr/local/bin/irb
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

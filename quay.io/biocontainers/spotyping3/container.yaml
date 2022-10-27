@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/spotyping3
 aliases:
   SpoTyping.py: /usr/local/bin/SpoTyping.py
   SpoTyping_plot.r: /usr/local/bin/SpoTyping_plot.r
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
   blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  c89: /usr/local/bin/c89

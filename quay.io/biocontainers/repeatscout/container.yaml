@@ -15,13 +15,5 @@ aliases:
   merge-lmer-tables.prl: /usr/local/bin/merge-lmer-tables.prl
   nmerge: /usr/local/bin/nmerge
   nseg: /usr/local/bin/nseg
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  trf: /usr/local/bin/trf
+  trf4.10.0-rc.2.linux64.exe: /usr/local/bin/trf4.10.0-rc.2.linux64.exe

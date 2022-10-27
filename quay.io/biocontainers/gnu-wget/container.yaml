@@ -7,13 +7,5 @@ tags:
   1.18--h60da905_7: sha256:578b143b3a2a7377605f726d49336b32617ec6d010f19bb39a885a156617d9ab
 docker: quay.io/biocontainers/gnu-wget
 aliases:
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  envsubst: /usr/local/bin/envsubst
-  gettext: /usr/local/bin/gettext
-  gettext.sh: /usr/local/bin/gettext.sh
-  gettextize: /usr/local/bin/gettextize
   idn2: /usr/local/bin/idn2
-  msgattrib: /usr/local/bin/msgattrib
-  msgcat: /usr/local/bin/msgcat
-  msgcmp: /usr/local/bin/msgcmp
+  wget: /usr/local/bin/wget

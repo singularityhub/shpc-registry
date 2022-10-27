@@ -12,13 +12,11 @@ aliases:
   setpythonpath.bat: /usr/local/bin/setpythonpath.bat
   slice2py: /usr/local/bin/slice2py
   winconfig.bat: /usr/local/bin/winconfig.bat
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  idle3.8: /usr/local/bin/idle3.8
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/selectfasta
 aliases:
   selectFasta: /usr/local/bin/selectFasta
-  env-execute: /usr/local/env-execute

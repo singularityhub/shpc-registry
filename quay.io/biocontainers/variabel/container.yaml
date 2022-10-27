@@ -10,13 +10,13 @@ aliases:
   lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
   lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
   variabel: /usr/local/bin/variabel
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.9: /usr/local/bin/f2py3.9
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  lofreq: /usr/local/bin/lofreq

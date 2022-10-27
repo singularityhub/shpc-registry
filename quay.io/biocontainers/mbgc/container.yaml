@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mbgc
 aliases:
   mbgc: /usr/local/bin/mbgc
-  env-execute: /usr/local/env-execute

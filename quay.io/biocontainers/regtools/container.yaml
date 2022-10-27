@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/regtools
 aliases:
   regtools: /usr/local/bin/regtools
-  env-execute: /usr/local/env-execute

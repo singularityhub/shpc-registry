@@ -59,4 +59,3 @@ aliases:
   tfasts36: /usr/local/bin/tfasts36
   tfastx36: /usr/local/bin/tfastx36
   tfasty36: /usr/local/bin/tfasty36
-  env-execute: /usr/local/env-execute

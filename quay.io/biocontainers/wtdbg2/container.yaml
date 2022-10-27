@@ -10,6 +10,3 @@ aliases:
   wtdbg-cns: /usr/local/bin/wtdbg-cns
   wtdbg2: /usr/local/bin/wtdbg2
   wtpoa-cns: /usr/local/bin/wtpoa-cns
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

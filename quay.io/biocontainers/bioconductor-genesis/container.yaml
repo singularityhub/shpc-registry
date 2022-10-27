@@ -7,13 +7,11 @@ tags:
   2.24.2--r41hc0cfd56_0: sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505
 docker: quay.io/biocontainers/bioconductor-genesis
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  f2py3.10: /usr/local/bin/f2py3.10
+  glpsol: /usr/local/bin/glpsol
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

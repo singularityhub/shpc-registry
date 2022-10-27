@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/rustynuc
 aliases:
   rustynuc: /usr/local/bin/rustynuc
-  env-execute: /usr/local/env-execute

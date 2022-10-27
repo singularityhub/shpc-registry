@@ -20,13 +20,13 @@ aliases:
   lighter: /usr/local/bin/lighter
   shovill: /usr/local/bin/shovill
   skesa: /usr/local/bin/skesa
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   CA.pm: /usr/local/bin/CA.pm
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  animate: /usr/local/bin/animate

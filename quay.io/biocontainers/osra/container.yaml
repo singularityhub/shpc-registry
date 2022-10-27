@@ -33,13 +33,13 @@ aliases:
   tesseract: /usr/local/bin/tesseract
   wftopfa: /usr/local/bin/wftopfa
   xtractprotos: /usr/local/bin/xtractprotos
-  activate: /usr/local/bin/activate
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   babel: /usr/local/bin/babel
   bdftogd: /usr/local/bin/bdftogd
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  cwebp: /usr/local/bin/cwebp
+  dvipdf: /usr/local/bin/dvipdf
+  dwebp: /usr/local/bin/dwebp
+  eps2eps: /usr/local/bin/eps2eps
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng

@@ -7,13 +7,4 @@ tags:
   2.01--pl5321hdfd78af_2: sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee
 docker: quay.io/biocontainers/perl-data-walk
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

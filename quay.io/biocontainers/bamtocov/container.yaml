@@ -21,13 +21,7 @@ aliases:
   make-target-from-bam.py: /usr/local/bin/make-target-from-bam.py
   prokka-annotation-refupdate.py: /usr/local/bin/prokka-annotation-refupdate.py
   strip-seq-from-bam.py: /usr/local/bin/strip-seq-from-bam.py
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  gff2bed: /usr/local/bin/gff2bed
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/treerecs
 aliases:
   treerecs: /usr/local/bin/treerecs
-  env-execute: /usr/local/env-execute

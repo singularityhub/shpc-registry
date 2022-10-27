@@ -7,13 +7,12 @@ tags:
   1.31.0--r40hdfd78af_1: sha256:b695a53ad2cc02991229d4a7ef1e9dc78c7daf1665c201a1ee025b09f0eb1fad
 docker: quay.io/biocontainers/bioconductor-easyqpcr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gtk-builder-convert: /usr/local/bin/gtk-builder-convert
+  gtk-demo: /usr/local/bin/gtk-demo
+  gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

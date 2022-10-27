@@ -7,13 +7,4 @@ tags:
   1.8.0--r351_0: sha256:31aef20797f6039a453988b7e758a3de50c9c936819a5c193c8b1aa8612a5156
 docker: quay.io/biocontainers/bioconductor-annotatr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

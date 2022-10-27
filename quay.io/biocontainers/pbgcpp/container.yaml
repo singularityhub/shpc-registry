@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/pbgcpp
 aliases:
   gcpp: /usr/local/bin/gcpp
-  env-execute: /usr/local/env-execute

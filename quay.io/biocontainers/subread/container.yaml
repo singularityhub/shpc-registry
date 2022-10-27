@@ -23,4 +23,3 @@ aliases:
   subread-buildindex: /usr/local/bin/subread-buildindex
   subread-fullscan: /usr/local/bin/subread-fullscan
   txUnique: /usr/local/bin/txUnique
-  env-execute: /usr/local/env-execute

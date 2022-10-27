@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/atlas
 aliases:
   atlas: /usr/local/bin/atlas
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,10 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9
 docker: quay.io/biocontainers/bioconductor-rtcga.mirnaseq
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

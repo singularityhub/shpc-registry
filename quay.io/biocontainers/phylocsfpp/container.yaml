@@ -8,13 +8,3 @@ tags:
 docker: quay.io/biocontainers/phylocsfpp
 aliases:
   phylocsf++: /usr/local/bin/phylocsf++
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram

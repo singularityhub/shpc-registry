@@ -14,13 +14,13 @@ aliases:
   nc3tonc4: /usr/local/bin/nc3tonc4
   nc4tonc3: /usr/local/bin/nc4tonc3
   ncinfo: /usr/local/bin/ncinfo
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  f2py3.9: /usr/local/bin/f2py3.9
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

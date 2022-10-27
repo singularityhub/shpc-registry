@@ -7,13 +7,4 @@ tags:
   1.9--h244ad75_9: sha256:fb71016f0da0e0eca1f1bfa6f2c6519edfbd1f34e99146cdb21848730c2424e6
 docker: quay.io/biocontainers/htslib
 aliases:
-  bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
+  htsfile: /usr/local/bin/htsfile

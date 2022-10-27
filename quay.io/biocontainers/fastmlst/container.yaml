@@ -8,8 +8,6 @@ tags:
 docker: quay.io/biocontainers/fastmlst
 aliases:
   fastmlst: /usr/local/bin/fastmlst
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
@@ -18,3 +16,5 @@ aliases:
   blastn: /usr/local/bin/blastn
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
+  convert2blastmask: /usr/local/bin/convert2blastmask
+  datatool: /usr/local/bin/datatool

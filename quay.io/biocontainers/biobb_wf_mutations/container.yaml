@@ -31,13 +31,13 @@ aliases:
   pdb_variants: /usr/local/bin/pdb_variants
   solvate: /usr/local/bin/solvate
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bagit.py: /usr/local/bin/bagit.py
   bcomps: /usr/local/bin/bcomps
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  csv2rdf: /usr/local/bin/csv2rdf

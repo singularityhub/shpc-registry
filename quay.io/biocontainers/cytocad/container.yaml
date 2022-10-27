@@ -10,13 +10,13 @@ aliases:
   cytocad: /usr/local/bin/cytocad
   rfmix2tagore.py: /usr/local/bin/rfmix2tagore.py
   tagore: /usr/local/bin/tagore
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

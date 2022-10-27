@@ -10,13 +10,7 @@ aliases:
   fetch: /usr/local/bin/fetch
   indexer: /usr/local/bin/indexer
   netfetch: /usr/local/bin/netfetch
-  activate: /usr/local/bin/activate
   c2ph: /usr/local/bin/c2ph
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fasta_windows
 aliases:
   fasta_windows: /usr/local/bin/fasta_windows
-  env-execute: /usr/local/env-execute

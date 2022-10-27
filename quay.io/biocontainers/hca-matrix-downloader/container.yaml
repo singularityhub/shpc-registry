@@ -9,13 +9,4 @@ docker: quay.io/biocontainers/hca-matrix-downloader
 aliases:
   hca-matrix-downloader: /usr/local/bin/hca-matrix-downloader
   hca-mtx-to-10x: /usr/local/bin/hca-mtx-to-10x
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
-  idle3.9: /usr/local/bin/idle3.9
-  infocmp: /usr/local/bin/infocmp

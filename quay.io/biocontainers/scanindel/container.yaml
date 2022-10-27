@@ -10,7 +10,6 @@ aliases:
   ScanIndel.py: /usr/local/bin/ScanIndel.py
   inchworm: /usr/local/bin/inchworm
   vcf-combine.py: /usr/local/bin/vcf-combine.py
-  2to3: /usr/local/bin/2to3
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -20,3 +19,4 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
+  blat: /usr/local/bin/blat

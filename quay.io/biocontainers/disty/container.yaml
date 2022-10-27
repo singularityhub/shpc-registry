@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/disty
 aliases:
   disty: /usr/local/bin/disty
-  env-execute: /usr/local/env-execute

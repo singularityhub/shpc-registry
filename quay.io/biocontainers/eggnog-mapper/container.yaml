@@ -13,13 +13,13 @@ aliases:
   hmm_mapper.py: /usr/local/bin/hmm_mapper.py
   hmm_server.py: /usr/local/bin/hmm_server.py
   hmm_worker.py: /usr/local/bin/hmm_worker.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   alimask: /usr/local/bin/alimask
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  diamond: /usr/local/bin/diamond
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask
+  esl-alimerge: /usr/local/bin/esl-alimerge

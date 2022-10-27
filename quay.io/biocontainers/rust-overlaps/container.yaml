@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/rust-overlaps
 aliases:
   rust-overlaps: /usr/local/bin/rust-overlaps
-  env-execute: /usr/local/env-execute

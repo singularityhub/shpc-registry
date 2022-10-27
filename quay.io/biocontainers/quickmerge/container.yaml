@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/quickmerge
 aliases:
   merge_wrapper.py: /usr/local/bin/merge_wrapper.py
   quickmerge: /usr/local/bin/quickmerge
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  idle3.10: /usr/local/bin/idle3.10
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot

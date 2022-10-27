@@ -7,13 +7,13 @@ tags:
   0.7.6--pyh5e36f6f_0: sha256:a11b200c85a1f763643450fac996f7063a10e0fb5aab0ddb9c9997e98b19816a
 docker: quay.io/biocontainers/kipoi-utils
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  f2py3.10: /usr/local/bin/f2py3.10
+  futurize: /usr/local/bin/futurize
+  idle3.10: /usr/local/bin/idle3.10
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  tqdm: /usr/local/bin/tqdm

@@ -22,4 +22,3 @@ aliases:
   zless: /usr/local/bin/zless
   zmore: /usr/local/bin/zmore
   znew: /usr/local/bin/znew
-  env-execute: /usr/local/env-execute

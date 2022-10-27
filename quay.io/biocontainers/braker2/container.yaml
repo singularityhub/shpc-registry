@@ -88,13 +88,13 @@ aliases:
   spspaln.pl: /usr/local/bin/spspaln.pl
   startAlign.pl: /usr/local/bin/startAlign.pl
   tsebra.py: /usr/local/bin/tsebra.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   CA.pm: /usr/local/bin/CA.pm
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asp-cp: /usr/local/bin/asp-cp

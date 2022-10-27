@@ -36,13 +36,13 @@ aliases:
   sparkR: /usr/local/bin/sparkR
   sparkR.cmd: /usr/local/bin/sparkR.cmd
   sparkR2.cmd: /usr/local/bin/sparkR2.cmd
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   appletviewer: /usr/local/bin/appletviewer
   bokeh: /usr/local/bin/bokeh
   bq: /usr/local/bin/bq
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
+  chardetect: /usr/local/bin/chardetect
+  clhsdb: /usr/local/bin/clhsdb
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  extcheck: /usr/local/bin/extcheck
+  f2py3.6: /usr/local/bin/f2py3.6
+  gcloud: /usr/local/bin/gcloud

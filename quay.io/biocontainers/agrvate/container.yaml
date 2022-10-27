@@ -12,13 +12,13 @@ aliases:
   snippy-clean_full_aln: /usr/local/bin/snippy-clean_full_aln
   snippy-multi: /usr/local/bin/snippy-multi
   snippy-vcf_extract_subs: /usr/local/bin/snippy-vcf_extract_subs
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   abba-baba: /usr/local/bin/abba-baba
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition

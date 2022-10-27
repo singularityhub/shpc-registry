@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/novasplice
 aliases:
   novasplice: /usr/local/bin/novasplice
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bcftools: /usr/local/bin/bcftools
   bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

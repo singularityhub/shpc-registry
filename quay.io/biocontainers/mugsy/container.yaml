@@ -19,11 +19,4 @@ aliases:
   xmfa2maf.pl: /usr/local/bin/xmfa2maf.pl
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
+  perl5.32.0: /usr/local/bin/perl5.32.0

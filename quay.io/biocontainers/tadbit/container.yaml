@@ -12,13 +12,13 @@ aliases:
   gem-retriever: /usr/local/bin/gem-retriever
   normalize_oneD.R: /usr/local/bin/normalize_oneD.R
   tadbit: /usr/local/bin/tadbit
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter

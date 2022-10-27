@@ -13,13 +13,13 @@ aliases:
   xtea: /usr/local/bin/xtea
   xtea_hg19: /usr/local/bin/xtea_hg19
   xtea_long: /usr/local/bin/xtea_long
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.7: /usr/local/bin/f2py3.7
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile

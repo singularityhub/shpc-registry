@@ -7,13 +7,5 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:4847c039f56034d4a1088733f5bdc0ac704a6d0d32e83cc64daba7a4cdfd56c7
 docker: quay.io/biocontainers/bioconductor-phyloprofiledata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

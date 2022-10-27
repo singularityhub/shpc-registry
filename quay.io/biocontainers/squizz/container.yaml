@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/squizz
 aliases:
   squizz: /usr/local/bin/squizz
-  env-execute: /usr/local/env-execute

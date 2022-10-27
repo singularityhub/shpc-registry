@@ -10,13 +10,13 @@ aliases:
   ipcluster: /usr/local/bin/ipcluster
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   curve_keygen: /usr/local/bin/curve_keygen
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython
+  ipython3: /usr/local/bin/ipython3
+  jupyter: /usr/local/bin/jupyter
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec

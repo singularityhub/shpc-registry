@@ -12,13 +12,13 @@ aliases:
   dav1d: /usr/local/bin/dav1d
   tiff2fsspec: /usr/local/bin/tiff2fsspec
   tiffcomment: /usr/local/bin/tiffcomment
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aec: /usr/local/bin/aec
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
+  cbrunsli: /usr/local/bin/cbrunsli
+  cwebp: /usr/local/bin/cwebp
+  dbrunsli: /usr/local/bin/dbrunsli
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9

@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/nanomonsv
 aliases:
   maskFile.pl: /usr/local/bin/maskFile.pl
   nanomonsv: /usr/local/bin/nanomonsv
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
@@ -18,4 +17,5 @@ aliases:
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask

@@ -10,13 +10,13 @@ aliases:
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py
   DRAM-v.py: /usr/local/bin/DRAM-v.py
   DRAM.py: /usr/local/bin/DRAM.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alimask: /usr/local/bin/alimask
   annotateBed: /usr/local/bin/annotateBed
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  barrnap: /usr/local/bin/barrnap
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

@@ -8,13 +8,7 @@ tags:
 docker: quay.io/biocontainers/fastafunk
 aliases:
   fastafunk: /usr/local/bin/fastafunk
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   dendropy-format: /usr/local/bin/dendropy-format
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py

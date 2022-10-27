@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/msisensor2
 aliases:
   msisensor2: /usr/local/bin/msisensor2
-  env-execute: /usr/local/env-execute

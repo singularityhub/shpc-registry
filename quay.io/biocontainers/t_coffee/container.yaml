@@ -7,13 +7,13 @@ tags:
   11.0.8--py37hea885bf_8: sha256:01f6245b193d856e861a80511a5d59a68660ac4cb295519988141c4c087f8de4
 docker: quay.io/biocontainers/t_coffee
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.7: /usr/local/bin/idle3.7
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

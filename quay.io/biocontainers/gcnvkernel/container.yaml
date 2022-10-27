@@ -7,13 +7,13 @@ tags:
   0.7--py_0: sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93
 docker: quay.io/biocontainers/gcnvkernel
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
   canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
   certutil: /usr/local/bin/certutil
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch

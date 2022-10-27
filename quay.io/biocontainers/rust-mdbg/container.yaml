@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/rust-mdbg
 aliases:
   rust-mdbg: /usr/local/bin/rust-mdbg
   to_basespace: /usr/local/bin/to_basespace
-  env-execute: /usr/local/env-execute

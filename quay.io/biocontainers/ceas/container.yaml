@@ -11,13 +11,13 @@ aliases:
   ceas: /usr/local/bin/ceas
   gca: /usr/local/bin/gca
   sitepro: /usr/local/bin/sitepro
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

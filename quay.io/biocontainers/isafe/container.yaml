@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/isafe
 aliases:
   isafe: /usr/local/bin/isafe
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  f2py3.9: /usr/local/bin/f2py3.9
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  htsfile: /usr/local/bin/htsfile
+  idle3.9: /usr/local/bin/idle3.9
+  plot-roh.py: /usr/local/bin/plot-roh.py

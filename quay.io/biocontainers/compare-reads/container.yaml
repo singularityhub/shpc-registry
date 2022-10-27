@@ -7,13 +7,13 @@ tags:
   0.0.1--py27h14c3975_0: sha256:fdca58249bb54791640360e11932cafb17db0c7389ebd7ccddf203141d80da5d
 docker: quay.io/biocontainers/compare-reads
 aliases:
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  htsfile: /usr/local/bin/htsfile
+  idle: /usr/local/bin/idle

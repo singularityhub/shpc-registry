@@ -33,13 +33,11 @@ aliases:
   time.tabix.2.r: /usr/local/bin/time.tabix.2.r
   time.tabix.extractOnly.r: /usr/local/bin/time.tabix.extractOnly.r
   time.tabix.r: /usr/local/bin/time.tabix.r
-  2to3: /usr/local/bin/2to3
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py
+  wget: /usr/local/bin/wget

@@ -7,13 +7,13 @@ tags:
   1.28.0--r40hdfd78af_1: sha256:ccc535cd45b08fcbe6597e1cd9f0aefc820b953fc0c5e19bcb91691c5e038407
 docker: quay.io/biocontainers/bioconductor-rdavidwebservice
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.9: /usr/local/bin/idle3.9
+  jaotc: /usr/local/bin/jaotc

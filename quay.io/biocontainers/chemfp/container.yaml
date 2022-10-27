@@ -15,13 +15,13 @@ aliases:
   rdkit2fps: /usr/local/bin/rdkit2fps
   sdf2fps: /usr/local/bin/sdf2fps
   simsearch: /usr/local/bin/simsearch
-  2to3: /usr/local/bin/2to3
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  idle: /usr/local/bin/idle
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep

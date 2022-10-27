@@ -70,13 +70,13 @@ aliases:
   subsample_with_category.py: /usr/local/bin/subsample_with_category.py
   summarize_gmap_sam.py: /usr/local/bin/summarize_gmap_sam.py
   summarize_sample_GFF_junctions.py: /usr/local/bin/summarize_sample_GFF_junctions.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   acyclic: /usr/local/bin/acyclic
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
-  autopoint: /usr/local/bin/autopoint
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bcomps: /usr/local/bin/bcomps
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py

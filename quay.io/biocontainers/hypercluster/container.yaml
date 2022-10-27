@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/hypercluster
 aliases:
   community: /usr/local/bin/community
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
@@ -17,5 +16,6 @@ aliases:
   acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
+  canbusutil: /usr/local/bin/canbusutil
+  ccomps: /usr/local/bin/ccomps

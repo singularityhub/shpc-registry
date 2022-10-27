@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/fseq
 aliases:
   fseq: /usr/local/bin/fseq
   mapviewToBed.pl: /usr/local/bin/mapviewToBed.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
   c2ph: /usr/local/bin/c2ph
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
+  extcheck: /usr/local/bin/extcheck
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi

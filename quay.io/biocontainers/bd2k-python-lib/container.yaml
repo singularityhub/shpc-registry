@@ -7,13 +7,8 @@ tags:
   1.14a1.dev48--pyh864c0ab_2: sha256:db94a9dae86d3a1ca6490bf62e496e4f81bc47482ef32b874bdf296be2724dfa
 docker: quay.io/biocontainers/bd2k-python-lib
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

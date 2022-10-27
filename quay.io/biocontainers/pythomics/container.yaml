@@ -18,13 +18,10 @@ aliases:
   junctionalReads.py: /usr/local/bin/junctionalReads.py
   proteinInference.py: /usr/local/bin/proteinInference.py
   ptmSummary.py: /usr/local/bin/ptmSummary.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

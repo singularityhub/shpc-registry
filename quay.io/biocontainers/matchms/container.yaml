@@ -7,13 +7,13 @@ tags:
   0.9.2--pyh5e36f6f_0: sha256:d1a8f1d785b8993724305e4684caae5bc194b9fbb99053883eacfead753f20c0
 docker: quay.io/biocontainers/matchms
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  normalizer: /usr/local/bin/normalizer
+  numba: /usr/local/bin/numba
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

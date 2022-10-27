@@ -7,13 +7,6 @@ tags:
   0.23--pl5321hdfd78af_3: sha256:ef7ae91a1f1ac3f2ff1ae610db74757cc96e94a0287188cd7b8a50d4eaa1731e
 docker: quay.io/biocontainers/perl-test-file-contents
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  pod_cover: /usr/local/bin/pod_cover
+  podselect: /usr/local/bin/podselect

@@ -74,8 +74,6 @@ aliases:
   uniform_search_unit_test: /usr/local/bin/uniform_search_unit_test
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
@@ -84,3 +82,5 @@ aliases:
   blastn: /usr/local/bin/blastn
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
+  convert2blastmask: /usr/local/bin/convert2blastmask
+  datatool: /usr/local/bin/datatool

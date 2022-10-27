@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/scaden
 aliases:
   scaden: /usr/local/bin/scaden
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  chardetect: /usr/local/bin/chardetect
+  cmark: /usr/local/bin/cmark
+  dunamai: /usr/local/bin/dunamai
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  h52gif: /usr/local/bin/h52gif

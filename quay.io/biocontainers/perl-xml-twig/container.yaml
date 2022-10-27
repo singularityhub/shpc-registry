@@ -7,13 +7,13 @@ tags:
   3.52--pl526_2: sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb
 docker: quay.io/biocontainers/perl-xml-twig
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
   htmltree: /usr/local/bin/htmltree
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  tidyp: /usr/local/bin/tidyp
+  webtidy: /usr/local/bin/webtidy
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split

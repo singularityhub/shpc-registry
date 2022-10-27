@@ -7,13 +7,7 @@ tags:
   0.14--pl5321hdfd78af_2: sha256:260ff3adee3b847e89b0aab1f67eecd88f05810a6de0c9a46b4fc01e521f5849
 docker: quay.io/biocontainers/perl-xml-dom-xpath
 aliases:
-  c_rehash: /usr/local/bin/c_rehash
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request

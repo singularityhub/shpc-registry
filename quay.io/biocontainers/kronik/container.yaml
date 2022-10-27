@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/kronik
 aliases:
   kronik: /usr/local/bin/kronik
-  env-execute: /usr/local/env-execute

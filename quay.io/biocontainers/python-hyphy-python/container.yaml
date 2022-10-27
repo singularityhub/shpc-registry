@@ -7,13 +7,10 @@ tags:
   0.1.9--py27hfae33f2_4: sha256:134aa20159e65218ca6b46c3d4fd31fd7ba9f1530f16201dd10c485da72b95b2
 docker: quay.io/biocontainers/python-hyphy-python
 aliases:
-  2to3: /usr/local/bin/2to3
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  easy_install: /usr/local/bin/easy_install
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

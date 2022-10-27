@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/csblast
 aliases:
   csblast: /usr/local/bin/csblast
   csbuild: /usr/local/bin/csbuild
-  env-execute: /usr/local/env-execute

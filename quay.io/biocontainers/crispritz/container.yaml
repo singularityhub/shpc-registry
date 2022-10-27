@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/crispritz
 aliases:
   crispritz.py: /usr/local/bin/crispritz.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   bam2bed: /usr/local/bin/bam2bed
   bam2bed-float128: /usr/local/bin/bam2bed-float128
   bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow

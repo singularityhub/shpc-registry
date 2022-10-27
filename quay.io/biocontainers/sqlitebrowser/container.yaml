@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/sqlitebrowser
 aliases:
   sqlitebrowser: /usr/local/bin/sqlitebrowser
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  derb: /usr/local/bin/derb
   designer: /usr/local/bin/designer
-  envsubst: /usr/local/bin/envsubst
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease
+  lupdate: /usr/local/bin/lupdate
+  moc: /usr/local/bin/moc
+  pixeltool: /usr/local/bin/pixeltool
+  pngcp: /usr/local/bin/pngcp
+  qcollectiongenerator: /usr/local/bin/qcollectiongenerator

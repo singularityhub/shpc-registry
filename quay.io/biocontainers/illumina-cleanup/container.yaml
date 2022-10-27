@@ -16,11 +16,11 @@ aliases:
   onig-config: /usr/local/bin/onig-config
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
-  adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  ahost: /usr/local/bin/ahost
   alltoall.sh: /usr/local/bin/alltoall.sh
   analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh

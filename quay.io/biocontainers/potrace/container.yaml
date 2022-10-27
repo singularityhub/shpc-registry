@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/potrace
 aliases:
   mkbitmap: /usr/local/bin/mkbitmap
   potrace: /usr/local/bin/potrace
-  env-execute: /usr/local/env-execute

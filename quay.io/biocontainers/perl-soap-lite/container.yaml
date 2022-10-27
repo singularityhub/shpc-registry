@@ -9,11 +9,9 @@ docker: quay.io/biocontainers/perl-soap-lite
 aliases:
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   binhex.pl: /usr/local/bin/binhex.pl
-  c_rehash: /usr/local/bin/c_rehash
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   debinhex.pl: /usr/local/bin/debinhex.pl
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  stubmaker.pl: /usr/local/bin/stubmaker.pl

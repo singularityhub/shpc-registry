@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/mavis
 aliases:
   calculate_ref_alt_counts: /usr/local/bin/calculate_ref_alt_counts
   mavis: /usr/local/bin/mavis
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
   bcftools: /usr/local/bin/bcftools
@@ -17,5 +16,6 @@ aliases:
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   blat: /usr/local/bin/blat
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.6: /usr/local/bin/f2py3.6

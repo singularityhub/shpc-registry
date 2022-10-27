@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/cdbtools
 aliases:
   cdbfasta: /usr/local/bin/cdbfasta
   cdbyank: /usr/local/bin/cdbyank
-  env-execute: /usr/local/env-execute

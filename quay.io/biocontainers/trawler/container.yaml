@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/trawler
 aliases:
   trawler: /usr/local/bin/trawler
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  cairo-trace: /usr/local/bin/cairo-trace
-  cjpeg: /usr/local/bin/cjpeg
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
   dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500
+  gslj: /usr/local/bin/gslj
+  gslp: /usr/local/bin/gslp

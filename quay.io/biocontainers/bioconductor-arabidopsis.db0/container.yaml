@@ -7,13 +7,6 @@ tags:
   3.8.2--r36_1: sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed
 docker: quay.io/biocontainers/bioconductor-arabidopsis.db0
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

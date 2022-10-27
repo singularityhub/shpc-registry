@@ -7,13 +7,13 @@ tags:
   0.13.3--pyhdfd78af_0: sha256:70949d65a84629f2e4c9d5efe4eeaa1ca3df7b3fba80a3f28072839977d0689e
 docker: quay.io/biocontainers/cluster_vcf_records
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   abba-baba: /usr/local/bin/abba-baba
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bFst: /usr/local/bin/bFst
   bc: /usr/local/bin/bc
   bed2region: /usr/local/bin/bed2region
+  bgzip: /usr/local/bin/bgzip
+  bgziptabix: /usr/local/bin/bgziptabix
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

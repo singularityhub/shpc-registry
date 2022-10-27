@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/extractpirs
 aliases:
   extractPIRs: /usr/local/bin/extractPIRs
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

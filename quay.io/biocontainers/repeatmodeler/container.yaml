@@ -36,7 +36,6 @@ aliases:
   nmerge: /usr/local/bin/nmerge
   nseg: /usr/local/bin/nseg
   viewMSA.pl: /usr/local/bin/viewMSA.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
@@ -46,3 +45,4 @@ aliases:
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns

@@ -14,4 +14,3 @@ aliases:
   bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
   bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
   bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
-  env-execute: /usr/local/env-execute

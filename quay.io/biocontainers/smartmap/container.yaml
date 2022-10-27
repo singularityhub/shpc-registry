@@ -27,13 +27,13 @@ aliases:
   hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
   hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

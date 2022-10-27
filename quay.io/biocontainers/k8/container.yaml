@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/k8
 aliases:
   k8: /usr/local/bin/k8
-  env-execute: /usr/local/env-execute

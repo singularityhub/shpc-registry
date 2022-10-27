@@ -7,13 +7,4 @@ tags:
   0.04--pl5321hdfd78af_3: sha256:79d1e5d1b90a4786ffa8717786e1068fda5dbf2cb57f1029d67dd668bd2acfa8
 docker: quay.io/biocontainers/perl-xml-regexp
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

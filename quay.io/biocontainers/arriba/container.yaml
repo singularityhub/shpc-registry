@@ -14,13 +14,13 @@ aliases:
   quantify_virus_expression.sh: /usr/local/bin/quantify_virus_expression.sh
   run_arriba.sh: /usr/local/bin/run_arriba.sh
   run_arriba_on_prealigned_bam.sh: /usr/local/bin/run_arriba_on_prealigned_bam.sh
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl

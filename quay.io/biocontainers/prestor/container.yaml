@@ -259,13 +259,12 @@ aliases:
   xdvipdfmx: /usr/local/bin/xdvipdfmx
   xetex: /usr/local/bin/xetex
   yplan: /usr/local/bin/yplan
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c2ph: /usr/local/bin/c2ph
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

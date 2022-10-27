@@ -13,4 +13,3 @@ aliases:
   Projector: /usr/local/bin/Projector
   Smoother: /usr/local/bin/Smoother
   StereoGene: /usr/local/bin/StereoGene
-  env-execute: /usr/local/env-execute

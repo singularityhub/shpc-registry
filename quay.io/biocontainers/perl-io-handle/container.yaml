@@ -7,13 +7,4 @@ tags:
   1.42--pl5321hdfd78af_2: sha256:87f33b91e1572d3f163c418ba60a5d3b1cb3635a73fcfa67d51aff91e991e9d3
 docker: quay.io/biocontainers/perl-io-handle
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -7,13 +7,13 @@ tags:
   5.2.0--py39pl5321h2add14b_2: sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6
 docker: quay.io/biocontainers/quast
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq

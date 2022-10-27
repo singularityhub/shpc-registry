@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/digestiflow-cli
 aliases:
   digestiflow-cli: /usr/local/bin/digestiflow-cli
-  c_rehash: /usr/local/bin/c_rehash
-  openssl: /usr/local/bin/openssl
-  env-execute: /usr/local/env-execute

@@ -40,13 +40,13 @@ aliases:
   sparkR: /usr/local/bin/sparkR
   sparkR.cmd: /usr/local/bin/sparkR.cmd
   sparkR2.cmd: /usr/local/bin/sparkR2.cmd
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  csv-import: /usr/local/bin/csv-import
+  cups-config: /usr/local/bin/cups-config
+  f2py3.10: /usr/local/bin/f2py3.10
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix

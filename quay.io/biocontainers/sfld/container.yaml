@@ -10,4 +10,3 @@ aliases:
   sfld_postprocess: /usr/local/bin/sfld_postprocess
   sfld_preprocess: /usr/local/bin/sfld_preprocess
   sfld_preprocess.py: /usr/local/bin/sfld_preprocess.py
-  env-execute: /usr/local/env-execute

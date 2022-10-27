@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/kaptive
 aliases:
   kaptive.py: /usr/local/bin/kaptive.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
@@ -18,3 +17,4 @@ aliases:
   blastn: /usr/local/bin/blastn
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
+  convert2blastmask: /usr/local/bin/convert2blastmask

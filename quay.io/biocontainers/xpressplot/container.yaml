@@ -7,13 +7,4 @@ tags:
   0.2.5--pyh4c3bd37_1: sha256:51b3684c13d6205e7d6981377039f7a19f324e9efe9f90ef6fb6f8a5c7d1b378
 docker: quay.io/biocontainers/xpressplot
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8

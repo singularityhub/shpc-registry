@@ -17,13 +17,3 @@ aliases:
   gmer_counter: /usr/local/bin/gmer_counter
   oe.R: /usr/local/bin/oe.R
   seeker.pl: /usr/local/bin/seeker.pl
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

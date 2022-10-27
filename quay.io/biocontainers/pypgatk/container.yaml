@@ -15,13 +15,13 @@ aliases:
   pypgatk_cli.py: /usr/local/bin/pypgatk_cli.py
   pyreverse: /usr/local/bin/pyreverse
   symilar: /usr/local/bin/symilar
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh

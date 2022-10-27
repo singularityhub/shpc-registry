@@ -18,13 +18,3 @@ aliases:
   trust-simplerep.pl: /usr/local/bin/trust-simplerep.pl
   trust-smartseq.pl: /usr/local/bin/trust-smartseq.pl
   trust4: /usr/local/bin/trust4
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl

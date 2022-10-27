@@ -11,11 +11,4 @@ aliases:
   zorro_dist.pl: /usr/local/bin/zorro_dist.pl
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   fasttree: /usr/local/bin/fasttree
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh

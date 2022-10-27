@@ -11,13 +11,7 @@ aliases:
   data_import_post_install_tests.sh: /usr/local/bin/data_import_post_install_tests.sh
   get_experiment_data.R: /usr/local/bin/get_experiment_data.R
   import_classification_data.R: /usr/local/bin/import_classification_data.R
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

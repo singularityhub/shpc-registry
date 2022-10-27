@@ -24,4 +24,3 @@ aliases:
   rwr: /usr/local/bin/rwr
   tsv_to_csv: /usr/local/bin/tsv_to_csv
   annotate: /usr/local/bin/annotate
-  env-execute: /usr/local/env-execute

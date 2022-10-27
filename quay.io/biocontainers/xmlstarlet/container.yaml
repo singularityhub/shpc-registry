@@ -8,13 +8,5 @@ tags:
 docker: quay.io/biocontainers/xmlstarlet
 aliases:
   xml: /usr/local/bin/xml
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
-  iconv: /usr/local/bin/iconv
-  icu-config: /usr/local/bin/icu-config
-  icuinfo: /usr/local/bin/icuinfo
-  lzcat: /usr/local/bin/lzcat
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

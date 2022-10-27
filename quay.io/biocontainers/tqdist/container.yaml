@@ -13,4 +13,3 @@ aliases:
   pairs_triplet_dist: /usr/local/bin/pairs_triplet_dist
   quartet_dist: /usr/local/bin/quartet_dist
   triplet_dist: /usr/local/bin/triplet_dist
-  env-execute: /usr/local/env-execute

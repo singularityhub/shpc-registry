@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/renet2
 aliases:
   renet2: /usr/local/bin/renet2
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   bundle: /usr/local/bin/bundle
   bundler: /usr/local/bin/bundler
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  easy_install: /usr/local/bin/easy_install
+  erb: /usr/local/bin/erb
+  f2py3.7: /usr/local/bin/f2py3.7
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool

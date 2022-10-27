@@ -22,13 +22,13 @@ aliases:
   wxget: /usr/local/bin/wxget
   wxrc: /usr/local/bin/wxrc
   wxrc-3.0: /usr/local/bin/wxrc-3.0
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
+  f2py3.8: /usr/local/bin/f2py3.8
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata

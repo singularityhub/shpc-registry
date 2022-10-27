@@ -10,4 +10,3 @@ aliases:
   fqtrim: /usr/local/bin/fqtrim
   gtest: /usr/local/bin/gtest
   threads: /usr/local/bin/threads
-  env-execute: /usr/local/env-execute

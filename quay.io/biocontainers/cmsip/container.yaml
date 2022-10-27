@@ -26,13 +26,13 @@ aliases:
   template_for_cfg: /usr/local/bin/template_for_cfg
   template_for_qsub: /usr/local/bin/template_for_qsub
   trim_galore: /usr/local/bin/trim_galore
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

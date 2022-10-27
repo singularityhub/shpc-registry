@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/sirius-csifingerid
 aliases:
   sirius: /usr/local/bin/sirius
   sirius-gui: /usr/local/bin/sirius-gui
-  env-execute: /usr/local/env-execute

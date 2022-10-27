@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/hla-la
 aliases:
   HLA-ASM.pl: /usr/local/bin/HLA-ASM.pl
   HLA-LA.pl: /usr/local/bin/HLA-LA.pl
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
   bamtools: /usr/local/bin/bamtools
   bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit

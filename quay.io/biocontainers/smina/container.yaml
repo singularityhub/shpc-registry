@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/smina
 aliases:
   smina: /usr/local/bin/smina
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

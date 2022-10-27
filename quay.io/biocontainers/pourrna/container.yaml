@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/pourrna
 aliases:
   RNAmultifold: /usr/local/bin/RNAmultifold
   pourRNA: /usr/local/bin/pourRNA
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -19,3 +18,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

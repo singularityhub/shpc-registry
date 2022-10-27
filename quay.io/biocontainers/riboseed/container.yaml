@@ -17,13 +17,13 @@ aliases:
   scaffold_correction: /usr/local/bin/scaffold_correction
   seedRand.py: /usr/local/bin/seedRand.py
   spades: /usr/local/bin/spades
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   ace2sam: /usr/local/bin/ace2sam
   alimask: /usr/local/bin/alimask
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  barrnap: /usr/local/bin/barrnap
+  bcftools: /usr/local/bin/bcftools

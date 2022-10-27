@@ -81,13 +81,13 @@ aliases:
   train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
   utrrnaseq: /usr/local/bin/utrrnaseq
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
   abundance-dist.py: /usr/local/bin/abundance-dist.py
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls

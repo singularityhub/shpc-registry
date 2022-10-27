@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pan-plaster
 aliases:
   plaster: /usr/local/bin/plaster
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   annotate: /usr/local/bin/annotate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   delta-filter: /usr/local/bin/delta-filter
+  delta2vcf: /usr/local/bin/delta2vcf
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  mummer: /usr/local/bin/mummer

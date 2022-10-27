@@ -12,13 +12,12 @@ aliases:
   calculate_haplotype_statistics.py: /usr/local/bin/calculate_haplotype_statistics.py
   extractHAIRS: /usr/local/bin/extractHAIRS
   hapcut2: /usr/local/bin/hapcut2
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  htsfile: /usr/local/bin/htsfile
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  tabix: /usr/local/bin/tabix

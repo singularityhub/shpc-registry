@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/transrate-tools
 aliases:
   bam-read: /usr/local/bin/bam-read
-  env-execute: /usr/local/env-execute

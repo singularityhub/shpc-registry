@@ -11,9 +11,9 @@ aliases:
   ace.pl: /usr/local/bin/ace.pl
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
   bcomps: /usr/local/bin/bcomps
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
   binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl

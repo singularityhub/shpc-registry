@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/muscle
 aliases:
   muscle: /usr/local/bin/muscle
-  env-execute: /usr/local/env-execute

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/tidehunter
 aliases:
   TideHunter: /usr/local/bin/TideHunter
-  env-execute: /usr/local/env-execute

@@ -19,7 +19,4 @@ aliases:
   simreads: /usr/local/bin/simreads
   simreadsbs: /usr/local/bin/simreadsbs
   simreadspe: /usr/local/bin/simreadspe
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   extractseq: /usr/local/bin/extractseq

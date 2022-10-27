@@ -12,13 +12,13 @@ aliases:
   meryl-import: /usr/local/bin/meryl-import
   meryl-lookup: /usr/local/bin/meryl-lookup
   sequence: /usr/local/bin/sequence
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
   annotateBed: /usr/local/bin/annotateBed
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

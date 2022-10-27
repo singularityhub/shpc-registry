@@ -9,9 +9,7 @@ docker: quay.io/biocontainers/pauda
 aliases:
   pauda-build: /usr/local/bin/pauda-build
   pauda-run: /usr/local/bin/pauda-run
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
   bowtie2: /usr/local/bin/bowtie2
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
@@ -19,3 +17,5 @@ aliases:
   bowtie2-build: /usr/local/bin/bowtie2-build
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
   bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l

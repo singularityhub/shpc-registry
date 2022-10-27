@@ -76,7 +76,6 @@ aliases:
   uniprot_support.py: /usr/local/bin/uniprot_support.py
   unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh
   upimapi.py: /usr/local/bin/upimapi.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
   FastTree: /usr/local/bin/FastTree
@@ -86,3 +85,4 @@ aliases:
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
+  Makefile: /usr/local/bin/Makefile

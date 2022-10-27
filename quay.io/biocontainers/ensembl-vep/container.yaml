@@ -13,13 +13,13 @@ aliases:
   vep: /usr/local/bin/vep
   vep_convert_cache: /usr/local/bin/vep_convert_cache
   vep_install: /usr/local/bin/vep_install
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
   baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps

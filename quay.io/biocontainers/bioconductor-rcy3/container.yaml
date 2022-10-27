@@ -7,13 +7,13 @@ tags:
   2.8.0--r40_0: sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812
 docker: quay.io/biocontainers/bioconductor-rcy3
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   Cytoscape: /usr/local/bin/Cytoscape
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   appletviewer: /usr/local/bin/appletviewer
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  extcheck: /usr/local/bin/extcheck
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8

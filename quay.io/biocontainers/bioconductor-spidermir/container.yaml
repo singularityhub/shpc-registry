@@ -7,13 +7,6 @@ tags:
   1.8.2--r3.4.1_0: sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be
 docker: quay.io/biocontainers/bioconductor-spidermir
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

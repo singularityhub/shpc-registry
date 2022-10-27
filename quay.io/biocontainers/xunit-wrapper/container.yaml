@@ -7,13 +7,5 @@ tags:
   0.12--pyh864c0ab_2: sha256:fcd8dbe32f7679459197c1661ca420f17cd5312414a5c18efa673c61a4ce55dd
 docker: quay.io/biocontainers/xunit-wrapper
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   futurize: /usr/local/bin/futurize
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
+  pasteurize: /usr/local/bin/pasteurize

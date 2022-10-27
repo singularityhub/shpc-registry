@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/tatajuba
 aliases:
   tatajuba: /usr/local/bin/tatajuba
-  env-execute: /usr/local/env-execute

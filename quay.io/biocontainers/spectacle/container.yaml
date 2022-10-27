@@ -10,13 +10,13 @@ aliases:
   Spectacle.sh: /usr/local/bin/Spectacle.sh
   Spectacle_python.py: /usr/local/bin/Spectacle_python.py
   download_spectacle_data.sh: /usr/local/bin/download_spectacle_data.sh
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
+  f2py3.9: /usr/local/bin/f2py3.9
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.9: /usr/local/bin/idle3.9

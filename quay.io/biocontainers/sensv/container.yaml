@@ -12,7 +12,6 @@ aliases:
   grabix: /usr/local/bin/grabix
   pypy3: /usr/local/bin/pypy3
   sensv: /usr/local/bin/sensv
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   Makefile: /usr/local/bin/Makefile
   abba-baba: /usr/local/bin/abba-baba
@@ -22,3 +21,4 @@ aliases:
   bgzip: /usr/local/bin/bgzip
   bgziptabix: /usr/local/bin/bgziptabix
   blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

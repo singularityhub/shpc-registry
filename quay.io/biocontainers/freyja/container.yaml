@@ -25,13 +25,13 @@ aliases:
   ssh-keyscan: /usr/local/bin/ssh-keyscan
   sshd: /usr/local/bin/sshd
   usher: /usr/local/bin/usher
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  einsi: /usr/local/bin/einsi

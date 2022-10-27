@@ -18,4 +18,3 @@ aliases:
   minimap2: /usr/local/bin/minimap2
   paftools.js: /usr/local/bin/paftools.js
   sdust: /usr/local/bin/sdust
-  env-execute: /usr/local/env-execute

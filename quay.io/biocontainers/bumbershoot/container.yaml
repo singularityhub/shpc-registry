@@ -18,4 +18,3 @@ aliases:
   quameter: /usr/local/bin/quameter
   tagrecon: /usr/local/bin/tagrecon
   unimod.xml: /usr/local/bin/unimod.xml
-  env-execute: /usr/local/env-execute

@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/git-lfs
 aliases:
   git-lfs: /usr/local/bin/git-lfs
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

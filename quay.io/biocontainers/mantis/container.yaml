@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mantis
 aliases:
   mantis: /usr/local/bin/mantis
-  env-execute: /usr/local/env-execute

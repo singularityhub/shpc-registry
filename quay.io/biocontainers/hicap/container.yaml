@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/hicap
 aliases:
   hicap: /usr/local/bin/hicap
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
@@ -18,3 +17,4 @@ aliases:
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd

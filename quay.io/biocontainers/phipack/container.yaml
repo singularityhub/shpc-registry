@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/phipack
 aliases:
   Phi: /usr/local/bin/Phi
   Profile: /usr/local/bin/Profile
-  env-execute: /usr/local/env-execute

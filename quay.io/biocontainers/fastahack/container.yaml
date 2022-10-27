@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fastahack
 aliases:
   fastahack: /usr/local/bin/fastahack
-  env-execute: /usr/local/env-execute

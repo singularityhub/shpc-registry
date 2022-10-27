@@ -13,13 +13,13 @@ aliases:
   gadma-get_confidence_intervals_for_ld: /usr/local/bin/gadma-get_confidence_intervals_for_ld
   gadma-precompute_ld_data: /usr/local/bin/gadma-precompute_ld_data
   gadma-run_ls_on_boot_data: /usr/local/bin/gadma-run_ls_on_boot_data
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bokeh: /usr/local/bin/bokeh
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  f2py3.8: /usr/local/bin/f2py3.8
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif

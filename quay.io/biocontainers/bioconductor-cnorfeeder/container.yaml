@@ -7,13 +7,13 @@ tags:
   1.34.0--r41hdfd78af_0: sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d
 docker: quay.io/biocontainers/bioconductor-cnorfeeder
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

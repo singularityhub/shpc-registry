@@ -17,7 +17,6 @@ aliases:
   prt_terms.py: /usr/local/bin/prt_terms.py
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
@@ -27,3 +26,4 @@ aliases:
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
   Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count

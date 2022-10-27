@@ -16,13 +16,13 @@ aliases:
   ipcluster: /usr/local/bin/ipcluster
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
-  2to3: /usr/local/bin/2to3
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  ahost: /usr/local/bin/ahost
   align_print_template.py: /usr/local/bin/align_print_template.py
   annotateBed: /usr/local/bin/annotateBed
-  autopoint: /usr/local/bin/autopoint
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

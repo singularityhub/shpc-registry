@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/btrim
 aliases:
   btrim: /usr/local/bin/btrim
-  env-execute: /usr/local/env-execute

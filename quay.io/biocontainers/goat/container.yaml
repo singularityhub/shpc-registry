@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/goat
 aliases:
   goat-cli: /usr/local/bin/goat-cli
-  c_rehash: /usr/local/bin/c_rehash
-  openssl: /usr/local/bin/openssl
-  env-execute: /usr/local/env-execute

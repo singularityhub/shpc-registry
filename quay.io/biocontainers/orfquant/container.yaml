@@ -7,13 +7,4 @@ tags:
   1.1.0--r41h9ee0642_3: sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f
 docker: quay.io/biocontainers/orfquant
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc

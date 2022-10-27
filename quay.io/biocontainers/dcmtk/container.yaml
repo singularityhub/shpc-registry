@@ -80,13 +80,13 @@ aliases:
   wltest: /usr/local/bin/wltest
   xml2dcm: /usr/local/bin/xml2dcm
   xml2dsr: /usr/local/bin/xml2dsr
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cjpeg: /usr/local/bin/cjpeg
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  envsubst: /usr/local/bin/envsubst
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
   flac: /usr/local/bin/flac
-  genbrk: /usr/local/bin/genbrk
+  metaflac: /usr/local/bin/metaflac
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info

@@ -7,13 +7,13 @@ tags:
   0.9.31--py35_1: sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02
 docker: quay.io/biocontainers/easydev
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  activate: /usr/local/bin/activate
   browse: /usr/local/bin/browse
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-3.5: /usr/local/bin/easy_install-3.5
   easydev_buildPackage: /usr/local/bin/easydev_buildPackage
+  ibrowse: /usr/local/bin/ibrowse
+  idle3.5: /usr/local/bin/idle3.5
+  multigit: /usr/local/bin/multigit
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config

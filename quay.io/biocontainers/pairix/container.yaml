@@ -7,13 +7,13 @@ tags:
   0.3.7--py36haf49e46_4: sha256:beeb156ca2c238c3c6b602f20e75bda97b1866df449fcf0f9a552088b6240fa1
 docker: quay.io/biocontainers/pairix
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bam2pairs: /usr/local/bin/bam2pairs
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  htsfile: /usr/local/bin/htsfile
+  idle3.6: /usr/local/bin/idle3.6
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh

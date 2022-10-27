@@ -7,13 +7,4 @@ tags:
   0.20--pl5321hdfd78af_1: sha256:3fdfe9108eec02cac6d0eadae85cca019f30b5519dd930e033b632ec956aeb04
 docker: quay.io/biocontainers/perl-test-without-module
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -11,12 +11,12 @@ aliases:
   run_pipeline.pl: /usr/local/bin/run_pipeline.pl
   start_tassel.pl: /usr/local/bin/start_tassel.pl
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  cairo-trace: /usr/local/bin/cairo-trace
-  cjpeg: /usr/local/bin/cjpeg
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole

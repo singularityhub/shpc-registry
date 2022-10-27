@@ -47,7 +47,6 @@ aliases:
   znew: /usr/local/bin/znew
   zsh: /usr/local/bin/zsh
   zsh-5.8: /usr/local/bin/zsh-5.8
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -57,3 +56,4 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs

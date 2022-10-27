@@ -10,4 +10,3 @@ aliases:
   msms: /usr/local/bin/msms
   pdb_to_xyzr: /usr/local/bin/pdb_to_xyzr
   pdb_to_xyzrn: /usr/local/bin/pdb_to_xyzrn
-  env-execute: /usr/local/env-execute

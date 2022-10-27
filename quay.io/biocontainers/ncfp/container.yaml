@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/ncfp
 aliases:
   ncfp: /usr/local/bin/ncfp
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   browse: /usr/local/bin/browse
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   easydev_buildPackage: /usr/local/bin/easydev_buildPackage
-  f2py: /usr/local/bin/f2py
+  f2py3.8: /usr/local/bin/f2py3.8
+  ibrowse: /usr/local/bin/ibrowse
+  multigit: /usr/local/bin/multigit
+  pybabel: /usr/local/bin/pybabel
+  pygmentize: /usr/local/bin/pygmentize
+  rst2html.py: /usr/local/bin/rst2html.py
+  rst2html4.py: /usr/local/bin/rst2html4.py

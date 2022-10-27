@@ -56,13 +56,13 @@ aliases:
   tgStoreLoad: /usr/local/bin/tgStoreLoad
   tgTigDisplay: /usr/local/bin/tgTigDisplay
   trimReads: /usr/local/bin/trimReads
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   annotate: /usr/local/bin/annotate
   aserver: /usr/local/bin/aserver
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bdftogd: /usr/local/bin/bdftogd
   bogart: /usr/local/bin/bogart
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  cwebp: /usr/local/bin/cwebp

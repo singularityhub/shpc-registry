@@ -7,13 +7,13 @@ tags:
   1.1.6--pyh5e36f6f_0: sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433
 docker: quay.io/biocontainers/seqlike
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  f2py3.10: /usr/local/bin/f2py3.10
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500
+  gslj: /usr/local/bin/gslj
+  gslp: /usr/local/bin/gslp

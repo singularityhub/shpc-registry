@@ -46,13 +46,13 @@ aliases:
   retree: /usr/local/bin/retree
   seqboot: /usr/local/bin/seqboot
   treedist: /usr/local/bin/treedist
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  extcheck: /usr/local/bin/extcheck
+  factor: /usr/local/bin/factor
+  idle3.7: /usr/local/bin/idle3.7
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi

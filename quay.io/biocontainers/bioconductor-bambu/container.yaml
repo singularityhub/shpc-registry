@@ -7,13 +7,4 @@ tags:
   2.0.6--r41hc247a5b_1: sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5
 docker: quay.io/biocontainers/bioconductor-bambu
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  xgboost: /usr/local/bin/xgboost

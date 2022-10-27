@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/multigps
 aliases:
   multigps: /usr/local/bin/multigps
   xsltproc_lite: /usr/local/bin/xsltproc_lite
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  aserver: /usr/local/bin/aserver
+  beeml2meme: /usr/local/bin/beeml2meme
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme

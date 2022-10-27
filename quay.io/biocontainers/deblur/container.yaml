@@ -10,13 +10,13 @@ aliases:
   deblur: /usr/local/bin/deblur
   indexdb_rna: /usr/local/bin/indexdb_rna
   sortmerna: /usr/local/bin/sortmerna
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   biom: /usr/local/bin/biom
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  cwebp: /usr/local/bin/cwebp
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  doesitcache: /usr/local/bin/doesitcache
+  dwebp: /usr/local/bin/dwebp
+  einsi: /usr/local/bin/einsi

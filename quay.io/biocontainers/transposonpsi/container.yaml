@@ -16,13 +16,13 @@ aliases:
   m2fmt_tier_hits.pl: /usr/local/bin/m2fmt_tier_hits.pl
   transposonPSI.pl: /usr/local/bin/transposonPSI.pl
   transposon_db_m2fmt_to_gff3.pl: /usr/local/bin/transposon_db_m2fmt_to_gff3.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps

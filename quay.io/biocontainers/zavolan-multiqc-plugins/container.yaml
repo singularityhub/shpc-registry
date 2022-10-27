@@ -7,13 +7,13 @@ tags:
   1.3--pyh5e36f6f_0: sha256:3383fc24f8ac5e3f310379c7f14b50bc63cac29954ae06672104f240c293d3d5
 docker: quay.io/biocontainers/zavolan-multiqc-plugins
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
   cmark: /usr/local/bin/cmark
   coloredlogs: /usr/local/bin/coloredlogs
-  djpeg: /usr/local/bin/djpeg
+  f2py3.9: /usr/local/bin/f2py3.9
+  futurize: /usr/local/bin/futurize
+  humanfriendly: /usr/local/bin/humanfriendly
+  markdown_py: /usr/local/bin/markdown_py
+  multiqc: /usr/local/bin/multiqc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

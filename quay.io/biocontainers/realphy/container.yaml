@@ -13,11 +13,11 @@ aliases:
   realphy: /usr/local/bin/realphy
   LICENSE: /usr/local/bin/LICENSE
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  cairo-trace: /usr/local/bin/cairo-trace
-  cjpeg: /usr/local/bin/cjpeg
   conda_build.sh: /usr/local/bin/conda_build.sh
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  envsubst: /usr/local/bin/envsubst
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

@@ -7,13 +7,6 @@ tags:
   1.18--pl5321hdfd78af_2: sha256:32bfec5175c4739648cee9eff9362ff169c22f32814448c2c4901ccb8d5bb6ec
 docker: quay.io/biocontainers/perl-html-element-extended
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
   htmltree: /usr/local/bin/htmltree
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

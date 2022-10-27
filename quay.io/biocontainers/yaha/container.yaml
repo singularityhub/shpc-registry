@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/yaha
 aliases:
   yaha: /usr/local/bin/yaha
-  env-execute: /usr/local/env-execute

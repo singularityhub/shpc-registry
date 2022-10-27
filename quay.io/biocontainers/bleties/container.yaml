@@ -25,13 +25,13 @@ aliases:
   ncrf_to_bed: /usr/local/bin/ncrf_to_bed
   ncrf_to_bed.py: /usr/local/bin/ncrf_to_bed.py
   spoa: /usr/local/bin/spoa
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.7: /usr/local/bin/f2py3.7
+  htsfile: /usr/local/bin/htsfile
+  idle3.7: /usr/local/bin/idle3.7
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl

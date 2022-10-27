@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/bioconductor-rawrr
 aliases:
   aprofutil: /usr/local/bin/aprofutil
   mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate

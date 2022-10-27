@@ -185,12 +185,12 @@ aliases:
   trim_mega_reads.pl: /usr/local/bin/trim_mega_reads.pl
   ufasta: /usr/local/bin/ufasta
   annotate: /usr/local/bin/annotate
-  bunzip2: /usr/local/bin/bunzip2
   bwa: /usr/local/bin/bwa
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  delta2vcf: /usr/local/bin/delta2vcf
+  dnadiff: /usr/local/bin/dnadiff
+  egrep: /usr/local/bin/egrep
+  exact-tandems: /usr/local/bin/exact-tandems
+  fgrep: /usr/local/bin/fgrep
+  freebayes: /usr/local/bin/freebayes

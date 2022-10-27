@@ -7,13 +7,4 @@ tags:
   5.07--pl5321hdfd78af_2: sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a
 docker: quay.io/biocontainers/perl-html-tree
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
   htmltree: /usr/local/bin/htmltree
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg

@@ -10,4 +10,3 @@ aliases:
   MetaCluster4Fast: /usr/local/bin/MetaCluster4Fast
   MetaCluster5_1: /usr/local/bin/MetaCluster5_1
   MetaCluster5_2: /usr/local/bin/MetaCluster5_2
-  env-execute: /usr/local/env-execute

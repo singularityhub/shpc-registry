@@ -8,13 +8,5 @@ tags:
 docker: quay.io/biocontainers/nanoqc
 aliases:
   nanoQC: /usr/local/bin/nanoQC
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
   bokeh: /usr/local/bin/bokeh
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
+  f2py3.8: /usr/local/bin/f2py3.8

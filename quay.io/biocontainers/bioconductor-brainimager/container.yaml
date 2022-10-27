@@ -7,13 +7,6 @@ tags:
   1.1.0--r36_1: sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30
 docker: quay.io/biocontainers/bioconductor-brainimager
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

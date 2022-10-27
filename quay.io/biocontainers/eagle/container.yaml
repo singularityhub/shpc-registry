@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/eagle
 aliases:
   eagle: /usr/local/bin/eagle
   sqt: /usr/local/bin/sqt
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/lca
 aliases:
   LCA: /usr/local/bin/LCA
-  env-execute: /usr/local/env-execute

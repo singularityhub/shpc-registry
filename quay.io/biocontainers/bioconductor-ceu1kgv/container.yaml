@@ -7,13 +7,4 @@ tags:
   0.32.0--r40hdfd78af_1: sha256:b75fb1371e0ba0bb2f16debac4a7ed6fd32ca007fc109aeb7822af13c4d00e3a
 docker: quay.io/biocontainers/bioconductor-ceu1kgv
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

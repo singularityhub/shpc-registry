@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/proda
 aliases:
   proda: /usr/local/bin/proda
-  env-execute: /usr/local/env-execute

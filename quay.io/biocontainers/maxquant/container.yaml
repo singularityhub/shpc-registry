@@ -28,13 +28,13 @@ aliases:
   maxquant: /usr/local/bin/maxquant
   protobuf-net.xml: /usr/local/bin/protobuf-net.xml
   xgboost.lib: /usr/local/bin/xgboost.lib
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust

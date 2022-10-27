@@ -25,13 +25,13 @@ aliases:
   oases_pipeline.py: /usr/local/bin/oases_pipeline.py
   pslPretty: /usr/local/bin/pslPretty
   pslReps: /usr/local/bin/pslReps
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  acountry: /usr/local/bin/acountry
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
-  adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  aserver: /usr/local/bin/aserver

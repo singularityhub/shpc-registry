@@ -7,13 +7,4 @@ tags:
   1.8.0--r36h516909a_0: sha256:329e18138e2cc4eb4d826fb8dbbb896b6e9308229c996c617d8e8eca6eb689ce
 docker: quay.io/biocontainers/bioconductor-genie3
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

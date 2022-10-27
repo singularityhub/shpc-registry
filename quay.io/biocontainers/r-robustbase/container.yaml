@@ -7,13 +7,6 @@ tags:
   0.92_6--r3.3.1_1: sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d
 docker: quay.io/biocontainers/r-robustbase
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

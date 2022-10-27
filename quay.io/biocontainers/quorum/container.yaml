@@ -12,13 +12,5 @@ aliases:
   quorum_create_database: /usr/local/bin/quorum_create_database
   quorum_error_correct_reads: /usr/local/bin/quorum_error_correct_reads
   split_mate_pairs: /usr/local/bin/split_mate_pairs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
   jellyfish: /usr/local/bin/jellyfish
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  perl5.32.0: /usr/local/bin/perl5.32.0

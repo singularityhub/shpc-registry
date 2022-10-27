@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/collect_mgf
 aliases:
   collect_mgf: /usr/local/bin/collect_mgf
-  env-execute: /usr/local/env-execute

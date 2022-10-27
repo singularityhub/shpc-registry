@@ -11,13 +11,6 @@ aliases:
   falcon-phase: /usr/local/bin/falcon-phase
   fc_primary_contig_index.pl: /usr/local/bin/fc_primary_contig_index.pl
   fc_scrub_names.pl: /usr/local/bin/fc_scrub_names.pl
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

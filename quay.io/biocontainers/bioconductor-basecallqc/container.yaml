@@ -7,13 +7,5 @@ tags:
   1.8.0--r36_1: sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14
 docker: quay.io/biocontainers/bioconductor-basecallqc
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

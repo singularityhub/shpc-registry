@@ -18,13 +18,13 @@ aliases:
   quast-lg.py: /usr/local/bin/quast-lg.py
   quast.py: /usr/local/bin/quast.py
   skesa: /usr/local/bin/skesa
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd

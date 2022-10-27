@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/prophasm
 aliases:
   prophasm: /usr/local/bin/prophasm
-  env-execute: /usr/local/env-execute

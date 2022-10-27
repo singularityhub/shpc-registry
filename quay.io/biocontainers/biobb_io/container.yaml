@@ -21,13 +21,11 @@ aliases:
   pdb_cluster_zip: /usr/local/bin/pdb_cluster_zip
   pdb_variants: /usr/local/bin/pdb_variants
   structure_info: /usr/local/bin/structure_info
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

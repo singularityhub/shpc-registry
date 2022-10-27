@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/imseq
 aliases:
   imseq: /usr/local/bin/imseq
-  env-execute: /usr/local/env-execute

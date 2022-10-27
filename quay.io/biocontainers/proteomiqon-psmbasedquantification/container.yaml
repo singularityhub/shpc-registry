@@ -8,13 +8,4 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-psmbasedquantification
 aliases:
   proteomiqon-psmbasedquantification: /usr/local/bin/proteomiqon-psmbasedquantification
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

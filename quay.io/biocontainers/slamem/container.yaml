@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/slamem
 aliases:
   slaMEM: /usr/local/bin/slaMEM
-  env-execute: /usr/local/env-execute

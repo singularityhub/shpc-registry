@@ -21,13 +21,13 @@ aliases:
   less2scss: /usr/local/bin/less2scss
   pyscss: /usr/local/bin/pyscss
   xsltproc_lite: /usr/local/bin/xsltproc_lite
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  alimask: /usr/local/bin/alimask
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama

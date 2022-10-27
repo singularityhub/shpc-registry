@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/snap-aligner
 aliases:
   snap-aligner: /usr/local/bin/snap-aligner
-  env-execute: /usr/local/env-execute

@@ -16,13 +16,13 @@ aliases:
   time: /usr/local/bin/time
   vg: /usr/local/bin/vg
   wfmash: /usr/local/bin/wfmash
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bc: /usr/local/bin/bc
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
+  cmark: /usr/local/bin/cmark
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  coloredlogs: /usr/local/bin/coloredlogs
+  cwebp: /usr/local/bin/cwebp
+  dc: /usr/local/bin/dc

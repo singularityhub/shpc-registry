@@ -11,7 +11,6 @@ aliases:
   gawk-5.0.1: /usr/local/bin/gawk-5.0.1
   itero: /usr/local/bin/itero
   spades-dipspades-core: /usr/local/bin/spades-dipspades-core
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
@@ -21,3 +20,4 @@ aliases:
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

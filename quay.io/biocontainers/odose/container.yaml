@@ -52,13 +52,13 @@ aliases:
   versions.py: /usr/local/bin/versions.py
   wrapper: /usr/local/bin/wrapper
   wrapper.py: /usr/local/bin/wrapper.py
-  2to3: /usr/local/bin/2to3
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

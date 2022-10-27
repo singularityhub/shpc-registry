@@ -13,4 +13,3 @@ aliases:
   meryl-simple: /usr/local/bin/meryl-simple
   winnowmap: /usr/local/bin/winnowmap
   meryl: /usr/local/bin/meryl
-  env-execute: /usr/local/env-execute

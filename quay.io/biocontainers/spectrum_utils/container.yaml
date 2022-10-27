@@ -7,13 +7,13 @@ tags:
   0.4.1--pyhdfd78af_0: sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700
 docker: quay.io/biocontainers/spectrum_utils
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  idle3.10: /usr/local/bin/idle3.10
+  jpgicc: /usr/local/bin/jpgicc
+  jsonschema: /usr/local/bin/jsonschema
+  linkicc: /usr/local/bin/linkicc
+  numba: /usr/local/bin/numba
+  opj_compress: /usr/local/bin/opj_compress

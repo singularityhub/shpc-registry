@@ -7,13 +7,6 @@ tags:
   3.9.0--r36_1: sha256:6ea840942c00d7a2a77ced39b4c67b492828b004a0f1ab6890985bd8c1fc3756
 docker: quay.io/biocontainers/bioconductor-mafdb.topmed.freeze5.hg38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

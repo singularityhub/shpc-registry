@@ -10,7 +10,6 @@ aliases:
   Bifrost: /usr/local/bin/Bifrost
   abyss-db-csv: /usr/local/bin/abyss-db-csv
   komb: /usr/local/bin/komb
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -20,3 +19,4 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs

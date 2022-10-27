@@ -7,13 +7,11 @@ tags:
   0.3.0--pyh7cba7a3_0: sha256:1ac0d4aa9ce5cedc61ec0046cbdc57cfe465a7511082831d1f065dfb53896293
 docker: quay.io/biocontainers/tendo
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.10: /usr/local/bin/idle3.10
+  pbr: /usr/local/bin/pbr
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld

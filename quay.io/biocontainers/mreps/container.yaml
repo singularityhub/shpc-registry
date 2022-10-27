@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mreps
 aliases:
   mreps: /usr/local/bin/mreps
-  env-execute: /usr/local/env-execute

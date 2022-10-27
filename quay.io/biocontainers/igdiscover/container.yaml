@@ -14,13 +14,13 @@ aliases:
   pear: /usr/local/bin/pear
   pearRM: /usr/local/bin/pearRM
   sqt: /usr/local/bin/sqt
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
   aclocal.bak: /usr/local/bin/aclocal.bak
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
   autoheader.bak: /usr/local/bin/autoheader.bak
   autom4te.bak: /usr/local/bin/autom4te.bak
   automake.bak: /usr/local/bin/automake.bak
-  autopoint: /usr/local/bin/autopoint
+  autoreconf.bak: /usr/local/bin/autoreconf.bak
+  autoscan.bak: /usr/local/bin/autoscan.bak
+  autoupdate.bak: /usr/local/bin/autoupdate.bak

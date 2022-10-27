@@ -20,7 +20,6 @@ aliases:
   IntaRNAhelix: /usr/local/bin/IntaRNAhelix
   IntaRNAsTar: /usr/local/bin/IntaRNAsTar
   IntaRNAseed: /usr/local/bin/IntaRNAseed
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -30,3 +29,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

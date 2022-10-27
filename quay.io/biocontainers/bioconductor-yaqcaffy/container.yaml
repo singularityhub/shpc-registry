@@ -7,13 +7,4 @@ tags:
   1.50.0--r40hdfd78af_1: sha256:4b8b8f07e1ada7c45d0bf33a0559c464bb5ea5c219ea74aaa8c2a735e07a22d6
 docker: quay.io/biocontainers/bioconductor-yaqcaffy
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

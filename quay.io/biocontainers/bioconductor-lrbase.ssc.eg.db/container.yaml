@@ -7,13 +7,4 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:b63fa922eaa41cd783bee1194f51574011c7be11bc77e86c371f7e060b4b4be3
 docker: quay.io/biocontainers/bioconductor-lrbase.ssc.eg.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,13 +7,4 @@ tags:
   1.8.1--r351_0: sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057
 docker: quay.io/biocontainers/bioconductor-ppinfer
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

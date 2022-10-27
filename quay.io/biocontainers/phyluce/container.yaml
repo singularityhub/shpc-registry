@@ -159,7 +159,6 @@ aliases:
   slclust: /usr/local/bin/slclust
   spades-dipspades-core: /usr/local/bin/spades-dipspades-core
   strict_consensus_merge.py: /usr/local/bin/strict_consensus_merge.py
-  2to3: /usr/local/bin/2to3
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
   AdjList: /usr/local/bin/AdjList
@@ -169,3 +168,4 @@ aliases:
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   KAligner: /usr/local/bin/KAligner
   MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths

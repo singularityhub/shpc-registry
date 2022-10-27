@@ -68,13 +68,13 @@ aliases:
   virmet: /usr/local/bin/virmet
   writedb_unit_test: /usr/local/bin/writedb_unit_test
   xtract.pl: /usr/local/bin/xtract.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   between-two-genes: /usr/local/bin/between-two-genes
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd

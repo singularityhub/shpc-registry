@@ -7,13 +7,13 @@ tags:
   1.54--py37h37892f8_6: sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4
 docker: quay.io/biocontainers/pycluster
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.7: /usr/local/bin/f2py3.7
-  idle3: /usr/local/bin/idle3
   idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv: /usr/local/bin/pyvenv
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

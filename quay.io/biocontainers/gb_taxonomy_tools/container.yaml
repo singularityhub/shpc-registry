@@ -11,4 +11,3 @@ aliases:
   taxonomy-reader: /usr/local/bin/taxonomy-reader
   taxonomy2tree: /usr/local/bin/taxonomy2tree
   tree2ps: /usr/local/bin/tree2ps
-  env-execute: /usr/local/env-execute

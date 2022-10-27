@@ -13,13 +13,13 @@ aliases:
   socru_shrink_database: /usr/local/bin/socru_shrink_database
   socru_species: /usr/local/bin/socru_species
   socru_update_profile: /usr/local/bin/socru_update_profile
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   CA.pm: /usr/local/bin/CA.pm
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  bamToBed: /usr/local/bin/bamToBed

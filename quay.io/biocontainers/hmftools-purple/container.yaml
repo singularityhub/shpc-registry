@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/hmftools-purple
 aliases:
   PURPLE: /usr/local/bin/PURPLE
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  cups-config: /usr/local/bin/cups-config
+  cwebp: /usr/local/bin/cwebp

@@ -103,13 +103,13 @@ aliases:
   uniform_search_unit_test: /usr/local/bin/uniform_search_unit_test
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  2to3: /usr/local/bin/2to3
   FragGeneScan: /usr/local/bin/FragGeneScan
   Makefile: /usr/local/bin/Makefile
   Makefile.am: /usr/local/bin/Makefile.am
   Makefile.in: /usr/local/bin/Makefile.in
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  acyclic: /usr/local/bin/acyclic
+  alimask: /usr/local/bin/alimask

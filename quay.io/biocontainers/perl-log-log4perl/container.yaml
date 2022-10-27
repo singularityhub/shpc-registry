@@ -7,13 +7,7 @@ tags:
   1.55--pl5321hdfd78af_0: sha256:925c31a9c40574dc7d02ecf424e959606006757c44792d46da34f9292f403150
 docker: quay.io/biocontainers/perl-log-log4perl
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
+  l4p-tmpl: /usr/local/bin/l4p-tmpl

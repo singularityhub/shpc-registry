@@ -10,13 +10,13 @@ aliases:
   metaSNV.py: /usr/local/bin/metaSNV.py
   metaSNV_post.py: /usr/local/bin/metaSNV_post.py
   motus: /usr/local/bin/motus
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  bwa: /usr/local/bin/bwa
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.9: /usr/local/bin/f2py3.9
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile

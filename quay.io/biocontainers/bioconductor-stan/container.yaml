@@ -7,13 +7,6 @@ tags:
   2.8.0--r341hfc679d8_0: sha256:a416b638f7963884f8e78e5ea4a5dfe82c224a4de4235a243d728f8dadea3f5a
 docker: quay.io/biocontainers/bioconductor-stan
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

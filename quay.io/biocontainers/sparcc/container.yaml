@@ -16,13 +16,13 @@ aliases:
   compositional_methods.py: /usr/local/bin/compositional_methods.py
   core_methods.py: /usr/local/bin/core_methods.py
   io_methods.py: /usr/local/bin/io_methods.py
-  2to3: /usr/local/bin/2to3
   __init__.py: /usr/local/bin/__init__.py
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
   conv-template: /usr/local/bin/conv-template
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
+  from-template: /usr/local/bin/from-template
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

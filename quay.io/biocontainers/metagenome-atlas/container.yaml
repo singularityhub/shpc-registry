@@ -11,13 +11,13 @@ aliases:
   cookiecutter: /usr/local/bin/cookiecutter
   mamba-package: /usr/local/bin/mamba-package
   slugify: /usr/local/bin/slugify
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
-  adig: /usr/local/bin/adig
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh

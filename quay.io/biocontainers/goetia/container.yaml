@@ -35,13 +35,13 @@ aliases:
   scan-build: /usr/local/bin/scan-build
   scan-view: /usr/local/bin/scan-view
   sourmash: /usr/local/bin/sourmash
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  f2py3.6: /usr/local/bin/f2py3.6
+  get_objgraph: /usr/local/bin/get_objgraph
+  idle3.6: /usr/local/bin/idle3.6
+  jpgicc: /usr/local/bin/jpgicc
+  jsonschema: /usr/local/bin/jsonschema
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc

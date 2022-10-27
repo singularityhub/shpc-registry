@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/microbecensus
 aliases:
   run_microbe_census.py: /usr/local/bin/run_microbe_census.py
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  idle: /usr/local/bin/idle
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  painter.py: /usr/local/bin/painter.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py
+  pilfile.py: /usr/local/bin/pilfile.py

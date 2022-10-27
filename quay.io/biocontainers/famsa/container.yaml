@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/famsa
 aliases:
   famsa: /usr/local/bin/famsa
-  env-execute: /usr/local/env-execute

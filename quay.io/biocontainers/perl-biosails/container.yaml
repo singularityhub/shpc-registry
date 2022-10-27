@@ -7,13 +7,7 @@ tags:
   0.02--pl5321hdfd78af_3: sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9
 docker: quay.io/biocontainers/perl-biosails
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl-reversion: /usr/local/bin/perl-reversion

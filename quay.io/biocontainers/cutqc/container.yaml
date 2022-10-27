@@ -10,13 +10,13 @@ aliases:
   cutqc: /usr/local/bin/cutqc
   fastqc_report.Rmd: /usr/local/bin/fastqc_report.Rmd
   fastqc_single_report.Rmd: /usr/local/bin/fastqc_single_report.Rmd
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  bunzip2: /usr/local/bin/bunzip2
+  cutadapt: /usr/local/bin/cutadapt
+  fastqc: /usr/local/bin/fastqc
+  gawk: /usr/local/bin/gawk
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  idle3.9: /usr/local/bin/idle3.9
+  igzip: /usr/local/bin/igzip
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar

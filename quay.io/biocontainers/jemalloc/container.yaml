@@ -7,9 +7,6 @@ tags:
   4.5.0--0: sha256:49e412d7729504491acd4e8228db710436cb87c0ae6243a5a2691df4c328af30
 docker: quay.io/biocontainers/jemalloc
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   jemalloc-config: /usr/local/bin/jemalloc-config
   jemalloc.sh: /usr/local/bin/jemalloc.sh
   jeprof: /usr/local/bin/jeprof

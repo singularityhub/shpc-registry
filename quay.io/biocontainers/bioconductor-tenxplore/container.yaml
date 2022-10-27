@@ -7,13 +7,4 @@ tags:
   1.8.0--r36_0: sha256:b6c2f522bef9013dae5eec4a11a4eac4d5f2fd11195ae4a0b79fe5108ef92673
 docker: quay.io/biocontainers/bioconductor-tenxplore
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -12,13 +12,13 @@ aliases:
   lastal8: /usr/local/bin/lastal8
   lastdb8: /usr/local/bin/lastdb8
   maf-cut: /usr/local/bin/maf-cut
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  djpeg: /usr/local/bin/djpeg
-  easy_install: /usr/local/bin/easy_install
+  einsi: /usr/local/bin/einsi
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh

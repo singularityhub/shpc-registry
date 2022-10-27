@@ -9,6 +9,3 @@ docker: quay.io/biocontainers/pisces
 aliases:
   pisces: /usr/local/bin/pisces
   pisces_vqr: /usr/local/bin/pisces_vqr
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

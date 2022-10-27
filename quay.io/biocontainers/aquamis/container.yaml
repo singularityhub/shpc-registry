@@ -47,13 +47,13 @@ aliases:
   taxonkit: /usr/local/bin/taxonkit
   write_QC_report.Rmd: /usr/local/bin/write_QC_report.Rmd
   write_report.Rmd: /usr/local/bin/write_report.Rmd
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh

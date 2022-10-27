@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/vargeno
 aliases:
   vargeno: /usr/local/bin/vargeno
-  env-execute: /usr/local/env-execute

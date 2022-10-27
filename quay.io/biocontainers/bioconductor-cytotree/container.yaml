@@ -7,13 +7,11 @@ tags:
   1.0.3--r40h399db7b_1: sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c
 docker: quay.io/biocontainers/bioconductor-cytotree
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pandoc: /usr/local/bin/pandoc
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/real
 aliases:
   real: /usr/local/bin/real
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

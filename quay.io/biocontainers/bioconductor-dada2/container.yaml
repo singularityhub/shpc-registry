@@ -7,13 +7,4 @@ tags:
   1.8.0--r351hfc679d8_0: sha256:91f7e534caac8cfb4a3607d835697ef28133b491b9cef4233b5c4cfcad382aa5
 docker: quay.io/biocontainers/bioconductor-dada2
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

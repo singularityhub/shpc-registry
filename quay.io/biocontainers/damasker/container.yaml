@@ -12,4 +12,3 @@ aliases:
   REPmask: /usr/local/bin/REPmask
   TANmask: /usr/local/bin/TANmask
   datander: /usr/local/bin/datander
-  env-execute: /usr/local/env-execute

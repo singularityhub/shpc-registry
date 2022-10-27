@@ -8,13 +8,10 @@ tags:
 docker: quay.io/biocontainers/rebaler
 aliases:
   rebaler: /usr/local/bin/rebaler
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.8: /usr/local/bin/f2py3.8
-  idle3: /usr/local/bin/idle3
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  racon: /usr/local/bin/racon
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  rampler: /usr/local/bin/rampler

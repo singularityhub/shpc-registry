@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/nglview
 aliases:
   nglview: /usr/local/bin/nglview
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
   conv-template: /usr/local/bin/conv-template
   curve_keygen: /usr/local/bin/curve_keygen
-  deactivate: /usr/local/bin/deactivate
+  from-template: /usr/local/bin/from-template
+  idle3.6: /usr/local/bin/idle3.6
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython
+  ipython3: /usr/local/bin/ipython3
+  jsonschema: /usr/local/bin/jsonschema

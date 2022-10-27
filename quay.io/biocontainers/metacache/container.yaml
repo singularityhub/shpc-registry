@@ -15,13 +15,13 @@ aliases:
   metacache-db-info: /usr/local/bin/metacache-db-info
   metacache-partition-genomes: /usr/local/bin/metacache-partition-genomes
   summarize-results: /usr/local/bin/summarize-results
-  2to3: /usr/local/bin/2to3
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  envsubst: /usr/local/bin/envsubst
   gawk: /usr/local/bin/gawk
   gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  idle: /usr/local/bin/idle
+  idn2: /usr/local/bin/idn2
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config

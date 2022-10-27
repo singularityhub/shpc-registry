@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/datamash
 aliases:
   datamash: /usr/local/bin/datamash
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

@@ -34,13 +34,13 @@ aliases:
   type_constellations.py: /usr/local/bin/type_constellations.py
   usher: /usr/local/bin/usher
   usher.smk: /usr/local/bin/usher.smk
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  einsi: /usr/local/bin/einsi
+  f2py3.8: /usr/local/bin/f2py3.8
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  idle3.8: /usr/local/bin/idle3.8

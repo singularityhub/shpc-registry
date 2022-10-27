@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/sourmash
 aliases:
   sourmash: /usr/local/bin/sourmash
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
   abundance-dist.py: /usr/local/bin/abundance-dist.py
-  activate: /usr/local/bin/activate
   annotate-partitions.py: /usr/local/bin/annotate-partitions.py
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
+  count-median.py: /usr/local/bin/count-median.py
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor

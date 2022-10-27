@@ -170,7 +170,6 @@ aliases:
   XFDR: /usr/local/bin/XFDR
   XMLValidator: /usr/local/bin/XMLValidator
   XTandemAdapter: /usr/local/bin/XTandemAdapter
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
@@ -180,3 +179,4 @@ aliases:
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
   Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count

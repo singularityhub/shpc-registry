@@ -17,13 +17,13 @@ aliases:
   krakenuniq-report: /usr/local/bin/krakenuniq-report
   krakenuniq-translate: /usr/local/bin/krakenuniq-translate
   read_merger.pl: /usr/local/bin/read_merger.pl
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  idn2: /usr/local/bin/idn2
+  jellyfish: /usr/local/bin/jellyfish
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  rsync: /usr/local/bin/rsync
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  tar: /usr/local/bin/tar
+  wget: /usr/local/bin/wget

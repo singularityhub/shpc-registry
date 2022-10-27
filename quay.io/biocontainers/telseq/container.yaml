@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/telseq
 aliases:
   telseq: /usr/local/bin/telseq
   bamtools: /usr/local/bin/bamtools
-  env-execute: /usr/local/env-execute

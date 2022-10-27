@@ -7,13 +7,7 @@ tags:
   3.05--0: sha256:ca50c95aaaade5d205720a1a4b205ec99e1bfd1f4e23567ac190f25d56d81e6b
 docker: quay.io/biocontainers/perl-text-soundex
 aliases:
-  activate: /usr/local/bin/activate
   c2ph: /usr/local/bin/c2ph
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

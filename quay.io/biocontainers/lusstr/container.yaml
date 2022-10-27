@@ -8,13 +8,10 @@ tags:
 docker: quay.io/biocontainers/lusstr
 aliases:
   lusstr: /usr/local/bin/lusstr
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
-  idle3: /usr/local/bin/idle3
   idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  runxlrd.py: /usr/local/bin/runxlrd.py

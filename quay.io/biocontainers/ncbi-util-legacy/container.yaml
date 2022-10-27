@@ -48,12 +48,12 @@ aliases:
   vecscreen: /usr/local/bin/vecscreen
   xmbind: /usr/local/bin/xmbind
   asn2xml: /usr/local/bin/asn2xml
-  captoinfo: /usr/local/bin/captoinfo
   certtool: /usr/local/bin/certtool
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
-  fc-cache: /usr/local/bin/fc-cache
-  fc-cat: /usr/local/bin/fc-cat
-  fc-conflist: /usr/local/bin/fc-conflist
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv

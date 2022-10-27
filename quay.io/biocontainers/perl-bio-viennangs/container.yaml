@@ -30,11 +30,11 @@ aliases:
   trim_fastq.pl: /usr/local/bin/trim_fastq.pl
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
-  activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
-  autopoint: /usr/local/bin/autopoint
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps

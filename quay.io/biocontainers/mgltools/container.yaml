@@ -52,13 +52,13 @@ aliases:
   sagapython-version: /usr/local/bin/sagapython-version
   tester: /usr/local/bin/tester
   vision: /usr/local/bin/vision
-  2to3: /usr/local/bin/2to3
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  easy_install: /usr/local/bin/easy_install
   easy_install-2.7: /usr/local/bin/easy_install-2.7
-  f2py: /usr/local/bin/f2py
   idle: /usr/local/bin/idle
   iptest: /usr/local/bin/iptest
   iptest2: /usr/local/bin/iptest2
+  ipython: /usr/local/bin/ipython
+  ipython2: /usr/local/bin/ipython2
+  obabel: /usr/local/bin/obabel

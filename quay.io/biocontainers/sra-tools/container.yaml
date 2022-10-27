@@ -184,12 +184,12 @@ aliases:
   vdb-validate.3: /usr/local/bin/vdb-validate.3
   vdb-validate.3.0.0: /usr/local/bin/vdb-validate.3.0.0
   abi-dump: /usr/local/bin/abi-dump
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-cache: /usr/local/bin/align-cache
   align-info: /usr/local/bin/align-info
   bam-load: /usr/local/bin/bam-load
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  cache-mgr: /usr/local/bin/cache-mgr
+  cg-load: /usr/local/bin/cg-load
+  fasterq-dump: /usr/local/bin/fasterq-dump
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump: /usr/local/bin/fastq-dump
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig

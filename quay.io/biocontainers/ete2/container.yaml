@@ -16,13 +16,13 @@ aliases:
   qt3to4: /usr/local/bin/qt3to4
   qtconfig: /usr/local/bin/qtconfig
   qttracereplay: /usr/local/bin/qttracereplay
-  2to3: /usr/local/bin/2to3
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
   designer: /usr/local/bin/designer
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  idle: /usr/local/bin/idle
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease
+  lupdate: /usr/local/bin/lupdate
+  moc: /usr/local/bin/moc

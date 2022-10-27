@@ -10,13 +10,13 @@ aliases:
   elasticurl: /usr/local/bin/elasticurl
   elasticurl_cpp: /usr/local/bin/elasticurl_cpp
   elastipubsub: /usr/local/bin/elastipubsub
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  csv-import: /usr/local/bin/csv-import
+  f2py3.10: /usr/local/bin/f2py3.10
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin

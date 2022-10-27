@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/surpyvor
 aliases:
   SURVIVOR: /usr/local/bin/SURVIVOR
   surpyvor: /usr/local/bin/surpyvor
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  coloredlogs: /usr/local/bin/coloredlogs
+  cyvcf2: /usr/local/bin/cyvcf2
+  f2py3.7: /usr/local/bin/f2py3.7
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  htsfile: /usr/local/bin/htsfile
+  humanfriendly: /usr/local/bin/humanfriendly

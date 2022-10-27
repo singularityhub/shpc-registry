@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/alevin-fry
 aliases:
   alevin-fry: /usr/local/bin/alevin-fry
-  env-execute: /usr/local/env-execute

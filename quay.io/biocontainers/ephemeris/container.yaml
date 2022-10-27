@@ -15,13 +15,13 @@ aliases:
   shed-tools: /usr/local/bin/shed-tools
   workflow-install: /usr/local/bin/workflow-install
   workflow-to-tools: /usr/local/bin/workflow-to-tools
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   asadmin: /usr/local/bin/asadmin
   bundle_image: /usr/local/bin/bundle_image
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect
+  cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin

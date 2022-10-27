@@ -10,7 +10,4 @@ aliases:
   FastTree.c: /usr/local/bin/FastTree.c
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   fasttree: /usr/local/bin/fasttree

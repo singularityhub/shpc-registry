@@ -10,7 +10,3 @@ aliases:
   egrep: /usr/local/bin/egrep
   fgrep: /usr/local/bin/fgrep
   grep: /usr/local/bin/grep
-  pcre-config: /usr/local/bin/pcre-config
-  pcregrep: /usr/local/bin/pcregrep
-  pcretest: /usr/local/bin/pcretest
-  env-execute: /usr/local/env-execute

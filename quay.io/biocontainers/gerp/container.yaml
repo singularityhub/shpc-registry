@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/gerp
 aliases:
   gerpcol: /usr/local/bin/gerpcol
   gerpelem: /usr/local/bin/gerpelem
-  env-execute: /usr/local/env-execute

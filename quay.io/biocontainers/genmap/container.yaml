@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/genmap
 aliases:
   genmap: /usr/local/bin/genmap
-  env-execute: /usr/local/env-execute

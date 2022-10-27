@@ -7,13 +7,12 @@ tags:
   0.08--pl5321hdfd78af_2: sha256:95188013a1268d30415b8f69c56027507b28c7c2f46a69166040000337de514f
 docker: quay.io/biocontainers/perl-test-xml
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
   htmltree: /usr/local/bin/htmltree
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  tidyp: /usr/local/bin/tidyp
+  webtidy: /usr/local/bin/webtidy
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split
+  xpath: /usr/local/bin/xpath

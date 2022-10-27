@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/simwalk2
 aliases:
   simwalk2: /usr/local/bin/simwalk2
-  env-execute: /usr/local/env-execute

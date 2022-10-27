@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/taxonkit
 aliases:
   taxonkit: /usr/local/bin/taxonkit
-  env-execute: /usr/local/env-execute

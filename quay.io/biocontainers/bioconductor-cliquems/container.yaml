@@ -7,13 +7,13 @@ tags:
   1.8.0--r41hc247a5b_2: sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68
 docker: quay.io/biocontainers/bioconductor-cliquems
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  glpsol: /usr/local/bin/glpsol
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

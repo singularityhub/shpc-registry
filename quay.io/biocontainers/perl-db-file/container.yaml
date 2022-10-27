@@ -7,8 +7,6 @@ tags:
   1.855--pl5321h779adbc_1: sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c
 docker: quay.io/biocontainers/perl-db-file
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   db_archive: /usr/local/bin/db_archive
   db_checkpoint: /usr/local/bin/db_checkpoint
   db_convert: /usr/local/bin/db_convert
@@ -17,3 +15,5 @@ aliases:
   db_hotbackup: /usr/local/bin/db_hotbackup
   db_load: /usr/local/bin/db_load
   db_log_verify: /usr/local/bin/db_log_verify
+  db_printlog: /usr/local/bin/db_printlog
+  db_recover: /usr/local/bin/db_recover

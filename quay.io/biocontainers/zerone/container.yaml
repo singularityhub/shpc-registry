@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/zerone
 aliases:
   zerone: /usr/local/bin/zerone
-  env-execute: /usr/local/env-execute

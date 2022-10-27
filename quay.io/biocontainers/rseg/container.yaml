@@ -10,6 +10,3 @@ aliases:
   deadzones: /usr/local/bin/deadzones
   rseg: /usr/local/bin/rseg
   rseg-diff: /usr/local/bin/rseg-diff
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

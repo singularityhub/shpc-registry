@@ -62,13 +62,13 @@ aliases:
   whirlpool-hash: /usr/local/bin/whirlpool-hash
   x264: /usr/local/bin/x264
   x265: /usr/local/bin/x265
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aomdec: /usr/local/bin/aomdec
   aomenc: /usr/local/bin/aomenc
   aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  certtool: /usr/local/bin/certtool
+  certutil: /usr/local/bin/certutil
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

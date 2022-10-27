@@ -19,13 +19,13 @@ aliases:
   interop_plot_qscore_histogram: /usr/local/bin/interop_plot_qscore_histogram
   interop_plot_sample_qc: /usr/local/bin/interop_plot_sample_qc
   interop_summary: /usr/local/bin/interop_summary
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  cmark: /usr/local/bin/cmark
+  coloredlogs: /usr/local/bin/coloredlogs
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  futurize: /usr/local/bin/futurize
+  gif2rgb: /usr/local/bin/gif2rgb

@@ -9,13 +9,12 @@ docker: quay.io/biocontainers/perl-biox-workflow-plugin-filedetails
 aliases:
   biox-workflow.pl: /usr/local/bin/biox-workflow.pl
   filedetails.pl: /usr/local/bin/filedetails.pl
-  activate: /usr/local/bin/activate
   c2ph: /usr/local/bin/c2ph
-  conda: /usr/local/bin/conda
   config_data: /usr/local/bin/config_data
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
+  findrule: /usr/local/bin/findrule
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

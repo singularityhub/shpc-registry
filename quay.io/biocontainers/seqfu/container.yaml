@@ -22,7 +22,3 @@ aliases:
   fu-tabcheck: /usr/local/bin/fu-tabcheck
   fu-virfilter: /usr/local/bin/fu-virfilter
   seqfu: /usr/local/bin/seqfu
-  pcre-config: /usr/local/bin/pcre-config
-  pcregrep: /usr/local/bin/pcregrep
-  pcretest: /usr/local/bin/pcretest
-  env-execute: /usr/local/env-execute

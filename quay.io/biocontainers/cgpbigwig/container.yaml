@@ -19,13 +19,13 @@ aliases:
   p11-kit: /usr/local/bin/p11-kit
   p11tool: /usr/local/bin/p11tool
   trust: /usr/local/bin/trust
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  htsfile: /usr/local/bin/htsfile
+  idn2: /usr/local/bin/idn2
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream

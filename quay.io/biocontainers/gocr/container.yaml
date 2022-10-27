@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/gocr
 aliases:
   gocr: /usr/local/bin/gocr
   gocr.tcl: /usr/local/bin/gocr.tcl
-  env-execute: /usr/local/env-execute

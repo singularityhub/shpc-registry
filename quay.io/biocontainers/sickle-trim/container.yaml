@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/sickle-trim
 aliases:
   sickle: /usr/local/bin/sickle
-  env-execute: /usr/local/env-execute

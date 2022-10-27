@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/psascan
 aliases:
   psascan: /usr/local/bin/psascan
-  env-execute: /usr/local/env-execute

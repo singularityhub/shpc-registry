@@ -10,4 +10,3 @@ aliases:
   cd-hit-dup: /usr/local/bin/cd-hit-dup
   cd-hit-lap: /usr/local/bin/cd-hit-lap
   read-linker: /usr/local/bin/read-linker
-  env-execute: /usr/local/env-execute

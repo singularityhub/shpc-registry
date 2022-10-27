@@ -16,7 +16,6 @@ aliases:
   uint8_to_bed.py: /usr/local/bin/uint8_to_bed.py
   uint8_to_bed_parallel.py: /usr/local/bin/uint8_to_bed_parallel.py
   unify_bowtie.py: /usr/local/bin/unify_bowtie.py
-  2to3: /usr/local/bin/2to3
   __init__.py: /usr/local/bin/__init__.py
   bowtie: /usr/local/bin/bowtie
   bowtie-align-l: /usr/local/bin/bowtie-align-l
@@ -26,3 +25,4 @@ aliases:
   bowtie-build-s: /usr/local/bin/bowtie-build-s
   bowtie-inspect: /usr/local/bin/bowtie-inspect
   bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s

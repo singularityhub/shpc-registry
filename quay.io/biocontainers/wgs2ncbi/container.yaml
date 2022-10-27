@@ -8,13 +8,5 @@ tags:
 docker: quay.io/biocontainers/wgs2ncbi
 aliases:
   wgs2ncbi: /usr/local/bin/wgs2ncbi
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  iconv: /usr/local/bin/iconv
   idn: /usr/local/bin/idn
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
+  tbl2asn: /usr/local/bin/tbl2asn

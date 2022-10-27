@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/enano
 aliases:
   enano: /usr/local/bin/enano
-  env-execute: /usr/local/env-execute

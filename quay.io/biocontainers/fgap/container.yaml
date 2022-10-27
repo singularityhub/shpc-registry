@@ -18,13 +18,13 @@ aliases:
   octave-config: /usr/local/bin/octave-config
   octave-config-4.2.1: /usr/local/bin/octave-config-4.2.1
   sndfile-regtest: /usr/local/bin/sndfile-regtest
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   annotate: /usr/local/bin/annotate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bdftogd: /usr/local/bin/bdftogd
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn

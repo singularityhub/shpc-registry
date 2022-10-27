@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/akt
 aliases:
   akt: /usr/local/bin/akt
-  env-execute: /usr/local/env-execute

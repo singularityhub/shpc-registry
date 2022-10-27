@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/dkfz-bias-filter
 aliases:
   dkfzbiasfilter.py: /usr/local/bin/dkfzbiasfilter.py
   dkfzbiasfilter_summarize.py: /usr/local/bin/dkfzbiasfilter_summarize.py
-  2to3: /usr/local/bin/2to3
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  canbusutil: /usr/local/bin/canbusutil
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment

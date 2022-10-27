@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/bindash
 aliases:
   bindash: /usr/local/bin/bindash
-  env-execute: /usr/local/env-execute

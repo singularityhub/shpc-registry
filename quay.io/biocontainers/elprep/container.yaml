@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/elprep
 aliases:
   elprep: /usr/local/bin/elprep
-  env-execute: /usr/local/env-execute

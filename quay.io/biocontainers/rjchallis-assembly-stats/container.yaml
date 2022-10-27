@@ -10,13 +10,6 @@ aliases:
   asm2stats.minmaxgc.pl: /usr/local/bin/asm2stats.minmaxgc.pl
   asm2stats.minmaxgc.pl.bak: /usr/local/bin/asm2stats.minmaxgc.pl.bak
   asm2stats.pl: /usr/local/bin/asm2stats.pl
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
   json_xs: /usr/local/bin/json_xs
-  libnetcfg: /usr/local/bin/libnetcfg
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

@@ -16,7 +16,4 @@ aliases:
   LAshow: /usr/local/bin/LAshow
   LAsort: /usr/local/bin/LAsort
   LAsplit: /usr/local/bin/LAsplit
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
   daligner: /usr/local/bin/daligner
-  deactivate: /usr/local/bin/deactivate

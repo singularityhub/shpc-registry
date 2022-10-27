@@ -10,13 +10,13 @@ aliases:
   Bifrost: /usr/local/bin/Bifrost
   ggcaller: /usr/local/bin/ggcaller
   rapidnj: /usr/local/bin/rapidnj
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   FET.pl: /usr/local/bin/FET.pl
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   alimask: /usr/local/bin/alimask
-  autopoint: /usr/local/bin/autopoint
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py

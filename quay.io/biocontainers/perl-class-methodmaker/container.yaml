@@ -7,13 +7,4 @@ tags:
   2.24--pl5321hec16e2b_3: sha256:b7dd4e291ef1d243b2394e689e603c7d4410d311dcd916a82c4b94e6af69ab4c
 docker: quay.io/biocontainers/perl-class-methodmaker
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

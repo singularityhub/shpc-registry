@@ -21,12 +21,12 @@ aliases:
   tigress: /usr/local/bin/tigress
   tomsimilarity: /usr/local/bin/tomsimilarity
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
+  clp: /usr/local/bin/clp
+  mpiCC: /usr/local/bin/mpiCC
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpifort: /usr/local/bin/mpifort

@@ -12,7 +12,6 @@ aliases:
   bmtool: /usr/local/bin/bmtool
   extract_fullseq: /usr/local/bin/extract_fullseq
   srprism: /usr/local/bin/srprism
-  activate: /usr/local/bin/activate
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
@@ -21,4 +20,5 @@ aliases:
   blastn: /usr/local/bin/blastn
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
-  bunzip2: /usr/local/bin/bunzip2
+  convert2blastmask: /usr/local/bin/convert2blastmask
+  datatool: /usr/local/bin/datatool

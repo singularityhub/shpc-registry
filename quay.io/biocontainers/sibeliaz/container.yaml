@@ -13,4 +13,3 @@ aliases:
   sibeliaz-lcb: /usr/local/bin/sibeliaz-lcb
   spoa: /usr/local/bin/spoa
   twopaco: /usr/local/bin/twopaco
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,5 @@ tags:
   1.8.1--r351_0: sha256:cc3a1adc91533e9331e4d39c01cbb6c44316393c645bf49e40e87b8c54c87254
 docker: quay.io/biocontainers/bioconductor-grmetrics
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

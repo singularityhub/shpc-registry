@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/genefuse
 aliases:
   genefuse: /usr/local/bin/genefuse
-  env-execute: /usr/local/env-execute

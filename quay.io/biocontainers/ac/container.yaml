@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/ac
 aliases:
   AC: /usr/local/bin/AC
-  env-execute: /usr/local/env-execute

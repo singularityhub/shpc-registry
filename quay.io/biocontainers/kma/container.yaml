@@ -11,4 +11,3 @@ aliases:
   kma_index: /usr/local/bin/kma_index
   kma_shm: /usr/local/bin/kma_shm
   kma_update: /usr/local/bin/kma_update
-  env-execute: /usr/local/env-execute

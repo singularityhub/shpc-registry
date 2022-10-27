@@ -54,13 +54,13 @@ aliases:
   ttest.py: /usr/local/bin/ttest.py
   ttest_perm.py: /usr/local/bin/ttest_perm.py
   ttest_single_group.py: /usr/local/bin/ttest_single_group.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  idle3.9: /usr/local/bin/idle3.9

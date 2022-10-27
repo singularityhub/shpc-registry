@@ -7,13 +7,5 @@ tags:
   2.8.2--r351_0: sha256:91de1ad44045dd5e3dbe52072f58f544f58ae6c2eacda2a148b7360e22ff0d28
 docker: quay.io/biocontainers/bioconductor-biocstyle
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

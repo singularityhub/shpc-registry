@@ -10,13 +10,11 @@ aliases:
   proot: /usr/local/bin/proot
   udocker: /usr/local/bin/udocker
   udocker.py: /usr/local/bin/udocker.py
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl-config: /usr/local/bin/curl-config
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

@@ -7,13 +7,9 @@ tags:
   1.1--r3.3.1_0: sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a
 docker: quay.io/biocontainers/r-prroc
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

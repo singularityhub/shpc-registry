@@ -107,13 +107,13 @@ aliases:
   uniprot_mapper.rb: /usr/local/bin/uniprot_mapper.rb
   updatepaths.pl: /usr/local/bin/updatepaths.pl
   xinteract: /usr/local/bin/xinteract
-  activate: /usr/local/bin/activate
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
+  c2ph: /usr/local/bin/c2ph
+  cpanm: /usr/local/bin/cpanm
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  ncurses5-config: /usr/local/bin/ncurses5-config

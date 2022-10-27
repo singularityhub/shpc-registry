@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/crypto_typer
 aliases:
   crypto_typer: /usr/local/bin/crypto_typer
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   blast_formatter: /usr/local/bin/blast_formatter
   blast_report: /usr/local/bin/blast_report
@@ -18,3 +17,4 @@ aliases:
   blastdbcheck: /usr/local/bin/blastdbcheck
   blastdbcmd: /usr/local/bin/blastdbcmd
   blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn

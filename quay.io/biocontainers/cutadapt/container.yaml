@@ -11,13 +11,13 @@ tags:
   3.7--py38hbff2b2d_0: sha256:c2201f010d14f6beed26e2fee75d2b8418c1413c457ccb6862b27e75913ce1ff
   2.6--py37h516909a_0: sha256:b67f5a343b3b9a2d5e7be779dae6d0ec6133d5a499c7c1fe91671fbf794e774e
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  cutadapt: /usr/local/bin/cutadapt
+  idle3.7: /usr/local/bin/idle3.7
+  pigz: /usr/local/bin/pigz
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

@@ -7,13 +7,5 @@ tags:
   0.007--pl5321hdfd78af_0: sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69
 docker: quay.io/biocontainers/perl-devel-overloadinfo
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

@@ -7,13 +7,4 @@ tags:
   3.7.0--r36_2: sha256:735b3eb6695c7d6bf57e367b66990b21994cb30e45205c5bf0f078aa43cc9d52
 docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

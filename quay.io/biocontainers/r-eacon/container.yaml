@@ -7,13 +7,4 @@ tags:
   0.3.6--r41hdfd78af_1: sha256:2218d27212b8670716c16edb2afa5cfd0e2f7d40a82799586b53fe0115b2845d
 docker: quay.io/biocontainers/r-eacon
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc

@@ -20,7 +20,6 @@ aliases:
   lneato: /usr/local/bin/lneato
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
-  activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
   bam2bedgraph: /usr/local/bin/bam2bedgraph
@@ -28,3 +27,4 @@ aliases:
   bcomps: /usr/local/bin/bcomps
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl

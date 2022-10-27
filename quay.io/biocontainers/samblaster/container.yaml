@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/samblaster
 aliases:
   samblaster: /usr/local/bin/samblaster
-  env-execute: /usr/local/env-execute

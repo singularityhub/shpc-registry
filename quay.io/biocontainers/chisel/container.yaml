@@ -27,13 +27,13 @@ aliases:
   fastqReadAvg.pl: /usr/local/bin/fastqReadAvg.pl
   map2bed.pl: /usr/local/bin/map2bed.pl
   summation.pl: /usr/local/bin/summation.pl
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   awk: /usr/local/bin/awk
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py2: /usr/local/bin/f2py2

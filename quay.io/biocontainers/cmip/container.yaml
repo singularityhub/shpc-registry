@@ -15,4 +15,3 @@ aliases:
   surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
   titration: /usr/local/bin/titration
   watden: /usr/local/bin/watden
-  env-execute: /usr/local/env-execute

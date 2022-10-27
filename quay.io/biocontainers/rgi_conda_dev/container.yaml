@@ -12,8 +12,6 @@ aliases:
   rgi_jsonformat: /usr/local/bin/rgi_jsonformat
   rgi_jsontab: /usr/local/bin/rgi_jsontab
   rgi_load: /usr/local/bin/rgi_load
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
@@ -22,3 +20,5 @@ aliases:
   blastn: /usr/local/bin/blastn
   blastp: /usr/local/bin/blastp
   blastx: /usr/local/bin/blastx
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  convert2blastmask: /usr/local/bin/convert2blastmask

@@ -162,13 +162,7 @@ aliases:
   tagDir2bed.pl: /usr/local/bin/tagDir2bed.pl
   tagDir2hicFile.pl: /usr/local/bin/tagDir2hicFile.pl
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   fastq2fasta.pl: /usr/local/bin/fastq2fasta.pl
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl

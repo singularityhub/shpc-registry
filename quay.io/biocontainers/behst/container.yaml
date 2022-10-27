@@ -33,13 +33,13 @@ aliases:
   script_multi_project_run_WITHOUT_LOOP.sh: /usr/local/bin/script_multi_project_run_WITHOUT_LOOP.sh
   script_multi_project_run_input_parameters.sh: /usr/local/bin/script_multi_project_run_input_parameters.sh
   temp_test.sh: /usr/local/bin/temp_test.sh
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

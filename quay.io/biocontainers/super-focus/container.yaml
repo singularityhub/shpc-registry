@@ -11,13 +11,13 @@ aliases:
   rapsearch: /usr/local/bin/rapsearch
   superfocus: /usr/local/bin/superfocus
   superfocus_downloadDB: /usr/local/bin/superfocus_downloadDB
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asn2xml: /usr/local/bin/asn2xml
+  awk: /usr/local/bin/awk
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

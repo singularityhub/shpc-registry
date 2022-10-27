@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/lighter
 aliases:
   lighter: /usr/local/bin/lighter
-  env-execute: /usr/local/env-execute

@@ -31,7 +31,6 @@ aliases:
   py_resp.py: /usr/local/bin/py_resp.py
   sander_mdrun: /usr/local/bin/sander_mdrun
   tinker_to_amber: /usr/local/bin/tinker_to_amber
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   AddToBox: /usr/local/bin/AddToBox
   CartHess2FC.py: /usr/local/bin/CartHess2FC.py
@@ -41,3 +40,4 @@ aliases:
   MCPB.py: /usr/local/bin/MCPB.py
   MMPBSA.py: /usr/local/bin/MMPBSA.py
   OptC4.py: /usr/local/bin/OptC4.py
+  PdbSearcher.py: /usr/local/bin/PdbSearcher.py

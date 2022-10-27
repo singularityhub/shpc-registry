@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/perl-velvetoptimiser
 aliases:
   VelvetOptimiser.pl: /usr/local/bin/VelvetOptimiser.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
-  activate: /usr/local/bin/activate
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps

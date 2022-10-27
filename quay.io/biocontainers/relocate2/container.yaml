@@ -24,7 +24,6 @@ aliases:
   relocaTE_insertionFinder.py: /usr/local/bin/relocaTE_insertionFinder.py
   relocaTE_trim.py: /usr/local/bin/relocaTE_trim.py
   utility.py: /usr/local/bin/utility.py
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
@@ -34,3 +33,4 @@ aliases:
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

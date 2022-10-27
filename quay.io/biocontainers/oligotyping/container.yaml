@@ -78,7 +78,6 @@ aliases:
   pg_resetxlog: /usr/local/bin/pg_resetxlog
   pg_xlogdump: /usr/local/bin/pg_xlogdump
   rgb2pct.py: /usr/local/bin/rgb2pct.py
-  2to3: /usr/local/bin/2to3
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint
@@ -86,5 +85,6 @@ aliases:
   MemParse: /usr/local/bin/MemParse
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
-  R: /usr/local/bin/R
   Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

@@ -7,13 +7,13 @@ tags:
   8.0.92--1: sha256:ddcd5b420aa4b30e1b555d663513851dd4c5b2e0b900611daa8e3b499387d8d8
 docker: quay.io/biocontainers/java-jdk
 aliases:
-  activate: /usr/local/bin/activate
   appletviewer: /usr/local/bin/appletviewer
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   extcheck: /usr/local/bin/extcheck
   idlj: /usr/local/bin/idlj
   jar: /usr/local/bin/jar
   jarsigner: /usr/local/bin/jarsigner
   java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javah: /usr/local/bin/javah

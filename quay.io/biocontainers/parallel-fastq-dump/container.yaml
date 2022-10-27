@@ -51,13 +51,13 @@ aliases:
   vdb-passwd.2.10.9: /usr/local/bin/vdb-passwd.2.10.9
   vdb-unlock.2.10.9: /usr/local/bin/vdb-unlock.2.10.9
   vdb-validate.2.10.9: /usr/local/bin/vdb-validate.2.10.9
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
   align-info: /usr/local/bin/align-info
+  align-info.2: /usr/local/bin/align-info.2
+  bam-load: /usr/local/bin/bam-load
+  bam-load.2: /usr/local/bin/bam-load.2
+  cache-mgr: /usr/local/bin/cache-mgr

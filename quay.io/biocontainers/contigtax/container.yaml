@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/contigtax
 aliases:
   contigtax: /usr/local/bin/contigtax
   evaluate_contigtax.py: /usr/local/bin/evaluate_contigtax.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
   canbusutil: /usr/local/bin/canbusutil
-  captoinfo: /usr/local/bin/captoinfo
   certutil: /usr/local/bin/certutil
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

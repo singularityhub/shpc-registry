@@ -41,4 +41,3 @@ aliases:
   rangen: /usr/local/bin/rangen
   simulator: /usr/local/bin/simulator
   undexta: /usr/local/bin/undexta
-  env-execute: /usr/local/env-execute

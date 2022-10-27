@@ -7,13 +7,8 @@ tags:
   2.0013--pl526_1: sha256:ca50b734b0a20a7f9e2aab560f73066343aebdcbe91b2580b5ec1284f9df6787
 docker: quay.io/biocontainers/perl-dbm-deep
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

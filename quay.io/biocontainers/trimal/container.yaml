@@ -10,4 +10,3 @@ aliases:
   readal: /usr/local/bin/readal
   statal: /usr/local/bin/statal
   trimal: /usr/local/bin/trimal
-  env-execute: /usr/local/env-execute

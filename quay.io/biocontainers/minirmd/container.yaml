@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/minirmd
 aliases:
   minirmd: /usr/local/bin/minirmd
-  env-execute: /usr/local/env-execute

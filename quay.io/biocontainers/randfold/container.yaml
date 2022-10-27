@@ -21,4 +21,3 @@ aliases:
   sreformat: /usr/local/bin/sreformat
   weight: /usr/local/bin/weight
   translate: /usr/local/bin/translate
-  env-execute: /usr/local/env-execute

@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/snpomatic
 aliases:
   findknownsnps: /usr/local/bin/findknownsnps
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

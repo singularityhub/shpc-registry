@@ -39,13 +39,13 @@ aliases:
   tama_sampling_saturation_curve.py: /usr/local/bin/tama_sampling_saturation_curve.py
   tama_variant_caller.py: /usr/local/bin/tama_variant_caller.py
   tmp.py: /usr/local/bin/tmp.py
-  2to3: /usr/local/bin/2to3
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
   archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

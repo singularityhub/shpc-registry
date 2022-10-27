@@ -30,13 +30,13 @@ aliases:
   sga-mergeDriver.pl: /usr/local/bin/sga-mergeDriver.pl
   sortmerna: /usr/local/bin/sortmerna
   unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
   b2sum: /usr/local/bin/b2sum
   bamtools: /usr/local/bin/bamtools
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  bgzip: /usr/local/bin/bgzip

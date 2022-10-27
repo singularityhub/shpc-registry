@@ -7,13 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:29f2685988078ff34cdec4a7f7a622bcbd5ba85ddbb70b9b1848ebe53e2cae1f
 docker: quay.io/biocontainers/bioconductor-mouse430a2.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

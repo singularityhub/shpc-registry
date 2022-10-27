@@ -29,7 +29,6 @@ aliases:
   setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
   utrrnaseq: /usr/local/bin/utrrnaseq
   webserver-results.body: /usr/local/bin/webserver-results.body
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
@@ -39,3 +38,4 @@ aliases:
   autoAug.pl: /usr/local/bin/autoAug.pl
   autoAugPred.pl: /usr/local/bin/autoAugPred.pl
   autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
+  bam2hints: /usr/local/bin/bam2hints

@@ -7,13 +7,4 @@ tags:
   3.2.2--r40_9: sha256:f399d3f669c3e153c49b6e2da6d553d28d9b199b2050c417220ca393b9acfa30
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

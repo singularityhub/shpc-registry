@@ -7,13 +7,4 @@ tags:
   1.0.0--r41hc247a5b_2: sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7
 docker: quay.io/biocontainers/bioconductor-veloviz
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

@@ -9,6 +9,3 @@ docker: quay.io/biocontainers/soapaligner
 aliases:
   2bwt-builder: /usr/local/bin/2bwt-builder
   soap: /usr/local/bin/soap
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

@@ -7,13 +7,12 @@ tags:
   1.5.0--h7ff8a90_0: sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df
 docker: quay.io/biocontainers/racon
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  racon: /usr/local/bin/racon
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  rampler: /usr/local/bin/rampler

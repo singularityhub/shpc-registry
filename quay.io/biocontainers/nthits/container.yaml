@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/nthits
 aliases:
   nthits: /usr/local/bin/nthits
-  env-execute: /usr/local/env-execute

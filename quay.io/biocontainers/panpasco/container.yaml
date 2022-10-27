@@ -15,13 +15,13 @@ aliases:
   panpasco-distance: /usr/local/bin/panpasco-distance
   panpasco-pipeline: /usr/local/bin/panpasco-pipeline
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
   acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
+  annotateBed: /usr/local/bin/annotateBed
+  appletviewer: /usr/local/bin/appletviewer
+  bamToBed: /usr/local/bin/bamToBed

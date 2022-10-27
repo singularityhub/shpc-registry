@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/mcroni
 aliases:
   _gdlib-config: /usr/local/bin/_gdlib-config
   mcroni: /usr/local/bin/mcroni
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   _aaindexextract: /usr/local/bin/_aaindexextract
   _abiview: /usr/local/bin/_abiview
@@ -19,3 +18,4 @@ aliases:
   _acdtrace: /usr/local/bin/_acdtrace
   _acdvalid: /usr/local/bin/_acdvalid
   _antigenic: /usr/local/bin/_antigenic
+  _backtranambig: /usr/local/bin/_backtranambig

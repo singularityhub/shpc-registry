@@ -7,13 +7,11 @@ tags:
   0.9_25--r3.3.2_0: sha256:b0cf454c0a54d567e36ccdffcc0d6bda542619933b84d140a16e4af990172e3a
 docker: quay.io/biocontainers/r-kernlab
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

@@ -8,13 +8,7 @@ tags:
 docker: quay.io/biocontainers/leehom
 aliases:
   leeHom: /usr/local/bin/leeHom
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bamtools: /usr/local/bin/bamtools
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

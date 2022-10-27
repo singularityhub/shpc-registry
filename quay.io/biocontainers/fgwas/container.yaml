@@ -8,8 +8,4 @@ tags:
 docker: quay.io/biocontainers/fgwas
 aliases:
   fgwas: /usr/local/bin/fgwas
-  gsl-config: /usr/local/bin/gsl-config
-  gsl-histogram: /usr/local/bin/gsl-histogram
-  gsl-randist: /usr/local/bin/gsl-randist
   test: /usr/local/bin/test
-  env-execute: /usr/local/env-execute

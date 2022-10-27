@@ -7,13 +7,10 @@ tags:
   4.0.0--r3.2.2_0: sha256:c62012adaaf79c8ffb7320d3e755e2b472b4c2fa1c12851db82d98a37b4ca24f
 docker: quay.io/biocontainers/r-writexls
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

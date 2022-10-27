@@ -7,13 +7,4 @@ tags:
   3.2.2--r40_9: sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

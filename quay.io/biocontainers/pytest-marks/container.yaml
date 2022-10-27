@@ -7,13 +7,13 @@ tags:
   0.4--py36_0: sha256:b9f88c2f9a89a16901c6f128fb075bacd0cecce1f11e1777f797c222d2065d71
 docker: quay.io/biocontainers/pytest-marks
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-3.6: /usr/local/bin/easy_install-3.6
-  idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
+  py.test: /usr/local/bin/py.test
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  pytest: /usr/local/bin/pytest
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config

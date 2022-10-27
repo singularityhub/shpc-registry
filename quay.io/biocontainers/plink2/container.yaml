@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/plink2
 aliases:
   plink2: /usr/local/bin/plink2
-  env-execute: /usr/local/env-execute

@@ -11,4 +11,3 @@ tags:
   2.5.2--hd03093a_0: sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804
 aliases:
   bamtools: /usr/local/bin/bamtools
-  env-execute: /usr/local/env-execute

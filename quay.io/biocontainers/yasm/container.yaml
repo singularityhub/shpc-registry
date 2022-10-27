@@ -10,6 +10,3 @@ aliases:
   vsyasm: /usr/local/bin/vsyasm
   yasm: /usr/local/bin/yasm
   ytasm: /usr/local/bin/ytasm
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

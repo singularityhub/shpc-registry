@@ -7,13 +7,13 @@ tags:
   1.8.0--r40_0: sha256:cc54b9400b1b94792ec23aeb54a20f3fc23c7fd0112daad570ffa93889ec7fba
 docker: quay.io/biocontainers/bioconductor-msstatsqcgui
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy

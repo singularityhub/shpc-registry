@@ -13,7 +13,6 @@ aliases:
   plot_count_stats: /usr/local/bin/plot_count_stats
   plot_window_differences: /usr/local/bin/plot_window_differences
   xyalign: /usr/local/bin/xyalign
-  2to3: /usr/local/bin/2to3
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
   ace2sam: /usr/local/bin/ace2sam
   addadapters.sh: /usr/local/bin/addadapters.sh
@@ -23,3 +22,4 @@ aliases:
   analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
   analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  annotate.py: /usr/local/bin/annotate.py

@@ -11,4 +11,3 @@ aliases:
   clan_index: /usr/local/bin/clan_index
   clan_output: /usr/local/bin/clan_output
   clan_search: /usr/local/bin/clan_search
-  env-execute: /usr/local/env-execute

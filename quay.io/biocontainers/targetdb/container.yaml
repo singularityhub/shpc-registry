@@ -24,13 +24,13 @@ aliases:
   target_DB: /usr/local/bin/target_DB
   tmrdemo: /usr/local/bin/tmrdemo
   tpocket: /usr/local/bin/tpocket
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
   assistant: /usr/local/bin/assistant
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck

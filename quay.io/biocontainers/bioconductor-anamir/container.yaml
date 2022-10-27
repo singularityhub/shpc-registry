@@ -16,6 +16,6 @@ aliases:
   MemParse: /usr/local/bin/MemParse
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
-  R: /usr/local/bin/R
   Redirect: /usr/local/bin/Redirect
-  Rscript: /usr/local/bin/Rscript
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

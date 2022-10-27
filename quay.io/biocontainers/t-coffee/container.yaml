@@ -79,7 +79,6 @@ aliases:
   sfold: /usr/local/bin/sfold
   strain_ml: /usr/local/bin/strain_ml
   treedist: /usr/local/bin/treedist
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   Kinfold: /usr/local/bin/Kinfold
   RNA2Dfold: /usr/local/bin/RNA2Dfold
@@ -89,3 +88,4 @@ aliases:
   RNAaliduplex: /usr/local/bin/RNAaliduplex
   RNAalifold: /usr/local/bin/RNAalifold
   RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance

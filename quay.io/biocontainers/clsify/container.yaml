@@ -81,7 +81,6 @@ aliases:
   vdb-unlock.2.10.0: /usr/local/bin/vdb-unlock.2.10.0
   vdb-validate.2.10.0: /usr/local/bin/vdb-validate.2.10.0
   wiggletools: /usr/local/bin/wiggletools
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
@@ -91,3 +90,4 @@ aliases:
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
   archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp

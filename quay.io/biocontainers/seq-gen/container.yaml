@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/seq-gen
 aliases:
   seq-gen: /usr/local/bin/seq-gen
-  env-execute: /usr/local/env-execute

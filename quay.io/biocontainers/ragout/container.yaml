@@ -13,13 +13,11 @@ aliases:
   ragout-maf2synteny: /usr/local/bin/ragout-maf2synteny
   ragout-overlap: /usr/local/bin/ragout-overlap
   snpEffAnnotate.py: /usr/local/bin/snpEffAnnotate.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

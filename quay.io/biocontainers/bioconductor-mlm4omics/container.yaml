@@ -7,13 +7,4 @@ tags:
   1.2.0--r351hf484d3e_0: sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe
 docker: quay.io/biocontainers/bioconductor-mlm4omics
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

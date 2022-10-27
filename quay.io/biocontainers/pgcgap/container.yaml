@@ -110,7 +110,6 @@ aliases:
   vcfunphase: /usr/local/bin/vcfunphase
   wtdbgConvert: /usr/local/bin/wtdbgConvert
   yapp: /usr/local/bin/yapp
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -120,3 +119,4 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree

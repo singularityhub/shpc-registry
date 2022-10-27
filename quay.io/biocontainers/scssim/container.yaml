@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/scssim
 aliases:
   scssim: /usr/local/bin/scssim
-  env-execute: /usr/local/env-execute

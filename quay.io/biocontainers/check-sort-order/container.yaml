@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/check-sort-order
 aliases:
   check-sort-order: /usr/local/bin/check-sort-order
-  env-execute: /usr/local/env-execute

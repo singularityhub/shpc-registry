@@ -21,13 +21,13 @@ aliases:
   nighthawk: /usr/local/bin/nighthawk
   pancake: /usr/local/bin/pancake
   pblayout: /usr/local/bin/pblayout
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   brotli: /usr/local/bin/brotli
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp

@@ -10,4 +10,3 @@ aliases:
   ripser: /usr/local/bin/ripser
   ripser-coeff: /usr/local/bin/ripser-coeff
   ripser-debug: /usr/local/bin/ripser-debug
-  env-execute: /usr/local/env-execute

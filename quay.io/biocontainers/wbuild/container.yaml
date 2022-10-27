@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/wbuild
 aliases:
   wbuild: /usr/local/bin/wbuild
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   cbc: /usr/local/bin/cbc
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
   clp: /usr/local/bin/clp
-  idle3: /usr/local/bin/idle3
   idle3.9: /usr/local/bin/idle3.9
+  jsonschema: /usr/local/bin/jsonschema
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jupyter-trust: /usr/local/bin/jupyter-trust

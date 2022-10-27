@@ -62,7 +62,6 @@ aliases:
   vdb-unlock.2.10.8: /usr/local/bin/vdb-unlock.2.10.8
   vdb-validate.2.10.8: /usr/local/bin/vdb-validate.2.10.8
   wiggletools: /usr/local/bin/wiggletools
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
@@ -72,3 +71,4 @@ aliases:
   align-info: /usr/local/bin/align-info
   align-info.2: /usr/local/bin/align-info.2
   alignmentSieve: /usr/local/bin/alignmentSieve
+  amino-acid-composition: /usr/local/bin/amino-acid-composition

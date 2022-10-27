@@ -7,13 +7,13 @@ tags:
   22.1.1--pyhdfd78af_0: sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5
 docker: quay.io/biocontainers/galaxy-objectstore
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  cheetah: /usr/local/bin/cheetah
+  cheetah-analyze: /usr/local/bin/cheetah-analyze
+  cheetah-compile: /usr/local/bin/cheetah-compile
+  docutils: /usr/local/bin/docutils
+  futurize: /usr/local/bin/futurize
+  idle3.10: /usr/local/bin/idle3.10
+  normalizer: /usr/local/bin/normalizer
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.10: /usr/local/bin/pydoc3.10

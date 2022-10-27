@@ -7,13 +7,6 @@ tags:
   2.16--pl526_0: sha256:1a970878708fb8cfd34b94d6cfa429a12f51e5c9072d6106eff151f1ebbb0311
 docker: quay.io/biocontainers/perl-html-formatter
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  deactivate: /usr/local/bin/deactivate
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
   htmltree: /usr/local/bin/htmltree
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

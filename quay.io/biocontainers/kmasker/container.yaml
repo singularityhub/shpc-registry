@@ -16,13 +16,13 @@ aliases:
   fastq-stats: /usr/local/bin/fastq-stats
   gffread: /usr/local/bin/gffread
   which: /usr/local/bin/which
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename

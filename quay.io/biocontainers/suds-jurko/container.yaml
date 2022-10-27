@@ -7,13 +7,13 @@ tags:
   0.6--py36_1: sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44
 docker: quay.io/biocontainers/suds-jurko
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
   easy_install-3.6: /usr/local/bin/easy_install-3.6
-  idle3: /usr/local/bin/idle3
   idle3.6: /usr/local/bin/idle3.6
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6
+  tclsh8.5: /usr/local/bin/tclsh8.5

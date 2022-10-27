@@ -12,13 +12,13 @@ aliases:
   evaluate_sample: /usr/local/bin/evaluate_sample
   mi_msi_train_test: /usr/local/bin/mi_msi_train_test
   visualize_instance: /usr/local/bin/visualize_instance
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  ninja: /usr/local/bin/ninja
+  nosetests: /usr/local/bin/nosetests
+  nosetests-3.9: /usr/local/bin/nosetests-3.9

@@ -7,13 +7,5 @@ tags:
   3.0.2--r41h9ee0642_0: sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38
 docker: quay.io/biocontainers/rgccacmd
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

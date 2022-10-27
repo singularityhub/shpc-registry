@@ -14,13 +14,6 @@ aliases:
   dropletutils-read-10x-counts.R: /usr/local/bin/dropletutils-read-10x-counts.R
   dropletutils-scripts-post-install-tests.bats: /usr/local/bin/dropletutils-scripts-post-install-tests.bats
   dropletutils-scripts-post-install-tests.sh: /usr/local/bin/dropletutils-scripts-post-install-tests.sh
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

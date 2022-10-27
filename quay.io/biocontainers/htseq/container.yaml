@@ -7,13 +7,13 @@ tags:
   0.9.1--py37h70f9b12_3: sha256:f10c9c62602ecef7b4c32ed64e506b4dc4d024d3d07aa45498fd18a684c17464
 docker: quay.io/biocontainers/htseq
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  f2py3.7: /usr/local/bin/f2py3.7
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config

@@ -16,8 +16,6 @@ aliases:
   makeWebsite: /usr/local/bin/makeWebsite
   slncky: /usr/local/bin/slncky
   slncky.v1.0: /usr/local/bin/slncky.v1.0
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -26,3 +24,5 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed

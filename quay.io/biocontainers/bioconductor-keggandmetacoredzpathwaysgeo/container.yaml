@@ -7,13 +7,4 @@ tags:
   1.9.0--r40_0: sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89
 docker: quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

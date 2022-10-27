@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/wg-blimp
 aliases:
   wg-blimp: /usr/local/bin/wg-blimp
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  cbc: /usr/local/bin/cbc
+  chardetect: /usr/local/bin/chardetect
+  clp: /usr/local/bin/clp
+  f2py3.9: /usr/local/bin/f2py3.9
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

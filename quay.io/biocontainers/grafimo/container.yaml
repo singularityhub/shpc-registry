@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/grafimo
 aliases:
   grafimo: /usr/local/bin/grafimo
   vg: /usr/local/bin/vg
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
+  bgzip: /usr/local/bin/bgzip
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp

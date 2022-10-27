@@ -11,13 +11,13 @@ aliases:
   nanopolish: /usr/local/bin/nanopolish
   nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
   nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  activate: /usr/local/bin/activate
-  bunzip2: /usr/local/bin/bunzip2
   bwa: /usr/local/bin/bwa
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c2ph: /usr/local/bin/c2ph
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  ed2k-link: /usr/local/bin/ed2k-link
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py

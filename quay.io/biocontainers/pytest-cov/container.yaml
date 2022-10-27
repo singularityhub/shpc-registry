@@ -18,13 +18,9 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
   coverage: /usr/local/bin/coverage
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
-  openssl: /usr/local/bin/openssl
-  pip: /usr/local/bin/pip
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  pyvenv: /usr/local/bin/pyvenv
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

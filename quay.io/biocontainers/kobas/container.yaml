@@ -10,13 +10,13 @@ aliases:
   kobas-annotate: /usr/local/bin/kobas-annotate
   kobas-identify: /usr/local/bin/kobas-identify
   kobas-run: /usr/local/bin/kobas-run
-  2to3: /usr/local/bin/2to3
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
-  autopoint: /usr/local/bin/autopoint
   between-two-genes: /usr/local/bin/between-two-genes
   blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn

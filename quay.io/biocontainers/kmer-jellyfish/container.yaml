@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/kmer-jellyfish
 aliases:
   jellyfish: /usr/local/bin/jellyfish
-  env-execute: /usr/local/env-execute

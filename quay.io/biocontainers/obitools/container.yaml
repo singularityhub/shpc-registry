@@ -41,13 +41,13 @@ aliases:
   obitaxonomy: /usr/local/bin/obitaxonomy
   obiuniq: /usr/local/bin/obiuniq
   oligotag: /usr/local/bin/oligotag
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   idle: /usr/local/bin/idle
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
   iptest: /usr/local/bin/iptest
   iptest2: /usr/local/bin/iptest2
+  ipython: /usr/local/bin/ipython
+  ipython2: /usr/local/bin/ipython2
+  pygmentize: /usr/local/bin/pygmentize
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7

@@ -80,13 +80,13 @@ aliases:
   train_seqstructhmm: /usr/local/bin/train_seqstructhmm
   validate: /usr/local/bin/validate
   visualize_rna.py: /usr/local/bin/visualize_rna.py
-  2to3: /usr/local/bin/2to3
   acyclic: /usr/local/bin/acyclic
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bcomps: /usr/local/bin/bcomps
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

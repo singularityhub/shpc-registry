@@ -7,7 +7,4 @@ tags:
   2.2.6--0: sha256:2fa06e6c6afe001df9a96b14617c5faa4e43e3d6c5df094b21be3052c7496f2d
 docker: quay.io/biocontainers/jellyfish
 aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
   jellyfish: /usr/local/bin/jellyfish

@@ -17,11 +17,11 @@ aliases:
   gff_check: /usr/local/bin/gff_check
   CA.pm: /usr/local/bin/CA.pm
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

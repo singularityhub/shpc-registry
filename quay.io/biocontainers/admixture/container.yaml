@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/admixture
 aliases:
   admixture: /usr/local/bin/admixture
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/repaq
 aliases:
   repaq: /usr/local/bin/repaq
-  env-execute: /usr/local/env-execute

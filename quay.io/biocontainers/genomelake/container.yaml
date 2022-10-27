@@ -9,7 +9,6 @@ docker: quay.io/biocontainers/genomelake
 aliases:
   dask-remote: /usr/local/bin/dask-remote
   dask-submit: /usr/local/bin/dask-submit
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
@@ -19,3 +18,4 @@ aliases:
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

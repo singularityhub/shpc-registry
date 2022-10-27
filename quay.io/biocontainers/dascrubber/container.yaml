@@ -15,4 +15,3 @@ aliases:
   DAStrim: /usr/local/bin/DAStrim
   REPqv: /usr/local/bin/REPqv
   REPtrim: /usr/local/bin/REPtrim
-  env-execute: /usr/local/env-execute

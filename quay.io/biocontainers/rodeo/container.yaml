@@ -24,7 +24,6 @@ aliases:
   streme_xml_to_html: /usr/local/bin/streme_xml_to_html
   tgene: /usr/local/bin/tgene
   timeout_decorator.py: /usr/local/bin/timeout_decorator.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   alimask: /usr/local/bin/alimask
@@ -33,4 +32,5 @@ aliases:
   ama-qvalues: /usr/local/bin/ama-qvalues
   ame: /usr/local/bin/ame
   beeml2meme: /usr/local/bin/beeml2meme
-  c_rehash: /usr/local/bin/c_rehash
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo

@@ -14,6 +14,3 @@ aliases:
   lordec-trim: /usr/local/bin/lordec-trim
   lordec-trim-split: /usr/local/bin/lordec-trim-split
   lorma.sh: /usr/local/bin/lorma.sh
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

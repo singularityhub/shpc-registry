@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fastq-join
 aliases:
   fastq-join: /usr/local/bin/fastq-join
-  env-execute: /usr/local/env-execute

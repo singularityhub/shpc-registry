@@ -22,9 +22,7 @@ aliases:
   merge_gtf_transcripts.py: /usr/local/bin/merge_gtf_transcripts.py
   validate_gtf.pl: /usr/local/bin/validate_gtf.pl
   validate_splice_sites.pl: /usr/local/bin/validate_splice_sites.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  activate: /usr/local/bin/activate
   bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
   bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
   bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
@@ -32,3 +30,5 @@ aliases:
   bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
   bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
   bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
+  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
+  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl

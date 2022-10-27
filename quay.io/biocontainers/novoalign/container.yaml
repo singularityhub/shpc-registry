@@ -31,13 +31,13 @@ aliases:
   prlimit: /usr/local/bin/prlimit
   qcalplot.R: /usr/local/bin/qcalplot.R
   rrbsreference: /usr/local/bin/rrbsreference
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  cal: /usr/local/bin/cal
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg

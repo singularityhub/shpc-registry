@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/svist4get
 aliases:
   svist4get: /usr/local/bin/svist4get
   svist4get_copier: /usr/local/bin/svist4get_copier
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq

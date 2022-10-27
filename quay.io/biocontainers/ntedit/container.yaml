@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/ntedit
 aliases:
   ntedit: /usr/local/bin/ntedit
   nthits: /usr/local/bin/nthits
-  env-execute: /usr/local/env-execute

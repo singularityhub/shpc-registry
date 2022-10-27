@@ -7,13 +7,13 @@ tags:
   0.9.0--py_0: sha256:9816f2cafd651ed9a6ac02e884f2dbf1482a9d5051cc7ee9e15035553c2158e5
 docker: quay.io/biocontainers/pyvolve
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
   conv-template: /usr/local/bin/conv-template
-  deactivate: /usr/local/bin/deactivate
-  easy_install: /usr/local/bin/easy_install
+  from-template: /usr/local/bin/from-template
+  idle3.6: /usr/local/bin/idle3.6
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv: /usr/local/bin/pyvenv

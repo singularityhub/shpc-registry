@@ -7,13 +7,6 @@ tags:
   1.10--pl5321h9ee0642_3: sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810
 docker: quay.io/biocontainers/perl-test-pod-coverage
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  pod_cover: /usr/local/bin/pod_cover
+  podselect: /usr/local/bin/podselect

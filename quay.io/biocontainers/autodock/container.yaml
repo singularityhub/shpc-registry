@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/autodock
 aliases:
   autodock4: /usr/local/bin/autodock4
   autodock4.omp: /usr/local/bin/autodock4.omp
-  env-execute: /usr/local/env-execute

@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/rna-cd
 aliases:
   rna_cd-classify: /usr/local/bin/rna_cd-classify
   rna_cd-train: /usr/local/bin/rna_cd-train
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
+  canbusutil: /usr/local/bin/canbusutil
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

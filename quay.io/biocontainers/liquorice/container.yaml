@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/liquorice
 aliases:
   LIQUORICE: /usr/local/bin/LIQUORICE
   LIQUORICE_summary: /usr/local/bin/LIQUORICE_summary
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alignmentSieve: /usr/local/bin/alignmentSieve
   annotateBed: /usr/local/bin/annotateBed
   bamCompare: /usr/local/bin/bamCompare
   bamCoverage: /usr/local/bin/bamCoverage
   bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

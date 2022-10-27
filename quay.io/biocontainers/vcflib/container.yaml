@@ -7,13 +7,13 @@ tags:
   1.0.3--ha04fe3b_2: sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3
 docker: quay.io/biocontainers/vcflib
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   abba-baba: /usr/local/bin/abba-baba
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bFst: /usr/local/bin/bFst
   bc: /usr/local/bin/bc
   bed2region: /usr/local/bin/bed2region
+  bgzip: /usr/local/bin/bgzip
+  bgziptabix: /usr/local/bin/bgziptabix
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

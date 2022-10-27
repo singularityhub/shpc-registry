@@ -19,13 +19,13 @@ aliases:
   KmerInShort: /usr/local/bin/KmerInShort
   fasta_ushuffle: /usr/local/bin/fasta_ushuffle
   ushuffle: /usr/local/bin/ushuffle
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl

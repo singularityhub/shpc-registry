@@ -9,13 +9,9 @@ docker: quay.io/biocontainers/malva
 aliases:
   MALVA: /usr/local/bin/MALVA
   malva-geno: /usr/local/bin/malva-geno
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  htsfile: /usr/local/bin/htsfile
+  kmc: /usr/local/bin/kmc
+  kmc_dump: /usr/local/bin/kmc_dump
+  kmc_tools: /usr/local/bin/kmc_tools
+  tabix: /usr/local/bin/tabix

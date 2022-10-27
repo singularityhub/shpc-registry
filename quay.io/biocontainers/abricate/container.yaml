@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/abricate
 aliases:
   abricate: /usr/local/bin/abricate
   abricate-get_db: /usr/local/bin/abricate-get_db
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  any2fasta: /usr/local/bin/any2fasta
+  archive-pubmed: /usr/local/bin/archive-pubmed

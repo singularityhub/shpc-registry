@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/veryfasttree
 aliases:
   VeryFastTree: /usr/local/bin/VeryFastTree
-  env-execute: /usr/local/env-execute

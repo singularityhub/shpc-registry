@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/suma_package
 aliases:
   sumaclust: /usr/local/bin/sumaclust
   sumatra: /usr/local/bin/sumatra
-  env-execute: /usr/local/env-execute

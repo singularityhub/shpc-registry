@@ -10,11 +10,11 @@ aliases:
   msalign2: /usr/local/bin/msalign2
   annotate: /usr/local/bin/annotate
   bdftogd: /usr/local/bin/bdftogd
-  cjpeg: /usr/local/bin/cjpeg
   cwebp: /usr/local/bin/cwebp
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
   dwebp: /usr/local/bin/dwebp
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  fc-cache: /usr/local/bin/fc-cache
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng

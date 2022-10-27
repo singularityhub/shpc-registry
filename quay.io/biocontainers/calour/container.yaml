@@ -75,13 +75,13 @@ aliases:
   sip-sdist: /usr/local/bin/sip-sdist
   sip-wheel: /usr/local/bin/sip-wheel
   tracegen: /usr/local/bin/tracegen
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   biom: /usr/local/bin/biom
   brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  cups-config: /usr/local/bin/cups-config
+  curve_keygen: /usr/local/bin/curve_keygen
+  cwebp: /usr/local/bin/cwebp

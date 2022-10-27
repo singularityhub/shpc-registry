@@ -18,7 +18,6 @@ aliases:
   mccortex95: /usr/local/bin/mccortex95
   nextflow: /usr/local/bin/nextflow
   nextflow.bak: /usr/local/bin/nextflow.bak
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   appletviewer: /usr/local/bin/appletviewer
   b2sum: /usr/local/bin/b2sum
@@ -27,4 +26,5 @@ aliases:
   basename: /usr/local/bin/basename
   basenc: /usr/local/bin/basenc
   bwa: /usr/local/bin/bwa
-  c_rehash: /usr/local/bin/c_rehash
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon

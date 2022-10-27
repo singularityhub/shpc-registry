@@ -88,7 +88,6 @@ aliases:
   validate_reads_blat.o: /usr/local/bin/validate_reads_blat.o
   validate_rna: /usr/local/bin/validate_rna
   validate_rna.o: /usr/local/bin/validate_rna.o
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
@@ -98,3 +97,4 @@ aliases:
   axt_to_maf.py: /usr/local/bin/axt_to_maf.py
   bcftools: /usr/local/bin/bcftools
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
+  bed_build_windows.py: /usr/local/bin/bed_build_windows.py

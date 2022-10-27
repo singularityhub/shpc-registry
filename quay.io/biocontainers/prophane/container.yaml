@@ -18,13 +18,13 @@ aliases:
   prophane: /usr/local/bin/prophane
   repo2solv: /usr/local/bin/repo2solv
   testsolv: /usr/local/bin/testsolv
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  cbc: /usr/local/bin/cbc
+  chardetect: /usr/local/bin/chardetect
+  clp: /usr/local/bin/clp
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  jsonschema: /usr/local/bin/jsonschema

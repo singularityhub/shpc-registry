@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fingerprintscan
 aliases:
   fingerPRINTScan: /usr/local/bin/fingerPRINTScan
-  env-execute: /usr/local/env-execute

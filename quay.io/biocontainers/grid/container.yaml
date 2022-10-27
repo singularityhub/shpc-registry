@@ -11,13 +11,13 @@ aliases:
   mosdepth: /usr/local/bin/mosdepth
   pathoscope: /usr/local/bin/pathoscope
   update_database: /usr/local/bin/update_database
-  2to3: /usr/local/bin/2to3
   CA.pm: /usr/local/bin/CA.pm
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamtools: /usr/local/bin/bamtools

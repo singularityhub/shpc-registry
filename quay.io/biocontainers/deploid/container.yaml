@@ -9,6 +9,3 @@ docker: quay.io/biocontainers/deploid
 aliases:
   dEploid: /usr/local/bin/dEploid
   dEploid_dbg: /usr/local/bin/dEploid_dbg
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

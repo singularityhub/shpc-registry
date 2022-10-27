@@ -13,13 +13,13 @@ aliases:
   gtfutils: /usr/local/bin/gtfutils
   ngsutils: /usr/local/bin/ngsutils
   swalign: /usr/local/bin/swalign
-  2to3: /usr/local/bin/2to3
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  coverage: /usr/local/bin/coverage
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  idle: /usr/local/bin/idle
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl

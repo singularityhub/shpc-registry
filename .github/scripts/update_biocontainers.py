@@ -51,7 +51,18 @@ def get_parser():
     parser.add_argument("--registry", help="Path to registry root.", default=root)
     parser.add_argument("--maintainer", help="Author", default="@vsoch")
     parser.add_argument(
-        "--min-count-inclusion", help="Author", default=10, type=int, dest="min_count"
+        "--min-count-inclusion",
+        help="Include all executables under this count",
+        default=10,
+        type=int,
+        dest="min_count",
+    )
+    parser.add_argument(
+        "--max-count-inclusion",
+        help="Do not include counts over this value",
+        default=1000,
+        type=int,
+        dest="max_count",
     )
     parser.add_argument(
         "--additional-count-inclusion",
@@ -134,8 +145,8 @@ def main():
         image = "quay.io/biocontainers/%s" % image
 
         container_dir = os.path.join(args.registry, image)
-        if os.path.exists(container_dir):
-            continue
+        #if os.path.exists(container_dir):
+        #    continue
 
         print(f"Image {image} found in cache and not in registry!")
         aliases = shpc.utils.read_json(entry)
@@ -156,7 +167,7 @@ def main():
 
         while add_count > 0 and sorted_counts:
             keeper = sorted_counts.pop(0)
-            if include_path(keeper):
+            if include_path(keeper) and counts[keeper] < args.max_count:
                 keepers[keeper] = aliases[keeper]
                 add_count -= 1
 

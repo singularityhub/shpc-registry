@@ -25,13 +25,13 @@ aliases:
   vep_install: /usr/local/bin/vep_install
   wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
   zlib_decompress: /usr/local/bin/zlib_decompress
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg

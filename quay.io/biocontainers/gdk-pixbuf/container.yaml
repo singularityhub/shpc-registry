@@ -7,13 +7,11 @@ tags:
   2.32.2--1: sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5
 docker: quay.io/biocontainers/gdk-pixbuf
 aliases:
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  cjpeg: /usr/local/bin/cjpeg
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  djpeg: /usr/local/bin/djpeg
-  envsubst: /usr/local/bin/envsubst
   g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
   g-ir-compiler: /usr/local/bin/g-ir-compiler
   g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders

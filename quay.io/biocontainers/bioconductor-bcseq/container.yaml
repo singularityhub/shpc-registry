@@ -7,13 +7,4 @@ tags:
   1.8.0--r36he1b5a44_0: sha256:358cb61a6df6c6913683df60e5ebacfd19ad4ddfac20e02053460ba49c4bf03d
 docker: quay.io/biocontainers/bioconductor-bcseq
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

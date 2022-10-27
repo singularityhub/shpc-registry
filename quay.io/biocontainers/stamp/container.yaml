@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/stamp
 aliases:
   STAMP: /usr/local/bin/STAMP
   checkHierarchy.py: /usr/local/bin/checkHierarchy.py
-  2to3: /usr/local/bin/2to3
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   biom: /usr/local/bin/biom
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  derb: /usr/local/bin/derb
+  designer: /usr/local/bin/designer
+  futurize: /usr/local/bin/futurize
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle: /usr/local/bin/idle
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease
+  lupdate: /usr/local/bin/lupdate

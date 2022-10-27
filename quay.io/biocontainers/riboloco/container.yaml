@@ -10,13 +10,13 @@ aliases:
   riboloco: /usr/local/bin/riboloco
   riboloco_convert_gtf: /usr/local/bin/riboloco_convert_gtf
   riboloco_find_orfs: /usr/local/bin/riboloco_find_orfs
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  idle3.9: /usr/local/bin/idle3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pydoc3.9: /usr/local/bin/pydoc3.9

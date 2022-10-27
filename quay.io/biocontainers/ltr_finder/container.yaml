@@ -18,10 +18,10 @@ aliases:
   annotate: /usr/local/bin/annotate
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
-  cjpeg: /usr/local/bin/cjpeg
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cwebp: /usr/local/bin/cwebp
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
   dwebp: /usr/local/bin/dwebp
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng

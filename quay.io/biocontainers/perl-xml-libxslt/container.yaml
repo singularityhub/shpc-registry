@@ -7,13 +7,6 @@ tags:
   2.002000--pl5321hec16e2b_1: sha256:d6537980923761e3987021808ce0f0b8a44cdfbd49da8d68d99c345697faaf79
 docker: quay.io/biocontainers/perl-xml-libxslt
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  derb: /usr/local/bin/derb
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

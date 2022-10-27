@@ -52,13 +52,13 @@ aliases:
   or02_find_orthologs.py: /usr/local/bin/or02_find_orthologs.py
   orthology_pipeline: /usr/local/bin/orthology_pipeline
   show: /usr/local/bin/show
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   CA.pm: /usr/local/bin/CA.pm
   FastTree: /usr/local/bin/FastTree
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
   FastTreeMP: /usr/local/bin/FastTreeMP
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls

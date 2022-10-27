@@ -10,13 +10,13 @@ aliases:
   gunicorn: /usr/local/bin/gunicorn
   slugify: /usr/local/bin/slugify
   stream_run_test: /usr/local/bin/stream_run_test
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  canbusutil: /usr/local/bin/canbusutil
+  curve_keygen: /usr/local/bin/curve_keygen
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor

@@ -64,13 +64,13 @@ aliases:
   uniform_search_unit_test: /usr/local/bin/uniform_search_unit_test
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp

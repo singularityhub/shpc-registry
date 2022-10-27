@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/metaquantome
 aliases:
   metaquantome: /usr/local/bin/metaquantome
   write_hierarchy.py: /usr/local/bin/write_hierarchy.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   acyclic: /usr/local/bin/acyclic
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  canbusutil: /usr/local/bin/canbusutil
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

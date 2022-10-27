@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/cgmlst-dists
 aliases:
   cgmlst-dists: /usr/local/bin/cgmlst-dists
-  env-execute: /usr/local/env-execute

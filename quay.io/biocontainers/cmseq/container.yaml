@@ -12,13 +12,13 @@ aliases:
   consensus_aDNA.py: /usr/local/bin/consensus_aDNA.py
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  ahost: /usr/local/bin/ahost
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
+  bed_build_windows.py: /usr/local/bin/bed_build_windows.py

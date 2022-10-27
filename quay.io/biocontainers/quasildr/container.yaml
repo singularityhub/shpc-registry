@@ -9,13 +9,12 @@ docker: quay.io/biocontainers/quasildr
 aliases:
   run_graphdr.py: /usr/local/bin/run_graphdr.py
   run_structdr.py: /usr/local/bin/run_structdr.py
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  djpeg: /usr/local/bin/djpeg
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
+  get_objgraph: /usr/local/bin/get_objgraph
+  numba: /usr/local/bin/numba
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pybind11-config: /usr/local/bin/pybind11-config
+  pycc: /usr/local/bin/pycc
+  undill: /usr/local/bin/undill

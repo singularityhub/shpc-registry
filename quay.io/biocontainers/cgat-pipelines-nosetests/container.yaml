@@ -52,13 +52,13 @@ aliases:
   replace: /usr/local/bin/replace
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   annotate.py: /usr/local/bin/annotate.py
   annotateBed: /usr/local/bin/annotateBed
   assistant: /usr/local/bin/assistant
   bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig

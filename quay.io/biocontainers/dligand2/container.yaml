@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/dligand2
 aliases:
   dligand2: /usr/local/bin/dligand2
-  env-execute: /usr/local/env-execute

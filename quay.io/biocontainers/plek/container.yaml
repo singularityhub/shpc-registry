@@ -19,13 +19,11 @@ aliases:
   svm-subset.py: /usr/local/bin/svm-subset.py
   svm_grid_modelling.py: /usr/local/bin/svm_grid_modelling.py
   svm_grid_modelling_singlet.py: /usr/local/bin/svm_grid_modelling_singlet.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train

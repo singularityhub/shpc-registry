@@ -7,13 +7,5 @@ tags:
   1.75--pl5321hdfd78af_1: sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae
 docker: quay.io/biocontainers/perl-datetime-format-strptime
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

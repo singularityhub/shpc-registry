@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/assemblytics
 aliases:
   Assemblytics: /usr/local/bin/Assemblytics
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  mapview: /usr/local/bin/mapview

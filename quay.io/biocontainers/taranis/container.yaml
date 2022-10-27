@@ -17,13 +17,13 @@ aliases:
   reference_alleles.py: /usr/local/bin/reference_alleles.py
   taranis.py: /usr/local/bin/taranis.py
   taranis_configuration.py: /usr/local/bin/taranis_configuration.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   CA.pm: /usr/local/bin/CA.pm
   LICENSE: /usr/local/bin/LICENSE
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace.pl: /usr/local/bin/ace.pl
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate

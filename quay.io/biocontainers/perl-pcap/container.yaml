@@ -24,9 +24,6 @@ aliases:
   ppi2html: /usr/local/bin/ppi2html
   xam_coverage_bins.pl: /usr/local/bin/xam_coverage_bins.pl
   xml_to_bas.pl: /usr/local/bin/xml_to_bas.pl
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
@@ -34,3 +31,6 @@ aliases:
   bgzip: /usr/local/bin/bgzip
   bp_aacomp: /usr/local/bin/bp_aacomp
   bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq

@@ -7,7 +7,6 @@ tags:
   2.8.0--h7ca0330_3: sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729
 docker: quay.io/biocontainers/libopenms
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
@@ -17,3 +16,4 @@ aliases:
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
   Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count

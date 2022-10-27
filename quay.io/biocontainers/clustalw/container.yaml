@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/clustalw
 aliases:
   clustalw: /usr/local/bin/clustalw
   clustalw2: /usr/local/bin/clustalw2
-  env-execute: /usr/local/env-execute

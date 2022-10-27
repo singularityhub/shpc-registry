@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/vcfanno
 aliases:
   vcfanno: /usr/local/bin/vcfanno
-  env-execute: /usr/local/env-execute

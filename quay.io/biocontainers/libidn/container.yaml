@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/libidn
 aliases:
   idn: /usr/local/bin/idn
-  env-execute: /usr/local/env-execute

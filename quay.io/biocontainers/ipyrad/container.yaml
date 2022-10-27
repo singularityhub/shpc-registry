@@ -11,7 +11,6 @@ aliases:
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
   ipyrad: /usr/local/bin/ipyrad
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
   annotateBed: /usr/local/bin/annotateBed
@@ -21,3 +20,4 @@ aliases:
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

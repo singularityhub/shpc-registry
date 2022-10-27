@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/deepmased
 aliases:
   DeepMAsED: /usr/local/bin/DeepMAsED
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm

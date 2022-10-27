@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/deltabs
 aliases:
   buildCustomModels.pl: /usr/local/bin/buildCustomModels.pl
   deltaBS.pl: /usr/local/bin/deltaBS.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   ace.pl: /usr/local/bin/ace.pl
   acyclic: /usr/local/bin/acyclic
   alimask: /usr/local/bin/alimask
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bam2bedgraph: /usr/local/bin/bam2bedgraph
   bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg

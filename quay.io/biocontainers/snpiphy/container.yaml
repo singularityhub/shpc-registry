@@ -14,7 +14,6 @@ aliases:
   snippy-vcf_extract_subs: /usr/local/bin/snippy-vcf_extract_subs
   snpiphy: /usr/local/bin/snpiphy
   snpiphy_generate_input_list: /usr/local/bin/snpiphy_generate_input_list
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   FastTree: /usr/local/bin/FastTree
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
@@ -23,4 +22,5 @@ aliases:
   abba-baba: /usr/local/bin/abba-baba
   ace.pl: /usr/local/bin/ace.pl
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate

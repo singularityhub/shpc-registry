@@ -43,13 +43,13 @@ aliases:
   run_expr_quantification_from_samples_file.pl: /usr/local/bin/run_expr_quantification_from_samples_file.pl
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   webserver-results.body: /usr/local/bin/webserver-results.body
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
   acyclic: /usr/local/bin/acyclic
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp

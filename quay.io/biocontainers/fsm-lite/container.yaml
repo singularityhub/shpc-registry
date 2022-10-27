@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fsm-lite
 aliases:
   fsm-lite: /usr/local/bin/fsm-lite
-  env-execute: /usr/local/env-execute

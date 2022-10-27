@@ -7,13 +7,8 @@ tags:
   2.8.0--r3.4.1_1: sha256:56ec8558a11756a965cd4a986c572020d91f929b7f3d38c6ce1bbc55f21f0aca
 docker: quay.io/biocontainers/bioconductor-bubbletree
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  wget: /usr/local/bin/wget

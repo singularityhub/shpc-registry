@@ -34,13 +34,13 @@ aliases:
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
   update_version.sh: /usr/local/bin/update_version.sh
   vcftools: /usr/local/bin/vcftools
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   FET.pl: /usr/local/bin/FET.pl
   abba-baba: /usr/local/bin/abba-baba
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
   annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  b2sum: /usr/local/bin/b2sum
+  bFst: /usr/local/bin/bFst

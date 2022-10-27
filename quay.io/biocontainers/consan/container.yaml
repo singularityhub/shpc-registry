@@ -15,4 +15,3 @@ aliases:
   scompare: /usr/local/bin/scompare
   sfold: /usr/local/bin/sfold
   strain_ml: /usr/local/bin/strain_ml
-  env-execute: /usr/local/env-execute

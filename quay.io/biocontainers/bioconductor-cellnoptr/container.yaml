@@ -7,13 +7,13 @@ tags:
   1.40.0--r41hc0cfd56_2: sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930
 docker: quay.io/biocontainers/bioconductor-cellnoptr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

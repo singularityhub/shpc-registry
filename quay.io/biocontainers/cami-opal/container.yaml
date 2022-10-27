@@ -12,13 +12,13 @@ aliases:
   opal_workflow.py: /usr/local/bin/opal_workflow.py
   setup.py: /usr/local/bin/setup.py
   version.py: /usr/local/bin/version.py
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   bokeh: /usr/local/bin/bokeh
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  chardetect: /usr/local/bin/chardetect
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  dendropy-format: /usr/local/bin/dendropy-format
+  doesitcache: /usr/local/bin/doesitcache
+  f2py3.7: /usr/local/bin/f2py3.7
+  gif2h5: /usr/local/bin/gif2h5

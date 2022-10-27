@@ -15,13 +15,13 @@ aliases:
   Aquila_step1: /usr/local/bin/Aquila_step1
   Aquila_step1_multilibs: /usr/local/bin/Aquila_step1_multilibs
   Aquila_step2: /usr/local/bin/Aquila_step2
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  k8: /usr/local/bin/k8
+  maq2sam-long: /usr/local/bin/maq2sam-long

@@ -83,13 +83,13 @@ aliases:
   tcsh: /usr/local/bin/tcsh
   watchgnupg: /usr/local/bin/watchgnupg
   yat2m: /usr/local/bin/yat2m
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_convert: /usr/local/bin/db_convert
+  db_deadlock: /usr/local/bin/db_deadlock
+  db_dump: /usr/local/bin/db_dump

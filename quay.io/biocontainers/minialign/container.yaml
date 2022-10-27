@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/minialign
 aliases:
   minialign: /usr/local/bin/minialign
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

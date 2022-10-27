@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/scar
 aliases:
   scar: /usr/local/bin/scar
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  docutils: /usr/local/bin/docutils
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin

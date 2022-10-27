@@ -7,13 +7,4 @@ tags:
   1.8.1--r351hf484d3e_0: sha256:3a3a684038fd108122b90779b87c072b00e695b54e59c223c3d94060a9c51b28
 docker: quay.io/biocontainers/bioconductor-chromstar
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

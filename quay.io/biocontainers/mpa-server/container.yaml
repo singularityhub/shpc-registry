@@ -26,13 +26,13 @@ aliases:
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
   zlib_decompress: /usr/local/bin/zlib_decompress
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   appletviewer: /usr/local/bin/appletviewer
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
   clhsdb: /usr/local/bin/clhsdb
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
+  extcheck: /usr/local/bin/extcheck
+  hsdb: /usr/local/bin/hsdb
+  idle3.9: /usr/local/bin/idle3.9
+  idlj: /usr/local/bin/idlj
+  innochecksum: /usr/local/bin/innochecksum
+  jar: /usr/local/bin/jar

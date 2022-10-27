@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/fastool
 aliases:
   fastool: /usr/local/bin/fastool
-  env-execute: /usr/local/env-execute

@@ -9,11 +9,11 @@ docker: quay.io/biocontainers/perl-graphviz
 aliases:
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
-  cairo-trace: /usr/local/bin/cairo-trace
   ccomps: /usr/local/bin/ccomps
   circo: /usr/local/bin/circo
-  cjpeg: /usr/local/bin/cjpeg
   cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

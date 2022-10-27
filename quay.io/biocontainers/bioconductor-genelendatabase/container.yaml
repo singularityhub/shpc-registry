@@ -7,13 +7,11 @@ tags:
   1.6.0--0: sha256:6e8ba0ba3f8f2ac56bd018c2e43d20112ab3f5427f4a2c3290ed3c265ec3143c
 docker: quay.io/biocontainers/bioconductor-genelendatabase
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

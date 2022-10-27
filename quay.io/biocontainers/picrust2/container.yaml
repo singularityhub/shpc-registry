@@ -28,13 +28,13 @@ aliases:
   seppJsonMerger.jar: /usr/local/bin/seppJsonMerger.jar
   shuffle_predictions.py: /usr/local/bin/shuffle_predictions.py
   split_sequences.py: /usr/local/bin/split_sequences.py
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   alimask: /usr/local/bin/alimask
-  autopoint: /usr/local/bin/autopoint
   biom: /usr/local/bin/biom
+  coverage: /usr/local/bin/coverage
+  dendropy-format: /usr/local/bin/dendropy-format
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  glpsol: /usr/local/bin/glpsol
+  guppy: /usr/local/bin/guppy

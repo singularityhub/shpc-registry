@@ -19,13 +19,13 @@ aliases:
   pashToLff.rb: /usr/local/bin/pashToLff.rb
   pprof: /usr/local/bin/pprof
   splitFastq.rb: /usr/local/bin/splitFastq.rb
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  envsubst: /usr/local/bin/envsubst
   erb: /usr/local/bin/erb
-  gapplication: /usr/local/bin/gapplication
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby

@@ -7,13 +7,6 @@ tags:
   3.7.0--r351_0: sha256:cca73e888c41ccb34ae00219501179ae5036621a21fc9ace4de684c67690a766
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.grch38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  wget: /usr/local/bin/wget

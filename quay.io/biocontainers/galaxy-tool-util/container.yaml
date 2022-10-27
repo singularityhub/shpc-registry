@@ -12,13 +12,13 @@ aliases:
   cheetah-compile: /usr/local/bin/cheetah-compile
   mulled-list: /usr/local/bin/mulled-list
   mulled-update-singularity-containers: /usr/local/bin/mulled-update-singularity-containers
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
   conda-env: /usr/local/bin/conda-env
   cph: /usr/local/bin/cph
+  futurize: /usr/local/bin/futurize
+  galaxy-tool-test: /usr/local/bin/galaxy-tool-test
+  idle3.9: /usr/local/bin/idle3.9
+  mulled-build: /usr/local/bin/mulled-build
+  mulled-build-channel: /usr/local/bin/mulled-build-channel
+  mulled-build-files: /usr/local/bin/mulled-build-files

@@ -47,7 +47,6 @@ aliases:
   toil-wdl-runner: /usr/local/bin/toil-wdl-runner
   transMapPslToGenePred: /usr/local/bin/transMapPslToGenePred
   webserver-results.body: /usr/local/bin/webserver-results.body
-  2to3: /usr/local/bin/2to3
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   ace2sam: /usr/local/bin/ace2sam
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
@@ -57,3 +56,4 @@ aliases:
   augustus: /usr/local/bin/augustus
   augustus2browser.pl: /usr/local/bin/augustus2browser.pl
   augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
+  autoAug.pl: /usr/local/bin/autoAug.pl

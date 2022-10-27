@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/nextalign
 aliases:
   nextalign: /usr/local/bin/nextalign
-  env-execute: /usr/local/env-execute

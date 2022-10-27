@@ -7,13 +7,13 @@ tags:
   5.29.8--py_0: sha256:b1a477d345da2dbeb2c47f560cc75648aca2ef585d6d8c1906efc94e28f51b0d
 docker: quay.io/biocontainers/seqlogo
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   dvipdf: /usr/local/bin/dvipdf
-  easy_install: /usr/local/bin/easy_install
   eps2eps: /usr/local/bin/eps2eps
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
+  f2py3.8: /usr/local/bin/f2py3.8
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500
+  gslj: /usr/local/bin/gslj
+  gslp: /usr/local/bin/gslp

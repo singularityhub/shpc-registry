@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/scirpy
 aliases:
   airr-tools: /usr/local/bin/airr-tools
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  chardetect: /usr/local/bin/chardetect
+  cmpfillin: /usr/local/bin/cmpfillin
+  dunamai: /usr/local/bin/dunamai
+  f2py3.9: /usr/local/bin/f2py3.9
+  gif2h5: /usr/local/bin/gif2h5
+  glpsol: /usr/local/bin/glpsol
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  h52gif: /usr/local/bin/h52gif

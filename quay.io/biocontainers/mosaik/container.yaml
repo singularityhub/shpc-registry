@@ -11,6 +11,3 @@ aliases:
   MosaikBuild: /usr/local/bin/MosaikBuild
   MosaikJump: /usr/local/bin/MosaikJump
   MosaikText: /usr/local/bin/MosaikText
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

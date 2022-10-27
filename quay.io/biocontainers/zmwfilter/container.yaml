@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/zmwfilter
 aliases:
   zmwfilter: /usr/local/bin/zmwfilter
-  env-execute: /usr/local/env-execute

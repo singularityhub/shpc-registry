@@ -8,6 +8,3 @@ tags:
 docker: quay.io/biocontainers/log4cpp
 aliases:
   log4cpp-config: /usr/local/bin/log4cpp-config
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

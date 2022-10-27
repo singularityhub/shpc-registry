@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/rnasnp
 aliases:
   RNAsnp: /usr/local/bin/RNAsnp
-  env-execute: /usr/local/env-execute

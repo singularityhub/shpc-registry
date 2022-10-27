@@ -7,13 +7,4 @@ tags:
   1.2.0--r41hc0cfd56_2: sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f
 docker: quay.io/biocontainers/bioconductor-feast
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

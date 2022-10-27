@@ -11,13 +11,9 @@ tags:
   0.8.1--h41abebc_0: sha256:69c2510f3f5bafe3e14aee763ef437f2e70805f1b18d07e97fec7e61ef52375d
   0.8.2--h98b6b92_2: sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073
 aliases:
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
-  bzip2recover: /usr/local/bin/bzip2recover
-  bzless: /usr/local/bin/bzless
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
+  sambamba: /usr/local/bin/sambamba

@@ -17,9 +17,7 @@ aliases:
   pureclip: /usr/local/bin/pureclip
   winextract: /usr/local/bin/winextract
   xsltproc_lite: /usr/local/bin/xsltproc_lite
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
@@ -27,3 +25,5 @@ aliases:
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

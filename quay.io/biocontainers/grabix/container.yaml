@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/grabix
 aliases:
   grabix: /usr/local/bin/grabix
-  env-execute: /usr/local/env-execute

@@ -24,6 +24,3 @@ aliases:
   qtofpeakpicker: /usr/local/bin/qtofpeakpicker
   sldout: /usr/local/bin/sldout
   txt2mzml: /usr/local/bin/txt2mzml
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

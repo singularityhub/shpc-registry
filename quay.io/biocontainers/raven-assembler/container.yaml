@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/raven-assembler
 aliases:
   raven: /usr/local/bin/raven
-  env-execute: /usr/local/env-execute

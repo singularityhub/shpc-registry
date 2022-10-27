@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/kopt
 aliases:
   hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
+  f2py3.7: /usr/local/bin/f2py3.7
+  freeze_graph: /usr/local/bin/freeze_graph
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

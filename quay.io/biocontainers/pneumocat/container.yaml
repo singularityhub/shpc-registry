@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/pneumocat
 aliases:
   PneumoCaT.py: /usr/local/bin/PneumoCaT.py
-  2to3: /usr/local/bin/2to3
   bcftools: /usr/local/bin/bcftools
   bgzip: /usr/local/bin/bgzip
   bowtie2: /usr/local/bin/bowtie2
@@ -18,3 +17,4 @@ aliases:
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
   bowtie2-build-s: /usr/local/bin/bowtie2-build-s
   bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l

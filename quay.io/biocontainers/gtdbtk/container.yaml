@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/gtdbtk
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh
   gtdbtk: /usr/local/bin/gtdbtk
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
   FastTree: /usr/local/bin/FastTree
   FastTreeMP: /usr/local/bin/FastTreeMP
   alimask: /usr/local/bin/alimask
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  dendropy-format: /usr/local/bin/dendropy-format
+  f2py3.8: /usr/local/bin/f2py3.8

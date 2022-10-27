@@ -7,13 +7,9 @@ tags:
   1.6.16--r3.2.2_0: sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6
 docker: quay.io/biocontainers/r-venndiagram
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

@@ -17,13 +17,13 @@ aliases:
   prt_terms.py: /usr/local/bin/prt_terms.py
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   acyclic: /usr/local/bin/acyclic
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
   bcomps: /usr/local/bin/bcomps
   bdftogd: /usr/local/bin/bdftogd
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay

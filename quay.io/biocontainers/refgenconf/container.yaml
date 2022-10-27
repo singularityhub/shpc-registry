@@ -7,13 +7,13 @@ tags:
   0.9.3--pyh3252c3a_0: sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4
 docker: quay.io/biocontainers/refgenconf
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   futurize: /usr/local/bin/futurize
-  idle3: /usr/local/bin/idle3
   idle3.8: /usr/local/bin/idle3.8
+  pasteurize: /usr/local/bin/pasteurize
+  py.test: /usr/local/bin/py.test
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  pytest: /usr/local/bin/pytest
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

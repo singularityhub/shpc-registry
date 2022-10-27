@@ -7,13 +7,4 @@ tags:
   1.8.0--r351_0: sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a
 docker: quay.io/biocontainers/bioconductor-splinter
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

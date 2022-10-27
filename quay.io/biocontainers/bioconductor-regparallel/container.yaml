@@ -7,13 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82
 docker: quay.io/biocontainers/bioconductor-regparallel
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

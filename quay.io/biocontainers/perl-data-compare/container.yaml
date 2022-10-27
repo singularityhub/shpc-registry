@@ -7,13 +7,4 @@ tags:
   1.25--pl5321hdfd78af_1: sha256:edf2b0aea60244c7513ae107d64a4df4c9c031cc94722c9a940c847048f8e13b
 docker: quay.io/biocontainers/perl-data-compare
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   findrule: /usr/local/bin/findrule
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg

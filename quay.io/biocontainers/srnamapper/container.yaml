@@ -8,5 +8,3 @@ tags:
 docker: quay.io/biocontainers/srnamapper
 aliases:
   srnaMapper: /usr/local/bin/srnaMapper
-  make: /usr/local/bin/make
-  env-execute: /usr/local/env-execute

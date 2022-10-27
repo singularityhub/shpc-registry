@@ -17,13 +17,13 @@ aliases:
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
   vbc: /usr/local/bin/vbc
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust

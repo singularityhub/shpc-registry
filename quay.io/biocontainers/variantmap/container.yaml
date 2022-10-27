@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/variantmap
 aliases:
   variantmap_app.py: /usr/local/bin/variantmap_app.py
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  f2py3.9: /usr/local/bin/f2py3.9
+  flask: /usr/local/bin/flask
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy

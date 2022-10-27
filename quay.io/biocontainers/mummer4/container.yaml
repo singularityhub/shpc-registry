@@ -9,11 +9,11 @@ docker: quay.io/biocontainers/mummer4
 aliases:
   annotate: /usr/local/bin/annotate
   combineMUMs: /usr/local/bin/combineMUMs
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   delta-filter: /usr/local/bin/delta-filter
   delta2vcf: /usr/local/bin/delta2vcf
   dnadiff: /usr/local/bin/dnadiff
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   exact-tandems: /usr/local/bin/exact-tandems
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer
+  promer: /usr/local/bin/promer

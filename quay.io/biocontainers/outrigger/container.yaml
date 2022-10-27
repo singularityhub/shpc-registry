@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/outrigger
 aliases:
   outrigger: /usr/local/bin/outrigger
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   annotate.py: /usr/local/bin/annotate.py
@@ -18,3 +17,4 @@ aliases:
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

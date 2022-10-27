@@ -10,13 +10,5 @@ aliases:
   gawk-4.1.3: /usr/local/bin/gawk-4.1.3
   igawk: /usr/local/bin/igawk
   trumicount: /usr/local/bin/trumicount
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  gawk: /usr/local/bin/gawk

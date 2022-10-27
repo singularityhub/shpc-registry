@@ -33,13 +33,13 @@ aliases:
   go2text_html: /usr/local/bin/go2text_html
   go2xml: /usr/local/bin/go2xml
   map2slim: /usr/local/bin/map2slim
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  derb: /usr/local/bin/derb
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  genbrk: /usr/local/bin/genbrk
-  gencfu: /usr/local/bin/gencfu
-  gencnval: /usr/local/bin/gencnval
-  gendict: /usr/local/bin/gendict
-  genrb: /usr/local/bin/genrb
+  json_xs: /usr/local/bin/json_xs
+  stag-autoschema.pl: /usr/local/bin/stag-autoschema.pl
+  stag-db.pl: /usr/local/bin/stag-db.pl
+  stag-diff.pl: /usr/local/bin/stag-diff.pl
+  stag-drawtree.pl: /usr/local/bin/stag-drawtree.pl
+  stag-filter.pl: /usr/local/bin/stag-filter.pl
+  stag-findsubtree.pl: /usr/local/bin/stag-findsubtree.pl
+  stag-flatten.pl: /usr/local/bin/stag-flatten.pl
+  stag-grep.pl: /usr/local/bin/stag-grep.pl
+  stag-handle.pl: /usr/local/bin/stag-handle.pl

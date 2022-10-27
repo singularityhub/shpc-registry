@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/nucamino
 aliases:
   nucamino: /usr/local/bin/nucamino
-  env-execute: /usr/local/env-execute

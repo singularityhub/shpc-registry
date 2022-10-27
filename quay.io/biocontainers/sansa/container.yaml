@@ -8,13 +8,6 @@ tags:
 docker: quay.io/biocontainers/sansa
 aliases:
   sansa: /usr/local/bin/sansa
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bgzip: /usr/local/bin/bgzip
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

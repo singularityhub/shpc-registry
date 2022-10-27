@@ -11,7 +11,6 @@ aliases:
   gmap_compress: /usr/local/bin/gmap_compress
   gmap_reassemble: /usr/local/bin/gmap_reassemble
   gmap_uncompress: /usr/local/bin/gmap_uncompress
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   ace2sam: /usr/local/bin/ace2sam
   atoiindex: /usr/local/bin/atoiindex
@@ -21,3 +20,4 @@ aliases:
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
   bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l

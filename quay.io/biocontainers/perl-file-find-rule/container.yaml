@@ -7,13 +7,4 @@ tags:
   0.34--pl5321hdfd78af_6: sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8
 docker: quay.io/biocontainers/perl-file-find-rule
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
   findrule: /usr/local/bin/findrule
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg

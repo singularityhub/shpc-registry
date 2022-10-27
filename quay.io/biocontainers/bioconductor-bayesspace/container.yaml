@@ -7,13 +7,5 @@ tags:
   1.4.1--r41hc247a5b_1: sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327
 docker: quay.io/biocontainers/bioconductor-bayesspace
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol
+  xgboost: /usr/local/bin/xgboost

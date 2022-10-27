@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/geco3
 aliases:
   GeCo3: /usr/local/bin/GeCo3
   GeDe3: /usr/local/bin/GeDe3
-  env-execute: /usr/local/env-execute

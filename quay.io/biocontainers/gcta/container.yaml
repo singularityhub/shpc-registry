@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/gcta
 aliases:
   gcta64: /usr/local/bin/gcta64
-  env-execute: /usr/local/env-execute

@@ -36,7 +36,6 @@ aliases:
   run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
@@ -46,3 +45,4 @@ aliases:
   addadapters.sh: /usr/local/bin/addadapters.sh
   addssu.sh: /usr/local/bin/addssu.sh
   adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  alltoall.sh: /usr/local/bin/alltoall.sh

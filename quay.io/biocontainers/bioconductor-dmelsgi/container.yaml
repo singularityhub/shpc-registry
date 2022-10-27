@@ -7,13 +7,4 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044
 docker: quay.io/biocontainers/bioconductor-dmelsgi
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  glpsol: /usr/local/bin/glpsol

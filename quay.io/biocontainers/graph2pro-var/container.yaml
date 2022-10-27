@@ -32,7 +32,6 @@ aliases:
   run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
   step1output.py: /usr/local/bin/step1output.py
   tryptic.py: /usr/local/bin/tryptic.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   FET.pl: /usr/local/bin/FET.pl
   appletviewer: /usr/local/bin/appletviewer
@@ -42,3 +41,4 @@ aliases:
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
   bowtie2-build: /usr/local/bin/bowtie2-build
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s

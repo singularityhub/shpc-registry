@@ -7,13 +7,4 @@ tags:
   1.2.0--r41hdfd78af_0: sha256:02ce72f1a3a1fee4a5e9791c813cb83d1754492ec35cdb90537308b65f24dd6c
 docker: quay.io/biocontainers/bioconductor-multisight
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc

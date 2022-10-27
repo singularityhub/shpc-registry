@@ -20,7 +20,6 @@ aliases:
   gmap_uncompress: /usr/local/bin/gmap_uncompress
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   PtR: /usr/local/bin/PtR
   STAR: /usr/local/bin/STAR
@@ -30,3 +29,4 @@ aliases:
   abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
   ace2sam: /usr/local/bin/ace2sam
   align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl

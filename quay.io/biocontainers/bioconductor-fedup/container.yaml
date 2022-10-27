@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/bioconductor-fedup
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   aserver: /usr/local/bin/aserver
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

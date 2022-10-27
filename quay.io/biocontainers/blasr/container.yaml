@@ -14,13 +14,13 @@ aliases:
   samtom4: /usr/local/bin/samtom4
   sawriter: /usr/local/bin/sawriter
   sdpMatcher: /usr/local/bin/sdpMatcher
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   bam2sam: /usr/local/bin/bam2sam
   bgzip: /usr/local/bin/bgzip
   blasr: /usr/local/bin/blasr
-  c_rehash: /usr/local/bin/c_rehash
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy

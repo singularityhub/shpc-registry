@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/fido
 aliases:
   Fido: /usr/local/bin/Fido
   FidoChooseParameters: /usr/local/bin/FidoChooseParameters
-  env-execute: /usr/local/env-execute

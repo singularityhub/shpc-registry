@@ -17,13 +17,5 @@ aliases:
   pedmerge: /usr/local/bin/pedmerge
   pedstats: /usr/local/bin/pedstats
   pedwipe: /usr/local/bin/pedwipe
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

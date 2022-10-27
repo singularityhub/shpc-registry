@@ -7,13 +7,4 @@ tags:
   3.8.0--r351_0: sha256:dd385de6546fc1b5cf1a23e78e926d9e6fa4db2c7886e1536d12598d8f353b9d
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.hs37d5
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

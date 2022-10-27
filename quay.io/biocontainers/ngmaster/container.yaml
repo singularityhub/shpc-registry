@@ -10,13 +10,11 @@ aliases:
   gfPcr: /usr/local/bin/gfPcr
   isPcr: /usr/local/bin/isPcr
   ngmaster: /usr/local/bin/ngmaster
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
   chardetect: /usr/local/bin/chardetect
-  clear: /usr/local/bin/clear
-  f2py: /usr/local/bin/f2py
-  f2py3: /usr/local/bin/f2py3
   f2py3.9: /usr/local/bin/f2py3.9
   gfServer: /usr/local/bin/gfServer
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

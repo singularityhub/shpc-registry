@@ -7,13 +7,4 @@ tags:
   0.4.6--pyh864c0ab_3: sha256:4a94487be250ca290573776f3bd776fa3e38c5e9da12b4e5fbd7abae4a4790b2
 docker: quay.io/biocontainers/toolshed
 aliases:
-  2to3: /usr/local/bin/2to3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
-  idle3: /usr/local/bin/idle3
-  idle3.8: /usr/local/bin/idle3.8
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
+  toolshed: /usr/local/bin/toolshed

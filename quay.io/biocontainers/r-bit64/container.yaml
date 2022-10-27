@@ -7,13 +7,11 @@ tags:
   0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
 docker: quay.io/biocontainers/r-bit64
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  gif2tiff: /usr/local/bin/gif2tiff
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

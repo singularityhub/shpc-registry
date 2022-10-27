@@ -7,13 +7,4 @@ tags:
   1.18.0--r351_0: sha256:a4413b46cdaa47fc58538e6798ba80ac1884f41d5f3719659b5e96626623965f
 docker: quay.io/biocontainers/bioconductor-iontreedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

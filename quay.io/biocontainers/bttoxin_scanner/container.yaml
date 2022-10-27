@@ -54,7 +54,6 @@ aliases:
   unicycler_scrub: /usr/local/bin/unicycler_scrub
   vcf2scoary: /usr/local/bin/vcf2scoary
   wtdbgConvert: /usr/local/bin/wtdbgConvert
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
@@ -64,3 +63,4 @@ aliases:
   DistanceEst: /usr/local/bin/DistanceEst
   DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
   FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree

@@ -9,4 +9,3 @@ docker: quay.io/biocontainers/meta-apo
 aliases:
   meta-apo-calibrate: /usr/local/bin/meta-apo-calibrate
   meta-apo-train: /usr/local/bin/meta-apo-train
-  env-execute: /usr/local/env-execute

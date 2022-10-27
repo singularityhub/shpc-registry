@@ -38,7 +38,6 @@ aliases:
   reliability-profile.pl: /usr/local/bin/reliability-profile.pl
   ribosum2cc: /usr/local/bin/ribosum2cc
   sparse: /usr/local/bin/sparse
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
@@ -48,3 +47,4 @@ aliases:
   RNALfold: /usr/local/bin/RNALfold
   RNAPKplex: /usr/local/bin/RNAPKplex
   RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

@@ -9,13 +9,3 @@ docker: quay.io/biocontainers/proteomiqon-peptidespectrummatching
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp
   proteomiqon-peptidespectrummatching: /usr/local/bin/proteomiqon-peptidespectrummatching
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  compile_et: /usr/local/bin/compile_et
-  curl-config: /usr/local/bin/curl-config
-  derb: /usr/local/bin/derb
-  genbrk: /usr/local/bin/genbrk

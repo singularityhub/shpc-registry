@@ -7,13 +7,4 @@ tags:
   3.7.0--r36_3: sha256:3682175fb53994932d34a47b6e64e44c37f4e4115f3a6320c41fc41add60e533
 docker: quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.grch38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

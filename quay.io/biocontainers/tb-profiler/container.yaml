@@ -12,13 +12,13 @@ aliases:
   delly: /usr/local/bin/delly
   rename_vcf_chrom.py: /usr/local/bin/rename_vcf_chrom.py
   tb-profiler: /usr/local/bin/tb-profiler
-  2to3: /usr/local/bin/2to3
-  2to3-3.9: /usr/local/bin/2to3-3.9
   abba-baba: /usr/local/bin/abba-baba
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotateBed: /usr/local/bin/annotateBed
   appletviewer: /usr/local/bin/appletviewer
-  autopoint: /usr/local/bin/autopoint
+  bFst: /usr/local/bin/bFst
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamleftalign: /usr/local/bin/bamleftalign
+  bc: /usr/local/bin/bc
+  bcftools: /usr/local/bin/bcftools

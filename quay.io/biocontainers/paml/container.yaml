@@ -16,4 +16,3 @@ aliases:
   mcmctree: /usr/local/bin/mcmctree
   pamp: /usr/local/bin/pamp
   yn00: /usr/local/bin/yn00
-  env-execute: /usr/local/env-execute

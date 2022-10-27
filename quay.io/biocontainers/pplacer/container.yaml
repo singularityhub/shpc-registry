@@ -10,4 +10,3 @@ aliases:
   guppy: /usr/local/bin/guppy
   pplacer: /usr/local/bin/pplacer
   rppr: /usr/local/bin/rppr
-  env-execute: /usr/local/env-execute

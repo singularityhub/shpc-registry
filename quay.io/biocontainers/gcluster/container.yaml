@@ -11,12 +11,12 @@ aliases:
   interested_gene_generation.pl: /usr/local/bin/interested_gene_generation.pl
   test.pl: /usr/local/bin/test.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   annotate: /usr/local/bin/annotate
   archive-pubmed: /usr/local/bin/archive-pubmed
   asn2xml: /usr/local/bin/asn2xml
-  autopoint: /usr/local/bin/autopoint
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter

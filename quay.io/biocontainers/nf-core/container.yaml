@@ -14,13 +14,13 @@ aliases:
   nf-core: /usr/local/bin/nf-core
   refgenie: /usr/local/bin/refgenie
   scalar: /usr/local/bin/scalar
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  cheetah: /usr/local/bin/cheetah
+  cheetah-analyze: /usr/local/bin/cheetah-analyze
+  cheetah-compile: /usr/local/bin/cheetah-compile
+  cmark: /usr/local/bin/cmark
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  docutils: /usr/local/bin/docutils
+  f2py3.10: /usr/local/bin/f2py3.10
+  faidx: /usr/local/bin/faidx

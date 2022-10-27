@@ -7,13 +7,12 @@ tags:
   0.1.1--py37h8902056_1: sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de
 docker: quay.io/biocontainers/kcounter
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  idle3: /usr/local/bin/idle3
   idle3.7: /usr/local/bin/idle3.7
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  lzcat: /usr/local/bin/lzcat
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv: /usr/local/bin/pyvenv
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

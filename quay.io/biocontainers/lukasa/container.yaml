@@ -29,13 +29,13 @@ aliases:
   sortgrcd: /usr/local/bin/sortgrcd
   spaln: /usr/local/bin/spaln
   spspaln.pl: /usr/local/bin/spspaln.pl
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   acyclic: /usr/local/bin/acyclic
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   annotate: /usr/local/bin/annotate
-  autopoint: /usr/local/bin/autopoint
+  awk: /usr/local/bin/awk
+  bagit.py: /usr/local/bin/bagit.py
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  black: /usr/local/bin/black

@@ -9,13 +9,3 @@ docker: quay.io/biocontainers/tmux
 aliases:
   event_rpcgen.py: /usr/local/bin/event_rpcgen.py
   tmux: /usr/local/bin/tmux
-  activate: /usr/local/bin/activate
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  reset: /usr/local/bin/reset
-  tabs: /usr/local/bin/tabs

@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/bioconductor-regutools
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc

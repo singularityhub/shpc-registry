@@ -45,13 +45,13 @@ aliases:
   tester.py: /usr/local/bin/tester.py
   trie.py: /usr/local/bin/trie.py
   weight_updated_graph.py: /usr/local/bin/weight_updated_graph.py
-  2to3: /usr/local/bin/2to3
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
   cmpfillin: /usr/local/bin/cmpfillin
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  easy_install: /usr/local/bin/easy_install
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh

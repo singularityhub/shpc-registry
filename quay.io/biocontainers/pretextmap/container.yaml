@@ -13,4 +13,3 @@ aliases:
   PretextMap.noext: /usr/local/bin/PretextMap.noext
   PretextMap.sse41: /usr/local/bin/PretextMap.sse41
   PretextMap.sse42: /usr/local/bin/PretextMap.sse42
-  env-execute: /usr/local/env-execute

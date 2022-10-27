@@ -7,13 +7,5 @@ tags:
   1.8.1--r351_0: sha256:e401f5dcf3927326f5dd2dd336e8ddbdc1f166d76d91906d11e6d07c2374fc3f
 docker: quay.io/biocontainers/bioconductor-svaplsseq
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

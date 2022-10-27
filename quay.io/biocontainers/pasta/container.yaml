@@ -20,13 +20,13 @@ aliases:
   run_pasta.py: /usr/local/bin/run_pasta.py
   run_pasta_gui.py: /usr/local/bin/run_pasta_gui.py
   run_seqtools.py: /usr/local/bin/run_seqtools.py
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   aserver: /usr/local/bin/aserver
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
   clustalw2: /usr/local/bin/clustalw2
-  derb: /usr/local/bin/derb
-  djpeg: /usr/local/bin/djpeg
+  fasttree: /usr/local/bin/fasttree
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

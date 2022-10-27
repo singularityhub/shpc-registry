@@ -179,13 +179,13 @@ aliases:
   iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
   iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts
   sqlformat: /usr/local/bin/sqlformat
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
   archive-pubmed: /usr/local/bin/archive-pubmed
   asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  assistant: /usr/local/bin/assistant
+  between-two-genes: /usr/local/bin/between-two-genes

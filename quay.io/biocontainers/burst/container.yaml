@@ -12,4 +12,3 @@ aliases:
   burst_linux_DB15: /usr/local/bin/burst_linux_DB15
   lingenome: /usr/local/bin/lingenome
   t2gg: /usr/local/bin/t2gg
-  env-execute: /usr/local/env-execute

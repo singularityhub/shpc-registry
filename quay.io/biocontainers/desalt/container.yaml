@@ -10,4 +10,3 @@ aliases:
   Annotation_Load.py: /usr/local/bin/Annotation_Load.py
   deBGA: /usr/local/bin/deBGA
   deSALT: /usr/local/bin/deSALT
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,4 @@ tags:
   1.00.0--r40hdfd78af_6: sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c
 docker: quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

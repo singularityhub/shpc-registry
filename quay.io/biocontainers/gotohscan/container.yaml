@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/gotohscan
 aliases:
   GotohScan: /usr/local/bin/GotohScan
-  env-execute: /usr/local/env-execute

@@ -13,13 +13,13 @@ aliases:
   LOG_public_releases: /usr/local/bin/LOG_public_releases
   agpl-3.0.txt: /usr/local/bin/agpl-3.0.txt
   icescreen: /usr/local/bin/icescreen
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   accn-at-a-time: /usr/local/bin/accn-at-a-time
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   align_print_template.py: /usr/local/bin/align_print_template.py
   alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py

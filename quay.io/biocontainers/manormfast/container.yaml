@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/manormfast
 aliases:
   MAnormFast: /usr/local/bin/MAnormFast
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  activate: /usr/local/bin/activate
   assistant: /usr/local/bin/assistant
-  c_rehash: /usr/local/bin/c_rehash
-  cjpeg: /usr/local/bin/cjpeg
-  conda: /usr/local/bin/conda
   dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
   dbus-daemon: /usr/local/bin/dbus-daemon
   dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment

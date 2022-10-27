@@ -20,13 +20,3 @@ aliases:
   printtiff: /usr/local/bin/printtiff
   splitimage2pdf: /usr/local/bin/splitimage2pdf
   xtractprotos: /usr/local/bin/xtractprotos
-  activate: /usr/local/bin/activate
-  cjpeg: /usr/local/bin/cjpeg
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate
-  djpeg: /usr/local/bin/djpeg
-  fax2ps: /usr/local/bin/fax2ps
-  fax2tiff: /usr/local/bin/fax2tiff
-  jpegtran: /usr/local/bin/jpegtran
-  libpng-config: /usr/local/bin/libpng-config
-  libpng16-config: /usr/local/bin/libpng16-config

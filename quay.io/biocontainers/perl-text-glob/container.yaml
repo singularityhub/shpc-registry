@@ -7,13 +7,4 @@ tags:
   0.11--pl5321hdfd78af_2: sha256:3e3f2137af4dc3c73dede70b61b84444431f0b40580b1bfb363a9abd0b1fafeb
 docker: quay.io/biocontainers/perl-text-glob
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1

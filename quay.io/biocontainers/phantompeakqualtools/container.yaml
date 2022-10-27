@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/phantompeakqualtools
 aliases:
   run_spp.R: /usr/local/bin/run_spp.R
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
   awk: /usr/local/bin/awk
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.9: /usr/local/bin/f2py3.9
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  gawk: /usr/local/bin/gawk

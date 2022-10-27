@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/scrm
 aliases:
   scrm: /usr/local/bin/scrm
-  env-execute: /usr/local/env-execute

@@ -7,13 +7,4 @@ tags:
   1.8.1--r351hf484d3e_0: sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d
 docker: quay.io/biocontainers/bioconductor-methylkit
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  wget: /usr/local/bin/wget

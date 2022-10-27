@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/mergenotcombined
 aliases:
   mergeNotCombined: /usr/local/bin/mergeNotCombined
-  env-execute: /usr/local/env-execute

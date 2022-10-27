@@ -21,10 +21,10 @@ aliases:
   LICENSE: /usr/local/bin/LICENSE
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  autopoint: /usr/local/bin/autopoint
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   caspol: /usr/local/bin/caspol
   cccheck: /usr/local/bin/cccheck
   ccrewrite: /usr/local/bin/ccrewrite
   cert-sync: /usr/local/bin/cert-sync
   cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr

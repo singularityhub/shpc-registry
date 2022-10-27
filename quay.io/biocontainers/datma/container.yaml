@@ -47,13 +47,13 @@ aliases:
   removal_tool.py: /usr/local/bin/removal_tool.py
   runDATMA.sh: /usr/local/bin/runDATMA.sh
   selectFasta: /usr/local/bin/selectFasta
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
   alimask: /usr/local/bin/alimask
   amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver

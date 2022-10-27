@@ -20,13 +20,3 @@ aliases:
   rustc: /usr/local/bin/rustc
   rustdoc: /usr/local/bin/rustdoc
   rustfmt: /usr/local/bin/rustfmt
-  x86_64-conda-linux-gnu-addr2line: /usr/local/bin/x86_64-conda-linux-gnu-addr2line
-  x86_64-conda-linux-gnu-ar: /usr/local/bin/x86_64-conda-linux-gnu-ar
-  x86_64-conda-linux-gnu-as: /usr/local/bin/x86_64-conda-linux-gnu-as
-  x86_64-conda-linux-gnu-c++filt: /usr/local/bin/x86_64-conda-linux-gnu-c++filt
-  x86_64-conda-linux-gnu-c89: /usr/local/bin/x86_64-conda-linux-gnu-c89
-  x86_64-conda-linux-gnu-c99: /usr/local/bin/x86_64-conda-linux-gnu-c99
-  x86_64-conda-linux-gnu-cc: /usr/local/bin/x86_64-conda-linux-gnu-cc
-  x86_64-conda-linux-gnu-cpp: /usr/local/bin/x86_64-conda-linux-gnu-cpp
-  x86_64-conda-linux-gnu-dwp: /usr/local/bin/x86_64-conda-linux-gnu-dwp
-  x86_64-conda-linux-gnu-elfedit: /usr/local/bin/x86_64-conda-linux-gnu-elfedit

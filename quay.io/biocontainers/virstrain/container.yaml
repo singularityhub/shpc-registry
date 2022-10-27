@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/virstrain
 aliases:
   virstrain: /usr/local/bin/virstrain
   virstrain_build: /usr/local/bin/virstrain_build
-  2to3: /usr/local/bin/2to3
   2to3-3.7: /usr/local/bin/2to3-3.7
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
-  bzip2: /usr/local/bin/bzip2
+  chardetect: /usr/local/bin/chardetect
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  jsonschema: /usr/local/bin/jsonschema
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  pydoc3.7: /usr/local/bin/pydoc3.7

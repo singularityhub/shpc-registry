@@ -12,4 +12,3 @@ aliases:
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom
   fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  env-execute: /usr/local/env-execute

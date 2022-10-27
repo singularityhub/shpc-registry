@@ -13,13 +13,13 @@ aliases:
   dbicadmin: /usr/local/bin/dbicadmin
   hpcrunner.pl: /usr/local/bin/hpcrunner.pl
   perl-reversion: /usr/local/bin/perl-reversion
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
   cpanm: /usr/local/bin/cpanm
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  derb: /usr/local/bin/derb
-  enc2xs: /usr/local/bin/enc2xs
+  findrule: /usr/local/bin/findrule
+  imgsize: /usr/local/bin/imgsize
+  json_xs: /usr/local/bin/json_xs
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

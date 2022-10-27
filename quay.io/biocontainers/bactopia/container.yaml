@@ -36,13 +36,13 @@ aliases:
   select-references.py: /usr/local/bin/select-references.py
   split-coverages.py: /usr/local/bin/split-coverages.py
   staphopia: /usr/local/bin/staphopia
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
   FET.pl: /usr/local/bin/FET.pl
   accn-at-a-time: /usr/local/bin/accn-at-a-time
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  activate: /usr/local/bin/activate
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml

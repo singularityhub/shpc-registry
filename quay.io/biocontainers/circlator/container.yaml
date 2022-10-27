@@ -294,13 +294,13 @@ aliases:
   vecfix: /usr/local/bin/vecfix
   verify-layout: /usr/local/bin/verify-layout
   wtdbgConvert: /usr/local/bin/wtdbgConvert
-  2to3: /usr/local/bin/2to3
   2to3-3.5: /usr/local/bin/2to3-3.5
   ace2sam: /usr/local/bin/ace2sam
   annotate: /usr/local/bin/annotate
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   bcftools: /usr/local/bin/bcftools
   bdftogd: /usr/local/bin/bdftogd
   bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bogart: /usr/local/bin/bogart
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl

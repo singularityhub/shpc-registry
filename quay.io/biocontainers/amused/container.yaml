@@ -17,13 +17,13 @@ aliases:
   shuffleCodons.rb: /usr/local/bin/shuffleCodons.rb
   shuffleCodonsAddMotifs.rb: /usr/local/bin/shuffleCodonsAddMotifs.rb
   y2racc: /usr/local/bin/y2racc
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  c_rehash: /usr/local/bin/c_rehash
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  easy_install: /usr/local/bin/easy_install
   erb: /usr/local/bin/erb
   gdbm_dump: /usr/local/bin/gdbm_dump
   gdbm_load: /usr/local/bin/gdbm_load
   gdbmtool: /usr/local/bin/gdbmtool
+  gem: /usr/local/bin/gem
+  idle3.9: /usr/local/bin/idle3.9
+  irb: /usr/local/bin/irb
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jemalloc.sh: /usr/local/bin/jemalloc.sh

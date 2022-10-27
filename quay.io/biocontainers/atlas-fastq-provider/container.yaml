@@ -106,10 +106,10 @@ aliases:
   abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
   ace2sam: /usr/local/bin/ace2sam
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
   align-info: /usr/local/bin/align-info
   align-info.2: /usr/local/bin/align-info.2
+  b2sum: /usr/local/bin/b2sum
+  bam-load: /usr/local/bin/bam-load
+  bam-load.2: /usr/local/bin/bam-load.2

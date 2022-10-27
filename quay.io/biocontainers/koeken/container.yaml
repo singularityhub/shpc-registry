@@ -190,13 +190,13 @@ aliases:
   upgma_cluster.py: /usr/local/bin/upgma_cluster.py
   validate_demultiplexed_fasta.py: /usr/local/bin/validate_demultiplexed_fasta.py
   validate_mapping_file.py: /usr/local/bin/validate_mapping_file.py
-  2to3: /usr/local/bin/2to3
   FastTree: /usr/local/bin/FastTree
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   biom: /usr/local/bin/biom
-  bunzip2: /usr/local/bin/bunzip2
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send

@@ -239,7 +239,6 @@ aliases:
   thermorawfileparser: /usr/local/bin/thermorawfileparser
   unimod.xml: /usr/local/bin/unimod.xml
   xtandem: /usr/local/bin/xtandem
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
@@ -249,3 +248,4 @@ aliases:
   MemParse: /usr/local/bin/MemParse
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect

@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/galaxy-upload
 aliases:
   galaxy-history-search: /usr/local/bin/galaxy-history-search
   galaxy-upload: /usr/local/bin/galaxy-upload
-  2to3: /usr/local/bin/2to3
   2to3-3.10: /usr/local/bin/2to3-3.10
   asadmin: /usr/local/bin/asadmin
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
   bundle_image: /usr/local/bin/bundle_image
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
+  cfadmin: /usr/local/bin/cfadmin
+  cmark: /usr/local/bin/cmark
+  cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load

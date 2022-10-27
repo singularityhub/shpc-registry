@@ -7,13 +7,13 @@ tags:
   0.3.3--pyhdfd78af_0: sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab
 docker: quay.io/biocontainers/bioframe
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
   bam2pairs: /usr/local/bin/bam2pairs
   bgzip: /usr/local/bin/bgzip
   brotli: /usr/local/bin/brotli
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  cwebp: /usr/local/bin/cwebp
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx

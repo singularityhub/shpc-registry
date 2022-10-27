@@ -7,13 +7,7 @@ tags:
   1.0_15--r3.3.1_1: sha256:42ee073114f8b1d9877edeee8e335868d0f3e44c025db52848c73d3f04f4ef71
 docker: quay.io/biocontainers/r-ash
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  conda: /usr/local/bin/conda
-  curl: /usr/local/bin/curl
-  curl-config: /usr/local/bin/curl-config
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

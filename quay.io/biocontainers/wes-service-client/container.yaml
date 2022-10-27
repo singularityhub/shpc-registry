@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/wes-service-client
 aliases:
   wes-client: /usr/local/bin/wes-client
   wes-server: /usr/local/bin/wes-server
-  2to3: /usr/local/bin/2to3
-  activate: /usr/local/bin/activate
   avro: /usr/local/bin/avro
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  chardetect: /usr/local/bin/chardetect
+  csv2rdf: /usr/local/bin/csv2rdf
+  doesitcache: /usr/local/bin/doesitcache
+  futurize: /usr/local/bin/futurize
+  idle: /usr/local/bin/idle
+  pasteurize: /usr/local/bin/pasteurize
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config

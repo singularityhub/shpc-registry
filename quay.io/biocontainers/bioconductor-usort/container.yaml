@@ -7,13 +7,13 @@ tags:
   1.8.0--r351_0: sha256:e5be3add7266136d219020b0ab3d72450953aa79714fd9641b16dc3c3a378f9d
 docker: quay.io/biocontainers/bioconductor-usort
 aliases:
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  idle3.6: /usr/local/bin/idle3.6
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

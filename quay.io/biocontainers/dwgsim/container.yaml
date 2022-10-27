@@ -9,13 +9,3 @@ docker: quay.io/biocontainers/dwgsim
 aliases:
   dwgsim: /usr/local/bin/dwgsim
   dwgsim_eval: /usr/local/bin/dwgsim_eval
-  captoinfo: /usr/local/bin/captoinfo
-  clear: /usr/local/bin/clear
-  infocmp: /usr/local/bin/infocmp
-  infotocap: /usr/local/bin/infotocap
-  ncurses6-config: /usr/local/bin/ncurses6-config
-  ncursesw6-config: /usr/local/bin/ncursesw6-config
-  reset: /usr/local/bin/reset
-  tabs: /usr/local/bin/tabs
-  tic: /usr/local/bin/tic
-  toe: /usr/local/bin/toe

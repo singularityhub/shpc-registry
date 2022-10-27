@@ -8,4 +8,3 @@ tags:
 docker: quay.io/biocontainers/lddt
 aliases:
   lddt: /usr/local/bin/lddt
-  env-execute: /usr/local/env-execute

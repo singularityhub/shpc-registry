@@ -23,13 +23,13 @@ aliases:
   mason_variator: /usr/local/bin/mason_variator
   rnftools: /usr/local/bin/rnftools
   svg42pdf: /usr/local/bin/svg42pdf
-  2to3: /usr/local/bin/2to3
   2to3-3.6: /usr/local/bin/2to3-3.6
   ace2sam: /usr/local/bin/ace2sam
-  activate: /usr/local/bin/activate
   annotate: /usr/local/bin/annotate
   appletviewer: /usr/local/bin/appletviewer
   assistant: /usr/local/bin/assistant
-  autopoint: /usr/local/bin/autopoint
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  bcftools: /usr/local/bin/bcftools

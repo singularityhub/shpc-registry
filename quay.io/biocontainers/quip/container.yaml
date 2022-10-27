@@ -12,4 +12,3 @@ aliases:
   quip: /usr/local/bin/quip
   quipcat: /usr/local/bin/quipcat
   unquip: /usr/local/bin/unquip
-  env-execute: /usr/local/env-execute

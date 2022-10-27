@@ -7,13 +7,10 @@ tags:
   0.3.3--r3.3.1_1: sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6
 docker: quay.io/biocontainers/r-gmd
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
   bmp2tiff: /usr/local/bin/bmp2tiff
-  c_rehash: /usr/local/bin/c_rehash
-  cairo-trace: /usr/local/bin/cairo-trace
-  captoinfo: /usr/local/bin/captoinfo
-  cjpeg: /usr/local/bin/cjpeg
-  clear: /usr/local/bin/clear
+  gif2tiff: /usr/local/bin/gif2tiff
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

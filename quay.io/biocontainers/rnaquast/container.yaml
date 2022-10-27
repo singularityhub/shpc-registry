@@ -31,13 +31,13 @@ aliases:
   run_upp.py: /usr/local/bin/run_upp.py
   seppJsonMerger.jar: /usr/local/bin/seppJsonMerger.jar
   split_sequences.py: /usr/local/bin/split_sequences.py
-  2to3: /usr/local/bin/2to3
   2to3-3.9: /usr/local/bin/2to3-3.9
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   _aaindexextract: /usr/local/bin/_aaindexextract
   _abiview: /usr/local/bin/_abiview
   _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
