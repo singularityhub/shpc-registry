@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rqt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rqt
 latest:
-  1.8.0--r351_0: sha256:35f270f2e3410f1de191a80e5b43210119c3600aff929ba78369d309edc4a2e5
+  1.19.0--r41hdfd78af_0: sha256:7d027c0d928be31929e962eec927ac01efe1b3daf43c957372022ddeba8386e1
 tags:
   1.8.0--r351_0: sha256:35f270f2e3410f1de191a80e5b43210119c3600aff929ba78369d309edc4a2e5
+  1.19.0--r41hdfd78af_0: sha256:7d027c0d928be31929e962eec927ac01efe1b3daf43c957372022ddeba8386e1
+  1.18.0--r41hdfd78af_0: sha256:f5cf4c52d89c0b28968802b65de8018a3dd4755e7013d5503aa2127f5ea8bf31
+  1.16.0--r40hdfd78af_1: sha256:990c4aaf707d1386f7de92ba6c50d66c2008b2b44ddcd5900ee7d222d7bd6337
+  1.14.0--r40_0: sha256:922777ac2bbef25ce397f9fb8f3e037e5a8ed43c2299df279dbd0b6b1435688c
+  1.12.0--r36_0: sha256:918e908ca136dfc95613c787c560f410e739a17de1bf961199bc7f5687c751d4
 docker: quay.io/biocontainers/bioconductor-rqt

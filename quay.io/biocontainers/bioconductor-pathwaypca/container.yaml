@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pathwaypca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pathwaypca
 latest:
-  1.8.0--r41hdfd78af_0: sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734
+  1.10.0--r41hdfd78af_0: sha256:294f7cd7338002cfa231487fd89a8f3ce2679a9dc8b3c9924248fdc0aa6e205f
 tags:
   1.8.0--r41hdfd78af_0: sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734
+  1.10.0--r41hdfd78af_0: sha256:294f7cd7338002cfa231487fd89a8f3ce2679a9dc8b3c9924248fdc0aa6e205f
 docker: quay.io/biocontainers/bioconductor-pathwaypca

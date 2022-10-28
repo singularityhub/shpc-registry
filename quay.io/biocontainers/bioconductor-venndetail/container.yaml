@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-venndetail
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-venndetail
 latest:
-  1.8.0--r41hdfd78af_0: sha256:85bf8cedb7ceb2b075e07f95f73d36a7cef6f6f1d37103835630b82e0cb898d9
+  1.10.0--r41hdfd78af_0: sha256:7f184345b374a0424ad6933529d9193f72ddc97448ab01ffb9ef82028cad41d9
 tags:
   1.8.0--r41hdfd78af_0: sha256:85bf8cedb7ceb2b075e07f95f73d36a7cef6f6f1d37103835630b82e0cb898d9
+  1.10.0--r41hdfd78af_0: sha256:7f184345b374a0424ad6933529d9193f72ddc97448ab01ffb9ef82028cad41d9
 docker: quay.io/biocontainers/bioconductor-venndetail

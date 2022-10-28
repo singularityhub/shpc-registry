@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-tximport
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tximport
 latest:
-  1.8.0--r341_0: sha256:ebfc58e2f4fcaa0cbf9e78052d1254475aa132d602b3f2f903c922475724e150
+  1.22.0--r41hdfd78af_0: sha256:213e81fb2d1134b824e43a4be4bd8092319bdefcaeef2a2f9eef19cfc4b271fe
 tags:
   1.8.0--r341_0: sha256:ebfc58e2f4fcaa0cbf9e78052d1254475aa132d602b3f2f903c922475724e150
+  1.22.0--r41hdfd78af_0: sha256:213e81fb2d1134b824e43a4be4bd8092319bdefcaeef2a2f9eef19cfc4b271fe
+  1.20.0--r41hdfd78af_0: sha256:857cc40b706b4c0e4d594e9c63d30a943d01d4f0ba2e34db60c629741de1bbe0
+  1.18.0--r40hdfd78af_1: sha256:234b431e0a2644f7c1f6ccb726ecd8ce11e110c5f42bd35a7690d7ca8812aeac
+  1.16.0--r40_0: sha256:4da3cdd54275745bb2c73c44e33c988742befd3adbbfa486a1fb16fb13aa4e44
+  1.14.0--r36_0: sha256:d79b84925a70af6e1f0b7ebd8b4660201ad3b393f8e6e11f498657632397d04e
 docker: quay.io/biocontainers/bioconductor-tximport

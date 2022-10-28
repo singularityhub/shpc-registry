@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/nanopolish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanopolish
 latest:
-  0.9.2--py35_ncurses5.9_4: sha256:7ebca1ed0119f110c84c02de5910f874d9345bb4087c6b0763c2102e09607310
+  0.14.0--hb24e783_1: sha256:216b64335890bef9ec3c58c0e8fb5036e8eaca054ab75755b0b95ba5f3965ea5
 tags:
   0.9.2--py35_ncurses5.9_4: sha256:7ebca1ed0119f110c84c02de5910f874d9345bb4087c6b0763c2102e09607310
+  0.14.0--hb24e783_1: sha256:216b64335890bef9ec3c58c0e8fb5036e8eaca054ab75755b0b95ba5f3965ea5
+  0.13.2--hd7c1219_10: sha256:bbf1732ee86df764e1a639ce59843da2e80543ee1716266c5e1210f366286821
+  0.12.5--ha077697_2: sha256:0c6a410d217e2f7f30bc8cdac1918ed636ec942bfe90a2ef4185eaf96c7cb31d
+  0.11.3--h705302d_0: sha256:298dce994cbe850cc2c6dcfb8f2e5aa3104a1b5a3bae6a452abea48867746d05
+  0.10.2--h78a5b34_0: sha256:14ab1f3c967a42b679e40ae3c80b814c83b3fdd9f92c2fbfa11ca9172c718913
 docker: quay.io/biocontainers/nanopolish
 aliases:
   gost-hash: /usr/local/bin/gost-hash

@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rtnsurvival
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtnsurvival
 latest:
-  1.8.1--r36_0: sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c
+  1.18.0--r41hdfd78af_0: sha256:e69d9b0350ea1a4cf6ded544cc320963f0c158b4619666065a058c54dfd98c12
 tags:
   1.8.1--r36_0: sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c
+  1.18.0--r41hdfd78af_0: sha256:e69d9b0350ea1a4cf6ded544cc320963f0c158b4619666065a058c54dfd98c12
+  1.16.0--r41hdfd78af_0: sha256:991d7f45e569a5bcbd60856b5ecaa4f0888ed0eb68e634605b2b13370ccbd672
+  1.14.1--r40hdfd78af_0: sha256:e72e8238b26a97aaf4f877724a5c95a915835689141d1c058f09b3019bf4082b
+  1.12.0--r40_0: sha256:d36340e45fdf973fcf97bff21e17318ab98987e6db127254eb889b9fdfb116eb
+  1.10.0--r36_0: sha256:2ff706cc64e3fdf88a34b44b28d07d71625ec77ea5314f988da30ca510ce2a8e
 docker: quay.io/biocontainers/bioconductor-rtnsurvival

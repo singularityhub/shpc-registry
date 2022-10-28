@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-matter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-matter
 latest:
-  1.8.3--r351hf484d3e_0: sha256:0b3ddf9b882385e8d4761636250f7eae9b7c2c12b921ab22af7fb014551fd5d8
+  1.20.0--r41hc247a5b_2: sha256:ef5d3b51ecf912b4fe7d10c062f9b6f717f48cc271774da77bb5e066a77bdb70
 tags:
   1.8.3--r351hf484d3e_0: sha256:0b3ddf9b882385e8d4761636250f7eae9b7c2c12b921ab22af7fb014551fd5d8
+  1.20.0--r41hc247a5b_2: sha256:ef5d3b51ecf912b4fe7d10c062f9b6f717f48cc271774da77bb5e066a77bdb70
+  1.18.0--r41h399db7b_0: sha256:477844e7c78a516e8c33ff0804434ba038b4b90478b9331377c2fa40d858ef80
+  1.16.0--r40h399db7b_1: sha256:24926bee2693ec0f482d3446aaf9d35ad5918461ca3042d9c3991ada978e6e83
+  1.14.0--r40h5f743cb_0: sha256:466c01c93e107614a09ce65dcda772db91557db71204f732600c079f20569132
+  1.12.0--r36he1b5a44_0: sha256:b05ff278c7007fd729a4d6dc110e5ca3781c6e6b6d38eb738b0a6c0faccefb9f
 docker: quay.io/biocontainers/bioconductor-matter

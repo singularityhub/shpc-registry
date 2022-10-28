@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-org.dm.eg.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-org.dm.eg.db
 latest:
-  3.8.2--r36_1: sha256:91797cedf562fb84452038e5bd4eaa03c775c8e46df858f4f4a42d5601276c7a
+  3.14.0--r41hdfd78af_1: sha256:78745e35ccf043f9ca933eec775cba4e018eab9c36209dc7fdc5f557fb599b5e
 tags:
   3.8.2--r36_1: sha256:91797cedf562fb84452038e5bd4eaa03c775c8e46df858f4f4a42d5601276c7a
+  3.14.0--r41hdfd78af_1: sha256:78745e35ccf043f9ca933eec775cba4e018eab9c36209dc7fdc5f557fb599b5e
+  3.13.0--r41hdfd78af_0: sha256:0dfb024c0bb60289a1310a20e8138d8ef8889a16b7e94cd1939db61d26abb86d
+  3.12.0--r40hdfd78af_1: sha256:d66881d9345bfedbb0674fa52256e8e66c261e2b7eebaeddfad3dc70bc08ed0d
+  3.11.1--r40_0: sha256:a925138946b154c6e75abeb0d1f11f25601c1a9d85723ff74d1d475b058a4176
+  3.10.0--r36_0: sha256:43e1e8238fd02cad2035b61ebdb5cd77c334f590cd76fea5c598c818f9d48071
 docker: quay.io/biocontainers/bioconductor-org.dm.eg.db
 aliases:
   .bioconductor-org.dm.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.dm.eg.db-post-link.sh
