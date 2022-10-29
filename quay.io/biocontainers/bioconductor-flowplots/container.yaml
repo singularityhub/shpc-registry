@@ -6,3 +6,14 @@ latest:
 tags:
   1.42.0--r41hdfd78af_0: sha256:6ea6f9a9c89f7e310761354fa30eda014ae3ca8137e143bd1136d6b1e59dd631
 docker: quay.io/biocontainers/bioconductor-flowplots
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

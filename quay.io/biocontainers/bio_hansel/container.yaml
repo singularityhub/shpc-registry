@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/bio_hansel
 aliases:
   biohansel: /usr/local/bin/biohansel
   hansel: /usr/local/bin/hansel
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  cmark: /usr/local/bin/cmark
+  f2py3.9: /usr/local/bin/f2py3.9
+  futurize: /usr/local/bin/futurize
+  idle3.9: /usr/local/bin/idle3.9
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  pygmentize: /usr/local/bin/pygmentize
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

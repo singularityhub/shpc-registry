@@ -6,3 +6,14 @@ latest:
 tags:
   0.0.5--py_0: sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a
 docker: quay.io/biocontainers/emptydrops
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff

@@ -6,3 +6,14 @@ latest:
 tags:
   2.7.2--r36h0357c0b_0: sha256:7e48a40134d280647f4996b566e9f52219dc8a8e01ce01f04567069b9250828a
 docker: quay.io/biocontainers/r-popgenome
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

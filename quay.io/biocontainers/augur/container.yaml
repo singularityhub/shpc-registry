@@ -11,3 +11,13 @@ aliases:
   dsdp5: /usr/local/bin/dsdp5
   treetime: /usr/local/bin/treetime
   vcftools: /usr/local/bin/vcftools
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  acyclic: /usr/local/bin/acyclic
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py

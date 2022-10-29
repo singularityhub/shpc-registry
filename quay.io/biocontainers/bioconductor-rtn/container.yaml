@@ -6,3 +6,14 @@ latest:
 tags:
   2.8.1--r36_0: sha256:35d61a9af6052720d1e7c56e62324da7c2ace255dc9520a55f511974783d04ce
 docker: quay.io/biocontainers/bioconductor-rtn
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

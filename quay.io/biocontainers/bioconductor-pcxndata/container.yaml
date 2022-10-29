@@ -7,5 +7,13 @@ tags:
   2.8.0--r36_0: sha256:816352145f8c11c37242a3194b77924c9668940be6f2737a9021cb5c0d83a004
 docker: quay.io/biocontainers/bioconductor-pcxndata
 aliases:
-  .bioconductor-pcxndata-post-link.sh: /usr/local/bin/.bioconductor-pcxndata-post-link.sh
-  .bioconductor-pcxndata-pre-unlink.sh: /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

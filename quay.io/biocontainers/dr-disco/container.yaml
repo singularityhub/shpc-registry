@@ -15,3 +15,13 @@ aliases:
   fuma-gencode-gtf-to-bed: /usr/local/bin/fuma-gencode-gtf-to-bed
   fuma-list-to-boolean-list: /usr/local/bin/fuma-list-to-boolean-list
   fusioncatcher-to-CG: /usr/local/bin/fusioncatcher-to-CG
+  ace2sam: /usr/local/bin/ace2sam
+  assistant: /usr/local/bin/assistant
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch

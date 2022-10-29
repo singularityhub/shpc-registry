@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/virsorter
 aliases:
   cookiecutter: /usr/local/bin/cookiecutter
   virsorter: /usr/local/bin/virsorter
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  cbc: /usr/local/bin/cbc
+  chardetect: /usr/local/bin/chardetect
+  clp: /usr/local/bin/clp
+  conda-env: /usr/local/bin/conda-env
+  conda2solv: /usr/local/bin/conda2solv
+  cph: /usr/local/bin/cph
+  dumpsolv: /usr/local/bin/dumpsolv

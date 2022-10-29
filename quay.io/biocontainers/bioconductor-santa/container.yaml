@@ -6,3 +6,5 @@ latest:
 tags:
   2.30.0--r41hc0cfd56_2: sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a
 docker: quay.io/biocontainers/bioconductor-santa
+aliases:
+  glpsol: /usr/local/bin/glpsol

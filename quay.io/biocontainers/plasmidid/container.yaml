@@ -37,3 +37,13 @@ aliases:
   summary_report_pid.py: /usr/local/bin/summary_report_pid.py
   summary_table.sh: /usr/local/bin/summary_table.sh
   tbl2asn-test: /usr/local/bin/tbl2asn-test
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  CA.pm: /usr/local/bin/CA.pm
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate

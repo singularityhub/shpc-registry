@@ -6,3 +6,11 @@ latest:
 tags:
   2.4.0--he1c1bb9_0: sha256:f52ffc73ff62fdbf0ee176d020117cc6d077aaf7efc38dd1c3fc66bffc01773c
 docker: quay.io/biocontainers/skesa
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  skesa: /usr/local/bin/skesa

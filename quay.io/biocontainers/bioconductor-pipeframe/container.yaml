@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2
 docker: quay.io/biocontainers/bioconductor-pipeframe
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,9 +7,13 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a
 docker: quay.io/biocontainers/bioconductor-xhybcasneuf
 aliases:
-  .bioconductor-ath1121501cdf-post-link.sh: /usr/local/bin/.bioconductor-ath1121501cdf-post-link.sh
-  .bioconductor-ath1121501cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ath1121501cdf-pre-unlink.sh
-  .bioconductor-tinesath1cdf-post-link.sh: /usr/local/bin/.bioconductor-tinesath1cdf-post-link.sh
-  .bioconductor-tinesath1cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-tinesath1cdf-pre-unlink.sh
-  .bioconductor-xhybcasneuf-post-link.sh: /usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh
-  .bioconductor-xhybcasneuf-pre-unlink.sh: /usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

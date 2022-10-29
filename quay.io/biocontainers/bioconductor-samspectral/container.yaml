@@ -6,3 +6,14 @@ latest:
 tags:
   1.48.0--r41hc0cfd56_2: sha256:f4fd858ba58961ae7585211a5d11f2a1aa493d1252b41b73278de5011879ac35
 docker: quay.io/biocontainers/bioconductor-samspectral
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

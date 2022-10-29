@@ -6,3 +6,7 @@ latest:
 tags:
   0.1_12--r3.3.1_1: sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e
 docker: quay.io/biocontainers/r-deldir
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

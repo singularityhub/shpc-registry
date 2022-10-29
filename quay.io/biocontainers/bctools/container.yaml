@@ -16,3 +16,13 @@ aliases:
   remove_tail.py: /usr/local/bin/remove_tail.py
   rm_spurious_events.pl: /usr/local/bin/rm_spurious_events.pl
   rm_spurious_events.py: /usr/local/bin/rm_spurious_events.py
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/illumiprocessor
 aliases:
   illumiprocessor: /usr/local/bin/illumiprocessor
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.6: /usr/local/bin/idle3.6
+  jaotc: /usr/local/bin/jaotc

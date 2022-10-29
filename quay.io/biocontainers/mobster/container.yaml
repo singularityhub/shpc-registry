@@ -13,3 +13,13 @@ aliases:
   MosaikText: /usr/local/bin/MosaikText
   mobster: /usr/local/bin/mobster
   mobster-to-vcf: /usr/local/bin/mobster-to-vcf
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  appletviewer: /usr/local/bin/appletviewer
+  extcheck: /usr/local/bin/extcheck
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac

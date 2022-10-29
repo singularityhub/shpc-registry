@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/malder
 aliases:
   malder: /usr/local/bin/malder
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

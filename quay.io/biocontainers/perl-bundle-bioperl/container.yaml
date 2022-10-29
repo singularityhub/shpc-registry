@@ -6,3 +6,6 @@ latest:
 tags:
   2.1.9--pl5321hdfd78af_1: sha256:a3f872290a486b636ed03c6bea752dcb99e62e627a167b1d5695f5a9b36630bb
 docker: quay.io/biocontainers/perl-bundle-bioperl
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

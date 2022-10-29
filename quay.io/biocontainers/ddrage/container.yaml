@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ddrage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ddrage
+latest:
+  1.7.1--py_0: sha256:083ae9625a7c5e5f833bb3089e4084edbad20469b1f542774482b718454406e5
+tags:
+  1.7.1--py_0: sha256:083ae9625a7c5e5f833bb3089e4084edbad20469b1f542774482b718454406e5
+docker: quay.io/biocontainers/ddrage

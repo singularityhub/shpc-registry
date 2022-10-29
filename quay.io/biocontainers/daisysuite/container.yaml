@@ -53,3 +53,13 @@ aliases:
   vcf-to-deletionlist: /usr/local/bin/vcf-to-deletionlist
   yara_indexer: /usr/local/bin/yara_indexer
   yara_mapper: /usr/local/bin/yara_mapper
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

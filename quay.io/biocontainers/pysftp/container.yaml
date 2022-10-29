@@ -6,3 +6,14 @@ latest:
 tags:
   0.2.9--py35_0: sha256:9eccaea40140b04ff6cfd934c86aff5a02413c29e6bf2e2ad5fae04be366fed1
 docker: quay.io/biocontainers/pysftp
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv: /usr/local/bin/pyvenv
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

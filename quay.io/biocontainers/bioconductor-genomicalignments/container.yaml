@@ -6,3 +6,12 @@ latest:
 tags:
   1.6.3--1: sha256:3d1492a9f8edf486e4de19074ecc12256400d71cc6d4ec3479472b1dcdd7333b
 docker: quay.io/biocontainers/bioconductor-genomicalignments
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40h399db7b_1: sha256:03f55ba4e0cbb221f901e7067dbb960c11c38920ce32a1f67ff4587f225ec3ca
 docker: quay.io/biocontainers/bioconductor-bdmmacorrect
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

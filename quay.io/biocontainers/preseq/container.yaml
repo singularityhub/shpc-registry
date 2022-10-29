@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/preseq
 aliases:
   preseq: /usr/local/bin/preseq
   to-mr: /usr/local/bin/to-mr
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

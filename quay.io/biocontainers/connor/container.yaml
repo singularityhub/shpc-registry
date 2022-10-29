@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/connor
 aliases:
   connor: /usr/local/bin/connor
+  ace2sam: /usr/local/bin/ace2sam
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  export2sam.pl: /usr/local/bin/export2sam.pl

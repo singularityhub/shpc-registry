@@ -6,3 +6,14 @@ latest:
 tags:
   7.508--hec16e2b_0: sha256:954a2b33ac01adde300de1867582230db0eb8afb41801cc2c51d18ca29dff12d
 docker: quay.io/biocontainers/mafft
+aliases:
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft: /usr/local/bin/mafft
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi

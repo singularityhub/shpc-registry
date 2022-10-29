@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/hts-nim-tools
 aliases:
   hts_nim_tools: /usr/local/bin/hts_nim_tools
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

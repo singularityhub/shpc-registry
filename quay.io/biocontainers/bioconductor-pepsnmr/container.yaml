@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r40hdfd78af_0: sha256:13d4abb1f5d7723fc898b4dc91e8d00a4ead606cc8e751a6efe5ea1866444651
 docker: quay.io/biocontainers/bioconductor-pepsnmr
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

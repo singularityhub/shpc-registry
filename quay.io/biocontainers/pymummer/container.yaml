@@ -6,3 +6,14 @@ latest:
 tags:
   0.9.0--py35_0: sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e
 docker: quay.io/biocontainers/pymummer
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  c2ph: /usr/local/bin/c2ph
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  exact-tandems: /usr/local/bin/exact-tandems
+  fastaq: /usr/local/bin/fastaq
+  idle3.5: /usr/local/bin/idle3.5
+  mapview: /usr/local/bin/mapview

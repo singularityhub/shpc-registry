@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:93781ee973d9b2c986f9b8d818a1c0217d7448e5690965ae6a55beea816598ba
 docker: quay.io/biocontainers/bioconductor-vaexprs
+aliases:
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb

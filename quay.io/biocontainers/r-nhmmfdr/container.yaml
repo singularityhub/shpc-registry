@@ -6,3 +6,7 @@ latest:
 tags:
   1.0.6--r3.3.1_0: sha256:1c8dccbc33908312857b8b6b5d01813869bf9e738b43edf01e2dcf33c5f8197e
 docker: quay.io/biocontainers/r-nhmmfdr
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

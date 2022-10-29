@@ -6,3 +6,5 @@ latest:
 tags:
   1.30.0--r40h399db7b_1: sha256:df657423a371cc32b01e09688e2fb162ed54ac7f893b97aaf9e27ff99264a59a
 docker: quay.io/biocontainers/bioconductor-dexus
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

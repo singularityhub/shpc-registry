@@ -20,3 +20,7 @@ aliases:
   pmh_tr: /usr/local/bin/pmh_tr
   visualizeclonetree: /usr/local/bin/visualizeclonetree
   visualizemigrationgraph: /usr/local/bin/visualizemigrationgraph
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  cluster: /usr/local/bin/cluster
+  glpsol: /usr/local/bin/glpsol

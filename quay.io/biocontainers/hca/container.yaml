@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hca
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hca
+latest:
+  7.0.1--py_0: sha256:e1aa88a9079ef22ad63e7ca33d98c26a710e0592c53b1f05efd8d974899a1868
+tags:
+  7.0.1--py_0: sha256:e1aa88a9079ef22ad63e7ca33d98c26a710e0592c53b1f05efd8d974899a1868
+docker: quay.io/biocontainers/hca

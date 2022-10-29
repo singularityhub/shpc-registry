@@ -6,3 +6,5 @@ latest:
 tags:
   2.4.0--r36_0: sha256:b61ea239822f5f1a3cb741e8de565600b5efb6309f724064eccbdbf5c61043d6
 docker: quay.io/biocontainers/bioconductor-chrogps
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

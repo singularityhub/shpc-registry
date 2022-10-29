@@ -6,3 +6,7 @@ latest:
 tags:
   1.4.1--h9f5acd7_6: sha256:a0e5f37ed058270b0ff00d7f683df2fbc65423822267848b2bae1a9ffe197b0c
 docker: quay.io/biocontainers/trimal
+aliases:
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal

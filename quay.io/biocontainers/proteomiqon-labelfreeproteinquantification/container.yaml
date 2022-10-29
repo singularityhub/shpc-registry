@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-labelfreeproteinquantification
 aliases:
   proteomiqon-labelfreeproteinquantification: /usr/local/bin/proteomiqon-labelfreeproteinquantification
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

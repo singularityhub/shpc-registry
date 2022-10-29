@@ -10,3 +10,13 @@ aliases:
   dash-update-components: /usr/local/bin/dash-update-components
   rehttpfs: /usr/local/bin/rehttpfs
   scelvis: /usr/local/bin/scelvis
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  docutils: /usr/local/bin/docutils
+  f2py3.9: /usr/local/bin/f2py3.9
+  flask: /usr/local/bin/flask
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

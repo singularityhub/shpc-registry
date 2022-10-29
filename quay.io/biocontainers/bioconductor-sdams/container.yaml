@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce
 docker: quay.io/biocontainers/bioconductor-sdams
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

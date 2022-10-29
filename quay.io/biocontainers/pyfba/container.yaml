@@ -12,3 +12,13 @@ aliases:
   jupyter-execute: /usr/local/bin/jupyter-execute
   pyfba: /usr/local/bin/pyfba
   send2trash: /usr/local/bin/send2trash
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  black: /usr/local/bin/black
+  blackd: /usr/local/bin/blackd
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  curve_keygen: /usr/local/bin/curve_keygen
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon

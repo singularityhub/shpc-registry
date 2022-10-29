@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/pantools
 aliases:
   pantools: /usr/local/bin/pantools
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  appletviewer: /usr/local/bin/appletviewer
+  clhsdb: /usr/local/bin/clhsdb
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  extcheck: /usr/local/bin/extcheck
+  hsdb: /usr/local/bin/hsdb
+  idle3.10: /usr/local/bin/idle3.10
+  idlj: /usr/local/bin/idlj

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/hclust2
 aliases:
   hclust2.py: /usr/local/bin/hclust2.py
+  f2py3.8: /usr/local/bin/f2py3.8

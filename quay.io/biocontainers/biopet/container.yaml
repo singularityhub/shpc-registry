@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/biopet
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for biopet
+latest:
+  0.9.0--hdfd78af_2: sha256:583ddee2ff12edd2a12cf643de3891f9358c1084d392bc2c45db6fd16f59d6c4
+tags:
+  0.9.0--hdfd78af_2: sha256:583ddee2ff12edd2a12cf643de3891f9358c1084d392bc2c45db6fd16f59d6c4
+docker: quay.io/biocontainers/biopet

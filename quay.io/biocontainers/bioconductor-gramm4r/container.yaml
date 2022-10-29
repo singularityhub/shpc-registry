@@ -6,3 +6,11 @@ latest:
 tags:
   1.4.0--r40hdfd78af_1: sha256:4e1f67f9879ef29a6429f242a00ba90f7f86cab183060684a7e0d5bca5bef2c2
 docker: quay.io/biocontainers/bioconductor-gramm4r
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

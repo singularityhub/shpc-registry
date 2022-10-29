@@ -7,5 +7,4 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8
 docker: quay.io/biocontainers/bioconductor-nanotubes
 aliases:
-  .bioconductor-nanotubes-post-link.sh: /usr/local/bin/.bioconductor-nanotubes-post-link.sh
-  .bioconductor-nanotubes-pre-unlink.sh: /usr/local/bin/.bioconductor-nanotubes-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

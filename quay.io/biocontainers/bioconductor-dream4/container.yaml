@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:a625e1b31f664cf2ae39667fc3d0356c593fdc17c9da14623183f44328ba2ef6
 docker: quay.io/biocontainers/bioconductor-dream4
 aliases:
-  .bioconductor-dream4-post-link.sh: /usr/local/bin/.bioconductor-dream4-post-link.sh
-  .bioconductor-dream4-pre-unlink.sh: /usr/local/bin/.bioconductor-dream4-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

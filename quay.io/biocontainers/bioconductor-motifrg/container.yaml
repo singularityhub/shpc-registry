@@ -6,3 +6,12 @@ latest:
 tags:
   1.31.0--r40_0: sha256:bc369c1d03fabac87731b8c644e469e9cdf192d00dd44fb27bf08c0ba69b9ae9
 docker: quay.io/biocontainers/bioconductor-motifrg
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

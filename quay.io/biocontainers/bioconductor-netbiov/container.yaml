@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:d3f2e007bf57952d4cbb5e8ca6b6ec83de5fe2a0aa647307f9651d85547a3405
 docker: quay.io/biocontainers/bioconductor-netbiov
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

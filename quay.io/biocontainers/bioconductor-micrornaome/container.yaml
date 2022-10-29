@@ -7,5 +7,13 @@ tags:
   1.8.0--r36_0: sha256:a557144d03190db977828dede7136307c87ca377b19e5fe4cf90eb0eb0f3a763
 docker: quay.io/biocontainers/bioconductor-micrornaome
 aliases:
-  .bioconductor-micrornaome-post-link.sh: /usr/local/bin/.bioconductor-micrornaome-post-link.sh
-  .bioconductor-micrornaome-pre-unlink.sh: /usr/local/bin/.bioconductor-micrornaome-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

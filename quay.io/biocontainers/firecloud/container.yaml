@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/firecloud
 aliases:
   fissfc: /usr/local/bin/fissfc
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  bq: /usr/local/bin/bq
+  chardetect: /usr/local/bin/chardetect
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  gcloud: /usr/local/bin/gcloud
+  gsutil: /usr/local/bin/gsutil
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt

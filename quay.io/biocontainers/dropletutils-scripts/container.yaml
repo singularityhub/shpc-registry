@@ -14,3 +14,6 @@ aliases:
   dropletutils-read-10x-counts.R: /usr/local/bin/dropletutils-read-10x-counts.R
   dropletutils-scripts-post-install-tests.bats: /usr/local/bin/dropletutils-scripts-post-install-tests.bats
   dropletutils-scripts-post-install-tests.sh: /usr/local/bin/dropletutils-scripts-post-install-tests.sh
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

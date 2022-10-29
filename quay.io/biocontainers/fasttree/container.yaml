@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/fasttree
 aliases:
   FastTree.c: /usr/local/bin/FastTree.c
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  fasttree: /usr/local/bin/fasttree

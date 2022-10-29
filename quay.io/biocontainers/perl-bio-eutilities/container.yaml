@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/perl-bio-eutilities
 aliases:
   bp_einfo: /usr/local/bin/bp_einfo
   bp_genbank_ref_extractor: /usr/local/bin/bp_genbank_ref_extractor
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
+  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl

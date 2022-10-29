@@ -6,3 +6,11 @@ latest:
 tags:
   v.1.1.0--r40_1: sha256:46955b4ac9f7868fa6532ba4af8af05d2b63102b2ae2be48f2835fd7bd7ff831
 docker: quay.io/biocontainers/r-intlim
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

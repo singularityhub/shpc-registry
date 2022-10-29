@@ -11,3 +11,6 @@ aliases:
   checkFlowSOM.R: /usr/local/bin/checkFlowSOM.R
   checkFlowSet.R: /usr/local/bin/checkFlowSet.R
   checkFlowframe.R: /usr/local/bin/checkFlowframe.R
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

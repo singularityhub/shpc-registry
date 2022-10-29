@@ -6,3 +6,14 @@ latest:
 tags:
   1.54.0--r41hdfd78af_0: sha256:3b5542d4c9ee9e0b8b2740d8d8ecd3bfcc12c4947c6b7ebdacc91d628c6b9bcc
 docker: quay.io/biocontainers/bioconductor-flowmeans
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

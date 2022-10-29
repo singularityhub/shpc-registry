@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/tdrmapper
 aliases:
   TdrMappingScripts.pl: /usr/local/bin/TdrMappingScripts.pl
+  perl5.32.0: /usr/local/bin/perl5.32.0

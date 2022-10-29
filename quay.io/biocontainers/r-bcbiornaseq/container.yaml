@@ -6,3 +6,5 @@ latest:
 tags:
   0.4.0--r41hdfd78af_0: sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433
 docker: quay.io/biocontainers/r-bcbiornaseq
+aliases:
+  pandoc: /usr/local/bin/pandoc

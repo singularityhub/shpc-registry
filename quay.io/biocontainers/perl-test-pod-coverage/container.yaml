@@ -6,3 +6,7 @@ latest:
 tags:
   1.10--pl5321h9ee0642_3: sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810
 docker: quay.io/biocontainers/perl-test-pod-coverage
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  pod_cover: /usr/local/bin/pod_cover
+  podselect: /usr/local/bin/podselect

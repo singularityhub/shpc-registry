@@ -6,3 +6,14 @@ latest:
 tags:
   0.5--pl5321hdfd78af_1: sha256:3a5f278efff25a60f4465d3e439ed8b17e608dedc55f434f8544ceda5d21715c
 docker: quay.io/biocontainers/perl-cg-pipeline
+aliases:
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl

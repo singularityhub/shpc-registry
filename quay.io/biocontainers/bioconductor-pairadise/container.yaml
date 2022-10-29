@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:661802560e9fcbc01d251bd5e59aa4e7a2c2ab2044aebf1177ee5c92996c8b91
 docker: quay.io/biocontainers/bioconductor-pairadise
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

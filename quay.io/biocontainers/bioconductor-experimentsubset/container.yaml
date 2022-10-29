@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:080e1c8c37e62ba1f8b5bb98c9fb60a1d490fae9a2247e11d5469a78b11a2e1b
 docker: quay.io/biocontainers/bioconductor-experimentsubset
+aliases:
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

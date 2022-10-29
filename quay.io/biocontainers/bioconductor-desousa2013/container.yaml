@@ -7,7 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:dd42fe45abc7f0acb1643bd78863588004e3867a2ef32f80b666053de38baf0b
 docker: quay.io/biocontainers/bioconductor-desousa2013
 aliases:
-  .bioconductor-desousa2013-post-link.sh: /usr/local/bin/.bioconductor-desousa2013-post-link.sh
-  .bioconductor-desousa2013-pre-unlink.sh: /usr/local/bin/.bioconductor-desousa2013-pre-unlink.sh
-  .bioconductor-hgu133plus2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133plus2frmavecs-post-link.sh
-  .bioconductor-hgu133plus2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2frmavecs-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

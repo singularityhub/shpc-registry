@@ -7,5 +7,4 @@ tags:
   3.2.3--r41hdfd78af_8: sha256:70320f84b9c8092e44ec08887df6acdf8e31b729d12e06a9580d9e6d62114439
 docker: quay.io/biocontainers/bioconductor-rnu34.db
 aliases:
-  .bioconductor-rnu34.db-post-link.sh: /usr/local/bin/.bioconductor-rnu34.db-post-link.sh
-  .bioconductor-rnu34.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rnu34.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

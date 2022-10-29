@@ -6,3 +6,7 @@ latest:
 tags:
   1.9_2--r3.4.1_0: sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e
 docker: quay.io/biocontainers/r-snpassoc
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

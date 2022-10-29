@@ -6,3 +6,5 @@ latest:
 tags:
   2.32.0--r36_0: sha256:fe72346c6280c792b8c3bb0276a86c78087e28779f25ddee4a99d55984cb98e2
 docker: quay.io/biocontainers/bioconductor-snpchip
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

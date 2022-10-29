@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:111aa7dbfac5cf3f026c4d92ff2c67a3e368e4ac888e8da1948c16a25af5626e
 docker: quay.io/biocontainers/bioconductor-yapsa
+aliases:
+  wget: /usr/local/bin/wget

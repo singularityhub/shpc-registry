@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/hyphy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for hyphy
+latest:
+  2.5.9--ha076c6e_0: sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3
+tags:
+  2.5.9--ha076c6e_0: sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3
+docker: quay.io/biocontainers/hyphy

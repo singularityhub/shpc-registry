@@ -7,12 +7,14 @@ tags:
   0.3.5--py_5: sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5
 docker: quay.io/biocontainers/stream_atac
 aliases:
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
-  .bioconductor-jaspar2016-post-link.sh: /usr/local/bin/.bioconductor-jaspar2016-post-link.sh
-  .bioconductor-jaspar2016-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh
   stream_atac: /usr/local/bin/stream_atac
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  curve_keygen: /usr/local/bin/curve_keygen
+  f2py3.7: /usr/local/bin/f2py3.7
+  funzip: /usr/local/bin/funzip
+  gif2h5: /usr/local/bin/gif2h5
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

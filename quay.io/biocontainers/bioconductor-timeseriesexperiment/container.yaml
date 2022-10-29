@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b
 docker: quay.io/biocontainers/bioconductor-timeseriesexperiment
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

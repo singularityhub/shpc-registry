@@ -6,3 +6,8 @@ latest:
 tags:
   0.112--pl5321h9f5acd7_5: sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108
 docker: quay.io/biocontainers/perl-unicode-map
+aliases:
+  map: /usr/local/bin/map
+  mirrorMappings: /usr/local/bin/mirrorMappings
+  mkCSGB2312: /usr/local/bin/mkCSGB2312
+  mkmapfile: /usr/local/bin/mkmapfile

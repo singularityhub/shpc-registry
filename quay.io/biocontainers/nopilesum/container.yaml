@@ -8,3 +8,11 @@ tags:
 docker: quay.io/biocontainers/nopilesum
 aliases:
   nopilesum: /usr/local/bin/nopilesum
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
+  tabix: /usr/local/bin/tabix

@@ -6,3 +6,7 @@ latest:
 tags:
   1.11.0--h470a237_1: sha256:006bbe729179eed0a33b1b98e9178a95a5fcd619c16ebb72503996cd6b2d529e
 docker: quay.io/biocontainers/c-ares
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -6,3 +6,5 @@ latest:
 tags:
   1.26.0--r41hc0cfd56_2: sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c
 docker: quay.io/biocontainers/bioconductor-nethet
+aliases:
+  glpsol: /usr/local/bin/glpsol

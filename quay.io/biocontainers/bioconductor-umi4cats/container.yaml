@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:7ae42d298a6c5dc8e26f8668a5353cfced87cb0d204c3b9b5d9d1f6bde409c01
 docker: quay.io/biocontainers/bioconductor-umi4cats
+aliases:
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:f3d563b5e87471024e9fd35107a0ac9d3781a94118f03c77714fce630bf2daa0
 docker: quay.io/biocontainers/bioconductor-scmerge
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

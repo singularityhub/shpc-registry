@@ -6,3 +6,7 @@ latest:
 tags:
   0.1.8--r3.3.1_1: sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c
 docker: quay.io/biocontainers/r-blockmodeling
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,9 @@ latest:
 tags:
   0.012--pl526_2: sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1
 docker: quay.io/biocontainers/perl-moosex-types-path-tiny
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

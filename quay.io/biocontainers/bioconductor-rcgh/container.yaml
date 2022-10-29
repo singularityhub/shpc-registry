@@ -7,5 +7,6 @@ tags:
   1.8.1--r3.4.1_0: sha256:1ff2407f3fcbdf9d117e44459b083b155a6d043d477adc794f47c1ce66f71634
 docker: quay.io/biocontainers/bioconductor-rcgh
 aliases:
-  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

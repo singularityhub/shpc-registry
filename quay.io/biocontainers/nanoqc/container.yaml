@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/nanoqc
 aliases:
   nanoQC: /usr/local/bin/nanoQC
+  bokeh: /usr/local/bin/bokeh
+  f2py3.8: /usr/local/bin/f2py3.8

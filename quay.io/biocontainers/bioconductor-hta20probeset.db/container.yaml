@@ -7,5 +7,13 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43
 docker: quay.io/biocontainers/bioconductor-hta20probeset.db
 aliases:
-  .bioconductor-hta20probeset.db-post-link.sh: /usr/local/bin/.bioconductor-hta20probeset.db-post-link.sh
-  .bioconductor-hta20probeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hta20probeset.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

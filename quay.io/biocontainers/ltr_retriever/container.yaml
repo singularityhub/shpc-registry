@@ -7,27 +7,24 @@ tags:
   2.9.0--hdfd78af_1: sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58
 docker: quay.io/biocontainers/ltr_retriever
 aliases:
-  DateRepeats: /usr/local/bin/DateRepeats
-  DupMasker: /usr/local/bin/DupMasker
   LAI: /usr/local/bin/LAI
   LTR_retriever: /usr/local/bin/LTR_retriever
-  ProcessRepeats: /usr/local/bin/ProcessRepeats
   RM2Bed.py: /usr/local/bin/RM2Bed.py
-  RepeatMasker: /usr/local/bin/RepeatMasker
-  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
   buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
   buildSummary.pl: /usr/local/bin/buildSummary.pl
-  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
   convert_MGEScan3.0.pl: /usr/local/bin/convert_MGEScan3.0.pl
   convert_ltr_struc.pl: /usr/local/bin/convert_ltr_struc.pl
   convert_ltrdetector.pl: /usr/local/bin/convert_ltrdetector.pl
-  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
-  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
-  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
   queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
   queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
-  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
-  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
-  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
-  trfMask: /usr/local/bin/trfMask
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  CA.pm: /usr/local/bin/CA.pm
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  FET.pl: /usr/local/bin/FET.pl
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition

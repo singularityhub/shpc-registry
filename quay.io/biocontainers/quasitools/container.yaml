@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/quasitools
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for quasitools
+latest:
+  0.7.0--pyh864c0ab_1: sha256:0f6405e44d5242e35c8d4033119c3d4a04789a213b8ed2346151da5cc745940b
+tags:
+  0.7.0--pyh864c0ab_1: sha256:0f6405e44d5242e35c8d4033119c3d4a04789a213b8ed2346151da5cc745940b
+docker: quay.io/biocontainers/quasitools

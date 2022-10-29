@@ -7,5 +7,4 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:f54fa5ee240b212083047ee97ca44e72fb00a3a1d1c5db9b4e8193a87b180055
 docker: quay.io/biocontainers/bioconductor-lrbase.dme.eg.db
 aliases:
-  .bioconductor-lrbase.dme.eg.db-post-link.sh: /usr/local/bin/.bioconductor-lrbase.dme.eg.db-post-link.sh
-  .bioconductor-lrbase.dme.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.dme.eg.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

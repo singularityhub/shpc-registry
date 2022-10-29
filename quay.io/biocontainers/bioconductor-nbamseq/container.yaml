@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8
 docker: quay.io/biocontainers/bioconductor-nbamseq
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

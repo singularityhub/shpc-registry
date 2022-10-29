@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r36_0: sha256:fe81bf199999baf85241d67340a5e6d1a04111893f7c0f1610fc612ff7a56c2a
 docker: quay.io/biocontainers/bioconductor-biocor
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

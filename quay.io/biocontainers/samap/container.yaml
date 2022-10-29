@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/samap
 aliases:
   scalar: /usr/local/bin/scalar
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  brotli: /usr/local/bin/brotli
+  cmpfillin: /usr/local/bin/cmpfillin
+  docutils: /usr/local/bin/docutils
+  dunamai: /usr/local/bin/dunamai
+  f2py3.7: /usr/local/bin/f2py3.7
+  fonttools: /usr/local/bin/fonttools
+  get_objgraph: /usr/local/bin/get_objgraph
+  gif2h5: /usr/local/bin/gif2h5
+  git: /usr/local/bin/git

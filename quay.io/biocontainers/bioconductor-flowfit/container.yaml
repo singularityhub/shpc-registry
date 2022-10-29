@@ -6,3 +6,14 @@ latest:
 tags:
   1.24.0--r36_0: sha256:964bd108b617db78fc3f9c5dd8b05f06df7af3fb533856382be6551c3665d8cb
 docker: quay.io/biocontainers/bioconductor-flowfit
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc

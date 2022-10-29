@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r40h399db7b_1: sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6
 docker: quay.io/biocontainers/bioconductor-opossom
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

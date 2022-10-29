@@ -83,3 +83,13 @@ aliases:
   tcsh: /usr/local/bin/tcsh
   watchgnupg: /usr/local/bin/watchgnupg
   yat2m: /usr/local/bin/yat2m
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ccmake: /usr/local/bin/ccmake
+  cmake: /usr/local/bin/cmake
+  cpack: /usr/local/bin/cpack
+  ctest: /usr/local/bin/ctest
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_convert: /usr/local/bin/db_convert
+  db_deadlock: /usr/local/bin/db_deadlock
+  db_dump: /usr/local/bin/db_dump

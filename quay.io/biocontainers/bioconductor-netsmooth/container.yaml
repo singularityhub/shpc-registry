@@ -6,3 +6,10 @@ latest:
 tags:
   1.8.0--r40_0: sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416
 docker: quay.io/biocontainers/bioconductor-netsmooth
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

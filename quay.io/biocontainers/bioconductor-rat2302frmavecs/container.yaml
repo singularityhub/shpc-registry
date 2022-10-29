@@ -7,5 +7,13 @@ tags:
   0.99.11--r41hdfd78af_8: sha256:ecb525816e6697282b3c1fb959c75806596721be53f5e057dd644e1dc03fd442
 docker: quay.io/biocontainers/bioconductor-rat2302frmavecs
 aliases:
-  .bioconductor-rat2302frmavecs-post-link.sh: /usr/local/bin/.bioconductor-rat2302frmavecs-post-link.sh
-  .bioconductor-rat2302frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-rat2302frmavecs-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   0.1.2019.07.25--r41h9ee0642_3: sha256:57f4ff458e5970d0b518d8f4ee765542f89fba3dae8fa0b3865b2aaf81043332
 docker: quay.io/biocontainers/r-rtassel
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

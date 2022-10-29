@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/mirtrace
 aliases:
   mirtrace: /usr/local/bin/mirtrace
   mirtrace.jar: /usr/local/bin/mirtrace.jar
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.9: /usr/local/bin/idle3.9
+  jaotc: /usr/local/bin/jaotc

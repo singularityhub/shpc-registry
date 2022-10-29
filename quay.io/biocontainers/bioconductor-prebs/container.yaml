@@ -6,3 +6,5 @@ latest:
 tags:
   1.34.0--r41hdfd78af_0: sha256:c49c8275b0f42bd519159147c5ad9b24db4f4db661152f0f2aa54a32604c8879
 docker: quay.io/biocontainers/bioconductor-prebs
+aliases:
+  pandoc: /usr/local/bin/pandoc

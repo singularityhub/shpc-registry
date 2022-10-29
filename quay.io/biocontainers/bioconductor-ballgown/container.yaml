@@ -6,3 +6,8 @@ latest:
 tags:
   2.8.4--r3.4.1_0: sha256:0498ae6a1f11ec6ab7c2a06e02c4e787c2cff9e690a45e123b5926dd017b90e7
 docker: quay.io/biocontainers/bioconductor-ballgown
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

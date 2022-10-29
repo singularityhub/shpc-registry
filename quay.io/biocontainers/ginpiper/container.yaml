@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340
 docker: quay.io/biocontainers/ginpiper
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

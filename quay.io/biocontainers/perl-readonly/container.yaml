@@ -6,3 +6,14 @@ latest:
 tags:
   2.05--pl5321hdfd78af_1: sha256:03f8f2c08314d822552b7caecfe3dd6ddbebf38ff4a45dd187b3ccf021aff95e
 docker: quay.io/biocontainers/perl-readonly
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

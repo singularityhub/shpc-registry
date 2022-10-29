@@ -11,3 +11,13 @@ aliases:
   dm_date: /usr/local/bin/dm_date
   dm_zdump: /usr/local/bin/dm_zdump
   validjson: /usr/local/bin/validjson
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  clusterdb: /usr/local/bin/clusterdb
+  config_data: /usr/local/bin/config_data

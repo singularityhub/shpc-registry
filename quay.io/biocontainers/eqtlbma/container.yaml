@@ -12,3 +12,7 @@ aliases:
   eqtlbma_bf_parallel.bash: /usr/local/bin/eqtlbma_bf_parallel.bash
   eqtlbma_hm: /usr/local/bin/eqtlbma_hm
   tutorial_eqtlbma.R: /usr/local/bin/tutorial_eqtlbma.R
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

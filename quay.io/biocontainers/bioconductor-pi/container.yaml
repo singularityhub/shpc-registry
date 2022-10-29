@@ -6,3 +6,14 @@ latest:
 tags:
   2.6.0--r41hdfd78af_0: sha256:8daecc7bc02198e662ce6dff95324b2e453a72e54d03795948c478ebac0ff343
 docker: quay.io/biocontainers/bioconductor-pi
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

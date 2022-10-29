@@ -6,3 +6,14 @@ latest:
 tags:
   4.5.5--pyh5e36f6f_0: sha256:7e334105042562cf02d3ad1e30672a02a5f7accc49f2b98f1e122e1783a3cda3
 docker: quay.io/biocontainers/pyteomics
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  idle3.10: /usr/local/bin/idle3.10
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

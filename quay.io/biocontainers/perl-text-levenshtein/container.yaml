@@ -6,3 +6,6 @@ latest:
 tags:
   0.13--pl5321hdfd78af_1: sha256:4a07012d49e40fb4c2a825e444dc6e29a3766e1cdc5ebccc6c0b74f7d48b4237
 docker: quay.io/biocontainers/perl-text-levenshtein
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

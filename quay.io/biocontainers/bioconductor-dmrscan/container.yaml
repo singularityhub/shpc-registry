@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r351_0: sha256:0c0d295e6bd53ab970bf7f6bf48cb2b1ebec08c949acf8e8baf092b69e119f87
 docker: quay.io/biocontainers/bioconductor-dmrscan
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  wget: /usr/local/bin/wget

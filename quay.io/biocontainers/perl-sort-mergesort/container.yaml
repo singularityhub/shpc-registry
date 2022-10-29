@@ -6,3 +6,6 @@ latest:
 tags:
   0.31--pl5321hdfd78af_2: sha256:aa13d268a8ce531963319da227ba66ea4760fb0b2d93f49d900de7683235855d
 docker: quay.io/biocontainers/perl-sort-mergesort
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

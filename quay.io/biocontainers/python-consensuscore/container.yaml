@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-consensuscore
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-consensuscore
+latest:
+  1.1.1--py27hef6f488_6: sha256:3b0662865ab54ffe5a64bbf2892fee33e3c031680f3df755ee1e45afd4d3173c
+tags:
+  1.1.1--py27hef6f488_6: sha256:3b0662865ab54ffe5a64bbf2892fee33e3c031680f3df755ee1e45afd4d3173c
+docker: quay.io/biocontainers/python-consensuscore

@@ -6,3 +6,12 @@ latest:
 tags:
   2.3_14--r3.3.2_0: sha256:d1966702a708ec37eb664f48b07f0710270cb4711e694a8ca039f740c925530f
 docker: quay.io/biocontainers/r-flexmix
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

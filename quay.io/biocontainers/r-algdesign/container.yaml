@@ -6,3 +6,7 @@ latest:
 tags:
   1.1_7.3--r3.3.2_0: sha256:af8fc7a9abd0f7e5364a43474ad0ff5c2f77c60e2bd91ca5a203d985da411525
 docker: quay.io/biocontainers/r-algdesign
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

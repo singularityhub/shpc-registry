@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:c761f3590dbbb681d7a17d5383f56455ad70118e8d87ed533fdc87b2a84bc5aa
 docker: quay.io/biocontainers/bioconductor-matrixqcvis
+aliases:
+  pandoc: /usr/local/bin/pandoc

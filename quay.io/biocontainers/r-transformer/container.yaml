@@ -6,3 +6,14 @@ latest:
 tags:
   0.2.9--r36_0: sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be
 docker: quay.io/biocontainers/r-transformer
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

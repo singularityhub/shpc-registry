@@ -6,3 +6,14 @@ latest:
 tags:
   1.66.0--r41hdfd78af_0: sha256:ca22484df39003f70ead7a514a4869a995c258c2c023eaab4eea46cea7829dde
 docker: quay.io/biocontainers/bioconductor-hypergraph
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,5 @@ latest:
 tags:
   1.1.2--r41h3121a25_0: sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb
 docker: quay.io/biocontainers/r-shazam
+aliases:
+  glpsol: /usr/local/bin/glpsol

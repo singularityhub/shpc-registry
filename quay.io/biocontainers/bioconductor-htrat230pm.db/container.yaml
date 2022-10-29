@@ -7,5 +7,13 @@ tags:
   3.13.0--r41hdfd78af_1: sha256:18ee6b2a5a8d7a2c630aabdf1041e0984f28c65a6ddfdd6dc236992cdd14767f
 docker: quay.io/biocontainers/bioconductor-htrat230pm.db
 aliases:
-  .bioconductor-htrat230pm.db-post-link.sh: /usr/local/bin/.bioconductor-htrat230pm.db-post-link.sh
-  .bioconductor-htrat230pm.db-pre-unlink.sh: /usr/local/bin/.bioconductor-htrat230pm.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

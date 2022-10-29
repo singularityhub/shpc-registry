@@ -16,3 +16,13 @@ aliases:
   arv-normalize: /usr/local/bin/arv-normalize
   arv-put: /usr/local/bin/arv-put
   arv-ws: /usr/local/bin/arv-ws
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  futurize: /usr/local/bin/futurize
+  idle3.8: /usr/local/bin/idle3.8
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign

@@ -7,48 +7,24 @@ tags:
   1.4.0--ha8f3691_0: sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404
 docker: quay.io/biocontainers/thermorawfileparser
 aliases:
-  AWS.Logger.Core.dll: /usr/local/bin/AWS.Logger.Core.dll
   AWS.Logger.Core.pdb: /usr/local/bin/AWS.Logger.Core.pdb
-  AWSSDK.CloudWatchLogs.dll: /usr/local/bin/AWSSDK.CloudWatchLogs.dll
   AWSSDK.CloudWatchLogs.pdb: /usr/local/bin/AWSSDK.CloudWatchLogs.pdb
-  AWSSDK.Core.dll: /usr/local/bin/AWSSDK.Core.dll
   AWSSDK.Core.pdb: /usr/local/bin/AWSSDK.Core.pdb
-  AWSSDK.S3.dll: /usr/local/bin/AWSSDK.S3.dll
   AWSSDK.S3.pdb: /usr/local/bin/AWSSDK.S3.pdb
-  IronSnappy.dll: /usr/local/bin/IronSnappy.dll
-  MathNet.Numerics.dll: /usr/local/bin/MathNet.Numerics.dll
-  Mono.Options.dll: /usr/local/bin/Mono.Options.dll
-  NJsonSchema.dll: /usr/local/bin/NJsonSchema.dll
-  NUnit3.TestAdapter.dll: /usr/local/bin/NUnit3.TestAdapter.dll
   NUnit3.TestAdapter.pdb: /usr/local/bin/NUnit3.TestAdapter.pdb
-  Namotion.Reflection.dll: /usr/local/bin/Namotion.Reflection.dll
-  Newtonsoft.Json.dll: /usr/local/bin/Newtonsoft.Json.dll
-  OpenMcdf.Extensions.dll: /usr/local/bin/OpenMcdf.Extensions.dll
-  OpenMcdf.dll: /usr/local/bin/OpenMcdf.dll
-  Parquet.dll: /usr/local/bin/Parquet.dll
-  System.Buffers.dll: /usr/local/bin/System.Buffers.dll
-  System.IO.FileSystem.AccessControl.dll: /usr/local/bin/System.IO.FileSystem.AccessControl.dll
-  System.Memory.dll: /usr/local/bin/System.Memory.dll
-  System.Numerics.Vectors.dll: /usr/local/bin/System.Numerics.Vectors.dll
-  System.Runtime.CompilerServices.Unsafe.dll: /usr/local/bin/System.Runtime.CompilerServices.Unsafe.dll
-  System.Security.AccessControl.dll: /usr/local/bin/System.Security.AccessControl.dll
-  System.Security.Principal.Windows.dll: /usr/local/bin/System.Security.Principal.Windows.dll
-  System.Text.Encoding.CodePages.dll: /usr/local/bin/System.Text.Encoding.CodePages.dll
-  System.ValueTuple.dll: /usr/local/bin/System.ValueTuple.dll
   THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
-  ThermoFisher.CommonCore.Data.dll: /usr/local/bin/ThermoFisher.CommonCore.Data.dll
-  ThermoFisher.CommonCore.RawFileReader.dll: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.dll
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
-  ThermoRawFileParser.exe.config: /usr/local/bin/ThermoRawFileParser.exe.config
   ThermoRawFileParser.pdb: /usr/local/bin/ThermoRawFileParser.pdb
   ThermoRawFileParser.sh: /usr/local/bin/ThermoRawFileParser.sh
-  log4net.config: /usr/local/bin/log4net.config
-  log4net.dll: /usr/local/bin/log4net.dll
-  nunit.engine.api.dll: /usr/local/bin/nunit.engine.api.dll
-  nunit.engine.core.dll: /usr/local/bin/nunit.engine.core.dll
-  nunit.engine.dll: /usr/local/bin/nunit.engine.dll
-  nunit.framework.dll: /usr/local/bin/nunit.framework.dll
-  testcentric.engine.metadata.dll: /usr/local/bin/testcentric.engine.metadata.dll
   thermorawfileparser: /usr/local/bin/thermorawfileparser
-  zlib.net.dll: /usr/local/bin/zlib.net.dll
+  LICENSE: /usr/local/bin/LICENSE
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr

@@ -6,3 +6,5 @@ latest:
 tags:
   2.000029--pl5321hdfd78af_0: sha256:3a5d81b10c6ac9842cde5e94cf5869cf03dd93ce4d790be67051bbe7d5dd9f5b
 docker: quay.io/biocontainers/perl-local-lib
+aliases:
+  config_data: /usr/local/bin/config_data

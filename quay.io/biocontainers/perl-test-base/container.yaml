@@ -6,3 +6,14 @@ latest:
 tags:
   0.89--pl5321hdfd78af_1: sha256:ff15a93214632f0954ae51631644e837d88084c8fee8c52725082a445bc0075f
 docker: quay.io/biocontainers/perl-test-base
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

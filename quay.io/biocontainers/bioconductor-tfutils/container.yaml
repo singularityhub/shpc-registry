@@ -6,3 +6,10 @@ latest:
 tags:
   1.8.0--r40_0: sha256:23256792ffbbc4665f3d8c9cb0ae41ac30afde168f62ffc97804870ea11e35c9
 docker: quay.io/biocontainers/bioconductor-tfutils
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

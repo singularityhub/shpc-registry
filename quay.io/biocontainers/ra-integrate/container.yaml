@@ -22,3 +22,13 @@ aliases:
   unitigger: /usr/local/bin/unitigger
   widen_overlaps: /usr/local/bin/widen_overlaps
   zoom: /usr/local/bin/zoom
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl

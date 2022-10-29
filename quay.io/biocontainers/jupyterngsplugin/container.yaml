@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/jupyterngsplugin
 aliases:
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  assistant: /usr/local/bin/assistant
+  bcomps: /usr/local/bin/bcomps
+  canbusutil: /usr/local/bin/canbusutil
+  ccomps: /usr/local/bin/ccomps
+  certutil: /usr/local/bin/certutil

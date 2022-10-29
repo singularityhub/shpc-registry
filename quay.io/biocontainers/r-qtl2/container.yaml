@@ -6,3 +6,9 @@ latest:
 tags:
   0.22--r40he1b5a44_0: sha256:f776ea1b8ef17c102b757525294da3913912738444817f30714c9899548f79f9
 docker: quay.io/biocontainers/r-qtl2
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -47,3 +47,13 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  appletviewer: /usr/local/bin/appletviewer
+  blat: /usr/local/bin/blat
+  chardetect: /usr/local/bin/chardetect
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

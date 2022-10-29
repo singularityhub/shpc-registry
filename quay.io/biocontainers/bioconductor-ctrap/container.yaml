@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:4caaf1bc57b6f492dbf92bbd654d6d0723ace99116c1d72090ddb432f6b0102b
 docker: quay.io/biocontainers/bioconductor-ctrap
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

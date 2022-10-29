@@ -17,3 +17,13 @@ aliases:
   metabat1: /usr/local/bin/metabat1
   metabat2: /usr/local/bin/metabat2
   runMetaBat.sh: /usr/local/bin/runMetaBat.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  bgzip: /usr/local/bin/bgzip
+  blast_formatter: /usr/local/bin/blast_formatter

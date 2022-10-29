@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r341_0: sha256:0470c691b998fad83d66821d101cf7be98226879b99a9e348e22b571ebf2c42d
 docker: quay.io/biocontainers/bioconductor-epivizrserver
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config

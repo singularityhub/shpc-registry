@@ -14,3 +14,13 @@ aliases:
   toil: /usr/local/bin/toil
   toil-cwl-runner: /usr/local/bin/toil-cwl-runner
   wsdump: /usr/local/bin/wsdump
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  bagit.py: /usr/local/bin/bagit.py
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  black: /usr/local/bin/black
+  black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd

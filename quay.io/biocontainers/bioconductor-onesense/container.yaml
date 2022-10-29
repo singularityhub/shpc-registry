@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:f7a84a1a9a4ca27acd970d30fd70ffc891017603aa03c077b059f12296973fd7
 docker: quay.io/biocontainers/bioconductor-onesense
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

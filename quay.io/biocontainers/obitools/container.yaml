@@ -41,3 +41,13 @@ aliases:
   obitaxonomy: /usr/local/bin/obitaxonomy
   obiuniq: /usr/local/bin/obiuniq
   oligotag: /usr/local/bin/oligotag
+  idle: /usr/local/bin/idle
+  iptest: /usr/local/bin/iptest
+  iptest2: /usr/local/bin/iptest2
+  ipython: /usr/local/bin/ipython
+  ipython2: /usr/local/bin/ipython2
+  pygmentize: /usr/local/bin/pygmentize
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7

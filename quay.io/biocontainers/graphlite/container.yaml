@@ -6,3 +6,9 @@ latest:
 tags:
   1.0.5--pyh864c0ab_3: sha256:14176e2d1585e79c27fb05874797e810f2ad5f3fda787bca3e50cd12e27b60fd
 docker: quay.io/biocontainers/graphlite
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

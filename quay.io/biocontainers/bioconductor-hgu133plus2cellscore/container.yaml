@@ -7,5 +7,9 @@ tags:
   1.8.0--r40_0: sha256:0a1f1eb7f150116a7d2e1591610264f82bfb6605eae046218c66cd0a01bf1fc7
 docker: quay.io/biocontainers/bioconductor-hgu133plus2cellscore
 aliases:
-  .bioconductor-hgu133plus2cellscore-post-link.sh: /usr/local/bin/.bioconductor-hgu133plus2cellscore-post-link.sh
-  .bioconductor-hgu133plus2cellscore-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2cellscore-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

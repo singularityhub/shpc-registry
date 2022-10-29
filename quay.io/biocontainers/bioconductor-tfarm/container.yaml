@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--r36_1: sha256:55deb0fa415f67c4df6c8daba1bb9d33ccc0f3dfeb3be786bd3ce3486d7f3972
 docker: quay.io/biocontainers/bioconductor-tfarm
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

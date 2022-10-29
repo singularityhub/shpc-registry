@@ -10,3 +10,5 @@ aliases:
   gfPcr: /usr/local/bin/gfPcr
   isPcr: /usr/local/bin/isPcr
   legsta: /usr/local/bin/legsta
+  any2fasta: /usr/local/bin/any2fasta
+  gfServer: /usr/local/bin/gfServer

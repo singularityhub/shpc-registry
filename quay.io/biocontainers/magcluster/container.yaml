@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/magcluster
 aliases:
   clinker: /usr/local/bin/clinker
   magcluster: /usr/local/bin/magcluster
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace.pl: /usr/local/bin/ace.pl
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  acyclic: /usr/local/bin/acyclic
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate

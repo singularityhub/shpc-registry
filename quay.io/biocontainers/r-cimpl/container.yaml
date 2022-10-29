@@ -6,3 +6,14 @@ latest:
 tags:
   1.1--r41h9ee0642_4: sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e
 docker: quay.io/biocontainers/r-cimpl
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

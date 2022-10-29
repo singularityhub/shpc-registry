@@ -11,3 +11,13 @@ aliases:
   create_kmers.sh: /usr/local/bin/create_kmers.sh
   heatmap.R: /usr/local/bin/heatmap.R
   map_kmers.sh: /usr/local/bin/map_kmers.sh
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow

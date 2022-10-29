@@ -7,8 +7,6 @@ tags:
   1.8.9--pyhdfd78af_3: sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a
 docker: quay.io/biocontainers/funannotate
 aliases:
-  .funannotate-post-link.sh: /usr/local/bin/.funannotate-post-link.sh
-  .pasa-post-link.sh: /usr/local/bin/.pasa-post-link.sh
   CodingQuarry: /usr/local/bin/CodingQuarry
   CufflinksGTF_to_CodingQuarryGFF3.py: /usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
@@ -37,12 +35,9 @@ aliases:
   color_defs.pl: /usr/local/bin/color_defs.pl
   compute_base_probs.pl: /usr/local/bin/compute_base_probs.pl
   distro: /usr/local/bin/distro
-  esd2esi: /usr/local/bin/esd2esi
   espoca: /usr/local/bin/espoca
   evidence_modeler.pl: /usr/local/bin/evidence_modeler.pl
   exclude_similar_proteins.pl: /usr/local/bin/exclude_similar_proteins.pl
-  exonerate: /usr/local/bin/exonerate
-  exonerate-server: /usr/local/bin/exonerate-server
   exonpairs: /usr/local/bin/exonpairs
   exp_up_ensg.pl: /usr/local/bin/exp_up_ensg.pl
   expand_links.pl: /usr/local/bin/expand_links.pl
@@ -50,29 +45,8 @@ aliases:
   extract_exons.py: /usr/local/bin/extract_exons.py
   extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
   fasta: /usr/local/bin/fasta
-  fasta2esd: /usr/local/bin/fasta2esd
   fasta36: /usr/local/bin/fasta36
   fasta_prot_checker.pl: /usr/local/bin/fasta_prot_checker.pl
-  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
-  fastachecksum: /usr/local/bin/fastachecksum
-  fastaclip: /usr/local/bin/fastaclip
-  fastacomposition: /usr/local/bin/fastacomposition
-  fastadiff: /usr/local/bin/fastadiff
-  fastaexplode: /usr/local/bin/fastaexplode
-  fastafetch: /usr/local/bin/fastafetch
-  fastahardmask: /usr/local/bin/fastahardmask
-  fastaindex: /usr/local/bin/fastaindex
-  fastalength: /usr/local/bin/fastalength
-  fastanrdb: /usr/local/bin/fastanrdb
-  fastaoverlap: /usr/local/bin/fastaoverlap
-  fastareformat: /usr/local/bin/fastareformat
-  fastaremove: /usr/local/bin/fastaremove
-  fastarevcomp: /usr/local/bin/fastarevcomp
-  fastasoftmask: /usr/local/bin/fastasoftmask
-  fastasort: /usr/local/bin/fastasort
-  fastasubseq: /usr/local/bin/fastasubseq
-  fastatranslate: /usr/local/bin/fastatranslate
-  fastavalidcds: /usr/local/bin/fastavalidcds
   fastf36: /usr/local/bin/fastf36
   fastm36: /usr/local/bin/fastm36
   fasts36: /usr/local/bin/fasts36
@@ -115,7 +89,6 @@ aliases:
   hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
   hmm-assembler.pl: /usr/local/bin/hmm-assembler.pl
   hmm-info: /usr/local/bin/hmm-info
-  ipcress: /usr/local/bin/ipcress
   kadmin.local: /usr/local/bin/kadmin.local
   kadmind: /usr/local/bin/kadmind
   kdb5_util: /usr/local/bin/kdb5_util
@@ -200,3 +173,13 @@ aliases:
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
   uuserver: /usr/local/bin/uuserver
   zff2gff3.pl: /usr/local/bin/zff2gff3.pl
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  PtR: /usr/local/bin/PtR
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  Trinity: /usr/local/bin/Trinity
+  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
+  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time

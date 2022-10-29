@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.2--r40hdfd78af_0: sha256:d6cff4fbd7188d879402d6a2f7f73c15c4a6ee5accc37679cd56e499978db60a
 docker: quay.io/biocontainers/bioconductor-artms
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

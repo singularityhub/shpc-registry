@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a
 docker: quay.io/biocontainers/bioconductor-sigfeature
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

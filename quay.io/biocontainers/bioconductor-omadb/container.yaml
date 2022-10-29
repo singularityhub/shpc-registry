@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:444daa83ed6f186265cd969fbc0e8a52209a837904e0539cad0f749acaeda2ae
 docker: quay.io/biocontainers/bioconductor-omadb
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,10 @@ latest:
 tags:
   5.24.0--r40_0: sha256:b5375788e00244e021c7077b601f3eb90c2ed75d936d15e35881413d5b5c4d80
 docker: quay.io/biocontainers/bioconductor-ggtools
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

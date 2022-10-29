@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:9a1addf6fcfce3a3569a77caad15c3b1ab690081aa4c717972b07df06ea2ad37
 docker: quay.io/biocontainers/bioconductor-mirna20cdf
 aliases:
-  .bioconductor-mirna20cdf-post-link.sh: /usr/local/bin/.bioconductor-mirna20cdf-post-link.sh
-  .bioconductor-mirna20cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-mirna20cdf-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

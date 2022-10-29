@@ -20,6 +20,23 @@ import collections
 from shpc.main import get_client
 import shpc.utils
 import sys
+import requests
+
+from bs4 import BeautifulSoup
+
+import pipelib.steps as step
+import pipelib.pipeline as pipeline
+
+
+# A pipeline to process docker tags
+steps = (
+    # Scrub commits from version string
+    step.filters.CleanCommit(),
+    # Parse versions, return sorted ascending, and taking version major.minor.patch into account
+    step.container.ContainerTagSort(),
+)
+p = pipeline.Pipeline(steps)
+
 
 here = os.path.abspath(os.path.dirname(__file__))
 root = os.path.dirname(os.path.dirname(here))
@@ -34,16 +51,58 @@ def get_parser():
     parser.add_argument("--registry", help="Path to registry root.", default=root)
     parser.add_argument("--maintainer", help="Author", default="@vsoch")
     parser.add_argument(
-        "--min-count-inclusion", help="Author", default=10, type=int, dest="min_count"
+        "--min-count-inclusion",
+        help="Include all executables under this count",
+        default=10,
+        type=int,
+        dest="min_count",
+    )
+    parser.add_argument(
+        "--max-count-inclusion",
+        help="Do not include counts over this value",
+        default=1000,
+        type=int,
+        dest="max_count",
     )
     parser.add_argument(
         "--additional-count-inclusion",
         help="Author",
-        default=25,
+        default=10,
         type=int,
         dest="add_count",
     )
     return parser
+
+
+def include_path(path):
+    """
+    Various manual filters
+    """
+    for ending in [
+        "post-link.sh",
+        ".debug",
+        "pre-link.sh",
+        ".so",
+        ".dll",
+        ".gz",
+        ".dna",
+        ".dox",
+        ".db",
+        ".db3",
+        ".config",
+        ".defaults",
+        ".dat",
+        ".dn",
+        ".d",
+        ".md",
+    ]:
+        if path.endswith(ending):
+            return False
+    if os.path.basename(path).startswith("."):
+        return False
+    if "[" in path or "]" in path or "README" in path:
+        return False
+    return True
 
 
 def main():
@@ -69,13 +128,20 @@ def main():
     # Read in counts
     counts = shpc.utils.read_json(counts)
 
+    # Keep track of those we've seen in the cache
+    seen = set()
+
     # For each entry in the cache (which might not be in our registry) check for it!
     for entry in shpc.utils.recursive_find(
         os.path.join(args.cache, "quay.io"), ".json"
     ):
+        # Reset addition count
+        add_count = args.add_count
+
         # We really only need the container uri,
         basename = os.path.basename(entry)
         image, tag = basename.replace(".json", "").split(":", 1)
+        seen.add(image)
         image = "quay.io/biocontainers/%s" % image
 
         container_dir = os.path.join(args.registry, image)
@@ -90,7 +156,7 @@ def main():
         for x, path in aliases.items():
 
             # Always take the very unique ones!
-            if counts[x] <= args.min_count:
+            if counts[x] <= args.min_count and include_path(path):
                 keepers[x] = path
 
         # of the remaining we have, sorted by count, keep top N (lower numbers == more unique)
@@ -99,10 +165,11 @@ def main():
         # Lowest to highest
         sorted_counts = list(collections.OrderedDict(alias_counts))
 
-        while args.add_count > 0:
+        while add_count > 0 and sorted_counts:
             keeper = sorted_counts.pop(0)
-            keepers[keeper] = aliases[keeper]
-            args.add_count -= 1
+            if include_path(keeper) and counts[keeper] < args.max_count:
+                keepers[keeper] = aliases[keeper]
+                add_count -= 1
 
         for alias, _ in aliases.items():
             if alias not in counts:
@@ -118,6 +185,53 @@ def main():
             add_container(cli, container, args.maintainer, entry_name, aliases=keepers)
         except:
             print(f"Issue adding container {container}")
+
+    # Now add those not yet seen!
+    print(f"Found {len(seen)} containers already added.")
+    response = requests.get("https://depot.galaxyproject.org/singularity/")
+    soup = BeautifulSoup(response.text, "html.parser")
+    links = soup.find_all("a")
+    uris = get_tags(links, seen)
+
+    # For each uri, get latest version of tags not an error
+    for uri, tags in uris.items():
+
+        if "UNAUTHORIZED" in tags[0]:
+            continue
+
+        # The updated and transformed items
+        try:
+            ordered = p.run(list(tags), unwrap=False)
+        except:
+            continue
+
+        if not ordered:
+            continue
+
+        tag = ordered[0]._original
+        container = f"quay.io/biocontainers/{uri}:{tag}"
+
+        # We don't have aliases here
+        try:
+            add_container(cli, container, args.maintainer, uri, aliases=[])
+        except:
+            print(f"Issue adding container {container}")
+
+
+def get_tags(links, seen):
+    uris = {}
+
+    # Use the latest for each unique
+    for link in links:
+        if ":" not in link.text:
+            continue
+        image, tag = link.text.split(":", 1)
+        if image in seen or image in uris:
+            continue
+        print(f"Retrieving tags for {image}")
+        tags = requests.get(f"https://crane.ggcr.dev/ls/quay.io/biocontainers/{image}")
+        uris[image] = [x for x in tags.text.split("\n") if x]
+    return uris
 
 
 def add_container(cli, container, maintainer, entry_name, aliases):

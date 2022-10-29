@@ -20,3 +20,13 @@ aliases:
   papaa_targene_summary_figures.R: /usr/local/bin/papaa_targene_summary_figures.R
   papaa_visualize_decisions.py: /usr/local/bin/papaa_visualize_decisions.py
   papaa_within_disease_analysis.py: /usr/local/bin/papaa_within_disease_analysis.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  tificc: /usr/local/bin/tificc

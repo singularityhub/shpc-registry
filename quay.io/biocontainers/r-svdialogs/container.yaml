@@ -6,3 +6,7 @@ latest:
 tags:
   0.9_57--r3.3.2_0: sha256:9fb183f7658ac3ae8499b4fde0431e4891052fce65c8acdafebefa165b8b22db
 docker: quay.io/biocontainers/r-svdialogs
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

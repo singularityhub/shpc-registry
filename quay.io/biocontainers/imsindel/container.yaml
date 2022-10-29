@@ -57,3 +57,13 @@ aliases:
   tfasts36: /usr/local/bin/tfasts36
   tfastx36: /usr/local/bin/tfastx36
   tfasty36: /usr/local/bin/tfasty36
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  einsi: /usr/local/bin/einsi
+  erb: /usr/local/bin/erb
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl

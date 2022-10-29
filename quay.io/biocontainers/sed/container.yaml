@@ -6,3 +6,5 @@ latest:
 tags:
   4.7.0: sha256:cae5cdb96d0480c92fc2162ea63955877694512542a33cd6b345d9e5be4b07e7
 docker: quay.io/biocontainers/sed
+aliases:
+  sed: /usr/local/bin/sed

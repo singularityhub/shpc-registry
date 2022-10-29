@@ -7,6 +7,14 @@ tags:
   1.1.7--py_0: sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9
 docker: quay.io/biocontainers/nglview
 aliases:
-  .nglview-post-link.sh: /usr/local/bin/.nglview-post-link.sh
-  .nglview-pre-unlink.sh: /usr/local/bin/.nglview-pre-unlink.sh
   nglview: /usr/local/bin/nglview
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  conv-template: /usr/local/bin/conv-template
+  curve_keygen: /usr/local/bin/curve_keygen
+  from-template: /usr/local/bin/from-template
+  idle3.6: /usr/local/bin/idle3.6
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython
+  ipython3: /usr/local/bin/ipython3
+  jsonschema: /usr/local/bin/jsonschema

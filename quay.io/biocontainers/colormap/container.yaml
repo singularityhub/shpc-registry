@@ -6,3 +6,14 @@ latest:
 tags:
   0.9.8--py36_0: sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7
 docker: quay.io/biocontainers/colormap
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  assistant: /usr/local/bin/assistant
+  browse: /usr/local/bin/browse
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

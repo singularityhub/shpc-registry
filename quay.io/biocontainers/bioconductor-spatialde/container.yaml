@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:fa4cd8e16d4ba92acbfed959cf3ee9676971ccbc2f0ce901b821e76aae9b008e
 docker: quay.io/biocontainers/bioconductor-spatialde
+aliases:
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

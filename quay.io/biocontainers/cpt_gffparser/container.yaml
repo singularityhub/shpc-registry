@@ -6,3 +6,11 @@ latest:
 tags:
   1.2.2--pyh5e36f6f_0: sha256:170447975de833e212b357dcbe28c94ea0b88421f66d1501103a5a240f7d3d5d
 docker: quay.io/biocontainers/cpt_gffparser
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

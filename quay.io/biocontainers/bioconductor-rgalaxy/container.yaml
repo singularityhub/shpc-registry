@@ -6,3 +6,14 @@ latest:
 tags:
   1.37.1--r41hdfd78af_0: sha256:36d5dc05af8a8a9ba667f60867414431c7f377519c19187f3c03de0b2c95fc02
 docker: quay.io/biocontainers/bioconductor-rgalaxy
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

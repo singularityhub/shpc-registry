@@ -6,3 +6,9 @@ latest:
 tags:
   1.39.0--r40h037d062_0: sha256:fcca90e35074eafa94c166e0fb5edc4d27ceb1a3e0277241f12d45ef1b8d563e
 docker: quay.io/biocontainers/bioconductor-deseq
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

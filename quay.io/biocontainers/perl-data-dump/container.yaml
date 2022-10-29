@@ -6,3 +6,14 @@ latest:
 tags:
   1.25--pl5321hec16e2b_1: sha256:23a867ad88a2325c9c14ebf8b3c870c494b7fb9bb91d0f5a85743cf19139c503
 docker: quay.io/biocontainers/perl-data-dump
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

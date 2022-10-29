@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/bioprov
 aliases:
   bioprov: /usr/local/bin/bioprov
   coveralls: /usr/local/bin/coveralls
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  coverage: /usr/local/bin/coverage

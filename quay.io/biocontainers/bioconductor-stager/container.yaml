@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:251c9ca6df39a1358991a76b5144a3070076c6a07d6e58a67c02232551b5efde
 docker: quay.io/biocontainers/bioconductor-stager
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

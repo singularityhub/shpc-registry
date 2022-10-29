@@ -6,3 +6,5 @@ latest:
 tags:
   1.0.0--r41hc247a5b_2: sha256:773acab824a6e8f966c76cb7fc8bf53447ce7a1ab6f0238dab0ad54bc49a33b7
 docker: quay.io/biocontainers/bioconductor-veloviz
+aliases:
+  glpsol: /usr/local/bin/glpsol

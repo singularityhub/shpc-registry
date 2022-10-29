@@ -10,3 +10,13 @@ aliases:
   genmap: /usr/local/bin/genmap
   probeit: /usr/local/bin/probeit
   setcover: /usr/local/bin/setcover
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  annotateBed: /usr/local/bin/annotateBed
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

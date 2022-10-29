@@ -6,3 +6,5 @@ latest:
 tags:
   1.7.0--r41hdfd78af_0: sha256:646d9a88c2a5920305d2cac63ec44f0f1e3554a30407962edcc29d9deffe6737
 docker: quay.io/biocontainers/bioconductor-potra
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

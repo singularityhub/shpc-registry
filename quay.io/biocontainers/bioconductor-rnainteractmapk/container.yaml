@@ -7,5 +7,13 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:b3f26e05b6c5509bf4f4d6865d9d2dcb6a1470fd2273ea100c78bfd47343bf1f
 docker: quay.io/biocontainers/bioconductor-rnainteractmapk
 aliases:
-  .bioconductor-rnainteractmapk-post-link.sh: /usr/local/bin/.bioconductor-rnainteractmapk-post-link.sh
-  .bioconductor-rnainteractmapk-pre-unlink.sh: /usr/local/bin/.bioconductor-rnainteractmapk-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

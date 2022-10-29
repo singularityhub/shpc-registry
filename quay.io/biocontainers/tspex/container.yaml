@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/tspex
 aliases:
   tspex: /usr/local/bin/tspex
+  f2py3.8: /usr/local/bin/f2py3.8
+  runxlrd.py: /usr/local/bin/runxlrd.py

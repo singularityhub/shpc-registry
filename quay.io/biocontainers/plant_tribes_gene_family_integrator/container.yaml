@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/plant_tribes_gene_family_integrator
 aliases:
   GeneFamilyIntegrator: /usr/local/bin/GeneFamilyIntegrator
+  perl5.32.0: /usr/local/bin/perl5.32.0

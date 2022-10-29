@@ -1,7 +1,7 @@
 docker: quay.io/biocontainers/fastqc
-url: https://quay.io/repository/biocontainers/fastqc
-maintainer: '@sarahbeecroft'
-description: A quality control tool for high throughput sequence data
+url: https://biocontainers.pro/tools/fastqc
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fastqc
 latest:
   0.11.9--hdfd78af_1: sha256:0c60406af11b0723339df05b10a592aa3f8c9a4d2ec8f213cbe11051e7264a25
 tags:

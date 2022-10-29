@@ -6,3 +6,5 @@ latest:
 tags:
   1.24.0--r40h399db7b_1: sha256:fdf3978dae695934af48444b7630a4a0fc1ba229e302e935a50048c285eccb22
 docker: quay.io/biocontainers/bioconductor-simulatorz
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

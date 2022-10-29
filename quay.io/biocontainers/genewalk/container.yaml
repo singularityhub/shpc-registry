@@ -18,3 +18,13 @@ aliases:
   prt_terms.py: /usr/local/bin/prt_terms.py
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bundle_image: /usr/local/bin/bundle_image
+  ccomps: /usr/local/bin/ccomps
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect

@@ -6,3 +6,14 @@ latest:
 tags:
   1.38.0--r41hc0cfd56_2: sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d
 docker: quay.io/biocontainers/bioconductor-ibbig
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

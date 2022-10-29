@@ -6,3 +6,7 @@ latest:
 tags:
   1.0.11--r3.3.2_0: sha256:f2ea1bf676b4cf6a7bf23d3c6a8a9bd353e9de7b62f7a5156d3ddbdb923ca945
 docker: quay.io/biocontainers/r-multitaper
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

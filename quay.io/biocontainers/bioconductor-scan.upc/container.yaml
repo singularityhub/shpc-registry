@@ -6,3 +6,14 @@ latest:
 tags:
   2.36.0--r41hdfd78af_0: sha256:8a08a64b9a385d2d67c6fb4a14244605331b03c31c4a438378ef2ecc677470af
 docker: quay.io/biocontainers/bioconductor-scan.upc
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

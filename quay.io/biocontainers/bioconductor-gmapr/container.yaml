@@ -6,3 +6,14 @@ latest:
 tags:
   1.36.0--r41hc0cfd56_2: sha256:5b6fcab399519f0e29b38c316246c4159c1722bd7fad36645e9ede4c6298673d
 docker: quay.io/biocontainers/bioconductor-gmapr
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

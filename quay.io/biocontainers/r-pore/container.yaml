@@ -6,3 +6,14 @@ latest:
 tags:
   0.24--r41h9ee0642_4: sha256:663287b1a398a531b13ad9f9c065c4947e13f32661f5e8f65862284933e3013f
 docker: quay.io/biocontainers/r-pore
+aliases:
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
+  env_parallel.sh: /usr/local/bin/env_parallel.sh

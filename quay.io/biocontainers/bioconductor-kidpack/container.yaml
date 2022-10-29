@@ -7,5 +7,13 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:45e2d4f2680162a3ea42081c52833d42f4162171453b1c52cba40c86221f6d5a
 docker: quay.io/biocontainers/bioconductor-kidpack
 aliases:
-  .bioconductor-kidpack-post-link.sh: /usr/local/bin/.bioconductor-kidpack-post-link.sh
-  .bioconductor-kidpack-pre-unlink.sh: /usr/local/bin/.bioconductor-kidpack-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -7,7 +7,6 @@ tags:
   1.2.3--hdfd78af_4: sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810
 docker: quay.io/biocontainers/mugsy
 aliases:
-  .mugsy-post-link.sh: /usr/local/bin/.mugsy-post-link.sh
   delta-dups.sh: /usr/local/bin/delta-dups.sh
   fixMAFnames.pl: /usr/local/bin/fixMAFnames.pl
   maf2fasta.pl: /usr/local/bin/maf2fasta.pl
@@ -18,3 +17,6 @@ aliases:
   splitmaf.pl: /usr/local/bin/splitmaf.pl
   synchain-mugsy: /usr/local/bin/synchain-mugsy
   xmfa2maf.pl: /usr/local/bin/xmfa2maf.pl
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  perl5.32.0: /usr/local/bin/perl5.32.0

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:cf7a2d20740da9fda17c945dc8bbf2cd305f1f208da68c3ef6bbc5333790ab4d
 docker: quay.io/biocontainers/bioconductor-consensus
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

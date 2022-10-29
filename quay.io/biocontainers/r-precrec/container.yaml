@@ -6,3 +6,6 @@ latest:
 tags:
   0.9.1--r3.4.1_0: sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c
 docker: quay.io/biocontainers/r-precrec
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

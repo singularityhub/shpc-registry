@@ -36,3 +36,13 @@ aliases:
   mysqlslap: /usr/local/bin/mysqlslap
   wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
   zlib_decompress: /usr/local/bin/zlib_decompress
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
+  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
+  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
+  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl
+  bp_das_server.pl: /usr/local/bin/bp_das_server.pl

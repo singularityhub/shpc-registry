@@ -10,3 +10,13 @@ aliases:
   alevin-fry: /usr/local/bin/alevin-fry
   pyroe: /usr/local/bin/pyroe
   simpleaf: /usr/local/bin/simpleaf
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  brotli: /usr/local/bin/brotli

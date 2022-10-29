@@ -6,3 +6,9 @@ latest:
 tags:
   2.8.0--r40h5f743cb_0: sha256:50cedab63e3416b41364ac751624cd105756271fb3bbb11d9cbff6a2269600fc
 docker: quay.io/biocontainers/bioconductor-cancerinsilico
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -6,3 +6,5 @@ latest:
 tags:
   2.3.1--h9ee0642_0: sha256:2f3cb2be9909165a153e9b9bef2956d1d7ef7ee4c6f08984ff07f7562c3d7327
 docker: quay.io/biocontainers/seqkit
+aliases:
+  seqkit: /usr/local/bin/seqkit

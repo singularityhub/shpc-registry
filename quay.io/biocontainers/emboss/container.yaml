@@ -6,3 +6,14 @@ latest:
 tags:
   6.6.0--haa49230_5: sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab
 docker: quay.io/biocontainers/emboss
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic
+  _backtranambig: /usr/local/bin/_backtranambig

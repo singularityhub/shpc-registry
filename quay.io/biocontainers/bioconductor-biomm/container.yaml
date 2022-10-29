@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:44de6689b5239c3c4102978033a1525401a8681d98cd50ae655726e72497c820
 docker: quay.io/biocontainers/bioconductor-biomm
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

@@ -6,3 +6,8 @@ latest:
 tags:
   1.44.0--r41hdfd78af_0: sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c
 docker: quay.io/biocontainers/bioconductor-imagehts
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

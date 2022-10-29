@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:81da405b0ef916140579ecbbd259c2ace3d6e5aa2387a783a115736e74f76361
 docker: quay.io/biocontainers/bioconductor-msgfplus
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

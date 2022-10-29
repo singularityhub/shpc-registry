@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/trycycler
 aliases:
   trycycler: /usr/local/bin/trycycler
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  f2py3.9: /usr/local/bin/f2py3.9
+  k8: /usr/local/bin/k8
+  mash: /usr/local/bin/mash
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
+  minimap2: /usr/local/bin/minimap2

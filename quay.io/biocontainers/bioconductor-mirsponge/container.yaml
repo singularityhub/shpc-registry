@@ -6,3 +6,8 @@ latest:
 tags:
   1.8.0--r351hf484d3e_0: sha256:55b0612f8165d9829a6031fe013ba5751c29e0fc240fd351a3244338ec371960
 docker: quay.io/biocontainers/bioconductor-mirsponge
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  udunits2: /usr/local/bin/udunits2
+  wget: /usr/local/bin/wget

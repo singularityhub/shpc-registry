@@ -6,3 +6,14 @@ latest:
 tags:
   1.02--pl5321hdfd78af_1: sha256:b787d03e5ff1fc80d96fcbbbd82b05ab7166d3bf963e91948032f36f5181ef36
 docker: quay.io/biocontainers/perl-text-abbrev
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

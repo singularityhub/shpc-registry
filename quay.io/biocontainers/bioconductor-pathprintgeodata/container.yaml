@@ -7,5 +7,4 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:5d978a3330421f01c1a68c96ce0895eae6f05fe2dac51ef88963191f5a96918b
 docker: quay.io/biocontainers/bioconductor-pathprintgeodata
 aliases:
-  .bioconductor-pathprintgeodata-post-link.sh: /usr/local/bin/.bioconductor-pathprintgeodata-post-link.sh
-  .bioconductor-pathprintgeodata-pre-unlink.sh: /usr/local/bin/.bioconductor-pathprintgeodata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

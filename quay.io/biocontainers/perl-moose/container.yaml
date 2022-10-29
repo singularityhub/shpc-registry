@@ -6,3 +6,7 @@ latest:
 tags:
   2.2201--pl5321hec16e2b_2: sha256:a8c52c27f2c850d78e11714556e9cdd59d2e58377bb8580b2e71991c1b60affe
 docker: quay.io/biocontainers/perl-moose
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

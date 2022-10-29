@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3
 docker: quay.io/biocontainers/bioconductor-maxcontrastprojection
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpichversion: /usr/local/bin/mpichversion

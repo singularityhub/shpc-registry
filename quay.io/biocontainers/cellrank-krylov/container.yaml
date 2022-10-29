@@ -49,3 +49,13 @@ aliases:
   pometis: /usr/local/bin/pometis
   ptest: /usr/local/bin/ptest
   scotch_esmumps: /usr/local/bin/scotch_esmumps
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  brotli: /usr/local/bin/brotli
+  cmpfillin: /usr/local/bin/cmpfillin
+  f2py3.9: /usr/local/bin/f2py3.9
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  fonttools: /usr/local/bin/fonttools

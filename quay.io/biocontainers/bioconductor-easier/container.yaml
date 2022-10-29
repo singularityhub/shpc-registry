@@ -7,9 +7,13 @@ tags:
   1.0.0--r41hdfd78af_0: sha256:be3cb49ef8ee1f1d4c34d9a2dd8114a92e84da2ac2ceecd566acf5a39779c650
 docker: quay.io/biocontainers/bioconductor-easier
 aliases:
-  .bioconductor-bcellviper-post-link.sh: /usr/local/bin/.bioconductor-bcellviper-post-link.sh
-  .bioconductor-bcellviper-pre-unlink.sh: /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh
-  .bioconductor-dorothea-post-link.sh: /usr/local/bin/.bioconductor-dorothea-post-link.sh
-  .bioconductor-dorothea-pre-unlink.sh: /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh
-  .bioconductor-easierdata-post-link.sh: /usr/local/bin/.bioconductor-easierdata-post-link.sh
-  .bioconductor-easierdata-pre-unlink.sh: /usr/local/bin/.bioconductor-easierdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

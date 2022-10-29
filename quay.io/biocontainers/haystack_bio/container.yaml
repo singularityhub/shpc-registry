@@ -27,3 +27,13 @@ aliases:
   mysqlbug: /usr/local/bin/mysqlbug
   mysqlhotcopy: /usr/local/bin/mysqlhotcopy
   wftopfa: /usr/local/bin/wftopfa
+  ace2sam: /usr/local/bin/ace2sam
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  appletviewer: /usr/local/bin/appletviewer

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87
 docker: quay.io/biocontainers/bioconductor-crisprvariants
+aliases:
+  wget: /usr/local/bin/wget

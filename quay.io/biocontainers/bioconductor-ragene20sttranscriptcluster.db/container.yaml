@@ -7,5 +7,13 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:6d2586ae5a85f6f3e739a5e89da1adf1a1e69926077b9d81fe45f2f739c3bc6f
 docker: quay.io/biocontainers/bioconductor-ragene20sttranscriptcluster.db
 aliases:
-  .bioconductor-ragene20sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-ragene20sttranscriptcluster.db-post-link.sh
-  .bioconductor-ragene20sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene20sttranscriptcluster.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

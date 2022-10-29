@@ -6,3 +6,5 @@ latest:
 tags:
   0.20--pl5321hdfd78af_1: sha256:3fdfe9108eec02cac6d0eadae85cca019f30b5519dd930e033b632ec956aeb04
 docker: quay.io/biocontainers/perl-test-without-module
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

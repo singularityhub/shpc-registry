@@ -6,3 +6,14 @@ latest:
 tags:
   1.38.0--r41hdfd78af_0: sha256:a2b205867a53b6cb5be3e0a0cccb90dada97fc47c2f50c85f2cea5bf5e56a52e
 docker: quay.io/biocontainers/bioconductor-maskbad
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

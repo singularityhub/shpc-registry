@@ -6,3 +6,11 @@ latest:
 tags:
   1.4.3: sha256:3a2c607b31c9f34dcdefb7045dd23063091f55c78050530b79c4755335fb7ba7
 docker: quay.io/biocontainers/pandas
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

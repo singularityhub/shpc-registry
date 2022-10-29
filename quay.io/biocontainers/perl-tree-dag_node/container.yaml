@@ -6,3 +6,14 @@ latest:
 tags:
   1.32--pl5321hdfd78af_0: sha256:e2b8cb87aae2e8d00a1fce8652495fb77b01518427564ad73d03f27d34998110
 docker: quay.io/biocontainers/perl-tree-dag_node
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

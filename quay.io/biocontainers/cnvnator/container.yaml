@@ -89,3 +89,13 @@ aliases:
   xrdsssadmin: /usr/local/bin/xrdsssadmin
   xrootd: /usr/local/bin/xrootd
   xrootd-config: /usr/local/bin/xrootd-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bgzip: /usr/local/bin/bgzip
+  brotli: /usr/local/bin/brotli
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

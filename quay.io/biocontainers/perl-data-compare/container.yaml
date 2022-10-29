@@ -6,3 +6,5 @@ latest:
 tags:
   1.25--pl5321hdfd78af_1: sha256:edf2b0aea60244c7513ae107d64a4df4c9c031cc94722c9a940c847048f8e13b
 docker: quay.io/biocontainers/perl-data-compare
+aliases:
+  findrule: /usr/local/bin/findrule

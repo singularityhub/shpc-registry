@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-tie-hash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-tie-hash
+latest:
+  1.05--pl5321hdfd78af_2: sha256:7be03007002b6b84bc54157daaf2f4d1d8719ea700731c8a56a1aa1ce26c1b84
+tags:
+  1.05--pl5321hdfd78af_2: sha256:7be03007002b6b84bc54157daaf2f4d1d8719ea700731c8a56a1aa1ce26c1b84
+docker: quay.io/biocontainers/perl-tie-hash

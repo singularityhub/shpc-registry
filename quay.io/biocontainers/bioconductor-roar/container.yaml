@@ -6,3 +6,5 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:c00453adb121b1e24c5b48afa5f56d6de68323b52213e87b3e415050ef096b34
 docker: quay.io/biocontainers/bioconductor-roar
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

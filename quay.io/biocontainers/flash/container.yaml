@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/flash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for flash
+latest:
+  1.2.11--h5bf99c6_6: sha256:92a00d56256d2950900763daa40d16b211fa667e3d686308811b7478c0604120
+tags:
+  1.2.11--h5bf99c6_6: sha256:92a00d56256d2950900763daa40d16b211fa667e3d686308811b7478c0604120
+docker: quay.io/biocontainers/flash

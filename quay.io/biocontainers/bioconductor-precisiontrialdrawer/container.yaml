@@ -7,5 +7,4 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6
 docker: quay.io/biocontainers/bioconductor-precisiontrialdrawer
 aliases:
-  .bioconductor-lowmacaannotation-post-link.sh: /usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh
-  .bioconductor-lowmacaannotation-pre-unlink.sh: /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

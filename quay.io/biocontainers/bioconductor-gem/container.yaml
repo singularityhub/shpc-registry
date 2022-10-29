@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r351_0: sha256:f04340f70500905d5c67fa4b8c7d8434b9130d65fc7e0d0d9fdaa3de0b796c02
 docker: quay.io/biocontainers/bioconductor-gem
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

@@ -6,3 +6,5 @@ latest:
 tags:
   2.40--pl5321hdfd78af_3: sha256:7586e8f53f3da6070d3069047af8df0c2c58907cefd44eba4b4843ebd2b6c774
 docker: quay.io/biocontainers/perl-spreadsheet-writeexcel
+aliases:
+  chartex: /usr/local/bin/chartex

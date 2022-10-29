@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/qiime
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for qiime
+latest:
+  1.9.1--py_3: sha256:8caaf6dd51b3a1231b182223110f1d67a43f68fec24b87805a03a541bde8c7ae
+tags:
+  1.9.1--py_3: sha256:8caaf6dd51b3a1231b182223110f1d67a43f68fec24b87805a03a541bde8c7ae
+docker: quay.io/biocontainers/qiime

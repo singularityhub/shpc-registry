@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb
 docker: quay.io/biocontainers/bioconductor-mogamun
+aliases:
+  Cytoscape: /usr/local/bin/Cytoscape
+  aserver: /usr/local/bin/aserver
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

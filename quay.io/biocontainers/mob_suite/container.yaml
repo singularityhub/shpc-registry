@@ -7,8 +7,17 @@ tags:
   3.1.0--pyhdfd78af_0: sha256:ea9a68e1fb86f058e4cd42e384a7f51df18689fdd585fa03790ed079733df629
 docker: quay.io/biocontainers/mob_suite
 aliases:
-  .mob_suite-post-link.sh: /usr/local/bin/.mob_suite-post-link.sh
   mob_cluster: /usr/local/bin/mob_cluster
   mob_init: /usr/local/bin/mob_init
   mob_recon: /usr/local/bin/mob_recon
   mob_typer: /usr/local/bin/mob_typer
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  assistant: /usr/local/bin/assistant
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam

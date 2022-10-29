@@ -6,3 +6,5 @@ latest:
 tags:
   4.03--pl5321h9f5acd7_1: sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f
 docker: quay.io/biocontainers/perl-json-xs
+aliases:
+  json_xs: /usr/local/bin/json_xs

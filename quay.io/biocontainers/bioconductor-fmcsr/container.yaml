@@ -6,3 +6,9 @@ latest:
 tags:
   1.36.0--r41hc247a5b_2: sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12
 docker: quay.io/biocontainers/bioconductor-fmcsr
+aliases:
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  rsvg-convert: /usr/local/bin/rsvg-convert

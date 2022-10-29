@@ -6,3 +6,14 @@ latest:
 tags:
   6.36--pl5321hdfd78af_0: sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981
 docker: quay.io/biocontainers/perl-http-message
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/mono
 aliases:
   prj2make: /usr/local/bin/prj2make
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate

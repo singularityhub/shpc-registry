@@ -6,3 +6,14 @@ latest:
 tags:
   0.09--pl5321hdfd78af_4: sha256:ebd9e91f2be350fbb25be7cb1be84ed04024142f3dab0b588179af5185af504b
 docker: quay.io/biocontainers/perl-tie-cacher
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

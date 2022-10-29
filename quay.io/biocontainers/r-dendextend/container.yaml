@@ -6,3 +6,7 @@ latest:
 tags:
   1.1.2--r3.3.2_0: sha256:d7024db4c15c871197873166e694d5b5e7d7a85500cbd58a7ed8d9906a80fa70
 docker: quay.io/biocontainers/r-dendextend
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

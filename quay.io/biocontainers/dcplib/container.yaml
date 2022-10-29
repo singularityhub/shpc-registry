@@ -6,3 +6,14 @@ latest:
 tags:
   3.9.0--py_0: sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2
 docker: quay.io/biocontainers/dcplib
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  idle3.7: /usr/local/bin/idle3.7
+  jp.py: /usr/local/bin/jp.py
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

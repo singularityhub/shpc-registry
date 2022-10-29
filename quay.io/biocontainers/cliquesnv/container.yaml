@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/cliquesnv
 aliases:
   cliquesnv: /usr/local/bin/cliquesnv
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.10: /usr/local/bin/idle3.10
+  jaotc: /usr/local/bin/jaotc

@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:1c023cc65f2f3996fbc60f856af57b78cfe06a005406562b433369a1c1685ab1
 docker: quay.io/biocontainers/bioconductor-iloreg
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

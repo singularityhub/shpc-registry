@@ -8,3 +8,12 @@ tags:
 docker: quay.io/biocontainers/perl-www-mechanize
 aliases:
   mech-dump: /usr/local/bin/mech-dump
+  config_data: /usr/local/bin/config_data
+  cpanm: /usr/local/bin/cpanm
+  htmltree: /usr/local/bin/htmltree
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

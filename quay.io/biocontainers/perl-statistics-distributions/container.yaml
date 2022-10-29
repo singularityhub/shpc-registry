@@ -6,3 +6,14 @@ latest:
 tags:
   1.02--pl5321hdfd78af_2: sha256:dea9a38b0d1eb7ef9d98aa4475aaf70b8f5ca5dd95fdc7ad7237e3c66a7e1361
 docker: quay.io/biocontainers/perl-statistics-distributions
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

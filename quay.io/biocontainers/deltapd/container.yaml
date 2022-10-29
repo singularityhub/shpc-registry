@@ -76,3 +76,13 @@ aliases:
   sip-sdist: /usr/local/bin/sip-sdist
   sip-wheel: /usr/local/bin/sip-wheel
   tracegen: /usr/local/bin/tracegen
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  cups-config: /usr/local/bin/cups-config
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_convert: /usr/local/bin/db_convert

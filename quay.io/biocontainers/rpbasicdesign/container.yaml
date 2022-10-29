@@ -16,3 +16,13 @@ aliases:
   slugify: /usr/local/bin/slugify
   upload_zenodo: /usr/local/bin/upload_zenodo
   upload_zenodo.py: /usr/local/bin/upload_zenodo.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  cmark: /usr/local/bin/cmark
+  csv2rdf: /usr/local/bin/csv2rdf
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  glpsol: /usr/local/bin/glpsol
+  h52gif: /usr/local/bin/h52gif

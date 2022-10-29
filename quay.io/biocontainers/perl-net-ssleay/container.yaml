@@ -6,3 +6,6 @@ latest:
 tags:
   1.92--pl5321h0e0aaa8_1: sha256:23f63262ef015dc28d56adf3fcae0531ac9984cab634f6bff57a02d583dbf1f5
 docker: quay.io/biocontainers/perl-net-ssleay
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

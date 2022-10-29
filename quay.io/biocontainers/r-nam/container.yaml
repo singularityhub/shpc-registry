@@ -6,3 +6,14 @@ latest:
 tags:
   1.6.4--r351h9d2a408_0: sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f
 docker: quay.io/biocontainers/r-nam
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

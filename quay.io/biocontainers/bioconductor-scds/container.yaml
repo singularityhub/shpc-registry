@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1
 docker: quay.io/biocontainers/bioconductor-scds
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  xgboost: /usr/local/bin/xgboost

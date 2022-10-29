@@ -6,3 +6,5 @@ latest:
 tags:
   1.19--pl5321hec16e2b_5: sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446
 docker: quay.io/biocontainers/perl-class-xsaccessor
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

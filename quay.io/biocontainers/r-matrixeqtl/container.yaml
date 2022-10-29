@@ -6,3 +6,11 @@ latest:
 tags:
   2.1.1--r3.3.1_0: sha256:f1440dec26eea57a1056e5cb218f22b3c3f3e533ca2e734bfcca76b336bb9375
 docker: quay.io/biocontainers/r-matrixeqtl
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

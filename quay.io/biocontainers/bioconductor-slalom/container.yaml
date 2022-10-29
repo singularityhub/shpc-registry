@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36he1b5a44_0: sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727
 docker: quay.io/biocontainers/bioconductor-slalom
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

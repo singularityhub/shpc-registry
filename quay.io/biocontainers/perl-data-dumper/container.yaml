@@ -6,3 +6,6 @@ latest:
 tags:
   2.183--pl5321hec16e2b_1: sha256:d2ed9a5d8fbdaa316ddfed778310f4a32a4b564b8c8bd3f9695c78cfa6f993be
 docker: quay.io/biocontainers/perl-data-dumper
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

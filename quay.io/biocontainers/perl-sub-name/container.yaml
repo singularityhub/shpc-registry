@@ -6,3 +6,5 @@ latest:
 tags:
   0.21--pl5321hec16e2b_3: sha256:46b324d3ea5ecdfeeba0069d3ab040ff380627d1d5b60a95d4f8fa4d407d575c
 docker: quay.io/biocontainers/perl-sub-name
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

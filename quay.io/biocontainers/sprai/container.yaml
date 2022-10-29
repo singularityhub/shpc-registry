@@ -268,3 +268,13 @@ aliases:
   vennPolishes: /usr/local/bin/vennPolishes
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
+  Catrack: /usr/local/bin/Catrack
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DB2fasta: /usr/local/bin/DB2fasta
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm
+  DBshow: /usr/local/bin/DBshow
+  DBsplit: /usr/local/bin/DBsplit
+  DBstats: /usr/local/bin/DBstats
+  LAcat: /usr/local/bin/LAcat
+  LAcheck: /usr/local/bin/LAcheck

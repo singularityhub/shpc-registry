@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bioconductor-madseq
 aliases:
   jags: /usr/local/bin/jags
+  wget: /usr/local/bin/wget

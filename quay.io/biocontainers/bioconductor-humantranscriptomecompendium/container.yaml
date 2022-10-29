@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:a910dfb4b51ae42c2dd932cffae1edf08fcba38964b96d5e58ace19d6351c8d6
 docker: quay.io/biocontainers/bioconductor-humantranscriptomecompendium
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

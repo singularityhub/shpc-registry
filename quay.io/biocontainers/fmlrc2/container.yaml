@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/fmlrc2
 aliases:
   fmlrc2: /usr/local/bin/fmlrc2
   fmlrc2-convert: /usr/local/bin/fmlrc2-convert
+  starcode: /usr/local/bin/starcode

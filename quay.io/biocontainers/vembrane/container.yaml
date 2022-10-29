@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/vembrane
 aliases:
   vembrane: /usr/local/bin/vembrane
+  f2py3.9: /usr/local/bin/f2py3.9

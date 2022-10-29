@@ -14,3 +14,13 @@ aliases:
   cover: /usr/local/bin/cover
   cpancover: /usr/local/bin/cpancover
   gcov2perl: /usr/local/bin/gcov2perl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bgzip: /usr/local/bin/bgzip
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq

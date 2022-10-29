@@ -6,3 +6,7 @@ latest:
 tags:
   2.2_13--r3.3.1_0: sha256:6c7d51e3d5776ba08b8e19e46fe852c7cbd0a956348bf40868a77b3edd3a66ef
 docker: quay.io/biocontainers/r-ff
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

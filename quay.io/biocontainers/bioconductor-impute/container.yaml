@@ -6,3 +6,14 @@ latest:
 tags:
   1.68.0--r41hefde4a7_2: sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf
 docker: quay.io/biocontainers/bioconductor-impute
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

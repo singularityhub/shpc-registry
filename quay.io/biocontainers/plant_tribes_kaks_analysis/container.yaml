@@ -20,3 +20,13 @@ aliases:
   racc: /usr/local/bin/racc
   racc2y: /usr/local/bin/racc2y
   y2racc: /usr/local/bin/y2racc
+  CA.pm: /usr/local/bin/CA.pm
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter

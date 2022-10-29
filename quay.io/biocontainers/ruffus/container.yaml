@@ -6,3 +6,9 @@ latest:
 tags:
   2.8.4--pyh864c0ab_1: sha256:f2cde8365476fb15e70097fbb0896c11fa0b4485783c47184c6a1b1a7ea0267f
 docker: quay.io/biocontainers/ruffus
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

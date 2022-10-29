@@ -6,3 +6,7 @@ latest:
 tags:
   1.2_1--r3.3.2_0: sha256:247c230b897de912932d4a1780b0cd0a7c486008c89ef4aa39f4f10ac6bceaf1
 docker: quay.io/biocontainers/r-sendmailr
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

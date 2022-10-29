@@ -6,3 +6,14 @@ latest:
 tags:
   2.3.2--py_0: sha256:246708b68739fde7d0a6a0ec09e5dc0e9164fff14c1dc634b2e454ea3aca8222
 docker: quay.io/biocontainers/mhcnuggets
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  f2py3.7: /usr/local/bin/f2py3.7
+  freeze_graph: /usr/local/bin/freeze_graph
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

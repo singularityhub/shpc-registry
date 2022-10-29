@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-json
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-json
+latest:
+  4.10--pl5321hdfd78af_0: sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22
+tags:
+  4.10--pl5321hdfd78af_0: sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22
+docker: quay.io/biocontainers/perl-json

@@ -6,3 +6,7 @@ latest:
 tags:
   1.36.0--r41hdfd78af_0: sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0
 docker: quay.io/biocontainers/bioconductor-annmap
+aliases:
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

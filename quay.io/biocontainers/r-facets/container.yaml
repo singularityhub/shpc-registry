@@ -6,3 +6,14 @@ latest:
 tags:
   0.6.2--r41h1107714_1: sha256:0e2f95e9cc91ba9e34a9e75ad9164042404ace12c738f7dad145079bb2e53e0a
 docker: quay.io/biocontainers/r-facets
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.1--hb6da537_3: sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397
 docker: quay.io/biocontainers/ont_vbz_hdf_plugin
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5dump: /usr/local/bin/h5dump
+  h5fc: /usr/local/bin/h5fc

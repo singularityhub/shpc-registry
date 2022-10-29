@@ -18,3 +18,5 @@ aliases:
   set_haploid_region: /usr/local/bin/set_haploid_region
   trio: /usr/local/bin/trio
   twins: /usr/local/bin/twins
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

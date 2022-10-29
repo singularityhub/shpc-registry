@@ -31,8 +31,6 @@ aliases:
   fitch: /usr/local/bin/fitch
   gendist: /usr/local/bin/gendist
   kitsch: /usr/local/bin/kitsch
-  libdrawgram.so: /usr/local/bin/libdrawgram.so
-  libdrawtree.so: /usr/local/bin/libdrawtree.so
   mix: /usr/local/bin/mix
   move: /usr/local/bin/move
   neighbor: /usr/local/bin/neighbor
@@ -48,3 +46,13 @@ aliases:
   retree: /usr/local/bin/retree
   seqboot: /usr/local/bin/seqboot
   treedist: /usr/local/bin/treedist
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  appletviewer: /usr/local/bin/appletviewer
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  extcheck: /usr/local/bin/extcheck
+  factor: /usr/local/bin/factor
+  gif2tiff: /usr/local/bin/gif2tiff
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar

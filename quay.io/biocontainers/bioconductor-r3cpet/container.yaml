@@ -6,3 +6,5 @@ latest:
 tags:
   1.26.0--r41hc247a5b_3: sha256:471eecbf6441e29722e94829a2ee8638150f4b23077d75488823eb16af0a59aa
 docker: quay.io/biocontainers/bioconductor-r3cpet
+aliases:
+  glpsol: /usr/local/bin/glpsol

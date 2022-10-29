@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f
 docker: quay.io/biocontainers/bioconductor-flowcatchr
+aliases:
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

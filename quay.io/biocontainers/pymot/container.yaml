@@ -6,3 +6,11 @@ latest:
 tags:
   13.09.2016--py_2: sha256:194428ee88abb987838a1db0b47f03d9fc114131384f921518395261973027ea
 docker: quay.io/biocontainers/pymot
+aliases:
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

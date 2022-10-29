@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.1--r41hc247a5b_1: sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd
 docker: quay.io/biocontainers/bioconductor-hicdcplus
+aliases:
+  glpsol: /usr/local/bin/glpsol

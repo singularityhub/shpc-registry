@@ -6,3 +6,9 @@ latest:
 tags:
   1.4.1.post3--pyh3252c3a_0: sha256:0e1ee4afed1bf3206e3b3f94756bb9d9ca6409d1c6c28397737923954f5f1b44
 docker: quay.io/biocontainers/python-cluster
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

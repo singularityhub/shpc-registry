@@ -6,3 +6,5 @@ latest:
 tags:
   0.013--pl5321hdfd78af_0: sha256:34b91fc1a38b3510bd3cb7191baca7eefa1eb06913d336caf7b4e882703a0066
 docker: quay.io/biocontainers/perl-file-slurper
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

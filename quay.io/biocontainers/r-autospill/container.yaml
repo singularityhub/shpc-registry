@@ -6,3 +6,14 @@ latest:
 tags:
   0.2.0--r41hdfd78af_0: sha256:c2736578197852807861673c5de59896b2144e8b10f6ef12e0e576e9ea371a3c
 docker: quay.io/biocontainers/r-autospill
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

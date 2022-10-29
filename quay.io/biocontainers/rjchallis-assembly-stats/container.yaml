@@ -10,3 +10,6 @@ aliases:
   asm2stats.minmaxgc.pl: /usr/local/bin/asm2stats.minmaxgc.pl
   asm2stats.minmaxgc.pl.bak: /usr/local/bin/asm2stats.minmaxgc.pl.bak
   asm2stats.pl: /usr/local/bin/asm2stats.pl
+  json_xs: /usr/local/bin/json_xs
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

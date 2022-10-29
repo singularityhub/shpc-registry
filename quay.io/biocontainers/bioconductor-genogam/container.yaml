@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r40h399db7b_1: sha256:25aea260743100774e955088b36bf97dee07961fb39297d8effe4f5d1f9c642d
 docker: quay.io/biocontainers/bioconductor-genogam
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

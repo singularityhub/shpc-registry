@@ -10,3 +10,13 @@ aliases:
   dca: /usr/local/bin/dca
   dunamai: /usr/local/bin/dunamai
   hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  chardetect: /usr/local/bin/chardetect
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor

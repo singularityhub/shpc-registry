@@ -10,3 +10,13 @@ aliases:
   addFeatureToMatrix: /usr/local/bin/addFeatureToMatrix
   computeOrderedMatrix: /usr/local/bin/computeOrderedMatrix
   ultraheatmap: /usr/local/bin/ultraheatmap
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  alignmentSieve: /usr/local/bin/alignmentSieve
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  bamCompare: /usr/local/bin/bamCompare
+  bamCoverage: /usr/local/bin/bamCoverage
+  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq

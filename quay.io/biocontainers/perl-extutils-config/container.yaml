@@ -6,3 +6,6 @@ latest:
 tags:
   0.008--pl526_2: sha256:b6c9d71bc891370b293ec21cc0fa6235758d20cb2c63d9f8b4e4e56f4f8cb268
 docker: quay.io/biocontainers/perl-extutils-config
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

@@ -6,3 +6,14 @@ latest:
 tags:
   4.10.5--pyh864c0ab_3: sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d
 docker: quay.io/biocontainers/npyscreen
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.8: /usr/local/bin/idle3.8
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

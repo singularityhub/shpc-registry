@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rmir
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rmir
+latest:
+  1.49.0--r41hdfd78af_0: sha256:40ed4e4a124099d4b78d0cf40a33a81c0279689acdfef66e0ff03f8623940dfd
+tags:
+  1.49.0--r41hdfd78af_0: sha256:40ed4e4a124099d4b78d0cf40a33a81c0279689acdfef66e0ff03f8623940dfd
+docker: quay.io/biocontainers/bioconductor-rmir

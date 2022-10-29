@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:ec60f4d82844e94ceed38a36e2bd747f1a16d2fb97c56cb4b8fc4e147aa88efe
 docker: quay.io/biocontainers/bioconductor-hiannotator
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

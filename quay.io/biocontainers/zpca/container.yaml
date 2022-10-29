@@ -9,3 +9,7 @@ docker: quay.io/biocontainers/zpca
 aliases:
   zpca-counts: /usr/local/bin/zpca-counts
   zpca-tpm: /usr/local/bin/zpca-tpm
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

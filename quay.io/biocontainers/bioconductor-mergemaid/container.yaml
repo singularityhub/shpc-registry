@@ -6,3 +6,9 @@ latest:
 tags:
   2.59.0--r40_0: sha256:6df57cf46e12c4735373d19876ae5d8d60d382c8ac8219dfb0caf30c9dbbd78f
 docker: quay.io/biocontainers/bioconductor-mergemaid
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

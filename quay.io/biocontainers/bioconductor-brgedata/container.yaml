@@ -7,5 +7,13 @@ tags:
   1.8.0--r36_0: sha256:d5f8d6876a50dfd0a72b1758edee58dbf20aa2b626f369f161350da4676aba16
 docker: quay.io/biocontainers/bioconductor-brgedata
 aliases:
-  .bioconductor-brgedata-post-link.sh: /usr/local/bin/.bioconductor-brgedata-post-link.sh
-  .bioconductor-brgedata-pre-unlink.sh: /usr/local/bin/.bioconductor-brgedata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hc247a5b_2: sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf
 docker: quay.io/biocontainers/bioconductor-msstatslobd
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

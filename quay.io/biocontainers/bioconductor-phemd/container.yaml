@@ -6,3 +6,10 @@ latest:
 tags:
   1.6.0--r40hdfd78af_1: sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1
 docker: quay.io/biocontainers/bioconductor-phemd
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

@@ -6,3 +6,5 @@ latest:
 tags:
   2.2.0--r40_9: sha256:ea7755e7af9c750995e6a07b7a2527ce79fb62e66c67037051c71d9279c40b8b
 docker: quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

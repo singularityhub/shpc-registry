@@ -6,3 +6,12 @@ latest:
 tags:
   0.3--py_0: sha256:b711c9298547ec687db7597f860a3e07318797e2a1bf78698f330eba18c7fb3b
 docker: quay.io/biocontainers/fastalite
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

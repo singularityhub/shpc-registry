@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-find
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-find
+latest:
+  1.27--pl5321hdfd78af_2: sha256:f4422b1c01ff37794cbe78fbeebd6f21577502c5b0e2c4d35b6a8f05fc5926df
+tags:
+  1.27--pl5321hdfd78af_2: sha256:f4422b1c01ff37794cbe78fbeebd6f21577502c5b0e2c4d35b6a8f05fc5926df
+docker: quay.io/biocontainers/perl-file-find

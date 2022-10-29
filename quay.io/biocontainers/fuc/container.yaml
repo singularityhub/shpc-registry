@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/fuc
 aliases:
   fuc: /usr/local/bin/fuc
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  natsort: /usr/local/bin/natsort
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

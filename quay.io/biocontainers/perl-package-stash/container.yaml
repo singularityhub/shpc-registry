@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-package-stash
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-package-stash
+latest:
+  0.40--pl5321h87f3376_1: sha256:715a1c23e7e69e52891a7854df4f527fa3ff81e2633d815fa125ebdbe64a9b58
+tags:
+  0.40--pl5321h87f3376_1: sha256:715a1c23e7e69e52891a7854df4f527fa3ff81e2633d815fa125ebdbe64a9b58
+docker: quay.io/biocontainers/perl-package-stash

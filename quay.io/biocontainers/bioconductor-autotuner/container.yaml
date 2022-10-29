@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.0--r41hdfd78af_0: sha256:0551af0d384f419054f648a5dd177cb940c382bcd0b70a29973bd8fcd8613147
 docker: quay.io/biocontainers/bioconductor-autotuner
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

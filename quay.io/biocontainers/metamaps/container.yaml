@@ -31,3 +31,7 @@ aliases:
   simulate.pl: /usr/local/bin/simulate.pl
   test2.pl: /usr/local/bin/test2.pl
   validateDB.pl: /usr/local/bin/validateDB.pl
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request

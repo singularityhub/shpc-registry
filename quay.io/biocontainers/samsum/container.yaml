@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/samsum
 aliases:
   pyfastx: /usr/local/bin/pyfastx
   samsum: /usr/local/bin/samsum
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  f2py3.6: /usr/local/bin/f2py3.6
+  idle3.6: /usr/local/bin/idle3.6
+  py.test: /usr/local/bin/py.test
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  pytest: /usr/local/bin/pytest
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config

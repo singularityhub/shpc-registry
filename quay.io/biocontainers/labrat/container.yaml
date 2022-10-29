@@ -12,3 +12,13 @@ aliases:
   LABRAT_dm6annotation.py: /usr/local/bin/LABRAT_dm6annotation.py
   LABRAT_rn6annotation.py: /usr/local/bin/LABRAT_rn6annotation.py
   LABRATsc.py: /usr/local/bin/LABRATsc.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  python3.9: /usr/local/bin/python3.9

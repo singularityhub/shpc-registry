@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f
 docker: quay.io/biocontainers/bioconductor-scnorm
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

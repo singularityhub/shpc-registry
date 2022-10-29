@@ -6,3 +6,5 @@ latest:
 tags:
   1.11--pl5321hdfd78af_0: sha256:cb3197271930e7058d691a60ec6716c75aa4a7b6f5ea194092120594c303dfcc
 docker: quay.io/biocontainers/perl-io-zlib
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

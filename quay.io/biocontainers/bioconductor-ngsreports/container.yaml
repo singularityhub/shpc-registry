@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27
 docker: quay.io/biocontainers/bioconductor-ngsreports
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

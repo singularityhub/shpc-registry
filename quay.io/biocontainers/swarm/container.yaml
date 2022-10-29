@@ -10,3 +10,13 @@ aliases:
   amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py
   graph_plot.py: /usr/local/bin/graph_plot.py
   swarm: /usr/local/bin/swarm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  cmpfillin: /usr/local/bin/cmpfillin
+  glpsol: /usr/local/bin/glpsol
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  idle3.10: /usr/local/bin/idle3.10
+  igraph: /usr/local/bin/igraph
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis

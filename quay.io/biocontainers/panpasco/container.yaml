@@ -7,7 +7,6 @@ tags:
   1.0.1--py38r40_0: sha256:91bbbca7154eab8f3996db20b1c396beb10de5232efd5e0fd1bc1f25aa34a537
 docker: quay.io/biocontainers/panpasco
 aliases:
-  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   croco-0.6-config: /usr/local/bin/croco-0.6-config
   csslint-0.6: /usr/local/bin/csslint-0.6
@@ -16,3 +15,13 @@ aliases:
   panpasco-distance: /usr/local/bin/panpasco-distance
   panpasco-pipeline: /usr/local/bin/panpasco-pipeline
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotateBed: /usr/local/bin/annotateBed
+  appletviewer: /usr/local/bin/appletviewer
+  bamToBed: /usr/local/bin/bamToBed

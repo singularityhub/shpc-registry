@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:b43c0809e0da7df9a0a36d593af52bee4425a2fe01fcf2cf6d005887e228eef9
 docker: quay.io/biocontainers/bioconductor-metagene2
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

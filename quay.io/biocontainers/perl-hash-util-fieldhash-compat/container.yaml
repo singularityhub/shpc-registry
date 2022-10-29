@@ -6,3 +6,6 @@ latest:
 tags:
   0.11--pl526_2: sha256:9d631e1cf5f97def17a1ad0e3aecbfc6a26c1cf9cf960ff0a16007bb51029c0c
 docker: quay.io/biocontainers/perl-hash-util-fieldhash-compat
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sereal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sereal
+latest:
+  4.019--pl5321hdfd78af_0: sha256:2aab85171de1cdb367ddbf6b6e4ecea735504f8bf45af717aa877b1cdc162f84
+tags:
+  4.019--pl5321hdfd78af_0: sha256:2aab85171de1cdb367ddbf6b6e4ecea735504f8bf45af717aa877b1cdc162f84
+docker: quay.io/biocontainers/perl-sereal

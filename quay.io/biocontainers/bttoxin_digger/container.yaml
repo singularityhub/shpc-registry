@@ -12,7 +12,6 @@ aliases:
   alignGFA: /usr/local/bin/alignGFA
   canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
-  canu.defaults: /usr/local/bin/canu.defaults
   coreprocess.pl: /usr/local/bin/coreprocess.pl
   correctOverlaps: /usr/local/bin/correctOverlaps
   draw-tig: /usr/local/bin/draw-tig
@@ -73,3 +72,13 @@ aliases:
   unicycler_check: /usr/local/bin/unicycler_check
   unicycler_polish: /usr/local/bin/unicycler_polish
   unicycler_scrub: /usr/local/bin/unicycler_scrub
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  CA.pm: /usr/local/bin/CA.pm
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner

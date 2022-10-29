@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/iqkm
 aliases:
   iqkm: /usr/local/bin/iqkm
   isort-identify-imports: /usr/local/bin/isort-identify-imports
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  easel: /usr/local/bin/easel
+  epylint: /usr/local/bin/epylint
+  esl-afetch: /usr/local/bin/esl-afetch

@@ -6,3 +6,7 @@ latest:
 tags:
   1.2_1--r3.3.1_0: sha256:738373d9ffd4a14fa33301dc22af082f1bd1cfc155d37092a48dfb711b50e7c9
 docker: quay.io/biocontainers/r-minpack.lm
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

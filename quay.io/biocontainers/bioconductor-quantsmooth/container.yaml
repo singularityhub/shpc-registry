@@ -6,3 +6,14 @@ latest:
 tags:
   1.60.0--r41hdfd78af_0: sha256:8aaf0f8e6a7b45b60143ab483f3e51899aec1af6daf6b27e883a009c3565c252
 docker: quay.io/biocontainers/bioconductor-quantsmooth
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

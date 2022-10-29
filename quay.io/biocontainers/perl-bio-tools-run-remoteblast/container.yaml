@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.3--pl5321hdfd78af_0: sha256:affd7c07ad28ae6a93dd9bd43fb03ea38434f26bd2ae5013fc1e6011e74746be
 docker: quay.io/biocontainers/perl-bio-tools-run-remoteblast
+aliases:
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc

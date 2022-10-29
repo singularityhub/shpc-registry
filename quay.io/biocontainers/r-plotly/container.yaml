@@ -6,3 +6,7 @@ latest:
 tags:
   4.5.6--r3.3.1_0: sha256:e5d6354389a44af257eb2797a8a51b26b843f57e748c5f19432f384cd096ae42
 docker: quay.io/biocontainers/r-plotly
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -7,5 +7,13 @@ tags:
   1.8.0--r36_1: sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3
 docker: quay.io/biocontainers/bioconductor-samexplorer
 aliases:
-  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-post-link.sh
-  .bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh: /usr/local/bin/.bioconductor-rnaseqdata.hnrnpc.bam.chr14-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

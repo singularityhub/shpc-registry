@@ -6,3 +6,14 @@ latest:
 tags:
   1.34.0--r41hdfd78af_0: sha256:2bae398c16ae60623e833bad136f0d3f13540432bbf708360195abf946d0ef49
 docker: quay.io/biocontainers/bioconductor-intansv
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

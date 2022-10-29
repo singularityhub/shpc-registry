@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.9--r351_0: sha256:1c160bb0ad3c58b5bf36e3b96459b402476cc9c219de9b2981a39db2410decfc
 docker: quay.io/biocontainers/bioconductor-tsrchitect
+aliases:
+  wget: /usr/local/bin/wget

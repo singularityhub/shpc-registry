@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:e727994d062f2b42a8e95dd154a7113415e708db084425fd44c86b359d912c02
 docker: quay.io/biocontainers/bioconductor-ggspavis
+aliases:
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

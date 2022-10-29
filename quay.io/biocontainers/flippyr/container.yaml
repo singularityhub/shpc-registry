@@ -8,3 +8,11 @@ tags:
 docker: quay.io/biocontainers/flippyr
 aliases:
   flippyr: /usr/local/bin/flippyr
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  faidx: /usr/local/bin/faidx
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

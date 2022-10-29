@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/migrate-n
 aliases:
   migrate-n: /usr/local/bin/migrate-n
   migrate-n-mpi: /usr/local/bin/migrate-n-mpi
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  mpiCC: /usr/local/bin/mpiCC
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77
+  mpif90: /usr/local/bin/mpif90
+  mpifort: /usr/local/bin/mpifort
+  mpirun: /usr/local/bin/mpirun

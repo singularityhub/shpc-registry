@@ -6,3 +6,14 @@ latest:
 tags:
   1.31.0--r36h516909a_1: sha256:4b3919677634802e9262da91a691a0fcbaae5171a6877e96350f2cecd7e5315c
 docker: quay.io/biocontainers/bioconductor-splicesites
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

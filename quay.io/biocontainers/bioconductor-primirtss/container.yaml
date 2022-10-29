@@ -7,9 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:0e59aaa20e8d7f16e781aa8930fb8e81684da30abef594ec2415381b8a4a0418
 docker: quay.io/biocontainers/bioconductor-primirtss
 aliases:
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-  .bioconductor-jaspar2018-post-link.sh: /usr/local/bin/.bioconductor-jaspar2018-post-link.sh
-  .bioconductor-jaspar2018-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh
-  .bioconductor-phastcons100way.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg38-post-link.sh
-  .bioconductor-phastcons100way.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg38-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

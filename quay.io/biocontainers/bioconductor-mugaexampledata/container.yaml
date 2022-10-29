@@ -7,5 +7,4 @@ tags:
   1.9.0--r40_0: sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125
 docker: quay.io/biocontainers/bioconductor-mugaexampledata
 aliases:
-  .bioconductor-mugaexampledata-post-link.sh: /usr/local/bin/.bioconductor-mugaexampledata-post-link.sh
-  .bioconductor-mugaexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

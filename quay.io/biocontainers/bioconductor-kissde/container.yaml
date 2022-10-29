@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:4adc7e6f7c32a7ca984a011dc1a98fecb1d9fb99047a5b8d6a2edc79f3ebe8e0
 docker: quay.io/biocontainers/bioconductor-kissde
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

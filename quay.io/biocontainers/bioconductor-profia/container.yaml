@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.1--r351h14c3975_0: sha256:c528818a2a6872f2fd7b17f6e056d49ac225b6f2a25f74af7f819ae879a024d2
 docker: quay.io/biocontainers/bioconductor-profia
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

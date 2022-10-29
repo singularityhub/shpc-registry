@@ -6,3 +6,14 @@ latest:
 tags:
   1.48.0--r41hdfd78af_0: sha256:05d205e5bb5f8b4956575cef017a258fa541620091bd9ead6df0dcbc0c346a8d
 docker: quay.io/biocontainers/bioconductor-michip
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

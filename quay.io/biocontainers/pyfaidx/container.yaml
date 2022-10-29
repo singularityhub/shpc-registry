@@ -6,3 +6,14 @@ latest:
 tags:
   0.7.1--pyh5e36f6f_0: sha256:c43ce473073b34c4ad0a50ab04a3f392ff3bfbbea93336fe5c16d51ceca27b13
 docker: quay.io/biocontainers/pyfaidx
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

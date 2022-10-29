@@ -7,5 +7,13 @@ tags:
   3.14.0--r41hdfd78af_1: sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed
 docker: quay.io/biocontainers/bioconductor-orthology.eg.db
 aliases:
-  .bioconductor-orthology.eg.db-post-link.sh: /usr/local/bin/.bioconductor-orthology.eg.db-post-link.sh
-  .bioconductor-orthology.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-orthology.eg.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

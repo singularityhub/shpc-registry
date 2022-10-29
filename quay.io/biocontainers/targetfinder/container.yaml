@@ -13,3 +13,13 @@ aliases:
   merge_blast_btab.pl: /usr/local/bin/merge_blast_btab.pl
   targetfinder.pl: /usr/local/bin/targetfinder.pl
   targetfinder_threads.pl: /usr/local/bin/targetfinder_threads.pl
+  ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
+  ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
+  ann_exons_up_sql.pl: /usr/local/bin/ann_exons_up_sql.pl
+  ann_exons_up_www.pl: /usr/local/bin/ann_exons_up_www.pl
+  ann_feats2ipr.pl: /usr/local/bin/ann_feats2ipr.pl
+  ann_feats2ipr_e.pl: /usr/local/bin/ann_feats2ipr_e.pl
+  ann_feats_up_sql.pl: /usr/local/bin/ann_feats_up_sql.pl
+  ann_feats_up_www2.pl: /usr/local/bin/ann_feats_up_www2.pl
+  ann_ipr_www.pl: /usr/local/bin/ann_ipr_www.pl
+  ann_pdb_cath.pl: /usr/local/bin/ann_pdb_cath.pl

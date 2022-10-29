@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40h399db7b_1: sha256:2996ffdae5f9c2c339e9c35694a00cbabb9e656f1967c706b922772b740ade4e
 docker: quay.io/biocontainers/bioconductor-fastqcleaner
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

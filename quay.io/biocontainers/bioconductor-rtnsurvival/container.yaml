@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r36_0: sha256:4528a46653bc246b179c0da80a7fb6c29ac62e3e9a9159104c6b7ec847b2e80c
 docker: quay.io/biocontainers/bioconductor-rtnsurvival
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

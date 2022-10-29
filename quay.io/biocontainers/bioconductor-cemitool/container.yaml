@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.3--r36_0: sha256:931ce1d7ea3af55372d7617774a822b7c73890d462218070891e45d7da240068
 docker: quay.io/biocontainers/bioconductor-cemitool
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

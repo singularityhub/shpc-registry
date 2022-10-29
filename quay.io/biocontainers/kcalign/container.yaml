@@ -10,3 +10,13 @@ aliases:
   kalign: /usr/local/bin/kalign
   kc-align: /usr/local/bin/kc-align
   timescorealn: /usr/local/bin/timescorealn
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  einsi: /usr/local/bin/einsi
+  f2py3.8: /usr/local/bin/f2py3.8
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  idle3.8: /usr/local/bin/idle3.8
+  linsi: /usr/local/bin/linsi
+  mafft: /usr/local/bin/mafft
+  mafft-distance: /usr/local/bin/mafft-distance

@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:b9876c9f65abed3ed9164fa7bc448807eb1abf890d928348e694e370aa1cf3fc
 docker: quay.io/biocontainers/bioconductor-pfp
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,10 @@ latest:
 tags:
   0.1_3--r3.3.1_0: sha256:d84b31672615a6683a04883f5755ba7e7078a9161f324e512df0489fffbdd929
 docker: quay.io/biocontainers/r-tsne
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r351_0: sha256:962cdfbe5d182a89b133c1ec45f1cccf62abbcbe077ea3e26aedf28c8266dd40
 docker: quay.io/biocontainers/bioconductor-ebsea
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

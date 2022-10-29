@@ -35,3 +35,13 @@ aliases:
   gridss: /usr/local/bin/gridss
   gridss_annotate_insertions_repeatmaster: /usr/local/bin/gridss_annotate_insertions_repeatmaster
   gridss_somatic_filter: /usr/local/bin/gridss_somatic_filter
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ace2sam: /usr/local/bin/ace2sam
+  aserver: /usr/local/bin/aserver
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  export2sam.pl: /usr/local/bin/export2sam.pl

@@ -1,7 +1,7 @@
 docker: quay.io/biocontainers/maker
-url: https://quay.io/repository/biocontainers/maker
-maintainer: '@sarahbeecroft'
-description: A portable and easily configurable genome annotation pipeline
+url: https://biocontainers.pro/tools/maker
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for maker
 latest:
   3.01.03--pl5262h8f1cd36_2: sha256:6d9024749b96d7873fb095e64412e73978170ef180467107e96a8d5b445f99e3
 tags:
@@ -10,4 +10,115 @@ tags:
   3.01.03--pl5262h8f1cd36_2: sha256:6d9024749b96d7873fb095e64412e73978170ef180467107e96a8d5b445f99e3
   2.31.11--pl5262hec0a270_1: sha256:284cd94bd1aa733082aa673a8fd892e76453b87d210d5f410c02ea611b364ef0
 aliases:
+  AED_cdf_generator.pl: /usr/local/bin/AED_cdf_generator.pl
+  PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
+  PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  add_name_to_gff3.pl: /usr/local/bin/add_name_to_gff3.pl
+  aln2wig: /usr/local/bin/aln2wig
+  augustify.py: /usr/local/bin/augustify.py
+  bamToWig.py: /usr/local/bin/bamToWig.py
+  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
+  buildSummary.pl: /usr/local/bin/buildSummary.pl
+  cds-trainer.pl: /usr/local/bin/cds-trainer.pl
+  cegma2zff: /usr/local/bin/cegma2zff
+  chado2gff3: /usr/local/bin/chado2gff3
+  compare_gff3_to_chado: /usr/local/bin/compare_gff3_to_chado
+  compare_masking.pl: /usr/local/bin/compare_masking.pl
+  cufflinks2gff3: /usr/local/bin/cufflinks2gff3
+  esd2esi: /usr/local/bin/esd2esi
+  evaluator: /usr/local/bin/evaluator
+  evidence_modeler.pl: /usr/local/bin/evidence_modeler.pl
+  executeTestCGP.py: /usr/local/bin/executeTestCGP.py
+  exonerate: /usr/local/bin/exonerate
+  exonerate-server: /usr/local/bin/exonerate-server
+  exonpairs: /usr/local/bin/exonpairs
+  extractAnno.py: /usr/local/bin/extractAnno.py
+  fasta2esd: /usr/local/bin/fasta2esd
+  fasta2gsi.pl: /usr/local/bin/fasta2gsi.pl
+  fasta_merge: /usr/local/bin/fasta_merge
+  fasta_tool: /usr/local/bin/fasta_tool
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclean: /usr/local/bin/fastaclean
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasort: /usr/local/bin/fastasort
+  fastasplit: /usr/local/bin/fastasplit
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  fathom: /usr/local/bin/fathom
+  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
+  forge: /usr/local/bin/forge
+  gcc: /usr/local/bin/gcc
+  genbank2gsi.pl: /usr/local/bin/genbank2gsi.pl
+  genemark_gtf2gff3: /usr/local/bin/genemark_gtf2gff3
+  genpept2gsi.pl: /usr/local/bin/genpept2gsi.pl
+  get_loci_from_gb.pl: /usr/local/bin/get_loci_from_gb.pl
+  gff3_merge: /usr/local/bin/gff3_merge
+  hmm-assembler.pl: /usr/local/bin/hmm-assembler.pl
+  hmm-info: /usr/local/bin/hmm-info
+  ipcress: /usr/local/bin/ipcress
+  ipr_update_gff: /usr/local/bin/ipr_update_gff
+  iprscan2gff3: /usr/local/bin/iprscan2gff3
   maker: /usr/local/bin/maker
+  maker2chado: /usr/local/bin/maker2chado
+  maker2eval_gtf: /usr/local/bin/maker2eval_gtf
+  maker2jbrowse: /usr/local/bin/maker2jbrowse
+  maker2wap: /usr/local/bin/maker2wap
+  maker2zff: /usr/local/bin/maker2zff
+  maker_functional_fasta: /usr/local/bin/maker_functional_fasta
+  maker_functional_gff: /usr/local/bin/maker_functional_gff
+  maker_map_ids: /usr/local/bin/maker_map_ids
+  map2assembly: /usr/local/bin/map2assembly
+  map_data_ids: /usr/local/bin/map_data_ids
+  map_fasta_ids: /usr/local/bin/map_fasta_ids
+  map_gff_ids: /usr/local/bin/map_gff_ids
+  maskFile.pl: /usr/local/bin/maskFile.pl
+  match2gene.pl: /usr/local/bin/match2gene.pl
+  merge_masking.pl: /usr/local/bin/merge_masking.pl
+  noncoding-trainer.pl: /usr/local/bin/noncoding-trainer.pl
+  patch-hmm.pl: /usr/local/bin/patch-hmm.pl
+  pir2gsi.pl: /usr/local/bin/pir2gsi.pl
+  pp_simScore: /usr/local/bin/pp_simScore
+  prerapsearch: /usr/local/bin/prerapsearch
+  quality_filter.pl: /usr/local/bin/quality_filter.pl
+  rapsearch: /usr/local/bin/rapsearch
+  snap: /usr/local/bin/snap
+  snoscan: /usr/local/bin/snoscan
+  snoscanA: /usr/local/bin/snoscanA
+  snoscanH: /usr/local/bin/snoscanH
+  snoscanY: /usr/local/bin/snoscanY
+  sort-snos: /usr/local/bin/sort-snos
+  sort-snos.pl: /usr/local/bin/sort-snos.pl
+  split_gff3: /usr/local/bin/split_gff3
+  swiss2gsi.pl: /usr/local/bin/swiss2gsi.pl
+  tophat2gff3: /usr/local/bin/tophat2gff3
+  train_augustus.pl: /usr/local/bin/train_augustus.pl
+  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  zff2genbank.pl: /usr/local/bin/zff2genbank.pl
+  zff2gff3.pl: /usr/local/bin/zff2gff3.pl
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl

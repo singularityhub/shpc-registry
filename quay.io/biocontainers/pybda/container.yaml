@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pybda
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pybda
+latest:
+  0.1.0--pyh5ca1d4c_0: sha256:39d424cca4529437c99a5fbab56a79037a48ae91733914729eaf5f12188edcdc
+tags:
+  0.1.0--pyh5ca1d4c_0: sha256:39d424cca4529437c99a5fbab56a79037a48ae91733914729eaf5f12188edcdc
+docker: quay.io/biocontainers/pybda

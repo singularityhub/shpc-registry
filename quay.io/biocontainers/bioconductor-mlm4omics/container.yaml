@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r351hf484d3e_0: sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe
 docker: quay.io/biocontainers/bioconductor-mlm4omics
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

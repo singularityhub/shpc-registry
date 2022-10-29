@@ -6,3 +6,6 @@ latest:
 tags:
   0.110--pl5321hdfd78af_0: sha256:73239e3cb19e2d5b037f4a8f1d707c7c1a4f651932291edc4281f7bfe9b33c3b
 docker: quay.io/biocontainers/perl-mixin-linewise
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

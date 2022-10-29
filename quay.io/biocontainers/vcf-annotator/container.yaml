@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/vcf-annotator
 aliases:
   vcf-annotator: /usr/local/bin/vcf-annotator
+  f2py3.9: /usr/local/bin/f2py3.9
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

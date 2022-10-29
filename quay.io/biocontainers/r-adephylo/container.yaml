@@ -6,3 +6,14 @@ latest:
 tags:
   1.1_11--r351h96ca727_3: sha256:e4f3954a792ce0cf17909a1818dd443f95c0b519377eb80b4ab1aed01a63e7ea
 docker: quay.io/biocontainers/r-adephylo
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

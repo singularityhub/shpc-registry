@@ -6,3 +6,5 @@ latest:
 tags:
   0.806--pl5321hdfd78af_2: sha256:2ff7945322855f3968d279f33e2506c014d4108db7e11a38005d3acaae104d30
 docker: quay.io/biocontainers/perl-proc-fork
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

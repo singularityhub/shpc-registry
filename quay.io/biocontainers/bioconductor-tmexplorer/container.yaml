@@ -7,5 +7,13 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:67a00176f095280bc961c04f779720c36ef808f17aacf2f7930935b5a77471b7
 docker: quay.io/biocontainers/bioconductor-tmexplorer
 aliases:
-  .bioconductor-tmexplorer-post-link.sh: /usr/local/bin/.bioconductor-tmexplorer-post-link.sh
-  .bioconductor-tmexplorer-pre-unlink.sh: /usr/local/bin/.bioconductor-tmexplorer-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

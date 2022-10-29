@@ -6,3 +6,5 @@ latest:
 tags:
   1.68.0--r40hdfd78af_1: sha256:c511e815462e1c7eb958889255c501d965f8e110f18e6db6da90a03e4077c2ca
 docker: quay.io/biocontainers/bioconductor-affyqcreport
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

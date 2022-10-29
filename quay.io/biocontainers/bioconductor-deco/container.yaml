@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:12dcecf0be3e64ec952031bd0c45e1aa386cb879d76b3597045d1669c274279a
 docker: quay.io/biocontainers/bioconductor-deco
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

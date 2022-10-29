@@ -6,3 +6,7 @@ latest:
 tags:
   1.07--r3.3.1_2: sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1
 docker: quay.io/biocontainers/r-biasedurn
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

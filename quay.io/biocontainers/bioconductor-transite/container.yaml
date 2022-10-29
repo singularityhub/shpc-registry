@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40h399db7b_2: sha256:fc0a18d0b5dadf003485c93a1e49da747e2b71d8e5b2d050e7bd5f25e2b96939
 docker: quay.io/biocontainers/bioconductor-transite
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

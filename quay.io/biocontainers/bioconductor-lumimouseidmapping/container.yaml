@@ -7,5 +7,13 @@ tags:
   1.10.0--r41hdfd78af_9: sha256:d96777c56a9660436113df3f3acb92f54c62123268738a75efbcbe5395835d19
 docker: quay.io/biocontainers/bioconductor-lumimouseidmapping
 aliases:
-  .bioconductor-lumimouseidmapping-post-link.sh: /usr/local/bin/.bioconductor-lumimouseidmapping-post-link.sh
-  .bioconductor-lumimouseidmapping-pre-unlink.sh: /usr/local/bin/.bioconductor-lumimouseidmapping-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

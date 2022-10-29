@@ -7,8 +7,6 @@ tags:
   2.21--hdfd78af_0: sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d
 docker: quay.io/biocontainers/lotus2
 aliases:
-  .lotus2-post-link.sh: /usr/local/bin/.lotus2-post-link.sh
-  .lotus2-pre-unlink.sh: /usr/local/bin/.lotus2-pre-unlink.sh
   ITSx: /usr/local/bin/ITSx
   LCA: /usr/local/bin/LCA
   amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py
@@ -21,3 +19,13 @@ aliases:
   rtk: /usr/local/bin/rtk
   sdm: /usr/local/bin/sdm
   swarm: /usr/local/bin/swarm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/covtobed
 aliases:
   covtobed: /usr/local/bin/covtobed
+  bamtools: /usr/local/bin/bamtools

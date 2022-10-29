@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/rmats
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rmats
+latest:
+  4.1.2--py27ha9cf2de_4: sha256:fa9c99eee212bbb11275d6c19cb9a77667dcec12b70e46f39eef488b80007b41
+tags:
+  4.1.2--py27ha9cf2de_4: sha256:fa9c99eee212bbb11275d6c19cb9a77667dcec12b70e46f39eef488b80007b41
+docker: quay.io/biocontainers/rmats

@@ -6,3 +6,14 @@ latest:
 tags:
   1.36.0--r41hc0cfd56_2: sha256:594c5536c5f30094a62a76d050f202884436116b4d9145f9b8a67d22e1e48b4a
 docker: quay.io/biocontainers/bioconductor-cnorfuzzy
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay

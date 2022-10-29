@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/clair
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for clair
+latest:
+  2.1.1--hdfd78af_1: sha256:810206e3580a4405bbcb975e930a5fd7afe76c4535730fff08a3051a121ad6ed
+tags:
+  2.1.1--hdfd78af_1: sha256:810206e3580a4405bbcb975e930a5fd7afe76c4535730fff08a3051a121ad6ed
+docker: quay.io/biocontainers/clair

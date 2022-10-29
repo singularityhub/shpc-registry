@@ -7,7 +7,6 @@ tags:
   3.7.8--pyhdfd78af_0: sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc
 docker: quay.io/biocontainers/biobb_cmip
 aliases:
-  .cmip-post-link.sh: /usr/local/bin/.cmip-post-link.sh
   avgEpsGrid: /usr/local/bin/avgEpsGrid
   canal: /usr/local/bin/canal
   check_structure: /usr/local/bin/check_structure
@@ -21,3 +20,13 @@ aliases:
   surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
   titration: /usr/local/bin/titration
   watden: /usr/local/bin/watden
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.7: /usr/local/bin/f2py3.7
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp

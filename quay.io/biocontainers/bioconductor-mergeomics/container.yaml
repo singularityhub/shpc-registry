@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r341_0: sha256:99e0fd7e78a931c30c4d6ef73c8e19ef4dc18777a26c75b19e09051ce3c781bc
 docker: quay.io/biocontainers/bioconductor-mergeomics
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

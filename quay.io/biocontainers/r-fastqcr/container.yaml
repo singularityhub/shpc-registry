@@ -6,3 +6,6 @@ latest:
 tags:
   0.1.2--r351h6115d3f_0: sha256:f3a8cb98276f8f4d2e434f1b3be7fe503d1fdb6a4461d0fff85eabc70ddd1550
 docker: quay.io/biocontainers/r-fastqcr
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

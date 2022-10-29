@@ -7,5 +7,9 @@ tags:
   3.2.3--r40_9: sha256:3ea47a8fb8fef01c581ba427c65bfa45b6fa041fe755abb9c9c7a57ed5f3ac17
 docker: quay.io/biocontainers/bioconductor-mgug4122a.db
 aliases:
-  .bioconductor-mgug4122a.db-post-link.sh: /usr/local/bin/.bioconductor-mgug4122a.db-post-link.sh
-  .bioconductor-mgug4122a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mgug4122a.db-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

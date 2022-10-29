@@ -6,3 +6,14 @@ latest:
 tags:
   1.66.0--r41hdfd78af_0: sha256:09070fd67b133009372797f5246fcfa11c2e00b0baff508e42b0f1dc6e71de0b
 docker: quay.io/biocontainers/bioconductor-ecolitk
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

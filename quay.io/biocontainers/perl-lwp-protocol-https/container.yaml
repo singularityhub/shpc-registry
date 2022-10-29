@@ -6,3 +6,8 @@ latest:
 tags:
   6.10--pl5321hdfd78af_0: sha256:f211f2ca9fa61d31e18945fa2a88b94cbb93fefca77dbe210bd50528c57265a9
 docker: quay.io/biocontainers/perl-lwp-protocol-https
+aliases:
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request

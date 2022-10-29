@@ -6,3 +6,14 @@ latest:
 tags:
   1.40.0--r36_0: sha256:9f4d62944c8424bcdcd8521d7f1fbca2c0be32ca3e360c28b248b6a898b7f54a
 docker: quay.io/biocontainers/bioconductor-genominator
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

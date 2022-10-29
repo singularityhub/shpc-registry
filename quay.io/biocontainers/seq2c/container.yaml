@@ -10,3 +10,5 @@ aliases:
   cov2lr.pl: /usr/local/bin/cov2lr.pl
   lr2gene.pl: /usr/local/bin/lr2gene.pl
   seq2cov.pl: /usr/local/bin/seq2cov.pl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

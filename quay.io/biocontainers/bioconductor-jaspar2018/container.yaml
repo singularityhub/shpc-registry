@@ -7,5 +7,13 @@ tags:
   1.1.1--r41hdfd78af_9: sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147
 docker: quay.io/biocontainers/bioconductor-jaspar2018
 aliases:
-  .bioconductor-jaspar2018-post-link.sh: /usr/local/bin/.bioconductor-jaspar2018-post-link.sh
-  .bioconductor-jaspar2018-pre-unlink.sh: /usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

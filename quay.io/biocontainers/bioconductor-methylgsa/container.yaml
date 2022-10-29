@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795
 docker: quay.io/biocontainers/bioconductor-methylgsa
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,12 @@ latest:
 tags:
   0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
 docker: quay.io/biocontainers/r-bit64
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

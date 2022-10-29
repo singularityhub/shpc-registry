@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:b1131d6e563f02e84c3123672330e6cc801dad1c5177a4ca11658176d4d12396
 docker: quay.io/biocontainers/bioconductor-genegeneinter
+aliases:
+  wget: /usr/local/bin/wget

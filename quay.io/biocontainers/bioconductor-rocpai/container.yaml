@@ -7,5 +7,13 @@ tags:
   1.6.0--r41hdfd78af_0: sha256:bf8d1dc125126feff57d61c043f17ba7094315ffa931387ea7f27d0447cafcf6
 docker: quay.io/biocontainers/bioconductor-rocpai
 aliases:
-  .bioconductor-fission-post-link.sh: /usr/local/bin/.bioconductor-fission-post-link.sh
-  .bioconductor-fission-pre-unlink.sh: /usr/local/bin/.bioconductor-fission-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

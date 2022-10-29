@@ -28,3 +28,13 @@ aliases:
   plotHeatmap: /usr/local/bin/plotHeatmap
   plotPCA: /usr/local/bin/plotPCA
   plotProfile: /usr/local/bin/plotProfile
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ace2sam: /usr/local/bin/ace2sam
+  assistant: /usr/local/bin/assistant
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  chardetect: /usr/local/bin/chardetect
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

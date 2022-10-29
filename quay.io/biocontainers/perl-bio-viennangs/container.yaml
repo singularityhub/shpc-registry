@@ -28,3 +28,13 @@ aliases:
   splice_site_summary.pl: /usr/local/bin/splice_site_summary.pl
   track_hub_constructor.pl: /usr/local/bin/track_hub_constructor.pl
   trim_fastq.pl: /usr/local/bin/trim_fastq.pl
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps

@@ -96,3 +96,13 @@ aliases:
   upgrade_tf1.py: /usr/local/bin/upgrade_tf1.py
   volint: /usr/local/bin/volint
   wcslint: /usr/local/bin/wcslint
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  annotateBed: /usr/local/bin/annotateBed
+  bam2pairs: /usr/local/bin/bam2pairs
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

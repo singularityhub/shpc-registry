@@ -6,3 +6,14 @@ latest:
 tags:
   2.30.0--r41hc247a5b_2: sha256:4b457c78a16c7a47ab7499f496bbd054ae86f1721f6ffed9000c99b4334786f9
 docker: quay.io/biocontainers/bioconductor-isogenegui
+aliases:
+  aserver: /usr/local/bin/aserver
+  cups-config: /usr/local/bin/cups-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool

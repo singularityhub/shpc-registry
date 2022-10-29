@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a
 docker: quay.io/biocontainers/bioconductor-dnabarcodecompatibility
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

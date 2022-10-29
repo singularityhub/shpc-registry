@@ -6,3 +6,14 @@ latest:
 tags:
   1.0_beta.1--r41h46c59ee_1: sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5
 docker: quay.io/biocontainers/r-ccube
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

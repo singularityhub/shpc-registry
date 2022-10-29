@@ -1,8 +1,7 @@
 docker: quay.io/biocontainers/kraken2
-url: https://quay.io/repository/biocontainers/kraken2
-maintainer: '@marcodelapierre'
-description: A taxonomic classification system using exact k-mer matches to achieve
-  high accuracy and fast classification speeds.
+url: https://biocontainers.pro/tools/kraken2
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for kraken2
 latest:
   2.1.2--pl5321h9f5acd7_2: sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980
 tags:
@@ -13,3 +12,13 @@ aliases:
   kraken2: /usr/local/bin/kraken2
   kraken2-build: /usr/local/bin/kraken2-build
   kraken2-inspect: /usr/local/bin/kraken2-inspect
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd

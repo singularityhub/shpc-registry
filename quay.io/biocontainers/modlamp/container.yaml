@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/modlamp
 aliases:
   example_descriptors.py: /usr/local/bin/example_descriptors.py
   example_modlamp.py: /usr/local/bin/example_modlamp.py
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  chardetect: /usr/local/bin/chardetect
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  protoc: /usr/local/bin/protoc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8

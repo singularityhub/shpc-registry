@@ -6,3 +6,5 @@ latest:
 tags:
   2.30.0--r40hd029910_1: sha256:9c4545220a5dfc2be96b8c523e902f4099d78b8cb4c3da011381fc3d5fe6af8f
 docker: quay.io/biocontainers/bioconductor-sspa
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

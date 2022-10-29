@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/sgcocaller
 aliases:
   sgcocaller: /usr/local/bin/sgcocaller
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

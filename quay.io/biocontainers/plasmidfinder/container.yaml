@@ -7,10 +7,19 @@ tags:
   2.1.6--py310hdfd78af_1: sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3
 docker: quay.io/biocontainers/plasmidfinder
 aliases:
-  .plasmidfinder-post-link.sh: /usr/local/bin/.plasmidfinder-post-link.sh
   download-db.sh: /usr/local/bin/download-db.sh
   kma: /usr/local/bin/kma
   kma_index: /usr/local/bin/kma_index
   kma_shm: /usr/local/bin/kma_shm
   kma_update: /usr/local/bin/kma_update
   plasmidfinder.py: /usr/local/bin/plasmidfinder.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck

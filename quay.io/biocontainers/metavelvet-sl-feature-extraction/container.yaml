@@ -10,3 +10,10 @@ aliases:
   FeatureExtract.pl: /usr/local/bin/FeatureExtract.pl
   FeatureExtractPredict.pl: /usr/local/bin/FeatureExtractPredict.pl
   eval.pl: /usr/local/bin/eval.pl
+  c2ph: /usr/local/bin/c2ph
+  config_data: /usr/local/bin/config_data
+  cpanm: /usr/local/bin/cpanm
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

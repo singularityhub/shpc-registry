@@ -7,5 +7,13 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:cc528492ec9521a52d2dc9fefd70f731fd6afd9d4c21b394923041f29e1d2b82
 docker: quay.io/biocontainers/bioconductor-adductomicsr
 aliases:
-  .bioconductor-adductdata-post-link.sh: /usr/local/bin/.bioconductor-adductdata-post-link.sh
-  .bioconductor-adductdata-pre-unlink.sh: /usr/local/bin/.bioconductor-adductdata-pre-unlink.sh
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

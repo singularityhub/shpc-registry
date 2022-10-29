@@ -6,3 +6,5 @@ latest:
 tags:
   1.45.1--r40hd029910_1: sha256:3c34e4325f78a456b5c9ec608f95b78c59928ebcdf1ce2b55936c4c0ad687ac8
 docker: quay.io/biocontainers/bioconductor-genoset
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

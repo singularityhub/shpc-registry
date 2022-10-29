@@ -6,3 +6,5 @@ latest:
 tags:
   1.9--h244ad75_9: sha256:fb71016f0da0e0eca1f1bfa6f2c6519edfbd1f34e99146cdb21848730c2424e6
 docker: quay.io/biocontainers/htslib
+aliases:
+  htsfile: /usr/local/bin/htsfile

@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-devel-checkos
 aliases:
   use-devel-assertos: /usr/local/bin/use-devel-assertos
+  findrule: /usr/local/bin/findrule
+  perl5.32.1: /usr/local/bin/perl5.32.1

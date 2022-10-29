@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/ncbi-amr
 aliases:
   amrfinder.pl: /usr/local/bin/amrfinder.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  alimask: /usr/local/bin/alimask
+  amr_report: /usr/local/bin/amr_report
+  blast_formatter: /usr/local/bin/blast_formatter
+  blast_report: /usr/local/bin/blast_report
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd

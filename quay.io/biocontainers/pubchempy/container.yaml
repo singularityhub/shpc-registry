@@ -6,3 +6,9 @@ latest:
 tags:
   1.0.4--pyh864c0ab_2: sha256:20a11e0078a0c9e1bbcb16664d72cc007a05b0263f5ae3973f230b3a2496101d
 docker: quay.io/biocontainers/pubchempy
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

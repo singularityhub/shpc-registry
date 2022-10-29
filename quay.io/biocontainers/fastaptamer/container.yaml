@@ -13,3 +13,4 @@ aliases:
   fastaptamer_count: /usr/local/bin/fastaptamer_count
   fastaptamer_enrich: /usr/local/bin/fastaptamer_enrich
   fastaptamer_search: /usr/local/bin/fastaptamer_search
+  perl5.32.0: /usr/local/bin/perl5.32.0

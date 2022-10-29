@@ -31,3 +31,6 @@ aliases:
   scran-trend-var.R: /usr/local/bin/scran-trend-var.R
   scran_post_install_tests.bats: /usr/local/bin/scran_post_install_tests.bats
   scran_post_install_tests.sh: /usr/local/bin/scran_post_install_tests.sh
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

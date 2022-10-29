@@ -6,3 +6,14 @@ latest:
 tags:
   1.9--r41h3342da4_4: sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04
 docker: quay.io/biocontainers/r-isva
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   1.32.0--r41hdfd78af_0: sha256:a81d1e873cbb4281b00ab6cd1bcc55342fe1807a10bb3a6a1ac0f1db2266248f
 docker: quay.io/biocontainers/bioconductor-msmstests
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

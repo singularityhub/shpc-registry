@@ -6,3 +6,9 @@ latest:
 tags:
   0.65--pl5321hdfd78af_3: sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77
 docker: quay.io/biocontainers/perl-spreadsheet-parseexcel
+aliases:
+  chartex: /usr/local/bin/chartex
+  map: /usr/local/bin/map
+  mirrorMappings: /usr/local/bin/mirrorMappings
+  mkCSGB2312: /usr/local/bin/mkCSGB2312
+  mkmapfile: /usr/local/bin/mkmapfile

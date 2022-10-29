@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36he1b5a44_0: sha256:44583dfba71bca0be5efe7e9f464234cad27a2ae0ab9d0d486fefc880536b933
 docker: quay.io/biocontainers/bioconductor-apeglm
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

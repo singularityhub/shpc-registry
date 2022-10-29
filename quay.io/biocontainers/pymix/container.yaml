@@ -40,3 +40,13 @@ aliases:
   uic-qt4: /usr/local/bin/uic-qt4
   xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
   xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4
+  ccache-swig: /usr/local/bin/ccache-swig
+  cluster: /usr/local/bin/cluster
+  idle: /usr/local/bin/idle
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config

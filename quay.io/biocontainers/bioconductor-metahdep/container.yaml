@@ -6,3 +6,14 @@ latest:
 tags:
   1.52.0--r41hc0cfd56_2: sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6
 docker: quay.io/biocontainers/bioconductor-metahdep
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

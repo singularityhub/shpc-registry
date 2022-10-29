@@ -6,3 +6,5 @@ latest:
 tags:
   2.0.6--r41hc247a5b_1: sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5
 docker: quay.io/biocontainers/bioconductor-bambu
+aliases:
+  xgboost: /usr/local/bin/xgboost

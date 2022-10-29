@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--pyhdfd78af_0: sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a
 docker: quay.io/biocontainers/mavenn
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor

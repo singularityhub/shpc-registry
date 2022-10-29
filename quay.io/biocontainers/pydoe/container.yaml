@@ -6,3 +6,14 @@ latest:
 tags:
   0.3.8--py35_0: sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33
 docker: quay.io/biocontainers/pydoe
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config

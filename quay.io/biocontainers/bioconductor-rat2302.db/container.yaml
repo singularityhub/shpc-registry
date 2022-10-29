@@ -7,5 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:8b335980b08ed8328f55e42a4493ebb096666316166385fa0e73d3b47b81f419
 docker: quay.io/biocontainers/bioconductor-rat2302.db
 aliases:
-  .bioconductor-rat2302.db-post-link.sh: /usr/local/bin/.bioconductor-rat2302.db-post-link.sh
-  .bioconductor-rat2302.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rat2302.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

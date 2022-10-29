@@ -6,3 +6,5 @@ latest:
 tags:
   4.09--2: sha256:a60f811670644ce43846bd0185d1c2e60282f38337f16ef98fb67d27b5c34bd5
 docker: quay.io/biocontainers/trf
+aliases:
+  trf: /usr/local/bin/trf

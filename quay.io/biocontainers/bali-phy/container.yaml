@@ -54,3 +54,13 @@ aliases:
   trees-distances: /usr/local/bin/trees-distances
   trees-pair-distances: /usr/local/bin/trees-pair-distances
   trees-to-SRQ: /usr/local/bin/trees-to-SRQ
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotate: /usr/local/bin/annotate
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  bdftogd: /usr/local/bin/bdftogd
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

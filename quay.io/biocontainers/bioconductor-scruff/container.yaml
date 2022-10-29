@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.3--r40hdfd78af_0: sha256:9c1966ee7352b7f2b2bdeb23a825f8d37b66442da151cc87d635c3ce5049de01
 docker: quay.io/biocontainers/bioconductor-scruff
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

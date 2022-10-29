@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc
 docker: quay.io/biocontainers/bioconductor-mqmetrics
+aliases:
+  pandoc: /usr/local/bin/pandoc

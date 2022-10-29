@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/pynast
 aliases:
   pynast: /usr/local/bin/pynast
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/perl-gfacs
 aliases:
   gFACs.pl: /usr/local/bin/gFACs.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps

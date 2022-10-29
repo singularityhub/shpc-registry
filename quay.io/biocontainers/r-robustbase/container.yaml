@@ -6,3 +6,7 @@ latest:
 tags:
   0.92_6--r3.3.1_1: sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d
 docker: quay.io/biocontainers/r-robustbase
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

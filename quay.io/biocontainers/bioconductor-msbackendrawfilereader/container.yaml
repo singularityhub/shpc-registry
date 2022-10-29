@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/bioconductor-msbackendrawfilereader
 aliases:
   aprofutil: /usr/local/bin/aprofutil
   mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate

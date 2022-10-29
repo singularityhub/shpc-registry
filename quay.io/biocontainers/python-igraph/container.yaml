@@ -6,3 +6,14 @@ latest:
 tags:
   0.7.1.post6--py35_2: sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1
 docker: quay.io/biocontainers/python-igraph
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  igraph: /usr/local/bin/igraph
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv: /usr/local/bin/pyvenv

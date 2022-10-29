@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/mess
 aliases:
   mess: /usr/local/bin/mess
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  cbc: /usr/local/bin/cbc
+  chardetect: /usr/local/bin/chardetect
+  clp: /usr/local/bin/clp
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jsonschema: /usr/local/bin/jsonschema
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot

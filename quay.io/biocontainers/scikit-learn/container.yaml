@@ -6,3 +6,12 @@ latest:
 tags:
   0.20.2: sha256:a69a470e71d5823bf38b454b44743eceba694e6c38bab59d21ef38ccc53e20ed
 docker: quay.io/biocontainers/scikit-learn
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

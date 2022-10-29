@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/gff3sort
 aliases:
   check-disorder.pl: /usr/local/bin/check-disorder.pl
   gff3sort.pl: /usr/local/bin/gff3sort.pl
+  findrule: /usr/local/bin/findrule
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

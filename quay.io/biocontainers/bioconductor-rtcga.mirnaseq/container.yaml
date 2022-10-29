@@ -7,5 +7,10 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9
 docker: quay.io/biocontainers/bioconductor-rtcga.mirnaseq
 aliases:
-  .bioconductor-rtcga.mirnaseq-post-link.sh: /usr/local/bin/.bioconductor-rtcga.mirnaseq-post-link.sh
-  .bioconductor-rtcga.mirnaseq-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.mirnaseq-pre-unlink.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

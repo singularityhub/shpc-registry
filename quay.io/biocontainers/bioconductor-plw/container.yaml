@@ -6,3 +6,9 @@ latest:
 tags:
   1.47.0--r40h037d062_0: sha256:d6973e008fe9b435492985461a60ebf02ffeacc7b7f7fb93f132e9757fe9e7e4
 docker: quay.io/biocontainers/bioconductor-plw
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

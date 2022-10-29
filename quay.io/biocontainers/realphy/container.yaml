@@ -11,3 +11,13 @@ aliases:
   REALPHY_v113: /usr/local/bin/REALPHY_v113
   RealPhy_v113.jar: /usr/local/bin/RealPhy_v113.jar
   realphy: /usr/local/bin/realphy
+  LICENSE: /usr/local/bin/LICENSE
+  aserver: /usr/local/bin/aserver
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

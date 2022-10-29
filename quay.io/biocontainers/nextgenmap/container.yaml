@@ -31,3 +31,6 @@ aliases:
   readelf: /usr/local/bin/readelf
   size: /usr/local/bin/size
   strings: /usr/local/bin/strings
+  ar: /usr/local/bin/ar
+  ranlib: /usr/local/bin/ranlib
+  strip: /usr/local/bin/strip

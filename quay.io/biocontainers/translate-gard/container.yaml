@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/translate-gard
 aliases:
   translate-gard: /usr/local/bin/translate-gard
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm

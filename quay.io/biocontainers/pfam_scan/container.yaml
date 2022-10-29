@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/pfam_scan
 aliases:
   pfam_scan.pl: /usr/local/bin/pfam_scan.pl
+  alimask: /usr/local/bin/alimask
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl
+  bp_chaos_plot.pl: /usr/local/bin/bp_chaos_plot.pl
+  bp_classify_hits_kingdom.pl: /usr/local/bin/bp_classify_hits_kingdom.pl
+  bp_composite_LD.pl: /usr/local/bin/bp_composite_LD.pl

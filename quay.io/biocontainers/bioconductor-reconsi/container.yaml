@@ -6,3 +6,14 @@ latest:
 tags:
   1.6.0--r41hdfd78af_0: sha256:440d8025f41dfbaa8ea875ad294bab2cc7399569c15ae5f212c64fd0c3299c5f
 docker: quay.io/biocontainers/bioconductor-reconsi
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

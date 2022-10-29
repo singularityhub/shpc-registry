@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:94895883ad4da2b7503ff478255035b6f784cab51cb29f852fd275b9d5421c4d
 docker: quay.io/biocontainers/bioconductor-rhisat2
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

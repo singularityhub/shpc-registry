@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/deeparg
 aliases:
   deeparg: /usr/local/bin/deeparg
   theano-test: /usr/local/bin/theano-test
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  chardetect: /usr/local/bin/chardetect
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

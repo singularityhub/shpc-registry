@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/peddy
 aliases:
   peddy: /usr/local/bin/peddy
   toolshed: /usr/local/bin/toolshed
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  bgzip: /usr/local/bin/bgzip
+  coloredlogs: /usr/local/bin/coloredlogs
+  cyvcf2: /usr/local/bin/cyvcf2
+  f2py3.9: /usr/local/bin/f2py3.9
+  htsfile: /usr/local/bin/htsfile
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc

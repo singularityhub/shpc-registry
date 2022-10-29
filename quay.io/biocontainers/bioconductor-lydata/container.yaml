@@ -7,5 +7,4 @@ tags:
   1.8.0--r351_0: sha256:55812217af81e56f7c995caf6fe94b5ca811f02590f2b4bf90bd85e04159db70
 docker: quay.io/biocontainers/bioconductor-lydata
 aliases:
-  .bioconductor-lydata-post-link.sh: /usr/local/bin/.bioconductor-lydata-post-link.sh
-  .bioconductor-lydata-pre-unlink.sh: /usr/local/bin/.bioconductor-lydata-pre-unlink.sh
+  wget: /usr/local/bin/wget

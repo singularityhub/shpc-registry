@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-clone
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-clone
+latest:
+  0.42--pl5321hec16e2b_2: sha256:8813761fa0e45d686bbd1563311afa0a8b950a94fde46652f1469b6bafd8b38e
+tags:
+  0.42--pl5321hec16e2b_2: sha256:8813761fa0e45d686bbd1563311afa0a8b950a94fde46652f1469b6bafd8b38e
+docker: quay.io/biocontainers/perl-clone

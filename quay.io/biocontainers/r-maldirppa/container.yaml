@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.1--r351h6115d3f_3: sha256:8ef13ec53d940f574cb488a3074c4dce083bb51e7350db02697d42172f0d9226
 docker: quay.io/biocontainers/r-maldirppa
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

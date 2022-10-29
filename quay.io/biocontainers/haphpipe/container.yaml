@@ -81,3 +81,13 @@ aliases:
   vdb-passwd.2.10.8: /usr/local/bin/vdb-passwd.2.10.8
   vdb-unlock.2.10.8: /usr/local/bin/vdb-unlock.2.10.8
   vdb-validate.2.10.8: /usr/local/bin/vdb-validate.2.10.8
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  CA.pm: /usr/local/bin/CA.pm
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  align-cache: /usr/local/bin/align-cache

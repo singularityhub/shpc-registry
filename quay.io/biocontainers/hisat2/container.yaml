@@ -10,3 +10,13 @@ aliases:
   extract_exons.py: /usr/local/bin/extract_exons.py
   extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
   hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  hisat2: /usr/local/bin/hisat2
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  hisat2-inspect: /usr/local/bin/hisat2-inspect
+  hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
+  hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s

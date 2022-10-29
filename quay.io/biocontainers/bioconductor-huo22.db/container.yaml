@@ -7,5 +7,13 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:ec301832b73e6219a58616ab9b43c1252196982fb1c3d20326c0aa01fff872d0
 docker: quay.io/biocontainers/bioconductor-huo22.db
 aliases:
-  .bioconductor-huo22.db-post-link.sh: /usr/local/bin/.bioconductor-huo22.db-post-link.sh
-  .bioconductor-huo22.db-pre-unlink.sh: /usr/local/bin/.bioconductor-huo22.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

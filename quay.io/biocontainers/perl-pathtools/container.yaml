@@ -6,3 +6,14 @@ latest:
 tags:
   3.75--pl5321hec16e2b_3: sha256:2e0631751c69f7bc0456e8450f556c4e703e14c8e19a73f523b94737e97639ea
 docker: quay.io/biocontainers/perl-pathtools
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

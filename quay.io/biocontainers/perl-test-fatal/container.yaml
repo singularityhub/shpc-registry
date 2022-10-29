@@ -6,3 +6,14 @@ latest:
 tags:
   0.016--pl5321hdfd78af_0: sha256:fe953fe96b77b8f2e3fd9a96124e4d8579943aa38848649dc21f75fabb7e94f9
 docker: quay.io/biocontainers/perl-test-fatal
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

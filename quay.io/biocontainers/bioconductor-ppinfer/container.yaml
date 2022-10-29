@@ -7,5 +7,4 @@ tags:
   1.8.1--r351_0: sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057
 docker: quay.io/biocontainers/bioconductor-ppinfer
 aliases:
-  .bioconductor-yeastexpdata-post-link.sh: /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh
-  .bioconductor-yeastexpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh
+  wget: /usr/local/bin/wget

@@ -47,3 +47,13 @@ aliases:
   translate.pl: /usr/local/bin/translate.pl
   tth-hash: /usr/local/bin/tth-hash
   whirlpool-hash: /usr/local/bin/whirlpool-hash
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  addadapters.sh: /usr/local/bin/addadapters.sh

@@ -6,3 +6,14 @@ latest:
 tags:
   1.32.0--r41hc0cfd56_2: sha256:76db74e93222fe45d45b039dc5148f5358756aa274897d1ac54ec05530fb4178
 docker: quay.io/biocontainers/bioconductor-methylmnm
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

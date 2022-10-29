@@ -23,3 +23,13 @@ aliases:
   centrifuge_evaluate.py: /usr/local/bin/centrifuge_evaluate.py
   centrifuge_simulate_reads.py: /usr/local/bin/centrifuge_simulate_reads.py
   plaScope.sh: /usr/local/bin/plaScope.sh
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  c2ph: /usr/local/bin/c2ph
+  cds-mapping-stats: /usr/local/bin/cds-mapping-stats
+  cds-subgraphs: /usr/local/bin/cds-subgraphs
+  idle3.6: /usr/local/bin/idle3.6
+  mag-improve: /usr/local/bin/mag-improve
+  metaspades.py: /usr/local/bin/metaspades.py
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  plasmidspades.py: /usr/local/bin/plasmidspades.py
+  podselect: /usr/local/bin/podselect

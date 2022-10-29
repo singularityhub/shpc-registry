@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/wdltool
 aliases:
   wdltool: /usr/local/bin/wdltool
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  appletviewer: /usr/local/bin/appletviewer
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  extcheck: /usr/local/bin/extcheck
+  idle3.6: /usr/local/bin/idle3.6
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi

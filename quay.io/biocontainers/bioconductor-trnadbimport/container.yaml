@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:8ae6e1daf09f6370170f98a11526c2bf0cc86ed0ff28e14fce23a78e0840e37b
 docker: quay.io/biocontainers/bioconductor-trnadbimport
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

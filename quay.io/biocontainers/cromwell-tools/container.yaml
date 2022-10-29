@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/cromwell-tools
 aliases:
   cromwell-tools: /usr/local/bin/cromwell-tools
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  chardetect: /usr/local/bin/chardetect
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify

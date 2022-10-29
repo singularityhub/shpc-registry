@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:9cb87a6889f616f730d1d775dd622cc145686a7060dd801a7fcc5144d4772dbe
 docker: quay.io/biocontainers/bioconductor-doser
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

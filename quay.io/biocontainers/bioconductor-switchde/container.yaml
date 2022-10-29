@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:62c6773250bf43e0749871d2cb22c5715b745d1324de9cd84aec6cd5a02512d4
 docker: quay.io/biocontainers/bioconductor-switchde
+aliases:
+  wget: /usr/local/bin/wget

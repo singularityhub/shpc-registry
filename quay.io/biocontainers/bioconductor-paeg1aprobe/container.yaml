@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19
 docker: quay.io/biocontainers/bioconductor-paeg1aprobe
 aliases:
-  .bioconductor-paeg1aprobe-post-link.sh: /usr/local/bin/.bioconductor-paeg1aprobe-post-link.sh
-  .bioconductor-paeg1aprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-paeg1aprobe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

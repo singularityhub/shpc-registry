@@ -14,3 +14,13 @@ aliases:
   scpred_post_install_tests.sh: /usr/local/bin/scpred_post_install_tests.sh
   scpred_predict.R: /usr/local/bin/scpred_predict.R
   scpred_train_model.R: /usr/local/bin/scpred_train_model.R
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pandoc: /usr/local/bin/pandoc
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

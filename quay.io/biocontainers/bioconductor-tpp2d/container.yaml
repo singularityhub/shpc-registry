@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:15dd708a4d92bbf7632d953a33f2c3471bd4cd46006d1228aa7275a5b8e67cfd
 docker: quay.io/biocontainers/bioconductor-tpp2d
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

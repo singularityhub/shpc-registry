@@ -7,5 +7,8 @@ tags:
   1.8.0--r40_0: sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de
 docker: quay.io/biocontainers/bioconductor-metagxbreast
 aliases:
-  .bioconductor-metagxbreast-post-link.sh: /usr/local/bin/.bioconductor-metagxbreast-post-link.sh
-  .bioconductor-metagxbreast-pre-unlink.sh: /usr/local/bin/.bioconductor-metagxbreast-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

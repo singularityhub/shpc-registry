@@ -7,5 +7,13 @@ tags:
   3.8.2--r36_1: sha256:d6e14fe868384ff78e083d6a670c24ffa2c8cd28a3c0faab4aed6cbb3227830c
 docker: quay.io/biocontainers/bioconductor-worm.db0
 aliases:
-  .bioconductor-worm.db0-post-link.sh: /usr/local/bin/.bioconductor-worm.db0-post-link.sh
-  .bioconductor-worm.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-worm.db0-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

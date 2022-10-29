@@ -11,3 +11,13 @@ aliases:
   lastz: /usr/local/bin/lastz
   lastz_32: /usr/local/bin/lastz_32
   lastz_D: /usr/local/bin/lastz_D
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj
+  gsdj500: /usr/local/bin/gsdj500
+  gslj: /usr/local/bin/gslj
+  gslp: /usr/local/bin/gslp
+  gsnd: /usr/local/bin/gsnd
+  lprsetup.sh: /usr/local/bin/lprsetup.sh

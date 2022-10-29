@@ -10,3 +10,5 @@ aliases:
   nextclade: /usr/local/bin/nextclade
   nextclade.js: /usr/local/bin/nextclade.js
   npx: /usr/local/bin/npx
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm

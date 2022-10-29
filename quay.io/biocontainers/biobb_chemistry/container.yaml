@@ -69,7 +69,6 @@ aliases:
   makeANG_RST: /usr/local/bin/makeANG_RST
   makeCHIR_RST: /usr/local/bin/makeCHIR_RST
   makeCSA_RST.na: /usr/local/bin/makeCSA_RST.na
-  makeDIP_RST.dna: /usr/local/bin/makeDIP_RST.dna
   makeDIP_RST.protein: /usr/local/bin/makeDIP_RST.protein
   makeDIST_RST: /usr/local/bin/makeDIST_RST
   makeRIGID_RST: /usr/local/bin/makeRIGID_RST
@@ -136,3 +135,13 @@ aliases:
   ucpp: /usr/local/bin/ucpp
   xaLeap: /usr/local/bin/xaLeap
   xleap: /usr/local/bin/xleap
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  brotli: /usr/local/bin/brotli
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  f2py3.10: /usr/local/bin/f2py3.10
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

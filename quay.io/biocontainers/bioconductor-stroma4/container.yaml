@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_1: sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b
 docker: quay.io/biocontainers/bioconductor-stroma4
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

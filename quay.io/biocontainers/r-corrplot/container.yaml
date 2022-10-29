@@ -6,3 +6,7 @@ latest:
 tags:
   0.77--r3.3.1_0: sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14
 docker: quay.io/biocontainers/r-corrplot
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

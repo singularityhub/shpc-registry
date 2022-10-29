@@ -6,3 +6,5 @@ latest:
 tags:
   1.24.0--r40h399db7b_1: sha256:cd7c4529a79c67668ec5a64223a642644fa9abdf39de428bb1df42002e93736a
 docker: quay.io/biocontainers/bioconductor-topaseq
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

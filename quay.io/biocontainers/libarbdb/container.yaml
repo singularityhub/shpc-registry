@@ -6,3 +6,14 @@ latest:
 tags:
   6.0.6--haa8b8d8_8: sha256:53c522440f64bb2a9388ca2712f683e30b9b9d6885743aafdbcf656d9f0bfc9c
 docker: quay.io/biocontainers/libarbdb
+aliases:
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  envsubst: /usr/local/bin/envsubst
+  gapplication: /usr/local/bin/gapplication
+  gdbus: /usr/local/bin/gdbus
+  gdbus-codegen: /usr/local/bin/gdbus-codegen
+  gettext: /usr/local/bin/gettext
+  gettext.sh: /usr/local/bin/gettext.sh

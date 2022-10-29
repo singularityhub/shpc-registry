@@ -6,3 +6,14 @@ latest:
 tags:
   0.1.6--py_0: sha256:f2f3e8f852e2d29f7cab02c550bf7482e235bcaeebe48048eef0d8dc12ff0a39
 docker: quay.io/biocontainers/kipoi-conda
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  f2py3.7: /usr/local/bin/f2py3.7
+  futurize: /usr/local/bin/futurize
+  idle3.7: /usr/local/bin/idle3.7
+  pasteurize: /usr/local/bin/pasteurize
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config

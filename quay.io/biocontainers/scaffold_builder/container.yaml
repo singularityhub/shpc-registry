@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/scaffold_builder
 aliases:
   scaffold_builder.py: /usr/local/bin/scaffold_builder.py
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  idle: /usr/local/bin/idle
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer

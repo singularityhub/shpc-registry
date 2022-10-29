@@ -59,3 +59,13 @@ aliases:
   vdb-passwd.2.10.9: /usr/local/bin/vdb-passwd.2.10.9
   vdb-unlock.2.10.9: /usr/local/bin/vdb-unlock.2.10.9
   vdb-validate.2.10.9: /usr/local/bin/vdb-validate.2.10.9
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  ace2sam: /usr/local/bin/ace2sam
+  align-cache: /usr/local/bin/align-cache
+  align-cache.2: /usr/local/bin/align-cache.2
+  align-info: /usr/local/bin/align-info
+  align-info.2: /usr/local/bin/align-info.2
+  annotateBed: /usr/local/bin/annotateBed

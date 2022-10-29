@@ -7,5 +7,13 @@ tags:
   1.0.3--r41hdfd78af_9: sha256:53c5e270ce3ae6d895ea2cc78c974be778f80fd8934ac72649dcdadd92e24b59
 docker: quay.io/biocontainers/bioconductor-human370quadv3ccrlmm
 aliases:
-  .bioconductor-human370quadv3ccrlmm-post-link.sh: /usr/local/bin/.bioconductor-human370quadv3ccrlmm-post-link.sh
-  .bioconductor-human370quadv3ccrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-human370quadv3ccrlmm-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

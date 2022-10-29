@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/xatlas
 aliases:
   xatlas: /usr/local/bin/xatlas
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

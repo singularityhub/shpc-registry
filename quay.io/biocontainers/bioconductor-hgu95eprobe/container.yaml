@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:0d619ffea06164d290d9f134da671a2e4bdd54048de62ed5617a7af8bd50c7ff
 docker: quay.io/biocontainers/bioconductor-hgu95eprobe
 aliases:
-  .bioconductor-hgu95eprobe-post-link.sh: /usr/local/bin/.bioconductor-hgu95eprobe-post-link.sh
-  .bioconductor-hgu95eprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu95eprobe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

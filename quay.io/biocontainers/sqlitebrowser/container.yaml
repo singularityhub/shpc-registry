@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/sqlitebrowser
 aliases:
   sqlitebrowser: /usr/local/bin/sqlitebrowser
+  assistant: /usr/local/bin/assistant
+  designer: /usr/local/bin/designer
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease
+  lupdate: /usr/local/bin/lupdate
+  moc: /usr/local/bin/moc
+  pixeltool: /usr/local/bin/pixeltool
+  pngcp: /usr/local/bin/pngcp
+  qcollectiongenerator: /usr/local/bin/qcollectiongenerator

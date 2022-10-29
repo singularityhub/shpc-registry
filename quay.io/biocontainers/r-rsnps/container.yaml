@@ -6,3 +6,9 @@ latest:
 tags:
   0.3.0--r40h6115d3f_2: sha256:61d17fd899ea7c78c0924db005fea318ea1b2e615d8e52a66f2ba7fedfdf05ce
 docker: quay.io/biocontainers/r-rsnps
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

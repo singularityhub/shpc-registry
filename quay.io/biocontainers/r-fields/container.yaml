@@ -6,3 +6,11 @@ latest:
 tags:
   8.4_1--r3.2.2_0: sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8
 docker: quay.io/biocontainers/r-fields
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

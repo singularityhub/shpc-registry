@@ -6,3 +6,7 @@ latest:
 tags:
   1.16--r3.3.1_0: sha256:7fb1b328b79bcfc49ab26268be87bfba875ecdc0383fb4443c26226a82a19c3c
 docker: quay.io/biocontainers/r-rsolnp
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

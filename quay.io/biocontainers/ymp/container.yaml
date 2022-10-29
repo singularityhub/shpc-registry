@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/ymp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for ymp
+latest:
+  0.2.1--py_0: sha256:4b335f3bf74c50987bd27f4f4f7e52c34960bde5681606335d1b15b8484d5245
+tags:
+  0.2.1--py_0: sha256:4b335f3bf74c50987bd27f4f4f7e52c34960bde5681606335d1b15b8484d5245
+docker: quay.io/biocontainers/ymp

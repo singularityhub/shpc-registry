@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gseapy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gseapy
+latest:
+  0.9.9--py_0: sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c
+tags:
+  0.9.9--py_0: sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c
+docker: quay.io/biocontainers/gseapy

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.4--r40hdfd78af_0: sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0
 docker: quay.io/biocontainers/bioconductor-tximeta
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

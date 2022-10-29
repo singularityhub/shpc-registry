@@ -15,3 +15,13 @@ aliases:
   pmxligand_hybrid: /usr/local/bin/pmxligand_hybrid
   pmxmerge_ff: /usr/local/bin/pmxmerge_ff
   pmxmutate: /usr/local/bin/pmxmutate
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  brotli: /usr/local/bin/brotli
+  f2py3.7: /usr/local/bin/f2py3.7
+  fonttools: /usr/local/bin/fonttools
+  futurize: /usr/local/bin/futurize
+  idle3.7: /usr/local/bin/idle3.7
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

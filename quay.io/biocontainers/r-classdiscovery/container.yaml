@@ -6,3 +6,14 @@ latest:
 tags:
   3.4.0--r41h3342da4_0: sha256:a55868ca243ef85b5d9c3afe6e79febb26b879863b9535b0f71e65d8be43874a
 docker: quay.io/biocontainers/r-classdiscovery
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

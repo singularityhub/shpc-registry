@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/cirtap
 aliases:
   cirtap: /usr/local/bin/cirtap
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

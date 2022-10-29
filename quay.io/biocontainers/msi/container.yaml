@@ -45,3 +45,13 @@ aliases:
   msi_time_it: /usr/local/bin/msi_time_it
   taxonkit: /usr/local/bin/taxonkit
   taxonkit_children.sh: /usr/local/bin/taxonkit_children.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  FET.pl: /usr/local/bin/FET.pl
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic

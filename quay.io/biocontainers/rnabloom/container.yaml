@@ -10,3 +10,13 @@ aliases:
   ntcard: /usr/local/bin/ntcard
   nthll: /usr/local/bin/nthll
   rnabloom: /usr/local/bin/rnabloom
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  cups-config: /usr/local/bin/cups-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  idle3.10: /usr/local/bin/idle3.10

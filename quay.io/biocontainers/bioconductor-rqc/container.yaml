@@ -6,3 +6,6 @@ latest:
 tags:
   1.28.0--r41hc247a5b_2: sha256:a55f1c5c12dc6063c1249e17f88771f13c6715b1337aa78056eae3293e7a8d64
 docker: quay.io/biocontainers/bioconductor-rqc
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

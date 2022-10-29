@@ -6,3 +6,5 @@ latest:
 tags:
   0.15--pl5321hdfd78af_0: sha256:4026d30d907419b7f52552991d8d5bebc0b1d31022282580f7e0eb23bdb8ac9f
 docker: quay.io/biocontainers/perl-crypt-openssl-guess
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -6,3 +6,5 @@ latest:
 tags:
   0.04--pl5321hdfd78af_3: sha256:79d1e5d1b90a4786ffa8717786e1068fda5dbf2cb57f1029d67dd668bd2acfa8
 docker: quay.io/biocontainers/perl-xml-regexp
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

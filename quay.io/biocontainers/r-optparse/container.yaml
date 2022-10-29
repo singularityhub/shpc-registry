@@ -6,3 +6,9 @@ latest:
 tags:
   1.6.0: sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886
 docker: quay.io/biocontainers/r-optparse
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

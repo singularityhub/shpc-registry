@@ -6,3 +6,5 @@ latest:
 tags:
   6.10--pl5321hdfd78af_0: sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5
 docker: quay.io/biocontainers/perl-http-cookies
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

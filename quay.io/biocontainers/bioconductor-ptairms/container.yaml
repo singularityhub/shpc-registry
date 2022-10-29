@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hc247a5b_2: sha256:0d4d0a51f70e968c145f6adaa3c64dd5b5cc7134984e109480aca57c0632a6dc
 docker: quay.io/biocontainers/bioconductor-ptairms
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

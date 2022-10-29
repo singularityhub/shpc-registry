@@ -6,3 +6,14 @@ latest:
 tags:
   2.6.0--r41hdfd78af_0: sha256:85e37c88267e15433747d682dd3bf636e7c6ecdc6399c88d1b3f3e06d01c2def
 docker: quay.io/biocontainers/bioconductor-genomicscores
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   1.007001--pl5321hdfd78af_3: sha256:073dc36ed204698c3c57fa74479b443cfe7226c697e2eea27bf3e8811016e7ae
 docker: quay.io/biocontainers/perl-bio-coordinate
+aliases:
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl

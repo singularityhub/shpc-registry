@@ -6,3 +6,12 @@ latest:
 tags:
   1.39.0--r40h037d062_0: sha256:3de5944af9efbe21b37d7062406a19ebfe884d90bf87c6c3c79eab32b4f4c586
 docker: quay.io/biocontainers/bioconductor-bayespeak
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/fithic
 aliases:
   fithic: /usr/local/bin/fithic
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  f2py3.6: /usr/local/bin/f2py3.6
+  idle3.6: /usr/local/bin/idle3.6
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m

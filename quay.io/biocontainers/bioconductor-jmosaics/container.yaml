@@ -6,3 +6,14 @@ latest:
 tags:
   1.10.0--0: sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218
 docker: quay.io/biocontainers/bioconductor-jmosaics
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  c2ph: /usr/local/bin/c2ph
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  pngcp: /usr/local/bin/pngcp
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct
+  ras2tiff: /usr/local/bin/ras2tiff

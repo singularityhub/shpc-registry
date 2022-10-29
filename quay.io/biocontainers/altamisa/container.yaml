@@ -10,3 +10,8 @@ aliases:
   isatab2dot: /usr/local/bin/isatab2dot
   isatab2isatab: /usr/local/bin/isatab2isatab
   isatab_validate: /usr/local/bin/isatab_validate
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

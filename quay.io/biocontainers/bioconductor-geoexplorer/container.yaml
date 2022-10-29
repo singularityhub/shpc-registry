@@ -6,3 +6,5 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d
 docker: quay.io/biocontainers/bioconductor-geoexplorer
+aliases:
+  pandoc: /usr/local/bin/pandoc

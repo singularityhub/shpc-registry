@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:47136786aabc12b8aa3441eb8cc24fa03c190141fff42eef838fc626ad43648b
 docker: quay.io/biocontainers/bioconductor-cbpmanager
+aliases:
+  pandoc: /usr/local/bin/pandoc

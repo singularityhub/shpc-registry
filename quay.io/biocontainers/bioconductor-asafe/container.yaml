@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r351_0: sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0
 docker: quay.io/biocontainers/bioconductor-asafe
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

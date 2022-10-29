@@ -13,3 +13,13 @@ aliases:
   mfqe: /usr/local/bin/mfqe
   orfm: /usr/local/bin/orfm
   taxit: /usr/local/bin/taxit
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  alimask: /usr/local/bin/alimask
+  biom: /usr/local/bin/biom
+  dendropy-format: /usr/local/bin/dendropy-format
+  diamond: /usr/local/bin/diamond
+  einsi: /usr/local/bin/einsi
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip

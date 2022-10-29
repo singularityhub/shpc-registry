@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b
 docker: quay.io/biocontainers/bioconductor-timirgen
+aliases:
+  Cytoscape: /usr/local/bin/Cytoscape
+  aserver: /usr/local/bin/aserver
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

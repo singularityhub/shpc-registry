@@ -6,3 +6,14 @@ latest:
 tags:
   1.43--pl5321h7132678_3: sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d
 docker: quay.io/biocontainers/perl-bio-samtools
+aliases:
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches

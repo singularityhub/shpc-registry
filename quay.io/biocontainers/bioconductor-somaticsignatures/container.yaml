@@ -6,3 +6,14 @@ latest:
 tags:
   2.30.0--r41hdfd78af_0: sha256:508e24cb5ea45495663141d097e07ef47853b2675eee63ebb733fce956249bb8
 docker: quay.io/biocontainers/bioconductor-somaticsignatures
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

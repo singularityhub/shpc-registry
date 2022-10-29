@@ -7,17 +7,12 @@ tags:
   2.8.0--h9ee0642_3: sha256:4c909e5c1288c6210436bf61757f4c956158d5ff68c427f9becc821aba57a699
 docker: quay.io/biocontainers/openms-thirdparty
 aliases:
-  .sirius-csifingerid-post-link.sh: /usr/local/bin/.sirius-csifingerid-post-link.sh
-  AWS.Logger.Core.dll: /usr/local/bin/AWS.Logger.Core.dll
   AWS.Logger.Core.pdb: /usr/local/bin/AWS.Logger.Core.pdb
   AWS.Logger.Core.xml: /usr/local/bin/AWS.Logger.Core.xml
-  AWSSDK.CloudWatchLogs.dll: /usr/local/bin/AWSSDK.CloudWatchLogs.dll
   AWSSDK.CloudWatchLogs.pdb: /usr/local/bin/AWSSDK.CloudWatchLogs.pdb
   AWSSDK.CloudWatchLogs.xml: /usr/local/bin/AWSSDK.CloudWatchLogs.xml
-  AWSSDK.Core.dll: /usr/local/bin/AWSSDK.Core.dll
   AWSSDK.Core.pdb: /usr/local/bin/AWSSDK.Core.pdb
   AWSSDK.Core.xml: /usr/local/bin/AWSSDK.Core.xml
-  AWSSDK.S3.dll: /usr/local/bin/AWSSDK.S3.dll
   AWSSDK.S3.pdb: /usr/local/bin/AWSSDK.S3.pdb
   AWSSDK.S3.xml: /usr/local/bin/AWSSDK.S3.xml
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch
@@ -83,7 +78,6 @@ aliases:
   IDSplitter: /usr/local/bin/IDSplitter
   InclusionExclusionListCreator: /usr/local/bin/InclusionExclusionListCreator
   InternalCalibration: /usr/local/bin/InternalCalibration
-  IronSnappy.dll: /usr/local/bin/IronSnappy.dll
   IsobaricAnalyzer: /usr/local/bin/IsobaricAnalyzer
   LabeledEval: /usr/local/bin/LabeledEval
   LuciphorAdapter: /usr/local/bin/LuciphorAdapter
@@ -106,21 +100,16 @@ aliases:
   MascotAdapterOnline: /usr/local/bin/MascotAdapterOnline
   MassCalculator: /usr/local/bin/MassCalculator
   MassTraceExtractor: /usr/local/bin/MassTraceExtractor
-  MathNet.Numerics.dll: /usr/local/bin/MathNet.Numerics.dll
   MathNet.Numerics.xml: /usr/local/bin/MathNet.Numerics.xml
   MetaProSIP: /usr/local/bin/MetaProSIP
   MetaboliteAdductDecharger: /usr/local/bin/MetaboliteAdductDecharger
   MetaboliteSpectralMatcher: /usr/local/bin/MetaboliteSpectralMatcher
-  Mono.Options.dll: /usr/local/bin/Mono.Options.dll
   MultiplexResolver: /usr/local/bin/MultiplexResolver
   MyriMatchAdapter: /usr/local/bin/MyriMatchAdapter
   MzMLSplitter: /usr/local/bin/MzMLSplitter
   MzTabExporter: /usr/local/bin/MzTabExporter
-  NJsonSchema.dll: /usr/local/bin/NJsonSchema.dll
   NJsonSchema.xml: /usr/local/bin/NJsonSchema.xml
-  Namotion.Reflection.dll: /usr/local/bin/Namotion.Reflection.dll
   Namotion.Reflection.xml: /usr/local/bin/Namotion.Reflection.xml
-  Newtonsoft.Json.dll: /usr/local/bin/Newtonsoft.Json.dll
   Newtonsoft.Json.xml: /usr/local/bin/Newtonsoft.Json.xml
   NoiseFilterGaussian: /usr/local/bin/NoiseFilterGaussian
   NoiseFilterSGolay: /usr/local/bin/NoiseFilterSGolay
@@ -129,8 +118,6 @@ aliases:
   OMSSAAdapter: /usr/local/bin/OMSSAAdapter
   OpenMSDatabasesInfo: /usr/local/bin/OpenMSDatabasesInfo
   OpenMSInfo: /usr/local/bin/OpenMSInfo
-  OpenMcdf.Extensions.dll: /usr/local/bin/OpenMcdf.Extensions.dll
-  OpenMcdf.dll: /usr/local/bin/OpenMcdf.dll
   OpenMcdf.xml: /usr/local/bin/OpenMcdf.xml
   OpenPepXL: /usr/local/bin/OpenPepXL
   OpenPepXLLF: /usr/local/bin/OpenPepXLLF
@@ -149,7 +136,6 @@ aliases:
   PSMFeatureExtractor: /usr/local/bin/PSMFeatureExtractor
   PTModel: /usr/local/bin/PTModel
   PTPredict: /usr/local/bin/PTPredict
-  Parquet.dll: /usr/local/bin/Parquet.dll
   Parquet.xml: /usr/local/bin/Parquet.xml
   PeakPickerHiRes: /usr/local/bin/PeakPickerHiRes
   PeakPickerIterative: /usr/local/bin/PeakPickerIterative
@@ -199,36 +185,24 @@ aliases:
   SpectraSTSearchAdapter: /usr/local/bin/SpectraSTSearchAdapter
   StaticModification: /usr/local/bin/StaticModification
   SvmTheoreticalSpectrumGeneratorTrainer: /usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer
-  System.Buffers.dll: /usr/local/bin/System.Buffers.dll
   System.Buffers.xml: /usr/local/bin/System.Buffers.xml
-  System.IO.FileSystem.AccessControl.dll: /usr/local/bin/System.IO.FileSystem.AccessControl.dll
   System.IO.FileSystem.AccessControl.xml: /usr/local/bin/System.IO.FileSystem.AccessControl.xml
-  System.Memory.dll: /usr/local/bin/System.Memory.dll
   System.Memory.xml: /usr/local/bin/System.Memory.xml
-  System.Numerics.Vectors.dll: /usr/local/bin/System.Numerics.Vectors.dll
   System.Numerics.Vectors.xml: /usr/local/bin/System.Numerics.Vectors.xml
-  System.Runtime.CompilerServices.Unsafe.dll: /usr/local/bin/System.Runtime.CompilerServices.Unsafe.dll
   System.Runtime.CompilerServices.Unsafe.xml: /usr/local/bin/System.Runtime.CompilerServices.Unsafe.xml
-  System.Security.AccessControl.dll: /usr/local/bin/System.Security.AccessControl.dll
   System.Security.AccessControl.xml: /usr/local/bin/System.Security.AccessControl.xml
-  System.Security.Principal.Windows.dll: /usr/local/bin/System.Security.Principal.Windows.dll
   System.Security.Principal.Windows.xml: /usr/local/bin/System.Security.Principal.Windows.xml
-  System.Text.Encoding.CodePages.dll: /usr/local/bin/System.Text.Encoding.CodePages.dll
   System.Text.Encoding.CodePages.xml: /usr/local/bin/System.Text.Encoding.CodePages.xml
-  System.ValueTuple.dll: /usr/local/bin/System.ValueTuple.dll
   System.ValueTuple.xml: /usr/local/bin/System.ValueTuple.xml
   THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
   TICCalculator: /usr/local/bin/TICCalculator
   TOFCalibration: /usr/local/bin/TOFCalibration
   TargetedFileConverter: /usr/local/bin/TargetedFileConverter
   TextExporter: /usr/local/bin/TextExporter
-  ThermoFisher.CommonCore.Data.dll: /usr/local/bin/ThermoFisher.CommonCore.Data.dll
   ThermoFisher.CommonCore.Data.xml: /usr/local/bin/ThermoFisher.CommonCore.Data.xml
-  ThermoFisher.CommonCore.RawFileReader.dll: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.dll
   ThermoFisher.CommonCore.RawFileReader.xml: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.xml
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
-  ThermoRawFileParser.exe.config: /usr/local/bin/ThermoRawFileParser.exe.config
   ThermoRawFileParser.pdb: /usr/local/bin/ThermoRawFileParser.pdb
   ThermoRawFileParser.sh: /usr/local/bin/ThermoRawFileParser.sh
   TransformationEvaluation: /usr/local/bin/TransformationEvaluation
@@ -243,19 +217,14 @@ aliases:
   crux: /usr/local/bin/crux
   csc-dim: /usr/local/bin/csc-dim
   directag: /usr/local/bin/directag
-  gene2protein.db3: /usr/local/bin/gene2protein.db3
   idpAssemble: /usr/local/bin/idpAssemble
   idpQonvert: /usr/local/bin/idpQonvert
   idpQuery: /usr/local/bin/idpQuery
-  libIdpSqlExtensions.so: /usr/local/bin/libIdpSqlExtensions.so
-  log4net.config: /usr/local/bin/log4net.config
-  log4net.dll: /usr/local/bin/log4net.dll
   log4net.xml: /usr/local/bin/log4net.xml
   luciphor2: /usr/local/bin/luciphor2
   msgf2pin: /usr/local/bin/msgf2pin
   msgf_plus: /usr/local/bin/msgf_plus
   myrimatch: /usr/local/bin/myrimatch
-  nunit.framework.dll: /usr/local/bin/nunit.framework.dll
   nunit.framework.xml: /usr/local/bin/nunit.framework.xml
   pepitome: /usr/local/bin/pepitome
   pepnovo: /usr/local/bin/pepnovo
@@ -270,4 +239,13 @@ aliases:
   thermorawfileparser: /usr/local/bin/thermorawfileparser
   unimod.xml: /usr/local/bin/unimod.xml
   xtandem: /usr/local/bin/xtandem
-  zlib.net.dll: /usr/local/bin/zlib.net.dll
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  LICENSE: /usr/local/bin/LICENSE
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect

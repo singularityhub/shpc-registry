@@ -11,3 +11,13 @@ aliases:
   edlib-aligner: /usr/local/bin/edlib-aligner
   slaMEM: /usr/local/bin/slaMEM
   uLTRA: /usr/local/bin/uLTRA
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  get_objgraph: /usr/local/bin/get_objgraph
+  gffutils-cli: /usr/local/bin/gffutils-cli

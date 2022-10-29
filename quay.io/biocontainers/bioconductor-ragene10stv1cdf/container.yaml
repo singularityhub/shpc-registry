@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:bcb15324e5f1fb0d52f38409577a9a60a20f58bbcf97db58f896c0c42fd8a17e
 docker: quay.io/biocontainers/bioconductor-ragene10stv1cdf
 aliases:
-  .bioconductor-ragene10stv1cdf-post-link.sh: /usr/local/bin/.bioconductor-ragene10stv1cdf-post-link.sh
-  .bioconductor-ragene10stv1cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ragene10stv1cdf-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

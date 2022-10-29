@@ -6,3 +6,14 @@ latest:
 tags:
   1.0--r351h6115d3f_1: sha256:30f772d881fef9251a60e1674ea462e130430228652891c6ead397a35d0d094f
 docker: quay.io/biocontainers/r-gpca
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

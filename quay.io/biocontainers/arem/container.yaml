@@ -12,3 +12,11 @@ aliases:
   elandmulti2bed: /usr/local/bin/elandmulti2bed
   elandresult2bed: /usr/local/bin/elandresult2bed
   wignorm: /usr/local/bin/wignorm
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  sam2bed: /usr/local/bin/sam2bed
+  smtpd.py: /usr/local/bin/smtpd.py

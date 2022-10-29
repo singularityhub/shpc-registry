@@ -15,3 +15,13 @@ aliases:
   run_metasv_bed2vcf.py: /usr/local/bin/run_metasv_bed2vcf.py
   run_metasv_sc_analysis.py: /usr/local/bin/run_metasv_sc_analysis.py
   svtool_to_vcf.py: /usr/local/bin/svtool_to_vcf.py
+  ace2sam: /usr/local/bin/ace2sam
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

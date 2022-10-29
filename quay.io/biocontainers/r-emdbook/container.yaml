@@ -6,3 +6,11 @@ latest:
 tags:
   1.3.9--r3.3.1_0: sha256:d5c86fc734093393a9f9654c23c10397c80f88bd7403f8226f36e5b178e00f1f
 docker: quay.io/biocontainers/r-emdbook
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

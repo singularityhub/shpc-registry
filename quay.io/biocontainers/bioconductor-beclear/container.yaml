@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41h399db7b_0: sha256:1f935f7433b9cda2a8620fe7252a010a71a995cefb30e79bed1417e1e1bae19e
 docker: quay.io/biocontainers/bioconductor-beclear
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

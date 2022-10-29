@@ -16,3 +16,13 @@ aliases:
   peakCenters: /usr/local/bin/peakCenters
   run_hiddenDomains.R: /usr/local/bin/run_hiddenDomains.R
   run_hiddenDomains_no_control.R: /usr/local/bin/run_hiddenDomains_no_control.R
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip

@@ -23,3 +23,11 @@ aliases:
   kaiju2table: /usr/local/bin/kaiju2table
   kaijup: /usr/local/bin/kaijup
   kaijux: /usr/local/bin/kaijux
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  idn2: /usr/local/bin/idn2
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  wget: /usr/local/bin/wget

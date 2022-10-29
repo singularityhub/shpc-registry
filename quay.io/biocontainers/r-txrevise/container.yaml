@@ -6,3 +6,14 @@ latest:
 tags:
   2.0--r41hdfd78af_0: sha256:7ff14a471665ae32a7663ef189d178793e2e5fb50874e7a62ae12046811303a0
 docker: quay.io/biocontainers/r-txrevise
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

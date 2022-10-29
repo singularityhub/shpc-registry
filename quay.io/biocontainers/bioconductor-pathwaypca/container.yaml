@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734
 docker: quay.io/biocontainers/bioconductor-pathwaypca
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

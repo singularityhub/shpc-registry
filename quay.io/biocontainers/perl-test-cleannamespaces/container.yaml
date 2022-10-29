@@ -6,3 +6,7 @@ latest:
 tags:
   0.24--pl5321hdfd78af_1: sha256:37808eeb6cdc0144de6b34dcb1f0a73f7d55837541aa20686b19ac0c330caa15
 docker: quay.io/biocontainers/perl-test-cleannamespaces
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.32.1: /usr/local/bin/perl5.32.1

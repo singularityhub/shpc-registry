@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-moosex-types
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-moosex-types
+latest:
+  0.50--pl5321hdfd78af_2: sha256:7da57031b0eb83f86efbbfbed65670a1514ee960ae6e4552fdd7c11b77e084d8
+tags:
+  0.50--pl5321hdfd78af_2: sha256:7da57031b0eb83f86efbbfbed65670a1514ee960ae6e4552fdd7c11b77e084d8
+docker: quay.io/biocontainers/perl-moosex-types

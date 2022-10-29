@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:4ef64ea903135ade30c030075b455eaa66fc765f499c4110b6c56af5b60684ad
 docker: quay.io/biocontainers/bioconductor-probatch
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

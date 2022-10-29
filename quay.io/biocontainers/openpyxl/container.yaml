@@ -6,3 +6,14 @@ latest:
 tags:
   2.4.0--py35_0: sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a
 docker: quay.io/biocontainers/openpyxl
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

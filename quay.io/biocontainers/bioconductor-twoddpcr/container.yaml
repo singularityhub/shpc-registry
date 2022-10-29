@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8
 docker: quay.io/biocontainers/bioconductor-twoddpcr
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

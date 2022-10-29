@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c
 docker: quay.io/biocontainers/bioconductor-alevinqc
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

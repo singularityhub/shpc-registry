@@ -6,3 +6,7 @@ latest:
 tags:
   2.4.0--r341_0: sha256:e89f9c64647baa26403640570ae48cd3e54ae503c336a792685325e567339534
 docker: quay.io/biocontainers/riborex
+aliases:
+  idn2: /usr/local/bin/idn2
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  wget: /usr/local/bin/wget

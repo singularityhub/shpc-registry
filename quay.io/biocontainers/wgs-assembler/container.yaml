@@ -220,3 +220,13 @@ aliases:
   utgcns: /usr/local/bin/utgcns
   utgcnsfix: /usr/local/bin/utgcnsfix
   vennPolishes: /usr/local/bin/vennPolishes
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  c2ph: /usr/local/bin/c2ph
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++

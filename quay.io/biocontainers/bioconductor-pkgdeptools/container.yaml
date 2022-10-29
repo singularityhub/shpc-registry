@@ -6,3 +6,14 @@ latest:
 tags:
   1.60.0--r41hdfd78af_0: sha256:4c130b5681ade014f54b17ddea950c239b6c883604fbf061ed3f5e2a46a4075f
 docker: quay.io/biocontainers/bioconductor-pkgdeptools
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

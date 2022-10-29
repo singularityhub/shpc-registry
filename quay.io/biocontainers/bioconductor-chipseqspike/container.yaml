@@ -6,3 +6,5 @@ latest:
 tags:
   1.9.0--r40hdfd78af_1: sha256:87873ac96c4c9b65ff58a566d63bd182e37fa4bb521e379d7b543213668f63c5
 docker: quay.io/biocontainers/bioconductor-chipseqspike
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

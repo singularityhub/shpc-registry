@@ -6,3 +6,11 @@ latest:
 tags:
   1.8.0--r40_0: sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c
 docker: quay.io/biocontainers/bioconductor-omicplotr
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

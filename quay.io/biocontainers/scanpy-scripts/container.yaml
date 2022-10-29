@@ -25,3 +25,13 @@ aliases:
   scanpy-run-umap: /usr/local/bin/scanpy-run-umap
   scanpy-scale-data: /usr/local/bin/scanpy-scale-data
   scanpy-scripts-tests.bats: /usr/local/bin/scanpy-scripts-tests.bats
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aec: /usr/local/bin/aec
+  brotli: /usr/local/bin/brotli
+  cbrunsli: /usr/local/bin/cbrunsli
+  chardetect: /usr/local/bin/chardetect
+  cmpfillin: /usr/local/bin/cmpfillin
+  dbrunsli: /usr/local/bin/dbrunsli
+  dunamai: /usr/local/bin/dunamai

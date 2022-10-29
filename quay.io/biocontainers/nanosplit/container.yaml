@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/nanosplit
 aliases:
   NanoSplit: /usr/local/bin/NanoSplit
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  easy_install-3.6: /usr/local/bin/easy_install-3.6

@@ -6,3 +6,14 @@ latest:
 tags:
   0.11--pl5321h1f4ba0c_3: sha256:4be3ecad1b8612df912e3c28bf4a9baa632b859f73cd8f2993f4aaad7cef224b
 docker: quay.io/biocontainers/perl-crypt-openssl-random
+aliases:
+  c_rehash: /usr/local/bin/c_rehash
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg

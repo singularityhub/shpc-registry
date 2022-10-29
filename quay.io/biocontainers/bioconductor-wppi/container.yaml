@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:77dd5c3c251ed6890643aa7351c69a856b1d1645556b0394b4c0df2b3fb3733d
 docker: quay.io/biocontainers/bioconductor-wppi
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -10,3 +10,8 @@ aliases:
   dbkit_create.py: /usr/local/bin/dbkit_create.py
   dbkit_extract.py: /usr/local/bin/dbkit_extract.py
   dbkit_merge.py: /usr/local/bin/dbkit_merge.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

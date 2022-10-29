@@ -6,3 +6,8 @@ latest:
 tags:
   1.8.2--r3.3.2_1: sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a
 docker: quay.io/biocontainers/bioconductor-degreport
+aliases:
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,7 @@ latest:
 tags:
   1.0--r41hdfd78af_2: sha256:b62baa2490dbdb8487f90c2e730aaea8252f76ad183e8e3379381a3c1b6d720c
 docker: quay.io/biocontainers/r-dwls
+aliases:
+  geos-config: /usr/local/bin/geos-config
+  geosop: /usr/local/bin/geosop
+  glpsol: /usr/local/bin/glpsol

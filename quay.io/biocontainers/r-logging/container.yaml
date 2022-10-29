@@ -6,3 +6,12 @@ latest:
 tags:
   0.7_103--r3.3.1_0: sha256:0bfbfb389eea3d66d7a9733471b44d7d1e706f4eeb7fc905951fc4d0403ff740
 docker: quay.io/biocontainers/r-logging
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

@@ -12,3 +12,13 @@ aliases:
   moods-dna.py: /usr/local/bin/moods-dna.py
   svist4get: /usr/local/bin/svist4get
   svist4get_copier: /usr/local/bin/svist4get_copier
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  assistant: /usr/local/bin/assistant
+  bamToBed: /usr/local/bin/bamToBed

@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.1--r41hc247a5b_0: sha256:d771d815703ac3b404466d9b0c6056736db71a36e68ad3b51cd597756745e388
 docker: quay.io/biocontainers/bioconductor-saigegds
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

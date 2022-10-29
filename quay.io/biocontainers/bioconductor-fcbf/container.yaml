@@ -6,3 +6,14 @@ latest:
 tags:
   2.2.0--r41hdfd78af_0: sha256:c78f3b7c2a48549932d326ff284a9b427d6ae0112e5e564338df083dd1bd9b4b
 docker: quay.io/biocontainers/bioconductor-fcbf
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

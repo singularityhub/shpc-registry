@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:1f8d6a297c6273424676bc4c52972d74620763c18e0a496ef900c50f4076d0af
 docker: quay.io/biocontainers/bioconductor-modstrings
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:0b163476a3c66ecd48d81d9440bc0eb902a6cc162077688a8b0f9ba5371c85e4
 docker: quay.io/biocontainers/bioconductor-hyper
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

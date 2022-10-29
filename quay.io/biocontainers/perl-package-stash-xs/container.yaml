@@ -6,3 +6,5 @@ latest:
 tags:
   0.29--pl5321h87f3376_1: sha256:e1938bb9a53463d69213ecdba243498c2c94b9434ab17b611d522698b9607faf
 docker: quay.io/biocontainers/perl-package-stash-xs
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

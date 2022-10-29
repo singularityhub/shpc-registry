@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/cblaster
 aliases:
   cblaster: /usr/local/bin/cblaster
   clinker: /usr/local/bin/clinker
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  chardetect: /usr/local/bin/chardetect
+  diamond: /usr/local/bin/diamond
+  f2py3.9: /usr/local/bin/f2py3.9
+  faidx: /usr/local/bin/faidx
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  idle3.9: /usr/local/bin/idle3.9
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.9: /usr/local/bin/pydoc3.9

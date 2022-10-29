@@ -18,3 +18,13 @@ aliases:
   rename_vcf_chrom.py: /usr/local/bin/rename_vcf_chrom.py
   sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
   update_version.sh: /usr/local/bin/update_version.sh
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  abba-baba: /usr/local/bin/abba-baba
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  bFst: /usr/local/bin/bFst
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamleftalign: /usr/local/bin/bamleftalign
+  bc: /usr/local/bin/bc

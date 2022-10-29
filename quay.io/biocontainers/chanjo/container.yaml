@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/chanjo
 aliases:
   chanjo: /usr/local/bin/chanjo
   varfilter.py: /usr/local/bin/varfilter.py
+  ace2sam: /usr/local/bin/ace2sam
+  bcftools: /usr/local/bin/bcftools
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  idle: /usr/local/bin/idle
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long

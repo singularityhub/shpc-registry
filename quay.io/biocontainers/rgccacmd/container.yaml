@@ -6,3 +6,6 @@ latest:
 tags:
   3.0.2--r41h9ee0642_0: sha256:6e0d898b03646248d98bb981a8af5ce9c95107e4985f494e722960bf1306fb38
 docker: quay.io/biocontainers/rgccacmd
+aliases:
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

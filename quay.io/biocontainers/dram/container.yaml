@@ -7,7 +7,16 @@ tags:
   1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
 docker: quay.io/biocontainers/dram
 aliases:
-  .dram-post-link.sh: /usr/local/bin/.dram-post-link.sh
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py
   DRAM-v.py: /usr/local/bin/DRAM-v.py
   DRAM.py: /usr/local/bin/DRAM.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  alimask: /usr/local/bin/alimask
+  annotateBed: /usr/local/bin/annotateBed
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  barrnap: /usr/local/bin/barrnap
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

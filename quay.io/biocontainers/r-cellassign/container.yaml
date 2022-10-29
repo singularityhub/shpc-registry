@@ -6,3 +6,14 @@ latest:
 tags:
   0.99.2--r41hdfd78af_4: sha256:c24eb236dbb89e44d621731bf7f1d375c69304e9e236424dadd2c689cd671507
 docker: quay.io/biocontainers/r-cellassign
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

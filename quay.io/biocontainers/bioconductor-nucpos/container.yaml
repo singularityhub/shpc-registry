@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hacda110_1: sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562
 docker: quay.io/biocontainers/bioconductor-nucpos
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

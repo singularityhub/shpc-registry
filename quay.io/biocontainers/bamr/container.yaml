@@ -6,3 +6,9 @@ latest:
 tags:
   0.2.0--pyhdfd78af_0: sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135
 docker: quay.io/biocontainers/bamr
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

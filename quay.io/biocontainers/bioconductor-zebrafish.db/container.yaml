@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-zebrafish.db
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-zebrafish.db
+latest:
+  3.2.3--r41hdfd78af_7: sha256:cadba9262003d2391cd4085ad6c2c2a4adbb2762f0d2b64f9e1d952eb8d80aae
+tags:
+  3.2.3--r41hdfd78af_7: sha256:cadba9262003d2391cd4085ad6c2c2a4adbb2762f0d2b64f9e1d952eb8d80aae
+docker: quay.io/biocontainers/bioconductor-zebrafish.db

@@ -7,5 +7,4 @@ tags:
   1.16.0--r36_0: sha256:1cd46f4dd9a124eeafc6971494c801faf0415e0f41e0c9c8d0ed04f683d30f49
 docker: quay.io/biocontainers/bioconductor-svm2crm
 aliases:
-  .bioconductor-svm2crmdata-post-link.sh: /usr/local/bin/.bioconductor-svm2crmdata-post-link.sh
-  .bioconductor-svm2crmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-svm2crmdata-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

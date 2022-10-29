@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-sub-exporter
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-sub-exporter
+latest:
+  0.988--pl5321hdfd78af_0: sha256:0ed7a2052fe9b26e657c944b232a0d4b378103519a61a08bb418dee4d87f2588
+tags:
+  0.988--pl5321hdfd78af_0: sha256:0ed7a2052fe9b26e657c944b232a0d4b378103519a61a08bb418dee4d87f2588
+docker: quay.io/biocontainers/perl-sub-exporter

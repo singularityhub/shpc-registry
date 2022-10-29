@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/moca
 aliases:
   moca: /usr/local/bin/moca
+  ace2sam: /usr/local/bin/ace2sam
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  assistant: /usr/local/bin/assistant
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

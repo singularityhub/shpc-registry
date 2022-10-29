@@ -10,3 +10,5 @@ aliases:
   gene_order.pl: /usr/local/bin/gene_order.pl
   panoct.pl: /usr/local/bin/panoct.pl
   paralog_matchtable.pl: /usr/local/bin/paralog_matchtable.pl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

@@ -6,3 +6,14 @@ latest:
 tags:
   2.34.0--r41h399db7b_0: sha256:7dada9322d53afa1da7b9a4613e51d100829a884c9cff9c44024a821da589d03
 docker: quay.io/biocontainers/bioconductor-networkbma
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

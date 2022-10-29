@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:87a50b37b3d0b280852615403626c89d22171fd18ab8d11a02798e8b7355f4cf
 docker: quay.io/biocontainers/bioconductor-trare
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

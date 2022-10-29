@@ -6,3 +6,5 @@ latest:
 tags:
   2.002--pl5321hdfd78af_4: sha256:14dbd3baef3a4292447addff5e355b68344a9d6ed8eca455545aab1473a0cade
 docker: quay.io/biocontainers/perl-test-prereq
+aliases:
+  config_data: /usr/local/bin/config_data

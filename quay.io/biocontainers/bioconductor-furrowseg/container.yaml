@@ -7,5 +7,7 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744
 docker: quay.io/biocontainers/bioconductor-furrowseg
 aliases:
-  .bioconductor-furrowseg-post-link.sh: /usr/local/bin/.bioconductor-furrowseg-post-link.sh
-  .bioconductor-furrowseg-pre-unlink.sh: /usr/local/bin/.bioconductor-furrowseg-pre-unlink.sh
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

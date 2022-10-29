@@ -6,3 +6,14 @@ latest:
 tags:
   2.0.9--pl5321hec16e2b_3: sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db
 docker: quay.io/biocontainers/trnascan-se
+aliases:
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch

@@ -6,3 +6,5 @@ latest:
 tags:
   0.26--pl5321h9f5acd7_1: sha256:09e067d671a2ab6f7e3fbb95da5ead58e43aaa71fb28342d0c0a35f594924e59
 docker: quay.io/biocontainers/perl-b-hooks-endofscope
+aliases:
+  cpanm: /usr/local/bin/cpanm

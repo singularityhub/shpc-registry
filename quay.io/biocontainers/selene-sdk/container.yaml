@@ -7,5 +7,14 @@ tags:
   0.5.0--py37h77a2a36_1: sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e
 docker: quay.io/biocontainers/selene-sdk
 aliases:
-  .scikit-learn-post-link.sh: /usr/local/bin/.scikit-learn-post-link.sh
   selene_sdk: /usr/local/bin/selene_sdk
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  f2py3.7: /usr/local/bin/f2py3.7
+  faidx: /usr/local/bin/faidx
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

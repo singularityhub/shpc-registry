@@ -6,3 +6,14 @@ latest:
 tags:
   1.6.0--r41hdfd78af_0: sha256:93af389ab17b1731e280dbbc3fb62c8b9ffc715794f3e1814f75a94a349e0902
 docker: quay.io/biocontainers/bioconductor-simffpe
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

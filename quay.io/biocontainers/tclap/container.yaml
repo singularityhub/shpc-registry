@@ -6,3 +6,7 @@ latest:
 tags:
   1.2.1--h470a237_1: sha256:a70df844302ac4c91f90cedd6bd0f3115a021705dbebf744b888b4144f837dea
 docker: quay.io/biocontainers/tclap
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate

@@ -42,3 +42,13 @@ aliases:
   get_loci_from_gb.pl: /usr/local/bin/get_loci_from_gb.pl
   ipcress: /usr/local/bin/ipcress
   pp_simScore: /usr/local/bin/pp_simScore
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic

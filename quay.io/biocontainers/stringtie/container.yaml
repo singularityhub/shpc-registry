@@ -9,3 +9,12 @@ docker: quay.io/biocontainers/stringtie
 aliases:
   prepDE.py: /usr/local/bin/prepDE.py
   stringtie: /usr/local/bin/stringtie
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  tabix: /usr/local/bin/tabix

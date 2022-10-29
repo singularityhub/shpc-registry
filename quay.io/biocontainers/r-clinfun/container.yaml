@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.15--r40h9bbef5b_0: sha256:e8b1ab5deafef17cfb36c430127d5ce38dad58eb87c6731bcd65626720c5830e
 docker: quay.io/biocontainers/r-clinfun
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep

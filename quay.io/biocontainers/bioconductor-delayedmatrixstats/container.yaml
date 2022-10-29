@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:ff42ee2c7667ca75e6214dd6215fff5f0e8649bc929b4ca5eb689f4639f47e3c
 docker: quay.io/biocontainers/bioconductor-delayedmatrixstats
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:2fbeb2e4b144eaf77215f4e0e31ffa51192e4e25f1073fcbb47581d8b7923103
 docker: quay.io/biocontainers/bioconductor-hicbricks
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

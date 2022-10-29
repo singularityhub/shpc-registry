@@ -6,3 +6,14 @@ latest:
 tags:
   0.14--pl5321h9f5acd7_6: sha256:5d36ff257daa8b04549198796fe54128f31fac15a779cdeedd2fd15ad1297a82
 docker: quay.io/biocontainers/perl-eval-closure
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

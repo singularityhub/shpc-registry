@@ -6,3 +6,10 @@ latest:
 tags:
   1.2.2--pyh5e36f6f_1: sha256:b24093d26554ecd5c8e0ec415202a6ce7a2842056dc02257f19ba3c39ed56a7a
 docker: quay.io/biocontainers/numkit
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

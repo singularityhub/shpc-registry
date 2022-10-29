@@ -6,3 +6,14 @@ latest:
 tags:
   1.1.0--r41hdfd78af_3: sha256:01586ea9b6d00f221e375e06b7e69cee655abf11ba9e0b377894a46c4ac8d265
 docker: quay.io/biocontainers/r-mcpcounter
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

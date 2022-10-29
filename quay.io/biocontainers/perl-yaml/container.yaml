@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-yaml
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-yaml
+latest:
+  1.30--pl5321hdfd78af_0: sha256:41a30a1933bd6c3e6c6c25a13af2588d854886e6c5c6cb49a5fdcc01c828f05d
+tags:
+  1.30--pl5321hdfd78af_0: sha256:41a30a1933bd6c3e6c6c25a13af2588d854886e6c5c6cb49a5fdcc01c828f05d
+docker: quay.io/biocontainers/perl-yaml

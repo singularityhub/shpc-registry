@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-graph
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-graph
+latest:
+  0.9725--pl5321hdfd78af_0: sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e
+tags:
+  0.9725--pl5321hdfd78af_0: sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e
+docker: quay.io/biocontainers/perl-graph

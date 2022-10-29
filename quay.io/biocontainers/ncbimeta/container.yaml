@@ -11,3 +11,11 @@ aliases:
   NCBImetaAnnotate: /usr/local/bin/NCBImetaAnnotate
   NCBImetaExport: /usr/local/bin/NCBImetaExport
   NCBImetaJoin: /usr/local/bin/NCBImetaJoin
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

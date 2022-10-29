@@ -12,3 +12,13 @@ aliases:
   post_proc.sh: /usr/local/bin/post_proc.sh
   prepare_gene_ref.sh: /usr/local/bin/prepare_gene_ref.sh
   xander_customized_hmmer_version_for_prepare_gene.sh: /usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh
+  alimask: /usr/local/bin/alimask
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  hmmalign: /usr/local/bin/hmmalign
+  hmmbuild: /usr/local/bin/hmmbuild
+  hmmc2: /usr/local/bin/hmmc2
+  hmmconvert: /usr/local/bin/hmmconvert
+  hmmemit: /usr/local/bin/hmmemit
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
+  hmmfetch: /usr/local/bin/hmmfetch
+  hmmlogo: /usr/local/bin/hmmlogo

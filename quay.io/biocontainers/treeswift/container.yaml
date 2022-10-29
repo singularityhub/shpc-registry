@@ -6,3 +6,14 @@ latest:
 tags:
   1.1.6--py_0: sha256:780afa49e29b27a166ba6394919657d53beaf478e73204e3069bbe26caec3204
 docker: quay.io/biocontainers/treeswift
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.8: /usr/local/bin/idle3.8
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

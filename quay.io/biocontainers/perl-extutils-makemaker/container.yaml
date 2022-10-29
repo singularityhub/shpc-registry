@@ -6,3 +6,6 @@ latest:
 tags:
   7.36--pl526_1: sha256:ae43774d344d3a58dd1b4b2e66b66a87db95ebb0e330e0a00b1d92e5c6a57059
 docker: quay.io/biocontainers/perl-extutils-makemaker
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

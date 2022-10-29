@@ -6,3 +6,10 @@ latest:
 tags:
   1.24.0--r40_0: sha256:831a26b4eb76d602ec467d53724e920229b409d26328a0e01cedaaeaa3bf6e19
 docker: quay.io/biocontainers/bioconductor-refnet
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

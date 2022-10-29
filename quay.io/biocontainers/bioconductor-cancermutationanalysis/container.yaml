@@ -6,3 +6,5 @@ latest:
 tags:
   1.32.0--r40hd029910_1: sha256:10db27ea7aca75ecf85aaf408ec2678600de4f9255e52b7d1512609ef4356d85
 docker: quay.io/biocontainers/bioconductor-cancermutationanalysis
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

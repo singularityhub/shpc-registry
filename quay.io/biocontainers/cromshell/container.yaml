@@ -11,3 +11,13 @@ aliases:
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
   womtool: /usr/local/bin/womtool
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  appletviewer: /usr/local/bin/appletviewer
+  clhsdb: /usr/local/bin/clhsdb
+  extcheck: /usr/local/bin/extcheck
+  hsdb: /usr/local/bin/hsdb
+  idle3.9: /usr/local/bin/idle3.9
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java

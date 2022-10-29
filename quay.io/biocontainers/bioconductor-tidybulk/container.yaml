@@ -6,3 +6,14 @@ latest:
 tags:
   1.6.1--r41hdfd78af_0: sha256:309f25d783e45393b84893712581efa4614a71679e7c4eecc239909bdef6ad9b
 docker: quay.io/biocontainers/bioconductor-tidybulk
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

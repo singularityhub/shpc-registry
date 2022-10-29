@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:23de792adb33e1511e209cdd321be43227d5bee5209f336220e80a0799efdc9c
 docker: quay.io/biocontainers/bioconductor-ssrch
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

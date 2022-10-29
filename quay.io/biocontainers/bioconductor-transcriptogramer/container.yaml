@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:ba905127cac0b5541c884e7d966142c2024a15a987275e9cf408f8e73a2d4d28
 docker: quay.io/biocontainers/bioconductor-transcriptogramer
+aliases:
+  aserver: /usr/local/bin/aserver
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  gifecho: /usr/local/bin/gifecho
+  giffilter: /usr/local/bin/giffilter
+  giffix: /usr/local/bin/giffix
+  gifinto: /usr/local/bin/gifinto

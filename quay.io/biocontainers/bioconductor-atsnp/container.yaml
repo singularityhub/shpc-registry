@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b
 docker: quay.io/biocontainers/bioconductor-atsnp
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

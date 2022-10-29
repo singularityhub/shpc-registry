@@ -7,5 +7,13 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:984480b1161fa562fb6a6d9bc510e2559d1cb6b52e93b3207c9bce9188edc819
 docker: quay.io/biocontainers/bioconductor-pasillabamsubset
 aliases:
-  .bioconductor-pasillabamsubset-post-link.sh: /usr/local/bin/.bioconductor-pasillabamsubset-post-link.sh
-  .bioconductor-pasillabamsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-pasillabamsubset-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

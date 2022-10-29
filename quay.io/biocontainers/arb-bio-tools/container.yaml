@@ -32,3 +32,4 @@ aliases:
   arb_replace: /usr/local/bin/arb_replace
   arb_rnacma: /usr/local/bin/arb_rnacma
   arb_treegen: /usr/local/bin/arb_treegen
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

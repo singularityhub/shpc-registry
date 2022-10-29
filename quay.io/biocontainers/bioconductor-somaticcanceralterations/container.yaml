@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:962b529f5ebcfb7be6011345f2398e05ba1ea54ba12956b126128aed3388fd8a
 docker: quay.io/biocontainers/bioconductor-somaticcanceralterations
 aliases:
-  .bioconductor-somaticcanceralterations-post-link.sh: /usr/local/bin/.bioconductor-somaticcanceralterations-post-link.sh
-  .bioconductor-somaticcanceralterations-pre-unlink.sh: /usr/local/bin/.bioconductor-somaticcanceralterations-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

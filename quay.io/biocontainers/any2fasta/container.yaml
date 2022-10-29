@@ -6,3 +6,6 @@ latest:
 tags:
   0.4.2--hdfd78af_3: sha256:c12232efc334f451077b6c3f968d0b8e6519ebd8a53dbfb83bd8a109adf24b1c
 docker: quay.io/biocontainers/any2fasta
+aliases:
+  any2fasta: /usr/local/bin/any2fasta
+  perl5.32.0: /usr/local/bin/perl5.32.0

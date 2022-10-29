@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bis-snp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bis-snp
+latest:
+  1.0.1--hdfd78af_3: sha256:b9d9f81f78209bcc25d9ab2dc13712c0acb6e4cd5b777eb64ded1371f3af8157
+tags:
+  1.0.1--hdfd78af_3: sha256:b9d9f81f78209bcc25d9ab2dc13712c0acb6e4cd5b777eb64ded1371f3af8157
+docker: quay.io/biocontainers/bis-snp

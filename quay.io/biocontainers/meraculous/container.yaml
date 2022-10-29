@@ -59,3 +59,13 @@ aliases:
   split_and_validate_reads.pl: /usr/local/bin/split_and_validate_reads.pl
   test_dependencies.pl: /usr/local/bin/test_dependencies.pl
   unique.pl: /usr/local/bin/unique.pl
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotate: /usr/local/bin/annotate
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  bdftogd: /usr/local/bin/bdftogd
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  cwebp: /usr/local/bin/cwebp
+  dbilogstrip: /usr/local/bin/dbilogstrip

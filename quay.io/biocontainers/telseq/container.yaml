@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/telseq
 aliases:
   telseq: /usr/local/bin/telseq
+  bamtools: /usr/local/bin/bamtools

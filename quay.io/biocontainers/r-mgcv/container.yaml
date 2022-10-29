@@ -6,3 +6,14 @@ latest:
 tags:
   '1.8_28': sha256:ded839e25dfac18ec8295dfcb690b7b2f97c6359f1693dea54a653fe8d730c22
 docker: quay.io/biocontainers/r-mgcv
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

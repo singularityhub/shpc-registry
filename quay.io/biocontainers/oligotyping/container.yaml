@@ -21,26 +21,18 @@ aliases:
   gdal2tiles.py: /usr/local/bin/gdal2tiles.py
   gdal2xyz.py: /usr/local/bin/gdal2xyz.py
   gdal_auth.py: /usr/local/bin/gdal_auth.py
-  gdal_calc.dox: /usr/local/bin/gdal_calc.dox
   gdal_calc.py: /usr/local/bin/gdal_calc.py
-  gdal_edit.dox: /usr/local/bin/gdal_edit.dox
   gdal_edit.py: /usr/local/bin/gdal_edit.py
-  gdal_fillnodata.dox: /usr/local/bin/gdal_fillnodata.dox
   gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
   gdal_merge.py: /usr/local/bin/gdal_merge.py
-  gdal_polygonize.dox: /usr/local/bin/gdal_polygonize.dox
   gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
-  gdal_proximity.dox: /usr/local/bin/gdal_proximity.dox
   gdal_proximity.py: /usr/local/bin/gdal_proximity.py
   gdal_retile.py: /usr/local/bin/gdal_retile.py
-  gdal_sieve.dox: /usr/local/bin/gdal_sieve.dox
   gdal_sieve.py: /usr/local/bin/gdal_sieve.py
   gdalchksum.py: /usr/local/bin/gdalchksum.py
-  gdalcompare.dox: /usr/local/bin/gdalcompare.dox
   gdalcompare.py: /usr/local/bin/gdalcompare.py
   gdalident.py: /usr/local/bin/gdalident.py
   gdalimport.py: /usr/local/bin/gdalimport.py
-  gdalmove.dox: /usr/local/bin/gdalmove.dox
   gdalmove.py: /usr/local/bin/gdalmove.py
   gdalserver: /usr/local/bin/gdalserver
   mkgraticule.py: /usr/local/bin/mkgraticule.py
@@ -86,3 +78,13 @@ aliases:
   pg_resetxlog: /usr/local/bin/pg_resetxlog
   pg_xlogdump: /usr/local/bin/pg_xlogdump
   rgb2pct.py: /usr/local/bin/rgb2pct.py
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

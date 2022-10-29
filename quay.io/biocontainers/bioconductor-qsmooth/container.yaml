@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7
 docker: quay.io/biocontainers/bioconductor-qsmooth
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

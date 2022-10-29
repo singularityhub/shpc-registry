@@ -6,3 +6,14 @@ latest:
 tags:
   1.46.0--r41hdfd78af_0: sha256:5a0236f1aede8144fa4697f8d3368976bb78389c4ba6754e69783d5864850fe0
 docker: quay.io/biocontainers/bioconductor-degraph
+aliases:
+  Cytoscape: /usr/local/bin/Cytoscape
+  aserver: /usr/local/bin/aserver
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

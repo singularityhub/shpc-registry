@@ -6,3 +6,5 @@ latest:
 tags:
   1.34.0--r40hdfd78af_1: sha256:8d7df202c2054488c92e771947be347026997a72265e76780b9fe6a7e7eb9905
 docker: quay.io/biocontainers/bioconductor-brainstars
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

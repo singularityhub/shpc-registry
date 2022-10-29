@@ -7,7 +7,6 @@ tags:
   5.0.0--pl5.22.0_0: sha256:cf670ca462d82f7b8716e569c435b908108c78d72d6df33df3413d3f890e10d5
 docker: quay.io/biocontainers/tpp
 aliases:
-  .d: /usr/local/bin/.d
   ASAPRatioPeptideParser: /usr/local/bin/ASAPRatioPeptideParser
   ASAPRatioProteinRatioParser: /usr/local/bin/ASAPRatioProteinRatioParser
   ASAPRatioPvalueParser: /usr/local/bin/ASAPRatioPvalueParser
@@ -73,3 +72,13 @@ aliases:
   translateDNA2AA-FASTA: /usr/local/bin/translateDNA2AA-FASTA
   updatepaths.pl: /usr/local/bin/updatepaths.pl
   xinteract: /usr/local/bin/xinteract
+  c2ph: /usr/local/bin/c2ph
+  cpanm: /usr/local/bin/cpanm
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  perl-reversion: /usr/local/bin/perl-reversion
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

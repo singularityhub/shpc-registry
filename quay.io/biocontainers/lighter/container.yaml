@@ -6,3 +6,5 @@ latest:
 tags:
   1.1.2--hd03093a_4: sha256:79f4681de7ebb56f2fcf8f9152f24f5fb7554099a47c9c158abd5db306b7c57d
 docker: quay.io/biocontainers/lighter
+aliases:
+  lighter: /usr/local/bin/lighter

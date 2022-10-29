@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:b785e7a00fc9992cf568d2e5cc2c0527f24293614cd7173f72f1c0ff3ee0a32f
 docker: quay.io/biocontainers/bioconductor-gwasurvivr
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -20,3 +20,13 @@ aliases:
   pyhocon: /usr/local/bin/pyhocon
   run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
   run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  chardetect: /usr/local/bin/chardetect
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle3.8: /usr/local/bin/idle3.8
+  jp.py: /usr/local/bin/jp.py
+  protoc: /usr/local/bin/protoc
+  py.test: /usr/local/bin/py.test
+  pydoc3.8: /usr/local/bin/pydoc3.8

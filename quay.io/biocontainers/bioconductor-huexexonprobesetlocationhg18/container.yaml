@@ -7,5 +7,13 @@ tags:
   0.0.2--r41hdfd78af_9: sha256:1b001aa29b3d5d3dac6896078a1e07879c7014945938c6d71e96176445d2f1b6
 docker: quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg18
 aliases:
-  .bioconductor-huexexonprobesetlocationhg18-post-link.sh: /usr/local/bin/.bioconductor-huexexonprobesetlocationhg18-post-link.sh
-  .bioconductor-huexexonprobesetlocationhg18-pre-unlink.sh: /usr/local/bin/.bioconductor-huexexonprobesetlocationhg18-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

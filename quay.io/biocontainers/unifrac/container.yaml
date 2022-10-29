@@ -10,3 +10,13 @@ aliases:
   bp: /usr/local/bin/bp
   faithpd: /usr/local/bin/faithpd
   ssu: /usr/local/bin/ssu
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  biom: /usr/local/bin/biom
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  doesitcache: /usr/local/bin/doesitcache
+  dwebp: /usr/local/bin/dwebp
+  f2py3.10: /usr/local/bin/f2py3.10

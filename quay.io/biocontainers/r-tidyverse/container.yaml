@@ -6,3 +6,6 @@ latest:
 tags:
   1.2.1: sha256:f4555efa35cb4b54fbfa59a15bb57ff758ba845577b7dcc107a47d1b6aa8807f
 docker: quay.io/biocontainers/r-tidyverse
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

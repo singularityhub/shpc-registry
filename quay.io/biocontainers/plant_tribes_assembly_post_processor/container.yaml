@@ -44,3 +44,13 @@ aliases:
   start_codon_refinement.pl: /usr/local/bin/start_codon_refinement.pl
   train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  alimask: /usr/local/bin/alimask
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_convert: /usr/local/bin/db_convert
+  db_deadlock: /usr/local/bin/db_deadlock
+  db_dump: /usr/local/bin/db_dump
+  db_hotbackup: /usr/local/bin/db_hotbackup
+  db_load: /usr/local/bin/db_load
+  db_log_verify: /usr/local/bin/db_log_verify

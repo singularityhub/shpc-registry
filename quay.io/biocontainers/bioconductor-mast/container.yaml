@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r351_0: sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c
 docker: quay.io/biocontainers/bioconductor-mast
+aliases:
+  wget: /usr/local/bin/wget

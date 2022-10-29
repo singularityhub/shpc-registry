@@ -6,3 +6,12 @@ latest:
 tags:
   0.2b--r3.4.1_0: sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863
 docker: quay.io/biocontainers/r-mutationalpatterns
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,14 @@ latest:
 tags:
   1.40.0--r41hdfd78af_0: sha256:0f385a0efb7516c3352c6a61bb7f5d502603aebc7474291cc2d6df644e4e2363
 docker: quay.io/biocontainers/bioconductor-brain
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

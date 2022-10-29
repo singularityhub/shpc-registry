@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/scanpy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for scanpy
+latest:
+  1.7.2--pyhdfd78af_0: sha256:9cbc28b321d7c930c930ab871bab9c8c691cdf52c32e0e4995951284e609ad2e
+tags:
+  1.7.2--pyhdfd78af_0: sha256:9cbc28b321d7c930c930ab871bab9c8c691cdf52c32e0e4995951284e609ad2e
+docker: quay.io/biocontainers/scanpy

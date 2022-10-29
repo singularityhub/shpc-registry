@@ -12,3 +12,5 @@ aliases:
   oligotm: /usr/local/bin/oligotm
   pal_finder: /usr/local/bin/pal_finder
   primer3_core: /usr/local/bin/primer3_core
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  streamzip: /usr/local/bin/streamzip

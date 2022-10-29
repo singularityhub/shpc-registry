@@ -6,3 +6,13 @@ latest:
 tags:
   4.9--hec16e2b_7: sha256:8a4612423d8664ba34989e4e085b7cd0ea9f9b730bac67d97bf61745768d5020
 docker: quay.io/biocontainers/paml
+aliases:
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  chi2: /usr/local/bin/chi2
+  codeml: /usr/local/bin/codeml
+  evolver: /usr/local/bin/evolver
+  infinitesites: /usr/local/bin/infinitesites
+  mcmctree: /usr/local/bin/mcmctree
+  pamp: /usr/local/bin/pamp
+  yn00: /usr/local/bin/yn00

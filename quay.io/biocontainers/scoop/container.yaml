@@ -6,3 +6,10 @@ latest:
 tags:
   0.7.1.1--pyh864c0ab_4: sha256:7f486bc160a445b7f7f42472ed88e3db46afaab8c9c916fb0388044e2e8f3879
 docker: quay.io/biocontainers/scoop
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  curve_keygen: /usr/local/bin/curve_keygen
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

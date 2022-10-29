@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/popdel
 aliases:
   popdel: /usr/local/bin/popdel
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

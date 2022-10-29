@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96
 docker: quay.io/biocontainers/bioconductor-memes
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

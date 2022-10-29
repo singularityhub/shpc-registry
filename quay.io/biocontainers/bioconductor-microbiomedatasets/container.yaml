@@ -7,5 +7,13 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:588aab014b525964c9cb5e62e383f415bc351ac5d63230163ebe3e7395e5db35
 docker: quay.io/biocontainers/bioconductor-microbiomedatasets
 aliases:
-  .bioconductor-microbiomedatasets-post-link.sh: /usr/local/bin/.bioconductor-microbiomedatasets-post-link.sh
-  .bioconductor-microbiomedatasets-pre-unlink.sh: /usr/local/bin/.bioconductor-microbiomedatasets-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/genomepy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for genomepy
+latest:
+  0.9.3--py_0: sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae
+tags:
+  0.9.3--py_0: sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae
+docker: quay.io/biocontainers/genomepy

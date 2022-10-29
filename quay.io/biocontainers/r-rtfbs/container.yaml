@@ -6,3 +6,14 @@ latest:
 tags:
   0.3.9--r36hcdcec82_3: sha256:f0298e2aff2b8d34944e5c5582cad819cf72fb1a31c5e8b17a3698ced9a00e1d
 docker: quay.io/biocontainers/r-rtfbs
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

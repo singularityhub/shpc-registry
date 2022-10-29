@@ -33,3 +33,13 @@ aliases:
   tesseract: /usr/local/bin/tesseract
   wftopfa: /usr/local/bin/wftopfa
   xtractprotos: /usr/local/bin/xtractprotos
+  annotate: /usr/local/bin/annotate
+  babel: /usr/local/bin/babel
+  bdftogd: /usr/local/bin/bdftogd
+  cwebp: /usr/local/bin/cwebp
+  dvipdf: /usr/local/bin/dvipdf
+  dwebp: /usr/local/bin/dwebp
+  eps2eps: /usr/local/bin/eps2eps
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng

@@ -7,5 +7,5 @@ tags:
   2.22.0--r41hdfd78af_1: sha256:a168390133760194b739602867e0f2ab4d66daf764d1a3f8784f207e45dea146
 docker: quay.io/biocontainers/bioconductor-curatedbreastdata
 aliases:
-  .bioconductor-curatedbreastdata-post-link.sh: /usr/local/bin/.bioconductor-curatedbreastdata-post-link.sh
-  .bioconductor-curatedbreastdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedbreastdata-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

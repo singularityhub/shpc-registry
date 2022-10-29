@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:64d3616ea70ba1d430d5be835ca3fb83564bc66cfb3c07da21801506f77beba2
 docker: quay.io/biocontainers/bioconductor-celaref
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

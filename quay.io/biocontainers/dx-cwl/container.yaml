@@ -28,3 +28,13 @@ aliases:
   dx-print-bash-vars: /usr/local/bin/dx-print-bash-vars
   dx-upload-all-outputs: /usr/local/bin/dx-upload-all-outputs
   xattr: /usr/local/bin/xattr
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  bagit.py: /usr/local/bin/bagit.py
+  chardetect: /usr/local/bin/chardetect
+  coloredlogs: /usr/local/bin/coloredlogs
+  csv2rdf: /usr/local/bin/csv2rdf
+  cwltool: /usr/local/bin/cwltool
+  doesitcache: /usr/local/bin/doesitcache
+  futurize: /usr/local/bin/futurize
+  humanfriendly: /usr/local/bin/humanfriendly
+  idle: /usr/local/bin/idle

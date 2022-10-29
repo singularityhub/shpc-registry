@@ -6,3 +6,11 @@ latest:
 tags:
   2.3.2--r3.3.2_0: sha256:fc27300580a1f4474663d175f3942c948440b10db7015963aedbeccfd698833e
 docker: quay.io/biocontainers/r-r2html
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

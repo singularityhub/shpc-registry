@@ -6,3 +6,5 @@ latest:
 tags:
   0.5.0--r41hdfd78af_0: sha256:4c2a569223ad69aded39d480542e20da64feb1e9d5da7fa5b85b069f624633fe
 docker: quay.io/biocontainers/r-bcbiosinglecell
+aliases:
+  pandoc: /usr/local/bin/pandoc

@@ -6,3 +6,10 @@ latest:
 tags:
   1.29.0--r40_0: sha256:d2983e4dbf747b8c8cf94a16bc32b9b760312b6c073764ce7da3cba17eddcda4
 docker: quay.io/biocontainers/bioconductor-triform
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

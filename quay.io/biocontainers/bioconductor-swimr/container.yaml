@@ -6,3 +6,5 @@ latest:
 tags:
   1.29.0--r41hdfd78af_0: sha256:7a5f2eb4b8e43af032a44adce56876e8ec8b32bc7066e63fb672c41ebb3c91cc
 docker: quay.io/biocontainers/bioconductor-swimr
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

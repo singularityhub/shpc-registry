@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/pbsim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for pbsim
+latest:
+  1.0.3--h9f5acd7_5: sha256:442e922ff19db7a108815d76d513a0aa6529a4b4fda7587c74c11c1920e53541
+tags:
+  1.0.3--h9f5acd7_5: sha256:442e922ff19db7a108815d76d513a0aa6529a4b4fda7587c74c11c1920e53541
+docker: quay.io/biocontainers/pbsim

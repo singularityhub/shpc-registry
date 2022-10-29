@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:4c472a14d2fc8ee2e39dcd1a1c9bc69284893d193c617798ca0a30dc31bba1c5
 docker: quay.io/biocontainers/bioconductor-adamgui
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

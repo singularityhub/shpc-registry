@@ -6,3 +6,7 @@ latest:
 tags:
   1.2--r3.3.2_0: sha256:5a842003fb8447ec1a7b552178a225c9df202c16da64bf05de0ebb0aca4692ac
 docker: quay.io/biocontainers/r-venn
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

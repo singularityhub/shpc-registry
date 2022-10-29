@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/libis_moabs
 aliases:
   LiBis: /usr/local/bin/LiBis
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

@@ -6,3 +6,5 @@ latest:
 tags:
   1.2--h7132678_3: sha256:8e6e89febcc6e68afa1057f56e393df260a663115091ad5dede94df658ac08b4
 docker: quay.io/biocontainers/fusioncatcher-seqtk
+aliases:
+  seqtk: /usr/local/bin/seqtk

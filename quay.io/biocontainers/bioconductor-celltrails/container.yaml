@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:a07ba68691a04cbfc70d9ff2c5da5ba5fed59788a834b7262590f82941d38254
 docker: quay.io/biocontainers/bioconductor-celltrails
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

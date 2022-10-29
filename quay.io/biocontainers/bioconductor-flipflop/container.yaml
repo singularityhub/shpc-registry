@@ -6,3 +6,5 @@ latest:
 tags:
   1.18.0--r351hfc679d8_0: sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265
 docker: quay.io/biocontainers/bioconductor-flipflop
+aliases:
+  wget: /usr/local/bin/wget

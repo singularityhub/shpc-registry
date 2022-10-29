@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/wtdbg
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wtdbg
+latest:
+  2.5--h5b5514e_2: sha256:463392406f8c4a36e48b2d23b158014778301ceb754ec5c5b6c0ba3fabc67038
+tags:
+  2.5--h5b5514e_2: sha256:463392406f8c4a36e48b2d23b158014778301ceb754ec5c5b6c0ba3fabc67038
+docker: quay.io/biocontainers/wtdbg

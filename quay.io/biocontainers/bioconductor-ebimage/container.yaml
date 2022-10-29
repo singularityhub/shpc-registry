@@ -6,3 +6,8 @@ latest:
 tags:
   4.36.0--r41hc247a5b_2: sha256:3a4318c3c88f06c470f967aae5473b2524d9067cba30077d65ee81a9eddac5cc
 docker: quay.io/biocontainers/bioconductor-ebimage
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

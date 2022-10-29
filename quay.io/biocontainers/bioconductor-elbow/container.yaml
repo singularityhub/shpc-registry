@@ -6,3 +6,5 @@ latest:
 tags:
   1.26.0--r40hdfd78af_1: sha256:cac8684555054f7f75fc27603ce5468854398e072339e9c26beb8e54e925b379
 docker: quay.io/biocontainers/bioconductor-elbow
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

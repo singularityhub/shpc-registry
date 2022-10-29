@@ -11,3 +11,13 @@ aliases:
   refgenieserver: /usr/local/bin/refgenieserver
   uvicorn: /usr/local/bin/uvicorn
   watchgod: /usr/local/bin/watchgod
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  chardetect: /usr/local/bin/chardetect
+  cmark: /usr/local/bin/cmark
+  futurize: /usr/local/bin/futurize
+  idle3.9: /usr/local/bin/idle3.9
+  jsonschema: /usr/local/bin/jsonschema
+  pasteurize: /usr/local/bin/pasteurize
+  py.test: /usr/local/bin/py.test
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  pygmentize: /usr/local/bin/pygmentize

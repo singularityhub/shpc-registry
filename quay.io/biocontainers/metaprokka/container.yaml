@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/metaprokka
 aliases:
   metaprokka: /usr/local/bin/metaprokka
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml

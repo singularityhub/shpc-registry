@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/quasirecomb
 aliases:
   quasirecomb: /usr/local/bin/quasirecomb
+  aserver: /usr/local/bin/aserver
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole

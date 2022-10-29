@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.4--pl5321h9ee0642_0: sha256:9c08fc76f3ae71e0fdfd762f46887c4925a88c1ad3a8c5535e16cf6d6e84ecf6
 docker: quay.io/biocontainers/perl-bio-procedural
+aliases:
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc

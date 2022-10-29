@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e
 docker: quay.io/biocontainers/bioconductor-agprobe
 aliases:
-  .bioconductor-agprobe-post-link.sh: /usr/local/bin/.bioconductor-agprobe-post-link.sh
-  .bioconductor-agprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-agprobe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

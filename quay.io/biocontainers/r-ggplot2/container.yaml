@@ -6,3 +6,7 @@ latest:
 tags:
   2.2.1--r3.3.1_0: sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823
 docker: quay.io/biocontainers/r-ggplot2
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

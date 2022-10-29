@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:bda62cdfda52acaebac431bb93799c17bbe102d1310e6f5669b2f7e0745f7cb0
 docker: quay.io/biocontainers/bioconductor-mnem
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

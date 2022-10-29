@@ -6,3 +6,9 @@ latest:
 tags:
   1.0.1--py_0: sha256:a3ed5f7efd93f8dc18593df807a53865031a70caf7c497955e3d9a62938a679e
 docker: quay.io/biocontainers/longestrunsubsequence
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

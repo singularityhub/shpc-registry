@@ -1,13 +1,23 @@
 docker: quay.io/biocontainers/cutadapt
-url: https://quay.io/repository/biocontainers/cutadapt
-maintainer: '@sarahbeecroft'
-description: Trim adapters from high-throughput sequencing reads
+url: https://biocontainers.pro/tools/cutadapt
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cutadapt
 latest:
-  3.7--py38hbff2b2d_0: sha256:c2201f010d14f6beed26e2fee75d2b8418c1413c457ccb6862b27e75913ce1ff
+  2.6--py37h516909a_0: sha256:b67f5a343b3b9a2d5e7be779dae6d0ec6133d5a499c7c1fe91671fbf794e774e
 tags:
   3.4--py36h4c5857e_0: sha256:53a1f7ff0f9d78fc02e594b3a63ad4ceb84e2834639a23d4e90bcc9c1a1196a0
   3.4--py38h4a8c8d9_1: sha256:489eda33229f60e7ca8e0397f95c775d53d6f40fa0baed04386e3726d4e9e136
   3.5--py39h38f01e4_0: sha256:7df6dc446d6a920fa78319113f05d15e79240aee0829f08ee5ebef2f8d4775a4
   3.7--py38hbff2b2d_0: sha256:c2201f010d14f6beed26e2fee75d2b8418c1413c457ccb6862b27e75913ce1ff
+  2.6--py37h516909a_0: sha256:b67f5a343b3b9a2d5e7be779dae6d0ec6133d5a499c7c1fe91671fbf794e774e
 aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
   cutadapt: /usr/local/bin/cutadapt
+  idle3.7: /usr/local/bin/idle3.7
+  pigz: /usr/local/bin/pigz
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

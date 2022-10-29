@@ -6,3 +6,14 @@ latest:
 tags:
   5.20220620--pl5321hdfd78af_0: sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e
 docker: quay.io/biocontainers/perl-module-corelist
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

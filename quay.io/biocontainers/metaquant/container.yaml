@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/metaquant
 aliases:
   metaquant: /usr/local/bin/metaquant
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  assistant: /usr/local/bin/assistant
+  bcomps: /usr/local/bin/bcomps
+  canbusutil: /usr/local/bin/canbusutil
+  ccomps: /usr/local/bin/ccomps
+  certutil: /usr/local/bin/certutil
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-gamlss
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-gamlss
+latest:
+  5.0_0--r3.3.1_0: sha256:75fa9abd6bd8c4a5487a991fa55af633ff1e59bbfadb7447decd583f16722131
+tags:
+  5.0_0--r3.3.1_0: sha256:75fa9abd6bd8c4a5487a991fa55af633ff1e59bbfadb7447decd583f16722131
+docker: quay.io/biocontainers/r-gamlss

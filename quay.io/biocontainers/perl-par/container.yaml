@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-par
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-par
+latest:
+  1.014--pl5321hdfd78af_2: sha256:fc6e939d91beed4e7438563b118c82d7bb554fb77a9fb5808e0eeaafdeeffc56
+tags:
+  1.014--pl5321hdfd78af_2: sha256:fc6e939d91beed4e7438563b118c82d7bb554fb77a9fb5808e0eeaafdeeffc56
+docker: quay.io/biocontainers/perl-par

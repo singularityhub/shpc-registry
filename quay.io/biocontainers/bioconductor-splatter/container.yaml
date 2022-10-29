@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_1: sha256:b7f2a09627e9815febe1f30fd81512d0d9475d2d6308c7d39df99386a05e06ae
 docker: quay.io/biocontainers/bioconductor-splatter
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

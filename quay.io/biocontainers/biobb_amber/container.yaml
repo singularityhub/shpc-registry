@@ -19,7 +19,6 @@ aliases:
   leap_solvate: /usr/local/bin/leap_solvate
   makeCHIR_RST: /usr/local/bin/makeCHIR_RST
   makeCSA_RST.na: /usr/local/bin/makeCSA_RST.na
-  makeDIP_RST.dna: /usr/local/bin/makeDIP_RST.dna
   makeDIP_RST.protein: /usr/local/bin/makeDIP_RST.protein
   makeRIGID_RST: /usr/local/bin/makeRIGID_RST
   nab_build_dna_structure: /usr/local/bin/nab_build_dna_structure
@@ -32,3 +31,13 @@ aliases:
   py_resp.py: /usr/local/bin/py_resp.py
   sander_mdrun: /usr/local/bin/sander_mdrun
   tinker_to_amber: /usr/local/bin/tinker_to_amber
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  AddToBox: /usr/local/bin/AddToBox
+  CartHess2FC.py: /usr/local/bin/CartHess2FC.py
+  ChBox: /usr/local/bin/ChBox
+  FEW.pl: /usr/local/bin/FEW.pl
+  IPMach.py: /usr/local/bin/IPMach.py
+  MCPB.py: /usr/local/bin/MCPB.py
+  MMPBSA.py: /usr/local/bin/MMPBSA.py
+  OptC4.py: /usr/local/bin/OptC4.py
+  PdbSearcher.py: /usr/local/bin/PdbSearcher.py

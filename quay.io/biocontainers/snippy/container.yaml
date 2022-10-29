@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/snippy
 aliases:
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  abba-baba: /usr/local/bin/abba-baba
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  any2fasta: /usr/local/bin/any2fasta
+  bFst: /usr/local/bin/bFst
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bamleftalign: /usr/local/bin/bamleftalign

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/metavelvet-annois
 aliases:
   run-annoIS.pl: /usr/local/bin/run-annoIS.pl
+  config_data: /usr/local/bin/config_data

@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:891c8aa10491b6a62051ee9ca8ccb6b2d02752fe455a51fbee987d5f1c95d677
 docker: quay.io/biocontainers/bioconductor-delayedtensor
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

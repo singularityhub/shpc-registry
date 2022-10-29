@@ -6,3 +6,5 @@ latest:
 tags:
   2.6.0--r41hdfd78af_0: sha256:ce68ca011201bd2ca98d6dccf64ea7b520ea38c83bcfebeebe8d0aaa18a65a12
 docker: quay.io/biocontainers/bioconductor-dmrcate
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

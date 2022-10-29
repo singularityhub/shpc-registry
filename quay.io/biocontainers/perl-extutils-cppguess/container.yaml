@@ -6,3 +6,14 @@ latest:
 tags:
   0.26--pl5321h9f5acd7_0: sha256:5ebb71cbac97e1752b3e22147e52d9dbbc9dbc88f2ba8f92a09d40cdb73078bc
 docker: quay.io/biocontainers/perl-extutils-cppguess
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

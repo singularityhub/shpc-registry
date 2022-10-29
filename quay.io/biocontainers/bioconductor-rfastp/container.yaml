@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.0--r41hc247a5b_2: sha256:9d0e94156c3c01bb2a04f6624c0588392aa9b07097db7f0daad6e9f614395fd3
 docker: quay.io/biocontainers/bioconductor-rfastp
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

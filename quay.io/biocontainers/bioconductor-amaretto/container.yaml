@@ -7,5 +7,5 @@ tags:
   1.8.0--r41h399db7b_0: sha256:49355276bdea97b7e66499fe76661ebe36d729e51f05642cbb6f6e54279a198b
 docker: quay.io/biocontainers/bioconductor-amaretto
 aliases:
-  .bioconductor-curatedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh
-  .bioconductor-curatedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

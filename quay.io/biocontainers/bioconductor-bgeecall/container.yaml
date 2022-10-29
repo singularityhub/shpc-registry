@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:6c9146084e0f9a8463007cd43958a7265e3adb81115eb118f7ac2bddfc630556
 docker: quay.io/biocontainers/bioconductor-bgeecall
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

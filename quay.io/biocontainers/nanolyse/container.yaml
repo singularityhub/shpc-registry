@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/nanolyse
 aliases:
   NanoLyse: /usr/local/bin/NanoLyse
+  f2py3.8: /usr/local/bin/f2py3.8
+  minimap2.py: /usr/local/bin/minimap2.py

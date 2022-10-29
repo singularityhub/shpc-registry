@@ -7,5 +7,13 @@ tags:
   1.6.0--r41hdfd78af_0: sha256:5c934cf158858a3a375e6bdc1c5ae46e7786283d51ddbee5416484b3e1189d63
 docker: quay.io/biocontainers/bioconductor-optimalflow
 aliases:
-  .bioconductor-optimalflowdata-post-link.sh: /usr/local/bin/.bioconductor-optimalflowdata-post-link.sh
-  .bioconductor-optimalflowdata-pre-unlink.sh: /usr/local/bin/.bioconductor-optimalflowdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

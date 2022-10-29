@@ -6,3 +6,5 @@ latest:
 tags:
   1.06--pl5321hdfd78af_2: sha256:0c4a5ef140ec23887de274961c89e2aead018369cc8425a7b6c6edda7b83b937
 docker: quay.io/biocontainers/perl-bio-trace-abif
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

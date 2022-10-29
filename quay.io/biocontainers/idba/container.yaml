@@ -13,3 +13,13 @@ aliases:
   autoscan.bak: /usr/local/bin/autoscan.bak
   autoupdate.bak: /usr/local/bin/autoupdate.bak
   ifnames.bak: /usr/local/bin/ifnames.bak
+  Makefile: /usr/local/bin/Makefile
+  Makefile.am: /usr/local/bin/Makefile.am
+  Makefile.in: /usr/local/bin/Makefile.in
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  automake.bak: /usr/local/bin/automake.bak
+  bazel-scan.py: /usr/local/bin/bazel-scan.py
+  fa2fq: /usr/local/bin/fa2fq
+  fa2fq.o: /usr/local/bin/fa2fq.o
+  filter_blat: /usr/local/bin/filter_blat
+  filter_blat.o: /usr/local/bin/filter_blat.o

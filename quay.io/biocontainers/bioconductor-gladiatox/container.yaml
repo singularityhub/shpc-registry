@@ -6,3 +6,8 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573
 docker: quay.io/biocontainers/bioconductor-gladiatox
+aliases:
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

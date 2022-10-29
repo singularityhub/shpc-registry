@@ -6,3 +6,5 @@ latest:
 tags:
   0.5--pyh864c0ab_4: sha256:27f7965e9db335fcc583b7e1cb7b3b51cd3eb011dece075fc2486efb5fe334c6
 docker: quay.io/biocontainers/ficus
+aliases:
+  f2py3.8: /usr/local/bin/f2py3.8

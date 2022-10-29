@@ -6,3 +6,7 @@ latest:
 tags:
   0.6_6--r3.3.2_0: sha256:06b4f129e4747e6a1f3accf271c4095748636a45e602258bc1c9d81e5362f329
 docker: quay.io/biocontainers/r-gsubfn
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

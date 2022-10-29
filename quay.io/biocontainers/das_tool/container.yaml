@@ -7,9 +7,18 @@ tags:
   1.1.5--r41hdfd78af_0: sha256:9562292c560d3d4602d917561e0efe7ea9698b6c7973112c5662f1dba996dfab
 docker: quay.io/biocontainers/das_tool
 aliases:
-  .das_tool-post-link.sh: /usr/local/bin/.das_tool-post-link.sh
   Contigs2Bin_to_Fasta.sh: /usr/local/bin/Contigs2Bin_to_Fasta.sh
   DAS_Tool: /usr/local/bin/DAS_Tool
   Fasta_to_Contig2Bin.sh: /usr/local/bin/Fasta_to_Contig2Bin.sh
   pullseq: /usr/local/bin/pullseq
   seqdiff: /usr/local/bin/seqdiff
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  awk: /usr/local/bin/awk
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck

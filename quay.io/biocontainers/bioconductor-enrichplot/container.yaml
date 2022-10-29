@@ -6,3 +6,10 @@ latest:
 tags:
   1.8.1--r40_0: sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872
 docker: quay.io/biocontainers/bioconductor-enrichplot
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

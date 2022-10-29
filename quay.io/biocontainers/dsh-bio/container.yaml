@@ -77,3 +77,13 @@ aliases:
   dsh-vcf-header: /usr/local/bin/dsh-vcf-header
   dsh-vcf-pedigree: /usr/local/bin/dsh-vcf-pedigree
   dsh-vcf-samples: /usr/local/bin/dsh-vcf-samples
+  aserver: /usr/local/bin/aserver
+  cups-config: /usr/local/bin/cups-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool

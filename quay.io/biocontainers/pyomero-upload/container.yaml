@@ -12,3 +12,13 @@ aliases:
   setpythonpath.bat: /usr/local/bin/setpythonpath.bat
   slice2py: /usr/local/bin/slice2py
   winconfig.bat: /usr/local/bin/winconfig.bat
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  f2py3.7: /usr/local/bin/f2py3.7
+  futurize: /usr/local/bin/futurize
+  idle3.7: /usr/local/bin/idle3.7
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  pasteurize: /usr/local/bin/pasteurize
+  psicc: /usr/local/bin/psicc
+  pydoc3.7: /usr/local/bin/pydoc3.7

@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/vamb
 aliases:
   concatenate.py: /usr/local/bin/concatenate.py
   vamb: /usr/local/bin/vamb
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  ninja: /usr/local/bin/ninja
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m

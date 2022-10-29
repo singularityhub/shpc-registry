@@ -6,3 +6,14 @@ latest:
 tags:
   0.010--pl5321hdfd78af_1: sha256:4a62471a621c0f280c80c506f6c964ec470b347ae5fba526cb0d1e6a4d78b3d7
 docker: quay.io/biocontainers/perl-clone-choose
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/snikt
 aliases:
   snikt.R: /usr/local/bin/snikt.R
+  pandoc: /usr/local/bin/pandoc
+  seqtk: /usr/local/bin/seqtk

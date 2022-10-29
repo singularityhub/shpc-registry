@@ -6,3 +6,12 @@ latest:
 tags:
   2.2.0--r41hc0cfd56_2: sha256:ef194a4701d2ff2327408fd58638a0e03ca488966be99f76072862bcd6146bbf
 docker: quay.io/biocontainers/bioconductor-flowsom
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  glpsol: /usr/local/bin/glpsol
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

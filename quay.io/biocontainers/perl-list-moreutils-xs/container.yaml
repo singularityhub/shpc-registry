@@ -6,3 +6,5 @@ latest:
 tags:
   0.430--pl5321hec16e2b_1: sha256:ab8439bcda9bc85ec3fe88cc63102a124035312e17f4810380d149534bc3d71c
 docker: quay.io/biocontainers/perl-list-moreutils-xs
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -7,5 +7,13 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:1b288317b018fb75360969426a51ce6ad84576ed63d69f4a208f6dfb9d2e355a
 docker: quay.io/biocontainers/bioconductor-mapkldata
 aliases:
-  .bioconductor-mapkldata-post-link.sh: /usr/local/bin/.bioconductor-mapkldata-post-link.sh
-  .bioconductor-mapkldata-pre-unlink.sh: /usr/local/bin/.bioconductor-mapkldata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

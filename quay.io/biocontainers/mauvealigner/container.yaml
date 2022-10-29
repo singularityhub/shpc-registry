@@ -35,3 +35,4 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
+  progressiveMauve: /usr/local/bin/progressiveMauve

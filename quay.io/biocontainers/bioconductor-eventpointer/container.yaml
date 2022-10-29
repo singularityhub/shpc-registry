@@ -6,3 +6,5 @@ latest:
 tags:
   3.2.0--r41hc0cfd56_2: sha256:fee5dea8e503b4caa8bda43ac8d3aa9f27fa3d7ca1724846ff104039e2554dfd
 docker: quay.io/biocontainers/bioconductor-eventpointer
+aliases:
+  glpsol: /usr/local/bin/glpsol

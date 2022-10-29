@@ -13,3 +13,6 @@ aliases:
   kraken-mpa-report: /usr/local/bin/kraken-mpa-report
   kraken-report: /usr/local/bin/kraken-report
   kraken-translate: /usr/local/bin/kraken-translate
+  jellyfish: /usr/local/bin/jellyfish
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

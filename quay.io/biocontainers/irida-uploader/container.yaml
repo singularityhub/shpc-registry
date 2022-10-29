@@ -10,3 +10,12 @@ aliases:
   integration-test: /usr/local/bin/integration-test
   irida-uploader: /usr/local/bin/irida-uploader
   irida-uploader-gui: /usr/local/bin/irida-uploader-gui
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

@@ -8,7 +8,16 @@ tags:
 docker: quay.io/biocontainers/kb-python
 aliases:
   bustools: /usr/local/bin/bustools
-  kallisto: /usr/local/bin/kallisto
   kb: /usr/local/bin/kb
   loompy: /usr/local/bin/loompy
   shortuuid: /usr/local/bin/shortuuid
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  curve_keygen: /usr/local/bin/curve_keygen
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp

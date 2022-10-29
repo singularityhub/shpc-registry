@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5
 docker: quay.io/biocontainers/bioconductor-metavizr
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

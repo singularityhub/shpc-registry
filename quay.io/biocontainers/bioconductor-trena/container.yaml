@@ -7,9 +7,8 @@ tags:
   1.8.0--r36_0: sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257
 docker: quay.io/biocontainers/bioconductor-trena
 aliases:
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
-  .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
-  .bioconductor-snplocs.hsapiens.dbsnp150.grch38-post-link.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp150.grch38-post-link.sh
-  .bioconductor-snplocs.hsapiens.dbsnp150.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp150.grch38-pre-unlink.sh
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  pg_config: /usr/local/bin/pg_config
+  xgboost: /usr/local/bin/xgboost

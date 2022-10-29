@@ -6,3 +6,14 @@ latest:
 tags:
   0.8.7--pyh4c3bd37_0: sha256:cacf523bd8aef663ea3b8eac00196c21d28bae9b9f3b5eab2aead6efa4e13d3e
 docker: quay.io/biocontainers/cooler
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  bam2pairs: /usr/local/bin/bam2pairs
+  bgzip: /usr/local/bin/bgzip
+  bokeh: /usr/local/bin/bokeh
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  cooler: /usr/local/bin/cooler
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/primer3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for primer3
+latest:
+  v2.5.0--pl526he1b5a44_0: sha256:860d430a579f69ce45c4a729c7215e5dbabad650a988d7b7bcdef677be278d71
+tags:
+  v2.5.0--pl526he1b5a44_0: sha256:860d430a579f69ce45c4a729c7215e5dbabad650a988d7b7bcdef677be278d71
+docker: quay.io/biocontainers/primer3

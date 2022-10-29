@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/python-tripal
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for python-tripal
+latest:
+  3.2.1--py_0: sha256:93a9ef6568e8f41f705729406ec3da0cf9b193a809e6b27389d91bf07ab0cfe4
+tags:
+  3.2.1--py_0: sha256:93a9ef6568e8f41f705729406ec3da0cf9b193a809e6b27389d91bf07ab0cfe4
+docker: quay.io/biocontainers/python-tripal

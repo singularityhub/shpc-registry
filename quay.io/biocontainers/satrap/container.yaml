@@ -14,3 +14,4 @@ aliases:
   pass: /usr/local/bin/pass
   rename_fastq_tag: /usr/local/bin/rename_fastq_tag
   satrap: /usr/local/bin/satrap
+  cd-hit-est: /usr/local/bin/cd-hit-est

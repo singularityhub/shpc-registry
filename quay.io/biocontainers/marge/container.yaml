@@ -11,3 +11,13 @@ aliases:
   bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed
   bigWigSummary: /usr/local/bin/bigWigSummary
   marge: /usr/local/bin/marge
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
+  chardetect: /usr/local/bin/chardetect
+  f2py3.6: /usr/local/bin/f2py3.6
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy

@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hc247a5b_2: sha256:6e43eeb54dd17e5557e1ada227ada0f312c11d79d8a6204ef9a007331f938c14
 docker: quay.io/biocontainers/bioconductor-blima
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

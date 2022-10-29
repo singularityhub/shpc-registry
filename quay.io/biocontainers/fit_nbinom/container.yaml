@@ -6,3 +6,5 @@ latest:
 tags:
   1.1--pyh864c0ab_2: sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976
 docker: quay.io/biocontainers/fit_nbinom
+aliases:
+  f2py3.8: /usr/local/bin/f2py3.8

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:a9c6bee4b77629e445501acf878bc25766134dade67953ddd2a09656399fd834
 docker: quay.io/biocontainers/bioconductor-kinswingr
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

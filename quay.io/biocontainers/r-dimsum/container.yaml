@@ -9,4 +9,13 @@ docker: quay.io/biocontainers/r-dimsum
 aliases:
   DiMSum: /usr/local/bin/DiMSum
   DiMSum.R: /usr/local/bin/DiMSum.R
-  DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz: /usr/local/bin/DiMSum_1.2.9_R_x86_64-conda-linux-gnu.tar.gz
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  aserver: /usr/local/bin/aserver
+  cutadapt: /usr/local/bin/cutadapt
+  fastqc: /usr/local/bin/fastqc
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/mp3treesim
 aliases:
   mp3treesim: /usr/local/bin/mp3treesim
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl

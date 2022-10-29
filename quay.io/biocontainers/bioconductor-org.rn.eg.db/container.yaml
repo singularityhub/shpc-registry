@@ -6,3 +6,7 @@ latest:
 tags:
   3.8.2--r36_1: sha256:c0df9c788b54a4434fc6b92d0287189aa36efaf3e0e3dd8e06be70b55c73a5e9
 docker: quay.io/biocontainers/bioconductor-org.rn.eg.db
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

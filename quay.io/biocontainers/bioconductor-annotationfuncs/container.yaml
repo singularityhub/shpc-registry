@@ -6,3 +6,5 @@ latest:
 tags:
   1.40.0--r40hdfd78af_1: sha256:2f4d86968ad0186f90a3c2afb09fd9d2270787fb56090db02341891dda9c8d22
 docker: quay.io/biocontainers/bioconductor-annotationfuncs
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

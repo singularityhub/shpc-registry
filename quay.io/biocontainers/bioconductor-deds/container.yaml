@@ -6,3 +6,7 @@ latest:
 tags:
   1.60.0--r36h516909a_0: sha256:dea4d13c640c8471414bfa28b339e6431a4b617f611d504a8a1f4727f2a454b7
 docker: quay.io/biocontainers/bioconductor-deds
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

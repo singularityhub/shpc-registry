@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/plasflow
 aliases:
   PlasFlow.py: /usr/local/bin/PlasFlow.py
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  freeze_graph: /usr/local/bin/freeze_graph
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  idle3.5: /usr/local/bin/idle3.5
+  markdown_py: /usr/local/bin/markdown_py
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  painter.py: /usr/local/bin/painter.py

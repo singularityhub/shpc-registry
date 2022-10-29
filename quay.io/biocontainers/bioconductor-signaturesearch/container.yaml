@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.2--r41hc247a5b_1: sha256:2fef21aac2d2c88704d657c70efdc3e7c3c8b56c2d8764c5e980f8caba4b528e
 docker: quay.io/biocontainers/bioconductor-signaturesearch
+aliases:
+  glpsol: /usr/local/bin/glpsol

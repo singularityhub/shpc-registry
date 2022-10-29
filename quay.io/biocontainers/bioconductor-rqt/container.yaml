@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:35f270f2e3410f1de191a80e5b43210119c3600aff929ba78369d309edc4a2e5
 docker: quay.io/biocontainers/bioconductor-rqt
+aliases:
+  wget: /usr/local/bin/wget

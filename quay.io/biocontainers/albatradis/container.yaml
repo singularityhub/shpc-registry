@@ -34,3 +34,13 @@ aliases:
   tradis_merge_plots: /usr/local/bin/tradis_merge_plots
   tradis_plot: /usr/local/bin/tradis_plot
   trunkreads: /usr/local/bin/trunkreads
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bgzip: /usr/local/bin/bgzip

@@ -6,3 +6,5 @@ latest:
 tags:
   2.18--pl5321hdfd78af_2: sha256:090053260f303f3f3a4f8dd257697062edcc46ba963070ea7e3fd021a6295024
 docker: quay.io/biocontainers/perl-devel-symdump
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -7,5 +7,5 @@ tags:
   1.8.0--r36_1: sha256:ab84086fd4a451746480a49b9302b2ccc8da14383418c0b30109142c28d9c649
 docker: quay.io/biocontainers/bioconductor-ideal
 aliases:
-  .bioconductor-genelendatabase-post-link.sh: /usr/local/bin/.bioconductor-genelendatabase-post-link.sh
-  .bioconductor-genelendatabase-pre-unlink.sh: /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

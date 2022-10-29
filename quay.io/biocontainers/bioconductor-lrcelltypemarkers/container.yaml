@@ -7,5 +7,13 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:35101b6826f23ec1b256dc6e17e13919fb123b21cab982ec449371f488582707
 docker: quay.io/biocontainers/bioconductor-lrcelltypemarkers
 aliases:
-  .bioconductor-lrcelltypemarkers-post-link.sh: /usr/local/bin/.bioconductor-lrcelltypemarkers-post-link.sh
-  .bioconductor-lrcelltypemarkers-pre-unlink.sh: /usr/local/bin/.bioconductor-lrcelltypemarkers-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

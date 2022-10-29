@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r40h5f743cb_0: sha256:d073f895818d84225ac8b44392d728ebc910d066a9baf22d57f5faef239a8035
 docker: quay.io/biocontainers/bioconductor-ccfindr
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  mpiCC: /usr/local/bin/mpiCC
+  mpic++: /usr/local/bin/mpic++
+  mpicc: /usr/local/bin/mpicc
+  mpicxx: /usr/local/bin/mpicxx
+  mpiexec: /usr/local/bin/mpiexec
+  mpif77: /usr/local/bin/mpif77

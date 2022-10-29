@@ -6,3 +6,14 @@ latest:
 tags:
   0.1--pl5321hec16e2b_7: sha256:73511372b587115f61bf317f1716bf4ff3377cc0c5c3b2db3e4f3a261b29d864
 docker: quay.io/biocontainers/perl-math-cdf
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

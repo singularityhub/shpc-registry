@@ -6,3 +6,14 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:ddd98fc940d1f4a5ee832111d805b6eef04a21a2a3368da259fe46a3e7bd8574
 docker: quay.io/biocontainers/bioconductor-flowcybar
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

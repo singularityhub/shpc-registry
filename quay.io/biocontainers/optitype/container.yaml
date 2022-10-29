@@ -42,3 +42,13 @@ aliases:
   scenariotreeserver: /usr/local/bin/scenariotreeserver
   test.pyomo: /usr/local/bin/test.pyomo
   test.pyutilib: /usr/local/bin/test.pyutilib
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.8: /usr/local/bin/f2py3.8
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5

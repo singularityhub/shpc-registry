@@ -7,5 +7,7 @@ tags:
   1.8.0--r351_0: sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232
 docker: quay.io/biocontainers/bioconductor-crossmeta
 aliases:
-  .bioconductor-ccdata-post-link.sh: /usr/local/bin/.bioconductor-ccdata-post-link.sh
-  .bioconductor-ccdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  wget: /usr/local/bin/wget
+  xgboost: /usr/local/bin/xgboost

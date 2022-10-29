@@ -6,3 +6,5 @@ latest:
 tags:
   1.17.1--r36_1: sha256:be8689fcdbabf1cfd25dc717f4b1d61bf121598e93d55809a463c1477d179660
 docker: quay.io/biocontainers/bioconductor-ngscopy
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -119,3 +119,13 @@ aliases:
   validate_fasta.py: /usr/local/bin/validate_fasta.py
   validate_feature_boundaries_on_molecules.py: /usr/local/bin/validate_feature_boundaries_on_molecules.py
   write_fasta_from_gff.py: /usr/local/bin/write_fasta_from_gff.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FET.pl: /usr/local/bin/FET.pl
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed

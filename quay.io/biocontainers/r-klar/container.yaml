@@ -6,3 +6,7 @@ latest:
 tags:
   0.6_12--r3.3.2_0: sha256:404c6a20c8056c1c215640b28f76e6b5601baa2f8fc5c299db2f070a3d41421f
 docker: quay.io/biocontainers/r-klar
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

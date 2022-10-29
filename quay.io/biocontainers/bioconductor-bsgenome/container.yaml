@@ -6,3 +6,14 @@ latest:
 tags:
   1.62.0--r41hdfd78af_0: sha256:bffb3c8a796fe6d90a2e396d3057ca8466d4665e65f0e00bdffdc1ce32efeaae
 docker: quay.io/biocontainers/bioconductor-bsgenome
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

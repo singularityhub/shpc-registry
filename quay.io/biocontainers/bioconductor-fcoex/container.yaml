@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--r41hdfd78af_0: sha256:89d756cda790a8a90ae07388bafa1536497ae10ab79fb64d0b797f663749d5ae
 docker: quay.io/biocontainers/bioconductor-fcoex
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

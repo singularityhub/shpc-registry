@@ -6,3 +6,14 @@ latest:
 tags:
   1.42--pl5321hdfd78af_0: sha256:9acb4196bdc11dd94c24fd73a811f6707a76cb43f382b138c1e5f4775994617b
 docker: quay.io/biocontainers/perl-image-info
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb

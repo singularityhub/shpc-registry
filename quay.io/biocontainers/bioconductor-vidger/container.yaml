@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r40_0: sha256:991726354e2ea3da05ba941dfce23ade42517b004a25e276b8476050ef33abdc
 docker: quay.io/biocontainers/bioconductor-vidger
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

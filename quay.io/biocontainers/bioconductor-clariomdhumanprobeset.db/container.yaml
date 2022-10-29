@@ -7,5 +7,13 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746
 docker: quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db
 aliases:
-  .bioconductor-clariomdhumanprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-clariomdhumanprobeset.db-post-link.sh
-  .bioconductor-clariomdhumanprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-clariomdhumanprobeset.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

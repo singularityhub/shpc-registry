@@ -14,3 +14,13 @@ aliases:
   concatenate_domains.py: /usr/local/bin/concatenate_domains.py
   get_record.py: /usr/local/bin/get_record.py
   ppserver.py: /usr/local/bin/ppserver.py
+  CA.pm: /usr/local/bin/CA.pm
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool

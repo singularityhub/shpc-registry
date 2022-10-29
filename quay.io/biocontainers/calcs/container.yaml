@@ -8,3 +8,8 @@ tags:
 docker: quay.io/biocontainers/calcs
 aliases:
   calcs: /usr/local/bin/calcs
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

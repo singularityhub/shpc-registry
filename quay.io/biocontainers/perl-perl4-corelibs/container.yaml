@@ -6,3 +6,6 @@ latest:
 tags:
   0.004--pl526_1: sha256:990455f90e5c8270c3dfb8e78c43e1291a57bdb5c3575996b5d0845a7cb53f87
 docker: quay.io/biocontainers/perl-perl4-corelibs
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

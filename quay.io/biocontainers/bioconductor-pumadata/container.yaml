@@ -7,5 +7,13 @@ tags:
   2.30.0--r41hdfd78af_1: sha256:a5534063f74e9200146e190842422dd010ac20653e4772fd5829a831e0faf6b1
 docker: quay.io/biocontainers/bioconductor-pumadata
 aliases:
-  .bioconductor-pumadata-post-link.sh: /usr/local/bin/.bioconductor-pumadata-post-link.sh
-  .bioconductor-pumadata-pre-unlink.sh: /usr/local/bin/.bioconductor-pumadata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

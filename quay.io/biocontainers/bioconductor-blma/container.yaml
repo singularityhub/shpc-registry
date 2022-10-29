@@ -7,11 +7,6 @@ tags:
   1.8.0--r36_1: sha256:7b91129b99513cce5e35e6e44e305bd4ad18777769692214694a72aa28ddf5a8
 docker: quay.io/biocontainers/bioconductor-blma
 aliases:
-  .bioconductor-hgu133a.db-post-link.sh: /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh
-  .bioconductor-hgu133a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh
-  .bioconductor-hgu133plus2.db-post-link.sh: /usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh
-  .bioconductor-hgu133plus2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh
-  .bioconductor-kegg.db-post-link.sh: /usr/local/bin/.bioconductor-kegg.db-post-link.sh
-  .bioconductor-kegg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh
-  .bioconductor-keggdzpathwaysgeo-post-link.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh
-  .bioconductor-keggdzpathwaysgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.1--r41hc247a5b_1: sha256:e2242fdb22bb50e2eeaa7e74ee3ce99dc43bd2c31c987c95f3bc0ad33a808071
 docker: quay.io/biocontainers/bioconductor-scarray
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

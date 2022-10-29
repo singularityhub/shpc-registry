@@ -6,3 +6,7 @@ latest:
 tags:
   0.7.1--r3.3.1_0: sha256:49641b017b850601c73c9a9dcd31eaaf7d4dc97459378f1a4f0f977d1a96f547
 docker: quay.io/biocontainers/r-globals
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

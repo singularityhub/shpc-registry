@@ -6,3 +6,14 @@ latest:
 tags:
   1.21.0--r41hdfd78af_0: sha256:aeebd5a19a2129efb82a54cd40438c57a5a6827f1b0473c643613f45a6600e03
 docker: quay.io/biocontainers/bioconductor-countclust
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

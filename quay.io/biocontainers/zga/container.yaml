@@ -7,8 +7,6 @@ tags:
   0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
 docker: quay.io/biocontainers/zga
 aliases:
-  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
-  .zga-post-link.sh: /usr/local/bin/.zga-post-link.sh
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
   file_downloader.py: /usr/local/bin/file_downloader.py
@@ -23,3 +21,13 @@ aliases:
   unicycler_polish: /usr/local/bin/unicycler_polish
   unicycler_scrub: /usr/local/bin/unicycler_scrub
   zga: /usr/local/bin/zga
+  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
+  abba-baba: /usr/local/bin/abba-baba
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  alltoall.sh: /usr/local/bin/alltoall.sh

@@ -10,3 +10,13 @@ aliases:
   drop: /usr/local/bin/drop
   git2_cli: /usr/local/bin/git2_cli
   wbuild: /usr/local/bin/wbuild
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  aserver: /usr/local/bin/aserver
+  bc: /usr/local/bin/bc
+  bcftools: /usr/local/bin/bcftools
+  bcomps: /usr/local/bin/bcomps

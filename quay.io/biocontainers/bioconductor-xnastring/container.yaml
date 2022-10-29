@@ -6,3 +6,6 @@ latest:
 tags:
   1.2.2--r41hc247a5b_1: sha256:633ae0af9fa9d79491acf5640b9cc2fb0463c49c58acb99818b3f5a4f205f42e
 docker: quay.io/biocontainers/bioconductor-xnastring
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-server: /usr/local/bin/pandoc-server

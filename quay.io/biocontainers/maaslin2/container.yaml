@@ -11,3 +11,6 @@ aliases:
   fit.R: /usr/local/bin/fit.R
   utility_scripts.R: /usr/local/bin/utility_scripts.R
   viz.R: /usr/local/bin/viz.R
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

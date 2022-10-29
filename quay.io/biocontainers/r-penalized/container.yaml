@@ -6,3 +6,8 @@ latest:
 tags:
   0.9.47--r3.3.1_0: sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733
 docker: quay.io/biocontainers/r-penalized
+aliases:
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-sc3
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-sc3
+latest:
+  1.8.0--r351hfc679d8_0: sha256:0497316480637c02d04e33c439f662e6cd00b812e5703e16f6d3e9255847963c
+tags:
+  1.8.0--r351hfc679d8_0: sha256:0497316480637c02d04e33c439f662e6cd00b812e5703e16f6d3e9255847963c
+docker: quay.io/biocontainers/bioconductor-sc3

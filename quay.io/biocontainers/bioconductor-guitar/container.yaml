@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b
 docker: quay.io/biocontainers/bioconductor-guitar
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

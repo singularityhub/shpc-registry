@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/jolytree
 aliases:
   JolyTree.sh: /usr/local/bin/JolyTree.sh
   REQ: /usr/local/bin/REQ
+  aserver: /usr/local/bin/aserver
+  awk: /usr/local/bin/awk
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  fastme: /usr/local/bin/fastme
+  gawk: /usr/local/bin/gawk
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  jaotc: /usr/local/bin/jaotc

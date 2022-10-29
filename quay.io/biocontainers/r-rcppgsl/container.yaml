@@ -6,3 +6,7 @@ latest:
 tags:
   0.3.1--r3.3.2_0: sha256:4fd5f7de3ab8a6cbae3727e5cacc8671374bd3e9152dcaa7fbcd2c0c6237b4a1
 docker: quay.io/biocontainers/r-rcppgsl
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

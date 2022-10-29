@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/pypgx
 aliases:
   fuc: /usr/local/bin/fuc
   pypgx: /usr/local/bin/pypgx
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  idle3.9: /usr/local/bin/idle3.9
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac

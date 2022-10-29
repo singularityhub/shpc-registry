@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_1: sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0
 docker: quay.io/biocontainers/bioconductor-impulsede2
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

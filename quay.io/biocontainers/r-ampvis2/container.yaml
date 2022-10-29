@@ -6,3 +6,14 @@ latest:
 tags:
   2.7.29--r41hdfd78af_0: sha256:ad1deb36c198dce432cefe9ad48ae474399583d385d3493e77705a94056ba63b
 docker: quay.io/biocontainers/r-ampvis2
+aliases:
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
+  env_parallel.sh: /usr/local/bin/env_parallel.sh

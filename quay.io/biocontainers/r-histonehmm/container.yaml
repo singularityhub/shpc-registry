@@ -6,3 +6,5 @@ latest:
 tags:
   1.8--r41h1aed7a7_4: sha256:8f06c1153c46e6329a9ae138cef7e9987e0ad43a62bb5f635bfd7887424938cc
 docker: quay.io/biocontainers/r-histonehmm
+aliases:
+  pandoc: /usr/local/bin/pandoc

@@ -7,140 +7,34 @@ tags:
   2.0.3.0--py310hdfd78af_1: sha256:3fddb6ffc8888e58537d07991d923f80252015463879b8719d98324ec317f7fe
 docker: quay.io/biocontainers/maxquant
 aliases:
-  BaseCommon.dll: /usr/local/bin/BaseCommon.dll
-  BaseDataAccess.dll: /usr/local/bin/BaseDataAccess.dll
-  BaseDataAccess.dll.config: /usr/local/bin/BaseDataAccess.dll.config
-  BaseError.dll: /usr/local/bin/BaseError.dll
-  BaseLib.dll: /usr/local/bin/BaseLib.dll
-  BaseLibS.dll: /usr/local/bin/BaseLibS.dll
-  BaseTof.dll: /usr/local/bin/BaseTof.dll
-  BouncyCastle.Crypto.dll: /usr/local/bin/BouncyCastle.Crypto.dll
-  CHANGELOG.md: /usr/local/bin/CHANGELOG.md
   CheckDll.exe: /usr/local/bin/CheckDll.exe
-  Clearcore2.Compression.dll: /usr/local/bin/Clearcore2.Compression.dll
-  Clearcore2.Data.Acquisition.Client.dll: /usr/local/bin/Clearcore2.Data.Acquisition.Client.dll
-  Clearcore2.Data.Acquisition.Contracts.dll: /usr/local/bin/Clearcore2.Data.Acquisition.Contracts.dll
-  Clearcore2.Data.AnalystDataProvider.dll: /usr/local/bin/Clearcore2.Data.AnalystDataProvider.dll
-  Clearcore2.Data.Client.dll: /usr/local/bin/Clearcore2.Data.Client.dll
-  Clearcore2.Data.Common.dll: /usr/local/bin/Clearcore2.Data.Common.dll
-  Clearcore2.Data.CommonInterfaces.dll: /usr/local/bin/Clearcore2.Data.CommonInterfaces.dll
-  Clearcore2.Data.Contracts.dll: /usr/local/bin/Clearcore2.Data.Contracts.dll
-  Clearcore2.Data.Core.dll: /usr/local/bin/Clearcore2.Data.Core.dll
-  Clearcore2.Data.Wiff2.dll: /usr/local/bin/Clearcore2.Data.Wiff2.dll
-  Clearcore2.Data.WiffReader.dll: /usr/local/bin/Clearcore2.Data.WiffReader.dll
-  Clearcore2.Data.dll: /usr/local/bin/Clearcore2.Data.dll
-  Clearcore2.DataService.dll: /usr/local/bin/Clearcore2.DataService.dll
-  Clearcore2.Devices.Types.dll: /usr/local/bin/Clearcore2.Devices.Types.dll
-  Clearcore2.Domain.Acquisition.Methods.MassSpec.dll: /usr/local/bin/Clearcore2.Domain.Acquisition.Methods.MassSpec.dll
-  Clearcore2.Domain.Acquisition.dll: /usr/local/bin/Clearcore2.Domain.Acquisition.dll
-  Clearcore2.Infrastructure.dll: /usr/local/bin/Clearcore2.Infrastructure.dll
-  Clearcore2.InternalRawXYProcessing.dll: /usr/local/bin/Clearcore2.InternalRawXYProcessing.dll
-  Clearcore2.Muni.dll: /usr/local/bin/Clearcore2.Muni.dll
-  Clearcore2.ProjectUtilities.dll: /usr/local/bin/Clearcore2.ProjectUtilities.dll
-  Clearcore2.RawXYProcessing.dll: /usr/local/bin/Clearcore2.RawXYProcessing.dll
-  Clearcore2.StructuredStorage.dll: /usr/local/bin/Clearcore2.StructuredStorage.dll
-  Clearcore2.UserLog.Types.dll: /usr/local/bin/Clearcore2.UserLog.Types.dll
-  Clearcore2.Utility.dll: /usr/local/bin/Clearcore2.Utility.dll
-  Clearcore2.XmlHelpers.dll: /usr/local/bin/Clearcore2.XmlHelpers.dll
-  Cntk.Composite-2.7.dll: /usr/local/bin/Cntk.Composite-2.7.dll
-  Cntk.Core-2.7.dll: /usr/local/bin/Cntk.Core-2.7.dll
-  Cntk.Core.CSBinding-2.7.dll: /usr/local/bin/Cntk.Core.CSBinding-2.7.dll
-  Cntk.Core.Managed-2.7.dll: /usr/local/bin/Cntk.Core.Managed-2.7.dll
-  Cntk.Math-2.7.dll: /usr/local/bin/Cntk.Math-2.7.dll
-  Cntk.PerformanceProfiler-2.7.dll: /usr/local/bin/Cntk.PerformanceProfiler-2.7.dll
-  CommandLine.dll: /usr/local/bin/CommandLine.dll
   Contents.xsd: /usr/local/bin/Contents.xsd
-  DeconPluginLib.dll: /usr/local/bin/DeconPluginLib.dll
-  DeepLearningCNTK.dll: /usr/local/bin/DeepLearningCNTK.dll
   DefaultMassCal.xsd: /usr/local/bin/DefaultMassCal.xsd
   Devices.xsd: /usr/local/bin/Devices.xsd
-  DiffieHellman.dll: /usr/local/bin/DiffieHellman.dll
-  FloatingTabs.dll: /usr/local/bin/FloatingTabs.dll
-  KubernetesClient.dll: /usr/local/bin/KubernetesClient.dll
   MSActualDefs.xsd: /usr/local/bin/MSActualDefs.xsd
-  MSNumpress.dll: /usr/local/bin/MSNumpress.dll
   MSScan_XSpecific.xsd: /usr/local/bin/MSScan_XSpecific.xsd
   MSTS.xsd: /usr/local/bin/MSTS.xsd
   MSTS_XSpecific.xsd: /usr/local/bin/MSTS_XSpecific.xsd
-  MassSpecDataReader.dll: /usr/local/bin/MassSpecDataReader.dll
   MaxQuantCmd.exe: /usr/local/bin/MaxQuantCmd.exe
   MaxQuantCmd.runtimeconfig.json: /usr/local/bin/MaxQuantCmd.runtimeconfig.json
   MaxQuantGui.exe: /usr/local/bin/MaxQuantGui.exe
-  MaxQuantGui.exe.config: /usr/local/bin/MaxQuantGui.exe.config
-  MaxQuantLib.dll: /usr/local/bin/MaxQuantLib.dll
-  MaxQuantLibS.dll: /usr/local/bin/MaxQuantLibS.dll
-  MaxQuantPLib.dll: /usr/local/bin/MaxQuantPLib.dll
-  MaxQuantRenderWpf.dll: /usr/local/bin/MaxQuantRenderWpf.dll
   MaxQuantServer.exe: /usr/local/bin/MaxQuantServer.exe
   MaxQuantTask.exe: /usr/local/bin/MaxQuantTask.exe
-  MaxQuantTaskCore.dll: /usr/local/bin/MaxQuantTaskCore.dll
   MaxQuantTaskCore.runtimeconfig.json: /usr/local/bin/MaxQuantTaskCore.runtimeconfig.json
-  Microsoft.AspNetCore.JsonPatch.dll: /usr/local/bin/Microsoft.AspNetCore.JsonPatch.dll
-  Microsoft.AspNetCore.WebUtilities.dll: /usr/local/bin/Microsoft.AspNetCore.WebUtilities.dll
-  Microsoft.Extensions.Primitives.dll: /usr/local/bin/Microsoft.Extensions.Primitives.dll
-  Microsoft.Net.Http.Headers.dll: /usr/local/bin/Microsoft.Net.Http.Headers.dll
-  Microsoft.Rest.ClientRuntime.dll: /usr/local/bin/Microsoft.Rest.ClientRuntime.dll
   MqparConverter.exe: /usr/local/bin/MqparConverter.exe
-  MsLib.dll: /usr/local/bin/MsLib.dll
-  Newtonsoft.Json.dll: /usr/local/bin/Newtonsoft.Json.dll
-  NumPluginBase.dll: /usr/local/bin/NumPluginBase.dll
-  NumPluginBase2.dll: /usr/local/bin/NumPluginBase2.dll
-  NumPluginSvm.dll: /usr/local/bin/NumPluginSvm.dll
-  NumPluginXgboost.dll: /usr/local/bin/NumPluginXgboost.dll
-  OpenMcdf.Extensions.dll: /usr/local/bin/OpenMcdf.Extensions.dll
-  OpenMcdf.dll: /usr/local/bin/OpenMcdf.dll
-  Org.Mentalis.Security.dll: /usr/local/bin/Org.Mentalis.Security.dll
-  PluginRawAgilent.dll: /usr/local/bin/PluginRawAgilent.dll
-  PluginRawBruker2.dll: /usr/local/bin/PluginRawBruker2.dll
-  PluginRawBruker2.dll.config: /usr/local/bin/PluginRawBruker2.dll.config
-  PluginRawBrukerTdf.dll: /usr/local/bin/PluginRawBrukerTdf.dll
-  PluginRawMzMl.dll: /usr/local/bin/PluginRawMzMl.dll
-  PluginRawMzXml.dll: /usr/local/bin/PluginRawMzXml.dll
-  PluginRawSciexCore.dll: /usr/local/bin/PluginRawSciexCore.dll
-  PluginRawThermo.dll: /usr/local/bin/PluginRawThermo.dll
-  QueueingSystem.dll: /usr/local/bin/QueueingSystem.dll
-  SQLite.Interop.dll: /usr/local/bin/SQLite.Interop.dll
-  SVG.dll: /usr/local/bin/SVG.dll
-  Sciex.Clearcore.FMan.dll: /usr/local/bin/Sciex.Clearcore.FMan.dll
   Sciex.Data.Processing.DLL: /usr/local/bin/Sciex.Data.Processing.DLL
-  Sciex.Data.SimpleTypes.dll: /usr/local/bin/Sciex.Data.SimpleTypes.dll
-  Sciex.Data.XYData.dll: /usr/local/bin/Sciex.Data.XYData.dll
-  Sciex.FMan.dll: /usr/local/bin/Sciex.FMan.dll
-  Sciex.Wiff.dll: /usr/local/bin/Sciex.Wiff.dll
-  SciexToolKit.dll: /usr/local/bin/SciexToolKit.dll
-  System.Buffers.dll: /usr/local/bin/System.Buffers.dll
-  System.Data.SQLite.dll: /usr/local/bin/System.Data.SQLite.dll
-  System.Diagnostics.DiagnosticSource.dll: /usr/local/bin/System.Diagnostics.DiagnosticSource.dll
-  System.Runtime.CompilerServices.Unsafe.dll: /usr/local/bin/System.Runtime.CompilerServices.Unsafe.dll
-  System.Text.Encodings.Web.dll: /usr/local/bin/System.Text.Encodings.Web.dll
-  Tamir.SharpSSH.dll: /usr/local/bin/Tamir.SharpSSH.dll
-  TeamCity.ServiceMessages.dll: /usr/local/bin/TeamCity.ServiceMessages.dll
-  TensorFlowSharp.dll: /usr/local/bin/TensorFlowSharp.dll
-  ThermoFisher.CommonCore.BackgroundSubtraction.dll: /usr/local/bin/ThermoFisher.CommonCore.BackgroundSubtraction.dll
-  ThermoFisher.CommonCore.Data.dll: /usr/local/bin/ThermoFisher.CommonCore.Data.dll
-  ThermoFisher.CommonCore.MassPrecisionEstimator.dll: /usr/local/bin/ThermoFisher.CommonCore.MassPrecisionEstimator.dll
-  ThermoFisher.CommonCore.RawFileReader.dll: /usr/local/bin/ThermoFisher.CommonCore.RawFileReader.dll
-  Utils.dll: /usr/local/bin/Utils.dll
-  UtilsWf.dll: /usr/local/bin/UtilsWf.dll
-  UtilsWpf.dll: /usr/local/bin/UtilsWpf.dll
-  XGBoostLib.dll: /usr/local/bin/XGBoostLib.dll
-  YamlDotNet.dll: /usr/local/bin/YamlDotNet.dll
-  agtsampleinforw.dll: /usr/local/bin/agtsampleinforw.dll
-  baf2sql_c.dll: /usr/local/bin/baf2sql_c.dll
   csc-dim: /usr/local/bin/csc-dim
   global.json: /usr/local/bin/global.json
-  itextsharp.dll: /usr/local/bin/itextsharp.dll
-  libSQLite.Interop.dll.so: /usr/local/bin/libSQLite.Interop.dll.so
-  libSQLite.Interop.so: /usr/local/bin/libSQLite.Interop.so
-  libbaf2sql_c.so: /usr/local/bin/libbaf2sql_c.so
-  libiomp5md.dll: /usr/local/bin/libiomp5md.dll
-  libtimsdata.so: /usr/local/bin/libtimsdata.so
-  libxgboost.so: /usr/local/bin/libxgboost.so
   maxquant: /usr/local/bin/maxquant
-  mklml.dll: /usr/local/bin/mklml.dll
-  protobuf-net.dll: /usr/local/bin/protobuf-net.dll
   protobuf-net.xml: /usr/local/bin/protobuf-net.xml
-  timsdata.dll: /usr/local/bin/timsdata.dll
-  xgboost.dll: /usr/local/bin/xgboost.dll
   xgboost.lib: /usr/local/bin/xgboost.lib
-  zlib.net.dll: /usr/local/bin/zlib.net.dll
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust

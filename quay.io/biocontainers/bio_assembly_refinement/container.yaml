@@ -11,3 +11,13 @@ aliases:
   contig_cleaner: /usr/local/bin/contig_cleaner
   contig_overlap_trimmer: /usr/local/bin/contig_overlap_trimmer
   pacbio_post_process: /usr/local/bin/pacbio_post_process
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  fastaq: /usr/local/bin/fastaq
+  idle3.7: /usr/local/bin/idle3.7
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer

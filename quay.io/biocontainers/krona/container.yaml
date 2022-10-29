@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/krona
 aliases:
   ktClassifyHits: /usr/local/bin/ktClassifyHits
   ktImportHits: /usr/local/bin/ktImportHits
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage
+  ktImportEC: /usr/local/bin/ktImportEC
+  ktImportFCP: /usr/local/bin/ktImportFCP

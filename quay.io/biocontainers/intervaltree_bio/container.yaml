@@ -6,3 +6,9 @@ latest:
 tags:
   1.0.1--pyh864c0ab_2: sha256:10625c5180f4dd07054ef76e7224c47002913a00caf1e32f8fb1c74fb7b3b31b
 docker: quay.io/biocontainers/intervaltree_bio
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

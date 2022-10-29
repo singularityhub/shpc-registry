@@ -10,3 +10,9 @@ aliases:
   uropa: /usr/local/bin/uropa
   uropa2gtf.R: /usr/local/bin/uropa2gtf.R
   uropa_summary.R: /usr/local/bin/uropa_summary.R
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

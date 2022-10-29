@@ -6,3 +6,5 @@ latest:
 tags:
   1.43--pl5321hdfd78af_0: sha256:22c5ea687a8defa4fe42972b54c1e17ce5712ea4d5c377d64270ae70538e387f
 docker: quay.io/biocontainers/perl-apache-test
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

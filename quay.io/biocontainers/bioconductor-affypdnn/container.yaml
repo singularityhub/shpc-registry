@@ -6,3 +6,7 @@ latest:
 tags:
   1.60.0--r36_0: sha256:b8f5537c726953a852c330dfb49c3269c1b7120bcae6636f6498300e9b743588
 docker: quay.io/biocontainers/bioconductor-affypdnn
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--r40hdfd78af_1: sha256:92ed1e179be104e91de3f3ee0059d1e9792ff5c6cffaa0f6119343e6c39015d8
 docker: quay.io/biocontainers/bioconductor-hcabrowser
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

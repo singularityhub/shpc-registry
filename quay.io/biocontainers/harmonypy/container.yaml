@@ -6,3 +6,11 @@ latest:
 tags:
   0.0.6--pyhdfd78af_0: sha256:a9ac0b5f9b3c87e1a632d072c33b239d8f1c0e9e0cd7d1a7d29d59bdffa0c235
 docker: quay.io/biocontainers/harmonypy
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

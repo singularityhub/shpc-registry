@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/bamscale
 aliases:
   BAMscale: /usr/local/bin/BAMscale
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

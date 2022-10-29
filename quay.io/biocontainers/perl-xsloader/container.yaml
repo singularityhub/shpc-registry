@@ -6,3 +6,6 @@ latest:
 tags:
   0.24--pl526_0: sha256:bca2656c1b2ba010c89ab6fc870acf4f65ae82543157ece4770e984604fb6404
 docker: quay.io/biocontainers/perl-xsloader
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

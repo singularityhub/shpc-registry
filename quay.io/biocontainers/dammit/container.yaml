@@ -7,7 +7,6 @@ tags:
   1.2--pyh5ca1d4c_0: sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2
 docker: quay.io/biocontainers/dammit
 aliases:
-  .busco-post-link.sh: /usr/local/bin/.busco-post-link.sh
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
   TransDecoder.Predict: /usr/local/bin/TransDecoder.Predict
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl
@@ -82,3 +81,13 @@ aliases:
   train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
   utrrnaseq: /usr/local/bin/utrrnaseq
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
+  abundance-dist.py: /usr/local/bin/abundance-dist.py
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls

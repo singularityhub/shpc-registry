@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/gplas
 aliases:
   gplas.sh: /usr/local/bin/gplas.sh
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd

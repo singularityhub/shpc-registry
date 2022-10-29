@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.3--r41h37595e4_1: sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8
 docker: quay.io/biocontainers/r-quilt
+aliases:
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short

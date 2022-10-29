@@ -6,3 +6,11 @@ latest:
 tags:
   0.2.3--py27_2: sha256:b4668e6180497f84d0222911a0953e705ab572b1d5d6d69cedc84f4f8be5f5ba
 docker: quay.io/biocontainers/forked-path
+aliases:
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

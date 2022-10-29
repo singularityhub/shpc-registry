@@ -6,3 +6,14 @@ latest:
 tags:
   1.36.0--r41hc0cfd56_2: sha256:b5665dbbd4f6ed24ddaf827fcd7bee33f05d8c3cb2e9411659b8158164a86405
 docker: quay.io/biocontainers/bioconductor-cnordt
+aliases:
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

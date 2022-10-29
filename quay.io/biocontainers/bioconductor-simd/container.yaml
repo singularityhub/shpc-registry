@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hd029910_1: sha256:41135bd62c1dfada774280070b2ad4e7088def851857bb0025aafad5cd6ae277
 docker: quay.io/biocontainers/bioconductor-simd
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

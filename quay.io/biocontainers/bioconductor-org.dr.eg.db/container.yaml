@@ -7,5 +7,13 @@ tags:
   3.8.2--r36_1: sha256:efb98191c7b999c4097fe4da2b97e8404063165e1373223fc79ca7245c9f0998
 docker: quay.io/biocontainers/bioconductor-org.dr.eg.db
 aliases:
-  .bioconductor-org.dr.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.dr.eg.db-post-link.sh
-  .bioconductor-org.dr.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.dr.eg.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

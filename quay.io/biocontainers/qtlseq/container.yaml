@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/qtlseq
 aliases:
   qtlplot: /usr/local/bin/qtlplot
   qtlseq: /usr/local/bin/qtlseq
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  ace2sam: /usr/local/bin/ace2sam
+  bcftools: /usr/local/bin/bcftools
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  brotli: /usr/local/bin/brotli
+  bwa: /usr/local/bin/bwa
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp

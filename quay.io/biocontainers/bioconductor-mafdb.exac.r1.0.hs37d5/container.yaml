@@ -7,5 +7,13 @@ tags:
   3.7.0--r36_2: sha256:2dd1990af8d106c34145ce2543b2d563b679f9be403053f475daca1d80627ad9
 docker: quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.hs37d5
 aliases:
-  .bioconductor-mafdb.exac.r1.0.hs37d5-post-link.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.hs37d5-post-link.sh
-  .bioconductor-mafdb.exac.r1.0.hs37d5-pre-unlink.sh: /usr/local/bin/.bioconductor-mafdb.exac.r1.0.hs37d5-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

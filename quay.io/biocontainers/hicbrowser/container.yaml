@@ -32,3 +32,13 @@ aliases:
   hicTransform: /usr/local/bin/hicTransform
   hicexplorer: /usr/local/bin/hicexplorer
   runBrowser: /usr/local/bin/runBrowser
+  ace2sam: /usr/local/bin/ace2sam
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  assistant: /usr/local/bin/assistant
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bam2pairs: /usr/local/bin/bam2pairs
+  bcftools: /usr/local/bin/bcftools

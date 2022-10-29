@@ -7,5 +7,13 @@ tags:
   2.42.0--r36_1: sha256:0bdd103c6733eae42b8964116a0ca57d6bab7b9a32320d38cff3e0a1e4b060e4
 docker: quay.io/biocontainers/bioconductor-mcrestimate
 aliases:
-  .bioconductor-golubesets-post-link.sh: /usr/local/bin/.bioconductor-golubesets-post-link.sh
-  .bioconductor-golubesets-pre-unlink.sh: /usr/local/bin/.bioconductor-golubesets-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

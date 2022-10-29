@@ -6,3 +6,10 @@ latest:
 tags:
   2.2_2--r3.3.1_0: sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b
 docker: quay.io/biocontainers/r-relaimpo
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

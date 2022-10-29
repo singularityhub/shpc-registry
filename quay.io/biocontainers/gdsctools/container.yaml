@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/gdsctools
 aliases:
   gdsctools_anova: /usr/local/bin/gdsctools_anova
   gdsctools_regression: /usr/local/bin/gdsctools_regression
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  assistant: /usr/local/bin/assistant
+  browse: /usr/local/bin/browse
+  canbusutil: /usr/local/bin/canbusutil
+  chardetect: /usr/local/bin/chardetect
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

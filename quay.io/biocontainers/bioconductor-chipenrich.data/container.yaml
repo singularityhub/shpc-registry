@@ -7,5 +7,13 @@ tags:
   2.8.0--r36_1: sha256:6178e60ed4d52731cf252cd73220232f85b4ee2451d28b48ef4c800a3a6c5d1b
 docker: quay.io/biocontainers/bioconductor-chipenrich.data
 aliases:
-  .bioconductor-chipenrich.data-post-link.sh: /usr/local/bin/.bioconductor-chipenrich.data-post-link.sh
-  .bioconductor-chipenrich.data-pre-unlink.sh: /usr/local/bin/.bioconductor-chipenrich.data-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

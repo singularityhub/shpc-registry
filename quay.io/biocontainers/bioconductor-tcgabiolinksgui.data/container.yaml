@@ -7,5 +7,4 @@ tags:
   1.9.2--r40_0: sha256:5204c72eec34329ae4e07c38db9684d986eb14f11cf71b21e63d3dfaa46db7e1
 docker: quay.io/biocontainers/bioconductor-tcgabiolinksgui.data
 aliases:
-  .bioconductor-tcgabiolinksgui.data-post-link.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh
-  .bioconductor-tcgabiolinksgui.data-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

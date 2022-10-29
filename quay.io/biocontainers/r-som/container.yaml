@@ -6,3 +6,7 @@ latest:
 tags:
   0.3_5.1--r3.3.1_0: sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc
 docker: quay.io/biocontainers/r-som
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

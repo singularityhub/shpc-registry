@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/strainest
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for strainest
+latest:
+  1.2.4--py36h6bb024c_3: sha256:979a9c47cc6639cd602f624b36c4fb34f96b2fc0f74a0b988f6b907719d81e5b
+tags:
+  1.2.4--py36h6bb024c_3: sha256:979a9c47cc6639cd602f624b36c4fb34f96b2fc0f74a0b988f6b907719d81e5b
+docker: quay.io/biocontainers/strainest

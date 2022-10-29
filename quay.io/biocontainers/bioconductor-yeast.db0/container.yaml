@@ -7,5 +7,13 @@ tags:
   3.8.2--r36_1: sha256:dd837ed9f241295188f905280f2d22d1d653fe20945fb994bdf0414d6e8f624a
 docker: quay.io/biocontainers/bioconductor-yeast.db0
 aliases:
-  .bioconductor-yeast.db0-post-link.sh: /usr/local/bin/.bioconductor-yeast.db0-post-link.sh
-  .bioconductor-yeast.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-yeast.db0-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

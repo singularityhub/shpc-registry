@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-qtl
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-qtl
+latest:
+  1.41_6--r3.4.1_0: sha256:35d165c2e1e997c4b7ba4fc50461e6928b3b7f915b70576a413600e01cbbbe48
+tags:
+  1.41_6--r3.4.1_0: sha256:35d165c2e1e997c4b7ba4fc50461e6928b3b7f915b70576a413600e01cbbbe48
+docker: quay.io/biocontainers/r-qtl

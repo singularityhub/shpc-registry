@@ -7,5 +7,13 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:43202517e6a299942e2f16e27b56b661423224676fe8d0573ea1553fa126f7bf
 docker: quay.io/biocontainers/bioconductor-dyebiasexamples
 aliases:
-  .bioconductor-dyebiasexamples-post-link.sh: /usr/local/bin/.bioconductor-dyebiasexamples-post-link.sh
-  .bioconductor-dyebiasexamples-pre-unlink.sh: /usr/local/bin/.bioconductor-dyebiasexamples-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

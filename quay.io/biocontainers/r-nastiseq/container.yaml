@@ -6,3 +6,9 @@ latest:
 tags:
   1.0--r40h9ee0642_4: sha256:1fd68e6b6ba173c71c84efcc25968fd329f2e1f1a3d6b9142815ad7277e47fd3
 docker: quay.io/biocontainers/r-nastiseq
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

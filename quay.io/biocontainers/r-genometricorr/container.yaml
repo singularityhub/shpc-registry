@@ -6,3 +6,6 @@ latest:
 tags:
   1.1.17--0: sha256:9a1c06aac2010c69be998465d1cdb9dcb9acbebc5dfd9804f6232bc942b3a010
 docker: quay.io/biocontainers/r-genometricorr
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

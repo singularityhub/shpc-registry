@@ -7,5 +7,4 @@ tags:
   1.8.2--r40hdfd78af_0: sha256:4695c2afe25ac3ce5908e7f878466870d6129796f9e3d3c7bb6cfb640bcd3d25
 docker: quay.io/biocontainers/bioconductor-sesame
 aliases:
-  .bioconductor-sesamedata-post-link.sh: /usr/local/bin/.bioconductor-sesamedata-post-link.sh
-  .bioconductor-sesamedata-pre-unlink.sh: /usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

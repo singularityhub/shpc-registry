@@ -6,3 +6,14 @@ latest:
 tags:
   1.2_6--r41h3121a25_0: sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65
 docker: quay.io/biocontainers/r-r0
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

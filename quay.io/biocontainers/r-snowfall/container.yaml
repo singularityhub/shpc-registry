@@ -6,3 +6,10 @@ latest:
 tags:
   1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
 docker: quay.io/biocontainers/r-snowfall
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

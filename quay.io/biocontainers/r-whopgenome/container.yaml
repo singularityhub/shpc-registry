@@ -6,3 +6,14 @@ latest:
 tags:
   0.9.7--r41hecf12ef_6: sha256:4cd432591ab478c4b526e4b7e92e06ef32339ca1c11fc0211a792553f109af09
 docker: quay.io/biocontainers/r-whopgenome
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.4--pl5321hdfd78af_4: sha256:5e5f4bda58f0fd068e56f0b3f0b50b4c37cb5e2e190e6ec948284795628bec3c
 docker: quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl

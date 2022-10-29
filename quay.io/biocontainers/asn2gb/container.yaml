@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/asn2gb
 aliases:
   asn2gb: /usr/local/bin/asn2gb
+  idn: /usr/local/bin/idn

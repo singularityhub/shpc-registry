@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r351hf484d3e_0: sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566
 docker: quay.io/biocontainers/bioconductor-funchip
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  wget: /usr/local/bin/wget

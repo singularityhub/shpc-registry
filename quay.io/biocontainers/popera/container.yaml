@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/popera
 aliases:
   popera: /usr/local/bin/popera
   popera_dhs_count: /usr/local/bin/popera_dhs_count
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.7: /usr/local/bin/f2py3.7
+  htsfile: /usr/local/bin/htsfile
+  idle3.7: /usr/local/bin/idle3.7
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl

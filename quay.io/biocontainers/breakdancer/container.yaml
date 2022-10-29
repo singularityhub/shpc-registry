@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/breakdancer
 aliases:
   bam2cfg.pl: /usr/local/bin/bam2cfg.pl
   breakdancer-max: /usr/local/bin/breakdancer-max
+  annotate: /usr/local/bin/annotate
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdlib-config: /usr/local/bin/gdlib-config

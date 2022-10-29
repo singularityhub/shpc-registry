@@ -6,3 +6,5 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:8c461765947d56f7ce100df00bd03a9034e46175f8f55e112f6bc3293bcc7ec2
 docker: quay.io/biocontainers/bioconductor-bloodgen3module
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -10,3 +10,13 @@ aliases:
   HORmon: /usr/local/bin/HORmon
   monomer_inference: /usr/local/bin/monomer_inference
   stringdecomposer: /usr/local/bin/stringdecomposer
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  clustalo: /usr/local/bin/clustalo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-pod-coverage
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-pod-coverage
+latest:
+  0.23--pl5321hdfd78af_4: sha256:d910ae0ad07447e5cd8e80d3b4ef047db3530cb617ad0954fe96e39afd611f1a
+tags:
+  0.23--pl5321hdfd78af_4: sha256:d910ae0ad07447e5cd8e80d3b4ef047db3530cb617ad0954fe96e39afd611f1a
+docker: quay.io/biocontainers/perl-pod-coverage

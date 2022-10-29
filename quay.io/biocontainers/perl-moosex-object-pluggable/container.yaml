@@ -6,3 +6,7 @@ latest:
 tags:
   0.0014--pl5321hdfd78af_1: sha256:7569cb2e31b71654ec2ed24b51b87e05a2f769bad06d4eff237d9a0d771aabbb
 docker: quay.io/biocontainers/perl-moosex-object-pluggable
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

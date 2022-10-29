@@ -6,3 +6,11 @@ latest:
 tags:
   1.4.2--r41hc247a5b_1: sha256:62c963607b3966907a1c05be1f8493f90c79d2fa48dbf493e609e9843f09beef
 docker: quay.io/biocontainers/bioconductor-msstatsptm
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

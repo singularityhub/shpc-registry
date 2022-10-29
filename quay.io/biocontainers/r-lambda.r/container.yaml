@@ -6,3 +6,7 @@ latest:
 tags:
   1.1.7--r3.3.2_0: sha256:e7d726b861da1baae69780f810cf37307296c740370941648d7f165fcddb656c
 docker: quay.io/biocontainers/r-lambda.r
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

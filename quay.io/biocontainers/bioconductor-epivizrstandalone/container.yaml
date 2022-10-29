@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:647b84e1a04542840a1e57d3c1a7970b6b4be62f2c37eb393a8a004a87951183
 docker: quay.io/biocontainers/bioconductor-epivizrstandalone
+aliases:
+  wget: /usr/local/bin/wget

@@ -35,3 +35,10 @@ aliases:
   res2ftbl_meas.py: /usr/local/bin/res2ftbl_meas.py
   txt2ftbl: /usr/local/bin/txt2ftbl
   txt2ftbl.py: /usr/local/bin/txt2ftbl.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

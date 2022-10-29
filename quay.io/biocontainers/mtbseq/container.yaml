@@ -7,7 +7,16 @@ tags:
   1.0.4--hdfd78af_2: sha256:e043bc02993a7022b69f2710842108a8e3cfd87e136b252677d3e59821dd9948
 docker: quay.io/biocontainers/mtbseq
 aliases:
-  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   MTBseq: /usr/local/bin/MTBseq
   gatk3: /usr/local/bin/gatk3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  ace2sam: /usr/local/bin/ace2sam
+  appletviewer: /usr/local/bin/appletviewer
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  clhsdb: /usr/local/bin/clhsdb
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  extcheck: /usr/local/bin/extcheck
+  hsdb: /usr/local/bin/hsdb

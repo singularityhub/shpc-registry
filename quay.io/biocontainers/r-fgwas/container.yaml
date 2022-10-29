@@ -6,3 +6,14 @@ latest:
 tags:
   0.3.6--r41hdfd78af_5: sha256:b08040648838093e64eb651e4b5f44f94cb4649ca061b53a6d6aaad18c20ee4f
 docker: quay.io/biocontainers/r-fgwas
+aliases:
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
+  env_parallel.sh: /usr/local/bin/env_parallel.sh

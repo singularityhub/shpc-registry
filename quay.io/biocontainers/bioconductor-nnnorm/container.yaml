@@ -6,3 +6,14 @@ latest:
 tags:
   2.58.0--r41hdfd78af_0: sha256:29eb36c4803fa35a8b8e01df27562352af70510117960f26551fd09d9aa671ec
 docker: quay.io/biocontainers/bioconductor-nnnorm
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -7,6 +7,15 @@ tags:
   2.1.0--hdfd78af_1: sha256:7f376b28ef1eacae072d608251203cf9fd8f14d302405921b8164581f1766aa8
 docker: quay.io/biocontainers/gepard
 aliases:
-  .gepard-post-link.sh: /usr/local/bin/.gepard-post-link.sh
   gepard: /usr/local/bin/gepard
   gepardcmd: /usr/local/bin/gepardcmd
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

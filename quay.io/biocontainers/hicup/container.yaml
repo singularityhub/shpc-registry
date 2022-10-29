@@ -24,3 +24,13 @@ aliases:
   hicup_reporter: /usr/local/bin/hicup_reporter
   hicup_truncater: /usr/local/bin/hicup_truncater
   make_hic_array.pl: /usr/local/bin/make_hic_array.pl
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie: /usr/local/bin/bowtie
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect: /usr/local/bin/bowtie-inspect

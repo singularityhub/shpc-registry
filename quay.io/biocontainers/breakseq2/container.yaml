@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/breakseq2
 aliases:
   breakseq2_gen_bplib.py: /usr/local/bin/breakseq2_gen_bplib.py
   run_breakseq2.py: /usr/local/bin/run_breakseq2.py
+  bcftools: /usr/local/bin/bcftools
+  bwa: /usr/local/bin/bwa
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  idle: /usr/local/bin/idle
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

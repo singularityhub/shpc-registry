@@ -14,3 +14,13 @@ aliases:
   bpipe-torque.sh: /usr/local/bin/bpipe-torque.sh
   bpipe-utils.sh: /usr/local/bin/bpipe-utils.sh
   groovy_script: /usr/local/bin/groovy_script
+  aserver: /usr/local/bin/aserver
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod

@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/scallop-umi
 aliases:
   scallop-umi: /usr/local/bin/scallop-umi
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

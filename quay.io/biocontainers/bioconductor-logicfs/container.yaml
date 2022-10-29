@@ -6,3 +6,10 @@ latest:
 tags:
   2.8.0--r40_0: sha256:7078b253b71f9c79c46e65d440d5d9047e874c96b6d44a507e6ec74a8895c0c1
 docker: quay.io/biocontainers/bioconductor-logicfs
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -6,3 +6,10 @@ latest:
 tags:
   1.32.0--r40hdfd78af_1: sha256:6c62bc396a83d9328dcfc2fcc741ede4d7d7e4074ea4fa63cdc5ca483778a66c
 docker: quay.io/biocontainers/bioconductor-methyanalysis
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

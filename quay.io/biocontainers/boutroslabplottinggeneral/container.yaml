@@ -6,3 +6,12 @@ latest:
 tags:
   5.3.4--r40_2: sha256:4deca0c85213c8960788c67711723947ff39888a8827f9866ea81d27f4ebb72b
 docker: quay.io/biocontainers/boutroslabplottinggeneral
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

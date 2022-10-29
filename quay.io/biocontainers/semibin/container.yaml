@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/semibin
 aliases:
   SemiBin: /usr/local/bin/SemiBin
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask
+  annotateBed: /usr/local/bin/annotateBed
+  awk: /usr/local/bin/awk
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

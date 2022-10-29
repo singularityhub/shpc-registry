@@ -21,3 +21,13 @@ aliases:
   raw_vcf_parse.py: /usr/local/bin/raw_vcf_parse.py
   resis_parser.py: /usr/local/bin/resis_parser.py
   uvp: /usr/local/bin/uvp
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  appletviewer: /usr/local/bin/appletviewer
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

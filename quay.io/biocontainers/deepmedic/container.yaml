@@ -16,3 +16,13 @@ aliases:
   nib-trk2tck: /usr/local/bin/nib-trk2tck
   parrec2nii: /usr/local/bin/parrec2nii
   ppserver.py: /usr/local/bin/ppserver.py
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy

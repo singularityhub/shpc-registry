@@ -6,3 +6,7 @@ latest:
 tags:
   1.1.0--r36_1: sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30
 docker: quay.io/biocontainers/bioconductor-brainimager
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

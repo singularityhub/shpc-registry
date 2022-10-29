@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/nanosim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for nanosim
+latest:
+  v1.3.0--py35r3.4.1_0: sha256:8fd01e0927413f59a517a2b030182c7ff43b8143dc0a9937b9a48d57e71a1005
+tags:
+  v1.3.0--py35r3.4.1_0: sha256:8fd01e0927413f59a517a2b030182c7ff43b8143dc0a9937b9a48d57e71a1005
+docker: quay.io/biocontainers/nanosim

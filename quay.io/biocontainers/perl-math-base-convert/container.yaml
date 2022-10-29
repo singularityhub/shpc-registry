@@ -6,3 +6,5 @@ latest:
 tags:
   0.11--pl5321hdfd78af_2: sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44
 docker: quay.io/biocontainers/perl-math-base-convert
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

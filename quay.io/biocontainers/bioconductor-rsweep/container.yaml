@@ -6,3 +6,14 @@ latest:
 tags:
   1.6.0--r41hdfd78af_0: sha256:7c73f2f4899d32f930b6ba4fbc24d29dbed46cd12e11208f3bd3e95984bce978
 docker: quay.io/biocontainers/bioconductor-rsweep
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

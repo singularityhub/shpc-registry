@@ -6,3 +6,7 @@ latest:
 tags:
   1.0_7--r3.3.1_0: sha256:d2f1121493387806f9e58007125f8fdf7175f875e2acb6a5a7f00b71b205f7b2
 docker: quay.io/biocontainers/r-truncnorm
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

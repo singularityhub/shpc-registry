@@ -7,9 +7,18 @@ tags:
   0.4.4--pyhdfd78af_0: sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007
 docker: quay.io/biocontainers/mimsi
 aliases:
-  .scikit-learn-post-link.sh: /usr/local/bin/.scikit-learn-post-link.sh
   analyze: /usr/local/bin/analyze
   create_data: /usr/local/bin/create_data
   evaluate_sample: /usr/local/bin/evaluate_sample
   mi_msi_train_test: /usr/local/bin/mi_msi_train_test
   visualize_instance: /usr/local/bin/visualize_instance
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  ninja: /usr/local/bin/ninja
+  nosetests: /usr/local/bin/nosetests
+  nosetests-3.9: /usr/local/bin/nosetests-3.9

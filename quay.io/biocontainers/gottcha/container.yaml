@@ -16,3 +16,8 @@ aliases:
   mkGottchaXML.pl: /usr/local/bin/mkGottchaXML.pl
   profileGottcha.pl: /usr/local/bin/profileGottcha.pl
   splitrim: /usr/local/bin/splitrim
+  bwa: /usr/local/bin/bwa
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl

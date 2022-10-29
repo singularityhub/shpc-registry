@@ -6,3 +6,14 @@ latest:
 tags:
   1.9--h2559242_7: sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3
 docker: quay.io/biocontainers/bcftools-snvphyl-plugin
+aliases:
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  htsfile: /usr/local/bin/htsfile
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  tabix: /usr/local/bin/tabix
+  vcfutils.pl: /usr/local/bin/vcfutils.pl

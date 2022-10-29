@@ -6,3 +6,12 @@ latest:
 tags:
   0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
 docker: quay.io/biocontainers/bucketcache
+aliases:
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  smtpd.py: /usr/local/bin/smtpd.py
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

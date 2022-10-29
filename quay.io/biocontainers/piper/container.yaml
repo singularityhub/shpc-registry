@@ -6,3 +6,14 @@ latest:
 tags:
   0.12.3--pyhdfd78af_0: sha256:8aa82fbb1ae15e6a3ee039c96a2142988931c2400b6a9e71c140c6fcb0b87a78
 docker: quay.io/biocontainers/piper
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  jsonschema: /usr/local/bin/jsonschema
+  py.test: /usr/local/bin/py.test
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  pytest: /usr/local/bin/pytest
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

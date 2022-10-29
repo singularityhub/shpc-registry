@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/rust-bio-tools
 aliases:
   rbt: /usr/local/bin/rbt
+  starcode: /usr/local/bin/starcode

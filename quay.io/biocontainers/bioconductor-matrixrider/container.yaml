@@ -6,3 +6,14 @@ latest:
 tags:
   1.26.0--r41hc0cfd56_2: sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838
 docker: quay.io/biocontainers/bioconductor-matrixrider
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

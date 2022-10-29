@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:4bd83e2bd44751fa7eb0a510554f97c5c0bf8af7bdc5af3beb34f854630b94b8
 docker: quay.io/biocontainers/bioconductor-metabocoreutils
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

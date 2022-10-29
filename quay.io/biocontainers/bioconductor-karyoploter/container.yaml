@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.5--r351_0: sha256:6b0ed6c296372f0055337ea4f552b8b02f3c8f79ac80f9e87f74292dd0778155
 docker: quay.io/biocontainers/bioconductor-karyoploter
+aliases:
+  wget: /usr/local/bin/wget

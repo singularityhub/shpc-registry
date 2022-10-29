@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28
 docker: quay.io/biocontainers/bioconductor-hipathia
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

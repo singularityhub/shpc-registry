@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9
 docker: quay.io/biocontainers/bioconductor-decomptumor2sig
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:1feb6dfb953239ade388b0787cd000360f795df81bd72e7f31a009de90a07a9a
 docker: quay.io/biocontainers/bioconductor-delayeddataframe
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

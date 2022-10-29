@@ -6,3 +6,6 @@ latest:
 tags:
   0.0.5--r36_0: sha256:7a3e81d97b81d4a1d7f808d58a73d82cd27e0809206697b1dc17182b0d59afc5
 docker: quay.io/biocontainers/r-prestor
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

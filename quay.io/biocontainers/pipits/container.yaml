@@ -50,3 +50,13 @@ aliases:
   pipits_uc2otutable: /usr/local/bin/pipits_uc2otutable
   pispino_createreadpairslist: /usr/local/bin/pispino_createreadpairslist
   pispino_seqprep: /usr/local/bin/pispino_seqprep
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  alimask: /usr/local/bin/alimask
+  biom: /usr/local/bin/biom
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap

@@ -25,3 +25,13 @@ aliases:
   split_magetab.pl: /usr/local/bin/split_magetab.pl
   validate_magetab.pl: /usr/local/bin/validate_magetab.pl
   validjson: /usr/local/bin/validjson
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  clusterdb: /usr/local/bin/clusterdb
+  config_data: /usr/local/bin/config_data
+  cpanm: /usr/local/bin/cpanm

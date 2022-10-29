@@ -6,3 +6,6 @@ latest:
 tags:
   0.3_r179--h7132678_3: sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0
 docker: quay.io/biocontainers/miniasm
+aliases:
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot

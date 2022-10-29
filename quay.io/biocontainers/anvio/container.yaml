@@ -7,7 +7,6 @@ tags:
   6.2--0: sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8
 docker: quay.io/biocontainers/anvio
 aliases:
-  00_README.txt: /usr/local/bin/00_README.txt
   anvi-analyze-synteny: /usr/local/bin/anvi-analyze-synteny
   anvi-cluster-contigs: /usr/local/bin/anvi-cluster-contigs
   anvi-compute-ani: /usr/local/bin/anvi-compute-ani
@@ -105,7 +104,6 @@ aliases:
   anvi-script-gen-scg-domain-classifier: /usr/local/bin/anvi-script-gen-scg-domain-classifier
   anvi-script-gen-short-reads: /usr/local/bin/anvi-script-gen-short-reads
   anvi-script-gen_stats_for_single_copy_genes.R: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.R
-  anvi-script-gen_stats_for_single_copy_genes.README: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README
   anvi-script-gen_stats_for_single_copy_genes.py: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.py
   anvi-script-gen_stats_for_single_copy_genes.sh: /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.sh
   anvi-script-get-collection-info: /usr/local/bin/anvi-script-get-collection-info
@@ -181,3 +179,13 @@ aliases:
   iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
   iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts
   sqlformat: /usr/local/bin/sqlformat
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  assistant: /usr/local/bin/assistant
+  between-two-genes: /usr/local/bin/between-two-genes

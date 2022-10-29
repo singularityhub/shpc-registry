@@ -12,3 +12,10 @@ aliases:
   ninety_five_percent.py: /usr/local/bin/ninety_five_percent.py
   run_for.py: /usr/local/bin/run_for.py
   sample.py: /usr/local/bin/sample.py
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

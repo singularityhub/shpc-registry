@@ -6,3 +6,5 @@ latest:
 tags:
   1.92--pl5321hec16e2b_4: sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25
 docker: quay.io/biocontainers/perl-aceperl
+aliases:
+  ace.pl: /usr/local/bin/ace.pl

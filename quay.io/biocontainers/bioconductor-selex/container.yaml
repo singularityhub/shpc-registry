@@ -6,3 +6,14 @@ latest:
 tags:
   1.26.0--r41hdfd78af_0: sha256:3ed6ff2715fa16b45e1c5a2b555f35e6ca932f9a8608b4e30b3ebf0b39347c3e
 docker: quay.io/biocontainers/bioconductor-selex
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

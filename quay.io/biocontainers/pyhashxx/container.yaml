@@ -6,3 +6,14 @@ latest:
 tags:
   0.1.3--py36_1: sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987
 docker: quay.io/biocontainers/pyhashxx
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv: /usr/local/bin/pyvenv

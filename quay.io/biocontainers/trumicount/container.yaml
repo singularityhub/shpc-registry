@@ -10,3 +10,5 @@ aliases:
   gawk-4.1.3: /usr/local/bin/gawk-4.1.3
   igawk: /usr/local/bin/igawk
   trumicount: /usr/local/bin/trumicount
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk

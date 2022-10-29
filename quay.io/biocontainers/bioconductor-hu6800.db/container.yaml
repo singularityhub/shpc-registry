@@ -7,5 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:9404631d76a36484c3246f3451869449b1a1c2d224e1f1539ff85fa90466dc6c
 docker: quay.io/biocontainers/bioconductor-hu6800.db
 aliases:
-  .bioconductor-hu6800.db-post-link.sh: /usr/local/bin/.bioconductor-hu6800.db-post-link.sh
-  .bioconductor-hu6800.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hu6800.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:a9c4cbbb53c78b7bbfc8f06f0aeb9de38091e2ea814242b9b7566e55bed507c4
 docker: quay.io/biocontainers/bioconductor-screcover
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

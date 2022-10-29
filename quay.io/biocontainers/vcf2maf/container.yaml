@@ -7,7 +7,6 @@ tags:
   1.6.8--0: sha256:5f4b0b6159d556d2de7f2bb46db688928d41ee28c8b1dd0f632cf6b558732805
 docker: quay.io/biocontainers/vcf2maf
 aliases:
-  .variant-effect-predictor-post-link.sh: /usr/local/bin/.variant-effect-predictor-post-link.sh
   filter_vep.pl: /usr/local/bin/filter_vep.pl
   maf2maf.pl: /usr/local/bin/maf2maf.pl
   maf2vcf.pl: /usr/local/bin/maf2vcf.pl
@@ -16,3 +15,13 @@ aliases:
   vcf2vcf.pl: /usr/local/bin/vcf2vcf.pl
   vep_convert_cache.pl: /usr/local/bin/vep_convert_cache.pl
   vep_install.pl: /usr/local/bin/vep_install.pl
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl
+  bp_bioflat_index.pl: /usr/local/bin/bp_bioflat_index.pl
+  bp_biogetseq.pl: /usr/local/bin/bp_biogetseq.pl
+  bp_blast2tree.pl: /usr/local/bin/bp_blast2tree.pl
+  bp_bulk_load_gff.pl: /usr/local/bin/bp_bulk_load_gff.pl

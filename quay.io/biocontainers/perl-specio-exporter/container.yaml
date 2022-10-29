@@ -6,3 +6,8 @@ latest:
 tags:
   0.36--pl526_3: sha256:8f91a6f993a9e2896566f9e5aa342497c412b47f88ba2c112943363ed2efcae7
 docker: quay.io/biocontainers/perl-specio-exporter
+aliases:
+  config_data: /usr/local/bin/config_data
+  cpanm: /usr/local/bin/cpanm
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

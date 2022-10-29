@@ -6,3 +6,8 @@ latest:
 tags:
   2.8.0--r3.4.1_0: sha256:c8c30b6041ad9035bcdd9685ad6b35ec40afc6c617cdccb9f0d1299af2336703
 docker: quay.io/biocontainers/bioconductor-qvalue
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

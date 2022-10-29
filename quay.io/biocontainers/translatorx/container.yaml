@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/translatorx
 aliases:
   translatorx: /usr/local/bin/translatorx
   translatorx_vLocal.pl: /usr/local/bin/translatorx_vLocal.pl
+  muscle: /usr/local/bin/muscle
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

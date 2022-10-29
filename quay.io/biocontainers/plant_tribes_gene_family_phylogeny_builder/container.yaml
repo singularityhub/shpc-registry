@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/plant_tribes_gene_family_phylogeny_builder
 aliases:
   GeneFamilyPhylogenyBuilder: /usr/local/bin/GeneFamilyPhylogenyBuilder
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  fasttree: /usr/local/bin/fasttree
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS
+  raxmlHPC-PTHREADS-AVX2: /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+  raxmlHPC-PTHREADS-SSE3: /usr/local/bin/raxmlHPC-PTHREADS-SSE3

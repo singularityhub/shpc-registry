@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:28d0a139a27e473ff709bc7ee4301e1c501040230d0212ef3aa389acc3106b4f
 docker: quay.io/biocontainers/bioconductor-yarn
+aliases:
+  wget: /usr/local/bin/wget

@@ -6,3 +6,14 @@ latest:
 tags:
   2.9.3--h550f44e_0: sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b
 docker: quay.io/biocontainers/ncbi-ngs-sdk
+aliases:
+  activate: /usr/local/bin/activate
+  conda: /usr/local/bin/conda
+  deactivate: /usr/local/bin/deactivate
+  derb: /usr/local/bin/derb
+  genbrk: /usr/local/bin/genbrk
+  gencfu: /usr/local/bin/gencfu
+  gencnval: /usr/local/bin/gencnval
+  gendict: /usr/local/bin/gendict
+  genrb: /usr/local/bin/genrb
+  iconv: /usr/local/bin/iconv

@@ -6,3 +6,14 @@ latest:
 tags:
   0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
 docker: quay.io/biocontainers/rdflib-jsonld
+aliases:
+  csv2rdf: /usr/local/bin/csv2rdf
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot

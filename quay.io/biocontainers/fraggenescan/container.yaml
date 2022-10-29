@@ -6,3 +6,6 @@ latest:
 tags:
   1.31--hec16e2b_4: sha256:aa423a24228d6ea9b6916e4e48aa9d2c000c8786ddcbd9de3194474c5b4ce00b
 docker: quay.io/biocontainers/fraggenescan
+aliases:
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:329c7e980e76613642512b0bffb7929261852c6755f169b72713102d37baeb2f
 docker: quay.io/biocontainers/bioconductor-tnt
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

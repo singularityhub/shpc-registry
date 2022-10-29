@@ -6,3 +6,14 @@ latest:
 tags:
   1.06--pl5321hdfd78af_2: sha256:0434b1c0b3ee760fe75a0aab70100ab2c2aacb9d1a68dfc5028f34b4b336480d
 docker: quay.io/biocontainers/perl-test-memory-cycle
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

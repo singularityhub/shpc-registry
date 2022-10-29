@@ -6,3 +6,7 @@ latest:
 tags:
   1.49.0--r36_1: sha256:dac73c6636818b522679660fce06fdf0ac0f5a4e5777709d6f35c601fdbf7b6f
 docker: quay.io/biocontainers/bioconductor-rhvdm
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

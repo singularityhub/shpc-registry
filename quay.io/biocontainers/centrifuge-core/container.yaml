@@ -20,3 +20,6 @@ aliases:
   centrifuge-inspect-bin: /usr/local/bin/centrifuge-inspect-bin
   centrifuge-kreport: /usr/local/bin/centrifuge-kreport
   centrifuge-sort-nt.pl: /usr/local/bin/centrifuge-sort-nt.pl
+  idn2: /usr/local/bin/idn2
+  tar: /usr/local/bin/tar
+  wget: /usr/local/bin/wget

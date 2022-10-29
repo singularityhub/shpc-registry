@@ -8,3 +8,12 @@ tags:
 docker: quay.io/biocontainers/irida-staramr-results
 aliases:
   irida-staramr-results: /usr/local/bin/irida-staramr-results
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  chardetect: /usr/local/bin/chardetect
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  vba_extract.py: /usr/local/bin/vba_extract.py

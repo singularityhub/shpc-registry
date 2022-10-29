@@ -18,3 +18,10 @@ aliases:
   hts_SeqScreener: /usr/local/bin/hts_SeqScreener
   hts_Stats: /usr/local/bin/hts_Stats
   hts_SuperDeduper: /usr/local/bin/hts_SuperDeduper
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

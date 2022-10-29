@@ -6,3 +6,14 @@ latest:
 tags:
   1.64.0--r40hd029910_1: sha256:af6d7ac3ee7e13dff28ea93a2e12d69120c876a9d2eb756447265f6257d7d189
 docker: quay.io/biocontainers/bioconductor-sagx
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pwmenrich
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pwmenrich
+latest:
+  4.30.0--r41hdfd78af_0: sha256:1b578da0c635c0e27543d413378f21f1a397db1b5b8465889c0504a15d04d383
+tags:
+  4.30.0--r41hdfd78af_0: sha256:1b578da0c635c0e27543d413378f21f1a397db1b5b8465889c0504a15d04d383
+docker: quay.io/biocontainers/bioconductor-pwmenrich

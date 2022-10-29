@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:a0488f30cbb6b9b1eff220d1df52266f1634a15ec50c3ff047e5cc582dcdd53d
 docker: quay.io/biocontainers/bioconductor-gigsea
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

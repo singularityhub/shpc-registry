@@ -14,3 +14,13 @@ aliases:
   mlst: /usr/local/bin/mlst
   ncbi-genome-download: /usr/local/bin/ncbi-genome-download
   ngd: /usr/local/bin/ngd
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FET.pl: /usr/local/bin/FET.pl
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  any2fasta: /usr/local/bin/any2fasta

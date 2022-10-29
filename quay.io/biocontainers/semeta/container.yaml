@@ -7,7 +7,16 @@ tags:
   1.0--0: sha256:1a6859d197e0898c4364ddb2463e97426d8c631376ac23010dd3032409d8c240
 docker: quay.io/biocontainers/semeta
 aliases:
-  .semeta-post-link.sh: /usr/local/bin/.semeta-post-link.sh
   SeMeta_Assign: /usr/local/bin/SeMeta_Assign
   SeMeta_Cluster: /usr/local/bin/SeMeta_Cluster
   config.conf: /usr/local/bin/config.conf
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  convert2blastmask: /usr/local/bin/convert2blastmask
+  datatool: /usr/local/bin/datatool

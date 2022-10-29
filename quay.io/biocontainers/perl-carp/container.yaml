@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-carp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-carp
+latest:
+  1.38--pl5321hdfd78af_4: sha256:fe57f6fce704cf50efe32419a1a8ee115e2b5c1f113d4327d2d057150f70f822
+tags:
+  1.38--pl5321hdfd78af_4: sha256:fe57f6fce704cf50efe32419a1a8ee115e2b5c1f113d4327d2d057150f70f822
+docker: quay.io/biocontainers/perl-carp

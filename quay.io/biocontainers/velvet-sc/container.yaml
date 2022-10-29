@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/velvet-sc
 aliases:
   shuffleSequences_fasta.pl: /usr/local/bin/shuffleSequences_fasta.pl
   shuffleSequences_fastq.pl: /usr/local/bin/shuffleSequences_fastq.pl
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth

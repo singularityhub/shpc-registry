@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/rcorrector
 aliases:
   rcorrector: /usr/local/bin/rcorrector
   run_rcorrector.pl: /usr/local/bin/run_rcorrector.pl
+  jellyfish: /usr/local/bin/jellyfish

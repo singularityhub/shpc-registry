@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/biobb_adapters
 aliases:
   black-primer: /usr/local/bin/black-primer
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  bagit.py: /usr/local/bin/bagit.py
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  black: /usr/local/bin/black

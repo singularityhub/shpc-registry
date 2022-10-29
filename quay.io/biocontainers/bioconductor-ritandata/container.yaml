@@ -7,5 +7,13 @@ tags:
   1.8.0--r36_1: sha256:82032f69af8b0579fc56e423cacc258671746d2c9a8e2104866e2238b7e58ebd
 docker: quay.io/biocontainers/bioconductor-ritandata
 aliases:
-  .bioconductor-ritandata-post-link.sh: /usr/local/bin/.bioconductor-ritandata-post-link.sh
-  .bioconductor-ritandata-pre-unlink.sh: /usr/local/bin/.bioconductor-ritandata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

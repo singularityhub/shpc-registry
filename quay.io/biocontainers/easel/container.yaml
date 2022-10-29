@@ -6,3 +6,14 @@ latest:
 tags:
   0.48--hec16e2b_1: sha256:eec502257796955e682002f3b9e4b72375656240b7435c27b2e1fba147fd1688
 docker: quay.io/biocontainers/easel
+aliases:
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask
+  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-alipid: /usr/local/bin/esl-alipid
+  esl-alirev: /usr/local/bin/esl-alirev
+  esl-alistat: /usr/local/bin/esl-alistat
+  esl-compalign: /usr/local/bin/esl-compalign

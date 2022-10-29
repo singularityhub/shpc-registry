@@ -7,7 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:2b301fca27e2e30311e04769855445a241c1bb21276331f19558848271cca733
 docker: quay.io/biocontainers/bioconductor-ecoli2.db
 aliases:
-  .bioconductor-ecoli2.db-post-link.sh: /usr/local/bin/.bioconductor-ecoli2.db-post-link.sh
-  .bioconductor-ecoli2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoli2.db-pre-unlink.sh
-  .bioconductor-org.eck12.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.eck12.eg.db-post-link.sh
-  .bioconductor-org.eck12.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.eck12.eg.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

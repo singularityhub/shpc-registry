@@ -7,5 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:b7d29cae7158e28fc11956e4b1fc3e6bf778c6d4b2015726f3ca40937b25fd9c
 docker: quay.io/biocontainers/bioconductor-mcsurvdata
 aliases:
-  .bioconductor-mcsurvdata-post-link.sh: /usr/local/bin/.bioconductor-mcsurvdata-post-link.sh
-  .bioconductor-mcsurvdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mcsurvdata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

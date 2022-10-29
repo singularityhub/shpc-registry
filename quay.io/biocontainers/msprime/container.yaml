@@ -18,3 +18,13 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5dump: /usr/local/bin/h5dump
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam

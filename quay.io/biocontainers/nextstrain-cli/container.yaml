@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/nextstrain-cli
 aliases:
   nextstrain: /usr/local/bin/nextstrain
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  docutils: /usr/local/bin/docutils
+  idle3.10: /usr/local/bin/idle3.10
+  jp.py: /usr/local/bin/jp.py
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  rst2html.py: /usr/local/bin/rst2html.py

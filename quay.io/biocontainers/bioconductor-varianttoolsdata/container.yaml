@@ -7,5 +7,13 @@ tags:
   1.8.0--r36_1: sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca
 docker: quay.io/biocontainers/bioconductor-varianttoolsdata
 aliases:
-  .bioconductor-varianttoolsdata-post-link.sh: /usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh
-  .bioconductor-varianttoolsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

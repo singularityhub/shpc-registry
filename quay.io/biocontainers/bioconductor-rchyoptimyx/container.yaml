@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-rchyoptimyx
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-rchyoptimyx
+latest:
+  2.28.0--r40h5f743cb_0: sha256:a01c7e36ca059985b0932509f9691ab75df8d65017f79cb54bd5a326df13d401
+tags:
+  2.28.0--r40h5f743cb_0: sha256:a01c7e36ca059985b0932509f9691ab75df8d65017f79cb54bd5a326df13d401
+docker: quay.io/biocontainers/bioconductor-rchyoptimyx

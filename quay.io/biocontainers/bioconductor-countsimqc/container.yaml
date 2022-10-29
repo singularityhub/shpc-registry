@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.1--r40hdfd78af_0: sha256:fdcbc1421ec94f767d3669b2d977d74f17a2e1c24db8b33634ec3e74a6128778
 docker: quay.io/biocontainers/bioconductor-countsimqc
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

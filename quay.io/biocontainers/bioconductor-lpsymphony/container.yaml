@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r341hfc679d8_0: sha256:a4f6bb16081254b99909e7d960be7c44bac839f9380d8b536705a1c5afc51239
 docker: quay.io/biocontainers/bioconductor-lpsymphony
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.5--r36_0: sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685
 docker: quay.io/biocontainers/bioconductor-atacseqqc
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -7,7 +7,4 @@ tags:
   0.99.8--r41hdfd78af_1: sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f
 docker: quay.io/biocontainers/bioconductor-synaptome.db
 aliases:
-  .bioconductor-synaptome.data-post-link.sh: /usr/local/bin/.bioconductor-synaptome.data-post-link.sh
-  .bioconductor-synaptome.data-pre-unlink.sh: /usr/local/bin/.bioconductor-synaptome.data-pre-unlink.sh
-  .bioconductor-synaptome.db-post-link.sh: /usr/local/bin/.bioconductor-synaptome.db-post-link.sh
-  .bioconductor-synaptome.db-pre-unlink.sh: /usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh
+  glpsol: /usr/local/bin/glpsol

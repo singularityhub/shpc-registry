@@ -6,3 +6,14 @@ latest:
 tags:
   1.40.0--r41hdfd78af_0: sha256:2b3a965bf006074d7d28fe494fa91e311cc02cc043f33427d40ad245bb570b17
 docker: quay.io/biocontainers/bioconductor-graphite
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -16,3 +16,13 @@ aliases:
   download_database.sh: /usr/local/bin/download_database.sh
   install_dependencies.sh: /usr/local/bin/install_dependencies.sh
   run_busco.sh: /usr/local/bin/run_busco.sh
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastdbcp: /usr/local/bin/blastdbcp
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
+  blastx: /usr/local/bin/blastx
+  chardetect: /usr/local/bin/chardetect

@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.1--r351_0: sha256:86ff56b73040e1e08f0a4f1856397ab33577e3be333acab7a7f1429683be3355
 docker: quay.io/biocontainers/bioconductor-netprior
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

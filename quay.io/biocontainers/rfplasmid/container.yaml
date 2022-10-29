@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/rfplasmid
 aliases:
   rfplasmid: /usr/local/bin/rfplasmid
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  alimask: /usr/local/bin/alimask
+  checkm: /usr/local/bin/checkm
+  dendropy-format: /usr/local/bin/dendropy-format
+  diamond: /usr/local/bin/diamond
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask

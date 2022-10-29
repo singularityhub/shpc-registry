@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:811c0963c07be52ab3ca2a324dbe4e7591ad3b3ce0ce061d85d10c85b253bb3e
 docker: quay.io/biocontainers/bioconductor-cellbench
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

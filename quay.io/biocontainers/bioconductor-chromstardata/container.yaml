@@ -7,5 +7,4 @@ tags:
   1.8.0--r351_0: sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e
 docker: quay.io/biocontainers/bioconductor-chromstardata
 aliases:
-  .bioconductor-chromstardata-post-link.sh: /usr/local/bin/.bioconductor-chromstardata-post-link.sh
-  .bioconductor-chromstardata-pre-unlink.sh: /usr/local/bin/.bioconductor-chromstardata-pre-unlink.sh
+  wget: /usr/local/bin/wget

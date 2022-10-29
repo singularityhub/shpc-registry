@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-class-load
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-class-load
+latest:
+  0.25--pl5321hdfd78af_1: sha256:5e9e4c2691a8fa104affa0fcfcb571dd12d08ed7c2c1421f69eeae224e6de43b
+tags:
+  0.25--pl5321hdfd78af_1: sha256:5e9e4c2691a8fa104affa0fcfcb571dd12d08ed7c2c1421f69eeae224e6de43b
+docker: quay.io/biocontainers/perl-class-load

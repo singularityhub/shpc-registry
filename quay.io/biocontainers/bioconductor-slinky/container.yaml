@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:09dbad876106d9f28692f8b3a016f1f38fb0517daeaabb6d37c0e21d9bde36af
 docker: quay.io/biocontainers/bioconductor-slinky
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

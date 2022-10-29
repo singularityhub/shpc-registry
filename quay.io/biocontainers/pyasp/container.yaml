@@ -6,3 +6,14 @@ latest:
 tags:
   1.4.3--py35_1: sha256:ebebfc901da3ca0d934f3461763346c44a32a16c1edeafe5bf67caa57cdf8081
 docker: quay.io/biocontainers/pyasp
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv: /usr/local/bin/pyvenv

@@ -10,3 +10,13 @@ aliases:
   cameo: /usr/local/bin/cameo
   grako: /usr/local/bin/grako
   httpx: /usr/local/bin/httpx
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  chardetect: /usr/local/bin/chardetect
+  cmark: /usr/local/bin/cmark
+  curve_keygen: /usr/local/bin/curve_keygen
+  f2py3.9: /usr/local/bin/f2py3.9
+  futurize: /usr/local/bin/futurize
+  glpsol: /usr/local/bin/glpsol
+  idle3.9: /usr/local/bin/idle3.9
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3

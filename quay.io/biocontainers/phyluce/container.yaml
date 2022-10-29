@@ -7,7 +7,6 @@ tags:
   1.6.8--py_0: sha256:0368503f7b57cd1beb988d97d5549751bff0cf9f470e7ddb84e942930f39fbc4
 docker: quay.io/biocontainers/phyluce
 aliases:
-  .gatk-post-link.sh: /usr/local/bin/.gatk-post-link.sh
   Gblocks: /usr/local/bin/Gblocks
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   ParaFly: /usr/local/bin/ParaFly
@@ -160,3 +159,13 @@ aliases:
   slclust: /usr/local/bin/slclust
   spades-dipspades-core: /usr/local/bin/spades-dipspades-core
   strict_consensus_merge.py: /usr/local/bin/strict_consensus_merge.py
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40h399db7b_1: sha256:649ebc8f3b5e92668a5500a95876a5b16e47a9d665f4df7234f79280c98380fc
 docker: quay.io/biocontainers/bioconductor-outrider
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

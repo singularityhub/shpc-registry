@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/referenceseeker
 aliases:
   referenceseeker: /usr/local/bin/referenceseeker
   referenceseeker_db: /usr/local/bin/referenceseeker_db
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotate: /usr/local/bin/annotate
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  delta2vcf: /usr/local/bin/delta2vcf
+  dnadiff: /usr/local/bin/dnadiff

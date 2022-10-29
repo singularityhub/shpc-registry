@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r341_0: sha256:45e4ee7d38e318cbf614514c1adbd807f3b06f41722615a9c749ca8aa91c21aa
 docker: quay.io/biocontainers/bioconductor-gsalightning
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

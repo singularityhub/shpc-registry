@@ -7,8 +7,17 @@ tags:
   0.4.0--2: sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f
 docker: quay.io/biocontainers/gmap-fusion
 aliases:
-  .gmap-fusion-post-link.sh: /usr/local/bin/.gmap-fusion-post-link.sh
   GMAP-fusion: /usr/local/bin/GMAP-fusion
   gmap_compress: /usr/local/bin/gmap_compress
   gmap_reassemble: /usr/local/bin/gmap_reassemble
   gmap_uncompress: /usr/local/bin/gmap_uncompress
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ace2sam: /usr/local/bin/ace2sam
+  atoiindex: /usr/local/bin/atoiindex
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l

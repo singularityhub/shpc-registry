@@ -6,3 +6,14 @@ latest:
 tags:
   0.34.0--r41hdfd78af_0: sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4
 docker: quay.io/biocontainers/bioconductor-vtpnet
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

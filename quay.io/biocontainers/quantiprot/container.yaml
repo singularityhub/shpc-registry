@@ -6,3 +6,6 @@ latest:
 tags:
   0.2.4--py_0: sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c
 docker: quay.io/biocontainers/quantiprot
+aliases:
+  chardetect: /usr/local/bin/chardetect
+  f2py3.8: /usr/local/bin/f2py3.8

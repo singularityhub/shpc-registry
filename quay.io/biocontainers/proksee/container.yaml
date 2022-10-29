@@ -7,8 +7,6 @@ tags:
   1.0.0a4--pyhdfd78af_0: sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce
 docker: quay.io/biocontainers/proksee
 aliases:
-  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
-  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
   icarus.py: /usr/local/bin/icarus.py
   metaquast: /usr/local/bin/metaquast
   metaquast.py: /usr/local/bin/metaquast.py
@@ -20,3 +18,13 @@ aliases:
   quast-lg.py: /usr/local/bin/quast-lg.py
   quast.py: /usr/local/bin/quast.py
   skesa: /usr/local/bin/skesa
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asn2xml: /usr/local/bin/asn2xml
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd

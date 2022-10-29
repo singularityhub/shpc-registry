@@ -55,3 +55,13 @@ aliases:
   simulate_sequences.py: /usr/local/bin/simulate_sequences.py
   simulate_sequencing_simple.py: /usr/local/bin/simulate_sequencing_simple.py
   split_fastx.py: /usr/local/bin/split_fastx.py
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  bgzip: /usr/local/bin/bgzip
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  py.test: /usr/local/bin/py.test
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  pytest: /usr/local/bin/pytest

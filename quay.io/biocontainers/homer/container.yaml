@@ -162,3 +162,7 @@ aliases:
   tagDir2bed.pl: /usr/local/bin/tagDir2bed.pl
   tagDir2hicFile.pl: /usr/local/bin/tagDir2hicFile.pl
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
+  fastq2fasta.pl: /usr/local/bin/fastq2fasta.pl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl

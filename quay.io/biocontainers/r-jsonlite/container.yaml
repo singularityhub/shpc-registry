@@ -6,3 +6,7 @@ latest:
 tags:
   0.9.19--r3.3.1_1: sha256:47f1d9f319e2f735cbdb56afc695e313eb6d460a229e7edb433c3debe7bb347e
 docker: quay.io/biocontainers/r-jsonlite
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

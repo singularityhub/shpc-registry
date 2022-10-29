@@ -6,3 +6,7 @@ latest:
 tags:
   0.031--pl5321hdfd78af_0: sha256:45eaa4d368938ac58f250b0890250e9c250f2ee84e4a1f1bbe2b7255df3037b8
 docker: quay.io/biocontainers/perl-term-app-roles
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

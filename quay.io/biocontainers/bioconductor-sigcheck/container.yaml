@@ -6,3 +6,14 @@ latest:
 tags:
   2.26.0--r41hdfd78af_0: sha256:3f87c9c98e5151a4d057496590f447788f269789dacabbc5be866c4d1bde1fba
 docker: quay.io/biocontainers/bioconductor-sigcheck
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

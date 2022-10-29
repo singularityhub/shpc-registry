@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:7053c195625e35fb9271587a830bf6512827379f85641d5dc6ae3d531940a0b2
 docker: quay.io/biocontainers/bioconductor-demixt
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

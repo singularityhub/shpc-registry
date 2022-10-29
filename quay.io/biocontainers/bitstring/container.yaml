@@ -6,3 +6,14 @@ latest:
 tags:
   3.1.5--py35_1: sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004
 docker: quay.io/biocontainers/bitstring
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

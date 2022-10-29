@@ -6,3 +6,14 @@ latest:
 tags:
   0.36--pl5321hdfd78af_2: sha256:f654a9d554fbb01c26dc2c3a6c918c83d756145248a957a00e76704e3ec35e4e
 docker: quay.io/biocontainers/perl-test-warn
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

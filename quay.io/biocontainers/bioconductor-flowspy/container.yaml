@@ -6,3 +6,12 @@ latest:
 tags:
   1.4.0--r40h399db7b_2: sha256:c7c50ccd79ba04b6c989d2914f094b1b752dca37a093479ada94e82ec32bca0e
 docker: quay.io/biocontainers/bioconductor-flowspy
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pandoc: /usr/local/bin/pandoc
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

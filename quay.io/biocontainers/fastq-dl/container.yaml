@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/fastq-dl
 aliases:
   executor: /usr/local/bin/executor
   fastq-dl: /usr/local/bin/fastq-dl
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
+  abi-load: /usr/local/bin/abi-load
+  abi-load.2: /usr/local/bin/abi-load.2
+  abi-load.2.11.0: /usr/local/bin/abi-load.2.11.0
+  align-cache: /usr/local/bin/align-cache
+  align-cache.2: /usr/local/bin/align-cache.2
+  align-cache.2.11.0: /usr/local/bin/align-cache.2.11.0

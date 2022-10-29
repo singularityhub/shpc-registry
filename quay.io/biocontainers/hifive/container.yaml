@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/hifive
 aliases:
   fetch_mrh_data: /usr/local/bin/fetch_mrh_data
   hifive: /usr/local/bin/hifive
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

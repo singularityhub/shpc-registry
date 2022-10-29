@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/aletsch
 aliases:
   aletsch: /usr/local/bin/aletsch
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

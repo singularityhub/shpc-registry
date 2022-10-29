@@ -6,3 +6,6 @@ latest:
 tags:
   1.36--pl5321h9f5acd7_0: sha256:5dee016a721c609a03bf2ee0e6d327048e4325fda77efc2c8ddef4a29e2edd32
 docker: quay.io/biocontainers/perl-datetime-locale
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

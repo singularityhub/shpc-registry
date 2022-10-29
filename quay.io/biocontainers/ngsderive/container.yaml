@@ -10,3 +10,13 @@ aliases:
   ngsderive: /usr/local/bin/ngsderive
   pkginfo: /usr/local/bin/pkginfo
   poetry: /usr/local/bin/poetry
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  doesitcache: /usr/local/bin/doesitcache
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  jsonschema: /usr/local/bin/jsonschema
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m

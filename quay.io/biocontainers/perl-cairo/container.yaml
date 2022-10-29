@@ -6,3 +6,14 @@ latest:
 tags:
   1.109--pl5321h80db5c4_1: sha256:427533bfce3e97759599403cb6396869d58c5a13dac1be81fdd90b669d702f4b
 docker: quay.io/biocontainers/perl-cairo
+aliases:
+  autopoint: /usr/local/bin/autopoint
+  cairo-trace: /usr/local/bin/cairo-trace
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  derb: /usr/local/bin/derb
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  envsubst: /usr/local/bin/envsubst
+  fc-cache: /usr/local/bin/fc-cache
+  fc-cat: /usr/local/bin/fc-cat

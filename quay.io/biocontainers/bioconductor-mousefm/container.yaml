@@ -6,3 +6,5 @@ latest:
 tags:
   1.0.0--r40hdfd78af_2: sha256:df2d6893dd3b1542d336aca8d90a72573a655fcb0a4fd32fda5d1e95f9cc002b
 docker: quay.io/biocontainers/bioconductor-mousefm
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

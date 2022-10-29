@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r351_0: sha256:f09ebf3fe3800aadcd0041448e1ab4f9d4245b6ff7201c41e133d918d628f2af
 docker: quay.io/biocontainers/bioconductor-globalseq
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

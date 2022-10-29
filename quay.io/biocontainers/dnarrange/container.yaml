@@ -34,3 +34,13 @@ aliases:
   maf-swap: /usr/local/bin/maf-swap
   parallel-fasta: /usr/local/bin/parallel-fasta
   parallel-fastq: /usr/local/bin/parallel-fastq
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  einsi: /usr/local/bin/einsi
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish

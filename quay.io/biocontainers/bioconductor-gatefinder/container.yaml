@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777
 docker: quay.io/biocontainers/bioconductor-gatefinder
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

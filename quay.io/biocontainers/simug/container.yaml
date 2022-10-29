@@ -23,3 +23,5 @@ aliases:
   zless: /usr/local/bin/zless
   zmore: /usr/local/bin/zmore
   znew: /usr/local/bin/znew
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

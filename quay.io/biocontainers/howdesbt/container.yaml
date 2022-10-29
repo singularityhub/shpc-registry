@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/howdesbt
 aliases:
   howdesbt: /usr/local/bin/howdesbt
+  jellyfish: /usr/local/bin/jellyfish

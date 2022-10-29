@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/megadepth
 aliases:
   megadepth: /usr/local/bin/megadepth
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

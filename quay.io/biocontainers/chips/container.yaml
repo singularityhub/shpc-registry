@@ -6,3 +6,8 @@ latest:
 tags:
   2.4--hea94271_4: sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163
 docker: quay.io/biocontainers/chips
+aliases:
+  bgzip: /usr/local/bin/bgzip
+  chips: /usr/local/bin/chips
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

@@ -6,3 +6,10 @@ latest:
 tags:
   0.3.12--r3.2.2_0: sha256:30dfb9c241562990e0bece6ed3b11323b576865991dd492dc95eaccab1292755
 docker: quay.io/biocontainers/r-biom
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

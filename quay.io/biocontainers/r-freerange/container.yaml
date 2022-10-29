@@ -6,3 +6,14 @@ latest:
 tags:
   0.2.8--r36_0: sha256:4ee52607f3886a4b45f60820f270aa8c21d44304bad4ff0ec94283b87f36320c
 docker: quay.io/biocontainers/r-freerange
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

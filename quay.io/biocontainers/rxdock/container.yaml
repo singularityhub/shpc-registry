@@ -26,3 +26,13 @@ aliases:
   sdsort: /usr/local/bin/sdsort
   sdsplit: /usr/local/bin/sdsplit
   sdtether: /usr/local/bin/sdtether
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obfitall: /usr/local/bin/obfitall
+  obgen: /usr/local/bin/obgen

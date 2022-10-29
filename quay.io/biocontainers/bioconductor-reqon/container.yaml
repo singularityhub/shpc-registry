@@ -6,3 +6,14 @@ latest:
 tags:
   1.40.0--r41hdfd78af_0: sha256:5d4801bde17f22db3640fd229ad6ce8a98c4d35b14d372235502f0a8db4c6f0a
 docker: quay.io/biocontainers/bioconductor-reqon
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

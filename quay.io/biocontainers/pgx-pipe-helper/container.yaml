@@ -10,3 +10,13 @@ aliases:
   complete_locus: /usr/local/bin/complete_locus
   locus2bed: /usr/local/bin/locus2bed
   validate_locus: /usr/local/bin/validate_locus
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot

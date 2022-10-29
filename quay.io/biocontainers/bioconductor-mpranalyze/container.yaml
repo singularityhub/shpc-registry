@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:a4d8d593d82bb3143a2a6f34918b152cbef6e95e1a6aa8430684f983d6773b94
 docker: quay.io/biocontainers/bioconductor-mpranalyze
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

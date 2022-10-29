@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/sqt
 aliases:
   sqt: /usr/local/bin/sqt
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  cups-config: /usr/local/bin/cups-config
+  cutadapt: /usr/local/bin/cutadapt

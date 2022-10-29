@@ -10,3 +10,13 @@ aliases:
   MHG: /usr/local/bin/MHG
   MHG-partition: /usr/local/bin/MHG-partition
   genome-to-blast-db: /usr/local/bin/genome-to-blast-db
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

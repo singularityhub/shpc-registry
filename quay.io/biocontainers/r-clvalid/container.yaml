@@ -6,3 +6,14 @@ latest:
 tags:
   0.6_6--r36h6115d3f_1: sha256:f1143dbfb08f1b7056e5203ddb04609756442baf834164364744fe480527502e
 docker: quay.io/biocontainers/r-clvalid
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -19,3 +19,4 @@ aliases:
   simreads: /usr/local/bin/simreads
   simreadsbs: /usr/local/bin/simreadsbs
   simreadspe: /usr/local/bin/simreadspe
+  extractseq: /usr/local/bin/extractseq

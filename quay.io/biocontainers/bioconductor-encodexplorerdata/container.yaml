@@ -7,5 +7,13 @@ tags:
   0.99.5--r41hdfd78af_5: sha256:4474650f03b23a056f473ea7078f5150ee687527468d4a8588a376d230172c7c
 docker: quay.io/biocontainers/bioconductor-encodexplorerdata
 aliases:
-  .bioconductor-encodexplorerdata-post-link.sh: /usr/local/bin/.bioconductor-encodexplorerdata-post-link.sh
-  .bioconductor-encodexplorerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-encodexplorerdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

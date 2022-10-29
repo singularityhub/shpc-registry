@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:3970e42abf311ab66b80220517070e8e33cb7453cddc940d0bc2ad2bde88d242
 docker: quay.io/biocontainers/bioconductor-sevenc
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

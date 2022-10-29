@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins
 aliases:
   proteomiqon-joinquantpepionswithproteins: /usr/local/bin/proteomiqon-joinquantpepionswithproteins
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

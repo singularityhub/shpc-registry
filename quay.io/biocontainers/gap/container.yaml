@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/gap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for gap
+latest:
+  4.8.10--0: sha256:1d991acc7f47d073a1caba9ed30a9e64117dc7dacf9e139b48d63f947f8e2eaa
+tags:
+  4.8.10--0: sha256:1d991acc7f47d073a1caba9ed30a9e64117dc7dacf9e139b48d63f947f8e2eaa
+docker: quay.io/biocontainers/gap

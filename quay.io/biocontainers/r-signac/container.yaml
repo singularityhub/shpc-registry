@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r41hecf12ef_0: sha256:f212100013aac7cf43778f9fa5d9fc9e2aea39ed90d58919ea99c43f99405fb8
 docker: quay.io/biocontainers/r-signac
+aliases:
+  geos-config: /usr/local/bin/geos-config
+  geosop: /usr/local/bin/geosop

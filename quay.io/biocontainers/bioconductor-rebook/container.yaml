@@ -6,3 +6,5 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb
 docker: quay.io/biocontainers/bioconductor-rebook
+aliases:
+  pandoc: /usr/local/bin/pandoc

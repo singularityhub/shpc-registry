@@ -7,5 +7,5 @@ tags:
   1.8.0--r351_0: sha256:4052fcdbf57a02a068208fc6bc09c5b44f4fe5e3c47986b785eb0907883ae2b9
 docker: quay.io/biocontainers/bioconductor-meshes
 aliases:
-  .bioconductor-mesh.db-post-link.sh: /usr/local/bin/.bioconductor-mesh.db-post-link.sh
-  .bioconductor-mesh.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mesh.db-pre-unlink.sh
+  udunits2: /usr/local/bin/udunits2
+  wget: /usr/local/bin/wget

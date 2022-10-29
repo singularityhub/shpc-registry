@@ -7,9 +7,6 @@ tags:
   0.0.8--hdfd78af_1: sha256:2b87247fe44edb30acb21e82d959e91eaca158f57be0acb7b01fe159939e8b8b
 docker: quay.io/biocontainers/pb-assembly
 aliases:
-  .blasr-post-link.sh: /usr/local/bin/.blasr-post-link.sh
-  .pbgcpp-post-link.sh: /usr/local/bin/.pbgcpp-post-link.sh
-  .pbmm2-post-link.sh: /usr/local/bin/.pbmm2-post-link.sh
   Catrack: /usr/local/bin/Catrack
   DAM2fasta: /usr/local/bin/DAM2fasta
   DB2Falcon: /usr/local/bin/DB2Falcon
@@ -92,3 +89,13 @@ aliases:
   rangen: /usr/local/bin/rangen
   simulator: /usr/local/bin/simulator
   undexta: /usr/local/bin/undexta
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ace2sam: /usr/local/bin/ace2sam
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam

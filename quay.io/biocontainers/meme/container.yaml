@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/meme
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for meme
+latest:
+  5.1.1--py36pl526ha39971a_2: sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4
+tags:
+  5.1.1--py36pl526ha39971a_2: sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4
+docker: quay.io/biocontainers/meme

@@ -6,3 +6,14 @@ latest:
 tags:
   0.8.2--py36hb377018_1: sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d
 docker: quay.io/biocontainers/pybedtools
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed

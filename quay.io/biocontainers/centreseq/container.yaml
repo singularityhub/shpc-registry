@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/centreseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for centreseq
+latest:
+  v0.2.3--py_0: sha256:c5401f178dc0158a5c515e64912c8eadc063f5da5c7fd68311867363c16e139e
+tags:
+  v0.2.3--py_0: sha256:c5401f178dc0158a5c515e64912c8eadc063f5da5c7fd68311867363c16e139e
+docker: quay.io/biocontainers/centreseq

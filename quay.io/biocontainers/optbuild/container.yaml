@@ -6,3 +6,9 @@ latest:
 tags:
   0.2.1--pyh864c0ab_1: sha256:eb927db8472bed66ad18475be0e7bf6393b36ae24c4f961ba809952084329edd
 docker: quay.io/biocontainers/optbuild
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

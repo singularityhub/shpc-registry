@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_1: sha256:51bc1bea6cc25ccdb4e5dc545afd92bbaa6d7ed2ab4b517a5de5fba969aa9029
 docker: quay.io/biocontainers/bioconductor-gcapc
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

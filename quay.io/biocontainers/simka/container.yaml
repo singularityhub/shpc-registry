@@ -15,3 +15,9 @@ aliases:
   simkaMinCore: /usr/local/bin/simkaMinCore
   simkaMin_update.py: /usr/local/bin/simkaMin_update.py
   simkaMin_utils.py: /usr/local/bin/simkaMin_utils.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

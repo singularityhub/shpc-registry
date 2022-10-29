@@ -6,3 +6,12 @@ latest:
 tags:
   0.14--r3.3.1_0: sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab
 docker: quay.io/biocontainers/r-outliers
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pango-querymodules: /usr/local/bin/pango-querymodules
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hd029910_1: sha256:829d658685d172fe57d70ca2eac430c1553e0b3cb6f57f75dc16cc0aaff9b017
 docker: quay.io/biocontainers/bioconductor-hireewas
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,7 @@ latest:
 tags:
   0.1.5--r3.3.1_0: sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477
 docker: quay.io/biocontainers/r-ddrtree
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

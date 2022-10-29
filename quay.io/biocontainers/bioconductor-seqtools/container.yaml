@@ -6,3 +6,14 @@ latest:
 tags:
   1.28.0--r41hc0cfd56_2: sha256:4a07326237af9204015d4474871ce658142e895fbb1ac3b9c3007322523446e6
 docker: quay.io/biocontainers/bioconductor-seqtools
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

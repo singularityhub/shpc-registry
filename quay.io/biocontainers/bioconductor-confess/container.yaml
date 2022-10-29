@@ -6,3 +6,8 @@ latest:
 tags:
   1.22.0--r41hdfd78af_0: sha256:ab1b2bec1787b8abe3a1d62559050a7e470cee5dc017729bcb12aba50a48c560
 docker: quay.io/biocontainers/bioconductor-confess
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

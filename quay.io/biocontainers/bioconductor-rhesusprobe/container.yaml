@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:0032667df49fc7e5f7ddb10fab0ccd0b1f4c80a5ab8940f15b459b86d001cfed
 docker: quay.io/biocontainers/bioconductor-rhesusprobe
 aliases:
-  .bioconductor-rhesusprobe-post-link.sh: /usr/local/bin/.bioconductor-rhesusprobe-post-link.sh
-  .bioconductor-rhesusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-rhesusprobe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

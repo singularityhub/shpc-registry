@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:705107d4b54981cf41960931840219d039a19be56572935be39a37b4740a8971
 docker: quay.io/biocontainers/bioconductor-qsutils
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

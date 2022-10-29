@@ -7,5 +7,8 @@ tags:
   1.18.0--r40_0: sha256:7281ec0f3b20e10c6932bd3701f6f5dfb998d554a96e5f626781eef2e8405c64
 docker: quay.io/biocontainers/bioconductor-imetagene
 aliases:
-  .bioconductor-ensdb.hsapiens.v86-post-link.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
-  .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh: /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

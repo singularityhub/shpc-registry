@@ -6,3 +6,14 @@ latest:
 tags:
   1.38.0--r41hdfd78af_0: sha256:68566a64bbdd19cfc491fa76f2c1cedfee85d9f75380e0d0dd2477da20f98e69
 docker: quay.io/biocontainers/bioconductor-hybridmtest
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

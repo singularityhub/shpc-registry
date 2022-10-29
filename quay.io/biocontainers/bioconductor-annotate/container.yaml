@@ -6,3 +6,14 @@ latest:
 tags:
   1.72.0--r41hdfd78af_0: sha256:f15a08a0e6e21164c6ed949598fc89d22b97012c991336184f45c2bf86d67446
 docker: quay.io/biocontainers/bioconductor-annotate
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -7,5 +7,6 @@ tags:
   3.8.2--r36_1: sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed
 docker: quay.io/biocontainers/bioconductor-arabidopsis.db0
 aliases:
-  .bioconductor-arabidopsis.db0-post-link.sh: /usr/local/bin/.bioconductor-arabidopsis.db0-post-link.sh
-  .bioconductor-arabidopsis.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-arabidopsis.db0-pre-unlink.sh
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

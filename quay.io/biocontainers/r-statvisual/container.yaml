@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.1--r41h3342da4_3: sha256:0e4ce10e44f6b84478f7741885d6e1a8d393c1814972c0cc3319b5edfd878d30
 docker: quay.io/biocontainers/r-statvisual
+aliases:
+  pandoc: /usr/local/bin/pandoc

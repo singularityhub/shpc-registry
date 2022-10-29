@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cgat-scripts
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cgat-scripts
+latest:
+  0.3.2--py36h355e19c_2: sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059
+tags:
+  0.3.2--py36h355e19c_2: sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059
+docker: quay.io/biocontainers/cgat-scripts

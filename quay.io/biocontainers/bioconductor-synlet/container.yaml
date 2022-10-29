@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r3.4.1_0: sha256:ef19a48e10168cad09b12afa7f5c82d5af1e9ac1b3079250653e1deaba88e170
 docker: quay.io/biocontainers/bioconductor-synlet
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

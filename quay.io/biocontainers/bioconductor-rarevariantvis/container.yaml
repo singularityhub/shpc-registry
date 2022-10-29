@@ -7,5 +7,4 @@ tags:
   2.8.0--r351_0: sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd
 docker: quay.io/biocontainers/bioconductor-rarevariantvis
 aliases:
-  .bioconductor-phastcons100way.ucsc.hg19-post-link.sh: /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh
-  .bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh
+  wget: /usr/local/bin/wget

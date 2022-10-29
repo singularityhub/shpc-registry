@@ -9,3 +9,7 @@ docker: quay.io/biocontainers/collectl
 aliases:
   collectl: /usr/local/bin/collectl
   colmux: /usr/local/bin/colmux
+  c2ph: /usr/local/bin/c2ph
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

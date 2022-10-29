@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/burrito
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for burrito
+latest:
+  0.9.1--pyh864c0ab_3: sha256:58bbe8b962dbada1860217b63e055d6dbc9390a35846804674d66440781e77dd
+tags:
+  0.9.1--pyh864c0ab_3: sha256:58bbe8b962dbada1860217b63e055d6dbc9390a35846804674d66440781e77dd
+docker: quay.io/biocontainers/burrito

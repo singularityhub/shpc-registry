@@ -6,3 +6,14 @@ latest:
 tags:
   2.4.0--r41hdfd78af_0: sha256:06d4aefe8a438a720f27c9311176d797ef9143ababcc9ec49635e9c3ca835d7b
 docker: quay.io/biocontainers/bioconductor-sctensor
+aliases:
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

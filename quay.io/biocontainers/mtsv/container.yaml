@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/mtsv
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for mtsv
+latest:
+  1.0.6--py36hf1ae8f4_2: sha256:268717e4ad395ed2d87f797458cf8f8613f4fceb0fe934cf956407fc17875b4f
+tags:
+  1.0.6--py36hf1ae8f4_2: sha256:268717e4ad395ed2d87f797458cf8f8613f4fceb0fe934cf956407fc17875b4f
+docker: quay.io/biocontainers/mtsv

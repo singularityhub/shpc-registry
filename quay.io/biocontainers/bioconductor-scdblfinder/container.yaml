@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:0adcef7f4ef4a4399eb2d2ae9f8731aaae0bb532c6edf02df98a1005be39c158
 docker: quay.io/biocontainers/bioconductor-scdblfinder
+aliases:
+  xgboost: /usr/local/bin/xgboost

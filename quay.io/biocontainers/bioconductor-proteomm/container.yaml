@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:2eabcc21f2ada24c07de4edd32496a60db2729c13a0117505bd9bf227f479b1a
 docker: quay.io/biocontainers/bioconductor-proteomm
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

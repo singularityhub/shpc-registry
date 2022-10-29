@@ -22,3 +22,13 @@ aliases:
   subsample_outputs.pl: /usr/local/bin/subsample_outputs.pl
   subset_alignments.pl: /usr/local/bin/subset_alignments.pl
   unique_sequences.pl: /usr/local/bin/unique_sequences.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl

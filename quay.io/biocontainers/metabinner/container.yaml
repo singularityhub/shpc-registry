@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/metabinner
 aliases:
   run_metabinner.sh: /usr/local/bin/run_metabinner.sh
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  checkm: /usr/local/bin/checkm
+  dendropy-format: /usr/local/bin/dendropy-format

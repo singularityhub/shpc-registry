@@ -7,8 +7,6 @@ tags:
   2.5.0--pyhdfd78af_0: sha256:067e227408ccc5618708756109a29e04c02750b7fe5c23d236db34f6d018de2c
 docker: quay.io/biocontainers/picrust2
 aliases:
-  .picrust2-post-link.sh: /usr/local/bin/.picrust2-post-link.sh
-  .picrust2-pre-unlink.sh: /usr/local/bin/.picrust2-pre-unlink.sh
   add_descriptions.py: /usr/local/bin/add_descriptions.py
   convert_table.py: /usr/local/bin/convert_table.py
   epa-ng: /usr/local/bin/epa-ng
@@ -30,3 +28,13 @@ aliases:
   seppJsonMerger.jar: /usr/local/bin/seppJsonMerger.jar
   shuffle_predictions.py: /usr/local/bin/shuffle_predictions.py
   split_sequences.py: /usr/local/bin/split_sequences.py
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  alimask: /usr/local/bin/alimask
+  biom: /usr/local/bin/biom
+  coverage: /usr/local/bin/coverage
+  dendropy-format: /usr/local/bin/dendropy-format
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  glpsol: /usr/local/bin/glpsol
+  guppy: /usr/local/bin/guppy

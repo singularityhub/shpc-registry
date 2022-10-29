@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:c3f94f30b30c35d1b78b6dd2d5c548839bd77e3f8b972427a6e833e3dd4f1b9d
 docker: quay.io/biocontainers/bioconductor-gpumagic
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -19,3 +19,13 @@ aliases:
   fasta_extract: /usr/local/bin/fasta_extract
   gff_check: /usr/local/bin/gff_check
   pilercr: /usr/local/bin/pilercr
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes

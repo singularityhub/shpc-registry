@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/query_phenomizer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for query_phenomizer
+latest:
+  1.2--py_0: sha256:0cc7d4dd094b950d36b3ac2162e628e20fa44ad2610eaa861b652a04ee32e38f
+tags:
+  1.2--py_0: sha256:0cc7d4dd094b950d36b3ac2162e628e20fa44ad2610eaa861b652a04ee32e38f
+docker: quay.io/biocontainers/query_phenomizer

@@ -27,3 +27,13 @@ aliases:
   vsnp_reference_options.py: /usr/local/bin/vsnp_reference_options.py
   vsnp_remove_from_analysis.py: /usr/local/bin/vsnp_remove_from_analysis.py
   vsnp_spoligotype.py: /usr/local/bin/vsnp_spoligotype.py
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  MergeContigs: /usr/local/bin/MergeContigs
+  MergePaths: /usr/local/bin/MergePaths

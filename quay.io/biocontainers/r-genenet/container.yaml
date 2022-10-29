@@ -6,3 +6,11 @@ latest:
 tags:
   1.2.13--r3.2.2_0: sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8
 docker: quay.io/biocontainers/r-genenet
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

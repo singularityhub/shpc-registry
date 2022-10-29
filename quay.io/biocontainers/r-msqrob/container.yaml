@@ -6,3 +6,14 @@ latest:
 tags:
   0.7.7--r41hdfd78af_1: sha256:6c74888fad76eda9219757914712d86e2e32f4c751f6e0a8f00be7d19c5c6dd6
 docker: quay.io/biocontainers/r-msqrob
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

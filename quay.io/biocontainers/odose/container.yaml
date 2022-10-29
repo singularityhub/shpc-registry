@@ -52,3 +52,13 @@ aliases:
   versions.py: /usr/local/bin/versions.py
   wrapper: /usr/local/bin/wrapper
   wrapper.py: /usr/local/bin/wrapper.py
+  assistant: /usr/local/bin/assistant
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

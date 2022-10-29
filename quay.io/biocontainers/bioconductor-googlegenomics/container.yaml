@@ -6,3 +6,7 @@ latest:
 tags:
   2.4.0--r351hf484d3e_0: sha256:548bff9db9b6a99006ddd90ae7dc4efd3da7c3b45a280aea4c368ea3fb646216
 docker: quay.io/biocontainers/bioconductor-googlegenomics
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  wget: /usr/local/bin/wget

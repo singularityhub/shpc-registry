@@ -15,3 +15,13 @@ aliases:
   lordec-trim: /usr/local/bin/lordec-trim
   lordec-trim-split: /usr/local/bin/lordec-trim-split
   lordec_sge_slurm_wrapper.sh: /usr/local/bin/lordec_sge_slurm_wrapper.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  dbgh5: /usr/local/bin/dbgh5
+  f2py3.10: /usr/local/bin/f2py3.10
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug

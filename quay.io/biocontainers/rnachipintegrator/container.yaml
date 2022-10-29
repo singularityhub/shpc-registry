@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/rnachipintegrator
 aliases:
   RnaChipIntegrator: /usr/local/bin/RnaChipIntegrator
+  vba_extract.py: /usr/local/bin/vba_extract.py

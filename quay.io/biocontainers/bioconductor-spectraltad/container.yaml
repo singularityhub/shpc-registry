@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:4a906e8185d7249a67d79d13cc82ee7e3cc6f40a902a5d567929133eac5f94da
 docker: quay.io/biocontainers/bioconductor-spectraltad
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

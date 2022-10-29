@@ -22,3 +22,13 @@ aliases:
   peak_pie.pyc: /usr/local/bin/peak_pie.pyc
   venn_gchart.pyc: /usr/local/bin/venn_gchart.pyc
   venn_mpl.pyc: /usr/local/bin/venn_mpl.pyc
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  annotateBed: /usr/local/bin/annotateBed
+  assistant: /usr/local/bin/assistant
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq

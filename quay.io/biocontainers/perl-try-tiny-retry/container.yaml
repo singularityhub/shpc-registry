@@ -6,3 +6,5 @@ latest:
 tags:
   0.004--pl5321hdfd78af_1: sha256:b682c1bcc2de77392348018959434c910124810ccf1de3b02f618feb810ba619
 docker: quay.io/biocontainers/perl-try-tiny-retry
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -10,3 +10,13 @@ aliases:
   isatools: /usr/local/bin/isatools
   mzml2isa: /usr/local/bin/mzml2isa
   pronto: /usr/local/bin/pronto
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  chardetect: /usr/local/bin/chardetect
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  idle3.6: /usr/local/bin/idle3.6
+  jsonschema: /usr/local/bin/jsonschema
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

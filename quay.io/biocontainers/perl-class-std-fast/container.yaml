@@ -6,3 +6,6 @@ latest:
 tags:
   0.0.8--pl5321hdfd78af_2: sha256:7b80c2189685c44726ccbcdec9c434e91370e7a46b947e1d37f84f3c3f05d9f5
 docker: quay.io/biocontainers/perl-class-std-fast
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -20,3 +20,13 @@ aliases:
   metaviralspades.py: /usr/local/bin/metaviralspades.py
   rnaviralspades.py: /usr/local/bin/rnaviralspades.py
   tritimap: /usr/local/bin/tritimap
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  CA.pm: /usr/local/bin/CA.pm
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  KAligner: /usr/local/bin/KAligner
+  Magick++-config: /usr/local/bin/Magick++-config

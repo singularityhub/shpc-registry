@@ -6,3 +6,14 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:a4a353f88686e3347a2a3c215a15c8ab7d1f404798e8acb437157dd247d7d61f
 docker: quay.io/biocontainers/bioconductor-enmix
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

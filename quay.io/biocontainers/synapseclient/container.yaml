@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/synapseclient
 aliases:
   keyring: /usr/local/bin/keyring
   synapse: /usr/local/bin/synapse
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen

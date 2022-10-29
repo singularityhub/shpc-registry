@@ -6,3 +6,7 @@ latest:
 tags:
   1.11--pl5321hdfd78af_0: sha256:66ce24c10c212c933d02fad572389ee2743cae3fdb27085c22c69925ed006bdc
 docker: quay.io/biocontainers/perl-moosex-role-parameterized
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

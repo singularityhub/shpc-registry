@@ -14,3 +14,13 @@ aliases:
   merci: /usr/local/bin/merci
   minia: /usr/local/bin/minia
   minia_nooverlap: /usr/local/bin/minia_nooverlap
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config

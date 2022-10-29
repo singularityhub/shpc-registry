@@ -6,3 +6,14 @@ latest:
 tags:
   1.05--pl5321hdfd78af_1: sha256:daae900f335e605a5c920b9c808c44bf84fc437e10a33d10efcecb55f24c42be
 docker: quay.io/biocontainers/perl-prefork
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

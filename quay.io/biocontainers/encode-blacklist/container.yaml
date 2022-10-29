@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/encode-blacklist
 aliases:
   Blacklist: /usr/local/bin/Blacklist
+  bamtools: /usr/local/bin/bamtools

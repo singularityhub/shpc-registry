@@ -17,3 +17,13 @@ aliases:
   nib-tck2trk: /usr/local/bin/nib-tck2trk
   nib-trk2tck: /usr/local/bin/nib-trk2tck
   parrec2nii: /usr/local/bin/parrec2nii
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  ccache-swig: /usr/local/bin/ccache-swig
+  certutil: /usr/local/bin/certutil
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon

@@ -6,3 +6,5 @@ latest:
 tags:
   2.4.0--r341h9d2a408_0: sha256:66b9f896c91ab26403d2823a5354cfa9a2fae92d7f31e1d8f972cb91f7303191
 docker: quay.io/biocontainers/r-phangorn
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config

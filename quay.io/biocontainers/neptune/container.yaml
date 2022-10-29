@@ -7,6 +7,15 @@ tags:
   1.2.5--py_3: sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2
 docker: quay.io/biocontainers/neptune
 aliases:
-  .neptune-post-link.sh: /usr/local/bin/.neptune-post-link.sh
   neptune: /usr/local/bin/neptune
   neptune-conda: /usr/local/bin/neptune-conda
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn

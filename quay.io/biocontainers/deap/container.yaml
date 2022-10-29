@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.2--pyh864c0ab_2: sha256:c2caa647860ebc79acb8351c2adf407aec9c8108b792b2c9b41b25e68985dc6e
 docker: quay.io/biocontainers/deap
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  curve_keygen: /usr/local/bin/curve_keygen
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

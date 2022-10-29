@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/iqtree
 aliases:
   iqtree2: /usr/local/bin/iqtree2
+  iqtree: /usr/local/bin/iqtree

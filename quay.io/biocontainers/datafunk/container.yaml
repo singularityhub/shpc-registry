@@ -13,3 +13,13 @@ aliases:
   jsonpointer: /usr/local/bin/jsonpointer
   tableschema: /usr/local/bin/tableschema
   tabulator: /usr/local/bin/tabulator
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  chardetect: /usr/local/bin/chardetect
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8
+  jp.py: /usr/local/bin/jp.py
+  jsonschema: /usr/local/bin/jsonschema
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  runxlrd.py: /usr/local/bin/runxlrd.py

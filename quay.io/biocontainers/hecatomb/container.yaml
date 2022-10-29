@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/hecatomb
 aliases:
   hecatomb: /usr/local/bin/hecatomb
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  cbc: /usr/local/bin/cbc
+  ccomps: /usr/local/bin/ccomps

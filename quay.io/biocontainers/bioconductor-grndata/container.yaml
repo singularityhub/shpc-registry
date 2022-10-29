@@ -7,5 +7,13 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759
 docker: quay.io/biocontainers/bioconductor-grndata
 aliases:
-  .bioconductor-grndata-post-link.sh: /usr/local/bin/.bioconductor-grndata-post-link.sh
-  .bioconductor-grndata-pre-unlink.sh: /usr/local/bin/.bioconductor-grndata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

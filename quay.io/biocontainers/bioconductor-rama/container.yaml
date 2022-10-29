@@ -6,3 +6,14 @@ latest:
 tags:
   1.68.0--r41hc0cfd56_2: sha256:31d2c232e93d19a63983fc5dda4b325a1de1b033d789c4a25fd9be630b73129e
 docker: quay.io/biocontainers/bioconductor-rama
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

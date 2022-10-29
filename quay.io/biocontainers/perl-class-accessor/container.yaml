@@ -6,3 +6,6 @@ latest:
 tags:
   0.51--pl526_0: sha256:f24b10d3acd7879b3d9c4fd061b451cd070a4c46e308d07c048989535a15bac7
 docker: quay.io/biocontainers/perl-class-accessor
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

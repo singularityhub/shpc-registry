@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.1--r40h0357c0b_2: sha256:5135066d6eeda0be80c1f9f70f39367107b4610e6c3f57db90980167e856b777
 docker: quay.io/biocontainers/r-pma
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep

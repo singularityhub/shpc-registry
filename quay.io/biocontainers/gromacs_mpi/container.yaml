@@ -8,17 +8,14 @@ tags:
 docker: quay.io/biocontainers/gromacs_mpi
 aliases:
   gmx_mpi: /usr/local/bin/gmx_mpi
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
   hwloc-annotate: /usr/local/bin/hwloc-annotate
   hwloc-bind: /usr/local/bin/hwloc-bind
   hwloc-calc: /usr/local/bin/hwloc-calc
   hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
   hwloc-diff: /usr/local/bin/hwloc-diff
-  hwloc-distrib: /usr/local/bin/hwloc-distrib
-  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
-  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
-  hwloc-info: /usr/local/bin/hwloc-info
-  hwloc-ls: /usr/local/bin/hwloc-ls
-  hwloc-patch: /usr/local/bin/hwloc-patch
-  hwloc-ps: /usr/local/bin/hwloc-ps
-  lstopo: /usr/local/bin/lstopo
-  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics

@@ -6,3 +6,7 @@ latest:
 tags:
   1.55--r3.4.1_0: sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909
 docker: quay.io/biocontainers/r-pamr
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

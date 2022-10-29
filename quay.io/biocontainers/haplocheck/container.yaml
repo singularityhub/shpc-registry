@@ -12,3 +12,13 @@ aliases:
   haplocheck.jar: /usr/local/bin/haplocheck.jar
   mutserve.jar: /usr/local/bin/mutserve.jar
   rCRS.fasta: /usr/local/bin/rCRS.fasta
+  aserver: /usr/local/bin/aserver
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole

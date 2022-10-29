@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/metaseq
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for metaseq
+latest:
+  0.5.6--py27h9801fc8_5: sha256:c77898d8a6c7257d819b6d57b42e9e528523bf86169fc33660f710b9e80935e4
+tags:
+  0.5.6--py27h9801fc8_5: sha256:c77898d8a6c7257d819b6d57b42e9e528523bf86169fc33660f710b9e80935e4
+docker: quay.io/biocontainers/metaseq

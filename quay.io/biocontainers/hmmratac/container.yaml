@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/hmmratac
 aliases:
   HMMRATAC: /usr/local/bin/HMMRATAC
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  aserver: /usr/local/bin/aserver
+  gifecho: /usr/local/bin/gifecho
+  giffilter: /usr/local/bin/giffilter
+  gifinto: /usr/local/bin/gifinto
+  gifsponge: /usr/local/bin/gifsponge
+  idle3.7: /usr/local/bin/idle3.7
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

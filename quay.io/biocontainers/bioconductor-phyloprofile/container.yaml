@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:ab3db1e4722d975de4a85b301e2601aa5584dd0579efc1cdacc443d6feb7f4c0
 docker: quay.io/biocontainers/bioconductor-phyloprofile
+aliases:
+  pandoc: /usr/local/bin/pandoc

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-findbin
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-findbin
+latest:
+  1.51--pl5321hdfd78af_3: sha256:a6994160382956da8a8b33179d683663d5a8f28fd6c3cf303cfbd5480dffb236
+tags:
+  1.51--pl5321hdfd78af_3: sha256:a6994160382956da8a8b33179d683663d5a8f28fd6c3cf303cfbd5480dffb236
+docker: quay.io/biocontainers/perl-findbin

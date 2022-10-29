@@ -7,5 +7,13 @@ tags:
   1.50.0--r41hc0cfd56_2: sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901
 docker: quay.io/biocontainers/bioconductor-flagme
 aliases:
-  .bioconductor-gcspikelite-post-link.sh: /usr/local/bin/.bioconductor-gcspikelite-post-link.sh
-  .bioconductor-gcspikelite-pre-unlink.sh: /usr/local/bin/.bioconductor-gcspikelite-pre-unlink.sh
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  glpsol: /usr/local/bin/glpsol
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

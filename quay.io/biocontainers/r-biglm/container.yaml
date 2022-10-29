@@ -6,3 +6,7 @@ latest:
 tags:
   0.9_1--r3.3.1_0: sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b
 docker: quay.io/biocontainers/r-biglm
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

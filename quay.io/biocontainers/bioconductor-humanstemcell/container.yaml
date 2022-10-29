@@ -7,7 +7,13 @@ tags:
   0.34.0--r41hdfd78af_1: sha256:4b8d46e1d738ebd8470b72ea25dc9fff33b5f9e95cb3b26e5dbeac478da89f36
 docker: quay.io/biocontainers/bioconductor-humanstemcell
 aliases:
-  .bioconductor-hgu133plus2.db-post-link.sh: /usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh
-  .bioconductor-hgu133plus2.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh
-  .bioconductor-humanstemcell-post-link.sh: /usr/local/bin/.bioconductor-humanstemcell-post-link.sh
-  .bioconductor-humanstemcell-pre-unlink.sh: /usr/local/bin/.bioconductor-humanstemcell-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

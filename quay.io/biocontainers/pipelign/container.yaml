@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/pipelign
 aliases:
   gb2fas: /usr/local/bin/gb2fas
   pipelign: /usr/local/bin/pipelign
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FET.pl: /usr/local/bin/FET.pl
+  alimask: /usr/local/bin/alimask
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl

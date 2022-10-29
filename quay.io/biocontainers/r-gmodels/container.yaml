@@ -6,3 +6,7 @@ latest:
 tags:
   2.16.2--r3.3.2_0: sha256:5f3ac90632e865d4e98fce57ee21af152dcbbee8d27eca0d57beb1cd9226e25f
 docker: quay.io/biocontainers/r-gmodels
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

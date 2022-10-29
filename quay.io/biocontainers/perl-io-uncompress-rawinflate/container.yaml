@@ -6,3 +6,6 @@ latest:
 tags:
   2.064--pl526_1: sha256:513cb6fb4a159f8657fe49da332c5bdcbc874d270d49e4a2b2c3884b70856f12
 docker: quay.io/biocontainers/perl-io-uncompress-rawinflate
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

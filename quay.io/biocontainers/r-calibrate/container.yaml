@@ -6,3 +6,11 @@ latest:
 tags:
   1.7.2--r3.2.2_0: sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc
 docker: quay.io/biocontainers/r-calibrate
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

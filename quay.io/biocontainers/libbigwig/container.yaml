@@ -6,3 +6,14 @@ latest:
 tags:
   0.4.7--h1d40642_0: sha256:956927f13965b99fa747854709f47b8c8589d2372c345960063b6b787c202729
 docker: quay.io/biocontainers/libbigwig
+aliases:
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  compile_et: /usr/local/bin/compile_et
+  curl-config: /usr/local/bin/curl-config
+  gss-client: /usr/local/bin/gss-client
+  h2load: /usr/local/bin/h2load

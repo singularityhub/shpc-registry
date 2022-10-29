@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/artic-tools
 aliases:
   artic-tools: /usr/local/bin/artic-tools
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

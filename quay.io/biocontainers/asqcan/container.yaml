@@ -10,3 +10,13 @@ aliases:
   asqcan: /usr/local/bin/asqcan
   blobtools: /usr/local/bin/blobtools
   blobtools-build_nodesdb: /usr/local/bin/blobtools-build_nodesdb
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed

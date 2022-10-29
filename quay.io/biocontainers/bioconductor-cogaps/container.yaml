@@ -6,3 +6,9 @@ latest:
 tags:
   3.8.0--r40h5f743cb_0: sha256:4af7df9c6e35c82751d7f6e5b69710ed5d03a73cf3db439717fb513f7f40b759
 docker: quay.io/biocontainers/bioconductor-cogaps
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -20,3 +20,13 @@ aliases:
   mhcflurry-predict: /usr/local/bin/mhcflurry-predict
   mhcflurry-predict-scan: /usr/local/bin/mhcflurry-predict-scan
   pyjwt: /usr/local/bin/pyjwt
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  chardetect: /usr/local/bin/chardetect
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  f2py3.8: /usr/local/bin/f2py3.8
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

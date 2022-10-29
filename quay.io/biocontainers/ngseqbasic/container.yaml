@@ -22,3 +22,13 @@ aliases:
   mysqlbug: /usr/local/bin/mysqlbug
   mysqlhotcopy: /usr/local/bin/mysqlhotcopy
   testEnvironment: /usr/local/bin/testEnvironment
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  annotateBed: /usr/local/bin/annotateBed
+  appletviewer: /usr/local/bin/appletviewer
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bcftools: /usr/local/bin/bcftools
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBam: /usr/local/bin/bedToBam
+  bedToBigBed: /usr/local/bin/bedToBigBed

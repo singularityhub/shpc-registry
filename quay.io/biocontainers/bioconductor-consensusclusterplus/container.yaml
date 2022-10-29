@@ -6,3 +6,14 @@ latest:
 tags:
   1.58.0--r41hdfd78af_0: sha256:f161e7d7531d74d1995063c4e36b263731df611e2cada2fcd4fea11d7bf2ca5f
 docker: quay.io/biocontainers/bioconductor-consensusclusterplus
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

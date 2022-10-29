@@ -6,3 +6,6 @@ latest:
 tags:
   1.09--pl5321hdfd78af_1: sha256:a7eade56eba41fb3e29cac04014de8ceea2e2622362851469a18f62a87cdfa5a
 docker: quay.io/biocontainers/perl-test-inter
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

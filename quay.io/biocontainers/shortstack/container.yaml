@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/shortstack
 aliases:
   ShortStack: /usr/local/bin/ShortStack
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  Kinfold: /usr/local/bin/Kinfold
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold

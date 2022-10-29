@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_0: sha256:b00167c0b009e1a279d24f65b716f2a28e09cd8bbf5245dcc1e8efbdf6aaab7d
 docker: quay.io/biocontainers/bioconductor-anota2seq
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

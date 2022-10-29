@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:369eea5632d623a45da1b0c3561607b9750a7f7054bbab8260dab59e8c3e53b8
 docker: quay.io/biocontainers/bioconductor-bigpint
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -24,3 +24,13 @@ aliases:
   vidir: /usr/local/bin/vidir
   vipe: /usr/local/bin/vipe
   zrun: /usr/local/bin/zrun
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  awk: /usr/local/bin/awk
+  b2sum: /usr/local/bin/b2sum
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename

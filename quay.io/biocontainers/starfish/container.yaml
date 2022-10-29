@@ -10,3 +10,13 @@ aliases:
   slicedimage: /usr/local/bin/slicedimage
   starfish: /usr/local/bin/starfish
   tiff2fsspec: /usr/local/bin/tiff2fsspec
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aec: /usr/local/bin/aec
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  cbrunsli: /usr/local/bin/cbrunsli
+  certutil: /usr/local/bin/certutil

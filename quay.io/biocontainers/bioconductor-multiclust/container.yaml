@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.2--r3.4.1_0: sha256:03f2c20688dd7544b8085edb232c725bd97a0f355cd8eea1a35347be649002c1
 docker: quay.io/biocontainers/bioconductor-multiclust
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r3.4.1_0: sha256:1a40b4bff786b60a8c148f83221f3644ef566c0c3ecd7d314c64b79e87c79cba
 docker: quay.io/biocontainers/bioconductor-guideseq
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

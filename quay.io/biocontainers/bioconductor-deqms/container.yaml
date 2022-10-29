@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9
 docker: quay.io/biocontainers/bioconductor-deqms
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

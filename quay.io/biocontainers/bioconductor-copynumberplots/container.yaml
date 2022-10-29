@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:d95d160a8fd628263158f7088c74f9b6a2229c225323a73ca5ac736efc58c8e2
 docker: quay.io/biocontainers/bioconductor-copynumberplots
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

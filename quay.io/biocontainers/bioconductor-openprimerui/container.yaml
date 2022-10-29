@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:5ec0ba47e4cdedd07e07f99605916a073395a0ba7c9afa21d22d39c439a6d44c
 docker: quay.io/biocontainers/bioconductor-openprimerui
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  linsi: /usr/local/bin/linsi
+  mafft: /usr/local/bin/mafft
+  mafft-distance: /usr/local/bin/mafft-distance

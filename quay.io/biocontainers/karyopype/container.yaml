@@ -6,3 +6,14 @@ latest:
 tags:
   0.1.6--py_0: sha256:365d6adc3d2bdb264ea89f14e1e449076d898b70585c36a40349bf70333ee96c
 docker: quay.io/biocontainers/karyopype
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

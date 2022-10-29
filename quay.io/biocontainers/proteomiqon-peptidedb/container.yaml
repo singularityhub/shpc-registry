@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-peptidedb
 aliases:
   proteomiqon-peptidedb: /usr/local/bin/proteomiqon-peptidedb
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

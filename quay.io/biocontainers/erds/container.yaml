@@ -8,3 +8,10 @@ tags:
 docker: quay.io/biocontainers/erds
 aliases:
   erds_pipeline: /usr/local/bin/erds_pipeline
+  bcftools: /usr/local/bin/bcftools
+  c2ph: /usr/local/bin/c2ph
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct
+  samtools: /usr/local/bin/samtools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl

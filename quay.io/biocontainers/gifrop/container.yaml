@@ -8,7 +8,6 @@ tags:
 docker: quay.io/biocontainers/gifrop
 aliases:
   LICENSE: /usr/local/bin/LICENSE
-  README.Rmd: /usr/local/bin/README.Rmd
   cluster_graphs.R: /usr/local/bin/cluster_graphs.R
   create_pan_genome: /usr/local/bin/create_pan_genome
   create_pan_genome_plots.R: /usr/local/bin/create_pan_genome_plots.R
@@ -36,3 +35,13 @@ aliases:
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   submodule_test.R: /usr/local/bin/submodule_test.R
   transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  CA.pm: /usr/local/bin/CA.pm
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
+  accn-at-a-time: /usr/local/bin/accn-at-a-time

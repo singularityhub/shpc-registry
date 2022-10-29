@@ -184,3 +184,13 @@ aliases:
   trim_by_kunitigs.pl: /usr/local/bin/trim_by_kunitigs.pl
   trim_mega_reads.pl: /usr/local/bin/trim_mega_reads.pl
   ufasta: /usr/local/bin/ufasta
+  annotate: /usr/local/bin/annotate
+  bwa: /usr/local/bin/bwa
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  delta2vcf: /usr/local/bin/delta2vcf
+  dnadiff: /usr/local/bin/dnadiff
+  egrep: /usr/local/bin/egrep
+  exact-tandems: /usr/local/bin/exact-tandems
+  fgrep: /usr/local/bin/fgrep
+  freebayes: /usr/local/bin/freebayes

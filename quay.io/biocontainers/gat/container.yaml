@@ -11,3 +11,13 @@ aliases:
   gat-great.py: /usr/local/bin/gat-great.py
   gat-plot.py: /usr/local/bin/gat-plot.py
   gat-run.py: /usr/local/bin/gat-run.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  brotli: /usr/local/bin/brotli
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch

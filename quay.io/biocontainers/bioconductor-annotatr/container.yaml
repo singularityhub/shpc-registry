@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:31aef20797f6039a453988b7e758a3de50c9c936819a5c193c8b1aa8612a5156
 docker: quay.io/biocontainers/bioconductor-annotatr
+aliases:
+  wget: /usr/local/bin/wget

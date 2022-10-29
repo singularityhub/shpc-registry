@@ -7,7 +7,6 @@ tags:
   1.2.6--ha34dc8c_3: sha256:57426f4ee51d1bf56dc9ac01f2e1d34b6cb5b34992a7feb5a302b24f7d5f5fe2
 docker: quay.io/biocontainers/mapseq
 aliases:
-  .mapseq-post-link.sh: /usr/local/bin/.mapseq-post-link.sh
   esh: /usr/local/bin/esh
   eutils-config: /usr/local/bin/eutils-config
   mapseq: /usr/local/bin/mapseq

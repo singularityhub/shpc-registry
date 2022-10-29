@@ -30,3 +30,13 @@ aliases:
   porechop: /usr/local/bin/porechop
   rasusa: /usr/local/bin/rasusa
   raven: /usr/local/bin/raven
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  ace2sam: /usr/local/bin/ace2sam
+  any2fasta: /usr/local/bin/any2fasta
+  aserver: /usr/local/bin/aserver
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  brotli: /usr/local/bin/brotli
+  bwa: /usr/local/bin/bwa

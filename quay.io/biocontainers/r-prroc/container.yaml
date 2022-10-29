@@ -6,3 +6,10 @@ latest:
 tags:
   1.1--r3.3.1_0: sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a
 docker: quay.io/biocontainers/r-prroc
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

@@ -6,3 +6,9 @@ latest:
 tags:
   0.003--pl526_0: sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e
 docker: quay.io/biocontainers/perl-moosex-types-stringlike
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

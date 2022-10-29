@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:24588cf3eec995e7affccf54c3ff44db80c69f2a7fba74f1fc1942e9fb9821db
 docker: quay.io/biocontainers/bioconductor-cellscore
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -13,3 +13,4 @@ aliases:
   makeTree: /usr/local/bin/makeTree
   trimFilter: /usr/local/bin/trimFilter
   trimFilterPE: /usr/local/bin/trimFilterPE
+  pandoc: /usr/local/bin/pandoc

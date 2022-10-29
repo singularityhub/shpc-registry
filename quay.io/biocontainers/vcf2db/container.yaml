@@ -10,3 +10,10 @@ aliases:
   peddy: /usr/local/bin/peddy
   toolshed: /usr/local/bin/toolshed
   vcf2db.py: /usr/local/bin/vcf2db.py
+  bgzip: /usr/local/bin/bgzip
+  coloredlogs: /usr/local/bin/coloredlogs
+  cyvcf2: /usr/local/bin/cyvcf2
+  f2py3.8: /usr/local/bin/f2py3.8
+  htsfile: /usr/local/bin/htsfile
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabix: /usr/local/bin/tabix

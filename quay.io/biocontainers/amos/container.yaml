@@ -232,3 +232,13 @@ aliases:
   updateLibSizes: /usr/local/bin/updateLibSizes
   vecfix: /usr/local/bin/vecfix
   verify-layout: /usr/local/bin/verify-layout
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  c2ph: /usr/local/bin/c2ph
+  combineMUMs: /usr/local/bin/combineMUMs
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  exact-tandems: /usr/local/bin/exact-tandems

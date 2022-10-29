@@ -26,3 +26,13 @@ aliases:
   rnaclustScores2Dist.pl: /usr/local/bin/rnaclustScores2Dist.pl
   scoreAln.pl: /usr/local/bin/scoreAln.pl
   structure_2_gspan.pl: /usr/local/bin/structure_2_gspan.pl
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  f2py3.6: /usr/local/bin/f2py3.6
+  idle3.6: /usr/local/bin/idle3.6
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config

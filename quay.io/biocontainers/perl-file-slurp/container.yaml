@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-file-slurp
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-file-slurp
+latest:
+  9999.32--pl5321hdfd78af_0: sha256:3bf4b9dbb6aad04fd917bccc7632ef9b5405d970cb293c96847453fba5b6ff49
+tags:
+  9999.32--pl5321hdfd78af_0: sha256:3bf4b9dbb6aad04fd917bccc7632ef9b5405d970cb293c96847453fba5b6ff49
+docker: quay.io/biocontainers/perl-file-slurp

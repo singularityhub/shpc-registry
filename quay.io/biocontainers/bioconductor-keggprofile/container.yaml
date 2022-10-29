@@ -6,3 +6,5 @@ latest:
 tags:
   1.32.0--r40hdfd78af_1: sha256:a361da21556003af1081a860a417bfc006f58aa7105f7d06d4e7f10e512b0dcd
 docker: quay.io/biocontainers/bioconductor-keggprofile
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

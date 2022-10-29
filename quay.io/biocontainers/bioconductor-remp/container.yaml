@@ -7,5 +7,13 @@ tags:
   1.8.1--r36_1: sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a
 docker: quay.io/biocontainers/bioconductor-remp
 aliases:
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-post-link.sh
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

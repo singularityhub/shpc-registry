@@ -6,3 +6,5 @@ latest:
 tags:
   3.26.5--r41hc0cfd56_0: sha256:47dba4ddd32a66dda80ba63e8886a6d250a2a911a85a20ed5321f613b249eed4
 docker: quay.io/biocontainers/bioconductor-birewire
+aliases:
+  glpsol: /usr/local/bin/glpsol

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/idemuxcpp
 aliases:
   idemuxCPP: /usr/local/bin/idemuxCPP
+  bamtools: /usr/local/bin/bamtools

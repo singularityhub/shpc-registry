@@ -6,3 +6,5 @@ latest:
 tags:
   1.5.0--r41hdfd78af_0: sha256:d2bb2f0128128e46b1a1bce7216772695431c5d837c98aa06e92ac963854902e
 docker: quay.io/biocontainers/bioconductor-alps
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

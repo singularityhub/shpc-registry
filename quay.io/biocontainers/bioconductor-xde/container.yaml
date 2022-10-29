@@ -6,3 +6,14 @@ latest:
 tags:
   2.40.0--r41hc247a5b_2: sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490
 docker: quay.io/biocontainers/bioconductor-xde
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

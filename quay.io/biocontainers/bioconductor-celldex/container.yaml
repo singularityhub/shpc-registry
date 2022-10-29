@@ -7,5 +7,13 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3
 docker: quay.io/biocontainers/bioconductor-celldex
 aliases:
-  .bioconductor-celldex-post-link.sh: /usr/local/bin/.bioconductor-celldex-post-link.sh
-  .bioconductor-celldex-pre-unlink.sh: /usr/local/bin/.bioconductor-celldex-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

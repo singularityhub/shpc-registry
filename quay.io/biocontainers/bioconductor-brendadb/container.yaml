@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r41hc247a5b_2: sha256:2d0c714edd59e197cb2aba2707ab7338986a5cce50941cf45f3ba674f72318e1
 docker: quay.io/biocontainers/bioconductor-brendadb
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

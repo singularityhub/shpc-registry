@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/seacr
 aliases:
   SEACR_1.3.R: /usr/local/bin/SEACR_1.3.R
   SEACR_1.3.sh: /usr/local/bin/SEACR_1.3.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

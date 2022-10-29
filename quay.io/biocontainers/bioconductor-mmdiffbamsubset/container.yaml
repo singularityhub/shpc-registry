@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:f653ec8d9ef3e26a4ac10f8e694f8ec653463fb84974b10a3b1a2552f03eb598
 docker: quay.io/biocontainers/bioconductor-mmdiffbamsubset
 aliases:
-  .bioconductor-mmdiffbamsubset-post-link.sh: /usr/local/bin/.bioconductor-mmdiffbamsubset-post-link.sh
-  .bioconductor-mmdiffbamsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-mmdiffbamsubset-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

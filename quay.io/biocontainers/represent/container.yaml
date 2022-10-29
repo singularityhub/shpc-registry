@@ -6,3 +6,13 @@ latest:
 tags:
   1.5.1--py_2: sha256:dbba902001a1a5b00de211564cf2701b809b1bf64534fa4c766f887e56012588
 docker: quay.io/biocontainers/represent
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

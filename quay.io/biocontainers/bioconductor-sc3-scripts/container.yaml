@@ -31,3 +31,5 @@ aliases:
   singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
   singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
   singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  wget: /usr/local/bin/wget

@@ -10,3 +10,9 @@ aliases:
   metagraph: /usr/local/bin/metagraph
   metagraph_DNA: /usr/local/bin/metagraph_DNA
   metagraph_Protein: /usr/local/bin/metagraph_Protein
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  jeprof: /usr/local/bin/jeprof
+  tabix: /usr/local/bin/tabix

@@ -6,3 +6,7 @@ latest:
 tags:
   0.06--pl5321hdfd78af_3: sha256:71bfc8b5ecf1ddeebbea1dec6d4203b0180e04e9c0f27d920a06eab641c1454a
 docker: quay.io/biocontainers/perl-moosex-clone
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

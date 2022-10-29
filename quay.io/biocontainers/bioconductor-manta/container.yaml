@@ -6,3 +6,5 @@ latest:
 tags:
   1.32.0--r36_0: sha256:460acb3e6c5797cc0e95c67c80927c79ecf60d1b70ef9bae147c86537f5a1c9c
 docker: quay.io/biocontainers/bioconductor-manta
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

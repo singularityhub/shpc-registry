@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/extract-sv-reads
 aliases:
   extract-sv-reads: /usr/local/bin/extract-sv-reads
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

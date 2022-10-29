@@ -7,7 +7,6 @@ tags:
   2.5.0--py39h8884e85_0: sha256:718e597a11e17025a2da00ed147ea137fff767f7ff24dc23b8057316e39a2ae7
 docker: quay.io/biocontainers/poppunk
 aliases:
-  .gtk3-post-link.sh: /usr/local/bin/.gtk3-post-link.sh
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
   SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
   aomdec: /usr/local/bin/aomdec
@@ -50,3 +49,13 @@ aliases:
   vpxenc: /usr/local/bin/vpxenc
   x264: /usr/local/bin/x264
   x265: /usr/local/bin/x265
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  certtool: /usr/local/bin/certtool
+  cups-config: /usr/local/bin/cups-config
+  cxpm: /usr/local/bin/cxpm
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session

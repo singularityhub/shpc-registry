@@ -7,5 +7,11 @@ tags:
   0.99.3--r40_0: sha256:276b1c5e684b3a4466fdb8ac3a607270244664a1ce36293c23ae5d5347f48f05
 docker: quay.io/biocontainers/bioconductor-netdx.examples
 aliases:
-  .bioconductor-netdx.examples-post-link.sh: /usr/local/bin/.bioconductor-netdx.examples-post-link.sh
-  .bioconductor-netdx.examples-pre-unlink.sh: /usr/local/bin/.bioconductor-netdx.examples-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

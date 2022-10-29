@@ -10,3 +10,13 @@ aliases:
   genometreetk: /usr/local/bin/genometreetk
   metatree: /usr/local/bin/metatree
   phylorank: /usr/local/bin/phylorank
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  alimask: /usr/local/bin/alimask
+  assistant: /usr/local/bin/assistant
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

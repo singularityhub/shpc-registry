@@ -6,3 +6,8 @@ latest:
 tags:
   2.28.0--r41hdfd78af_0: sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3
 docker: quay.io/biocontainers/bioconductor-qusage
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r351_0: sha256:3b95cd5fdfdba22573cee279a1d15ac7f80d509e6230389c57308af00c899b52
 docker: quay.io/biocontainers/bioconductor-biocworkflowtools
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

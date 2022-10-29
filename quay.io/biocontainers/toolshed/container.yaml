@@ -6,3 +6,5 @@ latest:
 tags:
   0.4.6--pyh864c0ab_3: sha256:4a94487be250ca290573776f3bd776fa3e38c5e9da12b4e5fbd7abae4a4790b2
 docker: quay.io/biocontainers/toolshed
+aliases:
+  toolshed: /usr/local/bin/toolshed

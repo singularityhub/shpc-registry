@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41h399db7b_0: sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927
 docker: quay.io/biocontainers/bioconductor-beachmat
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/flashlfq
 aliases:
   FlashLFQ: /usr/local/bin/FlashLFQ
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

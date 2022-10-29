@@ -7,5 +7,13 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:ae26eb8c3bde8917033c632f4e1b69b591deea96d400746f88ebb32d3cb907a4
 docker: quay.io/biocontainers/bioconductor-ewcedata
 aliases:
-  .bioconductor-ewcedata-post-link.sh: /usr/local/bin/.bioconductor-ewcedata-post-link.sh
-  .bioconductor-ewcedata-pre-unlink.sh: /usr/local/bin/.bioconductor-ewcedata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

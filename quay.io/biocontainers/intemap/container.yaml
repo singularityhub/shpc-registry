@@ -235,3 +235,13 @@ aliases:
   utg2fasta: /usr/local/bin/utg2fasta
   utgcnsfix: /usr/local/bin/utgcnsfix
   vennPolishes: /usr/local/bin/vennPolishes
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Catrack: /usr/local/bin/Catrack
+  Consensus: /usr/local/bin/Consensus
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DAssembler: /usr/local/bin/DAssembler
+  DB2fasta: /usr/local/bin/DB2fasta
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm

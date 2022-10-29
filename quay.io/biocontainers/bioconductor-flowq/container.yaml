@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/bioconductor-flowq
 aliases:
   -pkg-config: /usr/local/bin/-pkg-config
   x86_64-unknown-linux-gnu-pkg-config: /usr/local/bin/x86_64-unknown-linux-gnu-pkg-config
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

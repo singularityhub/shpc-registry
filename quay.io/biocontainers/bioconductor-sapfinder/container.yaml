@@ -6,3 +6,9 @@ latest:
 tags:
   1.26.0--r40h5f743cb_0: sha256:e848759d05ce25e1f7667cddffa30f77b72e6930e7c7f668f4c7f2d080b3ad08
 docker: quay.io/biocontainers/bioconductor-sapfinder
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

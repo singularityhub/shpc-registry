@@ -10,3 +10,13 @@ aliases:
   integron_finder: /usr/local/bin/integron_finder
   integron_merge: /usr/local/bin/integron_merge
   integron_split: /usr/local/bin/integron_split
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  alimask: /usr/local/bin/alimask
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan

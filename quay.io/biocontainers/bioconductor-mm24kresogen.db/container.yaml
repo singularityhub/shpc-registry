@@ -7,5 +7,13 @@ tags:
   2.5.0--r41hdfd78af_9: sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c
 docker: quay.io/biocontainers/bioconductor-mm24kresogen.db
 aliases:
-  .bioconductor-mm24kresogen.db-post-link.sh: /usr/local/bin/.bioconductor-mm24kresogen.db-post-link.sh
-  .bioconductor-mm24kresogen.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mm24kresogen.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

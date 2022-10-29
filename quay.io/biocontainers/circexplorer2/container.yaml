@@ -39,3 +39,13 @@ aliases:
   tophat-fusion-post: /usr/local/bin/tophat-fusion-post
   tophat2: /usr/local/bin/tophat2
   tophat_reports: /usr/local/bin/tophat_reports
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bowtie: /usr/local/bin/bowtie

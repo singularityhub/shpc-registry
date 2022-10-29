@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r361_1: sha256:cc2dc6b0bf25e581425e85300b673a4609fd98315858274fedad19413dc5c01b
 docker: quay.io/biocontainers/bioconductor-mapscape
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

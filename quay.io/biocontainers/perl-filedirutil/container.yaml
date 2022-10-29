@@ -6,3 +6,9 @@ latest:
 tags:
   v0.04--pl526_0: sha256:5f6c2cd978cbdfe564b7d898189c5d0a1034f9a017c5e344da4351b1dab27cb3
 docker: quay.io/biocontainers/perl-filedirutil
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

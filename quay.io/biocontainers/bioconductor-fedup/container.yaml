@@ -6,3 +6,14 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd
 docker: quay.io/biocontainers/bioconductor-fedup
+aliases:
+  Cytoscape: /usr/local/bin/Cytoscape
+  aserver: /usr/local/bin/aserver
+  curve_keygen: /usr/local/bin/curve_keygen
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext

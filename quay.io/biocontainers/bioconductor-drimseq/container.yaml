@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:ae5067b1a546a3191c2e0ea8410113b480cd758be4e11dc780ad9514d21778bb
 docker: quay.io/biocontainers/bioconductor-drimseq
+aliases:
+  wget: /usr/local/bin/wget

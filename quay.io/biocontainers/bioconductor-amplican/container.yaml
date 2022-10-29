@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r36he1b5a44_0: sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f
 docker: quay.io/biocontainers/bioconductor-amplican
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

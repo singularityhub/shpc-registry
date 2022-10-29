@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:ee7d0efd8232b46685afd3607548df7c2c37e664a5eaf02cde394ec0e7917225
 docker: quay.io/biocontainers/bioconductor-glmsparsenet
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

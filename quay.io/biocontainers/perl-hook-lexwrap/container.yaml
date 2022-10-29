@@ -6,3 +6,6 @@ latest:
 tags:
   0.26--pl526_1: sha256:999fe5f33ba9b1922e058f4cf4b7f84e729379670efc248e8e4c79bdfd98157f
 docker: quay.io/biocontainers/perl-hook-lexwrap
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

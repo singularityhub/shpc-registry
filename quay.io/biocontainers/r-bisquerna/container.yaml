@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.5--r41h3342da4_0: sha256:84b55f1f8ceddd24767747c359efa63d1cb4eb9c790ed7e26bc02a083401ba7c
 docker: quay.io/biocontainers/r-bisquerna
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

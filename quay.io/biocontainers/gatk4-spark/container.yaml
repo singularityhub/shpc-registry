@@ -6,3 +6,14 @@ latest:
 tags:
   4.3.0.0--hdfd78af_0: sha256:b891cccd973b5e356f6596a6e41eb9baf214305a502af22020ed87a8e0e84f90
 docker: quay.io/biocontainers/gatk4-spark
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  cups-config: /usr/local/bin/cups-config
+  gatk: /usr/local/bin/gatk
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

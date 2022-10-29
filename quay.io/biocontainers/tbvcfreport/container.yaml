@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/tbvcfreport
 aliases:
   tbvcfreport: /usr/local/bin/tbvcfreport
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

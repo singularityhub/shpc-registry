@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/afplot
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for afplot
+latest:
+  0.2.1--py_2: sha256:f07eddb77a5c52291292c7ed2f84c9a71638fbc71ea030750f1533d5fb0d441a
+tags:
+  0.2.1--py_2: sha256:f07eddb77a5c52291292c7ed2f84c9a71638fbc71ea030750f1533d5fb0d441a
+docker: quay.io/biocontainers/afplot

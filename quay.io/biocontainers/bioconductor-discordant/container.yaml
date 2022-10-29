@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36h516909a_1: sha256:858d2dacc35d4146066f13d871a6c3a06af47c844d06be0fd268c8dfff287cc3
 docker: quay.io/biocontainers/bioconductor-discordant
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

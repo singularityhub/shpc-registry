@@ -24,3 +24,5 @@ aliases:
   rscu: /usr/local/bin/rscu
   tidy: /usr/local/bin/tidy
   transl: /usr/local/bin/transl
+  cai: /usr/local/bin/cai
+  gc: /usr/local/bin/gc

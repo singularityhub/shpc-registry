@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:0dff03c783e71a0e37807a6b4ccedad37dc431a4f1388858ad8312d5ba4d491b
 docker: quay.io/biocontainers/bioconductor-test1cdf
 aliases:
-  .bioconductor-test1cdf-post-link.sh: /usr/local/bin/.bioconductor-test1cdf-post-link.sh
-  .bioconductor-test1cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-test1cdf-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

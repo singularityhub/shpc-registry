@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:b9fe4a0e8e36df50a50af04b82afa7fe2aada1d9f7b162a5ec1116bb8d5410e0
 docker: quay.io/biocontainers/bioconductor-mimager
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

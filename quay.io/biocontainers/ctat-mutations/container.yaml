@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/ctat-mutations
 aliases:
   ctat_mutations: /usr/local/bin/ctat_mutations
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  ace2sam: /usr/local/bin/ace2sam
+  appletviewer: /usr/local/bin/appletviewer
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  chardetect: /usr/local/bin/chardetect
+  color-chrs.pl: /usr/local/bin/color-chrs.pl

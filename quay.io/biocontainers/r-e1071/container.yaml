@@ -6,3 +6,12 @@ latest:
 tags:
   1.6_8--r3.3.2_0: sha256:443e92284085e1b40c74d08a4f1b2e255411c00065742a6e67e243fdf0792370
 docker: quay.io/biocontainers/r-e1071
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

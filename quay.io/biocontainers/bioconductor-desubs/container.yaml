@@ -6,3 +6,8 @@ latest:
 tags:
   1.8.1--r351_1: sha256:21ea4c0cc09f7b33b149d2ff2627a63513a7618c6b75ac74ddb4be29337c8d4d
 docker: quay.io/biocontainers/bioconductor-desubs
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

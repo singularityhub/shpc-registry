@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:cda629db51a26d99ea103063b26a5c4164beb48e21c987229cb5c5b57b5079dc
 docker: quay.io/biocontainers/bioconductor-isocorrector
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

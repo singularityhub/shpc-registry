@@ -6,3 +6,7 @@ latest:
 tags:
   0.8_4--r3.3.2_1: sha256:47fddf0afd5b89552e1153574eb54bf846c9a0e80b74635efcf2f6e50f555dc4
 docker: quay.io/biocontainers/r-misc3d
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

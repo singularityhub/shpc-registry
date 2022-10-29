@@ -6,3 +6,14 @@ latest:
 tags:
   1.44.0--r41hdfd78af_0: sha256:52f0b8efd231174b4ea641201566a4a560a5286aa43aeecf6cb48050f90eb8c6
 docker: quay.io/biocontainers/bioconductor-otubase
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

@@ -6,3 +6,14 @@ latest:
 tags:
   8.2.1--py_0: sha256:c38b56e6090fd7d0ee7516e76c3e051035ede3e019b102c75fcacd0fcc6ce38f
 docker: quay.io/biocontainers/hgtools
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.9: /usr/local/bin/idle3.9
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

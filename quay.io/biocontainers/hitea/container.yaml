@@ -10,3 +10,13 @@ aliases:
   hitea: /usr/local/bin/hitea
   pairtools: /usr/local/bin/pairtools
   pbgzip: /usr/local/bin/pbgzip
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  b2sum: /usr/local/bin/b2sum
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  bed12ToBed6: /usr/local/bin/bed12ToBed6

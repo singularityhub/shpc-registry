@@ -10,3 +10,9 @@ aliases:
   dumppdf.py: /usr/local/bin/dumppdf.py
   pdf2txt.py: /usr/local/bin/pdf2txt.py
   soda: /usr/local/bin/soda
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  chardetect: /usr/local/bin/chardetect
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

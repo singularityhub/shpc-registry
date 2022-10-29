@@ -6,3 +6,7 @@ latest:
 tags:
   1.01--pl5321hdfd78af_7: sha256:f567ea4c1ed666c0c47564dc0f7c2fbceb4531de095aac9832e0c31754f3feca
 docker: quay.io/biocontainers/perl-bio-cigar
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

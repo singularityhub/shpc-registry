@@ -6,3 +6,11 @@ latest:
 tags:
   0.6_6--r3.3.1_0: sha256:f7f3d8f82ed87b720f08184a5d9defff3ad98afb2fdcf67c1cae98ed9335c315
 docker: quay.io/biocontainers/r-relations
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

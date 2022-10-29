@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:fd4620b9fb0e285a13cb90a141a01353353fa39ae44687ab31871e3b774b4247
 docker: quay.io/biocontainers/bioconductor-porcineprobe
 aliases:
-  .bioconductor-porcineprobe-post-link.sh: /usr/local/bin/.bioconductor-porcineprobe-post-link.sh
-  .bioconductor-porcineprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-porcineprobe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

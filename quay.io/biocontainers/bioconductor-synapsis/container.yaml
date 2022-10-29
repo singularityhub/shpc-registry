@@ -6,3 +6,8 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570
 docker: quay.io/biocontainers/bioconductor-synapsis
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

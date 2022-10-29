@@ -6,3 +6,14 @@ latest:
 tags:
   2.07--pl5321hdfd78af_3: sha256:060983e90c37926a285b6f459a0ba547d241c87575e3feeff1730dbf95c1bc06
 docker: quay.io/biocontainers/perl-jcode
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/tadarida-d
 aliases:
   tadaridaD: /usr/local/bin/tadaridaD
+  assistant: /usr/local/bin/assistant
+  designer: /usr/local/bin/designer
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  flac: /usr/local/bin/flac
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease

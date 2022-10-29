@@ -9,3 +9,6 @@ docker: quay.io/biocontainers/zorro
 aliases:
   zorro: /usr/local/bin/zorro
   zorro_dist.pl: /usr/local/bin/zorro_dist.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  fasttree: /usr/local/bin/fasttree

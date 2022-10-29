@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.1--r36_0: sha256:4839ee900f0e8e5a5ec9f65826b872ab04b5883f4c059173d45b61cabde4bed5
 docker: quay.io/biocontainers/bioconductor-rtnduals
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

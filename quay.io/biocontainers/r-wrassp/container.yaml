@@ -6,3 +6,7 @@ latest:
 tags:
   0.1.4--r3.3.2_0: sha256:5ad0ff8fadb46cc6f25f1d90b3cad3d2cd20ed291b13e3d713d0e79a4802df8f
 docker: quay.io/biocontainers/r-wrassp
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

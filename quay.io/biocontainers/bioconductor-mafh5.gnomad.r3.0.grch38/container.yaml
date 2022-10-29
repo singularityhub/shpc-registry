@@ -7,5 +7,4 @@ tags:
   3.13.0--r41hdfd78af_0: sha256:b115bed64b1e25752bd8edf2c51ed22a3d1f8d6d5615eb98fa0176f061ddf7c7
 docker: quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38
 aliases:
-  .bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh
-  .bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,14 @@ latest:
 tags:
   1.54.0--r41hdfd78af_0: sha256:10a9dd29c49e58f808758f388998c1b731674ade9de5865a734cd01a9873a3e8
 docker: quay.io/biocontainers/bioconductor-plpe
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

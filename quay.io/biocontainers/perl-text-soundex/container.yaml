@@ -6,3 +6,8 @@ latest:
 tags:
   3.05--0: sha256:ca50c95aaaade5d205720a1a4b205ec99e1bfd1f4e23567ac190f25d56d81e6b
 docker: quay.io/biocontainers/perl-text-soundex
+aliases:
+  c2ph: /usr/local/bin/c2ph
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

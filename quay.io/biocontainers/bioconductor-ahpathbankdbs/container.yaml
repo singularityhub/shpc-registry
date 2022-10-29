@@ -7,5 +7,13 @@ tags:
   0.99.5--r41hdfd78af_2: sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069
 docker: quay.io/biocontainers/bioconductor-ahpathbankdbs
 aliases:
-  .bioconductor-ahpathbankdbs-post-link.sh: /usr/local/bin/.bioconductor-ahpathbankdbs-post-link.sh
-  .bioconductor-ahpathbankdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahpathbankdbs-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

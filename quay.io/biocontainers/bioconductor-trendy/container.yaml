@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_0: sha256:d53ed2b4d5adaa3f3756007340c1780f11021a92a7030dada21f17ab907379cd
 docker: quay.io/biocontainers/bioconductor-trendy
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

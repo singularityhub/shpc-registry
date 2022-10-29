@@ -7,7 +7,15 @@ tags:
   0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
 docker: quay.io/biocontainers/phylogenetics
 aliases:
-  .vega3-post-link.sh: /usr/local/bin/.vega3-post-link.sh
-  .vega3-pre-unlink.sh: /usr/local/bin/.vega3-pre-unlink.sh
   jupyter-console: /usr/local/bin/jupyter-console
   jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  assistant: /usr/local/bin/assistant
+  curve_keygen: /usr/local/bin/curve_keygen
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

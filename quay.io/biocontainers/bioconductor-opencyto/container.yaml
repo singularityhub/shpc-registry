@@ -6,3 +6,14 @@ latest:
 tags:
   2.6.0--r41hc247a5b_2: sha256:6c7d537b410551a19de9ba08df57662701ea75c6af6a07f68503bcaa8e34d292
 docker: quay.io/biocontainers/bioconductor-opencyto
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

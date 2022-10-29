@@ -9,3 +9,11 @@ docker: quay.io/biocontainers/krocus
 aliases:
   krocus: /usr/local/bin/krocus
   krocus_database_downloader: /usr/local/bin/krocus_database_downloader
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  fastaq: /usr/local/bin/fastaq
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

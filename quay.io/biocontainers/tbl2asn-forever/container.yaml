@@ -6,3 +6,8 @@ latest:
 tags:
   25.7f--0: sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33
 docker: quay.io/biocontainers/tbl2asn-forever
+aliases:
+  faketime: /usr/local/bin/faketime
+  idn: /usr/local/bin/idn
+  real-tbl2asn: /usr/local/bin/real-tbl2asn
+  tbl2asn: /usr/local/bin/tbl2asn

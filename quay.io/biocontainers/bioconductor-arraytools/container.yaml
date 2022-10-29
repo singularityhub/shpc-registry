@@ -6,3 +6,5 @@ latest:
 tags:
   1.50.0--r40hdfd78af_1: sha256:65febe5f3e53885084074a73a3d6c03e3267f7f87aaf138960ed46e4c2392be8
 docker: quay.io/biocontainers/bioconductor-arraytools
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

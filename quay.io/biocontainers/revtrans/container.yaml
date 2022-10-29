@@ -13,3 +13,10 @@ aliases:
   revtrans.py: /usr/local/bin/revtrans.py
   revtrans_jarmo.py: /usr/local/bin/revtrans_jarmo.py
   translate.py: /usr/local/bin/translate.py
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

@@ -6,3 +6,12 @@ latest:
 tags:
   0.0_8--r3.3.2_0: sha256:e8cdadad3b9e8657a133e52639a244e5448a88fa21b905e9b955b6d892e5a305
 docker: quay.io/biocontainers/r-combinat
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:a85961ba83366da8f9889e4b3817fa615b556d7b8dd4b1fdf9888594c00d2d2c
 docker: quay.io/biocontainers/bioconductor-lungcanceracvssccgeo
 aliases:
-  .bioconductor-lungcanceracvssccgeo-post-link.sh: /usr/local/bin/.bioconductor-lungcanceracvssccgeo-post-link.sh
-  .bioconductor-lungcanceracvssccgeo-pre-unlink.sh: /usr/local/bin/.bioconductor-lungcanceracvssccgeo-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

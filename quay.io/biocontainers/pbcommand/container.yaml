@@ -7,4 +7,13 @@ tags:
   2.1.1--py_2: sha256:d1d4ec28237b9c75beaac07fbbcb6827e43b05f6f1271de7d0465b339241757b
 docker: quay.io/biocontainers/pbcommand
 aliases:
-  .pbcommand-post-link.sh: /usr/local/bin/.pbcommand-post-link.sh
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  avro: /usr/local/bin/avro
+  chardetect: /usr/local/bin/chardetect
+  f2py3.7: /usr/local/bin/f2py3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config

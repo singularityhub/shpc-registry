@@ -7,5 +7,13 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:8c0355ed0fd22c142a09917f356971fa1e2aea4faa42be9e5af57e2de105cd4d
 docker: quay.io/biocontainers/bioconductor-precisetadhub
 aliases:
-  .bioconductor-precisetadhub-post-link.sh: /usr/local/bin/.bioconductor-precisetadhub-post-link.sh
-  .bioconductor-precisetadhub-pre-unlink.sh: /usr/local/bin/.bioconductor-precisetadhub-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

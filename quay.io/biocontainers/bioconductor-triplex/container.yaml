@@ -6,3 +6,14 @@ latest:
 tags:
   1.34.0--r41hc0cfd56_2: sha256:4707a4abd583efb9de5100cec5b617208e82d7695d5ddba7cd1d5ae146a5d067
 docker: quay.io/biocontainers/bioconductor-triplex
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

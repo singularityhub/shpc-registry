@@ -14,3 +14,4 @@ aliases:
   extract_reads_from_bv: /usr/local/bin/extract_reads_from_bv
   generate_bv: /usr/local/bin/generate_bv
   short_read_connector.sh: /usr/local/bin/short_read_connector.sh
+  h5dump: /usr/local/bin/h5dump

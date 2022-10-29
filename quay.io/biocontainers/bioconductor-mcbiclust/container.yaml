@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:e07a66a816f36d4ebe38f3606aeb130401d420f4c485f485e92e74bb7fd99c60
 docker: quay.io/biocontainers/bioconductor-mcbiclust
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

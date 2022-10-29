@@ -17,3 +17,13 @@ aliases:
   map_and_profile.py: /usr/local/bin/map_and_profile.py
   metalign.py: /usr/local/bin/metalign.py
   select_db.py: /usr/local/bin/select_db.py
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
+  abundance-dist.py: /usr/local/bin/abundance-dist.py
+  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  count-median.py: /usr/local/bin/count-median.py
+  do-partition.py: /usr/local/bin/do-partition.py
+  extract-long-sequences.py: /usr/local/bin/extract-long-sequences.py
+  extract-paired-reads.py: /usr/local/bin/extract-paired-reads.py
+  extract-partitions.py: /usr/local/bin/extract-partitions.py
+  f2py3.7: /usr/local/bin/f2py3.7

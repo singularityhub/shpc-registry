@@ -11,3 +11,13 @@ aliases:
   graphanalyzer.py: /usr/local/bin/graphanalyzer.py
   holoviews: /usr/local/bin/holoviews
   panel: /usr/local/bin/panel
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bokeh: /usr/local/bin/bokeh
+  brotli: /usr/local/bin/brotli
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

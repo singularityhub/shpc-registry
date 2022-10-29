@@ -6,3 +6,5 @@ latest:
 tags:
   0.110--pl5321hdfd78af_0: sha256:8cf392d25d562d75cd04d84f5777dcc9d1a08de1406b33c69bdd80ed6be93262
 docker: quay.io/biocontainers/perl-getopt-long-descriptive
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

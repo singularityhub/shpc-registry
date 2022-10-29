@@ -18,3 +18,13 @@ aliases:
   talon_label_reads: /usr/local/bin/talon_label_reads
   talon_reformat_gtf: /usr/local/bin/talon_reformat_gtf
   talon_summarize: /usr/local/bin/talon_summarize
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools

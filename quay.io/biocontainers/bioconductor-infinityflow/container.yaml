@@ -6,3 +6,5 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:90943639ecd5452486b16b401d3b96ccefe5bdcae2d71d7edaed564a1fa39482
 docker: quay.io/biocontainers/bioconductor-infinityflow
+aliases:
+  xgboost: /usr/local/bin/xgboost

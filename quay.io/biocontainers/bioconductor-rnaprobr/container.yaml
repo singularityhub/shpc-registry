@@ -6,3 +6,12 @@ latest:
 tags:
   1.9.0--r3.4.1_0: sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f
 docker: quay.io/biocontainers/bioconductor-rnaprobr
+aliases:
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  perror: /usr/local/bin/perror
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wget: /usr/local/bin/wget
+  wish8.5: /usr/local/bin/wish8.5

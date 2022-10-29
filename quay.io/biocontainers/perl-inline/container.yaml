@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-inline
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-inline
+latest:
+  0.86--pl5321hdfd78af_0: sha256:ac3abd535af748ced430327458b4528d5780dbb174e4a4af0d0a262de15c46d5
+tags:
+  0.86--pl5321hdfd78af_0: sha256:ac3abd535af748ced430327458b4528d5780dbb174e4a4af0d0a262de15c46d5
+docker: quay.io/biocontainers/perl-inline

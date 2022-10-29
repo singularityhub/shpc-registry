@@ -8,9 +8,18 @@ tags:
 docker: quay.io/biocontainers/clair3
 aliases:
   clair3.py: /usr/local/bin/clair3.py
-  libpypy3-c.so.debug: /usr/local/bin/libpypy3-c.so.debug
   pypy: /usr/local/bin/pypy
   pypy3: /usr/local/bin/pypy3
   pypy3.6: /usr/local/bin/pypy3.6
   run_clair3.sh: /usr/local/bin/run_clair3.sh
   whatshap: /usr/local/bin/whatshap
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  chardetect: /usr/local/bin/chardetect
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh

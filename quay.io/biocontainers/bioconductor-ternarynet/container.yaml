@@ -6,3 +6,5 @@ latest:
 tags:
   1.38.0--r41hc247a5b_2: sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721
 docker: quay.io/biocontainers/bioconductor-ternarynet
+aliases:
+  glpsol: /usr/local/bin/glpsol

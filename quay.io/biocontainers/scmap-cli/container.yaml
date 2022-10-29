@@ -17,3 +17,13 @@ aliases:
   scmap-scmap-cluster.R: /usr/local/bin/scmap-scmap-cluster.R
   scmap-select-features.R: /usr/local/bin/scmap-select-features.R
   scmap_get_std_output.R: /usr/local/bin/scmap_get_std_output.R
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

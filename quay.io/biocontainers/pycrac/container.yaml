@@ -33,3 +33,9 @@ aliases:
   pyReadCounters.py: /usr/local/bin/pyReadCounters.py
   pySelectMotifsFromGTF.py: /usr/local/bin/pySelectMotifsFromGTF.py
   pybed2GTF.py: /usr/local/bin/pybed2GTF.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

@@ -6,3 +6,10 @@ latest:
 tags:
   4.3.20--r3.3.1_1: sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef
 docker: quay.io/biocontainers/r-rcppparallel
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

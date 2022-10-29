@@ -6,3 +6,14 @@ latest:
 tags:
   1.24.0--r41hc247a5b_2: sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07
 docker: quay.io/biocontainers/bioconductor-nanostringdiff
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

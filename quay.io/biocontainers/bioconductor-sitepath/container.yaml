@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6
 docker: quay.io/biocontainers/bioconductor-sitepath
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

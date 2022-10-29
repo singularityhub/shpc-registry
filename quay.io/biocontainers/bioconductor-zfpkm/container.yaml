@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:af4ad1c895a96d86107ad5e8837b0273de6ee31e77ec62a79253804d22122a92
 docker: quay.io/biocontainers/bioconductor-zfpkm
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

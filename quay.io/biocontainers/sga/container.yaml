@@ -11,3 +11,4 @@ aliases:
   sga-astat.py: /usr/local/bin/sga-astat.py
   sga-bam2de.pl: /usr/local/bin/sga-bam2de.pl
   sga-mergeDriver.pl: /usr/local/bin/sga-mergeDriver.pl
+  bamtools: /usr/local/bin/bamtools

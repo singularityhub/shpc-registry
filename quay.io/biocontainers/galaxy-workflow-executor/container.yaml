@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/galaxy-workflow-executor
 aliases:
   generate_params_from_workflow.py: /usr/local/bin/generate_params_from_workflow.py
   run_galaxy_workflow.py: /usr/local/bin/run_galaxy_workflow.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  asadmin: /usr/local/bin/asadmin
+  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
+  bundle_image: /usr/local/bin/bundle_image
+  cfadmin: /usr/local/bin/cfadmin
+  chardetect: /usr/local/bin/chardetect
+  cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load

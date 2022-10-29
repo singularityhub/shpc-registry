@@ -6,3 +6,14 @@ latest:
 tags:
   1.62.0--r41hdfd78af_0: sha256:f736d26f4d23313c77310a4df57d8322ebe26b48d18067ae4553593a4e657ac4
 docker: quay.io/biocontainers/bioconductor-gaggle
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

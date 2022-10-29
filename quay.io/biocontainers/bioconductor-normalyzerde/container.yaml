@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a
 docker: quay.io/biocontainers/bioconductor-normalyzerde
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

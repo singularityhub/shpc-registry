@@ -7,5 +7,4 @@ tags:
   3.8.2--r36_1: sha256:0e02755f8e0c8b99583e3f1eddb659f1fff2a70bbdab5da9df9995185c92e33c
 docker: quay.io/biocontainers/bioconductor-org.ce.eg.db
 aliases:
-  .bioconductor-org.ce.eg.db-post-link.sh: /usr/local/bin/.bioconductor-org.ce.eg.db-post-link.sh
-  .bioconductor-org.ce.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.ce.eg.db-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

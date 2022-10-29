@@ -6,3 +6,9 @@ latest:
 tags:
   1.63.0--r40h037d062_0: sha256:ba5b232d8d7716e12e5b09745e312ea291dd7018de786dc649b5fac50035c011
 docker: quay.io/biocontainers/bioconductor-prada
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

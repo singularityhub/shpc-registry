@@ -6,3 +6,14 @@ latest:
 tags:
   3.44--pl5321hdfd78af_0: sha256:b78cb0dfe61ac5451180397d6f7f757236de43e0ec35a365e53ddc1060d353fd
 docker: quay.io/biocontainers/perl-test-harness
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

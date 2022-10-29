@@ -6,3 +6,14 @@ latest:
 tags:
   0.4.2--hdfd78af_1: sha256:9f9f64da530cf3225f5126b9d30a9ccba53b061870156b8fd812c75e448f2104
 docker: quay.io/biocontainers/minced
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

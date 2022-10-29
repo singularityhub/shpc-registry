@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.2_4--r351h29659fb_1: sha256:a848edc658d8c8b2d907b2b0ad9a77e29c53df6e2e6f9fb7f807336099a1aa93
 docker: quay.io/biocontainers/r-scrm
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

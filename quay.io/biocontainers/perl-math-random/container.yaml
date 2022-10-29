@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-math-random
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-math-random
+latest:
+  0.72--pl5321hec16e2b_4: sha256:36ddf2b0c722a0d1648c7902092610da9ae7272c81cb54dadeebee9e7226ac5e
+tags:
+  0.72--pl5321hec16e2b_4: sha256:36ddf2b0c722a0d1648c7902092610da9ae7272c81cb54dadeebee9e7226ac5e
+docker: quay.io/biocontainers/perl-math-random

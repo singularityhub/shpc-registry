@@ -6,3 +6,5 @@ latest:
 tags:
   1.30--pl5321hec16e2b_1: sha256:b2506256c6013e667479d5b070a3b778fd1d18cc20db5a459dee527328dfc995
 docker: quay.io/biocontainers/perl-params-validate
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

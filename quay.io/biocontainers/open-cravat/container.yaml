@@ -7,5 +7,14 @@ tags:
   2.2.9--pyh7cba7a3_0: sha256:8b595553c32f27853b91c2fc9eecdec1c20d107e17d0fc894d2893070b866fa1
 docker: quay.io/biocontainers/open-cravat
 aliases:
-  .open-cravat-post-link.sh: /usr/local/bin/.open-cravat-post-link.sh
   oc: /usr/local/bin/oc
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  chardetect: /usr/local/bin/chardetect
+  idle3.9: /usr/local/bin/idle3.9
+  markdown_py: /usr/local/bin/markdown_py
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py

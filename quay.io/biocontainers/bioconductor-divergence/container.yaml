@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:b6eefa30bc8d3bfff867fc3f6da56af55c9d5f98fa5ddcdfd46f61f80be1a7e3
 docker: quay.io/biocontainers/bioconductor-divergence
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

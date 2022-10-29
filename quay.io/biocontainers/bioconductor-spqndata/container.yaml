@@ -7,5 +7,13 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:62a1f4bf862fb3c506271d2ec187fa2c71314de1a9af39273027e11870cf9994
 docker: quay.io/biocontainers/bioconductor-spqndata
 aliases:
-  .bioconductor-spqndata-post-link.sh: /usr/local/bin/.bioconductor-spqndata-post-link.sh
-  .bioconductor-spqndata-pre-unlink.sh: /usr/local/bin/.bioconductor-spqndata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

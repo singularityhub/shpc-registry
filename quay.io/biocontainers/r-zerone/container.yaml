@@ -6,3 +6,5 @@ latest:
 tags:
   1.0--r341h470a237_1: sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d
 docker: quay.io/biocontainers/r-zerone
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config

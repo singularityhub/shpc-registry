@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r341_0: sha256:685a84c3e33a46e48e632d2d14df119dec66e5fb00f0b00c6bf193295239582e
 docker: quay.io/biocontainers/bioconductor-nucleosim
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config

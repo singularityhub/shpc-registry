@@ -6,3 +6,13 @@ latest:
 tags:
   0.16.9--py_0: sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb
 docker: quay.io/biocontainers/wtforms-alchemy
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  pybabel: /usr/local/bin/pybabel
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

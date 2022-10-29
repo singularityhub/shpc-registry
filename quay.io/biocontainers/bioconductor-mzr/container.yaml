@@ -6,3 +6,14 @@ latest:
 tags:
   2.6.3--r3.3.1_1: sha256:aa0a2c2fe328f5ceb5806b5dc851d3fd0772f0b9549a3d89a8d450aff3a47146
 docker: quay.io/biocontainers/bioconductor-mzr
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5dump: /usr/local/bin/h5dump
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam

@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.1--r351_0: sha256:6a51e5e30e29cd7343ba27f1e654ce50bcd5cff9ceab02dccbbe469ca782cd46
 docker: quay.io/biocontainers/bioconductor-lobstahs
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

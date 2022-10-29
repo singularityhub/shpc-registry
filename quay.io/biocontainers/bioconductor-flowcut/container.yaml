@@ -6,3 +6,6 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:06982b6e2d8666f508fd4d321fdbab9806ff09c46d85a52a019790bceb136419
 docker: quay.io/biocontainers/bioconductor-flowcut
+aliases:
+  geos-config: /usr/local/bin/geos-config
+  geosop: /usr/local/bin/geosop

@@ -36,3 +36,13 @@ aliases:
   rnazSelectSeqs.pl: /usr/local/bin/rnazSelectSeqs.pl
   rnazSort.pl: /usr/local/bin/rnazSort.pl
   rnazWindow.pl: /usr/local/bin/rnazWindow.pl
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  FastTree: /usr/local/bin/FastTree
+  Kinfold: /usr/local/bin/Kinfold
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAaliduplex: /usr/local/bin/RNAaliduplex

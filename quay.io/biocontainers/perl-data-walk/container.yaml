@@ -6,3 +6,5 @@ latest:
 tags:
   2.01--pl5321hdfd78af_2: sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee
 docker: quay.io/biocontainers/perl-data-walk
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

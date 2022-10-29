@@ -7,5 +7,9 @@ tags:
   1.2.0--r41hdfd78af_0: sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e
 docker: quay.io/biocontainers/bioconductor-magar
 aliases:
-  .bioconductor-rnbeads.hg19-post-link.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-post-link.sh
-  .bioconductor-rnbeads.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-rnbeads.hg19-pre-unlink.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

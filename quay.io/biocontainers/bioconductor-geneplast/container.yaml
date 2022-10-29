@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r351_0: sha256:c8ebd52e1b89a9e4b739eb5efd97dcd73426bd9924f8c056d19ca6661802a6b9
 docker: quay.io/biocontainers/bioconductor-geneplast
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

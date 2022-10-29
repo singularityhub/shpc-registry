@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r341_0: sha256:8d57bafc53fb3cae67e200465edc80b410f6122b746843fc874b15289a3b4a70
 docker: quay.io/biocontainers/bioconductor-mmdiff2
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

@@ -54,3 +54,13 @@ aliases:
   validateSNP2.py: /usr/local/bin/validateSNP2.py
   validateSNP3.py: /usr/local/bin/validateSNP3.py
   write_strain_fasta.py: /usr/local/bin/write_strain_fasta.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  ace2sam: /usr/local/bin/ace2sam
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  bcftools: /usr/local/bin/bcftools
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py

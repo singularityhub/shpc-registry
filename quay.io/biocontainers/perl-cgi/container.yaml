@@ -6,3 +6,5 @@ latest:
 tags:
   4.54--pl5321hec16e2b_1: sha256:447db43794c1be154b87efacf3fd69c5aec24cd1173f2cd20059582e038ef192
 docker: quay.io/biocontainers/perl-cgi
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

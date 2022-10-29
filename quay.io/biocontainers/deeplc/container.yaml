@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/deeplc
 aliases:
   deeplc: /usr/local/bin/deeplc
   deeplc-gui: /usr/local/bin/deeplc-gui
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  futurize: /usr/local/bin/futurize
+  gif2h5: /usr/local/bin/gif2h5
+  gif2rgb: /usr/local/bin/gif2rgb

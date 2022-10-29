@@ -6,3 +6,14 @@ latest:
 tags:
   3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
 docker: quay.io/biocontainers/openbabel
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obfitall: /usr/local/bin/obfitall
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep

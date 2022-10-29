@@ -7,7 +7,6 @@ tags:
   0.2.5--py_0: sha256:aa7fceb1b8c605680f47115d5a56785367ffe1dbafdafa599eec6b067cafe719
 docker: quay.io/biocontainers/guessmylt
 aliases:
-  .busco-post-link.sh: /usr/local/bin/.busco-post-link.sh
   GUESSmyLT: /usr/local/bin/GUESSmyLT
   GUESSmyLT-example: /usr/local/bin/GUESSmyLT-example
   PtR: /usr/local/bin/PtR
@@ -44,3 +43,13 @@ aliases:
   run_expr_quantification_from_samples_file.pl: /usr/local/bin/run_expr_quantification_from_samples_file.pl
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   webserver-results.body: /usr/local/bin/webserver-results.body
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp

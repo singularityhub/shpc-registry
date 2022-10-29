@@ -6,3 +6,6 @@ latest:
 tags:
   1.63--pl5321hdfd78af_2: sha256:502409bec85a8db345b999f5b7a23de5fb1b792c70a6d4941c503b200a8becb0
 docker: quay.io/biocontainers/perl-pod-parser
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  podselect: /usr/local/bin/podselect

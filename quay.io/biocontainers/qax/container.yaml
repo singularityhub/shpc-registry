@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/qax
 aliases:
   qax: /usr/local/bin/qax
+  zip: /usr/local/bin/zip
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool

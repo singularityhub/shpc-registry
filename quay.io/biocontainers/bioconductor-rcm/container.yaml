@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:263433e17b0cddcf498a4a2fb5c5c057772a5d38dd34ac07a03bf390e414972c
 docker: quay.io/biocontainers/bioconductor-rcm
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

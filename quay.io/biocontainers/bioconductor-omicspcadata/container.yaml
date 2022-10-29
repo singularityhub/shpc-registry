@@ -7,5 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:6fbd4674fde033f244d586630f4cde857aef8d58c01db5bd2057601487ecde56
 docker: quay.io/biocontainers/bioconductor-omicspcadata
 aliases:
-  .bioconductor-omicspcadata-post-link.sh: /usr/local/bin/.bioconductor-omicspcadata-post-link.sh
-  .bioconductor-omicspcadata-pre-unlink.sh: /usr/local/bin/.bioconductor-omicspcadata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

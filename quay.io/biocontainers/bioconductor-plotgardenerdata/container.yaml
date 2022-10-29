@@ -7,5 +7,13 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:fe663325de4c2fe3f3fdc77461e171dcfd90ddabaadca5752b50477f884b1352
 docker: quay.io/biocontainers/bioconductor-plotgardenerdata
 aliases:
-  .bioconductor-plotgardenerdata-post-link.sh: /usr/local/bin/.bioconductor-plotgardenerdata-post-link.sh
-  .bioconductor-plotgardenerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-plotgardenerdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

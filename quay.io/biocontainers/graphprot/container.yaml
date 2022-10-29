@@ -10,3 +10,13 @@ aliases:
   GraphProt.pl: /usr/local/bin/GraphProt.pl
   RNAshapes: /usr/local/bin/RNAshapes
   gawk-4.2.1: /usr/local/bin/gawk-4.2.1
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  awk: /usr/local/bin/awk
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod

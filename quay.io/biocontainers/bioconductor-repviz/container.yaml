@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc
 docker: quay.io/biocontainers/bioconductor-repviz
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

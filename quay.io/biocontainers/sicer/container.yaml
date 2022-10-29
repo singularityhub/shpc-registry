@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sicer
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sicer
+latest:
+  1.1--hdfd78af_5: sha256:664acabfc802024a78116f550122e5e618926ccffc6a9ffd9fe821d03b5ab280
+tags:
+  1.1--hdfd78af_5: sha256:664acabfc802024a78116f550122e5e618926ccffc6a9ffd9fe821d03b5ab280
+docker: quay.io/biocontainers/sicer

@@ -19,3 +19,13 @@ aliases:
   rnr-tii: /usr/local/bin/rnr-tii
   treeator: /usr/local/bin/treeator
   treebender: /usr/local/bin/treebender
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  alimask: /usr/local/bin/alimask
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454

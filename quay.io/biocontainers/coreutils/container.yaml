@@ -6,3 +6,14 @@ latest:
 tags:
   8.31--h14c3975_0: sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256
 docker: quay.io/biocontainers/coreutils
+aliases:
+  b2sum: /usr/local/bin/b2sum
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  basenc: /usr/local/bin/basenc
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown

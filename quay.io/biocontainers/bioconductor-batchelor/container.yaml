@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:ee7381d35bd584376c2b50254c36edfeffbd637a10d1246b510a28ec3d867b9c
 docker: quay.io/biocontainers/bioconductor-batchelor
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

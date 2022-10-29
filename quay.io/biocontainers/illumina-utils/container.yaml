@@ -26,3 +26,13 @@ aliases:
   iu-visualize-mismatch-distribution: /usr/local/bin/iu-visualize-mismatch-distribution
   iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
   iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  tificc: /usr/local/bin/tificc

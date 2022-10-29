@@ -23,3 +23,13 @@ aliases:
   vidir: /usr/local/bin/vidir
   vipe: /usr/local/bin/vipe
   zrun: /usr/local/bin/zrun
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  alimask: /usr/local/bin/alimask
+  awk: /usr/local/bin/awk
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  diamond: /usr/local/bin/diamond
+  easel: /usr/local/bin/easel

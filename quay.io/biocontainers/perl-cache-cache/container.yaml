@@ -6,3 +6,14 @@ latest:
 tags:
   1.08--pl5321hdfd78af_1: sha256:f9d16f3e79b68e786f07ea5d0adbf8bf7e1901c7e66f6fae72c3563f824c0503
 docker: quay.io/biocontainers/perl-cache-cache
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

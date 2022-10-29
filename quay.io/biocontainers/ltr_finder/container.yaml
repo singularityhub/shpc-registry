@@ -15,3 +15,13 @@ aliases:
   genome_plot_svg.pl: /usr/local/bin/genome_plot_svg.pl
   ltr_finder: /usr/local/bin/ltr_finder
   psearch: /usr/local/bin/psearch
+  annotate: /usr/local/bin/annotate
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng

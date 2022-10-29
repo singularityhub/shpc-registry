@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/wgfast
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for wgfast
+latest:
+  1.0.4--py_0: sha256:6dc9a029c7c0a8222fb39963b7c549fd5b30df78ee88d2443465d5f7235bd92b
+tags:
+  1.0.4--py_0: sha256:6dc9a029c7c0a8222fb39963b7c549fd5b30df78ee88d2443465d5f7235bd92b
+docker: quay.io/biocontainers/wgfast

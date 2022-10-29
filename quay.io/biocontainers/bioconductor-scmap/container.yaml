@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36he1b5a44_0: sha256:21fd2e557b6371209a3d84d576e3691bbbdb357873d36848a633c13830ebe882
 docker: quay.io/biocontainers/bioconductor-scmap
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

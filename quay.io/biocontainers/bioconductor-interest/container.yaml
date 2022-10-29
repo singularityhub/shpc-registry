@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_1: sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c
 docker: quay.io/biocontainers/bioconductor-interest
+aliases:
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

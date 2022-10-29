@@ -6,3 +6,14 @@ latest:
 tags:
   1.1.5--r40_4: sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928
 docker: quay.io/biocontainers/xtail
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat

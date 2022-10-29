@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/mintmap
 aliases:
   MINTmap.pl: /usr/local/bin/MINTmap.pl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

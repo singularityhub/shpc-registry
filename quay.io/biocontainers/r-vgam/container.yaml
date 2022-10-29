@@ -6,3 +6,10 @@ latest:
 tags:
   1.0_2--r3.3.1_0: sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30
 docker: quay.io/biocontainers/r-vgam
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

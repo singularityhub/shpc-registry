@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4
 docker: quay.io/biocontainers/bioconductor-helloranges
+aliases:
+  wget: /usr/local/bin/wget

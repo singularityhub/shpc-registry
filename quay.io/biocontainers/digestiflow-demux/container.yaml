@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/digestiflow-demux
 aliases:
   digestiflow-demux: /usr/local/bin/digestiflow-demux
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  coloredlogs: /usr/local/bin/coloredlogs
+  cxpm: /usr/local/bin/cxpm
+  dijkstra: /usr/local/bin/dijkstra

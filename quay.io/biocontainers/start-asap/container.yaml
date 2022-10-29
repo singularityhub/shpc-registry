@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/start-asap
 aliases:
   start-asap: /usr/local/bin/start-asap
+  chartex: /usr/local/bin/chartex
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

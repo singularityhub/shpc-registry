@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:1f24c032c470e04446b591cad6c1fb8fbbb2386cb9f01e173721979f05d6c9ae
 docker: quay.io/biocontainers/bioconductor-crisprseekplus
+aliases:
+  wget: /usr/local/bin/wget

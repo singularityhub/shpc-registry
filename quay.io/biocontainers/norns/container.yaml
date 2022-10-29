@@ -6,3 +6,11 @@ latest:
 tags:
   0.1.6--pyh5e36f6f_0: sha256:0245e5b592b662f5fec93a74b42b429e24f6e07929997d3633f2cd4ef40221a1
 docker: quay.io/biocontainers/norns
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  nosetests: /usr/local/bin/nosetests
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

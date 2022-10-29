@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-module-load
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-module-load
+latest:
+  0.34--pl5321hdfd78af_0: sha256:ed21018fd1c3ae62e722956b5c5688c20c8bd25f62535115a13c0e2025b4f8ac
+tags:
+  0.34--pl5321hdfd78af_0: sha256:ed21018fd1c3ae62e722956b5c5688c20c8bd25f62535115a13c0e2025b4f8ac
+docker: quay.io/biocontainers/perl-module-load

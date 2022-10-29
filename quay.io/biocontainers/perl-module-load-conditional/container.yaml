@@ -6,3 +6,6 @@ latest:
 tags:
   0.68--pl526_2: sha256:6a656a361a527b2c1a8605fd7996e436af429df90a382103e5e7ea55f44f6ec5
 docker: quay.io/biocontainers/perl-module-load-conditional
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

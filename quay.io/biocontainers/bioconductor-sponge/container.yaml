@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:4b049d2aa308b959da922bb979401739b2c6d47944f6281f586ca378ff9972ce
 docker: quay.io/biocontainers/bioconductor-sponge
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

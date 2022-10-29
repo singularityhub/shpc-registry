@@ -7,5 +7,13 @@ tags:
   3.4.6--r36_2: sha256:77bc5f4a0b6443cb5f421ff151ad3ed5e8cf19a3567c292f79123e54564aa28a
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene
 aliases:
-  .bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh
-  .bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -11,3 +11,13 @@ aliases:
   download_metaseq_example_data.py: /usr/local/bin/download_metaseq_example_data.py
   metaseq-cli: /usr/local/bin/metaseq-cli
   speedtest.py: /usr/local/bin/speedtest.py
+  ace2sam: /usr/local/bin/ace2sam
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  annotateBed: /usr/local/bin/annotateBed
+  assistant: /usr/local/bin/assistant
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py

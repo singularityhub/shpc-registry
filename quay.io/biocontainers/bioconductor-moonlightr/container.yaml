@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-moonlightr
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-moonlightr
+latest:
+  1.8.0--r351_0: sha256:758365058a716136af02ac1a27b4a9169c527cd59518fe7b6355cdf717bdf1b3
+tags:
+  1.8.0--r351_0: sha256:758365058a716136af02ac1a27b4a9169c527cd59518fe7b6355cdf717bdf1b3
+docker: quay.io/biocontainers/bioconductor-moonlightr

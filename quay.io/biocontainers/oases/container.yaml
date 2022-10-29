@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/oases
 aliases:
   oases: /usr/local/bin/oases
   oases_pipeline.py: /usr/local/bin/oases_pipeline.py
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth

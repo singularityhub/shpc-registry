@@ -6,3 +6,14 @@ latest:
 tags:
   2.13--pl5321h9f5acd7_3: sha256:f42bc242a9225e70c5c087891512f40a305b65822a1cf8185817d3d910efe678
 docker: quay.io/biocontainers/perl-digest-sha1
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

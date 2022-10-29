@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/isoplot
 aliases:
   colorcet: /usr/local/bin/colorcet
   isoplot: /usr/local/bin/isoplot
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  bokeh: /usr/local/bin/bokeh
+  brotli: /usr/local/bin/brotli
+  curve_keygen: /usr/local/bin/curve_keygen
+  f2py3.8: /usr/local/bin/f2py3.8
+  fonttools: /usr/local/bin/fonttools
+  idle3.8: /usr/local/bin/idle3.8
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython

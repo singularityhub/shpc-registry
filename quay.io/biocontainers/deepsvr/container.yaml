@@ -10,3 +10,13 @@ aliases:
   bam-readcount: /usr/local/bin/bam-readcount
   convert_zero_one_based: /usr/local/bin/convert_zero_one_based
   deepsvr: /usr/local/bin/deepsvr
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  assistant: /usr/local/bin/assistant
+  c2ph: /usr/local/bin/c2ph
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

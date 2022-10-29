@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40h5f743cb_0: sha256:df1d33ebc7c810d66693e67e0421bfb1911e2d3de6261adb283abd10e9fa8e7d
 docker: quay.io/biocontainers/bioconductor-decomplexdisease
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

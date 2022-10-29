@@ -11,3 +11,13 @@ aliases:
   cpuinfo: /usr/local/bin/cpuinfo
   py.test-benchmark: /usr/local/bin/py.test-benchmark
   pytest-benchmark: /usr/local/bin/pytest-benchmark
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  acyclic: /usr/local/bin/acyclic
+  assistant: /usr/local/bin/assistant
+  bcomps: /usr/local/bin/bcomps
+  canbusutil: /usr/local/bin/canbusutil
+  ccomps: /usr/local/bin/ccomps
+  certutil: /usr/local/bin/certutil
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo

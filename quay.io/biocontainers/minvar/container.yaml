@@ -14,3 +14,13 @@ aliases:
   lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
   minvar: /usr/local/bin/minvar
   sierrapy: /usr/local/bin/sierrapy
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  _aaindexextract: /usr/local/bin/_aaindexextract
+  _abiview: /usr/local/bin/_abiview
+  _acdc: /usr/local/bin/_acdc
+  _acdpretty: /usr/local/bin/_acdpretty
+  _acdtable: /usr/local/bin/_acdtable
+  _acdtrace: /usr/local/bin/_acdtrace
+  _acdvalid: /usr/local/bin/_acdvalid
+  _antigenic: /usr/local/bin/_antigenic
+  _backtranambig: /usr/local/bin/_backtranambig

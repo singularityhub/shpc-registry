@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/locus_processing
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for locus_processing
+latest:
+  0.0.4--py_0: sha256:36e8219003ce0a26ff8ef4e0b16c1feac4d76e2d5717ea63ff04efc9809a8832
+tags:
+  0.0.4--py_0: sha256:36e8219003ce0a26ff8ef4e0b16c1feac4d76e2d5717ea63ff04efc9809a8832
+docker: quay.io/biocontainers/locus_processing

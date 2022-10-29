@@ -6,3 +6,5 @@ latest:
 tags:
   2.4.0--r41hdfd78af_0: sha256:b6a8510407cbfe91fe07ba619a1f15ab22b3253261ebd7cae827db989a29cb46
 docker: quay.io/biocontainers/bioconductor-carnival
+aliases:
+  pandoc: /usr/local/bin/pandoc

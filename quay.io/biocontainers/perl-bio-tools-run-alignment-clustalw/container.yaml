@@ -6,3 +6,14 @@ latest:
 tags:
   1.7.4--pl5321hdfd78af_3: sha256:ec8a2dc2d3a33a7fe9d8f75bae834dc3457a18b63ad298721caa1147928ff96f
 docker: quay.io/biocontainers/perl-bio-tools-run-alignment-clustalw
+aliases:
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl

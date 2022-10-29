@@ -7,5 +7,4 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:f839a2f6cfff34b5532027f010aadcfc2bc67c542cf0726cf280d1d0dfc3114e
 docker: quay.io/biocontainers/bioconductor-celarefdata
 aliases:
-  .bioconductor-celarefdata-post-link.sh: /usr/local/bin/.bioconductor-celarefdata-post-link.sh
-  .bioconductor-celarefdata-pre-unlink.sh: /usr/local/bin/.bioconductor-celarefdata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

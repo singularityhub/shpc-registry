@@ -21,7 +21,6 @@ aliases:
   bogus: /usr/local/bin/bogus
   canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
-  canu.defaults: /usr/local/bin/canu.defaults
   correctOverlaps: /usr/local/bin/correctOverlaps
   create_pan_genome: /usr/local/bin/create_pan_genome
   create_pan_genome_plots.R: /usr/local/bin/create_pan_genome_plots.R
@@ -111,3 +110,13 @@ aliases:
   vcfunphase: /usr/local/bin/vcfunphase
   wtdbgConvert: /usr/local/bin/wtdbgConvert
   yapp: /usr/local/bin/yapp
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ABYSS: /usr/local/bin/ABYSS
+  ABYSS-P: /usr/local/bin/ABYSS-P
+  AdjList: /usr/local/bin/AdjList
+  Consensus: /usr/local/bin/Consensus
+  DAssembler: /usr/local/bin/DAssembler
+  DistanceEst: /usr/local/bin/DistanceEst
+  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree

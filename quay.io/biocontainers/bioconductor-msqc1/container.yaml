@@ -7,5 +7,13 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:5d83c51e814c32c9df09bb08621dd6acac192f8d1052db3bb16ca4dff5efca2c
 docker: quay.io/biocontainers/bioconductor-msqc1
 aliases:
-  .bioconductor-msqc1-post-link.sh: /usr/local/bin/.bioconductor-msqc1-post-link.sh
-  .bioconductor-msqc1-pre-unlink.sh: /usr/local/bin/.bioconductor-msqc1-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

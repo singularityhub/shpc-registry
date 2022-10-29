@@ -11,3 +11,8 @@ aliases:
   fetch: /usr/local/bin/fetch
   indexer: /usr/local/bin/indexer
   netfetch: /usr/local/bin/netfetch
+  c2ph: /usr/local/bin/c2ph
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  pstruct: /usr/local/bin/pstruct

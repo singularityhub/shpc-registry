@@ -7,6 +7,14 @@ tags:
   1.8.1: sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1
 docker: quay.io/biocontainers/pdbfixer
 aliases:
-  .ocl-icd-system-post-link.sh: /usr/local/bin/.ocl-icd-system-post-link.sh
-  .ocl-icd-system-pre-unlink.sh: /usr/local/bin/.ocl-icd-system-pre-unlink.sh
   pdbfixer: /usr/local/bin/pdbfixer
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10

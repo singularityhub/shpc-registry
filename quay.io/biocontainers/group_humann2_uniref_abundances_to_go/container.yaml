@@ -7,7 +7,6 @@ tags:
   1.3.0--0: sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac
 docker: quay.io/biocontainers/group_humann2_uniref_abundances_to_go
 aliases:
-  .group_humann2_uniref_abundances_to_go-post-link.sh: /usr/local/bin/.group_humann2_uniref_abundances_to_go-post-link.sh
   compare_gos.py: /usr/local/bin/compare_gos.py
   download_metaphlan2_db.py: /usr/local/bin/download_metaphlan2_db.py
   fetch_associations.py: /usr/local/bin/fetch_associations.py
@@ -38,3 +37,13 @@ aliases:
   pyqi: /usr/local/bin/pyqi
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  biom: /usr/local/bin/biom
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect

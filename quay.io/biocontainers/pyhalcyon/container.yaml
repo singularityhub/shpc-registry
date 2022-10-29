@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/pyhalcyon
 aliases:
   halcyon: /usr/local/bin/halcyon
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  f2py3.7: /usr/local/bin/f2py3.7
+  freeze_graph: /usr/local/bin/freeze_graph
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5copy: /usr/local/bin/h5copy

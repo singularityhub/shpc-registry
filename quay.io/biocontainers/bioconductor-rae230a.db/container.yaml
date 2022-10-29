@@ -7,5 +7,4 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:24240e56ffa57b9d5793eb0cfd7c4517d9f6b875b9148deaff9279a3426bff3c
 docker: quay.io/biocontainers/bioconductor-rae230a.db
 aliases:
-  .bioconductor-rae230a.db-post-link.sh: /usr/local/bin/.bioconductor-rae230a.db-post-link.sh
-  .bioconductor-rae230a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rae230a.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

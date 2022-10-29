@@ -6,3 +6,9 @@ latest:
 tags:
   0.1.5--pyh864c0ab_1: sha256:b13c9c1961fe0551f5063d5697543e028ded43cb5b016e3e20c49b892b906e25
 docker: quay.io/biocontainers/inheritance
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

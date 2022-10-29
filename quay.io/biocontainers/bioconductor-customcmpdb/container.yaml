@@ -6,3 +6,9 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea
 docker: quay.io/biocontainers/bioconductor-customcmpdb
+aliases:
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  rsvg-convert: /usr/local/bin/rsvg-convert

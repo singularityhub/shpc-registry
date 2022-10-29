@@ -15,3 +15,13 @@ aliases:
   quiver: /usr/local/bin/quiver
   summarizeConsensus: /usr/local/bin/summarizeConsensus
   variantCaller: /usr/local/bin/variantCaller
+  ace2sam: /usr/local/bin/ace2sam
+  avro: /usr/local/bin/avro
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  ccache-swig: /usr/local/bin/ccache-swig
+  chardetect: /usr/local/bin/chardetect
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  cygdb: /usr/local/bin/cygdb

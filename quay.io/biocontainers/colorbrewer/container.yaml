@@ -6,3 +6,9 @@ latest:
 tags:
   0.2--pyh864c0ab_1: sha256:44db9f249ff9f0bf67c07b9b8904818e6bbafa5da92d501f6553742a50a281ec
 docker: quay.io/biocontainers/colorbrewer
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

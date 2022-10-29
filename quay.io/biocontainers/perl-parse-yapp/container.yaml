@@ -6,3 +6,5 @@ latest:
 tags:
   1.21--pl5321hdfd78af_1: sha256:ac4ad1738f1e5a6019cd66d180ff2be1b7ae47b43a092892180f66791259b18a
 docker: quay.io/biocontainers/perl-parse-yapp
+aliases:
+  yapp: /usr/local/bin/yapp

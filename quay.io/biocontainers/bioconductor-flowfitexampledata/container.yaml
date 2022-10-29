@@ -7,5 +7,4 @@ tags:
   1.26.0--r40hdfd78af_1: sha256:d6ac531f4d03551bc301de56b01deb8141a506d8c9deb9675108f1c83f904b33
 docker: quay.io/biocontainers/bioconductor-flowfitexampledata
 aliases:
-  .bioconductor-flowfitexampledata-post-link.sh: /usr/local/bin/.bioconductor-flowfitexampledata-post-link.sh
-  .bioconductor-flowfitexampledata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowfitexampledata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

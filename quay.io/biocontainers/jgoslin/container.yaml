@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/jgoslin
 aliases:
   jgoslin: /usr/local/bin/jgoslin
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  cups-config: /usr/local/bin/cups-config
+  idle3.10: /usr/local/bin/idle3.10
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac

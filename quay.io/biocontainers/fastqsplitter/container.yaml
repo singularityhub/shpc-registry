@@ -8,3 +8,9 @@ tags:
 docker: quay.io/biocontainers/fastqsplitter
 aliases:
   fastqsplitter: /usr/local/bin/fastqsplitter
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz

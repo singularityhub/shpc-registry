@@ -7,5 +7,13 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:2461e862ee6aad6ef7584ece349f9c72f87e976fb954eb8c77cebd6c58be63c2
 docker: quay.io/biocontainers/bioconductor-singlecellmultimodal
 aliases:
-  .bioconductor-singlecellmultimodal-post-link.sh: /usr/local/bin/.bioconductor-singlecellmultimodal-post-link.sh
-  .bioconductor-singlecellmultimodal-pre-unlink.sh: /usr/local/bin/.bioconductor-singlecellmultimodal-pre-unlink.sh
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo

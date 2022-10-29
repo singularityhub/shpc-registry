@@ -7,7 +7,15 @@ tags:
   0.8.0--py27h9801fc8_6: sha256:6378fbf6e7b7986199f041902c30fd0fbe4afad110aec784b7175611ea629736
 docker: quay.io/biocontainers/pbh5tools
 aliases:
-  .open: /usr/local/bin/.open
-  .pbcore-post-link.sh: /usr/local/bin/.pbcore-post-link.sh
   bash5tools.py: /usr/local/bin/bash5tools.py
   cmph5tools.py: /usr/local/bin/cmph5tools.py
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

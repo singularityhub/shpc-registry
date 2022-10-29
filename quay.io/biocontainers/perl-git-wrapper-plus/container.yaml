@@ -6,3 +6,7 @@ latest:
 tags:
   0.004011--pl5321hdfd78af_1: sha256:bc78ac97a258c65c1db067c98219ceb91c88ff1c065bb2fdcb49d9c3ae4820fc
 docker: quay.io/biocontainers/perl-git-wrapper-plus
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

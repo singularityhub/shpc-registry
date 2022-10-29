@@ -6,3 +6,11 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:a77a84d486474d9c2d149499c0c1b0fe0efe697c5533ca1bcb3d45a24a65e771
 docker: quay.io/biocontainers/bioconductor-sracipe
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/fgwas
 aliases:
   fgwas: /usr/local/bin/fgwas
+  test: /usr/local/bin/test

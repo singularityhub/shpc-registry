@@ -6,3 +6,5 @@ latest:
 tags:
   0.32--pl5321hec16e2b_3: sha256:ea712f84b35ffd0c4ca46f54492251cbb43460f560a5eea35b7e265a8e779e52
 docker: quay.io/biocontainers/perl-config-any
+aliases:
+  cpanm: /usr/local/bin/cpanm

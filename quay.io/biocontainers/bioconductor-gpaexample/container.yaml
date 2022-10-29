@@ -7,5 +7,13 @@ tags:
   1.6.0--r41hdfd78af_1: sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3
 docker: quay.io/biocontainers/bioconductor-gpaexample
 aliases:
-  .bioconductor-gpaexample-post-link.sh: /usr/local/bin/.bioconductor-gpaexample-post-link.sh
-  .bioconductor-gpaexample-pre-unlink.sh: /usr/local/bin/.bioconductor-gpaexample-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

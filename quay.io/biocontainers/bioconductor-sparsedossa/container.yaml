@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:fa782478f3f7996fd3693378fb8b7d4920199e1fed104590b52f7655e148435d
 docker: quay.io/biocontainers/bioconductor-sparsedossa
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

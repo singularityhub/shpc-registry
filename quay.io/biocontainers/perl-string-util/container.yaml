@@ -6,3 +6,14 @@ latest:
 tags:
   1.26--pl5321hdfd78af_2: sha256:e42ed7476fb7c1e8a81d4d70e585e11ff2cf5a5396124171c182a15b469ff98d
 docker: quay.io/biocontainers/perl-string-util
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

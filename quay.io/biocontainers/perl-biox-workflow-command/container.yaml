@@ -11,3 +11,13 @@ aliases:
   biox: /usr/local/bin/biox
   biox-workflow.pl: /usr/local/bin/biox-workflow.pl
   mustache.pl: /usr/local/bin/mustache.pl
+  config_data: /usr/local/bin/config_data
+  cpanm: /usr/local/bin/cpanm
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  findrule: /usr/local/bin/findrule
+  json_xs: /usr/local/bin/json_xs
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

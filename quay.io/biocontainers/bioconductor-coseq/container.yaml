@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_1: sha256:9118793b02994c069b9709049d4bc500b87a8319bc88afb23a665903b897c39c
 docker: quay.io/biocontainers/bioconductor-coseq
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

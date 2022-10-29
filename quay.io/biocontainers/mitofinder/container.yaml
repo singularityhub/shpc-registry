@@ -24,3 +24,13 @@ aliases:
   runMetaspades.py: /usr/local/bin/runMetaspades.py
   sort_gff.py: /usr/local/bin/sort_gff.py
   tRNAscanChecker.py: /usr/local/bin/tRNAscanChecker.py
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  Makefile: /usr/local/bin/Makefile
+  Makefile.am: /usr/local/bin/Makefile.am
+  Makefile.in: /usr/local/bin/Makefile.in
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml

@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r351_0: sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa
 docker: quay.io/biocontainers/bioconductor-cve
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  wget: /usr/local/bin/wget

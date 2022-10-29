@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r3.4.1_0: sha256:61270bbb793525acb5ac91836b3d99b33bf52f99edbd45daacb3ef91befd253a
 docker: quay.io/biocontainers/bioconductor-proteomicsannotationhubdata
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

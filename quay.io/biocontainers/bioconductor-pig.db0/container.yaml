@@ -7,5 +7,13 @@ tags:
   3.8.2--r36_1: sha256:cfcd3a276bacdb6ace15c0e9c011f874f637b2eb7b7c3baad1269a3647b01b22
 docker: quay.io/biocontainers/bioconductor-pig.db0
 aliases:
-  .bioconductor-pig.db0-post-link.sh: /usr/local/bin/.bioconductor-pig.db0-post-link.sh
-  .bioconductor-pig.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-pig.db0-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -6,3 +6,5 @@ latest:
 tags:
   0.25--pl5321hec16e2b_2: sha256:b064d99fabf9b4f22add7c3c2039ac81b5e2a5f47c392f3873c90e39057bc441
 docker: quay.io/biocontainers/perl-extutils-constant
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

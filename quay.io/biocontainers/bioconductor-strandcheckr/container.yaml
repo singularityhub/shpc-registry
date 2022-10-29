@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:d589b767d949ff44c1ffd68462dd4e7d5234860d7059bd0bf9764b80d8e116b1
 docker: quay.io/biocontainers/bioconductor-strandcheckr
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

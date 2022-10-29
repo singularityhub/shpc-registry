@@ -13,3 +13,13 @@ aliases:
   wtpt: /usr/local/bin/wtpt
   xmatchview-conifer.py: /usr/local/bin/xmatchview-conifer.py
   xmatchview.py: /usr/local/bin/xmatchview.py
+  idle: /usr/local/bin/idle
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py
+  pilfile.py: /usr/local/bin/pilfile.py
+  pilfont.py: /usr/local/bin/pilfont.py
+  pilprint.py: /usr/local/bin/pilprint.py
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7

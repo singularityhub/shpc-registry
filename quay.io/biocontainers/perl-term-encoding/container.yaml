@@ -6,3 +6,14 @@ latest:
 tags:
   0.03--pl5321hdfd78af_1: sha256:79e9ff6023fe320499a53ab18ba17b17b0fb43add833d6d89268136ae9c490b1
 docker: quay.io/biocontainers/perl-term-encoding
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

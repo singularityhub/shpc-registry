@@ -6,3 +6,7 @@ latest:
 tags:
   3.2--r3.3.1_0: sha256:740be1a0dc7d3d37ac07e0cf9eb2aa127cfb99c7638c0105eafe6330e6d0b578
 docker: quay.io/biocontainers/r-nleqslv
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,13 @@ latest:
 tags:
   1.0.2--py37h8902056_1: sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0
 docker: quay.io/biocontainers/pyseq-align
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv: /usr/local/bin/pyvenv
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

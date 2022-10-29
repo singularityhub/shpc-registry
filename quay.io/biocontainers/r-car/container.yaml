@@ -6,3 +6,10 @@ latest:
 tags:
   2.1_4--r3.3.1_0: sha256:78d01142dc2b4e0a9dbd577fafbcfb123a3e5708e1a626e7ba9e5e954851a811
 docker: quay.io/biocontainers/r-car
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

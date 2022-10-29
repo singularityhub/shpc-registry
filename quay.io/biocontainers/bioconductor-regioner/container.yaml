@@ -6,3 +6,8 @@ latest:
 tags:
   1.8.1--r3.4.1_0: sha256:c46bb0e85739dc506b78f784a19564493754446c75b5951c61e4588df6d410e6
 docker: quay.io/biocontainers/bioconductor-regioner
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,6 @@ latest:
 tags:
   1.38--pl526_1: sha256:cb89dc4bc97f7daad3af6bd7b6ed1b4a074f2e040fdb19edfb4e34bfd530d6f7
 docker: quay.io/biocontainers/perl-list-util
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

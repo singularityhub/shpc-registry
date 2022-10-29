@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/rp2paths
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for rp2paths
+latest:
+  1.5.0: sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7
+tags:
+  1.5.0: sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7
+docker: quay.io/biocontainers/rp2paths
+aliases:
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  aserver: /usr/local/bin/aserver
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cxpm: /usr/local/bin/cxpm
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot

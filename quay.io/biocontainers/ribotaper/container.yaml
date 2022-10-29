@@ -11,3 +11,13 @@ aliases:
   Ribotaper_ORF_find.sh: /usr/local/bin/Ribotaper_ORF_find.sh
   create_annotations_files.bash: /usr/local/bin/create_annotations_files.bash
   create_metaplots.bash: /usr/local/bin/create_metaplots.bash
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  bgzip: /usr/local/bin/bgzip

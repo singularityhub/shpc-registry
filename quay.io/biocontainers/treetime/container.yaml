@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/treetime
 aliases:
   treetime: /usr/local/bin/treetime
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  idle3.10: /usr/local/bin/idle3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  pyftmerge: /usr/local/bin/pyftmerge

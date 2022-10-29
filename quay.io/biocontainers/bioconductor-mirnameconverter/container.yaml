@@ -7,5 +7,6 @@ tags:
   1.8.0--r341_0: sha256:5a346bdd5ef55e6dfc217f04014195e86038f28c63cb6fb033404b8990582d6d
 docker: quay.io/biocontainers/bioconductor-mirnameconverter
 aliases:
-  .bioconductor-mirbaseversions.db-post-link.sh: /usr/local/bin/.bioconductor-mirbaseversions.db-post-link.sh
-  .bioconductor-mirbaseversions.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirbaseversions.db-pre-unlink.sh
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

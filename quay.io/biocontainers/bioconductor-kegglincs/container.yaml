@@ -7,7 +7,6 @@ tags:
   1.8.0--r351_0: sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b
 docker: quay.io/biocontainers/bioconductor-kegglincs
 aliases:
-  .bioconductor-hgu133a.db-post-link.sh: /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh
-  .bioconductor-hgu133a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh
-  .bioconductor-kodata-post-link.sh: /usr/local/bin/.bioconductor-kodata-post-link.sh
-  .bioconductor-kodata-pre-unlink.sh: /usr/local/bin/.bioconductor-kodata-pre-unlink.sh
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  wget: /usr/local/bin/wget

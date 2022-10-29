@@ -87,3 +87,13 @@ aliases:
   scan-view: /usr/local/bin/scan-view
   verify-uselistorder: /usr/local/bin/verify-uselistorder
   yaml2obj: /usr/local/bin/yaml2obj
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c-index-test: /usr/local/bin/c-index-test
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  clang: /usr/local/bin/clang
+  clang++: /usr/local/bin/clang++
+  clang-check: /usr/local/bin/clang-check
+  clang-format: /usr/local/bin/clang-format
+  f2py3.8: /usr/local/bin/f2py3.8
+  idle3.8: /usr/local/bin/idle3.8

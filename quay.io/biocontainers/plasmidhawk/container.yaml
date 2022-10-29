@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/plasmidhawk
 aliases:
   plasmidhawk: /usr/local/bin/plasmidhawk
   plaster: /usr/local/bin/plaster
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  annotate: /usr/local/bin/annotate
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  delta2vcf: /usr/local/bin/delta2vcf
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  mummer: /usr/local/bin/mummer

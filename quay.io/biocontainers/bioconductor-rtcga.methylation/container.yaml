@@ -7,5 +7,10 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:72daf79c4a5ce7fef0395c8600bf1b40d39ba6b6cdfb4d5b8fab84c245294baf
 docker: quay.io/biocontainers/bioconductor-rtcga.methylation
 aliases:
-  .bioconductor-rtcga.methylation-post-link.sh: /usr/local/bin/.bioconductor-rtcga.methylation-post-link.sh
-  .bioconductor-rtcga.methylation-pre-unlink.sh: /usr/local/bin/.bioconductor-rtcga.methylation-pre-unlink.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

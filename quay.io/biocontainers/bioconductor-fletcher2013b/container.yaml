@@ -7,7 +7,11 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e
 docker: quay.io/biocontainers/bioconductor-fletcher2013b
 aliases:
-  .bioconductor-fletcher2013a-post-link.sh: /usr/local/bin/.bioconductor-fletcher2013a-post-link.sh
-  .bioconductor-fletcher2013a-pre-unlink.sh: /usr/local/bin/.bioconductor-fletcher2013a-pre-unlink.sh
-  .bioconductor-fletcher2013b-post-link.sh: /usr/local/bin/.bioconductor-fletcher2013b-post-link.sh
-  .bioconductor-fletcher2013b-pre-unlink.sh: /usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  glpsol: /usr/local/bin/glpsol
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

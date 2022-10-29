@@ -6,3 +6,8 @@ latest:
 tags:
   1.27.0--r351_0: sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4
 docker: quay.io/biocontainers/bioconductor-phenodist
+aliases:
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom

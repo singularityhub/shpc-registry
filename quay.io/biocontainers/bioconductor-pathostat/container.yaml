@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.4--r351_0: sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0
 docker: quay.io/biocontainers/bioconductor-pathostat
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  wget: /usr/local/bin/wget

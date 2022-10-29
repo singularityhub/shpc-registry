@@ -6,3 +6,14 @@ latest:
 tags:
   2.1.0--pyh7cba7a3_0: sha256:b10d89b5c42960dae7bc100b95fcce5eda37c3ff8b1f2eb60dfa141fe6003cc7
 docker: quay.io/biocontainers/bioinfokit
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  idle3.10: /usr/local/bin/idle3.10
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  pyftmerge: /usr/local/bin/pyftmerge

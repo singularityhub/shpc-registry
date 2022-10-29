@@ -13,3 +13,13 @@ aliases:
   tabutils: /usr/local/bin/tabutils
   targqc: /usr/local/bin/targqc
   tsv: /usr/local/bin/tsv
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv

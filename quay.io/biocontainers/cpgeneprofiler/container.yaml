@@ -6,3 +6,14 @@ latest:
 tags:
   2.1.1--r41hdfd78af_2: sha256:32e0723de26f4e77b907cc853a502a7d209b066a9590430646ff16dfeb422725
 docker: quay.io/biocontainers/cpgeneprofiler
+aliases:
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  align-columns: /usr/local/bin/align-columns
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asn2xml: /usr/local/bin/asn2xml
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd

@@ -10,3 +10,13 @@ aliases:
   babel: /usr/local/bin/babel
   obchiral: /usr/local/bin/obchiral
   strip-it: /usr/local/bin/strip-it
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize

@@ -6,3 +6,12 @@ latest:
 tags:
   1.27--pl5321hdfd78af_0: sha256:ee9748919ef7829f75c5d502e3bebdb882bacbff69c3d5c2324219926dd4dc9a
 docker: quay.io/biocontainers/perl-soap-lite
+aliases:
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  binhex.pl: /usr/local/bin/binhex.pl
+  debinhex.pl: /usr/local/bin/debinhex.pl
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  stubmaker.pl: /usr/local/bin/stubmaker.pl

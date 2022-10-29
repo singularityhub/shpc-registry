@@ -6,3 +6,13 @@ latest:
 tags:
   0.2.1--py27_1: sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca
 docker: quay.io/biocontainers/extern
+aliases:
+  idle: /usr/local/bin/idle
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

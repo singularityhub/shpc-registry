@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-pwrewas
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-pwrewas
+latest:
+  1.8.0--r41hdfd78af_0: sha256:5a4688f9912ef48f6ae30bccf301f3b2edc66c20bc43afe6032acfc2d32ccbc9
+tags:
+  1.8.0--r41hdfd78af_0: sha256:5a4688f9912ef48f6ae30bccf301f3b2edc66c20bc43afe6032acfc2d32ccbc9
+docker: quay.io/biocontainers/bioconductor-pwrewas

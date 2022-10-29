@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_1: sha256:ab1961229dc711f2e71353c1c355d9793411553359a383c39fd180195b6f6c4e
 docker: quay.io/biocontainers/bioconductor-sampleclassifier
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

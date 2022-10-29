@@ -6,3 +6,5 @@ latest:
 tags:
   1.0.1--r40hdfd78af_1: sha256:6af731b29b38e88cc3406b182fbc7f01bca972390c4e0ffd1ceafe1c684fe34e
 docker: quay.io/biocontainers/bioconductor-hcamatrixbrowser
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

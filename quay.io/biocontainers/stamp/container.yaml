@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/stamp
 aliases:
   STAMP: /usr/local/bin/STAMP
   checkHierarchy.py: /usr/local/bin/checkHierarchy.py
+  assistant: /usr/local/bin/assistant
+  biom: /usr/local/bin/biom
+  designer: /usr/local/bin/designer
+  futurize: /usr/local/bin/futurize
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle: /usr/local/bin/idle
+  lconvert: /usr/local/bin/lconvert
+  linguist: /usr/local/bin/linguist
+  lrelease: /usr/local/bin/lrelease
+  lupdate: /usr/local/bin/lupdate

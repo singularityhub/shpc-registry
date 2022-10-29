@@ -7,7 +7,6 @@ tags:
   v0.1.2--py_0: sha256:3608e88d6d66dfa0f644a498482cdee030281fe528139a605f6ac999fcfe6cd3
 docker: quay.io/biocontainers/ananse
 aliases:
-  .trawler-post-link.sh: /usr/local/bin/.trawler-post-link.sh
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl
   HomerConfig.pm: /usr/local/bin/HomerConfig.pm
   HomerSVGLogo.pm: /usr/local/bin/HomerSVGLogo.pm
@@ -195,3 +194,13 @@ aliases:
   weeder2: /usr/local/bin/weeder2
   xsltproc_lite: /usr/local/bin/xsltproc_lite
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  annotate.py: /usr/local/bin/annotate.py
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant

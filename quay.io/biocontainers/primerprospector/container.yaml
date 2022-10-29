@@ -25,3 +25,13 @@ aliases:
   sort_denovo_primers.py: /usr/local/bin/sort_denovo_primers.py
   taxa_assignment_report.py: /usr/local/bin/taxa_assignment_report.py
   taxa_coverage.py: /usr/local/bin/taxa_coverage.py
+  assistant: /usr/local/bin/assistant
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen

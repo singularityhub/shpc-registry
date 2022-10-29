@@ -6,3 +6,7 @@ latest:
 tags:
   1.1_4--r3.3.1_1: sha256:5ff47103edda0863e54dbdd0e70a9ac532cab979d57cc7ced440532b2d5ac076
 docker: quay.io/biocontainers/r-batch
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

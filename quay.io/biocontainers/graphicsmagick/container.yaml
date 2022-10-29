@@ -11,3 +11,13 @@ aliases:
   GraphicsMagick-config: /usr/local/bin/GraphicsMagick-config
   GraphicsMagickWand-config: /usr/local/bin/GraphicsMagickWand-config
   gm: /usr/local/bin/gm
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  annotate: /usr/local/bin/annotate
+  assistant: /usr/local/bin/assistant
+  bdftogd: /usr/local/bin/bdftogd
+  canbusutil: /usr/local/bin/canbusutil
+  certutil: /usr/local/bin/certutil
+  chrpath: /usr/local/bin/chrpath
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  cwebp: /usr/local/bin/cwebp
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets

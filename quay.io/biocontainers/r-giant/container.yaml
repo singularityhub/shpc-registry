@@ -6,3 +6,7 @@ latest:
 tags:
   1.2--r3.3.2_0: sha256:be43f31d57d55e5caefd87d6a29653a1dc1493edcdb836a1d7d9bc96dae9956f
 docker: quay.io/biocontainers/r-giant
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

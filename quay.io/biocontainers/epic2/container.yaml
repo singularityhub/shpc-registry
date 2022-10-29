@@ -10,3 +10,13 @@ aliases:
   epic2: /usr/local/bin/epic2
   epic2-bw: /usr/local/bin/epic2-bw
   epic2-df: /usr/local/bin/epic2-df
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  bgzip: /usr/local/bin/bgzip
+  f2py3.6: /usr/local/bin/f2py3.6
+  htsfile: /usr/local/bin/htsfile
+  idle3.6: /usr/local/bin/idle3.6
+  natsort: /usr/local/bin/natsort
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m

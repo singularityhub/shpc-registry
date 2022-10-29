@@ -8,3 +8,11 @@ tags:
 docker: quay.io/biocontainers/snakefmt
 aliases:
   snakefmt: /usr/local/bin/snakefmt
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  black: /usr/local/bin/black
+  blackd: /usr/local/bin/blackd
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -11,3 +11,13 @@ aliases:
   aws.cmd: /usr/local/bin/aws.cmd
   aws_completer: /usr/local/bin/aws_completer
   aws_zsh_completer.sh: /usr/local/bin/aws_zsh_completer.sh
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  jp.py: /usr/local/bin/jp.py
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt

@@ -100,3 +100,13 @@ aliases:
   wally: /usr/local/bin/wally
   x264: /usr/local/bin/x264
   x265: /usr/local/bin/x265
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  aserver: /usr/local/bin/aserver
+  assistant: /usr/local/bin/assistant
+  bgzip: /usr/local/bin/bgzip
+  canbusutil: /usr/local/bin/canbusutil
+  certtool: /usr/local/bin/certtool
+  certutil: /usr/local/bin/certutil
+  cups-config: /usr/local/bin/cups-config
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint

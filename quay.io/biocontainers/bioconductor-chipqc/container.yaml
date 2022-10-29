@@ -7,15 +7,13 @@ tags:
   1.30.0--r41hdfd78af_0: sha256:7231aedf5c9fd4a740daf85cc82687707b15890867de361154b9b493a349e7a5
 docker: quay.io/biocontainers/bioconductor-chipqc
 aliases:
-  .bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh
-  .bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh
-  .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
-  .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
-  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
-  .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
-  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
-  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
-  .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh
-  .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

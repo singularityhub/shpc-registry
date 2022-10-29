@@ -6,3 +6,10 @@ latest:
 tags:
   1.8.0--r40_0: sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f
 docker: quay.io/biocontainers/bioconductor-rcistarget
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -6,3 +6,5 @@ latest:
 tags:
   1.40.0--r41hc247a5b_2: sha256:46142d8ca140e062a1d311b99701ff93f6286173747be239069b6d69791eb26a
 docker: quay.io/biocontainers/bioconductor-predictionet
+aliases:
+  glpsol: /usr/local/bin/glpsol

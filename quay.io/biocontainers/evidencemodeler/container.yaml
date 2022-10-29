@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/evidencemodeler
 aliases:
   evidence_modeler.pl: /usr/local/bin/evidence_modeler.pl
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

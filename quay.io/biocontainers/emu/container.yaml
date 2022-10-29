@@ -7,6 +7,15 @@ tags:
   3.4.4--hdfd78af_1: sha256:90c1fa4bb3d897da054f2f6d83fc0824f43012f8e77d271ab7f623c6319cc342
 docker: quay.io/biocontainers/emu
 aliases:
-  .emu-post-link.sh: /usr/local/bin/.emu-post-link.sh
   bioawk: /usr/local/bin/bioawk
   emu: /usr/local/bin/emu
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

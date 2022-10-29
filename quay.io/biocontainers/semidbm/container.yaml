@@ -6,3 +6,9 @@ latest:
 tags:
   0.5.1--pyh864c0ab_3: sha256:881f21c29d58c96c310f87084016094cecef5ca6c6e6d9c3a4043592f6942430
 docker: quay.io/biocontainers/semidbm
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

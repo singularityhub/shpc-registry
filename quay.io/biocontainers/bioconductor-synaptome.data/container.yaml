@@ -7,5 +7,13 @@ tags:
   0.99.3--r41hdfd78af_1: sha256:1e00ed83147a4dda8fe9660e8592de2e38087a23d05d4c50bcc47fe8fe732b9a
 docker: quay.io/biocontainers/bioconductor-synaptome.data
 aliases:
-  .bioconductor-synaptome.data-post-link.sh: /usr/local/bin/.bioconductor-synaptome.data-post-link.sh
-  .bioconductor-synaptome.data-pre-unlink.sh: /usr/local/bin/.bioconductor-synaptome.data-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

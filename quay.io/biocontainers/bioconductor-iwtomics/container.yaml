@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:7e1fab9c747d781a43bf259b8ec09e9e2ffc91f4d8a43d32e3fd1d50b0f59739
 docker: quay.io/biocontainers/bioconductor-iwtomics
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

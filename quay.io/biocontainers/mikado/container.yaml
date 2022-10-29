@@ -29,3 +29,13 @@ aliases:
   split_fasta.py: /usr/local/bin/split_fasta.py
   tease_maker_apart.py: /usr/local/bin/tease_maker_apart.py
   trim_long_introns.py: /usr/local/bin/trim_long_introns.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  acyclic: /usr/local/bin/acyclic
+  animate: /usr/local/bin/animate
+  annotate: /usr/local/bin/annotate
+  asadmin: /usr/local/bin/asadmin
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd

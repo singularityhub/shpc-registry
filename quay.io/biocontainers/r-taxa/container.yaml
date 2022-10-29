@@ -6,3 +6,14 @@ latest:
 tags:
   0.3.2--r351h6115d3f_0: sha256:360337b67f9c19ae34a6a37e882bb53936d287c4cb02174d51017a9299395b87
 docker: quay.io/biocontainers/r-taxa
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

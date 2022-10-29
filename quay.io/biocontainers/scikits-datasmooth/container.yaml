@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/scikits-datasmooth
 aliases:
   dsdp5: /usr/local/bin/dsdp5
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  cmpfillin: /usr/local/bin/cmpfillin
+  f2py3.8: /usr/local/bin/f2py3.8
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  glpsol: /usr/local/bin/glpsol
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk

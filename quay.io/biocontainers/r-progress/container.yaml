@@ -6,3 +6,11 @@ latest:
 tags:
   1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
 docker: quay.io/biocontainers/r-progress
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

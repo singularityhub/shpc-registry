@@ -7,7 +7,4 @@ tags:
   1.26.0--r41hdfd78af_0: sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9
 docker: quay.io/biocontainers/bioconductor-missmethyl
 aliases:
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh
-  .bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh
-  .bioconductor-illuminahumanmethylationepicmanifest-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh
-  .bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,14 @@ latest:
 tags:
   0.33--pl5321hdfd78af_2: sha256:f3ee1ad731f367a47282851c1842b2e27dd552748199782d7ef16c2e379660b0
 docker: quay.io/biocontainers/perl-gd-svg
+aliases:
+  annotate: /usr/local/bin/annotate
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng

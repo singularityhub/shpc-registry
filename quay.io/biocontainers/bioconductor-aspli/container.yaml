@@ -6,3 +6,5 @@ latest:
 tags:
   2.4.0--r41hdfd78af_0: sha256:8e4da938a3bb5be5365fdacbcc1ca101c30d45ec0d81992e3ac0de1097f76f08
 docker: quay.io/biocontainers/bioconductor-aspli
+aliases:
+  pandoc: /usr/local/bin/pandoc

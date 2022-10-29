@@ -6,3 +6,14 @@ latest:
 tags:
   1.38.0--r41hc247a5b_2: sha256:94e0b29c6909ba8da7987aff4cf5ff74196d8d3cddcda83508cdb1ee4b5f0093
 docker: quay.io/biocontainers/bioconductor-bitseq
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

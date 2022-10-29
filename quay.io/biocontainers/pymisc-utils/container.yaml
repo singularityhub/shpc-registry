@@ -47,3 +47,13 @@ aliases:
   test_gzip.py: /usr/local/bin/test_gzip.py
   utils.py: /usr/local/bin/utils.py
   validation_utils.py: /usr/local/bin/validation_utils.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  bokeh: /usr/local/bin/bokeh
+  brotli: /usr/local/bin/brotli
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster

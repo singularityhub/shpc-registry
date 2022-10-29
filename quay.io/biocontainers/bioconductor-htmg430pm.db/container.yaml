@@ -7,5 +7,13 @@ tags:
   3.13.0--r41hdfd78af_1: sha256:e318f561361d117b0e0c6723c33bae4e53567034a53de4277e6d66a4e3f59013
 docker: quay.io/biocontainers/bioconductor-htmg430pm.db
 aliases:
-  .bioconductor-htmg430pm.db-post-link.sh: /usr/local/bin/.bioconductor-htmg430pm.db-post-link.sh
-  .bioconductor-htmg430pm.db-pre-unlink.sh: /usr/local/bin/.bioconductor-htmg430pm.db-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

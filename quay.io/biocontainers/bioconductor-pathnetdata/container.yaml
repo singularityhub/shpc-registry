@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:6a6fa6e4e73a3e6fd8a7b0b85f92d4ef3d3fc08d6b82caf4d17358f22d655698
 docker: quay.io/biocontainers/bioconductor-pathnetdata
 aliases:
-  .bioconductor-pathnetdata-post-link.sh: /usr/local/bin/.bioconductor-pathnetdata-post-link.sh
-  .bioconductor-pathnetdata-pre-unlink.sh: /usr/local/bin/.bioconductor-pathnetdata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

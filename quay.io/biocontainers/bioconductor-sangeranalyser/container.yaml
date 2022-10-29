@@ -6,3 +6,5 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:c942dc80b19593cc867c70dc109bd21c999d3157276b92f448bf109e3fd54e99
 docker: quay.io/biocontainers/bioconductor-sangeranalyser
+aliases:
+  pandoc: /usr/local/bin/pandoc

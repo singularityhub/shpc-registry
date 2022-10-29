@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r351h14c3975_0: sha256:16543730d16e93f0a2dbef6e8ef7cf4321e8dca5251dd8625a5379329ca56deb
 docker: quay.io/biocontainers/bioconductor-genextender
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  wget: /usr/local/bin/wget

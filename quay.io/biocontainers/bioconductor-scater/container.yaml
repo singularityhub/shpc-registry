@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-scater
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-scater
+latest:
+  1.8.4--r351hfc679d8_0: sha256:d8c02a5a0b6fef5664549dff8a26b082ee540dfde8dd83b8a8522bc0f49e44a8
+tags:
+  1.8.4--r351hfc679d8_0: sha256:d8c02a5a0b6fef5664549dff8a26b082ee540dfde8dd83b8a8522bc0f49e44a8
+docker: quay.io/biocontainers/bioconductor-scater

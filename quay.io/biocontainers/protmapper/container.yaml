@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/protmapper
 aliases:
   protmapper: /usr/local/bin/protmapper
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  chardetect: /usr/local/bin/chardetect
+  csv2rdf: /usr/local/bin/csv2rdf
+  idle3.9: /usr/local/bin/idle3.9
+  jp.py: /usr/local/bin/jp.py
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism

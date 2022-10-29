@@ -6,3 +6,14 @@ latest:
 tags:
   1.58.0--r41hc0cfd56_2: sha256:16cbc6cd7914d0b9e33c3de46e849cd37a6d1fe28f7f563d87ea7e211170be40
 docker: quay.io/biocontainers/bioconductor-oligo
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

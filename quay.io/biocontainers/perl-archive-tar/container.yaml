@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-archive-tar
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-archive-tar
+latest:
+  2.40--pl5321hdfd78af_0: sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff
+tags:
+  2.40--pl5321hdfd78af_0: sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff
+docker: quay.io/biocontainers/perl-archive-tar

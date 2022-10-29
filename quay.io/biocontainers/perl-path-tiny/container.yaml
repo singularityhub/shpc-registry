@@ -6,3 +6,6 @@ latest:
 tags:
   0.122--pl5321hdfd78af_0: sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f
 docker: quay.io/biocontainers/perl-path-tiny
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

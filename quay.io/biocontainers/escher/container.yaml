@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/escher
 aliases:
   isympy: /usr/local/bin/isympy
   pipdeptree: /usr/local/bin/pipdeptree
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  ccache-swig: /usr/local/bin/ccache-swig
+  curve_keygen: /usr/local/bin/curve_keygen
+  f2py3.7: /usr/local/bin/f2py3.7
+  futurize: /usr/local/bin/futurize
+  glpsol: /usr/local/bin/glpsol
+  idle3.7: /usr/local/bin/idle3.7
+  iptest: /usr/local/bin/iptest
+  iptest3: /usr/local/bin/iptest3
+  ipython: /usr/local/bin/ipython

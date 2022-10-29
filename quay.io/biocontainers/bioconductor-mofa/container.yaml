@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-mofa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-mofa
+latest:
+  1.6.1--py39r40_0: sha256:c27c5b12c09aa42ad3bad72f3a112f9db10a0e19b1a4d8b0fb7d6ee6ea8f5da3
+tags:
+  1.6.1--py39r40_0: sha256:c27c5b12c09aa42ad3bad72f3a112f9db10a0e19b1a4d8b0fb7d6ee6ea8f5da3
+docker: quay.io/biocontainers/bioconductor-mofa

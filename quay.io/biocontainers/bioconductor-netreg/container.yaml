@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36he1b5a44_1: sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0
 docker: quay.io/biocontainers/bioconductor-netreg
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

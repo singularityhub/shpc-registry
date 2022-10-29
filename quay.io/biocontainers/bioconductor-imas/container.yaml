@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_1: sha256:59c9a5483e33426961eb76a60148580d06a56b855aa65ba9fd90cb7621fd6de0
 docker: quay.io/biocontainers/bioconductor-imas
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

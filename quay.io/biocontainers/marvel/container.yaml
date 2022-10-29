@@ -11,3 +11,13 @@ aliases:
   marvel: /usr/local/bin/marvel
   marvel_prokka: /usr/local/bin/marvel_prokka
   prokka-make_tarball: /usr/local/bin/prokka-make_tarball
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  CA.pm: /usr/local/bin/CA.pm
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  aserver: /usr/local/bin/aserver
+  asp-cp: /usr/local/bin/asp-cp

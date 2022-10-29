@@ -6,3 +6,5 @@ latest:
 tags:
   0.112--pl5321hdfd78af_0: sha256:25d0313e52dcdfb71b630248615a1fb1ba57d36faf3a2729c72e40a145f9cc1b
 docker: quay.io/biocontainers/perl-data-optlist
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

@@ -6,3 +6,14 @@ latest:
 tags:
   1.1.1--r41h3121a25_8: sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b
 docker: quay.io/biocontainers/r-structssi
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

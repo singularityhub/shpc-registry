@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/quantwiz-iq
 aliases:
   QuantWiz_IQ: /usr/local/bin/QuantWiz_IQ
   QuantWiz_IQ.pl: /usr/local/bin/QuantWiz_IQ.pl
+  htmltree: /usr/local/bin/htmltree
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  tidyp: /usr/local/bin/tidyp
+  webtidy: /usr/local/bin/webtidy
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split

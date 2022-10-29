@@ -6,3 +6,14 @@ latest:
 tags:
   2.58.0--r41hc0cfd56_2: sha256:33b1d46cbff32e9aa14d918ab97b366f58da70739d16c60997a871226ac6dcfa
 docker: quay.io/biocontainers/bioconductor-ebarrays
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

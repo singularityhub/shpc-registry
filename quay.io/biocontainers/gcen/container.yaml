@@ -23,3 +23,4 @@ aliases:
   network_stat: /usr/local/bin/network_stat
   rwr: /usr/local/bin/rwr
   tsv_to_csv: /usr/local/bin/tsv_to_csv
+  annotate: /usr/local/bin/annotate

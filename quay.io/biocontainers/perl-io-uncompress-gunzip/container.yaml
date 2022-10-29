@@ -6,3 +6,14 @@ latest:
 tags:
   2.064--pl5321hdfd78af_2: sha256:5bd6902df11352d2c6f789549fb164c2e3e45aad6e7aa3d880dd245fc5bd2da4
 docker: quay.io/biocontainers/perl-io-uncompress-gunzip
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf
 docker: quay.io/biocontainers/bioconductor-dce
+aliases:
+  pandoc: /usr/local/bin/pandoc

@@ -21,3 +21,9 @@ aliases:
   pbam2bam: /usr/local/bin/pbam2bam
   pbam_mapped_transcriptome: /usr/local/bin/pbam_mapped_transcriptome
   print_unique: /usr/local/bin/print_unique
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

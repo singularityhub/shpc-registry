@@ -6,3 +6,8 @@ latest:
 tags:
   1.0--h589041f_9: sha256:f84a369cf8f5417fb688ba91adad90bb48a26c832a98cbc45e70e090331e937e
 docker: quay.io/biocontainers/sts-smctc
+aliases:
+  gsl-config: /usr/local/bin/gsl-config
+  gsl-histogram: /usr/local/bin/gsl-histogram
+  gsl-randist: /usr/local/bin/gsl-randist
+  env-execute: /usr/local/env-execute

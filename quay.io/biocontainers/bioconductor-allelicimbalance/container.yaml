@@ -6,3 +6,14 @@ latest:
 tags:
   1.32.0--r41hdfd78af_0: sha256:3d2e793ce02b2549dcf12cb8f282d3f33cf2cdf85cdb7d48c3796c6043b791f7
 docker: quay.io/biocontainers/bioconductor-allelicimbalance
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

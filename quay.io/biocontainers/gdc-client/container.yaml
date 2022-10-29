@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/gdc-client
 aliases:
   gdc-client: /usr/local/bin/gdc-client
   ndg_httpclient: /usr/local/bin/ndg_httpclient
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  idle3.7: /usr/local/bin/idle3.7
+  jsonschema: /usr/local/bin/jsonschema
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

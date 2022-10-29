@@ -7,5 +7,13 @@ tags:
   1.6.0--r36_1: sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941
 docker: quay.io/biocontainers/bioconductor-rgmql
 aliases:
-  .bioconductor-rgmqllib-post-link.sh: /usr/local/bin/.bioconductor-rgmqllib-post-link.sh
-  .bioconductor-rgmqllib-pre-unlink.sh: /usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh
+  appletviewer: /usr/local/bin/appletviewer
+  extcheck: /usr/local/bin/extcheck
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idlj: /usr/local/bin/idlj
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc

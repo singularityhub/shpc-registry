@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/cancerit-allelecount
 aliases:
   alleleCounter: /usr/local/bin/alleleCounter
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

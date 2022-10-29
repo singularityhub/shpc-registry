@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/ngless
 aliases:
   ngless: /usr/local/bin/ngless
   ngless-wrapped: /usr/local/bin/ngless-wrapped
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  bwa: /usr/local/bin/bwa
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  idle3.10: /usr/local/bin/idle3.10

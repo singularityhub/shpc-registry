@@ -6,3 +6,14 @@ latest:
 tags:
   1.38.0--r41hc0cfd56_2: sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a
 docker: quay.io/biocontainers/bioconductor-ebcoexpress
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

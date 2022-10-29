@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/scxa-plots
 aliases:
   dropletBarcodePlot.R: /usr/local/bin/dropletBarcodePlot.R
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

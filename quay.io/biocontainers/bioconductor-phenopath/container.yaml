@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36he1b5a44_1: sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a
 docker: quay.io/biocontainers/bioconductor-phenopath
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

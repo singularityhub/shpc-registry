@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:8bcafd7b0da83e1397b57a52a47dca0f8a8d3e2d402b3a5def9ba2fc5b5dd7f8
 docker: quay.io/biocontainers/bioconductor-assessorf
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

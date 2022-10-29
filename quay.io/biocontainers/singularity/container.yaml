@@ -19,3 +19,6 @@ aliases:
   scmp_sys_resolver: /usr/local/bin/scmp_sys_resolver
   singularity: /usr/local/bin/singularity
   unsquashfs: /usr/local/bin/unsquashfs
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar

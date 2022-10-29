@@ -17,3 +17,13 @@ aliases:
   sourmash: /usr/local/bin/sourmash
   summary.py: /usr/local/bin/summary.py
   tandem_repeats.py: /usr/local/bin/tandem_repeats.py
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  align-columns: /usr/local/bin/align-columns
+  alimask: /usr/local/bin/alimask
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  annotate: /usr/local/bin/annotate
+  annotateBed: /usr/local/bin/annotateBed
+  aragorn: /usr/local/bin/aragorn
+  archive-pubmed: /usr/local/bin/archive-pubmed

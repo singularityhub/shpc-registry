@@ -6,3 +6,14 @@ latest:
 tags:
   1.1--py36_0: sha256:4c861e9bf3ba68b231c732f7b3b407796725321e5cd81d1a867a281bece828af
 docker: quay.io/biocontainers/pytest-mock
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  pbr: /usr/local/bin/pbr
+  py.test: /usr/local/bin/py.test
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  pytest: /usr/local/bin/pytest
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m

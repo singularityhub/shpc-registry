@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40h5f743cb_0: sha256:5224091b16249137433f17a08e7fd4af0961d3252a936e16d784b7eebc1c82cf
 docker: quay.io/biocontainers/bioconductor-rseqan
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

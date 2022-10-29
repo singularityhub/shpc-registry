@@ -10,3 +10,13 @@ aliases:
   Compiler_Module.py: /usr/local/bin/Compiler_Module.py
   ConfigViReMa.py: /usr/local/bin/ConfigViReMa.py
   ViReMa.py: /usr/local/bin/ViReMa.py
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

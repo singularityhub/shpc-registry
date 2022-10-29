@@ -12,3 +12,13 @@ aliases:
   plot.py: /usr/local/bin/plot.py
   simulate_reads.py: /usr/local/bin/simulate_reads.py
   trainer.jar: /usr/local/bin/trainer.jar
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  appletviewer: /usr/local/bin/appletviewer
+  assistant: /usr/local/bin/assistant
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool

@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/mpra-data-access-portal
 aliases:
   mpra-data-access-portal: /usr/local/bin/mpra-data-access-portal
   phantomjs: /usr/local/bin/phantomjs
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

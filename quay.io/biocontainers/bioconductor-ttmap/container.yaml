@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ttmap
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ttmap
+latest:
+  1.8.0--r36_0: sha256:1677c44e98ceb5af5a3bdf0efdefa5bd9b578c395cffa0ff5bfbe3a19267cfd6
+tags:
+  1.8.0--r36_0: sha256:1677c44e98ceb5af5a3bdf0efdefa5bd9b578c395cffa0ff5bfbe3a19267cfd6
+docker: quay.io/biocontainers/bioconductor-ttmap

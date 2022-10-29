@@ -7,5 +7,4 @@ tags:
   1.4.0--r41hdfd78af_0: sha256:2d164064507fcda9b82f45ed2dfee45c187afbebdffa5bda93100c9385596426
 docker: quay.io/biocontainers/bioconductor-methreg
 aliases:
-  .bioconductor-sesamedata-post-link.sh: /usr/local/bin/.bioconductor-sesamedata-post-link.sh
-  .bioconductor-sesamedata-pre-unlink.sh: /usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc

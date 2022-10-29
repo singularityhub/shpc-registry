@@ -6,3 +6,5 @@ latest:
 tags:
   0.0203--pl5321h9ee0642_2: sha256:ba9824bda696449ada446fbf1c69385676216e300d7ffed33fd9084563f818c0
 docker: quay.io/biocontainers/perl-symbol-util
+aliases:
+  cpanm: /usr/local/bin/cpanm

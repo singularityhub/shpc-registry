@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:8f16bd53130d837cdd0192c0f7d3db8b525050370ec5ed063382a9a53ea02cb5
 docker: quay.io/biocontainers/bioconductor-cancersubtypes
+aliases:
+  wget: /usr/local/bin/wget

@@ -6,3 +6,7 @@ latest:
 tags:
   2.15--r3.3.2_0: sha256:28d40ecc61d63153ef5efd63049aeb059e3e1d39028efc5df97602bbfdb9fe9a
 docker: quay.io/biocontainers/r-learnbayes
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

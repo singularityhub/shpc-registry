@@ -6,3 +6,14 @@ latest:
 tags:
   1.3.0--pyh5e36f6f_0: sha256:dc6cc2816d30796cd5d882873a092da70055416c537f7521edb1ed51040a8752
 docker: quay.io/biocontainers/paste-bio
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.10: /usr/local/bin/f2py3.10
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  gif2rgb: /usr/local/bin/gif2rgb
+  gif2webp: /usr/local/bin/gif2webp
+  gifbuild: /usr/local/bin/gifbuild

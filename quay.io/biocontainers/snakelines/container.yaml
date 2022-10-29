@@ -10,3 +10,13 @@ aliases:
   cairosvg: /usr/local/bin/cairosvg
   snakelines: /usr/local/bin/snakelines
   weasyprint: /usr/local/bin/weasyprint
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  cbc: /usr/local/bin/cbc
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  clp: /usr/local/bin/clp
+  cluster: /usr/local/bin/cluster
+  cmark: /usr/local/bin/cmark
+  coloredlogs: /usr/local/bin/coloredlogs

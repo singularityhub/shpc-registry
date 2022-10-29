@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/vispr
 aliases:
   vispr: /usr/local/bin/vispr
+  f2py3.8: /usr/local/bin/f2py3.8
+  flask: /usr/local/bin/flask

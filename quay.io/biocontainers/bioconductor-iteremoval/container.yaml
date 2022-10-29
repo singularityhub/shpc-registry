@@ -6,3 +6,12 @@ latest:
 tags:
   1.8.0--r40_0: sha256:049387256c355c74a577cae266373c426975e905804e2484b0d36da07c004137
 docker: quay.io/biocontainers/bioconductor-iteremoval
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

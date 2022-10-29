@@ -183,3 +183,13 @@ aliases:
   vdb-unlock.3.0.0: /usr/local/bin/vdb-unlock.3.0.0
   vdb-validate.3: /usr/local/bin/vdb-validate.3
   vdb-validate.3.0.0: /usr/local/bin/vdb-validate.3.0.0
+  abi-dump: /usr/local/bin/abi-dump
+  align-cache: /usr/local/bin/align-cache
+  align-info: /usr/local/bin/align-info
+  bam-load: /usr/local/bin/bam-load
+  cache-mgr: /usr/local/bin/cache-mgr
+  cg-load: /usr/local/bin/cg-load
+  fasterq-dump: /usr/local/bin/fasterq-dump
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump: /usr/local/bin/fastq-dump
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig

@@ -6,3 +6,5 @@ latest:
 tags:
   2.40.0--r41hdfd78af_0: sha256:46190eb2cc7985afea40b6494d42b2077e89942686bd0b9d1386264cdf66dfa5
 docker: quay.io/biocontainers/bioconductor-flowmerge
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

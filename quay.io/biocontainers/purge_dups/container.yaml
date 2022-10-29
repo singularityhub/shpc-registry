@@ -13,3 +13,7 @@ aliases:
   pbcstat: /usr/local/bin/pbcstat
   purge_dups: /usr/local/bin/purge_dups
   split_fa: /usr/local/bin/split_fa
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  paftools.js: /usr/local/bin/paftools.js
+  sdust: /usr/local/bin/sdust

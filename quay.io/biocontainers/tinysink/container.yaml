@@ -8,3 +8,9 @@ tags:
 docker: quay.io/biocontainers/tinysink
 aliases:
   tinysink: /usr/local/bin/tinysink
+  rsync: /usr/local/bin/rsync
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum

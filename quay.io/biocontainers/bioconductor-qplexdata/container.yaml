@@ -7,5 +7,13 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4
 docker: quay.io/biocontainers/bioconductor-qplexdata
 aliases:
-  .bioconductor-qplexdata-post-link.sh: /usr/local/bin/.bioconductor-qplexdata-post-link.sh
-  .bioconductor-qplexdata-pre-unlink.sh: /usr/local/bin/.bioconductor-qplexdata-pre-unlink.sh
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

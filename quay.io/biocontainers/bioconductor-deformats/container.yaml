@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r341_0: sha256:0b232cc51141e4f5bc5f7b7646cab9d06787a09de6e4e9b83803106f574375d7
 docker: quay.io/biocontainers/bioconductor-deformats
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

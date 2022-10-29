@@ -6,3 +6,10 @@ latest:
 tags:
   0.3.1--r3.2.2_0: sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d
 docker: quay.io/biocontainers/r-viridis
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

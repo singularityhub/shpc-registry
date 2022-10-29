@@ -6,3 +6,11 @@ latest:
 tags:
   1.0_7--r3.3.1_0: sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f
 docker: quay.io/biocontainers/r-rocr
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

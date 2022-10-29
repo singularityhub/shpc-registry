@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:2d45e50a4e99b4be80e0cc82f82a5c62ae5424c1c55c0ffd756b953a12fc218f
 docker: quay.io/biocontainers/bioconductor-rscudo
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:a9ec47a45ba1027f2dc1809fd2fca14f5db937b9bc54563ae3732c841dbaf004
 docker: quay.io/biocontainers/bioconductor-rat2302probe
 aliases:
-  .bioconductor-rat2302probe-post-link.sh: /usr/local/bin/.bioconductor-rat2302probe-post-link.sh
-  .bioconductor-rat2302probe-pre-unlink.sh: /usr/local/bin/.bioconductor-rat2302probe-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

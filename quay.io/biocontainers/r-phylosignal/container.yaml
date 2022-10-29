@@ -6,3 +6,14 @@ latest:
 tags:
   1.2--r351h29659fb_3: sha256:8b23af953144954369e9b0de460c689ebc75594f0c0682fefbb2c22510c128f0
 docker: quay.io/biocontainers/r-phylosignal
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

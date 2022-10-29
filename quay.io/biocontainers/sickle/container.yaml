@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/sickle
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for sickle
+latest:
+  0.7.0--pyh9f0ad1d_0: sha256:7ce2c4bedffe3e08f11325d5976f26ad9d55a34e75428b2a95bc210bed369ea9
+tags:
+  0.7.0--pyh9f0ad1d_0: sha256:7ce2c4bedffe3e08f11325d5976f26ad9d55a34e75428b2a95bc210bed369ea9
+docker: quay.io/biocontainers/sickle

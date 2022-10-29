@@ -6,3 +6,14 @@ latest:
 tags:
   2.4.0--r41hdfd78af_0: sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9
 docker: quay.io/biocontainers/bioconductor-bridgedbr
+aliases:
+  aserver: /usr/local/bin/aserver
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
+  jaotc: /usr/local/bin/jaotc
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

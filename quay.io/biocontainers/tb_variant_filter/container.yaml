@@ -10,3 +10,7 @@ aliases:
   tb_bed_to_region_list: /usr/local/bin/tb_bed_to_region_list
   tb_region_list_to_bed: /usr/local/bin/tb_region_list_to_bed
   tb_variant_filter: /usr/local/bin/tb_variant_filter
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

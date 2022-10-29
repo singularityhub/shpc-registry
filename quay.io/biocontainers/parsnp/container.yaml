@@ -14,3 +14,13 @@ aliases:
   logger.py: /usr/local/bin/logger.py
   parsnp: /usr/local/bin/parsnp
   template.ini: /usr/local/bin/template.ini
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  FastTree: /usr/local/bin/FastTree
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  einsi: /usr/local/bin/einsi
+  f2py3.10: /usr/local/bin/f2py3.10
+  fastANI: /usr/local/bin/fastANI

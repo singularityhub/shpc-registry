@@ -6,3 +6,10 @@ latest:
 tags:
   3.0.0--hdfd78af_0: sha256:20d4b99eb6724ef8d903aa6e28fbbe0989ad6185c57a177e30c7f191ad442b83
 docker: quay.io/biocontainers/ncbi-vdb-py
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

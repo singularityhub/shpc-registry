@@ -14,3 +14,13 @@ aliases:
   fanc: /usr/local/bin/fanc
   fancplot: /usr/local/bin/fancplot
   gridmap_web: /usr/local/bin/gridmap_web
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  aec: /usr/local/bin/aec
+  annotateBed: /usr/local/bin/annotateBed
+  bam2pairs: /usr/local/bin/bam2pairs
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam

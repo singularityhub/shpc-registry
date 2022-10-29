@@ -6,3 +6,12 @@ latest:
 tags:
   1.0.1--py35h2d50403_1: sha256:67e23579726d76b24807be7b4e37decc46d09373b1a40b7564ab5254c50d5bf9
 docker: quay.io/biocontainers/xxhash
+aliases:
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

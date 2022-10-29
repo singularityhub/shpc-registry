@@ -6,3 +6,10 @@ latest:
 tags:
   0.18--hdfd78af_1: sha256:fac8c756c813408f9e64283e8fb4eb93ab4ba28450702cb6dcd25deebde889c0
 docker: quay.io/biocontainers/perl-util-properties
+aliases:
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

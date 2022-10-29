@@ -6,3 +6,14 @@ latest:
 tags:
   1.27.0--r41h5c21468_1: sha256:a06b7dffceaca9a426504ef830ea398e9d8e557799c17ca92d2d60b54f38988d
 docker: quay.io/biocontainers/bioconductor-methylpipe
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

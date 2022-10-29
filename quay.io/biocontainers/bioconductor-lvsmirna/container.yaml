@@ -6,3 +6,14 @@ latest:
 tags:
   1.36.0--r36h516909a_0: sha256:6de008f3084413b53dff3b96ac43c89e2ca402cb91cb8f1b0ea6f4d414f0e29c
 docker: quay.io/biocontainers/bioconductor-lvsmirna
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

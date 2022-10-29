@@ -7,5 +7,13 @@ tags:
   2.2.0--r41hdfd78af_0: sha256:8e2d2e3418f6fcb41c346f34e119cf85284816ec3468b9c7d62fa4a347299b9c
 docker: quay.io/biocontainers/bioconductor-inpas
 aliases:
-  .bioconductor-bsgenome.drerio.ucsc.danrer7-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.drerio.ucsc.danrer7-post-link.sh
-  .bioconductor-bsgenome.drerio.ucsc.danrer7-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.drerio.ucsc.danrer7-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

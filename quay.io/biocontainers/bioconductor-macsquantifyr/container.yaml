@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf
 docker: quay.io/biocontainers/bioconductor-macsquantifyr
+aliases:
+  pandoc: /usr/local/bin/pandoc

@@ -7,5 +7,4 @@ tags:
   1.8.0--r36_0: sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a
 docker: quay.io/biocontainers/bioconductor-vulcandata
 aliases:
-  .bioconductor-vulcandata-post-link.sh: /usr/local/bin/.bioconductor-vulcandata-post-link.sh
-  .bioconductor-vulcandata-pre-unlink.sh: /usr/local/bin/.bioconductor-vulcandata-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

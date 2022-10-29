@@ -6,3 +6,14 @@ latest:
 tags:
   1.016006--pl5321hdfd78af_0: sha256:888107af6551c05a63d9e1705f274c214b304a45878276f752f2ea49e36c86df
 docker: quay.io/biocontainers/perl-type-tiny
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

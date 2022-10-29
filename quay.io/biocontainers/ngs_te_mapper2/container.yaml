@@ -10,3 +10,13 @@ aliases:
   ngs_te_mapper2: /usr/local/bin/ngs_te_mapper2
   queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
   queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  CA.pm: /usr/local/bin/CA.pm
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask

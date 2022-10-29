@@ -6,3 +6,11 @@ latest:
 tags:
   0.0.4--r3.3.2_0: sha256:a2f8f12a625d651a064ef1aa6a5ac41d86349872d27884a4f1260990626be347
 docker: quay.io/biocontainers/r-downloader
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

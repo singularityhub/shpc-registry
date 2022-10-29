@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-locale
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-locale
+latest:
+  1.03--pl5321hdfd78af_2: sha256:bec45597b32290d6da6da8327a6d08144383c38ad94ca843169c2faca2e90ac3
+tags:
+  1.03--pl5321hdfd78af_2: sha256:bec45597b32290d6da6da8327a6d08144383c38ad94ca843169c2faca2e90ac3
+docker: quay.io/biocontainers/perl-locale

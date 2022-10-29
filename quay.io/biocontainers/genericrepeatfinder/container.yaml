@@ -15,3 +15,13 @@ aliases:
   grf-main: /usr/local/bin/grf-main
   grf-mite-cluster: /usr/local/bin/grf-mite-cluster
   grf-nest: /usr/local/bin/grf-nest
+  FET.pl: /usr/local/bin/FET.pl
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  cd-hit-div: /usr/local/bin/cd-hit-div
+  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl
+  cd-hit-est: /usr/local/bin/cd-hit-est
+  cd-hit-est-2d: /usr/local/bin/cd-hit-est-2d

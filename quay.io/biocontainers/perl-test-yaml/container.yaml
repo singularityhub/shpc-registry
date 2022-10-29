@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-test-yaml
 aliases:
   test-yaml: /usr/local/bin/test-yaml
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -23,3 +23,6 @@ aliases:
   splitgl: /usr/local/bin/splitgl
   supersim: /usr/local/bin/supersim
   thetaStat: /usr/local/bin/thetaStat
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

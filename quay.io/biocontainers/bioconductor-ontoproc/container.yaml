@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r36_0: sha256:467225143240f58286464f1650b412169543b94fc89b9723314f63cf2ca32181
 docker: quay.io/biocontainers/bioconductor-ontoproc
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

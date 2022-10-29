@@ -7,5 +7,4 @@ tags:
   1.9.0--r40_0: sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8
 docker: quay.io/biocontainers/bioconductor-ngscopydata
 aliases:
-  .bioconductor-ngscopydata-post-link.sh: /usr/local/bin/.bioconductor-ngscopydata-post-link.sh
-  .bioconductor-ngscopydata-pre-unlink.sh: /usr/local/bin/.bioconductor-ngscopydata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

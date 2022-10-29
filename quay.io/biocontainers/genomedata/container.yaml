@@ -28,3 +28,13 @@ aliases:
   nohead: /usr/local/bin/nohead
   run_genomedata_tests.py: /usr/local/bin/run_genomedata_tests.py
   test_genomedata.py: /usr/local/bin/test_genomedata.py
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed

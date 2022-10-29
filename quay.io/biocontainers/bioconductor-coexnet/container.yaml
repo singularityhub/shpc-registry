@@ -6,3 +6,11 @@ latest:
 tags:
   1.9.0--r40_0: sha256:b8af8d50b7595802ef99d604cc6cf386291a0187ed61f9e45b26748af81cc1c7
 docker: quay.io/biocontainers/bioconductor-coexnet
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

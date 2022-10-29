@@ -7,5 +7,13 @@ tags:
   1.30.0--r41hdfd78af_0: sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602
 docker: quay.io/biocontainers/bioconductor-fastliquidassociation
 aliases:
-  .bioconductor-yeastcc-post-link.sh: /usr/local/bin/.bioconductor-yeastcc-post-link.sh
-  .bioconductor-yeastcc-pre-unlink.sh: /usr/local/bin/.bioconductor-yeastcc-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

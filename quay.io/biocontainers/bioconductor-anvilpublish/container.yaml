@@ -6,3 +6,5 @@ latest:
 tags:
   1.4.1--r41hdfd78af_0: sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883
 docker: quay.io/biocontainers/bioconductor-anvilpublish
+aliases:
+  pandoc: /usr/local/bin/pandoc

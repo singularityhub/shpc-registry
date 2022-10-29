@@ -6,3 +6,7 @@ latest:
 tags:
   0.4.1--r3.3.1_1: sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf
 docker: quay.io/biocontainers/r-scales
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

@@ -6,3 +6,7 @@ latest:
 tags:
   1.32.0--r40h399db7b_1: sha256:ed620c129c22c8932a9300b841e98b9a2ddf6da82a3939e03cfd53c0d9a10385
 docker: quay.io/biocontainers/bioconductor-chimera
+aliases:
+  STAR: /usr/local/bin/STAR
+  STARlong: /usr/local/bin/STARlong
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

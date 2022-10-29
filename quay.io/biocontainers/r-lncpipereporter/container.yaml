@@ -6,3 +6,5 @@ latest:
 tags:
   0.1.1--r41hec16e2b_5: sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268
 docker: quay.io/biocontainers/r-lncpipereporter
+aliases:
+  pandoc: /usr/local/bin/pandoc

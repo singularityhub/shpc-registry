@@ -7,5 +7,5 @@ tags:
   1.8.1--r40h399db7b_0: sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401
 docker: quay.io/biocontainers/bioconductor-rmmquant
 aliases:
-  .bioconductor-tbx20bamsubset-post-link.sh: /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh
-  .bioconductor-tbx20bamsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh
+  pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

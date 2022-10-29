@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:a60ab0f921e328cf0fec906822a08f52c6d94d2c8ddb640bc53480b1b46a7a58
 docker: quay.io/biocontainers/bioconductor-asics
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

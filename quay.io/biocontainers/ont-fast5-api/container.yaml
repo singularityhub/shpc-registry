@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/ont-fast5-api
 aliases:
   demux_fast5: /usr/local/bin/demux_fast5
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  check_compression: /usr/local/bin/check_compression
+  compress_fast5: /usr/local/bin/compress_fast5
+  f2py3.10: /usr/local/bin/f2py3.10
+  fast5_subset: /usr/local/bin/fast5_subset
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear

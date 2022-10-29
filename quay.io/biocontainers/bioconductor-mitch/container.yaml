@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--r41hdfd78af_0: sha256:72a0ef1a0fac977bca1c82ed2fce643f77f455fcd4c30b1164bf4df3800a023d
 docker: quay.io/biocontainers/bioconductor-mitch
+aliases:
+  pandoc: /usr/local/bin/pandoc

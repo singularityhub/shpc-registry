@@ -16,3 +16,13 @@ aliases:
   showtable: /usr/local/bin/showtable
   volint: /usr/local/bin/volint
   wcslint: /usr/local/bin/wcslint
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  py.test: /usr/local/bin/py.test
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  pytest: /usr/local/bin/pytest
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv: /usr/local/bin/pyvenv

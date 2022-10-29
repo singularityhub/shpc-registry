@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/proteomiqon-mzmltomzlite
 aliases:
   proteomiqon-mzmltomzlite: /usr/local/bin/proteomiqon-mzmltomzlite
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

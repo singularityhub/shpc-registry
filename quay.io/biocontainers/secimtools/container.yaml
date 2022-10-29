@@ -49,3 +49,13 @@ aliases:
   ttest_perm.py: /usr/local/bin/ttest_perm.py
   ttest_single_group.py: /usr/local/bin/ttest_single_group.py
   upset_plot.py: /usr/local/bin/upset_plot.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  f2py3.9: /usr/local/bin/f2py3.9
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  fonttools: /usr/local/bin/fonttools

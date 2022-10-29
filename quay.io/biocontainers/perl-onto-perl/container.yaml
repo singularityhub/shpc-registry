@@ -45,3 +45,4 @@ aliases:
   obo_trimming.pl: /usr/local/bin/obo_trimming.pl
   obo_union.pl: /usr/local/bin/obo_union.pl
   owl2obo.pl: /usr/local/bin/owl2obo.pl
+  xpath: /usr/local/bin/xpath

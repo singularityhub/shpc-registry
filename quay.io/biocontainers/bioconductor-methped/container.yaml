@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r341_0: sha256:3ee49c92ce65dbbfd1346ccd1b1bbbdb2b2b9516b9eed02761addcfed0bd362d
 docker: quay.io/biocontainers/bioconductor-methped
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

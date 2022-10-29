@@ -16,3 +16,8 @@ aliases:
   metabat1: /usr/local/bin/metabat1
   metabat2: /usr/local/bin/metabat2
   runMetaBat.sh: /usr/local/bin/runMetaBat.sh
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect
+  tabix: /usr/local/bin/tabix

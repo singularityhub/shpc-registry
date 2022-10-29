@@ -14,13 +14,15 @@ jobs:
         fetch-depth: '0'
 
     - name: Install Dependencies
-      run: pip install git+https://github.com/singularityhub/singularity-hpc@main
+      run: |
+        pip install git+https://github.com/singularityhub/singularity-hpc@main
+        pip install requests pipelib beautifulsoup4
 
     - name: Update Biocontainers
       run: |
         git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
         printf "python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25\n"
-        python .github/scripts/update_biocontainers.py ---cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25
+        python .github/scripts/update_biocontainers.py ---cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 10
 
     - name: Checkout Update branch
       env:

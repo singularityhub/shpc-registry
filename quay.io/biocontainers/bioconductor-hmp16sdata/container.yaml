@@ -7,5 +7,10 @@ tags:
   1.8.0--r40_0: sha256:35c1f1f7dbbc47de0bce3833c214731b1433b26632b9d989878f04788b88241a
 docker: quay.io/biocontainers/bioconductor-hmp16sdata
 aliases:
-  .bioconductor-hmp16sdata-post-link.sh: /usr/local/bin/.bioconductor-hmp16sdata-post-link.sh
-  .bioconductor-hmp16sdata-pre-unlink.sh: /usr/local/bin/.bioconductor-hmp16sdata-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664
 docker: quay.io/biocontainers/bioconductor-ga4ghshiny
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

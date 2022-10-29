@@ -7,5 +7,13 @@ tags:
   3.13.0--r41hdfd78af_2: sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene
 aliases:
-  .bioconductor-txdb.hsapiens.ucsc.hg38.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.refgene-post-link.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg38.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.refgene-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

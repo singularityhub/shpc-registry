@@ -11,3 +11,13 @@ aliases:
   gw-join_parts.py: /usr/local/bin/gw-join_parts.py
   gw-merge_topologies.py: /usr/local/bin/gw-merge_topologies.py
   gw-partial_tempering.py: /usr/local/bin/gw-partial_tempering.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  psicc: /usr/local/bin/psicc
+  pydoc3.9: /usr/local/bin/pydoc3.9

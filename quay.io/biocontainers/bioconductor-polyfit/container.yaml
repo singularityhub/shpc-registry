@@ -6,3 +6,9 @@ latest:
 tags:
   1.22.0--r40_0: sha256:a30e076d65f1c36a4da762e20cb7c959176058c85eba99d7aea0e1f087fcef96
 docker: quay.io/biocontainers/bioconductor-polyfit
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

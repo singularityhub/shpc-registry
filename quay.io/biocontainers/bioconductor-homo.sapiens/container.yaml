@@ -6,3 +6,5 @@ latest:
 tags:
   1.3.1--r40_9: sha256:d36836f2b62d6d3740d1312cd44d338b4e12f101bf9582d73aae5b2e2848f709
 docker: quay.io/biocontainers/bioconductor-homo.sapiens
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

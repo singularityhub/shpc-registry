@@ -6,3 +6,14 @@ latest:
 tags:
   1.26.0--r41hdfd78af_0: sha256:7ad088e7b1589b6cb3b5e7f8707939bf5ca27119c9648d39071408fce8f5068f
 docker: quay.io/biocontainers/bioconductor-comet
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

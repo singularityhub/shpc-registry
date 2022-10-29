@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/homoeditdistance
 aliases:
   hed: /usr/local/bin/hed
+  f2py3.8: /usr/local/bin/f2py3.8

@@ -6,3 +6,5 @@ latest:
 tags:
   0.063--pl5321hdfd78af_0: sha256:0db1ef6608a69253c99164a943b1bb86fd559a730c3e4c3aa49ebbc0b61d6bf9
 docker: quay.io/biocontainers/perl-array-set
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

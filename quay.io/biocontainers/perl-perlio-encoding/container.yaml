@@ -6,3 +6,5 @@ latest:
 tags:
   0.18--pl5321hdfd78af_2: sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff
 docker: quay.io/biocontainers/perl-perlio-encoding
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

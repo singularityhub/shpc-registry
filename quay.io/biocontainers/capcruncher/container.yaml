@@ -12,3 +12,13 @@ aliases:
   ice: /usr/local/bin/ice
   rich-click: /usr/local/bin/rich-click
   trim_galore: /usr/local/bin/trim_galore
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  ace2sam: /usr/local/bin/ace2sam
+  annotateBed: /usr/local/bin/annotateBed
+  aserver: /usr/local/bin/aserver
+  b2sum: /usr/local/bin/b2sum
+  bam2pairs: /usr/local/bin/bam2pairs
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64

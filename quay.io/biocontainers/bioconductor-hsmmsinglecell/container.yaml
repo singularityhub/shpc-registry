@@ -7,5 +7,4 @@ tags:
   1.9.0--r40_0: sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120
 docker: quay.io/biocontainers/bioconductor-hsmmsinglecell
 aliases:
-  .bioconductor-hsmmsinglecell-post-link.sh: /usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh
-  .bioconductor-hsmmsinglecell-pre-unlink.sh: /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

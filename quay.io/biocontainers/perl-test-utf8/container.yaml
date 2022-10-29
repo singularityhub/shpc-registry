@@ -6,3 +6,5 @@ latest:
 tags:
   1.01--pl5321hdfd78af_1: sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab
 docker: quay.io/biocontainers/perl-test-utf8
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

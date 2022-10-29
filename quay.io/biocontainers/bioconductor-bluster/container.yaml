@@ -6,3 +6,5 @@ latest:
 tags:
   1.4.0--r41hc247a5b_2: sha256:fcb086716e9c7006fb46c9d012b59dacf803d5d60745487b99cbe2a1d532598e
 docker: quay.io/biocontainers/bioconductor-bluster
+aliases:
+  glpsol: /usr/local/bin/glpsol

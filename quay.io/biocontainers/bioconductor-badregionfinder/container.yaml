@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r341_0: sha256:cd16612fbac41881de06c8b36aca2c60dc69e9eff93e0070553f52b1e52756e1
 docker: quay.io/biocontainers/bioconductor-badregionfinder
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

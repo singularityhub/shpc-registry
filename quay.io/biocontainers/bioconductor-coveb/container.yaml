@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r351_0: sha256:168a6597c962489d42d5daddef58a24b7621eaf200087f7cd28ad492a21fe1ac
 docker: quay.io/biocontainers/bioconductor-coveb
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

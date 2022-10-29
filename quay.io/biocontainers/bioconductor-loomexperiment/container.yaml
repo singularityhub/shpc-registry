@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:1fbfa4e02edb29aae320bf632f2aa1145424995cf45e15ced943088584acec46
 docker: quay.io/biocontainers/bioconductor-loomexperiment
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -7,5 +7,13 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:1c4accc5ac5087c1506f9e46f4cb904194c704d7d21ea2cedb1ad824c200281f
 docker: quay.io/biocontainers/bioconductor-bsubtiliscdf
 aliases:
-  .bioconductor-bsubtiliscdf-post-link.sh: /usr/local/bin/.bioconductor-bsubtiliscdf-post-link.sh
-  .bioconductor-bsubtiliscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-bsubtiliscdf-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

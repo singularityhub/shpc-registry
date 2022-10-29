@@ -42,3 +42,13 @@ aliases:
   uncovered: /usr/local/bin/uncovered
   upstream-coords.awk: /usr/local/bin/upstream-coords.awk
   window-acgt: /usr/local/bin/window-acgt
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  assistant: /usr/local/bin/assistant
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  baseml: /usr/local/bin/baseml

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/r-mixomics
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for r-mixomics
+latest:
+  6.3.1--r3.4.1_0: sha256:121980c68e9a060fc3a093e67ea8b81fe024ffd901282ebb4c547ceb352becef
+tags:
+  6.3.1--r3.4.1_0: sha256:121980c68e9a060fc3a093e67ea8b81fe024ffd901282ebb4c547ceb352becef
+docker: quay.io/biocontainers/r-mixomics

@@ -7,5 +7,9 @@ tags:
   1.8.0--r40_0: sha256:62fa4ee96ef2d9341e1226bd3d4992f3fb0ba1cfc576430fc35ae37d83ee83ca
 docker: quay.io/biocontainers/bioconductor-bioconcotk
 aliases:
-  .bioconductor-curatedtcgadata-post-link.sh: /usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh
-  .bioconductor-curatedtcgadata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

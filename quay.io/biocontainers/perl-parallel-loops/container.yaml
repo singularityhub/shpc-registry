@@ -6,3 +6,7 @@ latest:
 tags:
   0.10--pl5321hdfd78af_1: sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2
 docker: quay.io/biocontainers/perl-parallel-loops
+aliases:
+  cpanm: /usr/local/bin/cpanm
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts

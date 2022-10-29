@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r41hdfd78af_0: sha256:4ba629e9bc716be475498dec39aa0eff4482bc28029cb3bbeeebffc3a7b55e57
 docker: quay.io/biocontainers/r-sartools
+aliases:
+  pandoc: /usr/local/bin/pandoc

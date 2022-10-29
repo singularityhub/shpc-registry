@@ -12,3 +12,13 @@ aliases:
   fq2fa: /usr/local/bin/fq2fa
   masterSplitter: /usr/local/bin/masterSplitter
   poa: /usr/local/bin/poa
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  ace2sam: /usr/local/bin/ace2sam
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py3.6: /usr/local/bin/f2py3.6
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  htsfile: /usr/local/bin/htsfile
+  idle3.6: /usr/local/bin/idle3.6

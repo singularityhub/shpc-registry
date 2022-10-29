@@ -6,3 +6,14 @@ latest:
 tags:
   1.9.0--r41hdfd78af_1: sha256:1b0012956d491eed0690488b22dd4eadf7100e9eabb8b7067d99b32caff53bca
 docker: quay.io/biocontainers/r-deconstructsigs
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

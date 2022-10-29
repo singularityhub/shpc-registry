@@ -6,3 +6,5 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f
 docker: quay.io/biocontainers/bioconductor-piano
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

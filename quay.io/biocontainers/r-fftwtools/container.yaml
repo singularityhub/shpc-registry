@@ -6,3 +6,14 @@ latest:
 tags:
   0.9.7--r3.2.2_0: sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740
 docker: quay.io/biocontainers/r-fftwtools
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  gif2tiff: /usr/local/bin/gif2tiff
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail

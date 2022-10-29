@@ -6,3 +6,7 @@ latest:
 tags:
   1.643--pl5321hec16e2b_1: sha256:64f212961161e12c6c2f35f37c048d2ecb67dde6491cffa5d73f1faef3846624
 docker: quay.io/biocontainers/perl-dbi
+aliases:
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy

@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/sis
 aliases:
   multifasta.py: /usr/local/bin/multifasta.py
   sis.py: /usr/local/bin/sis.py
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  idle3.8: /usr/local/bin/idle3.8
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot

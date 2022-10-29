@@ -7,4 +7,8 @@ tags:
   1.8.0--r3.4.1_0: sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba
 docker: quay.io/biocontainers/bioconductor-traser
 aliases:
-  BSgenome.Hsapiens.UCSC.hg19_1.4.0_R_x86_64-pc-linux-gnu.tar.gz: /usr/local/bin/BSgenome.Hsapiens.UCSC.hg19_1.4.0_R_x86_64-pc-linux-gnu.tar.gz
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wget: /usr/local/bin/wget
+  wish8.5: /usr/local/bin/wish8.5

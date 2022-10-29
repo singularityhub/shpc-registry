@@ -6,3 +6,14 @@ latest:
 tags:
   1.1--r351h6115d3f_0: sha256:2b404a215db477d97e77a558a1c7aa2cd5d4254dfb88a2b199e528b4948c4556
 docker: quay.io/biocontainers/r-ampliconduo
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

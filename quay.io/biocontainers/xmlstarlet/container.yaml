@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/xmlstarlet
 aliases:
   xml: /usr/local/bin/xml
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc

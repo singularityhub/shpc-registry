@@ -6,3 +6,13 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e
 docker: quay.io/biocontainers/bioconductor-ggmsa
+aliases:
+  cct: /usr/local/bin/cct
+  cs2cs: /usr/local/bin/cs2cs
+  geod: /usr/local/bin/geod
+  gie: /usr/local/bin/gie
+  invgeod: /usr/local/bin/invgeod
+  invproj: /usr/local/bin/invproj
+  proj: /usr/local/bin/proj
+  projinfo: /usr/local/bin/projinfo
+  projsync: /usr/local/bin/projsync

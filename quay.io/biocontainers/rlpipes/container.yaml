@@ -70,3 +70,13 @@ aliases:
   vdb-passwd.2.11.0: /usr/local/bin/vdb-passwd.2.11.0
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  abi-dump: /usr/local/bin/abi-dump
+  abi-dump.2: /usr/local/bin/abi-dump.2
+  abi-load: /usr/local/bin/abi-load
+  acyclic: /usr/local/bin/acyclic
+  align-cache: /usr/local/bin/align-cache
+  align-cache.2: /usr/local/bin/align-cache.2
+  align-info: /usr/local/bin/align-info
+  align-info.2: /usr/local/bin/align-info.2
+  annotate: /usr/local/bin/annotate

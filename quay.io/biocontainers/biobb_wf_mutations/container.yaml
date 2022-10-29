@@ -7,7 +7,6 @@ tags:
   0.0.6--py_0: sha256:d8c4be020cfa729de2c4a18a0369789b68a3ef48994f91aa87a6b7d7502735a5
 docker: quay.io/biocontainers/biobb_wf_mutations
 aliases:
-  .biobb_wf_mutations-post-link.sh: /usr/local/bin/.biobb_wf_mutations-post-link.sh
   GMXRC: /usr/local/bin/GMXRC
   GMXRC.bash: /usr/local/bin/GMXRC.bash
   GMXRC.csh: /usr/local/bin/GMXRC.csh
@@ -32,3 +31,13 @@ aliases:
   pdb_variants: /usr/local/bin/pdb_variants
   solvate: /usr/local/bin/solvate
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  acyclic: /usr/local/bin/acyclic
+  assistant: /usr/local/bin/assistant
+  bagit.py: /usr/local/bin/bagit.py
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  chardetect: /usr/local/bin/chardetect
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  csv2rdf: /usr/local/bin/csv2rdf

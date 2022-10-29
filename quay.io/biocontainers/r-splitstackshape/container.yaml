@@ -6,3 +6,11 @@ latest:
 tags:
   1.4.2--r3.3.1_0: sha256:17cc0be3bcdcd9f6862b9379bef5626dce6367e8cdcfe207db18f00b4c6c6ec1
 docker: quay.io/biocontainers/r-splitstackshape
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

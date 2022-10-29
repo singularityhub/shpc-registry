@@ -6,3 +6,14 @@ latest:
 tags:
   1.73--pl5321hdfd78af_3: sha256:175f133ff788fc21d37c4d077a60c30b7db83af250af1883eee3bb0a5e4b0243
 docker: quay.io/biocontainers/perl-bio-asn1-entrezgene
+aliases:
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  binhex.pl: /usr/local/bin/binhex.pl
+  bp_aacomp.pl: /usr/local/bin/bp_aacomp.pl
+  bp_biofetch_genbank_proxy.pl: /usr/local/bin/bp_biofetch_genbank_proxy.pl

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e
 docker: quay.io/biocontainers/bioconductor-methinheritsim
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

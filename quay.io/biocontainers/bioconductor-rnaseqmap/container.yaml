@@ -6,3 +6,12 @@ latest:
 tags:
   2.46.0--r40h037d062_0: sha256:b0737453dcf99d3bf682de7385f1e1c8db00aefbfc291787dc1671c64aefddc7
 docker: quay.io/biocontainers/bioconductor-rnaseqmap
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

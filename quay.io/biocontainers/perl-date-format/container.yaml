@@ -6,3 +6,6 @@ latest:
 tags:
   2.30--pl526_2: sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324
 docker: quay.io/biocontainers/perl-date-format
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

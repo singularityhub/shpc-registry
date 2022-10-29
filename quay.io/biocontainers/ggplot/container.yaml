@@ -6,3 +6,14 @@ latest:
 tags:
   0.6.8--py36_0: sha256:85578bc81a0da9fa430dcb831090b2e2ef06fd9f323b510665f93aab3527b99b
 docker: quay.io/biocontainers/ggplot
+aliases:
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  assistant: /usr/local/bin/assistant
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment

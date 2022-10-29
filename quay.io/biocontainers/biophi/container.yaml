@@ -19,3 +19,13 @@ aliases:
   fairseq-validate: /usr/local/bin/fairseq-validate
   sacrebleu: /usr/local/bin/sacrebleu
   sapiens: /usr/local/bin/sapiens
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  alimask: /usr/local/bin/alimask
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  easel: /usr/local/bin/easel
+  esl-afetch: /usr/local/bin/esl-afetch
+  esl-alimanip: /usr/local/bin/esl-alimanip

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.1--r40hdfd78af_0: sha256:ce70a9b8950cb4754ad7cd583e303697b421695de5e4aca8d0cccbdc1d288875
 docker: quay.io/biocontainers/bioconductor-cicero
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

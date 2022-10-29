@@ -6,3 +6,11 @@ latest:
 tags:
   0.2.3.post9--py27_0: sha256:60b4e58ff40b7c5520acfe548dfd5018a6d369d1b6a833612b2746d232d26ff1
 docker: quay.io/biocontainers/cityhash
+aliases:
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config
+  python2.7: /usr/local/bin/python2.7
+  python2.7-config: /usr/local/bin/python2.7-config
+  smtpd.py: /usr/local/bin/smtpd.py

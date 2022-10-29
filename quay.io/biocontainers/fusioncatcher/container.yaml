@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/fusioncatcher
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for fusioncatcher
+latest:
+  1.33--hdfd78af_3: sha256:4dbd6ada2dd9f971182b9eb620ce7e936b7f459cbf59c57cb03cdbba1b95d376
+tags:
+  1.33--hdfd78af_3: sha256:4dbd6ada2dd9f971182b9eb620ce7e936b7f459cbf59c57cb03cdbba1b95d376
+docker: quay.io/biocontainers/fusioncatcher

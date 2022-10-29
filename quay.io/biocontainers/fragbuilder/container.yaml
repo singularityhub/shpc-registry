@@ -6,3 +6,14 @@ latest:
 tags:
   1.0.1--hdfd78af_1: sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390
 docker: quay.io/biocontainers/fragbuilder
+aliases:
+  babel: /usr/local/bin/babel
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  idle: /usr/local/bin/idle
+  obabel: /usr/local/bin/obabel
+  obchiral: /usr/local/bin/obchiral
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit

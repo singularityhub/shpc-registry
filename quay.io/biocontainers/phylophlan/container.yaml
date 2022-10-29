@@ -15,3 +15,13 @@ aliases:
   phylophlan_strain_finder: /usr/local/bin/phylophlan_strain_finder
   phylophlan_write_config_file: /usr/local/bin/phylophlan_write_config_file
   phylophlan_write_default_configs.sh: /usr/local/bin/phylophlan_write_default_configs.sh
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter

@@ -7,6 +7,14 @@ tags:
   1.0.3: sha256:ce8c35f93fdacfe7582436ec5d55d16026417b14f19357e513046c6a00fb0833
 docker: quay.io/biocontainers/julia
 aliases:
-  .julia-post-link.sh: /usr/local/bin/.julia-post-link.sh
-  .julia-pre-unlink.sh: /usr/local/bin/.julia-pre-unlink.sh
   julia: /usr/local/bin/julia
+  cmpfillin: /usr/local/bin/cmpfillin
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis

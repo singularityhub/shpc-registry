@@ -7,5 +7,4 @@ tags:
   0.99.10--r40hdfd78af_9: sha256:b3ee070a7fca2719a8184e637f1bc17fed0030f16da827dc381774279061ba1c
 docker: quay.io/biocontainers/bioconductor-mirnatap.db
 aliases:
-  .bioconductor-mirnatap.db-post-link.sh: /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh
-  .bioconductor-mirnatap.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

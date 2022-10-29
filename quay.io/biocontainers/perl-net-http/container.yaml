@@ -6,3 +6,5 @@ latest:
 tags:
   6.22--pl5321hdfd78af_0: sha256:2a8583b9d2be4e6674c3ffa1404da8562bc0bf0dcaa4fc1d77c65113e67a4585
 docker: quay.io/biocontainers/perl-net-http
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

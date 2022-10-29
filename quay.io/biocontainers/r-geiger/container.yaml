@@ -6,3 +6,14 @@ latest:
 tags:
   2.0.6--r351h29659fb_3: sha256:a9f9186cd9f5358c99d3f661b2c5c6e28dcb8b29bbebb68ff9fbcee80023a2c6
 docker: quay.io/biocontainers/r-geiger
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

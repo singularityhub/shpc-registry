@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41h399db7b_0: sha256:28244a27b87310cbbf8eb9d1cd1aa877b156cf8bd3a5e1117ebb5c6ff63cecd0
 docker: quay.io/biocontainers/bioconductor-oveseg
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

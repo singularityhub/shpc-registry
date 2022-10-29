@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--h2df963e_5: sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0
 docker: quay.io/biocontainers/libmems
+aliases:
+  env-execute: /usr/local/env-execute

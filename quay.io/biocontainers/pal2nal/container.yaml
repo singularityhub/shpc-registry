@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/pal2nal
 aliases:
   pal2nal.pl: /usr/local/bin/pal2nal.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1

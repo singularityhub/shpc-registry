@@ -15,3 +15,13 @@ aliases:
   wtdbg-cns: /usr/local/bin/wtdbg-cns
   wtdbg2: /usr/local/bin/wtdbg2
   wtpoa-cns: /usr/local/bin/wtpoa-cns
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  DateRepeats: /usr/local/bin/DateRepeats
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  ace2sam: /usr/local/bin/ace2sam
+  alimask: /usr/local/bin/alimask
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed

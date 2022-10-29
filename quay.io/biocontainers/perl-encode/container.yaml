@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-encode
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-encode
+latest:
+  3.19--pl5321hec16e2b_1: sha256:c28bda4248371aee0449c807e811eb8e657728ce69c9af62168b2eaa6dafac76
+tags:
+  3.19--pl5321hec16e2b_1: sha256:c28bda4248371aee0449c807e811eb8e657728ce69c9af62168b2eaa6dafac76
+docker: quay.io/biocontainers/perl-encode

@@ -22,3 +22,4 @@ aliases:
   getTargetsDef: /usr/local/bin/getTargetsDef
   getfilesToTaxNodes: /usr/local/bin/getfilesToTaxNodes
   makeSummaryTables: /usr/local/bin/makeSummaryTables
+  tar: /usr/local/bin/tar

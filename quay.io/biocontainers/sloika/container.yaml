@@ -15,3 +15,13 @@ aliases:
   train_network.py: /usr/local/bin/train_network.py
   validate_network.py: /usr/local/bin/validate_network.py
   verify_network.py: /usr/local/bin/verify_network.py
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gif2h5: /usr/local/bin/gif2h5
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy

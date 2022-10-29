@@ -6,3 +6,14 @@ latest:
 tags:
   2.201--pl5321h87f3376_1: sha256:6d82c45844f6a6a9765f8aed7c5528c71663ef2b51616d805c6d7b2073058779
 docker: quay.io/biocontainers/perl-compress-raw-bzip2
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  perl: /usr/local/bin/perl

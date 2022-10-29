@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910
 docker: quay.io/biocontainers/bioconductor-cnvranger
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

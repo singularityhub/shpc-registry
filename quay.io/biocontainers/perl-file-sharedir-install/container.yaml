@@ -6,3 +6,6 @@ latest:
 tags:
   0.13--pl526_0: sha256:78b966a8af8b4f633e8571085f3369c5e3cfa0b153ad04730716e553d8373fbb
 docker: quay.io/biocontainers/perl-file-sharedir-install
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

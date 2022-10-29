@@ -6,3 +6,5 @@ latest:
 tags:
   3.8.0--r351_0: sha256:5b96c05496622543184833e2b7e0b0926540abd17893c4e437aa1f8453ad4e73
 docker: quay.io/biocontainers/bioconductor-dose
+aliases:
+  wget: /usr/local/bin/wget

@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:e946642c5dbc53ff800a46d3c3fc0bcd269cb212e00c9c07c17b7c7c43895c68
 docker: quay.io/biocontainers/bioconductor-schex
+aliases:
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

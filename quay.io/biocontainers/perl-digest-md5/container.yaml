@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/perl-digest-md5
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for perl-digest-md5
+latest:
+  2.58--pl5321hec16e2b_1: sha256:04c941cf64a2b62ff2f362101fcb5a645c0cd1d0e3833a8f1187a47ad424e715
+tags:
+  2.58--pl5321hec16e2b_1: sha256:04c941cf64a2b62ff2f362101fcb5a645c0cd1d0e3833a8f1187a47ad424e715
+docker: quay.io/biocontainers/perl-digest-md5

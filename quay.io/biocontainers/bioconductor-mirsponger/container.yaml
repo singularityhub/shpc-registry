@@ -6,3 +6,5 @@ latest:
 tags:
   1.20.1--r41hc247a5b_1: sha256:f8708faad531ebb77657c78a7aa02bc4b8ea9a9449370e633a9367b07972ce57
 docker: quay.io/biocontainers/bioconductor-mirsponger
+aliases:
+  glpsol: /usr/local/bin/glpsol

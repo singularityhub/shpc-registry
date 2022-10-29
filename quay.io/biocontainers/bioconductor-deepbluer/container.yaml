@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:fda9422a1ae4b343a5f4158d52d619b5fb9cf51e815578a12a87c13dc4054b10
 docker: quay.io/biocontainers/bioconductor-deepbluer
+aliases:
+  wget: /usr/local/bin/wget

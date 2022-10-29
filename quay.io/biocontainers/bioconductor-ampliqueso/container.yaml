@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/bioconductor-ampliqueso
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for bioconductor-ampliqueso
+latest:
+  1.20.0--r351_0: sha256:6eb52a2fd64cead8499e889eb830be790be55bea0912d00f19eb682ad15f9228
+tags:
+  1.20.0--r351_0: sha256:6eb52a2fd64cead8499e889eb830be790be55bea0912d00f19eb682ad15f9228
+docker: quay.io/biocontainers/bioconductor-ampliqueso

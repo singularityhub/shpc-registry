@@ -6,3 +6,5 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:bb09bba92e2f7ff0d0f569626d6b9f4144c9fa26efa1e7a5216385606e61566a
 docker: quay.io/biocontainers/bioconductor-midashla
+aliases:
+  pandoc: /usr/local/bin/pandoc

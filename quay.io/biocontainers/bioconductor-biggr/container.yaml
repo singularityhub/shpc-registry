@@ -6,3 +6,14 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:f7474aabc31589ff83a482b52b7a1dc931cbf3b16c128a6ab17f94fe9889b64a
 docker: quay.io/biocontainers/bioconductor-biggr
+aliases:
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdftogd: /usr/local/bin/bdftogd
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  cluster: /usr/local/bin/cluster
+  cwebp: /usr/local/bin/cwebp
+  delaunay: /usr/local/bin/delaunay
+  diffimg: /usr/local/bin/diffimg

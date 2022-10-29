@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/fusion-report
 aliases:
   fusion_report: /usr/local/bin/fusion_report
+  f2py3.8: /usr/local/bin/f2py3.8
+  tqdm: /usr/local/bin/tqdm

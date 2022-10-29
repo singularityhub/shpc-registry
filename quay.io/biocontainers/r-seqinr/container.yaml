@@ -6,3 +6,6 @@ latest:
 tags:
   3.4_5--r3.4.1_0: sha256:173676d9e13b2bae2880fd18728f1f4ad38c9b92e5f30089335cd5a48e26fc46
 docker: quay.io/biocontainers/r-seqinr
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

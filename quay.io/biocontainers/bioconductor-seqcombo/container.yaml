@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:81f5724e630544521629ffe77a6ae164183ff8c1cb4f7f74b23c1278e506a508
 docker: quay.io/biocontainers/bioconductor-seqcombo
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

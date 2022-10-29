@@ -7,4 +7,7 @@ tags:
   0.1.7--pyhdfd78af_1: sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd
 docker: quay.io/biocontainers/harmony-pytorch
 aliases:
-  .scikit-learn-post-link.sh: /usr/local/bin/.scikit-learn-post-link.sh
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  f2py3.8: /usr/local/bin/f2py3.8
+  ninja: /usr/local/bin/ninja

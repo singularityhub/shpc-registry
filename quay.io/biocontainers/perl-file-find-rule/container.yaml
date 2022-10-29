@@ -6,3 +6,5 @@ latest:
 tags:
   0.34--pl5321hdfd78af_6: sha256:2bc735bd1502334187c0c3c63f68b30a462436f9c11482ac367bd4a7a2a8b2b8
 docker: quay.io/biocontainers/perl-file-find-rule
+aliases:
+  findrule: /usr/local/bin/findrule

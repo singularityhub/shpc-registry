@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.0--r41hc247a5b_2: sha256:8bcefa73ebdba30438d9e30eb0cebe5f0cafc5920e81eb27b10bbb72747f73cd
 docker: quay.io/biocontainers/bioconductor-sojourner
+aliases:
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print

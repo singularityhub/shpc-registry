@@ -7,5 +7,4 @@ tags:
   1.8.0--r40h399db7b_1: sha256:6ca0724efb65ce9b7f9e2e18a0d73cb40b9d8de598c5f578bd4ec981a115925f
 docker: quay.io/biocontainers/bioconductor-gpart
 aliases:
-  .bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh
-  .bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

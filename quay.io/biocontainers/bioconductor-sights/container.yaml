@@ -6,3 +6,14 @@ latest:
 tags:
   1.8.1--r351_0: sha256:3477b59e4287632e487473d0d19ea2e09bd8364340a4c2c38b60307caaf5cefa
 docker: quay.io/biocontainers/bioconductor-sights
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40h399db7b_1: sha256:88285a0f0e14fad190212258d19605281f9f67310bb05b8e43f9ff052a73a3ca
 docker: quay.io/biocontainers/bioconductor-baynorm
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

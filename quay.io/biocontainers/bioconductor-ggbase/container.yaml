@@ -6,3 +6,5 @@ latest:
 tags:
   3.52.0--r40hdfd78af_1: sha256:13bc1a042b694b92798b88e8c868ac2afd58eab940a4669114fbebcd9c0d0ae6
 docker: quay.io/biocontainers/bioconductor-ggbase
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

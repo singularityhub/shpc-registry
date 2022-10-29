@@ -6,3 +6,14 @@ latest:
 tags:
   0.2.6--r41hdfd78af_1: sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242
 docker: quay.io/biocontainers/wade
+aliases:
+  CA.pm: /usr/local/bin/CA.pm
+  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  archive-pubmed: /usr/local/bin/archive-pubmed
+  asp-cp: /usr/local/bin/asp-cp
+  asp-ls: /usr/local/bin/asp-ls
+  between-two-genes: /usr/local/bin/between-two-genes
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck

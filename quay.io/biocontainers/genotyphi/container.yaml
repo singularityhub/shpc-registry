@@ -10,3 +10,13 @@ aliases:
   genotyphi: /usr/local/bin/genotyphi
   genotyphi.py: /usr/local/bin/genotyphi.py
   parse_typhi_mykrobe.py: /usr/local/bin/parse_typhi_mykrobe.py
+  ace2sam: /usr/local/bin/ace2sam
+  bcftools: /usr/local/bin/bcftools
+  bgzip: /usr/local/bin/bgzip
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl

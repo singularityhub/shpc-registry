@@ -7,5 +7,4 @@ tags:
   1.8.0--r351_0: sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a
 docker: quay.io/biocontainers/bioconductor-splinter
 aliases:
-  .bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
-  .bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh: /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
+  wget: /usr/local/bin/wget

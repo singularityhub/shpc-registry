@@ -7,5 +7,13 @@ tags:
   3.12.0--r41hdfd78af_4: sha256:793eddf2edc01b3961b03ccb2c7f0576eb985e864e92f351767ef99efb83566a
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene
 aliases:
-  .bioconductor-txdb.mmusculus.ucsc.mm39.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm39.refgene-post-link.sh
-  .bioconductor-txdb.mmusculus.ucsc.mm39.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm39.refgene-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

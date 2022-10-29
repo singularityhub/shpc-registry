@@ -6,3 +6,10 @@ latest:
 tags:
   0.0.2.1--py38h25fca73_1: sha256:3c43fd9d6a5b4e4abe52d2dab616721646bd6c8ee84656c44f0b2f92a4f2d5a0
 docker: quay.io/biocontainers/strawc
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pybind11-config: /usr/local/bin/pybind11-config
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

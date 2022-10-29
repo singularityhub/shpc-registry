@@ -6,3 +6,14 @@ latest:
 tags:
   2.8.0--r36_1: sha256:b3ca462a0eb36f009c48f82b3e9d5be2a1facebe5838d6b48b8981190f5d66d8
 docker: quay.io/biocontainers/bioconductor-synapter
+aliases:
+  gif2h5: /usr/local/bin/gif2h5
+  gif2hdf: /usr/local/bin/gif2hdf
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc

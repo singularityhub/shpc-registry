@@ -7,5 +7,13 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1
 docker: quay.io/biocontainers/bioconductor-hcadata
 aliases:
-  .bioconductor-hcadata-post-link.sh: /usr/local/bin/.bioconductor-hcadata-post-link.sh
-  .bioconductor-hcadata-pre-unlink.sh: /usr/local/bin/.bioconductor-hcadata-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

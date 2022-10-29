@@ -6,3 +6,6 @@ latest:
 tags:
   1.001002--pl526_1: sha256:669ee7cbef4970e08af7a86ebd47b4be6dabd8a5175ed665fe2c1e6bbf90f4e7
 docker: quay.io/biocontainers/perl-test-more
+aliases:
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

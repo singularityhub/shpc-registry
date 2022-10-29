@@ -19,3 +19,13 @@ aliases:
   showinf: /usr/local/bin/showinf
   xmlindent: /usr/local/bin/xmlindent
   xmlvalid: /usr/local/bin/xmlvalid
+  aserver: /usr/local/bin/aserver
+  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
+  conda_build.sh: /usr/local/bin/conda_build.sh
+  cups-config: /usr/local/bin/cups-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool

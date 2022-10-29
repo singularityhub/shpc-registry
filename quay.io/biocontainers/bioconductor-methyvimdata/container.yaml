@@ -7,5 +7,6 @@ tags:
   1.8.0--r36_0: sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634
 docker: quay.io/biocontainers/bioconductor-methyvimdata
 aliases:
-  .bioconductor-methyvimdata-post-link.sh: /usr/local/bin/.bioconductor-methyvimdata-post-link.sh
-  .bioconductor-methyvimdata-pre-unlink.sh: /usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

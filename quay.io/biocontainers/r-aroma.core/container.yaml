@@ -6,3 +6,14 @@ latest:
 tags:
   3.2.2--r41h3121a25_1: sha256:99a2048cfa648bf013f4ac1e053d9c0db925aa0445e668fcf0ab45dee5b523b5
 docker: quay.io/biocontainers/r-aroma.core
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

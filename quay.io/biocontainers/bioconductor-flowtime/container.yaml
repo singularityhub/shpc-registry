@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_1: sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa
 docker: quay.io/biocontainers/bioconductor-flowtime
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

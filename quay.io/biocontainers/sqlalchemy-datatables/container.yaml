@@ -16,3 +16,7 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

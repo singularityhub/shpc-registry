@@ -6,3 +6,12 @@ latest:
 tags:
   0.75_7--r3.4.1_0: sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883
 docker: quay.io/biocontainers/r-diptest
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail
+  wish8.5: /usr/local/bin/wish8.5

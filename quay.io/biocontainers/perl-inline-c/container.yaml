@@ -6,3 +6,14 @@ latest:
 tags:
   0.81--pl5321hec16e2b_1: sha256:a02d8e8184bafcafd8d3fd15c53c413fdf7220ffe6015b247cb44b2a233218c8
 docker: quay.io/biocontainers/perl-inline-c
+aliases:
+  corelist: /usr/local/bin/corelist
+  cpan: /usr/local/bin/cpan
+  enc2xs: /usr/local/bin/enc2xs
+  encguess: /usr/local/bin/encguess
+  h2ph: /usr/local/bin/h2ph
+  h2xs: /usr/local/bin/h2xs
+  instmodsh: /usr/local/bin/instmodsh
+  json_pp: /usr/local/bin/json_pp
+  libnetcfg: /usr/local/bin/libnetcfg
+  make: /usr/local/bin/make

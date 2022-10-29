@@ -6,3 +6,12 @@ latest:
 tags:
   0.2.3--pyhdfd78af_0: sha256:4520ae2f968154d1c2e22bf261683952fa91c0d3e2d7d2f689e21f8f6a324c64
 docker: quay.io/biocontainers/rcsbsearch
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  jsonschema: /usr/local/bin/jsonschema
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

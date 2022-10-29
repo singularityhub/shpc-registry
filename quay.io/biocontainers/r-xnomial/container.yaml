@@ -6,3 +6,12 @@ latest:
 tags:
   1.0.4--0: sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e
 docker: quay.io/biocontainers/r-xnomial
+aliases:
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  pngcp: /usr/local/bin/pngcp
+  ras2tiff: /usr/local/bin/ras2tiff
+  rgb2ycbcr: /usr/local/bin/rgb2ycbcr
+  thumbnail: /usr/local/bin/thumbnail
+  uconv: /usr/local/bin/uconv

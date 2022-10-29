@@ -6,3 +6,5 @@ latest:
 tags:
   1.74.0--r41hc247a5b_2: sha256:5aac51be351ed3c511e40e1dae34256152d71d0a0cf534bfe5f83a12b0cc8290
 docker: quay.io/biocontainers/bioconductor-mlinterfaces
+aliases:
+  glpsol: /usr/local/bin/glpsol

@@ -6,3 +6,7 @@ latest:
 tags:
   3.6_4--r3.3.2_0: sha256:70eb79284dd03d9a7bc5fd718e627692492bc867b326ec6cb2b905424c4bda79
 docker: quay.io/biocontainers/r-plotrix
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

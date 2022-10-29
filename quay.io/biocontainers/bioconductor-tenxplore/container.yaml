@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r36_0: sha256:b6c2f522bef9013dae5eec4a11a4eac4d5f2fd11195ae4a0b79fe5108ef92673
 docker: quay.io/biocontainers/bioconductor-tenxplore
+aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

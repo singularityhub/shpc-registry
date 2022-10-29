@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/diamond_add_taxonomy
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for diamond_add_taxonomy
+latest:
+  0.1.2--py36_0: sha256:d9c9ab826eb2fd7cae507212f2540821b8ef88f5a12571d4cd2ecddae36c7b38
+tags:
+  0.1.2--py36_0: sha256:d9c9ab826eb2fd7cae507212f2540821b8ef88f5a12571d4cd2ecddae36c7b38
+docker: quay.io/biocontainers/diamond_add_taxonomy

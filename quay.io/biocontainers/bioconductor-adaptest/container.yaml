@@ -6,3 +6,12 @@ latest:
 tags:
   1.7.1--r40_0: sha256:47c3b5f996f23ec2c26e28a57c9ef410e8f4b3485605e25e56a5ff7b4e04beac
 docker: quay.io/biocontainers/bioconductor-adaptest
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

@@ -41,3 +41,13 @@ aliases:
   snp-dists: /usr/local/bin/snp-dists
   transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  FET.pl: /usr/local/bin/FET.pl
+  FastTree: /usr/local/bin/FastTree
+  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  abba-baba: /usr/local/bin/abba-baba

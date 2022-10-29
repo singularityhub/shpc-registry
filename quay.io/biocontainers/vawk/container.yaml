@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/vawk
 aliases:
   gawk-4.2.1: /usr/local/bin/gawk-4.2.1
   vawk: /usr/local/bin/vawk
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/conterminator
 aliases:
   conterminator: /usr/local/bin/conterminator
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0

@@ -6,3 +6,14 @@ latest:
 tags:
   1.76.0--r41hdfd78af_0: sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5
 docker: quay.io/biocontainers/bioconductor-diffgeneanalysis
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

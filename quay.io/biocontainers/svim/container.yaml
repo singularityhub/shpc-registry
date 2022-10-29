@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/svim
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for svim
+latest:
+  1.4.2--py_0: sha256:67ad426e01eb0b16c92551a45086d2d25595ff8b82b97a5caac58aa6009a196c
+tags:
+  1.4.2--py_0: sha256:67ad426e01eb0b16c92551a45086d2d25595ff8b82b97a5caac58aa6009a196c
+docker: quay.io/biocontainers/svim

@@ -6,3 +6,5 @@ latest:
 tags:
   3.2.3--r40_9: sha256:c1894e61572e364e5c1ceceff6736f1c329d1018c58dca2906d9b8da4a538006
 docker: quay.io/biocontainers/bioconductor-hgu133plus2.db
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

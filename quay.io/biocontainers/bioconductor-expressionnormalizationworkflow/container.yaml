@@ -6,3 +6,5 @@ latest:
 tags:
   1.16.0--r40h399db7b_1: sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c
 docker: quay.io/biocontainers/bioconductor-expressionnormalizationworkflow
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

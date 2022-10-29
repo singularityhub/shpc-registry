@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:5181806557a6f8aa982f8c2099615509582c60dfe6b1d13007e2424be2a992c2
 docker: quay.io/biocontainers/bioconductor-survtype
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

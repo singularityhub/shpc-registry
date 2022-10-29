@@ -6,3 +6,5 @@ latest:
 tags:
   3.2.2--r41hdfd78af_0: sha256:438e38e7a30725aae92b1600d0f4685c6f5a6e8a91b20a83a761d7a8495d69ad
 docker: quay.io/biocontainers/bioconductor-synergyfinder
+aliases:
+  pandoc: /usr/local/bin/pandoc

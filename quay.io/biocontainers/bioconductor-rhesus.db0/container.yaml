@@ -7,5 +7,13 @@ tags:
   3.8.2--r36_1: sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703
 docker: quay.io/biocontainers/bioconductor-rhesus.db0
 aliases:
-  .bioconductor-rhesus.db0-post-link.sh: /usr/local/bin/.bioconductor-rhesus.db0-post-link.sh
-  .bioconductor-rhesus.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-rhesus.db0-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep
+  bzgrep: /usr/local/bin/bzgrep

@@ -6,3 +6,5 @@ latest:
 tags:
   2.10--pl5321hdfd78af_0: sha256:94b251b1a5c43f77be4f6ba76ce5c7592b99f98f559c68293616acc78042b2bd
 docker: quay.io/biocontainers/perl-graph-readwrite
+aliases:
+  yapp: /usr/local/bin/yapp

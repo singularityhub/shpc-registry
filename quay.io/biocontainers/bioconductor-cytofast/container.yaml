@@ -6,3 +6,5 @@ latest:
 tags:
   1.6.0--r40hdfd78af_2: sha256:d744159806349beacd0ad7a9cc80d14a9a8f32facafc1c01d6ead80c8e8eb29d
 docker: quay.io/biocontainers/bioconductor-cytofast
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

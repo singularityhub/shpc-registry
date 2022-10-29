@@ -6,3 +6,5 @@ latest:
 tags:
   0.08--pl5321hdfd78af_2: sha256:df23b9fc55fb7aa4f6b259533b104a1ee5b193303d4bd418f9da27c91bbd92fb
 docker: quay.io/biocontainers/perl-algorithm-munkres
+aliases:
+  perl5.32.1: /usr/local/bin/perl5.32.1

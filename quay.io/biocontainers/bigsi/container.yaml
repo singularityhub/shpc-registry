@@ -11,3 +11,13 @@ aliases:
   falcon-bench: /usr/local/bin/falcon-bench
   falcon-print-routes: /usr/local/bin/falcon-print-routes
   hug: /usr/local/bin/hug
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  chardetect: /usr/local/bin/chardetect
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_deadlock: /usr/local/bin/db_deadlock
+  db_dump: /usr/local/bin/db_dump
+  db_hotbackup: /usr/local/bin/db_hotbackup

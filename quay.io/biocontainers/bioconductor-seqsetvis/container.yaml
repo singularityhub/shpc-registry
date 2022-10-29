@@ -6,3 +6,9 @@ latest:
 tags:
   1.8.0--r40_0: sha256:c33f5ad4a8ef12fa9e03f53a2c8ebea7bd85d72a59e024ad5984b975d0341b94
 docker: quay.io/biocontainers/bioconductor-seqsetvis
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

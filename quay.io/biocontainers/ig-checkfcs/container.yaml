@@ -8,3 +8,7 @@ tags:
 docker: quay.io/biocontainers/ig-checkfcs
 aliases:
   checkFCS.R: /usr/local/bin/checkFCS.R
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

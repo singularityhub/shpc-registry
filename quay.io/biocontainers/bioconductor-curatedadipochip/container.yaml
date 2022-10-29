@@ -7,5 +7,4 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:6b1ce9eccf017acdb6b74087bf6c9baf0af2c3572f8bbd8e88dd5689c7624747
 docker: quay.io/biocontainers/bioconductor-curatedadipochip
 aliases:
-  .bioconductor-curatedadipochip-post-link.sh: /usr/local/bin/.bioconductor-curatedadipochip-post-link.sh
-  .bioconductor-curatedadipochip-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedadipochip-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

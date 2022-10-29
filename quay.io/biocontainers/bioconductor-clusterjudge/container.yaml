@@ -6,3 +6,7 @@ latest:
 tags:
   1.8.0--r36_0: sha256:6a894bcad0049e4bb45598aed1bd1f6f4917a30b1b4e5f2aa9fa4acdf966670c
 docker: quay.io/biocontainers/bioconductor-clusterjudge
+aliases:
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

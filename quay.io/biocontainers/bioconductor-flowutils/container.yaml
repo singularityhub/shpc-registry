@@ -6,3 +6,14 @@ latest:
 tags:
   1.58.0--r41hdfd78af_0: sha256:5692eb84129f8427b454f88ac2a0b09d6d30464392fa6ade86d501b0e52297fb
 docker: quay.io/biocontainers/bioconductor-flowutils
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

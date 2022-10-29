@@ -7,5 +7,13 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:cf62f25a049f839bb6e5720445d3d1676b94d8ea39c63c488678978f4c784b7f
 docker: quay.io/biocontainers/bioconductor-prostatecancervarambally
 aliases:
-  .bioconductor-prostatecancervarambally-post-link.sh: /usr/local/bin/.bioconductor-prostatecancervarambally-post-link.sh
-  .bioconductor-prostatecancervarambally-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancervarambally-pre-unlink.sh
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

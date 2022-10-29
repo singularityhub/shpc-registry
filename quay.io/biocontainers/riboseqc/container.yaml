@@ -6,3 +6,6 @@ latest:
 tags:
   1.1--r36_1: sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb
 docker: quay.io/biocontainers/riboseqc
+aliases:
+  pandoc: /usr/local/bin/pandoc
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc

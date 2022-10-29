@@ -6,3 +6,8 @@ latest:
 tags:
   0.08--pl5321hdfd78af_3: sha256:c618a872613cd6034e15cf84034f26b8401bcd363a2b4ef7b1d348f61cfec09b
 docker: quay.io/biocontainers/perl-digest-md5-file
+aliases:
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request

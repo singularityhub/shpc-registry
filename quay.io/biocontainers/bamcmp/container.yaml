@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/bamcmp
 aliases:
   bamcmp: /usr/local/bin/bamcmp
+  bgzip: /usr/local/bin/bgzip
+  htsfile: /usr/local/bin/htsfile
+  tabix: /usr/local/bin/tabix

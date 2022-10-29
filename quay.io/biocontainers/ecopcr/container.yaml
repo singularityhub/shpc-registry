@@ -13,3 +13,13 @@ aliases:
   ecoSort.py: /usr/local/bin/ecoSort.py
   ecofind: /usr/local/bin/ecofind
   ecogrep: /usr/local/bin/ecogrep
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  idle: /usr/local/bin/idle
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  painter.py: /usr/local/bin/painter.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py

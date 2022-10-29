@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:538f13f18a71140d0fb8597e655a2c8d3b832d549303cc47682e78fb6fe40891
 docker: quay.io/biocontainers/bioconductor-spatialcpie
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

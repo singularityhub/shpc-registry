@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/cansnper
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for cansnper
+latest:
+  1.0.10--py_1: sha256:62aae79a2b239197a189b4d9c5b090602722f16ba9af440247b37c402f4ddc63
+tags:
+  1.0.10--py_1: sha256:62aae79a2b239197a189b4d9c5b090602722f16ba9af440247b37c402f4ddc63
+docker: quay.io/biocontainers/cansnper

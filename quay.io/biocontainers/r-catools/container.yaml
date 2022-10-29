@@ -6,3 +6,7 @@ latest:
 tags:
   1.17.1--r3.3.1_1: sha256:ba63b474116d79bae8dff92d7685b095bade57b35ce795ac0335ec0af82d3a68
 docker: quay.io/biocontainers/r-catools
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

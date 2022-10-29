@@ -6,3 +6,12 @@ latest:
 tags:
   1.8.0--r40_0: sha256:86cedd2be194afb82283422bd313fe358ec63621632e1cd82bc056daaf1723c9
 docker: quay.io/biocontainers/bioconductor-mageckflute
+aliases:
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

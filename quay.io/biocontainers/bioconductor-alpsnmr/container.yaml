@@ -6,3 +6,5 @@ latest:
 tags:
   3.4.0--r41hdfd78af_0: sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585
 docker: quay.io/biocontainers/bioconductor-alpsnmr
+aliases:
+  pandoc: /usr/local/bin/pandoc

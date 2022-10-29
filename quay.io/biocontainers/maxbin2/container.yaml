@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/maxbin2
 aliases:
   run_MaxBin.pl: /usr/local/bin/run_MaxBin.pl
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  Makefile: /usr/local/bin/Makefile
+  Makefile.am: /usr/local/bin/Makefile.am
+  Makefile.in: /usr/local/bin/Makefile.in
+  aclocal.bak: /usr/local/bin/aclocal.bak
+  alimask: /usr/local/bin/alimask
+  autoheader.bak: /usr/local/bin/autoheader.bak
+  autom4te.bak: /usr/local/bin/autom4te.bak
+  automake.bak: /usr/local/bin/automake.bak

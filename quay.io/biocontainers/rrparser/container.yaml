@@ -6,3 +6,12 @@ latest:
 tags:
   2.5.0: sha256:00cb8362bb2bf90e4e7fe2a6b0688afd710a41a62cfc89e75f3411efa1ff648d
 docker: quay.io/biocontainers/rrparser
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  f2py3.10: /usr/local/bin/f2py3.10
+  idle3.10: /usr/local/bin/idle3.10
+  normalizer: /usr/local/bin/normalizer
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

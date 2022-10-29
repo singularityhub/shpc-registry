@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r40hdfd78af_1: sha256:26e16a7d74888fc0036e7bc22560d1c5e752b5335b55c4a04364d2c5ba02e9c8
 docker: quay.io/biocontainers/bioconductor-trna
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,3 +6,14 @@ latest:
 tags:
   0.2--py38h4a8c8d9_2: sha256:54cc4668419374e3874c4741df9b0d01614199522bcb5f6601d87fb80b42db2e
 docker: quay.io/biocontainers/tinyalign
+aliases:
+  2to3: /usr/local/bin/2to3
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  c_rehash: /usr/local/bin/c_rehash
+  captoinfo: /usr/local/bin/captoinfo
+  clear: /usr/local/bin/clear
+  easy_install: /usr/local/bin/easy_install
+  idle3: /usr/local/bin/idle3
+  idle3.8: /usr/local/bin/idle3.8
+  infocmp: /usr/local/bin/infocmp
+  infotocap: /usr/local/bin/infotocap

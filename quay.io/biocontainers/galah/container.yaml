@@ -9,3 +9,10 @@ docker: quay.io/biocontainers/galah
 aliases:
   dashing: /usr/local/bin/dashing
   galah: /usr/local/bin/galah
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  f2py3.8: /usr/local/bin/f2py3.8
+  fastANI: /usr/local/bin/fastANI
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

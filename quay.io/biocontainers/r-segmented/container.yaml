@@ -6,3 +6,7 @@ latest:
 tags:
   0.5_1.4--r3.3.1_0: sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b
 docker: quay.io/biocontainers/r-segmented
+aliases:
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  uconv: /usr/local/bin/uconv
+  wish8.5: /usr/local/bin/wish8.5

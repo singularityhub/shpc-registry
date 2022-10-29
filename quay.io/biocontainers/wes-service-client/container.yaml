@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/wes-service-client
 aliases:
   wes-client: /usr/local/bin/wes-client
   wes-server: /usr/local/bin/wes-server
+  avro: /usr/local/bin/avro
+  chardetect: /usr/local/bin/chardetect
+  csv2rdf: /usr/local/bin/csv2rdf
+  doesitcache: /usr/local/bin/doesitcache
+  futurize: /usr/local/bin/futurize
+  idle: /usr/local/bin/idle
+  pasteurize: /usr/local/bin/pasteurize
+  python-config: /usr/local/bin/python-config
+  python2: /usr/local/bin/python2
+  python2-config: /usr/local/bin/python2-config

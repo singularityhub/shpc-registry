@@ -6,3 +6,14 @@ latest:
 tags:
   2.6.0--r41hc247a5b_2: sha256:38f322759f3d3c90238c8ee8bbbc454254595f8af1672b946a994d17e99d436d
 docker: quay.io/biocontainers/bioconductor-flowcore
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

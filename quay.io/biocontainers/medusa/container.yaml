@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/medusa
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for medusa
+latest:
+  1.6--hdfd78af_2: sha256:7e446e1fc3559ff911a73dd5c6aff84a7db5453f2f841f977031f3a2aaead1f6
+tags:
+  1.6--hdfd78af_2: sha256:7e446e1fc3559ff911a73dd5c6aff84a7db5453f2f841f977031f3a2aaead1f6
+docker: quay.io/biocontainers/medusa

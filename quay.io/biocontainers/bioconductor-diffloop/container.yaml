@@ -6,3 +6,5 @@ latest:
 tags:
   1.8.0--r351_0: sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966
 docker: quay.io/biocontainers/bioconductor-diffloop
+aliases:
+  wget: /usr/local/bin/wget

@@ -6,3 +6,14 @@ latest:
 tags:
   1.32.1--r351_0: sha256:303d8c1f174ae78c32a1c30a2efdddd9b3a2aa7b47e49bddd67961afa7d8ede8
 docker: quay.io/biocontainers/bioconductor-biocinstaller
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  activate: /usr/local/bin/activate
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff
+  bzegrep: /usr/local/bin/bzegrep
+  bzfgrep: /usr/local/bin/bzfgrep

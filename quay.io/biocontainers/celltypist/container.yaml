@@ -8,3 +8,13 @@ tags:
 docker: quay.io/biocontainers/celltypist
 aliases:
   celltypist: /usr/local/bin/celltypist
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  brotli: /usr/local/bin/brotli
+  cmpfillin: /usr/local/bin/cmpfillin
+  docutils: /usr/local/bin/docutils
+  f2py3.9: /usr/local/bin/f2py3.9
+  fonttools: /usr/local/bin/fonttools
+  gif2h5: /usr/local/bin/gif2h5
+  glpsol: /usr/local/bin/glpsol
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk

@@ -1,8 +1,6 @@
 url: https://biocontainers.pro/tools/abacas
 maintainer: '@vsoch'
-description: Abacas is intended to rapidly contiguate (align, order, orientate), visualize
-  and design primers to close gaps on shotgun assembled contigs based on a reference
-  sequence.
+description: shpc-registry automated BioContainers addition for abacas
 latest:
   1.3.1--pl5321hdfd78af_2: sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2
 tags:
@@ -14,18 +12,10 @@ aliases:
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
-  enc2xs: /usr/local/bin/enc2xs
   exact-tandems: /usr/local/bin/exact-tandems
   mapview: /usr/local/bin/mapview
   mgaps: /usr/local/bin/mgaps
   mummer: /usr/local/bin/mummer
   mummerplot: /usr/local/bin/mummerplot
   nucmer: /usr/local/bin/nucmer
-  repeat-match: /usr/local/bin/repeat-match
-  run-mummer1: /usr/local/bin/run-mummer1
-  run-mummer3: /usr/local/bin/run-mummer3
-  show-aligns: /usr/local/bin/show-aligns
-  show-coords: /usr/local/bin/show-coords
-  show-diff: /usr/local/bin/show-diff
-  show-snps: /usr/local/bin/show-snps
-  show-tiling: /usr/local/bin/show-tiling
+  promer: /usr/local/bin/promer

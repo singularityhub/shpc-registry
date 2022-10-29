@@ -9,3 +9,13 @@ docker: quay.io/biocontainers/tombo
 aliases:
   graphmap: /usr/local/bin/graphmap
   tombo: /usr/local/bin/tombo
+  bwa: /usr/local/bin/bwa
+  c2ph: /usr/local/bin/c2ph
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5copy: /usr/local/bin/h5copy

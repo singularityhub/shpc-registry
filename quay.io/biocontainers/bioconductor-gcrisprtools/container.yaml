@@ -6,3 +6,5 @@ latest:
 tags:
   2.0.0--r41hdfd78af_0: sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b
 docker: quay.io/biocontainers/bioconductor-gcrisprtools
+aliases:
+  pandoc: /usr/local/bin/pandoc

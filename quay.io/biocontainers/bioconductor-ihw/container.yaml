@@ -6,3 +6,6 @@ latest:
 tags:
   1.8.0--r341_0: sha256:572c9e44dcb91d13b59d4026d31378feb57b08431b3ac78b1c7cc96512dfccff
 docker: quay.io/biocontainers/bioconductor-ihw
+aliases:
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

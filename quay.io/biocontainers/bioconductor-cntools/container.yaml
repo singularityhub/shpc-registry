@@ -6,3 +6,14 @@ latest:
 tags:
   1.50.0--r41hc0cfd56_2: sha256:0d0d4bea26c7062e3305028914fd14609be7d56c5fbcab8467462d5f666db578
 docker: quay.io/biocontainers/bioconductor-cntools
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  acountry: /usr/local/bin/acountry
+  adig: /usr/local/bin/adig
+  ahost: /usr/local/bin/ahost
+  autopoint: /usr/local/bin/autopoint
+  bunzip2: /usr/local/bin/bunzip2
+  bzcat: /usr/local/bin/bzcat
+  bzcmp: /usr/local/bin/bzcmp
+  bzdiff: /usr/local/bin/bzdiff

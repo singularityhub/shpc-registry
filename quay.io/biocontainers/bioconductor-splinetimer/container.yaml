@@ -7,5 +7,6 @@ tags:
   1.8.0--r341_0: sha256:da73e43954943a3dc7f7191a134ea6cd0e53d10b53ca12a4ec876b2c74496df4
 docker: quay.io/biocontainers/bioconductor-splinetimer
 aliases:
-  .bioconductor-fis-post-link.sh: /usr/local/bin/.bioconductor-fis-post-link.sh
-  .bioconductor-fis-pre-unlink.sh: /usr/local/bin/.bioconductor-fis-pre-unlink.sh
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  wget: /usr/local/bin/wget

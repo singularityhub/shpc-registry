@@ -6,3 +6,12 @@ latest:
 tags:
   1.7.1--r3.4.1_0: sha256:ba75bc0b5cc0cb6a52e64be209cda149bfe74b5e5bdd27f219990a6fbe4e2364
 docker: quay.io/biocontainers/bioconductor-riboprofiling
+aliases:
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  perror: /usr/local/bin/perror
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wget: /usr/local/bin/wget
+  wish8.5: /usr/local/bin/wish8.5

@@ -18,3 +18,9 @@ aliases:
   kreport2mpa.py: /usr/local/bin/kreport2mpa.py
   make_kreport.py: /usr/local/bin/make_kreport.py
   make_ktaxonomy.py: /usr/local/bin/make_ktaxonomy.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  f2py3.9: /usr/local/bin/f2py3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

@@ -6,3 +6,5 @@ latest:
 tags:
   1.52.0--r40hdfd78af_1: sha256:611aceb1b71ff4629ae6236ed38e8a0e8c963d12b5f7de76dfdc454b5b3a5631
 docker: quay.io/biocontainers/bioconductor-bioccasestudies
+aliases:
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

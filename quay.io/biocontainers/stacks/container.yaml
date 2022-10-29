@@ -30,3 +30,13 @@ aliases:
   stacks-samtools-tview: /usr/local/bin/stacks-samtools-tview
   tsv2bam: /usr/local/bin/tsv2bam
   ustacks: /usr/local/bin/ustacks
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  ace.pl: /usr/local/bin/ace.pl
+  ace2sam: /usr/local/bin/ace2sam
+  acyclic: /usr/local/bin/acyclic
+  annotate: /usr/local/bin/annotate
+  bcomps: /usr/local/bin/bcomps
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  bgzip: /usr/local/bin/bgzip
