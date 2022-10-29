@@ -8,7 +8,7 @@ tags:
 docker: quay.io/biocontainers/crossmap
 aliases:
   CrossMap.py: /usr/local/bin/CrossMap.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  wigToBigWig: /usr/local/bin/wigToBigWig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py

@@ -9,13 +9,15 @@ docker: quay.io/biocontainers/bioprov
 aliases:
   bioprov: /usr/local/bin/bioprov
   coveralls: /usr/local/bin/coveralls
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
   coverage: /usr/local/bin/coverage
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  prodigal: /usr/local/bin/prodigal
+  diffimg: /usr/local/bin/diffimg

@@ -7,13 +7,13 @@ tags:
   0.2.5--pyhdfd78af_0: sha256:ff09e6c18c69be623dae7a7063d3bf031ba0e7eea721be8eae918e282e74d48d
 docker: quay.io/biocontainers/msmetaenhancer
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
-  f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  idle3.10: /usr/local/bin/idle3.10
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
-  normalizer: /usr/local/bin/normalizer
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  tabulate: /usr/local/bin/tabulate
   numba: /usr/local/bin/numba
-  opj_compress: /usr/local/bin/opj_compress
+  pycc: /usr/local/bin/pycc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli

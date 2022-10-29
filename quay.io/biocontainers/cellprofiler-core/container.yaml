@@ -12,13 +12,13 @@ aliases:
   dav1d: /usr/local/bin/dav1d
   tiff2fsspec: /usr/local/bin/tiff2fsspec
   tiffcomment: /usr/local/bin/tiffcomment
-  2to3-3.10: /usr/local/bin/2to3-3.10
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  aserver: /usr/local/bin/aserver
-  brotli: /usr/local/bin/brotli
   cbrunsli: /usr/local/bin/cbrunsli
-  cups-config: /usr/local/bin/cups-config
-  curve_keygen: /usr/local/bin/curve_keygen
-  cwebp: /usr/local/bin/cwebp
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

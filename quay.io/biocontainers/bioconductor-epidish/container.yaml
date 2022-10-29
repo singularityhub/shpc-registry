@@ -7,13 +7,4 @@ tags:
   2.8.0--r41hdfd78af_0: sha256:14ea3ce2c3d085a751707b287ea73aa94c626fb5cd50bd3b162e0dbe73faeb5e
 docker: quay.io/biocontainers/bioconductor-epidish
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

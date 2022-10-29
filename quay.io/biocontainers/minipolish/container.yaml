@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/minipolish
 aliases:
   minipolish: /usr/local/bin/minipolish
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  k8: /usr/local/bin/k8
-  minimap2: /usr/local/bin/minimap2
-  paftools.js: /usr/local/bin/paftools.js
   pydoc3.10: /usr/local/bin/pydoc3.10
-  python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
-  python3.10-config: /usr/local/bin/python3.10-config
-  racon: /usr/local/bin/racon

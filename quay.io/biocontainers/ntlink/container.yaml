@@ -8,6 +8,10 @@ tags:
 docker: quay.io/biocontainers/ntlink
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  abyss-stack-size: /usr/local/bin/abyss-stack-size
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
   indexlr: /usr/local/bin/indexlr
   irqtop: /usr/local/bin/irqtop
   lrunzip: /usr/local/bin/lrunzip
@@ -20,13 +24,24 @@ aliases:
   ntLink: /usr/local/bin/ntLink
   ntLink_rounds: /usr/local/bin/ntLink_rounds
   prlimit: /usr/local/bin/prlimit
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ABYSS: /usr/local/bin/ABYSS
-  ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
+  scriptlive: /usr/local/bin/scriptlive
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  cal: /usr/local/bin/cal
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

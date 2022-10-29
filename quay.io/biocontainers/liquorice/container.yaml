@@ -9,13 +9,37 @@ docker: quay.io/biocontainers/liquorice
 aliases:
   LIQUORICE: /usr/local/bin/LIQUORICE
   LIQUORICE_summary: /usr/local/bin/LIQUORICE_summary
-  2to3-3.8: /usr/local/bin/2to3-3.8
   alignmentSieve: /usr/local/bin/alignmentSieve
-  annotateBed: /usr/local/bin/annotateBed
   bamCompare: /usr/local/bin/bamCompare
   bamCoverage: /usr/local/bin/bamCoverage
   bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  bigwigCompare: /usr/local/bin/bigwigCompare
+  computeGCBias: /usr/local/bin/computeGCBias
+  computeMatrix: /usr/local/bin/computeMatrix
+  computeMatrixOperations: /usr/local/bin/computeMatrixOperations
+  correctGCBias: /usr/local/bin/correctGCBias
+  deeptools: /usr/local/bin/deeptools
+  estimateReadFiltering: /usr/local/bin/estimateReadFiltering
+  estimateScaleFactor: /usr/local/bin/estimateScaleFactor
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  multiBamSummary: /usr/local/bin/multiBamSummary
+  multiBigwigSummary: /usr/local/bin/multiBigwigSummary
+  plotCorrelation: /usr/local/bin/plotCorrelation
+  plotCoverage: /usr/local/bin/plotCoverage
+  plotEnrichment: /usr/local/bin/plotEnrichment
+  plotFingerprint: /usr/local/bin/plotFingerprint
+  plotHeatmap: /usr/local/bin/plotHeatmap
+  plotPCA: /usr/local/bin/plotPCA
+  plotProfile: /usr/local/bin/plotProfile
+  send2trash: /usr/local/bin/send2trash
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec

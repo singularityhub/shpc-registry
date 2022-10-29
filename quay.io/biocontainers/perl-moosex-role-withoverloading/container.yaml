@@ -7,6 +7,8 @@ tags:
   0.17--pl5321h9f5acd7_4: sha256:e33c1aef2328d2f212b969ac25ae65a1d35a4bf88b3eac1d5091b28332642dff
 docker: quay.io/biocontainers/perl-moosex-role-withoverloading
 aliases:
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

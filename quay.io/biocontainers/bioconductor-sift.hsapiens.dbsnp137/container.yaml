@@ -7,13 +7,5 @@ tags:
   1.0.0--r41hdfd78af_9: sha256:5aaa972e3d3dc84334bef8c49dbaeea44cc9988d7d5c7b42bfb7704dd256d17e
 docker: quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp137
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-sift.hsapiens.dbsnp137-post-link.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp137-post-link.sh
+  .bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh: /usr/local/bin/.bioconductor-sift.hsapiens.dbsnp137-pre-unlink.sh

@@ -8,5 +8,7 @@ tags:
 docker: quay.io/biocontainers/wgs2ncbi
 aliases:
   wgs2ncbi: /usr/local/bin/wgs2ncbi
-  idn: /usr/local/bin/idn
   tbl2asn: /usr/local/bin/tbl2asn
+  idn: /usr/local/bin/idn
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

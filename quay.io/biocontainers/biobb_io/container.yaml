@@ -21,10 +21,10 @@ aliases:
   pdb_cluster_zip: /usr/local/bin/pdb_cluster_zip
   pdb_variants: /usr/local/bin/pdb_variants
   structure_info: /usr/local/bin/structure_info
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
   normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10

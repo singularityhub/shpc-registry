@@ -12,13 +12,13 @@ aliases:
   generate_motif_pos.py: /usr/local/bin/generate_motif_pos.py
   hm_cluster_predict.py: /usr/local/bin/hm_cluster_predict.py
   sum_chr_mod.py: /usr/local/bin/sum_chr_mod.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.6: /usr/local/bin/f2py3.6
+  freeze_graph: /usr/local/bin/freeze_graph
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  markdown_py: /usr/local/bin/markdown_py
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

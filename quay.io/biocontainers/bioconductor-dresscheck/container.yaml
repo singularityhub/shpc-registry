@@ -7,13 +7,5 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a
 docker: quay.io/biocontainers/bioconductor-dresscheck
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-dresscheck-post-link.sh: /usr/local/bin/.bioconductor-dresscheck-post-link.sh
+  .bioconductor-dresscheck-pre-unlink.sh: /usr/local/bin/.bioconductor-dresscheck-pre-unlink.sh

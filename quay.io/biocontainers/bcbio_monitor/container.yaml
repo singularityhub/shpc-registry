@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/bcbio_monitor
 aliases:
   bcbio_monitor: /usr/local/bin/bcbio_monitor
+  flask: /usr/local/bin/flask
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
   acyclic: /usr/local/bin/acyclic
   bcomps: /usr/local/bin/bcomps
   ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
   circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  cxpm: /usr/local/bin/cxpm
   dijkstra: /usr/local/bin/dijkstra
   dot: /usr/local/bin/dot
   dot2gxl: /usr/local/bin/dot2gxl

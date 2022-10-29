@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/grapetree
 aliases:
   grapetree: /usr/local/bin/grapetree
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  assistant: /usr/local/bin/assistant
+  unidecode: /usr/local/bin/unidecode
+  ete3: /usr/local/bin/ete3
+  flask: /usr/local/bin/flask
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
   canbusutil: /usr/local/bin/canbusutil
-  chardetect: /usr/local/bin/chardetect
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
+  qgltf: /usr/local/bin/qgltf
+  qmlcachegen: /usr/local/bin/qmlcachegen

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/varfish-cli
 aliases:
   varfish-cli: /usr/local/bin/varfish-cli
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  idle3.10: /usr/local/bin/idle3.10
+  tabulate: /usr/local/bin/tabulate
   jsonschema: /usr/local/bin/jsonschema
   normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  tabulate: /usr/local/bin/tabulate
-  tqdm: /usr/local/bin/tqdm

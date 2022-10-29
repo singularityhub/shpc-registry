@@ -7,14 +7,15 @@ tags:
   0.7.3--py_0: sha256:0341c20825209a66d5897ab27378824d1ad11258e5a982a5216a120604746b62
 docker: quay.io/biocontainers/kaptive
 aliases:
+  .kaptive-post-link.sh: /usr/local/bin/.kaptive-post-link.sh
   kaptive.py: /usr/local/bin/kaptive.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  test_pcre: /usr/local/bin/test_pcre
+  blastdbcp: /usr/local/bin/blastdbcp
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  seedtop: /usr/local/bin/seedtop
+  run_with_lock: /usr/local/bin/run_with_lock
   blast_formatter: /usr/local/bin/blast_formatter
   blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  convert2blastmask: /usr/local/bin/convert2blastmask

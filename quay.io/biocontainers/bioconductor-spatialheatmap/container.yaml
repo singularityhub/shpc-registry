@@ -7,16 +7,24 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6
 docker: quay.io/biocontainers/bioconductor-spatialheatmap
 aliases:
-  vpxdec: /usr/local/bin/vpxdec
-  vpxenc: /usr/local/bin/vpxenc
-  x265: /usr/local/bin/x265
-  Magick++-config: /usr/local/bin/Magick++-config
-  MagickCore-config: /usr/local/bin/MagickCore-config
-  MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
   aomdec: /usr/local/bin/aomdec
   aomenc: /usr/local/bin/aomenc
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
+  lame: /usr/local/bin/lame
+  vpxdec: /usr/local/bin/vpxdec
+  vpxenc: /usr/local/bin/vpxenc
+  x264: /usr/local/bin/x264
+  x265: /usr/local/bin/x265
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv
+  psktool: /usr/local/bin/psktool

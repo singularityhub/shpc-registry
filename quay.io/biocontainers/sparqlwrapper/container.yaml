@@ -7,13 +7,13 @@ tags:
   1.7.6--py35_0: sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46
 docker: quay.io/biocontainers/sparqlwrapper
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
-  python3.5-config: /usr/local/bin/python3.5-config
-  python3.5m: /usr/local/bin/python3.5m

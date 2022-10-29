@@ -44,6 +44,11 @@ aliases:
   kdbmeta.2.10.0: /usr/local/bin/kdbmeta.2.10.0
   kget.2.10.0: /usr/local/bin/kget.2.10.0
   latf-load.2.10.0: /usr/local/bin/latf-load.2.10.0
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
   mawk: /usr/local/bin/mawk
   multiBamSummary: /usr/local/bin/multiBamSummary
   multiBigwigSummary: /usr/local/bin/multiBigwigSummary
@@ -81,13 +86,13 @@ aliases:
   vdb-unlock.2.10.0: /usr/local/bin/vdb-unlock.2.10.0
   vdb-validate.2.10.0: /usr/local/bin/vdb-validate.2.10.0
   wiggletools: /usr/local/bin/wiggletools
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  ace2sam: /usr/local/bin/ace2sam
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
+  easydev_buildPackage: /usr/local/bin/easydev_buildPackage
+  ibrowse: /usr/local/bin/ibrowse
+  multigit: /usr/local/bin/multigit
+  sambamba: /usr/local/bin/sambamba
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128

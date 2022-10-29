@@ -22,13 +22,13 @@ aliases:
   wxget: /usr/local/bin/wxget
   wxrc: /usr/local/bin/wxrc
   wxrc-3.0: /usr/local/bin/wxrc-3.0
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
-  f2py3.8: /usr/local/bin/f2py3.8
   g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
   g-ir-compiler: /usr/local/bin/g-ir-compiler
   g-ir-generate: /usr/local/bin/g-ir-generate
   g-ir-inspect: /usr/local/bin/g-ir-inspect
   g-ir-scanner: /usr/local/bin/g-ir-scanner
-  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
-  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gtk-builder-convert: /usr/local/bin/gtk-builder-convert
+  gtk-demo: /usr/local/bin/gtk-demo
+  gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer

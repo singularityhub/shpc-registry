@@ -8,5 +8,6 @@ tags:
 docker: quay.io/biocontainers/riborex
 aliases:
   idn2: /usr/local/bin/idn2
-  ncurses5-config: /usr/local/bin/ncurses5-config
   wget: /usr/local/bin/wget
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -7,6 +7,8 @@ tags:
   3.4.6--r36_1: sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e
 docker: quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene
 aliases:
+  .bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh: /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh
+  .bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

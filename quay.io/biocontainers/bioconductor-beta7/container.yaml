@@ -7,13 +7,5 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:b0c5fb9500ba843e3428d09fb5010c3a57d4ed8f56f9956c218206166b880c9e
 docker: quay.io/biocontainers/bioconductor-beta7
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-beta7-post-link.sh: /usr/local/bin/.bioconductor-beta7-post-link.sh
+  .bioconductor-beta7-pre-unlink.sh: /usr/local/bin/.bioconductor-beta7-pre-unlink.sh

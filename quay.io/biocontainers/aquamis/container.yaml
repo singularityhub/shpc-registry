@@ -47,13 +47,13 @@ aliases:
   taxonkit: /usr/local/bin/taxonkit
   write_QC_report.Rmd: /usr/local/bin/write_QC_report.Rmd
   write_report.Rmd: /usr/local/bin/write_report.Rmd
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  CA.pm: /usr/local/bin/CA.pm
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make

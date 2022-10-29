@@ -9,11 +9,11 @@ docker: quay.io/biocontainers/sierrapy
 aliases:
   gql-cli: /usr/local/bin/gql-cli
   sierrapy: /usr/local/bin/sierrapy
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  normalizer: /usr/local/bin/normalizer
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  tqdm: /usr/local/bin/tqdm

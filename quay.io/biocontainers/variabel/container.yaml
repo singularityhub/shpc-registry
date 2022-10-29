@@ -7,16 +7,19 @@ tags:
   1.0.0--hdfd78af_0: sha256:f0a7bded8d9eb27c251d8dd4d06785c5d4e2558f083b24fd55156d7d7d55e661
 docker: quay.io/biocontainers/variabel
 aliases:
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
   lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
   lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
   variabel: /usr/local/bin/variabel
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  f2py3.9: /usr/local/bin/f2py3.9
   ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.9: /usr/local/bin/f2py3.9
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
-  htsfile: /usr/local/bin/htsfile
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
-  lofreq: /usr/local/bin/lofreq

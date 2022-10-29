@@ -13,13 +13,13 @@ aliases:
   pycodestyle: /usr/local/bin/pycodestyle
   pyflakes: /usr/local/bin/pyflakes
   pylprotpredictor: /usr/local/bin/pylprotpredictor
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
   coverage: /usr/local/bin/coverage
   diamond: /usr/local/bin/diamond
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8
-  prodigal: /usr/local/bin/prodigal
   py.test: /usr/local/bin/py.test
-  pydoc3.8: /usr/local/bin/pydoc3.8
   pytest: /usr/local/bin/pytest
+  prodigal: /usr/local/bin/prodigal
+  f2py3.8: /usr/local/bin/f2py3.8
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8

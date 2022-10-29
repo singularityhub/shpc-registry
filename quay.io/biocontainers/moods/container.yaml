@@ -7,9 +7,10 @@ tags:
   1.9.4.1--py36hf484d3e_0: sha256:4104151994349a4f85e4a6fc8d810b2a66aab7de54dbadd53200675977500126
 docker: quay.io/biocontainers/moods
 aliases:
-  moods-dna.py: /usr/local/bin/moods-dna.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
   ccache-swig: /usr/local/bin/ccache-swig
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  swig: /usr/local/bin/swig
+  2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6
   pydoc3.6: /usr/local/bin/pydoc3.6
   python3.6: /usr/local/bin/python3.6
@@ -17,4 +18,4 @@ aliases:
   python3.6m: /usr/local/bin/python3.6m
   python3.6m-config: /usr/local/bin/python3.6m-config
   pyvenv-3.6: /usr/local/bin/pyvenv-3.6
-  swig: /usr/local/bin/swig
+  pyvenv: /usr/local/bin/pyvenv

@@ -7,13 +7,6 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:5dddcf66426e1422a288fb09ac6a489607426b6aa68231b5fa716c7c9fe373fd
 docker: quay.io/biocontainers/bioconductor-gigseadata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-gigseadata-post-link.sh: /usr/local/bin/.bioconductor-gigseadata-post-link.sh
+  .bioconductor-gigseadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gigseadata-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -6,14 +6,3 @@ latest:
 tags:
   1.65.0--r41hdfd78af_0: sha256:fa17554c55034b62badacdffa6373825f1616ae294e2611e091eb56a238abb53
 docker: quay.io/biocontainers/bioconductor-scisi
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

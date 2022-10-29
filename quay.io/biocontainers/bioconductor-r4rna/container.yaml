@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r351_0: sha256:7542b582d5c2f168665d11c33f11d63a0f614bd1899a770b51b65cd0408a927d
 docker: quay.io/biocontainers/bioconductor-r4rna
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

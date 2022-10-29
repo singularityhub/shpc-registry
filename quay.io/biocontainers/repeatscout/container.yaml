@@ -15,5 +15,7 @@ aliases:
   merge-lmer-tables.prl: /usr/local/bin/merge-lmer-tables.prl
   nmerge: /usr/local/bin/nmerge
   nseg: /usr/local/bin/nseg
-  trf: /usr/local/bin/trf
   trf4.10.0-rc.2.linux64.exe: /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+  trf: /usr/local/bin/trf
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

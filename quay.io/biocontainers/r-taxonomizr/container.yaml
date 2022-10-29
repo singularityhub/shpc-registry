@@ -7,6 +7,8 @@ tags:
   0.7.1--r40hdf9a8c9_0: sha256:d7bed21e5b814210dc8d7a89a4e0409c9d796934d8da4f2ccca8b30a60f89c0e
 docker: quay.io/biocontainers/r-taxonomizr
 aliases:
+  parsort: /usr/local/bin/parsort
+  perl5.32.0: /usr/local/bin/perl5.32.0
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
@@ -15,5 +17,3 @@ aliases:
   env_parallel.fish: /usr/local/bin/env_parallel.fish
   env_parallel.ksh: /usr/local/bin/env_parallel.ksh
   env_parallel.mksh: /usr/local/bin/env_parallel.mksh
-  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
-  env_parallel.sh: /usr/local/bin/env_parallel.sh

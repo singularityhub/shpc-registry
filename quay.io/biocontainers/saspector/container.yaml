@@ -10,20 +10,31 @@ aliases:
   SASpector: /usr/local/bin/SASpector
   coverage.py: /usr/local/bin/coverage.py
   gene_predict.py: /usr/local/bin/gene_predict.py
+  icarus.py: /usr/local/bin/icarus.py
   kmer.py: /usr/local/bin/kmer.py
   mapper.py: /usr/local/bin/mapper.py
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  progressiveMauve: /usr/local/bin/progressiveMauve
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
   quastunmap.py: /usr/local/bin/quastunmap.py
   select_mash.py: /usr/local/bin/select_mash.py
   sourmash: /usr/local/bin/sourmash
   summary.py: /usr/local/bin/summary.py
   tandem_repeats.py: /usr/local/bin/tandem_repeats.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed
+  tbl2asn-test: /usr/local/bin/tbl2asn-test
+  fix-sqn-date: /usr/local/bin/fix-sqn-date
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  faketime: /usr/local/bin/faketime
+  gddiag: /usr/local/bin/gddiag
+  glimmerhmm: /usr/local/bin/glimmerhmm
+  glimmhmm.pl: /usr/local/bin/glimmhmm.pl
+  list.modules: /usr/local/bin/list.modules

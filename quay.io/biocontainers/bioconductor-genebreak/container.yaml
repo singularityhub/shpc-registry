@@ -7,8 +7,8 @@ tags:
   1.8.0--r3.4.1_0: sha256:21031691ec516ddac08042db69f19071c70ebd10ab95d8d3ba9b9a73eb1ca5d9
 docker: quay.io/biocontainers/bioconductor-genebreak
 aliases:
+  wget: /usr/local/bin/wget
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  tclsh8.5: /usr/local/bin/tclsh8.5
-  wget: /usr/local/bin/wget
-  wish8.5: /usr/local/bin/wish8.5

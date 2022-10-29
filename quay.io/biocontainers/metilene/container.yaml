@@ -11,6 +11,7 @@ aliases:
   metilene_input.pl: /usr/local/bin/metilene_input.pl
   metilene_output.R: /usr/local/bin/metilene_output.R
   metilene_output.pl: /usr/local/bin/metilene_output.pl
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -20,4 +21,3 @@ aliases:
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
   closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed

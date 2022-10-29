@@ -10,13 +10,13 @@ aliases:
   bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
   cvtbdf.pl: /usr/local/bin/cvtbdf.pl
   proTRAC_2.4.2.pl: /usr/local/bin/proTRAC_2.4.2.pl
-  annotate: /usr/local/bin/annotate
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
   gd2copypal: /usr/local/bin/gd2copypal
   gd2togif: /usr/local/bin/gd2togif
   gd2topng: /usr/local/bin/gd2topng
   gdcmpgif: /usr/local/bin/gdcmpgif
   gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng
+  giftogd2: /usr/local/bin/giftogd2
+  pngtogd: /usr/local/bin/pngtogd

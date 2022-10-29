@@ -103,13 +103,13 @@ aliases:
   vdb-passwd.2.11.0: /usr/local/bin/vdb-passwd.2.11.0
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  ace2sam: /usr/local/bin/ace2sam
-  align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  b2sum: /usr/local/bin/b2sum
-  bam-load: /usr/local/bin/bam-load
-  bam-load.2: /usr/local/bin/bam-load.2
+  md5cp.2: /usr/local/bin/md5cp.2
+  read-filter-redact.2: /usr/local/bin/read-filter-redact.2
+  sra-sort-cg.2: /usr/local/bin/sra-sort-cg.2
+  vdb-diff.2: /usr/local/bin/vdb-diff.2
+  align-cache: /usr/local/bin/align-cache
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  md5cp: /usr/local/bin/md5cp
+  prefetch-orig: /usr/local/bin/prefetch-orig

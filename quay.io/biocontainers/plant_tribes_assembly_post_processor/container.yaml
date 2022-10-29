@@ -44,13 +44,13 @@ aliases:
   start_codon_refinement.pl: /usr/local/bin/start_codon_refinement.pl
   train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  alimask: /usr/local/bin/alimask
-  db_archive: /usr/local/bin/db_archive
-  db_checkpoint: /usr/local/bin/db_checkpoint
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
   db_convert: /usr/local/bin/db_convert
-  db_deadlock: /usr/local/bin/db_deadlock
-  db_dump: /usr/local/bin/db_dump
-  db_hotbackup: /usr/local/bin/db_hotbackup
-  db_load: /usr/local/bin/db_load
-  db_log_verify: /usr/local/bin/db_log_verify
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi

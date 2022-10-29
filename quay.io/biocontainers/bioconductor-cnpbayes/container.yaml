@@ -7,6 +7,6 @@ tags:
   1.13.5--r36he1b5a44_1: sha256:76b7b171767c63c334d9fe673291f345bd58ba2b6afb84544d751537c5d65b48
 docker: quay.io/biocontainers/bioconductor-cnpbayes
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

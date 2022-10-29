@@ -11,6 +11,9 @@ aliases:
   binstar: /usr/local/bin/binstar
   bioconda-utils: /usr/local/bin/bioconda-utils
   boa: /usr/local/bin/boa
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
   celery: /usr/local/bin/celery
   conda-build: /usr/local/bin/conda-build
   conda-convert: /usr/local/bin/conda-convert
@@ -24,22 +27,35 @@ aliases:
   conda-server: /usr/local/bin/conda-server
   conda-skeleton: /usr/local/bin/conda-skeleton
   conda-verify: /usr/local/bin/conda-verify
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  galaxy-tool-test: /usr/local/bin/galaxy-tool-test
+  installcheck: /usr/local/bin/installcheck
   involucro: /usr/local/bin/involucro
+  mamba: /usr/local/bin/mamba
   mamba-package: /usr/local/bin/mamba-package
+  mergesolv: /usr/local/bin/mergesolv
+  mulled-build: /usr/local/bin/mulled-build
+  mulled-build-channel: /usr/local/bin/mulled-build-channel
+  mulled-build-files: /usr/local/bin/mulled-build-files
+  mulled-build-tool: /usr/local/bin/mulled-build-tool
+  mulled-search: /usr/local/bin/mulled-search
   patchelf: /usr/local/bin/patchelf
   pkginfo: /usr/local/bin/pkginfo
   pyjson5: /usr/local/bin/pyjson5
+  repo2solv: /usr/local/bin/repo2solv
   rg: /usr/local/bin/rg
   scalar: /usr/local/bin/scalar
   skopeo: /usr/local/bin/skopeo
+  testsolv: /usr/local/bin/testsolv
   watchgod: /usr/local/bin/watchgod
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bsdcat: /usr/local/bin/bsdcat
-  bsdcpio: /usr/local/bin/bsdcpio
-  bsdtar: /usr/local/bin/bsdtar
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  docutils: /usr/local/bin/docutils

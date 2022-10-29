@@ -7,20 +7,28 @@ tags:
   0.9--py36_1: sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4
 docker: quay.io/biocontainers/igdiscover
 aliases:
-  edit_imgt_file.pl: /usr/local/bin/edit_imgt_file.pl
-  igblastn: /usr/local/bin/igblastn
-  igblastp: /usr/local/bin/igblastp
-  igdiscover: /usr/local/bin/igdiscover
-  pear: /usr/local/bin/pear
-  pearRM: /usr/local/bin/pearRM
-  sqt: /usr/local/bin/sqt
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
   aclocal.bak: /usr/local/bin/aclocal.bak
-  assistant: /usr/local/bin/assistant
   autoheader.bak: /usr/local/bin/autoheader.bak
   autom4te.bak: /usr/local/bin/autom4te.bak
   automake.bak: /usr/local/bin/automake.bak
   autoreconf.bak: /usr/local/bin/autoreconf.bak
   autoscan.bak: /usr/local/bin/autoscan.bak
   autoupdate.bak: /usr/local/bin/autoupdate.bak
+  edit_imgt_file.pl: /usr/local/bin/edit_imgt_file.pl
+  ifnames.bak: /usr/local/bin/ifnames.bak
+  igblastn: /usr/local/bin/igblastn
+  igblastp: /usr/local/bin/igblastp
+  igdiscover: /usr/local/bin/igdiscover
+  pear: /usr/local/bin/pear
+  pearRM: /usr/local/bin/pearRM
+  sqt: /usr/local/bin/sqt
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
+  flash: /usr/local/bin/flash
+  cutadapt: /usr/local/bin/cutadapt
+  vsearch: /usr/local/bin/vsearch
+  muscle: /usr/local/bin/muscle
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jp.py: /usr/local/bin/jp.py

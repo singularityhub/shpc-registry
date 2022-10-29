@@ -7,13 +7,13 @@ tags:
   1.6.0--r36_0: sha256:d3867b11f0e794642dce17d3d0ef7a417e3e2811e9bdc7dfedcf2f9328d4b4ff
 docker: quay.io/biocontainers/bioconductor-gars
 aliases:
-  appletviewer: /usr/local/bin/appletviewer
   extcheck: /usr/local/bin/extcheck
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

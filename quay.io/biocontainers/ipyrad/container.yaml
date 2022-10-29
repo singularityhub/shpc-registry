@@ -11,13 +11,13 @@ aliases:
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
   ipyrad: /usr/local/bin/ipyrad
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  cutadapt: /usr/local/bin/cutadapt
+  vsearch: /usr/local/bin/vsearch
+  jupyter-kernel: /usr/local/bin/jupyter-kernel

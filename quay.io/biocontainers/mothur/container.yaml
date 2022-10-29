@@ -39,13 +39,13 @@ aliases:
   vdb-passwd.2.9.6: /usr/local/bin/vdb-passwd.2.9.6
   vdb-unlock.2.9.6: /usr/local/bin/vdb-unlock.2.9.6
   vdb-validate.2.9.6: /usr/local/bin/vdb-validate.2.9.6
-  abi-dump: /usr/local/bin/abi-dump
   abi-dump.2: /usr/local/bin/abi-dump.2
-  align-info: /usr/local/bin/align-info
   align-info.2: /usr/local/bin/align-info.2
-  bam-load: /usr/local/bin/bam-load
   bam-load.2: /usr/local/bin/bam-load.2
-  bl2seq: /usr/local/bin/bl2seq
-  blastall: /usr/local/bin/blastall
-  blastclust: /usr/local/bin/blastclust
-  blastpgp: /usr/local/bin/blastpgp
+  cache-mgr.2: /usr/local/bin/cache-mgr.2
+  cg-load.2: /usr/local/bin/cg-load.2
+  fasterq-dump.2: /usr/local/bin/fasterq-dump.2
+  fastq-dump.2: /usr/local/bin/fastq-dump.2
+  illumina-dump.2: /usr/local/bin/illumina-dump.2
+  kar.2: /usr/local/bin/kar.2
+  kdbmeta.2: /usr/local/bin/kdbmeta.2

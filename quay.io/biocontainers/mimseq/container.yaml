@@ -7,18 +7,55 @@ tags:
   1.2--pyhdfd78af_0: sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262
 docker: quay.io/biocontainers/mimseq
 aliases:
+  atoiindex: /usr/local/bin/atoiindex
+  cmetindex: /usr/local/bin/cmetindex
+  cpuid: /usr/local/bin/cpuid
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
+  ensembl_genes: /usr/local/bin/ensembl_genes
+  fa_coords: /usr/local/bin/fa_coords
+  get-genome: /usr/local/bin/get-genome
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites
   git2_cli: /usr/local/bin/git2_cli
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
   gmap_compress: /usr/local/bin/gmap_compress
+  gmap_process: /usr/local/bin/gmap_process
   gmap_reassemble: /usr/local/bin/gmap_reassemble
   gmap_uncompress: /usr/local/bin/gmap_uncompress
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gsnap: /usr/local/bin/gsnap
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gvf_iit: /usr/local/bin/gvf_iit
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
+  md_coords: /usr/local/bin/md_coords
   mimseq: /usr/local/bin/mimseq
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  atoiindex: /usr/local/bin/atoiindex
-  bamToBed: /usr/local/bin/bamToBed
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
+  pyfiglet: /usr/local/bin/pyfiglet
+  sam_sort: /usr/local/bin/sam_sort
+  snpindex: /usr/local/bin/snpindex
+  trindex: /usr/local/bin/trindex
+  vcf_iit: /usr/local/bin/vcf_iit
+  gmap: /usr/local/bin/gmap
+  pandoc-server: /usr/local/bin/pandoc-server
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan

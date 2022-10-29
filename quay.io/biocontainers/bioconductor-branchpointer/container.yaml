@@ -7,6 +7,6 @@ tags:
   1.8.0--r351_0: sha256:44a0bd4c349c2b752b6ee08b1b8fd93da8dbd9019bc555634757a305f271d2fc
 docker: quay.io/biocontainers/bioconductor-branchpointer
 aliases:
+  wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  wget: /usr/local/bin/wget

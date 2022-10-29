@@ -7,15 +7,16 @@ tags:
   1.3.0--pyh5e36f6f_0: sha256:74b5ab0c643003bafedf3d08ee465e1c8287aefbb274b284e8108fe4d0394cb3
 docker: quay.io/biocontainers/tmb
 aliases:
+  mosdepth: /usr/local/bin/mosdepth
   pyEffGenomeSize.py: /usr/local/bin/pyEffGenomeSize.py
   pyTMB.py: /usr/local/bin/pyTMB.py
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed

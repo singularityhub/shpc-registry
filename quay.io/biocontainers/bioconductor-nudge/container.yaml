@@ -6,14 +6,3 @@ latest:
 tags:
   1.46.0--r351_0: sha256:ec5bf0fb581831d71434f0d5a5a0c0a899002ea2c8a14b18ae745e69bd7ebe19
 docker: quay.io/biocontainers/bioconductor-nudge
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

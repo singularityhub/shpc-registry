@@ -7,6 +7,7 @@ tags:
   2013.1--pl5.22.0_1: sha256:601dd7a7deb3bd2886b1f0a0b52e0de66267dce163d8128c5252b39d41a7f3c5
 docker: quay.io/biocontainers/rdock
 aliases:
+  babel: /usr/local/bin/babel
   ht_protocol_finder.pl: /usr/local/bin/ht_protocol_finder.pl
   make_grid.csh: /usr/local/bin/make_grid.csh
   obchiral: /usr/local/bin/obchiral
@@ -25,13 +26,13 @@ aliases:
   sdsort: /usr/local/bin/sdsort
   sdsplit: /usr/local/bin/sdsplit
   sdtether: /usr/local/bin/sdtether
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  babel: /usr/local/bin/babel
-  c2ph: /usr/local/bin/c2ph
-  easy_install-3.6: /usr/local/bin/easy_install-3.6
-  idle3.6: /usr/local/bin/idle3.6
   obabel: /usr/local/bin/obabel
   obconformer: /usr/local/bin/obconformer
   obdistgen: /usr/local/bin/obdistgen
   obenergy: /usr/local/bin/obenergy
   obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

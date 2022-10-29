@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/stream_atac
 aliases:
   stream_atac: /usr/local/bin/stream_atac
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.7: /usr/local/bin/f2py3.7
+  zip: /usr/local/bin/zip
   funzip: /usr/local/bin/funzip
-  gif2h5: /usr/local/bin/gif2h5
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  unzip: /usr/local/bin/unzip

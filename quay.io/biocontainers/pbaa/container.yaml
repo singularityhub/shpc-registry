@@ -7,4 +7,5 @@ tags:
   1.0.3--hdfd78af_0: sha256:6cf5bd5b509c8e65a994a8ba53d8724d5e49cb34ac980cf6363ff92f64dfe4f8
 docker: quay.io/biocontainers/pbaa
 aliases:
+  .pbaa-post-link.sh: /usr/local/bin/.pbaa-post-link.sh
   pbaa: /usr/local/bin/pbaa

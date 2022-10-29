@@ -7,13 +7,5 @@ tags:
   2.1.6--r41hdfd78af_9: sha256:f99f36c3b100f1ff2d67cc8809a78ca9cc890ba7350cb2f85264755e3ff5fff3
 docker: quay.io/biocontainers/bioconductor-mousechrloc
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mousechrloc-post-link.sh: /usr/local/bin/.bioconductor-mousechrloc-post-link.sh
+  .bioconductor-mousechrloc-pre-unlink.sh: /usr/local/bin/.bioconductor-mousechrloc-pre-unlink.sh

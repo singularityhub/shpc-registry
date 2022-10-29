@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bioconductor-epivizrserver
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

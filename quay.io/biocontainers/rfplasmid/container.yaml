@@ -7,14 +7,15 @@ tags:
   0.0.18--pyhdfd78af_0: sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870
 docker: quay.io/biocontainers/rfplasmid
 aliases:
-  rfplasmid: /usr/local/bin/rfplasmid
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  alimask: /usr/local/bin/alimask
   checkm: /usr/local/bin/checkm
+  rfplasmid: /usr/local/bin/rfplasmid
+  rppr: /usr/local/bin/rppr
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
   dendropy-format: /usr/local/bin/dendropy-format
+  jellyfish: /usr/local/bin/jellyfish
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
   diamond: /usr/local/bin/diamond
-  easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard

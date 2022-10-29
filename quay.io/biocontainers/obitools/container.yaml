@@ -15,6 +15,8 @@ aliases:
   extractreads: /usr/local/bin/extractreads
   extractreads2: /usr/local/bin/extractreads2
   illuminapairedend: /usr/local/bin/illuminapairedend
+  iptest2: /usr/local/bin/iptest2
+  ipython2: /usr/local/bin/ipython2
   ngsfilter: /usr/local/bin/ngsfilter
   obiaddtaxids: /usr/local/bin/obiaddtaxids
   obiannotate: /usr/local/bin/obiannotate
@@ -41,13 +43,13 @@ aliases:
   obitaxonomy: /usr/local/bin/obitaxonomy
   obiuniq: /usr/local/bin/obiuniq
   oligotag: /usr/local/bin/oligotag
-  idle: /usr/local/bin/idle
   iptest: /usr/local/bin/iptest
-  iptest2: /usr/local/bin/iptest2
   ipython: /usr/local/bin/ipython
-  ipython2: /usr/local/bin/ipython2
   pygmentize: /usr/local/bin/pygmentize
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
   python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
   python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py

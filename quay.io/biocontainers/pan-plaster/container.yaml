@@ -7,14 +7,15 @@ tags:
   1.2.1--hdfd78af_0: sha256:fed6778ea62c415a6d01fff696f3f30485fbb4ff1af0e07d70af15b73b47a375
 docker: quay.io/biocontainers/pan-plaster
 aliases:
+  delta2vcf: /usr/local/bin/delta2vcf
   plaster: /usr/local/bin/plaster
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotate: /usr/local/bin/annotate
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
-  delta2vcf: /usr/local/bin/delta2vcf
   dnadiff: /usr/local/bin/dnadiff
   exact-tandems: /usr/local/bin/exact-tandems
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer
+  promer: /usr/local/bin/promer
+  repeat-match: /usr/local/bin/repeat-match
+  show-aligns: /usr/local/bin/show-aligns

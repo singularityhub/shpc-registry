@@ -7,8 +7,13 @@ tags:
   1.8.0--r40_0: sha256:b6728b6f8186cb323cf83c5a22ebacb4b9881bc8a8aba972e821ebd5062429ad
 docker: quay.io/biocontainers/bioconductor-bloodcancermultiomics2017
 aliases:
+  .bioconductor-bloodcancermultiomics2017-post-link.sh: /usr/local/bin/.bioconductor-bloodcancermultiomics2017-post-link.sh
+  .bioconductor-bloodcancermultiomics2017-pre-unlink.sh: /usr/local/bin/.bioconductor-bloodcancermultiomics2017-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

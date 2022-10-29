@@ -33,7 +33,6 @@ aliases:
   go2text_html: /usr/local/bin/go2text_html
   go2xml: /usr/local/bin/go2xml
   map2slim: /usr/local/bin/map2slim
-  json_xs: /usr/local/bin/json_xs
   stag-autoschema.pl: /usr/local/bin/stag-autoschema.pl
   stag-db.pl: /usr/local/bin/stag-db.pl
   stag-diff.pl: /usr/local/bin/stag-diff.pl
@@ -43,3 +42,4 @@ aliases:
   stag-flatten.pl: /usr/local/bin/stag-flatten.pl
   stag-grep.pl: /usr/local/bin/stag-grep.pl
   stag-handle.pl: /usr/local/bin/stag-handle.pl
+  stag-itext2simple.pl: /usr/local/bin/stag-itext2simple.pl

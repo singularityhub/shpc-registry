@@ -39,13 +39,13 @@ aliases:
   tama_sampling_saturation_curve.py: /usr/local/bin/tama_sampling_saturation_curve.py
   tama_variant_caller.py: /usr/local/bin/tama_variant_caller.py
   tmp.py: /usr/local/bin/tmp.py
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
+  filter-table: /usr/local/bin/filter-table
+  spdi2prod: /usr/local/bin/spdi2prod
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
   align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene

@@ -7,15 +7,17 @@ tags:
   1.7.3--py_0: sha256:cb2eb2367c819563bbb1e4942bfd14fde7bd13a4172f43f3b47f9aa685829fa2
 docker: quay.io/biocontainers/escher
 aliases:
+  ccache-swig: /usr/local/bin/ccache-swig
   isympy: /usr/local/bin/isympy
   pipdeptree: /usr/local/bin/pipdeptree
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ccache-swig: /usr/local/bin/ccache-swig
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.7: /usr/local/bin/f2py3.7
-  futurize: /usr/local/bin/futurize
-  glpsol: /usr/local/bin/glpsol
-  idle3.7: /usr/local/bin/idle3.7
-  iptest: /usr/local/bin/iptest
+  swig: /usr/local/bin/swig
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
+  curve_keygen: /usr/local/bin/curve_keygen

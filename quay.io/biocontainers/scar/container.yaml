@@ -8,13 +8,14 @@ tags:
 docker: quay.io/biocontainers/scar
 aliases:
   scar: /usr/local/bin/scar
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
+  torchrun: /usr/local/bin/torchrun
+  scanpy: /usr/local/bin/scanpy
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
   docutils: /usr/local/bin/docutils
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
   google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
   grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/berokka
 aliases:
   berokka: /usr/local/bin/berokka
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  CA.pm: /usr/local/bin/CA.pm
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
+  bam2bedgraph: /usr/local/bin/bam2bedgraph
+  bp_pairwise_kaks: /usr/local/bin/bp_pairwise_kaks
+  bp_find-blast-matches.pl: /usr/local/bin/bp_find-blast-matches.pl
+  t_coffee: /usr/local/bin/t_coffee
+  baseml: /usr/local/bin/baseml
+  basemlg: /usr/local/bin/basemlg
+  chi2: /usr/local/bin/chi2
+  codeml: /usr/local/bin/codeml
+  evolver: /usr/local/bin/evolver
+  infinitesites: /usr/local/bin/infinitesites

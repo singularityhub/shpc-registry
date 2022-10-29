@@ -10,13 +10,13 @@ aliases:
   chooseK.py: /usr/local/bin/chooseK.py
   distruct.py: /usr/local/bin/distruct.py
   structure.py: /usr/local/bin/structure.py
-  assistant: /usr/local/bin/assistant
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
   canbusutil: /usr/local/bin/canbusutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  qgltf: /usr/local/bin/qgltf
+  qmlcachegen: /usr/local/bin/qmlcachegen
+  qscxmlc: /usr/local/bin/qscxmlc
+  qtattributionsscanner: /usr/local/bin/qtattributionsscanner
+  repc: /usr/local/bin/repc

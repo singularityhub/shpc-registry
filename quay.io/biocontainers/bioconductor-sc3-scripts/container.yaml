@@ -33,3 +33,5 @@ aliases:
   singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
   conda_build.sh: /usr/local/bin/conda_build.sh
   wget: /usr/local/bin/wget
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

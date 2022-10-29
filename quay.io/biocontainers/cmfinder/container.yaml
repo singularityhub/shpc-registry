@@ -38,13 +38,13 @@ aliases:
   sreformat: /usr/local/bin/sreformat
   summarize: /usr/local/bin/summarize
   summary_rank.pl: /usr/local/bin/summary_rank.pl
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
+  test_pcre: /usr/local/bin/test_pcre
   blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  c2ph: /usr/local/bin/c2ph
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
   clustalw: /usr/local/bin/clustalw
+  c2ph: /usr/local/bin/c2ph
+  pstruct: /usr/local/bin/pstruct
+  seedtop: /usr/local/bin/seedtop
+  cluster: /usr/local/bin/cluster

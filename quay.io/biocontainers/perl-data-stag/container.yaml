@@ -7,7 +7,6 @@ tags:
   0.14--pl5321hdfd78af_2: sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928
 docker: quay.io/biocontainers/perl-data-stag
 aliases:
-  json_xs: /usr/local/bin/json_xs
   stag-autoschema.pl: /usr/local/bin/stag-autoschema.pl
   stag-db.pl: /usr/local/bin/stag-db.pl
   stag-diff.pl: /usr/local/bin/stag-diff.pl
@@ -17,3 +16,4 @@ aliases:
   stag-flatten.pl: /usr/local/bin/stag-flatten.pl
   stag-grep.pl: /usr/local/bin/stag-grep.pl
   stag-handle.pl: /usr/local/bin/stag-handle.pl
+  stag-itext2simple.pl: /usr/local/bin/stag-itext2simple.pl

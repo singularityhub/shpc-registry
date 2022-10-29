@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_9: sha256:551d3d022095b1c7ce87d10e55f11ae71eb07b7eb1875a3f9bf06a5cff195d8f
 docker: quay.io/biocontainers/bioconductor-illuminahumanv1.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-illuminahumanv1.db-post-link.sh: /usr/local/bin/.bioconductor-illuminahumanv1.db-post-link.sh
+  .bioconductor-illuminahumanv1.db-pre-unlink.sh: /usr/local/bin/.bioconductor-illuminahumanv1.db-pre-unlink.sh

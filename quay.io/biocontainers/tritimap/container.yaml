@@ -20,13 +20,13 @@ aliases:
   metaviralspades.py: /usr/local/bin/metaviralspades.py
   rnaviralspades.py: /usr/local/bin/rnaviralspades.py
   tritimap: /usr/local/bin/tritimap
-  ABYSS: /usr/local/bin/ABYSS
-  ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  CA.pm: /usr/local/bin/CA.pm
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
-  Magick++-config: /usr/local/bin/Magick++-config
+  stone: /usr/local/bin/stone
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge

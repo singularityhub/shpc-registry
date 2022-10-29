@@ -51,13 +51,13 @@ aliases:
   tmp.py: /usr/local/bin/tmp.py
   trafoXML_visualize.py: /usr/local/bin/trafoXML_visualize.py
   tsv2spectrast.py: /usr/local/bin/tsv2spectrast.py
+  vba_extract.py: /usr/local/bin/vba_extract.py
   cmpfillin: /usr/local/bin/cmpfillin
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  glpsol: /usr/local/bin/glpsol
   gpmetis: /usr/local/bin/gpmetis
   graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis
+  glpsol: /usr/local/bin/glpsol
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf

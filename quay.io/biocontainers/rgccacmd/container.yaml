@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/rgccacmd
 aliases:
   idn2: /usr/local/bin/idn2
   wget: /usr/local/bin/wget
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

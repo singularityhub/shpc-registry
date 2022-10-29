@@ -7,6 +7,9 @@ tags:
   1.1.1--py39h6935b12_0: sha256:c575f6cb1507232dfc6fa7e37ed579ff4a8625e2bfd11c980042588aebc43d2b
 docker: quay.io/biocontainers/ntjoin
 aliases:
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
   indexlr: /usr/local/bin/indexlr
   lrunzip: /usr/local/bin/lrunzip
   lrzcat: /usr/local/bin/lrzcat
@@ -18,13 +21,23 @@ aliases:
   ntjoin_overlap.py: /usr/local/bin/ntjoin_overlap.py
   ntjoin_utils.py: /usr/local/bin/ntjoin_utils.py
   read_fasta.py: /usr/local/bin/read_fasta.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  zip: /usr/local/bin/zip
+  igraph: /usr/local/bin/igraph
+  tar: /usr/local/bin/tar
+  cmpfillin: /usr/local/bin/cmpfillin
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis
+  pigz: /usr/local/bin/pigz

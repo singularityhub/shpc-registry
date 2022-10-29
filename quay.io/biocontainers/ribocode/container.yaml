@@ -14,13 +14,14 @@ aliases:
   metaplots: /usr/local/bin/metaplots
   plot_orf_density: /usr/local/bin/plot_orf_density
   prepare_transcripts: /usr/local/bin/prepare_transcripts
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  pyfasta: /usr/local/bin/pyfasta
   createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py

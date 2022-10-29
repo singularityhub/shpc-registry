@@ -6,3 +6,5 @@ latest:
 tags:
   2.9.2--py36_1: sha256:25184f30e42354dd535cb5ec09f69b39dfdd3684e9aaaf5ff51fad2ea658cd8b
 docker: quay.io/biocontainers/picard
+aliases:
+  picard: /usr/local/bin/picard

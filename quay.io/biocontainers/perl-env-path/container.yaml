@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-env-path
 aliases:
   envpath: /usr/local/bin/envpath
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -12,13 +12,13 @@ aliases:
   guidescan_cutting_specificity_processer: /usr/local/bin/guidescan_cutting_specificity_processer
   guidescan_guidequery: /usr/local/bin/guidescan_guidequery
   guidescan_processer: /usr/local/bin/guidescan_processer
-  ace2sam: /usr/local/bin/ace2sam
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  align_print_template.py: /usr/local/bin/align_print_template.py
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
+  rename: /usr/local/bin/rename
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py

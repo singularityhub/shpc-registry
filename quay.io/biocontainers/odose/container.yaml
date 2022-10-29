@@ -45,6 +45,7 @@ aliases:
   shared.py: /usr/local/bin/shared.py
   split_by_taxa: /usr/local/bin/split_by_taxa
   split_by_taxa.py: /usr/local/bin/split_by_taxa.py
+  translate: /usr/local/bin/translate
   translate.py: /usr/local/bin/translate.py
   upload_genomes: /usr/local/bin/upload_genomes
   upload_genomes.py: /usr/local/bin/upload_genomes.py
@@ -52,13 +53,13 @@ aliases:
   versions.py: /usr/local/bin/versions.py
   wrapper: /usr/local/bin/wrapper
   wrapper.py: /usr/local/bin/wrapper.py
-  assistant: /usr/local/bin/assistant
-  bmp2tiff: /usr/local/bin/bmp2tiff
   createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py

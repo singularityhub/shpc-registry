@@ -18,13 +18,13 @@ aliases:
   octave-config: /usr/local/bin/octave-config
   octave-config-4.2.1: /usr/local/bin/octave-config-4.2.1
   sndfile-regtest: /usr/local/bin/sndfile-regtest
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  annotate: /usr/local/bin/annotate
-  assistant: /usr/local/bin/assistant
-  bdftogd: /usr/local/bin/bdftogd
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
+  flac: /usr/local/bin/flac
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set

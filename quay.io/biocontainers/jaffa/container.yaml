@@ -15,7 +15,28 @@ aliases:
   bpipe-torque.sh: /usr/local/bin/bpipe-torque.sh
   bpipe-utils.sh: /usr/local/bin/bpipe-utils.sh
   faToNib: /usr/local/bin/faToNib
+  fasta_clipping_histogram.pl: /usr/local/bin/fasta_clipping_histogram.pl
+  fasta_formatter: /usr/local/bin/fasta_formatter
+  fasta_nucleotide_changer: /usr/local/bin/fasta_nucleotide_changer
+  fastq_masker: /usr/local/bin/fastq_masker
+  fastq_quality_boxplot_graph.sh: /usr/local/bin/fastq_quality_boxplot_graph.sh
+  fastq_quality_converter: /usr/local/bin/fastq_quality_converter
+  fastq_quality_filter: /usr/local/bin/fastq_quality_filter
+  fastq_quality_trimmer: /usr/local/bin/fastq_quality_trimmer
+  fastq_to_fasta: /usr/local/bin/fastq_to_fasta
+  fastx_artifacts_filter: /usr/local/bin/fastx_artifacts_filter
+  fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
+  fastx_clipper: /usr/local/bin/fastx_clipper
+  fastx_collapser: /usr/local/bin/fastx_collapser
+  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_quality_stats: /usr/local/bin/fastx_quality_stats
+  fastx_renamer: /usr/local/bin/fastx_renamer
+  fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement
+  fastx_trimmer: /usr/local/bin/fastx_trimmer
+  fastx_uncollapser: /usr/local/bin/fastx_uncollapser
   gfClient: /usr/local/bin/gfClient
+  gfServer: /usr/local/bin/gfServer
   groovy_script: /usr/local/bin/groovy_script
   jaffa-assembly: /usr/local/bin/jaffa-assembly
   jaffa-direct: /usr/local/bin/jaffa-direct
@@ -25,13 +46,14 @@ aliases:
   oases_pipeline.py: /usr/local/bin/oases_pipeline.py
   pslPretty: /usr/local/bin/pslPretty
   pslReps: /usr/local/bin/pslReps
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  pslSort: /usr/local/bin/pslSort
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
+  twoBitToFa: /usr/local/bin/twoBitToFa
   alltoall.sh: /usr/local/bin/alltoall.sh
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
-  aserver: /usr/local/bin/aserver
+  blat: /usr/local/bin/blat

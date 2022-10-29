@@ -7,13 +7,5 @@ tags:
   1.34.0--r41hdfd78af_1: sha256:53ef5fbc1f5c9873845c2d176ad37f42cea17c770a1481d6932eefb92ca17ebf
 docker: quay.io/biocontainers/bioconductor-davidtiling
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-davidtiling-post-link.sh: /usr/local/bin/.bioconductor-davidtiling-post-link.sh
+  .bioconductor-davidtiling-pre-unlink.sh: /usr/local/bin/.bioconductor-davidtiling-pre-unlink.sh

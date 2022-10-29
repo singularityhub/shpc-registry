@@ -7,6 +7,7 @@ tags:
   0.6.5--r3.3.1_0: sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984
 docker: quay.io/biocontainers/r-ggrepel
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

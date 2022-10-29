@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-image-exiftool
 aliases:
   exiftool: /usr/local/bin/exiftool
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

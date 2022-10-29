@@ -8,11 +8,13 @@ tags:
 docker: quay.io/biocontainers/hotspot3d
 aliases:
   hotspot3d: /usr/local/bin/hotspot3d
-  cpanm: /usr/local/bin/cpanm
-  json_xs: /usr/local/bin/json_xs
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
   lwp-download: /usr/local/bin/lwp-download
   lwp-dump: /usr/local/bin/lwp-dump
   lwp-mirror: /usr/local/bin/lwp-mirror
   lwp-request: /usr/local/bin/lwp-request
-  moose-outdated: /usr/local/bin/moose-outdated
-  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  json_xs: /usr/local/bin/json_xs
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

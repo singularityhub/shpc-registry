@@ -8,6 +8,7 @@ tags:
 docker: quay.io/biocontainers/pipmir
 aliases:
   PIPmiR: /usr/local/bin/PIPmiR
+  RNAfold: /usr/local/bin/RNAfold
   Kinfold: /usr/local/bin/Kinfold
   RNALfold: /usr/local/bin/RNALfold
   RNAaliduplex: /usr/local/bin/RNAaliduplex
@@ -16,5 +17,4 @@ aliases:
   RNAdistance: /usr/local/bin/RNAdistance
   RNAduplex: /usr/local/bin/RNAduplex
   RNAeval: /usr/local/bin/RNAeval
-  RNAfold: /usr/local/bin/RNAfold
   RNAforester: /usr/local/bin/RNAforester

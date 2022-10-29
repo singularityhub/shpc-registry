@@ -9,6 +9,7 @@ docker: quay.io/biocontainers/longstitch
 aliases:
   LINKS: /usr/local/bin/LINKS
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  abyss-stack-size: /usr/local/bin/abyss-stack-size
   arcs: /usr/local/bin/arcs
   arcs-make: /usr/local/bin/arcs-make
   gunzip: /usr/local/bin/gunzip
@@ -28,6 +29,7 @@ aliases:
   ntLink: /usr/local/bin/ntLink
   ntLink_rounds: /usr/local/bin/ntLink_rounds
   prlimit: /usr/local/bin/prlimit
+  scriptlive: /usr/local/bin/scriptlive
   tigmint: /usr/local/bin/tigmint
   tigmint-arcs-tsv: /usr/local/bin/tigmint-arcs-tsv
   tigmint-cut: /usr/local/bin/tigmint-cut
@@ -47,13 +49,13 @@ aliases:
   znew: /usr/local/bin/znew
   zsh: /usr/local/bin/zsh
   zsh-5.8: /usr/local/bin/zsh-5.8
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ABYSS: /usr/local/bin/ABYSS
-  ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
+  cal: /usr/local/bin/cal
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

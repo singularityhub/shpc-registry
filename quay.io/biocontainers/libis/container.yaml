@@ -23,13 +23,14 @@ aliases:
   routines.pm: /usr/local/bin/routines.pm
   template_for_cfg: /usr/local/bin/template_for_cfg
   template_for_qsub: /usr/local/bin/template_for_qsub
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  trim_galore: /usr/local/bin/trim_galore
+  cutadapt: /usr/local/bin/cutadapt
+  fastqc: /usr/local/bin/fastqc
+  igzip: /usr/local/bin/igzip
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  idn2: /usr/local/bin/idn2
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools

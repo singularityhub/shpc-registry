@@ -7,4 +7,6 @@ tags:
   2.8.1--r40hdfd78af_0: sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178
 docker: quay.io/biocontainers/bioconductor-derfinderdata
 aliases:
+  .bioconductor-derfinderdata-post-link.sh: /usr/local/bin/.bioconductor-derfinderdata-post-link.sh
+  .bioconductor-derfinderdata-pre-unlink.sh: /usr/local/bin/.bioconductor-derfinderdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

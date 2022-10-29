@@ -7,7 +7,6 @@ tags:
   1.007003--pl5321hdfd78af_0: sha256:1c1ac1a0b102f159ab93a9566b7f8f92c3d6832e04b064929c92218e9a64b27c
 docker: quay.io/biocontainers/perl-bioperl-run
 aliases:
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
   bp_aacomp: /usr/local/bin/bp_aacomp
   bp_bioflat_index: /usr/local/bin/bp_bioflat_index
   bp_biogetseq: /usr/local/bin/bp_biogetseq
@@ -17,3 +16,4 @@ aliases:
   bp_fetch: /usr/local/bin/bp_fetch
   bp_filter_search: /usr/local/bin/bp_filter_search
   bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc

@@ -7,8 +7,8 @@ tags:
   2.1.0--pyhdfd78af_0: sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3
 docker: quay.io/biocontainers/pyjaspar
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

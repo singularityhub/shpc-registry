@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/mysqlclient
 aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7
-  idle: /usr/local/bin/idle
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
   perror: /usr/local/bin/perror
-  python-config: /usr/local/bin/python-config
   python2: /usr/local/bin/python2
   python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py
   tclsh8.5: /usr/local/bin/tclsh8.5

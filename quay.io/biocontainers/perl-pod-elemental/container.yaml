@@ -7,6 +7,8 @@ tags:
   0.103005--pl5321hec16e2b_1: sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349
 docker: quay.io/biocontainers/perl-pod-elemental
 aliases:
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

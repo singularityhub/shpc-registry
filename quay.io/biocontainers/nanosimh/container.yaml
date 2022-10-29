@@ -7,15 +7,31 @@ tags:
   v1.0.1.8--py35r3.3.1_1: sha256:535870e69f8d18ca8062b3b960845ba077c41ffd6d831d739ea14ea0cc074449
 docker: quay.io/biocontainers/nanosimh
 aliases:
-  nanosimh_simulate: /usr/local/bin/nanosimh_simulate
-  nanosimh_train: /usr/local/bin/nanosimh_train
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
   fastq-interleave: /usr/local/bin/fastq-interleave
-  idle3.5: /usr/local/bin/idle3.5
   last-dotplot: /usr/local/bin/last-dotplot
   last-map-probs: /usr/local/bin/last-map-probs
   last-merge-batches: /usr/local/bin/last-merge-batches
   last-pair-probs: /usr/local/bin/last-pair-probs
   last-postmask: /usr/local/bin/last-postmask
   last-split: /usr/local/bin/last-split
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
+  lastdb: /usr/local/bin/lastdb
+  maf-convert: /usr/local/bin/maf-convert
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
+  nanosimh_simulate: /usr/local/bin/nanosimh_simulate
+  nanosimh_train: /usr/local/bin/nanosimh_train
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
+  uconv: /usr/local/bin/uconv

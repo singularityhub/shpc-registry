@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/nanocompore
 aliases:
   bedparse: /usr/local/bin/bedparse
   nanocompore: /usr/local/bin/nanocompore
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
   faidx: /usr/local/bin/faidx
-  idle3.7: /usr/local/bin/idle3.7
+  tqdm: /usr/local/bin/tqdm
+  f2py3.7: /usr/local/bin/f2py3.7
   opj_compress: /usr/local/bin/opj_compress
   opj_decompress: /usr/local/bin/opj_decompress
   opj_dump: /usr/local/bin/opj_dump
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
-  python3.7-config: /usr/local/bin/python3.7-config

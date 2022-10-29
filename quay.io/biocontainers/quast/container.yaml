@@ -7,13 +7,24 @@ tags:
   5.2.0--py39pl5321h2add14b_2: sha256:35ab430d7f82d35685aa612bd989f823662e13227a14d74b48124873f7a56fe6
 docker: quay.io/biocontainers/quast
 aliases:
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
+  .quast-post-link.sh: /usr/local/bin/.quast-post-link.sh
+  .quast-pre-unlink.sh: /usr/local/bin/.quast-pre-unlink.sh
+  icarus.py: /usr/local/bin/icarus.py
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  glimmerhmm: /usr/local/bin/glimmerhmm
+  glimmhmm.pl: /usr/local/bin/glimmhmm.pl
+  list.modules: /usr/local/bin/list.modules
+  test.modules: /usr/local/bin/test.modules
+  trainGlimmerHMM: /usr/local/bin/trainGlimmerHMM

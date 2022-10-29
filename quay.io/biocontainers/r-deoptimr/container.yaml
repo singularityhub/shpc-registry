@@ -7,6 +7,7 @@ tags:
   1.0_8--r3.4.1_0: sha256:cccc5365be0785692aec59298964b9ff585e33127447363c1c0b70b61366788e
 docker: quay.io/biocontainers/r-deoptimr
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

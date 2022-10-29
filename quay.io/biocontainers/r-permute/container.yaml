@@ -7,6 +7,7 @@ tags:
   0.8_4--r3.3.2_0: sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8
 docker: quay.io/biocontainers/r-permute
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

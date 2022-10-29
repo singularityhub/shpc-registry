@@ -7,8 +7,8 @@ tags:
   1.0.0--r41hc247a5b_2: sha256:2cc72b83e4f7a9ab426d5ae2782f6bee68c61ffed4ac1d85b4e9ef3a61963991
 docker: quay.io/biocontainers/bioconductor-ipath
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

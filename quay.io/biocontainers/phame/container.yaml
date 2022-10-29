@@ -47,13 +47,13 @@ aliases:
   translate.pl: /usr/local/bin/translate.pl
   tth-hash: /usr/local/bin/tth-hash
   whirlpool-hash: /usr/local/bin/whirlpool-hash
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  addadapters.sh: /usr/local/bin/addadapters.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  bbcms.sh: /usr/local/bin/bbcms.sh
+  bloomfilter.sh: /usr/local/bin/bloomfilter.sh
+  callgenes.sh: /usr/local/bin/callgenes.sh
+  comparegff.sh: /usr/local/bin/comparegff.sh
+  consensus.sh: /usr/local/bin/consensus.sh

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/metfrag
 aliases:
   metfrag: /usr/local/bin/metfrag
-  aserver: /usr/local/bin/aserver
+  zip: /usr/local/bin/zip
+  funzip: /usr/local/bin/funzip
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  parsort: /usr/local/bin/parsort
+  perl5.32.0: /usr/local/bin/perl5.32.0
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
-  env_parallel.bash: /usr/local/bin/env_parallel.bash
-  env_parallel.csh: /usr/local/bin/env_parallel.csh
-  env_parallel.dash: /usr/local/bin/env_parallel.dash
-  env_parallel.fish: /usr/local/bin/env_parallel.fish
-  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
-  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
-  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh

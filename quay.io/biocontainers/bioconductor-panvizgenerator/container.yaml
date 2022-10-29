@@ -6,14 +6,3 @@ latest:
 tags:
   1.22.0--r41hdfd78af_0: sha256:0ec433cc0d04f2e700c5d1fb0ac3aa34fa8ae12924eb4c54f44a72042378c41c
 docker: quay.io/biocontainers/bioconductor-panvizgenerator
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

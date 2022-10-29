@@ -7,6 +7,6 @@ tags:
   1.8.0--r3.4.1_0: sha256:f77929b5625af7599624cec042d5e04a334424acf75c75531050b53d594272bb
 docker: quay.io/biocontainers/bioconductor-cnvpanelizer
 aliases:
+  wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  wget: /usr/local/bin/wget

@@ -6,14 +6,3 @@ latest:
 tags:
   4.24.0--r41hdfd78af_0: sha256:ed867da011fc173d46c793be4a6b0d6979d8409f1f1e115e8e86912f54c20ca1
 docker: quay.io/biocontainers/bioconductor-htseqgenie
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

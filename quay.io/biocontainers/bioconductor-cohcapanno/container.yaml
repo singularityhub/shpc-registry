@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:5485c1cfebbde03e7437ed27b0af364e8fb363a0a739c2af2fb9f42e692a8a44
 docker: quay.io/biocontainers/bioconductor-cohcapanno
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-cohcapanno-post-link.sh: /usr/local/bin/.bioconductor-cohcapanno-post-link.sh
+  .bioconductor-cohcapanno-pre-unlink.sh: /usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh

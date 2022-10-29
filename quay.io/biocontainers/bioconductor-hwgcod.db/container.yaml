@@ -7,13 +7,5 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:1a85c582bc5887a097e3ed9967f0b3406bf2001fe3539c7e2afa6ecd9c7de7b5
 docker: quay.io/biocontainers/bioconductor-hwgcod.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hwgcod.db-post-link.sh: /usr/local/bin/.bioconductor-hwgcod.db-post-link.sh
+  .bioconductor-hwgcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hwgcod.db-pre-unlink.sh

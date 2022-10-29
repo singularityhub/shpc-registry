@@ -7,14 +7,15 @@ tags:
   1.0.7--pyhdfd78af_0: sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5
 docker: quay.io/biocontainers/samap
 aliases:
-  scalar: /usr/local/bin/scalar
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  brotli: /usr/local/bin/brotli
-  cmpfillin: /usr/local/bin/cmpfillin
-  docutils: /usr/local/bin/docutils
   dunamai: /usr/local/bin/dunamai
-  f2py3.7: /usr/local/bin/f2py3.7
-  fonttools: /usr/local/bin/fonttools
-  get_objgraph: /usr/local/bin/get_objgraph
-  gif2h5: /usr/local/bin/gif2h5
+  scalar: /usr/local/bin/scalar
   git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  scanpy: /usr/local/bin/scanpy
+  docutils: /usr/local/bin/docutils
+  igraph: /usr/local/bin/igraph

@@ -7,13 +7,13 @@ tags:
   1.7.9--pyh3252c3a_0: sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58
 docker: quay.io/biocontainers/bioservices
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  browse: /usr/local/bin/browse
-  chardetect: /usr/local/bin/chardetect
   easydev_buildPackage: /usr/local/bin/easydev_buildPackage
-  f2py3.8: /usr/local/bin/f2py3.8
   ibrowse: /usr/local/bin/ibrowse
-  idle3.8: /usr/local/bin/idle3.8
   multigit: /usr/local/bin/multigit
+  browse: /usr/local/bin/browse
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
   pybabel: /usr/local/bin/pybabel
-  pydoc3.8: /usr/local/bin/pydoc3.8
+  rst2html4.py: /usr/local/bin/rst2html4.py

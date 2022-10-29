@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38
 docker: quay.io/biocontainers/bioconductor-hgfocusprobe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hgfocusprobe-post-link.sh: /usr/local/bin/.bioconductor-hgfocusprobe-post-link.sh
+  .bioconductor-hgfocusprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hgfocusprobe-pre-unlink.sh

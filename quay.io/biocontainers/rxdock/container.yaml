@@ -8,6 +8,8 @@ tags:
 docker: quay.io/biocontainers/rxdock
 aliases:
   make_grid.csh: /usr/local/bin/make_grid.csh
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
   rbcalcgrid: /usr/local/bin/rbcalcgrid
   rbcavity: /usr/local/bin/rbcavity
   rbconvgrid: /usr/local/bin/rbconvgrid
@@ -26,13 +28,13 @@ aliases:
   sdsort: /usr/local/bin/sdsort
   sdsplit: /usr/local/bin/sdsplit
   sdtether: /usr/local/bin/sdtether
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8
   obabel: /usr/local/bin/obabel
   obconformer: /usr/local/bin/obconformer
   obdistgen: /usr/local/bin/obdistgen
   obenergy: /usr/local/bin/obenergy
   obfit: /usr/local/bin/obfit
-  obfitall: /usr/local/bin/obfitall
   obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

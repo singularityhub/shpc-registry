@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:01a85a0908c7117fccd52023cf1e78e18e180637dfb877d11a83673a3c8061e9
 docker: quay.io/biocontainers/bioconductor-prostatecancercamcap
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-prostatecancercamcap-post-link.sh: /usr/local/bin/.bioconductor-prostatecancercamcap-post-link.sh
+  .bioconductor-prostatecancercamcap-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancercamcap-pre-unlink.sh

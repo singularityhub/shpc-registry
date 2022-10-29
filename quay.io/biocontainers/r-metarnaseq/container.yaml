@@ -7,6 +7,7 @@ tags:
   1.0.2--r3.4.1_0: sha256:d7e30f273046238d6deb1624983b7f09c5e8bc8d90672534d6f43ea6679e0955
 docker: quay.io/biocontainers/r-metarnaseq
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

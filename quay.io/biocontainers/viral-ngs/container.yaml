@@ -7,6 +7,9 @@ tags:
   1.13.4--py35_0: sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb
 docker: quay.io/biocontainers/viral-ngs
 aliases:
+  .viral-ngs-post-link.sh: /usr/local/bin/.viral-ngs-post-link.sh
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  Trinity: /usr/local/bin/Trinity
   Trinity-test: /usr/local/bin/Trinity-test
   assembly.py: /usr/local/bin/assembly.py
   bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0
@@ -17,6 +20,7 @@ aliases:
   coverage-3.5: /usr/local/bin/coverage-3.5
   coverage3: /usr/local/bin/coverage3
   extract_fullseq: /usr/local/bin/extract_fullseq
+  fastq-interleave: /usr/local/bin/fastq-interleave
   flake8: /usr/local/bin/flake8
   gatk-register: /usr/local/bin/gatk-register
   illumina.py: /usr/local/bin/illumina.py
@@ -24,12 +28,31 @@ aliases:
   interhost.py: /usr/local/bin/interhost.py
   intrahost.py: /usr/local/bin/intrahost.py
   isnovoindex: /usr/local/bin/isnovoindex
+  kraken: /usr/local/bin/kraken
+  kraken-build: /usr/local/bin/kraken-build
   kraken-build.bak: /usr/local/bin/kraken-build.bak
+  kraken-filter: /usr/local/bin/kraken-filter
   kraken-filter.bak: /usr/local/bin/kraken-filter.bak
+  kraken-mpa-report: /usr/local/bin/kraken-mpa-report
   kraken-mpa-report.bak: /usr/local/bin/kraken-mpa-report.bak
+  kraken-report: /usr/local/bin/kraken-report
   kraken-report.bak: /usr/local/bin/kraken-report.bak
+  kraken-translate: /usr/local/bin/kraken-translate
   kraken-translate.bak: /usr/local/bin/kraken-translate.bak
   kraken.bak: /usr/local/bin/kraken.bak
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-merge-batches: /usr/local/bin/last-merge-batches
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
+  lastdb: /usr/local/bin/lastdb
+  maf-convert: /usr/local/bin/maf-convert
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
   metagenomics.py: /usr/local/bin/metagenomics.py
   mvicuna: /usr/local/bin/mvicuna
   ncbi.py: /usr/local/bin/ncbi.py
@@ -46,24 +69,35 @@ aliases:
   novorun.pl: /usr/local/bin/novorun.pl
   novosort: /usr/local/bin/novosort
   novoutil: /usr/local/bin/novoutil
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
   prinseq-graphs-noPCA.pl: /usr/local/bin/prinseq-graphs-noPCA.pl
   prinseq-graphs.pl: /usr/local/bin/prinseq-graphs.pl
   prinseq-lite.pl: /usr/local/bin/prinseq-lite.pl
   py.test-3.5: /usr/local/bin/py.test-3.5
+  pycodestyle: /usr/local/bin/pycodestyle
   pyflakes: /usr/local/bin/pyflakes
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay
   read_utils.py: /usr/local/bin/read_utils.py
   reports.py: /usr/local/bin/reports.py
   srprism: /usr/local/bin/srprism
   taxon_filter.py: /usr/local/bin/taxon_filter.py
   variant_caller: /usr/local/bin/variant_caller
   vphaser2: /usr/local/bin/vphaser2
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
-  Trinity: /usr/local/bin/Trinity
-  ace2sam: /usr/local/bin/ace2sam
-  appletviewer: /usr/local/bin/appletviewer
-  asadmin: /usr/local/bin/asadmin
-  assistant: /usr/local/bin/assistant
-  bamtools: /usr/local/bin/bamtools
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
+  gatk: /usr/local/bin/gatk
+  pbr: /usr/local/bin/pbr
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage

@@ -6,14 +6,3 @@ latest:
 tags:
   1.32.1--r41hdfd78af_0: sha256:b5bc1cdb4f3b24c9584c57e321df12280fa34d970a7812e66b9b98ab8d6e37b5
 docker: quay.io/biocontainers/bioconductor-clonotyper
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

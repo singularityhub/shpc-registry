@@ -4,11 +4,14 @@ description: shpc-registry automated BioContainers addition for bedops
 latest:
   2.4.41--h9f5acd7_0: sha256:74852791f3dea1ae1fa2326949d2ed2667e6e2c05f90da571a81405d46638a2c
 tags:
-  2.4.23--0: sha256:fd8d19a1eee1702ceb9e16a224974143c4e99a62c3c39e05e67d1827b0046ff7
   2.4.41--h9f5acd7_0: sha256:74852791f3dea1ae1fa2326949d2ed2667e6e2c05f90da571a81405d46638a2c
 docker: quay.io/biocontainers/bedops
 aliases:
-  ace2sam: /usr/local/bin/ace2sam
+  bedops: /usr/local/bin/bedops
+  bedops-float128: /usr/local/bin/bedops-float128
+  bedops-megarow: /usr/local/bin/bedops-megarow
+  bedops-typical: /usr/local/bin/bedops-typical
+  switch-BEDOPS-binary-type: /usr/local/bin/switch-BEDOPS-binary-type
   bam2bed: /usr/local/bin/bam2bed
   bam2bed-float128: /usr/local/bin/bam2bed-float128
   bam2bed-megarow: /usr/local/bin/bam2bed-megarow
@@ -18,3 +21,4 @@ aliases:
   bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
   bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
   bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128

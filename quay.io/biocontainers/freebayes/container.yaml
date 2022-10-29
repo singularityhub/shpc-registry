@@ -7,13 +7,16 @@ tags:
   1.3.3--py36hc088bd4_0: sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7
 docker: quay.io/biocontainers/freebayes
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  freebayes: /usr/local/bin/freebayes
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
   bamleftalign: /usr/local/bin/bamleftalign
-  bgzip: /usr/local/bin/bgzip
   coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  vcffirstheader: /usr/local/bin/vcffirstheader
+  vcfstreamsort: /usr/local/bin/vcfstreamsort
+  vcfuniq: /usr/local/bin/vcfuniq
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
   env_parallel.csh: /usr/local/bin/env_parallel.csh
-  env_parallel.dash: /usr/local/bin/env_parallel.dash
-  env_parallel.fish: /usr/local/bin/env_parallel.fish

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pepgenome
 aliases:
   pepgenome: /usr/local/bin/pepgenome
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aserver: /usr/local/bin/aserver
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
-  idle3.9: /usr/local/bin/idle3.9
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jjs: /usr/local/bin/jjs

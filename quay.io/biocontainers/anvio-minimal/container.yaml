@@ -194,13 +194,13 @@ aliases:
   iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
   iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts
   sqlformat: /usr/local/bin/sqlformat
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
-  assistant: /usr/local/bin/assistant
-  between-two-genes: /usr/local/bin/between-two-genes
+  filter-table: /usr/local/bin/filter-table
+  spdi2prod: /usr/local/bin/spdi2prod
   bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb

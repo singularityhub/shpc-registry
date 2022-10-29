@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/monocle3-cli
 aliases:
   gdalserver: /usr/local/bin/gdalserver
   monocle3: /usr/local/bin/monocle3
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
+  testepsg: /usr/local/bin/testepsg
+  pg_standby: /usr/local/bin/pg_standby
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  pdfattach: /usr/local/bin/pdfattach
+  applygeo: /usr/local/bin/applygeo
+  geotifcp: /usr/local/bin/geotifcp
+  gnmanalyse: /usr/local/bin/gnmanalyse
+  gnmmanage: /usr/local/bin/gnmmanage

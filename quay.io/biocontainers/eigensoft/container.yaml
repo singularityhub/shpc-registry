@@ -19,3 +19,5 @@ aliases:
   smartrel: /usr/local/bin/smartrel
   smshrink: /usr/local/bin/smshrink
   twstats: /usr/local/bin/twstats
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

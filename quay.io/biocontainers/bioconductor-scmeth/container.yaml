@@ -7,10 +7,13 @@ tags:
   1.8.0--r40_0: sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06
 docker: quay.io/biocontainers/bioconductor-scmeth
 aliases:
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pandoc: /usr/local/bin/pandoc
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
-  pandoc: /usr/local/bin/pandoc
-  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

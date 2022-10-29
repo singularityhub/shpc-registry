@@ -7,21 +7,22 @@ tags:
   1.0p2--h7132678_5: sha256:63780c37204dbffed831851aeedf19894beb07a814a26ab7e04baec771792227
 docker: quay.io/biocontainers/dazz_db
 aliases:
-  DB2arrow: /usr/local/bin/DB2arrow
-  DB2quiva: /usr/local/bin/DB2quiva
-  DBdump: /usr/local/bin/DBdump
-  DBtrim: /usr/local/bin/DBtrim
-  DBwipe: /usr/local/bin/DBwipe
-  arrow2DB: /usr/local/bin/arrow2DB
-  quiva2DB: /usr/local/bin/quiva2DB
-  rangen: /usr/local/bin/rangen
   Catrack: /usr/local/bin/Catrack
   DAM2fasta: /usr/local/bin/DAM2fasta
+  DB2arrow: /usr/local/bin/DB2arrow
   DB2fasta: /usr/local/bin/DB2fasta
+  DB2quiva: /usr/local/bin/DB2quiva
+  DBdump: /usr/local/bin/DBdump
   DBdust: /usr/local/bin/DBdust
   DBrm: /usr/local/bin/DBrm
   DBshow: /usr/local/bin/DBshow
   DBsplit: /usr/local/bin/DBsplit
   DBstats: /usr/local/bin/DBstats
+  DBtrim: /usr/local/bin/DBtrim
+  DBwipe: /usr/local/bin/DBwipe
+  arrow2DB: /usr/local/bin/arrow2DB
   fasta2DAM: /usr/local/bin/fasta2DAM
   fasta2DB: /usr/local/bin/fasta2DB
+  quiva2DB: /usr/local/bin/quiva2DB
+  rangen: /usr/local/bin/rangen
+  simulator: /usr/local/bin/simulator

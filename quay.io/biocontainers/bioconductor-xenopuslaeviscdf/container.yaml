@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:208ff238fb3c9ae10bfe7c9cdde895a04e9d07480388fc7d634b320da587a5f6
 docker: quay.io/biocontainers/bioconductor-xenopuslaeviscdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-xenopuslaeviscdf-post-link.sh: /usr/local/bin/.bioconductor-xenopuslaeviscdf-post-link.sh
+  .bioconductor-xenopuslaeviscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-xenopuslaeviscdf-pre-unlink.sh

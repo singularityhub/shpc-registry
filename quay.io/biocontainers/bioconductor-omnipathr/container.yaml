@@ -6,14 +6,3 @@ latest:
 tags:
   3.2.0--r41hdfd78af_0: sha256:d86bb0da85b36c95bd578d8e83a9247cdfa4b6929054a6be7d6cbb2653abb153
 docker: quay.io/biocontainers/bioconductor-omnipathr
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

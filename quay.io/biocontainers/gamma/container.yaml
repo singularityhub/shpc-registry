@@ -16,13 +16,13 @@ aliases:
   pslPretty: /usr/local/bin/pslPretty
   pslReps: /usr/local/bin/pslReps
   pslSort: /usr/local/bin/pslSort
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  twoBitToFa: /usr/local/bin/twoBitToFa
   blat: /usr/local/bin/blat
-  f2py3.10: /usr/local/bin/f2py3.10
+  unidecode: /usr/local/bin/unidecode
+  twoBitInfo: /usr/local/bin/twoBitInfo
   faToTwoBit: /usr/local/bin/faToTwoBit
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
-  python3.10-config: /usr/local/bin/python3.10-config
-  twoBitInfo: /usr/local/bin/twoBitInfo

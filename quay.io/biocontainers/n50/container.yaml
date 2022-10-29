@@ -20,3 +20,5 @@ aliases:
   fu-sort: /usr/local/bin/fu-sort
   fu-uniq: /usr/local/bin/fu-uniq
   n50: /usr/local/bin/n50
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

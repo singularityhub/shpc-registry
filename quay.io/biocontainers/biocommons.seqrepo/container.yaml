@@ -12,13 +12,13 @@ aliases:
   sqlformat: /usr/local/bin/sqlformat
   yoyo: /usr/local/bin/yoyo
   yoyo-migrate: /usr/local/bin/yoyo-migrate
-  2to3-3.9: /usr/local/bin/2to3-3.9
   coloredlogs: /usr/local/bin/coloredlogs
   humanfriendly: /usr/local/bin/humanfriendly
-  idle3.9: /usr/local/bin/idle3.9
-  normalizer: /usr/local/bin/normalizer
-  pydoc3.9: /usr/local/bin/pydoc3.9
-  python3.9: /usr/local/bin/python3.9
-  python3.9-config: /usr/local/bin/python3.9-config
   tabulate: /usr/local/bin/tabulate
+  normalizer: /usr/local/bin/normalizer
   tqdm: /usr/local/bin/tqdm
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9

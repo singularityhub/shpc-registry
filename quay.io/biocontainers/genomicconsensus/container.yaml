@@ -7,6 +7,7 @@ tags:
   3.0.2--py27h470a237_2: sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16
 docker: quay.io/biocontainers/genomicconsensus
 aliases:
+  ccache-swig: /usr/local/bin/ccache-swig
   dataset.py: /usr/local/bin/dataset.py
   gffToBed: /usr/local/bin/gffToBed
   gffToVcf: /usr/local/bin/gffToVcf
@@ -14,14 +15,15 @@ aliases:
   plurality: /usr/local/bin/plurality
   quiver: /usr/local/bin/quiver
   summarizeConsensus: /usr/local/bin/summarizeConsensus
+  swig: /usr/local/bin/swig
   variantCaller: /usr/local/bin/variantCaller
-  ace2sam: /usr/local/bin/ace2sam
+  unit2: /usr/local/bin/unit2
   avro: /usr/local/bin/avro
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  ccache-swig: /usr/local/bin/ccache-swig
-  chardetect: /usr/local/bin/chardetect
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
   cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  jsonschema: /usr/local/bin/jsonschema
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl

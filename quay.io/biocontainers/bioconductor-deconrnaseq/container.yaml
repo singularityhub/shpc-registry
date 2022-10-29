@@ -6,14 +6,3 @@ latest:
 tags:
   1.36.0--r41hdfd78af_0: sha256:8a8710c8fed9d641d28827ec8a6df61fc25c3a5f3f188c7dd18c799f5f013cf7
 docker: quay.io/biocontainers/bioconductor-deconrnaseq
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

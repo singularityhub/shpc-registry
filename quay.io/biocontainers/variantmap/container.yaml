@@ -7,14 +7,16 @@ tags:
   1.0.2--py_0: sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0
 docker: quay.io/biocontainers/variantmap
 aliases:
-  variantmap_app.py: /usr/local/bin/variantmap_app.py
   dash-generate-components: /usr/local/bin/dash-generate-components
-  f2py3.9: /usr/local/bin/f2py3.9
+  renderer: /usr/local/bin/renderer
+  variantmap_app.py: /usr/local/bin/variantmap_app.py
   flask: /usr/local/bin/flask
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
   futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.9: /usr/local/bin/f2py3.9
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
+  h5format_convert: /usr/local/bin/h5format_convert

@@ -7,10 +7,10 @@ tags:
   0.6.1--py27h9801fc8_1: sha256:61a01cd51d6f5e74dff60f08b12aeefb44e74b51a26b2c7146d92fac7fa66593
 docker: quay.io/biocontainers/primer3-py
 aliases:
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
   smtpd.py: /usr/local/bin/smtpd.py

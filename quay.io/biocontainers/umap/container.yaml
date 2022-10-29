@@ -7,6 +7,7 @@ tags:
   1.1.1--pyh1687a27_0: sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a
 docker: quay.io/biocontainers/umap
 aliases:
+  __init__.py: /usr/local/bin/__init__.py
   combine_umaps.py: /usr/local/bin/combine_umaps.py
   get_kmers.py: /usr/local/bin/get_kmers.py
   handle_fasta.py: /usr/local/bin/handle_fasta.py
@@ -16,13 +17,13 @@ aliases:
   uint8_to_bed.py: /usr/local/bin/uint8_to_bed.py
   uint8_to_bed_parallel.py: /usr/local/bin/uint8_to_bed_parallel.py
   unify_bowtie.py: /usr/local/bin/unify_bowtie.py
-  __init__.py: /usr/local/bin/__init__.py
-  bowtie: /usr/local/bin/bowtie
   bowtie-align-l: /usr/local/bin/bowtie-align-l
   bowtie-align-s: /usr/local/bin/bowtie-align-s
-  bowtie-build: /usr/local/bin/bowtie-build
   bowtie-build-l: /usr/local/bin/bowtie-build-l
   bowtie-build-s: /usr/local/bin/bowtie-build-s
-  bowtie-inspect: /usr/local/bin/bowtie-inspect
   bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
   bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  f2py2: /usr/local/bin/f2py2

@@ -7,11 +7,11 @@ tags:
   0.3--py35_0: sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515
 docker: quay.io/biocontainers/flask-markdown
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
   flask: /usr/local/bin/flask
-  idle3.5: /usr/local/bin/idle3.5
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
   markdown_py: /usr/local/bin/markdown_py
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
   python3.5-config: /usr/local/bin/python3.5-config

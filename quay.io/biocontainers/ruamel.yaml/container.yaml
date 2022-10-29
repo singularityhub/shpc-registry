@@ -7,8 +7,8 @@ tags:
   0.12.13--py35_0: sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc
 docker: quay.io/biocontainers/ruamel.yaml
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

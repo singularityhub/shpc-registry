@@ -7,8 +7,8 @@ tags:
   3.0.2--py_0: sha256:6e4d1a1db97848d1baacddf73eeeae070bcecd4187c697760d2415dcb842a3c4
 docker: quay.io/biocontainers/biobb_structure_manager
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
   f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
@@ -16,3 +16,4 @@ aliases:
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

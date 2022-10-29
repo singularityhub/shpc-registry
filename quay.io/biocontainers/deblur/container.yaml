@@ -10,13 +10,13 @@ aliases:
   deblur: /usr/local/bin/deblur
   indexdb_rna: /usr/local/bin/indexdb_rna
   sortmerna: /usr/local/bin/sortmerna
-  2to3-3.10: /usr/local/bin/2to3-3.10
   biom: /usr/local/bin/biom
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
+  vsearch: /usr/local/bin/vsearch
   doesitcache: /usr/local/bin/doesitcache
-  dwebp: /usr/local/bin/dwebp
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
   einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi

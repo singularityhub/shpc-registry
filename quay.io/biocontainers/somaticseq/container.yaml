@@ -44,13 +44,13 @@ aliases:
   variant_annotation.py: /usr/local/bin/variant_annotation.py
   varscan: /usr/local/bin/varscan
   vcfsorter.pl: /usr/local/bin/vcfsorter.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
+  gatk: /usr/local/bin/gatk
+  xgboost: /usr/local/bin/xgboost
+  gff2gff.py: /usr/local/bin/gff2gff.py
   bamtools: /usr/local/bin/bamtools
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl

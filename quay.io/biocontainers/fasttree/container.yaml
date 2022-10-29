@@ -7,7 +7,7 @@ tags:
   2.1.9--2: sha256:e7c96730148a0581faba14748b6c439a68e311ae751dadf4a018d3d4bcb494f5
 docker: quay.io/biocontainers/fasttree
 aliases:
-  FastTree.c: /usr/local/bin/FastTree.c
   FastTree: /usr/local/bin/FastTree
+  FastTree.c: /usr/local/bin/FastTree.c
   FastTreeMP: /usr/local/bin/FastTreeMP
   fasttree: /usr/local/bin/fasttree

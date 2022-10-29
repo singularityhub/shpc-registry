@@ -12,13 +12,13 @@ aliases:
   spython: /usr/local/bin/spython
   staphb-tk: /usr/local/bin/staphb-tk
   wsdump: /usr/local/bin/wsdump
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
+  jpackage: /usr/local/bin/jpackage
   cmark: /usr/local/bin/cmark
   cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  pygmentize: /usr/local/bin/pygmentize
+  normalizer: /usr/local/bin/normalizer
   futurize: /usr/local/bin/futurize
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
+  pasteurize: /usr/local/bin/pasteurize
+  jfr: /usr/local/bin/jfr

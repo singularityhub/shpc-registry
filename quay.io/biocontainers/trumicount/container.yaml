@@ -12,3 +12,5 @@ aliases:
   trumicount: /usr/local/bin/trumicount
   awk: /usr/local/bin/awk
   gawk: /usr/local/bin/gawk
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

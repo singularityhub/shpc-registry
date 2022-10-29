@@ -8,24 +8,34 @@ tags:
 docker: quay.io/biocontainers/guidemaker
 aliases:
   base58: /usr/local/bin/base58
+  black: /usr/local/bin/black
   black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd
+  csv-import: /usr/local/bin/csv-import
   elasticurl: /usr/local/bin/elasticurl
   elasticurl_cpp: /usr/local/bin/elasticurl_cpp
   elastipubsub: /usr/local/bin/elastipubsub
   guidemaker: /usr/local/bin/guidemaker
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
   onnxruntime_test: /usr/local/bin/onnxruntime_test
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
   pdoc: /usr/local/bin/pdoc
   pdoc3: /usr/local/bin/pdoc3
+  pybind11-config: /usr/local/bin/pybind11-config
+  send2trash: /usr/local/bin/send2trash
   streamlit: /usr/local/bin/streamlit
   streamlit.cmd: /usr/local/bin/streamlit.cmd
+  timezone-dump: /usr/local/bin/timezone-dump
   watchmedo: /usr/local/bin/watchmedo
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  black: /usr/local/bin/black
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
+  coverage: /usr/local/bin/coverage
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  mako-render: /usr/local/bin/mako-render
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin

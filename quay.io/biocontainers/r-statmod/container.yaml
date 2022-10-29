@@ -7,6 +7,7 @@ tags:
   1.4.29--r3.3.1_0: sha256:2ba9284b4b367c662229ded5147fd3551c960db640cfe8c726caee0632a042ca
 docker: quay.io/biocontainers/r-statmod
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

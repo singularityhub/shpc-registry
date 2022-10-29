@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082
 docker: quay.io/biocontainers/bioconductor-gsvadata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-gsvadata-post-link.sh: /usr/local/bin/.bioconductor-gsvadata-post-link.sh
+  .bioconductor-gsvadata-pre-unlink.sh: /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh

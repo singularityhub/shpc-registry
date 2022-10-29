@@ -12,19 +12,10 @@ aliases:
   anchorwave_avx512: /usr/local/bin/anchorwave_avx512
   anchorwave_sse2: /usr/local/bin/anchorwave_sse2
   anchorwave_sse4.1: /usr/local/bin/anchorwave_sse4.1
-  bulk-counts: /usr/local/bin/bulk-counts
-  configure: /usr/local/bin/configure
-  gmap.nosimd: /usr/local/bin/gmap.nosimd
-  gmap_cat: /usr/local/bin/gmap_cat
-  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
-  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
-  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
-  indexdb_cat: /usr/local/bin/indexdb_cat
-  sc-counts: /usr/local/bin/sc-counts
-  trindex: /usr/local/bin/trindex
-  velocity-counts: /usr/local/bin/velocity-counts
   atoiindex: /usr/local/bin/atoiindex
+  bulk-counts: /usr/local/bin/bulk-counts
   cmetindex: /usr/local/bin/cmetindex
+  configure: /usr/local/bin/configure
   cpuid: /usr/local/bin/cpuid
   dbsnp_iit: /usr/local/bin/dbsnp_iit
   ensembl_genes: /usr/local/bin/ensembl_genes
@@ -33,3 +24,44 @@ aliases:
   gff3_genes: /usr/local/bin/gff3_genes
   gff3_introns: /usr/local/bin/gff3_introns
   gff3_splicesites: /usr/local/bin/gff3_splicesites
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmap_process: /usr/local/bin/gmap_process
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gsnap: /usr/local/bin/gsnap
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gvf_iit: /usr/local/bin/gvf_iit
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  md_coords: /usr/local/bin/md_coords
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
+  sam_sort: /usr/local/bin/sam_sort
+  sc-counts: /usr/local/bin/sc-counts
+  snpindex: /usr/local/bin/snpindex
+  trindex: /usr/local/bin/trindex
+  vcf_iit: /usr/local/bin/vcf_iit
+  velocity-counts: /usr/local/bin/velocity-counts
+  gmap: /usr/local/bin/gmap
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

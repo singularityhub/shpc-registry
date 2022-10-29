@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/toulligqc
 aliases:
   toulligqc: /usr/local/bin/toulligqc
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
   brotli: /usr/local/bin/brotli
   f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy

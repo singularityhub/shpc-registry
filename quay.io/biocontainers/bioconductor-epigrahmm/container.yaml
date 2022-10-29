@@ -7,8 +7,8 @@ tags:
   1.2.2--r41hc247a5b_1: sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb
 docker: quay.io/biocontainers/bioconductor-epigrahmm
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

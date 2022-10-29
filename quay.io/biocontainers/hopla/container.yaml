@@ -17,5 +17,5 @@ aliases:
   pedmerge: /usr/local/bin/pedmerge
   pedstats: /usr/local/bin/pedstats
   pedwipe: /usr/local/bin/pedwipe
-  pandoc: /usr/local/bin/pandoc
   pandoc-server: /usr/local/bin/pandoc-server
+  pandoc: /usr/local/bin/pandoc

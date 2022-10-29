@@ -11,3 +11,5 @@ aliases:
   mirrorMappings: /usr/local/bin/mirrorMappings
   mkCSGB2312: /usr/local/bin/mkCSGB2312
   mkmapfile: /usr/local/bin/mkmapfile
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

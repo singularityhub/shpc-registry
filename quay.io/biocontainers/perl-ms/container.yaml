@@ -12,3 +12,5 @@ aliases:
   index_mzml: /usr/local/bin/index_mzml
   index_pepxml: /usr/local/bin/index_pepxml
   unimod2storable.pl: /usr/local/bin/unimod2storable.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

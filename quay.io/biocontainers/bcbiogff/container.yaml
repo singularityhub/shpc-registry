@@ -7,8 +7,8 @@ tags:
   0.6.6--pyh864c0ab_2: sha256:a6f9808aaa1f6db9b63a6aa7d459166e2e6baa75a58a3d15e176e09e76a01a31
 docker: quay.io/biocontainers/bcbiogff
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
   f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8

@@ -7,5 +7,6 @@ tags:
   2.4.2--2: sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893
 docker: quay.io/biocontainers/pblaa
 aliases:
+  .pblaa-post-link.sh: /usr/local/bin/.pblaa-post-link.sh
   laa: /usr/local/bin/laa
   laagc: /usr/local/bin/laagc

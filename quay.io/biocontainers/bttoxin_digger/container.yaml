@@ -9,7 +9,10 @@ docker: quay.io/biocontainers/bttoxin_digger
 aliases:
   BtToxin_Digger: /usr/local/bin/BtToxin_Digger
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  abyss-stack-size: /usr/local/bin/abyss-stack-size
   alignGFA: /usr/local/bin/alignGFA
+  bogart: /usr/local/bin/bogart
+  bogus: /usr/local/bin/bogus
   canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
   coreprocess.pl: /usr/local/bin/coreprocess.pl
@@ -40,6 +43,8 @@ aliases:
   lsirq: /usr/local/bin/lsirq
   mergeRanges: /usr/local/bin/mergeRanges
   mhapConvert: /usr/local/bin/mhapConvert
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
   mmapConvert: /usr/local/bin/mmapConvert
   nsenter: /usr/local/bin/nsenter
   ovStoreBucketizer: /usr/local/bin/ovStoreBucketizer
@@ -52,11 +57,14 @@ aliases:
   overlapAlign: /usr/local/bin/overlapAlign
   overlapConvert: /usr/local/bin/overlapConvert
   overlapImport: /usr/local/bin/overlapImport
+  overlapInCore: /usr/local/bin/overlapInCore
   overlapInCorePartition: /usr/local/bin/overlapInCorePartition
   overlapPair: /usr/local/bin/overlapPair
   pgcgap: /usr/local/bin/pgcgap
   prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
   prlimit: /usr/local/bin/prlimit
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  scriptlive: /usr/local/bin/scriptlive
   splitHaplotype: /usr/local/bin/splitHaplotype
   splitReads: /usr/local/bin/splitReads
   sqStoreCreate: /usr/local/bin/sqStoreCreate
@@ -72,13 +80,15 @@ aliases:
   unicycler_check: /usr/local/bin/unicycler_check
   unicycler_polish: /usr/local/bin/unicycler_polish
   unicycler_scrub: /usr/local/bin/unicycler_scrub
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ABYSS: /usr/local/bin/ABYSS
-  ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  CA.pm: /usr/local/bin/CA.pm
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
+  update_version.sh: /usr/local/bin/update_version.sh
+  utgcns: /usr/local/bin/utgcns
+  cal: /usr/local/bin/cal
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

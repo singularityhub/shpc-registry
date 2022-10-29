@@ -29,13 +29,13 @@ aliases:
   fastx_uncollapser: /usr/local/bin/fastx_uncollapser
   pispino_createreadpairslist: /usr/local/bin/pispino_createreadpairslist
   pispino_seqprep: /usr/local/bin/pispino_seqprep
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  vsearch: /usr/local/bin/vsearch
+  nosetests: /usr/local/bin/nosetests
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
-  nosetests: /usr/local/bin/nosetests
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
-  vsearch: /usr/local/bin/vsearch

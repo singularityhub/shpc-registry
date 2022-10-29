@@ -39,13 +39,13 @@ aliases:
   split-paired-reads.py: /usr/local/bin/split-paired-reads.py
   trim-low-abund.py: /usr/local/bin/trim-low-abund.py
   unique-kmers.py: /usr/local/bin/unique-kmers.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  screed: /usr/local/bin/screed
   f2py3.8: /usr/local/bin/f2py3.8
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5

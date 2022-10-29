@@ -7,9 +7,8 @@ tags:
   2.0--hdfd78af_4: sha256:5877fcd3393731f9b63bf852bfcdf8ec3268feccf8d212bbc81399bad14b743c
 docker: quay.io/biocontainers/trawler
 aliases:
+  .trawler-post-link.sh: /usr/local/bin/.trawler-post-link.sh
   trawler: /usr/local/bin/trawler
-  aserver: /usr/local/bin/aserver
-  cpanm: /usr/local/bin/cpanm
   dvipdf: /usr/local/bin/dvipdf
   eps2eps: /usr/local/bin/eps2eps
   gs: /usr/local/bin/gs
@@ -18,3 +17,5 @@ aliases:
   gsdj500: /usr/local/bin/gsdj500
   gslj: /usr/local/bin/gslj
   gslp: /usr/local/bin/gslp
+  gsnd: /usr/local/bin/gsnd
+  lprsetup.sh: /usr/local/bin/lprsetup.sh

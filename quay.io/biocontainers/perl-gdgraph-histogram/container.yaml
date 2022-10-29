@@ -7,13 +7,13 @@ tags:
   1.1--pl5321hdfd78af_4: sha256:31e2cde369817d09e7cde26afedb891bf2cd420e71116404a9cd07ff78099dec
 docker: quay.io/biocontainers/perl-gdgraph-histogram
 aliases:
-  annotate: /usr/local/bin/annotate
   bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
   bdftogd: /usr/local/bin/bdftogd
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
   gd2copypal: /usr/local/bin/gd2copypal
   gd2togif: /usr/local/bin/gd2togif
   gd2topng: /usr/local/bin/gd2topng
   gdcmpgif: /usr/local/bin/gdcmpgif
   gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng
+  giftogd2: /usr/local/bin/giftogd2
+  pngtogd: /usr/local/bin/pngtogd

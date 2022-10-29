@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:23557130ada74541b9dd4c594624e992b389086dc709a9f0a8d877db8d6d7341
 docker: quay.io/biocontainers/bioconductor-brainflowprobes
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

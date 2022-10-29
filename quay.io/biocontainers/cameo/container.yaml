@@ -10,13 +10,17 @@ aliases:
   cameo: /usr/local/bin/cameo
   grako: /usr/local/bin/grako
   httpx: /usr/local/bin/httpx
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  chardetect: /usr/local/bin/chardetect
+  isympy: /usr/local/bin/isympy
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  send2trash: /usr/local/bin/send2trash
   cmark: /usr/local/bin/cmark
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.9: /usr/local/bin/f2py3.9
-  futurize: /usr/local/bin/futurize
-  glpsol: /usr/local/bin/glpsol
-  idle3.9: /usr/local/bin/idle3.9
-  iptest: /usr/local/bin/iptest
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   iptest3: /usr/local/bin/iptest3

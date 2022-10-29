@@ -8,7 +8,9 @@ tags:
 docker: quay.io/biocontainers/legsta
 aliases:
   gfPcr: /usr/local/bin/gfPcr
+  gfServer: /usr/local/bin/gfServer
   isPcr: /usr/local/bin/isPcr
   legsta: /usr/local/bin/legsta
   any2fasta: /usr/local/bin/any2fasta
-  gfServer: /usr/local/bin/gfServer
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

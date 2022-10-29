@@ -9,11 +9,13 @@ docker: quay.io/biocontainers/refgenie
 aliases:
   import_igenome: /usr/local/bin/import_igenome
   refgenie: /usr/local/bin/refgenie
-  chardetect: /usr/local/bin/chardetect
-  f2py3.8: /usr/local/bin/f2py3.8
-  faidx: /usr/local/bin/faidx
-  futurize: /usr/local/bin/futurize
-  pasteurize: /usr/local/bin/pasteurize
   py.test: /usr/local/bin/py.test
   pytest: /usr/local/bin/pytest
+  faidx: /usr/local/bin/faidx
   tqdm: /usr/local/bin/tqdm
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.8: /usr/local/bin/f2py3.8
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8

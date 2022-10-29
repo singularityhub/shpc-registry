@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/contrafold
 aliases:
   contrafold: /usr/local/bin/contrafold
   score_prediction: /usr/local/bin/score_prediction
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

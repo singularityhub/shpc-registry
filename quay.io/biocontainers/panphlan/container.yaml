@@ -11,13 +11,13 @@ aliases:
   panphlan_download_pangenome.py: /usr/local/bin/panphlan_download_pangenome.py
   panphlan_map.py: /usr/local/bin/panphlan_map.py
   panphlan_profiling.py: /usr/local/bin/panphlan_profiling.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  perl5.32.0: /usr/local/bin/perl5.32.0
   bowtie2: /usr/local/bin/bowtie2
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
   bowtie2-build: /usr/local/bin/bowtie2-build
   bowtie2-build-l: /usr/local/bin/bowtie2-build-l
   bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s

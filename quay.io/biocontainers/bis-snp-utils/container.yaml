@@ -23,3 +23,4 @@ aliases:
   vcf4ToRod_in_specific_pos.pl: /usr/local/bin/vcf4ToRod_in_specific_pos.pl
   gtf2bed.pl: /usr/local/bin/gtf2bed.pl
   perl5.32.0: /usr/local/bin/perl5.32.0
+  streamzip: /usr/local/bin/streamzip

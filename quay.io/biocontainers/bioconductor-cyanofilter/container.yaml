@@ -7,5 +7,5 @@ tags:
   1.2.0--r41hdfd78af_0: sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4
 docker: quay.io/biocontainers/bioconductor-cyanofilter
 aliases:
-  geos-config: /usr/local/bin/geos-config
   geosop: /usr/local/bin/geosop
+  geos-config: /usr/local/bin/geos-config

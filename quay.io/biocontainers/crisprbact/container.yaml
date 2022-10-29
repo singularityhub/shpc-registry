@@ -11,8 +11,8 @@ aliases:
   keyring: /usr/local/bin/keyring
   pkginfo: /usr/local/bin/pkginfo
   poetry: /usr/local/bin/poetry
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
+  doesitcache: /usr/local/bin/doesitcache
+  jsonschema: /usr/local/bin/jsonschema
   dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
   dbus-daemon: /usr/local/bin/dbus-daemon
   dbus-launch: /usr/local/bin/dbus-launch

@@ -7,10 +7,10 @@ tags:
   0.9--r41hdfd78af_0: sha256:552a66ed7f207f3a455688c675dfacb2236be4aac2f7aa62c7861bcbe4457f8d
 docker: quay.io/biocontainers/r-viscorvar
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   pandoc: /usr/local/bin/pandoc
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

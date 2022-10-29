@@ -9,17 +9,25 @@ docker: quay.io/biocontainers/targqc
 aliases:
   annotate_bed.py: /usr/local/bin/annotate_bed.py
   cols: /usr/local/bin/cols
+  ipcluster: /usr/local/bin/ipcluster
+  ipcontroller: /usr/local/bin/ipcontroller
+  ipengine: /usr/local/bin/ipengine
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
   qualimap: /usr/local/bin/qualimap
   tabutils: /usr/local/bin/tabutils
   targqc: /usr/local/bin/targqc
   tsv: /usr/local/bin/tsv
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
+  sambamba: /usr/local/bin/sambamba
+  coverage: /usr/local/bin/coverage
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  intersection_matrix.py: /usr/local/bin/intersection_matrix.py
+  intron_exon_reads.py: /usr/local/bin/intron_exon_reads.py
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  nosetests: /usr/local/bin/nosetests
+  pbt_plotting_example.py: /usr/local/bin/pbt_plotting_example.py

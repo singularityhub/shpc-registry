@@ -18,6 +18,8 @@ aliases:
   mirabait: /usr/local/bin/mirabait
   miraconvert: /usr/local/bin/miraconvert
   miramem: /usr/local/bin/miramem
+  parsort: /usr/local/bin/parsort
+  perl5.32.0: /usr/local/bin/perl5.32.0
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
@@ -26,5 +28,3 @@ aliases:
   env_parallel.fish: /usr/local/bin/env_parallel.fish
   env_parallel.ksh: /usr/local/bin/env_parallel.ksh
   env_parallel.mksh: /usr/local/bin/env_parallel.mksh
-  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
-  env_parallel.sh: /usr/local/bin/env_parallel.sh

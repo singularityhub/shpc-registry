@@ -7,6 +7,7 @@ tags:
   4.0.0_dep--h0a036d8_4: sha256:d7818b81d3d534e99241b87cca802d8199ccec9406fc0ae629c5db3cbf0b776f
 docker: quay.io/biocontainers/xsd
 aliases:
+  xsd: /usr/local/bin/xsd
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint

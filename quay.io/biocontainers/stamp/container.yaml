@@ -9,13 +9,22 @@ docker: quay.io/biocontainers/stamp
 aliases:
   STAMP: /usr/local/bin/STAMP
   checkHierarchy.py: /usr/local/bin/checkHierarchy.py
-  assistant: /usr/local/bin/assistant
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyqi: /usr/local/bin/pyqi
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay
   biom: /usr/local/bin/biom
-  designer: /usr/local/bin/designer
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  sip: /usr/local/bin/sip
   futurize: /usr/local/bin/futurize
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  idle: /usr/local/bin/idle
-  lconvert: /usr/local/bin/lconvert
-  linguist: /usr/local/bin/linguist
-  lrelease: /usr/local/bin/lrelease
-  lupdate: /usr/local/bin/lupdate
+  pasteurize: /usr/local/bin/pasteurize
+  qdbus: /usr/local/bin/qdbus
+  qdbuscpp2xml: /usr/local/bin/qdbuscpp2xml
+  qdbusviewer: /usr/local/bin/qdbusviewer
+  qdbusxml2cpp: /usr/local/bin/qdbusxml2cpp
+  xmlpatterns: /usr/local/bin/xmlpatterns

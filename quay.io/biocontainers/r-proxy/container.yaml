@@ -7,6 +7,7 @@ tags:
   0.4_16--r3.3.1_0: sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0
 docker: quay.io/biocontainers/r-proxy
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

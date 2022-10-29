@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/maskrc-svg
 aliases:
   maskrc-svg.py: /usr/local/bin/maskrc-svg.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  ete3: /usr/local/bin/ete3
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  prerr.properties: /usr/local/bin/prerr.properties
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
-  assistant: /usr/local/bin/assistant
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
   axt_to_lav.py: /usr/local/bin/axt_to_lav.py
   axt_to_maf.py: /usr/local/bin/axt_to_maf.py
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
-  bed_build_windows.py: /usr/local/bin/bed_build_windows.py

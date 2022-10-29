@@ -7,13 +7,13 @@ tags:
   0.5--py36_0: sha256:6864f9f472963c65d07e255834ffa61c1ab1cd4ddb12c5957a69cac81ce316f3
 docker: quay.io/biocontainers/pytest-mpl
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
   easy_install-3.6: /usr/local/bin/easy_install-3.6
+  2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6
   pydoc3.6: /usr/local/bin/pydoc3.6
   python3.6: /usr/local/bin/python3.6
   python3.6-config: /usr/local/bin/python3.6-config
   python3.6m: /usr/local/bin/python3.6m
   python3.6m-config: /usr/local/bin/python3.6m-config
-  pyvenv: /usr/local/bin/pyvenv
   pyvenv-3.6: /usr/local/bin/pyvenv-3.6
+  tclsh8.5: /usr/local/bin/tclsh8.5

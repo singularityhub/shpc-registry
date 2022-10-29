@@ -8,13 +8,14 @@ tags:
 docker: quay.io/biocontainers/scirpy
 aliases:
   airr-tools: /usr/local/bin/airr-tools
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  chardetect: /usr/local/bin/chardetect
-  cmpfillin: /usr/local/bin/cmpfillin
   dunamai: /usr/local/bin/dunamai
-  f2py3.9: /usr/local/bin/f2py3.9
-  gif2h5: /usr/local/bin/gif2h5
-  glpsol: /usr/local/bin/glpsol
+  scanpy: /usr/local/bin/scanpy
+  igraph: /usr/local/bin/igraph
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  pybabel: /usr/local/bin/pybabel
+  cmpfillin: /usr/local/bin/cmpfillin
   gpmetis: /usr/local/bin/gpmetis
   graphchk: /usr/local/bin/graphchk
-  h52gif: /usr/local/bin/h52gif

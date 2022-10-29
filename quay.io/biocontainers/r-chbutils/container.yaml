@@ -7,13 +7,4 @@ tags:
   0.1_2017_10_26--r41hdfd78af_4: sha256:23dfec9157de0a36e5586f4e4565c2a4735685148c4e833cf3d8adbb3f39dbcc
 docker: quay.io/biocontainers/r-chbutils
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

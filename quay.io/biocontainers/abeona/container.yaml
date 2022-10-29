@@ -4,7 +4,6 @@ description: shpc-registry automated BioContainers addition for abeona
 latest:
   0.45.0--py_1: sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c
 tags:
-  0.45.0--py36_0: sha256:5be8da7bf9360eacc9cdaff7caf6a6081d7380584ef7946c046fa23450803a13
   0.45.0--py_1: sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c
 docker: quay.io/biocontainers/abeona
 aliases:
@@ -18,13 +17,13 @@ aliases:
   mccortex95: /usr/local/bin/mccortex95
   nextflow: /usr/local/bin/nextflow
   nextflow.bak: /usr/local/bin/nextflow.bak
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  appletviewer: /usr/local/bin/appletviewer
+  basenc: /usr/local/bin/basenc
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
   basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bwa: /usr/local/bin/bwa
   cat: /usr/local/bin/cat
   chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown

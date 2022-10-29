@@ -9,13 +9,16 @@ docker: quay.io/biocontainers/isoplot
 aliases:
   colorcet: /usr/local/bin/colorcet
   isoplot: /usr/local/bin/isoplot
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  bokeh: /usr/local/bin/bokeh
-  brotli: /usr/local/bin/brotli
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.8: /usr/local/bin/f2py3.8
-  fonttools: /usr/local/bin/fonttools
-  idle3.8: /usr/local/bin/idle3.8
-  iptest: /usr/local/bin/iptest
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  send2trash: /usr/local/bin/send2trash
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython

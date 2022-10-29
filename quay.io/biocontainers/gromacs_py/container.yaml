@@ -68,8 +68,21 @@ aliases:
   gmx-completion.bash: /usr/local/bin/gmx-completion.bash
   gwh: /usr/local/bin/gwh
   hcp_getpdb: /usr/local/bin/hcp_getpdb
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
   hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
   insert_mol_no_vmd.py: /usr/local/bin/insert_mol_no_vmd.py
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
   makeANG_RST: /usr/local/bin/makeANG_RST
   makeDIST_RST: /usr/local/bin/makeDIST_RST
   make_crd_hg: /usr/local/bin/make_crd_hg
@@ -97,6 +110,8 @@ aliases:
   nf-config: /usr/local/bin/nf-config
   nfe-umbrella-slice: /usr/local/bin/nfe-umbrella-slice
   nmode: /usr/local/bin/nmode
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
   packmol: /usr/local/bin/packmol
   packmol-memgen: /usr/local/bin/packmol-memgen
   paramfit: /usr/local/bin/paramfit
@@ -143,13 +158,13 @@ aliases:
   xleap: /usr/local/bin/xleap
   xparmed: /usr/local/bin/xparmed
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  f2py3.9: /usr/local/bin/f2py3.9
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  gif2h5: /usr/local/bin/gif2h5
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

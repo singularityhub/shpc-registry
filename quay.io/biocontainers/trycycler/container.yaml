@@ -7,14 +7,16 @@ tags:
   0.5.3--pyhdfd78af_0: sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935
 docker: quay.io/biocontainers/trycycler
 aliases:
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
   trycycler: /usr/local/bin/trycycler
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc
   capnpc-c++: /usr/local/bin/capnpc-c++
   capnpc-capnp: /usr/local/bin/capnpc-capnp
-  f2py3.9: /usr/local/bin/f2py3.9
-  k8: /usr/local/bin/k8
   mash: /usr/local/bin/mash
-  miniasm: /usr/local/bin/miniasm
-  minidot: /usr/local/bin/minidot
+  muscle: /usr/local/bin/muscle
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
   minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

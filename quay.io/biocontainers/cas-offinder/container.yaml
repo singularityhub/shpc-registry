@@ -102,7 +102,7 @@ aliases:
   verify-uselistorder: /usr/local/bin/verify-uselistorder
   whirlpool-hash: /usr/local/bin/whirlpool-hash
   yaml2obj: /usr/local/bin/yaml2obj
-  libtool: /usr/local/bin/libtool
   libtoolize: /usr/local/bin/libtoolize
+  libtool: /usr/local/bin/libtool
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config

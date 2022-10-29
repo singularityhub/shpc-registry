@@ -7,15 +7,16 @@ tags:
   1.0.3--hdfd78af_0: sha256:d4030613496a3a7637d05321de8c56dc1c0e5f0d8c9445533fef7c4af3e1ce68
 docker: quay.io/biocontainers/plasmidhawk
 aliases:
+  delta2vcf: /usr/local/bin/delta2vcf
   plasmidhawk: /usr/local/bin/plasmidhawk
   plaster: /usr/local/bin/plaster
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotate: /usr/local/bin/annotate
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
-  delta2vcf: /usr/local/bin/delta2vcf
   dnadiff: /usr/local/bin/dnadiff
   exact-tandems: /usr/local/bin/exact-tandems
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer
+  promer: /usr/local/bin/promer
+  repeat-match: /usr/local/bin/repeat-match
+  show-aligns: /usr/local/bin/show-aligns

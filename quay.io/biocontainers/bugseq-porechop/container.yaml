@@ -7,12 +7,13 @@ tags:
   0.3.4pre--py37h96cfd12_2: sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26
 docker: quay.io/biocontainers/bugseq-porechop
 aliases:
+  porechop: /usr/local/bin/porechop
   2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
-  porechop: /usr/local/bin/porechop
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

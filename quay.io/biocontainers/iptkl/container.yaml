@@ -9,21 +9,28 @@ docker: quay.io/biocontainers/iptkl
 aliases:
   colorcet: /usr/local/bin/colorcet
   compare_gos.py: /usr/local/bin/compare_gos.py
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
   go_plot.py: /usr/local/bin/go_plot.py
   holoviews: /usr/local/bin/holoviews
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
   ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
   nglview: /usr/local/bin/nglview
   panel: /usr/local/bin/panel
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
   prt_terms.py: /usr/local/bin/prt_terms.py
+  renderer: /usr/local/bin/renderer
+  send2trash: /usr/local/bin/send2trash
   wr_hier.py: /usr/local/bin/wr_hier.py
   wr_sections.py: /usr/local/bin/wr_sections.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count

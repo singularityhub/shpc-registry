@@ -13,13 +13,13 @@ aliases:
   fastspar_pvalues: /usr/local/bin/fastspar_pvalues
   fastspar_reduce: /usr/local/bin/fastspar_reduce
   module_enrichment.py: /usr/local/bin/module_enrichment.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
   biom: /usr/local/bin/biom
-  chardetect: /usr/local/bin/chardetect
+  doesitcache: /usr/local/bin/doesitcache
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  doesitcache: /usr/local/bin/doesitcache
-  f2py3.7: /usr/local/bin/f2py3.7
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
+  py.test: /usr/local/bin/py.test

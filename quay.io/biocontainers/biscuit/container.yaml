@@ -11,3 +11,5 @@ aliases:
   biscuit: /usr/local/bin/biscuit
   build_biscuit_QC_assets.pl: /usr/local/bin/build_biscuit_QC_assets.pl
   build_biscuit_QC_assets.pl.bak: /usr/local/bin/build_biscuit_QC_assets.pl.bak
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

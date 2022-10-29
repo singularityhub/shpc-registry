@@ -45,18 +45,19 @@ aliases:
   plot_bug.py: /usr/local/bin/plot_bug.py
   plot_tree_ete2.py: /usr/local/bin/plot_tree_ete2.py
   plot_tree_graphlan.py: /usr/local/bin/plot_tree_graphlan.py
+  pyqi: /usr/local/bin/pyqi
   read_fastx.py: /usr/local/bin/read_fastx.py
   sam_filter.py: /usr/local/bin/sam_filter.py
   sample2markers.py: /usr/local/bin/sample2markers.py
   strainphlan.py: /usr/local/bin/strainphlan.py
   which.py: /usr/local/bin/which.py
-  ace2sam: /usr/local/bin/ace2sam
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
+  build.sh: /usr/local/bin/build.sh
+  common.go: /usr/local/bin/common.go
+  rchive.go: /usr/local/bin/rchive.go
+  setup-deps.log: /usr/local/bin/setup-deps.log
+  setup.sh: /usr/local/bin/setup.sh
+  xtract.go: /usr/local/bin/xtract.go
   biom: /usr/local/bin/biom
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS

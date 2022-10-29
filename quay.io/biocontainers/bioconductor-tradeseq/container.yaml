@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:8871e88317ce06c163f0b8debefc59300e812b66113e52bd9d9125bc05b6b7e6
 docker: quay.io/biocontainers/bioconductor-tradeseq
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

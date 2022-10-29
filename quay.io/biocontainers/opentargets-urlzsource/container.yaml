@@ -7,11 +7,11 @@ tags:
   1.0.0--pyh864c0ab_0: sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15
 docker: quay.io/biocontainers/opentargets-urlzsource
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
   futurize: /usr/local/bin/futurize
-  idle3.8: /usr/local/bin/idle3.8
   pasteurize: /usr/local/bin/pasteurize
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config

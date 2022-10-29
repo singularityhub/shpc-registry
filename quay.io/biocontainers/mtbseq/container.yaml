@@ -10,13 +10,13 @@ aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   MTBseq: /usr/local/bin/MTBseq
   gatk3: /usr/local/bin/gatk3
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  appletviewer: /usr/local/bin/appletviewer
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
+  picard: /usr/local/bin/picard
   clhsdb: /usr/local/bin/clhsdb
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  extcheck: /usr/local/bin/extcheck
   hsdb: /usr/local/bin/hsdb
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool

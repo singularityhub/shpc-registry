@@ -9,6 +9,6 @@ docker: quay.io/biocontainers/leehom
 aliases:
   leeHom: /usr/local/bin/leeHom
   bamtools: /usr/local/bin/bamtools
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

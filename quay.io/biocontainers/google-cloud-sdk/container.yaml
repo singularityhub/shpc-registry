@@ -8,12 +8,14 @@ tags:
 docker: quay.io/biocontainers/google-cloud-sdk
 aliases:
   bq: /usr/local/bin/bq
-  easy_install-2.7: /usr/local/bin/easy_install-2.7
   gcloud: /usr/local/bin/gcloud
   gsutil: /usr/local/bin/gsutil
-  idle: /usr/local/bin/idle
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
   python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py
+  tclsh8.5: /usr/local/bin/tclsh8.5

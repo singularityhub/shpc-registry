@@ -47,7 +47,7 @@ aliases:
   uil: /usr/local/bin/uil
   vecscreen: /usr/local/bin/vecscreen
   xmbind: /usr/local/bin/xmbind
-  asn2xml: /usr/local/bin/asn2xml
+  tbl2asn: /usr/local/bin/tbl2asn
   certtool: /usr/local/bin/certtool
   gnutls-cli: /usr/local/bin/gnutls-cli
   gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug

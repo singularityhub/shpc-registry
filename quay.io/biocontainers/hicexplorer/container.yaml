@@ -38,13 +38,13 @@ aliases:
   make_tracks_file: /usr/local/bin/make_tracks_file
   pgt: /usr/local/bin/pgt
   pyGenomeTracks: /usr/local/bin/pyGenomeTracks
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
+  cooler: /usr/local/bin/cooler
+  unidecode: /usr/local/bin/unidecode
   bam2pairs: /usr/local/bin/bam2pairs
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bokeh: /usr/local/bin/bokeh
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  conv-template: /usr/local/bin/conv-template
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  from-template: /usr/local/bin/from-template
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh

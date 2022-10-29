@@ -7,13 +7,5 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:52f1d40300d436c9a97a41f0b0ab804f262d75053bdd663ee52c4613c81ab12e
 docker: quay.io/biocontainers/bioconductor-golubesets
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-golubesets-post-link.sh: /usr/local/bin/.bioconductor-golubesets-post-link.sh
+  .bioconductor-golubesets-pre-unlink.sh: /usr/local/bin/.bioconductor-golubesets-pre-unlink.sh

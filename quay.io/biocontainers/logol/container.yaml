@@ -15,13 +15,13 @@ aliases:
   swipl: /usr/local/bin/swipl
   swipl-ld: /usr/local/bin/swipl-ld
   swipl-rc: /usr/local/bin/swipl-rc
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  appletviewer: /usr/local/bin/appletviewer
   erb: /usr/local/bin/erb
-  extcheck: /usr/local/bin/extcheck
   gem: /usr/local/bin/gem
-  idle3.6: /usr/local/bin/idle3.6
-  idlj: /usr/local/bin/idlj
   irb: /usr/local/bin/irb
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah

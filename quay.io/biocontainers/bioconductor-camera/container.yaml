@@ -7,13 +7,13 @@ tags:
   1.50.0--r41hc0cfd56_2: sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b
 docker: quay.io/biocontainers/bioconductor-camera
 aliases:
-  gif2h5: /usr/local/bin/gif2h5
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
   glpsol: /usr/local/bin/glpsol
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  hdf24to8: /usr/local/bin/hdf24to8

@@ -21,13 +21,13 @@ aliases:
   poly.py: /usr/local/bin/poly.py
   polymut.py: /usr/local/bin/polymut.py
   prokka-make_tarball: /usr/local/bin/prokka-make_tarball
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  align-columns: /usr/local/bin/align-columns
-  align_print_template.py: /usr/local/bin/align_print_template.py
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotateBed: /usr/local/bin/annotateBed
-  aragorn: /usr/local/bin/aragorn
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
+  filter-table: /usr/local/bin/filter-table
+  spdi2prod: /usr/local/bin/spdi2prod
+  prokka: /usr/local/bin/prokka
+  prokka-biocyc_to_fasta_db: /usr/local/bin/prokka-biocyc_to_fasta_db
+  prokka-build_kingdom_dbs: /usr/local/bin/prokka-build_kingdom_dbs
+  prokka-cdd_to_hmm: /usr/local/bin/prokka-cdd_to_hmm
+  prokka-clusters_to_hmm: /usr/local/bin/prokka-clusters_to_hmm

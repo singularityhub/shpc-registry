@@ -7,12 +7,12 @@ tags:
   1.8.0--r40_0: sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157
 docker: quay.io/biocontainers/bioconductor-phantasus
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  idle3.8: /usr/local/bin/idle3.8
   protoc: /usr/local/bin/protoc
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

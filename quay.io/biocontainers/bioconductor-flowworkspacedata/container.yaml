@@ -7,13 +7,5 @@ tags:
   3.6.0--r41hdfd78af_1: sha256:4f8496f23f44f0f04c0c976ee16f9860df9cfeee70288f305741f8e69f4e4c4c
 docker: quay.io/biocontainers/bioconductor-flowworkspacedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-flowworkspacedata-post-link.sh: /usr/local/bin/.bioconductor-flowworkspacedata-post-link.sh
+  .bioconductor-flowworkspacedata-pre-unlink.sh: /usr/local/bin/.bioconductor-flowworkspacedata-pre-unlink.sh

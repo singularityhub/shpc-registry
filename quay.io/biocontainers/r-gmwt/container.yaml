@@ -6,14 +6,3 @@ latest:
 tags:
   1.1.1--r41h25def4e_5: sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b
 docker: quay.io/biocontainers/r-gmwt
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

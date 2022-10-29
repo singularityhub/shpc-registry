@@ -7,4 +7,6 @@ tags:
   1.8.0--r351_0: sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278
 docker: quay.io/biocontainers/bioconductor-kodata
 aliases:
+  .bioconductor-kodata-post-link.sh: /usr/local/bin/.bioconductor-kodata-post-link.sh
+  .bioconductor-kodata-pre-unlink.sh: /usr/local/bin/.bioconductor-kodata-pre-unlink.sh
   wget: /usr/local/bin/wget

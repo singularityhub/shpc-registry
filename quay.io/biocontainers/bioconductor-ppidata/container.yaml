@@ -7,13 +7,5 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:d17259bc134e102ec0eb04415660e6b75cc21d4e57ff3c3bf4da41471f08ee4d
 docker: quay.io/biocontainers/bioconductor-ppidata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ppidata-post-link.sh: /usr/local/bin/.bioconductor-ppidata-post-link.sh
+  .bioconductor-ppidata-pre-unlink.sh: /usr/local/bin/.bioconductor-ppidata-pre-unlink.sh

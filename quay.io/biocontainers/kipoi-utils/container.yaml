@@ -7,13 +7,13 @@ tags:
   0.7.6--pyh5e36f6f_0: sha256:a11b200c85a1f763643450fac996f7063a10e0fb5aab0ddb9c9997e98b19816a
 docker: quay.io/biocontainers/kipoi-utils
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
+  tqdm: /usr/local/bin/tqdm
   futurize: /usr/local/bin/futurize
-  idle3.10: /usr/local/bin/idle3.10
   pasteurize: /usr/local/bin/pasteurize
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  tqdm: /usr/local/bin/tqdm

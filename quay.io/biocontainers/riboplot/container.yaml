@@ -16,6 +16,9 @@ aliases:
   moc-qt4: /usr/local/bin/moc-qt4
   nosetests-2.7: /usr/local/bin/nosetests-2.7
   pixeltool-qt4: /usr/local/bin/pixeltool-qt4
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
   qcollectiongenerator-qt4: /usr/local/bin/qcollectiongenerator-qt4
   qdbus-qt4: /usr/local/bin/qdbus-qt4
   qdbuscpp2xml-qt4: /usr/local/bin/qdbuscpp2xml-qt4
@@ -36,6 +39,7 @@ aliases:
   uic-qt4: /usr/local/bin/uic-qt4
   xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
   xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4
+  sip: /usr/local/bin/sip
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -45,4 +49,3 @@ aliases:
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
   closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed

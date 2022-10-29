@@ -6,14 +6,3 @@ latest:
 tags:
   1.8_6.7--r41h930fe3c_2: sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531
 docker: quay.io/biocontainers/r-grbase
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

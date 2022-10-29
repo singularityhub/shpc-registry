@@ -6,14 +6,3 @@ latest:
 tags:
   1.24.0--r41hdfd78af_0: sha256:b73cb5e2300bb999ffccc42bac1b1d3c854ad52100e5ed3ca112500a7153046f
 docker: quay.io/biocontainers/bioconductor-sevenbridges
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

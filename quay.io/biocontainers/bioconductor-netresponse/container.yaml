@@ -7,6 +7,6 @@ tags:
   1.54.0--r41hc0cfd56_2: sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20
 docker: quay.io/biocontainers/bioconductor-netresponse
 aliases:
+  pandoc-server: /usr/local/bin/pandoc-server
   glpsol: /usr/local/bin/glpsol
   pandoc: /usr/local/bin/pandoc
-  pandoc-server: /usr/local/bin/pandoc-server

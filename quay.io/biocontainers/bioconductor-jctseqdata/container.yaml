@@ -7,4 +7,6 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:0379af3ef347dc75fd67a0971cb16f0defcbd8aebc1908dc800077041bd34c79
 docker: quay.io/biocontainers/bioconductor-jctseqdata
 aliases:
+  .bioconductor-jctseqdata-post-link.sh: /usr/local/bin/.bioconductor-jctseqdata-post-link.sh
+  .bioconductor-jctseqdata-pre-unlink.sh: /usr/local/bin/.bioconductor-jctseqdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

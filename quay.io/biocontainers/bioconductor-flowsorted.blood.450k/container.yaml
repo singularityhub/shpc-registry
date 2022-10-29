@@ -7,13 +7,5 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:c5d6da9dcd0730f4cf0a7e377bd90d40b627061e5488ed82d5bb35c3954a28de
 docker: quay.io/biocontainers/bioconductor-flowsorted.blood.450k
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-flowsorted.blood.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-post-link.sh
+  .bioconductor-flowsorted.blood.450k-pre-unlink.sh: /usr/local/bin/.bioconductor-flowsorted.blood.450k-pre-unlink.sh

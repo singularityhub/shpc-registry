@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/pynast
 aliases:
   pynast: /usr/local/bin/pynast
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  mpiCC: /usr/local/bin/mpiCC
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  ompi_info: /usr/local/bin/ompi_info
+  opal_wrapper: /usr/local/bin/opal_wrapper
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server

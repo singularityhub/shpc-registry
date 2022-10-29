@@ -7,14 +7,18 @@ tags:
   0.1.9--pyh5e36f6f_2: sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281
 docker: quay.io/biocontainers/cgat-daisy
 aliases:
+  bq: /usr/local/bin/bq
   daisy: /usr/local/bin/daisy
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
+  gcloud: /usr/local/bin/gcloud
+  time: /usr/local/bin/time
+  gsutil: /usr/local/bin/gsutil
+  basenc: /usr/local/bin/basenc
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
   base64: /usr/local/bin/base64
   basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bq: /usr/local/bin/bq
   cat: /usr/local/bin/cat
   chcon: /usr/local/bin/chcon
   chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod

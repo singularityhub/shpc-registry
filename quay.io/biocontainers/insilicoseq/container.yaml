@@ -2,24 +2,18 @@ url: https://biocontainers.pro/tools/insilicoseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for insilicoseq
 latest:
-  1.5.4--pyh5e36f6f_0: "crane digest quay.io/biocontainers/insilicoseq:1.5.4--pyh5e36f6f_0:\
-    \ unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\
-    \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx/1.20.1</center>\r\
-    \n</body>\r\n</html>\r\n"
+  1.5.4--pyh5e36f6f_0: sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf
 tags:
-  1.5.4--pyh5e36f6f_0: "crane digest quay.io/biocontainers/insilicoseq:1.5.4--pyh5e36f6f_0:\
-    \ unsupported status code 504; body: <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\
-    \n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx/1.20.1</center>\r\
-    \n</body>\r\n</html>\r\n"
+  1.5.4--pyh5e36f6f_0: sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf
 docker: quay.io/biocontainers/insilicoseq
 aliases:
   iss: /usr/local/bin/iss
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
   chardetect: /usr/local/bin/chardetect
   f2py3.9: /usr/local/bin/f2py3.9
-  futurize: /usr/local/bin/futurize
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
-  pasteurize: /usr/local/bin/pasteurize
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

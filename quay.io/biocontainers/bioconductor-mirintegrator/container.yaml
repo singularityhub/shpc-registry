@@ -7,5 +7,6 @@ tags:
   1.8.0--r3.4.1_0: sha256:d275f1a7351168cebe9920312fbee6287b16c7a8dd6ca436eded6ebc5f6ba416
 docker: quay.io/biocontainers/bioconductor-mirintegrator
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
   wget: /usr/local/bin/wget
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -6,14 +6,3 @@ latest:
 tags:
   0.2.1--r41hecf12ef_7: sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc
 docker: quay.io/biocontainers/r-orqa
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

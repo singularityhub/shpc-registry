@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r351_0: sha256:53ea0ba24cf1b038ef84ef86b7dfcac96582675caf374b45de206dacac7dabf9
 docker: quay.io/biocontainers/bioconductor-biomformat
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

@@ -9,19 +9,22 @@ docker: quay.io/biocontainers/rptools
 aliases:
   filetype: /usr/local/bin/filetype
   httpx: /usr/local/bin/httpx
+  isympy: /usr/local/bin/isympy
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
   pint-convert: /usr/local/bin/pint-convert
   search_zenodo: /usr/local/bin/search_zenodo
   search_zenodo.py: /usr/local/bin/search_zenodo.py
   slugify: /usr/local/bin/slugify
   upload_zenodo: /usr/local/bin/upload_zenodo
   upload_zenodo.py: /usr/local/bin/upload_zenodo.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cmark: /usr/local/bin/cmark
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  gif2rgb: /usr/local/bin/gif2rgb
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

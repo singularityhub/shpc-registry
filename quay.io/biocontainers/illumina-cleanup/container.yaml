@@ -12,15 +12,16 @@ aliases:
   illumina-cleanup: /usr/local/bin/illumina-cleanup
   jq: /usr/local/bin/jq
   lighter: /usr/local/bin/lighter
+  nextflow: /usr/local/bin/nextflow
   nextflow.bak: /usr/local/bin/nextflow.bak
   onig-config: /usr/local/bin/onig-config
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
   alltoall.sh: /usr/local/bin/alltoall.sh
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  comparessu.sh: /usr/local/bin/comparessu.sh
+  filtersilva.sh: /usr/local/bin/filtersilva.sh
+  sketchblacklist2.sh: /usr/local/bin/sketchblacklist2.sh

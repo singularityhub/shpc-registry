@@ -13,13 +13,13 @@ aliases:
   seqmap: /usr/local/bin/seqmap
   to_fasta.py: /usr/local/bin/to_fasta.py
   unitas.pl: /usr/local/bin/unitas.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  cpanm: /usr/local/bin/cpanm
-  idle3.9: /usr/local/bin/idle3.9
   lwp-download: /usr/local/bin/lwp-download
   lwp-dump: /usr/local/bin/lwp-dump
   lwp-mirror: /usr/local/bin/lwp-mirror
   lwp-request: /usr/local/bin/lwp-request
+  cpanm: /usr/local/bin/cpanm
   perl5.26.2: /usr/local/bin/perl5.26.2
   podselect: /usr/local/bin/podselect
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9

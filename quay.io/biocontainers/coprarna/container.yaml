@@ -11,6 +11,7 @@ aliases:
   IntaRNA: /usr/local/bin/IntaRNA
   IntaRNA_1ui.pl: /usr/local/bin/IntaRNA_1ui.pl
   IntaRNA_up_1ui.pl: /usr/local/bin/IntaRNA_up_1ui.pl
+  RNAmultifold: /usr/local/bin/RNAmultifold
   _fclique: /usr/local/bin/_fclique
   _fconsense: /usr/local/bin/_fconsense
   _fcontml: /usr/local/bin/_fcontml
@@ -100,13 +101,13 @@ aliases:
   ftreedist: /usr/local/bin/ftreedist
   ftreedistpair: /usr/local/bin/ftreedistpair
   phantomjs: /usr/local/bin/phantomjs
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  AnalyseDists: /usr/local/bin/AnalyseDists
-  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
-  Kinfold: /usr/local/bin/Kinfold
-  RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold
+  clustalo: /usr/local/bin/clustalo
+  _bdftogd: /usr/local/bin/_bdftogd
+  _gd2copypal: /usr/local/bin/_gd2copypal
+  _gd2togif: /usr/local/bin/_gd2togif
+  _gd2topng: /usr/local/bin/_gd2topng
+  _gdcmpgif: /usr/local/bin/_gdcmpgif
+  _gdparttopng: /usr/local/bin/_gdparttopng
+  _gdtopng: /usr/local/bin/_gdtopng
+  _giftogd2: /usr/local/bin/_giftogd2
+  _pngtogd: /usr/local/bin/_pngtogd

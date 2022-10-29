@@ -6,14 +6,3 @@ latest:
 tags:
   1.70.0--r41hdfd78af_0: sha256:f3569863a269f5ccd7196695cf7c93d8df7e92e4c2dc32ba00d80d13dadca3ab
 docker: quay.io/biocontainers/bioconductor-affycomp
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,13 +7,15 @@ tags:
   2.7.20180809223002--py_0: sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6
 docker: quay.io/biocontainers/schema-salad
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
   avro: /usr/local/bin/avro
-  chardetect: /usr/local/bin/chardetect
   csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
   doesitcache: /usr/local/bin/doesitcache
   futurize: /usr/local/bin/futurize
-  idle3.6: /usr/local/bin/idle3.6
   pasteurize: /usr/local/bin/pasteurize
-  pydoc3.6: /usr/local/bin/pydoc3.6
-  python3.6: /usr/local/bin/python3.6
+  chardetect: /usr/local/bin/chardetect

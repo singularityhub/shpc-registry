@@ -37,6 +37,7 @@ aliases:
   daligner: /usr/local/bin/daligner
   daligner_p: /usr/local/bin/daligner_p
   datander: /usr/local/bin/datander
+  delta2vcf: /usr/local/bin/delta2vcf
   dexta: /usr/local/bin/dexta
   falcon-phase: /usr/local/bin/falcon-phase
   falcon-task: /usr/local/bin/falcon-task
@@ -89,13 +90,13 @@ aliases:
   rangen: /usr/local/bin/rangen
   simulator: /usr/local/bin/simulator
   undexta: /usr/local/bin/undexta
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot
+  nucmer: /usr/local/bin/nucmer

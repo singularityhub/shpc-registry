@@ -7,14 +7,17 @@ tags:
   0.1.1--py_1: sha256:54d1f835aadd275e297a2e6a6403721dfcf88e26d1d087f60bed0060fc32725c
 docker: quay.io/biocontainers/fast5seek
 aliases:
-  fast5seek: /usr/local/bin/fast5seek
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.6: /usr/local/bin/f2py3.6
   fast5_subset: /usr/local/bin/fast5_subset
+  fast5seek: /usr/local/bin/fast5seek
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  f2py3.6: /usr/local/bin/f2py3.6
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6

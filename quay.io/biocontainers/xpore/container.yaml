@@ -7,18 +7,23 @@ tags:
   2.1--pyh5e36f6f_0: sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4
 docker: quay.io/biocontainers/xpore
 aliases:
+  epylint: /usr/local/bin/epylint
+  isort: /usr/local/bin/isort
   isort-identify-imports: /usr/local/bin/isort-identify-imports
   pyensembl: /usr/local/bin/pyensembl
+  pylint: /usr/local/bin/pylint
+  pyreverse: /usr/local/bin/pyreverse
+  symilar: /usr/local/bin/symilar
   xpore: /usr/local/bin/xpore
   xpore-dataprep: /usr/local/bin/xpore-dataprep
   xpore-diffmod: /usr/local/bin/xpore-diffmod
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
   chardetect: /usr/local/bin/chardetect
-  epylint: /usr/local/bin/epylint
   f2py3.9: /usr/local/bin/f2py3.9
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug

@@ -7,31 +7,51 @@ tags:
   0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
 docker: quay.io/biocontainers/cgat-scripts-nosetests
 aliases:
+  innochecksum: /usr/local/bin/innochecksum
   msql2mysql: /usr/local/bin/msql2mysql
+  myisam_ftdump: /usr/local/bin/myisam_ftdump
+  myisamchk: /usr/local/bin/myisamchk
+  myisamlog: /usr/local/bin/myisamlog
+  myisampack: /usr/local/bin/myisampack
+  mysql: /usr/local/bin/mysql
   mysql_client_test: /usr/local/bin/mysql_client_test
   mysql_convert_table_format: /usr/local/bin/mysql_convert_table_format
   mysql_find_rows: /usr/local/bin/mysql_find_rows
   mysql_fix_extensions: /usr/local/bin/mysql_fix_extensions
   mysql_plugin: /usr/local/bin/mysql_plugin
+  mysql_secure_installation: /usr/local/bin/mysql_secure_installation
   mysql_setpermission: /usr/local/bin/mysql_setpermission
+  mysql_tzinfo_to_sql: /usr/local/bin/mysql_tzinfo_to_sql
+  mysql_upgrade: /usr/local/bin/mysql_upgrade
   mysql_waitpid: /usr/local/bin/mysql_waitpid
   mysql_zap: /usr/local/bin/mysql_zap
   mysqlaccess: /usr/local/bin/mysqlaccess
   mysqlaccess.conf: /usr/local/bin/mysqlaccess.conf
+  mysqladmin: /usr/local/bin/mysqladmin
+  mysqlbinlog: /usr/local/bin/mysqlbinlog
   mysqlbug: /usr/local/bin/mysqlbug
+  mysqlcheck: /usr/local/bin/mysqlcheck
+  mysqld: /usr/local/bin/mysqld
+  mysqld_multi: /usr/local/bin/mysqld_multi
+  mysqld_safe: /usr/local/bin/mysqld_safe
+  mysqldump: /usr/local/bin/mysqldump
+  mysqldumpslow: /usr/local/bin/mysqldumpslow
   mysqlhotcopy: /usr/local/bin/mysqlhotcopy
+  mysqlimport: /usr/local/bin/mysqlimport
+  mysqlshow: /usr/local/bin/mysqlshow
+  mysqlslap: /usr/local/bin/mysqlslap
   mysqltest: /usr/local/bin/mysqltest
   pep8: /usr/local/bin/pep8
   replace: /usr/local/bin/replace
   resolve_stack_dump: /usr/local/bin/resolve_stack_dump
   resolveip: /usr/local/bin/resolveip
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  transformseq: /usr/local/bin/transformseq
+  weblogo: /usr/local/bin/weblogo
+  wigToBigWig: /usr/local/bin/wigToBigWig
   bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot

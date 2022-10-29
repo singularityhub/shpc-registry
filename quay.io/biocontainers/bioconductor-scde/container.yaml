@@ -6,14 +6,3 @@ latest:
 tags:
   2.8.0--r351hfc679d8_0: sha256:6a6401ace0c9addc36dc3e3cef15b8ad83495f315b9b4a58fb3edaeb39806444
 docker: quay.io/biocontainers/bioconductor-scde
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

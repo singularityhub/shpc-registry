@@ -7,6 +7,7 @@ tags:
   3.7.2--pyhdfd78af_0: sha256:c143b11761a0b7ae12d954e40310aea41ccd8f3499761a8b070c165c216aeb96
 docker: quay.io/biocontainers/biobb_md
 aliases:
+  .biobb_md-post-link.sh: /usr/local/bin/.biobb_md-post-link.sh
   GMXRC: /usr/local/bin/GMXRC
   GMXRC.bash: /usr/local/bin/GMXRC.bash
   GMXRC.csh: /usr/local/bin/GMXRC.csh
@@ -16,24 +17,39 @@ aliases:
   editconf: /usr/local/bin/editconf
   genion: /usr/local/bin/genion
   genrestr: /usr/local/bin/genrestr
+  gmx: /usr/local/bin/gmx
   gmx-completion-gmx.bash: /usr/local/bin/gmx-completion-gmx.bash
   gmx-completion.bash: /usr/local/bin/gmx-completion.bash
   gmxselect: /usr/local/bin/gmxselect
   grompp: /usr/local/bin/grompp
   grompp_mdrun: /usr/local/bin/grompp_mdrun
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
   make_ndx: /usr/local/bin/make_ndx
   mdrun: /usr/local/bin/mdrun
   ndx2resttop: /usr/local/bin/ndx2resttop
   pdb2gmx: /usr/local/bin/pdb2gmx
   solvate: /usr/local/bin/solvate
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
   fftw-wisdom: /usr/local/bin/fftw-wisdom
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom
   fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  gmx: /usr/local/bin/gmx
-  hwloc-annotate: /usr/local/bin/hwloc-annotate
-  hwloc-bind: /usr/local/bin/hwloc-bind
-  hwloc-calc: /usr/local/bin/hwloc-calc
+  normalizer: /usr/local/bin/normalizer
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7

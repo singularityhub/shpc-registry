@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/aptardi
 aliases:
   aptardi: /usr/local/bin/aptardi
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  chardetect: /usr/local/bin/chardetect
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py3.7: /usr/local/bin/f2py3.7
-  gif2h5: /usr/local/bin/gif2h5
   google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt

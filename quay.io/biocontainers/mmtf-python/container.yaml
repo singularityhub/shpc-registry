@@ -7,12 +7,12 @@ tags:
   1.0.5--py27_0: sha256:6de4f7078bbb1efab014c2b4abc14353a688f00854116906e82979a4e807b680
 docker: quay.io/biocontainers/mmtf-python
 aliases:
+  sample: /usr/local/bin/sample
   easy_install-2.7: /usr/local/bin/easy_install-2.7
-  idle: /usr/local/bin/idle
-  python-config: /usr/local/bin/python-config
   python2: /usr/local/bin/python2
   python2.7: /usr/local/bin/python2.7
-  sample: /usr/local/bin/sample
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5

@@ -11,13 +11,13 @@ aliases:
   ngless: /usr/local/bin/ngless
   paladin: /usr/local/bin/paladin
   pyrodigal: /usr/local/bin/pyrodigal
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
-  megahit: /usr/local/bin/megahit
   megahit_core: /usr/local/bin/megahit_core
   megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
   megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  megahit: /usr/local/bin/megahit
   megahit_toolkit: /usr/local/bin/megahit_toolkit
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

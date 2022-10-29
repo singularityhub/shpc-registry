@@ -17,3 +17,5 @@ aliases:
   gmer_counter: /usr/local/bin/gmer_counter
   oe.R: /usr/local/bin/oe.R
   seeker.pl: /usr/local/bin/seeker.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

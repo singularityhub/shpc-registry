@@ -7,6 +7,8 @@ tags:
   1.8.0--r36_1: sha256:e11a81991aa2a911f3405f00b9599ec97cdd09fb202886b58b39215b76be070f
 docker: quay.io/biocontainers/bioconductor-chipexoqual
 aliases:
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  pandoc: /usr/local/bin/pandoc
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pandoc: /usr/local/bin/pandoc
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

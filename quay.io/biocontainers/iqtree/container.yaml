@@ -7,5 +7,5 @@ tags:
   2.2.0_beta--hb97b32f_1: sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3
 docker: quay.io/biocontainers/iqtree
 aliases:
-  iqtree2: /usr/local/bin/iqtree2
   iqtree: /usr/local/bin/iqtree
+  iqtree2: /usr/local/bin/iqtree2

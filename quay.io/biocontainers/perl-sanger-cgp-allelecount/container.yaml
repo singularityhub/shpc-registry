@@ -14,13 +14,15 @@ aliases:
   cover: /usr/local/bin/cover
   cpancover: /usr/local/bin/cpancover
   gcov2perl: /usr/local/bin/gcov2perl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bgzip: /usr/local/bin/bgzip
-  bp_aacomp: /usr/local/bin/bp_aacomp
-  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
-  bp_biogetseq: /usr/local/bin/bp_biogetseq
-  bp_dbsplit: /usr/local/bin/bp_dbsplit
-  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

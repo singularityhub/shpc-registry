@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/perl-bio-easel
 aliases:
   esl-alidepair.pl: /usr/local/bin/esl-alidepair.pl
   esl-ssplit.pl: /usr/local/bin/esl-ssplit.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

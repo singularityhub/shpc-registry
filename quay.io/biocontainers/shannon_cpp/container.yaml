@@ -11,13 +11,13 @@ aliases:
   run_rcorrector.pl: /usr/local/bin/run_rcorrector.pl
   shannon_cpp: /usr/local/bin/shannon_cpp
   syrupy.py: /usr/local/bin/syrupy.py
+  jellyfish: /usr/local/bin/jellyfish
+  cmpfillin: /usr/local/bin/cmpfillin
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis
+  basenc: /usr/local/bin/basenc
   b2sum: /usr/local/bin/b2sum
   base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  cat: /usr/local/bin/cat
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod
-  chown: /usr/local/bin/chown

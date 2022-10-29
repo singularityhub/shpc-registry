@@ -14,3 +14,5 @@ aliases:
   pp: /usr/local/bin/pp
   scandeps.pl: /usr/local/bin/scandeps.pl
   tkpp: /usr/local/bin/tkpp
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

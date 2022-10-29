@@ -7,21 +7,38 @@ tags:
   2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
 docker: quay.io/biocontainers/magpurify
 aliases:
+  .magpurify-post-link.sh: /usr/local/bin/.magpurify-post-link.sh
   coverm: /usr/local/bin/coverm
+  fastq-interleave: /usr/local/bin/fastq-interleave
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-merge-batches: /usr/local/bin/last-merge-batches
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
   last-split8: /usr/local/bin/last-split8
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
   lastal8: /usr/local/bin/lastal8
+  lastdb: /usr/local/bin/lastdb
   lastdb8: /usr/local/bin/lastdb8
+  maf-convert: /usr/local/bin/maf-convert
   maf-cut: /usr/local/bin/maf-cut
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
   magpurify: /usr/local/bin/magpurify
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
   remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
   starcode: /usr/local/bin/starcode
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  parsort: /usr/local/bin/parsort
+  fetch-extras: /usr/local/bin/fetch-extras
+  go.mod: /usr/local/bin/go.mod
+  go.sum: /usr/local/bin/go.sum
+  hlp-xtract.txt: /usr/local/bin/hlp-xtract.txt

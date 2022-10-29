@@ -7,13 +7,5 @@ tags:
   1.24.0--r41hdfd78af_1: sha256:ac1cba10c3b5d2e5bc9346328850b20563044726d7572730cb8764616fe1b9dc
 docker: quay.io/biocontainers/bioconductor-snphooddata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-snphooddata-post-link.sh: /usr/local/bin/.bioconductor-snphooddata-post-link.sh
+  .bioconductor-snphooddata-pre-unlink.sh: /usr/local/bin/.bioconductor-snphooddata-pre-unlink.sh

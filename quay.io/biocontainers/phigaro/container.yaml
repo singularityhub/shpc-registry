@@ -7,15 +7,16 @@ tags:
   2.3.0--pyh7b7c402_1: sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a
 docker: quay.io/biocontainers/phigaro
 aliases:
+  .phigaro-post-link.sh: /usr/local/bin/.phigaro-post-link.sh
   phigaro: /usr/local/bin/phigaro
   phigaro-setup: /usr/local/bin/phigaro-setup
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  alimask: /usr/local/bin/alimask
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
   easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
+  f2py3.6: /usr/local/bin/f2py3.6
   esl-alimanip: /usr/local/bin/esl-alimanip
   esl-alimap: /usr/local/bin/esl-alimap
   esl-alimask: /usr/local/bin/esl-alimask
   esl-alimerge: /usr/local/bin/esl-alimerge
   esl-alipid: /usr/local/bin/esl-alipid
-  esl-alirev: /usr/local/bin/esl-alirev

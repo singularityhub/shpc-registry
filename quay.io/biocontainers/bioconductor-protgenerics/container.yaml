@@ -7,7 +7,7 @@ tags:
   1.8.0--r3.4.1_0: sha256:28f0dd18fdb0526851afb31b5e4db6ff686c921bd4ebf3c172e892c7010de8e4
 docker: quay.io/biocontainers/bioconductor-protgenerics
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

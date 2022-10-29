@@ -7,6 +7,6 @@ tags:
   2.17.0--r36_1: sha256:c1d50e1954a023b07daf6a9dfb6ab4ef1555da37442564633d429f0d69469c6f
 docker: quay.io/biocontainers/bioconductor-exomepeak
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

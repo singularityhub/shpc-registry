@@ -12,13 +12,13 @@ aliases:
   mageck-vispr: /usr/local/bin/mageck-vispr
   mageckGSEA: /usr/local/bin/mageckGSEA
   vispr: /usr/local/bin/vispr
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  cutadapt: /usr/local/bin/cutadapt
+  fastqc: /usr/local/bin/fastqc
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  flask: /usr/local/bin/flask
+  pulptest: /usr/local/bin/pulptest
+  igzip: /usr/local/bin/igzip
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
-  aserver: /usr/local/bin/aserver
-  bcomps: /usr/local/bin/bcomps
-  cbc: /usr/local/bin/cbc
-  ccomps: /usr/local/bin/ccomps

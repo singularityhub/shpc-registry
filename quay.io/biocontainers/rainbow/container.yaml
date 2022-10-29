@@ -16,3 +16,5 @@ aliases:
   select_best_rbcontig_plus_read1.pl.bak: /usr/local/bin/select_best_rbcontig_plus_read1.pl.bak
   select_sec_rbcontig.pl: /usr/local/bin/select_sec_rbcontig.pl
   select_sec_rbcontig.pl.bak: /usr/local/bin/select_sec_rbcontig.pl.bak
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

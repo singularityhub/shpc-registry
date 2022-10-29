@@ -271,7 +271,7 @@ aliases:
   unzipont: /usr/local/bin/unzipont
   unzipont_dir: /usr/local/bin/unzipont_dir
   wgetdir: /usr/local/bin/wgetdir
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
-  racon_wrapper: /usr/local/bin/racon_wrapper

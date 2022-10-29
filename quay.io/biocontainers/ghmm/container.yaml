@@ -7,17 +7,19 @@ tags:
   0.9--py27pl5321he3645e8_2: sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c
 docker: quay.io/biocontainers/ghmm
 aliases:
+  ccache-swig: /usr/local/bin/ccache-swig
   ghmm-config: /usr/local/bin/ghmm-config
   probdist: /usr/local/bin/probdist
   scluster: /usr/local/bin/scluster
   smix_hmm: /usr/local/bin/smix_hmm
-  ccache-swig: /usr/local/bin/ccache-swig
+  swig: /usr/local/bin/swig
   cluster: /usr/local/bin/cluster
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
   smtpd.py: /usr/local/bin/smtpd.py
-  swig: /usr/local/bin/swig
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

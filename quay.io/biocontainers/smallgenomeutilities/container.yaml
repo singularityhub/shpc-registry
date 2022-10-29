@@ -25,7 +25,7 @@ aliases:
   predict_num_reads: /usr/local/bin/predict_num_reads
   pysamstats: /usr/local/bin/pysamstats
   remove_gaps_msa: /usr/local/bin/remove_gaps_msa
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  coverage: /usr/local/bin/coverage
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py

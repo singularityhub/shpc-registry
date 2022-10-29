@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:fdbb54ba14770c47aed0de81da2003546587a533a09e06f5b98603032c4a0222
 docker: quay.io/biocontainers/bioconductor-diffloopdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-diffloopdata-post-link.sh: /usr/local/bin/.bioconductor-diffloopdata-post-link.sh
+  .bioconductor-diffloopdata-pre-unlink.sh: /usr/local/bin/.bioconductor-diffloopdata-pre-unlink.sh

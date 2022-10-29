@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/vcfkit
 aliases:
   vk: /usr/local/bin/vk
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  unidecode: /usr/local/bin/unidecode
+  cyvcf2: /usr/local/bin/cyvcf2
+  muscle: /usr/local/bin/muscle
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
   CA.pm: /usr/local/bin/CA.pm
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  bcftools: /usr/local/bin/bcftools
-  between-two-genes: /usr/local/bin/between-two-genes
+  cacert.pem: /usr/local/bin/cacert.pem
+  index-themes: /usr/local/bin/index-themes
+  tabulate: /usr/local/bin/tabulate
+  cygdb: /usr/local/bin/cygdb

@@ -6,14 +6,3 @@ latest:
 tags:
   1.22.0--r41hc0cfd56_2: sha256:d96ca382cd12cae3d1da3fbd175563650e5da2715a8cdb0bc760ec2b2df65813
 docker: quay.io/biocontainers/bioconductor-icare
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -6,14 +6,3 @@ latest:
 tags:
   0.1--r41h9f5acd7_3: sha256:1fd01dbb8a21e4a10b2009513d6d34b85264fe6a11a8cd831a8111a8b99b7e1a
 docker: quay.io/biocontainers/r-harmony
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

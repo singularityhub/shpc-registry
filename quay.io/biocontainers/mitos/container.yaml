@@ -20,6 +20,7 @@ aliases:
   subseq.py: /usr/local/bin/subseq.py
   taxtree.py: /usr/local/bin/taxtree.py
   update-blastdb.py: /usr/local/bin/update-blastdb.py
+  RNAfold: /usr/local/bin/RNAfold
   Kinfold: /usr/local/bin/Kinfold
   RNALfold: /usr/local/bin/RNALfold
   RNAaliduplex: /usr/local/bin/RNAaliduplex
@@ -28,5 +29,4 @@ aliases:
   RNAdistance: /usr/local/bin/RNAdistance
   RNAduplex: /usr/local/bin/RNAduplex
   RNAeval: /usr/local/bin/RNAeval
-  RNAfold: /usr/local/bin/RNAfold
   RNAforester: /usr/local/bin/RNAforester

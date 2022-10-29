@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/clipcontext
 aliases:
   clipcontext: /usr/local/bin/clipcontext
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  twoBitInfo: /usr/local/bin/twoBitInfo
+  markdown_py: /usr/local/bin/markdown_py
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed

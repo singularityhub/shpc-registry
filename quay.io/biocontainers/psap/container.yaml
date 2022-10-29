@@ -7,15 +7,17 @@ tags:
   1.0.7--pyhdfd78af_0: sha256:7d46b54ab1157a246d5d3dfb17154ca9285d5c1b3f0a65d2c478822f5511c3b5
 docker: quay.io/biocontainers/psap
 aliases:
-  psap: /usr/local/bin/psap
-  versioneer: /usr/local/bin/versioneer
-  2to3-3.10: /usr/local/bin/2to3-3.10
   black: /usr/local/bin/black
   blackd: /usr/local/bin/blackd
+  psap: /usr/local/bin/psap
+  versioneer: /usr/local/bin/versioneer
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tqdm: /usr/local/bin/tqdm
   brotli: /usr/local/bin/brotli
+  f2py3.10: /usr/local/bin/f2py3.10
+  img2webp: /usr/local/bin/img2webp
   cwebp: /usr/local/bin/cwebp
   dwebp: /usr/local/bin/dwebp
-  f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp

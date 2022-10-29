@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/pygraphviz
 aliases:
   dotty: /usr/local/bin/dotty
   lneato: /usr/local/bin/lneato
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  easy_install-3.6: /usr/local/bin/easy_install-3.6
   acyclic: /usr/local/bin/acyclic
   bcomps: /usr/local/bin/bcomps
   ccomps: /usr/local/bin/ccomps
   circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
   dijkstra: /usr/local/bin/dijkstra
   dot: /usr/local/bin/dot
   dot2gxl: /usr/local/bin/dot2gxl
   dot_builtins: /usr/local/bin/dot_builtins
+  edgepaint: /usr/local/bin/edgepaint

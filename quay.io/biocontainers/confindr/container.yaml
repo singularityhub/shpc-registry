@@ -11,13 +11,17 @@ aliases:
   confindr.py: /usr/local/bin/confindr.py
   confindr_create_db: /usr/local/bin/confindr_create_db
   confindr_database_setup: /usr/local/bin/confindr_database_setup
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
   alltoall.sh: /usr/local/bin/alltoall.sh
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  comparessu.sh: /usr/local/bin/comparessu.sh
+  filtersilva.sh: /usr/local/bin/filtersilva.sh
+  sketchblacklist2.sh: /usr/local/bin/sketchblacklist2.sh
+  splitribo.sh: /usr/local/bin/splitribo.sh
+  addssu.sh: /usr/local/bin/addssu.sh

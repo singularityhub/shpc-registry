@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/islandpath
 aliases:
   islandpath: /usr/local/bin/islandpath
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  annotate: /usr/local/bin/annotate
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
   bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bp_pairwise_kaks: /usr/local/bin/bp_pairwise_kaks
+  bp_find-blast-matches.pl: /usr/local/bin/bp_find-blast-matches.pl
+  t_coffee: /usr/local/bin/t_coffee
   baseml: /usr/local/bin/baseml
   basemlg: /usr/local/bin/basemlg
+  chi2: /usr/local/bin/chi2
+  codeml: /usr/local/bin/codeml
+  evolver: /usr/local/bin/evolver

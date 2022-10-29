@@ -6,14 +6,3 @@ latest:
 tags:
   1.48.0--r41hdfd78af_0: sha256:df5f587d74984d77cc811bc77628a64f6645c5811277b7a5ff7770546ba80f46
 docker: quay.io/biocontainers/bioconductor-chipsim
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

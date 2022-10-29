@@ -79,6 +79,7 @@ aliases:
   InclusionExclusionListCreator: /usr/local/bin/InclusionExclusionListCreator
   InternalCalibration: /usr/local/bin/InternalCalibration
   IsobaricAnalyzer: /usr/local/bin/IsobaricAnalyzer
+  LICENSE: /usr/local/bin/LICENSE
   LabeledEval: /usr/local/bin/LabeledEval
   LuciphorAdapter: /usr/local/bin/LuciphorAdapter
   MRMMapper: /usr/local/bin/MRMMapper
@@ -215,16 +216,23 @@ aliases:
   comet: /usr/local/bin/comet
   comet.exe: /usr/local/bin/comet.exe
   crux: /usr/local/bin/crux
+  csc: /usr/local/bin/csc
   csc-dim: /usr/local/bin/csc-dim
+  csi: /usr/local/bin/csi
   directag: /usr/local/bin/directag
   idpAssemble: /usr/local/bin/idpAssemble
   idpQonvert: /usr/local/bin/idpQonvert
   idpQuery: /usr/local/bin/idpQuery
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
   log4net.xml: /usr/local/bin/log4net.xml
   luciphor2: /usr/local/bin/luciphor2
+  monograph: /usr/local/bin/monograph
   msgf2pin: /usr/local/bin/msgf2pin
   msgf_plus: /usr/local/bin/msgf_plus
   myrimatch: /usr/local/bin/myrimatch
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
   nunit.framework.xml: /usr/local/bin/nunit.framework.xml
   pepitome: /usr/local/bin/pepitome
   pepnovo: /usr/local/bin/pepnovo
@@ -238,14 +246,15 @@ aliases:
   tandem2pin: /usr/local/bin/tandem2pin
   thermorawfileparser: /usr/local/bin/thermorawfileparser
   unimod.xml: /usr/local/bin/unimod.xml
+  vbc: /usr/local/bin/vbc
   xtandem: /usr/local/bin/xtandem
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  LICENSE: /usr/local/bin/LICENSE
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr

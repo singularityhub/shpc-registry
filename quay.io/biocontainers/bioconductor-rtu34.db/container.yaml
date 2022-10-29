@@ -7,13 +7,6 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:0987310da61db7ce8e008747c37560a9f1c0230977ad39573094d9bd8fe5bf50
 docker: quay.io/biocontainers/bioconductor-rtu34.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-rtu34.db-post-link.sh: /usr/local/bin/.bioconductor-rtu34.db-post-link.sh
+  .bioconductor-rtu34.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rtu34.db-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

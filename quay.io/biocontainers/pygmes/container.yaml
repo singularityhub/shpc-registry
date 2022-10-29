@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pygmes
 aliases:
   pygmes: /usr/local/bin/pygmes
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
+  ete3: /usr/local/bin/ete3
+  diamond: /usr/local/bin/diamond
+  prodigal: /usr/local/bin/prodigal
+  faidx: /usr/local/bin/faidx
+  pg_config: /usr/local/bin/pg_config
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
   certutil: /usr/local/bin/certutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
+  nspr-config: /usr/local/bin/nspr-config

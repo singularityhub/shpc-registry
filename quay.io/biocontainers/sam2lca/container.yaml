@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/sam2lca
 aliases:
   sam2lca: /usr/local/bin/sam2lca
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
-  idle3.9: /usr/local/bin/idle3.9
-  igzip: /usr/local/bin/igzip
   jemalloc-config: /usr/local/bin/jemalloc-config
-  jemalloc.sh: /usr/local/bin/jemalloc.sh
   jeprof: /usr/local/bin/jeprof
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  igzip: /usr/local/bin/igzip
   pbunzip2: /usr/local/bin/pbunzip2
   pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz

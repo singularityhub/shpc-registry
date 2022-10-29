@@ -7,5 +7,5 @@ tags:
   2.8.2--r351_0: sha256:91de1ad44045dd5e3dbe52072f58f544f58ae6c2eacda2a148b7360e22ff0d28
 docker: quay.io/biocontainers/bioconductor-biocstyle
 aliases:
-  pandoc: /usr/local/bin/pandoc
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pandoc: /usr/local/bin/pandoc

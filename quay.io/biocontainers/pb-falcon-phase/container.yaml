@@ -11,6 +11,6 @@ aliases:
   falcon-phase: /usr/local/bin/falcon-phase
   fc_primary_contig_index.pl: /usr/local/bin/fc_primary_contig_index.pl
   fc_scrub_names.pl: /usr/local/bin/fc_scrub_names.pl
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

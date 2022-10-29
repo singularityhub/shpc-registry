@@ -15,8 +15,8 @@ aliases:
   snpgenie_within_group.pl: /usr/local/bin/snpgenie_within_group.pl
   snpgenie_within_group_processor.pl: /usr/local/bin/snpgenie_within_group_processor.pl
   vcf2revcom.pl: /usr/local/bin/vcf2revcom.pl
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
   perl5.26.2: /usr/local/bin/perl5.26.2
   podselect: /usr/local/bin/podselect

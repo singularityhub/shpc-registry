@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:8cced2db2c3a1426938de65f5dd7733605b2afaeb953e07a6eff4858e1c2e930
 docker: quay.io/biocontainers/bioconductor-poplarcdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-poplarcdf-post-link.sh: /usr/local/bin/.bioconductor-poplarcdf-post-link.sh
+  .bioconductor-poplarcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-poplarcdf-pre-unlink.sh

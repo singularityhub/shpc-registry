@@ -7,13 +7,5 @@ tags:
   0.99.7--r41hdfd78af_9: sha256:9beed3d3fbf3ec81cf10b9efbdf6af9f3e3fe8354e81452b2efeabc370991891
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp.20101109
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-snplocs.hsapiens.dbsnp.20101109-post-link.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp.20101109-post-link.sh
+  .bioconductor-snplocs.hsapiens.dbsnp.20101109-pre-unlink.sh: /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp.20101109-pre-unlink.sh

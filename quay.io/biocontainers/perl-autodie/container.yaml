@@ -7,13 +7,5 @@ tags:
   2.34--pl5321hdfd78af_0: sha256:ea59a18d6d29ab62e6f5a9c1d64d7b6a125f4c6cdc79e2150cfd59d7f3d1ce0a
 docker: quay.io/biocontainers/perl-autodie
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

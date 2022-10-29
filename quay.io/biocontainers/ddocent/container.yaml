@@ -34,13 +34,13 @@ aliases:
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
   update_version.sh: /usr/local/bin/update_version.sh
   vcftools: /usr/local/bin/vcftools
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  FET.pl: /usr/local/bin/FET.pl
-  abba-baba: /usr/local/bin/abba-baba
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  b2sum: /usr/local/bin/b2sum
-  bFst: /usr/local/bin/bFst
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

@@ -65,6 +65,7 @@ aliases:
   duplicateCol.pl: /usr/local/bin/duplicateCol.pl
   eland2tags.pl: /usr/local/bin/eland2tags.pl
   fasta2tab.pl: /usr/local/bin/fasta2tab.pl
+  fastq2fasta.pl: /usr/local/bin/fastq2fasta.pl
   filterListBy.pl: /usr/local/bin/filterListBy.pl
   filterTADsAndCPs.pl: /usr/local/bin/filterTADsAndCPs.pl
   filterTADsAndLoops.pl: /usr/local/bin/filterTADsAndLoops.pl
@@ -135,6 +136,7 @@ aliases:
   prepForR.pl: /usr/local/bin/prepForR.pl
   preparseGenome.pl: /usr/local/bin/preparseGenome.pl
   profile2seq.pl: /usr/local/bin/profile2seq.pl
+  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl
   randRemoveBackground.pl: /usr/local/bin/randRemoveBackground.pl
   randomizeGroupFile.pl: /usr/local/bin/randomizeGroupFile.pl
   randomizeMotifs.pl: /usr/local/bin/randomizeMotifs.pl
@@ -162,7 +164,5 @@ aliases:
   tagDir2bed.pl: /usr/local/bin/tagDir2bed.pl
   tagDir2hicFile.pl: /usr/local/bin/tagDir2hicFile.pl
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  fastq2fasta.pl: /usr/local/bin/fastq2fasta.pl
   perl5.26.2: /usr/local/bin/perl5.26.2
   podselect: /usr/local/bin/podselect
-  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl

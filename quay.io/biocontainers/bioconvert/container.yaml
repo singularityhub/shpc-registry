@@ -18,6 +18,7 @@ aliases:
   bamCompare: /usr/local/bin/bamCompare
   bamCoverage: /usr/local/bin/bamCoverage
   bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
   bigwigCompare: /usr/local/bin/bigwigCompare
   bioconvert: /usr/local/bin/bioconvert
   bioconvert_init: /usr/local/bin/bioconvert_init
@@ -56,6 +57,11 @@ aliases:
   kdbmeta.2.11.0: /usr/local/bin/kdbmeta.2.11.0
   kget.2.11.0: /usr/local/bin/kget.2.11.0
   latf-load.2.11.0: /usr/local/bin/latf-load.2.11.0
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
   mawk: /usr/local/bin/mawk
   md5cp.2.11.0: /usr/local/bin/md5cp.2.11.0
   mosdepth: /usr/local/bin/mosdepth
@@ -110,13 +116,13 @@ aliases:
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
   wiggletools: /usr/local/bin/wiggletools
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  ace2sam: /usr/local/bin/ace2sam
-  align-cache: /usr/local/bin/align-cache
+  sambamba: /usr/local/bin/sambamba
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotateBed: /usr/local/bin/annotateBed
-  bam-load: /usr/local/bin/bam-load
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
+  bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical

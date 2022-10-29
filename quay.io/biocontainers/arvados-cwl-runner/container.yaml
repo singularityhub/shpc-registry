@@ -17,14 +17,17 @@ aliases:
   arv-put: /usr/local/bin/arv-put
   arv-ws: /usr/local/bin/arv-ws
   arvados-cwl-runner: /usr/local/bin/arvados-cwl-runner
-  cwl-runner: /usr/local/bin/cwl-runner
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  acyclic: /usr/local/bin/acyclic
   bagit.py: /usr/local/bin/bagit.py
-  bcomps: /usr/local/bin/bcomps
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  coloredlogs: /usr/local/bin/coloredlogs
+  cwl-runner: /usr/local/bin/cwl-runner
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
+  cwltool: /usr/local/bin/cwltool
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
   csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  doesitcache: /usr/local/bin/doesitcache
+  coloredlogs: /usr/local/bin/coloredlogs

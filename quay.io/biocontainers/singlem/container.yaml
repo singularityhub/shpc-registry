@@ -13,6 +13,8 @@ aliases:
   convertToFullMatrix.py: /usr/local/bin/convertToFullMatrix.py
   faker: /usr/local/bin/faker
   graftM: /usr/local/bin/graftM
+  ktClassifyHits: /usr/local/bin/ktClassifyHits
+  ktImportHits: /usr/local/bin/ktImportHits
   mfqe: /usr/local/bin/mfqe
   orator: /usr/local/bin/orator
   orfm: /usr/local/bin/orfm
@@ -20,13 +22,13 @@ aliases:
   singlem: /usr/local/bin/singlem
   smafa: /usr/local/bin/smafa
   taxit: /usr/local/bin/taxit
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  alimask: /usr/local/bin/alimask
-  biom: /usr/local/bin/biom
-  dendropy-format: /usr/local/bin/dendropy-format
-  diamond: /usr/local/bin/diamond
-  easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage
+  ktImportEC: /usr/local/bin/ktImportEC
+  ktImportFCP: /usr/local/bin/ktImportFCP

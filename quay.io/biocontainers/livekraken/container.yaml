@@ -14,10 +14,12 @@ aliases:
   livekraken-report: /usr/local/bin/livekraken-report
   livekraken-translate: /usr/local/bin/livekraken-translate
   livekraken_sankey_diagram.py: /usr/local/bin/livekraken_sankey_diagram.py
+  jellyfish: /usr/local/bin/jellyfish
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  jellyfish: /usr/local/bin/jellyfish
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

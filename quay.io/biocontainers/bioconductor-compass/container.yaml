@@ -7,5 +7,5 @@ tags:
   1.32.0--r41hc247a5b_2: sha256:e50c8ace23b8dc4056ffe80c8b706784de8475fe2a528a99c0b57adfccf46127
 docker: quay.io/biocontainers/bioconductor-compass
 aliases:
-  pandoc: /usr/local/bin/pandoc
   pandoc-server: /usr/local/bin/pandoc-server
+  pandoc: /usr/local/bin/pandoc

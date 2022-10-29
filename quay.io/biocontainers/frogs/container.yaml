@@ -13,6 +13,7 @@ aliases:
   FrameBot: /usr/local/bin/FrameBot
   KmerFilter: /usr/local/bin/KmerFilter
   ProbeMatch: /usr/local/bin/ProbeMatch
+  ReadSeq: /usr/local/bin/ReadSeq
   SeqFilters: /usr/local/bin/SeqFilters
   SequenceMatch: /usr/local/bin/SequenceMatch
   affiliation_OTU.py: /usr/local/bin/affiliation_OTU.py
@@ -69,13 +70,13 @@ aliases:
   tree.py: /usr/local/bin/tree.py
   tree_tpl.html: /usr/local/bin/tree_tpl.html
   tsv_to_biom.py: /usr/local/bin/tsv_to_biom.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ReadSeq: /usr/local/bin/ReadSeq
-  appletviewer: /usr/local/bin/appletviewer
   clhsdb: /usr/local/bin/clhsdb
-  extcheck: /usr/local/bin/extcheck
-  f2py3.7: /usr/local/bin/f2py3.7
   hsdb: /usr/local/bin/hsdb
-  idle3.7: /usr/local/bin/idle3.7
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer

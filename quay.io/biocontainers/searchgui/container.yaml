@@ -7,16 +7,20 @@ tags:
   3.3.9--1: sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce
 docker: quay.io/biocontainers/searchgui
 aliases:
+  csc: /usr/local/bin/csc
   csc-dim: /usr/local/bin/csc-dim
+  csi: /usr/local/bin/csi
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
   monograph: /usr/local/bin/monograph
   nunit-console: /usr/local/bin/nunit-console
   nunit-console2: /usr/local/bin/nunit-console2
   nunit-console4: /usr/local/bin/nunit-console4
   searchgui: /usr/local/bin/searchgui
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  vbc: /usr/local/bin/vbc
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  appletviewer: /usr/local/bin/appletviewer
   caspol: /usr/local/bin/caspol
   cccheck: /usr/local/bin/cccheck
   ccrewrite: /usr/local/bin/ccrewrite

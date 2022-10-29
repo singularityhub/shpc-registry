@@ -25,13 +25,14 @@ aliases:
   routines.pm: /usr/local/bin/routines.pm
   template_for_cfg: /usr/local/bin/template_for_cfg
   template_for_qsub: /usr/local/bin/template_for_qsub
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
+  trim_galore: /usr/local/bin/trim_galore
+  cutadapt: /usr/local/bin/cutadapt
+  fastqc: /usr/local/bin/fastqc
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  gawk: /usr/local/bin/gawk
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

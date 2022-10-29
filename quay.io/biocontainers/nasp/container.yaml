@@ -17,14 +17,15 @@ aliases:
   merge_matrices.py: /usr/local/bin/merge_matrices.py
   nasp: /usr/local/bin/nasp
   report_single_snps_single_isolate.py: /usr/local/bin/report_single_snps_single_isolate.py
+  varfilter.py: /usr/local/bin/varfilter.py
   vcf_to_matrix: /usr/local/bin/vcf_to_matrix
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  aserver: /usr/local/bin/aserver
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  trimmomatic: /usr/local/bin/trimmomatic
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  run-mummer1: /usr/local/bin/run-mummer1
+  run-mummer3: /usr/local/bin/run-mummer3
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
   exact-tandems: /usr/local/bin/exact-tandems
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  mummer: /usr/local/bin/mummer

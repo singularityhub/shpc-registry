@@ -25,6 +25,8 @@ aliases:
   ann_pfam_www.pl: /usr/local/bin/ann_pfam_www.pl
   ann_upfeats_pfam_www_e.pl: /usr/local/bin/ann_upfeats_pfam_www_e.pl
   annot_blast_btop2.pl: /usr/local/bin/annot_blast_btop2.pl
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
   color_defs.pl: /usr/local/bin/color_defs.pl
   exp_up_ensg.pl: /usr/local/bin/exp_up_ensg.pl
   expand_links.pl: /usr/local/bin/expand_links.pl
@@ -57,13 +59,13 @@ aliases:
   tfasts36: /usr/local/bin/tfasts36
   tfastx36: /usr/local/bin/tfastx36
   tfasty36: /usr/local/bin/tfasty36
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bundle: /usr/local/bin/bundle
-  bundler: /usr/local/bin/bundler
-  einsi: /usr/local/bin/einsi
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
   erb: /usr/local/bin/erb
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby

@@ -6,14 +6,3 @@ latest:
 tags:
   1.1.1--r41h87f3376_1: sha256:daae54f3a91d74b9444a97b0772ba11ca12dc2b477e6fa299b8f2d08b8ef7861
 docker: quay.io/biocontainers/r-spieceasi
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:8fdc532945c19b531a400ff8ca15c7f1885bd8c494c387e5bdbde36d14fd045a
 docker: quay.io/biocontainers/bioconductor-svm2crmdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-svm2crmdata-post-link.sh: /usr/local/bin/.bioconductor-svm2crmdata-post-link.sh
+  .bioconductor-svm2crmdata-pre-unlink.sh: /usr/local/bin/.bioconductor-svm2crmdata-pre-unlink.sh

@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/doebase
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for doebase
+latest:
+  2.0.2: sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60
+tags:
+  2.0.2: sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60
+docker: quay.io/biocontainers/doebase

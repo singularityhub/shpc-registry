@@ -7,13 +7,13 @@ tags:
   1.44.0--r41hc0cfd56_2: sha256:4365e6de7b5eb4ddf4f848524c84b5851ab57e70f7b330fdf4a8dd22d4e9f775
 docker: quay.io/biocontainers/bioconductor-arrayexpresshts
 aliases:
-  aserver: /usr/local/bin/aserver
+  jpackage: /usr/local/bin/jpackage
   cups-config: /usr/local/bin/cups-config
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
   ippeveprinter: /usr/local/bin/ippeveprinter
   ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

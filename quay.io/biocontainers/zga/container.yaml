@@ -7,27 +7,35 @@ tags:
   0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
 docker: quay.io/biocontainers/zga
 aliases:
+  .zga-post-link.sh: /usr/local/bin/.zga-post-link.sh
+  checkm: /usr/local/bin/checkm
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
   file_downloader.py: /usr/local/bin/file_downloader.py
+  flye: /usr/local/bin/flye
+  flye-minimap2: /usr/local/bin/flye-minimap2
   flye-modules: /usr/local/bin/flye-modules
   flye-samtools: /usr/local/bin/flye-samtools
   ghostx: /usr/local/bin/ghostx
   mga: /usr/local/bin/mga
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
   nxtrim: /usr/local/bin/nxtrim
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
   unicycler: /usr/local/bin/unicycler
   unicycler_align: /usr/local/bin/unicycler_align
   unicycler_check: /usr/local/bin/unicycler_check
   unicycler_polish: /usr/local/bin/unicycler_polish
   unicycler_scrub: /usr/local/bin/unicycler_scrub
+  update_version.sh: /usr/local/bin/update_version.sh
   zga: /usr/local/bin/zga
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  abba-baba: /usr/local/bin/abba-baba
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  alltoall.sh: /usr/local/bin/alltoall.sh
+  filter-table: /usr/local/bin/filter-table
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  spdi2prod: /usr/local/bin/spdi2prod
+  fastp: /usr/local/bin/fastp
+  pilon: /usr/local/bin/pilon
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  rppr: /usr/local/bin/rppr
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh

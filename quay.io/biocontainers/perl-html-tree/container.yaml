@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-html-tree
 aliases:
   htmltree: /usr/local/bin/htmltree
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

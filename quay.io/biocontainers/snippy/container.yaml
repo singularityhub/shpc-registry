@@ -7,14 +7,23 @@ tags:
   4.6.0--hdfd78af_2: sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70
 docker: quay.io/biocontainers/snippy
 aliases:
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  snippy: /usr/local/bin/snippy
+  snippy-clean_full_aln: /usr/local/bin/snippy-clean_full_aln
+  snippy-core: /usr/local/bin/snippy-core
+  snippy-multi: /usr/local/bin/snippy-multi
+  snippy-vcf_extract_subs: /usr/local/bin/snippy-vcf_extract_subs
+  snippy-vcf_report: /usr/local/bin/snippy-vcf_report
+  snippy-vcf_to_tab: /usr/local/bin/snippy-vcf_to_tab
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  abba-baba: /usr/local/bin/abba-baba
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
+  update_version.sh: /usr/local/bin/update_version.sh
+  snp-sites: /usr/local/bin/snp-sites
+  vt: /usr/local/bin/vt
+  tabix++: /usr/local/bin/tabix++
+  samclip: /usr/local/bin/samclip
   any2fasta: /usr/local/bin/any2fasta
-  bFst: /usr/local/bin/bFst
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bc: /usr/local/bin/bc
+  dc: /usr/local/bin/dc
+  snpEff: /usr/local/bin/snpEff
   bamleftalign: /usr/local/bin/bamleftalign
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py

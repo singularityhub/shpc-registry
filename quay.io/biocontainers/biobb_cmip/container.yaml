@@ -16,17 +16,20 @@ aliases:
   gsd: /usr/local/bin/gsd
   mrcfile-header: /usr/local/bin/mrcfile-header
   mrcfile-validate: /usr/local/bin/mrcfile-validate
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
   prepare_structure: /usr/local/bin/prepare_structure
   surfnet2binaryGrid: /usr/local/bin/surfnet2binaryGrid
   titration: /usr/local/bin/titration
   watden: /usr/local/bin/watden
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.7: /usr/local/bin/f2py3.7
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif

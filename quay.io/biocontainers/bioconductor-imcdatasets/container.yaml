@@ -7,13 +7,15 @@ tags:
   1.2.0--r41hdfd78af_1: sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33
 docker: quay.io/biocontainers/bioconductor-imcdatasets
 aliases:
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
+  .bioconductor-imcdatasets-post-link.sh: /usr/local/bin/.bioconductor-imcdatasets-post-link.sh
+  .bioconductor-imcdatasets-pre-unlink.sh: /usr/local/bin/.bioconductor-imcdatasets-pre-unlink.sh
+  pg_amcheck: /usr/local/bin/pg_amcheck
+  gdal_create: /usr/local/bin/gdal_create
+  pdfsig: /usr/local/bin/pdfsig
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  pg_verifybackup: /usr/local/bin/pg_verifybackup
+  geosop: /usr/local/bin/geosop
+  pdfattach: /usr/local/bin/pdfattach
+  applygeo: /usr/local/bin/applygeo

@@ -10,13 +10,13 @@ aliases:
   Barcode_split: /usr/local/bin/Barcode_split
   Fast5_to_seq_summary: /usr/local/bin/Fast5_to_seq_summary
   pycoQC: /usr/local/bin/pycoQC
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  chardetect: /usr/local/bin/chardetect
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jsonschema: /usr/local/bin/jsonschema
+  tqdm: /usr/local/bin/tqdm
   f2py3.7: /usr/local/bin/f2py3.7
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7

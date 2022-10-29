@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/jass
 aliases:
   celery: /usr/local/bin/celery
   jass: /usr/local/bin/jass
+  flask: /usr/local/bin/flask
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
   chardetect: /usr/local/bin/chardetect
   f2py3.9: /usr/local/bin/f2py3.9
-  flask: /usr/local/bin/flask
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/bioconductor-ppinfer
 aliases:
   wget: /usr/local/bin/wget
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

@@ -6,14 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_0: sha256:fc5f85102f8a9bae6af403d0879410ae7ae426d9551304717918ecf453fc7b27
 docker: quay.io/biocontainers/bioconductor-quartpac
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

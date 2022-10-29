@@ -10,7 +10,8 @@ aliases:
   ansitable-list-border-styles: /usr/local/bin/ansitable-list-border-styles
   ansitable-list-color-themes: /usr/local/bin/ansitable-list-color-themes
   ansitable-list-style-sets: /usr/local/bin/ansitable-list-style-sets
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
   perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

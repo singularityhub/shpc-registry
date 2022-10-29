@@ -14,6 +14,7 @@ aliases:
   Binsanity-wf: /usr/local/bin/Binsanity-wf
   Binsanity2-beta: /usr/local/bin/Binsanity2-beta
   bin_evaluation: /usr/local/bin/bin_evaluation
+  checkm: /usr/local/bin/checkm
   checkm_analysis: /usr/local/bin/checkm_analysis
   concat: /usr/local/bin/concat
   detectionCall: /usr/local/bin/detectionCall
@@ -36,13 +37,13 @@ aliases:
   subread-fullscan: /usr/local/bin/subread-fullscan
   transform-coverage-profile: /usr/local/bin/transform-coverage-profile
   txUnique: /usr/local/bin/txUnique
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  alimask: /usr/local/bin/alimask
-  checkm: /usr/local/bin/checkm
+  rppr: /usr/local/bin/rppr
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
   dendropy-format: /usr/local/bin/dendropy-format
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
   easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
-  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet

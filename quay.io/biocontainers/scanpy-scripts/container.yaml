@@ -7,6 +7,7 @@ tags:
   1.1.2--pypyhdfd78af_1: sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
 docker: quay.io/biocontainers/scanpy-scripts
 aliases:
+  dunamai: /usr/local/bin/dunamai
   loompy: /usr/local/bin/loompy
   scanpy-cli: /usr/local/bin/scanpy-cli
   scanpy-filter-cells: /usr/local/bin/scanpy-filter-cells
@@ -25,13 +26,15 @@ aliases:
   scanpy-run-umap: /usr/local/bin/scanpy-run-umap
   scanpy-scale-data: /usr/local/bin/scanpy-scale-data
   scanpy-scripts-tests.bats: /usr/local/bin/scanpy-scripts-tests.bats
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  brotli: /usr/local/bin/brotli
   cbrunsli: /usr/local/bin/cbrunsli
-  chardetect: /usr/local/bin/chardetect
-  cmpfillin: /usr/local/bin/cmpfillin
   dbrunsli: /usr/local/bin/dbrunsli
-  dunamai: /usr/local/bin/dunamai
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

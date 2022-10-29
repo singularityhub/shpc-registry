@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/phylorank
 aliases:
   phylorank: /usr/local/bin/phylorank
-  2to3-3.9: /usr/local/bin/2to3-3.9
   dendropy-format: /usr/local/bin/dendropy-format
-  f2py3.9: /usr/local/bin/f2py3.9
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
   futurize: /usr/local/bin/futurize
-  idle3.9: /usr/local/bin/idle3.9
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
   pasteurize: /usr/local/bin/pasteurize
-  psicc: /usr/local/bin/psicc
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9

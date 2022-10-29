@@ -64,6 +64,7 @@ aliases:
   benchmark_seq: /usr/local/bin/benchmark_seq
   blasr2coords: /usr/local/bin/blasr2coords
   blat2nucmer: /usr/local/bin/blat2nucmer
+  bogart: /usr/local/bin/bogart
   bogus: /usr/local/bin/bogus
   ca2ctg: /usr/local/bin/ca2ctg
   ca2mates: /usr/local/bin/ca2mates
@@ -202,6 +203,7 @@ aliases:
   overlap-align: /usr/local/bin/overlap-align
   overlapConvert: /usr/local/bin/overlapConvert
   overlapImport: /usr/local/bin/overlapImport
+  overlapInCore: /usr/local/bin/overlapInCore
   overlapInCorePartition: /usr/local/bin/overlapInCorePartition
   overlapPair: /usr/local/bin/overlapPair
   ovl-degr-dist: /usr/local/bin/ovl-degr-dist
@@ -291,16 +293,17 @@ aliases:
   updateClrRanges: /usr/local/bin/updateClrRanges
   updateDeltaClr: /usr/local/bin/updateDeltaClr
   updateLibSizes: /usr/local/bin/updateLibSizes
+  utgcns: /usr/local/bin/utgcns
   vecfix: /usr/local/bin/vecfix
   verify-layout: /usr/local/bin/verify-layout
   wtdbgConvert: /usr/local/bin/wtdbgConvert
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bogart: /usr/local/bin/bogart
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  meryl: /usr/local/bin/meryl
+  fastaq: /usr/local/bin/fastaq
+  gnuplot: /usr/local/bin/gnuplot
+  giffilter: /usr/local/bin/giffilter
+  gifsponge: /usr/local/bin/gifsponge
+  spades-bwa: /usr/local/bin/spades-bwa
+  spades-core: /usr/local/bin/spades-core
+  spades-corrector-core: /usr/local/bin/spades-corrector-core
+  spades-gbuilder: /usr/local/bin/spades-gbuilder
+  spades-gmapper: /usr/local/bin/spades-gmapper

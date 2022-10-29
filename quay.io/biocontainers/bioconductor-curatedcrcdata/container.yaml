@@ -7,13 +7,5 @@ tags:
   2.26.0--r41hdfd78af_1: sha256:3f1aa4727610edcd00974677ff6724dcc8fd2d5641e20df011b112a87246e0ab
 docker: quay.io/biocontainers/bioconductor-curatedcrcdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-curatedcrcdata-post-link.sh: /usr/local/bin/.bioconductor-curatedcrcdata-post-link.sh
+  .bioconductor-curatedcrcdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedcrcdata-pre-unlink.sh

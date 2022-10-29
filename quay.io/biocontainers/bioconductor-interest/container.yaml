@@ -10,3 +10,6 @@ aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
   perror: /usr/local/bin/perror
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

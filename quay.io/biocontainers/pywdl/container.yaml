@@ -10,10 +10,10 @@ aliases:
   wdl: /usr/local/bin/wdl
   wdl2dot: /usr/local/bin/wdl2dot
   xtermcolor: /usr/local/bin/xtermcolor
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
-  py.test: /usr/local/bin/py.test
   pydoc3.8: /usr/local/bin/pydoc3.8
-  pytest: /usr/local/bin/pytest
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config

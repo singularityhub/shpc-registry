@@ -7,13 +7,5 @@ tags:
   3.4.1--r41hdfd78af_0: sha256:d3c247b75974daf12767e546f3e13d3112804af86d2a7d045066e9644e11b28e
 docker: quay.io/biocontainers/bioconductor-curatedmetagenomicdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-curatedmetagenomicdata-post-link.sh: /usr/local/bin/.bioconductor-curatedmetagenomicdata-post-link.sh
+  .bioconductor-curatedmetagenomicdata-pre-unlink.sh: /usr/local/bin/.bioconductor-curatedmetagenomicdata-pre-unlink.sh

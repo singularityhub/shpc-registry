@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/deepbinner
 aliases:
   deepbinner: /usr/local/bin/deepbinner
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  assistant: /usr/local/bin/assistant
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
+  theano-cache: /usr/local/bin/theano-cache
+  theano-nose: /usr/local/bin/theano-nose
+  freeze_graph: /usr/local/bin/freeze_graph
+  mako-render: /usr/local/bin/mako-render
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner

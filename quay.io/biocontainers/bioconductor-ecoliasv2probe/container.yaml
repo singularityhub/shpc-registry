@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:918a1f0b10ffa3fc004d8ed1301bc5ecff6c3f87e851530073777c3004f70f03
 docker: quay.io/biocontainers/bioconductor-ecoliasv2probe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ecoliasv2probe-post-link.sh: /usr/local/bin/.bioconductor-ecoliasv2probe-post-link.sh
+  .bioconductor-ecoliasv2probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ecoliasv2probe-pre-unlink.sh

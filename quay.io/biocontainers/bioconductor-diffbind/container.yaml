@@ -6,14 +6,3 @@ latest:
 tags:
   3.4.11--r41hc247a5b_1: sha256:6c4dc11db8dbe34f4bd342b1f711548c25546414b82adfac52a2e7b7d498062b
 docker: quay.io/biocontainers/bioconductor-diffbind
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

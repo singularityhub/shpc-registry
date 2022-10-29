@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:eac7649680789b8e03d22a903721a563fc57bb3340c8129da2a600da74799e53
 docker: quay.io/biocontainers/bioconductor-diggitdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-diggitdata-post-link.sh: /usr/local/bin/.bioconductor-diggitdata-post-link.sh
+  .bioconductor-diggitdata-pre-unlink.sh: /usr/local/bin/.bioconductor-diggitdata-pre-unlink.sh

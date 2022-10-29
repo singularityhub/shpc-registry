@@ -30,13 +30,13 @@ aliases:
   stacks-samtools-tview: /usr/local/bin/stacks-samtools-tview
   tsv2bam: /usr/local/bin/tsv2bam
   ustacks: /usr/local/bin/ustacks
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth
+  gdlib-config: /usr/local/bin/gdlib-config
+  bp_find-blast-matches.pl: /usr/local/bin/bp_find-blast-matches.pl
   ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
+  ccconfig: /usr/local/bin/ccconfig
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  map: /usr/local/bin/map
+  mirrorMappings: /usr/local/bin/mirrorMappings
+  mkCSGB2312: /usr/local/bin/mkCSGB2312

@@ -7,13 +7,15 @@ tags:
   2.8.0--r36_1: sha256:b927a7912ea2f428e2e8824ff0146656b4bbb6517a11fd94a30286e319a2beee
 docker: quay.io/biocontainers/bioconductor-rcellminer
 aliases:
-  appletviewer: /usr/local/bin/appletviewer
+  .bioconductor-rcellminerdata-post-link.sh: /usr/local/bin/.bioconductor-rcellminerdata-post-link.sh
+  .bioconductor-rcellminerdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
   javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

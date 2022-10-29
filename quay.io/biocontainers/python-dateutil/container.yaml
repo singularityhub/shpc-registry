@@ -16,6 +16,6 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
-  pyvenv: /usr/local/bin/pyvenv
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  pyvenv: /usr/local/bin/pyvenv

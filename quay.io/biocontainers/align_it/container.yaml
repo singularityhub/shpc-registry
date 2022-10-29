@@ -10,8 +10,6 @@ aliases:
   align-it: /usr/local/bin/align-it
   babel: /usr/local/bin/babel
   obchiral: /usr/local/bin/obchiral
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  idle3.7: /usr/local/bin/idle3.7
   obabel: /usr/local/bin/obabel
   obconformer: /usr/local/bin/obconformer
   obdistgen: /usr/local/bin/obdistgen
@@ -20,3 +18,5 @@ aliases:
   obgen: /usr/local/bin/obgen
   obgrep: /usr/local/bin/obgrep
   obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

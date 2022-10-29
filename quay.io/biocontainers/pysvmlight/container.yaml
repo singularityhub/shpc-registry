@@ -7,10 +7,10 @@ tags:
   0.4--py27h9801fc8_5: sha256:64bde5df9d46834dfc722a48a3e77110b9d53e336b29bf7b6c9cc7d5e62ebf68
 docker: quay.io/biocontainers/pysvmlight
 aliases:
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
   smtpd.py: /usr/local/bin/smtpd.py

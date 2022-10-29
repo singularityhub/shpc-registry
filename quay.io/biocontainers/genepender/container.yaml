@@ -13,13 +13,13 @@ aliases:
   qt3to4: /usr/local/bin/qt3to4
   qtconfig: /usr/local/bin/qtconfig
   qttracereplay: /usr/local/bin/qttracereplay
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  qdbus: /usr/local/bin/qdbus
+  qdbuscpp2xml: /usr/local/bin/qdbuscpp2xml
+  qdbusviewer: /usr/local/bin/qdbusviewer
+  qdbusxml2cpp: /usr/local/bin/qdbusxml2cpp
+  xmlpatterns: /usr/local/bin/xmlpatterns
+  xmlpatternsvalidator: /usr/local/bin/xmlpatternsvalidator
   assistant: /usr/local/bin/assistant
   designer: /usr/local/bin/designer
   lconvert: /usr/local/bin/lconvert
-  linguist: /usr/local/bin/linguist
-  lrelease: /usr/local/bin/lrelease
-  lupdate: /usr/local/bin/lupdate
-  moc: /usr/local/bin/moc
-  pixeltool: /usr/local/bin/pixeltool
-  qcollectiongenerator: /usr/local/bin/qcollectiongenerator
-  qdbus: /usr/local/bin/qdbus

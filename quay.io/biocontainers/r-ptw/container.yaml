@@ -7,6 +7,7 @@ tags:
   1.9_11--r3.3.1_0: sha256:39e2a657d61518aec5aa24147c22c92c0d6a07faf74b1dde08861c40ede628ce
 docker: quay.io/biocontainers/r-ptw
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

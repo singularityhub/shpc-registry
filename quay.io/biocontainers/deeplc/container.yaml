@@ -9,13 +9,14 @@ docker: quay.io/biocontainers/deeplc
 aliases:
   deeplc: /usr/local/bin/deeplc
   deeplc-gui: /usr/local/bin/deeplc-gui
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  gif2rgb: /usr/local/bin/gif2rgb
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2

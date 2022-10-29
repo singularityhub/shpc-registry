@@ -7,6 +7,7 @@ tags:
   1.2--r3.3.2_1: sha256:ab7d61bb14c70493245ca0e986d10fdebfffd54d8300d27a85d2ffca03ccb7bc
 docker: quay.io/biocontainers/r-tibble
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

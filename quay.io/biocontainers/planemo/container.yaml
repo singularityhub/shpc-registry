@@ -40,13 +40,13 @@ aliases:
   virtualenv: /usr/local/bin/virtualenv
   workflow-install: /usr/local/bin/workflow-install
   workflow-to-tools: /usr/local/bin/workflow-to-tools
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
+  cwltool: /usr/local/bin/cwltool
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
   asadmin: /usr/local/bin/asadmin
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
   bundle_image: /usr/local/bin/bundle_image
-  ccomps: /usr/local/bin/ccomps
   cfadmin: /usr/local/bin/cfadmin
+  cq: /usr/local/bin/cq
+  csv2rdf: /usr/local/bin/csv2rdf

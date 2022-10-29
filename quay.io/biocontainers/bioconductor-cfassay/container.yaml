@@ -6,14 +6,3 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:c84ddc44aff2fb32ee4e512e5a20a246525f0c489bdf46a4143a975bd7b867fc
 docker: quay.io/biocontainers/bioconductor-cfassay
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

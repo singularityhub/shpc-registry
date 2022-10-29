@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250
 docker: quay.io/biocontainers/bioconductor-genomationdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-genomationdata-post-link.sh: /usr/local/bin/.bioconductor-genomationdata-post-link.sh
+  .bioconductor-genomationdata-pre-unlink.sh: /usr/local/bin/.bioconductor-genomationdata-pre-unlink.sh

@@ -7,8 +7,8 @@ tags:
   0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
 docker: quay.io/biocontainers/zifa
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

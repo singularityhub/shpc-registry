@@ -7,13 +7,5 @@ tags:
   3.13.0--r41hdfd78af_1: sha256:bf8366087cfa7a0448a0c13c9c64abcb30cb4b90a1d3f18c8e2e3703e2d5cc4a
 docker: quay.io/biocontainers/bioconductor-hthgu133plusa.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hthgu133plusa.db-post-link.sh: /usr/local/bin/.bioconductor-hthgu133plusa.db-post-link.sh
+  .bioconductor-hthgu133plusa.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hthgu133plusa.db-pre-unlink.sh

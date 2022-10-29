@@ -53,6 +53,7 @@ aliases:
   create_sr_frg.pl: /usr/local/bin/create_sr_frg.pl
   deduplicate_contigs.sh: /usr/local/bin/deduplicate_contigs.sh
   deduplicate_unitigs.sh: /usr/local/bin/deduplicate_unitigs.sh
+  delta2vcf: /usr/local/bin/delta2vcf
   determineUnjoinablePacbioSubmegas.perl: /usr/local/bin/determineUnjoinablePacbioSubmegas.perl
   eliminateBadSuperReadsUsingList: /usr/local/bin/eliminateBadSuperReadsUsingList
   error_corrected2frg: /usr/local/bin/error_corrected2frg
@@ -184,13 +185,13 @@ aliases:
   trim_by_kunitigs.pl: /usr/local/bin/trim_by_kunitigs.pl
   trim_mega_reads.pl: /usr/local/bin/trim_mega_reads.pl
   ufasta: /usr/local/bin/ufasta
-  annotate: /usr/local/bin/annotate
-  bwa: /usr/local/bin/bwa
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  freebayes: /usr/local/bin/freebayes
+  jellyfish: /usr/local/bin/jellyfish
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
-  delta2vcf: /usr/local/bin/delta2vcf
   dnadiff: /usr/local/bin/dnadiff
-  egrep: /usr/local/bin/egrep
   exact-tandems: /usr/local/bin/exact-tandems
-  fgrep: /usr/local/bin/fgrep
-  freebayes: /usr/local/bin/freebayes
+  mummer: /usr/local/bin/mummer

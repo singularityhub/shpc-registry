@@ -57,13 +57,14 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  CA.pm: /usr/local/bin/CA.pm
-  FET.pl: /usr/local/bin/FET.pl
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
+  yapp: /usr/local/bin/yapp
+  prank: /usr/local/bin/prank
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl
+  mclblastline: /usr/local/bin/mclblastline
+  mclcm: /usr/local/bin/mclcm
+  mclpipeline: /usr/local/bin/mclpipeline
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray

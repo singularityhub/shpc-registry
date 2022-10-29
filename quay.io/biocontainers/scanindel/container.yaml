@@ -10,13 +10,13 @@ aliases:
   ScanIndel.py: /usr/local/bin/ScanIndel.py
   inchworm: /usr/local/bin/inchworm
   vcf-combine.py: /usr/local/bin/vcf-combine.py
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
   blat: /usr/local/bin/blat
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  freebayes: /usr/local/bin/freebayes
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  bwa: /usr/local/bin/bwa
+  bcftools: /usr/local/bin/bcftools

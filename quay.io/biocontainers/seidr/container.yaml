@@ -20,13 +20,13 @@ aliases:
   svm-ensemble: /usr/local/bin/svm-ensemble
   tigress: /usr/local/bin/tigress
   tomsimilarity: /usr/local/bin/tomsimilarity
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   clp: /usr/local/bin/clp
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
   mpiCC: /usr/local/bin/mpiCC
-  mpic++: /usr/local/bin/mpic++
-  mpicc: /usr/local/bin/mpicc
-  mpicxx: /usr/local/bin/mpicxx
-  mpiexec: /usr/local/bin/mpiexec
-  mpif77: /usr/local/bin/mpif77
-  mpif90: /usr/local/bin/mpif90
-  mpifort: /usr/local/bin/mpifort
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  ompi_info: /usr/local/bin/ompi_info
+  opal_wrapper: /usr/local/bin/opal_wrapper
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info

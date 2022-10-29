@@ -8,9 +8,11 @@ tags:
 docker: quay.io/biocontainers/perl-dbd-mysql
 aliases:
   use-devel-checklib: /usr/local/bin/use-devel-checklib
-  dbilogstrip: /usr/local/bin/dbilogstrip
-  dbiprof: /usr/local/bin/dbiprof
-  dbiproxy: /usr/local/bin/dbiproxy
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
   perror: /usr/local/bin/perror
+  dbilogstrip: /usr/local/bin/dbilogstrip
+  dbiprof: /usr/local/bin/dbiprof
+  dbiproxy: /usr/local/bin/dbiproxy
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

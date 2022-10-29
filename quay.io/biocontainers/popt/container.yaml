@@ -6,7 +6,3 @@ latest:
 tags:
   1.16--1: sha256:b9c8d96a6695522ea21610de3e127588d8111969a620d5d59ad4a2743a955b3f
 docker: quay.io/biocontainers/popt
-aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

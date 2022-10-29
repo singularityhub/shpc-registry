@@ -17,6 +17,8 @@ aliases:
   ipcontroller2: /usr/local/bin/ipcontroller2
   ipengine: /usr/local/bin/ipengine
   ipengine2: /usr/local/bin/ipengine2
+  iptest2: /usr/local/bin/iptest2
+  ipython2: /usr/local/bin/ipython2
   mglbabel: /usr/local/bin/mglbabel
   mglenv.csh: /usr/local/bin/mglenv.csh
   mglenv.sh: /usr/local/bin/mglenv.sh
@@ -52,13 +54,13 @@ aliases:
   sagapython-version: /usr/local/bin/sagapython-version
   tester: /usr/local/bin/tester
   vision: /usr/local/bin/vision
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  easy_install-2.7: /usr/local/bin/easy_install-2.7
-  idle: /usr/local/bin/idle
-  iptest: /usr/local/bin/iptest
-  iptest2: /usr/local/bin/iptest2
-  ipython: /usr/local/bin/ipython
-  ipython2: /usr/local/bin/ipython2
   obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

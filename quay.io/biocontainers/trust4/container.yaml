@@ -18,3 +18,5 @@ aliases:
   trust-simplerep.pl: /usr/local/bin/trust-simplerep.pl
   trust-smartseq.pl: /usr/local/bin/trust-smartseq.pl
   trust4: /usr/local/bin/trust4
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

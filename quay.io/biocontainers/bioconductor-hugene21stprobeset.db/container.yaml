@@ -7,13 +7,5 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:8e1b1ab5724121b2156466991fac1320a597d7a54851848445e182df3cd25f5a
 docker: quay.io/biocontainers/bioconductor-hugene21stprobeset.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hugene21stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-hugene21stprobeset.db-post-link.sh
+  .bioconductor-hugene21stprobeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-hugene21stprobeset.db-pre-unlink.sh

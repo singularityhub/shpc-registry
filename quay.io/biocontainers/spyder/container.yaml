@@ -7,17 +7,23 @@ tags:
   3.3.1--py35_1: sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538
 docker: quay.io/biocontainers/spyder
 aliases:
+  epylint: /usr/local/bin/epylint
+  isort: /usr/local/bin/isort
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
   keyring: /usr/local/bin/keyring
   pycodestyle: /usr/local/bin/pycodestyle
   pyflakes: /usr/local/bin/pyflakes
+  pylint: /usr/local/bin/pylint
+  pyreverse: /usr/local/bin/pyreverse
   spyder: /usr/local/bin/spyder
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  assistant: /usr/local/bin/assistant
-  chardetect: /usr/local/bin/chardetect
-  curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
+  symilar: /usr/local/bin/symilar
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  pybabel: /usr/local/bin/pybabel
+  iptest3: /usr/local/bin/iptest3

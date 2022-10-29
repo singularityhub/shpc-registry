@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:8676a95e25196bf38951bcf8a0378d2204a0251d1fd40620e0324d654cf9ab49
 docker: quay.io/biocontainers/bioconductor-medipsdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-medipsdata-post-link.sh: /usr/local/bin/.bioconductor-medipsdata-post-link.sh
+  .bioconductor-medipsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-medipsdata-pre-unlink.sh

@@ -7,6 +7,8 @@ tags:
   0.5.0--hdfd78af_3: sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4
 docker: quay.io/biocontainers/fusion-filter
 aliases:
+  .fusion-filter-post-link.sh: /usr/local/bin/.fusion-filter-post-link.sh
+  atoiindex: /usr/local/bin/atoiindex
   blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
   blast_check_pair.pl: /usr/local/bin/blast_check_pair.pl
   blast_filter.pl: /usr/local/bin/blast_filter.pl
@@ -14,29 +16,70 @@ aliases:
   build_chr_gene_alignment_index.pl: /usr/local/bin/build_chr_gene_alignment_index.pl
   build_fusion_annot_db_index.pl: /usr/local/bin/build_fusion_annot_db_index.pl
   build_prot_info_db.pl: /usr/local/bin/build_prot_info_db.pl
+  cmetindex: /usr/local/bin/cmetindex
+  cpuid: /usr/local/bin/cpuid
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
+  ensembl_genes: /usr/local/bin/ensembl_genes
+  fa_coords: /usr/local/bin/fa_coords
   gencode_extract_relevant_gtf_exons.pl: /usr/local/bin/gencode_extract_relevant_gtf_exons.pl
+  get-genome: /usr/local/bin/get-genome
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmap_process: /usr/local/bin/gmap_process
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gsnap: /usr/local/bin/gsnap
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
   gtf_file_to_feature_seqs.pl: /usr/local/bin/gtf_file_to_feature_seqs.pl
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
   gtf_to_exon_gene_records.pl: /usr/local/bin/gtf_to_exon_gene_records.pl
   gtf_to_gene_spans.pl: /usr/local/bin/gtf_to_gene_spans.pl
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gvf_iit: /usr/local/bin/gvf_iit
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
   index_blast_pairs.pl: /usr/local/bin/index_blast_pairs.pl
   index_blast_pairs.remove_gene_pair.pl: /usr/local/bin/index_blast_pairs.remove_gene_pair.pl
   index_blast_pairs.remove_overlapping_genes.pl: /usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl
   index_cdna_seqs.pl: /usr/local/bin/index_cdna_seqs.pl
   index_pfam_domain_info.pl: /usr/local/bin/index_pfam_domain_info.pl
+  indexdb_cat: /usr/local/bin/indexdb_cat
   isoform_blast_gene_chr_conversion.pl: /usr/local/bin/isoform_blast_gene_chr_conversion.pl
   isoform_blast_mapping_indexer.pl: /usr/local/bin/isoform_blast_mapping_indexer.pl
   just_blast_test.pl: /usr/local/bin/just_blast_test.pl
   make_super_locus.pl: /usr/local/bin/make_super_locus.pl
+  md_coords: /usr/local/bin/md_coords
   prep_genome_lib.pl: /usr/local/bin/prep_genome_lib.pl
   promiscuity_filter.pl: /usr/local/bin/promiscuity_filter.pl
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
   remove_long_intron_readthru_transcripts.pl: /usr/local/bin/remove_long_intron_readthru_transcripts.pl
+  sam_sort: /usr/local/bin/sam_sort
+  snpindex: /usr/local/bin/snpindex
+  trindex: /usr/local/bin/trindex
+  vcf_iit: /usr/local/bin/vcf_iit
+  gmap: /usr/local/bin/gmap
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
-  ace2sam: /usr/local/bin/ace2sam
-  atoiindex: /usr/local/bin/atoiindex
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
   blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv

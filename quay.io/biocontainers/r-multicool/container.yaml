@@ -7,6 +7,7 @@ tags:
   0.1_9--r3.3.1_2: sha256:fcfc7d969888af6b3a1867ba91d38bfd325a6be0c98547c9f5f30fa7c2277abd
 docker: quay.io/biocontainers/r-multicool
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

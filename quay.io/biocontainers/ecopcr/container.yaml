@@ -17,9 +17,9 @@ aliases:
   enhancer.py: /usr/local/bin/enhancer.py
   explode.py: /usr/local/bin/explode.py
   gifmaker.py: /usr/local/bin/gifmaker.py
-  idle: /usr/local/bin/idle
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
   pilconvert.py: /usr/local/bin/pilconvert.py
   pildriver.py: /usr/local/bin/pildriver.py

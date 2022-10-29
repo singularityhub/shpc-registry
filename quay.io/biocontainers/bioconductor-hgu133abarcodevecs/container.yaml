@@ -7,13 +7,5 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:14fb5299d23a9925615a261df342468fe24fe6e7f855d8b4a98d66f9a1ac873a
 docker: quay.io/biocontainers/bioconductor-hgu133abarcodevecs
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hgu133abarcodevecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133abarcodevecs-post-link.sh
+  .bioconductor-hgu133abarcodevecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133abarcodevecs-pre-unlink.sh

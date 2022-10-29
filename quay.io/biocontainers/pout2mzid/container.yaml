@@ -8,7 +8,7 @@ tags:
 docker: quay.io/biocontainers/pout2mzid
 aliases:
   pout2mzid: /usr/local/bin/pout2mzid
-  2to3-3.5: /usr/local/bin/2to3-3.5
+  xsd: /usr/local/bin/xsd
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint

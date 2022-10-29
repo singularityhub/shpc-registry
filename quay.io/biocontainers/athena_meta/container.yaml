@@ -25,6 +25,7 @@ aliases:
   flye-minimap2: /usr/local/bin/flye-minimap2
   flye-polish: /usr/local/bin/flye-polish
   flye-repeat: /usr/local/bin/flye-repeat
+  fq2fa: /usr/local/bin/fq2fa
   fq2fa.o: /usr/local/bin/fq2fa.o
   idba: /usr/local/bin/idba
   idba.o: /usr/local/bin/idba.o
@@ -67,6 +68,7 @@ aliases:
   sort_psl.o: /usr/local/bin/sort_psl.o
   sort_reads: /usr/local/bin/sort_reads
   sort_reads.o: /usr/local/bin/sort_reads.o
+  split_fa: /usr/local/bin/split_fa
   split_fa.o: /usr/local/bin/split_fa.o
   split_fq: /usr/local/bin/split_fq
   split_fq.o: /usr/local/bin/split_fq.o
@@ -88,13 +90,13 @@ aliases:
   validate_reads_blat.o: /usr/local/bin/validate_reads_blat.o
   validate_rna: /usr/local/bin/validate_rna
   validate_rna.o: /usr/local/bin/validate_rna.o
-  ace2sam: /usr/local/bin/ace2sam
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
   axt_to_lav.py: /usr/local/bin/axt_to_lav.py
   axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bcftools: /usr/local/bin/bcftools
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
-  bed_build_windows.py: /usr/local/bin/bed_build_windows.py

@@ -7,15 +7,25 @@ tags:
   2.2.3--pyhdfd78af_1: sha256:a2851ba18ac125181526e95b891621660a304c5736f7beff5016117333759874
 docker: quay.io/biocontainers/virsorter
 aliases:
-  cookiecutter: /usr/local/bin/cookiecutter
-  virsorter: /usr/local/bin/virsorter
   bsdcat: /usr/local/bin/bsdcat
   bsdcpio: /usr/local/bin/bsdcpio
   bsdtar: /usr/local/bin/bsdtar
-  cbc: /usr/local/bin/cbc
-  chardetect: /usr/local/bin/chardetect
-  clp: /usr/local/bin/clp
-  conda-env: /usr/local/bin/conda-env
   conda2solv: /usr/local/bin/conda2solv
-  cph: /usr/local/bin/cph
+  cookiecutter: /usr/local/bin/cookiecutter
   dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mamba: /usr/local/bin/mamba
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv
+  virsorter: /usr/local/bin/virsorter
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  pulptest: /usr/local/bin/pulptest

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/mark-nonconverted-reads
 aliases:
   mark-nonconverted-reads.py: /usr/local/bin/mark-nonconverted-reads.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py
-  htsfile: /usr/local/bin/htsfile
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7

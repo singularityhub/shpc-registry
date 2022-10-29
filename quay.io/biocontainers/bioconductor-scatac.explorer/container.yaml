@@ -7,13 +7,5 @@ tags:
   1.0.1--r41hdfd78af_1: sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5
 docker: quay.io/biocontainers/bioconductor-scatac.explorer
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-scatac.explorer-post-link.sh: /usr/local/bin/.bioconductor-scatac.explorer-post-link.sh
+  .bioconductor-scatac.explorer-pre-unlink.sh: /usr/local/bin/.bioconductor-scatac.explorer-pre-unlink.sh

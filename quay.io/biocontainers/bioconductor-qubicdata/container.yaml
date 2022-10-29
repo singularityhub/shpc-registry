@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:473d6dbb59f23c36cf4d61758d1b6609d2760640df916af9801c22109d07c7aa
 docker: quay.io/biocontainers/bioconductor-qubicdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-qubicdata-post-link.sh: /usr/local/bin/.bioconductor-qubicdata-post-link.sh
+  .bioconductor-qubicdata-pre-unlink.sh: /usr/local/bin/.bioconductor-qubicdata-pre-unlink.sh

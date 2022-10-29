@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/perl-dbd-pg
 aliases:
   pg_verify_checksums: /usr/local/bin/pg_verify_checksums
+  pg_standby: /usr/local/bin/pg_standby
+  tzselect: /usr/local/bin/tzselect
+  zdump: /usr/local/bin/zdump
+  zic: /usr/local/bin/zic
+  oid2name: /usr/local/bin/oid2name
+  pg_receivewal: /usr/local/bin/pg_receivewal
+  pg_resetwal: /usr/local/bin/pg_resetwal
+  pg_waldump: /usr/local/bin/pg_waldump
+  vacuumlo: /usr/local/bin/vacuumlo
   clusterdb: /usr/local/bin/clusterdb
-  createdb: /usr/local/bin/createdb
-  createuser: /usr/local/bin/createuser
-  dbilogstrip: /usr/local/bin/dbilogstrip
-  dbiprof: /usr/local/bin/dbiprof
-  dbiproxy: /usr/local/bin/dbiproxy
-  dropdb: /usr/local/bin/dropdb
-  dropuser: /usr/local/bin/dropuser
-  ecpg: /usr/local/bin/ecpg
-  initdb: /usr/local/bin/initdb

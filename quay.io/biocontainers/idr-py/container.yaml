@@ -12,13 +12,13 @@ aliases:
   setpythonpath.bat: /usr/local/bin/setpythonpath.bat
   slice2py: /usr/local/bin/slice2py
   winconfig.bat: /usr/local/bin/winconfig.bat
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.8: /usr/local/bin/f2py3.8
-  futurize: /usr/local/bin/futurize
-  idle3.8: /usr/local/bin/idle3.8
-  iptest: /usr/local/bin/iptest
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
+  curve_keygen: /usr/local/bin/curve_keygen

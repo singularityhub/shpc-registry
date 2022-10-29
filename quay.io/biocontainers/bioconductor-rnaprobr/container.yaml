@@ -9,9 +9,9 @@ docker: quay.io/biocontainers/bioconductor-rnaprobr
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  wget: /usr/local/bin/wget
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  perror: /usr/local/bin/perror
-  tclsh8.5: /usr/local/bin/tclsh8.5
-  wget: /usr/local/bin/wget
-  wish8.5: /usr/local/bin/wish8.5

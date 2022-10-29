@@ -6,14 +6,3 @@ latest:
 tags:
   2.30.0--r41hdfd78af_0: sha256:3a8d3d094c1f9f9fe74641d893511151e08b8df783c226920299d01f888a7604
 docker: quay.io/biocontainers/bioconductor-phenstat
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

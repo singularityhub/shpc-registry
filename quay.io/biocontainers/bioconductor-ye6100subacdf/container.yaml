@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:baa9d188101bad877a664fa32e152b7805464c9eebbf5ef1d7e4dace0ffaa1f6
 docker: quay.io/biocontainers/bioconductor-ye6100subacdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ye6100subacdf-post-link.sh: /usr/local/bin/.bioconductor-ye6100subacdf-post-link.sh
+  .bioconductor-ye6100subacdf-pre-unlink.sh: /usr/local/bin/.bioconductor-ye6100subacdf-pre-unlink.sh

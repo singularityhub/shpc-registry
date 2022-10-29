@@ -6,14 +6,3 @@ latest:
 tags:
   1.24.0--r41hdfd78af_0: sha256:dbb2b77da3b55e190f036d0b25968ccad01a3a41183382b9be4b568fbba76425
 docker: quay.io/biocontainers/bioconductor-hilbertcurve
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

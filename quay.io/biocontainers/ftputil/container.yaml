@@ -7,8 +7,8 @@ tags:
   3.2--py35_0: sha256:45a621372452bffe9c3afd495b56e6b0dfff027a263965dfe613fb9f0b276a50
 docker: quay.io/biocontainers/ftputil
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

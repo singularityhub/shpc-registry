@@ -7,15 +7,17 @@ tags:
   2.2.20220521103021--pyhdfd78af_0: sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a
 docker: quay.io/biocontainers/cwltest
 aliases:
-  cwltest: /usr/local/bin/cwltest
-  mock-cwl-runner: /usr/local/bin/mock-cwl-runner
-  2to3-3.10: /usr/local/bin/2to3-3.10
   black: /usr/local/bin/black
   blackd: /usr/local/bin/blackd
+  cwltest: /usr/local/bin/cwltest
+  mock-cwl-runner: /usr/local/bin/mock-cwl-runner
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
   csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
   doesitcache: /usr/local/bin/doesitcache
-  idle3.10: /usr/local/bin/idle3.10
   normalizer: /usr/local/bin/normalizer
-  pydoc3.10: /usr/local/bin/pydoc3.10
-  python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10

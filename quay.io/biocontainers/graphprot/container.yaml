@@ -10,13 +10,13 @@ aliases:
   GraphProt.pl: /usr/local/bin/GraphProt.pl
   RNAshapes: /usr/local/bin/RNAshapes
   gawk-4.2.1: /usr/local/bin/gawk-4.2.1
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  awk: /usr/local/bin/awk
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
+  transformseq: /usr/local/bin/transformseq
+  weblogo: /usr/local/bin/weblogo
+  conv-template: /usr/local/bin/conv-template
+  from-template: /usr/local/bin/from-template
   b2sum: /usr/local/bin/b2sum
+  awk: /usr/local/bin/awk
   base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  cat: /usr/local/bin/cat
-  chcon: /usr/local/bin/chcon
-  chgrp: /usr/local/bin/chgrp
-  chmod: /usr/local/bin/chmod

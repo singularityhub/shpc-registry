@@ -7,6 +7,8 @@ tags:
   1.8.0--r36_0: sha256:cd419f0c3f77e0d0706939168363d697cc8c4f9f646bc25964d05ecded57eb65
 docker: quay.io/biocontainers/bioconductor-msstatsbiodata
 aliases:
+  .bioconductor-msstatsbiodata-post-link.sh: /usr/local/bin/.bioconductor-msstatsbiodata-post-link.sh
+  .bioconductor-msstatsbiodata-pre-unlink.sh: /usr/local/bin/.bioconductor-msstatsbiodata-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

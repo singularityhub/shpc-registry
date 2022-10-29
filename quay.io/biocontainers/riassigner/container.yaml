@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/riassigner
 aliases:
   pint-convert: /usr/local/bin/pint-convert
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.8: /usr/local/bin/f2py3.8
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
   fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  brotli: /usr/local/bin/brotli
+  xslt-config: /usr/local/bin/xslt-config

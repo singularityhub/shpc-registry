@@ -7,8 +7,10 @@ tags:
   2.8--pl5262hdfd78af_2: sha256:c244db6ad999f6c1866fb95d2f4e2a76fddeb857e43d9c485e8acd6a95d6f587
 docker: quay.io/biocontainers/krona
 aliases:
+  .krona-post-link.sh: /usr/local/bin/.krona-post-link.sh
   ktClassifyHits: /usr/local/bin/ktClassifyHits
   ktImportHits: /usr/local/bin/ktImportHits
+  ktImportKrona: /usr/local/bin/ktImportKrona
   ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
   ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
   ktGetLCA: /usr/local/bin/ktGetLCA

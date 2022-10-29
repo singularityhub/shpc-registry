@@ -7,13 +7,13 @@ tags:
   1.30.0--r41hdfd78af_0: sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7
 docker: quay.io/biocontainers/bioconductor-rcpi
 aliases:
-  aserver: /usr/local/bin/aserver
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
   gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
   gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
   gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
-  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
+  jfr: /usr/local/bin/jfr
+  jaotc: /usr/local/bin/jaotc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb

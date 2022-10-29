@@ -23,19 +23,21 @@ aliases:
   ref_stats.pl: /usr/local/bin/ref_stats.pl
   reporter.pl: /usr/local/bin/reporter.pl
   snv_matrix.pl: /usr/local/bin/snv_matrix.pl
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
   tsvToVcf.pl: /usr/local/bin/tsvToVcf.pl
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
   vcf2snv_alignment.pl: /usr/local/bin/vcf2snv_alignment.pl
   vcftools: /usr/local/bin/vcftools
   verify_excess_coverage.pl: /usr/local/bin/verify_excess_coverage.pl
   verify_low_depth.pl: /usr/local/bin/verify_low_depth.pl
   verify_mapping_quality.pl: /usr/local/bin/verify_mapping_quality.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ace2sam: /usr/local/bin/ace2sam
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bp_aacomp: /usr/local/bin/bp_aacomp
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

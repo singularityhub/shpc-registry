@@ -7,20 +7,25 @@ tags:
   5.3.f8bfa9c--0: sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f
 docker: quay.io/biocontainers/blasr
 aliases:
+  bam2sam: /usr/local/bin/bam2sam
+  blasr: /usr/local/bin/blasr
   loadPulses: /usr/local/bin/loadPulses
+  pbindex: /usr/local/bin/pbindex
+  pbindexdump: /usr/local/bin/pbindexdump
+  pbmerge: /usr/local/bin/pbmerge
   pls2fasta: /usr/local/bin/pls2fasta
   samFilter: /usr/local/bin/samFilter
   samtoh5: /usr/local/bin/samtoh5
   samtom4: /usr/local/bin/samtom4
   sawriter: /usr/local/bin/sawriter
   sdpMatcher: /usr/local/bin/sdpMatcher
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  bam2sam: /usr/local/bin/bam2sam
-  bgzip: /usr/local/bin/bgzip
-  blasr: /usr/local/bin/blasr
   easy_install-3.6: /usr/local/bin/easy_install-3.6
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5copy: /usr/local/bin/h5copy
+  uconv: /usr/local/bin/uconv
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

@@ -9,35 +9,184 @@ docker: quay.io/biocontainers/rnaquast
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt
   PF00225_seed.blocks.txt: /usr/local/bin/PF00225_seed.blocks.txt
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
+  aa2nonred.pl: /usr/local/bin/aa2nonred.pl
   add_name_to_gff3.pl: /usr/local/bin/add_name_to_gff3.pl
   aln2wig: /usr/local/bin/aln2wig
+  atoiindex: /usr/local/bin/atoiindex
   augustify.py: /usr/local/bin/augustify.py
+  augustus2browser.pl: /usr/local/bin/augustus2browser.pl
+  augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
+  autoAug.pl: /usr/local/bin/autoAug.pl
+  autoAugPred.pl: /usr/local/bin/autoAugPred.pl
+  autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
+  bam2wig: /usr/local/bin/bam2wig
+  bamToWig.py: /usr/local/bin/bamToWig.py
+  bedgraph2wig.pl: /usr/local/bin/bedgraph2wig.pl
+  blat2gbrowse.pl: /usr/local/bin/blat2gbrowse.pl
+  blat2hints.pl: /usr/local/bin/blat2hints.pl
+  block2prfl.pl: /usr/local/bin/block2prfl.pl
   busco: /usr/local/bin/busco
+  cdbfasta: /usr/local/bin/cdbfasta
+  cdbyank: /usr/local/bin/cdbyank
+  cegma2gff.pl: /usr/local/bin/cegma2gff.pl
+  checkParamArchive.pl: /usr/local/bin/checkParamArchive.pl
+  checkUTR: /usr/local/bin/checkUTR
+  cleanDOSfasta.pl: /usr/local/bin/cleanDOSfasta.pl
+  clusterAndSplitGenes.pl: /usr/local/bin/clusterAndSplitGenes.pl
+  cmetindex: /usr/local/bin/cmetindex
+  compare_masking.pl: /usr/local/bin/compare_masking.pl
+  compileSpliceCands: /usr/local/bin/compileSpliceCands
+  computeFlankingRegion.pl: /usr/local/bin/computeFlankingRegion.pl
+  cpuid: /usr/local/bin/cpuid
+  createAugustusJoblist.pl: /usr/local/bin/createAugustusJoblist.pl
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
+  del_from_prfl.pl: /usr/local/bin/del_from_prfl.pl
+  ensembl_genes: /usr/local/bin/ensembl_genes
+  evalCGP.pl: /usr/local/bin/evalCGP.pl
+  eval_dualdecomp.pl: /usr/local/bin/eval_dualdecomp.pl
+  eval_multi_gtf.pl: /usr/local/bin/eval_multi_gtf.pl
   executeTestCGP.py: /usr/local/bin/executeTestCGP.py
+  exonerate2hints.pl: /usr/local/bin/exonerate2hints.pl
+  exoniphyDb2hints.pl: /usr/local/bin/exoniphyDb2hints.pl
   extractAnno.py: /usr/local/bin/extractAnno.py
+  extractTranscriptEnds.pl: /usr/local/bin/extractTranscriptEnds.pl
+  fa_coords: /usr/local/bin/fa_coords
+  filter-ppx.pl: /usr/local/bin/filter-ppx.pl
+  filterGenes.pl: /usr/local/bin/filterGenes.pl
+  filterGenesIn.pl: /usr/local/bin/filterGenesIn.pl
+  filterGenesIn_mRNAname.pl: /usr/local/bin/filterGenesIn_mRNAname.pl
+  filterGenesOut_mRNAname.pl: /usr/local/bin/filterGenesOut_mRNAname.pl
+  filterInFrameStopCodons.pl: /usr/local/bin/filterInFrameStopCodons.pl
+  filterMaf.pl: /usr/local/bin/filterMaf.pl
+  filterPSL.pl: /usr/local/bin/filterPSL.pl
+  filterShrimp.pl: /usr/local/bin/filterShrimp.pl
+  filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
+  findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
+  fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
+  fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
+  gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
+  gbrowse.conf: /usr/local/bin/gbrowse.conf
+  gbrowseold2gff3.pl: /usr/local/bin/gbrowseold2gff3.pl
   generate_plot.py: /usr/local/bin/generate_plot.py
+  get-genome: /usr/local/bin/get-genome
+  getAnnoFasta.pl: /usr/local/bin/getAnnoFasta.pl
+  getAnnoFastaFromJoingenes.py: /usr/local/bin/getAnnoFastaFromJoingenes.py
+  getLinesMatching.pl: /usr/local/bin/getLinesMatching.pl
+  getSeq: /usr/local/bin/getSeq
   get_loci_from_gb.pl: /usr/local/bin/get_loci_from_gb.pl
+  gff2gbSmallDNA.pl: /usr/local/bin/gff2gbSmallDNA.pl
+  gff2ps_mycustom: /usr/local/bin/gff2ps_mycustom
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites
+  gffGetmRNA.pl: /usr/local/bin/gffGetmRNA.pl
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
   gmap_cat: /usr/local/bin/gmap_cat
+  gmap_process: /usr/local/bin/gmap_process
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gp2othergp.pl: /usr/local/bin/gp2othergp.pl
+  gsnap: /usr/local/bin/gsnap
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
+  gtf2aa.pl: /usr/local/bin/gtf2aa.pl
+  gtf2gff.pl: /usr/local/bin/gtf2gff.pl
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gth2gtf.pl: /usr/local/bin/gth2gtf.pl
+  gvf_iit: /usr/local/bin/gvf_iit
+  hal2maf_split.pl: /usr/local/bin/hal2maf_split.pl
+  helpMod.pm: /usr/local/bin/helpMod.pm
+  hmmc2: /usr/local/bin/hmmc2
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
   indexdb_cat: /usr/local/bin/indexdb_cat
+  joinPeptides.pl: /usr/local/bin/joinPeptides.pl
+  join_aug_pred.pl: /usr/local/bin/join_aug_pred.pl
+  join_mult_hints.pl: /usr/local/bin/join_mult_hints.pl
+  load2sqlitedb: /usr/local/bin/load2sqlitedb
+  lp_solve: /usr/local/bin/lp_solve
+  maf2conswig.pl: /usr/local/bin/maf2conswig.pl
+  makeMatchLists.pl: /usr/local/bin/makeMatchLists.pl
+  makeUtrTrainingSet.pl: /usr/local/bin/makeUtrTrainingSet.pl
+  maskNregions.pl: /usr/local/bin/maskNregions.pl
+  md_coords: /usr/local/bin/md_coords
+  merge_masking.pl: /usr/local/bin/merge_masking.pl
   metaeuk: /usr/local/bin/metaeuk
+  moveParameters.pl: /usr/local/bin/moveParameters.pl
+  msa2prfl.pl: /usr/local/bin/msa2prfl.pl
+  new_species.pl: /usr/local/bin/new_species.pl
+  opt_init_and_term_probs.pl: /usr/local/bin/opt_init_and_term_probs.pl
+  optimize_augustus.pl: /usr/local/bin/optimize_augustus.pl
+  parseSim4Output.pl: /usr/local/bin/parseSim4Output.pl
+  partition_gtf2gb.pl: /usr/local/bin/partition_gtf2gb.pl
+  pasapolyA2hints.pl: /usr/local/bin/pasapolyA2hints.pl
+  peptides2alternatives.pl: /usr/local/bin/peptides2alternatives.pl
+  peptides2hints.pl: /usr/local/bin/peptides2hints.pl
+  phastconsDB2hints.pl: /usr/local/bin/phastconsDB2hints.pl
+  polyA2hints.pl: /usr/local/bin/polyA2hints.pl
   pp_simScore: /usr/local/bin/pp_simScore
+  prints2prfl.pl: /usr/local/bin/prints2prfl.pl
+  pslMap.pl: /usr/local/bin/pslMap.pl
   pslSort: /usr/local/bin/pslSort
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
+  randomSplit.pl: /usr/local/bin/randomSplit.pl
+  retroDB2hints.pl: /usr/local/bin/retroDB2hints.pl
+  rmRedundantHints.pl: /usr/local/bin/rmRedundantHints.pl
   rnaQUAST.py: /usr/local/bin/rnaQUAST.py
   run-sepp.sh: /usr/local/bin/run-sepp.sh
+  runAllSim4.pl: /usr/local/bin/runAllSim4.pl
   run_abundance.py: /usr/local/bin/run_abundance.py
   run_sepp.py: /usr/local/bin/run_sepp.py
   run_tipp.py: /usr/local/bin/run_tipp.py
   run_tipp_tool.py: /usr/local/bin/run_tipp_tool.py
   run_upp.py: /usr/local/bin/run_upp.py
+  samMap.pl: /usr/local/bin/samMap.pl
+  sam_sort: /usr/local/bin/sam_sort
+  scipiogff2gff.pl: /usr/local/bin/scipiogff2gff.pl
   seppJsonMerger.jar: /usr/local/bin/seppJsonMerger.jar
+  setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
+  simpleFastaHeaders.pl: /usr/local/bin/simpleFastaHeaders.pl
+  simplifyFastaHeaders.pl: /usr/local/bin/simplifyFastaHeaders.pl
+  snpindex: /usr/local/bin/snpindex
+  splitMfasta.pl: /usr/local/bin/splitMfasta.pl
   split_sequences.py: /usr/local/bin/split_sequences.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  STAR: /usr/local/bin/STAR
-  STARlong: /usr/local/bin/STARlong
-  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
-  _aaindexextract: /usr/local/bin/_aaindexextract
-  _abiview: /usr/local/bin/_abiview
-  _acdc: /usr/local/bin/_acdc
-  _acdpretty: /usr/local/bin/_acdpretty
-  _acdtable: /usr/local/bin/_acdtable
-  _acdtrace: /usr/local/bin/_acdtrace
+  split_wiggle.pl: /usr/local/bin/split_wiggle.pl
+  summarizeACGTcontent.pl: /usr/local/bin/summarizeACGTcontent.pl
+  transMap2hints.pl: /usr/local/bin/transMap2hints.pl
+  trindex: /usr/local/bin/trindex
+  uniquePeptides.pl: /usr/local/bin/uniquePeptides.pl
+  utrgff2gbrowse.pl: /usr/local/bin/utrgff2gbrowse.pl
+  utrrnaseq: /usr/local/bin/utrrnaseq
+  vcf_iit: /usr/local/bin/vcf_iit
+  webserver-results.head: /usr/local/bin/webserver-results.head
+  webserver-results.tail: /usr/local/bin/webserver-results.tail
+  weedMaf.pl: /usr/local/bin/weedMaf.pl
+  wig2hints.pl: /usr/local/bin/wig2hints.pl
+  wigchoose.pl: /usr/local/bin/wigchoose.pl
+  writeResultsPage.pl: /usr/local/bin/writeResultsPage.pl
+  yaml2gff.1.4.pl: /usr/local/bin/yaml2gff.1.4.pl
+  augustus: /usr/local/bin/augustus
+  bam2hints: /usr/local/bin/bam2hints
+  etraining: /usr/local/bin/etraining
+  fastBlockSearch: /usr/local/bin/fastBlockSearch
+  filterBam: /usr/local/bin/filterBam
+  gmap: /usr/local/bin/gmap
+  gtf2bed.pl: /usr/local/bin/gtf2bed.pl
+  homGeneMapping: /usr/local/bin/homGeneMapping
+  joingenes: /usr/local/bin/joingenes
+  prepareAlign: /usr/local/bin/prepareAlign

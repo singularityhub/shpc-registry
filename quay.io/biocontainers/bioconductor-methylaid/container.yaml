@@ -6,14 +6,3 @@ latest:
 tags:
   1.28.0--r41hdfd78af_0: sha256:b5723528c2c8be82b958584fcfa238ec5fa991f0e95ad0b8c1a2022582ef6611
 docker: quay.io/biocontainers/bioconductor-methylaid
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

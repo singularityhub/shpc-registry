@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r41hc247a5b_2: sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4
 docker: quay.io/biocontainers/bioconductor-awfisher
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

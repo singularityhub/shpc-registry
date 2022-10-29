@@ -13,13 +13,13 @@ aliases:
   StatisticSingle.py: /usr/local/bin/StatisticSingle.py
   common_functions.py: /usr/local/bin/common_functions.py
   filter.py: /usr/local/bin/filter.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
   f2py3.6: /usr/local/bin/f2py3.6
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py
-  htsfile: /usr/local/bin/htsfile
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6

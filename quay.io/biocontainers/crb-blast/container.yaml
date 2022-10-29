@@ -12,14 +12,16 @@ aliases:
   br_bioflat.rb: /usr/local/bin/br_bioflat.rb
   br_biogetseq.rb: /usr/local/bin/br_biogetseq.rb
   br_pmfetch.rb: /usr/local/bin/br_pmfetch.rb
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
   crb-blast: /usr/local/bin/crb-blast
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
-  blastn: /usr/local/bin/blastn
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  build.sh: /usr/local/bin/build.sh
+  common.go: /usr/local/bin/common.go
+  rchive.go: /usr/local/bin/rchive.go
+  setup-deps.log: /usr/local/bin/setup-deps.log
+  setup.sh: /usr/local/bin/setup.sh
+  xtract.go: /usr/local/bin/xtract.go
+  erb: /usr/local/bin/erb

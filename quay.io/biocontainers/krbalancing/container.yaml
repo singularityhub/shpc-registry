@@ -7,9 +7,9 @@ tags:
   0.0.5--py38h4a32c8e_4: sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d
 docker: quay.io/biocontainers/krbalancing
 aliases:
+  pybind11-config: /usr/local/bin/pybind11-config
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
-  pybind11-config: /usr/local/bin/pybind11-config
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config

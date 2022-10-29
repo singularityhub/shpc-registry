@@ -10,13 +10,13 @@ aliases:
   NRPsMatcher: /usr/local/bin/NRPsMatcher
   nerpa.py: /usr/local/bin/nerpa.py
   nerpa_init.py: /usr/local/bin/nerpa_init.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  aserver: /usr/local/bin/aserver
-  brotli: /usr/local/bin/brotli
+  jpackage: /usr/local/bin/jpackage
   cups-config: /usr/local/bin/cups-config
-  f2py3.7: /usr/local/bin/f2py3.7
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
   fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.7: /usr/local/bin/f2py3.7

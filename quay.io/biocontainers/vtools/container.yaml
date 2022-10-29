@@ -11,11 +11,13 @@ aliases:
   vtools-filter: /usr/local/bin/vtools-filter
   vtools-gcoverage: /usr/local/bin/vtools-gcoverage
   vtools-stats: /usr/local/bin/vtools-stats
-  bgzip: /usr/local/bin/bgzip
-  coloredlogs: /usr/local/bin/coloredlogs
   cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  tqdm: /usr/local/bin/tqdm
   f2py3.8: /usr/local/bin/f2py3.8
   htsfile: /usr/local/bin/htsfile
-  humanfriendly: /usr/local/bin/humanfriendly
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix
-  tqdm: /usr/local/bin/tqdm
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8

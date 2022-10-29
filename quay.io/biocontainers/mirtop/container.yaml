@@ -8,7 +8,7 @@ tags:
 docker: quay.io/biocontainers/mirtop
 aliases:
   mirtop: /usr/local/bin/mirtop
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq

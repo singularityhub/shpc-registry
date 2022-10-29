@@ -16,13 +16,13 @@ aliases:
   ionhammer: /usr/local/bin/ionhammer
   scaffold_correction: /usr/local/bin/scaffold_correction
   spades: /usr/local/bin/spades
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build
-  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  fastaq: /usr/local/bin/fastaq
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-div: /usr/local/bin/cd-hit-div
+  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl
+  cd-hit-est-2d: /usr/local/bin/cd-hit-est-2d
+  cd-hit-para.pl: /usr/local/bin/cd-hit-para.pl
+  clstr2tree.pl: /usr/local/bin/clstr2tree.pl

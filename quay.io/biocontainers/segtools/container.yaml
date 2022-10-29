@@ -7,6 +7,7 @@ tags:
   1.2.4--pyh864c0ab_1: sha256:725c332493ddefcb7a68eb42699fcdd9764888f339168271f53eabdb1571cd83
 docker: quay.io/biocontainers/segtools
 aliases:
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
   discrete-mi: /usr/local/bin/discrete-mi
   filter: /usr/local/bin/filter
   fixTri.sh: /usr/local/bin/fixTri.sh
@@ -70,13 +71,13 @@ aliases:
   triangulateGA: /usr/local/bin/triangulateGA
   triangulateParallel: /usr/local/bin/triangulateParallel
   triangulateTimings: /usr/local/bin/triangulateTimings
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  acyclic: /usr/local/bin/acyclic
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcomps: /usr/local/bin/bcomps
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  f2py3.6: /usr/local/bin/f2py3.6

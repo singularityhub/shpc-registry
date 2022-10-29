@@ -7,13 +7,14 @@ tags:
   2.1.7--py27_0: sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c
 docker: quay.io/biocontainers/biom-format
 aliases:
-  biom: /usr/local/bin/biom
+  pyqi: /usr/local/bin/pyqi
+  unit2: /usr/local/bin/unit2
   conv-template: /usr/local/bin/conv-template
   from-template: /usr/local/bin/from-template
+  biom: /usr/local/bin/biom
   futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
+  pasteurize: /usr/local/bin/pasteurize
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7

@@ -7,10 +7,12 @@ tags:
   0.3.3--r3.3.1_1: sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6
 docker: quay.io/biocontainers/r-gmd
 aliases:
+  pango-querymodules: /usr/local/bin/pango-querymodules
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  pango-querymodules: /usr/local/bin/pango-querymodules
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
   uconv: /usr/local/bin/uconv
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

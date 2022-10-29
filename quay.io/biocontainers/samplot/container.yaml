@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/samplot
 aliases:
   samplot: /usr/local/bin/samplot
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   idn2: /usr/local/bin/idn2
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
+  wget: /usr/local/bin/wget
+  f2py3.9: /usr/local/bin/f2py3.9
   opj_compress: /usr/local/bin/opj_compress
   opj_decompress: /usr/local/bin/opj_decompress
   opj_dump: /usr/local/bin/opj_dump
-  psicc: /usr/local/bin/psicc
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9

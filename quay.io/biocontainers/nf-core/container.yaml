@@ -7,20 +7,30 @@ tags:
   2.6--pyh7cba7a3_1: sha256:e93a47ded9e18567f695e8610846f32f935c1db44ac5c5b03ab51ece3e8c5735
 docker: quay.io/biocontainers/nf-core
 aliases:
-  import_igenome: /usr/local/bin/import_igenome
-  mulled-hash: /usr/local/bin/mulled-hash
-  mulled-list: /usr/local/bin/mulled-list
-  mulled-update-singularity-containers: /usr/local/bin/mulled-update-singularity-containers
-  nf-core: /usr/local/bin/nf-core
-  refgenie: /usr/local/bin/refgenie
-  scalar: /usr/local/bin/scalar
-  2to3-3.10: /usr/local/bin/2to3-3.10
   cheetah: /usr/local/bin/cheetah
   cheetah-analyze: /usr/local/bin/cheetah-analyze
   cheetah-compile: /usr/local/bin/cheetah-compile
-  cmark: /usr/local/bin/cmark
+  galaxy-tool-test: /usr/local/bin/galaxy-tool-test
+  import_igenome: /usr/local/bin/import_igenome
+  mulled-build: /usr/local/bin/mulled-build
+  mulled-build-channel: /usr/local/bin/mulled-build-channel
+  mulled-build-files: /usr/local/bin/mulled-build-files
+  mulled-build-tool: /usr/local/bin/mulled-build-tool
+  mulled-hash: /usr/local/bin/mulled-hash
+  mulled-list: /usr/local/bin/mulled-list
+  mulled-search: /usr/local/bin/mulled-search
+  mulled-update-singularity-containers: /usr/local/bin/mulled-update-singularity-containers
+  nf-core: /usr/local/bin/nf-core
+  refgenie: /usr/local/bin/refgenie
+  rich-click: /usr/local/bin/rich-click
+  scalar: /usr/local/bin/scalar
   conda-env: /usr/local/bin/conda-env
   cph: /usr/local/bin/cph
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
   docutils: /usr/local/bin/docutils
-  f2py3.10: /usr/local/bin/f2py3.10
-  faidx: /usr/local/bin/faidx

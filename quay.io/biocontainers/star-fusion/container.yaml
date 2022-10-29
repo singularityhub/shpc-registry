@@ -9,40 +9,77 @@ docker: quay.io/biocontainers/star-fusion
 aliases:
   PtR: /usr/local/bin/PtR
   STAR-Fusion: /usr/local/bin/STAR-Fusion
+  Trinity: /usr/local/bin/Trinity
   TrinityStats.pl: /usr/local/bin/TrinityStats.pl
   Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
   abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
   align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
   analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
   analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  atoiindex: /usr/local/bin/atoiindex
   blast_and_promiscuity_filter.pl: /usr/local/bin/blast_and_promiscuity_filter.pl
+  cmetindex: /usr/local/bin/cmetindex
   contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  cpuid: /usr/local/bin/cpuid
   create_datauri: /usr/local/bin/create_datauri
   create_report: /usr/local/bin/create_report
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
   define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
+  ensembl_genes: /usr/local/bin/ensembl_genes
   extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  fa_coords: /usr/local/bin/fa_coords
   filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  get-genome: /usr/local/bin/get-genome
   get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites
   gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
   gmap_cat: /usr/local/bin/gmap_cat
+  gmap_process: /usr/local/bin/gmap_process
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
   gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gsnap: /usr/local/bin/gsnap
   gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
   gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gvf_iit: /usr/local/bin/gvf_iit
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
   indexdb_cat: /usr/local/bin/indexdb_cat
   insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
+  md_coords: /usr/local/bin/md_coords
   prep_genome_lib.pl: /usr/local/bin/prep_genome_lib.pl
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
   retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
   run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
   run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  sam_sort: /usr/local/bin/sam_sort
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  snpindex: /usr/local/bin/snpindex
+  trindex: /usr/local/bin/trindex
+  vcf_iit: /usr/local/bin/vcf_iit
+  gmap: /usr/local/bin/gmap
+  salmon: /usr/local/bin/salmon
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
   STAR: /usr/local/bin/STAR
   STARlong: /usr/local/bin/STARlong
-  Trinity: /usr/local/bin/Trinity
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  alltoall.sh: /usr/local/bin/alltoall.sh
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jeprof: /usr/local/bin/jeprof
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh

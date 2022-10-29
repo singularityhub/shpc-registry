@@ -44,9 +44,9 @@ aliases:
   runph: /usr/local/bin/runph
   test.pyomo: /usr/local/bin/test.pyomo
   test.pyutilib: /usr/local/bin/test.pyutilib
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   nosetests: /usr/local/bin/nosetests
-  pyvenv: /usr/local/bin/pyvenv
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config
+  pyvenv: /usr/local/bin/pyvenv

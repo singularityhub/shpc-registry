@@ -10,14 +10,15 @@ aliases:
   bedClip: /usr/local/bin/bedClip
   bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed
   bigWigSummary: /usr/local/bin/bigWigSummary
-  marge: /usr/local/bin/marge
-  2to3-3.6: /usr/local/bin/2to3-3.6
   bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
-  chardetect: /usr/local/bin/chardetect
-  f2py3.6: /usr/local/bin/f2py3.6
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
+  marge: /usr/local/bin/marge
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  rst2html4.py: /usr/local/bin/rst2html4.py

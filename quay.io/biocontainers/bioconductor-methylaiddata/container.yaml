@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:65932b71b54d6e5348fdf8428c918bbdb95bc8d9a1ad7f231ee59cdc34ad100a
 docker: quay.io/biocontainers/bioconductor-methylaiddata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-methylaiddata-post-link.sh: /usr/local/bin/.bioconductor-methylaiddata-post-link.sh
+  .bioconductor-methylaiddata-pre-unlink.sh: /usr/local/bin/.bioconductor-methylaiddata-pre-unlink.sh

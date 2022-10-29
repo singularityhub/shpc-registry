@@ -66,3 +66,5 @@ aliases:
   to_upper_case.pl.bak: /usr/local/bin/to_upper_case.pl.bak
   transpose.pl: /usr/local/bin/transpose.pl
   transpose.pl.bak: /usr/local/bin/transpose.pl.bak
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

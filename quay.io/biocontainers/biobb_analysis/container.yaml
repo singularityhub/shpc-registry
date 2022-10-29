@@ -78,7 +78,20 @@ aliases:
   gmx_trjconv_trj: /usr/local/bin/gmx_trjconv_trj
   gwh: /usr/local/bin/gwh
   hcp_getpdb: /usr/local/bin/hcp_getpdb
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
   hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
   makeANG_RST: /usr/local/bin/makeANG_RST
   makeCHIR_RST: /usr/local/bin/makeCHIR_RST
   makeCSA_RST.na: /usr/local/bin/makeCSA_RST.na
@@ -105,6 +118,7 @@ aliases:
   nab: /usr/local/bin/nab
   nab2c: /usr/local/bin/nab2c
   nef_to_RST: /usr/local/bin/nef_to_RST
+  nf-config: /usr/local/bin/nf-config
   nfe-umbrella-slice: /usr/local/bin/nfe-umbrella-slice
   nmode: /usr/local/bin/nmode
   packmol: /usr/local/bin/packmol
@@ -112,6 +126,7 @@ aliases:
   paramfit: /usr/local/bin/paramfit
   parmcal: /usr/local/bin/parmcal
   parmchk2: /usr/local/bin/parmchk2
+  parmed: /usr/local/bin/parmed
   pbsa: /usr/local/bin/pbsa
   pdb4amber: /usr/local/bin/pdb4amber
   prepgen: /usr/local/bin/prepgen
@@ -146,13 +161,14 @@ aliases:
   ucpp: /usr/local/bin/ucpp
   xaLeap: /usr/local/bin/xaLeap
   xleap: /usr/local/bin/xleap
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
+  xparmed: /usr/local/bin/xparmed
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  f2py3.10: /usr/local/bin/f2py3.10
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc

@@ -8,10 +8,12 @@ tags:
 docker: quay.io/biocontainers/perl-soap-lite
 aliases:
   SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  stubmaker.pl: /usr/local/bin/stubmaker.pl
   binhex.pl: /usr/local/bin/binhex.pl
   debinhex.pl: /usr/local/bin/debinhex.pl
   lwp-download: /usr/local/bin/lwp-download
   lwp-dump: /usr/local/bin/lwp-dump
   lwp-mirror: /usr/local/bin/lwp-mirror
   lwp-request: /usr/local/bin/lwp-request
-  stubmaker.pl: /usr/local/bin/stubmaker.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

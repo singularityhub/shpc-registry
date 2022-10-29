@@ -7,11 +7,11 @@ tags:
   1.0.0--r41hc247a5b_2: sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41
 docker: quay.io/biocontainers/bioconductor-msstatslip
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
-  pandoc: /usr/local/bin/pandoc
   pandoc-server: /usr/local/bin/pandoc-server
+  pandoc: /usr/local/bin/pandoc
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10

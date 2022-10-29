@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/deepnog
 aliases:
   deepnog: /usr/local/bin/deepnog
-  2to3-3.7: /usr/local/bin/2to3-3.7
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py3.7: /usr/local/bin/f2py3.7
-  idle3.7: /usr/local/bin/idle3.7
-  markdown_py: /usr/local/bin/markdown_py
   ninja: /usr/local/bin/ninja
+  tensorboard: /usr/local/bin/tensorboard
+  markdown_py: /usr/local/bin/markdown_py
   protoc: /usr/local/bin/protoc
-  pydoc3.7: /usr/local/bin/pydoc3.7
-  python3.7: /usr/local/bin/python3.7
+  tqdm: /usr/local/bin/tqdm
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7

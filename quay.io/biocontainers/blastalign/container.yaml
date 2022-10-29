@@ -10,7 +10,6 @@ aliases:
   BlastAlign: /usr/local/bin/BlastAlign
   BlastAlign.py: /usr/local/bin/BlastAlign.py
   BlastAlignP: /usr/local/bin/BlastAlignP
-  2to3-3.10: /usr/local/bin/2to3-3.10
   bl2seq: /usr/local/bin/bl2seq
   blastall: /usr/local/bin/blastall
   blastclust: /usr/local/bin/blastclust
@@ -19,4 +18,5 @@ aliases:
   fastacmd: /usr/local/bin/fastacmd
   formatdb: /usr/local/bin/formatdb
   formatrpsdb: /usr/local/bin/formatrpsdb
-  idle3.10: /usr/local/bin/idle3.10
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat

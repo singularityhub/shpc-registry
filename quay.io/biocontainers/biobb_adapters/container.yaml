@@ -7,14 +7,23 @@ tags:
   3.7.0--pyhdfd78af_0: sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85
 docker: quay.io/biocontainers/biobb_adapters
 aliases:
-  black-primer: /usr/local/bin/black-primer
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
   bagit.py: /usr/local/bin/bagit.py
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
   black: /usr/local/bin/black
+  black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd
+  jupyter-console: /usr/local/bin/jupyter-console
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
+  send2trash: /usr/local/bin/send2trash
+  cwltool: /usr/local/bin/cwltool
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension

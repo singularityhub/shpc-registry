@@ -6,14 +6,3 @@ latest:
 tags:
   2.46.0--r41hdfd78af_0: sha256:6d02a3b3c635d28d5e0efb1e14bec2a2dfea8453876fa0b893a4db2ba0125d23
 docker: quay.io/biocontainers/bioconductor-spia
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,8 +7,8 @@ tags:
   2.26.0--r41hc0cfd56_2: sha256:425ba51e871b7a00e342eb63ddc5a9d141a5d26b95881a8338ba313aa9052f19
 docker: quay.io/biocontainers/bioconductor-edge
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

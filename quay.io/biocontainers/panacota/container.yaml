@@ -16,13 +16,13 @@ aliases:
   quicktree: /usr/local/bin/quicktree
   run_panacota.py: /usr/local/bin/run_panacota.py
   tbl2asn-test: /usr/local/bin/tbl2asn-test
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  CA.pm: /usr/local/bin/CA.pm
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
+  fix-sqn-date: /usr/local/bin/fix-sqn-date
+  faketime: /usr/local/bin/faketime
+  real-tbl2asn: /usr/local/bin/real-tbl2asn
+  prokka-abricate_to_fasta_db: /usr/local/bin/prokka-abricate_to_fasta_db
+  iqtree: /usr/local/bin/iqtree
+  prokka: /usr/local/bin/prokka
+  prokka-biocyc_to_fasta_db: /usr/local/bin/prokka-biocyc_to_fasta_db
+  prokka-build_kingdom_dbs: /usr/local/bin/prokka-build_kingdom_dbs
+  prokka-cdd_to_hmm: /usr/local/bin/prokka-cdd_to_hmm
+  prokka-clusters_to_hmm: /usr/local/bin/prokka-clusters_to_hmm

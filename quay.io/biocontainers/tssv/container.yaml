@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/tssv
 aliases:
   tannotate: /usr/local/bin/tannotate
   tssv: /usr/local/bin/tssv
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  f2py3.6: /usr/local/bin/f2py3.6
-  idle3.6: /usr/local/bin/idle3.6
   igzip: /usr/local/bin/igzip
-  normalizer: /usr/local/bin/normalizer
   pbunzip2: /usr/local/bin/pbunzip2
   pbzcat: /usr/local/bin/pbzcat
   pbzip2: /usr/local/bin/pbzip2
   pigz: /usr/local/bin/pigz
-  pydoc3.6: /usr/local/bin/pydoc3.6
+  unpigz: /usr/local/bin/unpigz
+  f2py3.6: /usr/local/bin/f2py3.6
+  normalizer: /usr/local/bin/normalizer
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6

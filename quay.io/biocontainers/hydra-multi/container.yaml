@@ -25,13 +25,13 @@ aliases:
   make_hydra_config.py: /usr/local/bin/make_hydra_config.py
   mergeBreakpoints.py: /usr/local/bin/mergeBreakpoints.py
   pairDiscordants.py: /usr/local/bin/pairDiscordants.py
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed

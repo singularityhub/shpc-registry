@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/liftoff
 aliases:
   liftoff: /usr/local/bin/liftoff
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  faidx: /usr/local/bin/faidx
-  fonttools: /usr/local/bin/fonttools
   gffutils-cli: /usr/local/bin/gffutils-cli
-  gif2rgb: /usr/local/bin/gif2rgb
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  faidx: /usr/local/bin/faidx
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

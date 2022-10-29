@@ -50,17 +50,19 @@ aliases:
   subset_data.py: /usr/local/bin/subset_data.py
   summarize_flags.py: /usr/local/bin/summarize_flags.py
   svm_classifier.py: /usr/local/bin/svm_classifier.py
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
   threshold_based_flags.py: /usr/local/bin/threshold_based_flags.py
   ttest.py: /usr/local/bin/ttest.py
   ttest_perm.py: /usr/local/bin/ttest_perm.py
   ttest_single_group.py: /usr/local/bin/ttest_single_group.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  chardetect: /usr/local/bin/chardetect
-  f2py3.9: /usr/local/bin/f2py3.9
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
   fill-aa: /usr/local/bin/fill-aa
   fill-an-ac: /usr/local/bin/fill-an-ac
   fill-fs: /usr/local/bin/fill-fs
   fill-ref-md5: /usr/local/bin/fill-ref-md5
-  idle3.9: /usr/local/bin/idle3.9
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

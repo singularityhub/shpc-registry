@@ -7,13 +7,5 @@ tags:
   3.4.0--r41hdfd78af_9: sha256:0cba5e59ed71c99dacf727da82f898548f06c1799c8b2d8eb79e793301ad1892
 docker: quay.io/biocontainers/bioconductor-h10kcod.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-h10kcod.db-post-link.sh: /usr/local/bin/.bioconductor-h10kcod.db-post-link.sh
+  .bioconductor-h10kcod.db-pre-unlink.sh: /usr/local/bin/.bioconductor-h10kcod.db-pre-unlink.sh

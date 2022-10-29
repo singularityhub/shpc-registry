@@ -21,6 +21,6 @@ aliases:
   coverage: /usr/local/bin/coverage
   py.test: /usr/local/bin/py.test
   pytest: /usr/local/bin/pytest
-  pyvenv: /usr/local/bin/pyvenv
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  pyvenv: /usr/local/bin/pyvenv

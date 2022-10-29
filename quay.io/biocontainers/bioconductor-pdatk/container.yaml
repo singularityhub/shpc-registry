@@ -6,14 +6,3 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a
 docker: quay.io/biocontainers/bioconductor-pdatk
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

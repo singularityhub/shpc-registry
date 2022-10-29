@@ -11,3 +11,5 @@ aliases:
   shuffleSequences_fastq.pl: /usr/local/bin/shuffleSequences_fastq.pl
   velvetg: /usr/local/bin/velvetg
   velveth: /usr/local/bin/velveth
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

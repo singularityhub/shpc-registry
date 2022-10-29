@@ -6,14 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:bbb16f069adfe3ecb2b651f119b9e25957b7ea2e22d223ff9f831bfed3729144
 docker: quay.io/biocontainers/bioconductor-ccrepe
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

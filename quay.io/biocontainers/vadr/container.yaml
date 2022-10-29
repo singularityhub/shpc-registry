@@ -7,6 +7,7 @@ tags:
   1.5--pl5321hdfd78af_0: sha256:14ee275e78389dff447f210d2e270475a409c05233e339a231b1804357d8b048
 docker: quay.io/biocontainers/vadr
 aliases:
+  .vadr-post-link.sh: /usr/local/bin/.vadr-post-link.sh
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl
   ann_exons_ncbi.pl: /usr/local/bin/ann_exons_ncbi.pl
   ann_exons_up_sql.pl: /usr/local/bin/ann_exons_up_sql.pl
@@ -71,13 +72,13 @@ aliases:
   vadr-map-model-coords.pl: /usr/local/bin/vadr-map-model-coords.pl
   vadr-map-two-complete-models.pl: /usr/local/bin/vadr-map-two-complete-models.pl
   vadr-run.sh: /usr/local/bin/vadr-run.sh
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat

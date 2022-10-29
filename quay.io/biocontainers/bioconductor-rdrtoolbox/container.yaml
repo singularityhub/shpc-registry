@@ -6,14 +6,3 @@ latest:
 tags:
   1.44.0--r41hdfd78af_0: sha256:e7722b9ad7a03f80bbd55e2248af3c88bfec8a1ce10ee7fb0e2e6f6bd1495fdb
 docker: quay.io/biocontainers/bioconductor-rdrtoolbox
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

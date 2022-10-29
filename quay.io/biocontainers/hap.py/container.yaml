@@ -31,13 +31,13 @@ aliases:
   validatevcf: /usr/local/bin/validatevcf
   vcfhdr2json: /usr/local/bin/vcfhdr2json
   xcmp: /usr/local/bin/xcmp
-  ace2sam: /usr/local/bin/ace2sam
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  align_print_template.py: /usr/local/bin/align_print_template.py
+  vcfcheck: /usr/local/bin/vcfcheck
+  intersection_matrix.py: /usr/local/bin/intersection_matrix.py
+  intron_exon_reads.py: /usr/local/bin/intron_exon_reads.py
+  nosetests: /usr/local/bin/nosetests
+  pbt_plotting_example.py: /usr/local/bin/pbt_plotting_example.py
+  peak_pie.py: /usr/local/bin/peak_pie.py
+  pybedtools: /usr/local/bin/pybedtools
+  venn_gchart.py: /usr/local/bin/venn_gchart.py
+  venn_mpl.py: /usr/local/bin/venn_mpl.py
   annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bamToBed: /usr/local/bin/bamToBed

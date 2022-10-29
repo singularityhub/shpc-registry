@@ -7,7 +7,7 @@ tags:
   0.27--pl5321h9f5acd7_6: sha256:f307b914ae7faf1b810801841929c7c59d286f412ffe83d642660019da8e94db
 docker: quay.io/biocontainers/perl-namespace-clean
 aliases:
-  cpanm: /usr/local/bin/cpanm
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
   perl5.32.1: /usr/local/bin/perl5.32.1
   streamzip: /usr/local/bin/streamzip

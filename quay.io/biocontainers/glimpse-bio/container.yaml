@@ -13,6 +13,6 @@ aliases:
   GLIMPSE_phase: /usr/local/bin/GLIMPSE_phase
   GLIMPSE_sample: /usr/local/bin/GLIMPSE_sample
   GLIMPSE_snparray: /usr/local/bin/GLIMPSE_snparray
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

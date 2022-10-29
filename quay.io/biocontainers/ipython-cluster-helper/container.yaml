@@ -10,13 +10,13 @@ aliases:
   ipcluster: /usr/local/bin/ipcluster
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  curve_keygen: /usr/local/bin/curve_keygen
-  idle3.8: /usr/local/bin/idle3.8
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jupyter: /usr/local/bin/jupyter
   jupyter-kernel: /usr/local/bin/jupyter-kernel
   jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  iptest3: /usr/local/bin/iptest3
+  curve_keygen: /usr/local/bin/curve_keygen
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate

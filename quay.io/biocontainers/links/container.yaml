@@ -12,3 +12,5 @@ aliases:
   LINKS-make-real: /usr/local/bin/LINKS-make-real
   LINKS.pl: /usr/local/bin/LINKS.pl
   LINKS_CPP: /usr/local/bin/LINKS_CPP
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -11,36 +11,52 @@ aliases:
   esri2wkt.py: /usr/local/bin/esri2wkt.py
   gcps2vec.py: /usr/local/bin/gcps2vec.py
   gcps2wld.py: /usr/local/bin/gcps2wld.py
+  gdal-config: /usr/local/bin/gdal-config
   gdal2tiles.py: /usr/local/bin/gdal2tiles.py
   gdal2xyz.py: /usr/local/bin/gdal2xyz.py
   gdal_auth.py: /usr/local/bin/gdal_auth.py
   gdal_calc.py: /usr/local/bin/gdal_calc.py
+  gdal_contour: /usr/local/bin/gdal_contour
   gdal_edit.py: /usr/local/bin/gdal_edit.py
   gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
+  gdal_grid: /usr/local/bin/gdal_grid
   gdal_merge.py: /usr/local/bin/gdal_merge.py
   gdal_pansharpen.py: /usr/local/bin/gdal_pansharpen.py
   gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
   gdal_proximity.py: /usr/local/bin/gdal_proximity.py
+  gdal_rasterize: /usr/local/bin/gdal_rasterize
   gdal_retile.py: /usr/local/bin/gdal_retile.py
   gdal_sieve.py: /usr/local/bin/gdal_sieve.py
+  gdal_translate: /usr/local/bin/gdal_translate
+  gdaladdo: /usr/local/bin/gdaladdo
+  gdalbuildvrt: /usr/local/bin/gdalbuildvrt
   gdalchksum.py: /usr/local/bin/gdalchksum.py
   gdalcompare.py: /usr/local/bin/gdalcompare.py
+  gdaldem: /usr/local/bin/gdaldem
+  gdalenhance: /usr/local/bin/gdalenhance
   gdalident.py: /usr/local/bin/gdalident.py
   gdalimport.py: /usr/local/bin/gdalimport.py
+  gdalinfo: /usr/local/bin/gdalinfo
+  gdallocationinfo: /usr/local/bin/gdallocationinfo
+  gdalmanage: /usr/local/bin/gdalmanage
   gdalmove.py: /usr/local/bin/gdalmove.py
   gdalserver: /usr/local/bin/gdalserver
+  gdalsrsinfo: /usr/local/bin/gdalsrsinfo
+  gdaltindex: /usr/local/bin/gdaltindex
+  gdaltransform: /usr/local/bin/gdaltransform
+  gdalwarp: /usr/local/bin/gdalwarp
   mkgraticule.py: /usr/local/bin/mkgraticule.py
   nad2bin: /usr/local/bin/nad2bin
   ogrmerge.py: /usr/local/bin/ogrmerge.py
   pct2rgb.py: /usr/local/bin/pct2rgb.py
   rgb2pct.py: /usr/local/bin/rgb2pct.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
+  testepsg: /usr/local/bin/testepsg
+  pg_standby: /usr/local/bin/pg_standby
+  conv-template: /usr/local/bin/conv-template
+  from-template: /usr/local/bin/from-template
+  applygeo: /usr/local/bin/applygeo
+  geotifcp: /usr/local/bin/geotifcp
+  gnmanalyse: /usr/local/bin/gnmanalyse
+  gnmmanage: /usr/local/bin/gnmmanage
+  kea-config: /usr/local/bin/kea-config
+  listgeo: /usr/local/bin/listgeo

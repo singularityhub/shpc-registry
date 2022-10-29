@@ -7,7 +7,16 @@ tags:
   2.03--hdfd78af_2: sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86
 docker: quay.io/biocontainers/vsnp
 aliases:
+  abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short
+  abyss-stack-size: /usr/local/bin/abyss-stack-size
   cpuinfo: /usr/local/bin/cpuinfo
+  irqtop: /usr/local/bin/irqtop
+  lsirq: /usr/local/bin/lsirq
+  nsenter: /usr/local/bin/nsenter
+  prlimit: /usr/local/bin/prlimit
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  scriptlive: /usr/local/bin/scriptlive
+  update_version.sh: /usr/local/bin/update_version.sh
   vSNP_step1.py: /usr/local/bin/vSNP_step1.py
   vSNP_step2.py: /usr/local/bin/vSNP_step2.py
   vsnp_alignment_vcf.py: /usr/local/bin/vsnp_alignment_vcf.py
@@ -27,13 +36,13 @@ aliases:
   vsnp_reference_options.py: /usr/local/bin/vsnp_reference_options.py
   vsnp_remove_from_analysis.py: /usr/local/bin/vsnp_remove_from_analysis.py
   vsnp_spoligotype.py: /usr/local/bin/vsnp_spoligotype.py
-  ABYSS: /usr/local/bin/ABYSS
-  ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
-  MergePaths: /usr/local/bin/MergePaths
+  cal: /usr/local/bin/cal
+  chmem: /usr/local/bin/chmem
+  choom: /usr/local/bin/choom
+  chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

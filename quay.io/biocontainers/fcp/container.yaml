@@ -74,13 +74,13 @@ aliases:
   uniform_search_unit_test: /usr/local/bin/uniform_search_unit_test
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
+  test_pcre: /usr/local/bin/test_pcre
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
   blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
-  convert2blastmask: /usr/local/bin/convert2blastmask
-  datatool: /usr/local/bin/datatool
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  seedtop: /usr/local/bin/seedtop
+  uconv: /usr/local/bin/uconv
+  run_with_lock: /usr/local/bin/run_with_lock
+  blast_formatter: /usr/local/bin/blast_formatter

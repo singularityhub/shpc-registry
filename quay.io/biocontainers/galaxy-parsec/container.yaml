@@ -7,14 +7,15 @@ tags:
   1.16.0--pyh5e36f6f_0: sha256:ae86039032c9f38d07f4e77f84ea6720dbb33e519066f70605ac9665bb5ee4b3
 docker: quay.io/biocontainers/galaxy-parsec
 aliases:
-  parsec: /usr/local/bin/parsec
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  asadmin: /usr/local/bin/asadmin
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
+  parsec: /usr/local/bin/parsec
+  asadmin: /usr/local/bin/asadmin
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
-  chardetect: /usr/local/bin/chardetect
   cq: /usr/local/bin/cq
   cwutil: /usr/local/bin/cwutil
   dynamodb_dump: /usr/local/bin/dynamodb_dump
   dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin
+  fetch_file: /usr/local/bin/fetch_file
+  glacier: /usr/local/bin/glacier

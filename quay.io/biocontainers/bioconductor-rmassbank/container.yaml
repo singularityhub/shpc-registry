@@ -7,13 +7,15 @@ tags:
   3.4.0--r41hc247a5b_2: sha256:8a4587d79a816b48ee2424ce3e9a45fe0eeada64676725f46df7abd042438355
 docker: quay.io/biocontainers/bioconductor-rmassbank
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
-  cups-config: /usr/local/bin/cups-config
-  gif2h5: /usr/local/bin/gif2h5
-  gif2hdf: /usr/local/bin/gif2hdf
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

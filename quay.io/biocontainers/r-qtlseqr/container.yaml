@@ -6,14 +6,3 @@ latest:
 tags:
   0.7.5.2--r41h9f5acd7_3: sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304
 docker: quay.io/biocontainers/r-qtlseqr
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

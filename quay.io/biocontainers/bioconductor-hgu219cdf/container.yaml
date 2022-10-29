@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:7f48210849d9bf81edb6a6c5c73da95695b599c49a375182bc6a0b6f3f292cdc
 docker: quay.io/biocontainers/bioconductor-hgu219cdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hgu219cdf-post-link.sh: /usr/local/bin/.bioconductor-hgu219cdf-post-link.sh
+  .bioconductor-hgu219cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu219cdf-pre-unlink.sh

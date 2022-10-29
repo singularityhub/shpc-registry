@@ -11,11 +11,11 @@ aliases:
   proovframe-fix: /usr/local/bin/proovframe-fix
   proovframe-map: /usr/local/bin/proovframe-map
   proovframe-prf: /usr/local/bin/proovframe-prf
+  seqkit: /usr/local/bin/seqkit
   diamond: /usr/local/bin/diamond
-  k8: /usr/local/bin/k8
-  minimap2: /usr/local/bin/minimap2
+  sdust: /usr/local/bin/sdust
   paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
   perl5.26.2: /usr/local/bin/perl5.26.2
   podselect: /usr/local/bin/podselect
-  sdust: /usr/local/bin/sdust
-  seqkit: /usr/local/bin/seqkit

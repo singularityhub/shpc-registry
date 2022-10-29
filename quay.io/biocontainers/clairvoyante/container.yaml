@@ -10,13 +10,13 @@ aliases:
   clairvoyante.py: /usr/local/bin/clairvoyante.py
   pypy: /usr/local/bin/pypy
   virtualenv-pypy: /usr/local/bin/virtualenv-pypy
-  f2py2: /usr/local/bin/f2py2
-  f2py2.7: /usr/local/bin/f2py2.7
   freeze_graph: /usr/local/bin/freeze_graph
-  idle: /usr/local/bin/idle
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
   markdown_py: /usr/local/bin/markdown_py
   protoc: /usr/local/bin/protoc
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7

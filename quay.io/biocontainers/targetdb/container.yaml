@@ -8,11 +8,16 @@ tags:
 docker: quay.io/biocontainers/targetdb
 aliases:
   dpocket: /usr/local/bin/dpocket
+  ffmpeg: /usr/local/bin/ffmpeg
+  ffprobe: /usr/local/bin/ffprobe
   fpocket: /usr/local/bin/fpocket
+  h264dec: /usr/local/bin/h264dec
+  h264enc: /usr/local/bin/h264enc
   hyper: /usr/local/bin/hyper
   imgcmp: /usr/local/bin/imgcmp
   imginfo: /usr/local/bin/imginfo
   jasper: /usr/local/bin/jasper
+  lame: /usr/local/bin/lame
   mdpocket: /usr/local/bin/mdpocket
   opencv_annotation: /usr/local/bin/opencv_annotation
   opencv_interactive-calibration: /usr/local/bin/opencv_interactive-calibration
@@ -24,13 +29,14 @@ aliases:
   target_DB: /usr/local/bin/target_DB
   tmrdemo: /usr/local/bin/tmrdemo
   tpocket: /usr/local/bin/tpocket
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  assistant: /usr/local/bin/assistant
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  x264: /usr/local/bin/x264
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv
+  psktool: /usr/local/bin/psktool

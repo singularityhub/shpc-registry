@@ -7,6 +7,7 @@ tags:
   1.2_4--r3.3.2_0: sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35
 docker: quay.io/biocontainers/r-agricolae
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

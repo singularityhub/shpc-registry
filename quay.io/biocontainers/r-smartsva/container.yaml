@@ -6,14 +6,3 @@ latest:
 tags:
   0.1.3--r41hecf12ef_5: sha256:59cb4b6796563f3cd2b4762d1dc85d1e347f2ab4fc27414388c28b36db9bac7a
 docker: quay.io/biocontainers/r-smartsva
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

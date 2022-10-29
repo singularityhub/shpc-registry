@@ -7,14 +7,17 @@ tags:
   1.1.1--pyh7cba7a3_1: sha256:36b5deb5c51f3c38f8e0a235675d80ab4bbe1611914f6a24e8e2cf80a4c6d7ad
 docker: quay.io/biocontainers/semibin
 aliases:
-  SemiBin: /usr/local/bin/SemiBin
-  2to3-3.10: /usr/local/bin/2to3-3.10
   FragGeneScan: /usr/local/bin/FragGeneScan
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
-  annotateBed: /usr/local/bin/annotateBed
-  awk: /usr/local/bin/awk
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  SemiBin: /usr/local/bin/SemiBin
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  torchrun: /usr/local/bin/torchrun
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  mmseqs: /usr/local/bin/mmseqs
+  ninja: /usr/local/bin/ninja
+  igraph: /usr/local/bin/igraph
+  cmpfillin: /usr/local/bin/cmpfillin
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis

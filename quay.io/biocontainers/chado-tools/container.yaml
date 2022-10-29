@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/chado-tools
 aliases:
   chado: /usr/local/bin/chado
   pronto: /usr/local/bin/pronto
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  faidx: /usr/local/bin/faidx
   gffutils-cli: /usr/local/bin/gffutils-cli
-  idle3.6: /usr/local/bin/idle3.6
-  pg_config: /usr/local/bin/pg_config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   pybabel: /usr/local/bin/pybabel
-  pydoc3.6: /usr/local/bin/pydoc3.6
   python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  faidx: /usr/local/bin/faidx
+  pg_config: /usr/local/bin/pg_config
+  2to3-3.6: /usr/local/bin/2to3-3.6
+  idle3.6: /usr/local/bin/idle3.6

@@ -7,9 +7,11 @@ tags:
   1.0.0--r3.2.2_0: sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f
 docker: quay.io/biocontainers/r-futile.options
 aliases:
+  pngcp: /usr/local/bin/pngcp
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  pngcp: /usr/local/bin/pngcp
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

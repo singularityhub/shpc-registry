@@ -7,15 +7,19 @@ tags:
   2.0.2--pyhdfd78af_0: sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e
 docker: quay.io/biocontainers/metaquantome
 aliases:
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
   metaquantome: /usr/local/bin/metaquantome
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
   write_hierarchy.py: /usr/local/bin/write_hierarchy.py
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  bcomps: /usr/local/bin/bcomps
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  canbusutil: /usr/local/bin/canbusutil
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  ete3: /usr/local/bin/ete3
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  delaunay: /usr/local/bin/delaunay

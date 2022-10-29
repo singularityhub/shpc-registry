@@ -15,13 +15,13 @@ aliases:
   miRNAture.pl: /usr/local/bin/miRNAture.pl
   runMIRfix.sh: /usr/local/bin/runMIRfix.sh
   testMIRfix.sh: /usr/local/bin/testMIRfix.sh
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  AnalyseDists: /usr/local/bin/AnalyseDists
-  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
-  Kinfold: /usr/local/bin/Kinfold
-  RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold
+  rmblastn: /usr/local/bin/rmblastn
+  clustalo: /usr/local/bin/clustalo
+  blast_report: /usr/local/bin/blast_report
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat

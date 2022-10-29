@@ -45,13 +45,13 @@ aliases:
   msi_time_it: /usr/local/bin/msi_time_it
   taxonkit: /usr/local/bin/taxonkit
   taxonkit_children.sh: /usr/local/bin/taxonkit_children.sh
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  FET.pl: /usr/local/bin/FET.pl
-  _aaindexextract: /usr/local/bin/_aaindexextract
-  _abiview: /usr/local/bin/_abiview
-  _acdc: /usr/local/bin/_acdc
-  _acdpretty: /usr/local/bin/_acdpretty
-  _acdtable: /usr/local/bin/_acdtable
-  _acdtrace: /usr/local/bin/_acdtrace
-  _acdvalid: /usr/local/bin/_acdvalid
-  _antigenic: /usr/local/bin/_antigenic
+  filter-table: /usr/local/bin/filter-table
+  spdi2prod: /usr/local/bin/spdi2prod
+  _bdftogd: /usr/local/bin/_bdftogd
+  _gd2copypal: /usr/local/bin/_gd2copypal
+  _gd2togif: /usr/local/bin/_gd2togif
+  _gd2topng: /usr/local/bin/_gd2topng
+  _gdcmpgif: /usr/local/bin/_gdcmpgif
+  _gdparttopng: /usr/local/bin/_gdparttopng
+  _gdtopng: /usr/local/bin/_gdtopng
+  _giftogd2: /usr/local/bin/_giftogd2

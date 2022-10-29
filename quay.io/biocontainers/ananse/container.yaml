@@ -194,13 +194,13 @@ aliases:
   weeder2: /usr/local/bin/weeder2
   xsltproc_lite: /usr/local/bin/xsltproc_lite
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
   ame: /usr/local/bin/ame
-  annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
+  beeml2meme: /usr/local/bin/beeml2meme
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip

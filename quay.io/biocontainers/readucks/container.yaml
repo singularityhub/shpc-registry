@@ -8,8 +8,8 @@ tags:
 docker: quay.io/biocontainers/readucks
 aliases:
   readucks: /usr/local/bin/readucks
-  2to3-3.7: /usr/local/bin/2to3-3.7
   f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
@@ -17,3 +17,4 @@ aliases:
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/r-rgbif
 aliases:
   geos-config: /usr/local/bin/geos-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

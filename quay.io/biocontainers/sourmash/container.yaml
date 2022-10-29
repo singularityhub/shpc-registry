@@ -7,14 +7,39 @@ tags:
   2.0.0a9--py35hfc679d8_0: sha256:3b1431a5ef4d7a71ecb85bde2147c400dfc89529a8b06fc8e59a8c8073e11874
 docker: quay.io/biocontainers/sourmash
 aliases:
-  sourmash: /usr/local/bin/sourmash
-  2to3-3.5: /usr/local/bin/2to3-3.5
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
   abundance-dist.py: /usr/local/bin/abundance-dist.py
   annotate-partitions.py: /usr/local/bin/annotate-partitions.py
-  assistant: /usr/local/bin/assistant
   count-median.py: /usr/local/bin/count-median.py
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
+  do-partition.py: /usr/local/bin/do-partition.py
+  extract-long-sequences.py: /usr/local/bin/extract-long-sequences.py
+  extract-paired-reads.py: /usr/local/bin/extract-paired-reads.py
+  extract-partitions.py: /usr/local/bin/extract-partitions.py
+  fastq-to-fasta.py: /usr/local/bin/fastq-to-fasta.py
+  filter-abund-single.py: /usr/local/bin/filter-abund-single.py
+  filter-abund.py: /usr/local/bin/filter-abund.py
+  filter-stoptags.py: /usr/local/bin/filter-stoptags.py
+  find-knots.py: /usr/local/bin/find-knots.py
+  interleave-reads.py: /usr/local/bin/interleave-reads.py
+  load-graph.py: /usr/local/bin/load-graph.py
+  load-into-counting.py: /usr/local/bin/load-into-counting.py
+  make-initial-stoptags.py: /usr/local/bin/make-initial-stoptags.py
+  merge-partitions.py: /usr/local/bin/merge-partitions.py
+  normalize-by-median.py: /usr/local/bin/normalize-by-median.py
+  partition-graph.py: /usr/local/bin/partition-graph.py
+  readstats.py: /usr/local/bin/readstats.py
+  sample-reads-randomly.py: /usr/local/bin/sample-reads-randomly.py
+  sourmash: /usr/local/bin/sourmash
+  split-paired-reads.py: /usr/local/bin/split-paired-reads.py
+  trim-low-abund.py: /usr/local/bin/trim-low-abund.py
+  unique-kmers.py: /usr/local/bin/unique-kmers.py
+  screed: /usr/local/bin/screed
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
+  qhelpconverter: /usr/local/bin/qhelpconverter

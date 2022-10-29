@@ -7,8 +7,8 @@ tags:
   1.22.0--r41hdfd78af_0: sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a
 docker: quay.io/biocontainers/bioconductor-meal
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

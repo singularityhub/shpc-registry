@@ -7,6 +7,8 @@ tags:
   3.8.2--r36_1: sha256:598ddcb5c6bffdca564b5a58082e648075183c09f1c7101f8f7b4c85fac023e4
 docker: quay.io/biocontainers/bioconductor-anopheles.db0
 aliases:
+  .bioconductor-anopheles.db0-post-link.sh: /usr/local/bin/.bioconductor-anopheles.db0-post-link.sh
+  .bioconductor-anopheles.db0-pre-unlink.sh: /usr/local/bin/.bioconductor-anopheles.db0-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

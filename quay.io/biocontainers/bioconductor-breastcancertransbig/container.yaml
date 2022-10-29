@@ -7,13 +7,5 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:661d2cd2486bfb121424de9680f415770581fa8ed6d908d9912de43e802c847c
 docker: quay.io/biocontainers/bioconductor-breastcancertransbig
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-breastcancertransbig-post-link.sh: /usr/local/bin/.bioconductor-breastcancertransbig-post-link.sh
+  .bioconductor-breastcancertransbig-pre-unlink.sh: /usr/local/bin/.bioconductor-breastcancertransbig-pre-unlink.sh

@@ -7,8 +7,8 @@ tags:
   2.1.7--r41hecf12ef_1: sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366
 docker: quay.io/biocontainers/r-sigminer
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

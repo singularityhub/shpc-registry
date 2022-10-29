@@ -16,11 +16,11 @@ aliases:
   diamond_makedb.sh: /usr/local/bin/diamond_makedb.sh
   print_header.py: /usr/local/bin/print_header.py
   reformat_tables.py: /usr/local/bin/reformat_tables.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
   diamond: /usr/local/bin/diamond
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
   normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10

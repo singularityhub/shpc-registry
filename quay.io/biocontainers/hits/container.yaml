@@ -7,13 +7,16 @@ tags:
   0.3.3--py37h8902056_1: sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80
 docker: quay.io/biocontainers/hits
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  bokeh: /usr/local/bin/bokeh
-  curve_keygen: /usr/local/bin/curve_keygen
-  f2py3.7: /usr/local/bin/f2py3.7
-  idle3.7: /usr/local/bin/idle3.7
-  iptest: /usr/local/bin/iptest
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  send2trash: /usr/local/bin/send2trash
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jsonschema: /usr/local/bin/jsonschema
+  bokeh: /usr/local/bin/bokeh

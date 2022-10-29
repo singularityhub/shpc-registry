@@ -7,6 +7,8 @@ tags:
   1.9--py27_1: sha256:9cdca061449225c40d6296fbd3d992c4517104996d6c2f88dbc2f7ddb0254791
 docker: quay.io/biocontainers/gcs-oauth2-boto-plugin
 aliases:
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
   asadmin: /usr/local/bin/asadmin
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
@@ -15,5 +17,3 @@ aliases:
   dynamodb_dump: /usr/local/bin/dynamodb_dump
   dynamodb_load: /usr/local/bin/dynamodb_load
   elbadmin: /usr/local/bin/elbadmin
-  fetch_file: /usr/local/bin/fetch_file
-  glacier: /usr/local/bin/glacier

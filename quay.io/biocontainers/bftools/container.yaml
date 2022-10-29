@@ -17,15 +17,16 @@ aliases:
   logback.xml: /usr/local/bin/logback.xml
   mkfake: /usr/local/bin/mkfake
   showinf: /usr/local/bin/showinf
+  tiffcomment: /usr/local/bin/tiffcomment
   xmlindent: /usr/local/bin/xmlindent
   xmlvalid: /usr/local/bin/xmlvalid
-  aserver: /usr/local/bin/aserver
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  cups-config: /usr/local/bin/cups-config
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan

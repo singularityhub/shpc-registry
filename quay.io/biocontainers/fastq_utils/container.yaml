@@ -7,6 +7,7 @@ tags:
   0.25.1--h20b1175_1: sha256:e8ae637065c59bd201d0927942765153249cf2e286036aa7b18e7adebfc2fd33
 docker: quay.io/biocontainers/fastq_utils
 aliases:
+  bam2fastq: /usr/local/bin/bam2fastq
   bam_add_tags: /usr/local/bin/bam_add_tags
   bam_annotate.sh: /usr/local/bin/bam_annotate.sh
   bam_umi_count: /usr/local/bin/bam_umi_count
@@ -22,13 +23,13 @@ aliases:
   fastq_trim_poly_at: /usr/local/bin/fastq_trim_poly_at
   fastq_truncate: /usr/local/bin/fastq_truncate
   fastq_validator.sh: /usr/local/bin/fastq_validator.sh
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
   ace2sam: /usr/local/bin/ace2sam
-  bam2fastq: /usr/local/bin/bam2fastq
-  bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   export2sam.pl: /usr/local/bin/export2sam.pl
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
-  htsfile: /usr/local/bin/htsfile
   interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
   maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa

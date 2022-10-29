@@ -7,12 +7,12 @@ tags:
   1.13.0--pyh5e36f6f_0: sha256:dbe2dcbf1dd3dceb285a7b6db13acc7db15dbc2fb88fae0c8a89c5934452d599
 docker: quay.io/biocontainers/intermine
 aliases:
+  normalizer: /usr/local/bin/normalizer
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  normalizer: /usr/local/bin/normalizer
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  xslt-config: /usr/local/bin/xslt-config
-  xsltproc: /usr/local/bin/xsltproc

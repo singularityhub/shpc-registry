@@ -7,15 +7,16 @@ tags:
   0.4.2--py27h16ec135_2: sha256:49c7fda8572f906a5bfe94e9972e670b61f780f6c4965d980036d3ff0d6ad4a4
 docker: quay.io/biocontainers/savage
 aliases:
+  kallisto: /usr/local/bin/kallisto
   rust-overlaps: /usr/local/bin/rust-overlaps
   savage: /usr/local/bin/savage
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
   bwa: /usr/local/bin/bwa
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle

@@ -8,10 +8,24 @@ tags:
 docker: quay.io/biocontainers/sprai
 aliases:
   AtacDriver.py: /usr/local/bin/AtacDriver.py
+  Catrack: /usr/local/bin/Catrack
+  DAM2fasta: /usr/local/bin/DAM2fasta
+  DB2fasta: /usr/local/bin/DB2fasta
   DB2quiva: /usr/local/bin/DB2quiva
+  DBdust: /usr/local/bin/DBdust
+  DBrm: /usr/local/bin/DBrm
+  DBshow: /usr/local/bin/DBshow
+  DBsplit: /usr/local/bin/DBsplit
+  DBstats: /usr/local/bin/DBstats
   ESTmapper.pl: /usr/local/bin/ESTmapper.pl
   HPCdaligner: /usr/local/bin/HPCdaligner
   HPCmapper: /usr/local/bin/HPCmapper
+  LAcat: /usr/local/bin/LAcat
+  LAcheck: /usr/local/bin/LAcheck
+  LAmerge: /usr/local/bin/LAmerge
+  LAshow: /usr/local/bin/LAshow
+  LAsort: /usr/local/bin/LAsort
+  LAsplit: /usr/local/bin/LAsplit
   PBcR: /usr/local/bin/PBcR
   aalookup_unit_test: /usr/local/bin/aalookup_unit_test
   aascan_unit_test: /usr/local/bin/aascan_unit_test
@@ -29,6 +43,7 @@ aliases:
   bdbloader_unit_test: /usr/local/bin/bdbloader_unit_test
   bfmtx2m4.pl: /usr/local/bin/bfmtx2m4.pl
   bl2seq_unit_test: /usr/local/bin/bl2seq_unit_test
+  blasr: /usr/local/bin/blasr
   blast_format_unit_test: /usr/local/bin/blast_format_unit_test
   blast_services_unit_test: /usr/local/bin/blast_services_unit_test
   blast_unit_test: /usr/local/bin/blast_unit_test
@@ -41,6 +56,8 @@ aliases:
   blastinput_unit_test: /usr/local/bin/blastinput_unit_test
   blastoptions_unit_test: /usr/local/bin/blastoptions_unit_test
   blastsetup_unit_test: /usr/local/bin/blastsetup_unit_test
+  bogart: /usr/local/bin/bogart
+  bogus: /usr/local/bin/bogus
   bogusness: /usr/local/bin/bogusness
   buildPosMap: /usr/local/bin/buildPosMap
   buildRefContigs: /usr/local/bin/buildRefContigs
@@ -79,6 +96,7 @@ aliases:
   correctGaps: /usr/local/bin/correctGaps
   correctPacBio: /usr/local/bin/correctPacBio
   ctgcns: /usr/local/bin/ctgcns
+  daligner: /usr/local/bin/daligner
   dazcon: /usr/local/bin/dazcon
   deduplicate: /usr/local/bin/deduplicate
   delta_unit_test: /usr/local/bin/delta_unit_test
@@ -106,6 +124,8 @@ aliases:
   falcon-bench: /usr/local/bin/falcon-bench
   falcon-print-routes: /usr/local/bin/falcon-print-routes
   falcon_sense: /usr/local/bin/falcon_sense
+  fasta2DAM: /usr/local/bin/fasta2DAM
+  fasta2DB: /usr/local/bin/fasta2DB
   fastaToCA: /usr/local/bin/fastaToCA
   fastqAnalyze: /usr/local/bin/fastqAnalyze
   fastqSample: /usr/local/bin/fastqSample
@@ -176,6 +196,7 @@ aliases:
   optionshandle_unit_test: /usr/local/bin/optionshandle_unit_test
   outputLayout: /usr/local/bin/outputLayout
   overlap: /usr/local/bin/overlap
+  overlapInCore: /usr/local/bin/overlapInCore
   overlapStats: /usr/local/bin/overlapStats
   overlapStore: /usr/local/bin/overlapStore
   overlapStoreBucketizer: /usr/local/bin/overlapStoreBucketizer
@@ -188,6 +209,9 @@ aliases:
   parseSNP: /usr/local/bin/parseSNP
   partition_fa.pl: /usr/local/bin/partition_fa.pl
   pbdagcon: /usr/local/bin/pbdagcon
+  pbindex: /usr/local/bin/pbindex
+  pbindexdump: /usr/local/bin/pbindexdump
+  pbmerge: /usr/local/bin/pbmerge
   pbutgcns: /usr/local/bin/pbutgcns
   phiblast_unit_test: /usr/local/bin/phiblast_unit_test
   pickBestPair: /usr/local/bin/pickBestPair
@@ -236,6 +260,7 @@ aliases:
   show-corrects: /usr/local/bin/show-corrects
   sim4db: /usr/local/bin/sim4db
   simple: /usr/local/bin/simple
+  simulator: /usr/local/bin/simulator
   sortHits: /usr/local/bin/sortHits
   sortPolishes: /usr/local/bin/sortPolishes
   splitUnitigs: /usr/local/bin/splitUnitigs
@@ -264,17 +289,18 @@ aliases:
   upgrade-v8-to-v9: /usr/local/bin/upgrade-v8-to-v9
   upgrade-v9-to-v10: /usr/local/bin/upgrade-v9-to-v10
   utg2fasta: /usr/local/bin/utg2fasta
+  utgcns: /usr/local/bin/utgcns
   utgcnsfix: /usr/local/bin/utgcnsfix
   vennPolishes: /usr/local/bin/vennPolishes
   version_reference_unit_test: /usr/local/bin/version_reference_unit_test
   writedb_unit_test: /usr/local/bin/writedb_unit_test
-  Catrack: /usr/local/bin/Catrack
-  DAM2fasta: /usr/local/bin/DAM2fasta
-  DB2fasta: /usr/local/bin/DB2fasta
-  DBdust: /usr/local/bin/DBdust
-  DBrm: /usr/local/bin/DBrm
-  DBshow: /usr/local/bin/DBshow
-  DBsplit: /usr/local/bin/DBsplit
-  DBstats: /usr/local/bin/DBstats
-  LAcat: /usr/local/bin/LAcat
-  LAcheck: /usr/local/bin/LAcheck
+  meryl: /usr/local/bin/meryl
+  test_pcre: /usr/local/bin/test_pcre
+  config_data: /usr/local/bin/config_data
+  jellyfish: /usr/local/bin/jellyfish
+  blastdbcp: /usr/local/bin/blastdbcp
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  c2ph: /usr/local/bin/c2ph

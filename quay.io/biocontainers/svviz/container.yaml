@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/svviz
 aliases:
   svviz: /usr/local/bin/svviz
-  chardetect: /usr/local/bin/chardetect
+  flask: /usr/local/bin/flask
+  faidx: /usr/local/bin/faidx
   f2py2: /usr/local/bin/f2py2
   f2py2.7: /usr/local/bin/f2py2.7
-  faidx: /usr/local/bin/faidx
-  flask: /usr/local/bin/flask
-  idle: /usr/local/bin/idle
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
+  chardetect: /usr/local/bin/chardetect
   python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
   python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle

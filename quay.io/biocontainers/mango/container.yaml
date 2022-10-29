@@ -7,6 +7,8 @@ tags:
   0.0.5--pyh864c0ab_4: sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d
 docker: quay.io/biocontainers/mango
 aliases:
+  .mango-post-link.sh: /usr/local/bin/.mango-post-link.sh
+  .mango-pre-unlink.sh: /usr/local/bin/.mango-pre-unlink.sh
   adam-shell: /usr/local/bin/adam-shell
   adam-submit: /usr/local/bin/adam-submit
   adamR: /usr/local/bin/adamR
@@ -49,13 +51,13 @@ aliases:
   sparkR: /usr/local/bin/sparkR
   sparkR.cmd: /usr/local/bin/sparkR.cmd
   sparkR2.cmd: /usr/local/bin/sparkR2.cmd
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  appletviewer: /usr/local/bin/appletviewer
-  assistant: /usr/local/bin/assistant
-  bokeh: /usr/local/bin/bokeh
-  curve_keygen: /usr/local/bin/curve_keygen
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
   dask-scheduler: /usr/local/bin/dask-scheduler
   dask-ssh: /usr/local/bin/dask-ssh
   dask-worker: /usr/local/bin/dask-worker
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec

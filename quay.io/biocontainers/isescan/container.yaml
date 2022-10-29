@@ -7,21 +7,23 @@ tags:
   1.7.2.3--hec16e2b_1: sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab
 docker: quay.io/biocontainers/isescan
 aliases:
+  FragGeneScan: /usr/local/bin/FragGeneScan
   constants.py: /usr/local/bin/constants.py
   isPredict.py: /usr/local/bin/isPredict.py
   is_analysis.py: /usr/local/bin/is_analysis.py
   isescan.py: /usr/local/bin/isescan.py
   pred.py: /usr/local/bin/pred.py
   pyssw.py: /usr/local/bin/pyssw.py
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
   ssw_wrap.py: /usr/local/bin/ssw_wrap.py
   tools.py: /usr/local/bin/tools.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  FragGeneScan: /usr/local/bin/FragGeneScan
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
   align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides

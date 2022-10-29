@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/mavis
 aliases:
   calculate_ref_alt_counts: /usr/local/bin/calculate_ref_alt_counts
   mavis: /usr/local/bin/mavis
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
   blat: /usr/local/bin/blat
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  geos-config: /usr/local/bin/geos-config
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
   f2py3.6: /usr/local/bin/f2py3.6
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py

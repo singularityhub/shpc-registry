@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/htslib
 aliases:
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

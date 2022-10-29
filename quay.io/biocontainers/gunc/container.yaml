@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/gunc
 aliases:
   gunc: /usr/local/bin/gunc
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  chardetect: /usr/local/bin/chardetect
   diamond: /usr/local/bin/diamond
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   prodigal: /usr/local/bin/prodigal
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

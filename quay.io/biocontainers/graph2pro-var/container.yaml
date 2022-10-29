@@ -32,13 +32,13 @@ aliases:
   run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
   step1output.py: /usr/local/bin/step1output.py
   tryptic.py: /usr/local/bin/tryptic.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
   FET.pl: /usr/local/bin/FET.pl
-  appletviewer: /usr/local/bin/appletviewer
-  awk: /usr/local/bin/awk
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build
-  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
-  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-div: /usr/local/bin/cd-hit-div
+  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl

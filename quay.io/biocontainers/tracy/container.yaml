@@ -8,3 +8,6 @@ tags:
 docker: quay.io/biocontainers/tracy
 aliases:
   tracy: /usr/local/bin/tracy
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

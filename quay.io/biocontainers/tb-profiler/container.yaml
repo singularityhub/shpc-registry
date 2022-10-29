@@ -12,13 +12,13 @@ aliases:
   delly: /usr/local/bin/delly
   rename_vcf_chrom.py: /usr/local/bin/rename_vcf_chrom.py
   tb-profiler: /usr/local/bin/tb-profiler
-  abba-baba: /usr/local/bin/abba-baba
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  appletviewer: /usr/local/bin/appletviewer
-  bFst: /usr/local/bin/bFst
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bamleftalign: /usr/local/bin/bamleftalign
-  bc: /usr/local/bin/bc
-  bcftools: /usr/local/bin/bcftools
+  gatk: /usr/local/bin/gatk
+  tabix++: /usr/local/bin/tabix++
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  plotBfst.R: /usr/local/bin/plotBfst.R

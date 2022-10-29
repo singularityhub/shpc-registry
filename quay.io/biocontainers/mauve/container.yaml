@@ -24,6 +24,7 @@ aliases:
   mauveStatic: /usr/local/bin/mauveStatic
   mauveToXMFA: /usr/local/bin/mauveToXMFA
   mfa2xmfa: /usr/local/bin/mfa2xmfa
+  progressiveMauve: /usr/local/bin/progressiveMauve
   progressiveMauveStatic: /usr/local/bin/progressiveMauveStatic
   projectAndStrip: /usr/local/bin/projectAndStrip
   randomGeneSample: /usr/local/bin/randomGeneSample
@@ -37,13 +38,13 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
-  appletviewer: /usr/local/bin/appletviewer
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
   javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

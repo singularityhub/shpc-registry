@@ -12,13 +12,13 @@ aliases:
   mongod: /usr/local/bin/mongod
   mongos: /usr/local/bin/mongos
   mykrobe: /usr/local/bin/mykrobe
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8
-  idn2: /usr/local/bin/idn2
-  pydoc3.8: /usr/local/bin/pydoc3.8
-  python3.8: /usr/local/bin/python3.8
-  python3.8-config: /usr/local/bin/python3.8-config
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
   vcf_filter.py: /usr/local/bin/vcf_filter.py
   vcf_melt: /usr/local/bin/vcf_melt
+  idn2: /usr/local/bin/idn2
+  f2py3.8: /usr/local/bin/f2py3.8
+  chardetect: /usr/local/bin/chardetect
+  wget: /usr/local/bin/wget
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8

@@ -7,12 +7,12 @@ tags:
   0.4.9--pyh864c0ab_1: sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452
 docker: quay.io/biocontainers/galaxyxml
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
   futurize: /usr/local/bin/futurize
-  idle3.8: /usr/local/bin/idle3.8
   pasteurize: /usr/local/bin/pasteurize
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
-  xslt-config: /usr/local/bin/xslt-config
-  xsltproc: /usr/local/bin/xsltproc

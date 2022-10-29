@@ -8,6 +8,7 @@ tags:
 docker: quay.io/biocontainers/nextgenmap
 aliases:
   addr2line: /usr/local/bin/addr2line
+  ar: /usr/local/bin/ar
   as: /usr/local/bin/as
   c++filt: /usr/local/bin/c++filt
   dwp: /usr/local/bin/dwp
@@ -28,9 +29,8 @@ aliases:
   objcopy: /usr/local/bin/objcopy
   objdump: /usr/local/bin/objdump
   oclTool: /usr/local/bin/oclTool
+  ranlib: /usr/local/bin/ranlib
   readelf: /usr/local/bin/readelf
   size: /usr/local/bin/size
   strings: /usr/local/bin/strings
-  ar: /usr/local/bin/ar
-  ranlib: /usr/local/bin/ranlib
   strip: /usr/local/bin/strip

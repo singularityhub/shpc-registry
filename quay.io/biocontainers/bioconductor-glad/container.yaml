@@ -6,14 +6,3 @@ latest:
 tags:
   2.58.0--r41hd4b0f26_3: sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c
 docker: quay.io/biocontainers/bioconductor-glad
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -24,13 +24,13 @@ aliases:
   ragtag_stats.py: /usr/local/bin/ragtag_stats.py
   ragtag_update_gff.py: /usr/local/bin/ragtag_update_gff.py
   setup.py: /usr/local/bin/setup.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  run-mummer1: /usr/local/bin/run-mummer1
+  run-mummer3: /usr/local/bin/run-mummer3
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
   exact-tandems: /usr/local/bin/exact-tandems
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
-  k8: /usr/local/bin/k8
-  mapview: /usr/local/bin/mapview
-  mgaps: /usr/local/bin/mgaps
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot

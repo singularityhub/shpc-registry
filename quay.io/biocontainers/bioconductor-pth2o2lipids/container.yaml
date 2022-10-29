@@ -7,13 +7,15 @@ tags:
   1.8.0--r351_0: sha256:17ae112b6e99c3d686a1e12495545fbf300b1e88f2f2fd5c42f04796d8a0a679
 docker: quay.io/biocontainers/bioconductor-pth2o2lipids
 aliases:
-  gif2h5: /usr/local/bin/gif2h5
+  .bioconductor-pth2o2lipids-post-link.sh: /usr/local/bin/.bioconductor-pth2o2lipids-post-link.sh
+  .bioconductor-pth2o2lipids-pre-unlink.sh: /usr/local/bin/.bioconductor-pth2o2lipids-pre-unlink.sh
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp

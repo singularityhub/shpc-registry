@@ -11,7 +11,7 @@ aliases:
   data_import_post_install_tests.sh: /usr/local/bin/data_import_post_install_tests.sh
   get_experiment_data.R: /usr/local/bin/get_experiment_data.R
   import_classification_data.R: /usr/local/bin/import_classification_data.R
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

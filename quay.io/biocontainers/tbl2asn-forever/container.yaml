@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/tbl2asn-forever
 aliases:
   faketime: /usr/local/bin/faketime
-  idn: /usr/local/bin/idn
   real-tbl2asn: /usr/local/bin/real-tbl2asn
   tbl2asn: /usr/local/bin/tbl2asn
+  idn: /usr/local/bin/idn

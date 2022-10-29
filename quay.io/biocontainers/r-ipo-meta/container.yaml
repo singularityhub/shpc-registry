@@ -7,13 +7,13 @@ tags:
   1.7.5--r3.3.1_0: sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752
 docker: quay.io/biocontainers/r-ipo-meta
 aliases:
+  nc-config: /usr/local/bin/nc-config
+  nccopy: /usr/local/bin/nccopy
+  ncdump: /usr/local/bin/ncdump
+  ncgen: /usr/local/bin/ncgen
+  ncgen3: /usr/local/bin/ncgen3
+  uconv: /usr/local/bin/uconv
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
   h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
   h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump
-  h5import: /usr/local/bin/h5import
-  h5jam: /usr/local/bin/h5jam

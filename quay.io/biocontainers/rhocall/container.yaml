@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/rhocall
 aliases:
   rhocall: /usr/local/bin/rhocall
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  bgzip: /usr/local/bin/bgzip
-  brotli: /usr/local/bin/brotli
-  coloredlogs: /usr/local/bin/coloredlogs
   cyvcf2: /usr/local/bin/cyvcf2
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  htsfile: /usr/local/bin/htsfile
+  coloredlogs: /usr/local/bin/coloredlogs
   humanfriendly: /usr/local/bin/humanfriendly
-  idle3.9: /usr/local/bin/idle3.9
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress

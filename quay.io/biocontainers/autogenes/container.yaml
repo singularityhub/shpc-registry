@@ -7,13 +7,13 @@ tags:
   1.0.4--pyhdfd78af_0: sha256:920c9e9ef42c622623f327d744ef9d08cc5dd98f5c66fbe23425609a7184d1ad
 docker: quay.io/biocontainers/autogenes
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
   get_objgraph: /usr/local/bin/get_objgraph
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  undill: /usr/local/bin/undill
+  natsort: /usr/local/bin/natsort
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  f2py3.9: /usr/local/bin/f2py3.9
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug

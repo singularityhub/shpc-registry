@@ -7,6 +7,7 @@ tags:
   1.7.1--r3.3.1_0: sha256:610ace7795fedb9ca263c8a0630db2cbf2b64c3d821f11ccacb29c61aaba9055
 docker: quay.io/biocontainers/r-r.methodss3
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

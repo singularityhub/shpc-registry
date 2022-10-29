@@ -100,13 +100,13 @@ aliases:
   wally: /usr/local/bin/wally
   x264: /usr/local/bin/x264
   x265: /usr/local/bin/x265
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bgzip: /usr/local/bin/bgzip
-  canbusutil: /usr/local/bin/canbusutil
-  certtool: /usr/local/bin/certtool
-  certutil: /usr/local/bin/certutil
-  cups-config: /usr/local/bin/cups-config
-  db_archive: /usr/local/bin/db_archive
-  db_checkpoint: /usr/local/bin/db_checkpoint
+  flac: /usr/local/bin/flac
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set

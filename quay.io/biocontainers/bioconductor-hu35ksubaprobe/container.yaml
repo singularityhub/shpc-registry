@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:05ecefee5fbcd65517305d3144c71ac2cc78139c3af578bedd76ee40016bb0c2
 docker: quay.io/biocontainers/bioconductor-hu35ksubaprobe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hu35ksubaprobe-post-link.sh: /usr/local/bin/.bioconductor-hu35ksubaprobe-post-link.sh
+  .bioconductor-hu35ksubaprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-hu35ksubaprobe-pre-unlink.sh

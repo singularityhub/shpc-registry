@@ -10,13 +10,13 @@ aliases:
   fasta2speclib: /usr/local/bin/fasta2speclib
   ms2pip: /usr/local/bin/ms2pip
   ms2pip-single-prediction: /usr/local/bin/ms2pip-single-prediction
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild
+  xgboost: /usr/local/bin/xgboost
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  jsonschema: /usr/local/bin/jsonschema

@@ -13,13 +13,13 @@ aliases:
   hmm_mapper.py: /usr/local/bin/hmm_mapper.py
   hmm_server.py: /usr/local/bin/hmm_server.py
   hmm_worker.py: /usr/local/bin/hmm_worker.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  alimask: /usr/local/bin/alimask
+  mmseqs: /usr/local/bin/mmseqs
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
   diamond: /usr/local/bin/diamond
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
   easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
-  esl-alimask: /usr/local/bin/esl-alimask
-  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet

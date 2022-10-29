@@ -18,17 +18,32 @@ aliases:
   MaxQuantCmd.exe: /usr/local/bin/MaxQuantCmd.exe
   MaxQuantCmd.runtimeconfig.json: /usr/local/bin/MaxQuantCmd.runtimeconfig.json
   MaxQuantGui.exe: /usr/local/bin/MaxQuantGui.exe
+  MaxQuantGui.exe.config: /usr/local/bin/MaxQuantGui.exe.config
+  MaxQuantLib.dll: /usr/local/bin/MaxQuantLib.dll
+  MaxQuantLibS.dll: /usr/local/bin/MaxQuantLibS.dll
+  MaxQuantPLib.dll: /usr/local/bin/MaxQuantPLib.dll
+  MaxQuantRenderWpf.dll: /usr/local/bin/MaxQuantRenderWpf.dll
   MaxQuantServer.exe: /usr/local/bin/MaxQuantServer.exe
   MaxQuantTask.exe: /usr/local/bin/MaxQuantTask.exe
+  MaxQuantTaskCore.dll: /usr/local/bin/MaxQuantTaskCore.dll
   MaxQuantTaskCore.runtimeconfig.json: /usr/local/bin/MaxQuantTaskCore.runtimeconfig.json
   MqparConverter.exe: /usr/local/bin/MqparConverter.exe
   Sciex.Data.Processing.DLL: /usr/local/bin/Sciex.Data.Processing.DLL
+  csc: /usr/local/bin/csc
   csc-dim: /usr/local/bin/csc-dim
+  csi: /usr/local/bin/csi
   global.json: /usr/local/bin/global.json
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
   maxquant: /usr/local/bin/maxquant
+  monograph: /usr/local/bin/monograph
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
   protobuf-net.xml: /usr/local/bin/protobuf-net.xml
+  vbc: /usr/local/bin/vbc
   xgboost.lib: /usr/local/bin/xgboost.lib
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
   caspol: /usr/local/bin/caspol
@@ -37,4 +52,3 @@ aliases:
   cert-sync: /usr/local/bin/cert-sync
   cert2spc: /usr/local/bin/cert2spc
   certmgr: /usr/local/bin/certmgr
-  chktrust: /usr/local/bin/chktrust

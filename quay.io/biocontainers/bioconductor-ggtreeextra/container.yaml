@@ -6,14 +6,3 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:94584baab40dd22e1c17a57ad91273905b8589044c17127f392415e9a8d85370
 docker: quay.io/biocontainers/bioconductor-ggtreeextra
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

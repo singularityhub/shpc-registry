@@ -7,6 +7,7 @@ tags:
   3.0.0--pl5321hd0d85c6_1: sha256:7232570a47f7dd1fcab54d9f3cd465189d51b0305aa51c74fb7c725cb5403d92
 docker: quay.io/biocontainers/sra-tools
 aliases:
+  .sra-tools-post-link.sh: /usr/local/bin/.sra-tools-post-link.sh
   abi-dump.3: /usr/local/bin/abi-dump.3
   abi-dump.3.0.0: /usr/local/bin/abi-dump.3.0.0
   abi-load: /usr/local/bin/abi-load
@@ -183,13 +184,13 @@ aliases:
   vdb-unlock.3.0.0: /usr/local/bin/vdb-unlock.3.0.0
   vdb-validate.3: /usr/local/bin/vdb-validate.3
   vdb-validate.3.0.0: /usr/local/bin/vdb-validate.3.0.0
-  abi-dump: /usr/local/bin/abi-dump
   align-cache: /usr/local/bin/align-cache
-  align-info: /usr/local/bin/align-info
-  bam-load: /usr/local/bin/bam-load
-  cache-mgr: /usr/local/bin/cache-mgr
-  cg-load: /usr/local/bin/cg-load
-  fasterq-dump: /usr/local/bin/fasterq-dump
   fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
-  fastq-dump: /usr/local/bin/fastq-dump
   fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  md5cp: /usr/local/bin/md5cp
+  prefetch-orig: /usr/local/bin/prefetch-orig
+  read-filter-redact: /usr/local/bin/read-filter-redact
+  sam-dump-orig: /usr/local/bin/sam-dump-orig
+  sra-pileup-orig: /usr/local/bin/sra-pileup-orig
+  sra-sort-cg: /usr/local/bin/sra-sort-cg
+  srapath-orig: /usr/local/bin/srapath-orig

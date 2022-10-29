@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/libgab
 aliases:
   bamtools: /usr/local/bin/bamtools
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

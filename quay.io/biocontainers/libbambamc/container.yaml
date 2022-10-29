@@ -6,5 +6,3 @@ latest:
 tags:
   0.0.50--h7132678_3: sha256:50404e5571b3e0e69017283966d2b1326673482a20298ad9c0c070ffa84782cb
 docker: quay.io/biocontainers/libbambamc
-aliases:
-  env-execute: /usr/local/env-execute

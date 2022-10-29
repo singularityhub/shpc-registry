@@ -9,13 +9,14 @@ docker: quay.io/biocontainers/inforna
 aliases:
   INFO-RNA: /usr/local/bin/INFO-RNA
   INFO-RNA-2.1.2: /usr/local/bin/INFO-RNA-2.1.2
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  RNAdos: /usr/local/bin/RNAdos
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
-  Kinfold: /usr/local/bin/Kinfold
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
   RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold

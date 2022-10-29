@@ -27,6 +27,11 @@ aliases:
   kdbmeta.2.10.9: /usr/local/bin/kdbmeta.2.10.9
   kget.2.10.9: /usr/local/bin/kget.2.10.9
   latf-load.2.10.9: /usr/local/bin/latf-load.2.10.9
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
   logger.py: /usr/local/bin/logger.py
   md5cp.2.10.9: /usr/local/bin/md5cp.2.10.9
   parsnp: /usr/local/bin/parsnp
@@ -59,13 +64,13 @@ aliases:
   vdb-passwd.2.10.9: /usr/local/bin/vdb-passwd.2.10.9
   vdb-unlock.2.10.9: /usr/local/bin/vdb-unlock.2.10.9
   vdb-validate.2.10.9: /usr/local/bin/vdb-validate.2.10.9
-  FastTree: /usr/local/bin/FastTree
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  ace2sam: /usr/local/bin/ace2sam
-  align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotateBed: /usr/local/bin/annotateBed
+  md5cp.2: /usr/local/bin/md5cp.2
+  read-filter-redact.2: /usr/local/bin/read-filter-redact.2
+  sra-sort-cg.2: /usr/local/bin/sra-sort-cg.2
+  vdb-diff.2: /usr/local/bin/vdb-diff.2
+  align-cache: /usr/local/bin/align-cache
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastp: /usr/local/bin/fastp
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  md5cp: /usr/local/bin/md5cp

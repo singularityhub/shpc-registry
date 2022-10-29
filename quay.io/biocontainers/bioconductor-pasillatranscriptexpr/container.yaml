@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:ad324b12d278d0a46e40c9926245986b3588ad167a8cc45f57edac96e82d9c21
 docker: quay.io/biocontainers/bioconductor-pasillatranscriptexpr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-pasillatranscriptexpr-post-link.sh: /usr/local/bin/.bioconductor-pasillatranscriptexpr-post-link.sh
+  .bioconductor-pasillatranscriptexpr-pre-unlink.sh: /usr/local/bin/.bioconductor-pasillatranscriptexpr-pre-unlink.sh

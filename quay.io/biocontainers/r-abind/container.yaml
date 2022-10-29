@@ -7,6 +7,7 @@ tags:
   1.4.3--r3.3.2_0: sha256:bd1861ff53e4b7d25b085cf8a1803bda1a26b9bbf4ee05fad6e3eacb95906d87
 docker: quay.io/biocontainers/r-abind
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

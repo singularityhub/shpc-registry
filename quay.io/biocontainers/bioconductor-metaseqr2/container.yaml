@@ -7,5 +7,5 @@ tags:
   1.6.1--r41hc0cfd56_1: sha256:2f6b14e89b698413166d8524afd2ae8f5193db79bbe9d2fa27e63cd8aae9c1e6
 docker: quay.io/biocontainers/bioconductor-metaseqr2
 aliases:
-  pandoc: /usr/local/bin/pandoc
   pandoc-server: /usr/local/bin/pandoc-server
+  pandoc: /usr/local/bin/pandoc

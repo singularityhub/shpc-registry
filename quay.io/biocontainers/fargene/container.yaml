@@ -11,6 +11,8 @@ aliases:
   fargene: /usr/local/bin/fargene
   fargene_model_creation: /usr/local/bin/fargene_model_creation
   pick_long_reads: /usr/local/bin/pick_long_reads
+  trim_galore: /usr/local/bin/trim_galore
+  clustalo: /usr/local/bin/clustalo
   _aaindexextract: /usr/local/bin/_aaindexextract
   _abiview: /usr/local/bin/_abiview
   _acdc: /usr/local/bin/_acdc
@@ -20,4 +22,3 @@ aliases:
   _acdvalid: /usr/local/bin/_acdvalid
   _antigenic: /usr/local/bin/_antigenic
   _backtranambig: /usr/local/bin/_backtranambig
-  _backtranseq: /usr/local/bin/_backtranseq

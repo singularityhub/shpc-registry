@@ -6,14 +6,3 @@ latest:
 tags:
   1.68.0--r41hdfd78af_0: sha256:0c68bf4faec1de2873b8b7339e31e1ddf8a66a425d336dc47fcfa743c913e3a4
 docker: quay.io/biocontainers/bioconductor-olingui
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -10,13 +10,13 @@ aliases:
   Gcluster.pl: /usr/local/bin/Gcluster.pl
   interested_gene_generation.pl: /usr/local/bin/interested_gene_generation.pl
   test.pl: /usr/local/bin/test.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl
+  mclblastline: /usr/local/bin/mclblastline
+  mclcm: /usr/local/bin/mclcm
+  mclpipeline: /usr/local/bin/mclpipeline
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray
+  mcxassemble: /usr/local/bin/mcxassemble

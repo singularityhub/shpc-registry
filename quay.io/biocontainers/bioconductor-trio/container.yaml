@@ -6,14 +6,3 @@ latest:
 tags:
   3.32.0--r41hdfd78af_0: sha256:a0878477ae311fa4aef6c283ae6d26f4230b416c25b541adbe57e51258464e81
 docker: quay.io/biocontainers/bioconductor-trio
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

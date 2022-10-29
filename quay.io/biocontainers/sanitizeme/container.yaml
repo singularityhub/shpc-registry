@@ -26,13 +26,13 @@ aliases:
   wxget: /usr/local/bin/wxget
   wxrc: /usr/local/bin/wxrc
   wxrc-3.1: /usr/local/bin/wxrc-3.1
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  awk: /usr/local/bin/awk
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  chardetect: /usr/local/bin/chardetect
   egrep: /usr/local/bin/egrep
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

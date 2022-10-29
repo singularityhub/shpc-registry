@@ -16,13 +16,14 @@ aliases:
   torchbiggraph_import_from_tsv: /usr/local/bin/torchbiggraph_import_from_tsv
   torchbiggraph_partitionserver: /usr/local/bin/torchbiggraph_partitionserver
   torchbiggraph_train: /usr/local/bin/torchbiggraph_train
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed
+  torchrun: /usr/local/bin/torchrun
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  ninja: /usr/local/bin/ninja
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  natsort: /usr/local/bin/natsort

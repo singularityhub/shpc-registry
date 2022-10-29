@@ -7,13 +7,5 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a
 docker: quay.io/biocontainers/bioconductor-rta10probeset.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-rta10probeset.db-post-link.sh: /usr/local/bin/.bioconductor-rta10probeset.db-post-link.sh
+  .bioconductor-rta10probeset.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rta10probeset.db-pre-unlink.sh

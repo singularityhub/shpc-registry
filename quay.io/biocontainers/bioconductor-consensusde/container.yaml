@@ -13,3 +13,5 @@ aliases:
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

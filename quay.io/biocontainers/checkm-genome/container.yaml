@@ -7,14 +7,16 @@ tags:
   1.2.1--pyhdfd78af_0: sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb
 docker: quay.io/biocontainers/checkm-genome
 aliases:
+  .checkm-genome-post-link.sh: /usr/local/bin/.checkm-genome-post-link.sh
+  .checkm-genome-pre-unlink.sh: /usr/local/bin/.checkm-genome-pre-unlink.sh
   checkm: /usr/local/bin/checkm
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  alimask: /usr/local/bin/alimask
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
+  rppr: /usr/local/bin/rppr
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
   dendropy-format: /usr/local/bin/dendropy-format
-  dwebp: /usr/local/bin/dwebp
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
   easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
-  esl-alimanip: /usr/local/bin/esl-alimanip
-  esl-alimap: /usr/local/bin/esl-alimap
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet

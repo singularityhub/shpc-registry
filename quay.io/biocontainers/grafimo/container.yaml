@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/grafimo
 aliases:
   grafimo: /usr/local/bin/grafimo
   vg: /usr/local/bin/vg
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  cwebp: /usr/local/bin/cwebp
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare

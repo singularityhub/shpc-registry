@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/advntr
 aliases:
   adVNTR-Filtering: /usr/local/bin/adVNTR-Filtering
   advntr: /usr/local/bin/advntr
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  unit2: /usr/local/bin/unit2
+  theano-cache: /usr/local/bin/theano-cache
+  theano-nose: /usr/local/bin/theano-nose
+  freeze_graph: /usr/local/bin/freeze_graph
+  mako-render: /usr/local/bin/mako-render
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  muscle: /usr/local/bin/muscle
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco

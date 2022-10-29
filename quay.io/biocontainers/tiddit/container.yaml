@@ -12,8 +12,13 @@ aliases:
   fermi2.pl: /usr/local/bin/fermi2.pl
   ropebwt2: /usr/local/bin/ropebwt2
   tiddit: /usr/local/bin/tiddit
+  seqtk: /usr/local/bin/seqtk
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
   bwa: /usr/local/bin/bwa
   f2py3.9: /usr/local/bin/f2py3.9
-  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
-  seqtk: /usr/local/bin/seqtk
-  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

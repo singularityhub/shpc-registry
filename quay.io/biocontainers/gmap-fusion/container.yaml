@@ -7,17 +7,54 @@ tags:
   0.4.0--2: sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f
 docker: quay.io/biocontainers/gmap-fusion
 aliases:
+  .gmap-fusion-post-link.sh: /usr/local/bin/.gmap-fusion-post-link.sh
   GMAP-fusion: /usr/local/bin/GMAP-fusion
+  atoiindex: /usr/local/bin/atoiindex
+  cmetindex: /usr/local/bin/cmetindex
+  cpuid: /usr/local/bin/cpuid
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
+  ensembl_genes: /usr/local/bin/ensembl_genes
+  fa_coords: /usr/local/bin/fa_coords
+  get-genome: /usr/local/bin/get-genome
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites
+  gmap.sse42: /usr/local/bin/gmap.sse42
+  gmap_build: /usr/local/bin/gmap_build
   gmap_compress: /usr/local/bin/gmap_compress
+  gmap_process: /usr/local/bin/gmap_process
   gmap_reassemble: /usr/local/bin/gmap_reassemble
   gmap_uncompress: /usr/local/bin/gmap_uncompress
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ace2sam: /usr/local/bin/ace2sam
-  atoiindex: /usr/local/bin/atoiindex
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build
-  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  gmapindex: /usr/local/bin/gmapindex
+  gmapl: /usr/local/bin/gmapl
+  gmapl.sse42: /usr/local/bin/gmapl.sse42
+  gsnap: /usr/local/bin/gsnap
+  gsnap.sse42: /usr/local/bin/gsnap.sse42
+  gsnapl: /usr/local/bin/gsnapl
+  gsnapl.sse42: /usr/local/bin/gsnapl.sse42
+  gtf_genes: /usr/local/bin/gtf_genes
+  gtf_introns: /usr/local/bin/gtf_introns
+  gtf_splicesites: /usr/local/bin/gtf_splicesites
+  gtf_transcript_splicesites: /usr/local/bin/gtf_transcript_splicesites
+  gvf_iit: /usr/local/bin/gvf_iit
+  iit_dump: /usr/local/bin/iit_dump
+  iit_get: /usr/local/bin/iit_get
+  iit_store: /usr/local/bin/iit_store
+  md_coords: /usr/local/bin/md_coords
+  psl_genes: /usr/local/bin/psl_genes
+  psl_introns: /usr/local/bin/psl_introns
+  psl_splicesites: /usr/local/bin/psl_splicesites
+  sam_sort: /usr/local/bin/sam_sort
+  snpindex: /usr/local/bin/snpindex
+  trindex: /usr/local/bin/trindex
+  vcf_iit: /usr/local/bin/vcf_iit
+  gmap: /usr/local/bin/gmap
+  db_archive: /usr/local/bin/db_archive
+  db_checkpoint: /usr/local/bin/db_checkpoint
+  db_deadlock: /usr/local/bin/db_deadlock
+  db_dump: /usr/local/bin/db_dump
+  db_hotbackup: /usr/local/bin/db_hotbackup
+  db_load: /usr/local/bin/db_load
+  db_log_verify: /usr/local/bin/db_log_verify
+  db_printlog: /usr/local/bin/db_printlog
+  db_recover: /usr/local/bin/db_recover

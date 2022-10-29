@@ -21,11 +21,13 @@ aliases:
   reduce-kmers: /usr/local/bin/reduce-kmers
   reduce-qmers: /usr/local/bin/reduce-qmers
   trim: /usr/local/bin/trim
-  idle: /usr/local/bin/idle
   jellyfish: /usr/local/bin/jellyfish
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
   python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
   python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

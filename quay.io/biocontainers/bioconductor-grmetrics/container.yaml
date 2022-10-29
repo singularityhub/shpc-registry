@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/bioconductor-grmetrics
 aliases:
   idn2: /usr/local/bin/idn2
   wget: /usr/local/bin/wget
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

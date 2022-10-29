@@ -7,6 +7,6 @@ tags:
   1.26.0--r36_0: sha256:4ba697b1bcaabd515b897251cf32b95dc19ae8b09b65e6449bc907428202ba79
 docker: quay.io/biocontainers/bioconductor-papi
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

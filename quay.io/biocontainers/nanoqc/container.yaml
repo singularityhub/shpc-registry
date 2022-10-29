@@ -10,3 +10,8 @@ aliases:
   nanoQC: /usr/local/bin/nanoQC
   bokeh: /usr/local/bin/bokeh
   f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config

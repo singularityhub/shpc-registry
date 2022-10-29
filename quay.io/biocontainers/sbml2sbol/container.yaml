@@ -7,10 +7,10 @@ tags:
   0.1.13: sha256:642d80ca0925299608e9734dbf028042f8d68f4bcb36594601976e9861c13857
 docker: quay.io/biocontainers/sbml2sbol
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
-  idle3.7: /usr/local/bin/idle3.7
   normalizer: /usr/local/bin/normalizer
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config

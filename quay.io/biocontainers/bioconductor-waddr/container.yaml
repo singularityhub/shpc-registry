@@ -7,8 +7,8 @@ tags:
   1.8.0--r41hc247a5b_2: sha256:1a31462e770f43891071166754345cb380c9ec4910745b95bceac569bf8bb677
 docker: quay.io/biocontainers/bioconductor-waddr
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

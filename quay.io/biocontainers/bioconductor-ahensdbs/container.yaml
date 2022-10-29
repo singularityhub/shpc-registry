@@ -7,13 +7,5 @@ tags:
   1.1.4--r41hdfd78af_1: sha256:583c44f40f9c41fdba2cec7f162dc73a4447f34efef07b25ed020b5566f21b91
 docker: quay.io/biocontainers/bioconductor-ahensdbs
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ahensdbs-post-link.sh: /usr/local/bin/.bioconductor-ahensdbs-post-link.sh
+  .bioconductor-ahensdbs-pre-unlink.sh: /usr/local/bin/.bioconductor-ahensdbs-pre-unlink.sh

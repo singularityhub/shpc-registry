@@ -7,13 +7,13 @@ tags:
   1.8.0--r36_1: sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430
 docker: quay.io/biocontainers/bioconductor-heatmaps
 aliases:
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
   hydra_nameserver: /usr/local/bin/hydra_nameserver
   hydra_persist: /usr/local/bin/hydra_persist
   hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  mpifort: /usr/local/bin/mpifort
   mpic++: /usr/local/bin/mpic++
   mpicc: /usr/local/bin/mpicc
-  mpichversion: /usr/local/bin/mpichversion

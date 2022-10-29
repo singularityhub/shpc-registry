@@ -6,14 +6,3 @@ latest:
 tags:
   1.52.0--r41hc247a5b_2: sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a
 docker: quay.io/biocontainers/bioconductor-shortread
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

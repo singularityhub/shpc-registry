@@ -15,13 +15,13 @@ aliases:
   mashtree_wrapper_deprecated.pl: /usr/local/bin/mashtree_wrapper_deprecated.pl
   min_abundance_finder.pl: /usr/local/bin/min_abundance_finder.pl
   quicktree: /usr/local/bin/quicktree
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
   bp_aacomp: /usr/local/bin/bp_aacomp
   bp_bioflat_index: /usr/local/bin/bp_bioflat_index
   bp_biogetseq: /usr/local/bin/bp_biogetseq
   bp_dbsplit: /usr/local/bin/bp_dbsplit
   bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
   bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches
+  bp_gccalc: /usr/local/bin/bp_gccalc

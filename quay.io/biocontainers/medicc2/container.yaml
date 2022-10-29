@@ -67,13 +67,13 @@ aliases:
   pdtreplace: /usr/local/bin/pdtreplace
   pdtreverse: /usr/local/bin/pdtreverse
   pdtshortestpath: /usr/local/bin/pdtshortestpath
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  tabulate: /usr/local/bin/tabulate
+  natsort: /usr/local/bin/natsort
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
   brotli: /usr/local/bin/brotli
+  img2webp: /usr/local/bin/img2webp
   cwebp: /usr/local/bin/cwebp
   dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp

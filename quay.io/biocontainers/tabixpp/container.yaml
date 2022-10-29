@@ -7,13 +7,13 @@ tags:
   1.1.0--h470d46e_9: sha256:5213a96cc511c795ed76b49764adc51b7970ff8f9932dd10b8e2997c057e350a
 docker: quay.io/biocontainers/tabixpp
 aliases:
-  ace2sam: /usr/local/bin/ace2sam
+  tabix++: /usr/local/bin/tabix++
   bc: /usr/local/bin/bc
+  dc: /usr/local/bin/dc
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  dc: /usr/local/bin/dc
   export2sam.pl: /usr/local/bin/export2sam.pl
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
   interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
-  maq2sam-long: /usr/local/bin/maq2sam-long
-  maq2sam-short: /usr/local/bin/maq2sam-short

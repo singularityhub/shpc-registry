@@ -7,16 +7,18 @@ tags:
   0.2.2--pyhdfd78af_0: sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3
 docker: quay.io/biocontainers/starfish
 aliases:
+  isympy: /usr/local/bin/isympy
   slicedimage: /usr/local/bin/slicedimage
   starfish: /usr/local/bin/starfish
   tiff2fsspec: /usr/local/bin/tiff2fsspec
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  tiffcomment: /usr/local/bin/tiffcomment
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  brotli: /usr/local/bin/brotli
-  canbusutil: /usr/local/bin/canbusutil
   cbrunsli: /usr/local/bin/cbrunsli
-  certutil: /usr/local/bin/certutil
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

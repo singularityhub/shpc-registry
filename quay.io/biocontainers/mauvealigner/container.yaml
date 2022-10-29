@@ -22,6 +22,7 @@ aliases:
   mauveStatic: /usr/local/bin/mauveStatic
   mauveToXMFA: /usr/local/bin/mauveToXMFA
   mfa2xmfa: /usr/local/bin/mfa2xmfa
+  progressiveMauve: /usr/local/bin/progressiveMauve
   progressiveMauveStatic: /usr/local/bin/progressiveMauveStatic
   projectAndStrip: /usr/local/bin/projectAndStrip
   randomGeneSample: /usr/local/bin/randomGeneSample
@@ -35,4 +36,3 @@ aliases:
   uniqueMerCount: /usr/local/bin/uniqueMerCount
   uniquifyTrees: /usr/local/bin/uniquifyTrees
   xmfa2maf: /usr/local/bin/xmfa2maf
-  progressiveMauve: /usr/local/bin/progressiveMauve

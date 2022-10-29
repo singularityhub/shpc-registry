@@ -7,4 +7,6 @@ tags:
   1.22.0--r40hdfd78af_1: sha256:040e9492d94244dd1d532bf6dabebaf0923e43c82271034d1e510e431e88f7dc
 docker: quay.io/biocontainers/bioconductor-geuvpack
 aliases:
+  .bioconductor-geuvpack-post-link.sh: /usr/local/bin/.bioconductor-geuvpack-post-link.sh
+  .bioconductor-geuvpack-pre-unlink.sh: /usr/local/bin/.bioconductor-geuvpack-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

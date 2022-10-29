@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/kipoiseq
 aliases:
   cookiecutter: /usr/local/bin/cookiecutter
   kipoi: /usr/local/bin/kipoi
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  chardetect: /usr/local/bin/chardetect
-  f2py3.9: /usr/local/bin/f2py3.9
-  faidx: /usr/local/bin/faidx
-  futurize: /usr/local/bin/futurize
   gffutils-cli: /usr/local/bin/gffutils-cli
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tabulate: /usr/local/bin/tabulate
+  natsort: /usr/local/bin/natsort
+  faidx: /usr/local/bin/faidx
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop

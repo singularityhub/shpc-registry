@@ -21,13 +21,13 @@ aliases:
   knot.path_search: /usr/local/bin/knot.path_search
   knot.sg_generation: /usr/local/bin/knot.sg_generation
   yacrd: /usr/local/bin/yacrd
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pulptest: /usr/local/bin/pulptest
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
-  bcomps: /usr/local/bin/bcomps
-  cbc: /usr/local/bin/cbc
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  convert: /usr/local/bin/convert
+  display: /usr/local/bin/display

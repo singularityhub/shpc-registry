@@ -7,13 +7,21 @@ tags:
   6.6.0--haa49230_5: sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab
 docker: quay.io/biocontainers/emboss
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  _aaindexextract: /usr/local/bin/_aaindexextract
-  _abiview: /usr/local/bin/_abiview
-  _acdc: /usr/local/bin/_acdc
-  _acdpretty: /usr/local/bin/_acdpretty
-  _acdtable: /usr/local/bin/_acdtable
-  _acdtrace: /usr/local/bin/_acdtrace
-  _acdvalid: /usr/local/bin/_acdvalid
-  _antigenic: /usr/local/bin/_antigenic
-  _backtranambig: /usr/local/bin/_backtranambig
+  _embossdata: /usr/local/bin/_embossdata
+  _embossversion: /usr/local/bin/_embossversion
+  _jembossctl: /usr/local/bin/_jembossctl
+  embossdata: /usr/local/bin/embossdata
+  embossupdate: /usr/local/bin/embossupdate
+  embossversion: /usr/local/bin/embossversion
+  jembossctl: /usr/local/bin/jembossctl
+  runJemboss.sh: /usr/local/bin/runJemboss.sh
+  _bdftogd: /usr/local/bin/_bdftogd
+  _gd2copypal: /usr/local/bin/_gd2copypal
+  _gd2togif: /usr/local/bin/_gd2togif
+  _gd2topng: /usr/local/bin/_gd2topng
+  _gdcmpgif: /usr/local/bin/_gdcmpgif
+  _gdparttopng: /usr/local/bin/_gdparttopng
+  _gdtopng: /usr/local/bin/_gdtopng
+  _giftogd2: /usr/local/bin/_giftogd2
+  _pngtogd: /usr/local/bin/_pngtogd
+  _pngtogd2: /usr/local/bin/_pngtogd2

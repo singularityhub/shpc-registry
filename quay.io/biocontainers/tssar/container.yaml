@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/tssar
 aliases:
   TSSAR: /usr/local/bin/TSSAR
   TSSAR.bak: /usr/local/bin/TSSAR.bak
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

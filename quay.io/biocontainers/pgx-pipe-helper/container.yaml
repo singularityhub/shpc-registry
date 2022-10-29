@@ -10,13 +10,13 @@ aliases:
   complete_locus: /usr/local/bin/complete_locus
   locus2bed: /usr/local/bin/locus2bed
   validate_locus: /usr/local/bin/validate_locus
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  acyclic: /usr/local/bin/acyclic
-  bcomps: /usr/local/bin/bcomps
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jp.py: /usr/local/bin/jp.py
   cxpm: /usr/local/bin/cxpm
-  dijkstra: /usr/local/bin/dijkstra
-  dot: /usr/local/bin/dot
+  sxpm: /usr/local/bin/sxpm
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign

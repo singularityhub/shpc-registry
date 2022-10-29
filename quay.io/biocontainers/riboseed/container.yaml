@@ -12,18 +12,28 @@ aliases:
   dipspades: /usr/local/bin/dipspades
   dipspades.py: /usr/local/bin/dipspades.py
   hammer: /usr/local/bin/hammer
+  icarus.py: /usr/local/bin/icarus.py
   ionhammer: /usr/local/bin/ionhammer
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
   ribo: /usr/local/bin/ribo
   scaffold_correction: /usr/local/bin/scaffold_correction
   seedRand.py: /usr/local/bin/seedRand.py
+  skesa: /usr/local/bin/skesa
   spades: /usr/local/bin/spades
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  barrnap: /usr/local/bin/barrnap
-  bcftools: /usr/local/bin/bcftools
+  prank: /usr/local/bin/prank
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  glimmerhmm: /usr/local/bin/glimmerhmm
+  glimmhmm.pl: /usr/local/bin/glimmhmm.pl
+  list.modules: /usr/local/bin/list.modules
+  test.modules: /usr/local/bin/test.modules

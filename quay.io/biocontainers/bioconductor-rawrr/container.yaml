@@ -8,7 +8,13 @@ tags:
 docker: quay.io/biocontainers/bioconductor-rawrr
 aliases:
   aprofutil: /usr/local/bin/aprofutil
+  csc: /usr/local/bin/csc
+  csi: /usr/local/bin/csi
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
   mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
+  vbc: /usr/local/bin/vbc
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
   caspol: /usr/local/bin/caspol
@@ -17,5 +23,3 @@ aliases:
   cert-sync: /usr/local/bin/cert-sync
   cert2spc: /usr/local/bin/cert2spc
   certmgr: /usr/local/bin/certmgr
-  chktrust: /usr/local/bin/chktrust
-  crlupdate: /usr/local/bin/crlupdate

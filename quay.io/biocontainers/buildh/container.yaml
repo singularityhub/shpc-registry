@@ -12,11 +12,11 @@ aliases:
   nc3tonc4: /usr/local/bin/nc3tonc4
   nc4tonc3: /usr/local/bin/nc4tonc3
   ncinfo: /usr/local/bin/ncinfo
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen

@@ -7,13 +7,5 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:a5ac2999123a29b02343dba714efe84a52ec1166e2e1d17d6c5a8bc84ba33f70
 docker: quay.io/biocontainers/bioconductor-lapointe.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-lapointe.db-post-link.sh: /usr/local/bin/.bioconductor-lapointe.db-post-link.sh
+  .bioconductor-lapointe.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lapointe.db-pre-unlink.sh

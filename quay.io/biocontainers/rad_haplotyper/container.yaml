@@ -23,6 +23,7 @@ aliases:
   rainbow: /usr/local/bin/rainbow
   remake_reference.sh: /usr/local/bin/remake_reference.sh
   remove.bad.hap.loci.sh: /usr/local/bin/remove.bad.hap.loci.sh
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
   select_all_rbcontig.pl: /usr/local/bin/select_all_rbcontig.pl
   select_all_rbcontig.pl.bak: /usr/local/bin/select_all_rbcontig.pl.bak
   select_best_rbcontig.pl: /usr/local/bin/select_best_rbcontig.pl
@@ -32,13 +33,17 @@ aliases:
   select_sec_rbcontig.pl: /usr/local/bin/select_sec_rbcontig.pl
   select_sec_rbcontig.pl.bak: /usr/local/bin/select_sec_rbcontig.pl.bak
   split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  FET.pl: /usr/local/bin/FET.pl
-  abba-baba: /usr/local/bin/abba-baba
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  b2sum: /usr/local/bin/b2sum
-  bFst: /usr/local/bin/bFst
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
+  update_version.sh: /usr/local/bin/update_version.sh
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
+  vcftools: /usr/local/bin/vcftools
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

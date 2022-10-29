@@ -7,6 +7,7 @@ tags:
   0.3_8--r3.3.2_0: sha256:5e5639f8bd7e1d7079009be077561f641ae57061b2b886c124b76b088b65c348
 docker: quay.io/biocontainers/r-ellipse
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

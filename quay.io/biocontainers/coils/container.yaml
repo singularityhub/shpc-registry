@@ -7,6 +7,7 @@ tags:
   2.2.1--hec16e2b_2: sha256:bb6b9ae2ac65d8cdcb0eb51beadeceaa94d43b5441406df33fc4958ee7fc26ee
 docker: quay.io/biocontainers/coils
 aliases:
+  .coils-post-link.sh: /usr/local/bin/.coils-post-link.sh
   coils-svr.pl: /usr/local/bin/coils-svr.pl
   coils-wrap.pl: /usr/local/bin/coils-wrap.pl
   ncoils: /usr/local/bin/ncoils

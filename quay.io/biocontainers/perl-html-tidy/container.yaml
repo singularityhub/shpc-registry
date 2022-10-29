@@ -7,5 +7,7 @@ tags:
   1.60--pl5321hec16e2b_2: sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691
 docker: quay.io/biocontainers/perl-html-tidy
 aliases:
-  tidyp: /usr/local/bin/tidyp
   webtidy: /usr/local/bin/webtidy
+  tidyp: /usr/local/bin/tidyp
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

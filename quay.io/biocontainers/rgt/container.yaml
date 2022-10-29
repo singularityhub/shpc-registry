@@ -7,8 +7,10 @@ tags:
   0.12.3--py27h2b63b92_3: sha256:3ba10a56cba8ad89aad24d2b79e8e8954456984456a86e2d9cb59dff6cf98dd3
 docker: quay.io/biocontainers/rgt
 aliases:
+  .rgt-post-link.sh: /usr/local/bin/.rgt-post-link.sh
   bed2associated_genes.py: /usr/local/bin/bed2associated_genes.py
   bed2fasta.py: /usr/local/bin/bed2fasta.py
+  bigBedToBed: /usr/local/bin/bigBedToBed
   bigWigMerge: /usr/local/bin/bigWigMerge
   download-db.sh: /usr/local/bin/download-db.sh
   emtools.py: /usr/local/bin/emtools.py
@@ -34,13 +36,13 @@ aliases:
   setupGenomicData.py: /usr/local/bin/setupGenomicData.py
   setupLogoData.py: /usr/local/bin/setupLogoData.py
   update_alias.py: /usr/local/bin/update_alias.py
-  assistant: /usr/local/bin/assistant
+  wigToBigWig: /usr/local/bin/wigToBigWig
   bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
   bedToBigBed: /usr/local/bin/bedToBigBed
-  bigBedToBed: /usr/local/bin/bigBedToBed
-  canbusutil: /usr/local/bin/canbusutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  natsort: /usr/local/bin/natsort
+  my_print_defaults: /usr/local/bin/my_print_defaults

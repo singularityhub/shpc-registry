@@ -1,4 +1,3 @@
-docker: quay.io/biocontainers/beast2
 url: https://biocontainers.pro/tools/beast2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for beast2
@@ -6,6 +5,7 @@ latest:
   2.6.3--hf1b8bbb_0: sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d
 tags:
   2.6.3--hf1b8bbb_0: sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d
+docker: quay.io/biocontainers/beast2
 aliases:
   applauncher: /usr/local/bin/applauncher
   beast: /usr/local/bin/beast
@@ -15,17 +15,13 @@ aliases:
   logcombiner: /usr/local/bin/logcombiner
   packagemanager: /usr/local/bin/packagemanager
   treeannotator: /usr/local/bin/treeannotator
-  appletviewer: /usr/local/bin/appletviewer
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
   javah: /usr/local/bin/javah
-env:
-  DISPLAY: ''
-features:
-  home: true
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

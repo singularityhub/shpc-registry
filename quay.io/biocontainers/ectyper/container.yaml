@@ -7,14 +7,15 @@ tags:
   1.0.0--pyhdfd78af_1: sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465
 docker: quay.io/biocontainers/ectyper
 aliases:
+  .ectyper-post-link.sh: /usr/local/bin/.ectyper-post-link.sh
   ectyper: /usr/local/bin/ectyper
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  mash: /usr/local/bin/mash
+  seqtk: /usr/local/bin/seqtk
   CA.pm: /usr/local/bin/CA.pm
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  bcftools: /usr/local/bin/bcftools
-  between-two-genes: /usr/local/bin/between-two-genes
+  cacert.pem: /usr/local/bin/cacert.pem
+  index-themes: /usr/local/bin/index-themes

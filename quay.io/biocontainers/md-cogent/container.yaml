@@ -13,13 +13,13 @@ aliases:
   process_kmer_to_graph.py: /usr/local/bin/process_kmer_to_graph.py
   reconstruct_contig.py: /usr/local/bin/reconstruct_contig.py
   run_mash.py: /usr/local/bin/run_mash.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  align_print_template.py: /usr/local/bin/align_print_template.py
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

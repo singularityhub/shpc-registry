@@ -12,13 +12,14 @@ aliases:
   immune-ml-quickstart: /usr/local/bin/immune-ml-quickstart
   pystache: /usr/local/bin/pystache
   pystache-test: /usr/local/bin/pystache-test
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  brotli: /usr/local/bin/brotli
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
+  torchrun: /usr/local/bin/torchrun
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  cwebp: /usr/local/bin/cwebp
+  ninja: /usr/local/bin/ninja
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  tensorboard: /usr/local/bin/tensorboard
+  xkbcli: /usr/local/bin/xkbcli
   cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython

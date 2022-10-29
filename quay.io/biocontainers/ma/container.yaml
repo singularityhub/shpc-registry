@@ -7,7 +7,11 @@ tags:
   2.0.1--py39h6935b12_0: sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d
 docker: quay.io/biocontainers/ma
 aliases:
+  lzma: /usr/local/bin/lzma
+  lzmadec: /usr/local/bin/lzmadec
+  lzmainfo: /usr/local/bin/lzmainfo
   maCMD: /usr/local/bin/maCMD
+  unlzma: /usr/local/bin/unlzma
   2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9

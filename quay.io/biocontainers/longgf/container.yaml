@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/longgf
 aliases:
   LongGF: /usr/local/bin/LongGF
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

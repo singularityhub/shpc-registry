@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/andi
 aliases:
   andi: /usr/local/bin/andi
+  gsl-randist: /usr/local/bin/gsl-randist

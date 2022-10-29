@@ -13,6 +13,7 @@ aliases:
   faToNib: /usr/local/bin/faToNib
   fastq_split.pl: /usr/local/bin/fastq_split.pl
   gfClient: /usr/local/bin/gfClient
+  gfServer: /usr/local/bin/gfServer
   nibFrag: /usr/local/bin/nibFrag
   pslPretty: /usr/local/bin/pslPretty
   pslReps: /usr/local/bin/pslReps
@@ -24,13 +25,14 @@ aliases:
   relocaTE_insertionFinder.py: /usr/local/bin/relocaTE_insertionFinder.py
   relocaTE_trim.py: /usr/local/bin/relocaTE_trim.py
   utility.py: /usr/local/bin/utility.py
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  varfilter.py: /usr/local/bin/varfilter.py
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  blat: /usr/local/bin/blat
+  twoBitInfo: /usr/local/bin/twoBitInfo
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  seqtk: /usr/local/bin/seqtk
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build

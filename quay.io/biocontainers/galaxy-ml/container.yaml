@@ -8,13 +8,14 @@ tags:
 docker: quay.io/biocontainers/galaxy-ml
 aliases:
   flatc: /usr/local/bin/flatc
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
-  brotli: /usr/local/bin/brotli
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  xgboost: /usr/local/bin/xgboost
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt

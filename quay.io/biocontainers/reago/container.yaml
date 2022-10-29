@@ -7,7 +7,6 @@ tags:
   1.1--py34_0: sha256:6e1d0e05a5bd28e2eb859c5e808f7bee6d9c844778f60da6b76ff16bc1a5e55a
 docker: quay.io/biocontainers/reago
 aliases:
-  reago.py: /usr/local/bin/reago.py
   2to3-3.4: /usr/local/bin/2to3-3.4
   easy_install-3.4: /usr/local/bin/easy_install-3.4
   idle3.4: /usr/local/bin/idle3.4
@@ -17,4 +16,7 @@ aliases:
   python3.4m: /usr/local/bin/python3.4m
   python3.4m-config: /usr/local/bin/python3.4m-config
   pyvenv-3.4: /usr/local/bin/pyvenv-3.4
+  reago.py: /usr/local/bin/reago.py
   tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5
+  pyvenv: /usr/local/bin/pyvenv

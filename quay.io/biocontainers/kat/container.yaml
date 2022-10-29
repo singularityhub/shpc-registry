@@ -16,13 +16,13 @@ aliases:
   kat_plot_spectra_cn: /usr/local/bin/kat_plot_spectra_cn
   kat_plot_spectra_hist: /usr/local/bin/kat_plot_spectra_hist
   kat_plot_spectra_mx: /usr/local/bin/kat_plot_spectra_mx
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  tabulate: /usr/local/bin/tabulate
   f2py3.6: /usr/local/bin/f2py3.6
+  2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
-  psicc: /usr/local/bin/psicc
   pydoc3.6: /usr/local/bin/pydoc3.6
   python3.6: /usr/local/bin/python3.6
   python3.6-config: /usr/local/bin/python3.6-config
   python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

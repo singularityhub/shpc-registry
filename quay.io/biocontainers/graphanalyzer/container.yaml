@@ -11,13 +11,13 @@ aliases:
   graphanalyzer.py: /usr/local/bin/graphanalyzer.py
   holoviews: /usr/local/bin/holoviews
   panel: /usr/local/bin/panel
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
   bokeh: /usr/local/bin/bokeh
-  brotli: /usr/local/bin/brotli
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  markdown_py: /usr/local/bin/markdown_py
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare

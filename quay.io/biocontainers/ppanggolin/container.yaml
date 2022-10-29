@@ -9,9 +9,8 @@ docker: quay.io/biocontainers/ppanggolin
 aliases:
   gawk-5.0.1: /usr/local/bin/gawk-5.0.1
   ppanggolin: /usr/local/bin/ppanggolin
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  mmseqs: /usr/local/bin/mmseqs
   aragorn: /usr/local/bin/aragorn
-  awk: /usr/local/bin/awk
   cmalign: /usr/local/bin/cmalign
   cmbuild: /usr/local/bin/cmbuild
   cmcalibrate: /usr/local/bin/cmcalibrate
@@ -19,3 +18,4 @@ aliases:
   cmemit: /usr/local/bin/cmemit
   cmfetch: /usr/local/bin/cmfetch
   cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan

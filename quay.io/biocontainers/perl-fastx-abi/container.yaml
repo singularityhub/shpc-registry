@@ -10,3 +10,5 @@ aliases:
   abi2fq: /usr/local/bin/abi2fq
   mergeabi: /usr/local/bin/mergeabi
   stripabitags: /usr/local/bin/stripabitags
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

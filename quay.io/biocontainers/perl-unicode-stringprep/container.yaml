@@ -7,13 +7,5 @@ tags:
   1.105--pl5321hdfd78af_3: sha256:b6aed75bf268b7ab725b4482d3bfac99aeacb10c36d8e6708b6d3a3cfe7cded7
 docker: quay.io/biocontainers/perl-unicode-stringprep
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip
