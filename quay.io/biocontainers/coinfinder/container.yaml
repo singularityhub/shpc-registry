@@ -16,13 +16,13 @@ aliases:
   vpxdec: /usr/local/bin/vpxdec
   vpxenc: /usr/local/bin/vpxenc
   x264: /usr/local/bin/x264
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  Magick++-config: /usr/local/bin/Magick++-config
-  MagickCore-config: /usr/local/bin/MagickCore-config
-  MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv
+  psktool: /usr/local/bin/psktool

@@ -6,14 +6,3 @@ latest:
 tags:
   2.7.4--r41hecf12ef_3: sha256:d82eb11a905e6c664a26c002bde658edbf428e53cf76c34e99fea8054ebd0708
 docker: quay.io/biocontainers/r-hemdag
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,6 +7,6 @@ tags:
   1.30.0--r36_0: sha256:c4aa988283b511af4b580d28a6368977880df2de16f2c6af2a62b998946632db
 docker: quay.io/biocontainers/bioconductor-cellgrowth
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

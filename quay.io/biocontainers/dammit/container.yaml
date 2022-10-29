@@ -7,46 +7,108 @@ tags:
   1.2--pyh5ca1d4c_0: sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2
 docker: quay.io/biocontainers/dammit
 aliases:
+  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
   TransDecoder.LongOrfs: /usr/local/bin/TransDecoder.LongOrfs
   TransDecoder.Predict: /usr/local/bin/TransDecoder.Predict
   aa2nonred.pl: /usr/local/bin/aa2nonred.pl
+  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
+  abundance-dist.py: /usr/local/bin/abundance-dist.py
+  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
+  augustus2browser.pl: /usr/local/bin/augustus2browser.pl
+  augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
+  autoAug.pl: /usr/local/bin/autoAug.pl
+  autoAugPred.pl: /usr/local/bin/autoAugPred.pl
+  autoAugTrain.pl: /usr/local/bin/autoAugTrain.pl
   autoRun.pathInfo: /usr/local/bin/autoRun.pathInfo
+  bam2wig: /usr/local/bin/bam2wig
   bamToWig.py: /usr/local/bin/bamToWig.py
+  bedgraph2wig.pl: /usr/local/bin/bedgraph2wig.pl
+  blat2gbrowse.pl: /usr/local/bin/blat2gbrowse.pl
+  blat2hints.pl: /usr/local/bin/blat2hints.pl
+  block2prfl.pl: /usr/local/bin/block2prfl.pl
   cdna_alignment_orf_to_genome_orf.pl: /usr/local/bin/cdna_alignment_orf_to_genome_orf.pl
+  cegma2gff.pl: /usr/local/bin/cegma2gff.pl
+  checkParamArchive.pl: /usr/local/bin/checkParamArchive.pl
+  checkUTR: /usr/local/bin/checkUTR
+  cleanDOSfasta.pl: /usr/local/bin/cleanDOSfasta.pl
+  clusterAndSplitGenes.pl: /usr/local/bin/clusterAndSplitGenes.pl
   compare_masking.pl: /usr/local/bin/compare_masking.pl
   compileSpliceCands: /usr/local/bin/compileSpliceCands
   computeFlankingRegion.pl: /usr/local/bin/computeFlankingRegion.pl
   compute_base_probs.pl: /usr/local/bin/compute_base_probs.pl
+  count-median.py: /usr/local/bin/count-median.py
+  createAugustusJoblist.pl: /usr/local/bin/createAugustusJoblist.pl
   dammit: /usr/local/bin/dammit
+  del_from_prfl.pl: /usr/local/bin/del_from_prfl.pl
+  do-partition.py: /usr/local/bin/do-partition.py
   doit: /usr/local/bin/doit
   espoca: /usr/local/bin/espoca
+  evalCGP.pl: /usr/local/bin/evalCGP.pl
+  eval_dualdecomp.pl: /usr/local/bin/eval_dualdecomp.pl
   eval_multi_gtf.pl: /usr/local/bin/eval_multi_gtf.pl
   exclude_similar_proteins.pl: /usr/local/bin/exclude_similar_proteins.pl
+  exonerate2hints.pl: /usr/local/bin/exonerate2hints.pl
+  exoniphyDb2hints.pl: /usr/local/bin/exoniphyDb2hints.pl
+  extract-long-sequences.py: /usr/local/bin/extract-long-sequences.py
+  extract-paired-reads.py: /usr/local/bin/extract-paired-reads.py
+  extract-partitions.py: /usr/local/bin/extract-partitions.py
+  extractTranscriptEnds.pl: /usr/local/bin/extractTranscriptEnds.pl
   fasta_prot_checker.pl: /usr/local/bin/fasta_prot_checker.pl
   fastq-interleave: /usr/local/bin/fastq-interleave
+  fastq-to-fasta.py: /usr/local/bin/fastq-to-fasta.py
   ffindex_resume.pl: /usr/local/bin/ffindex_resume.pl
+  filter-abund-single.py: /usr/local/bin/filter-abund-single.py
+  filter-abund.py: /usr/local/bin/filter-abund.py
+  filter-ppx.pl: /usr/local/bin/filter-ppx.pl
+  filter-stoptags.py: /usr/local/bin/filter-stoptags.py
+  filterGenes.pl: /usr/local/bin/filterGenes.pl
   filterGenesIn.pl: /usr/local/bin/filterGenesIn.pl
+  filterGenesIn_mRNAname.pl: /usr/local/bin/filterGenesIn_mRNAname.pl
+  filterGenesOut_mRNAname.pl: /usr/local/bin/filterGenesOut_mRNAname.pl
+  filterInFrameStopCodons.pl: /usr/local/bin/filterInFrameStopCodons.pl
+  filterMaf.pl: /usr/local/bin/filterMaf.pl
+  filterPSL.pl: /usr/local/bin/filterPSL.pl
+  filterShrimp.pl: /usr/local/bin/filterShrimp.pl
+  filterSpliceHints.pl: /usr/local/bin/filterSpliceHints.pl
+  find-knots.py: /usr/local/bin/find-knots.py
   findGffNamesInFasta.pl: /usr/local/bin/findGffNamesInFasta.pl
   fix_in_frame_stop_codon_genes.py: /usr/local/bin/fix_in_frame_stop_codon_genes.py
   fix_joingenes_gtf.pl: /usr/local/bin/fix_joingenes_gtf.pl
+  gbSmallDNA2gff.pl: /usr/local/bin/gbSmallDNA2gff.pl
+  gbrowse.conf: /usr/local/bin/gbrowse.conf
+  gbrowseold2gff3.pl: /usr/local/bin/gbrowseold2gff3.pl
   gene_list_to_gff.pl: /usr/local/bin/gene_list_to_gff.pl
   generate_plot: /usr/local/bin/generate_plot
   generate_plot.py: /usr/local/bin/generate_plot.py
+  getAnnoFasta.pl: /usr/local/bin/getAnnoFasta.pl
   getAnnoFastaFromJoingenes.py: /usr/local/bin/getAnnoFastaFromJoingenes.py
   getLinesMatching.pl: /usr/local/bin/getLinesMatching.pl
+  getSeq: /usr/local/bin/getSeq
   get_FL_accs.pl: /usr/local/bin/get_FL_accs.pl
   get_longest_ORF_per_transcript.pl: /usr/local/bin/get_longest_ORF_per_transcript.pl
   get_top_longest_fasta_entries.pl: /usr/local/bin/get_top_longest_fasta_entries.pl
+  gff2gbSmallDNA.pl: /usr/local/bin/gff2gbSmallDNA.pl
+  gff2ps_mycustom: /usr/local/bin/gff2ps_mycustom
   gff3_file_to_bed.pl: /usr/local/bin/gff3_file_to_bed.pl
   gff3_file_to_proteins.pl: /usr/local/bin/gff3_file_to_proteins.pl
   gff3_gene_to_gtf_format.pl: /usr/local/bin/gff3_gene_to_gtf_format.pl
+  gffGetmRNA.pl: /usr/local/bin/gffGetmRNA.pl
+  gp2othergp.pl: /usr/local/bin/gp2othergp.pl
   gtf2aa.pl: /usr/local/bin/gtf2aa.pl
+  gtf2gff.pl: /usr/local/bin/gtf2gff.pl
   gtf_genome_to_cdna_fasta.pl: /usr/local/bin/gtf_genome_to_cdna_fasta.pl
   gtf_to_alignment_gff3.pl: /usr/local/bin/gtf_to_alignment_gff3.pl
   gtf_to_bed.pl: /usr/local/bin/gtf_to_bed.pl
   gth2gtf.pl: /usr/local/bin/gth2gtf.pl
+  hal2maf_split.pl: /usr/local/bin/hal2maf_split.pl
+  helpMod.pm: /usr/local/bin/helpMod.pm
+  interleave-reads.py: /usr/local/bin/interleave-reads.py
+  joinPeptides.pl: /usr/local/bin/joinPeptides.pl
+  join_aug_pred.pl: /usr/local/bin/join_aug_pred.pl
+  join_mult_hints.pl: /usr/local/bin/join_mult_hints.pl
   last-dotplot: /usr/local/bin/last-dotplot
   last-map-probs: /usr/local/bin/last-map-probs
+  last-merge-batches: /usr/local/bin/last-merge-batches
   last-pair-probs: /usr/local/bin/last-pair-probs
   last-postmask: /usr/local/bin/last-postmask
   last-split: /usr/local/bin/last-split
@@ -56,38 +118,90 @@ aliases:
   lastal8: /usr/local/bin/lastal8
   lastdb: /usr/local/bin/lastdb
   lastdb8: /usr/local/bin/lastdb8
+  load-graph.py: /usr/local/bin/load-graph.py
+  load-into-counting.py: /usr/local/bin/load-into-counting.py
+  load2sqlitedb: /usr/local/bin/load2sqlitedb
+  lp_solve: /usr/local/bin/lp_solve
   maf-convert: /usr/local/bin/maf-convert
   maf-cut: /usr/local/bin/maf-cut
   maf-join: /usr/local/bin/maf-join
   maf-sort: /usr/local/bin/maf-sort
   maf-swap: /usr/local/bin/maf-swap
+  maf2conswig.pl: /usr/local/bin/maf2conswig.pl
+  make-initial-stoptags.py: /usr/local/bin/make-initial-stoptags.py
+  makeMatchLists.pl: /usr/local/bin/makeMatchLists.pl
+  makeUtrTrainingSet.pl: /usr/local/bin/makeUtrTrainingSet.pl
+  maskNregions.pl: /usr/local/bin/maskNregions.pl
+  merge-partitions.py: /usr/local/bin/merge-partitions.py
   merge_masking.pl: /usr/local/bin/merge_masking.pl
+  moveParameters.pl: /usr/local/bin/moveParameters.pl
+  msa2prfl.pl: /usr/local/bin/msa2prfl.pl
+  new_species.pl: /usr/local/bin/new_species.pl
+  normalize-by-median.py: /usr/local/bin/normalize-by-median.py
   nr_ORFs_gff3.pl: /usr/local/bin/nr_ORFs_gff3.pl
+  opt_init_and_term_probs.pl: /usr/local/bin/opt_init_and_term_probs.pl
+  optimize_augustus.pl: /usr/local/bin/optimize_augustus.pl
   parallel-fasta: /usr/local/bin/parallel-fasta
   parallel-fastq: /usr/local/bin/parallel-fastq
+  parseSim4Output.pl: /usr/local/bin/parseSim4Output.pl
+  partition-graph.py: /usr/local/bin/partition-graph.py
+  partition_gtf2gb.pl: /usr/local/bin/partition_gtf2gb.pl
+  pasapolyA2hints.pl: /usr/local/bin/pasapolyA2hints.pl
+  peptides2alternatives.pl: /usr/local/bin/peptides2alternatives.pl
+  peptides2hints.pl: /usr/local/bin/peptides2hints.pl
   pfam_runner.pl: /usr/local/bin/pfam_runner.pl
+  phastconsDB2hints.pl: /usr/local/bin/phastconsDB2hints.pl
+  polyA2hints.pl: /usr/local/bin/polyA2hints.pl
+  prints2prfl.pl: /usr/local/bin/prints2prfl.pl
+  pslMap.pl: /usr/local/bin/pslMap.pl
+  randomSplit.pl: /usr/local/bin/randomSplit.pl
   ratewig.pl: /usr/local/bin/ratewig.pl
+  readstats.py: /usr/local/bin/readstats.py
   refine_gff3_group_iso_strip_utrs.pl: /usr/local/bin/refine_gff3_group_iso_strip_utrs.pl
   refine_hexamer_scores.pl: /usr/local/bin/refine_hexamer_scores.pl
   remove_eclipsed_ORFs.pl: /usr/local/bin/remove_eclipsed_ORFs.pl
+  retroDB2hints.pl: /usr/local/bin/retroDB2hints.pl
+  rmRedundantHints.pl: /usr/local/bin/rmRedundantHints.pl
+  runAllSim4.pl: /usr/local/bin/runAllSim4.pl
   run_BUSCO.py: /usr/local/bin/run_BUSCO.py
   run_busco: /usr/local/bin/run_busco
+  samMap.pl: /usr/local/bin/samMap.pl
+  sample-reads-randomly.py: /usr/local/bin/sample-reads-randomly.py
+  scipiogff2gff.pl: /usr/local/bin/scipiogff2gff.pl
   score_CDS_likelihood_all_6_frames.pl: /usr/local/bin/score_CDS_likelihood_all_6_frames.pl
   select_best_ORFs_per_transcript.pl: /usr/local/bin/select_best_ORFs_per_transcript.pl
   seq_n_baseprobs_to_loglikelihood_vals.pl: /usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl
   setStopCodonFreqs.pl: /usr/local/bin/setStopCodonFreqs.pl
   shmlast: /usr/local/bin/shmlast
+  simpleFastaHeaders.pl: /usr/local/bin/simpleFastaHeaders.pl
+  simplifyFastaHeaders.pl: /usr/local/bin/simplifyFastaHeaders.pl
+  split-paired-reads.py: /usr/local/bin/split-paired-reads.py
+  splitMfasta.pl: /usr/local/bin/splitMfasta.pl
+  split_wiggle.pl: /usr/local/bin/split_wiggle.pl
   start_codon_refinement.pl: /usr/local/bin/start_codon_refinement.pl
+  summarizeACGTcontent.pl: /usr/local/bin/summarizeACGTcontent.pl
   train_start_PWM.pl: /usr/local/bin/train_start_PWM.pl
+  transMap2hints.pl: /usr/local/bin/transMap2hints.pl
+  trim-low-abund.py: /usr/local/bin/trim-low-abund.py
+  unique-kmers.py: /usr/local/bin/unique-kmers.py
+  uniquePeptides.pl: /usr/local/bin/uniquePeptides.pl
   uri_unescape.pl: /usr/local/bin/uri_unescape.pl
+  utrgff2gbrowse.pl: /usr/local/bin/utrgff2gbrowse.pl
   utrrnaseq: /usr/local/bin/utrrnaseq
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm
-  abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py
-  abundance-dist.py: /usr/local/bin/abundance-dist.py
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate-partitions.py: /usr/local/bin/annotate-partitions.py
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
+  webserver-results.head: /usr/local/bin/webserver-results.head
+  webserver-results.tail: /usr/local/bin/webserver-results.tail
+  weedMaf.pl: /usr/local/bin/weedMaf.pl
+  wig2hints.pl: /usr/local/bin/wig2hints.pl
+  wigchoose.pl: /usr/local/bin/wigchoose.pl
+  writeResultsPage.pl: /usr/local/bin/writeResultsPage.pl
+  yaml2gff.1.4.pl: /usr/local/bin/yaml2gff.1.4.pl
+  augustus: /usr/local/bin/augustus
+  bam2hints: /usr/local/bin/bam2hints
+  etraining: /usr/local/bin/etraining
+  fastBlockSearch: /usr/local/bin/fastBlockSearch
+  filterBam: /usr/local/bin/filterBam
+  gtf2bed.pl: /usr/local/bin/gtf2bed.pl
+  homGeneMapping: /usr/local/bin/homGeneMapping
+  joingenes: /usr/local/bin/joingenes
+  prepareAlign: /usr/local/bin/prepareAlign
+  build.sh: /usr/local/bin/build.sh

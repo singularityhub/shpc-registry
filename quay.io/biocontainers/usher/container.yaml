@@ -23,13 +23,13 @@ aliases:
   ssh-keyscan: /usr/local/bin/ssh-keyscan
   sshd: /usr/local/bin/sshd
   usher: /usr/local/bin/usher
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  einsi: /usr/local/bin/einsi
-  fftns: /usr/local/bin/fftns
-  fftnsi: /usr/local/bin/fftnsi
-  ginsi: /usr/local/bin/ginsi
-  igzip: /usr/local/bin/igzip
-  linsi: /usr/local/bin/linsi
-  mafft: /usr/local/bin/mafft
-  mafft-distance: /usr/local/bin/mafft-distance
-  mafft-einsi: /usr/local/bin/mafft-einsi
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun

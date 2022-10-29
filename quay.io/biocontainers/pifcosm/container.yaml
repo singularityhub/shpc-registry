@@ -19,13 +19,13 @@ aliases:
   rnr-tii: /usr/local/bin/rnr-tii
   treeator: /usr/local/bin/treeator
   treebender: /usr/local/bin/treebender
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  FET.pl: /usr/local/bin/FET.pl
-  FastTree: /usr/local/bin/FastTree
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS
+  raxmlHPC-PTHREADS-AVX2: /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+  raxmlHPC-PTHREADS-SSE3: /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+  raxmlHPC-SSE3: /usr/local/bin/raxmlHPC-SSE3
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  alimask: /usr/local/bin/alimask
-  cd-hit: /usr/local/bin/cd-hit
-  cd-hit-2d: /usr/local/bin/cd-hit-2d
-  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
-  cd-hit-454: /usr/local/bin/cd-hit-454
+  FET.pl: /usr/local/bin/FET.pl
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  clstr_list.pl: /usr/local/bin/clstr_list.pl

@@ -7,4 +7,6 @@ tags:
   3.2.2--r40_9: sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 aliases:
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
+  .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

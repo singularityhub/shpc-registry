@@ -7,6 +7,7 @@ tags:
   0.3--r3.3.2_0: sha256:6422f52a52d3b226ed17feea10748aad358b86d640b777facb94de9240c8e2e7
 docker: quay.io/biocontainers/r-rappdirs
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

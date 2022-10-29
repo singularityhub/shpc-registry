@@ -6,14 +6,3 @@ latest:
 tags:
   1.0--r41hec16e2b_6: sha256:54429ee26edcc2d3e3660c2b1b7782f114a08ee7130f10c301b4fd8f90fe3891
 docker: quay.io/biocontainers/kfoots
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

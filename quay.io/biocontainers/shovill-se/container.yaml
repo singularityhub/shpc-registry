@@ -10,13 +10,14 @@ aliases:
   lighter: /usr/local/bin/lighter
   shovill: /usr/local/bin/shovill
   shovill-se: /usr/local/bin/shovill-se
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
-  cds-mapping-stats: /usr/local/bin/cds-mapping-stats
-  cds-subgraphs: /usr/local/bin/cds-subgraphs
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.8: /usr/local/bin/f2py3.8
+  skesa: /usr/local/bin/skesa
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  flash: /usr/local/bin/flash
+  megahit: /usr/local/bin/megahit
+  megahit_toolkit: /usr/local/bin/megahit_toolkit
+  pilon: /usr/local/bin/pilon
+  samclip: /usr/local/bin/samclip
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth

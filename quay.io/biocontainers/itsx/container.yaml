@@ -8,8 +8,6 @@ tags:
 docker: quay.io/biocontainers/itsx
 aliases:
   ITSx: /usr/local/bin/ITSx
-  alimask: /usr/local/bin/alimask
-  esl-afetch: /usr/local/bin/esl-afetch
   esl-alimanip: /usr/local/bin/esl-alimanip
   esl-alimap: /usr/local/bin/esl-alimap
   esl-alimask: /usr/local/bin/esl-alimask
@@ -18,3 +16,5 @@ aliases:
   esl-alirev: /usr/local/bin/esl-alirev
   esl-alistat: /usr/local/bin/esl-alistat
   esl-compalign: /usr/local/bin/esl-compalign
+  esl-compstruct: /usr/local/bin/esl-compstruct
+  esl-construct: /usr/local/bin/esl-construct

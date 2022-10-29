@@ -82,6 +82,7 @@ aliases:
   fitsdiff: /usr/local/bin/fitsdiff
   fitsheader: /usr/local/bin/fitsheader
   fitsinfo: /usr/local/bin/fitsinfo
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
   samp_hub: /usr/local/bin/samp_hub
   save_model.py: /usr/local/bin/save_model.py
   showtable: /usr/local/bin/showtable
@@ -96,13 +97,13 @@ aliases:
   upgrade_tf1.py: /usr/local/bin/upgrade_tf1.py
   volint: /usr/local/bin/volint
   wcslint: /usr/local/bin/wcslint
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  annotateBed: /usr/local/bin/annotateBed
+  cooler: /usr/local/bin/cooler
   bam2pairs: /usr/local/bin/bam2pairs
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix

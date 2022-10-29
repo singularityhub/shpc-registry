@@ -7,13 +7,5 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e
 docker: quay.io/biocontainers/bioconductor-tabulamurissenisdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-tabulamurissenisdata-post-link.sh: /usr/local/bin/.bioconductor-tabulamurissenisdata-post-link.sh
+  .bioconductor-tabulamurissenisdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tabulamurissenisdata-pre-unlink.sh

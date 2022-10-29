@@ -12,13 +12,13 @@ aliases:
   evaluate_sample: /usr/local/bin/evaluate_sample
   mi_msi_train_test: /usr/local/bin/mi_msi_train_test
   visualize_instance: /usr/local/bin/visualize_instance
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
   ninja: /usr/local/bin/ninja
   nosetests: /usr/local/bin/nosetests
-  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  f2py3.8: /usr/local/bin/f2py3.8
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.8: /usr/local/bin/2to3-3.8

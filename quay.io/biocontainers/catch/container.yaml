@@ -12,8 +12,8 @@ aliases:
   design_large.py: /usr/local/bin/design_large.py
   design_naively.py: /usr/local/bin/design_naively.py
   pool.py: /usr/local/bin/pool.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

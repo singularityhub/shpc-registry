@@ -7,11 +7,11 @@ tags:
   4.5.2--pyh3252c3a_0: sha256:1c6595b3af0f838931fda400b692afe39373703c2dac6522c8ecc0d431aea6b0
 docker: quay.io/biocontainers/dendropy
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   dendropy-format: /usr/local/bin/dendropy-format
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  sumlabels.py: /usr/local/bin/sumlabels.py
-  sumtrees.py: /usr/local/bin/sumtrees.py

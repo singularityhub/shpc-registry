@@ -7,13 +7,14 @@ tags:
   0.9--py_1: sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e
 docker: quay.io/biocontainers/gffutils
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  faidx: /usr/local/bin/faidx
   gffutils-cli: /usr/local/bin/gffutils-cli
-  idle3.5: /usr/local/bin/idle3.5
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  pydoc3.5: /usr/local/bin/pydoc3.5
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  faidx: /usr/local/bin/faidx
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config

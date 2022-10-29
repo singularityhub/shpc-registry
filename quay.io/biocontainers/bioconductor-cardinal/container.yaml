@@ -11,3 +11,4 @@ aliases:
   fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
   fftwf-wisdom: /usr/local/bin/fftwf-wisdom
   fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

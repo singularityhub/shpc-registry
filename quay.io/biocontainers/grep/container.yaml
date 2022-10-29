@@ -10,3 +10,4 @@ aliases:
   egrep: /usr/local/bin/egrep
   fgrep: /usr/local/bin/fgrep
   grep: /usr/local/bin/grep
+  pcregrep: /usr/local/bin/pcregrep

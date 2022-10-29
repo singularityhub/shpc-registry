@@ -7,8 +7,8 @@ tags:
   3.2.2--pyh5e36f6f_0: sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666
 docker: quay.io/biocontainers/mygene
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   chardetect: /usr/local/bin/chardetect
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

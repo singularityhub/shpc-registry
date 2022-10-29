@@ -6,14 +6,3 @@ latest:
 tags:
   1.60.0--r41hdfd78af_0: sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf
 docker: quay.io/biocontainers/bioconductor-lapmix
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,15 +7,16 @@ tags:
   1.8.0--pyhdfd78af_0: sha256:a350dac172356cc3f9720f6f8ed9610662a84b9247ad7f01c2fa4153aa4dfabb
 docker: quay.io/biocontainers/referenceseeker
 aliases:
+  delta2vcf: /usr/local/bin/delta2vcf
   referenceseeker: /usr/local/bin/referenceseeker
   referenceseeker_db: /usr/local/bin/referenceseeker_db
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  annotate: /usr/local/bin/annotate
+  igzip: /usr/local/bin/igzip
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc
   capnpc-c++: /usr/local/bin/capnpc-c++
   capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
   combineMUMs: /usr/local/bin/combineMUMs
-  delta-filter: /usr/local/bin/delta-filter
-  delta2vcf: /usr/local/bin/delta2vcf
-  dnadiff: /usr/local/bin/dnadiff

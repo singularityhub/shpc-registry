@@ -11,13 +11,13 @@ aliases:
   SimBac: /usr/local/bin/SimBac
   gcta64: /usr/local/bin/gcta64
   plink: /usr/local/bin/plink
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  snp-sites: /usr/local/bin/snp-sites
+  stone: /usr/local/bin/stone
+  dendropy-format: /usr/local/bin/dendropy-format
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pulptest: /usr/local/bin/pulptest
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
   animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  bcftools: /usr/local/bin/bcftools
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
+  composite: /usr/local/bin/composite

@@ -6,14 +6,3 @@ latest:
 tags:
   2.8.0--r41hdfd78af_0: sha256:9077d4d6af8a4e5ed478361d845a49160576f11bc0497393ae06400df86a6552
 docker: quay.io/biocontainers/bioconductor-motifbreakr
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

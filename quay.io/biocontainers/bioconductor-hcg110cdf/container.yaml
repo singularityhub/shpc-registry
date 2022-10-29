@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:5b97aee441d0efc05e201a991744e0c896b787d2493e0a9e83f609ff57958c47
 docker: quay.io/biocontainers/bioconductor-hcg110cdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hcg110cdf-post-link.sh: /usr/local/bin/.bioconductor-hcg110cdf-post-link.sh
+  .bioconductor-hcg110cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hcg110cdf-pre-unlink.sh

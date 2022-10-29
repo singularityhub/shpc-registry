@@ -11,6 +11,6 @@ aliases:
   pindel2vcf: /usr/local/bin/pindel2vcf
   pindel2vcf4tcga: /usr/local/bin/pindel2vcf4tcga
   sam2pindel: /usr/local/bin/sam2pindel
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

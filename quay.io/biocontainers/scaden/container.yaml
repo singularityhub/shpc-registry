@@ -7,14 +7,15 @@ tags:
   1.1.2--pyhdfd78af_0: sha256:ef5e03a102cc047853b1e08ea8cfc88fdb73cf6fc7adf4df7a96b2ae23bb6de5
 docker: quay.io/biocontainers/scaden
 aliases:
-  scaden: /usr/local/bin/scaden
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
-  cmark: /usr/local/bin/cmark
   dunamai: /usr/local/bin/dunamai
+  scaden: /usr/local/bin/scaden
+  scanpy: /usr/local/bin/scanpy
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py3.8: /usr/local/bin/f2py3.8
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
   google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
-  h52gif: /usr/local/bin/h52gif
+  cmark: /usr/local/bin/cmark
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  pybabel: /usr/local/bin/pybabel
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2

@@ -41,13 +41,13 @@ aliases:
   scenariotreeserver: /usr/local/bin/scenariotreeserver
   test.pyomo: /usr/local/bin/test.pyomo
   test.pyutilib: /usr/local/bin/test.pyutilib
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  chardetect: /usr/local/bin/chardetect
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
   conv-template: /usr/local/bin/conv-template
+  from-template: /usr/local/bin/from-template
+  nosetests: /usr/local/bin/nosetests
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  glpsol: /usr/local/bin/glpsol

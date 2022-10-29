@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/rabix-bunny
 aliases:
   rabix: /usr/local/bin/rabix
-  appletviewer: /usr/local/bin/appletviewer
   clhsdb: /usr/local/bin/clhsdb
-  extcheck: /usr/local/bin/extcheck
   hsdb: /usr/local/bin/hsdb
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
+  extcheck: /usr/local/bin/extcheck
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer

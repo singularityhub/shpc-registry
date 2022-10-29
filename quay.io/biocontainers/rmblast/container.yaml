@@ -7,13 +7,14 @@ tags:
   2.9.0--h2d02072_0: sha256:851b999b4326e2fdb0e0aa1803c30452d8e04a85ca5242a6d695836623f5d54c
 docker: quay.io/biocontainers/rmblast
 aliases:
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
+  rmblastn: /usr/local/bin/rmblastn
+  build.sh: /usr/local/bin/build.sh
+  common.go: /usr/local/bin/common.go
+  rchive.go: /usr/local/bin/rchive.go
   blast_report: /usr/local/bin/blast_report
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
   blastdb_convert: /usr/local/bin/blastdb_convert
   blastdb_path: /usr/local/bin/blastdb_path
+  setup-deps.log: /usr/local/bin/setup-deps.log
+  setup.sh: /usr/local/bin/setup.sh
+  xtract.go: /usr/local/bin/xtract.go
+  certtool: /usr/local/bin/certtool

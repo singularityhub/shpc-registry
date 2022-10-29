@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5
 docker: quay.io/biocontainers/bioconductor-prostatecancerstockholm
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-prostatecancerstockholm-post-link.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-post-link.sh
+  .bioconductor-prostatecancerstockholm-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancerstockholm-pre-unlink.sh

@@ -7,5 +7,5 @@ tags:
   0.0.1--hdfd78af_1: sha256:a88aeba5bc8bcf845f389a7d29baa084a60fcb83e95acd21768c4a086f705677
 docker: quay.io/biocontainers/proteomiqon-labelfreeproteinquantification
 aliases:
-  proteomiqon-labelfreeproteinquantification: /usr/local/bin/proteomiqon-labelfreeproteinquantification
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp
+  proteomiqon-labelfreeproteinquantification: /usr/local/bin/proteomiqon-labelfreeproteinquantification

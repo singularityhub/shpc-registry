@@ -28,13 +28,13 @@ aliases:
   plotHeatmap: /usr/local/bin/plotHeatmap
   plotPCA: /usr/local/bin/plotPCA
   plotProfile: /usr/local/bin/plotProfile
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  chardetect: /usr/local/bin/chardetect
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot

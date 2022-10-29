@@ -19,13 +19,13 @@ aliases:
   get_tool_pvals.R: /usr/local/bin/get_tool_pvals.R
   label_analysis_run_post_install_tests.bats: /usr/local/bin/label_analysis_run_post_install_tests.bats
   label_analysis_run_post_install_tests.sh: /usr/local/bin/label_analysis_run_post_install_tests.sh
-  appletviewer: /usr/local/bin/appletviewer
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  conda_build.sh: /usr/local/bin/conda_build.sh
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

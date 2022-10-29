@@ -14,6 +14,7 @@ aliases:
   combine_tradis_plots: /usr/local/bin/combine_tradis_plots
   fetchseq: /usr/local/bin/fetchseq
   filter_tradis_tags: /usr/local/bin/filter_tradis_tags
+  mixreads: /usr/local/bin/mixreads
   readstats: /usr/local/bin/readstats
   remove_tradis_tags: /usr/local/bin/remove_tradis_tags
   simqual: /usr/local/bin/simqual
@@ -27,13 +28,13 @@ aliases:
   tradis_merge_plots: /usr/local/bin/tradis_merge_plots
   tradis_plot: /usr/local/bin/tradis_plot
   trunkreads: /usr/local/bin/trunkreads
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  ace.pl: /usr/local/bin/ace.pl
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
+  config_data: /usr/local/bin/config_data
   bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bp_pairwise_kaks: /usr/local/bin/bp_pairwise_kaks
+  bp_find-blast-matches.pl: /usr/local/bin/bp_find-blast-matches.pl
+  t_coffee: /usr/local/bin/t_coffee
   baseml: /usr/local/bin/baseml
   basemlg: /usr/local/bin/basemlg
+  chi2: /usr/local/bin/chi2
+  codeml: /usr/local/bin/codeml
+  evolver: /usr/local/bin/evolver

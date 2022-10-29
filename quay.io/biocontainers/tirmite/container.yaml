@@ -10,13 +10,13 @@ aliases:
   tirmite: /usr/local/bin/tirmite
   tsplit-LTR: /usr/local/bin/tsplit-LTR
   tsplit-TIR: /usr/local/bin/tsplit-TIR
+  fastaq: /usr/local/bin/fastaq
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  run-mummer1: /usr/local/bin/run-mummer1
+  run-mummer3: /usr/local/bin/run-mummer3
   combineMUMs: /usr/local/bin/combineMUMs
   delta-filter: /usr/local/bin/delta-filter
   dnadiff: /usr/local/bin/dnadiff
   exact-tandems: /usr/local/bin/exact-tandems
-  f2py3.8: /usr/local/bin/f2py3.8
-  fastaq: /usr/local/bin/fastaq
-  mapview: /usr/local/bin/mapview
-  mgaps: /usr/local/bin/mgaps
   mummer: /usr/local/bin/mummer
-  mummerplot: /usr/local/bin/mummerplot

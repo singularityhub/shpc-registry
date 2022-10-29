@@ -7,6 +7,8 @@ tags:
   0.01--pl5321hdfd78af_3: sha256:2e3da85d6924785b303d27e6c5de01eac910958008001f89b1ede68a6c305eb1
 docker: quay.io/biocontainers/perl-border-style
 aliases:
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

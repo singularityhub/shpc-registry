@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/r-fastbaps
 aliases:
   run_fastbaps: /usr/local/bin/run_fastbaps
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
+  pg_amcheck: /usr/local/bin/pg_amcheck
+  gdal_create: /usr/local/bin/gdal_create
+  pdfsig: /usr/local/bin/pdfsig
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  pg_verifybackup: /usr/local/bin/pg_verifybackup
+  geosop: /usr/local/bin/geosop
+  pdfattach: /usr/local/bin/pdfattach
+  applygeo: /usr/local/bin/applygeo

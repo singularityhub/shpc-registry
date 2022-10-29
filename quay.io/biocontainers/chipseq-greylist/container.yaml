@@ -13,13 +13,13 @@ aliases:
   ldc-prune-cache: /usr/local/bin/ldc-prune-cache
   ldc2: /usr/local/bin/ldc2
   ldmd2: /usr/local/bin/ldmd2
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  bgzip: /usr/local/bin/bgzip
+  sambamba: /usr/local/bin/sambamba
   f2py3.8: /usr/local/bin/f2py3.8
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
-  sambamba: /usr/local/bin/sambamba
-  tabix: /usr/local/bin/tabix

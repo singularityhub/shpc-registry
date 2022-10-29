@@ -22,13 +22,13 @@ aliases:
   run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
   run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
   wsdump.py: /usr/local/bin/wsdump.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  canbusutil: /usr/local/bin/canbusutil
-  ccomps: /usr/local/bin/ccomps
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  xkbcli: /usr/local/bin/xkbcli
+  jp.py: /usr/local/bin/jp.py
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest

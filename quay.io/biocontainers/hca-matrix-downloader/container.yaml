@@ -10,3 +10,8 @@ aliases:
   hca-matrix-downloader: /usr/local/bin/hca-matrix-downloader
   hca-mtx-to-10x: /usr/local/bin/hca-mtx-to-10x
   chardetect: /usr/local/bin/chardetect
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

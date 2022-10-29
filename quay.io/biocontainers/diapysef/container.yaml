@@ -13,7 +13,9 @@ aliases:
   get_dia_windows.py: /usr/local/bin/get_dia_windows.py
   high_precision_irt.py: /usr/local/bin/high_precision_irt.py
   plot_dia_windows.py: /usr/local/bin/plot_dia_windows.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint
@@ -21,5 +23,3 @@ aliases:
   MemParse: /usr/local/bin/MemParse
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/panoptes-ui
 aliases:
   panoptes: /usr/local/bin/panoptes
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  chardetect: /usr/local/bin/chardetect
   flask: /usr/local/bin/flask
   humanfriendly: /usr/local/bin/humanfriendly
-  idle3.9: /usr/local/bin/idle3.9
   py.test: /usr/local/bin/py.test
-  pydoc3.9: /usr/local/bin/pydoc3.9
   pytest: /usr/local/bin/pytest
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

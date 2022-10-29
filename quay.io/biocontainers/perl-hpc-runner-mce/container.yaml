@@ -8,11 +8,11 @@ tags:
 docker: quay.io/biocontainers/perl-hpc-runner-mce
 aliases:
   mcerunner.pl: /usr/local/bin/mcerunner.pl
-  c2ph: /usr/local/bin/c2ph
   findrule: /usr/local/bin/findrule
   l4p-tmpl: /usr/local/bin/l4p-tmpl
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  c2ph: /usr/local/bin/c2ph
+  pstruct: /usr/local/bin/pstruct
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
-  perl5.22.0: /usr/local/bin/perl5.22.0
   podselect: /usr/local/bin/podselect
-  pstruct: /usr/local/bin/pstruct

@@ -12,13 +12,13 @@ aliases:
   ssw.jar: /usr/local/bin/ssw.jar
   ssw_lib.py: /usr/local/bin/ssw_lib.py
   ssw_test: /usr/local/bin/ssw_test
-  idle: /usr/local/bin/idle
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javap: /usr/local/bin/javap
-  jcmd: /usr/local/bin/jcmd
-  jconsole: /usr/local/bin/jconsole
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  python2: /usr/local/bin/python2

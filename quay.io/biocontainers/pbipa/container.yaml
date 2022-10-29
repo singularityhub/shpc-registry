@@ -21,13 +21,13 @@ aliases:
   nighthawk: /usr/local/bin/nighthawk
   pancake: /usr/local/bin/pancake
   pblayout: /usr/local/bin/pblayout
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  brotli: /usr/local/bin/brotli
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  yte: /usr/local/bin/yte
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  pulptest: /usr/local/bin/pulptest
   cbc: /usr/local/bin/cbc
   clp: /usr/local/bin/clp
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion

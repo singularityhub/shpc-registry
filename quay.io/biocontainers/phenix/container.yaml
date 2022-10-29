@@ -16,13 +16,13 @@ aliases:
   vcf2distancematrix.py: /usr/local/bin/vcf2distancematrix.py
   vcf2fasta.py: /usr/local/bin/vcf2fasta.py
   vcf2json.py: /usr/local/bin/vcf2json.py
-  ace2sam: /usr/local/bin/ace2sam
-  appletviewer: /usr/local/bin/appletviewer
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  gatk: /usr/local/bin/gatk
+  picard: /usr/local/bin/picard
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
   bowtie2: /usr/local/bin/bowtie2
   bowtie2-align-l: /usr/local/bin/bowtie2-align-l
   bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l

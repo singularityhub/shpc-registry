@@ -260,11 +260,11 @@ aliases:
   xetex: /usr/local/bin/xetex
   yplan: /usr/local/bin/yplan
   c2ph: /usr/local/bin/c2ph
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  pandoc: /usr/local/bin/pandoc
-  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
-  podselect: /usr/local/bin/podselect
   pstruct: /usr/local/bin/pstruct
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
+  pandoc: /usr/local/bin/pandoc
+  podselect: /usr/local/bin/podselect
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -7,13 +7,5 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:3bbeed4d0fee56ceaf8573720b599a10f29aee461f6b47b9c489b74c9365a25d
 docker: quay.io/biocontainers/bioconductor-hapmap500ksty
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hapmap500ksty-post-link.sh: /usr/local/bin/.bioconductor-hapmap500ksty-post-link.sh
+  .bioconductor-hapmap500ksty-pre-unlink.sh: /usr/local/bin/.bioconductor-hapmap500ksty-pre-unlink.sh

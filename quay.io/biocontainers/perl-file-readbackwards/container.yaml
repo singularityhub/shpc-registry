@@ -7,13 +7,5 @@ tags:
   1.06--pl5321hdfd78af_0: sha256:346b9d798bbcd2832ee4bbb5f80a511b0219e9b1ecc25cee74b9b02cfc462178
 docker: quay.io/biocontainers/perl-file-readbackwards
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

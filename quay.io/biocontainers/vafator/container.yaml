@@ -11,13 +11,13 @@ aliases:
   multiallelics-filter: /usr/local/bin/multiallelics-filter
   vafator: /usr/local/bin/vafator
   vafator2decifer: /usr/local/bin/vafator2decifer
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip
-  closestBed: /usr/local/bin/closestBed

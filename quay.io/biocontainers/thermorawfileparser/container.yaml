@@ -11,17 +11,28 @@ aliases:
   AWSSDK.CloudWatchLogs.pdb: /usr/local/bin/AWSSDK.CloudWatchLogs.pdb
   AWSSDK.Core.pdb: /usr/local/bin/AWSSDK.Core.pdb
   AWSSDK.S3.pdb: /usr/local/bin/AWSSDK.S3.pdb
+  LICENSE: /usr/local/bin/LICENSE
   NUnit3.TestAdapter.pdb: /usr/local/bin/NUnit3.TestAdapter.pdb
   THERMO_LICENSE: /usr/local/bin/THERMO_LICENSE
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser
   ThermoRawFileParser.exe: /usr/local/bin/ThermoRawFileParser.exe
+  ThermoRawFileParser.exe.config: /usr/local/bin/ThermoRawFileParser.exe.config
   ThermoRawFileParser.pdb: /usr/local/bin/ThermoRawFileParser.pdb
   ThermoRawFileParser.sh: /usr/local/bin/ThermoRawFileParser.sh
+  csc: /usr/local/bin/csc
+  csc-dim: /usr/local/bin/csc-dim
+  csi: /usr/local/bin/csi
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
+  monograph: /usr/local/bin/monograph
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
   thermorawfileparser: /usr/local/bin/thermorawfileparser
-  LICENSE: /usr/local/bin/LICENSE
+  vbc: /usr/local/bin/vbc
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   caspol: /usr/local/bin/caspol
   cccheck: /usr/local/bin/cccheck
   ccrewrite: /usr/local/bin/ccrewrite

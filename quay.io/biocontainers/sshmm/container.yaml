@@ -45,6 +45,7 @@ aliases:
   bifold-smp: /usr/local/bin/bifold-smp
   bipartition: /usr/local/bin/bipartition
   bipartition-smp: /usr/local/bin/bipartition-smp
+  ccache-swig: /usr/local/bin/ccache-swig
   compare_RNA.py: /usr/local/bin/compare_RNA.py
   ct2dot: /usr/local/bin/ct2dot
   describe_cg.py: /usr/local/bin/describe_cg.py
@@ -77,16 +78,17 @@ aliases:
   smix_hmm: /usr/local/bin/smix_hmm
   stochastic: /usr/local/bin/stochastic
   stochastic-smp: /usr/local/bin/stochastic-smp
+  swig: /usr/local/bin/swig
   train_seqstructhmm: /usr/local/bin/train_seqstructhmm
   validate: /usr/local/bin/validate
   visualize_rna.py: /usr/local/bin/visualize_rna.py
-  acyclic: /usr/local/bin/acyclic
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcomps: /usr/local/bin/bcomps
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  transformseq: /usr/local/bin/transformseq
+  weblogo: /usr/local/bin/weblogo
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  dvipdf: /usr/local/bin/dvipdf

@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/perl-pod-parser
 aliases:
   cpanm: /usr/local/bin/cpanm
   podselect: /usr/local/bin/podselect
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

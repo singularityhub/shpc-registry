@@ -7,8 +7,8 @@ tags:
   1.32.0--r41hdfd78af_0: sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c
 docker: quay.io/biocontainers/bioconductor-bioassayr
 aliases:
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
   gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
   gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
   gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
-  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
-  rsvg-convert: /usr/local/bin/rsvg-convert

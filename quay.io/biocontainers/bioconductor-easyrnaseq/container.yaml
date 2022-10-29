@@ -6,14 +6,3 @@ latest:
 tags:
   2.30.0--r41hdfd78af_0: sha256:22c3f3b6083adf20982cd07afb453f718aa4af6bcc2d441dc7abeec17f41c1a7
 docker: quay.io/biocontainers/bioconductor-easyrnaseq
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

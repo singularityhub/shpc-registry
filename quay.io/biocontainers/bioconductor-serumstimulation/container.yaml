@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:76bbce09dfcc2d70f4fe0baf229a64f39b9452d09539a3b4cb33f66dcf31b914
 docker: quay.io/biocontainers/bioconductor-serumstimulation
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-serumstimulation-post-link.sh: /usr/local/bin/.bioconductor-serumstimulation-post-link.sh
+  .bioconductor-serumstimulation-pre-unlink.sh: /usr/local/bin/.bioconductor-serumstimulation-pre-unlink.sh

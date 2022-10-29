@@ -12,12 +12,18 @@ aliases:
   duphold: /usr/local/bin/duphold
   extractSplitReads_BwaMem: /usr/local/bin/extractSplitReads_BwaMem
   gsort: /usr/local/bin/gsort
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
   lib_stats.R: /usr/local/bin/lib_stats.R
   lumpy: /usr/local/bin/lumpy
   lumpy_filter: /usr/local/bin/lumpy_filter
   lumpyexpress: /usr/local/bin/lumpyexpress
   mosdepth: /usr/local/bin/mosdepth
   samblaster: /usr/local/bin/samblaster
+  scriptlive: /usr/local/bin/scriptlive
   smoove: /usr/local/bin/smoove
   sv_classifier.py: /usr/local/bin/sv_classifier.py
   svtools: /usr/local/bin/svtools
@@ -28,13 +34,13 @@ aliases:
   vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
   vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
   vcf_paste.py: /usr/local/bin/vcf_paste.py
-  ace2sam: /usr/local/bin/ace2sam
-  awk: /usr/local/bin/awk
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   cal: /usr/local/bin/cal
   chmem: /usr/local/bin/chmem
   choom: /usr/local/bin/choom
   chrt: /usr/local/bin/chrt
+  col: /usr/local/bin/col
+  colcrt: /usr/local/bin/colcrt
+  colrm: /usr/local/bin/colrm
+  column: /usr/local/bin/column
+  dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

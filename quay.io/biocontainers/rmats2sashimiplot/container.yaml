@@ -10,13 +10,13 @@ aliases:
   index_gff: /usr/local/bin/index_gff
   rmats2sashimiplot: /usr/local/bin/rmats2sashimiplot
   sashimi_plot: /usr/local/bin/sashimi_plot
-  ace2sam: /usr/local/bin/ace2sam
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip

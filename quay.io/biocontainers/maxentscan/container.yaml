@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/maxentscan
 aliases:
   maxentscan_score3.pl: /usr/local/bin/maxentscan_score3.pl
   maxentscan_score5.pl: /usr/local/bin/maxentscan_score5.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

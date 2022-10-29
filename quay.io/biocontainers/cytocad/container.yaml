@@ -10,13 +10,13 @@ aliases:
   cytocad: /usr/local/bin/cytocad
   rfmix2tagore.py: /usr/local/bin/rfmix2tagore.py
   tagore: /usr/local/bin/tagore
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
+  f2py3.6: /usr/local/bin/f2py3.6
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
   annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools

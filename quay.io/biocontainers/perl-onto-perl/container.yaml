@@ -46,3 +46,5 @@ aliases:
   obo_union.pl: /usr/local/bin/obo_union.pl
   owl2obo.pl: /usr/local/bin/owl2obo.pl
   xpath: /usr/local/bin/xpath
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

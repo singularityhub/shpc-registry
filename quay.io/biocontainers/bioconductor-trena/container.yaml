@@ -7,8 +7,11 @@ tags:
   1.8.0--r36_0: sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257
 docker: quay.io/biocontainers/bioconductor-trena
 aliases:
+  xgboost: /usr/local/bin/xgboost
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
   perror: /usr/local/bin/perror
   pg_config: /usr/local/bin/pg_config
-  xgboost: /usr/local/bin/xgboost
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pytest-timeout
 aliases:
   py.test-3.5: /usr/local/bin/py.test-3.5
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
-  idle3.5: /usr/local/bin/idle3.5
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   py.test: /usr/local/bin/py.test
-  pydoc3.5: /usr/local/bin/pydoc3.5
   pytest: /usr/local/bin/pytest
+  2to3-3.5: /usr/local/bin/2to3-3.5
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
   python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config

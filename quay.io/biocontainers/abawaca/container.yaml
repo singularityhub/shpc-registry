@@ -4,7 +4,6 @@ description: shpc-registry automated BioContainers addition for abawaca
 latest:
   1.00--h9f5acd7_4: sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724
 tags:
-  1.00--h7d875b9_3: sha256:e8abcc7c4b3bc204485ef4ba234062a4e4a64f17774bb7303e4102492af44d78
   1.00--h9f5acd7_4: sha256:df48ab45446d2e77faf912e9a990632a04e0aa7fa45133636f599504107bf724
 docker: quay.io/biocontainers/abawaca
 aliases:

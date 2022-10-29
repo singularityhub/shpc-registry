@@ -8,6 +8,7 @@ tags:
 docker: quay.io/biocontainers/pymix
 aliases:
   assistant-qt4: /usr/local/bin/assistant-qt4
+  ccache-swig: /usr/local/bin/ccache-swig
   designer-qt4: /usr/local/bin/designer-qt4
   ghmm-config: /usr/local/bin/ghmm-config
   lconvert-qt4: /usr/local/bin/lconvert-qt4
@@ -37,16 +38,17 @@ aliases:
   rcc-qt4: /usr/local/bin/rcc-qt4
   scluster: /usr/local/bin/scluster
   smix_hmm: /usr/local/bin/smix_hmm
+  swig: /usr/local/bin/swig
   uic-qt4: /usr/local/bin/uic-qt4
   xmlpatterns-qt4: /usr/local/bin/xmlpatterns-qt4
   xmlpatternsvalidator-qt4: /usr/local/bin/xmlpatternsvalidator-qt4
-  ccache-swig: /usr/local/bin/ccache-swig
   cluster: /usr/local/bin/cluster
-  idle: /usr/local/bin/idle
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
+  sip: /usr/local/bin/sip
+  qt.conf: /usr/local/bin/qt.conf
   python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
   python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py

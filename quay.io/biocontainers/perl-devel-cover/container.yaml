@@ -10,12 +10,12 @@ aliases:
   cover: /usr/local/bin/cover
   cpancover: /usr/local/bin/cpancover
   gcov2perl: /usr/local/bin/gcov2perl
-  cpanm: /usr/local/bin/cpanm
-  imgsize: /usr/local/bin/imgsize
-  moose-outdated: /usr/local/bin/moose-outdated
-  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
-  perl5.26.2: /usr/local/bin/perl5.26.2
   pod_cover: /usr/local/bin/pod_cover
-  podselect: /usr/local/bin/podselect
+  imgsize: /usr/local/bin/imgsize
   tpage: /usr/local/bin/tpage
   ttree: /usr/local/bin/ttree
+  moose-outdated: /usr/local/bin/moose-outdated
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.26.2: /usr/local/bin/perl5.26.2
+  podselect: /usr/local/bin/podselect

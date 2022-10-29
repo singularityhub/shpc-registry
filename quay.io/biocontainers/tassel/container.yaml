@@ -10,13 +10,13 @@ aliases:
   run_anything.pl: /usr/local/bin/run_anything.pl
   run_pipeline.pl: /usr/local/bin/run_pipeline.pl
   start_tassel.pl: /usr/local/bin/start_tassel.pl
-  aserver: /usr/local/bin/aserver
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javap: /usr/local/bin/javap
-  jcmd: /usr/local/bin/jcmd
-  jconsole: /usr/local/bin/jconsole
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell

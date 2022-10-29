@@ -22,6 +22,7 @@ aliases:
   flash2: /usr/local/bin/flash2
   genFm9: /usr/local/bin/genFm9
   general.py: /usr/local/bin/general.py
+  icarus.py: /usr/local/bin/icarus.py
   kaiju: /usr/local/bin/kaiju
   kaiju-addTaxonNames: /usr/local/bin/kaiju-addTaxonNames
   kaiju-convertMAR.py: /usr/local/bin/kaiju-convertMAR.py
@@ -38,22 +39,32 @@ aliases:
   kaiju2table: /usr/local/bin/kaiju2table
   kaijup: /usr/local/bin/kaijup
   kaijux: /usr/local/bin/kaijux
+  ktClassifyHits: /usr/local/bin/ktClassifyHits
+  ktImportHits: /usr/local/bin/ktImportHits
   map_genFm9.py: /usr/local/bin/map_genFm9.py
   mapping: /usr/local/bin/mapping
   mergeNotCombined: /usr/local/bin/mergeNotCombined
   merge_tool.py: /usr/local/bin/merge_tool.py
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
   rapifilt: /usr/local/bin/rapifilt
   rdp_classifier: /usr/local/bin/rdp_classifier
   removal_tool.py: /usr/local/bin/removal_tool.py
   runDATMA.sh: /usr/local/bin/runDATMA.sh
   selectFasta: /usr/local/bin/selectFasta
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  glimmerhmm: /usr/local/bin/glimmerhmm
+  glimmhmm.pl: /usr/local/bin/glimmhmm.pl

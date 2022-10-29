@@ -7,4 +7,6 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:b9776d892ae2364c18d96b6c58b3e4578615af3bc73bb284fb08b8e877853dbb
 docker: quay.io/biocontainers/bioconductor-canine.db
 aliases:
+  .bioconductor-canine.db-post-link.sh: /usr/local/bin/.bioconductor-canine.db-post-link.sh
+  .bioconductor-canine.db-pre-unlink.sh: /usr/local/bin/.bioconductor-canine.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

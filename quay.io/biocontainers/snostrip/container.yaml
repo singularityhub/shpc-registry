@@ -7,14 +7,15 @@ tags:
   2.0.2--pl5321h87f3376_4: sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb
 docker: quay.io/biocontainers/snostrip
 aliases:
+  RNAmultifold: /usr/local/bin/RNAmultifold
   snoStrip.pl: /usr/local/bin/snoStrip.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  AnalyseDists: /usr/local/bin/AnalyseDists
-  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
-  Kinfold: /usr/local/bin/Kinfold
-  RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat

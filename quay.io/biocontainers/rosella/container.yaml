@@ -9,13 +9,14 @@ docker: quay.io/biocontainers/rosella
 aliases:
   remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
   rosella: /usr/local/bin/rosella
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
+  starcode: /usr/local/bin/starcode
+  parsort: /usr/local/bin/parsort
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
   env_parallel.csh: /usr/local/bin/env_parallel.csh
   env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh

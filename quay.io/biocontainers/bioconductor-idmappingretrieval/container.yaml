@@ -7,13 +7,13 @@ tags:
   1.34.0--r36_0: sha256:7c4df2194b76d28e7fafa359f9ea9aac9294e14721b9d56e07bef7ceac691f58
 docker: quay.io/biocontainers/bioconductor-idmappingretrieval
 aliases:
-  appletviewer: /usr/local/bin/appletviewer
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
   javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

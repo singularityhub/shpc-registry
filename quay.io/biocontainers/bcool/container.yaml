@@ -13,8 +13,8 @@ aliases:
   btrim: /usr/local/bin/btrim
   ntcard: /usr/local/bin/ntcard
   nthll: /usr/local/bin/nthll
-  2to3-3.9: /usr/local/bin/2to3-3.9
   h5cc: /usr/local/bin/h5cc
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

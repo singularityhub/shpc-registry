@@ -7,7 +7,6 @@ tags:
   0.6.9--pyh5e36f6f_0: sha256:c8296c3a94f5085f942747bb46de5a7f568af8502ec7a11665746afa906a76e4
 docker: quay.io/biocontainers/bcbio-gff
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
@@ -17,3 +16,4 @@ aliases:
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
   bed_build_windows.py: /usr/local/bin/bed_build_windows.py
   bed_complement.py: /usr/local/bin/bed_complement.py
+  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py

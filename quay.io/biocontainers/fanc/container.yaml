@@ -14,13 +14,15 @@ aliases:
   fanc: /usr/local/bin/fanc
   fancplot: /usr/local/bin/fancplot
   gridmap_web: /usr/local/bin/gridmap_web
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  annotateBed: /usr/local/bin/annotateBed
-  bam2pairs: /usr/local/bin/bam2pairs
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

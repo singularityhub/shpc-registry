@@ -6,14 +6,3 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7
 docker: quay.io/biocontainers/bioconductor-periodicdna
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

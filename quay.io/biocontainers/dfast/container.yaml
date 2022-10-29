@@ -7,18 +7,19 @@ tags:
   1.2.7--h8b12597_0: sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7
 docker: quay.io/biocontainers/dfast
 aliases:
+  .dfast-pre-unlink.sh: /usr/local/bin/.dfast-pre-unlink.sh
   dfast: /usr/local/bin/dfast
   dfast_file_downloader.py: /usr/local/bin/dfast_file_downloader.py
   file_downloader.py: /usr/local/bin/file_downloader.py
   ghostx: /usr/local/bin/ghostx
   mga: /usr/local/bin/mga
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  alimask: /usr/local/bin/alimask
-  annotateBed: /usr/local/bin/annotateBed
+  blast_report: /usr/local/bin/blast_report
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
   aragorn: /usr/local/bin/aragorn
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
   barrnap: /usr/local/bin/barrnap
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash

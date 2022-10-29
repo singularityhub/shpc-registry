@@ -7,6 +7,6 @@ tags:
   1.8.0--r341_0: sha256:f6547a7f9e171b0d9b7fac7d807fc85f55d967045f9ec6bb5b807b7a3bda5a46
 docker: quay.io/biocontainers/bioconductor-transcriptr
 aliases:
+  wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  wget: /usr/local/bin/wget

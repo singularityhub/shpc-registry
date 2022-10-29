@@ -12,8 +12,8 @@ aliases:
   run_CQ-PM_mine.sh: /usr/local/bin/run_CQ-PM_mine.sh
   run_CQ-PM_stranded.sh: /usr/local/bin/run_CQ-PM_stranded.sh
   run_CQ-PM_unstranded.sh: /usr/local/bin/run_CQ-PM_unstranded.sh
-  2to3-3.8: /usr/local/bin/2to3-3.8
   f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8

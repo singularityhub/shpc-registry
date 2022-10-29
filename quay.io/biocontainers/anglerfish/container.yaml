@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/anglerfish
 aliases:
   anglerfish: /usr/local/bin/anglerfish
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
-  k8: /usr/local/bin/k8
-  minimap2: /usr/local/bin/minimap2
+  sdust: /usr/local/bin/sdust
   paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  sdust: /usr/local/bin/sdust

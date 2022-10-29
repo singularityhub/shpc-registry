@@ -10,7 +10,13 @@ aliases:
   abi-dump.2.10.8: /usr/local/bin/abi-dump.2.10.8
   align-cache.2.10.8: /usr/local/bin/align-cache.2.10.8
   align-info.2.10.8: /usr/local/bin/align-info.2.10.8
+  alignmentSieve: /usr/local/bin/alignmentSieve
   bam-load.2.10.8: /usr/local/bin/bam-load.2.10.8
+  bamCompare: /usr/local/bin/bamCompare
+  bamCoverage: /usr/local/bin/bamCoverage
+  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
+  bigwigCompare: /usr/local/bin/bigwigCompare
   bioawk: /usr/local/bin/bioawk
   bioconvert: /usr/local/bin/bioconvert
   bioconvert_init: /usr/local/bin/bioconvert_init
@@ -18,7 +24,15 @@ aliases:
   bioconvert_stats: /usr/local/bin/bioconvert_stats
   cache-mgr.2.10.8: /usr/local/bin/cache-mgr.2.10.8
   cg-load.2.10.8: /usr/local/bin/cg-load.2.10.8
+  computeGCBias: /usr/local/bin/computeGCBias
+  computeMatrix: /usr/local/bin/computeMatrix
+  computeMatrixOperations: /usr/local/bin/computeMatrixOperations
+  correctGCBias: /usr/local/bin/correctGCBias
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  deeptools: /usr/local/bin/deeptools
   dsrc: /usr/local/bin/dsrc
+  estimateReadFiltering: /usr/local/bin/estimateReadFiltering
+  estimateScaleFactor: /usr/local/bin/estimateScaleFactor
   fasterq-dump-orig.2.10.8: /usr/local/bin/fasterq-dump-orig.2.10.8
   fasterq-dump.2.10.8: /usr/local/bin/fasterq-dump.2.10.8
   fastq-dump-orig.2.10.8: /usr/local/bin/fastq-dump-orig.2.10.8
@@ -31,12 +45,28 @@ aliases:
   kdbmeta.2.10.8: /usr/local/bin/kdbmeta.2.10.8
   kget.2.10.8: /usr/local/bin/kget.2.10.8
   latf-load.2.10.8: /usr/local/bin/latf-load.2.10.8
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
+  mawk: /usr/local/bin/mawk
   md5cp.2.10.8: /usr/local/bin/md5cp.2.10.8
+  multiBamSummary: /usr/local/bin/multiBamSummary
+  multiBigwigSummary: /usr/local/bin/multiBigwigSummary
   plink: /usr/local/bin/plink
+  plotCorrelation: /usr/local/bin/plotCorrelation
+  plotCoverage: /usr/local/bin/plotCoverage
+  plotEnrichment: /usr/local/bin/plotEnrichment
+  plotFingerprint: /usr/local/bin/plotFingerprint
+  plotHeatmap: /usr/local/bin/plotHeatmap
+  plotPCA: /usr/local/bin/plotPCA
+  plotProfile: /usr/local/bin/plotProfile
   prefetch-orig.2.10.8: /usr/local/bin/prefetch-orig.2.10.8
   prefetch.2.10.8: /usr/local/bin/prefetch.2.10.8
   rcexplain.2.10.8: /usr/local/bin/rcexplain.2.10.8
   read-filter-redact.2.10.8: /usr/local/bin/read-filter-redact.2.10.8
+  renderer: /usr/local/bin/renderer
   sam-dump-orig.2.10.8: /usr/local/bin/sam-dump-orig.2.10.8
   sam-dump.2.10.8: /usr/local/bin/sam-dump.2.10.8
   sff-dump.2.10.8: /usr/local/bin/sff-dump.2.10.8
@@ -62,13 +92,13 @@ aliases:
   vdb-unlock.2.10.8: /usr/local/bin/vdb-unlock.2.10.8
   vdb-validate.2.10.8: /usr/local/bin/vdb-validate.2.10.8
   wiggletools: /usr/local/bin/wiggletools
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  ace2sam: /usr/local/bin/ace2sam
-  align-cache: /usr/local/bin/align-cache
+  easydev_buildPackage: /usr/local/bin/easydev_buildPackage
+  ibrowse: /usr/local/bin/ibrowse
+  multigit: /usr/local/bin/multigit
+  sambamba: /usr/local/bin/sambamba
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  alignmentSieve: /usr/local/bin/alignmentSieve
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed-float128: /usr/local/bin/bam2bed-float128
+  bam2bed-megarow: /usr/local/bin/bam2bed-megarow
+  bam2bed-typical: /usr/local/bin/bam2bed-typical
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel

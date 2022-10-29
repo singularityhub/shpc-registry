@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/cluster-picker
 aliases:
   cluster-picker: /usr/local/bin/cluster-picker
-  appletviewer: /usr/local/bin/appletviewer
   extcheck: /usr/local/bin/extcheck
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
   javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd

@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/bioconductor-enrichtf
 aliases:
   pandoc: /usr/local/bin/pandoc
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

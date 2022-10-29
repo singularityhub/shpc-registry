@@ -7,13 +7,5 @@ tags:
   1.33.0--r351h29659fb_1: sha256:f7821cb1a9d7ce15a2c57e9399530eca62ef8e3712f1a46b6dad8f986813e2b5
 docker: quay.io/biocontainers/r-mvr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

@@ -7,13 +7,5 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:54f3a7bfab79571ae2b86a422ce3bf7144f1561bffc59bb971137842693b861e
 docker: quay.io/biocontainers/bioconductor-gse103322
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-gse103322-post-link.sh: /usr/local/bin/.bioconductor-gse103322-post-link.sh
+  .bioconductor-gse103322-pre-unlink.sh: /usr/local/bin/.bioconductor-gse103322-pre-unlink.sh

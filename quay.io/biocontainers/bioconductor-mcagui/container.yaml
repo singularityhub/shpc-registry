@@ -7,12 +7,12 @@ tags:
   1.37.0--r40hdfd78af_1: sha256:8617ee15addcd4e213c5922a65dfb7625a6b87b00e5f87070f345b4f59975e63
 docker: quay.io/biocontainers/bioconductor-mcagui
 aliases:
-  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
-  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
-  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
-  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
   gtk-builder-convert: /usr/local/bin/gtk-builder-convert
   gtk-demo: /usr/local/bin/gtk-demo
   gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
   gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

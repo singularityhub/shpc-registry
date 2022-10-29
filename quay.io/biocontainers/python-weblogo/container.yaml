@@ -7,11 +7,11 @@ tags:
   3.4--py35_0: sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba
 docker: quay.io/biocontainers/python-weblogo
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
+  transformseq: /usr/local/bin/transformseq
+  weblogo: /usr/local/bin/weblogo
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
   python3.5-config: /usr/local/bin/python3.5-config

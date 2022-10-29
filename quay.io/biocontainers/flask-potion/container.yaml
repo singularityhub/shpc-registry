@@ -7,13 +7,13 @@ tags:
   0.12.1--py35_0: sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe
 docker: quay.io/biocontainers/flask-potion
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  easy_install-3.5: /usr/local/bin/easy_install-3.5
   flask: /usr/local/bin/flask
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
-  jsonschema: /usr/local/bin/jsonschema
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
   python3.5-config: /usr/local/bin/python3.5-config
   python3.5m: /usr/local/bin/python3.5m
   python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5

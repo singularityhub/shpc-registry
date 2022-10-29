@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:5f3ff961c65028132dd68b363488197753e428356127d79ad7cd70a79538e991
 docker: quay.io/biocontainers/bioconductor-ygs98probe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ygs98probe-post-link.sh: /usr/local/bin/.bioconductor-ygs98probe-post-link.sh
+  .bioconductor-ygs98probe-pre-unlink.sh: /usr/local/bin/.bioconductor-ygs98probe-pre-unlink.sh

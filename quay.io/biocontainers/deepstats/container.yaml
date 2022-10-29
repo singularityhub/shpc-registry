@@ -10,13 +10,13 @@ aliases:
   dsCompareCurves: /usr/local/bin/dsCompareCurves
   dsComputeBEDDensity: /usr/local/bin/dsComputeBEDDensity
   dsComputeGCCoverage: /usr/local/bin/dsComputeGCCoverage
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  curve_keygen: /usr/local/bin/curve_keygen
-  idle3.9: /usr/local/bin/idle3.9
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
   jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  iptest3: /usr/local/bin/iptest3
+  curve_keygen: /usr/local/bin/curve_keygen

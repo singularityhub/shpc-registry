@@ -21,13 +21,13 @@ aliases:
   pdb_parse.pl: /usr/local/bin/pdb_parse.pl
   r2r: /usr/local/bin/r2r
   r2r_msa_comply.pl: /usr/local/bin/r2r_msa_comply.pl
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  FastTree: /usr/local/bin/FastTree
-  annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bdftogd: /usr/local/bin/bdftogd
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
   chrpath: /usr/local/bin/chrpath
-  cwebp: /usr/local/bin/cwebp
+  gnuplot: /usr/local/bin/gnuplot
+  FastTree: /usr/local/bin/FastTree
+  xkbcli: /usr/local/bin/xkbcli
+  pg_config: /usr/local/bin/pg_config
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config

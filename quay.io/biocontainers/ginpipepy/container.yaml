@@ -7,12 +7,12 @@ tags:
   1.0.0--pyhb7b1952_0: sha256:aa2a1e174daac286c4c7f9fb0a20de130353dea8194dd4fa97f0d4e29348f52d
 docker: quay.io/biocontainers/ginpipepy
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  vcf_filter.py: /usr/local/bin/vcf_filter.py
-  vcf_melt: /usr/local/bin/vcf_melt
-  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py

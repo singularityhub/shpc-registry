@@ -13,6 +13,6 @@ aliases:
   pbindexdump: /usr/local/bin/pbindexdump
   pbmerge: /usr/local/bin/pbmerge
   zmwfilter: /usr/local/bin/zmwfilter
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

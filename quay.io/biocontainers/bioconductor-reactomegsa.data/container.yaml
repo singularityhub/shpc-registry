@@ -7,6 +7,8 @@ tags:
   1.8.0--r41hdfd78af_1: sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d
 docker: quay.io/biocontainers/bioconductor-reactomegsa.data
 aliases:
-  geos-config: /usr/local/bin/geos-config
+  .bioconductor-reactomegsa.data-post-link.sh: /usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh
+  .bioconductor-reactomegsa.data-pre-unlink.sh: /usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh
   geosop: /usr/local/bin/geosop
+  geos-config: /usr/local/bin/geos-config
   glpsol: /usr/local/bin/glpsol

@@ -15,13 +15,13 @@ aliases:
   strip_sam_seq_qual_noself.awk: /usr/local/bin/strip_sam_seq_qual_noself.awk
   transabyss: /usr/local/bin/transabyss
   transabyss-merge: /usr/local/bin/transabyss-merge
+  abyss-bloom-dbg: /usr/local/bin/abyss-bloom-dbg
+  abyss-bloom-dist.mk.Makefile: /usr/local/bin/abyss-bloom-dist.mk.Makefile
+  abyss-db-txt: /usr/local/bin/abyss-db-txt
+  abyss-dida: /usr/local/bin/abyss-dida
+  abyss-paired-dbg: /usr/local/bin/abyss-paired-dbg
+  abyss-paired-dbg-mpi: /usr/local/bin/abyss-paired-dbg-mpi
+  abyss-pe.Makefile: /usr/local/bin/abyss-pe.Makefile
+  abyss-sealer: /usr/local/bin/abyss-sealer
   ABYSS: /usr/local/bin/ABYSS
   ABYSS-P: /usr/local/bin/ABYSS-P
-  AdjList: /usr/local/bin/AdjList
-  Consensus: /usr/local/bin/Consensus
-  DAssembler: /usr/local/bin/DAssembler
-  DistanceEst: /usr/local/bin/DistanceEst
-  DistanceEst-ssq: /usr/local/bin/DistanceEst-ssq
-  KAligner: /usr/local/bin/KAligner
-  MergeContigs: /usr/local/bin/MergeContigs
-  MergePaths: /usr/local/bin/MergePaths

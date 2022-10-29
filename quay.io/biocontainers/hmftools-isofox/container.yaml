@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/hmftools-isofox
 aliases:
   isofox: /usr/local/bin/isofox
-  aserver: /usr/local/bin/aserver
   cups-config: /usr/local/bin/cups-config
   ippeveprinter: /usr/local/bin/ippeveprinter
   ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

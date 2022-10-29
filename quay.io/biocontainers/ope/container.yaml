@@ -8,8 +8,10 @@ tags:
 docker: quay.io/biocontainers/ope
 aliases:
   ope: /usr/local/bin/ope
+  openssl: /usr/local/bin/openssl
   perl5.30.3: /usr/local/bin/perl5.30.3
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  screed: /usr/local/bin/screed
+  parsort: /usr/local/bin/parsort
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
@@ -18,4 +20,3 @@ aliases:
   env_parallel.fish: /usr/local/bin/env_parallel.fish
   env_parallel.ksh: /usr/local/bin/env_parallel.ksh
   env_parallel.mksh: /usr/local/bin/env_parallel.mksh
-  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh

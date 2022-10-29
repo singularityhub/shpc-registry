@@ -7,8 +7,8 @@ tags:
   4.2.0--r41hc247a5b_2: sha256:30fff28de8ae26535478b877095c7c5094da752d41bdc9af42b1f56de5fe7f57
 docker: quay.io/biocontainers/bioconductor-msstats
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

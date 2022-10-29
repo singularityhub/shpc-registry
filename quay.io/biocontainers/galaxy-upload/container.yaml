@@ -7,15 +7,16 @@ tags:
   1.0.0--pyhdfd78af_0: sha256:b1b38ce3edc1f4697b1edcbc9635b7b76d35b266441eb18c8f80d02a3adec8c2
 docker: quay.io/biocontainers/galaxy-upload
 aliases:
+  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
   galaxy-history-search: /usr/local/bin/galaxy-history-search
   galaxy-upload: /usr/local/bin/galaxy-upload
-  2to3-3.10: /usr/local/bin/2to3-3.10
   asadmin: /usr/local/bin/asadmin
-  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
-  cmark: /usr/local/bin/cmark
   cq: /usr/local/bin/cq
   cwutil: /usr/local/bin/cwutil
   dynamodb_dump: /usr/local/bin/dynamodb_dump
   dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin
+  fetch_file: /usr/local/bin/fetch_file
+  glacier: /usr/local/bin/glacier

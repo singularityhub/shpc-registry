@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/whatshap
 aliases:
   whatshap: /usr/local/bin/whatshap
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  bgzip: /usr/local/bin/bgzip
-  f2py3.9: /usr/local/bin/f2py3.9
-  faidx: /usr/local/bin/faidx
-  htsfile: /usr/local/bin/htsfile
-  idle3.9: /usr/local/bin/idle3.9
   igzip: /usr/local/bin/igzip
   pbunzip2: /usr/local/bin/pbunzip2
   pbzcat: /usr/local/bin/pbzcat
   pbzip2: /usr/local/bin/pbzip2
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  faidx: /usr/local/bin/faidx

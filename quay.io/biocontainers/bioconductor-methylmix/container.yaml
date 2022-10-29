@@ -6,14 +6,3 @@ latest:
 tags:
   2.24.0--r41hdfd78af_0: sha256:6424aa1a6941d1b32dad4fb21d2f54b52a1fdd4b756d23e8fa60babde5f0c511
 docker: quay.io/biocontainers/bioconductor-methylmix
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

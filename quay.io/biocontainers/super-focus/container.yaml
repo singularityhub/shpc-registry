@@ -11,13 +11,13 @@ aliases:
   rapsearch: /usr/local/bin/rapsearch
   superfocus: /usr/local/bin/superfocus
   superfocus_downloadDB: /usr/local/bin/superfocus_downloadDB
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
+  mmseqs: /usr/local/bin/mmseqs
+  jellyfish: /usr/local/bin/jellyfish
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  gawk: /usr/local/bin/gawk
+  diamond: /usr/local/bin/diamond
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range

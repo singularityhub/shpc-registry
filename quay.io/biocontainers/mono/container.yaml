@@ -7,6 +7,34 @@ tags:
   4.6.2.6--0: sha256:23f820b58776a14ef6fdb1f1d21eb9353757b09574860f6ec758ce482e514c9a
 docker: quay.io/biocontainers/mono
 aliases:
+  mono: /usr/local/bin/mono
+  mono-api-html: /usr/local/bin/mono-api-html
+  mono-api-info: /usr/local/bin/mono-api-info
+  mono-boehm: /usr/local/bin/mono-boehm
+  mono-cil-strip: /usr/local/bin/mono-cil-strip
+  mono-configuration-crypto: /usr/local/bin/mono-configuration-crypto
+  mono-find-provides: /usr/local/bin/mono-find-provides
+  mono-find-requires: /usr/local/bin/mono-find-requires
+  mono-gdb.py: /usr/local/bin/mono-gdb.py
+  mono-heapviz: /usr/local/bin/mono-heapviz
+  mono-service: /usr/local/bin/mono-service
+  mono-service2: /usr/local/bin/mono-service2
+  mono-sgen: /usr/local/bin/mono-sgen
+  mono-sgen-gdb.py: /usr/local/bin/mono-sgen-gdb.py
+  mono-shlib-cop: /usr/local/bin/mono-shlib-cop
+  mono-symbolicate: /usr/local/bin/mono-symbolicate
+  mono-test-install: /usr/local/bin/mono-test-install
+  mono-xmltool: /usr/local/bin/mono-xmltool
+  monodis: /usr/local/bin/monodis
+  monodocer: /usr/local/bin/monodocer
+  monodocs2html: /usr/local/bin/monodocs2html
+  monodocs2slashdoc: /usr/local/bin/monodocs2slashdoc
+  monolinker: /usr/local/bin/monolinker
+  monop: /usr/local/bin/monop
+  monop2: /usr/local/bin/monop2
+  nunit-console: /usr/local/bin/nunit-console
+  nunit-console2: /usr/local/bin/nunit-console2
+  nunit-console4: /usr/local/bin/nunit-console4
   prj2make: /usr/local/bin/prj2make
   al: /usr/local/bin/al
   al2: /usr/local/bin/al2

@@ -7,13 +7,5 @@ tags:
   1.0.0--r41hdfd78af_1: sha256:d26ba19cda272edea0e6abd384f072b0bc42456cc2e7a9ac43681fdbc96e51af
 docker: quay.io/biocontainers/bioconductor-nxtirfdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-nxtirfdata-post-link.sh: /usr/local/bin/.bioconductor-nxtirfdata-post-link.sh
+  .bioconductor-nxtirfdata-pre-unlink.sh: /usr/local/bin/.bioconductor-nxtirfdata-pre-unlink.sh

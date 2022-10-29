@@ -7,15 +7,16 @@ tags:
   1.1--0: sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42
 docker: quay.io/biocontainers/kggseq
 aliases:
+  .kggseq-post-link.sh: /usr/local/bin/.kggseq-post-link.sh
   kggseq: /usr/local/bin/kggseq
   kggseq1.log: /usr/local/bin/kggseq1.log
-  aserver: /usr/local/bin/aserver
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  gifecho: /usr/local/bin/gifecho
   giffilter: /usr/local/bin/giffilter
-  giffix: /usr/local/bin/giffix
-  gifinto: /usr/local/bin/gifinto
   gifsponge: /usr/local/bin/gifsponge
-  giftext: /usr/local/bin/giftext
+  gifecho: /usr/local/bin/gifecho
+  gifinto: /usr/local/bin/gifinto
+  jaotc: /usr/local/bin/jaotc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

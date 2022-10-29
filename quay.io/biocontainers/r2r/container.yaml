@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/r2r
 aliases:
   r2r: /usr/local/bin/r2r
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

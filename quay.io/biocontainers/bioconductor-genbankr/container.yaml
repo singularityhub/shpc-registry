@@ -7,6 +7,6 @@ tags:
   1.8.0--r341_0: sha256:d252f968c85708a3763be02f3c3f36c8464a4fd3dbe583815e6ee557dce6bb47
 docker: quay.io/biocontainers/bioconductor-genbankr
 aliases:
+  wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  wget: /usr/local/bin/wget

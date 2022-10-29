@@ -21,7 +21,7 @@ aliases:
   make-target-from-bam.py: /usr/local/bin/make-target-from-bam.py
   prokka-annotation-refupdate.py: /usr/local/bin/prokka-annotation-refupdate.py
   strip-seq-from-bam.py: /usr/local/bin/strip-seq-from-bam.py
-  bgzip: /usr/local/bin/bgzip
   gff2bed: /usr/local/bin/gff2bed
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

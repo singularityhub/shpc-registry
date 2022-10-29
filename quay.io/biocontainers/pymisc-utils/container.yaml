@@ -47,13 +47,13 @@ aliases:
   test_gzip.py: /usr/local/bin/test_gzip.py
   utils.py: /usr/local/bin/utils.py
   validation_utils.py: /usr/local/bin/validation_utils.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
   bokeh: /usr/local/bin/bokeh
-  brotli: /usr/local/bin/brotli
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl

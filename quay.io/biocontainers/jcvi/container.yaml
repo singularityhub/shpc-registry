@@ -7,17 +7,27 @@ tags:
   1.1.5--py36h29c9776_0: sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db
 docker: quay.io/biocontainers/jcvi
 aliases:
+  compare_gos.py: /usr/local/bin/compare_gos.py
   coveralls: /usr/local/bin/coveralls
   cpuinfo: /usr/local/bin/cpuinfo
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  go_plot.py: /usr/local/bin/go_plot.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
+  prt_terms.py: /usr/local/bin/prt_terms.py
   py.test-benchmark: /usr/local/bin/py.test-benchmark
   pytest-benchmark: /usr/local/bin/pytest-benchmark
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py
+  coverage: /usr/local/bin/coverage
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  ete3: /usr/local/bin/ete3
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  bcomps: /usr/local/bin/bcomps
-  canbusutil: /usr/local/bin/canbusutil
-  ccomps: /usr/local/bin/ccomps
-  certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  xkbcli: /usr/local/bin/xkbcli
+  jp.py: /usr/local/bin/jp.py

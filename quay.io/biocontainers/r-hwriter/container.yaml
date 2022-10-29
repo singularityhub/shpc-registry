@@ -7,10 +7,11 @@ tags:
   1.3.2--r3.2.2_0: sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565
 docker: quay.io/biocontainers/r-hwriter
 aliases:
+  pngcp: /usr/local/bin/pngcp
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  pngcp: /usr/local/bin/pngcp
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

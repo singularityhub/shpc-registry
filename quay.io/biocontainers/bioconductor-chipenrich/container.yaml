@@ -7,6 +7,8 @@ tags:
   2.8.0--r36_1: sha256:d088e500242b19e18854a58de16092b9244596318478b3aa54f8bd7a0e2506b2
 docker: quay.io/biocontainers/bioconductor-chipenrich
 aliases:
+  .bioconductor-chipenrich.data-post-link.sh: /usr/local/bin/.bioconductor-chipenrich.data-post-link.sh
+  .bioconductor-chipenrich.data-pre-unlink.sh: /usr/local/bin/.bioconductor-chipenrich.data-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

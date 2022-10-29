@@ -7,9 +7,9 @@ tags:
   0.5.7--pyhdfd78af_0: sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc
 docker: quay.io/biocontainers/bioutils
 aliases:
+  normalizer: /usr/local/bin/normalizer
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  normalizer: /usr/local/bin/normalizer
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10

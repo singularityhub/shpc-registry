@@ -10,6 +10,6 @@ aliases:
   lumpy: /usr/local/bin/lumpy
   lumpy_filter: /usr/local/bin/lumpy_filter
   lumpyexpress: /usr/local/bin/lumpyexpress
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

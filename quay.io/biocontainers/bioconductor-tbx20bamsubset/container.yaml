@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:53beac5705ce8e2a9a5acf71b322ebd3d25072efcf858b4e366087bc0ed4a4be
 docker: quay.io/biocontainers/bioconductor-tbx20bamsubset
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-tbx20bamsubset-post-link.sh: /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh
+  .bioconductor-tbx20bamsubset-pre-unlink.sh: /usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh

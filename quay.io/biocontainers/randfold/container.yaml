@@ -19,5 +19,5 @@ aliases:
   shuffle: /usr/local/bin/shuffle
   sindex: /usr/local/bin/sindex
   sreformat: /usr/local/bin/sreformat
-  weight: /usr/local/bin/weight
   translate: /usr/local/bin/translate
+  weight: /usr/local/bin/weight

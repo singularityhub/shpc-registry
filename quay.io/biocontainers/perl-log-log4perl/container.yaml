@@ -7,7 +7,9 @@ tags:
   1.55--pl5321hdfd78af_0: sha256:925c31a9c40574dc7d02ecf424e959606006757c44792d46da34f9292f403150
 docker: quay.io/biocontainers/perl-log-log4perl
 aliases:
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  l4p-tmpl: /usr/local/bin/l4p-tmpl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

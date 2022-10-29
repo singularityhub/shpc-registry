@@ -6,14 +6,3 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:b42134db517f9d5b5c1231c0a3ed79168ef6f966201da1cbedab2cd5fa5f550a
 docker: quay.io/biocontainers/bioconductor-netomics
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

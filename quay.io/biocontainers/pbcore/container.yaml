@@ -7,13 +7,14 @@ tags:
   2.1.2--py_2: sha256:5661257583c7ba3a3661f443eed2680b0e4a90605fc8f3e4c18ab10de4983187
 docker: quay.io/biocontainers/pbcore
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  .pbcore-post-link.sh: /usr/local/bin/.pbcore-post-link.sh
   f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
-  pyvenv: /usr/local/bin/pyvenv
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

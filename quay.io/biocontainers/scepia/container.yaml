@@ -75,6 +75,7 @@ aliases:
   eland2tags.pl: /usr/local/bin/eland2tags.pl
   enr: /usr/local/bin/enr
   fasta-from-bed: /usr/local/bin/fasta-from-bed
+  fasta-re-match: /usr/local/bin/fasta-re-match
   fasta2tab.pl: /usr/local/bin/fasta2tab.pl
   fastq2fasta.pl: /usr/local/bin/fastq2fasta.pl
   filterListBy.pl: /usr/local/bin/filterListBy.pl
@@ -99,6 +100,8 @@ aliases:
   fluff: /usr/local/bin/fluff
   freq2group.pl: /usr/local/bin/freq2group.pl
   gadem: /usr/local/bin/gadem
+  genePredToBed: /usr/local/bin/genePredToBed
+  genePredToGtf: /usr/local/bin/genePredToGtf
   genericConvertIDs.pl: /usr/local/bin/genericConvertIDs.pl
   genomeOntology: /usr/local/bin/genomeOntology
   genomepy: /usr/local/bin/genomepy
@@ -129,6 +132,7 @@ aliases:
   gimme: /usr/local/bin/gimme
   go2cytoscape.pl: /usr/local/bin/go2cytoscape.pl
   groupSequences.pl: /usr/local/bin/groupSequences.pl
+  gtfToGenePred: /usr/local/bin/gtfToGenePred
   homer: /usr/local/bin/homer
   homer2: /usr/local/bin/homer2
   homerTools: /usr/local/bin/homerTools
@@ -146,9 +150,11 @@ aliases:
   makeTagDirectory: /usr/local/bin/makeTagDirectory
   makeUCSCfile: /usr/local/bin/makeUCSCfile
   map-fastq.pl: /usr/local/bin/map-fastq.pl
+  meme-chip_html_to_tsv: /usr/local/bin/meme-chip_html_to_tsv
   merge2Dbed.pl: /usr/local/bin/merge2Dbed.pl
   mergeData.pl: /usr/local/bin/mergeData.pl
   mergePeaks: /usr/local/bin/mergePeaks
+  momo: /usr/local/bin/momo
   motif2Jaspar.pl: /usr/local/bin/motif2Jaspar.pl
   motif2Logo.pl: /usr/local/bin/motif2Logo.pl
   parseGTF.pl: /usr/local/bin/parseGTF.pl
@@ -191,13 +197,13 @@ aliases:
   trawler: /usr/local/bin/trawler
   weeder2: /usr/local/bin/weeder2
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
   ame: /usr/local/bin/ame
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bamToBed: /usr/local/bin/bamToBed
+  beeml2meme: /usr/local/bin/beeml2meme
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip

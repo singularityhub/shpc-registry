@@ -6,5 +6,3 @@ latest:
 tags:
   2.4.1--h9f5acd7_4: sha256:18bf85db6e9a85269ccc2272901af7f0c997c17a2d0f8b9d0e6710c2b330357f
 docker: quay.io/biocontainers/bpp-core
-aliases:
-  env-execute: /usr/local/env-execute

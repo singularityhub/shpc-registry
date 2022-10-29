@@ -7,8 +7,8 @@ tags:
   0.8.8--py35_0: sha256:d619c7b33a733424a438454da87727cdc355b1287f1e288dc166560e7de97288
 docker: quay.io/biocontainers/voluptuous
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

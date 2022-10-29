@@ -30,13 +30,13 @@ aliases:
   SplitSeq.py: /usr/local/bin/SplitSeq.py
   UnifyHeaders.py: /usr/local/bin/UnifyHeaders.py
   airr-tools: /usr/local/bin/airr-tools
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  filter-table: /usr/local/bin/filter-table
+  spdi2prod: /usr/local/bin/spdi2prod
+  vsearch: /usr/local/bin/vsearch
+  muscle: /usr/local/bin/muscle
   align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh

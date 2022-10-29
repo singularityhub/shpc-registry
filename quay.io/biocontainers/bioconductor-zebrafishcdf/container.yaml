@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:6ea1c24d7d09ad974b4f31ace4a366db106748e1df940a2b11576fbb4bfb839f
 docker: quay.io/biocontainers/bioconductor-zebrafishcdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-zebrafishcdf-post-link.sh: /usr/local/bin/.bioconductor-zebrafishcdf-post-link.sh
+  .bioconductor-zebrafishcdf-pre-unlink.sh: /usr/local/bin/.bioconductor-zebrafishcdf-pre-unlink.sh

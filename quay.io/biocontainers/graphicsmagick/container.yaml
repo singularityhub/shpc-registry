@@ -11,13 +11,13 @@ aliases:
   GraphicsMagick-config: /usr/local/bin/GraphicsMagick-config
   GraphicsMagickWand-config: /usr/local/bin/GraphicsMagickWand-config
   gm: /usr/local/bin/gm
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  annotate: /usr/local/bin/annotate
-  assistant: /usr/local/bin/assistant
-  bdftogd: /usr/local/bin/bdftogd
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
   chrpath: /usr/local/bin/chrpath
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
+  gnuplot: /usr/local/bin/gnuplot
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
   compile-et.pl: /usr/local/bin/compile-et.pl
-  cwebp: /usr/local/bin/cwebp
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  gdlib-config: /usr/local/bin/gdlib-config

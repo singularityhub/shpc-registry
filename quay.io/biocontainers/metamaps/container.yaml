@@ -35,3 +35,5 @@ aliases:
   lwp-dump: /usr/local/bin/lwp-dump
   lwp-mirror: /usr/local/bin/lwp-mirror
   lwp-request: /usr/local/bin/lwp-request
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

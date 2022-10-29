@@ -9,12 +9,16 @@ docker: quay.io/biocontainers/rodeo
 aliases:
   My_Record.py: /usr/local/bin/My_Record.py
   config_parser.py: /usr/local/bin/config_parser.py
+  dtc: /usr/local/bin/dtc
   enr: /usr/local/bin/enr
   entrez_utils.py: /usr/local/bin/entrez_utils.py
   fasta-from-bed: /usr/local/bin/fasta-from-bed
+  fasta-re-match: /usr/local/bin/fasta-re-match
   hmmer_utils.py: /usr/local/bin/hmmer_utils.py
   index-fasta-file: /usr/local/bin/index-fasta-file
   main_html_generator.py: /usr/local/bin/main_html_generator.py
+  meme-chip_html_to_tsv: /usr/local/bin/meme-chip_html_to_tsv
+  momo: /usr/local/bin/momo
   nulltype_module.py: /usr/local/bin/nulltype_module.py
   record_processing.py: /usr/local/bin/record_processing.py
   ripp_html_generator.py: /usr/local/bin/ripp_html_generator.py
@@ -24,9 +28,6 @@ aliases:
   streme_xml_to_html: /usr/local/bin/streme_xml_to_html
   tgene: /usr/local/bin/tgene
   timeout_decorator.py: /usr/local/bin/timeout_decorator.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  alimask: /usr/local/bin/alimask
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
@@ -34,3 +35,6 @@ aliases:
   beeml2meme: /usr/local/bin/beeml2meme
   centrimo: /usr/local/bin/centrimo
   ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip

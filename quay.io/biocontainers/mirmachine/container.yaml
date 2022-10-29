@@ -24,13 +24,13 @@ aliases:
   vidir: /usr/local/bin/vidir
   vipe: /usr/local/bin/vipe
   zrun: /usr/local/bin/zrun
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  awk: /usr/local/bin/awk
-  b2sum: /usr/local/bin/b2sum
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  yte: /usr/local/bin/yte
+  cmark: /usr/local/bin/cmark
+  pulptest: /usr/local/bin/pulptest
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert

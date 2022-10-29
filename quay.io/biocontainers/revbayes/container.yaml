@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/revbayes
 aliases:
   rb: /usr/local/bin/rb
   rb-mpi: /usr/local/bin/rb-mpi
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  mpiCC: /usr/local/bin/mpiCC
-  mpic++: /usr/local/bin/mpic++
-  mpicc: /usr/local/bin/mpicc
-  mpicxx: /usr/local/bin/mpicxx
-  mpiexec: /usr/local/bin/mpiexec
-  mpif77: /usr/local/bin/mpif77
-  mpif90: /usr/local/bin/mpif90
-  mpifort: /usr/local/bin/mpifort
-  mpirun: /usr/local/bin/mpirun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun

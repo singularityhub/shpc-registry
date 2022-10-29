@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/bionetcomp
 aliases:
   bionetcomp: /usr/local/bin/bionetcomp
   gseapy: /usr/local/bin/gseapy
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  browse: /usr/local/bin/browse
-  chardetect: /usr/local/bin/chardetect
   easydev_buildPackage: /usr/local/bin/easydev_buildPackage
-  f2py3.9: /usr/local/bin/f2py3.9
   ibrowse: /usr/local/bin/ibrowse
-  idle3.9: /usr/local/bin/idle3.9
   multigit: /usr/local/bin/multigit
+  browse: /usr/local/bin/browse
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  chardetect: /usr/local/bin/chardetect
+  f2py3.9: /usr/local/bin/f2py3.9
   opj_compress: /usr/local/bin/opj_compress
   opj_decompress: /usr/local/bin/opj_decompress

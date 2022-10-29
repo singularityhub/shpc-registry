@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521
 docker: quay.io/biocontainers/bioconductor-prostatecancergrasso
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-prostatecancergrasso-post-link.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-post-link.sh
+  .bioconductor-prostatecancergrasso-pre-unlink.sh: /usr/local/bin/.bioconductor-prostatecancergrasso-pre-unlink.sh

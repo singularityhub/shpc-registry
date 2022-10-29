@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:282ed4e9d6fb2345acfeee7141129a89e51387c7878cff74a51caa811bc4300d
 docker: quay.io/biocontainers/bioconductor-drugvsdiseasedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-drugvsdiseasedata-post-link.sh: /usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh
+  .bioconductor-drugvsdiseasedata-pre-unlink.sh: /usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh

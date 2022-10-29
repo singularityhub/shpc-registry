@@ -7,11 +7,18 @@ tags:
   2.7.0--py_0: sha256:90c38a58b23f84fff1d5433f3de2a87a9f2246a40b3a3c5af6ee3bee0257174f
 docker: quay.io/biocontainers/uvp
 aliases:
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
   UVP: /usr/local/bin/UVP
   coverage_estimator.py: /usr/local/bin/coverage_estimator.py
   del_parse.py: /usr/local/bin/del_parse.py
   fqtools: /usr/local/bin/fqtools
   gatk-register: /usr/local/bin/gatk-register
+  kraken: /usr/local/bin/kraken
+  kraken-build: /usr/local/bin/kraken-build
+  kraken-filter: /usr/local/bin/kraken-filter
+  kraken-mpa-report: /usr/local/bin/kraken-mpa-report
+  kraken-report: /usr/local/bin/kraken-report
+  kraken-translate: /usr/local/bin/kraken-translate
   lineage_parser.py: /usr/local/bin/lineage_parser.py
   parse_annotation.py: /usr/local/bin/parse_annotation.py
   prinseq-graphs-noPCA.pl: /usr/local/bin/prinseq-graphs-noPCA.pl
@@ -20,14 +27,18 @@ aliases:
   qualimap: /usr/local/bin/qualimap
   raw_vcf_parse.py: /usr/local/bin/raw_vcf_parse.py
   resis_parser.py: /usr/local/bin/resis_parser.py
+  tab-to-vcf: /usr/local/bin/tab-to-vcf
   uvp: /usr/local/bin/uvp
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  appletviewer: /usr/local/bin/appletviewer
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  varfilter.py: /usr/local/bin/varfilter.py
+  vcf-haplotypes: /usr/local/bin/vcf-haplotypes
+  vcftools: /usr/local/bin/vcftools
+  fill-aa: /usr/local/bin/fill-aa
+  fill-an-ac: /usr/local/bin/fill-an-ac
+  fill-fs: /usr/local/bin/fill-fs
+  fill-ref-md5: /usr/local/bin/fill-ref-md5
+  vcf-annotate: /usr/local/bin/vcf-annotate
+  vcf-compare: /usr/local/bin/vcf-compare
+  vcf-concat: /usr/local/bin/vcf-concat
+  vcf-consensus: /usr/local/bin/vcf-consensus
+  vcf-contrast: /usr/local/bin/vcf-contrast
+  vcf-convert: /usr/local/bin/vcf-convert

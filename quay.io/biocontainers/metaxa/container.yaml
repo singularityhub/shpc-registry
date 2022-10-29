@@ -7,6 +7,8 @@ tags:
   2.2.3--pl5321hdfd78af_1: sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e
 docker: quay.io/biocontainers/metaxa
 aliases:
+  hmmc2: /usr/local/bin/hmmc2
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
   metaxa2: /usr/local/bin/metaxa2
   metaxa2_c: /usr/local/bin/metaxa2_c
   metaxa2_dbb: /usr/local/bin/metaxa2_dbb
@@ -17,13 +19,13 @@ aliases:
   metaxa2_ttt: /usr/local/bin/metaxa2_ttt
   metaxa2_uc: /usr/local/bin/metaxa2_uc
   metaxa2_x: /usr/local/bin/metaxa2_x
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  alimask: /usr/local/bin/alimask
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
-  blastdbcmd: /usr/local/bin/blastdbcmd
+  vsearch: /usr/local/bin/vsearch
+  test_pcre: /usr/local/bin/test_pcre
   blastdbcp: /usr/local/bin/blastdbcp
-  blastn: /usr/local/bin/blastn
-  blastp: /usr/local/bin/blastp
-  blastx: /usr/local/bin/blastx
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  seedtop: /usr/local/bin/seedtop
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns

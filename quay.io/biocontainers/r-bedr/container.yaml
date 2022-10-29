@@ -7,13 +7,5 @@ tags:
   1.0.4--r351h6115d3f_1: sha256:1fa66362f6cb4495162369f7ebbd8458fb5b20ca59cd0c7eb231ab80ba47e2c4
 docker: quay.io/biocontainers/r-bedr
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

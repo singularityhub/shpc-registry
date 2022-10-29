@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/motifscan
 aliases:
   motifscan: /usr/local/bin/motifscan
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.8: /usr/local/bin/f2py3.8
   fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  normalizer: /usr/local/bin/normalizer
+  tqdm: /usr/local/bin/tqdm
+  brotli: /usr/local/bin/brotli
+  f2py3.8: /usr/local/bin/f2py3.8
+  img2webp: /usr/local/bin/img2webp
+  cwebp: /usr/local/bin/cwebp

@@ -7,6 +7,6 @@ tags:
   1.8.0--r3.4.1_0: sha256:910b79c21d580fa7eed3a032266d45b78b4123e142546fa2352814f95ccb4485
 docker: quay.io/biocontainers/bioconductor-metabosignal
 aliases:
+  wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  wget: /usr/local/bin/wget

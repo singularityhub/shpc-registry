@@ -21,13 +21,13 @@ aliases:
   tpocket: /usr/local/bin/tpocket
   vina: /usr/local/bin/vina
   vina_split: /usr/local/bin/vina_split
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  gif2h5: /usr/local/bin/gif2h5
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif

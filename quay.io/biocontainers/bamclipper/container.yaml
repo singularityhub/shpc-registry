@@ -10,13 +10,13 @@ aliases:
   bamclipper.sh: /usr/local/bin/bamclipper.sh
   clipprimer.pl: /usr/local/bin/clipprimer.pl
   injectseparator.pl: /usr/local/bin/injectseparator.pl
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  conda_build.sh: /usr/local/bin/conda_build.sh
+  parsort: /usr/local/bin/parsort
+  perl5.32.0: /usr/local/bin/perl5.32.0
   env_parallel: /usr/local/bin/env_parallel
   env_parallel.ash: /usr/local/bin/env_parallel.ash
   env_parallel.bash: /usr/local/bin/env_parallel.bash
   env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh

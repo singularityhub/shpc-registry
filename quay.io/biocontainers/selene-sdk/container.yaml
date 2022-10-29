@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/selene-sdk
 aliases:
   selene_sdk: /usr/local/bin/selene_sdk
-  2to3-3.7: /usr/local/bin/2to3-3.7
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py3.7: /usr/local/bin/f2py3.7
+  ninja: /usr/local/bin/ninja
   faidx: /usr/local/bin/faidx
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
+  f2py3.7: /usr/local/bin/f2py3.7
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7

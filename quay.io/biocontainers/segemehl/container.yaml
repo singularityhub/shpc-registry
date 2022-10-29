@@ -9,6 +9,6 @@ docker: quay.io/biocontainers/segemehl
 aliases:
   haarz.x: /usr/local/bin/haarz.x
   segemehl.x: /usr/local/bin/segemehl.x
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

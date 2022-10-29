@@ -10,3 +10,5 @@ aliases:
   dumbbench: /usr/local/bin/dumbbench
   use-devel-assertos: /usr/local/bin/use-devel-assertos
   findrule: /usr/local/bin/findrule
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

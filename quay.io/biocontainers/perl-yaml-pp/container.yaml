@@ -12,3 +12,5 @@ aliases:
   yamlpp5-load: /usr/local/bin/yamlpp5-load
   yamlpp5-load-dump: /usr/local/bin/yamlpp5-load-dump
   yamlpp5-parse-emit: /usr/local/bin/yamlpp5-parse-emit
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

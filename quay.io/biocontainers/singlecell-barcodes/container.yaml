@@ -6,5 +6,3 @@ latest:
 tags:
   0.2--hdfd78af_3: sha256:9d4c02a1269dde0d71797edf36af90ef02d9bd63587f1a5323274ac43c21ffd9
 docker: quay.io/biocontainers/singlecell-barcodes
-aliases:
-  env-execute: /usr/local/env-execute

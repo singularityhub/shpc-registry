@@ -8,7 +8,8 @@ tags:
 docker: quay.io/biocontainers/motifraptor
 aliases:
   MotifRaptor: /usr/local/bin/MotifRaptor
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  f2py3.6: /usr/local/bin/f2py3.6
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -17,4 +18,3 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed

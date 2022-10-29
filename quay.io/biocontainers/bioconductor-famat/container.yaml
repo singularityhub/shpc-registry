@@ -6,14 +6,3 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:a6fae9aa818ac1cca6ba724f07c9222a86a3992ba1c6969e5677804fdd6385b9
 docker: quay.io/biocontainers/bioconductor-famat
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

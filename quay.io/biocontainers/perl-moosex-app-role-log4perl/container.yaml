@@ -7,10 +7,12 @@ tags:
   0.03--pl5321hdfd78af_2: sha256:031407d0b3bac9dc268b3f76f0b8eba37c04035ee604fec8a360d4d420bd775d
 docker: quay.io/biocontainers/perl-moosex-app-role-log4perl
 aliases:
-  cpanm: /usr/local/bin/cpanm
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
   dbilogstrip: /usr/local/bin/dbilogstrip
   dbiprof: /usr/local/bin/dbiprof
   dbiproxy: /usr/local/bin/dbiproxy
-  l4p-tmpl: /usr/local/bin/l4p-tmpl
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -26,13 +26,13 @@ aliases:
   snp_parser: /usr/local/bin/snp_parser
   sort-gff.sh: /usr/local/bin/sort-gff.sh
   taxon-utils: /usr/local/bin/taxon-utils
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
   f2py3.6: /usr/local/bin/f2py3.6
-  futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  normalizer: /usr/local/bin/normalizer

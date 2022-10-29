@@ -14,13 +14,13 @@ aliases:
   ss: /usr/local/bin/ss
   ssm: /usr/local/bin/ssm
   thrift: /usr/local/bin/thrift
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  brotli: /usr/local/bin/brotli
-  f2py3.7: /usr/local/bin/f2py3.7
+  plasma_store: /usr/local/bin/plasma_store
   gflags_completions.sh: /usr/local/bin/gflags_completions.sh
-  idle3.7: /usr/local/bin/idle3.7
-  jsonschema: /usr/local/bin/jsonschema
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  jupyter-trust: /usr/local/bin/jupyter-trust
   jupyter: /usr/local/bin/jupyter
   jupyter-migrate: /usr/local/bin/jupyter-migrate
   jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
-  jupyter-trust: /usr/local/bin/jupyter-trust
+  jsonschema: /usr/local/bin/jsonschema
+  protoc: /usr/local/bin/protoc

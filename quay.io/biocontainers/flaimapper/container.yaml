@@ -17,3 +17,4 @@ aliases:
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  pyvenv: /usr/local/bin/pyvenv

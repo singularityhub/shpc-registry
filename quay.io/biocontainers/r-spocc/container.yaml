@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/r-spocc
 aliases:
   geos-config: /usr/local/bin/geos-config
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

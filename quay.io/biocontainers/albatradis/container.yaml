@@ -34,13 +34,13 @@ aliases:
   tradis_merge_plots: /usr/local/bin/tradis_merge_plots
   tradis_plot: /usr/local/bin/tradis_plot
   trunkreads: /usr/local/bin/trunkreads
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bgzip: /usr/local/bin/bgzip
+  fastaq: /usr/local/bin/fastaq
+  bp_aacomp: /usr/local/bin/bp_aacomp
+  bp_bioflat_index: /usr/local/bin/bp_bioflat_index
+  bp_biogetseq: /usr/local/bin/bp_biogetseq
+  bp_dbsplit: /usr/local/bin/bp_dbsplit
+  bp_extract_feature_seq: /usr/local/bin/bp_extract_feature_seq
+  bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
+  bp_fetch: /usr/local/bin/bp_fetch
+  bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches

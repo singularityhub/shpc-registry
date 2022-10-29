@@ -16,13 +16,13 @@ aliases:
   makeWebsite: /usr/local/bin/makeWebsite
   slncky: /usr/local/bin/slncky
   slncky.v1.0: /usr/local/bin/slncky.v1.0
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  conda_build.sh: /usr/local/bin/conda_build.sh
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed

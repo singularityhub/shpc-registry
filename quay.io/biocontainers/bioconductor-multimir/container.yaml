@@ -7,6 +7,6 @@ tags:
   1.6.0--r36_1: sha256:167c3ccf54022a9fc6c2c4d9c308978b9eea7aa357164945341e8861c4cb193a
 docker: quay.io/biocontainers/bioconductor-multimir
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

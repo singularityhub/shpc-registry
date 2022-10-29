@@ -7,13 +7,5 @@ tags:
   8.8.0--r41hdfd78af_1: sha256:2a0d1e0e09a6cae0b2e973a061202a7404503b37b287bd7f6fb587641a132555
 docker: quay.io/biocontainers/bioconductor-mogene21sttranscriptcluster.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mogene21sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-mogene21sttranscriptcluster.db-post-link.sh
+  .bioconductor-mogene21sttranscriptcluster.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mogene21sttranscriptcluster.db-pre-unlink.sh

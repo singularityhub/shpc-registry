@@ -7,13 +7,13 @@ tags:
   0.1.1--py_3: sha256:4004352a019a4a0ed6fcc1970fba8adf2d46884f0396ac5883c2272f3ff4a8ee
 docker: quay.io/biocontainers/burrito-fillings
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  assistant: /usr/local/bin/assistant
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  natsort: /usr/local/bin/natsort
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
+  pygmentize: /usr/local/bin/pygmentize
   canbusutil: /usr/local/bin/canbusutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  qgltf: /usr/local/bin/qgltf

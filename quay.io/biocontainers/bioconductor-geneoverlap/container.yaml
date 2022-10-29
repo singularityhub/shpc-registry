@@ -6,14 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:8d877a09ba1e49f8d4a3a2c9529feeb7e4179ecf8b91a42e628a1729ab87041b
 docker: quay.io/biocontainers/bioconductor-geneoverlap
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

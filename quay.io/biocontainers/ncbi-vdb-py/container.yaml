@@ -13,3 +13,5 @@ aliases:
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/haystac
 aliases:
   haystac: /usr/local/bin/haystac
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  pulptest: /usr/local/bin/pulptest
   cbc: /usr/local/bin/cbc
-  chardetect: /usr/local/bin/chardetect
   clp: /usr/local/bin/clp
-  f2py3.6: /usr/local/bin/f2py3.6
-  idle3.6: /usr/local/bin/idle3.6
-  jsonschema: /usr/local/bin/jsonschema
+  snakemake: /usr/local/bin/snakemake
+  snakemake-bash-completion: /usr/local/bin/snakemake-bash-completion
+  jupyter-trust: /usr/local/bin/jupyter-trust
   jupyter: /usr/local/bin/jupyter
   jupyter-migrate: /usr/local/bin/jupyter-migrate
   jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  rst2html4.py: /usr/local/bin/rst2html4.py

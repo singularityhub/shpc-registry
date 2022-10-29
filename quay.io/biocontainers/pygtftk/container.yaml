@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pygtftk
 aliases:
   gtftk: /usr/local/bin/gtftk
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  nosetests: /usr/local/bin/nosetests
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare

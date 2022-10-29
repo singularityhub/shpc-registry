@@ -17,9 +17,11 @@ aliases:
   signalmaker.r: /usr/local/bin/signalmaker.r
   xcorr.r: /usr/local/bin/xcorr.r
   xcorrhelper.r: /usr/local/bin/xcorrhelper.r
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  perl5.32.0: /usr/local/bin/perl5.32.0
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
   conda_build.sh: /usr/local/bin/conda_build.sh
-  gawk: /usr/local/bin/gawk
-  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
-  perl5.32.0: /usr/local/bin/perl5.32.0
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  streamzip: /usr/local/bin/streamzip

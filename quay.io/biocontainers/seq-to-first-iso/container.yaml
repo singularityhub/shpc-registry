@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/seq-to-first-iso
 aliases:
   seq-to-first-iso: /usr/local/bin/seq-to-first-iso
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
   compile-et.pl: /usr/local/bin/compile-et.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  prerr.properties: /usr/local/bin/prerr.properties
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict

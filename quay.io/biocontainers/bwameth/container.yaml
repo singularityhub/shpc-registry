@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/bwameth
 aliases:
   bwameth.py: /usr/local/bin/bwameth.py
   toolshed: /usr/local/bin/toolshed
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
   easy_install-3.5: /usr/local/bin/easy_install-3.5
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
-  maq2sam-long: /usr/local/bin/maq2sam-long
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
+  bwa: /usr/local/bin/bwa

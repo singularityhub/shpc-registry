@@ -19,13 +19,13 @@ aliases:
   phyloFlash_heatmap.R: /usr/local/bin/phyloFlash_heatmap.R
   phyloFlash_makedb.pl: /usr/local/bin/phyloFlash_makedb.pl
   phyloFlash_plotscript_svg.pl: /usr/local/bin/phyloFlash_plotscript_svg.pl
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
   alltoall.sh: /usr/local/bin/alltoall.sh
-  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
-  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
   analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
-  annotateBed: /usr/local/bin/annotateBed
+  comparessu.sh: /usr/local/bin/comparessu.sh
+  filtersilva.sh: /usr/local/bin/filtersilva.sh
+  sketchblacklist2.sh: /usr/local/bin/sketchblacklist2.sh

@@ -6,14 +6,3 @@ latest:
 tags:
   1.46.0--r41hdfd78af_0: sha256:b354b00948b66c2830bb96f34930aa87cdb170a731dbc4695e9713a5311e125c
 docker: quay.io/biocontainers/bioconductor-rtca
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

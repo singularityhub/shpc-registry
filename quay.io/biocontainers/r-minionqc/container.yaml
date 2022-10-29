@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/r-minionqc
 aliases:
   MinIONQC.R: /usr/local/bin/MinIONQC.R
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

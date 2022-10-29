@@ -10,13 +10,13 @@ aliases:
   IRMA: /usr/local/bin/IRMA
   LABEL: /usr/local/bin/LABEL
   QUICK_INSTALL.txt: /usr/local/bin/QUICK_INSTALL.txt
-  FastTree: /usr/local/bin/FastTree
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  zip: /usr/local/bin/zip
   blat: /usr/local/bin/blat
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  conda_build.sh: /usr/local/bin/conda_build.sh
-  env_parallel: /usr/local/bin/env_parallel
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  muscle: /usr/local/bin/muscle
+  FastTree: /usr/local/bin/FastTree
+  fasttree: /usr/local/bin/fasttree
+  parsort: /usr/local/bin/parsort
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz

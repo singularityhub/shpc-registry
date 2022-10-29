@@ -24,13 +24,13 @@ aliases:
   summarize_miso: /usr/local/bin/summarize_miso
   test_miso: /usr/local/bin/test_miso
   varfilter.py: /usr/local/bin/varfilter.py
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
+  canbusutil: /usr/local/bin/canbusutil
+  qgltf: /usr/local/bin/qgltf
+  qmlcachegen: /usr/local/bin/qmlcachegen
+  qscxmlc: /usr/local/bin/qscxmlc
+  qtattributionsscanner: /usr/local/bin/qtattributionsscanner
+  repc: /usr/local/bin/repc

@@ -20,10 +20,12 @@ aliases:
   nbmodel_stan2.py: /usr/local/bin/nbmodel_stan2.py
   sam_compare_w_feature.py: /usr/local/bin/sam_compare_w_feature.py
   summarize_sam_compare_cnts_table_1cond.py: /usr/local/bin/summarize_sam_compare_cnts_table_1cond.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

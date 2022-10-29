@@ -8,9 +8,9 @@ tags:
 docker: quay.io/biocontainers/wisestork
 aliases:
   wisestork: /usr/local/bin/wisestork
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
   faidx: /usr/local/bin/faidx
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7

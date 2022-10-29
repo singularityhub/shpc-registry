@@ -9,6 +9,7 @@ docker: quay.io/biocontainers/mace
 aliases:
   mace.py: /usr/local/bin/mace.py
   preprocessor.py: /usr/local/bin/preprocessor.py
+  wigToBigWig: /usr/local/bin/wigToBigWig
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
@@ -18,4 +19,3 @@ aliases:
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
   bed_build_windows.py: /usr/local/bin/bed_build_windows.py
   bed_complement.py: /usr/local/bin/bed_complement.py
-  bed_count_by_interval.py: /usr/local/bin/bed_count_by_interval.py

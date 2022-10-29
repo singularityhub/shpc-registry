@@ -7,14 +7,19 @@ tags:
   1.03--hf71b8e2_6: sha256:eb10379fc1249aed32e297659a5b03ca8d83a32c1d14428c3c1c58e89dfdccbd
 docker: quay.io/biocontainers/tadarida-d
 aliases:
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay
   tadaridaD: /usr/local/bin/tadaridaD
-  assistant: /usr/local/bin/assistant
-  designer: /usr/local/bin/designer
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
   flac: /usr/local/bin/flac
-  lconvert: /usr/local/bin/lconvert
-  linguist: /usr/local/bin/linguist
-  lrelease: /usr/local/bin/lrelease
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set

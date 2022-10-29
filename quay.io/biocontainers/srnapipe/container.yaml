@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/srnapipe
 aliases:
   srnapipe: /usr/local/bin/srnapipe
-  ace2sam: /usr/local/bin/ace2sam
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  moose-outdated: /usr/local/bin/moose-outdated
+  bwa: /usr/local/bin/bwa
+  package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  shiftBed: /usr/local/bin/shiftBed
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  bgzip: /usr/local/bin/bgzip

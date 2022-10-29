@@ -11,10 +11,10 @@ aliases:
   qcat-eval: /usr/local/bin/qcat-eval
   qcat-eval-truth: /usr/local/bin/qcat-eval-truth
   qcat-roc: /usr/local/bin/qcat-roc
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
-  idle3.7: /usr/local/bin/idle3.7
   minimap2.py: /usr/local/bin/minimap2.py
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config

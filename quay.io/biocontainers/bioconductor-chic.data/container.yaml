@@ -7,4 +7,6 @@ tags:
   1.9.0--r40_0: sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1
 docker: quay.io/biocontainers/bioconductor-chic.data
 aliases:
+  .bioconductor-chic.data-post-link.sh: /usr/local/bin/.bioconductor-chic.data-post-link.sh
+  .bioconductor-chic.data-pre-unlink.sh: /usr/local/bin/.bioconductor-chic.data-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

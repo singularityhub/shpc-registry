@@ -33,14 +33,19 @@ aliases:
   hhmake: /usr/local/bin/hhmake
   hhsearch: /usr/local/bin/hhsearch
   hhsearch_omp: /usr/local/bin/hhsearch_omp
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
   mosdepth: /usr/local/bin/mosdepth
-  a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  addadapters.sh: /usr/local/bin/addadapters.sh
-  addssu.sh: /usr/local/bin/addssu.sh
-  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
+  sambamba: /usr/local/bin/sambamba
+  filter-table: /usr/local/bin/filter-table
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  spdi2prod: /usr/local/bin/spdi2prod
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
   alltoall.sh: /usr/local/bin/alltoall.sh
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh

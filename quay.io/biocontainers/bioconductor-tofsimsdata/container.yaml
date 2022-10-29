@@ -7,13 +7,5 @@ tags:
   1.22.0--r41hdfd78af_1: sha256:99a92d02f0069c86f13bb1c1d0e28b63246a6a59afd0909e4cf0b4d08c74f409
 docker: quay.io/biocontainers/bioconductor-tofsimsdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-tofsimsdata-post-link.sh: /usr/local/bin/.bioconductor-tofsimsdata-post-link.sh
+  .bioconductor-tofsimsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-tofsimsdata-pre-unlink.sh

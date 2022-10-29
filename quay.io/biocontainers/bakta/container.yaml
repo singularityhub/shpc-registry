@@ -7,25 +7,34 @@ tags:
   1.5.1--pyhdfd78af_0: sha256:4b6e6caef591f0caa658dff7db4d153abf4b3200948da0e3701dd65637adfdb0
 docker: quay.io/biocontainers/bakta
 aliases:
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   amr_report: /usr/local/bin/amr_report
   amrfinder: /usr/local/bin/amrfinder
   amrfinder_update: /usr/local/bin/amrfinder_update
   bakta: /usr/local/bin/bakta
   bakta_db: /usr/local/bin/bakta_db
   bakta_proteins: /usr/local/bin/bakta_proteins
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
   dna_mutation: /usr/local/bin/dna_mutation
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
   fasta2parts: /usr/local/bin/fasta2parts
   fasta_check: /usr/local/bin/fasta_check
   fasta_extract: /usr/local/bin/fasta_extract
   gff_check: /usr/local/bin/gff_check
   pilercr: /usr/local/bin/pilercr
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
   aragorn: /usr/local/bin/aragorn
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit

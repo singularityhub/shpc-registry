@@ -8,6 +8,7 @@ tags:
 docker: quay.io/biocontainers/taranis
 aliases:
   Dockerfile: /usr/local/bin/Dockerfile
+  LICENSE: /usr/local/bin/LICENSE
   allele_calling.py: /usr/local/bin/allele_calling.py
   analyze_schema.py: /usr/local/bin/analyze_schema.py
   create_schema.py: /usr/local/bin/create_schema.py
@@ -17,13 +18,14 @@ aliases:
   reference_alleles.py: /usr/local/bin/reference_alleles.py
   taranis.py: /usr/local/bin/taranis.py
   taranis_configuration.py: /usr/local/bin/taranis_configuration.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  CA.pm: /usr/local/bin/CA.pm
-  LICENSE: /usr/local/bin/LICENSE
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
+  tbl2asn-test: /usr/local/bin/tbl2asn-test
+  fix-sqn-date: /usr/local/bin/fix-sqn-date
+  faketime: /usr/local/bin/faketime
+  real-tbl2asn: /usr/local/bin/real-tbl2asn
+  prokka-abricate_to_fasta_db: /usr/local/bin/prokka-abricate_to_fasta_db
+  prokka: /usr/local/bin/prokka
+  prokka-biocyc_to_fasta_db: /usr/local/bin/prokka-biocyc_to_fasta_db
+  prokka-build_kingdom_dbs: /usr/local/bin/prokka-build_kingdom_dbs
+  prokka-cdd_to_hmm: /usr/local/bin/prokka-cdd_to_hmm
+  prokka-clusters_to_hmm: /usr/local/bin/prokka-clusters_to_hmm
+  prokka-genbank_to_fasta_db: /usr/local/bin/prokka-genbank_to_fasta_db

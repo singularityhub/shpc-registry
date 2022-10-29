@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:adea9f4e37011cc88331f1a7901c0efdbd3d903b425bca81244ae09772116e90
 docker: quay.io/biocontainers/bioconductor-mgu74bprobe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mgu74bprobe-post-link.sh: /usr/local/bin/.bioconductor-mgu74bprobe-post-link.sh
+  .bioconductor-mgu74bprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-mgu74bprobe-pre-unlink.sh

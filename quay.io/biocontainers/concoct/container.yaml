@@ -13,13 +13,13 @@ aliases:
   cut_up_fasta.py: /usr/local/bin/cut_up_fasta.py
   extract_fasta_bins.py: /usr/local/bin/extract_fasta_bins.py
   merge_cutup_clustering.py: /usr/local/bin/merge_cutup_clustering.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  nosetests-3.9: /usr/local/bin/nosetests-3.9
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info

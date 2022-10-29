@@ -7,13 +7,13 @@ tags:
   0.0.1--py27h14c3975_0: sha256:fdca58249bb54791640360e11932cafb17db0c7389ebd7ccddf203141d80da5d
 docker: quay.io/biocontainers/compare-reads
 aliases:
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py
-  htsfile: /usr/local/bin/htsfile
-  idle: /usr/local/bin/idle
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2

@@ -32,6 +32,7 @@ aliases:
   split-paired-reads.py: /usr/local/bin/split-paired-reads.py
   trim-low-abund.py: /usr/local/bin/trim-low-abund.py
   unique-kmers.py: /usr/local/bin/unique-kmers.py
+  screed: /usr/local/bin/screed
   2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
@@ -39,6 +40,5 @@ aliases:
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
-  pyvenv: /usr/local/bin/pyvenv
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7
-  screed: /usr/local/bin/screed
+  pyvenv: /usr/local/bin/pyvenv

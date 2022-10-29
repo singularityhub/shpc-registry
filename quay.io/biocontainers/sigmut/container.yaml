@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/sigmut
 aliases:
   sigprofiler: /usr/local/bin/sigprofiler
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
-  psicc: /usr/local/bin/psicc
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
   tificc: /usr/local/bin/tificc

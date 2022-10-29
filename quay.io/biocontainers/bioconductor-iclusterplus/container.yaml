@@ -6,14 +6,3 @@ latest:
 tags:
   1.30.0--r41hefde4a7_2: sha256:86cc817102ee51e101abc5a61c7585e9516aa1b36eae3a4c85a9d6e8960d59f4
 docker: quay.io/biocontainers/bioconductor-iclusterplus
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/chromosomer
 aliases:
   bioformats: /usr/local/bin/bioformats
   chromosomer: /usr/local/bin/chromosomer
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
   faidx: /usr/local/bin/faidx
   futurize: /usr/local/bin/futurize
-  idle: /usr/local/bin/idle
   pasteurize: /usr/local/bin/pasteurize
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
   python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
   python2.7-config: /usr/local/bin/python2.7-config
-  smtpd.py: /usr/local/bin/smtpd.py
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7

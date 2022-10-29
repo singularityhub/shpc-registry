@@ -6,14 +6,3 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399
 docker: quay.io/biocontainers/bioconductor-msimpute
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

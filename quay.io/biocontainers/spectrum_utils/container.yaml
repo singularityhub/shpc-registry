@@ -7,13 +7,13 @@ tags:
   0.4.1--pyhdfd78af_0: sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700
 docker: quay.io/biocontainers/spectrum_utils
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
-  f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  idle3.10: /usr/local/bin/idle3.10
-  jpgicc: /usr/local/bin/jpgicc
-  jsonschema: /usr/local/bin/jsonschema
-  linkicc: /usr/local/bin/linkicc
+  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
   numba: /usr/local/bin/numba
-  opj_compress: /usr/local/bin/opj_compress
+  pycc: /usr/local/bin/pycc
+  jsonschema: /usr/local/bin/jsonschema
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

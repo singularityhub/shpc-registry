@@ -7,7 +7,9 @@ tags:
   2.8.0--py36h24c8720_1: sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c
 docker: quay.io/biocontainers/pyopenms
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument
   DOMCount: /usr/local/bin/DOMCount
   DOMPrint: /usr/local/bin/DOMPrint
@@ -15,5 +17,3 @@ aliases:
   MemParse: /usr/local/bin/MemParse
   PParse: /usr/local/bin/PParse
   PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count

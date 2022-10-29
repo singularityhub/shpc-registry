@@ -7,14 +7,19 @@ tags:
   4.1.0--pyhdfd78af_0: sha256:67cc05ce27ca64b6a08a4b26032c1532ab27b4bdcfb033fe443ea1883990ec4f
 docker: quay.io/biocontainers/ont-fast5-api
 aliases:
-  demux_fast5: /usr/local/bin/demux_fast5
-  2to3-3.10: /usr/local/bin/2to3-3.10
   check_compression: /usr/local/bin/check_compression
   compress_fast5: /usr/local/bin/compress_fast5
-  f2py3.10: /usr/local/bin/f2py3.10
+  demux_fast5: /usr/local/bin/demux_fast5
   fast5_subset: /usr/local/bin/fast5_subset
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  tar: /usr/local/bin/tar
+  f2py3.10: /usr/local/bin/f2py3.10
   h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1

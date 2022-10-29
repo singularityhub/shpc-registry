@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/dnaweaver_synbiocad
 aliases:
   dnachisel: /usr/local/bin/dnachisel
   weasyprint: /usr/local/bin/weasyprint
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod

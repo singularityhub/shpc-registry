@@ -7,13 +7,13 @@ tags:
   1.1.2--pyhdfd78af_0: sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59
 docker: quay.io/biocontainers/cptac
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
+  runxlrd.py: /usr/local/bin/runxlrd.py
   flask: /usr/local/bin/flask
-  idle3.10: /usr/local/bin/idle3.10
   normalizer: /usr/local/bin/normalizer
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  runxlrd.py: /usr/local/bin/runxlrd.py

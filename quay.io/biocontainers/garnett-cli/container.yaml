@@ -16,7 +16,7 @@ aliases:
   make_test_data.R: /usr/local/bin/make_test_data.R
   parse_expr_data.R: /usr/local/bin/parse_expr_data.R
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
   conda_build.sh: /usr/local/bin/conda_build.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

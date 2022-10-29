@@ -7,6 +7,8 @@ tags:
   0.30--pl5321hdfd78af_1: sha256:da7c8141a89047fec875cc6a347491edddee84bc8bae939f588b660245c84d7e
 docker: quay.io/biocontainers/perl-moosex-singleton
 aliases:
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -7,5 +7,7 @@ tags:
   0.29--pl5321h9f5acd7_1: sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba
 docker: quay.io/biocontainers/perl-namespace-autoclean
 aliases:
-  cpanm: /usr/local/bin/cpanm
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

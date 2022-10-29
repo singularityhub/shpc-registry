@@ -6,14 +6,3 @@ latest:
 tags:
   1.0.4--r41h9ee0642_0: sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438
 docker: quay.io/biocontainers/r-tmae
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

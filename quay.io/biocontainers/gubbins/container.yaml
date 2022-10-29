@@ -17,13 +17,13 @@ aliases:
   raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
   run_gubbins.py: /usr/local/bin/run_gubbins.py
   ska: /usr/local/bin/ska
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  FastTree: /usr/local/bin/FastTree
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  cwebp: /usr/local/bin/cwebp
+  iqtree: /usr/local/bin/iqtree
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS
+  raxmlHPC-PTHREADS-AVX2: /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+  raxmlHPC-PTHREADS-SSE3: /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+  raxmlHPC-SSE3: /usr/local/bin/raxmlHPC-SSE3
   dendropy-format: /usr/local/bin/dendropy-format
-  dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  fasttree: /usr/local/bin/fasttree
   get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill

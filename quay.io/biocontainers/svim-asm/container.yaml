@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/svim-asm
 aliases:
   svim-asm: /usr/local/bin/svim-asm
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
   brotli: /usr/local/bin/brotli
   f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  idle3.10: /usr/local/bin/idle3.10
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
   opj_compress: /usr/local/bin/opj_compress
   opj_decompress: /usr/local/bin/opj_decompress
   opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10

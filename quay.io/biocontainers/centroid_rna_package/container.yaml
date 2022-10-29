@@ -10,13 +10,13 @@ aliases:
   centroid_alifold: /usr/local/bin/centroid_alifold
   centroid_fold: /usr/local/bin/centroid_fold
   centroid_homfold: /usr/local/bin/centroid_homfold
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  RNAdos: /usr/local/bin/RNAdos
   AnalyseDists: /usr/local/bin/AnalyseDists
   AnalyseSeqs: /usr/local/bin/AnalyseSeqs
-  Kinfold: /usr/local/bin/Kinfold
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
   RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold

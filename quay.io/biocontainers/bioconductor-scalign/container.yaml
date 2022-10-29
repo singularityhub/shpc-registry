@@ -15,3 +15,4 @@ aliases:
   python3.6m: /usr/local/bin/python3.6m
   python3.6m-config: /usr/local/bin/python3.6m-config
   pyvenv-3.6: /usr/local/bin/pyvenv-3.6
+  pyvenv: /usr/local/bin/pyvenv

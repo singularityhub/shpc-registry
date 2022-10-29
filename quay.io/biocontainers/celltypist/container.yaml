@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/celltypist
 aliases:
   celltypist: /usr/local/bin/celltypist
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cmpfillin: /usr/local/bin/cmpfillin
+  scanpy: /usr/local/bin/scanpy
   docutils: /usr/local/bin/docutils
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  glpsol: /usr/local/bin/glpsol
+  igraph: /usr/local/bin/igraph
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  pybabel: /usr/local/bin/pybabel
+  cmpfillin: /usr/local/bin/cmpfillin
   gpmetis: /usr/local/bin/gpmetis
-  graphchk: /usr/local/bin/graphchk

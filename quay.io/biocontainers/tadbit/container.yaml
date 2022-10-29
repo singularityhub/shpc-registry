@@ -12,13 +12,13 @@ aliases:
   gem-retriever: /usr/local/bin/gem-retriever
   normalize_oneD.R: /usr/local/bin/normalize_oneD.R
   tadbit: /usr/local/bin/tadbit
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  blast_formatter: /usr/local/bin/blast_formatter
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl
+  mclblastline: /usr/local/bin/mclblastline
+  mclcm: /usr/local/bin/mclcm
+  mclpipeline: /usr/local/bin/mclpipeline
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray
+  mcxassemble: /usr/local/bin/mcxassemble

@@ -8,8 +8,10 @@ tags:
 docker: quay.io/biocontainers/spacepharer
 aliases:
   spacepharer: /usr/local/bin/spacepharer
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
   gawk: /usr/local/bin/gawk
-  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   idn2: /usr/local/bin/idn2
   wget: /usr/local/bin/wget
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

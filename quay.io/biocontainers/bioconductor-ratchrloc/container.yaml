@@ -7,13 +7,5 @@ tags:
   2.1.6--r41hdfd78af_9: sha256:78705679c42b2813036ed6e5c8f0cde32ee8696ea18bbe18e9362e34d3da78d5
 docker: quay.io/biocontainers/bioconductor-ratchrloc
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-ratchrloc-post-link.sh: /usr/local/bin/.bioconductor-ratchrloc-post-link.sh
+  .bioconductor-ratchrloc-pre-unlink.sh: /usr/local/bin/.bioconductor-ratchrloc-pre-unlink.sh

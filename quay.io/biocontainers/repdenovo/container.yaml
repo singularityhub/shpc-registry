@@ -19,13 +19,13 @@ aliases:
   TERefiner_1: /usr/local/bin/TERefiner_1
   Utility.py: /usr/local/bin/Utility.py
   main.py: /usr/local/bin/main.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth
   bamtools: /usr/local/bin/bamtools
-  bwa: /usr/local/bin/bwa
-  idle3.10: /usr/local/bin/idle3.10
   jellyfish: /usr/local/bin/jellyfish
-  pydoc3.10: /usr/local/bin/pydoc3.10
-  python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
-  python3.10-config: /usr/local/bin/python3.10-config
   qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10

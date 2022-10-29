@@ -7,11 +7,11 @@ tags:
   1.6.3--0: sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35
 docker: quay.io/biocontainers/bioconductor-genomeinfodb
 aliases:
+  pngcp: /usr/local/bin/pngcp
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  pngcp: /usr/local/bin/pngcp
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

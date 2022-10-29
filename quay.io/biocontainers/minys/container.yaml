@@ -20,13 +20,13 @@ aliases:
   graph_simplification.py: /usr/local/bin/graph_simplification.py
   merci: /usr/local/bin/merci
   minia: /usr/local/bin/minia
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  bgzip: /usr/local/bin/bgzip
   bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat

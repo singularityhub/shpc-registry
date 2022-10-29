@@ -7,16 +7,26 @@ tags:
   1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
 docker: quay.io/biocontainers/dram
 aliases:
+  .dram-post-link.sh: /usr/local/bin/.dram-post-link.sh
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py
   DRAM-v.py: /usr/local/bin/DRAM-v.py
   DRAM.py: /usr/local/bin/DRAM.py
-  2to3-3.10: /usr/local/bin/2to3-3.10
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  alimask: /usr/local/bin/alimask
-  annotateBed: /usr/local/bin/annotateBed
-  awk: /usr/local/bin/awk
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  barrnap: /usr/local/bin/barrnap
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jeprof: /usr/local/bin/jeprof
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby

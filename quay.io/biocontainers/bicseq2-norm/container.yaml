@@ -23,3 +23,5 @@ aliases:
   refine.R: /usr/local/bin/refine.R
   refineGAM.R: /usr/local/bin/refineGAM.R
   test.mgcv.installed.R: /usr/local/bin/test.mgcv.installed.R
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

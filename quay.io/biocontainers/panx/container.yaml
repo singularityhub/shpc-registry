@@ -13,13 +13,13 @@ aliases:
   panX.py: /usr/local/bin/panX.py
   temporal_signal.py: /usr/local/bin/temporal_signal.py
   timetree_inference.py: /usr/local/bin/timetree_inference.py
-  FastTree: /usr/local/bin/FastTree
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  assistant: /usr/local/bin/assistant
-  c2ph: /usr/local/bin/c2ph
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
   clm: /usr/local/bin/clm
   clmformat: /usr/local/bin/clmformat
   clxdo: /usr/local/bin/clxdo
-  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
+  mcl: /usr/local/bin/mcl
+  mclblastline: /usr/local/bin/mclblastline
+  mclcm: /usr/local/bin/mclcm
+  mclpipeline: /usr/local/bin/mclpipeline
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray

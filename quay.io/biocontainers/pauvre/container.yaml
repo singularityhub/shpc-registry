@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pauvre
 aliases:
   pauvre: /usr/local/bin/pauvre
-  2to3-3.8: /usr/local/bin/2to3-3.8
   f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
-  psicc: /usr/local/bin/psicc
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
   tificc: /usr/local/bin/tificc

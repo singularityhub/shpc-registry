@@ -13,8 +13,7 @@ aliases:
   Admin_GeneRegionBedDumper.pl: /usr/local/bin/Admin_GeneRegionBedDumper.pl
   AnnotateVcf.pl: /usr/local/bin/AnnotateVcf.pl
   addVagrentContext.pl: /usr/local/bin/addVagrentContext.pl
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bgzip: /usr/local/bin/bgzip
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
   bp_aacomp: /usr/local/bin/bp_aacomp
   bp_bioflat_index: /usr/local/bin/bp_bioflat_index
   bp_biogetseq: /usr/local/bin/bp_biogetseq
@@ -23,3 +22,4 @@ aliases:
   bp_fastam9_to_table: /usr/local/bin/bp_fastam9_to_table
   bp_fetch: /usr/local/bin/bp_fetch
   bp_filter_search: /usr/local/bin/bp_filter_search
+  bp_find-blast-matches: /usr/local/bin/bp_find-blast-matches

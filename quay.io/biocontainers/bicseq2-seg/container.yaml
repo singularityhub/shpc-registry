@@ -22,3 +22,5 @@ aliases:
   plotProfile.R: /usr/local/bin/plotProfile.R
   report.R: /usr/local/bin/report.R
   reportOneSample.R: /usr/local/bin/reportOneSample.R
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

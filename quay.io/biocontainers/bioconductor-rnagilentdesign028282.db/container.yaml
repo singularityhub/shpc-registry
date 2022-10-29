@@ -7,13 +7,5 @@ tags:
   3.2.3--r41hdfd78af_9: sha256:025cf6e90502f19b18bbd4f8e041b68d713a9a893d0b817f8ff30c880795d6f4
 docker: quay.io/biocontainers/bioconductor-rnagilentdesign028282.db
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-rnagilentdesign028282.db-post-link.sh: /usr/local/bin/.bioconductor-rnagilentdesign028282.db-post-link.sh
+  .bioconductor-rnagilentdesign028282.db-pre-unlink.sh: /usr/local/bin/.bioconductor-rnagilentdesign028282.db-pre-unlink.sh

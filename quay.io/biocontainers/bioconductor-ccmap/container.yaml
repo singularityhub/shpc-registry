@@ -7,5 +7,7 @@ tags:
   1.8.0--r351_0: sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3
 docker: quay.io/biocontainers/bioconductor-ccmap
 aliases:
-  wget: /usr/local/bin/wget
   xgboost: /usr/local/bin/xgboost
+  wget: /usr/local/bin/wget
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

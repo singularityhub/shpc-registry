@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/bcbio-rnaseq
 aliases:
   bcbio-rnaseq: /usr/local/bin/bcbio-rnaseq
-  appletviewer: /usr/local/bin/appletviewer
-  bmp2tiff: /usr/local/bin/bmp2tiff
+  pandoc-citeproc: /usr/local/bin/pandoc-citeproc
   extcheck: /usr/local/bin/extcheck
-  gif2tiff: /usr/local/bin/gif2tiff
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
   java-rmi.cgi: /usr/local/bin/java-rmi.cgi
-  javac: /usr/local/bin/javac
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj

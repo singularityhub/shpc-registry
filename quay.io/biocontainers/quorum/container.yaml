@@ -14,3 +14,4 @@ aliases:
   split_mate_pairs: /usr/local/bin/split_mate_pairs
   jellyfish: /usr/local/bin/jellyfish
   perl5.32.0: /usr/local/bin/perl5.32.0
+  streamzip: /usr/local/bin/streamzip

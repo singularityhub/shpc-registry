@@ -8,13 +8,19 @@ tags:
 docker: quay.io/biocontainers/qcumber
 aliases:
   QCumber-2: /usr/local/bin/QCumber-2
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
-  appletviewer: /usr/local/bin/appletviewer
-  assistant: /usr/local/bin/assistant
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bmp2tiff: /usr/local/bin/bmp2tiff
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build
+  kraken: /usr/local/bin/kraken
+  kraken-build: /usr/local/bin/kraken-build
+  kraken-filter: /usr/local/bin/kraken-filter
+  kraken-mpa-report: /usr/local/bin/kraken-mpa-report
+  kraken-report: /usr/local/bin/kraken-report
+  kraken-translate: /usr/local/bin/kraken-translate
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage
+  ktImportEC: /usr/local/bin/ktImportEC
+  ktImportFCP: /usr/local/bin/ktImportFCP

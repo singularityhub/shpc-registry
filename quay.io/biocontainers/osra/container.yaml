@@ -10,6 +10,7 @@ aliases:
   GraphicsMagick++-config: /usr/local/bin/GraphicsMagick++-config
   GraphicsMagick-config: /usr/local/bin/GraphicsMagick-config
   GraphicsMagickWand-config: /usr/local/bin/GraphicsMagickWand-config
+  babel: /usr/local/bin/babel
   convertfilestopdf: /usr/local/bin/convertfilestopdf
   convertfilestops: /usr/local/bin/convertfilestops
   convertformat: /usr/local/bin/convertformat
@@ -33,13 +34,13 @@ aliases:
   tesseract: /usr/local/bin/tesseract
   wftopfa: /usr/local/bin/wftopfa
   xtractprotos: /usr/local/bin/xtractprotos
-  annotate: /usr/local/bin/annotate
-  babel: /usr/local/bin/babel
-  bdftogd: /usr/local/bin/bdftogd
-  cwebp: /usr/local/bin/cwebp
-  dvipdf: /usr/local/bin/dvipdf
-  dwebp: /usr/local/bin/dwebp
-  eps2eps: /usr/local/bin/eps2eps
-  gd2copypal: /usr/local/bin/gd2copypal
-  gd2togif: /usr/local/bin/gd2togif
-  gd2topng: /usr/local/bin/gd2topng
+  roundtrip: /usr/local/bin/roundtrip
+  gnuplot: /usr/local/bin/gnuplot
+  pdfdetach: /usr/local/bin/pdfdetach
+  pdffonts: /usr/local/bin/pdffonts
+  pdfimages: /usr/local/bin/pdfimages
+  pdfinfo: /usr/local/bin/pdfinfo
+  pdfseparate: /usr/local/bin/pdfseparate
+  pdftocairo: /usr/local/bin/pdftocairo
+  pdftohtml: /usr/local/bin/pdftohtml
+  pdftoppm: /usr/local/bin/pdftoppm

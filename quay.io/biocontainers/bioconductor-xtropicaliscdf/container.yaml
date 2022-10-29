@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:5d42e2b261697b8b6c2b8d3537f3a3ab3133f4f4565f4ffd1a89a813acb1f744
 docker: quay.io/biocontainers/bioconductor-xtropicaliscdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-xtropicaliscdf-post-link.sh: /usr/local/bin/.bioconductor-xtropicaliscdf-post-link.sh
+  .bioconductor-xtropicaliscdf-pre-unlink.sh: /usr/local/bin/.bioconductor-xtropicaliscdf-pre-unlink.sh

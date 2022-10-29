@@ -10,6 +10,7 @@ aliases:
   ditasic: /usr/local/bin/ditasic
   ditasic_mapping.py: /usr/local/bin/ditasic_mapping.py
   ditasic_matrix.py: /usr/local/bin/ditasic_matrix.py
+  kallisto: /usr/local/bin/kallisto
   mason_frag_sequencing: /usr/local/bin/mason_frag_sequencing
   mason_genome: /usr/local/bin/mason_genome
   mason_materializer: /usr/local/bin/mason_materializer
@@ -17,13 +18,13 @@ aliases:
   mason_simulator: /usr/local/bin/mason_simulator
   mason_splicing: /usr/local/bin/mason_splicing
   mason_variator: /usr/local/bin/mason_variator
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
   h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
   h5copy: /usr/local/bin/h5copy
   h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff

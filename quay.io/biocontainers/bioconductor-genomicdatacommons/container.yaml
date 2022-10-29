@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/bioconductor-genomicdatacommons
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

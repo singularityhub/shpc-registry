@@ -6,14 +6,3 @@ latest:
 tags:
   2.38.0--r41hefde4a7_2: sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851
 docker: quay.io/biocontainers/bioconductor-geneselectmmd
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -50,13 +50,13 @@ aliases:
   subread-buildindex: /usr/local/bin/subread-buildindex
   subread-fullscan: /usr/local/bin/subread-fullscan
   txUnique: /usr/local/bin/txUnique
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
   bamtools: /usr/local/bin/bamtools
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  idle3.6: /usr/local/bin/idle3.6
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  jp.py: /usr/local/bin/jp.py
+  rst2html4.py: /usr/local/bin/rst2html4.py
+  rst2html5.py: /usr/local/bin/rst2html5.py
+  rst2html.py: /usr/local/bin/rst2html.py
+  rst2latex.py: /usr/local/bin/rst2latex.py
+  rst2man.py: /usr/local/bin/rst2man.py
+  rst2odt.py: /usr/local/bin/rst2odt.py
+  rst2odt_prepstyles.py: /usr/local/bin/rst2odt_prepstyles.py
+  rst2pseudoxml.py: /usr/local/bin/rst2pseudoxml.py

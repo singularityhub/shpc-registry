@@ -20,3 +20,5 @@ aliases:
   wtobt: /usr/local/bin/wtobt
   wtpre: /usr/local/bin/wtpre
   wtzmo: /usr/local/bin/wtzmo
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

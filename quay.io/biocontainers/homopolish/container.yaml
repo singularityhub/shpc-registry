@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/homopolish
 aliases:
   homopolish: /usr/local/bin/homopolish
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  brotli: /usr/local/bin/brotli
-  capnp: /usr/local/bin/capnp
-  capnpc: /usr/local/bin/capnpc
-  capnpc-c++: /usr/local/bin/capnpc-c++
-  capnpc-capnp: /usr/local/bin/capnpc-capnp
-  chardetect: /usr/local/bin/chardetect
-  f2py3.7: /usr/local/bin/f2py3.7
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
   gflags_completions.sh: /usr/local/bin/gflags_completions.sh
   grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin

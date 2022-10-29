@@ -8,6 +8,7 @@ tags:
 docker: quay.io/biocontainers/r-penalized
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -7,13 +7,5 @@ tags:
   1.4.0--r41hdfd78af_1: sha256:647532094995cb2c37748ad7d55a7dfe8d147145d28538d311440e538948139a
 docker: quay.io/biocontainers/bioconductor-scatedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-scatedata-post-link.sh: /usr/local/bin/.bioconductor-scatedata-post-link.sh
+  .bioconductor-scatedata-pre-unlink.sh: /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh

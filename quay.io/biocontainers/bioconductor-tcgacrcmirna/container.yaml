@@ -7,6 +7,8 @@ tags:
   1.9.0--r40_0: sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa
 docker: quay.io/biocontainers/bioconductor-tcgacrcmirna
 aliases:
+  .bioconductor-tcgacrcmirna-post-link.sh: /usr/local/bin/.bioconductor-tcgacrcmirna-post-link.sh
+  .bioconductor-tcgacrcmirna-pre-unlink.sh: /usr/local/bin/.bioconductor-tcgacrcmirna-pre-unlink.sh
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

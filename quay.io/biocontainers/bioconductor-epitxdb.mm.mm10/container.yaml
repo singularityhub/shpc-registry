@@ -7,13 +7,5 @@ tags:
   0.99.6--r41hdfd78af_4: sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3
 docker: quay.io/biocontainers/bioconductor-epitxdb.mm.mm10
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-epitxdb.mm.mm10-post-link.sh: /usr/local/bin/.bioconductor-epitxdb.mm.mm10-post-link.sh
+  .bioconductor-epitxdb.mm.mm10-pre-unlink.sh: /usr/local/bin/.bioconductor-epitxdb.mm.mm10-pre-unlink.sh

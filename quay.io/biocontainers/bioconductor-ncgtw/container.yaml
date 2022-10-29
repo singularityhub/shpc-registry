@@ -7,13 +7,13 @@ tags:
   1.8.0--r41hc247a5b_2: sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3
 docker: quay.io/biocontainers/bioconductor-ncgtw
 aliases:
-  gif2h5: /usr/local/bin/gif2h5
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif

@@ -34,13 +34,13 @@ aliases:
   ncbi-genome-download: /usr/local/bin/ncbi-genome-download
   ngd: /usr/local/bin/ngd
   taxonlist.tsv: /usr/local/bin/taxonlist.tsv
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  appletviewer: /usr/local/bin/appletviewer
-  chardetect: /usr/local/bin/chardetect
   conv-template: /usr/local/bin/conv-template
-  extcheck: /usr/local/bin/extcheck
-  fastqc: /usr/local/bin/fastqc
   from-template: /usr/local/bin/from-template
-  idle3.6: /usr/local/bin/idle3.6
-  idlj: /usr/local/bin/idlj
-  jar: /usr/local/bin/jar
+  fastqc: /usr/local/bin/fastqc
+  trimmomatic: /usr/local/bin/trimmomatic
+  jellyfish: /usr/local/bin/jellyfish
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd

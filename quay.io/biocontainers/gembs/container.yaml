@@ -13,13 +13,13 @@ aliases:
   gem-mapper: /usr/local/bin/gem-mapper
   gem-retriever: /usr/local/bin/gem-retriever
   gemBS: /usr/local/bin/gemBS
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
+  wigToBigWig: /usr/local/bin/wigToBigWig
   bedToBigBed: /usr/local/bin/bedToBigBed
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  brotli: /usr/local/bin/brotli
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  cwebp: /usr/local/bin/cwebp
+  get_objgraph: /usr/local/bin/get_objgraph
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  undill: /usr/local/bin/undill
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

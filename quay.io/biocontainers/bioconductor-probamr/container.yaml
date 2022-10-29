@@ -9,9 +9,10 @@ docker: quay.io/biocontainers/bioconductor-probamr
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  ncurses5-config: /usr/local/bin/ncurses5-config
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
-  tclsh8.5: /usr/local/bin/tclsh8.5
   thumbnail: /usr/local/bin/thumbnail
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

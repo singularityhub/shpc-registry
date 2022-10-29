@@ -16,13 +16,13 @@ aliases:
   time: /usr/local/bin/time
   vg: /usr/local/bin/vg
   wfmash: /usr/local/bin/wfmash
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  multiqc: /usr/local/bin/multiqc
   bc: /usr/local/bin/bc
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  brotli: /usr/local/bin/brotli
-  cmark: /usr/local/bin/cmark
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  coloredlogs: /usr/local/bin/coloredlogs
-  cwebp: /usr/local/bin/cwebp
   dc: /usr/local/bin/dc
+  cmark: /usr/local/bin/cmark
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  markdown_py: /usr/local/bin/markdown_py

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/google-api-python-client
 aliases:
   smtpd.pyc: /usr/local/bin/smtpd.pyc
-  easy_install-2.7: /usr/local/bin/easy_install-2.7
-  idle: /usr/local/bin/idle
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
   pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
-  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
   pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
   pyrsa-keygen: /usr/local/bin/pyrsa-keygen
   pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  python2-config: /usr/local/bin/python2-config

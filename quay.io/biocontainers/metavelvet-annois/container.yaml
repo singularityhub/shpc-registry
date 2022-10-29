@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/metavelvet-annois
 aliases:
   run-annoIS.pl: /usr/local/bin/run-annoIS.pl
   config_data: /usr/local/bin/config_data
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -8,7 +8,7 @@ tags:
 docker: quay.io/biocontainers/tgsgapcloser
 aliases:
   tgsgapcloser: /usr/local/bin/tgsgapcloser
-  k8: /usr/local/bin/k8
-  minimap2: /usr/local/bin/minimap2
-  paftools.js: /usr/local/bin/paftools.js
   sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8

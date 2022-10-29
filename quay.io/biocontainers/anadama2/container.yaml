@@ -12,13 +12,13 @@ aliases:
   pweave: /usr/local/bin/pweave
   pweave-convert: /usr/local/bin/pweave-convert
   pypublish: /usr/local/bin/pypublish
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  curve_keygen: /usr/local/bin/curve_keygen
-  idle3.9: /usr/local/bin/idle3.9
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
-  ipython: /usr/local/bin/ipython
-  ipython3: /usr/local/bin/ipython3
-  jsonschema: /usr/local/bin/jsonschema
-  jupyter: /usr/local/bin/jupyter
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
   jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  iptest3: /usr/local/bin/iptest3
+  curve_keygen: /usr/local/bin/curve_keygen
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  jupyter-trust: /usr/local/bin/jupyter-trust

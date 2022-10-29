@@ -7,6 +7,7 @@ tags:
   2.1.0--pyh5e36f6f_0: sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4
 docker: quay.io/biocontainers/autometa
 aliases:
+  .autometa-post-link.sh: /usr/local/bin/.autometa-post-link.sh
   autometa: /usr/local/bin/autometa
   autometa-bedtools-genomecov: /usr/local/bin/autometa-bedtools-genomecov
   autometa-benchmark: /usr/local/bin/autometa-benchmark
@@ -28,13 +29,13 @@ aliases:
   autometa-unclustered-recruitment: /usr/local/bin/autometa-unclustered-recruitment
   autometa-update-databases: /usr/local/bin/autometa-update-databases
   gdown: /usr/local/bin/gdown
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  rsync: /usr/local/bin/rsync
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  doesitcache: /usr/local/bin/doesitcache
+  ipython3: /usr/local/bin/ipython3
+  diamond: /usr/local/bin/diamond
+  parsort: /usr/local/bin/parsort

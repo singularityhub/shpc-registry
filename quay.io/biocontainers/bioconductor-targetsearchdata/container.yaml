@@ -7,13 +7,5 @@ tags:
   1.32.0--r41hdfd78af_1: sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684
 docker: quay.io/biocontainers/bioconductor-targetsearchdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-targetsearchdata-post-link.sh: /usr/local/bin/.bioconductor-targetsearchdata-post-link.sh
+  .bioconductor-targetsearchdata-pre-unlink.sh: /usr/local/bin/.bioconductor-targetsearchdata-pre-unlink.sh

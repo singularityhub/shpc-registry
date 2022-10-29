@@ -14,13 +14,13 @@ aliases:
   jasmine.jar: /usr/local/bin/jasmine.jar
   jasmine_igv.jar: /usr/local/bin/jasmine_igv.jar
   jasmine_iris.jar: /usr/local/bin/jasmine_iris.jar
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
   fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
-  htsfile: /usr/local/bin/htsfile
-  idle3.10: /usr/local/bin/idle3.10
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  jaotc: /usr/local/bin/jaotc

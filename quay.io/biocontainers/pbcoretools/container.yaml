@@ -7,14 +7,15 @@ tags:
   0.8.1--py_1: sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15
 docker: quay.io/biocontainers/pbcoretools
 aliases:
+  .pbcoretools-post-link.sh: /usr/local/bin/.pbcoretools-post-link.sh
   bamsieve: /usr/local/bin/bamsieve
   dataset: /usr/local/bin/dataset
   pbtools-gather: /usr/local/bin/pbtools-gather
   pbvalidate: /usr/local/bin/pbvalidate
-  2to3-3.7: /usr/local/bin/2to3-3.7
   avro: /usr/local/bin/avro
-  chardetect: /usr/local/bin/chardetect
   f2py3.7: /usr/local/bin/f2py3.7
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7

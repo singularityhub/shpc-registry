@@ -92,13 +92,17 @@ aliases:
   nab: /usr/local/bin/nab
   nab2c: /usr/local/bin/nab2c
   nef_to_RST: /usr/local/bin/nef_to_RST
+  nf-config: /usr/local/bin/nf-config
   nfe-umbrella-slice: /usr/local/bin/nfe-umbrella-slice
   nmode: /usr/local/bin/nmode
+  obfitall: /usr/local/bin/obfitall
+  obmm: /usr/local/bin/obmm
   packmol: /usr/local/bin/packmol
   packmol-memgen: /usr/local/bin/packmol-memgen
   paramfit: /usr/local/bin/paramfit
   parmcal: /usr/local/bin/parmcal
   parmchk2: /usr/local/bin/parmchk2
+  parmed: /usr/local/bin/parmed
   pbsa: /usr/local/bin/pbsa
   pdb4amber: /usr/local/bin/pdb4amber
   prepgen: /usr/local/bin/prepgen
@@ -135,13 +139,14 @@ aliases:
   ucpp: /usr/local/bin/ucpp
   xaLeap: /usr/local/bin/xaLeap
   xleap: /usr/local/bin/xleap
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
-  f2py3.10: /usr/local/bin/f2py3.10
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  xparmed: /usr/local/bin/xparmed
+  obabel: /usr/local/bin/obabel
+  obconformer: /usr/local/bin/obconformer
+  obdistgen: /usr/local/bin/obdistgen
+  obenergy: /usr/local/bin/obenergy
+  obfit: /usr/local/bin/obfit
+  obgen: /usr/local/bin/obgen
+  obgrep: /usr/local/bin/obgrep
+  obminimize: /usr/local/bin/obminimize
+  obprobe: /usr/local/bin/obprobe
+  obprop: /usr/local/bin/obprop

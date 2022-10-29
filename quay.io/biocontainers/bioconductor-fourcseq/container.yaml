@@ -9,9 +9,9 @@ docker: quay.io/biocontainers/bioconductor-fourcseq
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff
   gif2tiff: /usr/local/bin/gif2tiff
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
   uconv: /usr/local/bin/uconv
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

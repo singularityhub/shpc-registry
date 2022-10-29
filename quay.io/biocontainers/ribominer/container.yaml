@@ -48,6 +48,7 @@ aliases:
   cAI: /usr/local/bin/cAI
   cAIPlot: /usr/local/bin/cAIPlot
   enrichmentMeanDensity: /usr/local/bin/enrichmentMeanDensity
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
   hydropathyCharge: /usr/local/bin/hydropathyCharge
   metaplots: /usr/local/bin/metaplots
   plot_orf_density: /usr/local/bin/plot_orf_density
@@ -56,13 +57,13 @@ aliases:
   pysamstats: /usr/local/bin/pysamstats
   tAI: /usr/local/bin/tAI
   tAIPlot: /usr/local/bin/tAIPlot
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
   futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  pasteurize: /usr/local/bin/pasteurize

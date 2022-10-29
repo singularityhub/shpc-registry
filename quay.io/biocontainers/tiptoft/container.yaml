@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/tiptoft
 aliases:
   tiptoft: /usr/local/bin/tiptoft
   tiptoft_database_downloader: /usr/local/bin/tiptoft_database_downloader
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  fastaq: /usr/local/bin/fastaq
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
   f2py3.7: /usr/local/bin/f2py3.7
-  fastaq: /usr/local/bin/fastaq
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7

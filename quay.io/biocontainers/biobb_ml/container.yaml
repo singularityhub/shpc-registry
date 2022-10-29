@@ -19,6 +19,7 @@ aliases:
   dendrogram: /usr/local/bin/dendrogram
   drop_columns: /usr/local/bin/drop_columns
   dummy_variables: /usr/local/bin/dummy_variables
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
   k_means: /usr/local/bin/k_means
   k_means_coefficient: /usr/local/bin/k_means_coefficient
   k_neighbors: /usr/local/bin/k_neighbors
@@ -45,13 +46,13 @@ aliases:
   spectral_coefficient: /usr/local/bin/spectral_coefficient
   support_vector_machine: /usr/local/bin/support_vector_machine
   undersampling: /usr/local/bin/undersampling
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2

@@ -7,13 +7,13 @@ tags:
   0.4.2.5--py_0: sha256:2e6181ddbdbe0e6b9bbceea7226c4fa3bc31e555918474c72a3dd95a28a1b4cf
 docker: quay.io/biocontainers/purple-bio
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  tqdm: /usr/local/bin/tqdm
   f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
-  pyvenv: /usr/local/bin/pyvenv
   pyvenv-3.7: /usr/local/bin/pyvenv-3.7

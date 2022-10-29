@@ -7,6 +7,8 @@ tags:
   1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
 docker: quay.io/biocontainers/bohra
 aliases:
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
   abritamr: /usr/local/bin/abritamr
   amr_report: /usr/local/bin/amr_report
   amrfinder: /usr/local/bin/amrfinder
@@ -25,6 +27,8 @@ aliases:
   kraken2: /usr/local/bin/kraken2
   kraken2-build: /usr/local/bin/kraken2-build
   kraken2-inspect: /usr/local/bin/kraken2-inspect
+  lighter: /usr/local/bin/lighter
+  mlst: /usr/local/bin/mlst
   pan_genome_assembly_statistics: /usr/local/bin/pan_genome_assembly_statistics
   pan_genome_core_alignment: /usr/local/bin/pan_genome_core_alignment
   pan_genome_post_analysis: /usr/local/bin/pan_genome_post_analysis
@@ -38,16 +42,28 @@ aliases:
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   shovill: /usr/local/bin/shovill
+  skesa: /usr/local/bin/skesa
+  snippy: /usr/local/bin/snippy
+  snippy-clean_full_aln: /usr/local/bin/snippy-clean_full_aln
+  snippy-core: /usr/local/bin/snippy-core
+  snippy-multi: /usr/local/bin/snippy-multi
+  snippy-vcf_extract_subs: /usr/local/bin/snippy-vcf_extract_subs
+  snippy-vcf_report: /usr/local/bin/snippy-vcf_report
+  snippy-vcf_to_tab: /usr/local/bin/snippy-vcf_to_tab
   snp-dists: /usr/local/bin/snp-dists
   transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
+  vcfnormalizesvs: /usr/local/bin/vcfnormalizesvs
+  vcfnull2ref: /usr/local/bin/vcfnull2ref
+  vcfunphase: /usr/local/bin/vcfunphase
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  FET.pl: /usr/local/bin/FET.pl
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  Magick++-config: /usr/local/bin/Magick++-config
-  MagickCore-config: /usr/local/bin/MagickCore-config
-  MagickWand-config: /usr/local/bin/MagickWand-config
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  abba-baba: /usr/local/bin/abba-baba
+  yapp: /usr/local/bin/yapp
+  snp-sites: /usr/local/bin/snp-sites
+  fix-sqn-date: /usr/local/bin/fix-sqn-date
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
+  prank: /usr/local/bin/prank
+  vt: /usr/local/bin/vt

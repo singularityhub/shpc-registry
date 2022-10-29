@@ -7,12 +7,13 @@ tags:
   1.8.0--r40hdfd78af_1: sha256:ee6850f58a53822b67fafab3464b0dd1c77e1edec8cdaa5056e06be300613ba5
 docker: quay.io/biocontainers/bioconductor-enhancedvolcano
 aliases:
-  cct: /usr/local/bin/cct
-  cs2cs: /usr/local/bin/cs2cs
-  geod: /usr/local/bin/geod
-  gie: /usr/local/bin/gie
+  projsync: /usr/local/bin/projsync
   invgeod: /usr/local/bin/invgeod
   invproj: /usr/local/bin/invproj
-  proj: /usr/local/bin/proj
   projinfo: /usr/local/bin/projinfo
-  projsync: /usr/local/bin/projsync
+  cct: /usr/local/bin/cct
+  gie: /usr/local/bin/gie
+  cs2cs: /usr/local/bin/cs2cs
+  geod: /usr/local/bin/geod
+  proj: /usr/local/bin/proj
+  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -10,15 +10,17 @@ aliases:
   coronaspades.py: /usr/local/bin/coronaspades.py
   metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
   metaviralspades.py: /usr/local/bin/metaviralspades.py
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
   rnaviralspades.py: /usr/local/bin/rnaviralspades.py
   unicycler: /usr/local/bin/unicycler
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  cds-mapping-stats: /usr/local/bin/cds-mapping-stats
+  cds-subgraphs: /usr/local/bin/cds-subgraphs
+  mag-improve: /usr/local/bin/mag-improve
+  spades-convert-bin-to-fasta: /usr/local/bin/spades-convert-bin-to-fasta
+  spades-gsimplifier: /usr/local/bin/spades-gsimplifier
+  spades-kmer-estimating: /usr/local/bin/spades-kmer-estimating
+  spades-read-filter: /usr/local/bin/spades-read-filter

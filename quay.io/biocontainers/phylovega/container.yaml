@@ -8,14 +8,15 @@ tags:
 docker: quay.io/biocontainers/phylovega
 aliases:
   jupyter-console: /usr/local/bin/jupyter-console
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
   phylovega: /usr/local/bin/phylovega
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  iptest3: /usr/local/bin/iptest3
+  sumlabels.py: /usr/local/bin/sumlabels.py

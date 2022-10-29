@@ -7,13 +7,13 @@ tags:
   1.6.0--r41hdfd78af_0: sha256:3ce472f0ec4ad6f03981997e09366b76ee1a35531e92b6d5cd6944f2ea5c7c53
 docker: quay.io/biocontainers/bioconductor-sarks
 aliases:
-  aserver: /usr/local/bin/aserver
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jjs: /usr/local/bin/jjs

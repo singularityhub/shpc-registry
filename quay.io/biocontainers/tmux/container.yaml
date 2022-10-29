@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/tmux
 aliases:
   event_rpcgen.py: /usr/local/bin/event_rpcgen.py
   tmux: /usr/local/bin/tmux
+  ncurses5-config: /usr/local/bin/ncurses5-config

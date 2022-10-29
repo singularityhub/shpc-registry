@@ -7,13 +7,5 @@ tags:
   1.1.0--r41hdfd78af_9: sha256:bb7dbaaf8e0328adc8cd5f3b8c5cff4646d55c70c84f6e94e95bf3794bc3551c
 docker: quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-huex.1.0.st.v2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-huex.1.0.st.v2frmavecs-post-link.sh
+  .bioconductor-huex.1.0.st.v2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-huex.1.0.st.v2frmavecs-pre-unlink.sh

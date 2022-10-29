@@ -7,6 +7,7 @@ tags:
   6.2--0: sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8
 docker: quay.io/biocontainers/anvio
 aliases:
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
   anvi-analyze-synteny: /usr/local/bin/anvi-analyze-synteny
   anvi-cluster-contigs: /usr/local/bin/anvi-cluster-contigs
   anvi-compute-ani: /usr/local/bin/anvi-compute-ani
@@ -155,9 +156,13 @@ aliases:
   centrifuge_simulate_reads.py: /usr/local/bin/centrifuge_simulate_reads.py
   cheroot: /usr/local/bin/cheroot
   cherryd: /usr/local/bin/cherryd
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
   delta_filter_wrapper.py: /usr/local/bin/delta_filter_wrapper.py
   django-admin: /usr/local/bin/django-admin
   django-admin.py: /usr/local/bin/django-admin.py
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
   genbank_get_genomes_by_taxon.py: /usr/local/bin/genbank_get_genomes_by_taxon.py
   iu-compute-qual-dicts-from-fastq: /usr/local/bin/iu-compute-qual-dicts-from-fastq
   iu-deinterleave-fastq: /usr/local/bin/iu-deinterleave-fastq
@@ -179,13 +184,17 @@ aliases:
   iu-visualize-plot-dicts: /usr/local/bin/iu-visualize-plot-dicts
   iu-visualize-qual-dicts: /usr/local/bin/iu-visualize-qual-dicts
   sqlformat: /usr/local/bin/sqlformat
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  assistant: /usr/local/bin/assistant
-  between-two-genes: /usr/local/bin/between-two-genes
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
+  megahit_core: /usr/local/bin/megahit_core
+  megahit_core_no_hw_accel: /usr/local/bin/megahit_core_no_hw_accel
+  megahit_core_popcnt: /usr/local/bin/megahit_core_popcnt
+  megahit: /usr/local/bin/megahit
+  megahit_toolkit: /usr/local/bin/megahit_toolkit
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall

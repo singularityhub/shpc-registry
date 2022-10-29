@@ -7,13 +7,13 @@ tags:
   1.40.0--r41hc0cfd56_2: sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930
 docker: quay.io/biocontainers/bioconductor-cellnoptr
 aliases:
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  cwebp: /usr/local/bin/cwebp
-  delaunay: /usr/local/bin/delaunay
   diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts

@@ -6,14 +6,3 @@ latest:
 tags:
   1.42.0--r41hdfd78af_0: sha256:d81f68d39ce74fe64e33401aa14f090a90edde9214041d0c9730143b68c915e1
 docker: quay.io/biocontainers/bioconductor-mlp
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,6 +7,7 @@ tags:
   0.6.0--r3.3.1_0: sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48
 docker: quay.io/biocontainers/r-listenv
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

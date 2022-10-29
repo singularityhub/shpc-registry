@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/focus
 aliases:
   focus: /usr/local/bin/focus
   focus_database_utils: /usr/local/bin/focus_database_utils
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
   funzip: /usr/local/bin/funzip
-  idle3.10: /usr/local/bin/idle3.10
-  jellyfish: /usr/local/bin/jellyfish
-  pydoc3.10: /usr/local/bin/pydoc3.10
-  python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
-  python3.10-config: /usr/local/bin/python3.10-config
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
   unzip: /usr/local/bin/unzip
+  jellyfish: /usr/local/bin/jellyfish
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10

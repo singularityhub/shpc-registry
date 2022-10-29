@@ -28,13 +28,13 @@ aliases:
   setup-deps.pl.bak: /usr/local/bin/setup-deps.pl.bak
   setup.sh.orig: /usr/local/bin/setup.sh.orig
   stash-pubmed: /usr/local/bin/stash-pubmed
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
+  common.go: /usr/local/bin/common.go
+  rchive.go: /usr/local/bin/rchive.go
+  setup-deps.log: /usr/local/bin/setup-deps.log
+  setup.sh: /usr/local/bin/setup.sh
+  xtract.go: /usr/local/bin/xtract.go
   asp-cp: /usr/local/bin/asp-cp
   asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  common.go: /usr/local/bin/common.go
-  conda_build.sh: /usr/local/bin/conda_build.sh
-  download-pubmed: /usr/local/bin/download-pubmed
-  download-sequence: /usr/local/bin/download-sequence
+  has-asp: /usr/local/bin/has-asp
+  index-pubmed: /usr/local/bin/index-pubmed
   eaddress: /usr/local/bin/eaddress

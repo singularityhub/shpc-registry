@@ -7,8 +7,8 @@ tags:
   1.6--py35_0: sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1
 docker: quay.io/biocontainers/filechunkio
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

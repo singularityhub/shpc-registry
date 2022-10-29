@@ -7,8 +7,8 @@ tags:
   4.8.0--py35_0: sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a
 docker: quay.io/biocontainers/testfixtures
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

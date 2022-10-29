@@ -6,14 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_0: sha256:bb51fff2fd55848beb3e4b242126b25bb0bb0cd57e529d41bd2d29b6523b304e
 docker: quay.io/biocontainers/bioconductor-pandar
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

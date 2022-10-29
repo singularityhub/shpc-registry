@@ -20,13 +20,13 @@ aliases:
   constax: /usr/local/bin/constax
   constax_no_inputs.sh: /usr/local/bin/constax_no_inputs.sh
   hmmgs: /usr/local/bin/hmmgs
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  vsearch: /usr/local/bin/vsearch
   CA.pm: /usr/local/bin/CA.pm
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
+  cacert.pem: /usr/local/bin/cacert.pem
+  index-themes: /usr/local/bin/index-themes
+  fetch-extras: /usr/local/bin/fetch-extras
+  go.mod: /usr/local/bin/go.mod
+  go.sum: /usr/local/bin/go.sum
+  hlp-xtract.txt: /usr/local/bin/hlp-xtract.txt
+  index-extras: /usr/local/bin/index-extras
+  pm-collect: /usr/local/bin/pm-collect

@@ -7,6 +7,9 @@ tags:
   3.5.3: sha256:beb7f16f0f1b46f0c300d43cb189f7a76ff38688c8aa9d733dec56ca120c704f
 docker: quay.io/biocontainers/singularity
 aliases:
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
   cnitool: /usr/local/bin/cnitool
   docker-run.sh: /usr/local/bin/docker-run.sh
   exec-plugins.sh: /usr/local/bin/exec-plugins.sh
@@ -19,6 +22,3 @@ aliases:
   scmp_sys_resolver: /usr/local/bin/scmp_sys_resolver
   singularity: /usr/local/bin/singularity
   unsquashfs: /usr/local/bin/unsquashfs
-  bsdcat: /usr/local/bin/bsdcat
-  bsdcpio: /usr/local/bin/bsdcpio
-  bsdtar: /usr/local/bin/bsdtar

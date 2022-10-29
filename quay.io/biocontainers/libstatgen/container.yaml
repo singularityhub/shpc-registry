@@ -6,7 +6,3 @@ latest:
 tags:
   1.0.5--he941832_0: sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a
 docker: quay.io/biocontainers/libstatgen
-aliases:
-  activate: /usr/local/bin/activate
-  conda: /usr/local/bin/conda
-  deactivate: /usr/local/bin/deactivate

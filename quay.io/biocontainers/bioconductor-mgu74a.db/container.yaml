@@ -7,4 +7,6 @@ tags:
   3.2.3--r41hdfd78af_7: sha256:66b2733f515aa25c21f03aa961136edce77dda8fee73a5c28d140dc1688cfdce
 docker: quay.io/biocontainers/bioconductor-mgu74a.db
 aliases:
+  .bioconductor-mgu74a.db-post-link.sh: /usr/local/bin/.bioconductor-mgu74a.db-post-link.sh
+  .bioconductor-mgu74a.db-pre-unlink.sh: /usr/local/bin/.bioconductor-mgu74a.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

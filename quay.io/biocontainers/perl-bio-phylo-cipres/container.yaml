@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/perl-bio-phylo-cipres
 aliases:
   cipresrun: /usr/local/bin/cipresrun
-  annotate: /usr/local/bin/annotate
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  gd2copypal: /usr/local/bin/gd2copypal
-  gd2togif: /usr/local/bin/gd2togif
-  gd2topng: /usr/local/bin/gd2topng
-  gdcmpgif: /usr/local/bin/gdcmpgif
-  gdparttopng: /usr/local/bin/gdparttopng
+  imgsize: /usr/local/bin/imgsize
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split
+  tpage: /usr/local/bin/tpage
+  ttree: /usr/local/bin/ttree
+  webtidy: /usr/local/bin/webtidy
+  tidyp: /usr/local/bin/tidyp

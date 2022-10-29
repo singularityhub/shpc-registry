@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/somalier
 aliases:
   somalier: /usr/local/bin/somalier
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

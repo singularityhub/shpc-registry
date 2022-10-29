@@ -11,13 +11,13 @@ aliases:
   graph_plot.py: /usr/local/bin/graph_plot.py
   swarm: /usr/local/bin/swarm
   thapbi_pict: /usr/local/bin/thapbi_pict
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  bcomps: /usr/local/bin/bcomps
-  between-two-genes: /usr/local/bin/between-two-genes
+  flash: /usr/local/bin/flash
+  igraph: /usr/local/bin/igraph
+  cutadapt: /usr/local/bin/cutadapt
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  trimmomatic: /usr/local/bin/trimmomatic
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  fetch-extras: /usr/local/bin/fetch-extras

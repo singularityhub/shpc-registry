@@ -23,7 +23,7 @@ aliases:
   singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
   singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
   build_env_setup.sh: /usr/local/bin/build_env_setup.sh
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
   conda_build.sh: /usr/local/bin/conda_build.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

@@ -6,14 +6,3 @@ latest:
 tags:
   0.0.6--r41h9f5acd7_6: sha256:484ac797fab2a3f76843f4123df2f791dd6d7f31921228ef095479d42474b2e3
 docker: quay.io/biocontainers/r-rrbgen
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

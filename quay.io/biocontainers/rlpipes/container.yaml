@@ -9,12 +9,14 @@ docker: quay.io/biocontainers/rlpipes
 aliases:
   RLPipes: /usr/local/bin/RLPipes
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
+  abi-load: /usr/local/bin/abi-load
   abi-load.2: /usr/local/bin/abi-load.2
   abi-load.2.11.0: /usr/local/bin/abi-load.2.11.0
   align-cache.2.11.0: /usr/local/bin/align-cache.2.11.0
   align-info.2.11.0: /usr/local/bin/align-info.2.11.0
   bam-load.2.11.0: /usr/local/bin/bam-load.2.11.0
   cache-mgr.2.11.0: /usr/local/bin/cache-mgr.2.11.0
+  ccextract: /usr/local/bin/ccextract
   ccextract.2: /usr/local/bin/ccextract.2
   ccextract.2.11.0: /usr/local/bin/ccextract.2.11.0
   cg-load.2.11.0: /usr/local/bin/cg-load.2.11.0
@@ -22,11 +24,14 @@ aliases:
   fasterq-dump.2.11.0: /usr/local/bin/fasterq-dump.2.11.0
   fastq-dump-orig.2.11.0: /usr/local/bin/fastq-dump-orig.2.11.0
   fastq-dump.2.11.0: /usr/local/bin/fastq-dump.2.11.0
+  fastq-load: /usr/local/bin/fastq-load
   fastq-load.2: /usr/local/bin/fastq-load.2
   fastq-load.2.11.0: /usr/local/bin/fastq-load.2.11.0
+  helicos-load: /usr/local/bin/helicos-load
   helicos-load.2: /usr/local/bin/helicos-load.2
   helicos-load.2.11.0: /usr/local/bin/helicos-load.2.11.0
   illumina-dump.2.11.0: /usr/local/bin/illumina-dump.2.11.0
+  illumina-load: /usr/local/bin/illumina-load
   illumina-load.2: /usr/local/bin/illumina-load.2
   illumina-load.2.11.0: /usr/local/bin/illumina-load.2.11.0
   kar.2.11.0: /usr/local/bin/kar.2.11.0
@@ -34,18 +39,22 @@ aliases:
   kget.2.11.0: /usr/local/bin/kget.2.11.0
   latf-load.2.11.0: /usr/local/bin/latf-load.2.11.0
   md5cp.2.11.0: /usr/local/bin/md5cp.2.11.0
+  pacbio-load: /usr/local/bin/pacbio-load
   pacbio-load.2: /usr/local/bin/pacbio-load.2
   pacbio-load.2.11.0: /usr/local/bin/pacbio-load.2.11.0
+  pacbio-loadxml: /usr/local/bin/pacbio-loadxml
   pacbio-loadxml.2: /usr/local/bin/pacbio-loadxml.2
   pacbio-loadxml.2.11.0: /usr/local/bin/pacbio-loadxml.2.11.0
   prefetch-orig.2.11.0: /usr/local/bin/prefetch-orig.2.11.0
   prefetch.2.11.0: /usr/local/bin/prefetch.2.11.0
+  pyfastx: /usr/local/bin/pyfastx
   pysradb: /usr/local/bin/pysradb
   rcexplain.2.11.0: /usr/local/bin/rcexplain.2.11.0
   read-filter-redact.2.11.0: /usr/local/bin/read-filter-redact.2.11.0
   sam-dump-orig.2.11.0: /usr/local/bin/sam-dump-orig.2.11.0
   sam-dump.2.11.0: /usr/local/bin/sam-dump.2.11.0
   sff-dump.2.11.0: /usr/local/bin/sff-dump.2.11.0
+  sff-load: /usr/local/bin/sff-load
   sff-load.2: /usr/local/bin/sff-load.2
   sff-load.2.11.0: /usr/local/bin/sff-load.2.11.0
   sra-pileup-orig.2.11.0: /usr/local/bin/sra-pileup-orig.2.11.0
@@ -56,6 +65,7 @@ aliases:
   srapath-orig.2.11.0: /usr/local/bin/srapath-orig.2.11.0
   srapath.2.11.0: /usr/local/bin/srapath.2.11.0
   sratools.2.11.0: /usr/local/bin/sratools.2.11.0
+  srf-load: /usr/local/bin/srf-load
   srf-load.2: /usr/local/bin/srf-load.2
   srf-load.2.11.0: /usr/local/bin/srf-load.2.11.0
   test-sra.2.11.0: /usr/local/bin/test-sra.2.11.0
@@ -70,13 +80,13 @@ aliases:
   vdb-passwd.2.11.0: /usr/local/bin/vdb-passwd.2.11.0
   vdb-unlock.2.11.0: /usr/local/bin/vdb-unlock.2.11.0
   vdb-validate.2.11.0: /usr/local/bin/vdb-validate.2.11.0
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  abi-load: /usr/local/bin/abi-load
-  acyclic: /usr/local/bin/acyclic
-  align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
-  annotate: /usr/local/bin/annotate
+  md5cp.2: /usr/local/bin/md5cp.2
+  read-filter-redact.2: /usr/local/bin/read-filter-redact.2
+  sra-sort-cg.2: /usr/local/bin/sra-sort-cg.2
+  vdb-diff.2: /usr/local/bin/vdb-diff.2
+  align-cache: /usr/local/bin/align-cache
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  md5cp: /usr/local/bin/md5cp
+  prefetch-orig: /usr/local/bin/prefetch-orig

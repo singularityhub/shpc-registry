@@ -6,14 +6,3 @@ latest:
 tags:
   1.32.0--r41hdfd78af_0: sha256:310f5b8f9a90f01d53c1f2e1eec674ac7586bc724d096d64e80736869988ac8c
 docker: quay.io/biocontainers/bioconductor-sigfuge
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

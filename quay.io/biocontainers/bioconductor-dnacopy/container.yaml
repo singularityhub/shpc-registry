@@ -6,14 +6,3 @@ latest:
 tags:
   1.68.0--r41hefde4a7_2: sha256:47435e845138630fbb7cc910441f609744ac2499c17a950e9202c4bc13a8cda7
 docker: quay.io/biocontainers/bioconductor-dnacopy
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

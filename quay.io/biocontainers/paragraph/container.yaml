@@ -25,13 +25,13 @@ aliases:
   test_blackbox: /usr/local/bin/test_blackbox
   test_grm: /usr/local/bin/test_grm
   vcf2paragraph.py: /usr/local/bin/vcf2paragraph.py
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  bgzip: /usr/local/bin/bgzip
-  htsfile: /usr/local/bin/htsfile
-  idle3.7: /usr/local/bin/idle3.7
   jsonschema: /usr/local/bin/jsonschema
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
   python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  htsfile: /usr/local/bin/htsfile

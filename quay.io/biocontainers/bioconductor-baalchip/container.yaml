@@ -7,6 +7,6 @@ tags:
   1.8.0--r351_0: sha256:b3a44b808ed028202afbd716ca6307574258150c46677ab4353f41b0dbcc9fe0
 docker: quay.io/biocontainers/bioconductor-baalchip
 aliases:
+  wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  wget: /usr/local/bin/wget

@@ -10,9 +10,9 @@ aliases:
   bcalm: /usr/local/bin/bcalm
   kissplice: /usr/local/bin/kissplice
   2to3-3.10: /usr/local/bin/2to3-3.10
-  h5cc: /usr/local/bin/h5cc
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
+  h5cc: /usr/local/bin/h5cc

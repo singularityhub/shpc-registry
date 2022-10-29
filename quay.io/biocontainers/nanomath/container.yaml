@@ -7,8 +7,8 @@ tags:
   1.2.1--pyhdfd78af_0: sha256:a768a517d2a217db0c27f9e5312e3a6874800d65fe1e135887bfcf04fda3cfac
 docker: quay.io/biocontainers/nanomath
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

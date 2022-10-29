@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/pypairs
 aliases:
   cyclone: /usr/local/bin/cyclone
   sandbag: /usr/local/bin/sandbag
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  natsort: /usr/local/bin/natsort
+  tqdm: /usr/local/bin/tqdm
   f2py3.8: /usr/local/bin/f2py3.8
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5

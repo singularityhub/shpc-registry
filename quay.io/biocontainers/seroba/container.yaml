@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/seroba
 aliases:
   ariba: /usr/local/bin/ariba
   seroba: /usr/local/bin/seroba
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  kmc: /usr/local/bin/kmc
+  kmc_dump: /usr/local/bin/kmc_dump
+  kmc_tools: /usr/local/bin/kmc_tools
+  fastaq: /usr/local/bin/fastaq
   FET.pl: /usr/local/bin/FET.pl
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2: /usr/local/bin/bowtie2
-  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
-  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
-  bowtie2-build: /usr/local/bin/bowtie2-build
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  cds-mapping-stats: /usr/local/bin/cds-mapping-stats
+  cds-subgraphs: /usr/local/bin/cds-subgraphs
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl

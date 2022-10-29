@@ -7,18 +7,22 @@ tags:
   2.62--py39h8c4442e_2: sha256:4b3eaf5f92231aacb9cb5a9f2e6dc78f6836edc9bac0a014efb23482c7ab3a7f
 docker: quay.io/biocontainers/pyfba
 aliases:
+  black: /usr/local/bin/black
   black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd
+  jupyter-console: /usr/local/bin/jupyter-console
   jupyter-dejavu: /usr/local/bin/jupyter-dejavu
   jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
   pyfba: /usr/local/bin/pyfba
   send2trash: /usr/local/bin/send2trash
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  black: /usr/local/bin/black
-  blackd: /usr/local/bin/blackd
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
+  xkbcli: /usr/local/bin/xkbcli

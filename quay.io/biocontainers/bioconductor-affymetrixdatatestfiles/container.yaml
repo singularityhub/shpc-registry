@@ -7,13 +7,5 @@ tags:
   0.32.0--r41hdfd78af_1: sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a
 docker: quay.io/biocontainers/bioconductor-affymetrixdatatestfiles
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-affymetrixdatatestfiles-post-link.sh: /usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh
+  .bioconductor-affymetrixdatatestfiles-pre-unlink.sh: /usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh

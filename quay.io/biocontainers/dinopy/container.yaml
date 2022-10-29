@@ -7,8 +7,8 @@ tags:
   2.2.1--py39hc16433a_2: sha256:85e3affae795af461f9ad88366de17edc47fc2232a880d0f67bda2c9fbf28402
 docker: quay.io/biocontainers/dinopy
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
   f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9

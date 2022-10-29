@@ -7,6 +7,7 @@ tags:
   0.8.8--h7fd9d64_8: sha256:364436e67b67b7633512c1ff898aac1d3836f1608cfa230345b4394d1fbf1c0d
 docker: quay.io/biocontainers/molpopgen-analysis
 aliases:
+  .molpopgen-analysis-post-link.sh: /usr/local/bin/.molpopgen-analysis-post-link.sh
   Fexact: /usr/local/bin/Fexact
   HBKpermute: /usr/local/bin/HBKpermute
   MKtest: /usr/local/bin/MKtest
@@ -20,6 +21,6 @@ aliases:
   sharedPoly: /usr/local/bin/sharedPoly
   snntest: /usr/local/bin/snntest
   translateCoding: /usr/local/bin/translateCoding
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

@@ -7,16 +7,29 @@ tags:
   1.0.2--pyhdfd78af_1: sha256:db69be145358560534e88b04dc3dd60149e874dd60972d37f485b5634d3b44ab
 docker: quay.io/biocontainers/ngs_te_mapper2
 aliases:
-  ngs_te_mapper2: /usr/local/bin/ngs_te_mapper2
-  queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
-  queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  CA.pm: /usr/local/bin/CA.pm
   DateRepeats: /usr/local/bin/DateRepeats
   DupMasker: /usr/local/bin/DupMasker
   ProcessRepeats: /usr/local/bin/ProcessRepeats
   RepeatMasker: /usr/local/bin/RepeatMasker
   RepeatProteinMask: /usr/local/bin/RepeatProteinMask
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  alimask: /usr/local/bin/alimask
+  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
+  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
+  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
+  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
+  ngs_te_mapper2: /usr/local/bin/ngs_te_mapper2
+  queryRepeatDatabase.pl: /usr/local/bin/queryRepeatDatabase.pl
+  queryTaxonomyDatabase.pl: /usr/local/bin/queryTaxonomyDatabase.pl
+  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
+  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
+  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
+  trfMask: /usr/local/bin/trfMask
+  rmblastn: /usr/local/bin/rmblastn
+  trf4.10.0-rc.2.linux64.exe: /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+  trf: /usr/local/bin/trf
+  blast_report: /usr/local/bin/blast_report
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  certtool: /usr/local/bin/certtool
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv

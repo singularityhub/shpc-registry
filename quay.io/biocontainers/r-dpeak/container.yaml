@@ -7,13 +7,5 @@ tags:
   2.0.1--r41h9f5acd7_6: sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64
 docker: quay.io/biocontainers/r-dpeak
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -8,9 +8,9 @@ tags:
 docker: quay.io/biocontainers/hypo
 aliases:
   hypo: /usr/local/bin/hypo
-  bgzip: /usr/local/bin/bgzip
-  htsfile: /usr/local/bin/htsfile
   kmc: /usr/local/bin/kmc
   kmc_dump: /usr/local/bin/kmc_dump
   kmc_tools: /usr/local/bin/kmc_tools
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

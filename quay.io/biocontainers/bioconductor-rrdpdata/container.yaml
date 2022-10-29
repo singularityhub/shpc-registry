@@ -7,13 +7,15 @@ tags:
   1.8.0--r40_0: sha256:05413fbf16b06cfa04eb338ccfb626c2c50081127dcc438f6c18e7d70b5e8458
 docker: quay.io/biocontainers/bioconductor-rrdpdata
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  .bioconductor-rrdpdata-post-link.sh: /usr/local/bin/.bioconductor-rrdpdata-post-link.sh
+  .bioconductor-rrdpdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rrdpdata-pre-unlink.sh
+  jaotc: /usr/local/bin/jaotc
   aserver: /usr/local/bin/aserver
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
-  idle3.8: /usr/local/bin/idle3.8
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jjs: /usr/local/bin/jjs
+  pack200: /usr/local/bin/pack200

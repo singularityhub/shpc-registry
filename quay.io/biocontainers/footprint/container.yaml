@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/footprint
 aliases:
   find_footprints.sh: /usr/local/bin/find_footprints.sh
-  annotateBed: /usr/local/bin/annotateBed
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
   awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed

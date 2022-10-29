@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:2f453e57cc1517a73f67c3c3656894016d2a3a4769520dbe6f576a7e923a541e
 docker: quay.io/biocontainers/bioconductor-hu35ksubccdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hu35ksubccdf-post-link.sh: /usr/local/bin/.bioconductor-hu35ksubccdf-post-link.sh
+  .bioconductor-hu35ksubccdf-pre-unlink.sh: /usr/local/bin/.bioconductor-hu35ksubccdf-pre-unlink.sh

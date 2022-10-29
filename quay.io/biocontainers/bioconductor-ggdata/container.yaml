@@ -7,4 +7,6 @@ tags:
   1.28.0--r40hdfd78af_1: sha256:d12f9c93a5b9c55afc8212d9b9977e0f8bf63c4f649cf4a4022f751a48de52bb
 docker: quay.io/biocontainers/bioconductor-ggdata
 aliases:
+  .bioconductor-ggdata-post-link.sh: /usr/local/bin/.bioconductor-ggdata-post-link.sh
+  .bioconductor-ggdata-pre-unlink.sh: /usr/local/bin/.bioconductor-ggdata-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

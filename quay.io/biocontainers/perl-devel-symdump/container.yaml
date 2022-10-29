@@ -8,3 +8,4 @@ tags:
 docker: quay.io/biocontainers/perl-devel-symdump
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

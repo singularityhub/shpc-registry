@@ -7,13 +7,13 @@ tags:
   0.10.11--r3.3.1_0: sha256:17d303fe092819749431b8044e714a004495625d9f6b5c3f341b866ea8bc61c8
 docker: quay.io/biocontainers/r-rmysql
 aliases:
-  bmp2tiff: /usr/local/bin/bmp2tiff
-  gif2tiff: /usr/local/bin/gif2tiff
   my_print_defaults: /usr/local/bin/my_print_defaults
   mysql_config: /usr/local/bin/mysql_config
-  ncurses5-config: /usr/local/bin/ncurses5-config
   perror: /usr/local/bin/perror
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
   thumbnail: /usr/local/bin/thumbnail
   uconv: /usr/local/bin/uconv
+  ncurses5-config: /usr/local/bin/ncurses5-config

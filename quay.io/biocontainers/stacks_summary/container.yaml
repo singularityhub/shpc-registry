@@ -9,12 +9,12 @@ docker: quay.io/biocontainers/stacks_summary
 aliases:
   stacks_summary.py: /usr/local/bin/stacks_summary.py
   easy_install-2.7: /usr/local/bin/easy_install-2.7
-  idle: /usr/local/bin/idle
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
   python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
   python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py
+  tclsh8.5: /usr/local/bin/tclsh8.5
+  wish8.5: /usr/local/bin/wish8.5

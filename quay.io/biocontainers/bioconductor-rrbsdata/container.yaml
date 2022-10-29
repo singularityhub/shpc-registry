@@ -7,8 +7,13 @@ tags:
   1.8.0--r40_0: sha256:889dc016cbf743d72de36f1233e097cbae051cdfdef6242c68d6c0c823acb2ea
 docker: quay.io/biocontainers/bioconductor-rrbsdata
 aliases:
+  .bioconductor-rrbsdata-post-link.sh: /usr/local/bin/.bioconductor-rrbsdata-post-link.sh
+  .bioconductor-rrbsdata-pre-unlink.sh: /usr/local/bin/.bioconductor-rrbsdata-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

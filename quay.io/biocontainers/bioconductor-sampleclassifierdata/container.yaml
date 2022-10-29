@@ -7,13 +7,8 @@ tags:
   1.8.0--r36_1: sha256:4defde2cbc9210877f3c2d6d17dab085f459325c8b98a22809df8317b75f84a3
 docker: quay.io/biocontainers/bioconductor-sampleclassifierdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  .bioconductor-sampleclassifierdata-post-link.sh: /usr/local/bin/.bioconductor-sampleclassifierdata-post-link.sh
+  .bioconductor-sampleclassifierdata-pre-unlink.sh: /usr/local/bin/.bioconductor-sampleclassifierdata-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

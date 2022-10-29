@@ -8,25 +8,35 @@ tags:
 docker: quay.io/biocontainers/mitgard
 aliases:
   MITGARD.py: /usr/local/bin/MITGARD.py
+  PtR: /usr/local/bin/PtR
   RearrangementCheck.py: /usr/local/bin/RearrangementCheck.py
+  Trinity: /usr/local/bin/Trinity
+  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
   Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
   analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
   contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
   define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
   extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
   filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
   get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
   msa2consensus.py: /usr/local/bin/msa2consensus.py
+  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
+  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
   sam2msa.py: /usr/local/bin/sam2msa.py
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  PtR: /usr/local/bin/PtR
-  Trinity: /usr/local/bin/Trinity
-  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
-  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
-  ace2sam: /usr/local/bin/ace2sam
-  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
-  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  salmon: /usr/local/bin/salmon
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jeprof: /usr/local/bin/jeprof
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s

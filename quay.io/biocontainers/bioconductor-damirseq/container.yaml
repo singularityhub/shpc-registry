@@ -7,13 +7,13 @@ tags:
   2.6.0--r41hdfd78af_0: sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce
 docker: quay.io/biocontainers/bioconductor-damirseq
 aliases:
-  aserver: /usr/local/bin/aserver
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jjs: /usr/local/bin/jjs

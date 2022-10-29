@@ -7,6 +7,7 @@ tags:
   1.1.3a2--py38pl5321h8ded8fe_5: sha256:14ec1655a93326ba80231553deb5c635b6908f4f3769f3ea12f8e1ee6edbfad3
 docker: quay.io/biocontainers/idba_subasm
 aliases:
+  Makefile: /usr/local/bin/Makefile
   Makefile.am: /usr/local/bin/Makefile.am
   Makefile.in: /usr/local/bin/Makefile.in
   bazel-scan.py: /usr/local/bin/bazel-scan.py
@@ -18,6 +19,7 @@ aliases:
   filter_contigs.o: /usr/local/bin/filter_contigs.o
   filterfa: /usr/local/bin/filterfa
   filterfa.o: /usr/local/bin/filterfa.o
+  fq2fa: /usr/local/bin/fq2fa
   fq2fa.o: /usr/local/bin/fq2fa.o
   idba: /usr/local/bin/idba
   idba.o: /usr/local/bin/idba.o
@@ -55,6 +57,7 @@ aliases:
   sort_psl.o: /usr/local/bin/sort_psl.o
   sort_reads: /usr/local/bin/sort_reads
   sort_reads.o: /usr/local/bin/sort_reads.o
+  split_fa: /usr/local/bin/split_fa
   split_fa.o: /usr/local/bin/split_fa.o
   split_fq: /usr/local/bin/split_fq
   split_fq.o: /usr/local/bin/split_fq.o
@@ -76,12 +79,11 @@ aliases:
   validate_reads_blat.o: /usr/local/bin/validate_reads_blat.o
   validate_rna: /usr/local/bin/validate_rna
   validate_rna.o: /usr/local/bin/validate_rna.o
+  test: /usr/local/bin/test
   2to3-3.8: /usr/local/bin/2to3-3.8
-  Makefile: /usr/local/bin/Makefile
-  fq2fa: /usr/local/bin/fq2fa
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
-  split_fa: /usr/local/bin/split_fa
-  test: /usr/local/bin/test
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

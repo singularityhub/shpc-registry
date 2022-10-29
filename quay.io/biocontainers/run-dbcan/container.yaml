@@ -8,20 +8,22 @@ tags:
 docker: quay.io/biocontainers/run-dbcan
 aliases:
   CGCFinder.py: /usr/local/bin/CGCFinder.py
+  FragGeneScan: /usr/local/bin/FragGeneScan
   add_functions_orf.py: /usr/local/bin/add_functions_orf.py
   bact_group_many_proteins_many_patterns.py: /usr/local/bin/bact_group_many_proteins_many_patterns.py
   hmmscan-parser.py: /usr/local/bin/hmmscan-parser.py
   list_multidomain_proteins.py: /usr/local/bin/list_multidomain_proteins.py
   parallel_group_many_proteins_many_patterns_noDNA.py: /usr/local/bin/parallel_group_many_proteins_many_patterns_noDNA.py
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
   run_dbcan.py: /usr/local/bin/run_dbcan.py
   train_many_organisms_many_families.py: /usr/local/bin/train_many_organisms_many_families.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  FragGeneScan: /usr/local/bin/FragGeneScan
-  alimask: /usr/local/bin/alimask
   diamond: /usr/local/bin/diamond
+  perl5.32.0: /usr/local/bin/perl5.32.0
+  natsort: /usr/local/bin/natsort
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
   easel: /usr/local/bin/easel
-  esl-afetch: /usr/local/bin/esl-afetch
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
   esl-alimanip: /usr/local/bin/esl-alimanip
   esl-alimap: /usr/local/bin/esl-alimap
   esl-alimask: /usr/local/bin/esl-alimask
-  esl-alimerge: /usr/local/bin/esl-alimerge

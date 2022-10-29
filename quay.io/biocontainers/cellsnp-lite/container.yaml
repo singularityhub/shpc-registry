@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/cellsnp-lite
 aliases:
   cellsnp-lite: /usr/local/bin/cellsnp-lite
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

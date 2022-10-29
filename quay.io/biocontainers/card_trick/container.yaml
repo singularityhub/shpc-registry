@@ -9,9 +9,9 @@ docker: quay.io/biocontainers/card_trick
 aliases:
   card-trick: /usr/local/bin/card-trick
   pronto: /usr/local/bin/pronto
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
   f2py3.8: /usr/local/bin/f2py3.8
+  chardetect: /usr/local/bin/chardetect
+  2to3-3.8: /usr/local/bin/2to3-3.8
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8

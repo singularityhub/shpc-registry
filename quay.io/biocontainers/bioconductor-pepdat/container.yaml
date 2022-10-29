@@ -7,9 +7,13 @@ tags:
   1.8.0--r40_0: sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb
 docker: quay.io/biocontainers/bioconductor-pepdat
 aliases:
+  .bioconductor-pepdat-post-link.sh: /usr/local/bin/.bioconductor-pepdat-post-link.sh
+  .bioconductor-pepdat-pre-unlink.sh: /usr/local/bin/.bioconductor-pepdat-pre-unlink.sh
   2to3-3.8: /usr/local/bin/2to3-3.8
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8
   python3.8-config: /usr/local/bin/python3.8-config
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

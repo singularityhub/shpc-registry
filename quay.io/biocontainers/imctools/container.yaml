@@ -7,13 +7,13 @@ tags:
   1.0.8--pyh864c0ab_0: sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f
 docker: quay.io/biocontainers/imctools
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
   JxrDecApp: /usr/local/bin/JxrDecApp
   JxrEncApp: /usr/local/bin/JxrEncApp
-  aec: /usr/local/bin/aec
-  brotli: /usr/local/bin/brotli
   cbrunsli: /usr/local/bin/cbrunsli
   dbrunsli: /usr/local/bin/dbrunsli
-  f2py3.8: /usr/local/bin/f2py3.8
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng

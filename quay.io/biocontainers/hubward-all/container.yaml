@@ -9,6 +9,8 @@ docker: quay.io/biocontainers/hubward-all
 aliases:
   CrossMap.py: /usr/local/bin/CrossMap.py
   annotate.pyc: /usr/local/bin/annotate.pyc
+  bigBedToBed: /usr/local/bin/bigBedToBed
+  bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
   bigWigToWig: /usr/local/bin/bigWigToWig
   fab: /usr/local/bin/fab
   fetchChromSizes: /usr/local/bin/fetchChromSizes
@@ -22,13 +24,13 @@ aliases:
   peak_pie.pyc: /usr/local/bin/peak_pie.pyc
   venn_gchart.pyc: /usr/local/bin/venn_gchart.pyc
   venn_mpl.pyc: /usr/local/bin/venn_mpl.pyc
+  wigToBigWig: /usr/local/bin/wigToBigWig
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBigBed: /usr/local/bin/bedToBigBed
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
   axt_to_lav.py: /usr/local/bin/axt_to_lav.py
   axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
+  bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py

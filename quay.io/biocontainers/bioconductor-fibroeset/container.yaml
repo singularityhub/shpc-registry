@@ -7,13 +7,5 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7
 docker: quay.io/biocontainers/bioconductor-fibroeset
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-fibroeset-post-link.sh: /usr/local/bin/.bioconductor-fibroeset-post-link.sh
+  .bioconductor-fibroeset-pre-unlink.sh: /usr/local/bin/.bioconductor-fibroeset-pre-unlink.sh

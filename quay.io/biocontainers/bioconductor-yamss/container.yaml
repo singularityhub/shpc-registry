@@ -7,13 +7,13 @@ tags:
   1.8.1--r351_0: sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77
 docker: quay.io/biocontainers/bioconductor-yamss
 aliases:
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
-  gif2h5: /usr/local/bin/gif2h5
   gif2hdf: /usr/local/bin/gif2hdf
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp

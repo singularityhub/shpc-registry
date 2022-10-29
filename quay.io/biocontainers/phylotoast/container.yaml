@@ -38,13 +38,13 @@ aliases:
   split_sequence_data.py: /usr/local/bin/split_sequence_data.py
   transform_biom.py: /usr/local/bin/transform_biom.py
   transpose_biom.py: /usr/local/bin/transpose_biom.py
-  assistant: /usr/local/bin/assistant
   biom: /usr/local/bin/biom
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  sample: /usr/local/bin/sample
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
+  iptest: /usr/local/bin/iptest
+  ipython: /usr/local/bin/ipython
+  natsort: /usr/local/bin/natsort
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  pygmentize: /usr/local/bin/pygmentize
+  pylupdate5: /usr/local/bin/pylupdate5
+  pyrcc5: /usr/local/bin/pyrcc5

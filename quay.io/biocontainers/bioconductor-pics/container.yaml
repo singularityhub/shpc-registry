@@ -6,14 +6,3 @@ latest:
 tags:
   2.38.0--r41hc0cfd56_2: sha256:d81d349d8a1d1e1badc5c0a3b0f48f67ce8be3e81de0deac249a27f15edcba05
 docker: quay.io/biocontainers/bioconductor-pics
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

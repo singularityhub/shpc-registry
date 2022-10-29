@@ -67,6 +67,7 @@ aliases:
   dbTestScript: /usr/local/bin/dbTestScript
   docker_test_script: /usr/local/bin/docker_test_script
   findRegionsExclusivelyInGroup: /usr/local/bin/findRegionsExclusivelyInGroup
+  galaxy-tool-test: /usr/local/bin/galaxy-tool-test
   hal2assemblyHub.py: /usr/local/bin/hal2assemblyHub.py
   hal2chain: /usr/local/bin/hal2chain
   hal2fasta: /usr/local/bin/hal2fasta
@@ -146,6 +147,11 @@ aliases:
   matchGraph.py: /usr/local/bin/matchGraph.py
   matchingAndOrderingTests: /usr/local/bin/matchingAndOrderingTests
   mock-cwl-runner: /usr/local/bin/mock-cwl-runner
+  mulled-build: /usr/local/bin/mulled-build
+  mulled-build-channel: /usr/local/bin/mulled-build-channel
+  mulled-build-files: /usr/local/bin/mulled-build-files
+  mulled-build-tool: /usr/local/bin/mulled-build-tool
+  mulled-search: /usr/local/bin/mulled-search
   multijob: /usr/local/bin/multijob
   mwmatching.py: /usr/local/bin/mwmatching.py
   referenceTests: /usr/local/bin/referenceTests
@@ -163,13 +169,13 @@ aliases:
   toil-cwl-runner: /usr/local/bin/toil-cwl-runner
   toil-wdl-runner: /usr/local/bin/toil-wdl-runner
   wsdump.py: /usr/local/bin/wsdump.py
-  asadmin: /usr/local/bin/asadmin
-  avro: /usr/local/bin/avro
-  bedToBigBed: /usr/local/bin/bedToBigBed
-  bundle_image: /usr/local/bin/bundle_image
-  cfadmin: /usr/local/bin/cfadmin
-  chardetect: /usr/local/bin/chardetect
-  cq: /usr/local/bin/cq
-  csv2rdf: /usr/local/bin/csv2rdf
   cwltool: /usr/local/bin/cwltool
-  cwutil: /usr/local/bin/cwutil
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
+  avro: /usr/local/bin/avro
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  asadmin: /usr/local/bin/asadmin
+  bundle_image: /usr/local/bin/bundle_image

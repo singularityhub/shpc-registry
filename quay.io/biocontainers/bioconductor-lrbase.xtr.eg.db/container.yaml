@@ -7,4 +7,6 @@ tags:
   2.0.0--r41hdfd78af_0: sha256:e7f3652a099ea0e04223a63bca557ef742643b26fe33bec31cb35157e4457454
 docker: quay.io/biocontainers/bioconductor-lrbase.xtr.eg.db
 aliases:
+  .bioconductor-lrbase.xtr.eg.db-post-link.sh: /usr/local/bin/.bioconductor-lrbase.xtr.eg.db-post-link.sh
+  .bioconductor-lrbase.xtr.eg.db-pre-unlink.sh: /usr/local/bin/.bioconductor-lrbase.xtr.eg.db-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

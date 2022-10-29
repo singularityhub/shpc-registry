@@ -7,13 +7,13 @@ tags:
   1.2.0--py27_1: sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0
 docker: quay.io/biocontainers/pyopt
 aliases:
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  parkill: /usr/local/bin/parkill
   hydra_nameserver: /usr/local/bin/hydra_nameserver
   hydra_persist: /usr/local/bin/hydra_persist
   hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
-  idle: /usr/local/bin/idle
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  mpifort: /usr/local/bin/mpifort
   mpic++: /usr/local/bin/mpic++
   mpicc: /usr/local/bin/mpicc
-  mpichversion: /usr/local/bin/mpichversion
-  mpicxx: /usr/local/bin/mpicxx
-  mpiexec: /usr/local/bin/mpiexec
-  mpiexec.hydra: /usr/local/bin/mpiexec.hydra

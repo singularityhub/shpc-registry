@@ -20,13 +20,14 @@ aliases:
   pyhocon: /usr/local/bin/pyhocon
   run_mysql_server_docker.sh: /usr/local/bin/run_mysql_server_docker.sh
   run_mysql_server_singularity.sh: /usr/local/bin/run_mysql_server_singularity.sh
-  2to3-3.8: /usr/local/bin/2to3-3.8
+  wsdump.py: /usr/local/bin/wsdump.py
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
   activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  chardetect: /usr/local/bin/chardetect
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   coloredlogs: /usr/local/bin/coloredlogs
   humanfriendly: /usr/local/bin/humanfriendly
-  idle3.8: /usr/local/bin/idle3.8
   jp.py: /usr/local/bin/jp.py
-  protoc: /usr/local/bin/protoc
   py.test: /usr/local/bin/py.test
-  pydoc3.8: /usr/local/bin/pydoc3.8

@@ -7,7 +7,7 @@ tags:
   1.8.0--r341hfc679d8_0: sha256:60ec90d8ca9ecb214a254866a813dbeeaecd1f7618ebe5a05105ca99dc5d9e00
 docker: quay.io/biocontainers/bioconductor-linc
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   udunits2: /usr/local/bin/udunits2
   wget: /usr/local/bin/wget
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

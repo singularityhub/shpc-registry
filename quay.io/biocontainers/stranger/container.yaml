@@ -8,9 +8,9 @@ tags:
 docker: quay.io/biocontainers/stranger
 aliases:
   stranger: /usr/local/bin/stranger
-  2to3-3.10: /usr/local/bin/2to3-3.10
   coloredlogs: /usr/local/bin/coloredlogs
   humanfriendly: /usr/local/bin/humanfriendly
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

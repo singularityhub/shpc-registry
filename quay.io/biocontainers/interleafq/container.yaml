@@ -10,3 +10,5 @@ aliases:
   fqc: /usr/local/bin/fqc
   fqlen.pl: /usr/local/bin/fqlen.pl
   interleafq: /usr/local/bin/interleafq
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

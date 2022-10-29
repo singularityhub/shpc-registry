@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:089856a3a1c48b2de7898fba6a4ccac48fa36cbcd5b5cb12739d3ef068f63b1d
 docker: quay.io/biocontainers/bioconductor-connectivitymap
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-connectivitymap-post-link.sh: /usr/local/bin/.bioconductor-connectivitymap-post-link.sh
+  .bioconductor-connectivitymap-pre-unlink.sh: /usr/local/bin/.bioconductor-connectivitymap-pre-unlink.sh

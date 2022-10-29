@@ -7,14 +7,17 @@ tags:
   0.1.0--py_2: sha256:d14c520efa78c4b126a08e926dc097a39e8e57da517f0177431ce11a12fea939
 docker: quay.io/biocontainers/taeper
 aliases:
-  taeper: /usr/local/bin/taeper
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
   fast5_subset: /usr/local/bin/fast5_subset
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  taeper: /usr/local/bin/taeper
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7: /usr/local/bin/python3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug

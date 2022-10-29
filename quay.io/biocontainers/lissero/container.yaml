@@ -8,15 +8,16 @@ tags:
 docker: quay.io/biocontainers/lissero
 aliases:
   gfPcr: /usr/local/bin/gfPcr
+  gfServer: /usr/local/bin/gfServer
   isPcr: /usr/local/bin/isPcr
   lissero: /usr/local/bin/lissero
-  2to3-3.9: /usr/local/bin/2to3-3.9
   CA.pm: /usr/local/bin/CA.pm
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  cacert.pem: /usr/local/bin/cacert.pem
+  index-themes: /usr/local/bin/index-themes
+  fetch-extras: /usr/local/bin/fetch-extras
+  go.mod: /usr/local/bin/go.mod
+  go.sum: /usr/local/bin/go.sum
+  hlp-xtract.txt: /usr/local/bin/hlp-xtract.txt
+  index-extras: /usr/local/bin/index-extras
+  pm-collect: /usr/local/bin/pm-collect
+  readme.pdf: /usr/local/bin/readme.pdf

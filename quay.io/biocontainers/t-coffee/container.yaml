@@ -7,11 +7,14 @@ tags:
   13.45.0.4846264--he1b5a44_3: sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
 docker: quay.io/biocontainers/t-coffee
 aliases:
+  .t-coffee-post-link.sh: /usr/local/bin/.t-coffee-post-link.sh
   DrawGram.jar: /usr/local/bin/DrawGram.jar
   DrawTree.jar: /usr/local/bin/DrawTree.jar
   TMalign: /usr/local/bin/TMalign
   TMscore: /usr/local/bin/TMscore
   bstats: /usr/local/bin/bstats
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
   clique: /usr/local/bin/clique
   comppair: /usr/local/bin/comppair
   consense: /usr/local/bin/consense
@@ -64,6 +67,8 @@ aliases:
   promlk: /usr/local/bin/promlk
   protdist: /usr/local/bin/protdist
   protpars: /usr/local/bin/protpars
+  racc: /usr/local/bin/racc
+  racc2y: /usr/local/bin/racc2y
   randtree: /usr/local/bin/randtree
   raxml: /usr/local/bin/raxml
   raxmlp: /usr/local/bin/raxmlp
@@ -79,13 +84,14 @@ aliases:
   sfold: /usr/local/bin/sfold
   strain_ml: /usr/local/bin/strain_ml
   treedist: /usr/local/bin/treedist
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  Kinfold: /usr/local/bin/Kinfold
-  RNA2Dfold: /usr/local/bin/RNA2Dfold
-  RNALalifold: /usr/local/bin/RNALalifold
-  RNALfold: /usr/local/bin/RNALfold
-  RNAPKplex: /usr/local/bin/RNAPKplex
-  RNAaliduplex: /usr/local/bin/RNAaliduplex
-  RNAalifold: /usr/local/bin/RNAalifold
-  RNAcofold: /usr/local/bin/RNAcofold
-  RNAdistance: /usr/local/bin/RNAdistance
+  y2racc: /usr/local/bin/y2racc
+  clustalo: /usr/local/bin/clustalo
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  prank: /usr/local/bin/prank
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat

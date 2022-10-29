@@ -7,6 +7,7 @@ tags:
   0.1.4--r3.3.1_0: sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36
 docker: quay.io/biocontainers/r-gdtools
 aliases:
-  tclsh8.5: /usr/local/bin/tclsh8.5
   uconv: /usr/local/bin/uconv
+  tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

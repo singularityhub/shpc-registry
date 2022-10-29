@@ -8,3 +8,5 @@ tags:
 docker: quay.io/biocontainers/perl-findbin-libs
 aliases:
   perl-reversion: /usr/local/bin/perl-reversion
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

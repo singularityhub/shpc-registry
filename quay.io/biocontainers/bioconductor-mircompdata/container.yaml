@@ -7,13 +7,5 @@ tags:
   1.24.0--r41hdfd78af_1: sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c
 docker: quay.io/biocontainers/bioconductor-mircompdata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mircompdata-post-link.sh: /usr/local/bin/.bioconductor-mircompdata-post-link.sh
+  .bioconductor-mircompdata-pre-unlink.sh: /usr/local/bin/.bioconductor-mircompdata-pre-unlink.sh

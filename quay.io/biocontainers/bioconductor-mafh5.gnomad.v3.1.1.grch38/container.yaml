@@ -7,13 +7,5 @@ tags:
   3.13.0--r41hdfd78af_2: sha256:d5ac07c8b2de60d3918b33c9a4e02bd3f18c3c1c5a1d74b71297c26cebba3b1e
 docker: quay.io/biocontainers/bioconductor-mafh5.gnomad.v3.1.1.grch38
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mafh5.gnomad.v3.1.1.grch38-post-link.sh: /usr/local/bin/.bioconductor-mafh5.gnomad.v3.1.1.grch38-post-link.sh
+  .bioconductor-mafh5.gnomad.v3.1.1.grch38-pre-unlink.sh: /usr/local/bin/.bioconductor-mafh5.gnomad.v3.1.1.grch38-pre-unlink.sh

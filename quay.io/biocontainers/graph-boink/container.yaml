@@ -9,10 +9,15 @@ docker: quay.io/biocontainers/graph-boink
 aliases:
   boink: /usr/local/bin/boink
   bugpoint: /usr/local/bin/bugpoint
+  c-index-test: /usr/local/bin/c-index-test
+  clang: /usr/local/bin/clang
+  clang++: /usr/local/bin/clang++
   clang-8: /usr/local/bin/clang-8
+  clang-check: /usr/local/bin/clang-check
   clang-cl: /usr/local/bin/clang-cl
   clang-cpp: /usr/local/bin/clang-cpp
   clang-extdef-mapping: /usr/local/bin/clang-extdef-mapping
+  clang-format: /usr/local/bin/clang-format
   clang-import-test: /usr/local/bin/clang-import-test
   clang-offload-bundler: /usr/local/bin/clang-offload-bundler
   clang-refactor: /usr/local/bin/clang-refactor
@@ -87,13 +92,12 @@ aliases:
   scan-view: /usr/local/bin/scan-view
   verify-uselistorder: /usr/local/bin/verify-uselistorder
   yaml2obj: /usr/local/bin/yaml2obj
+  screed: /usr/local/bin/screed
+  f2py3.8: /usr/local/bin/f2py3.8
   2to3-3.8: /usr/local/bin/2to3-3.8
-  c-index-test: /usr/local/bin/c-index-test
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  clang: /usr/local/bin/clang
-  clang++: /usr/local/bin/clang++
-  clang-check: /usr/local/bin/clang-check
-  clang-format: /usr/local/bin/clang-format
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8

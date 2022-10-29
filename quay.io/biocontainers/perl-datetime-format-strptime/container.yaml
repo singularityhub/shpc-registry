@@ -7,5 +7,7 @@ tags:
   1.75--pl5321hdfd78af_1: sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae
 docker: quay.io/biocontainers/perl-datetime-format-strptime
 aliases:
-  cpanm: /usr/local/bin/cpanm
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

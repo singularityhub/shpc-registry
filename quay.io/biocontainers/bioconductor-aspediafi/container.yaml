@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:e02c324a403bb0529478401404a64a57bd777a37de20a039c7499ee5a254fa00
 docker: quay.io/biocontainers/bioconductor-aspediafi
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

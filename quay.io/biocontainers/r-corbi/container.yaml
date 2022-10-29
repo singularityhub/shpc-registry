@@ -6,14 +6,3 @@ latest:
 tags:
   0.4_2--r351he0ffe0d_0: sha256:e84e524aefa3879c63f44072ee18856066382201fd92772ab0b0258aaf6945c3
 docker: quay.io/biocontainers/r-corbi
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  activate: /usr/local/bin/activate
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep

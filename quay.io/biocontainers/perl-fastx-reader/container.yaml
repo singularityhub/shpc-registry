@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/perl-fastx-reader
 aliases:
   fqc: /usr/local/bin/fqc
   fqlen.pl: /usr/local/bin/fqlen.pl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

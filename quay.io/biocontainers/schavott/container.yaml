@@ -10,13 +10,13 @@ aliases:
   pyfasta: /usr/local/bin/pyfasta
   schavott: /usr/local/bin/schavott
   watchmedo: /usr/local/bin/watchmedo
-  2to3-3.8: /usr/local/bin/2to3-3.8
   bokeh: /usr/local/bin/bokeh
   f2py3.8: /usr/local/bin/f2py3.8
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
   h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
   h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug

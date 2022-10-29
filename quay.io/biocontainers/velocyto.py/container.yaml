@@ -7,14 +7,15 @@ tags:
   0.17.17--py38h17adfb0_5: sha256:04a16c2f7ee50cd0880d04bb1d4982fcf3ee723d9195a38affa9275c13854a6a
 docker: quay.io/biocontainers/velocyto.py
 aliases:
+  loompy: /usr/local/bin/loompy
   velocyto: /usr/local/bin/velocyto
-  ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  numba: /usr/local/bin/numba
+  pycc: /usr/local/bin/pycc
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
   brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.8: /usr/local/bin/f2py3.8
   fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl

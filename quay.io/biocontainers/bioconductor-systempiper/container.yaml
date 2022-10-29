@@ -6,14 +6,3 @@ latest:
 tags:
   2.0.0--r41hdfd78af_0: sha256:fc009d0e65a30b3f125dfeb5d32d1eb5febe3a35ed7d09d83cf488eb9240cdf5
 docker: quay.io/biocontainers/bioconductor-systempiper
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

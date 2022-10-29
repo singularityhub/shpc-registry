@@ -8,7 +8,9 @@ tags:
 docker: quay.io/biocontainers/svtk
 aliases:
   svtk: /usr/local/bin/svtk
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  jp.py: /usr/local/bin/jp.py
+  natsort: /usr/local/bin/natsort
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -16,5 +18,3 @@ aliases:
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed

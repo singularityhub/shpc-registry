@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/scikit-bio
 aliases:
   nosetests-3.5: /usr/local/bin/nosetests-3.5
+  doesitcache: /usr/local/bin/doesitcache
+  nosetests: /usr/local/bin/nosetests
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  easy_install-3.5: /usr/local/bin/easy_install-3.5
+  natsort: /usr/local/bin/natsort
   2to3-3.5: /usr/local/bin/2to3-3.5
-  assistant: /usr/local/bin/assistant
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
-  dbus-send: /usr/local/bin/dbus-send
-  dbus-test-tool: /usr/local/bin/dbus-test-tool
-  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5

@@ -11,7 +11,9 @@ aliases:
   align_collect.py: /usr/local/bin/align_collect.py
   asm_collect.py: /usr/local/bin/asm_collect.py
   bam2gtf.py: /usr/local/bin/bam2gtf.py
+  black: /usr/local/bin/black
   black-primer: /usr/local/bin/black-primer
+  blackd: /usr/local/bin/blackd
   calculate_distances.py: /usr/local/bin/calculate_distances.py
   class_run.py: /usr/local/bin/class_run.py
   convert_cdna_match_gff3.py: /usr/local/bin/convert_cdna_match_gff3.py
@@ -29,13 +31,13 @@ aliases:
   split_fasta.py: /usr/local/bin/split_fasta.py
   tease_maker_apart.py: /usr/local/bin/tease_maker_apart.py
   trim_long_introns.py: /usr/local/bin/trim_long_introns.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  Magick++-config: /usr/local/bin/Magick++-config
-  MagickCore-config: /usr/local/bin/MagickCore-config
-  MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
+  stone: /usr/local/bin/stone
   asadmin: /usr/local/bin/asadmin
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
+  bundle_image: /usr/local/bin/bundle_image
+  cfadmin: /usr/local/bin/cfadmin
+  cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin
+  fetch_file: /usr/local/bin/fetch_file

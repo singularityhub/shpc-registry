@@ -7,10 +7,12 @@ tags:
   1.0.1--hdfd78af_1: sha256:f745fb165d5376b1fd8bcde06b7a20b066efa4c8cafbdba05e37646099aa9082
 docker: quay.io/biocontainers/ssuissero
 aliases:
+  LICENSE: /usr/local/bin/LICENSE
   SsuisSero.sh: /usr/local/bin/SsuisSero.sh
   check_compression: /usr/local/bin/check_compression
   compress_fast5: /usr/local/bin/compress_fast5
   demux_fast5: /usr/local/bin/demux_fast5
+  fast5_subset: /usr/local/bin/fast5_subset
   flye: /usr/local/bin/flye
   flye-minimap2: /usr/local/bin/flye-minimap2
   flye-modules: /usr/local/bin/flye-modules
@@ -23,13 +25,19 @@ aliases:
   medaka_version_report: /usr/local/bin/medaka_version_report
   mini_align: /usr/local/bin/mini_align
   minipolish: /usr/local/bin/minipolish
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  LICENSE: /usr/local/bin/LICENSE
-  abba-baba: /usr/local/bin/abba-baba
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace2sam: /usr/local/bin/ace2sam
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  bFst: /usr/local/bin/bFst
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  vcfnormalizesvs: /usr/local/bin/vcfnormalizesvs
+  vcfnull2ref: /usr/local/bin/vcfnull2ref
+  vcfunphase: /usr/local/bin/vcfunphase
+  whatshap: /usr/local/bin/whatshap
+  minimap2.py: /usr/local/bin/minimap2.py
+  plotBfst.R: /usr/local/bin/plotBfst.R
+  plotHapLrt.R: /usr/local/bin/plotHapLrt.R
+  plotHaplotypes.R: /usr/local/bin/plotHaplotypes.R
+  plotPfst.R: /usr/local/bin/plotPfst.R
+  plotSmoothed.R: /usr/local/bin/plotSmoothed.R
+  plotWCfst.R: /usr/local/bin/plotWCfst.R
+  plotXPEHH.R: /usr/local/bin/plotXPEHH.R
+  plot_roc.r: /usr/local/bin/plot_roc.r
+  racon: /usr/local/bin/racon

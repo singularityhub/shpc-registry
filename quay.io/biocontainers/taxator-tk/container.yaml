@@ -10,6 +10,7 @@ aliases:
   alignments-filter: /usr/local/bin/alignments-filter
   binner: /usr/local/bin/binner
   fasta-strip-identifier: /usr/local/bin/fasta-strip-identifier
+  last-merge-batches: /usr/local/bin/last-merge-batches
   last_maf_convert.py: /usr/local/bin/last_maf_convert.py
   taxator: /usr/local/bin/taxator
   taxatortk.py: /usr/local/bin/taxatortk.py
@@ -17,11 +18,10 @@ aliases:
   taxsummary2krona: /usr/local/bin/taxsummary2krona
   f2py2: /usr/local/bin/f2py2
   f2py2.7: /usr/local/bin/f2py2.7
-  idle: /usr/local/bin/idle
-  last-merge-batches: /usr/local/bin/last-merge-batches
-  python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
   python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
   python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
   smtpd.py: /usr/local/bin/smtpd.py

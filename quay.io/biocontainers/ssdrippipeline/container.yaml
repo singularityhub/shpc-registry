@@ -161,6 +161,7 @@ aliases:
   prepForR.pl: /usr/local/bin/prepForR.pl
   preparseGenome.pl: /usr/local/bin/preparseGenome.pl
   profile2seq.pl: /usr/local/bin/profile2seq.pl
+  qseq2fastq.pl: /usr/local/bin/qseq2fastq.pl
   randRemoveBackground.pl: /usr/local/bin/randRemoveBackground.pl
   randomizeGroupFile.pl: /usr/local/bin/randomizeGroupFile.pl
   randomizeMotifs.pl: /usr/local/bin/randomizeMotifs.pl
@@ -189,13 +190,13 @@ aliases:
   tagDir2bed.pl: /usr/local/bin/tagDir2bed.pl
   tagDir2hicFile.pl: /usr/local/bin/tagDir2hicFile.pl
   zipHomerResults.pl: /usr/local/bin/zipHomerResults.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  picard: /usr/local/bin/picard
   bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
+  funzip: /usr/local/bin/funzip
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror

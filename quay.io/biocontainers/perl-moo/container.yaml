@@ -7,6 +7,8 @@ tags:
   2.005004--pl5321hdfd78af_0: sha256:0f2bc9e2a9a33c2302cea49f6ae6af72fdee311d37349ad1685780f0d4d6a469
 docker: quay.io/biocontainers/perl-moo
 aliases:
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -6,14 +6,3 @@ latest:
 tags:
   1.66.0--r41hdfd78af_0: sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c
 docker: quay.io/biocontainers/bioconductor-pickgene
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

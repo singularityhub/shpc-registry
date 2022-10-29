@@ -6,14 +6,3 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:9e60990bc6a502901b608fac051aeea0597da4a61b39b9c63ba826f14a026271
 docker: quay.io/biocontainers/bioconductor-pengls
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

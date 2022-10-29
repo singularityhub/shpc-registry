@@ -6,14 +6,3 @@ latest:
 tags:
   1.22.0--r41hdfd78af_0: sha256:bbffd28ef7b5f697c8f11c91c65b5e14d96af56263c95f7d8054fd573e3edb74
 docker: quay.io/biocontainers/bioconductor-basicstarrseq
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

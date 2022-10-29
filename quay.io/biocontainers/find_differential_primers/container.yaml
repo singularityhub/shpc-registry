@@ -7,19 +7,20 @@ tags:
   0.1.4--py_2: sha256:12a23db1dfce9563eb5ba4986ac6ad3fb77ec2d0b483330bf64bee00a929e463
 docker: quay.io/biocontainers/find_differential_primers
 aliases:
+  _gdlib-config: /usr/local/bin/_gdlib-config
   find_differential_primers.py: /usr/local/bin/find_differential_primers.py
   long_seq_tm_test: /usr/local/bin/long_seq_tm_test
   ntdpal: /usr/local/bin/ntdpal
   oligotm: /usr/local/bin/oligotm
   perl5.30.3: /usr/local/bin/perl5.30.3
   primer3_core: /usr/local/bin/primer3_core
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  _aaindexextract: /usr/local/bin/_aaindexextract
-  _abiview: /usr/local/bin/_abiview
-  _acdc: /usr/local/bin/_acdc
-  _acdpretty: /usr/local/bin/_acdpretty
-  _acdtable: /usr/local/bin/_acdtable
-  _acdtrace: /usr/local/bin/_acdtrace
-  _acdvalid: /usr/local/bin/_acdvalid
-  _antigenic: /usr/local/bin/_antigenic
-  _backtranambig: /usr/local/bin/_backtranambig
+  _bdftogd: /usr/local/bin/_bdftogd
+  _gd2copypal: /usr/local/bin/_gd2copypal
+  _gd2togif: /usr/local/bin/_gd2togif
+  _gd2topng: /usr/local/bin/_gd2topng
+  _gdcmpgif: /usr/local/bin/_gdcmpgif
+  _gdparttopng: /usr/local/bin/_gdparttopng
+  _gdtopng: /usr/local/bin/_gdtopng
+  _giftogd2: /usr/local/bin/_giftogd2
+  _pngtogd: /usr/local/bin/_pngtogd
+  _pngtogd2: /usr/local/bin/_pngtogd2

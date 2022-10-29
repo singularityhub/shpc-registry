@@ -7,13 +7,5 @@ tags:
   1.03--pl5321hdfd78af_3: sha256:91e91163adef2bdfc351be2bd70d6c9cc9d2227a9d2f83ccf003d22b004ac55d
 docker: quay.io/biocontainers/perl-sort-naturally
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

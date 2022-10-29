@@ -7,13 +7,13 @@ tags:
   0.7.1: sha256:3d299abf0efdd0f875d25864d1498d67b8008a658262e8037824850f7b1f3067
 docker: quay.io/biocontainers/seaborn
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
   compile-et.pl: /usr/local/bin/compile-et.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  prerr.properties: /usr/local/bin/prerr.properties
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  f2py3.6: /usr/local/bin/f2py3.6
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util

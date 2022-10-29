@@ -7,16 +7,18 @@ tags:
   0.8.9--pyhdfd78af_0: sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e
 docker: quay.io/biocontainers/scelvis
 aliases:
+  dash-generate-components: /usr/local/bin/dash-generate-components
   dash-update-components: /usr/local/bin/dash-update-components
   rehttpfs: /usr/local/bin/rehttpfs
+  renderer: /usr/local/bin/renderer
   scelvis: /usr/local/bin/scelvis
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  dash-generate-components: /usr/local/bin/dash-generate-components
+  scanpy: /usr/local/bin/scanpy
   docutils: /usr/local/bin/docutils
-  f2py3.9: /usr/local/bin/f2py3.9
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
   flask: /usr/local/bin/flask
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
+  pybabel: /usr/local/bin/pybabel
+  jp.py: /usr/local/bin/jp.py
+  numba: /usr/local/bin/numba

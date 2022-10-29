@@ -7,18 +7,26 @@ tags:
   0.2.3--pyhdfd78af_0: sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0
 docker: quay.io/biocontainers/capcruncher
 aliases:
+  bq: /usr/local/bin/bq
   capcruncher: /usr/local/bin/capcruncher
+  csv-import: /usr/local/bin/csv-import
+  docker-credential-gcloud: /usr/local/bin/docker-credential-gcloud
   fetchChromSizes: /usr/local/bin/fetchChromSizes
+  gcloud: /usr/local/bin/gcloud
   ice: /usr/local/bin/ice
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
   rich-click: /usr/local/bin/rich-click
+  time: /usr/local/bin/time
+  timezone-dump: /usr/local/bin/timezone-dump
   trim_galore: /usr/local/bin/trim_galore
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  aserver: /usr/local/bin/aserver
-  b2sum: /usr/local/bin/b2sum
-  bam2pairs: /usr/local/bin/bam2pairs
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
+  gsutil: /usr/local/bin/gsutil
+  multiqc: /usr/local/bin/multiqc
+  flash: /usr/local/bin/flash
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
+  cooler: /usr/local/bin/cooler

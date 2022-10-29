@@ -10,9 +10,6 @@ aliases:
   clearCNV: /usr/local/bin/clearCNV
   dash-generate-components: /usr/local/bin/dash-generate-components
   renderer: /usr/local/bin/renderer
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
   bam2bed: /usr/local/bin/bam2bed
   bam2bed-float128: /usr/local/bin/bam2bed-float128
   bam2bed-megarow: /usr/local/bin/bam2bed-megarow
@@ -20,3 +17,6 @@ aliases:
   bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
   bam2bed_gnuParallel-float128: /usr/local/bin/bam2bed_gnuParallel-float128
   bam2bed_gnuParallel-megarow: /usr/local/bin/bam2bed_gnuParallel-megarow
+  bam2bed_gnuParallel-typical: /usr/local/bin/bam2bed_gnuParallel-typical
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_sge-float128: /usr/local/bin/bam2bed_sge-float128

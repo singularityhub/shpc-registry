@@ -14,8 +14,7 @@ aliases:
   pre_segemehl.pl: /usr/local/bin/pre_segemehl.pl
   pre_std.py: /usr/local/bin/pre_std.py
   pre_tophat.pl: /usr/local/bin/pre_tophat.pl
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
@@ -24,3 +23,4 @@ aliases:
   bedToIgv: /usr/local/bin/bedToIgv
   bedpeToBam: /usr/local/bin/bedpeToBam
   bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed

@@ -7,13 +7,5 @@ tags:
   4.025--pl5321hec16e2b_1: sha256:963ff7dd1c75d62efaa1d81698b45f33fdf0bb66f784b53d96d62cdb4dcc8acb
 docker: quay.io/biocontainers/perl-sereal-decoder
 aliases:
-  corelist: /usr/local/bin/corelist
-  cpan: /usr/local/bin/cpan
-  enc2xs: /usr/local/bin/enc2xs
-  encguess: /usr/local/bin/encguess
-  h2ph: /usr/local/bin/h2ph
-  h2xs: /usr/local/bin/h2xs
-  instmodsh: /usr/local/bin/instmodsh
-  json_pp: /usr/local/bin/json_pp
-  libnetcfg: /usr/local/bin/libnetcfg
-  perl: /usr/local/bin/perl
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

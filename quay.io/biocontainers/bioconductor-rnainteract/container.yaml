@@ -6,14 +6,3 @@ latest:
 tags:
   1.42.0--r41hdfd78af_0: sha256:28858910aea421e6b7a2618ee6aa91c3882223bb84a6acd91dd83c69d9f75532
 docker: quay.io/biocontainers/bioconductor-rnainteract
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

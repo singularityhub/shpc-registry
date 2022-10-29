@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/sv2
 aliases:
   sv2: /usr/local/bin/sv2
   sv2train: /usr/local/bin/sv2train
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
+  idn2: /usr/local/bin/idn2
+  shiftBed: /usr/local/bin/shiftBed
   annotateBed: /usr/local/bin/annotateBed
   bamToBed: /usr/local/bin/bamToBed
   bamToFastq: /usr/local/bin/bamToFastq
   bed12ToBed6: /usr/local/bin/bed12ToBed6
   bedToBam: /usr/local/bin/bedToBam
   bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  closestBed: /usr/local/bin/closestBed
-  clusterBed: /usr/local/bin/clusterBed

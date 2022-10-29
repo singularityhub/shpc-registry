@@ -18,13 +18,13 @@ aliases:
   gcov2perl: /usr/local/bin/gcov2perl
   grass.pl: /usr/local/bin/grass.pl
   lneato: /usr/local/bin/lneato
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
+  pod_cover: /usr/local/bin/pod_cover
+  bp_pairwise_kaks.pl: /usr/local/bin/bp_pairwise_kaks.pl
+  bp_search2BSML.pl: /usr/local/bin/bp_search2BSML.pl
+  gdlib-config: /usr/local/bin/gdlib-config
   bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
-  binhex.pl: /usr/local/bin/binhex.pl
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  ace.pl: /usr/local/bin/ace.pl
+  ccconfig: /usr/local/bin/ccconfig
+  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
+  map: /usr/local/bin/map

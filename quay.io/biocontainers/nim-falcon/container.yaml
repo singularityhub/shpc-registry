@@ -11,6 +11,6 @@ aliases:
   fc_consensus.exe: /usr/local/bin/fc_consensus.exe
   fc_rr_hctg_track.exe: /usr/local/bin/fc_rr_hctg_track.exe
   fc_rr_hctg_track2.exe: /usr/local/bin/fc_rr_hctg_track2.exe
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

@@ -17,8 +17,6 @@ aliases:
   tRNAscan-SE: /usr/local/bin/tRNAscan-SE
   tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
   trnascan-1.4: /usr/local/bin/trnascan-1.4
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
   cmalign: /usr/local/bin/cmalign
   cmbuild: /usr/local/bin/cmbuild
   cmcalibrate: /usr/local/bin/cmcalibrate
@@ -27,3 +25,5 @@ aliases:
   cmfetch: /usr/local/bin/cmfetch
   cmpress: /usr/local/bin/cmpress
   cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat

@@ -6,14 +6,3 @@ latest:
 tags:
   1.2.0--r41hdfd78af_0: sha256:79722dfe89d3b50e2e9724ddea2081e92987efc639fc0cde3e13b8a1ec97a37e
 docker: quay.io/biocontainers/bioconductor-mungesumstats
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

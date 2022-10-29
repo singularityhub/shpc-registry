@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/scallop2
 aliases:
   scallop2: /usr/local/bin/scallop2
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

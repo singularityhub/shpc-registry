@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pmultiqc
 aliases:
   parse_sdrf: /usr/local/bin/parse_sdrf
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
-  chardetect: /usr/local/bin/chardetect
+  multiqc: /usr/local/bin/multiqc
   cmark: /usr/local/bin/cmark
   coloredlogs: /usr/local/bin/coloredlogs
-  f2py3.10: /usr/local/bin/f2py3.10
-  fonttools: /usr/local/bin/fonttools
-  futurize: /usr/local/bin/futurize
   humanfriendly: /usr/local/bin/humanfriendly
-  idle3.10: /usr/local/bin/idle3.10
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  markdown_py: /usr/local/bin/markdown_py
+  pygmentize: /usr/local/bin/pygmentize
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge

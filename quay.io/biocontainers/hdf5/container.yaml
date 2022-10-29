@@ -7,13 +7,13 @@ tags:
   1.10.4: sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306
 docker: quay.io/biocontainers/hdf5
 aliases:
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
   gif2h5: /usr/local/bin/gif2h5
   h52gif: /usr/local/bin/h52gif
   h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
   h5copy: /usr/local/bin/h5copy
   h5debug: /usr/local/bin/h5debug
   h5diff: /usr/local/bin/h5diff
-  h5dump: /usr/local/bin/h5dump
-  h5fc: /usr/local/bin/h5fc

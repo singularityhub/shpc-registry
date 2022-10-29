@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:368324a89f4084a395b4379564af09d03d8ed15503bcf58867dbea276801087e
 docker: quay.io/biocontainers/bioconductor-moe430bprobe
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-moe430bprobe-post-link.sh: /usr/local/bin/.bioconductor-moe430bprobe-post-link.sh
+  .bioconductor-moe430bprobe-pre-unlink.sh: /usr/local/bin/.bioconductor-moe430bprobe-pre-unlink.sh

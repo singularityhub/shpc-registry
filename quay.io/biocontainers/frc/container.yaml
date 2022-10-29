@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/frc
 aliases:
   FRC: /usr/local/bin/FRC
   bamtools-2.4.0: /usr/local/bin/bamtools-2.4.0
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  ace2sam: /usr/local/bin/ace2sam
   bamtools: /usr/local/bin/bamtools
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   easy_install-3.6: /usr/local/bin/easy_install-3.6
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6
-  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
-  maq2sam-long: /usr/local/bin/maq2sam-long
+  pydoc3.6: /usr/local/bin/pydoc3.6
+  python3.6: /usr/local/bin/python3.6
+  python3.6-config: /usr/local/bin/python3.6-config
+  python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6

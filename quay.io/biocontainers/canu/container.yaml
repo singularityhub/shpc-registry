@@ -1,18 +1,17 @@
-docker: quay.io/biocontainers/canu
 url: https://biocontainers.pro/tools/canu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for canu
 latest:
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
 tags:
-  2.1.1--he1b5a44_0: sha256:5d986a871985ea20fafcaec02255c61d7136715a05b76db403585a32282ed118
-  2.1.1--he1b5a44_1: sha256:a28f4d1b2289d7f42e47efc0d35ad76ab28cc43a40d2b32aa857eda9c428718d
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
-  2.1.1--h1b792b2_2: sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4
+docker: quay.io/biocontainers/canu
 aliases:
   alignGFA: /usr/local/bin/alignGFA
+  bogart: /usr/local/bin/bogart
   canu: /usr/local/bin/canu
   canu-time: /usr/local/bin/canu-time
+  canu.defaults: /usr/local/bin/canu.defaults
   correctOverlaps: /usr/local/bin/correctOverlaps
   draw-tig: /usr/local/bin/draw-tig
   dumpBlob: /usr/local/bin/dumpBlob
@@ -43,6 +42,7 @@ aliases:
   overlapCheck: /usr/local/bin/overlapCheck
   overlapConvert: /usr/local/bin/overlapConvert
   overlapImport: /usr/local/bin/overlapImport
+  overlapInCore: /usr/local/bin/overlapInCore
   overlapInCorePartition: /usr/local/bin/overlapInCorePartition
   overlapPair: /usr/local/bin/overlapPair
   prefixEditDistance-matchLimitGenerate: /usr/local/bin/prefixEditDistance-matchLimitGenerate
@@ -56,13 +56,14 @@ aliases:
   tgStoreLoad: /usr/local/bin/tgStoreLoad
   tgTigDisplay: /usr/local/bin/tgTigDisplay
   trimReads: /usr/local/bin/trimReads
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  bdftogd: /usr/local/bin/bdftogd
-  bogart: /usr/local/bin/bogart
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
+  utgcns: /usr/local/bin/utgcns
+  meryl: /usr/local/bin/meryl
   chrpath: /usr/local/bin/chrpath
-  cwebp: /usr/local/bin/cwebp
+  gnuplot: /usr/local/bin/gnuplot
+  xkbcli: /usr/local/bin/xkbcli
+  pg_config: /usr/local/bin/pg_config
+  sdust: /usr/local/bin/sdust
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  paftools.js: /usr/local/bin/paftools.js

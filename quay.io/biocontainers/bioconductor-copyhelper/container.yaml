@@ -7,13 +7,5 @@ tags:
   1.26.0--r41hdfd78af_1: sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a
 docker: quay.io/biocontainers/bioconductor-copyhelper
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-copyhelper-post-link.sh: /usr/local/bin/.bioconductor-copyhelper-post-link.sh
+  .bioconductor-copyhelper-pre-unlink.sh: /usr/local/bin/.bioconductor-copyhelper-pre-unlink.sh

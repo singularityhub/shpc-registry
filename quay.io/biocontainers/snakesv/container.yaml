@@ -11,6 +11,9 @@ aliases:
   02_download_gtf_annotation.sh: /usr/local/bin/02_download_gtf_annotation.sh
   03_prepare_long_read.sh: /usr/local/bin/03_prepare_long_read.sh
   04_download_custom_annotation.sh: /usr/local/bin/04_download_custom_annotation.sh
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
   conda2solv: /usr/local/bin/conda2solv
   dumpsolv: /usr/local/bin/dumpsolv
   installcheck: /usr/local/bin/installcheck
@@ -20,13 +23,13 @@ aliases:
   repo2solv: /usr/local/bin/repo2solv
   snakeSV: /usr/local/bin/snakeSV
   testsolv: /usr/local/bin/testsolv
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  bsdcat: /usr/local/bin/bsdcat
-  bsdcpio: /usr/local/bin/bsdcpio
-  bsdtar: /usr/local/bin/bsdtar
+  stone: /usr/local/bin/stone
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  yte: /usr/local/bin/yte
+  pulptest: /usr/local/bin/pulptest
+  gff2gff.py: /usr/local/bin/gff2gff.py
   cbc: /usr/local/bin/cbc
   clp: /usr/local/bin/clp
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  conda-env: /usr/local/bin/conda-env
+  snakemake: /usr/local/bin/snakemake

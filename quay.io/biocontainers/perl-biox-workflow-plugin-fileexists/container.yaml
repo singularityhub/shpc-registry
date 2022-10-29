@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/perl-biox-workflow-plugin-fileexists
 aliases:
   biox-workflow.pl: /usr/local/bin/biox-workflow.pl
-  c2ph: /usr/local/bin/c2ph
-  config_data: /usr/local/bin/config_data
-  cpanm: /usr/local/bin/cpanm
   findrule: /usr/local/bin/findrule
+  config_data: /usr/local/bin/config_data
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  c2ph: /usr/local/bin/c2ph
+  pstruct: /usr/local/bin/pstruct
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
-  perl5.22.0: /usr/local/bin/perl5.22.0
+  cpanm: /usr/local/bin/cpanm
   podselect: /usr/local/bin/podselect
-  pstruct: /usr/local/bin/pstruct

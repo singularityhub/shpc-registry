@@ -20,6 +20,8 @@ aliases:
   hmmgs: /usr/local/bin/hmmgs
   index_default_ssu_rrna_db.py: /usr/local/bin/index_default_ssu_rrna_db.py
   indexdb_rna: /usr/local/bin/indexdb_rna
+  ktClassifyHits: /usr/local/bin/ktClassifyHits
+  ktImportHits: /usr/local/bin/ktImportHits
   matam_assembly.py: /usr/local/bin/matam_assembly.py
   matam_compare_samples.py: /usr/local/bin/matam_compare_samples.py
   matam_db_preprocessing.py: /usr/local/bin/matam_db_preprocessing.py
@@ -30,13 +32,13 @@ aliases:
   sga-mergeDriver.pl: /usr/local/bin/sga-mergeDriver.pl
   sortmerna: /usr/local/bin/sortmerna
   unmerge-paired-reads.sh: /usr/local/bin/unmerge-paired-reads.sh
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  aserver: /usr/local/bin/aserver
-  b2sum: /usr/local/bin/b2sum
-  bamtools: /usr/local/bin/bamtools
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bgzip: /usr/local/bin/bgzip
+  ktClassifyBLAST: /usr/local/bin/ktClassifyBLAST
+  ktGetContigMagnitudes: /usr/local/bin/ktGetContigMagnitudes
+  ktGetLCA: /usr/local/bin/ktGetLCA
+  ktGetLibPath: /usr/local/bin/ktGetLibPath
+  ktGetTaxIDFromAcc: /usr/local/bin/ktGetTaxIDFromAcc
+  ktGetTaxInfo: /usr/local/bin/ktGetTaxInfo
+  ktImportBLAST: /usr/local/bin/ktImportBLAST
+  ktImportDiskUsage: /usr/local/bin/ktImportDiskUsage
+  ktImportEC: /usr/local/bin/ktImportEC
+  ktImportFCP: /usr/local/bin/ktImportFCP

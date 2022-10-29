@@ -7,14 +7,15 @@ tags:
   0.3.3--pyhdfd78af_3: sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82
 docker: quay.io/biocontainers/spatyper
 aliases:
+  .spatyper-post-link.sh: /usr/local/bin/.spatyper-post-link.sh
   download-spatypes.sh: /usr/local/bin/download-spatypes.sh
   spaTyper: /usr/local/bin/spaTyper
   sparepeats.fasta: /usr/local/bin/sparepeats.fasta
   spatypes.txt: /usr/local/bin/spatypes.txt
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget
   2to3-3.9: /usr/local/bin/2to3-3.9
   idle3.9: /usr/local/bin/idle3.9
-  idn2: /usr/local/bin/idn2
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  wget: /usr/local/bin/wget

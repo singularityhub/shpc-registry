@@ -8,10 +8,15 @@ tags:
 docker: quay.io/biocontainers/cat
 aliases:
   CAT: /usr/local/bin/CAT
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  bzcat: /usr/local/bin/bzcat
+  lz4cat: /usr/local/bin/lz4cat
+  lzcat: /usr/local/bin/lzcat
+  xzcat: /usr/local/bin/xzcat
+  zstdcat: /usr/local/bin/zstdcat
   diamond: /usr/local/bin/diamond
-  idle3.9: /usr/local/bin/idle3.9
   prodigal: /usr/local/bin/prodigal
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

@@ -7,6 +7,13 @@ tags:
   1.0.2--py_0: sha256:717f4a6f4ff2a5850c8ceaf2a88a4b9cb3dd2acc82ee3ccdf23e117afbd45eeb
 docker: quay.io/biocontainers/fastg2protlib
 aliases:
-  f2py3.8: /usr/local/bin/f2py3.8
   xslt-config: /usr/local/bin/xslt-config
   xsltproc: /usr/local/bin/xsltproc
+  f2py3.8: /usr/local/bin/f2py3.8
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
+  pydoc3.8: /usr/local/bin/pydoc3.8
+  python3.8: /usr/local/bin/python3.8
+  python3.8-config: /usr/local/bin/python3.8-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc

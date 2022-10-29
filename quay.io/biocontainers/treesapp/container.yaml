@@ -8,15 +8,18 @@ tags:
 docker: quay.io/biocontainers/treesapp
 aliases:
   epa-ng: /usr/local/bin/epa-ng
+  pyfastx: /usr/local/bin/pyfastx
+  raxml-ng: /usr/local/bin/raxml-ng
+  raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
   samsum: /usr/local/bin/samsum
   treesapp: /usr/local/bin/treesapp
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  FastTree: /usr/local/bin/FastTree
+  mmseqs: /usr/local/bin/mmseqs
   FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
+  vsearch: /usr/local/bin/vsearch
+  ete3: /usr/local/bin/ete3
   FastTreeMP: /usr/local/bin/FastTreeMP
+  FastTree: /usr/local/bin/FastTree
+  fasttree: /usr/local/bin/fasttree
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0
+  xkbcli: /usr/local/bin/xkbcli
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  alimask: /usr/local/bin/alimask
-  assistant: /usr/local/bin/assistant
-  awk: /usr/local/bin/awk
-  bwa: /usr/local/bin/bwa
-  canbusutil: /usr/local/bin/canbusutil

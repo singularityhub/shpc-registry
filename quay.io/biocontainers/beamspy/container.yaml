@@ -14,13 +14,13 @@ aliases:
   pyside_tool.py: /usr/local/bin/pyside_tool.py
   shiboken2: /usr/local/bin/shiboken2
   shiboken_tool.py: /usr/local/bin/shiboken_tool.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
+  xkbcli: /usr/local/bin/xkbcli
+  pg_config: /usr/local/bin/pg_config
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
   certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict

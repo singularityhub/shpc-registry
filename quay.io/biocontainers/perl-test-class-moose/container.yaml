@@ -8,7 +8,8 @@ tags:
 docker: quay.io/biocontainers/perl-test-class-moose
 aliases:
   pm_which: /usr/local/bin/pm_which
-  cpanm: /usr/local/bin/cpanm
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
   perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

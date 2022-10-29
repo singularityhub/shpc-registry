@@ -7,13 +7,5 @@ tags:
   1.24.0--r41hdfd78af_1: sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84
 docker: quay.io/biocontainers/bioconductor-minionsummarydata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-minionsummarydata-post-link.sh: /usr/local/bin/.bioconductor-minionsummarydata-post-link.sh
+  .bioconductor-minionsummarydata-pre-unlink.sh: /usr/local/bin/.bioconductor-minionsummarydata-pre-unlink.sh

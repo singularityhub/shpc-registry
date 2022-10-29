@@ -6,14 +6,3 @@ latest:
 tags:
   1.30.0--r41hdfd78af_0: sha256:bb598efeb2150f87b9a7d4ba0b1f3833212455f7095cc152e1f87d70b9953c21
 docker: quay.io/biocontainers/bioconductor-shinymethyl
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

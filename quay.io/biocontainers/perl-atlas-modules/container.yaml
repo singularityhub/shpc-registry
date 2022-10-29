@@ -11,13 +11,13 @@ aliases:
   dm_date: /usr/local/bin/dm_date
   dm_zdump: /usr/local/bin/dm_zdump
   validjson: /usr/local/bin/validjson
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  clusterdb: /usr/local/bin/clusterdb
-  config_data: /usr/local/bin/config_data
+  pg_amcheck: /usr/local/bin/pg_amcheck
+  pod_cover: /usr/local/bin/pod_cover
+  pg_verifybackup: /usr/local/bin/pg_verifybackup
+  pg_checksums: /usr/local/bin/pg_checksums
+  findrule: /usr/local/bin/findrule
+  tzselect: /usr/local/bin/tzselect
+  zdump: /usr/local/bin/zdump
+  zic: /usr/local/bin/zic
+  oid2name: /usr/local/bin/oid2name
+  pg_receivewal: /usr/local/bin/pg_receivewal

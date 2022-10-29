@@ -7,7 +7,7 @@ tags:
   3.8.0--r3.4.1_0: sha256:2ea5c76876af860ae73054105b4d754e6a8ce0a04292793f18ba71830b5b4924
 docker: quay.io/biocontainers/bioconductor-aroma.light
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -32,13 +32,13 @@ aliases:
   summary_from_stats: /usr/local/bin/summary_from_stats
   tag_bam: /usr/local/bin/tag_bam
   trim_alignments: /usr/local/bin/trim_alignments
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  ace2sam: /usr/local/bin/ace2sam
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bcftools: /usr/local/bin/bcftools
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
+  seqkit: /usr/local/bin/seqkit
+  racon: /usr/local/bin/racon
+  rampler: /usr/local/bin/rampler
+  racon_wrapper: /usr/local/bin/racon_wrapper
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  k8: /usr/local/bin/k8
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py

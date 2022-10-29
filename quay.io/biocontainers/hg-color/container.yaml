@@ -10,6 +10,7 @@ aliases:
   HG-CoLoR: /usr/local/bin/HG-CoLoR
   PgSAgen: /usr/local/bin/PgSAgen
   PgSAtest: /usr/local/bin/PgSAtest
+  blasr: /usr/local/bin/blasr
   blasr-license: /usr/local/bin/blasr-license
   filterShortReads.py: /usr/local/bin/filterShortReads.py
   formatLongReads.py: /usr/local/bin/formatLongReads.py

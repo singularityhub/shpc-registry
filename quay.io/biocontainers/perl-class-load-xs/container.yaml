@@ -7,6 +7,7 @@ tags:
   0.10--pl5321h9f5acd7_6: sha256:71b61dcbe48672699d50b0bc67b16d0aa2fa2df64fff5bd8e63ed321049ade02
 docker: quay.io/biocontainers/perl-class-load-xs
 aliases:
-  cpanm: /usr/local/bin/cpanm
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
   perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

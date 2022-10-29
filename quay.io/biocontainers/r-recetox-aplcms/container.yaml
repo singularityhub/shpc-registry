@@ -7,15 +7,19 @@ tags:
   0.9.4--r41hdfd78af_0: sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e
 docker: quay.io/biocontainers/r-recetox-aplcms
 aliases:
+  csv-import: /usr/local/bin/csv-import
   elasticurl: /usr/local/bin/elasticurl
   elasticurl_cpp: /usr/local/bin/elasticurl_cpp
   elastipubsub: /usr/local/bin/elastipubsub
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  csv-import: /usr/local/bin/csv-import
-  f2py3.10: /usr/local/bin/f2py3.10
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  sha256_profile: /usr/local/bin/sha256_profile
   gflags_completions.sh: /usr/local/bin/gflags_completions.sh
-  gif2h5: /usr/local/bin/gif2h5
-  gif2hdf: /usr/local/bin/gif2hdf
   grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
   grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
   grpc_node_plugin: /usr/local/bin/grpc_node_plugin

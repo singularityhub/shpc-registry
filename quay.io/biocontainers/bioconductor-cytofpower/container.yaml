@@ -6,14 +6,3 @@ latest:
 tags:
   1.0.0--r41hdfd78af_0: sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4
 docker: quay.io/biocontainers/bioconductor-cytofpower
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

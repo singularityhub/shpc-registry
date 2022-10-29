@@ -18,13 +18,13 @@ aliases:
   timezone-dump: /usr/local/bin/timezone-dump
   torchrun: /usr/local/bin/torchrun
   wordcloud_cli: /usr/local/bin/wordcloud_cli
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cmpfillin: /usr/local/bin/cmpfillin
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py3.9: /usr/local/bin/f2py3.9
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  ninja: /usr/local/bin/ninja

@@ -6,14 +6,3 @@ latest:
 tags:
   1.64.0--r41hdfd78af_0: sha256:d420bfc23d539b3de01d43623806e8115e747d69d314d11e4de63333697cd4d7
 docker: quay.io/biocontainers/bioconductor-panp
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

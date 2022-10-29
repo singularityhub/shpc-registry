@@ -7,6 +7,6 @@ tags:
   1.4.0--r41hc247a5b_2: sha256:4dae9f97dfb806e221126735c10e9b996922615194df9cf0846434a57b5c8ecc
 docker: quay.io/biocontainers/bioconductor-chromscape
 aliases:
+  pandoc-server: /usr/local/bin/pandoc-server
   glpsol: /usr/local/bin/glpsol
   pandoc: /usr/local/bin/pandoc
-  pandoc-server: /usr/local/bin/pandoc-server

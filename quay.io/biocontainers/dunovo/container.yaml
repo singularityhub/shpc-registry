@@ -40,13 +40,13 @@ aliases:
   zless: /usr/local/bin/zless
   zmore: /usr/local/bin/zmore
   znew: /usr/local/bin/znew
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  awk: /usr/local/bin/awk
-  b2sum: /usr/local/bin/b2sum
-  base32: /usr/local/bin/base32
-  base64: /usr/local/bin/base64
-  basename: /usr/local/bin/basename
-  basenc: /usr/local/bin/basenc
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  gawk-5.1.0: /usr/local/bin/gawk-5.1.0

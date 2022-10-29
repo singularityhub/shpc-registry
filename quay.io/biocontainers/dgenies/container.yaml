@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/dgenies
 aliases:
   dgenies: /usr/local/bin/dgenies
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
-  dwebp: /usr/local/bin/dwebp
-  f2py3.10: /usr/local/bin/f2py3.10
+  pbr: /usr/local/bin/pbr
   flask: /usr/local/bin/flask
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  markdown_py: /usr/local/bin/markdown_py
   fonttools: /usr/local/bin/fonttools
-  gif2rgb: /usr/local/bin/gif2rgb
-  gif2webp: /usr/local/bin/gif2webp
-  gifbuild: /usr/local/bin/gifbuild

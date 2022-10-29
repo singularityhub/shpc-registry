@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/ebfilter
 aliases:
   EBFilter: /usr/local/bin/EBFilter
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
   f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
   idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
-  python3.7m-config: /usr/local/bin/python3.7m-config
-  pyvenv: /usr/local/bin/pyvenv
-  pyvenv-3.7: /usr/local/bin/pyvenv-3.7

@@ -13,10 +13,10 @@ aliases:
   cooc-pubmut: /usr/local/bin/cooc-pubmut
   cooc-tabmut: /usr/local/bin/cooc-tabmut
   phe2cojac: /usr/local/bin/phe2cojac
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  f2py3.9: /usr/local/bin/f2py3.9
-  idle3.9: /usr/local/bin/idle3.9
   normalizer: /usr/local/bin/normalizer
+  f2py3.9: /usr/local/bin/f2py3.9
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config

@@ -10,13 +10,14 @@ aliases:
   dca: /usr/local/bin/dca
   dunamai: /usr/local/bin/dunamai
   hyperopt-mongo-worker: /usr/local/bin/hyperopt-mongo-worker
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
+  zstdcat: /usr/local/bin/zstdcat
+  scanpy: /usr/local/bin/scanpy
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  pybabel: /usr/local/bin/pybabel
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree

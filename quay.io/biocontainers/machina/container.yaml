@@ -22,5 +22,5 @@ aliases:
   visualizemigrationgraph: /usr/local/bin/visualizemigrationgraph
   cbc: /usr/local/bin/cbc
   clp: /usr/local/bin/clp
-  cluster: /usr/local/bin/cluster
   glpsol: /usr/local/bin/glpsol
+  cluster: /usr/local/bin/cluster

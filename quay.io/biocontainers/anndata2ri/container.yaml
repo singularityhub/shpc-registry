@@ -8,9 +8,6 @@ tags:
 docker: quay.io/biocontainers/anndata2ri
 aliases:
   dunamai: /usr/local/bin/dunamai
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  gif2h5: /usr/local/bin/gif2h5
   git: /usr/local/bin/git
   git-cvsserver: /usr/local/bin/git-cvsserver
   git-receive-pack: /usr/local/bin/git-receive-pack
@@ -18,3 +15,6 @@ aliases:
   git-upload-archive: /usr/local/bin/git-upload-archive
   git-upload-pack: /usr/local/bin/git-upload-pack
   gitk: /usr/local/bin/gitk
+  natsort: /usr/local/bin/natsort
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop

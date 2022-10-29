@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/icount-mini
 aliases:
   iCount-Mini: /usr/local/bin/iCount-Mini
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
-  chardetect: /usr/local/bin/chardetect
+  cutadapt: /usr/local/bin/cutadapt
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  igzip: /usr/local/bin/igzip
+  pybabel: /usr/local/bin/pybabel
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  rst2html4.py: /usr/local/bin/rst2html4.py

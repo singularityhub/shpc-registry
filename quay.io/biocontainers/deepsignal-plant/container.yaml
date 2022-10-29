@@ -8,13 +8,14 @@ tags:
 docker: quay.io/biocontainers/deepsignal-plant
 aliases:
   deepsignal_plant: /usr/local/bin/deepsignal_plant
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  torchrun: /usr/local/bin/torchrun
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  f2py3.9: /usr/local/bin/f2py3.9
+  ninja: /usr/local/bin/ninja
   futurize: /usr/local/bin/futurize
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.9: /usr/local/bin/f2py3.9
   h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc

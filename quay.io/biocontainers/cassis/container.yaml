@@ -11,6 +11,7 @@ aliases:
   lastz: /usr/local/bin/lastz
   lastz_32: /usr/local/bin/lastz_32
   lastz_D: /usr/local/bin/lastz_D
+  perl5.32.0: /usr/local/bin/perl5.32.0
   dvipdf: /usr/local/bin/dvipdf
   eps2eps: /usr/local/bin/eps2eps
   gs: /usr/local/bin/gs
@@ -20,4 +21,3 @@ aliases:
   gslj: /usr/local/bin/gslj
   gslp: /usr/local/bin/gslp
   gsnd: /usr/local/bin/gsnd
-  lprsetup.sh: /usr/local/bin/lprsetup.sh

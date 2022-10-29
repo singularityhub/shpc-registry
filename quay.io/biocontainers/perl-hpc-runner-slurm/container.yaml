@@ -14,13 +14,13 @@ aliases:
   slurmrunnerbasic.pl: /usr/local/bin/slurmrunnerbasic.pl
   slurmrunnerrsyslog.pl: /usr/local/bin/slurmrunnerrsyslog.pl
   testnodes.pl: /usr/local/bin/testnodes.pl
-  c2ph: /usr/local/bin/c2ph
-  config_data: /usr/local/bin/config_data
-  cpanm: /usr/local/bin/cpanm
-  dbilogstrip: /usr/local/bin/dbilogstrip
-  dbiprof: /usr/local/bin/dbiprof
-  dbiproxy: /usr/local/bin/dbiproxy
   findrule: /usr/local/bin/findrule
-  imgsize: /usr/local/bin/imgsize
-  json_xs: /usr/local/bin/json_xs
   l4p-tmpl: /usr/local/bin/l4p-tmpl
+  config_data: /usr/local/bin/config_data
+  perl5.22.0: /usr/local/bin/perl5.22.0
+  c2ph: /usr/local/bin/c2ph
+  pstruct: /usr/local/bin/pstruct
+  imgsize: /usr/local/bin/imgsize
+  tpage: /usr/local/bin/tpage
+  ttree: /usr/local/bin/ttree
+  dbilogstrip: /usr/local/bin/dbilogstrip

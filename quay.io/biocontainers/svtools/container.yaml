@@ -25,13 +25,13 @@ aliases:
   vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
   vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
   vcf_paste.py: /usr/local/bin/vcf_paste.py
-  ace2sam: /usr/local/bin/ace2sam
+  pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile
+  pyrsa-encrypt-bigfile: /usr/local/bin/pyrsa-encrypt-bigfile
   asadmin: /usr/local/bin/asadmin
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
   cq: /usr/local/bin/cq
+  cwutil: /usr/local/bin/cwutil
+  dynamodb_dump: /usr/local/bin/dynamodb_dump
+  dynamodb_load: /usr/local/bin/dynamodb_load
+  elbadmin: /usr/local/bin/elbadmin

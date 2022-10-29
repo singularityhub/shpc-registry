@@ -48,6 +48,8 @@ aliases:
   jack_wait: /usr/local/bin/jack_wait
   jack_zombie: /usr/local/bin/jack_zombie
   jackd: /usr/local/bin/jackd
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
   lprodump: /usr/local/bin/lprodump
   lrelease-pro: /usr/local/bin/lrelease-pro
   lupdate-pro: /usr/local/bin/lupdate-pro
@@ -67,6 +69,7 @@ aliases:
   qmltime: /usr/local/bin/qmltime
   qmltyperegistrar: /usr/local/bin/qmltyperegistrar
   qpaeq: /usr/local/bin/qpaeq
+  send2trash: /usr/local/bin/send2trash
   setfattr: /usr/local/bin/setfattr
   sip-build: /usr/local/bin/sip-build
   sip-distinfo: /usr/local/bin/sip-distinfo
@@ -75,13 +78,13 @@ aliases:
   sip-sdist: /usr/local/bin/sip-sdist
   sip-wheel: /usr/local/bin/sip-wheel
   tracegen: /usr/local/bin/tracegen
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  biom: /usr/local/bin/biom
-  brotli: /usr/local/bin/brotli
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
-  cups-config: /usr/local/bin/cups-config
-  curve_keygen: /usr/local/bin/curve_keygen
-  cwebp: /usr/local/bin/cwebp
+  flac: /usr/local/bin/flac
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set

@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/delly
 aliases:
   delly: /usr/local/bin/delly
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

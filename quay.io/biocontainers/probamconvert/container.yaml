@@ -18,13 +18,13 @@ aliases:
   proBAM_mzid.py: /usr/local/bin/proBAM_mzid.py
   proBAM_pepxml.py: /usr/local/bin/proBAM_pepxml.py
   proBAM_proBED.py: /usr/local/bin/proBAM_proBED.py
-  ace2sam: /usr/local/bin/ace2sam
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  easydev_buildPackage: /usr/local/bin/easydev_buildPackage
+  ibrowse: /usr/local/bin/ibrowse
+  multigit: /usr/local/bin/multigit
   browse: /usr/local/bin/browse
-  canbusutil: /usr/local/bin/canbusutil
-  chardetect: /usr/local/bin/chardetect
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  pybabel: /usr/local/bin/pybabel
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl

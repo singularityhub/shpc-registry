@@ -8,14 +8,16 @@ tags:
 docker: quay.io/biocontainers/bioconductor-flowq
 aliases:
   -pkg-config: /usr/local/bin/-pkg-config
+  croco-0.6-config: /usr/local/bin/croco-0.6-config
+  csslint-0.6: /usr/local/bin/csslint-0.6
   x86_64-unknown-linux-gnu-pkg-config: /usr/local/bin/x86_64-unknown-linux-gnu-pkg-config
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  gifecho: /usr/local/bin/gifecho
+  gifinto: /usr/local/bin/gifinto
   Magick++-config: /usr/local/bin/Magick++-config
   MagickCore-config: /usr/local/bin/MagickCore-config
   MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
-  animate: /usr/local/bin/animate
-  bcomps: /usr/local/bin/bcomps
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster

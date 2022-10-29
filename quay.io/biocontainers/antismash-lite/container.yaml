@@ -11,9 +11,11 @@ aliases:
   download-antismash-databases: /usr/local/bin/download-antismash-databases
   hmmalign2: /usr/local/bin/hmmalign2
   hmmbuild2: /usr/local/bin/hmmbuild2
+  hmmc2: /usr/local/bin/hmmc2
   hmmcalibrate2: /usr/local/bin/hmmcalibrate2
   hmmconvert2: /usr/local/bin/hmmconvert2
   hmmemit2: /usr/local/bin/hmmemit2
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
   hmmfetch2: /usr/local/bin/hmmfetch2
   hmmindex2: /usr/local/bin/hmmindex2
   hmmpfam2: /usr/local/bin/hmmpfam2
@@ -21,13 +23,13 @@ aliases:
   less2scss: /usr/local/bin/less2scss
   pyscss: /usr/local/bin/pyscss
   xsltproc_lite: /usr/local/bin/xsltproc_lite
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  FastTree: /usr/local/bin/FastTree
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
-  align-columns: /usr/local/bin/align-columns
-  align_print_template.py: /usr/local/bin/align_print_template.py
-  alimask: /usr/local/bin/alimask
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  beeml2meme: /usr/local/bin/beeml2meme
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip

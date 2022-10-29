@@ -15,13 +15,13 @@ aliases:
   julia-debug: /usr/local/bin/julia-debug
   mentalist: /usr/local/bin/mentalist
   mlst_download_functions.jl: /usr/local/bin/mlst_download_functions.jl
-  cmpfillin: /usr/local/bin/cmpfillin
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
   funzip: /usr/local/bin/funzip
-  gif2h5: /usr/local/bin/gif2h5
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  cmpfillin: /usr/local/bin/cmpfillin
   gpmetis: /usr/local/bin/gpmetis
   graphchk: /usr/local/bin/graphchk
-  h52gif: /usr/local/bin/h52gif
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis

@@ -7,5 +7,7 @@ tags:
   0.17--pl5321hdfd78af_1: sha256:d68fc586621b58cb7fe9c69519b8e2858f91fe7aada2b19b224692835d322082
 docker: quay.io/biocontainers/perl-package-deprecationmanager
 aliases:
-  cpanm: /usr/local/bin/cpanm
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

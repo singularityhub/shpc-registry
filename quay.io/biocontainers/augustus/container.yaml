@@ -14,6 +14,7 @@ aliases:
   add_name_to_gff3.pl: /usr/local/bin/add_name_to_gff3.pl
   aln2wig: /usr/local/bin/aln2wig
   augustify.py: /usr/local/bin/augustify.py
+  augustus: /usr/local/bin/augustus
   augustus2browser.pl: /usr/local/bin/augustus2browser.pl
   augustus2gbrowse.pl: /usr/local/bin/augustus2gbrowse.pl
   autoAug.pl: /usr/local/bin/autoAug.pl
@@ -126,13 +127,13 @@ aliases:
   wigchoose.pl: /usr/local/bin/wigchoose.pl
   writeResultsPage.pl: /usr/local/bin/writeResultsPage.pl
   yaml2gff.1.4.pl: /usr/local/bin/yaml2gff.1.4.pl
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  augustus: /usr/local/bin/augustus
   bam2hints: /usr/local/bin/bam2hints
-  bamtools: /usr/local/bin/bamtools
-  bgzip: /usr/local/bin/bgzip
-  cmpfillin: /usr/local/bin/cmpfillin
-  config_data: /usr/local/bin/config_data
-  cpanm: /usr/local/bin/cpanm
-  dbilogstrip: /usr/local/bin/dbilogstrip
-  dbiprof: /usr/local/bin/dbiprof
+  etraining: /usr/local/bin/etraining
+  fastBlockSearch: /usr/local/bin/fastBlockSearch
+  filterBam: /usr/local/bin/filterBam
+  gtf2bed.pl: /usr/local/bin/gtf2bed.pl
+  homGeneMapping: /usr/local/bin/homGeneMapping
+  joingenes: /usr/local/bin/joingenes
+  prepareAlign: /usr/local/bin/prepareAlign
+  twoBitInfo: /usr/local/bin/twoBitInfo
+  faToTwoBit: /usr/local/bin/faToTwoBit

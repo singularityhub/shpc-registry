@@ -7,6 +7,8 @@ tags:
   0.23--pl5321hdfd78af_3: sha256:ef7ae91a1f1ac3f2ff1ae610db74757cc96e94a0287188cd7b8a50d4eaa1731e
 docker: quay.io/biocontainers/perl-test-file-contents
 aliases:
-  cpanm: /usr/local/bin/cpanm
   pod_cover: /usr/local/bin/pod_cover
+  cpanm: /usr/local/bin/cpanm
   podselect: /usr/local/bin/podselect
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

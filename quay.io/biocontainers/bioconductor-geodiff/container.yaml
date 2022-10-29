@@ -7,8 +7,8 @@ tags:
   1.0.0--r41hc247a5b_2: sha256:c5814543fc876cf7a5e65fc27792ff2e8d8bb021570a4cc3cbe678c8c3e521b7
 docker: quay.io/biocontainers/bioconductor-geodiff
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
   f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

@@ -20,13 +20,13 @@ aliases:
   lq_sequel.py: /usr/local/bin/lq_sequel.py
   lq_utils.py: /usr/local/bin/lq_utils.py
   minimap2-coverage: /usr/local/bin/minimap2-coverage
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  mirror_server: /usr/local/bin/mirror_server
+  mirror_server_stop: /usr/local/bin/mirror_server_stop
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
   brotli: /usr/local/bin/brotli
   f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress

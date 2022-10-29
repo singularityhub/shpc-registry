@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/graph_embed
 aliases:
   graphembed: /usr/local/bin/graphembed
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  bcomps: /usr/local/bin/bcomps
-  canbusutil: /usr/local/bin/canbusutil
-  ccomps: /usr/local/bin/ccomps
-  certutil: /usr/local/bin/certutil
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
   compile-et.pl: /usr/local/bin/compile-et.pl
+  prerr.properties: /usr/local/bin/prerr.properties
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config

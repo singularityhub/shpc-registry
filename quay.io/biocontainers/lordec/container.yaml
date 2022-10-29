@@ -7,6 +7,7 @@ tags:
   0.9--h77376b9_3: sha256:a83c41f5e6b8cc6ddfe5e43d155f5a354b8ec47e3f969c123a82b8ea592ade36
 docker: quay.io/biocontainers/lordec
 aliases:
+  dbgh5: /usr/local/bin/dbgh5
   dbginfo: /usr/local/bin/dbginfo
   leon: /usr/local/bin/leon
   lordec-build-SR-graph: /usr/local/bin/lordec-build-SR-graph
@@ -15,13 +16,13 @@ aliases:
   lordec-trim: /usr/local/bin/lordec-trim
   lordec-trim-split: /usr/local/bin/lordec-trim-split
   lordec_sge_slurm_wrapper.sh: /usr/local/bin/lordec_sge_slurm_wrapper.sh
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  dbgh5: /usr/local/bin/dbgh5
   f2py3.10: /usr/local/bin/f2py3.10
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
   h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.1: /usr/local/bin/python3.1
+  python3.10: /usr/local/bin/python3.10

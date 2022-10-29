@@ -8,13 +8,14 @@ tags:
 docker: quay.io/biocontainers/coconet-binning
 aliases:
   coconet: /usr/local/bin/coconet
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  chardetect: /usr/local/bin/chardetect
+  pybind11-config: /usr/local/bin/pybind11-config
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
   convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
-  cygdb: /usr/local/bin/cygdb
-  cython: /usr/local/bin/cython
-  cythonize: /usr/local/bin/cythonize
+  ninja: /usr/local/bin/ninja
+  igraph: /usr/local/bin/igraph
   doesitcache: /usr/local/bin/doesitcache
-  f2py3.7: /usr/local/bin/f2py3.7
-  gif2h5: /usr/local/bin/gif2h5
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  cygdb: /usr/local/bin/cygdb

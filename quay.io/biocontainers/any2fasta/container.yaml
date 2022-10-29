@@ -9,3 +9,4 @@ docker: quay.io/biocontainers/any2fasta
 aliases:
   any2fasta: /usr/local/bin/any2fasta
   perl5.32.0: /usr/local/bin/perl5.32.0
+  streamzip: /usr/local/bin/streamzip

@@ -7,15 +7,17 @@ tags:
   1.7--0: sha256:96ad73788663f0f2576719e7f8f0c415bad6211cbec5685168f00a966b87b4b9
 docker: quay.io/biocontainers/hmftools-linx
 aliases:
+  croco-0.6-config: /usr/local/bin/croco-0.6-config
+  csslint-0.6: /usr/local/bin/csslint-0.6
   linx: /usr/local/bin/linx
   x86_64-conda_cos6-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
-  Magick++-config: /usr/local/bin/Magick++-config
-  MagickCore-config: /usr/local/bin/MagickCore-config
-  MagickWand-config: /usr/local/bin/MagickWand-config
-  acyclic: /usr/local/bin/acyclic
-  animate: /usr/local/bin/animate
-  annotate: /usr/local/bin/annotate
-  aserver: /usr/local/bin/aserver
-  bcomps: /usr/local/bin/bcomps
-  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
-  bdftogd: /usr/local/bin/bdftogd
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  list.modules: /usr/local/bin/list.modules
+  test.modules: /usr/local/bin/test.modules
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
+  giffilter: /usr/local/bin/giffilter
+  gifsponge: /usr/local/bin/gifsponge

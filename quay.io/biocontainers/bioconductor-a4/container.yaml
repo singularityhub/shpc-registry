@@ -6,14 +6,3 @@ latest:
 tags:
   1.42.0--r41hdfd78af_0: sha256:c9c9eafd3a8d51ff88586547996dabf58c08c3783a2c47ced4b7e26db0d63bb6
 docker: quay.io/biocontainers/bioconductor-a4
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -7,7 +7,7 @@ tags:
   1.6.2--r3.4.1_0: sha256:f62c3864abbe8bdf211e85fd65fd4e09b22804080f31e1f2f9ff93289254f274
 docker: quay.io/biocontainers/bioconductor-flowai
 aliases:
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   tclsh8.5: /usr/local/bin/tclsh8.5
   wish8.5: /usr/local/bin/wish8.5
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

@@ -10,13 +10,13 @@ aliases:
   HORmon: /usr/local/bin/HORmon
   monomer_inference: /usr/local/bin/monomer_inference
   stringdecomposer: /usr/local/bin/stringdecomposer
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
   clustalo: /usr/local/bin/clustalo
-  cluster: /usr/local/bin/cluster
-  cwebp: /usr/local/bin/cwebp
+  diffimg: /usr/local/bin/diffimg
   delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate

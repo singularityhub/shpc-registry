@@ -10,13 +10,13 @@ aliases:
   aplanat: /usr/local/bin/aplanat
   font-awesome-to-png: /usr/local/bin/font-awesome-to-png
   icon-font-to-png: /usr/local/bin/icon-font-to-png
-  2to3-3.10: /usr/local/bin/2to3-3.10
   bokeh: /usr/local/bin/bokeh
-  chardetect: /usr/local/bin/chardetect
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
   markdown_py: /usr/local/bin/markdown_py
+  f2py3.10: /usr/local/bin/f2py3.10
+  chardetect: /usr/local/bin/chardetect
   opj_compress: /usr/local/bin/opj_compress
   opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10

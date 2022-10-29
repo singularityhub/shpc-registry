@@ -22,11 +22,11 @@ aliases:
   interop_plot_sample_qc: /usr/local/bin/interop_plot_sample_qc
   interop_summary: /usr/local/bin/interop_summary
   sample-sheet: /usr/local/bin/sample-sheet
+  tabulate: /usr/local/bin/tabulate
+  normalizer: /usr/local/bin/normalizer
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
-  normalizer: /usr/local/bin/normalizer
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  tabulate: /usr/local/bin/tabulate

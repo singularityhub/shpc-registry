@@ -7,4 +7,6 @@ tags:
   1.8.0--r41hdfd78af_0: sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04
 docker: quay.io/biocontainers/bioconductor-bodymaprat
 aliases:
+  .bioconductor-bodymaprat-post-link.sh: /usr/local/bin/.bioconductor-bodymaprat-post-link.sh
+  .bioconductor-bodymaprat-pre-unlink.sh: /usr/local/bin/.bioconductor-bodymaprat-pre-unlink.sh
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

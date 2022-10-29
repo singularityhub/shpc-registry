@@ -7,32 +7,44 @@ tags:
   0.1.9--py_0: sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8
 docker: quay.io/biocontainers/trnanalysis
 aliases:
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  bq: /usr/local/bin/bq
   cgat: /usr/local/bin/cgat
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
   detectionCall: /usr/local/bin/detectionCall
+  eufindtRNA: /usr/local/bin/eufindtRNA
   exactSNP: /usr/local/bin/exactSNP
+  fasta2gsi: /usr/local/bin/fasta2gsi
   fastq_screen: /usr/local/bin/fastq_screen
   featureCounts: /usr/local/bin/featureCounts
   flattenGTF: /usr/local/bin/flattenGTF
+  gcloud: /usr/local/bin/gcloud
   genRandomReads: /usr/local/bin/genRandomReads
   propmapped: /usr/local/bin/propmapped
   qualityScores: /usr/local/bin/qualityScores
   removeDup: /usr/local/bin/removeDup
   repair: /usr/local/bin/repair
+  sstofa: /usr/local/bin/sstofa
   subindel: /usr/local/bin/subindel
   subjunc: /usr/local/bin/subjunc
   sublong: /usr/local/bin/sublong
   subread-align: /usr/local/bin/subread-align
   subread-buildindex: /usr/local/bin/subread-buildindex
   subread-fullscan: /usr/local/bin/subread-fullscan
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  time: /usr/local/bin/time
   trnanalysis: /usr/local/bin/trnanalysis
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
   txUnique: /usr/local/bin/txUnique
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  assistant: /usr/local/bin/assistant
-  b2sum: /usr/local/bin/b2sum
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
+  gsutil: /usr/local/bin/gsutil
+  multiqc: /usr/local/bin/multiqc
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  wigToBigWig: /usr/local/bin/wigToBigWig
+  bedGraphToBigWig: /usr/local/bin/bedGraphToBigWig
+  bedToBigBed: /usr/local/bin/bedToBigBed
+  giffilter: /usr/local/bin/giffilter
+  gifsponge: /usr/local/bin/gifsponge

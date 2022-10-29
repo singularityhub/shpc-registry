@@ -7,10 +7,10 @@ tags:
   0.4.1--pyhdfd78af_0: sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b
 docker: quay.io/biocontainers/bird_tool_utils_python
 aliases:
+  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
   2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10
   python3.10-config: /usr/local/bin/python3.10-config
-  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld

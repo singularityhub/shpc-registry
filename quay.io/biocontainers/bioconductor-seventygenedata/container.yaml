@@ -7,13 +7,5 @@ tags:
   1.30.0--r41hdfd78af_1: sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937
 docker: quay.io/biocontainers/bioconductor-seventygenedata
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-seventygenedata-post-link.sh: /usr/local/bin/.bioconductor-seventygenedata-post-link.sh
+  .bioconductor-seventygenedata-pre-unlink.sh: /usr/local/bin/.bioconductor-seventygenedata-pre-unlink.sh

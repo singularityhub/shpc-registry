@@ -8,6 +8,8 @@ tags:
 docker: quay.io/biocontainers/gifrop
 aliases:
   LICENSE: /usr/local/bin/LICENSE
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
   cluster_graphs.R: /usr/local/bin/cluster_graphs.R
   create_pan_genome: /usr/local/bin/create_pan_genome
   create_pan_genome_plots.R: /usr/local/bin/create_pan_genome_plots.R
@@ -34,14 +36,16 @@ aliases:
   roary-query_pan_genome: /usr/local/bin/roary-query_pan_genome
   roary-unique_genes_per_sample: /usr/local/bin/roary-unique_genes_per_sample
   submodule_test.R: /usr/local/bin/submodule_test.R
+  tbl2asn-test: /usr/local/bin/tbl2asn-test
   transfer_annotation_to_groups: /usr/local/bin/transfer_annotation_to_groups
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  CA.pm: /usr/local/bin/CA.pm
-  FET.pl: /usr/local/bin/FET.pl
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  abricate: /usr/local/bin/abricate
-  abricate-get_db: /usr/local/bin/abricate-get_db
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  yapp: /usr/local/bin/yapp
+  fix-sqn-date: /usr/local/bin/fix-sqn-date
+  prank: /usr/local/bin/prank
+  faketime: /usr/local/bin/faketime
+  real-tbl2asn: /usr/local/bin/real-tbl2asn
+  prokka-abricate_to_fasta_db: /usr/local/bin/prokka-abricate_to_fasta_db
+  any2fasta: /usr/local/bin/any2fasta
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl

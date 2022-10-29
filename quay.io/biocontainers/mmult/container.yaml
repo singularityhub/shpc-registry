@@ -11,13 +11,13 @@ aliases:
   cpgcdifenrich: /usr/local/bin/cpgcdifenrich
   cpgcdifenrichhist.R: /usr/local/bin/cpgcdifenrichhist.R
   vmcvmrnme: /usr/local/bin/vmcvmrnme
-  2to3-3.8: /usr/local/bin/2to3-3.8
   cmpfillin: /usr/local/bin/cmpfillin
   gpmetis: /usr/local/bin/gpmetis
   graphchk: /usr/local/bin/graphchk
-  idle3.8: /usr/local/bin/idle3.8
   m2gmetis: /usr/local/bin/m2gmetis
   mpmetis: /usr/local/bin/mpmetis
   ndmetis: /usr/local/bin/ndmetis
+  2to3-3.8: /usr/local/bin/2to3-3.8
+  idle3.8: /usr/local/bin/idle3.8
   pydoc3.8: /usr/local/bin/pydoc3.8
   python3.8: /usr/local/bin/python3.8

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/pyloh
 aliases:
   PyLOH.py: /usr/local/bin/PyLOH.py
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  canbusutil: /usr/local/bin/canbusutil
+  qhelpconverter: /usr/local/bin/qhelpconverter
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  f2py2: /usr/local/bin/f2py2
+  f2py2.7: /usr/local/bin/f2py2.7
   color-chrs.pl: /usr/local/bin/color-chrs.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
+  qwebengine_convert_dict: /usr/local/bin/qwebengine_convert_dict
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  canbusutil: /usr/local/bin/canbusutil

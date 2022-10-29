@@ -7,13 +7,13 @@ tags:
   7.2.4--py35_0: sha256:20f3b6ec85a8f37258f05ee76aef9891a2baa80603c302a5ebd2773fc413b247
 docker: quay.io/biocontainers/phonenumbers
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5
   python3.5-config: /usr/local/bin/python3.5-config
   python3.5m: /usr/local/bin/python3.5m
   python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
+  tclsh8.5: /usr/local/bin/tclsh8.5

@@ -7,13 +7,5 @@ tags:
   1.0.1--r41hdfd78af_9: sha256:6cfe710eea97cd806b759559e8244a41e7f478ae6d0a5564fd83f960cb2613bd
 docker: quay.io/biocontainers/bioconductor-humanomniexpress12v1bcrlmm
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-humanomniexpress12v1bcrlmm-post-link.sh: /usr/local/bin/.bioconductor-humanomniexpress12v1bcrlmm-post-link.sh
+  .bioconductor-humanomniexpress12v1bcrlmm-pre-unlink.sh: /usr/local/bin/.bioconductor-humanomniexpress12v1bcrlmm-pre-unlink.sh

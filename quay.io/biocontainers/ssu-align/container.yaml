@@ -46,3 +46,5 @@ aliases:
   ssu-mask: /usr/local/bin/ssu-mask
   ssu-merge: /usr/local/bin/ssu-merge
   ssu-prep: /usr/local/bin/ssu-prep
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

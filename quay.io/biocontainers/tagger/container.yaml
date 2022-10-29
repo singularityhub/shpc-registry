@@ -7,13 +7,13 @@ tags:
   1.1--py27h02d93b8_0: sha256:08d7677148a186594fe521471d8c0304b6c6f76afb25a8295696603c509086a9
 docker: quay.io/biocontainers/tagger
 aliases:
-  tagcorpus: /usr/local/bin/tagcorpus
   ccache-swig: /usr/local/bin/ccache-swig
+  swig: /usr/local/bin/swig
+  tagcorpus: /usr/local/bin/tagcorpus
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
   smtpd.py: /usr/local/bin/smtpd.py
-  swig: /usr/local/bin/swig

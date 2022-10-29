@@ -7,4 +7,8 @@ tags:
   3.8.2--r36_1: sha256:ad3f8d9448b28fe3b141a81205c1a5a44cfeebf2ad493c299d17923394012b01
 docker: quay.io/biocontainers/bioconductor-org.pf.plasmo.db
 aliases:
+  .bioconductor-org.pf.plasmo.db-post-link.sh: /usr/local/bin/.bioconductor-org.pf.plasmo.db-post-link.sh
+  .bioconductor-org.pf.plasmo.db-pre-unlink.sh: /usr/local/bin/.bioconductor-org.pf.plasmo.db-pre-unlink.sh
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

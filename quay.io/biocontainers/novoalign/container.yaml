@@ -7,6 +7,7 @@ tags:
   4.03.04--h5b5514e_1: sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed
 docker: quay.io/biocontainers/novoalign
 aliases:
+  .novoalign-post-link.sh: /usr/local/bin/.novoalign-post-link.sh
   IONTorrent.R: /usr/local/bin/IONTorrent.R
   installpackages.R: /usr/local/bin/installpackages.R
   irqtop: /usr/local/bin/irqtop
@@ -31,7 +32,7 @@ aliases:
   prlimit: /usr/local/bin/prlimit
   qcalplot.R: /usr/local/bin/qcalplot.R
   rrbsreference: /usr/local/bin/rrbsreference
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  scriptlive: /usr/local/bin/scriptlive
   cal: /usr/local/bin/cal
   chmem: /usr/local/bin/chmem
   choom: /usr/local/bin/choom
@@ -41,3 +42,4 @@ aliases:
   colrm: /usr/local/bin/colrm
   column: /usr/local/bin/column
   dmesg: /usr/local/bin/dmesg
+  eject: /usr/local/bin/eject

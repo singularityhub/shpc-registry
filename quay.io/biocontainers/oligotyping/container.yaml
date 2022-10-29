@@ -77,14 +77,22 @@ aliases:
   pg_receivexlog: /usr/local/bin/pg_receivexlog
   pg_resetxlog: /usr/local/bin/pg_resetxlog
   pg_xlogdump: /usr/local/bin/pg_xlogdump
+  pylupdate4: /usr/local/bin/pylupdate4
+  pyrcc4: /usr/local/bin/pyrcc4
+  pyuic4: /usr/local/bin/pyuic4
+  qdoc3: /usr/local/bin/qdoc3
+  qmlviewer: /usr/local/bin/qmlviewer
+  qt3to4: /usr/local/bin/qt3to4
+  qtconfig: /usr/local/bin/qtconfig
+  qttracereplay: /usr/local/bin/qttracereplay
   rgb2pct.py: /usr/local/bin/rgb2pct.py
-  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
-  DOMCount: /usr/local/bin/DOMCount
-  DOMPrint: /usr/local/bin/DOMPrint
-  EnumVal: /usr/local/bin/EnumVal
-  MemParse: /usr/local/bin/MemParse
-  PParse: /usr/local/bin/PParse
-  PSVIWriter: /usr/local/bin/PSVIWriter
-  Redirect: /usr/local/bin/Redirect
-  SAX2Count: /usr/local/bin/SAX2Count
-  SAX2Print: /usr/local/bin/SAX2Print
+  createfontdatachunk.py: /usr/local/bin/createfontdatachunk.py
+  testepsg: /usr/local/bin/testepsg
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
+  dap-config: /usr/local/bin/dap-config

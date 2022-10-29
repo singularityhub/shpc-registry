@@ -19,10 +19,10 @@ aliases:
   asadmin: /usr/local/bin/asadmin
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
-  chardetect: /usr/local/bin/chardetect
   cq: /usr/local/bin/cq
   cwutil: /usr/local/bin/cwutil
   dynamodb_dump: /usr/local/bin/dynamodb_dump
   dynamodb_load: /usr/local/bin/dynamodb_load
   elbadmin: /usr/local/bin/elbadmin
-  env_parallel: /usr/local/bin/env_parallel
+  fetch_file: /usr/local/bin/fetch_file
+  glacier: /usr/local/bin/glacier

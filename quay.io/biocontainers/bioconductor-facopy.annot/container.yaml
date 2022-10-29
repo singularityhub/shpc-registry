@@ -7,13 +7,8 @@ tags:
   1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
 docker: quay.io/biocontainers/bioconductor-facopy.annot
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
-  bzegrep: /usr/local/bin/bzegrep
-  bzfgrep: /usr/local/bin/bzfgrep
-  bzgrep: /usr/local/bin/bzgrep
+  .bioconductor-facopy.annot-post-link.sh: /usr/local/bin/.bioconductor-facopy.annot-post-link.sh
+  .bioconductor-facopy.annot-pre-unlink.sh: /usr/local/bin/.bioconductor-facopy.annot-pre-unlink.sh
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

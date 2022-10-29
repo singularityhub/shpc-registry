@@ -92,13 +92,13 @@ aliases:
   vdb-passwd.2.10.8: /usr/local/bin/vdb-passwd.2.10.8
   vdb-unlock.2.10.8: /usr/local/bin/vdb-unlock.2.10.8
   vdb-validate.2.10.8: /usr/local/bin/vdb-validate.2.10.8
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  abi-dump: /usr/local/bin/abi-dump
-  abi-dump.2: /usr/local/bin/abi-dump.2
-  align-cache: /usr/local/bin/align-cache
   align-cache.2: /usr/local/bin/align-cache.2
-  align-info: /usr/local/bin/align-info
-  align-info.2: /usr/local/bin/align-info.2
+  md5cp.2: /usr/local/bin/md5cp.2
+  read-filter-redact.2: /usr/local/bin/read-filter-redact.2
+  sra-sort-cg.2: /usr/local/bin/sra-sort-cg.2
+  vdb-diff.2: /usr/local/bin/vdb-diff.2
+  align-cache: /usr/local/bin/align-cache
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  md5cp: /usr/local/bin/md5cp
+  prefetch-orig: /usr/local/bin/prefetch-orig

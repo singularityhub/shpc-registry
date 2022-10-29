@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/r-ggalt
 aliases:
   nad2bin: /usr/local/bin/nad2bin
-  bmp2tiff: /usr/local/bin/bmp2tiff
-  cs2cs: /usr/local/bin/cs2cs
-  geod: /usr/local/bin/geod
-  gif2tiff: /usr/local/bin/gif2tiff
   invgeod: /usr/local/bin/invgeod
   invproj: /usr/local/bin/invproj
+  cs2cs: /usr/local/bin/cs2cs
+  geod: /usr/local/bin/geod
   proj: /usr/local/bin/proj
+  bmp2tiff: /usr/local/bin/bmp2tiff
+  gif2tiff: /usr/local/bin/gif2tiff
   ras2tiff: /usr/local/bin/ras2tiff
   rgb2ycbcr: /usr/local/bin/rgb2ycbcr
-  tclsh8.5: /usr/local/bin/tclsh8.5
+  thumbnail: /usr/local/bin/thumbnail

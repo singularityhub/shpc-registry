@@ -8,12 +8,12 @@ tags:
 docker: quay.io/biocontainers/opentargets-validator
 aliases:
   opentargets_validator: /usr/local/bin/opentargets_validator
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  futurize: /usr/local/bin/futurize
-  idle3.7: /usr/local/bin/idle3.7
   jsonschema: /usr/local/bin/jsonschema
   normalizer: /usr/local/bin/normalizer
+  futurize: /usr/local/bin/futurize
   pasteurize: /usr/local/bin/pasteurize
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config

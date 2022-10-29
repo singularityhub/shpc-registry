@@ -96,6 +96,7 @@ aliases:
   nab: /usr/local/bin/nab
   nab2c: /usr/local/bin/nab2c
   nef_to_RST: /usr/local/bin/nef_to_RST
+  nf-config: /usr/local/bin/nf-config
   nfe-umbrella-slice: /usr/local/bin/nfe-umbrella-slice
   nmode: /usr/local/bin/nmode
   packmol: /usr/local/bin/packmol
@@ -138,13 +139,13 @@ aliases:
   xaLeap: /usr/local/bin/xaLeap
   xleap: /usr/local/bin/xleap
   xparmed: /usr/local/bin/xparmed
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  f2py3.9: /usr/local/bin/f2py3.9
-  fftw-wisdom: /usr/local/bin/fftw-wisdom
-  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
-  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
-  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif

@@ -11,6 +11,7 @@ aliases:
   beeline.cmd: /usr/local/bin/beeline.cmd
   cannoli-shell: /usr/local/bin/cannoli-shell
   cannoli-submit: /usr/local/bin/cannoli-submit
+  csv-import: /usr/local/bin/csv-import
   docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
   elasticurl: /usr/local/bin/elasticurl
   elasticurl_cpp: /usr/local/bin/elasticurl_cpp
@@ -20,6 +21,8 @@ aliases:
   find_spark_home.py: /usr/local/bin/find_spark_home.py
   load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
   load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
   pyspark: /usr/local/bin/pyspark
   pyspark.cmd: /usr/local/bin/pyspark.cmd
   pyspark2.cmd: /usr/local/bin/pyspark2.cmd
@@ -40,13 +43,14 @@ aliases:
   sparkR: /usr/local/bin/sparkR
   sparkR.cmd: /usr/local/bin/sparkR.cmd
   sparkR2.cmd: /usr/local/bin/sparkR2.cmd
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
-  csv-import: /usr/local/bin/csv-import
-  cups-config: /usr/local/bin/cups-config
-  f2py3.10: /usr/local/bin/f2py3.10
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  sha256_profile: /usr/local/bin/sha256_profile
   gflags_completions.sh: /usr/local/bin/gflags_completions.sh
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin

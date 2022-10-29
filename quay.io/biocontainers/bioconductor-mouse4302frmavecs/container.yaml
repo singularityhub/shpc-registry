@@ -7,13 +7,5 @@ tags:
   1.5.0--r41hdfd78af_9: sha256:0b4988d6a0a806ef17218f3b7aa5c739173c7d141ee2c697366586aedb6bf3ab
 docker: quay.io/biocontainers/bioconductor-mouse4302frmavecs
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-mouse4302frmavecs-post-link.sh: /usr/local/bin/.bioconductor-mouse4302frmavecs-post-link.sh
+  .bioconductor-mouse4302frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-mouse4302frmavecs-pre-unlink.sh

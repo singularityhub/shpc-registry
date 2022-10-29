@@ -7,14 +7,16 @@ tags:
   0.1.5--py_0: sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89
 docker: quay.io/biocontainers/flanker
 aliases:
-  flanker: /usr/local/bin/flanker
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  CA.pm: /usr/local/bin/CA.pm
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
   abricate: /usr/local/bin/abricate
   abricate-get_db: /usr/local/bin/abricate-get_db
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
+  flanker: /usr/local/bin/flanker
+  any2fasta: /usr/local/bin/any2fasta
+  funzip: /usr/local/bin/funzip
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp

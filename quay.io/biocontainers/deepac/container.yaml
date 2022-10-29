@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/deepac
 aliases:
   deepac: /usr/local/bin/deepac
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  assistant: /usr/local/bin/assistant
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
+  theano-cache: /usr/local/bin/theano-cache
+  theano-nose: /usr/local/bin/theano-nose
+  freeze_graph: /usr/local/bin/freeze_graph
+  mako-render: /usr/local/bin/mako-render
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
   compile-et.pl: /usr/local/bin/compile-et.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
+  prerr.properties: /usr/local/bin/prerr.properties
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco

@@ -7,6 +7,6 @@ tags:
   1.8.0--r36_0: sha256:a22c792efcbe59aadd21eb5652dfc541029f9ccaeef57b234e2052b9e26c1f9c
 docker: quay.io/biocontainers/bioconductor-tfhaz
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

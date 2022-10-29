@@ -18,6 +18,7 @@ import argparse
 import os
 import collections
 from shpc.main import get_client
+import re
 import shpc.utils
 import sys
 import requests
@@ -140,13 +141,13 @@ def main():
 
         # We really only need the container uri,
         basename = os.path.basename(entry)
-        image, tag = basename.replace(".json", "").split(":", 1)
-        seen.add(image)
-        image = "quay.io/biocontainers/%s" % image
+        image_name, tag = basename.replace(".json", "").split(":", 1)
+        seen.add(image_name)
+        image = "quay.io/biocontainers/%s" % image_name
 
         container_dir = os.path.join(args.registry, image)
-        if os.path.exists(container_dir):
-            continue
+        # if os.path.exists(container_dir):
+        #    continue
 
         print(f"Image {image} found in cache and not in registry!")
         aliases = shpc.utils.read_json(entry)
@@ -155,26 +156,31 @@ def main():
         keepers = {}
         for x, path in aliases.items():
 
+            # Always use a regular expression of the image name to include
+            if re.search(image_name.lower(), path.lower()):
+                keepers[x] = path
+
             # Always take the very unique ones!
-            if counts[x] <= args.min_count and include_path(path):
+            elif counts[x] <= args.min_count and include_path(path):
                 keepers[x] = path
 
         # of the remaining we have, sorted by count, keep top N (lower numbers == more unique)
         alias_counts = {x: counts[x] for x in aliases if x not in keepers}
 
-        # Lowest to highest
-        sorted_counts = list(collections.OrderedDict(alias_counts))
+        # Sort lowest to highest
+        sorted_counts = {}
+        sorted_keys = sorted(alias_counts, key=alias_counts.get)
+        for x in sorted_keys:
+            sorted_counts[x] = alias_counts[x]
+
+        # Turn into tuples
+        sorted_counts = list(sorted_counts.items())
 
         while add_count > 0 and sorted_counts:
-            keeper = sorted_counts.pop(0)
-            if include_path(keeper) and counts[keeper] < args.max_count:
+            keeper, keeper_count = sorted_counts.pop(0)
+            if include_path(keeper) and keeper_count < args.max_count:
                 keepers[keeper] = aliases[keeper]
                 add_count -= 1
-
-        for alias, _ in aliases.items():
-            if alias not in counts:
-                counts[alias] = 0
-            counts[alias] += 1
 
         # Now add the container, and use the tag
         container = f"{image}:{tag}"

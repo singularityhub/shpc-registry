@@ -18,6 +18,7 @@ aliases:
   get_pair_reads.py: /usr/local/bin/get_pair_reads.py
   gfa_to_fasta.py: /usr/local/bin/gfa_to_fasta.py
   gfa_to_fastg.py: /usr/local/bin/gfa_to_fastg.py
+  isympy: /usr/local/bin/isympy
   join_spades_fastg_by_blast.py: /usr/local/bin/join_spades_fastg_by_blast.py
   make_batch_for_get_organelle.py: /usr/local/bin/make_batch_for_get_organelle.py
   make_batch_for_iteratively_mapping_assembling.py: /usr/local/bin/make_batch_for_iteratively_mapping_assembling.py
@@ -27,13 +28,13 @@ aliases:
   round_statistics.py: /usr/local/bin/round_statistics.py
   slim_graph.py: /usr/local/bin/slim_graph.py
   summary_get_organelle_output.py: /usr/local/bin/summary_get_organelle_output.py
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  cds-mapping-stats: /usr/local/bin/cds-mapping-stats
+  cds-subgraphs: /usr/local/bin/cds-subgraphs
+  mag-improve: /usr/local/bin/mag-improve
+  spades-convert-bin-to-fasta: /usr/local/bin/spades-convert-bin-to-fasta
+  spades-gsimplifier: /usr/local/bin/spades-gsimplifier
+  spades-kmer-estimating: /usr/local/bin/spades-kmer-estimating
+  spades-read-filter: /usr/local/bin/spades-read-filter
+  spaligner: /usr/local/bin/spaligner
+  spades-bwa: /usr/local/bin/spades-bwa
+  spades-core: /usr/local/bin/spades-core

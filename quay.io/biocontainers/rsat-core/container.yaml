@@ -16,21 +16,47 @@ aliases:
   cpp: /usr/local/bin/cpp
   index_bigwigset.pl: /usr/local/bin/index_bigwigset.pl
   info-gibbs: /usr/local/bin/info-gibbs
+  innochecksum: /usr/local/bin/innochecksum
   lz4_decompress: /usr/local/bin/lz4_decompress
   matchcluster: /usr/local/bin/matchcluster
   matrix-scan-quick: /usr/local/bin/matrix-scan-quick
   mkdna6idx: /usr/local/bin/mkdna6idx
   mkvtree: /usr/local/bin/mkvtree
+  myisam_ftdump: /usr/local/bin/myisam_ftdump
+  myisamchk: /usr/local/bin/myisamchk
+  myisamlog: /usr/local/bin/myisamlog
+  myisampack: /usr/local/bin/myisampack
+  mysql: /usr/local/bin/mysql
   mysql.server: /usr/local/bin/mysql.server
+  mysql_client_test: /usr/local/bin/mysql_client_test
   mysql_client_test_embedded: /usr/local/bin/mysql_client_test_embedded
   mysql_config_editor: /usr/local/bin/mysql_config_editor
   mysql_embedded: /usr/local/bin/mysql_embedded
   mysql_install_db: /usr/local/bin/mysql_install_db
+  mysql_plugin: /usr/local/bin/mysql_plugin
+  mysql_secure_installation: /usr/local/bin/mysql_secure_installation
   mysql_ssl_rsa_setup: /usr/local/bin/mysql_ssl_rsa_setup
+  mysql_tzinfo_to_sql: /usr/local/bin/mysql_tzinfo_to_sql
+  mysql_upgrade: /usr/local/bin/mysql_upgrade
+  mysqladmin: /usr/local/bin/mysqladmin
+  mysqlbinlog: /usr/local/bin/mysqlbinlog
+  mysqlcheck: /usr/local/bin/mysqlcheck
+  mysqld: /usr/local/bin/mysqld
+  mysqld_multi: /usr/local/bin/mysqld_multi
+  mysqld_safe: /usr/local/bin/mysqld_safe
+  mysqldump: /usr/local/bin/mysqldump
+  mysqldumpslow: /usr/local/bin/mysqldumpslow
+  mysqlimport: /usr/local/bin/mysqlimport
   mysqlpump: /usr/local/bin/mysqlpump
+  mysqlshow: /usr/local/bin/mysqlshow
+  mysqlslap: /usr/local/bin/mysqlslap
+  mysqltest: /usr/local/bin/mysqltest
   mysqltest_embedded: /usr/local/bin/mysqltest_embedded
   mysqlxtest: /usr/local/bin/mysqlxtest
   repfind.pl: /usr/local/bin/repfind.pl
+  replace: /usr/local/bin/replace
+  resolve_stack_dump: /usr/local/bin/resolve_stack_dump
+  resolveip: /usr/local/bin/resolveip
   retrieve-variation-seq: /usr/local/bin/retrieve-variation-seq
   rsat: /usr/local/bin/rsat
   upgradeprj.pl: /usr/local/bin/upgradeprj.pl
@@ -45,13 +71,13 @@ aliases:
   vsubseqselect: /usr/local/bin/vsubseqselect
   wigToBigWig.pl: /usr/local/bin/wigToBigWig.pl
   zlib_decompress: /usr/local/bin/zlib_decompress
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  annotateBed: /usr/local/bin/annotateBed
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
+  transformseq: /usr/local/bin/transformseq
+  weblogo: /usr/local/bin/weblogo
+  chrpath: /usr/local/bin/chrpath
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
+  gnuplot: /usr/local/bin/gnuplot
+  l4p-tmpl: /usr/local/bin/l4p-tmpl
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect

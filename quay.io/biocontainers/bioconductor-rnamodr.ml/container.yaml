@@ -6,14 +6,3 @@ latest:
 tags:
   1.8.0--r41hdfd78af_0: sha256:78db489427ef7312a4f0aa84181ce884b4d19caff814d2e912999c9e6472b20a
 docker: quay.io/biocontainers/bioconductor-rnamodr.ml
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

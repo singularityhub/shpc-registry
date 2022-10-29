@@ -10,13 +10,14 @@ aliases:
   dtc: /usr/local/bin/dtc
   enr: /usr/local/bin/enr
   fasta-from-bed: /usr/local/bin/fasta-from-bed
+  fasta-re-match: /usr/local/bin/fasta-re-match
   index-fasta-file: /usr/local/bin/index-fasta-file
+  meme-chip_html_to_tsv: /usr/local/bin/meme-chip_html_to_tsv
+  momo: /usr/local/bin/momo
   sequnwinder: /usr/local/bin/sequnwinder
   streme: /usr/local/bin/streme
   streme_xml_to_html: /usr/local/bin/streme_xml_to_html
   tgene: /usr/local/bin/tgene
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
   alphtype: /usr/local/bin/alphtype
   ama: /usr/local/bin/ama
   ama-qvalues: /usr/local/bin/ama-qvalues
@@ -25,3 +26,5 @@ aliases:
   centrimo: /usr/local/bin/centrimo
   ceqlogo: /usr/local/bin/ceqlogo
   chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip

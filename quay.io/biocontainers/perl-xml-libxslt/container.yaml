@@ -10,3 +10,5 @@ aliases:
   xml2-config.bak: /usr/local/bin/xml2-config.bak
   xslt-config: /usr/local/bin/xslt-config
   xsltproc: /usr/local/bin/xsltproc
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

@@ -21,13 +21,13 @@ aliases:
   run_pasta.py: /usr/local/bin/run_pasta.py
   run_pasta_gui.py: /usr/local/bin/run_pasta_gui.py
   run_seqtools.py: /usr/local/bin/run_seqtools.py
-  clustalw2: /usr/local/bin/clustalw2
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
+  prank: /usr/local/bin/prank
   dendropy-format: /usr/local/bin/dendropy-format
-  einsi: /usr/local/bin/einsi
+  muscle: /usr/local/bin/muscle
   fasttree: /usr/local/bin/fasttree
-  fftns: /usr/local/bin/fftns
-  fftnsi: /usr/local/bin/fftnsi
-  ginsi: /usr/local/bin/ginsi
-  hmmalign: /usr/local/bin/hmmalign
-  hmmbuild: /usr/local/bin/hmmbuild
-  idle: /usr/local/bin/idle
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  clustalw2: /usr/local/bin/clustalw2

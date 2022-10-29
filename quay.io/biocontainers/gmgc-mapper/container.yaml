@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/gmgc-mapper
 aliases:
   gmgc-mapper: /usr/local/bin/gmgc-mapper
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  chardetect: /usr/local/bin/chardetect
+  doesitcache: /usr/local/bin/doesitcache
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  doesitcache: /usr/local/bin/doesitcache
-  f2py3.8: /usr/local/bin/f2py3.8
-  idle3.8: /usr/local/bin/idle3.8
-  iptest: /usr/local/bin/iptest
-  iptest3: /usr/local/bin/iptest3
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest

@@ -7,13 +7,14 @@ tags:
   0.2.4--pyhdfd78af_0: sha256:8706b763774c94d70390b21cd02df65a8c375bf3ca3a1cd4d27efe6ff31377a9
 docker: quay.io/biocontainers/seqiolib
 aliases:
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
   estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
-  f2py3.9: /usr/local/bin/f2py3.9
-  faidx: /usr/local/bin/faidx
-  gif2h5: /usr/local/bin/gif2h5
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2

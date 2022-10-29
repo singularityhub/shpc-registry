@@ -23,13 +23,13 @@ aliases:
   gmvalue: /usr/local/bin/gmvalue
   gmvalue.utl: /usr/local/bin/gmvalue.utl
   split_scaffolds_to_subcontigs.pl: /usr/local/bin/split_scaffolds_to_subcontigs.pl
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  CA.pm: /usr/local/bin/CA.pm
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
-  asp-ls: /usr/local/bin/asp-ls
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  mapview: /usr/local/bin/mapview
+  mgaps: /usr/local/bin/mgaps
+  run-mummer1: /usr/local/bin/run-mummer1
+  run-mummer3: /usr/local/bin/run-mummer3
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems
+  mummer: /usr/local/bin/mummer
+  mummerplot: /usr/local/bin/mummerplot

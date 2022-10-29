@@ -7,16 +7,17 @@ tags:
   3.0.3--pyhdfd78af_0: sha256:2ea5d3a9448305bf1b7805cb078bbbd968771ddc9ee6a0d5a48c5a8f17e12b1e
 docker: quay.io/biocontainers/motus
 aliases:
+  .motus-post-link.sh: /usr/local/bin/.motus-post-link.sh
   metaSNV.py: /usr/local/bin/metaSNV.py
   metaSNV_post.py: /usr/local/bin/metaSNV_post.py
   motus: /usr/local/bin/motus
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  f2py3.9: /usr/local/bin/f2py3.9
   ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  bwa: /usr/local/bin/bwa
   export2sam.pl: /usr/local/bin/export2sam.pl
-  f2py3.9: /usr/local/bin/f2py3.9
-  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
-  htsfile: /usr/local/bin/htsfile

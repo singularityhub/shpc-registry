@@ -7,6 +7,6 @@ tags:
   1.8.1--r341_0: sha256:e328c43b5f84272283a433fcac7f14908ba65f988e08570bfa86cbc68b7360f1
 docker: quay.io/biocontainers/bioconductor-gmrp
 aliases:
+  wget: /usr/local/bin/wget
   ncurses5-config: /usr/local/bin/ncurses5-config
   ncursesw5-config: /usr/local/bin/ncursesw5-config
-  wget: /usr/local/bin/wget

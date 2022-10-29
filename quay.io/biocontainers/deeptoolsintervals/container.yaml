@@ -7,10 +7,10 @@ tags:
   0.1.9--py27h9801fc8_4: sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642
 docker: quay.io/biocontainers/deeptoolsintervals
 aliases:
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
   idle: /usr/local/bin/idle
   python-config: /usr/local/bin/python-config
-  python2: /usr/local/bin/python2
-  python2-config: /usr/local/bin/python2-config
-  python2.7: /usr/local/bin/python2.7
-  python2.7-config: /usr/local/bin/python2.7-config
   smtpd.py: /usr/local/bin/smtpd.py

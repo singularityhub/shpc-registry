@@ -12,13 +12,13 @@ aliases:
   nanonetcall: /usr/local/bin/nanonetcall
   nanonettrain: /usr/local/bin/nanonettrain
   watchmedo: /usr/local/bin/watchmedo
+  easy_install-2.7: /usr/local/bin/easy_install-2.7
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  easy_install-2.7: /usr/local/bin/easy_install-2.7
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config

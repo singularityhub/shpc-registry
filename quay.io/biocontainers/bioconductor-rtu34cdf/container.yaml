@@ -7,13 +7,5 @@ tags:
   2.18.0--r41hdfd78af_9: sha256:aa8524a5d81b84f9e609cd329e6cfc0b22cd5958f1612bea4cd973f7d351e0be
 docker: quay.io/biocontainers/bioconductor-rtu34cdf
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-rtu34cdf-post-link.sh: /usr/local/bin/.bioconductor-rtu34cdf-post-link.sh
+  .bioconductor-rtu34cdf-pre-unlink.sh: /usr/local/bin/.bioconductor-rtu34cdf-pre-unlink.sh

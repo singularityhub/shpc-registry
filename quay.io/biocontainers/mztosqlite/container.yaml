@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/mztosqlite
 aliases:
   mz_to_sqlite: /usr/local/bin/mz_to_sqlite
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aserver: /usr/local/bin/aserver
+  jpackage: /usr/local/bin/jpackage
   cups-config: /usr/local/bin/cups-config
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
-  idle3.10: /usr/local/bin/idle3.10
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

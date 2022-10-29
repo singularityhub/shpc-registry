@@ -7,8 +7,8 @@ tags:
   1.4--py35_0: sha256:e530e9fadf6f85a8d6a25b1abfe75d4dca6a8b8ccc3fdd8da55d4b3b0404237b
 docker: quay.io/biocontainers/toposort
 aliases:
-  2to3-3.5: /usr/local/bin/2to3-3.5
   easy_install-3.5: /usr/local/bin/easy_install-3.5
+  2to3-3.5: /usr/local/bin/2to3-3.5
   idle3.5: /usr/local/bin/idle3.5
   pydoc3.5: /usr/local/bin/pydoc3.5
   python3.5: /usr/local/bin/python3.5

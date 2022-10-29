@@ -7,11 +7,11 @@ tags:
   1.2.0--r41hc247a5b_2: sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5
 docker: quay.io/biocontainers/bioconductor-irisfgm
 aliases:
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  geos-config: /usr/local/bin/geos-config
   geosop: /usr/local/bin/geosop
+  geos-config: /usr/local/bin/geos-config
   glpsol: /usr/local/bin/glpsol
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
   idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1

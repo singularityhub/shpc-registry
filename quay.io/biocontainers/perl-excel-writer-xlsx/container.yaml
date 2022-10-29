@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/perl-excel-writer-xlsx
 aliases:
   crc32: /usr/local/bin/crc32
   extract_vba: /usr/local/bin/extract_vba
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

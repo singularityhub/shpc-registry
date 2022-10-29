@@ -9,3 +9,5 @@ docker: quay.io/biocontainers/biodiff
 aliases:
   biodiff: /usr/local/bin/biodiff
   udiff2vcf: /usr/local/bin/udiff2vcf
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

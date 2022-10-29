@@ -7,12 +7,14 @@ tags:
   1.0.1--r41hc247a5b_1: sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8
 docker: quay.io/biocontainers/bioconductor-methylclock
 aliases:
+  .bioconductor-methylclockdata-post-link.sh: /usr/local/bin/.bioconductor-methylclockdata-post-link.sh
+  .bioconductor-methylclockdata-pre-unlink.sh: /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh
   git2_cli: /usr/local/bin/git2_cli
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
-  pandoc: /usr/local/bin/pandoc
   pandoc-server: /usr/local/bin/pandoc-server
+  pandoc: /usr/local/bin/pandoc
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
   pydoc3.10: /usr/local/bin/pydoc3.10
   python3.1: /usr/local/bin/python3.1
   python3.10: /usr/local/bin/python3.10

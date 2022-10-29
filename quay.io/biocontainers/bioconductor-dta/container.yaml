@@ -6,14 +6,3 @@ latest:
 tags:
   2.40.0--r41hdfd78af_0: sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5
 docker: quay.io/biocontainers/bioconductor-dta
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

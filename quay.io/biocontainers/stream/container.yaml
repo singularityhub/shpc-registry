@@ -9,14 +9,15 @@ docker: quay.io/biocontainers/stream
 aliases:
   gunicorn: /usr/local/bin/gunicorn
   slugify: /usr/local/bin/slugify
+  stream: /usr/local/bin/stream
   stream_run_test: /usr/local/bin/stream_run_test
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  assistant: /usr/local/bin/assistant
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  canbusutil: /usr/local/bin/canbusutil
-  curve_keygen: /usr/local/bin/curve_keygen
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
+  zip: /usr/local/bin/zip
+  unidecode: /usr/local/bin/unidecode
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension
+  jupyter-nbextension: /usr/local/bin/jupyter-nbextension
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-serverextension: /usr/local/bin/jupyter-serverextension
+  unzip: /usr/local/bin/unzip
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec

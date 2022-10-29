@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/gecco
 aliases:
   gecco: /usr/local/bin/gecco
   pyrodigal: /usr/local/bin/pyrodigal
-  2to3-3.10: /usr/local/bin/2to3-3.10
   cmark: /usr/local/bin/cmark
-  f2py3.10: /usr/local/bin/f2py3.10
-  futurize: /usr/local/bin/futurize
-  idle3.10: /usr/local/bin/idle3.10
-  pasteurize: /usr/local/bin/pasteurize
-  pydoc3.10: /usr/local/bin/pydoc3.10
+  tabulate: /usr/local/bin/tabulate
   pygmentize: /usr/local/bin/pygmentize
-  python3.1: /usr/local/bin/python3.1
-  python3.10: /usr/local/bin/python3.10
+  tqdm: /usr/local/bin/tqdm
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10

@@ -6,14 +6,3 @@ latest:
 tags:
   1.8--r41h3342da4_0: sha256:957db79721ea570df1992c3e8a8358d18145c4cd075d4eb256fe98ccf6002f2d
 docker: quay.io/biocontainers/r-mkmisc
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

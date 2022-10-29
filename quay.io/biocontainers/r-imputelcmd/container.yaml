@@ -6,14 +6,3 @@ latest:
 tags:
   2.1--r41h3342da4_0: sha256:8e72a79befe6e598ed2abed2cd14e03175864f4ae580a4aeaf3769be7fe61694
 docker: quay.io/biocontainers/r-imputelcmd
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

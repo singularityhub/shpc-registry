@@ -7,6 +7,6 @@ tags:
   1.8.0--r36_0: sha256:dec800733e2d58db8d4888ea9ac8e2ca6dd09001f1d8873475e95f58a9b6e838
 docker: quay.io/biocontainers/bioconductor-vulcan
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

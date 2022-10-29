@@ -7,4 +7,8 @@ tags:
   1.8.0--r351_0: sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970
 docker: quay.io/biocontainers/bioconductor-humanaffydata
 aliases:
+  .bioconductor-humanaffydata-post-link.sh: /usr/local/bin/.bioconductor-humanaffydata-post-link.sh
+  .bioconductor-humanaffydata-pre-unlink.sh: /usr/local/bin/.bioconductor-humanaffydata-pre-unlink.sh
   wget: /usr/local/bin/wget
+  c89: /usr/local/bin/c89
+  c99: /usr/local/bin/c99

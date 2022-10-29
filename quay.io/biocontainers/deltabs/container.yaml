@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/deltabs
 aliases:
   buildCustomModels.pl: /usr/local/bin/buildCustomModels.pl
   deltaBS.pl: /usr/local/bin/deltaBS.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  SOAPsh.pl: /usr/local/bin/SOAPsh.pl
-  ace.pl: /usr/local/bin/ace.pl
-  acyclic: /usr/local/bin/acyclic
-  alimask: /usr/local/bin/alimask
-  annotate: /usr/local/bin/annotate
+  giffilter: /usr/local/bin/giffilter
+  gifsponge: /usr/local/bin/gifsponge
+  gifecho: /usr/local/bin/gifecho
+  gifinto: /usr/local/bin/gifinto
+  gdlib-config: /usr/local/bin/gdlib-config
   bam2bedgraph: /usr/local/bin/bam2bedgraph
-  bamToGBrowse.pl: /usr/local/bin/bamToGBrowse.pl
+  bp_pairwise_kaks: /usr/local/bin/bp_pairwise_kaks
+  bp_find-blast-matches.pl: /usr/local/bin/bp_find-blast-matches.pl
+  t_coffee: /usr/local/bin/t_coffee
   baseml: /usr/local/bin/baseml
-  basemlg: /usr/local/bin/basemlg

@@ -23,3 +23,5 @@ aliases:
   pKiss_shapes_window: /usr/local/bin/pKiss_shapes_window
   pKiss_subopt: /usr/local/bin/pKiss_subopt
   pKiss_subopt_window: /usr/local/bin/pKiss_subopt_window
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

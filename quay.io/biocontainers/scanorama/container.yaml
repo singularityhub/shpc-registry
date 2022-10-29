@@ -7,13 +7,13 @@ tags:
   1.7.1--py_0: sha256:a60c6639c7c4f2bbcd9e16da52f201a18a41b3e83de9546d7aa310a1ab36bc08
 docker: quay.io/biocontainers/scanorama
 aliases:
-  2to3-3.6: /usr/local/bin/2to3-3.6
   f2py3.6: /usr/local/bin/f2py3.6
+  2to3-3.6: /usr/local/bin/2to3-3.6
   idle3.6: /usr/local/bin/idle3.6
-  jpgicc: /usr/local/bin/jpgicc
-  linkicc: /usr/local/bin/linkicc
-  psicc: /usr/local/bin/psicc
   pydoc3.6: /usr/local/bin/pydoc3.6
   python3.6: /usr/local/bin/python3.6
   python3.6-config: /usr/local/bin/python3.6-config
   python3.6m: /usr/local/bin/python3.6m
+  python3.6m-config: /usr/local/bin/python3.6m-config
+  pyvenv-3.6: /usr/local/bin/pyvenv-3.6
+  jpgicc: /usr/local/bin/jpgicc

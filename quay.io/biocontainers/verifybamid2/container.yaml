@@ -8,6 +8,6 @@ tags:
 docker: quay.io/biocontainers/verifybamid2
 aliases:
   verifybamid2: /usr/local/bin/verifybamid2
-  bgzip: /usr/local/bin/bgzip
   htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
   tabix: /usr/local/bin/tabix

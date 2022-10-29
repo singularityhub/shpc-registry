@@ -7,13 +7,13 @@ tags:
   0.7--py37h675a0cb_2: sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943
 docker: quay.io/biocontainers/sparse-neighbors-search
 aliases:
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  f2py3.7: /usr/local/bin/f2py3.7
-  idle3.7: /usr/local/bin/idle3.7
   numba: /usr/local/bin/numba
   pycc: /usr/local/bin/pycc
+  tqdm: /usr/local/bin/tqdm
+  f2py3.7: /usr/local/bin/f2py3.7
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
   pydoc3.7: /usr/local/bin/pydoc3.7
   python3.7: /usr/local/bin/python3.7
   python3.7-config: /usr/local/bin/python3.7-config
   python3.7m: /usr/local/bin/python3.7m
-  python3.7m-config: /usr/local/bin/python3.7m-config

@@ -11,13 +11,13 @@ aliases:
   NanoPlot: /usr/local/bin/NanoPlot
   orca-server: /usr/local/bin/orca-server
   pauvre: /usr/local/bin/pauvre
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
+  flask: /usr/local/bin/flask
   compile-et.pl: /usr/local/bin/compile-et.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  prerr.properties: /usr/local/bin/prerr.properties
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen

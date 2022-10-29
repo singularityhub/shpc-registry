@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/hic2cool
 aliases:
   hic2cool: /usr/local/bin/hic2cool
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  bam2pairs: /usr/local/bin/bam2pairs
-  bgzip: /usr/local/bin/bgzip
-  bokeh: /usr/local/bin/bokeh
-  column_remover.pl: /usr/local/bin/column_remover.pl
   cooler: /usr/local/bin/cooler
-  dask-scheduler: /usr/local/bin/dask-scheduler
-  dask-ssh: /usr/local/bin/dask-ssh
-  dask-worker: /usr/local/bin/dask-worker
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
   duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix

@@ -7,6 +7,7 @@ tags:
   0.1.0a20180905--hdfd78af_3: sha256:929bad76310739ea3799f1ac58bcfd540defc93e18a043b35a25c15031f2c2d4
 docker: quay.io/biocontainers/dx-cwl
 aliases:
+  bagit.py: /usr/local/bin/bagit.py
   dx: /usr/local/bin/dx
   dx-app-wizard: /usr/local/bin/dx-app-wizard
   dx-build-app: /usr/local/bin/dx-build-app
@@ -27,14 +28,17 @@ aliases:
   dx-notebook-reconnect: /usr/local/bin/dx-notebook-reconnect
   dx-print-bash-vars: /usr/local/bin/dx-print-bash-vars
   dx-upload-all-outputs: /usr/local/bin/dx-upload-all-outputs
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
+  wsdump.py: /usr/local/bin/wsdump.py
   xattr: /usr/local/bin/xattr
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  bagit.py: /usr/local/bin/bagit.py
-  chardetect: /usr/local/bin/chardetect
-  coloredlogs: /usr/local/bin/coloredlogs
-  csv2rdf: /usr/local/bin/csv2rdf
   cwltool: /usr/local/bin/cwltool
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
   doesitcache: /usr/local/bin/doesitcache
-  futurize: /usr/local/bin/futurize
-  humanfriendly: /usr/local/bin/humanfriendly
-  idle: /usr/local/bin/idle
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete

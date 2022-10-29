@@ -19,13 +19,13 @@ aliases:
   pashToLff.rb: /usr/local/bin/pashToLff.rb
   pprof: /usr/local/bin/pprof
   splitFastq.rb: /usr/local/bin/splitFastq.rb
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
   erb: /usr/local/bin/erb
   gem: /usr/local/bin/gem
   irb: /usr/local/bin/irb
-  jemalloc.sh: /usr/local/bin/jemalloc.sh
-  ncurses5-config: /usr/local/bin/ncurses5-config
-  ncursesw5-config: /usr/local/bin/ncursesw5-config
   rake: /usr/local/bin/rake
   rdoc: /usr/local/bin/rdoc
   ri: /usr/local/bin/ri
   ruby: /usr/local/bin/ruby
+  ncurses5-config: /usr/local/bin/ncurses5-config
+  ncursesw5-config: /usr/local/bin/ncursesw5-config

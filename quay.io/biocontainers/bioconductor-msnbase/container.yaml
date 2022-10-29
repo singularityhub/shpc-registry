@@ -7,13 +7,13 @@ tags:
   2.8.3--r351hf484d3e_0: sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3
 docker: quay.io/biocontainers/bioconductor-msnbase
 aliases:
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  gif2h5: /usr/local/bin/gif2h5
   gif2hdf: /usr/local/bin/gif2hdf
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   h4_ncdump: /usr/local/bin/h4_ncdump
   h4_ncgen: /usr/local/bin/h4_ncgen
   h4cc: /usr/local/bin/h4cc
   h4redeploy: /usr/local/bin/h4redeploy
-  h52gif: /usr/local/bin/h52gif
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp

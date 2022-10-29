@@ -6,14 +6,3 @@ latest:
 tags:
   1.3_0--r41hecf12ef_6: sha256:6b4d1ea59a0d63edffdbbd7516ef66340e23d3a296dc9ecc161349bed1a1e98b
 docker: quay.io/biocontainers/r-grain
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

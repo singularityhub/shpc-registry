@@ -7,13 +7,14 @@ tags:
   0.6.7--hdfd78af_0: sha256:3c986513543ace0d0456d51f4a5e4c254065fa665b47f7ed2fe01ed23e406608
 docker: quay.io/biocontainers/trim-galore
 aliases:
-  aserver: /usr/local/bin/aserver
+  trim_galore: /usr/local/bin/trim_galore
   cutadapt: /usr/local/bin/cutadapt
   fastqc: /usr/local/bin/fastqc
   igzip: /usr/local/bin/igzip
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  jfr: /usr/local/bin/jfr
   jaotc: /usr/local/bin/jaotc
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb

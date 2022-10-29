@@ -61,6 +61,7 @@ aliases:
   out2summary: /usr/local/bin/out2summary
   pep_dbcount: /usr/local/bin/pep_dbcount
   pepxmlcheck.pl: /usr/local/bin/pepxmlcheck.pl
+  perl-reversion: /usr/local/bin/perl-reversion
   protxml2html.pl: /usr/local/bin/protxml2html.pl
   renamedat.pl: /usr/local/bin/renamedat.pl
   replaceall.pl: /usr/local/bin/replaceall.pl
@@ -72,13 +73,12 @@ aliases:
   translateDNA2AA-FASTA: /usr/local/bin/translateDNA2AA-FASTA
   updatepaths.pl: /usr/local/bin/updatepaths.pl
   xinteract: /usr/local/bin/xinteract
+  perl5.22.0: /usr/local/bin/perl5.22.0
   c2ph: /usr/local/bin/c2ph
-  cpanm: /usr/local/bin/cpanm
+  pstruct: /usr/local/bin/pstruct
   lwp-download: /usr/local/bin/lwp-download
   lwp-dump: /usr/local/bin/lwp-dump
   lwp-mirror: /usr/local/bin/lwp-mirror
   lwp-request: /usr/local/bin/lwp-request
-  perl-reversion: /usr/local/bin/perl-reversion
-  perl5.22.0: /usr/local/bin/perl5.22.0
+  cpanm: /usr/local/bin/cpanm
   podselect: /usr/local/bin/podselect
-  pstruct: /usr/local/bin/pstruct

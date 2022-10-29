@@ -7,6 +7,6 @@ tags:
   1.8.0--r351_0: sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f
 docker: quay.io/biocontainers/bioconductor-bigmelon
 aliases:
+  wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  wget: /usr/local/bin/wget

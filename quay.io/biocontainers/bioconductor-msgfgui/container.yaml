@@ -7,13 +7,13 @@ tags:
   1.28.0--r41hdfd78af_0: sha256:619aa79bbf372b3d2beccf0abea343816707a9899d3b4982b93160a958c422fb
 docker: quay.io/biocontainers/bioconductor-msgfgui
 aliases:
-  aserver: /usr/local/bin/aserver
-  gif2h5: /usr/local/bin/gif2h5
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
   gif2hdf: /usr/local/bin/gif2hdf
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
   h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif

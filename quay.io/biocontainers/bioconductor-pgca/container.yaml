@@ -7,6 +7,6 @@ tags:
   1.8.0--r36_1: sha256:ec781610e8d3943311435926a4931099947c6b5ef9dfdba976e0b52040e136bd
 docker: quay.io/biocontainers/bioconductor-pgca
 aliases:
+  gio-launch-desktop: /usr/local/bin/gio-launch-desktop
   c89: /usr/local/bin/c89
   c99: /usr/local/bin/c99
-  gio-launch-desktop: /usr/local/bin/gio-launch-desktop

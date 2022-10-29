@@ -6,5 +6,3 @@ latest:
 tags:
   4.5.1--hdfd78af_1: sha256:886dbccb5333b6983744f2f4725d777902ff832d661047f0a3c4238f74ad2306
 docker: quay.io/biocontainers/sepp-refsilva128
-aliases:
-  env-execute: /usr/local/env-execute

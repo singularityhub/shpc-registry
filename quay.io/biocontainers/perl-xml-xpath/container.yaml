@@ -7,5 +7,6 @@ tags:
   1.47--pl5321hdfd78af_0: sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92
 docker: quay.io/biocontainers/perl-xml-xpath
 aliases:
-  perl5.32.1: /usr/local/bin/perl5.32.1
   xpath: /usr/local/bin/xpath
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

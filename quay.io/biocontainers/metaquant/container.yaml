@@ -7,14 +7,24 @@ tags:
   0.1.2--py_1: sha256:dd422c77cc00a9d2a8094699e8e062cb0a7aa5bbbffd69d1aebed8bc90b71451
 docker: quay.io/biocontainers/metaquant
 aliases:
+  compare_gos.py: /usr/local/bin/compare_gos.py
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  go_plot.py: /usr/local/bin/go_plot.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
   metaquant: /usr/local/bin/metaquant
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  bcomps: /usr/local/bin/bcomps
-  canbusutil: /usr/local/bin/canbusutil
-  ccomps: /usr/local/bin/ccomps
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
+  prt_terms.py: /usr/local/bin/prt_terms.py
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  ete3: /usr/local/bin/ete3
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  prerr.properties: /usr/local/bin/prerr.properties
+  cxpm: /usr/local/bin/cxpm
+  sxpm: /usr/local/bin/sxpm
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
   certutil: /usr/local/bin/certutil
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster

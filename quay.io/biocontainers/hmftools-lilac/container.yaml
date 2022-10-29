@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/hmftools-lilac
 aliases:
   LILAC: /usr/local/bin/LILAC
-  aserver: /usr/local/bin/aserver
+  jpackage: /usr/local/bin/jpackage
   cups-config: /usr/local/bin/cups-config
   ippeveprinter: /usr/local/bin/ippeveprinter
   ipptool: /usr/local/bin/ipptool
-  jar: /usr/local/bin/jar
-  jarsigner: /usr/local/bin/jarsigner
-  java: /usr/local/bin/java
-  javac: /usr/local/bin/javac
-  javadoc: /usr/local/bin/javadoc
-  javap: /usr/local/bin/javap
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink

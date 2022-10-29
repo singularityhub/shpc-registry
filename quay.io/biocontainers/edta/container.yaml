@@ -83,13 +83,13 @@ aliases:
   trfMask: /usr/local/bin/trfMask
   viewMSA.pl: /usr/local/bin/viewMSA.pl
   wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
-  2to3-3.6: /usr/local/bin/2to3-3.6
-  FET.pl: /usr/local/bin/FET.pl
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  align-columns: /usr/local/bin/align-columns
-  alimask: /usr/local/bin/alimask
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  annotate: /usr/local/bin/annotate
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  aserver: /usr/local/bin/aserver
-  asn2xml: /usr/local/bin/asn2xml
+  rmblastn: /usr/local/bin/rmblastn
+  trf4.10.0-rc.2.linux64.exe: /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+  trf: /usr/local/bin/trf
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  blast_report: /usr/local/bin/blast_report
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  twoBitInfo: /usr/local/bin/twoBitInfo
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  theano-cache: /usr/local/bin/theano-cache

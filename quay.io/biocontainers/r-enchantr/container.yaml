@@ -7,6 +7,6 @@ tags:
   0.0.1--r41hdfd78af_0: sha256:332b49d3ba5d72a479a4b7115ee51bf05e9ff62fc912204b37af9819eb0ed994
 docker: quay.io/biocontainers/r-enchantr
 aliases:
+  pandoc-server: /usr/local/bin/pandoc-server
   glpsol: /usr/local/bin/glpsol
   pandoc: /usr/local/bin/pandoc
-  pandoc-server: /usr/local/bin/pandoc-server

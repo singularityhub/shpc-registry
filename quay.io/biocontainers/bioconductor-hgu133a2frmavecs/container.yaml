@@ -7,13 +7,5 @@ tags:
   1.2.0--r41hdfd78af_9: sha256:5605b4a217a3009e34b1e7608d5f573b06768c1aef98ffffc35d897cd780a480
 docker: quay.io/biocontainers/bioconductor-hgu133a2frmavecs
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-hgu133a2frmavecs-post-link.sh: /usr/local/bin/.bioconductor-hgu133a2frmavecs-post-link.sh
+  .bioconductor-hgu133a2frmavecs-pre-unlink.sh: /usr/local/bin/.bioconductor-hgu133a2frmavecs-pre-unlink.sh

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/xpclr
 aliases:
   xpclr: /usr/local/bin/xpclr
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  assistant: /usr/local/bin/assistant
-  bokeh: /usr/local/bin/bokeh
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
-  compile-et.pl: /usr/local/bin/compile-et.pl
   dask-scheduler: /usr/local/bin/dask-scheduler
   dask-ssh: /usr/local/bin/dask-ssh
   dask-worker: /usr/local/bin/dask-worker
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  compile-et.pl: /usr/local/bin/compile-et.pl
+  prerr.properties: /usr/local/bin/prerr.properties
+  bokeh: /usr/local/bin/bokeh
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree

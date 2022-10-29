@@ -16,13 +16,15 @@ aliases:
   ipcluster: /usr/local/bin/ipcluster
   ipcontroller: /usr/local/bin/ipcontroller
   ipengine: /usr/local/bin/ipengine
+  iptest2: /usr/local/bin/iptest2
+  ipython2: /usr/local/bin/ipython2
+  unidecode: /usr/local/bin/unidecode
+  cyvcf2: /usr/local/bin/cyvcf2
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
-  annotateBed: /usr/local/bin/annotateBed
-  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
-  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
-  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
-  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6

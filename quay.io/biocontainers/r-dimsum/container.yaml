@@ -9,13 +9,14 @@ docker: quay.io/biocontainers/r-dimsum
 aliases:
   DiMSum: /usr/local/bin/DiMSum
   DiMSum.R: /usr/local/bin/DiMSum.R
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  aserver: /usr/local/bin/aserver
+  starcode: /usr/local/bin/starcode
   cutadapt: /usr/local/bin/cutadapt
+  vsearch: /usr/local/bin/vsearch
   fastqc: /usr/local/bin/fastqc
-  gif2rgb: /usr/local/bin/gif2rgb
-  gifbuild: /usr/local/bin/gifbuild
-  gifclrmp: /usr/local/bin/gifclrmp
-  giffix: /usr/local/bin/giffix
-  giftext: /usr/local/bin/giftext
-  giftool: /usr/local/bin/giftool
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  pandoc: /usr/local/bin/pandoc

@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/mvp
 aliases:
   mvp: /usr/local/bin/mvp
+  sample: /usr/local/bin/sample
   2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
-  export2sam.pl: /usr/local/bin/export2sam.pl
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5
+  python3.5-config: /usr/local/bin/python3.5-config
+  python3.5m: /usr/local/bin/python3.5m
+  python3.5m-config: /usr/local/bin/python3.5m-config
+  pyvenv-3.5: /usr/local/bin/pyvenv-3.5
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py
-  htsfile: /usr/local/bin/htsfile

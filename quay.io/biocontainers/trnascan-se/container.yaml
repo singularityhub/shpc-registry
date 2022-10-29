@@ -8,6 +8,14 @@ tags:
 docker: quay.io/biocontainers/trnascan-se
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
   cmalign: /usr/local/bin/cmalign
   cmbuild: /usr/local/bin/cmbuild
   cmcalibrate: /usr/local/bin/cmcalibrate
@@ -17,3 +25,4 @@ aliases:
   cmpress: /usr/local/bin/cmpress
   cmscan: /usr/local/bin/cmscan
   cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat

@@ -11,13 +11,13 @@ aliases:
   cmph5tools.py: /usr/local/bin/cmph5tools.py
   dataset.py: /usr/local/bin/dataset.py
   pbhoover: /usr/local/bin/pbhoover
-  bcftools: /usr/local/bin/bcftools
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
   color-chrs.pl: /usr/local/bin/color-chrs.pl
-  gif2h5: /usr/local/bin/gif2h5
-  h52gif: /usr/local/bin/h52gif
-  h5c++: /usr/local/bin/h5c++
-  h5cc: /usr/local/bin/h5cc
-  h5clear: /usr/local/bin/h5clear
-  h5copy: /usr/local/bin/h5copy
-  h5debug: /usr/local/bin/h5debug
-  h5diff: /usr/local/bin/h5diff
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
+  vcfutils.pl: /usr/local/bin/vcfutils.pl
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7

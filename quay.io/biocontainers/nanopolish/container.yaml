@@ -7,17 +7,29 @@ tags:
   0.9.2--py35_ncurses5.9_4: sha256:7ebca1ed0119f110c84c02de5910f874d9345bb4087c6b0763c2102e09607310
 docker: quay.io/biocontainers/nanopolish
 aliases:
-  gost-hash: /usr/local/bin/gost-hash
-  nanopolish: /usr/local/bin/nanopolish
-  nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
-  nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
-  2to3-3.5: /usr/local/bin/2to3-3.5
-  bwa: /usr/local/bin/bwa
-  c2ph: /usr/local/bin/c2ph
   ccmake: /usr/local/bin/ccmake
   cmake: /usr/local/bin/cmake
   cpack: /usr/local/bin/cpack
   ctest: /usr/local/bin/ctest
   ed2k-link: /usr/local/bin/ed2k-link
+  gost-hash: /usr/local/bin/gost-hash
+  has160-hash: /usr/local/bin/has160-hash
+  magnet-link: /usr/local/bin/magnet-link
+  nanopolish: /usr/local/bin/nanopolish
+  nanopolish_makerange.py: /usr/local/bin/nanopolish_makerange.py
+  nanopolish_merge.py: /usr/local/bin/nanopolish_merge.py
+  rhash: /usr/local/bin/rhash
+  sfv-hash: /usr/local/bin/sfv-hash
+  tiger-hash: /usr/local/bin/tiger-hash
+  tth-hash: /usr/local/bin/tth-hash
+  whirlpool-hash: /usr/local/bin/whirlpool-hash
   enhancer.py: /usr/local/bin/enhancer.py
   explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py
+  pilfile.py: /usr/local/bin/pilfile.py

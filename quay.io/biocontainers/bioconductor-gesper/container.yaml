@@ -6,14 +6,3 @@ latest:
 tags:
   1.26.0--r41hdfd78af_0: sha256:dae89c09e791c32763813f5f6834aa8344ead1cdb40dc0acc99620dac5a5616d
 docker: quay.io/biocontainers/bioconductor-gesper
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

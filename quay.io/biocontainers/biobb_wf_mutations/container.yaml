@@ -7,10 +7,12 @@ tags:
   0.0.6--py_0: sha256:d8c4be020cfa729de2c4a18a0369789b68a3ef48994f91aa87a6b7d7502735a5
 docker: quay.io/biocontainers/biobb_wf_mutations
 aliases:
+  .biobb_wf_mutations-post-link.sh: /usr/local/bin/.biobb_wf_mutations-post-link.sh
   GMXRC: /usr/local/bin/GMXRC
   GMXRC.bash: /usr/local/bin/GMXRC.bash
   GMXRC.csh: /usr/local/bin/GMXRC.csh
   GMXRC.zsh: /usr/local/bin/GMXRC.zsh
+  bagit.py: /usr/local/bin/bagit.py
   demux.pl: /usr/local/bin/demux.pl
   editconf: /usr/local/bin/editconf
   fix_side_chain: /usr/local/bin/fix_side_chain
@@ -20,7 +22,22 @@ aliases:
   gmx-completion-gmx.bash: /usr/local/bin/gmx-completion-gmx.bash
   gmx-completion.bash: /usr/local/bin/gmx-completion.bash
   grompp: /usr/local/bin/grompp
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
   hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  jupyter-console: /usr/local/bin/jupyter-console
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
   make_ndx: /usr/local/bin/make_ndx
   mdrun: /usr/local/bin/mdrun
   mutate: /usr/local/bin/mutate
@@ -29,15 +46,17 @@ aliases:
   pdb2gmx: /usr/local/bin/pdb2gmx
   pdb_cluster_zip: /usr/local/bin/pdb_cluster_zip
   pdb_variants: /usr/local/bin/pdb_variants
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
   solvate: /usr/local/bin/solvate
   xplor2gmx.pl: /usr/local/bin/xplor2gmx.pl
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  acyclic: /usr/local/bin/acyclic
-  assistant: /usr/local/bin/assistant
-  bagit.py: /usr/local/bin/bagit.py
-  bcomps: /usr/local/bin/bcomps
-  ccomps: /usr/local/bin/ccomps
-  chardetect: /usr/local/bin/chardetect
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
+  cwltool: /usr/local/bin/cwltool
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
+  g-ir-doc-tool: /usr/local/bin/g-ir-doc-tool
   csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  jupyter-bundlerextension: /usr/local/bin/jupyter-bundlerextension

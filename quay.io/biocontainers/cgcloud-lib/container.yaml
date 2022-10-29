@@ -7,7 +7,6 @@ tags:
   1.6.0--py_4: sha256:e1d7dadf1dc7c60836c39c5b1eeb60ddea1a2b4ac05850a7aa16f789889294c6
 docker: quay.io/biocontainers/cgcloud-lib
 aliases:
-  2to3-3.8: /usr/local/bin/2to3-3.8
   asadmin: /usr/local/bin/asadmin
   bundle_image: /usr/local/bin/bundle_image
   cfadmin: /usr/local/bin/cfadmin
@@ -17,3 +16,4 @@ aliases:
   dynamodb_load: /usr/local/bin/dynamodb_load
   elbadmin: /usr/local/bin/elbadmin
   fetch_file: /usr/local/bin/fetch_file
+  glacier: /usr/local/bin/glacier

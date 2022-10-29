@@ -7,13 +7,5 @@ tags:
   1.36.0--r41hdfd78af_1: sha256:50403dbe8c7432a8680708bb5a9b09743bfd047d93f50f1bf22344f85c64b14c
 docker: quay.io/biocontainers/bioconductor-colonca
 aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff
+  .bioconductor-colonca-post-link.sh: /usr/local/bin/.bioconductor-colonca-post-link.sh
+  .bioconductor-colonca-pre-unlink.sh: /usr/local/bin/.bioconductor-colonca-pre-unlink.sh

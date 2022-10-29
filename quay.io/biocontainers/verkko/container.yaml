@@ -1,0 +1,8 @@
+url: https://biocontainers.pro/tools/verkko
+maintainer: '@vsoch'
+description: shpc-registry automated BioContainers addition for verkko
+latest:
+  1.1--h64afbab_0: sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a
+tags:
+  1.1--h64afbab_0: sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a
+docker: quay.io/biocontainers/verkko

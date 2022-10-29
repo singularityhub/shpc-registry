@@ -7,6 +7,7 @@ tags:
   1.12.0--0: sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8
 docker: quay.io/biocontainers/minorseq
 aliases:
+  .minorseq-post-link.sh: /usr/local/bin/.minorseq-post-link.sh
   ccs: /usr/local/bin/ccs
   ccs-alt: /usr/local/bin/ccs-alt
   cleric: /usr/local/bin/cleric
@@ -16,12 +17,12 @@ aliases:
   mixdata: /usr/local/bin/mixdata
   pbmm2: /usr/local/bin/pbmm2
   ace2sam: /usr/local/bin/ace2sam
-  bgzip: /usr/local/bin/bgzip
   blast2sam.pl: /usr/local/bin/blast2sam.pl
   bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
   export2sam.pl: /usr/local/bin/export2sam.pl
-  htsfile: /usr/local/bin/htsfile
   interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
   maq2sam-long: /usr/local/bin/maq2sam-long
   maq2sam-short: /usr/local/bin/maq2sam-short
   md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats

@@ -7,7 +7,9 @@ tags:
   0.02--pl5321hdfd78af_3: sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9
 docker: quay.io/biocontainers/perl-biosails
 aliases:
-  cpanm: /usr/local/bin/cpanm
+  perl-reversion: /usr/local/bin/perl-reversion
   moose-outdated: /usr/local/bin/moose-outdated
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts
-  perl-reversion: /usr/local/bin/perl-reversion
+  cpanm: /usr/local/bin/cpanm
+  perl5.32.1: /usr/local/bin/perl5.32.1
+  streamzip: /usr/local/bin/streamzip

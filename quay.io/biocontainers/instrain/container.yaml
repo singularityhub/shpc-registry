@@ -9,15 +9,16 @@ docker: quay.io/biocontainers/instrain
 aliases:
   ScaffoldLevel_dRep.py: /usr/local/bin/ScaffoldLevel_dRep.py
   dRep: /usr/local/bin/dRep
+  delta2vcf: /usr/local/bin/delta2vcf
   inStrain: /usr/local/bin/inStrain
   parse_stb.py: /usr/local/bin/parse_stb.py
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  brotli: /usr/local/bin/brotli
+  fastANI: /usr/local/bin/fastANI
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc
   capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  combineMUMs: /usr/local/bin/combineMUMs
+  delta-filter: /usr/local/bin/delta-filter
+  dnadiff: /usr/local/bin/dnadiff
+  exact-tandems: /usr/local/bin/exact-tandems

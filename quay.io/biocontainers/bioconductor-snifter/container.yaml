@@ -6,14 +6,3 @@ latest:
 tags:
   1.4.0--r41hdfd78af_0: sha256:4caf94880f22e81b46a99d7db22a3473bdd778568ddc0b38fb64029dce1689e8
 docker: quay.io/biocontainers/bioconductor-snifter
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

@@ -8,5 +8,5 @@ tags:
 docker: quay.io/biocontainers/lightassembler
 aliases:
   LightAssembler: /usr/local/bin/LightAssembler
-  libtool: /usr/local/bin/libtool
   libtoolize: /usr/local/bin/libtoolize
+  libtool: /usr/local/bin/libtool

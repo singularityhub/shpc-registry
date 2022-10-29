@@ -15,13 +15,13 @@ aliases:
   guess_baits.py: /usr/local/bin/guess_baits.py
   reference2targets.py: /usr/local/bin/reference2targets.py
   skg_convert.py: /usr/local/bin/skg_convert.py
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  faidx: /usr/local/bin/faidx
   2to3-3.5: /usr/local/bin/2to3-3.5
-  ace2sam: /usr/local/bin/ace2sam
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  c89: /usr/local/bin/c89
-  c99: /usr/local/bin/c99
-  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  idle3.5: /usr/local/bin/idle3.5
+  pydoc3.5: /usr/local/bin/pydoc3.5
+  python3.5: /usr/local/bin/python3.5

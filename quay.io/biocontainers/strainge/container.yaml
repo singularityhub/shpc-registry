@@ -13,19 +13,20 @@ aliases:
   kmerspectrum: /usr/local/bin/kmerspectrum
   kmertree: /usr/local/bin/kmertree
   pankmer: /usr/local/bin/pankmer
+  pybind11-config: /usr/local/bin/pybind11-config
   refseq-download: /usr/local/bin/refseq-download
   refseq-extract: /usr/local/bin/refseq-extract
   strainge: /usr/local/bin/strainge
   straingr: /usr/local/bin/straingr
   straingst: /usr/local/bin/straingst
   treepath: /usr/local/bin/treepath
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  brotli: /usr/local/bin/brotli
-  cwebp: /usr/local/bin/cwebp
+  doesitcache: /usr/local/bin/doesitcache
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
   cygdb: /usr/local/bin/cygdb
   cython: /usr/local/bin/cython
   cythonize: /usr/local/bin/cythonize
-  doesitcache: /usr/local/bin/doesitcache
-  dwebp: /usr/local/bin/dwebp
-  f2py3.9: /usr/local/bin/f2py3.9
-  fonttools: /usr/local/bin/fonttools
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  natsort: /usr/local/bin/natsort
+  mirror_server: /usr/local/bin/mirror_server

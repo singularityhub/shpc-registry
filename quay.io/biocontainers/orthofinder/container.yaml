@@ -8,18 +8,20 @@ tags:
 docker: quay.io/biocontainers/orthofinder
 aliases:
   convert_orthofinder_tree_ids.py: /usr/local/bin/convert_orthofinder_tree_ids.py
+  fastme: /usr/local/bin/fastme
+  iqtree2: /usr/local/bin/iqtree2
   make_ultrametric.py: /usr/local/bin/make_ultrametric.py
   orthofinder: /usr/local/bin/orthofinder
   primary_transcript.py: /usr/local/bin/primary_transcript.py
   raxml-ng: /usr/local/bin/raxml-ng
   raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  CA.pm: /usr/local/bin/CA.pm
-  FastTree: /usr/local/bin/FastTree
-  FastTree-2.1.10.c: /usr/local/bin/FastTree-2.1.10.c
-  FastTreeMP: /usr/local/bin/FastTreeMP
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
-  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asp-cp: /usr/local/bin/asp-cp
+  iqtree: /usr/local/bin/iqtree
+  clm: /usr/local/bin/clm
+  clmformat: /usr/local/bin/clmformat
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl
+  mclblastline: /usr/local/bin/mclblastline
+  mclcm: /usr/local/bin/mclcm
+  mclpipeline: /usr/local/bin/mclpipeline
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray

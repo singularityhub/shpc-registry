@@ -6,14 +6,3 @@ latest:
 tags:
   2.6.0--r41hbe66c35_2: sha256:c7b96f10ed9224fea19ef630b3e0e61c16d644b6185d18a58f5c554794e53e4e
 docker: quay.io/biocontainers/bioconductor-cytoml
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

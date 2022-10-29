@@ -12,6 +12,8 @@ aliases:
   SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
   allVsAll.sh: /usr/local/bin/allVsAll.sh
   allVsAll_incremental.sh: /usr/local/bin/allVsAll_incremental.sh
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
   ccmake: /usr/local/bin/ccmake
   cmake: /usr/local/bin/cmake
   compute_score-nogrid.R: /usr/local/bin/compute_score-nogrid.R
@@ -62,13 +64,13 @@ aliases:
   whirlpool-hash: /usr/local/bin/whirlpool-hash
   x264: /usr/local/bin/x264
   x265: /usr/local/bin/x265
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  aomdec: /usr/local/bin/aomdec
-  aomenc: /usr/local/bin/aomenc
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
+  ninja: /usr/local/bin/ninja
   certtool: /usr/local/bin/certtool
-  certutil: /usr/local/bin/certutil
-  cwebp: /usr/local/bin/cwebp
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  gnutls-cli: /usr/local/bin/gnutls-cli
+  gnutls-cli-debug: /usr/local/bin/gnutls-cli-debug
+  gnutls-serv: /usr/local/bin/gnutls-serv
+  nettle-hash: /usr/local/bin/nettle-hash
+  nettle-lfib-stream: /usr/local/bin/nettle-lfib-stream
+  nettle-pbkdf2: /usr/local/bin/nettle-pbkdf2
+  ocsptool: /usr/local/bin/ocsptool
+  pkcs1-conv: /usr/local/bin/pkcs1-conv

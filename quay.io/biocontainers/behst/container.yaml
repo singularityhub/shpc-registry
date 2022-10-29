@@ -33,13 +33,13 @@ aliases:
   script_multi_project_run_WITHOUT_LOOP.sh: /usr/local/bin/script_multi_project_run_WITHOUT_LOOP.sh
   script_multi_project_run_input_parameters.sh: /usr/local/bin/script_multi_project_run_input_parameters.sh
   temp_test.sh: /usr/local/bin/temp_test.sh
-  2to3-3.7: /usr/local/bin/2to3-3.7
+  intersection_matrix.py: /usr/local/bin/intersection_matrix.py
+  intron_exon_reads.py: /usr/local/bin/intron_exon_reads.py
+  pbt_plotting_example.py: /usr/local/bin/pbt_plotting_example.py
+  peak_pie.py: /usr/local/bin/peak_pie.py
+  pybedtools: /usr/local/bin/pybedtools
+  venn_gchart.py: /usr/local/bin/venn_gchart.py
+  venn_mpl.py: /usr/local/bin/venn_mpl.py
   annotate.py: /usr/local/bin/annotate.py
-  annotateBed: /usr/local/bin/annotateBed
-  bamToBed: /usr/local/bin/bamToBed
-  bamToFastq: /usr/local/bin/bamToFastq
-  bed12ToBed6: /usr/local/bin/bed12ToBed6
-  bedToBam: /usr/local/bin/bedToBam
-  bedToIgv: /usr/local/bin/bedToIgv
-  bedpeToBam: /usr/local/bin/bedpeToBam
-  bedtools: /usr/local/bin/bedtools
+  idn2: /usr/local/bin/idn2
+  shiftBed: /usr/local/bin/shiftBed

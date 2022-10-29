@@ -12,13 +12,13 @@ aliases:
   epimuller-define: /usr/local/bin/epimuller-define
   epimuller-draw: /usr/local/bin/epimuller-draw
   epimuller-parse: /usr/local/bin/epimuller-parse
-  2to3-3.9: /usr/local/bin/2to3-3.9
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
+  ete3: /usr/local/bin/ete3
+  xkbcli: /usr/local/bin/xkbcli
+  pg_config: /usr/local/bin/pg_config
+  qdistancefieldgenerator: /usr/local/bin/qdistancefieldgenerator
+  qmlpreview: /usr/local/bin/qmlpreview
+  qvkgen: /usr/local/bin/qvkgen
   certutil: /usr/local/bin/certutil
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util

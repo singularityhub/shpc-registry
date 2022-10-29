@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/skmer
 aliases:
   skmer: /usr/local/bin/skmer
-  2to3-3.10: /usr/local/bin/2to3-3.10
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc
   capnpc-c++: /usr/local/bin/capnpc-c++
   capnpc-capnp: /usr/local/bin/capnpc-capnp
-  f2py3.10: /usr/local/bin/f2py3.10
-  idle3.10: /usr/local/bin/idle3.10
   jellyfish: /usr/local/bin/jellyfish
   mash: /usr/local/bin/mash
-  pydoc3.10: /usr/local/bin/pydoc3.10
+  seqtk: /usr/local/bin/seqtk
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10

@@ -7,6 +7,9 @@ tags:
   0.0.8--py310hdfd78af_1: sha256:e55304725d85cb9cc8859c82f3ecdf95d0b2cada7e792bb18ff4ff6321567737
 docker: quay.io/biocontainers/lukasa
 aliases:
+  bagit.py: /usr/local/bin/bagit.py
+  black: /usr/local/bin/black
+  blackd: /usr/local/bin/blackd
   catchr.pl: /usr/local/bin/catchr.pl
   corepack: /usr/local/bin/corepack
   cwl-cite-extract: /usr/local/bin/cwl-cite-extract
@@ -26,16 +29,18 @@ aliases:
   node: /usr/local/bin/node
   npm: /usr/local/bin/npm
   npx: /usr/local/bin/npx
+  prov-compare: /usr/local/bin/prov-compare
+  prov-convert: /usr/local/bin/prov-convert
   sortgrcd: /usr/local/bin/sortgrcd
   spaln: /usr/local/bin/spaln
   spspaln.pl: /usr/local/bin/spspaln.pl
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  ace2sam: /usr/local/bin/ace2sam
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  awk: /usr/local/bin/awk
-  bagit.py: /usr/local/bin/bagit.py
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  black: /usr/local/bin/black
+  cwltool: /usr/local/bin/cwltool
+  schema-salad-doc: /usr/local/bin/schema-salad-doc
+  schema-salad-tool: /usr/local/bin/schema-salad-tool
+  x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+  xml2-config.bak: /usr/local/bin/xml2-config.bak
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot

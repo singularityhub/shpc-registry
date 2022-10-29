@@ -8,15 +8,18 @@ tags:
 docker: quay.io/biocontainers/coolbox
 aliases:
   coolbox: /usr/local/bin/coolbox
+  jupyter-console: /usr/local/bin/jupyter-console
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
   jupyter-server: /usr/local/bin/jupyter-server
   voila: /usr/local/bin/voila
-  2to3-3.8: /usr/local/bin/2to3-3.8
-  ace2sam: /usr/local/bin/ace2sam
-  aserver: /usr/local/bin/aserver
-  assistant: /usr/local/bin/assistant
+  wsdump.py: /usr/local/bin/wsdump.py
+  cooler: /usr/local/bin/cooler
   bam2pairs: /usr/local/bin/bam2pairs
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bokeh: /usr/local/bin/bokeh
-  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
-  canbusutil: /usr/local/bin/canbusutil
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh
+  merged_nodup2pairs.pl: /usr/local/bin/merged_nodup2pairs.pl
+  old_merged_nodup2pairs.pl: /usr/local/bin/old_merged_nodup2pairs.pl
+  pairix: /usr/local/bin/pairix

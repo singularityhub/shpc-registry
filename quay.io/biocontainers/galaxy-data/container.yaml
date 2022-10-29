@@ -7,9 +7,13 @@ tags:
   22.1.1--pyhdfd78af_0: sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7
 docker: quay.io/biocontainers/galaxy-data
 aliases:
+  bagit.py: /usr/local/bin/bagit.py
   bagit_profile.py: /usr/local/bin/bagit_profile.py
   bdbag: /usr/local/bin/bdbag
   bdbag-utils: /usr/local/bin/bdbag-utils
+  cheetah: /usr/local/bin/cheetah
+  cheetah-analyze: /usr/local/bin/cheetah-analyze
+  cheetah-compile: /usr/local/bin/cheetah-compile
   galaxy-build-objects: /usr/local/bin/galaxy-build-objects
   galaxy-manage-db: /usr/local/bin/galaxy-manage-db
   gx-fastq-combiner: /usr/local/bin/gx-fastq-combiner
@@ -29,13 +33,13 @@ aliases:
   migrate: /usr/local/bin/migrate
   migrate-repository: /usr/local/bin/migrate-repository
   sqlformat: /usr/local/bin/sqlformat
-  2to3-3.9: /usr/local/bin/2to3-3.9
+  pbr: /usr/local/bin/pbr
+  docutils: /usr/local/bin/docutils
+  pybabel: /usr/local/bin/pybabel
   aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
   axt_to_lav.py: /usr/local/bin/axt_to_lav.py
   axt_to_maf.py: /usr/local/bin/axt_to_maf.py
-  bagit.py: /usr/local/bin/bagit.py
   bed_bigwig_profile.py: /usr/local/bin/bed_bigwig_profile.py
-  bed_build_windows.py: /usr/local/bin/bed_build_windows.py

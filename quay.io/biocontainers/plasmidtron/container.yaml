@@ -9,13 +9,13 @@ docker: quay.io/biocontainers/plasmidtron
 aliases:
   plasmidtron: /usr/local/bin/plasmidtron
   plotkmers: /usr/local/bin/plotkmers
-  2to3-3.7: /usr/local/bin/2to3-3.7
-  assistant: /usr/local/bin/assistant
-  canbusutil: /usr/local/bin/canbusutil
-  certutil: /usr/local/bin/certutil
-  compile-et.pl: /usr/local/bin/compile-et.pl
-  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
-  dbus-daemon: /usr/local/bin/dbus-daemon
-  dbus-launch: /usr/local/bin/dbus-launch
-  dbus-monitor: /usr/local/bin/dbus-monitor
-  dbus-run-session: /usr/local/bin/dbus-run-session
+  kmc: /usr/local/bin/kmc
+  kmc_dump: /usr/local/bin/kmc_dump
+  kmc_tools: /usr/local/bin/kmc_tools
+  fastaq: /usr/local/bin/fastaq
+  spades-bwa: /usr/local/bin/spades-bwa
+  spades-core: /usr/local/bin/spades-core
+  spades-corrector-core: /usr/local/bin/spades-corrector-core
+  spades-gbuilder: /usr/local/bin/spades-gbuilder
+  spades-gmapper: /usr/local/bin/spades-gmapper
+  spades-hammer: /usr/local/bin/spades-hammer

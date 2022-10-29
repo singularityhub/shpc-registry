@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/biopython.convert
 aliases:
   biopython.convert: /usr/local/bin/biopython.convert
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  f2py3.10: /usr/local/bin/f2py3.10
-  faidx: /usr/local/bin/faidx
-  gffutils-cli: /usr/local/bin/gffutils-cli
-  idle3.10: /usr/local/bin/idle3.10
-  jp.py: /usr/local/bin/jp.py
   pbr: /usr/local/bin/pbr
-  pydoc3.10: /usr/local/bin/pydoc3.10
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
   python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  jp.py: /usr/local/bin/jp.py
+  faidx: /usr/local/bin/faidx
+  f2py3.10: /usr/local/bin/f2py3.10
+  2to3-3.10: /usr/local/bin/2to3-3.10

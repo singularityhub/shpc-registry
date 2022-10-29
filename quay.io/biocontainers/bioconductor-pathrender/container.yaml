@@ -6,14 +6,3 @@ latest:
 tags:
   1.62.0--r41hdfd78af_0: sha256:612ac39d6d5c49e6d99fbcdaf1afc62ac3dd72a01fe53f504160d4d2adf45ccb
 docker: quay.io/biocontainers/bioconductor-pathrender
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

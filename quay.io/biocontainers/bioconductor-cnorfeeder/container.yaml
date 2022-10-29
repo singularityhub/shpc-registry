@@ -7,13 +7,13 @@ tags:
   1.34.0--r41hdfd78af_0: sha256:644d0c6bdce57438508c3787b0e7b494cc834b5cb4dfa2d86bb723b2f40db68d
 docker: quay.io/biocontainers/bioconductor-cnorfeeder
 aliases:
-  acyclic: /usr/local/bin/acyclic
-  annotate: /usr/local/bin/annotate
-  bcomps: /usr/local/bin/bcomps
-  bdftogd: /usr/local/bin/bdftogd
-  ccomps: /usr/local/bin/ccomps
-  circo: /usr/local/bin/circo
-  cluster: /usr/local/bin/cluster
-  cwebp: /usr/local/bin/cwebp
-  delaunay: /usr/local/bin/delaunay
   diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts

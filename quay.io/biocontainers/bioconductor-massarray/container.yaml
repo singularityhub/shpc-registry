@@ -6,14 +6,3 @@ latest:
 tags:
   1.46.0--r41hdfd78af_0: sha256:20747a2d7aa4032e5f51aca8c6175dd512c47be519ad0dc35c06984535ab443b
 docker: quay.io/biocontainers/bioconductor-massarray
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
-  acountry: /usr/local/bin/acountry
-  adig: /usr/local/bin/adig
-  ahost: /usr/local/bin/ahost
-  autopoint: /usr/local/bin/autopoint
-  bunzip2: /usr/local/bin/bunzip2
-  bzcat: /usr/local/bin/bzcat
-  bzcmp: /usr/local/bin/bzcmp
-  bzdiff: /usr/local/bin/bzdiff

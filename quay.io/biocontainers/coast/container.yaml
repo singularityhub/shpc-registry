@@ -8,13 +8,13 @@ tags:
 docker: quay.io/biocontainers/coast
 aliases:
   coast: /usr/local/bin/coast
-  2to3-3.10: /usr/local/bin/2to3-3.10
-  accn-at-a-time: /usr/local/bin/accn-at-a-time
+  bokeh: /usr/local/bin/bokeh
+  tabulate: /usr/local/bin/tabulate
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
   align-columns: /usr/local/bin/align-columns
-  amino-acid-composition: /usr/local/bin/amino-acid-composition
-  archive-pubmed: /usr/local/bin/archive-pubmed
-  asn2xml: /usr/local/bin/asn2xml
-  between-two-genes: /usr/local/bin/between-two-genes
-  blast_formatter: /usr/local/bin/blast_formatter
-  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
-  blastdbcheck: /usr/local/bin/blastdbcheck
+  blst2tkns: /usr/local/bin/blst2tkns

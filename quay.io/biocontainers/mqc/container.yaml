@@ -10,25 +10,65 @@ aliases:
   counts_in_region: /usr/local/bin/counts_in_region
   crossmap: /usr/local/bin/crossmap
   cs: /usr/local/bin/cs
+  fasta_clipping_histogram.pl: /usr/local/bin/fasta_clipping_histogram.pl
+  fasta_formatter: /usr/local/bin/fasta_formatter
+  fasta_nucleotide_changer: /usr/local/bin/fasta_nucleotide_changer
+  fastq_masker: /usr/local/bin/fastq_masker
+  fastq_quality_boxplot_graph.sh: /usr/local/bin/fastq_quality_boxplot_graph.sh
+  fastq_quality_converter: /usr/local/bin/fastq_quality_converter
+  fastq_quality_filter: /usr/local/bin/fastq_quality_filter
+  fastq_quality_trimmer: /usr/local/bin/fastq_quality_trimmer
+  fastq_to_fasta: /usr/local/bin/fastq_to_fasta
+  fastx_artifacts_filter: /usr/local/bin/fastx_artifacts_filter
+  fastx_barcode_splitter.pl: /usr/local/bin/fastx_barcode_splitter.pl
+  fastx_clipper: /usr/local/bin/fastx_clipper
+  fastx_collapser: /usr/local/bin/fastx_collapser
+  fastx_nucleotide_distribution_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+  fastx_nucleotide_distribution_line_graph.sh: /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+  fastx_quality_stats: /usr/local/bin/fastx_quality_stats
+  fastx_renamer: /usr/local/bin/fastx_renamer
+  fastx_reverse_complement: /usr/local/bin/fastx_reverse_complement
+  fastx_trimmer: /usr/local/bin/fastx_trimmer
+  fastx_uncollapser: /usr/local/bin/fastx_uncollapser
   findjuncs: /usr/local/bin/findjuncs
   get_count_vectors: /usr/local/bin/get_count_vectors
   gff_parent_types: /usr/local/bin/gff_parent_types
+  innochecksum: /usr/local/bin/innochecksum
   mQC.pl: /usr/local/bin/mQC.pl
   make_wiggle: /usr/local/bin/make_wiggle
   metagene: /usr/local/bin/metagene
   msql2mysql: /usr/local/bin/msql2mysql
+  myisam_ftdump: /usr/local/bin/myisam_ftdump
+  myisamchk: /usr/local/bin/myisamchk
+  myisamlog: /usr/local/bin/myisamlog
+  myisampack: /usr/local/bin/myisampack
+  mysql: /usr/local/bin/mysql
   mysql_client_test: /usr/local/bin/mysql_client_test
   mysql_convert_table_format: /usr/local/bin/mysql_convert_table_format
   mysql_find_rows: /usr/local/bin/mysql_find_rows
   mysql_fix_extensions: /usr/local/bin/mysql_fix_extensions
   mysql_plugin: /usr/local/bin/mysql_plugin
+  mysql_secure_installation: /usr/local/bin/mysql_secure_installation
   mysql_setpermission: /usr/local/bin/mysql_setpermission
+  mysql_tzinfo_to_sql: /usr/local/bin/mysql_tzinfo_to_sql
+  mysql_upgrade: /usr/local/bin/mysql_upgrade
   mysql_waitpid: /usr/local/bin/mysql_waitpid
   mysql_zap: /usr/local/bin/mysql_zap
   mysqlaccess: /usr/local/bin/mysqlaccess
   mysqlaccess.conf: /usr/local/bin/mysqlaccess.conf
+  mysqladmin: /usr/local/bin/mysqladmin
+  mysqlbinlog: /usr/local/bin/mysqlbinlog
   mysqlbug: /usr/local/bin/mysqlbug
+  mysqlcheck: /usr/local/bin/mysqlcheck
+  mysqld: /usr/local/bin/mysqld
+  mysqld_multi: /usr/local/bin/mysqld_multi
+  mysqld_safe: /usr/local/bin/mysqld_safe
+  mysqldump: /usr/local/bin/mysqldump
+  mysqldumpslow: /usr/local/bin/mysqldumpslow
   mysqlhotcopy: /usr/local/bin/mysqlhotcopy
+  mysqlimport: /usr/local/bin/mysqlimport
+  mysqlshow: /usr/local/bin/mysqlshow
+  mysqlslap: /usr/local/bin/mysqlslap
   mysqltest: /usr/local/bin/mysqltest
   phase_by_size: /usr/local/bin/phase_by_size
   psite: /usr/local/bin/psite
@@ -38,13 +78,13 @@ aliases:
   resolveip: /usr/local/bin/resolveip
   slidejuncs: /usr/local/bin/slidejuncs
   test_table_equality: /usr/local/bin/test_table_equality
-  ace2sam: /usr/local/bin/ace2sam
-  annotate: /usr/local/bin/annotate
-  assistant: /usr/local/bin/assistant
-  bcftools: /usr/local/bin/bcftools
-  bdftogd: /usr/local/bin/bdftogd
   bedToBigBed: /usr/local/bin/bedToBigBed
-  bgzip: /usr/local/bin/bgzip
-  blast2sam.pl: /usr/local/bin/blast2sam.pl
-  bowtie: /usr/local/bin/bowtie
-  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  enhancer.py: /usr/local/bin/enhancer.py
+  explode.py: /usr/local/bin/explode.py
+  gifmaker.py: /usr/local/bin/gifmaker.py
+  painter.py: /usr/local/bin/painter.py
+  player.py: /usr/local/bin/player.py
+  thresholder.py: /usr/local/bin/thresholder.py
+  viewer.py: /usr/local/bin/viewer.py
+  pilconvert.py: /usr/local/bin/pilconvert.py
+  pildriver.py: /usr/local/bin/pildriver.py

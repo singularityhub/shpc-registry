@@ -16,13 +16,13 @@ aliases:
   qt3to4: /usr/local/bin/qt3to4
   qtconfig: /usr/local/bin/qtconfig
   qttracereplay: /usr/local/bin/qttracereplay
-  assistant: /usr/local/bin/assistant
-  designer: /usr/local/bin/designer
+  my_print_defaults: /usr/local/bin/my_print_defaults
+  mysql_config: /usr/local/bin/mysql_config
+  perror: /usr/local/bin/perror
+  qhelpconverter: /usr/local/bin/qhelpconverter
   f2py2: /usr/local/bin/f2py2
   f2py2.7: /usr/local/bin/f2py2.7
-  idle: /usr/local/bin/idle
-  lconvert: /usr/local/bin/lconvert
-  linguist: /usr/local/bin/linguist
-  lrelease: /usr/local/bin/lrelease
-  lupdate: /usr/local/bin/lupdate
-  moc: /usr/local/bin/moc
+  sip: /usr/local/bin/sip
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  assistant: /usr/local/bin/assistant

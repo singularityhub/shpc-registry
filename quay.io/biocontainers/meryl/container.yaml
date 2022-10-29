@@ -7,7 +7,7 @@ tags:
   v1.0--hc9558a2_0: sha256:09fb2dd161e0f96f755dd567d59d12b802fb757af1cc9642c5b851903dbb6099
 docker: quay.io/biocontainers/meryl
 aliases:
-  sequence: /usr/local/bin/sequence
   meryl: /usr/local/bin/meryl
   meryl-import: /usr/local/bin/meryl-import
   meryl-lookup: /usr/local/bin/meryl-lookup
+  sequence: /usr/local/bin/sequence
