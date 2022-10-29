@@ -40,6 +40,7 @@ jobs:
                 shpc update ${entry}
             done
             rm listing.txt
+            rm shpc-show-subset.txt
 
       - name: Checkout Update branch
         env:
@@ -47,7 +48,7 @@ jobs:
           BRANCH_AGAINST: "main"
         run: |
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
-          export BRANCH_FROM="binoc/update-$(date '+%Y-%m-%d')"
+          export BRANCH_FROM="containers/update-$(date '+%Y-%m-%d')"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           BRANCH_EXISTS=$(git ls-remote --heads origin ${BRANCH_FROM})
           if [[ -z ${BRANCH_EXISTS} ]]; then
