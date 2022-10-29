@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metavizr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metavizr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metavizr/container.yaml"
-updated_at: "2022-10-29 08:28:27.188159"
+updated_at: "2022-10-29 18:22:01.132416"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metavizr"
 aliases:

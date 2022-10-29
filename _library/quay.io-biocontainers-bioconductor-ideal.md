@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ideal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ideal/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ideal/container.yaml"
-updated_at: "2022-10-29 08:04:47.506520"
+updated_at: "2022-10-29 17:57:57.274514"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ideal"
 aliases:

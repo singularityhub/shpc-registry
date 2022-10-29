@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-srgnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-srgnet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-srgnet/container.yaml"
-updated_at: "2022-10-29 07:44:51.615235"
+updated_at: "2022-10-29 17:37:20.377453"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-srgnet"
 aliases:

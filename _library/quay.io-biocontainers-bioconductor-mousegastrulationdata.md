@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mousegastrulationdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousegastrulationdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousegastrulationdata/container.yaml"
-updated_at: "2022-10-29 08:29:22.632957"
+updated_at: "2022-10-29 18:22:57.034984"
 latest: "1.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousegastrulationdata"
 aliases:
