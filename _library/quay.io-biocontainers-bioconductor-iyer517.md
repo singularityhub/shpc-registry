@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iyer517"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iyer517/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iyer517/container.yaml"
-updated_at: "2022-10-29 08:03:20.703940"
+updated_at: "2022-10-29 08:03:54.830565"
 latest: "1.36.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-iyer517"
 aliases:

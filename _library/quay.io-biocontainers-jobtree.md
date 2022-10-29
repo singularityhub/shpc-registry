@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jobtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jobtree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jobtree/container.yaml"
-updated_at: "2022-10-29 08:21:28.122534"
+updated_at: "2022-10-29 08:22:28.905220"
 latest: "3.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/jobtree"
 aliases:

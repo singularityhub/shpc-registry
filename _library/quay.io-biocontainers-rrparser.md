@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rrparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrparser/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rrparser/container.yaml"
-updated_at: "2022-10-29 08:30:12.481023"
+updated_at: "2022-10-29 08:31:30.409601"
 latest: "2.5.0"
 container_url: "https://biocontainers.pro/tools/rrparser"
 aliases:

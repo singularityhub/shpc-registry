@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.pancan12"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.pancan12/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.pancan12/container.yaml"
-updated_at: "2022-10-29 07:52:18.819098"
+updated_at: "2022-10-29 07:52:25.141776"
 latest: "1.22.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.pancan12"
 aliases:

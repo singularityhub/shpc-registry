@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcseq/container.yaml"
-updated_at: "2022-10-29 08:00:31.067079"
+updated_at: "2022-10-29 08:00:58.920572"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcseq"
 aliases:
